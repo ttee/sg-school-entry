@@ -227,7 +227,14 @@ export default function PrivacyPage() {
                   学生的口语录音和写作文本会被发送给 Google Gemini API 进行分析。
                 </li>
                 <li>
-                  根据 Google AI Studio 免费版的用户条款，<strong>音频数据可能被 Google 用于产品改进。</strong>
+                  根据 <a
+                    href="https://ai.google.dev/gemini-api/terms"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-accent hover:underline"
+                  >
+                    Google Gemini API 用户条款
+                  </a>，<strong>使用免费版 API 提交的内容可能被 Google 用于产品改进。</strong>
                 </li>
                 <li>
                   我们不会将录音用于商业出售，但由于 API 限制，无法完全阻止 Google 的后台处理。
@@ -241,7 +248,7 @@ export default function PrivacyPage() {
               <strong>数据存储：</strong>
             </p>
             <p className="text-ink-2 leading-relaxed">
-              学生的作业答案、写作文本、口语录音记录（`SpeakingAttempt` 表）和写作反馈（`WritingFeedback` 表）存储在我们的 PostgreSQL 数据库中。数据库托管在 Vercel / Supabase（位于新加坡或美国数据中心）。录音文件本身不会永久保存在服务器上，只保存转录文本和评估结果。
+              学生的作业答案、写作文本存储在我们的 PostgreSQL 数据库中。口语练习记录（`SpeakingAttempt` 表）存储：转录文本、评分、反馈、录音时长，以及可能的录音文件引用（`audioUrl` 字段）。数据库托管在 Vercel / Supabase（位于新加坡或美国数据中心）。录音文件本身由浏览器录制后提交给 AI；评估完成后，我们保留转录文本和评估结果用于进度跟踪，录音文件引用可能被保留或过期删除。
             </p>
           </section>
 
@@ -311,18 +318,26 @@ export default function PrivacyPage() {
               <ul className="text-sm text-ink-2 space-y-1">
                 <li>
                   <strong>微信 WeChat:</strong>{" "}
-                  <code className="px-2 py-0.5 bg-paper-2 rounded text-xs">
-                    {process.env.NEXT_PUBLIC_WECHAT_ID || "请见首页"}
-                  </code>
+                  {process.env.NEXT_PUBLIC_WECHAT_ID ? (
+                    <code className="px-2 py-0.5 bg-paper-2 rounded text-xs">
+                      {process.env.NEXT_PUBLIC_WECHAT_ID}
+                    </code>
+                  ) : (
+                    <span className="text-muted">请见首页</span>
+                  )}
                 </li>
                 <li>
                   <strong>邮件 Email:</strong>{" "}
-                  <a
-                    href={`mailto:${process.env.NEXT_PUBLIC_CONTACT_EMAIL || "hello@example.com"}`}
-                    className="text-accent hover:underline"
-                  >
-                    {process.env.NEXT_PUBLIC_CONTACT_EMAIL || "hello@example.com"}
-                  </a>
+                  {process.env.NEXT_PUBLIC_CONTACT_EMAIL ? (
+                    <a
+                      href={`mailto:${process.env.NEXT_PUBLIC_CONTACT_EMAIL}`}
+                      className="text-accent hover:underline"
+                    >
+                      {process.env.NEXT_PUBLIC_CONTACT_EMAIL}
+                    </a>
+                  ) : (
+                    <span className="text-muted">请见首页</span>
+                  )}
                 </li>
               </ul>
               <p className="text-xs text-muted mt-3">
