@@ -56,8 +56,8 @@ async function main() {
       description: "First week in a Singapore school",
       isSample: true,
       errorFocus: "articles",
-      parentBrief: "本周纠错焦点：冠词 a/an/the 和零冠词。中文没有冠词，孩子会说 I go to school by the bus（多了 the）或 I am student（漏了 a）。英语需要冠词来区分：a/an 表示「一个」，the 表示「特定的那个」，零冠词用于交通方式 by bus、时间 on Monday。本周微课、作业和 AI 口语/写作会盯住这一点，直到孩子改掉。",
-      videoUrl: "/video/a2-w0.mp4",
+      parentBrief: "本周纠错焦点仍是冠词。微课故事是开学第一天自我介绍（I am a student）和失物招领（a water bottle → the water bottle with Mum's pink flower）。中文没有冠词，孩子会漏 a 或乱加 the。by bus 是零冠词。",
+      videoUrl: null,
       kaizenFocus: "Use articles a/an/the correctly, and know when to use zero article (by bus, on Monday)",
       questions: [
         {
@@ -67,29 +67,33 @@ async function main() {
 
 From: Mei Lin <mei.lin@student.sg>
 To: Cousin Hua <hua@email.com>
-Subject: My first week!
+Subject: My first day!
 
 Hi Hua!
 
-I arrived at my new school in Singapore last Monday. It's so different from our school back home! On the first day, a girl called Priya was my buddy. She showed me the canteen, the library, and our classroom. At lunchtime I didn't know what to order at the canteen. Priya helped me get a tray and choose chicken rice. It was delicious!
+Today was my first day at my new school in Singapore! This morning, Ms Tan asked everyone to introduce themselves. I stood up and said, "Good morning. I am a student from China. My name is Mei Lin." My voice was quiet but Ms Tan smiled at me.
 
-All lessons are in English here, so I listen very carefully. My form teacher, Ms Tan, is kind and she speaks slowly. She gave me a timetable and a school map. After school, Priya invited me to her CCA (Co-Curricular Activity). It's called Drama Club and they practise every Thursday.
+At recess, I met a girl called Priya. She showed me the canteen, the library, and our classroom. We went to the canteen together, and I ordered some food. But after recess, I couldn't find my water bottle! I looked everywhere.
 
-I'm nervous but everyone is friendly. Tomorrow we have Science and Art. I hope I can make more friends soon!
+Priya said, "Let's go to Lost and Found." We walked to the office. A teacher there asked, "What did you lose?" I said, "I lost a water bottle." The teacher showed me a box full of water bottles. Then I saw it – the water bottle with my mum's pink flower sticker! "That's the one!" I said. I was so happy.
+
+Tomorrow I will take the bus to school. Priya told me I can take bus number 80. I go to school by bus now, not by car like back home.
+
+Everyone here is friendly. I think I will like this school!
 
 Love,
 Mei`,
           options: JSON.stringify([
-            "Why is Mei writing to Hua?|A. To ask for help|B. To describe her first week in a new school|C. To complain about lessons|D. To invite Hua to Singapore",
-            "Who helped Mei on her first day?|A. Ms Tan|B. Her cousin|C. Priya|D. Her mother",
-            "What did Mei eat at the canteen?|A. Noodles|B. Sandwich|C. Chicken rice|D. Pizza",
-            "When does Drama Club meet?|A. Monday|B. Tuesday|C. Wednesday|D. Thursday",
-            "How does Mei feel about her new school?|A. Angry|B. Bored|C. Nervous but positive|D. Very unhappy",
-            "What language are the lessons in?|A. Chinese|B. Malay|C. Tamil|D. English",
-            "What did Ms Tan give Mei?|A. A tray and food|B. A timetable and map|C. A drama script|D. A library card",
-            "Which lessons does Mei have tomorrow?|A. English and Maths|B. Science and Art|C. PE and Music|D. Geography and History",
+            "What did Mei say when she introduced herself?|A. I am from Singapore|B. I am a student from China|C. I am a teacher|D. I am Priya's friend",
+            "Who showed Mei the canteen and library?|A. Ms Tan|B. Her mother|C. Priya|D. A teacher at Lost and Found",
+            "What did Mei lose?|A. Her homework|B. Her timetable|C. A water bottle|D. Her school bag",
+            "Where did Mei find her water bottle?|A. In the classroom|B. In the canteen|C. At Lost and Found|D. In the library",
+            "How did Mei know which water bottle was hers?|A. It had her name on it|B. It was blue|C. It had her mum's pink flower sticker|D. It was the biggest one",
+            "How will Mei go to school tomorrow?|A. By car|B. By bus|C. By MRT|D. She will walk",
+            "Which bus number did Priya tell Mei to take?|A. Bus 70|B. Bus 80|C. Bus 90|D. Bus 100",
+            "How does Mei feel about her new school?|A. Angry and sad|B. Bored|C. Happy and positive|D. Very worried",
           ]),
-          correctAnswer: "B,C,C,D,C,D,B,B",
+          correctAnswer: "B,C,C,C,C,B,B,C",
           points: 8,
         },
         {
@@ -186,7 +190,7 @@ Useful phrases:
       dueDate: new Date("2026-08-20"),
       errorFocus: "3sg-s",
       parentBrief: "本周纠错焦点：第三人称单数 -s（he/she/it + 动词要加 -s）和时间介词 at/in/on。中文动词不变形，孩子会说 she wake up 或 he go to school。英语现在时里，he/she/it 后面的动词必须加 -s：wakes, goes, has。时间介词：at 7:00, in the morning, on Monday。本周作业会抓住这两个高频错误。",
-      videoUrl: "/video/a2-w1.mp4",
+      videoUrl: null,
       kaizenFocus: "Add -s to verbs after he/she/it in present simple; use at/in/on for time correctly",
       questions: [
         {
@@ -319,7 +323,7 @@ Useful phrases:
       dueDate: new Date("2026-08-27"),
       errorFocus: "present-continuous",
       parentBrief: "本周纠错焦点：现在进行时 vs 一般现在时，以及 like + -ing。中文用时间词表示习惯，孩子会说 I am going to school every day（进行时被过度泛化）。英语习惯用一般现在时：I go to school every day；正在发生才用进行时：I am swimming now。另外，like/enjoy 后面接 -ing：I like reading。本周盯住这两个混淆点。",
-      videoUrl: "/video/a2-w2.mp4",
+      videoUrl: null,
       kaizenFocus: "Use present simple for habits, present continuous for now; like/enjoy + -ing",
       questions: [
         {
@@ -451,7 +455,7 @@ Useful phrases:
       dueDate: new Date("2026-09-03"),
       errorFocus: "past-simple",
       parentBrief: "本周纠错焦点：一般过去时和 used to。中文靠时间词「昨天、上周」来表示过去，动词不变形，孩子会说 yesterday I go。英语过去时动词必须变形：went, visited, had。另外，以前的习惯用 used to（不是 use to）：I used to live in Beijing。本周作业会反复纠正这两个化石化高危点。",
-      videoUrl: "/video/a2-w3.mp4",
+      videoUrl: null,
       kaizenFocus: "Use past simple for finished actions (went, visited); used to for old habits",
       questions: [
         {
@@ -592,7 +596,7 @@ Useful phrases:
       isSample: true,
       errorFocus: "present-perfect",
       parentBrief: "本周纠错焦点：现在完成时 vs 一般过去时。中文的「了」不等于 have + V3，孩子会说 I have went yesterday（时态混用）或 I am here for 6 months（该用 have been）。英语现在完成表示「过去的事对现在还有影响」：I have been here for six months（还在这里）。明确过去的时间用过去时：I went yesterday。本周微课和作业会反复对比这两个时态。",
-      videoUrl: "/video/b1-w0.mp4",
+      videoUrl: null,
       kaizenFocus: "Use present perfect (have/has + V3) for situations that still matter now; past simple for finished time",
       questions: [
         {
@@ -724,7 +728,7 @@ Useful phrases:
       dueDate: new Date("2026-08-20"),
       errorFocus: "experience-comparatives",
       parentBrief: "本周纠错焦点：现在完成时的经历用法（Have you ever...?）和比较级。孩子会说 Have you go to Gardens by the Bay?（过去式和完成时混淆）或 It was impressive than...（漏了 more）。英语问经历用 Have you ever been...? Have you visited...?；比较级要加 more 或 -er：more impressive, bigger。本周写作和口语会盯住这两个点。",
-      videoUrl: "/video/b1-w1.mp4",
+      videoUrl: null,
       kaizenFocus: "Use present perfect for experience (Have you ever...?); comparatives with more/-er",
       questions: [
         {
@@ -864,7 +868,7 @@ Useful phrases:
       dueDate: new Date("2026-08-27"),
       errorFocus: "conditional-gerund",
       parentBrief: "本周纠错焦点：第二条件句（If + 过去式, would...）和动名词/不定式（suggest + -ing, want + to）。中文条件句不变形，孩子会说 If the school change...（该用 changed）。还有典型化石化：suggest to use（应该是 suggest using），want using（应该是 want to use）。本周作业会反复训练这两个难点。",
-      videoUrl: "/video/b1-w2.mp4",
+      videoUrl: null,
       kaizenFocus: "If + past, would (2nd conditional); suggest + -ing, want + to",
       questions: [
         {
@@ -1012,7 +1016,7 @@ Useful phrases:
       dueDate: new Date("2026-09-03"),
       errorFocus: "passive-modals",
       parentBrief: "本周纠错焦点：被动语态和情态动词（should/ought to）。中文少用被动，孩子会说 We recycle the bottles（主动）而写不出 Plastic is recycled（被动）。还有建议表达：should/ought to + 动词原形。本周环保话题特别需要被动（Plastic is recycled, bins are collected）和建议（We should reduce, students ought to bring...）。作业会盯住这两个表达。",
-      videoUrl: "/video/b1-w3.mp4",
+      videoUrl: null,
       kaizenFocus: "Use passive voice (is recycled, are collected); should/ought to + verb for advice",
       questions: [
         {

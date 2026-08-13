@@ -357,8 +357,8 @@ export default function WeekHomework({
             </div>
           )}
 
-          {/* Video player */}
-          {week.videoUrl && (
+          {/* Video player or coming soon message */}
+          {week.videoUrl ? (
             <div className="bg-card border border-line rounded-xl p-5">
               <h3 className="font-semibold text-ink mb-3">🎬 播放本周微课 / Watch this week's micro-lesson</h3>
               <video
@@ -379,6 +379,13 @@ export default function WeekHomework({
                   <li>口语和写作 AI 会盯住同一个焦点 / Speaking & writing AI will focus on the same error</li>
                 </ol>
               </div>
+            </div>
+          ) : (
+            <div className="bg-card border border-line rounded-xl p-5">
+              <h3 className="font-semibold text-ink mb-3">🎬 本周微课</h3>
+              <p className="text-sm text-ink-2">
+                本周微课即将上线，请先查看上方的纠错焦点，然后直接开始下方作业练习。
+              </p>
             </div>
           )}
         </div>
