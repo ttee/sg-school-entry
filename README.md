@@ -69,8 +69,51 @@ CEQ exam-focused sprint courses:
 - **Prisma + SQLite** (local dev) or PostgreSQL (production via `DATABASE_URL`)
 - **Tailwind CSS 4** — Matches the existing cream/ink/teal paper look
 - **Original homework content** — All homework texts are original studio materials modelled on Cambridge English Qualifications (CEQ) task TYPES at CEFR A2 and B1 levels. They are NOT official Cambridge past papers or sample papers. Content is unique per week, created specifically for this studio's students.
+- **ESL micro-lesson videos** — 8 original teaching videos (45–75 seconds each, ~400KB per video) generated with edge-tts (British English) + ffmpeg. Videos use tap-to-play (no autoplay), burnt-in 简体中文 captions, and system CJK fonts for WeChat compatibility.
 
 System CJK fonts (no Google Fonts for WeChat compatibility).
+
+---
+
+## ESL Lesson Content System / 纠错微课系统
+
+Each week now includes targeted error correction based on L1 transfer research:
+
+### Week structure
+- **errorFocus** — One targeted error (e.g. "articles", "3sg-s", "present-perfect")
+- **parentBrief** — 简体中文 explanation (2–4 sentences) for parents: what the error is, how Chinese interferes, what to listen for
+- **videoUrl** — Path to micro-lesson video (`/video/a2-w0.mp4` through `b1-w3.mp4`)
+- **kaizenFocus** — Default 改善焦点 for speaking/writing AI (English, short phrase)
+
+### Videos (`public/video/`)
+- 8 videos total: `a2-w0.mp4` through `a2-w3.mp4`, `b1-w0.mp4` through `b1-w3.mp4`
+- 45–75 seconds each, ~400KB per video (total 3.2MB for all 8)
+- H.264 + AAC, 720p, WeChat-safe (no autoplay, controls visible)
+- British English TTS (edge-tts en-GB-LibbyNeural)
+- Burnt-in 简体中文 captions using system Noto CJK fonts
+- Studio-branded slides (cream/ink/teal) with typography, no stock photos
+- Script structure: Hook (error example) → Why (中文 L1 transfer) → English form → 跟读 line → Close
+
+### Pedagogy approach (implemented, not lectured)
+- **One error at a time** — Focused corrective feedback (not unfocused red-pen)
+- **L1 transfer / 母语迁移** — Chinese has no articles, is aspect-prominent, drops 3sg -s
+- **Focus on form** inside meaning-focused CEQ tasks (video + grammar + AI all point at ONE form)
+- **Pushed output + Kaizen** — AI holds 改善焦点 until child actually fixes it
+- **Noticing** — Video shows wrong sentence → English form → 跟读 line
+
+### Video generation
+Videos are generated with `scripts/generate-videos.sh` using:
+- `edge-tts` (pip installed) for British English TTS
+- `ffmpeg` for video encoding with burnt-in captions
+- System fonts (`/usr/share/fonts/truetype/noto/NotoSansCJK-Regular.ttc`)
+- No external APIs or services required
+
+To regenerate videos:
+```bash
+bash scripts/generate-videos.sh
+```
+
+All videos are original teaching materials, not Cambridge official content.
 
 ---
 
@@ -221,6 +264,11 @@ npm start
 - `id`, `level` (A2/B1), `weekNumber`, `title`, `description`
 - `isSample` (boolean) — Week 0 is free for all
 - `dueDate` (optional)
+- **Lesson content fields:**
+  - `errorFocus` (String?) — Short error tag (e.g. "articles", "3sg-s")
+  - `parentBrief` (String?) — 简体中文 explanation for parents (2–4 sentences)
+  - `videoUrl` (String?) — Path to micro-lesson video (e.g. `/video/a2-w0.mp4`)
+  - `kaizenFocus` (String?) — Default 改善焦点 for AI (English, short phrase)
 
 ### Question
 - `id`, `weekId`, `type` (reading, grammar, writing, listening, speaking)

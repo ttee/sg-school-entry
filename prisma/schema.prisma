@@ -3,11 +3,10 @@ generator client {
 }
 
 datasource db {
-  provider = "postgresql"
+  provider = "sqlite"
   url      = env("DATABASE_URL")
-  directUrl = env("DIRECT_URL")
-  // For local dev with SQLite, change provider to "sqlite" and remove directUrl
-  // Vercel production uses PostgreSQL from environment variables
+  // For local dev with SQLite, use "sqlite" provider
+  // For production PostgreSQL, change to "postgresql" and add directUrl = env("DIRECT_URL")
 }
 
 model User {
@@ -31,6 +30,10 @@ model Week {
   description String?
   isSample    Boolean      @default(false)
   dueDate     DateTime?
+  errorFocus  String?
+  parentBrief String?
+  videoUrl    String?
+  kaizenFocus String?
   createdAt   DateTime     @default(now())
   updatedAt   DateTime     @updatedAt
   questions   Question[]
