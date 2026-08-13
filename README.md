@@ -255,25 +255,43 @@ npm start
 
 ### Vercel (recommended)
 
+**Important:** This project was switched from Framework "Other" (static) to **Next.js**. Update your Vercel project settings.
+
 1. Push this repo to GitHub: `ttee/sg-school-entry`
 2. Import in Vercel: **Add New → Project → Import** `ttee/sg-school-entry`
-3. **Framework Preset:** Next.js (auto-detected)
-4. **Environment Variables:**
-   - `DATABASE_URL` — Vercel Postgres or your own PostgreSQL connection string
+3. **Framework Preset:** **Next.js** (must be Next.js, not Other/static)
+   - If your project was created with Framework "Other", change it in:
+     - **Project Settings → General → Framework Preset → Next.js**
+4. **Environment Variables** (required):
+   - `DATABASE_URL` — **PostgreSQL connection string** (Vercel Postgres, Neon, Supabase, Railway, etc.)
+     - ⚠️ **SQLite is local dev only** — `file:./dev.db` will NOT persist on Vercel
+     - Production must use PostgreSQL: `postgresql://user:pass@host:5432/dbname`
    - `AUTH_SECRET` — generate with `openssl rand -base64 32`
    - `NEXTAUTH_URL` — your production domain (e.g. `https://sgschoolentry.com`)
-5. Deploy. On first deploy, run migrations:
+5. Deploy. On first deploy, run migrations via Vercel CLI or dashboard terminal:
    ```bash
-   # In Vercel dashboard → Settings → Functions → one-time command
+   # After first deploy, run once to create tables + seed data
    npx prisma db push
    npx prisma db seed
    ```
 
-### Other platforms
+**Vercel auto-detects Next.js** — no `vercel.json` needed. Just ensure Framework Preset = Next.js.
 
-- **Database:** Use PostgreSQL (Neon, Supabase, Railway, etc.) and set `DATABASE_URL`.
+### Other platforms (Railway, Render, Fly.io, etc.)
+
+- **Framework:** Next.js (not static site)
+- **Database:** **PostgreSQL required** (SQLite is local dev only, will not persist in production)
+  - Neon, Supabase, Railway Postgres, etc.
+  - Set `DATABASE_URL` to your PostgreSQL connection string
 - **Build command:** `npm run build` (includes `prisma generate`)
 - **Start command:** `npm start`
+- **Environment variables:** `DATABASE_URL`, `AUTH_SECRET`, `NEXTAUTH_URL`
+
+After first deploy, run once:
+```bash
+npx prisma db push    # Create tables
+npx prisma db seed    # Seed demo users + weeks
+```
 
 ---
 
