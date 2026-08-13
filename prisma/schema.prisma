@@ -52,6 +52,7 @@ model Question {
   updatedAt     DateTime @updatedAt
   week          Week     @relation(fields: [weekId], references: [id], onDelete: Cascade)
 
+  @@unique([weekId, order])
   @@index([weekId])
 }
 

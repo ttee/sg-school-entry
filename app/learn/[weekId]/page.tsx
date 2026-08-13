@@ -7,8 +7,9 @@ import WeekHomework from "@/components/WeekHomework";
 export default async function WeekPage({
   params,
 }: {
-  params: { weekId: string };
+  params: Promise<{ weekId: string }>;
 }) {
+  const { weekId } = await params;
   const session = await getServerSession(authOptions);
 
   if (!session?.user) {
@@ -16,7 +17,7 @@ export default async function WeekPage({
   }
 
   const week = await prisma.week.findUnique({
-    where: { id: params.weekId },
+    where: { id: weekId },
     include: {
       questions: {
         orderBy: {
@@ -44,11 +45,21 @@ export default async function WeekPage({
 
   const submission = week.submissions[0];
 
+  // Serialize dates for RSC → client component
+  const serializedSubmission = submission
+    ? {
+        ...submission,
+        completedAt: submission.completedAt ? submission.completedAt.toISOString() : null,
+        createdAt: submission.createdAt.toISOString(),
+        updatedAt: submission.updatedAt.toISOString(),
+      }
+    : null;
+
   return (
     <WeekHomework
       week={week}
       questions={week.questions}
-      submission={submission}
+      submission={serializedSubmission}
       userId={session.user.id}
     />
   );

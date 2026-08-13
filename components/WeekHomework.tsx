@@ -23,7 +23,7 @@ type Week = {
 type Submission = {
   answers: string;
   score: number | null;
-  completedAt: Date | null;
+  completedAt: string | null;
 } | null;
 
 export default function WeekHomework({
@@ -255,9 +255,14 @@ export default function WeekHomework({
                   className="w-full px-4 py-3 bg-paper border border-line rounded-lg text-ink resize-y focus:outline-none focus:ring-2 focus:ring-accent disabled:opacity-60"
                   placeholder="在此输入你的答案..."
                 />
-                <p className="text-xs text-muted mt-2">
-                  写作需手动批改。完成后提交即可。
-                </p>
+                <div className="flex justify-between items-center mt-2">
+                  <p className="text-xs text-muted">
+                    写作需手动批改。完成后提交即可。
+                  </p>
+                  <p className="text-xs text-muted">
+                    字数 / Words: {(answers[question.id] || "").trim().split(/\s+/).filter((w: string) => w.length > 0).length}
+                  </p>
+                </div>
               </div>
             )}
 
