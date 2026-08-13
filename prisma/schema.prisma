@@ -5,9 +5,9 @@ generator client {
 datasource db {
   provider = "postgresql"
   url      = env("DATABASE_URL")
-  directUrl = env("DIRECT_URL")
-  // For local dev with SQLite, change provider to "sqlite" and comment out directUrl
-  // Vercel production uses PostgreSQL from environment variables
+  // directUrl is optional - only needed for pooled connections (e.g., Supabase pgbouncer)
+  // If your DATABASE_URL uses connection pooling, set DIRECT_URL to the direct connection
+  // Otherwise, migrations will use DATABASE_URL directly
 }
 
 model User {
