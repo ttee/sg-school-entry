@@ -115,7 +115,13 @@ cp .env.example .env
 ```
 
 Required variables:
-- `DATABASE_URL` — defaults to `file:./dev.db` (SQLite). For production, use a PostgreSQL connection string.
+- `DATABASE_URL` — PostgreSQL connection string
+  - **Local dev:** `postgresql://localhost:5432/sgschoolentry` (requires local Postgres)
+  - **Or use SQLite for quick local dev:** `file:./dev.db` (change schema.prisma provider to "sqlite")
+  - **Production:** `postgresql://user:pass@host:5432/dbname?pgbouncer=true`
+- `DIRECT_URL` — (Optional) Direct connection for migrations when using pooled connections
+  - For **Supabase/pooled**: Use direct connection URL (port 5432, no `?pgbouncer=true`)
+  - If not set, `DATABASE_URL` is used for both queries and migrations
 - `AUTH_SECRET` — generate with `openssl rand -base64 32`
 - `NEXTAUTH_URL` — defaults to `http://localhost:3000`
 
@@ -123,7 +129,7 @@ Required variables:
 
 ```bash
 npm run db:push    # Create tables
-npm run db:seed    # Seed demo users + 4 weeks (A2 & B1) with homework
+npm run db:seed    # Seed demo users + weeks (idempotent, safe to re-run)
 ```
 
 This creates:
@@ -131,6 +137,8 @@ This creates:
 - 8 weeks total: 4 for A2 (Week 0–3), 4 for B1 (Week 0–3)
 - Each week has 5 question types: reading, grammar, writing, listening, speaking
 - Demo user has Week 0 (sample) already submitted with score
+
+**Seed is idempotent** — re-running is safe (uses upsert, skips existing questions).
 
 ### 4. Run dev server
 
@@ -147,7 +155,7 @@ Open [http://localhost:3000](http://localhost:3000)
 ### 5. Build for production
 
 ```bash
-npm run build
+npm run build    # Includes prisma db push && seed (auto-runs on Vercel)
 npm start
 ```
 
@@ -265,15 +273,18 @@ npm start
 4. **Environment Variables** (required):
    - `DATABASE_URL` — **PostgreSQL connection string** (Vercel Postgres, Neon, Supabase, Railway, etc.)
      - ⚠️ **SQLite is local dev only** — `file:./dev.db` will NOT persist on Vercel
-     - Production must use PostgreSQL: `postgresql://user:pass@host:5432/dbname`
+     - Production must use PostgreSQL: `postgresql://user:pass@host:5432/dbname?pgbouncer=true`
+     - For **Supabase**: Use the transaction pooler URL with `?pgbouncer=true`
+   - `DIRECT_URL` — **(Optional but recommended for pooled connections)**
+     - Direct connection URL for migrations (no connection pooler)
+     - For **Supabase**: Use the direct connection string (port 5432, no `?pgbouncer=true`)
+     - If not set, `DATABASE_URL` will be used for both queries and migrations
    - `AUTH_SECRET` — generate with `openssl rand -base64 32`
    - `NEXTAUTH_URL` — your production domain (e.g. `https://sgschoolentry.com`)
-5. Deploy. On first deploy, run migrations via Vercel CLI or dashboard terminal:
-   ```bash
-   # After first deploy, run once to create tables + seed data
-   npx prisma db push
-   npx prisma db seed
-   ```
+5. Deploy
+   - **Schema and seed run automatically** during build (`npm run build` includes `prisma db push && prisma db seed`)
+   - First deploy creates tables and seeds demo users + weeks
+   - Seed is idempotent — safe to re-run on subsequent deploys
 
 **Vercel auto-detects Next.js** — no `vercel.json` needed. Just ensure Framework Preset = Next.js.
 

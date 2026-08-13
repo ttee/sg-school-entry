@@ -118,8 +118,13 @@ async function main() {
     const isA2 = weekData.level === "A2";
     const isSample = weekData.weekNumber === 0;
 
-    await prisma.question.createMany({
-      data: [
+    const existingQuestions = await prisma.question.findMany({
+      where: { weekId: week.id },
+    });
+
+    if (existingQuestions.length === 0) {
+      await prisma.question.createMany({
+        data: [
         {
           weekId: week.id,
           type: "reading",
@@ -209,8 +214,9 @@ async function main() {
             : "Speaking Practice:\n\nPrepare a short talk (2-3 minutes) about:\n'Describe an important decision you made recently.'\n\nThink about:\n- What the decision was\n- Why you had to make it\n- What factors you considered\n- Whether you are happy with your decision\n\nWhen you are ready, practice speaking out loud. Confirm when you have practiced.",
           points: 5,
         },
-      ],
-    });
+        ],
+      });
+    }
 
     if (isSample && week.level === "A2") {
       await prisma.submission.upsert({

@@ -41,3 +41,9 @@ dev.db-journal
 
 # prisma
 /prisma/migrations
+
+# prisma skills (should not be committed)
+.agents/skills/prisma-*
+.claude/skills/prisma-*
+.windsurf/skills/prisma-*
+skills-lock.json
