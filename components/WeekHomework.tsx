@@ -20,6 +20,10 @@ type Week = {
   title: string;
   description: string | null;
   level: string;
+  errorFocus: string | null;
+  parentBrief: string | null;
+  videoUrl: string | null;
+  kaizenFocus: string | null;
 };
 
 type Submission = {
@@ -332,6 +336,53 @@ export default function WeekHomework({
           </div>
         )}
       </div>
+
+      {/* Lesson content: Parent brief + Video + How to use */}
+      {(week.parentBrief || week.videoUrl) && (
+        <div className="mb-8 space-y-4">
+          {/* Parent brief card */}
+          {week.parentBrief && (
+            <div className="bg-accent/10 border border-accent/30 rounded-xl p-5">
+              <h2 className="font-serif font-semibold text-lg text-ink mb-2 flex items-center gap-2">
+                <span>📌 本周纠错焦点</span>
+                {week.errorFocus && (
+                  <span className="text-sm font-normal text-accent px-2 py-1 bg-accent/20 rounded-full">
+                    {week.errorFocus}
+                  </span>
+                )}
+              </h2>
+              <p className="text-sm text-ink-2 leading-relaxed whitespace-pre-wrap">
+                {week.parentBrief}
+              </p>
+            </div>
+          )}
+
+          {/* Video player */}
+          {week.videoUrl && (
+            <div className="bg-card border border-line rounded-xl p-5">
+              <h3 className="font-semibold text-ink mb-3">🎬 播放本周微课 / Watch this week's micro-lesson</h3>
+              <video
+                controls
+                playsInline
+                preload="metadata"
+                className="w-full rounded-lg bg-paper-2"
+                style={{ maxHeight: '480px' }}
+              >
+                <source src={week.videoUrl} type="video/mp4" />
+                Your browser does not support the video element.
+              </video>
+              <div className="mt-3 text-sm text-ink-2 space-y-1">
+                <p className="font-semibold">💡 如何看微课 / How to use:</p>
+                <ol className="list-decimal list-inside space-y-1 ml-2">
+                  <li>先看微课，了解本周重点错误 / Watch the video first</li>
+                  <li>再做下方题目（阅读、语法、写作、听力、口语）/ Then complete the homework below</li>
+                  <li>口语和写作 AI 会盯住同一个焦点 / Speaking & writing AI will focus on the same error</li>
+                </ol>
+              </div>
+            </div>
+          )}
+        </div>
+      )}
 
       <div className="space-y-8">
         {questions.map((question, idx) => (

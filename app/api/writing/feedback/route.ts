@@ -98,6 +98,9 @@ export async function POST(req: NextRequest) {
       const lastFeedback = JSON.parse(previousFeedback[0].feedback);
       previousFocus = lastFeedback.focus || "";
       previousErrorTags = lastFeedback.errorTags || [];
+    } else if (question.week.kaizenFocus) {
+      // First submission: use week's default focus
+      previousFocus = question.week.kaizenFocus;
     }
 
     const kaizenContext = previousFocus
@@ -106,6 +109,10 @@ export async function POST(req: NextRequest) {
 上一次的错误标签：${previousErrorTags.join(", ") || "无"}
 
 请仔细分析学生这次的写作，判断是否还在犯同样的语法或表达错误（例如：冠词、时态、主谓一致、单复数等）。如果是，请保持相同的改善焦点，并在 focus 字段中说明「上一次的焦点还在：${previousFocus}」或「本次 vs 上次：...」。只有当学生明显改进后，才换一个新的焦点。`
+      : previousFeedback.length === 0 && question.week.kaizenFocus
+      ? `\n\n【本周改善焦点】
+这是学生第一次提交此题目。本周的纠错焦点是：「${question.week.kaizenFocus}」
+请在批改中检查学生是否掌握了这个焦点，并在 focus 字段中说明。`
       : "\n\n这是学生第一次提交此题目。";
 
     const feedbackPrompt = `你是剑桥英语 ${level} 级别（${level === "A2" ? "Key for Schools" : "Preliminary for Schools"}）的写作考官。

@@ -55,6 +55,10 @@ async function main() {
       title: "试学周 / Sample Week",
       description: "First week in a Singapore school",
       isSample: true,
+      errorFocus: "articles",
+      parentBrief: "本周纠错焦点：冠词 a/an/the 和零冠词。中文没有冠词，孩子会说 I go to school by the bus（多了 the）或 I am student（漏了 a）。英语需要冠词来区分：a/an 表示「一个」，the 表示「特定的那个」，零冠词用于交通方式 by bus、时间 on Monday。本周微课、作业和 AI 口语/写作会盯住这一点，直到孩子改掉。",
+      videoUrl: "/video/a2-w0.mp4",
+      kaizenFocus: "Use articles a/an/the correctly, and know when to use zero article (by bus, on Monday)",
       questions: [
         {
           type: "reading",
@@ -180,6 +184,10 @@ Useful phrases:
       description: "Talking about everyday activities",
       isSample: false,
       dueDate: new Date("2026-08-20"),
+      errorFocus: "3sg-s",
+      parentBrief: "本周纠错焦点：第三人称单数 -s（he/she/it + 动词要加 -s）和时间介词 at/in/on。中文动词不变形，孩子会说 she wake up 或 he go to school。英语现在时里，he/she/it 后面的动词必须加 -s：wakes, goes, has。时间介词：at 7:00, in the morning, on Monday。本周作业会抓住这两个高频错误。",
+      videoUrl: "/video/a2-w1.mp4",
+      kaizenFocus: "Add -s to verbs after he/she/it in present simple; use at/in/on for time correctly",
       questions: [
         {
           type: "reading",
@@ -309,6 +317,10 @@ Useful phrases:
       description: "Describing school subjects and activities",
       isSample: false,
       dueDate: new Date("2026-08-27"),
+      errorFocus: "present-continuous",
+      parentBrief: "本周纠错焦点：现在进行时 vs 一般现在时，以及 like + -ing。中文用时间词表示习惯，孩子会说 I am going to school every day（进行时被过度泛化）。英语习惯用一般现在时：I go to school every day；正在发生才用进行时：I am swimming now。另外，like/enjoy 后面接 -ing：I like reading。本周盯住这两个混淆点。",
+      videoUrl: "/video/a2-w2.mp4",
+      kaizenFocus: "Use present simple for habits, present continuous for now; like/enjoy + -ing",
       questions: [
         {
           type: "reading",
@@ -437,6 +449,10 @@ Useful phrases:
       description: "Talking about relationships",
       isSample: false,
       dueDate: new Date("2026-09-03"),
+      errorFocus: "past-simple",
+      parentBrief: "本周纠错焦点：一般过去时和 used to。中文靠时间词「昨天、上周」来表示过去，动词不变形，孩子会说 yesterday I go。英语过去时动词必须变形：went, visited, had。另外，以前的习惯用 used to（不是 use to）：I used to live in Beijing。本周作业会反复纠正这两个化石化高危点。",
+      videoUrl: "/video/a2-w3.mp4",
+      kaizenFocus: "Use past simple for finished actions (went, visited); used to for old habits",
       questions: [
         {
           type: "reading",
@@ -574,6 +590,10 @@ Useful phrases:
       title: "试学周 / Sample Week",
       description: "Switching to English-medium school",
       isSample: true,
+      errorFocus: "present-perfect",
+      parentBrief: "本周纠错焦点：现在完成时 vs 一般过去时。中文的「了」不等于 have + V3，孩子会说 I have went yesterday（时态混用）或 I am here for 6 months（该用 have been）。英语现在完成表示「过去的事对现在还有影响」：I have been here for six months（还在这里）。明确过去的时间用过去时：I went yesterday。本周微课和作业会反复对比这两个时态。",
+      videoUrl: "/video/b1-w0.mp4",
+      kaizenFocus: "Use present perfect (have/has + V3) for situations that still matter now; past simple for finished time",
       questions: [
         {
           type: "reading",
@@ -702,6 +722,10 @@ Useful phrases:
       description: "Discussing travel experiences",
       isSample: false,
       dueDate: new Date("2026-08-20"),
+      errorFocus: "experience-comparatives",
+      parentBrief: "本周纠错焦点：现在完成时的经历用法（Have you ever...?）和比较级。孩子会说 Have you go to Gardens by the Bay?（过去式和完成时混淆）或 It was impressive than...（漏了 more）。英语问经历用 Have you ever been...? Have you visited...?；比较级要加 more 或 -er：more impressive, bigger。本周写作和口语会盯住这两个点。",
+      videoUrl: "/video/b1-w1.mp4",
+      kaizenFocus: "Use present perfect for experience (Have you ever...?); comparatives with more/-er",
       questions: [
         {
           type: "reading",
@@ -838,6 +862,10 @@ Useful phrases:
       description: "Expressing opinions about technology",
       isSample: false,
       dueDate: new Date("2026-08-27"),
+      errorFocus: "conditional-gerund",
+      parentBrief: "本周纠错焦点：第二条件句（If + 过去式, would...）和动名词/不定式（suggest + -ing, want + to）。中文条件句不变形，孩子会说 If the school change...（该用 changed）。还有典型化石化：suggest to use（应该是 suggest using），want using（应该是 want to use）。本周作业会反复训练这两个难点。",
+      videoUrl: "/video/b1-w2.mp4",
+      kaizenFocus: "If + past, would (2nd conditional); suggest + -ing, want + to",
       questions: [
         {
           type: "reading",
@@ -982,6 +1010,10 @@ Useful phrases:
       description: "Talking about environmental issues",
       isSample: false,
       dueDate: new Date("2026-09-03"),
+      errorFocus: "passive-modals",
+      parentBrief: "本周纠错焦点：被动语态和情态动词（should/ought to）。中文少用被动，孩子会说 We recycle the bottles（主动）而写不出 Plastic is recycled（被动）。还有建议表达：should/ought to + 动词原形。本周环保话题特别需要被动（Plastic is recycled, bins are collected）和建议（We should reduce, students ought to bring...）。作业会盯住这两个表达。",
+      videoUrl: "/video/b1-w3.mp4",
+      kaizenFocus: "Use passive voice (is recycled, are collected); should/ought to + verb for advice",
       questions: [
         {
           type: "reading",
@@ -1136,6 +1168,10 @@ Useful phrases:
         description: weekDef.description,
         isSample: weekDef.isSample,
         dueDate: weekDef.dueDate || null,
+        errorFocus: weekDef.errorFocus || null,
+        parentBrief: weekDef.parentBrief || null,
+        videoUrl: weekDef.videoUrl || null,
+        kaizenFocus: weekDef.kaizenFocus || null,
       },
       create: {
         level: weekDef.level,
@@ -1144,6 +1180,10 @@ Useful phrases:
         description: weekDef.description,
         isSample: weekDef.isSample,
         dueDate: weekDef.dueDate || null,
+        errorFocus: weekDef.errorFocus || null,
+        parentBrief: weekDef.parentBrief || null,
+        videoUrl: weekDef.videoUrl || null,
+        kaizenFocus: weekDef.kaizenFocus || null,
       },
     });
 

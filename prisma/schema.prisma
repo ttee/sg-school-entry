@@ -6,7 +6,7 @@ datasource db {
   provider = "postgresql"
   url      = env("DATABASE_URL")
   directUrl = env("DIRECT_URL")
-  // For local dev with SQLite, change provider to "sqlite" and remove directUrl
+  // For local dev with SQLite, change provider to "sqlite" and comment out directUrl
   // Vercel production uses PostgreSQL from environment variables
 }
 
@@ -31,6 +31,10 @@ model Week {
   description String?
   isSample    Boolean      @default(false)
   dueDate     DateTime?
+  errorFocus  String?
+  parentBrief String?
+  videoUrl    String?
+  kaizenFocus String?
   createdAt   DateTime     @default(now())
   updatedAt   DateTime     @updatedAt
   questions   Question[]

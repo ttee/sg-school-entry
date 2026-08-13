@@ -56,7 +56,7 @@ export async function POST(req: NextRequest) {
     const audioFile = formData.get("audio") as File;
     const questionId = formData.get("questionId") as string;
     const durationSec = parseInt(formData.get("durationSec") as string);
-    const level = formData.get("level") as string; // "A2" or "B1"
+    const levelParam = formData.get("level") as string; // "A2" or "B1" from client
 
     if (!audioFile || !questionId) {
       return NextResponse.json(
@@ -68,6 +68,7 @@ export async function POST(req: NextRequest) {
     // Get question details
     const question = await prisma.question.findUnique({
       where: { id: questionId },
+      include: { week: true },
     });
 
     if (!question || question.type !== "speaking") {
@@ -76,6 +77,8 @@ export async function POST(req: NextRequest) {
         { status: 404 }
       );
     }
+
+    const level = question.week.level; // Use level from database
 
     // Count existing attempts for this question
     const attemptNumber = await prisma.speakingAttempt.count({
@@ -102,6 +105,9 @@ export async function POST(req: NextRequest) {
       const lastFeedback = JSON.parse(previousAttempts[0].feedback);
       previousFocus = lastFeedback.focus || "";
       previousErrorTags = lastFeedback.errorTags || [];
+    } else if (question.week.kaizenFocus) {
+      // First attempt: use week's default focus
+      previousFocus = question.week.kaizenFocus;
     }
 
     // Prepare audio for Gemini
@@ -120,6 +126,10 @@ export async function POST(req: NextRequest) {
 上一次的错误标签：${previousErrorTags.join(", ") || "无"}
 
 请仔细听音频，判断学生这次是否还在犯同样的错误。如果是，请保持相同的改善焦点，并在 feedback.focus 中说明「上一次的焦点还在：${previousFocus}」。只有当学生明显改进后，才换一个新的焦点。`
+      : previousAttempts.length === 0 && question.week.kaizenFocus
+      ? `\n\n【本周改善焦点】
+这是学生第一次尝试此题目。本周的纠错焦点是：「${question.week.kaizenFocus}」
+请在评估中检查学生是否掌握了这个焦点，并在 feedback.focus 中说明。`
       : "\n\n这是学生第一次尝试此题目。";
 
     const evaluationPrompt = `你是剑桥英语考试 ${level} 级别（${level === "A2" ? "Key for Schools" : "Preliminary for Schools"}）的口语考官。

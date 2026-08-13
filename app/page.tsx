@@ -266,6 +266,139 @@ export default function HomePage() {
           </div>
         </section>
 
+        <section className="py-12 md:py-16 bg-paper" id="pedagogy">
+          <div className="max-w-7xl mx-auto px-4">
+            <h2 className="font-serif font-semibold text-2xl md:text-3xl mb-3">
+              针对性纠错，防止英语化石化
+            </h2>
+            <p className="text-ink-2 mb-6 max-w-3xl">
+              每周只打<strong>一个</strong>中国学生的高频错误。微课对照中英句子，作业 + AI 口语/写作盯住同一点，直到改掉。不保证录取，不编造通过率。我们只帮孩子改掉会跟一辈子的错。
+            </p>
+
+            <div className="bg-card border border-line rounded-2xl p-6 mb-6 shadow">
+              <h3 className="font-serif font-semibold text-lg mb-4 text-ink">为什么每周只改一个错？</h3>
+              <div className="grid md:grid-cols-2 gap-5 text-sm">
+                <div className="space-y-2">
+                  <p className="font-semibold text-ink flex items-start gap-2">
+                    <span className="text-accent mt-0.5">✓</span>
+                    <span>母语迁移 / L1 Transfer</span>
+                  </p>
+                  <p className="text-ink-2 ml-6">
+                    中文没有冠词、动词不变形、靠时间词表示过去。孩子说 "I go to school by the bus" 或 "she wake up" 不是粗心，是中文习惯在干扰。
+                  </p>
+                </div>
+                <div className="space-y-2">
+                  <p className="font-semibold text-ink flex items-start gap-2">
+                    <span className="text-accent mt-0.5">✓</span>
+                    <span>防化石化 / Prevent Fossilization</span>
+                  </p>
+                  <p className="text-ink-2 ml-6">
+                    错误说多了会固化。一次改太多点，孩子顾不过来，还是会重复旧错。我们让 AI 盯住<strong>一个焦点</strong>，直到孩子真的改掉。
+                  </p>
+                </div>
+                <div className="space-y-2">
+                  <p className="font-semibold text-ink flex items-start gap-2">
+                    <span className="text-accent mt-0.5">✓</span>
+                    <span>聚焦形式 / Focus on Form</span>
+                  </p>
+                  <p className="text-ink-2 ml-6">
+                    阅读、写作、口语任务还是真实话题（学校、家庭、环境），但本周的微课、语法题、AI 批改都指向<strong>同一个语法点</strong>。
+                  </p>
+                </div>
+                <div className="space-y-2">
+                  <p className="font-semibold text-ink flex items-start gap-2">
+                    <span className="text-accent mt-0.5">✓</span>
+                    <span>注意 + 输出 / Noticing + Output</span>
+                  </p>
+                  <p className="text-ink-2 ml-6">
+                    微课先让孩子看到错的句子和对的句子对比，然后跟读一句。写作和口语时，AI 会再次提醒这个焦点，等孩子真正用对了，再换下一个。
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <h3 className="font-serif font-semibold text-xl mb-4 text-ink">8 周纠错地图</h3>
+            <div className="overflow-x-auto">
+              <table className="w-full border border-line rounded-xl overflow-hidden text-sm">
+                <thead>
+                  <tr className="bg-paper-2 border-b border-line">
+                    <th className="px-4 py-3 text-left font-semibold text-ink">级别</th>
+                    <th className="px-4 py-3 text-left font-semibold text-ink">周</th>
+                    <th className="px-4 py-3 text-left font-semibold text-ink">主题</th>
+                    <th className="px-4 py-3 text-left font-semibold text-ink">本周只改这一个错</th>
+                    <th className="px-4 py-3 text-left font-semibold text-ink">中文干扰举例</th>
+                  </tr>
+                </thead>
+                <tbody className="bg-card">
+                  <tr className="border-b border-line">
+                    <td className="px-4 py-3 font-semibold text-accent">A2</td>
+                    <td className="px-4 py-3 text-ink-2">0</td>
+                    <td className="px-4 py-3 text-ink-2">试学周</td>
+                    <td className="px-4 py-3 text-ink">冠词 a/an/the 和零冠词</td>
+                    <td className="px-4 py-3 text-ink-2">I go to school by <span className="line-through">the</span> bus / I am <span className="text-warn-ink">✗</span> student</td>
+                  </tr>
+                  <tr className="border-b border-line">
+                    <td className="px-4 py-3 font-semibold text-accent">A2</td>
+                    <td className="px-4 py-3 text-ink-2">1</td>
+                    <td className="px-4 py-3 text-ink-2">Daily Routines</td>
+                    <td className="px-4 py-3 text-ink">第三人称单数 -s；at/in/on 时间介词</td>
+                    <td className="px-4 py-3 text-ink-2">she wake<span className="text-warn-ink">✗</span> up / in Monday</td>
+                  </tr>
+                  <tr className="border-b border-line">
+                    <td className="px-4 py-3 font-semibold text-accent">A2</td>
+                    <td className="px-4 py-3 text-ink-2">2</td>
+                    <td className="px-4 py-3 text-ink-2">School Life</td>
+                    <td className="px-4 py-3 text-ink">一般现在时 vs 现在进行时；like + -ing</td>
+                    <td className="px-4 py-3 text-ink-2">I am going to school every day</td>
+                  </tr>
+                  <tr className="border-b border-line">
+                    <td className="px-4 py-3 font-semibold text-accent">A2</td>
+                    <td className="px-4 py-3 text-ink-2">3</td>
+                    <td className="px-4 py-3 text-ink-2">Family</td>
+                    <td className="px-4 py-3 text-ink">一般过去时；used to</td>
+                    <td className="px-4 py-3 text-ink-2">yesterday I go / I use to live</td>
+                  </tr>
+                  <tr className="border-b border-line bg-paper-2">
+                    <td className="px-4 py-3 font-semibold text-accent">B1</td>
+                    <td className="px-4 py-3 text-ink-2">0</td>
+                    <td className="px-4 py-3 text-ink-2">试学周</td>
+                    <td className="px-4 py-3 text-ink">现在完成 vs 过去时</td>
+                    <td className="px-4 py-3 text-ink-2">I have went yesterday / I am here for 6 months</td>
+                  </tr>
+                  <tr className="border-b border-line bg-paper-2">
+                    <td className="px-4 py-3 font-semibold text-accent">B1</td>
+                    <td className="px-4 py-3 text-ink-2">1</td>
+                    <td className="px-4 py-3 text-ink-2">Travel</td>
+                    <td className="px-4 py-3 text-ink">Have you ever...? 比较级 more/-er</td>
+                    <td className="px-4 py-3 text-ink-2">Have you go...? / It was impressive than...</td>
+                  </tr>
+                  <tr className="border-b border-line bg-paper-2">
+                    <td className="px-4 py-3 font-semibold text-accent">B1</td>
+                    <td className="px-4 py-3 text-ink-2">2</td>
+                    <td className="px-4 py-3 text-ink-2">Technology</td>
+                    <td className="px-4 py-3 text-ink">If + 过去, would... / suggest + -ing</td>
+                    <td className="px-4 py-3 text-ink-2">If school change... / suggest to use</td>
+                  </tr>
+                  <tr className="bg-paper-2">
+                    <td className="px-4 py-3 font-semibold text-accent">B1</td>
+                    <td className="px-4 py-3 text-ink-2">3</td>
+                    <td className="px-4 py-3 text-ink-2">Environment</td>
+                    <td className="px-4 py-3 text-ink">被动语态；should/ought to</td>
+                    <td className="px-4 py-3 text-ink-2">We recycle the bottles（该用被动）</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div className="mt-6 bg-paper-2 border border-line rounded-xl p-5">
+              <p className="text-sm text-ink-2">
+                <strong className="text-ink">原创内容：</strong>
+                所有微课、阅读文章、语法题、写作任务均为本工作室原创教学材料，参考剑桥英语考试（CEQ）任务类型和 CEFR 标准编写，<strong>不抄袭剑桥真题</strong>。所有情境、人名、地点均为虚构。不编造"剑桥官方分数"或"往年通过率"。
+              </p>
+            </div>
+          </div>
+        </section>
+
         <section className="py-12 md:py-16 bg-paper" id="contact">
           <div className="max-w-2xl mx-auto px-4">
             <h2 className="font-serif font-semibold text-2xl md:text-3xl mb-3">咨询与报名</h2>
