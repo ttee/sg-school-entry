@@ -141,6 +141,7 @@ Ms Tan: Yes, please bring your Maths workbook. And remember, Thursday is Drama C
           ]),
           correctAnswer: "B,C,C,D,D",
           points: 5,
+          audioUrl: "/audio/a2-w0-listening.mp3",
         },
         {
           type: "speaking",
@@ -268,6 +269,7 @@ Sarah: Weekends are the best! I always sleep until eight thirty on Saturdays. No
           ]),
           correctAnswer: "B,C,C,B,C",
           points: 5,
+          audioUrl: "/audio/a2-w1-listening.mp3",
         },
         {
           type: "speaking",
@@ -394,6 +396,7 @@ If it rains heavily, Sports Day will move to next Monday. Check the school websi
           ]),
           correctAnswer: "B,C,C,C,B",
           points: 5,
+          audioUrl: "/audio/a2-w2-listening.mp3",
         },
         {
           type: "speaking",
@@ -529,6 +532,7 @@ Mum: I'll pack sandwiches and fruit. You can bring some biscuits if you want. Do
           ]),
           correctAnswer: "C,B,C,B,C",
           points: 5,
+          audioUrl: "/audio/a2-w3-listening.mp3",
         },
         {
           type: "speaking",
@@ -657,6 +661,7 @@ Finally, CCA sign-ups are next week. Joining a CCA is a great way to practise En
           ]),
           correctAnswer: "C,C,B,C,B",
           points: 5,
+          audioUrl: "/audio/b1-w0-listening.mp3",
         },
         {
           type: "speaking",
@@ -791,6 +796,7 @@ Our trail starts at Fort Siloso and ends at the beach. When we finish, you'll ha
           ]),
           correctAnswer: "C,C,C,C,C",
           points: 5,
+          audioUrl: "/audio/b1-w1-listening.mp3",
         },
         {
           type: "speaking",
@@ -934,6 +940,7 @@ Priya: No problem. Let me know if you want to join a study group on the app – 
           ]),
           correctAnswer: "B,C,B,B,C",
           points: 5,
+          audioUrl: "/audio/b1-w2-listening.mp3",
         },
         {
           type: "speaking",
@@ -1074,6 +1081,7 @@ Let's work together to make our school greener! If you have questions, see any E
           ]),
           correctAnswer: "B,C,C,B,B",
           points: 5,
+          audioUrl: "/audio/b1-w3-listening.mp3",
         },
         {
           type: "speaking",
@@ -1154,6 +1162,7 @@ Useful phrases:
           options: q.options || null,
           correctAnswer: q.correctAnswer || null,
           points: q.points,
+          audioUrl: (q as any).audioUrl || null,
         },
         create: {
           weekId: week.id,
@@ -1163,6 +1172,7 @@ Useful phrases:
           options: q.options || null,
           correctAnswer: q.correctAnswer || null,
           points: q.points,
+          audioUrl: (q as any).audioUrl || null,
         },
       });
     }

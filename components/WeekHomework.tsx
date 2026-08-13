@@ -12,6 +12,7 @@ type Question = {
   options: string | null;
   correctAnswer: string | null;
   points: number;
+  audioUrl: string | null;
 };
 
 type Week = {
@@ -44,6 +45,7 @@ export default function WeekHomework({
   const [saving, setSaving] = useState(false);
   const [submitting, setSubmitting] = useState(false);
   const [error, setError] = useState("");
+  const [showTranscript, setShowTranscript] = useState<Record<string, boolean>>({});
 
   const isCompleted = !!initialSubmission?.completedAt;
 
@@ -162,15 +164,58 @@ export default function WeekHomework({
                   : question.type === "writing"
                   ? "写作 / Writing"
                   : question.type === "listening"
-                  ? "听读练习 / Listening Prep"
+                  ? "听力 / Listening"
                   : "口语 / Speaking"}
               </h2>
               <span className="text-sm text-muted">{question.points} 分</span>
             </div>
 
-            <div className="whitespace-pre-wrap text-ink-2 mb-4">
-              {question.content}
-            </div>
+            {question.type === "listening" && question.audioUrl && (
+              <div className="mb-6 bg-paper border border-line rounded-lg p-4">
+                <div className="mb-3">
+                  <p className="text-sm text-ink-2 mb-2">
+                    请先听录音，可暂停、可再听。考试听力通常听两遍。
+                  </p>
+                  <audio
+                    controls
+                    className="w-full"
+                    style={{
+                      maxWidth: "100%",
+                      height: "40px",
+                    }}
+                  >
+                    <source src={question.audioUrl} type="audio/mpeg" />
+                    Your browser does not support the audio element.
+                  </audio>
+                </div>
+                <div>
+                  <button
+                    onClick={() =>
+                      setShowTranscript((prev) => ({
+                        ...prev,
+                        [question.id]: !prev[question.id],
+                      }))
+                    }
+                    className="text-sm font-semibold text-accent hover:text-accent-hover transition-colors"
+                  >
+                    {showTranscript[question.id]
+                      ? "隐藏原文 / Hide script"
+                      : "显示原文 / Show script"}
+                  </button>
+                  {showTranscript[question.id] && (
+                    <div className="mt-3 whitespace-pre-wrap text-sm text-ink-2 bg-paper-2 rounded-lg p-3 border border-line">
+                      {question.content}
+                    </div>
+                  )}
+                </div>
+              </div>
+            )}
+
+            {question.type !== "listening" && (
+              <div className="whitespace-pre-wrap text-ink-2 mb-4">
+                {question.content}
+              </div>
+            )}
 
             {question.options && (
               <div className="space-y-4">
