@@ -166,9 +166,9 @@ Useful phrases:
 
 如何练习 / How to practise:
 1. 准备1分钟 (Prepare for 1 minute)
-2. 用手机录音或对着镜子说 (Record on your phone or speak to a mirror)
-3. 说完整1分钟 (Speak for the full minute)
-4. 完成后点击"确认已练习" (Click confirm when done)`,
+2. 点击下方"开始录音"按钮 (Tap the "开始录音" button below)
+3. 说完整1分钟，然后停止 (Speak for the full minute, then stop)
+4. 播放听一听，满意后提交给AI评估 (Playback, then submit for AI feedback)`,
           points: 5,
         },
       ],
@@ -295,9 +295,9 @@ Useful phrases:
 
 如何练习 / How to practise:
 1. 计划你要说的内容 (Plan what you'll say)
-2. 大声练习几次 (Practise aloud a few times)
-3. 录音听一听 (Record and listen to yourself)
-4. 完成后点击"确认已练习" (Confirm when finished)`,
+2. 点击下方"开始录音"按钮 (Tap the "开始录音" button below)
+3. 清晰地说出你的内容 (Speak clearly through your points)
+4. 听回放后提交给AI评估，获得改进建议 (Submit for AI feedback and improvement tips)`,
           points: 5,
         },
       ],
@@ -423,9 +423,9 @@ Useful phrases:
 如何练习 / How to practise:
 1. 选择一个科目 (Choose one subject)
 2. 想好理由 (Think of reasons why you like it)
-3. 说满1分钟 (Speak for a full minute)
-4. 可以多练习几次 (You can practise multiple times)
-5. 完成后确认 (Confirm when done)`,
+3. 点击"开始录音"，说满1分钟 (Tap "开始录音" and speak for 1 minute)
+4. 提交后AI会评估你的发音、流利度和内容 (AI evaluates pronunciation, fluency, content)
+5. 可以根据反馈再录一次 (Re-record based on feedback)`,
           points: 5,
         },
       ],
@@ -559,9 +559,9 @@ Useful phrases:
 如何练习 / How to practise:
 1. 选择一个家人 (Choose a family member)
 2. 想好细节 (Think of details about them)
-3. 大声说出来 (Speak aloud clearly)
-4. 可以录音检查 (Record to check yourself)
-5. 完成后确认 (Confirm when ready)`,
+3. 点击"开始录音"按钮 (Tap the "开始录音" button)
+4. 说完后听回放，满意则提交给AI (Playback, then submit to AI)
+5. AI会给你改进建议和跟读句子 (AI gives improvement tips and model sentences)`,
           points: 5,
         },
       ],
@@ -688,9 +688,9 @@ Useful phrases:
 如何练习 / How to practise:
 1. 想一个真实经历 (Think of a real experience)
 2. 准备2分钟内容 (Prepare 2 minutes of content)
-3. 练习说得流畅 (Practise speaking smoothly)
-4. 可以列几个关键词提示自己 (You can write key words to remind yourself)
-5. 完成后确认 (Confirm when done)`,
+3. 点击"开始录音"，有2分钟时间 (Tap "开始录音", you have 2 minutes)
+4. 提交后AI会评估发音、流利度、任务完成度 (AI evaluates pronunciation, fluency, task)
+5. 根据反馈的"改善焦点"再录一次 (Re-record focusing on the improvement tip)`,
           points: 5,
         },
       ],
@@ -824,9 +824,9 @@ Useful phrases:
 如何练习 / How to practise:
 1. 选择一个你了解的地方 (Choose a place you know well)
 2. 想好推荐理由 (Think of reasons to recommend it)
-3. 包含个人经历让内容更生动 (Include a personal story to make it interesting)
-4. 练习说2分钟 (Practise speaking for 2 minutes)
-5. 完成后确认 (Confirm when ready)`,
+3. 点击"开始录音"，说满2分钟 (Tap "开始录音", speak for 2 minutes)
+4. 提交给AI，获得发音和内容反馈 (Submit to AI for pronunciation and content feedback)
+5. 查看"跟读句子"并再录一次 (Check model sentences and re-record)`,
           points: 5,
         },
       ],
@@ -968,9 +968,9 @@ Useful phrases:
 如何练习 / How to practise:
 1. 想想你真正用过的工具 (Think of tools you actually use)
 2. 准备具体例子 (Prepare specific examples)
-3. 说满2分钟 (Speak for the full 2 minutes)
-4. 可以提及YouTube、app、网站等 (You can mention YouTube, apps, websites, etc.)
-5. 完成后确认 (Confirm when done)`,
+3. 点击"开始录音"，说2分钟 (Tap "开始录音", speak for 2 minutes)
+4. AI会评估你的词汇、语法和流利度 (AI evaluates vocabulary, grammar, fluency)
+5. 看反馈后可以多录几次改进 (Re-record multiple times to improve)`,
           points: 5,
         },
       ],
@@ -1108,9 +1108,9 @@ Useful phrases:
 如何练习 / How to practise:
 1. 选择一个真实可行的习惯 (Choose a realistic habit)
 2. 想好具体做法 (Think of specific steps)
-3. 说满2分钟 (Speak for 2 minutes)
-4. 包括为什么和怎么做 (Include why and how)
-5. 完成后确认 (Confirm when ready)`,
+3. 点击"开始录音"按钮 (Tap the "开始录音" button)
+4. 说2分钟后提交给AI评估 (Speak for 2 minutes, then submit to AI)
+5. 根据"改善焦点"和"跟读句子"再练习 (Practice again with focus tips and model sentences)`,
           points: 5,
         },
       ],
