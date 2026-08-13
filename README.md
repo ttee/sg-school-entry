@@ -126,6 +126,12 @@ Required variables:
   - If not set, `DATABASE_URL` is used for both queries and migrations
 - `AUTH_SECRET` — generate with `openssl rand -base64 32`
 - `NEXTAUTH_URL` — defaults to `http://localhost:3000`
+- `GEMINI_API_KEY` or `GOOGLE_GENERATIVE_AI_API_KEY` — **Required for AI feedback**
+  - Get a **free key** at [https://aistudio.google.com/apikey](https://aistudio.google.com/apikey)
+  - Used for speaking evaluation (audio-to-feedback) and writing feedback
+  - **Important:** Free-tier audio may be used by Google to improve products
+  - If missing, speaking/writing evaluation endpoints return 503 with 简体中文 error
+  - Local record/playback still works without the key
 
 ### 3. Run migrations and seed data
 
@@ -289,6 +295,12 @@ npm start
      - If not set, `DATABASE_URL` will be used for both queries and migrations
    - `AUTH_SECRET` — generate with `openssl rand -base64 32`
    - `NEXTAUTH_URL` — your production domain (e.g. `https://sgschoolentry.com`)
+   - `GEMINI_API_KEY` or `GOOGLE_GENERATIVE_AI_API_KEY` — **Required for AI feedback**
+     - Get a **free key** at [https://aistudio.google.com/apikey](https://aistudio.google.com/apikey)
+     - Set in Vercel → Project Settings → Environment Variables
+     - Add for both **Production** and **Preview** environments
+     - Without this key, speaking/writing evaluation endpoints return 503
+     - **Note:** Free-tier audio may be used by Google to improve products
 5. Deploy
    - **Schema and seed run automatically** during build (`npm run build` includes `prisma migrate deploy && prisma db seed`)
    - First deploy runs migrations to create tables, then seeds demo users + weeks

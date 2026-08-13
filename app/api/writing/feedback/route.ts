@@ -2,11 +2,10 @@ import { NextRequest, NextResponse } from "next/server";
 import { getServerSession } from "next-auth";
 import { authOptions } from "@/lib/auth";
 import { prisma } from "@/lib/db";
-import OpenAI from "openai";
+import { GoogleGenerativeAI } from "@google/generative-ai";
 
-const openai = process.env.OPENAI_API_KEY
-  ? new OpenAI({ apiKey: process.env.OPENAI_API_KEY })
-  : null;
+const apiKey = process.env.GEMINI_API_KEY || process.env.GOOGLE_GENERATIVE_AI_API_KEY;
+const genAI = apiKey ? new GoogleGenerativeAI(apiKey) : null;
 
 // Rate limit: 8 writing evals per user per day
 const RATE_LIMIT = 8;
@@ -30,11 +29,11 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: "未授权" }, { status: 401 });
   }
 
-  if (!openai) {
+  if (!genAI) {
     return NextResponse.json(
       {
         error: "未配置批改服务",
-        message: "服务器未配置 OPENAI_API_KEY，暂时无法提供AI批改。",
+        message: "服务器未配置 GEMINI_API_KEY，暂时无法提供AI批改。",
       },
       { status: 503 }
     );
@@ -83,6 +82,32 @@ export async function POST(req: NextRequest) {
     const targetMin = wordCountMatch ? parseInt(wordCountMatch[1] || wordCountMatch[3]) : 50;
     const targetMax = wordCountMatch ? parseInt(wordCountMatch[2] || wordCountMatch[4]) : 120;
 
+    // Load previous feedback for Kaizen (compare errors)
+    const previousFeedback = await prisma.writingFeedback.findMany({
+      where: {
+        userId: session.user.id,
+        questionId,
+      },
+      orderBy: { createdAt: "desc" },
+      take: 3,
+    });
+
+    let previousFocus = "";
+    let previousErrorTags: string[] = [];
+    if (previousFeedback.length > 0) {
+      const lastFeedback = JSON.parse(previousFeedback[0].feedback);
+      previousFocus = lastFeedback.focus || "";
+      previousErrorTags = lastFeedback.errorTags || [];
+    }
+
+    const kaizenContext = previousFocus
+      ? `\n\n【Kaizen 改善追踪】
+上一次的改善焦点是：「${previousFocus}」
+上一次的错误标签：${previousErrorTags.join(", ") || "无"}
+
+请仔细分析学生这次的写作，判断是否还在犯同样的语法或表达错误（例如：冠词、时态、主谓一致、单复数等）。如果是，请保持相同的改善焦点，并在 focus 字段中说明「上一次的焦点还在：${previousFocus}」或「本次 vs 上次：...」。只有当学生明显改进后，才换一个新的焦点。`
+      : "\n\n这是学生第一次提交此题目。";
+
     const feedbackPrompt = `你是剑桥英语 ${level} 级别（${level === "A2" ? "Key for Schools" : "Preliminary for Schools"}）的写作考官。
 
 写作任务：
@@ -92,18 +117,20 @@ ${question.content}
 "${text}"
 
 字数：${wordCount} 词（目标：${targetMin}-${targetMax} 词）
+${kaizenContext}
 
 请提供简体中文的Kaizen改善反馈：
 1. 任务完成度（是否回答了所有要求的内容点）
 2. 本周语法点使用情况（根据成功标准）
 3. 连接词和逻辑流畅度
 4. 字数是否合适
-5. ONE 改善焦点（聚焦最重要的一个改进点）
+5. ONE 改善焦点（如果上次焦点还在，就保持并说明；只有明显改进后才换新焦点）
 6. 示范段落（改写学生的文章，提升到更好的${level}水平，保持相同话题和长度）
+7. errorTags（错误类型标签数组，例如：["articles", "tense", "subject-verb", "plurals"]）
 
 不要给出假的剑桥官方分数。
 
-返回JSON格式：
+严格返回JSON格式（不要markdown代码块）：
 {
   "taskCompletion": "任务完成度评价",
   "grammarOfWeek": "本周语法点使用情况",
@@ -113,18 +140,52 @@ ${question.content}
     "target": "${targetMin}-${targetMax}",
     "comment": "字数评价"
   },
-  "focus": "ONE 改善焦点（具体、可操作）",
+  "focus": "ONE 改善焦点（如果是重复问题，说明对比）",
   "modelParagraph": "改写后的示范段落",
-  "highlights": ["亮点1", "亮点2"]
+  "highlights": ["亮点1", "亮点2"],
+  "errorTags": ["错误类型1", "错误类型2"]
 }`;
 
-    const response = await openai.chat.completions.create({
-      model: "gpt-4o-mini",
-      messages: [{ role: "user", content: feedbackPrompt }],
-      response_format: { type: "json_object" },
-    });
+    // Use Gemini Flash with fallback
+    const modelNames = ["gemini-2.0-flash-exp", "gemini-1.5-flash"];
+    let model;
+    
+    for (const modelName of modelNames) {
+      try {
+        model = genAI.getGenerativeModel({ model: modelName });
+        break;
+      } catch (err) {
+        console.log(`Model ${modelName} not available, trying next...`);
+      }
+    }
 
-    const feedback = JSON.parse(response.choices[0].message.content || "{}");
+    if (!model) {
+      return NextResponse.json(
+        { error: "Gemini 模型不可用" },
+        { status: 503 }
+      );
+    }
+
+    let feedback: any;
+    try {
+      const result = await model.generateContent(feedbackPrompt);
+      const responseText = result.response.text();
+      
+      // Clean up response (remove markdown code blocks if present)
+      const jsonMatch = responseText.match(/\{[\s\S]*\}/);
+      const jsonText = jsonMatch ? jsonMatch[0] : responseText;
+      
+      feedback = JSON.parse(jsonText);
+    } catch (error: any) {
+      console.error("Gemini feedback error:", error);
+      return NextResponse.json(
+        {
+          error: "批改失败",
+          message: error.message || "Gemini API 调用失败",
+        },
+        { status: 500 }
+      );
+    }
 
     // Store the feedback
     await prisma.writingFeedback.create({
