@@ -23,7 +23,7 @@ type Week = {
 type Submission = {
   answers: string;
   score: number | null;
-  completedAt: Date | null;
+  completedAt: string | null;
 } | null;
 
 export default function WeekHomework({
