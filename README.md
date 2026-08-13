@@ -76,17 +76,37 @@ No environment variables are required.
 
 ---
 
+## CEQ Course Pricing / CEQ 课程价格
+
+The site now includes a paid **CEQ English Course** section with two tracks:
+
+1. **A2 Key for Schools** — S$2,480 (typical for P2–P4)
+2. **B1 Preliminary for Schools** — S$2,880 (typical for P5)
+
+These are **assumed starting prices** set for the first revenue offering. They are editable and reflect the intended 12-week, 24-session small-class format (max 8 students), not fake historical data or "from our 10,000 students" claims.
+
+本站现已加入付费 **CEQ 英语冲刺班**，分两条赛道：
+
+1. **A2 Key for Schools** — S$2,480（适用于 P2–P4）
+2. **B1 Preliminary for Schools** — S$2,880（适用于 P5）
+
+这是首次收费产品的**假设起步价**，可修改，反映 12 周 24 节小班（最多 8 人）的实际设定，不是编造的历史数据或「来自一万名学员」的虚假宣称。
+
+---
+
 ## Placeholders to replace before going live / 上线前请替换
 
 | Placeholder | Where | Replace with |
 | --- | --- | --- |
 | `your-wechat-id` | Contact section (`<code>your-wechat-id</code>`) | Real WeChat ID |
 | `mailto:hello@example.com` | Contact section email link | Real mailbox, e.g. `mailto:you@yourdomain.com` |
+| Prices: S$2,480 / S$2,880 | CEQ course section | Confirmed pricing after operational review |
 
 | 占位 | 位置 | 换成 |
 | --- | --- | --- |
 | `your-wechat-id` | 咨询区微信 | 真实微信号 |
 | `mailto:hello@example.com` | 咨询区邮件链接 | 真实邮箱 |
+| 价格：S$2,480 / S$2,880 | CEQ 课程区 | 运营确认后的最终价格 |
 
 Optional: set `og:url` / a real favicon if you later add a custom domain.
 
