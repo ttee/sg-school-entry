@@ -170,7 +170,7 @@ export default function HomePage() {
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-accent mt-0.5">✓</span>
-                  <span>选择题自动批改，写作待家长/老师查看</span>
+                  <span>选择题自动批改，写作 AI 简体点评（Kaizen 一个改善焦点）</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-accent mt-0.5">✓</span>
@@ -456,6 +456,9 @@ export default function HomePage() {
           </p>
           <div className="flex flex-wrap gap-4 text-sm text-muted">
             <span>狮城入学 · SG School Entry</span>
+            <Link href="/privacy" className="hover:text-ink transition-colors">
+              隐私 / Privacy
+            </Link>
             <a
               href="https://www.moe.gov.sg/international-students/aeis"
               target="_blank"
