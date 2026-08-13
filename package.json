@@ -4,7 +4,7 @@
   "description": "狮城入学 Learn - CEQ English homework app with marketing landing page",
   "scripts": {
     "dev": "next dev",
-    "build": "prisma generate && prisma migrate deploy && prisma db seed && next build",
+    "build": "sh scripts/build.sh",
     "start": "next start",
     "lint": "next lint",
     "db:migrate": "prisma migrate deploy",
