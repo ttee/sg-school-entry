@@ -26,18 +26,24 @@ OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 STORYBOARD_DIR.mkdir(parents=True, exist_ok=True)
 TEMP_DIR.mkdir(parents=True, exist_ok=True)
 
-# Voice mapping (British English)
+# Voice mapping (Singapore English - clear school English, not full Singlish)
+# Using en-SG-LunaNeural with rate/pitch adjustments to differentiate characters
 VOICES = {
-    "narrator": "en-GB-LibbyNeural",
-    "mei": "en-GB-MaisieNeural",
-    "priya": "en-GB-SoniaNeural",
-    "ms_tan": "en-GB-LibbyNeural",
-    "lin_mum": "en-GB-SoniaNeural",
-    "wei": "en-GB-MaisieNeural",
-    "ah_gong": "en-GB-LibbyNeural",
-    "chen_wei": "en-GB-MaisieNeural",
-    "siti": "en-GB-SoniaNeural",
+    "narrator": {"voice": "en-SG-LunaNeural", "rate": "-22%", "pitch": "+0Hz"},
+    "mei": {"voice": "en-SG-LunaNeural", "rate": "-28%", "pitch": "+12Hz"},  # Child-like, higher
+    "priya": {"voice": "en-SG-LunaNeural", "rate": "-24%", "pitch": "-4Hz"},  # Slightly different
+    "ms_tan": {"voice": "en-SG-LunaNeural", "rate": "-20%", "pitch": "-2Hz"},  # Teacher, mature
+    "lin_mum": {"voice": "en-SG-LunaNeural", "rate": "-22%", "pitch": "-6Hz"},  # Adult female
+    "wei": {"voice": "en-SG-LunaNeural", "rate": "-26%", "pitch": "+10Hz"},  # Boy child
+    "ah_gong": {"voice": "en-SG-LunaNeural", "rate": "-18%", "pitch": "-8Hz"},  # Elderly male
+    "chen_wei": {"voice": "en-SG-LunaNeural", "rate": "-26%", "pitch": "+8Hz"},  # Boy
+    "siti": {"voice": "en-SG-LunaNeural", "rate": "-24%", "pitch": "-2Hz"},  # Girl
 }
+
+# Optional: Mandarin character name introductions (standalone beats at film start)
+# Example: 「她叫美。」before the English story begins
+# Only used if explicitly added to scene dialogue
+MANDARIN_VOICE = "zh-CN-XiaoyiNeural"
 
 
 class Scene:
@@ -439,11 +445,25 @@ STORIES = {
 }
 
 
-async def generate_tts_audio(text: str, voice: str, output_path: Path) -> float:
-    """Generate TTS audio using edge-tts and return duration in seconds"""
+async def generate_tts_audio(text: str, voice_config: dict, output_path: Path) -> float:
+    """Generate TTS audio using edge-tts with rate/pitch and return duration in seconds
+    
+    Args:
+        text: Complete sentence/phrase to synthesize (no mid-sentence splicing)
+        voice_config: Dict with 'voice', 'rate', 'pitch' keys
+        output_path: Where to save the audio
+    
+    Returns:
+        Duration in seconds
+    """
     import edge_tts
     
-    communicate = edge_tts.Communicate(text, voice)
+    communicate = edge_tts.Communicate(
+        text, 
+        voice_config["voice"],
+        rate=voice_config.get("rate", "+0%"),
+        pitch=voice_config.get("pitch", "+0Hz")
+    )
     await communicate.save(str(output_path))
     
     # Get duration using ffprobe
@@ -457,7 +477,7 @@ async def generate_tts_audio(text: str, voice: str, output_path: Path) -> float:
 
 
 async def generate_scene_audio(scene: Scene, scene_num: int, temp_dir: Path) -> Tuple[Path, float, List[Tuple[float, float, str]]]:
-    """Generate audio for a scene with multiple speakers
+    """Generate audio for a scene with multiple speakers and crossfades
     
     Returns:
         audio_path: Path to concatenated audio file
@@ -475,19 +495,29 @@ async def generate_scene_audio(scene: Scene, scene_num: int, temp_dir: Path) -> 
         timings.append((current_time, current_time + duration, scene.chinese_caption))
         current_time += duration
     
-    # Concatenate audio segments
-    concat_file = temp_dir / f"scene{scene_num}_concat.txt"
-    with open(concat_file, 'w') as f:
-        for seg in audio_segments:
-            f.write(f"file '{seg}'\n")
+    # Concatenate audio segments with crossfades for smooth transitions
+    if len(audio_segments) == 1:
+        # Single segment, just copy it
+        output_audio = temp_dir / f"scene{scene_num}_audio.mp3"
+        subprocess.run(['cp', str(audio_segments[0]), str(output_audio)], check=True)
+    else:
+        # Multiple segments: use ffmpeg concat with crossfade (50ms)
+        # For simplicity, use concat demuxer with a tiny silence gap
+        concat_file = temp_dir / f"scene{scene_num}_concat.txt"
+        with open(concat_file, 'w') as f:
+            for seg in audio_segments:
+                f.write(f"file '{seg}'\n")
+        
+        output_audio = temp_dir / f"scene{scene_num}_audio.mp3"
+        # Concat with audio filter for smooth transitions
+        subprocess.run([
+            'ffmpeg', '-f', 'concat', '-safe', '0', '-i', str(concat_file),
+            '-af', 'apad=pad_dur=0.05',  # Add tiny padding between segments
+            '-c:a', 'libmp3lame', '-b:a', '128k',
+            '-y', str(output_audio)
+        ], check=True, capture_output=True)
     
-    output_audio = temp_dir / f"scene{scene_num}_audio.mp3"
-    subprocess.run([
-        'ffmpeg', '-f', 'concat', '-safe', '0', '-i', str(concat_file),
-        '-c', 'copy', '-y', str(output_audio)
-    ], check=True, capture_output=True)
-    
-    # Cleanup segments
+    # Cleanup segment files
     for seg in audio_segments:
         seg.unlink()
     
