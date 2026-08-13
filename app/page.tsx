@@ -261,8 +261,6 @@ export default function HomePage() {
             <p className="text-sm text-muted mt-5 max-w-3xl">
               <strong className="text-ink-2">付款方式：</strong>PayNow 或微信转账，报名以咨询确认为准。无 Stripe。月度会员可随时取消，12 周预付包不退费。
               <br />
-              <strong className="text-ink-2 mt-2 inline-block">价格说明：</strong>以上为假设起步价，可修改，反映小班（最多 8 人）+ 作业 app 的实际成本，不是编造的历史数据。
-              <br />
               <strong className="text-ink-2 mt-2 inline-block">考试单独报名：</strong>CEQ 考试本身在剑桥授权考点报名，不含在课程学费内。
             </p>
           </div>
@@ -310,21 +308,8 @@ export default function HomePage() {
             </div>
             <div className="bg-paper-2 border border-line rounded-xl p-5">
               <h3 className="font-serif font-semibold text-base mb-2 text-ink">免费试学一周</h3>
-              <p className="text-sm text-ink-2 mb-3">
-                家长可先让孩子试学一周（Week 0 试学周），免费体验作业 app。点击页面顶部「登录」，使用试学账号查看：
-              </p>
-              <div className="bg-card rounded-lg p-3 text-sm">
-                <p className="text-ink-2 mb-1">
-                  <strong className="text-ink font-semibold">账号：</strong>
-                  <code className="ml-2 px-1.5 py-0.5 bg-paper-2 rounded text-xs font-mono">trial@sgschoolentry.local</code>
-                </p>
-                <p className="text-ink-2">
-                  <strong className="text-ink font-semibold">密码：</strong>
-                  <code className="ml-2 px-1.5 py-0.5 bg-paper-2 rounded text-xs font-mono">trial1234</code>
-                </p>
-              </div>
-              <p className="text-xs text-muted mt-3">
-                订阅后解锁全部当前级别周数。
+              <p className="text-sm text-ink-2">
+                家长可先让孩子免费试学一周（Week 0 试学周），体验作业 app。点击页面顶部「登录」，咨询时向老师索取试学账号。订阅后解锁全部当前级别周数。
               </p>
             </div>
           </div>
