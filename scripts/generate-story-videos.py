@@ -38,12 +38,11 @@ VOICES = {
     "ah_gong": {"voice": "en-SG-LunaNeural", "rate": "-18%", "pitch": "-8Hz"},  # Elderly male
     "chen_wei": {"voice": "en-SG-LunaNeural", "rate": "-26%", "pitch": "+8Hz"},  # Boy
     "siti": {"voice": "en-SG-LunaNeural", "rate": "-24%", "pitch": "-2Hz"},  # Girl
+    "mandarin": {"voice": "zh-CN-XiaoyiNeural", "rate": "+0%", "pitch": "+0Hz"},  # Standalone intro beats only
 }
 
-# Optional: Mandarin character name introductions (standalone beats at film start)
-# Example: 「她叫美。」before the English story begins
-# Only used if explicitly added to scene dialogue
-MANDARIN_VOICE = "zh-CN-XiaoyiNeural"
+# Mandarin voice for standalone character name introductions (「她叫美。」)
+# Used ONLY as its own beat at film start, never mid-sentence
 
 
 class Scene:
@@ -67,48 +66,49 @@ class Scene:
 STORIES = {
     "a2-w0": {
         "title": "A2-W0: Articles",
-        "location": "School Canteen",
+        "location": "First Morning at School",
         "scenes": [
             Scene(
-                description="Singapore school canteen interior, illustrated gouache style. Mei (11-year-old East Asian girl, short black bob, white blouse and navy pinafore, backpack, nervous expression) stands at counter with Priya (11-year-old South Asian girl, ponytail, same uniform, confident smile, holding green tray). Food display with chicken rice visible. Cream and teal color scheme, children's book illustration style.",
+                description="Empty classroom corner with desks, soft morning light. Standalone intro card with Chinese text '她叫美。' in elegant script. Cream and teal children's book style.",
                 dialogue=[
-                    ("narrator", "narrator", "Mei and Priya are at the canteen."),
-                    ("mei", "mei", "I want the chicken rice."),
-                    ("priya", "priya", "First, take a tray. You mean: I want chicken rice."),
+                    ("narrator", "mandarin", "她叫美。"),  # Standalone Mandarin intro beat
                 ],
-                chinese_caption='梅说"我要the鸡饭"，但这是第一次提到，不该用the。'
+                chinese_caption='她叫美。'
             ),
             Scene(
-                description="Canteen counter with fruit basket, illustrated. Apple and banana visible. Speech bubbles showing 'an apple' and 'a banana'. Simple, clear children's book style.",
+                description="Classroom interior, illustrated gouache style. Ms Tan (teacher, 40s, teal blouse, glasses, warm smile) at front. Mei (11-year-old East Asian girl, short black bob, white blouse and navy pinafore, nervous, standing) introduces herself. Priya (South Asian girl, ponytail, same uniform) sits nearby. Quiet, supportive classroom atmosphere. Other students listening attentively, no mockery.",
                 dialogue=[
-                    ("priya", "priya", "Use a if the next word starts with a consonant sound. Use an if it starts with a vowel sound."),
-                    ("narrator", "narrator", "An apple. A banana. It's the sound, not the letter."),
+                    ("ms_tan", "ms_tan", "Good morning, class. We have a new student today. Can you introduce yourself?"),
+                    ("mei", "mei", "I am student."),
+                    ("narrator", "narrator", "The room is quiet. Priya whispers kindly."),
+                    ("priya", "priya", "I am a student."),
                 ],
-                chinese_caption='下个词是元音发音用an，辅音发音用a。看发音不看字母。'
+                chinese_caption='梅说"I am student"，漏了a。教室安静，没人嘲笑。Priya小声提醒。'
             ),
             Scene(
-                description="Two trays side by side, illustrated. Left tray labeled 'a tray' (first time), right tray with arrow labeled 'the tray' (now specific). Visual comparison, cream and teal colors.",
+                description="School office Lost and Found counter, illustrated. Office auntie (50s, friendly) behind counter. Several water bottles on shelf - different colors. Mei looking worried. Priya standing supportively beside her.",
                 dialogue=[
-                    ("priya", "priya", "Is it specific? Both of us know which one? Use the. First time mentioning? Use a or an."),
-                    ("narrator", "narrator", "A tray when you first mention it. The tray when we both know which one."),
+                    ("narrator", "narrator", "Later, at the Lost and Found office."),
+                    ("mei", "mei", "Excuse me. I lost water bottle."),
+                    ("priya", "priya", "A water bottle. You need the article when you first mention it."),
                 ],
-                chinese_caption='特指（双方都知道）用the。首次提到用a或an。'
+                chinese_caption='梅说"I lost water bottle"。首次提到要用a。'
             ),
             Scene(
-                description="Bus stop with Mei waiting, illustrated gouache style. Bus approaching in background. Speech bubble: 'by bus' (no article). Morning light.",
+                description="Close-up of water bottle shelf with multiple bottles, then Mei spots one specific bottle - pink with a sticker. Speech bubble: 'the water bottle!' Recognition moment. Illustrated with warm colors.",
                 dialogue=[
-                    ("mei", "mei", "I go to school by bus."),
-                    ("priya", "priya", "Good! No article for transport: by bus, by train."),
+                    ("mei", "mei", "That's the water bottle! My mum's one, with the pink sticker."),
+                    ("narrator", "narrator", "Use 'the' when you and the listener both know which one."),
                 ],
-                chinese_caption='交通方式不用冠词：by bus, by MRT, by train。'
+                chinese_caption='认出妈妈的水瓶，用the（特指那一个）。'
             ),
             Scene(
-                description="School hallway, illustrated. Mei confident, pointing to herself. Speech bubble: 'I am a student'. Priya gives thumbs up. Homework card visible in corner.",
+                description="School gate, end of first day. Mei with backpack, Priya waving goodbye. Bus visible in background. Mei speaking confidently now. Warm afternoon light, positive atmosphere.",
                 dialogue=[
-                    ("mei", "mei", "I am a student! I go to school by bus!"),
-                    ("narrator", "narrator", "This week, your homework will practice articles. One step at a time."),
+                    ("mei", "mei", "I go to school by bus. I am a student. Thank you, Priya!"),
+                    ("narrator", "narrator", "This week, listen for a, an, the, and zero article. Articles matter when English matters."),
                 ],
-                chinese_caption='本周作业：练习冠词a/an/the和零冠词。一步一步来。'
+                chinese_caption='梅练习：by bus（零冠词），I am a student（用a）。本周作业会练习冠词。'
             ),
         ]
     },
