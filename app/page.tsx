@@ -1,6 +1,9 @@
 import Link from "next/link";
 
 export default function HomePage() {
+  const wechatId = process.env.NEXT_PUBLIC_WECHAT_ID;
+  const contactEmail = process.env.NEXT_PUBLIC_CONTACT_EMAIL;
+
   return (
     <>
       <a
@@ -11,7 +14,7 @@ export default function HomePage() {
       </a>
 
       <header className="sticky top-0 z-40 bg-paper/95 backdrop-blur-md border-b border-line">
-        <div className="max-w-7xl mx-auto px-4 min-h-14 flex items-center gap-3">
+        <div className="max-w-7xl mx-auto px-4 min-h-14 flex items-center gap-4 md:gap-6">
           <Link href="/" className="flex items-center gap-2.5 mr-auto">
             <svg className="w-8 h-8 text-accent flex-none" viewBox="0 0 32 32" aria-hidden="true">
               <rect x="1" y="1" width="30" height="30" rx="7" fill="none" stroke="currentColor" strokeWidth="1.5" />
@@ -23,44 +26,57 @@ export default function HomePage() {
               <span className="text-xs text-muted tracking-wider">SG SCHOOL ENTRY</span>
             </div>
           </Link>
+          <nav className="hidden md:flex items-center gap-6 text-sm">
+            <Link href="#paths" className="text-ink-2 hover:text-ink transition-colors font-medium">
+              路径
+            </Link>
+            <Link href="#ceq-course" className="text-ink-2 hover:text-ink transition-colors font-medium">
+              会员课程
+            </Link>
+            <Link href="#contact" className="text-ink-2 hover:text-ink transition-colors font-medium">
+              咨询
+            </Link>
+          </nav>
           <Link
             href="/learn"
-            className="inline-flex items-center justify-center gap-2 px-4 py-2 bg-accent text-accent-ink font-semibold rounded-full hover:bg-accent-hover transition-colors text-sm"
+            className="text-sm text-muted hover:text-ink transition-colors"
           >
-            登录做作业
+            登录
           </Link>
         </div>
       </header>
 
       <main id="main">
-        <section className="py-12 md:py-20">
+        <section className="py-16 md:py-24">
           <div className="max-w-7xl mx-auto px-4">
             <p className="text-xs font-semibold tracking-widest uppercase text-accent mb-3">
-              新加坡政府学校路径
+              升学工作室
             </p>
             <h1 className="font-serif font-semibold text-3xl md:text-5xl leading-tight tracking-tight mb-4 max-w-4xl">
-              帮中国家庭走通往新加坡政府学校的路
+              帮中国家庭走通新加坡政府学校路径
             </h1>
-            <p className="text-lg text-ink-2 mb-6 max-w-2xl">
-              我们是一间升学工作室，帮中国家庭走通新加坡政府学校路径。CEQ 英语门槛 → AEIS 数学 → AEIS 英语（中学），以及录取后的英语授课适应。小班直播课 + 每周作业 app，家长订阅，孩子登录做题。
+            <p className="text-lg text-ink-2 mb-3 max-w-2xl">
+              CEQ 英语门槛 → AEIS 数学与英语，以及录取后的英语授课适应。
+            </p>
+            <p className="text-base text-ink-2 mb-8 max-w-2xl">
+              小班直播课（最多 8 人）+ 每周作业 app。家长订阅，孩子登录做题。
             </p>
             <div className="flex flex-wrap gap-3 mb-6">
               <Link
-                href="/learn"
-                className="inline-flex items-center justify-center px-5 py-3 bg-accent text-accent-ink font-semibold rounded-full hover:bg-accent-hover transition-colors"
+                href="#contact"
+                className="inline-flex items-center justify-center px-6 py-3.5 bg-accent text-accent-ink font-semibold rounded-full hover:bg-accent-hover transition-colors text-base"
               >
-                登录做作业 · 试学一周
+                微信咨询 / 预约评估
               </Link>
               <Link
-                href="#ceq-course"
-                className="inline-flex items-center justify-center px-5 py-3 bg-transparent text-ink border border-line font-semibold rounded-full hover:border-ink-2 hover:bg-card transition-colors"
+                href="/learn"
+                className="inline-flex items-center justify-center px-6 py-3.5 bg-transparent text-ink border border-line font-semibold rounded-full hover:border-ink-2 hover:bg-card transition-colors text-base"
               >
-                查看 CEQ 课程
+                免费试学一周
               </Link>
             </div>
             <p className="text-sm text-muted max-w-2xl">
-              <strong className="text-ink-2 font-semibold">订阅模式：</strong>
-              月度会员或预付 12 周包。PayNow / 微信转账，报名以咨询确认为准。免费试学一周。录取不保证。非 MOE、SEAB、Cambridge 官方机构。
+              非 MOE、SEAB、Cambridge 官方机构 · 录取不保证 · 月度会员 S$320 或预付 12 周 A2 / B1 冲刺包 · PayNow / 微信转账
             </p>
           </div>
         </section>
@@ -254,31 +270,61 @@ export default function HomePage() {
 
         <section className="py-12 md:py-16 bg-paper" id="contact">
           <div className="max-w-2xl mx-auto px-4">
-            <h2 className="font-serif font-semibold text-2xl md:text-3xl mb-3">咨询</h2>
+            <h2 className="font-serif font-semibold text-2xl md:text-3xl mb-3">咨询与报名</h2>
             <p className="text-ink-2 mb-6">
-              家长咨询月度会员或 12 周预付包，说明孩子出生年份、拟申请学段（小学 P2–P5 或中学 Sec 1–3）。报名以咨询确认为准，付款通过 PayNow 或微信转账。
+              咨询月度会员或 12 周预付包，请说明孩子出生年份、拟申请学段（小学 P2–P5 或中学 Sec 1–3）。报名以咨询确认为准。
             </p>
             <div className="bg-card border border-line rounded-2xl p-6 shadow mb-6">
+              <h3 className="font-serif font-semibold text-lg mb-4 text-ink">添加顾问微信</h3>
               <p className="text-sm text-ink-2 mb-4">
-                <strong className="text-ink font-semibold">微信：</strong>
-                <code className="ml-2 px-2 py-1 bg-paper-2 rounded text-sm font-mono">
-                  your-wechat-id
-                </code>
+                {wechatId ? (
+                  <>
+                    <strong className="text-ink font-semibold">微信号：</strong>
+                    <code className="ml-2 px-2 py-1 bg-paper-2 rounded text-sm font-mono">
+                      {wechatId}
+                    </code>
+                  </>
+                ) : (
+                  <span className="text-ink-2">
+                    报名时向老师索取微信号，或通过下方邮件联系。
+                  </span>
+                )}
               </p>
-              <p className="text-sm text-ink-2">
-                <strong className="text-ink font-semibold">邮件：</strong>
-                <a
-                  href="mailto:hello@example.com"
-                  className="ml-2 text-accent hover:text-accent-hover underline"
-                >
-                  hello@example.com
-                </a>
-              </p>
+              {contactEmail && (
+                <p className="text-sm text-ink-2">
+                  <strong className="text-ink font-semibold">邮件：</strong>
+                  <a
+                    href={`mailto:${contactEmail}`}
+                    className="ml-2 text-accent hover:text-accent-hover underline"
+                  >
+                    {contactEmail}
+                  </a>
+                </p>
+              )}
+              <div className="mt-4 pt-4 border-t border-line">
+                <p className="text-sm text-ink-2">
+                  <strong className="text-ink font-semibold">付款方式：</strong>
+                  PayNow / 微信转账
+                </p>
+              </div>
             </div>
             <div className="bg-paper-2 border border-line rounded-xl p-5">
-              <p className="text-sm text-ink-2">
-                <strong className="text-ink font-semibold">试学：</strong>
-                家长可先让孩子试学一周（Week 0 试学周），免费体验作业 app。点击页面顶部「登录做作业」，使用 <code className="px-1.5 py-0.5 bg-card rounded text-xs font-mono">trial@sgschoolentry.local</code> / <code className="px-1.5 py-0.5 bg-card rounded text-xs font-mono">trial1234</code> 查看。订阅后解锁全部当前级别周数。
+              <h3 className="font-serif font-semibold text-base mb-2 text-ink">免费试学一周</h3>
+              <p className="text-sm text-ink-2 mb-3">
+                家长可先让孩子试学一周（Week 0 试学周），免费体验作业 app。点击页面顶部「登录」，使用试学账号查看：
+              </p>
+              <div className="bg-card rounded-lg p-3 text-sm">
+                <p className="text-ink-2 mb-1">
+                  <strong className="text-ink font-semibold">账号：</strong>
+                  <code className="ml-2 px-1.5 py-0.5 bg-paper-2 rounded text-xs font-mono">trial@sgschoolentry.local</code>
+                </p>
+                <p className="text-ink-2">
+                  <strong className="text-ink font-semibold">密码：</strong>
+                  <code className="ml-2 px-1.5 py-0.5 bg-paper-2 rounded text-xs font-mono">trial1234</code>
+                </p>
+              </div>
+              <p className="text-xs text-muted mt-3">
+                订阅后解锁全部当前级别周数。
               </p>
             </div>
           </div>
