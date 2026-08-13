@@ -1,0 +1,1080 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>狮城入学 · 新加坡政府学校 CEQ / AEIS 入学路径</title>
+  <meta name="description" content="狮城入学协助中国家庭走通往新加坡教育部政府学校的路径：小学先考剑桥英语资格考试（CEQ），再考 AEIS 数学；中学考 AEIS 英语与数学。录取不保证。非教育部、考评局或剑桥官方机构。">
+  <meta name="theme-color" content="#F4EFE6">
+  <meta name="format-detection" content="telephone=no">
+  <meta property="og:title" content="狮城入学 · 新加坡政府学校 CEQ / AEIS 入学路径">
+  <meta property="og:description" content="帮中国家庭走通往新加坡政府学校的路。CEQ、AEIS 数学、AEIS 英语，以及入学后的英语授课。">
+  <meta property="og:locale" content="zh_CN">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect fill='%23F4EFE6' width='32' height='32' rx='6'/%3E%3Cpath fill='none' stroke='%230E5852' stroke-width='2' d='M8 24V10h16v14'/%3E%3Cpath fill='none' stroke='%230E5852' stroke-width='2' d='M12 24V14h8v10'/%3E%3C/svg%3E">
+  <style>
+    :root {
+      --paper: #F4EFE6;
+      --paper-2: #EBE4D6;
+      --card: #FBF7F0;
+      --ink: #1C1915;
+      --ink-2: #3F3A33;
+      --muted: #6F675C;
+      --line: #D6CDBF;
+      --accent: #0E5852;
+      --accent-ink: #F4EFE6;
+      --accent-hover: #0A3F3B;
+      --warn-bg: #F3E6D4;
+      --warn-ink: #5C3D1E;
+      --ok: #0E5852;
+      --shadow: 0 1px 0 rgba(28, 25, 21, 0.04), 0 12px 32px rgba(28, 25, 21, 0.06);
+      --radius: 14px;
+      --sans: "PingFang SC", "Hiragino Sans GB", "Noto Sans SC", "Source Han Sans SC", "Microsoft YaHei", "Segoe UI", sans-serif;
+      --serif: "Songti SC", "STSong", "Noto Serif SC", "Source Han Serif SC", "Iowan Old Style", Georgia, serif;
+      --space: clamp(1.25rem, 4vw, 2.5rem);
+      --measure: 40rem;
+      --page: 72rem;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; }
+    html {
+      scroll-behavior: smooth;
+      -webkit-text-size-adjust: 100%;
+    }
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        transition-duration: 0.01ms !important;
+      }
+    }
+    body {
+      margin: 0;
+      font-family: var(--sans);
+      font-size: 1.0625rem;
+      line-height: 1.7;
+      color: var(--ink);
+      background: var(--paper);
+      text-rendering: optimizeLegibility;
+    }
+    img, svg { display: block; max-width: 100%; }
+    a { color: var(--accent); text-underline-offset: 0.18em; }
+    a:hover { color: var(--accent-hover); }
+    :focus-visible {
+      outline: 2px solid var(--accent);
+      outline-offset: 3px;
+    }
+    .skip {
+      position: absolute;
+      left: 0.75rem;
+      top: -3rem;
+      background: var(--ink);
+      color: var(--paper);
+      padding: 0.4rem 0.8rem;
+      z-index: 100;
+    }
+    .skip:focus { top: 0.75rem; }
+
+    .wrap {
+      width: min(100% - 2rem, var(--page));
+      margin-inline: auto;
+    }
+    .wrap-narrow { width: min(100% - 2rem, 42rem); margin-inline: auto; }
+
+    header.site {
+      position: sticky;
+      top: 0;
+      z-index: 40;
+      background: rgba(244, 239, 230, 0.94);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--line);
+    }
+    .header-inner {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      min-height: 3.5rem;
+      padding-block: 0.5rem;
+      padding-left: max(1rem, env(safe-area-inset-left));
+      padding-right: max(1rem, env(safe-area-inset-right));
+      width: min(100%, var(--page));
+      margin-inline: auto;
+    }
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 0.65rem;
+      text-decoration: none;
+      color: var(--ink);
+      min-width: 0;
+      margin-right: auto;
+    }
+    .mark {
+      width: 2rem;
+      height: 2rem;
+      flex: none;
+      color: var(--accent);
+    }
+    .wordmark {
+      display: flex;
+      flex-direction: column;
+      line-height: 1.15;
+      min-width: 0;
+    }
+    .wordmark strong {
+      font-family: var(--serif);
+      font-weight: 600;
+      font-size: 1.05rem;
+      letter-spacing: 0.04em;
+    }
+    .wordmark span {
+      font-size: 0.68rem;
+      color: var(--muted);
+      letter-spacing: 0.06em;
+      text-transform: none;
+    }
+    .lang {
+      display: inline-flex;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      overflow: hidden;
+      background: var(--card);
+      flex: none;
+    }
+    .lang button {
+      appearance: none;
+      border: 0;
+      background: transparent;
+      color: var(--muted);
+      font: inherit;
+      font-size: 0.8rem;
+      padding: 0.35rem 0.65rem;
+      cursor: pointer;
+      min-height: 2.25rem;
+    }
+    .lang button[aria-pressed="true"] {
+      background: var(--ink);
+      color: var(--paper);
+    }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.4rem;
+      text-decoration: none;
+      border: 0;
+      cursor: pointer;
+      font: inherit;
+      font-weight: 600;
+      border-radius: 999px;
+      padding: 0.7rem 1.15rem;
+      min-height: 2.75rem;
+      transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+    }
+    .btn-accent {
+      background: var(--accent);
+      color: var(--accent-ink);
+    }
+    .btn-accent:hover { background: var(--accent-hover); color: var(--accent-ink); }
+    .btn-ghost {
+      background: transparent;
+      color: var(--ink);
+      border: 1px solid var(--line);
+    }
+    .btn-ghost:hover { border-color: var(--ink-2); background: var(--card); color: var(--ink); }
+    .btn-sm { padding: 0.45rem 0.9rem; min-height: 2.35rem; font-size: 0.9rem; }
+    header .consult { flex: none; }
+
+    .hero {
+      padding: clamp(2.25rem, 8vw, 5rem) 0 clamp(2rem, 6vw, 3.5rem);
+    }
+    .kicker {
+      display: inline-block;
+      font-size: 0.78rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--accent);
+      font-weight: 600;
+      margin: 0 0 0.85rem;
+    }
+    .hero h1 {
+      font-family: var(--serif);
+      font-weight: 600;
+      font-size: clamp(1.85rem, 6.4vw, 3.15rem);
+      line-height: 1.22;
+      letter-spacing: 0.01em;
+      margin: 0 0 1rem;
+      max-width: 16em;
+    }
+    .lede {
+      font-size: 1.08rem;
+      color: var(--ink-2);
+      max-width: 38rem;
+      margin: 0 0 1.5rem;
+    }
+    .hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.65rem;
+      margin-bottom: 1.5rem;
+    }
+    .note {
+      font-size: 0.92rem;
+      color: var(--muted);
+      max-width: 40rem;
+      margin: 0;
+    }
+    .note strong { color: var(--ink-2); font-weight: 600; }
+
+    .band {
+      padding: var(--space) 0;
+    }
+    .band-alt { background: var(--paper-2); }
+    h2 {
+      font-family: var(--serif);
+      font-size: clamp(1.45rem, 4vw, 2rem);
+      line-height: 1.3;
+      font-weight: 600;
+      margin: 0 0 0.5rem;
+    }
+    .section-lead {
+      color: var(--ink-2);
+      margin: 0 0 1.5rem;
+      max-width: 40rem;
+    }
+
+    .paths {
+      display: grid;
+      gap: 1rem;
+    }
+    @media (min-width: 800px) {
+      .paths { grid-template-columns: 1fr 1fr; gap: 1.25rem; }
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      padding: 1.25rem 1.2rem 1.35rem;
+      box-shadow: var(--shadow);
+    }
+    .card h3 {
+      font-family: var(--serif);
+      font-size: 1.35rem;
+      margin: 0 0 0.35rem;
+    }
+    .card .tag {
+      display: inline-block;
+      font-size: 0.72rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--accent);
+      font-weight: 700;
+      margin-bottom: 0.35rem;
+    }
+    .card p { margin: 0 0 1rem; color: var(--ink-2); }
+    .card ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+    .card li {
+      position: relative;
+      padding: 0.55rem 0 0.55rem 1.15rem;
+      border-top: 1px solid var(--line);
+      color: var(--ink-2);
+      font-size: 0.98rem;
+    }
+    .card li::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 1.05rem;
+      width: 0.45rem;
+      height: 0.45rem;
+      border-radius: 50%;
+      background: var(--accent);
+    }
+
+    .flow {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 0.4rem;
+      margin: 0 0 1.1rem;
+    }
+    .pill {
+      background: var(--paper-2);
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      padding: 0.35rem 0.75rem;
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: var(--ink);
+    }
+    .flow .plus, .flow .arrow {
+      color: var(--muted);
+      font-size: 0.85rem;
+    }
+
+    .cta-panel {
+      display: grid;
+      gap: 1rem;
+    }
+    @media (min-width: 720px) {
+      .cta-panel { grid-template-columns: 1.3fr 1fr; align-items: start; }
+    }
+    .official-list {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    .official-list li {
+      border-top: 1px solid var(--line);
+      padding: 0.65rem 0;
+    }
+    .official-list a { font-weight: 600; }
+    .badge {
+      display: inline-block;
+      font-size: 0.68rem;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      color: var(--accent);
+      border: 1px solid #8AA9A4;
+      border-radius: 4px;
+      padding: 0.08rem 0.35rem;
+      margin-right: 0.4rem;
+      vertical-align: 0.08em;
+    }
+
+    .help-grid {
+      display: grid;
+      gap: 0.85rem;
+    }
+    @media (min-width: 720px) {
+      .help-grid { grid-template-columns: 1fr 1fr; }
+    }
+    .help-item {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      padding: 1.1rem 1.15rem 1.2rem;
+    }
+    .help-item.secondary {
+      grid-column: 1 / -1;
+      background: transparent;
+      border-style: dashed;
+    }
+    .num {
+      font-family: var(--serif);
+      color: var(--accent);
+      font-size: 0.85rem;
+      letter-spacing: 0.08em;
+      margin: 0 0 0.3rem;
+    }
+    .help-item h3 {
+      margin: 0 0 0.4rem;
+      font-size: 1.12rem;
+    }
+    .help-item p { margin: 0; color: var(--ink-2); font-size: 0.98rem; }
+
+    .callout {
+      background: var(--warn-bg);
+      color: var(--warn-ink);
+      border-radius: var(--radius);
+      padding: 1rem 1.1rem;
+      margin: 1rem 0 0;
+      font-size: 0.95rem;
+    }
+    .callout strong { color: var(--ink); }
+
+    .timeline {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      border-left: 2px solid var(--line);
+    }
+    .timeline li {
+      position: relative;
+      padding: 0 0 1.35rem 1.35rem;
+    }
+    .timeline li:last-child { padding-bottom: 0; }
+    .timeline li::before {
+      content: "";
+      position: absolute;
+      left: -0.42rem;
+      top: 0.45rem;
+      width: 0.7rem;
+      height: 0.7rem;
+      border-radius: 50%;
+      background: var(--paper);
+      border: 2px solid var(--accent);
+    }
+    .timeline h3 {
+      margin: 0 0 0.2rem;
+      font-size: 1.05rem;
+    }
+    .timeline p { margin: 0; color: var(--ink-2); font-size: 0.95rem; }
+
+    .faq details {
+      border-bottom: 1px solid var(--line);
+      padding: 0.85rem 0;
+    }
+    .faq summary {
+      cursor: pointer;
+      font-weight: 600;
+      list-style: none;
+      display: flex;
+      justify-content: space-between;
+      gap: 1rem;
+      align-items: baseline;
+    }
+    .faq summary::-webkit-details-marker { display: none; }
+    .faq summary::after {
+      content: "+";
+      color: var(--accent);
+      font-weight: 500;
+      font-size: 1.25rem;
+      line-height: 1;
+    }
+    .faq details[open] summary::after { content: "–"; }
+    .faq .a {
+      color: var(--ink-2);
+      margin: 0.7rem 0 0.3rem;
+      max-width: 42rem;
+    }
+
+    form.consult-form {
+      display: grid;
+      gap: 0.9rem;
+    }
+    label {
+      display: grid;
+      gap: 0.3rem;
+      font-size: 0.88rem;
+      font-weight: 600;
+      color: var(--ink-2);
+    }
+    input, select, textarea {
+      font: inherit;
+      font-size: 16px;
+      font-weight: 400;
+      color: var(--ink);
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      padding: 0.7rem 0.8rem;
+      width: 100%;
+      min-height: 2.85rem;
+    }
+    input:focus, select:focus, textarea:focus {
+      outline: 2px solid var(--accent);
+      outline-offset: 1px;
+      border-color: var(--accent);
+    }
+    .form-row {
+      display: grid;
+      gap: 0.9rem;
+    }
+    @media (min-width: 560px) {
+      .form-row { grid-template-columns: 1fr 1fr; }
+    }
+    .thanks {
+      display: none;
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      padding: 1.25rem 1.2rem;
+    }
+    .thanks.show { display: block; }
+    .thanks h3 { margin: 0 0 0.4rem; font-family: var(--serif); }
+    .wechat {
+      margin-top: 1.1rem;
+      color: var(--ink-2);
+      font-size: 0.95rem;
+    }
+    .wechat code {
+      font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+      background: var(--paper-2);
+      padding: 0.1rem 0.35rem;
+      border-radius: 4px;
+      color: var(--ink);
+    }
+
+    footer.site {
+      border-top: 1px solid var(--line);
+      padding: 2rem 0 calc(2.5rem + env(safe-area-inset-bottom));
+      color: var(--muted);
+      font-size: 0.88rem;
+    }
+    footer .legal {
+      color: var(--ink-2);
+      max-width: 46rem;
+      margin: 0 0 1rem;
+    }
+    footer .meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.4rem 1.1rem;
+      margin: 0;
+    }
+    footer .meta a { color: var(--muted); }
+
+    .visually-hidden {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap;
+      border: 0;
+    }
+  </style>
+</head>
+<body>
+  <a class="skip" href="#main" data-i18n="skip">跳到正文</a>
+
+  <header class="site">
+    <div class="header-inner">
+      <a class="brand" href="#top">
+        <svg class="mark" viewBox="0 0 32 32" aria-hidden="true">
+          <rect x="1" y="1" width="30" height="30" rx="7" fill="none" stroke="currentColor" stroke-width="1.5"/>
+          <path d="M8 24V11h16v13" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/>
+          <path d="M13 24V15h6v9" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/>
+        </svg>
+        <span class="wordmark">
+          <strong data-i18n="brandZh">狮城入学</strong>
+          <span data-i18n="brandEn">SG School Entry</span>
+        </span>
+      </a>
+      <div class="lang" role="group" aria-label="Language">
+        <button type="button" id="btn-zh" aria-pressed="true">中文</button>
+        <button type="button" id="btn-en" aria-pressed="false">EN</button>
+      </div>
+      <a class="btn btn-accent btn-sm consult" href="#contact" data-i18n="navConsult">咨询</a>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="wrap">
+        <p class="kicker" data-i18n="kicker">新加坡政府学校路径</p>
+        <h1 data-i18n="heroTitle">帮中国家庭走通往新加坡政府学校的路</h1>
+        <p class="lede" data-i18n="heroLede">CEQ、AEIS 数学、AEIS 英语，以及入学后的英语授课。我们先把该考的三门说清楚，再谈进校之后怎么跟上全英文课堂。</p>
+        <div class="hero-actions">
+          <a class="btn btn-accent" href="#paths" data-i18n="ctaPaths">看小学与中学路径</a>
+          <a class="btn btn-ghost" href="https://www.moe.gov.sg/international-students/aeis/eligibility-criteria" rel="noopener noreferrer" target="_blank" data-i18n="ctaOfficial">官方资格查询</a>
+        </div>
+        <p class="note" data-i18n="heroNote">面向拟入读新加坡教育部（MOE）政府小学 P2–P5、中学 Sec 1–3 的中国家长与学生。录取不保证。本站与教育部、考评局、剑桥均无隶属关系。</p>
+      </div>
+    </section>
+
+    <section class="band" id="paths">
+      <div class="wrap">
+        <h2 data-i18n="pathsTitle">小学一条路，中学另一条</h2>
+        <p class="section-lead" data-i18n="pathsLead">学段不同，考试组合就不同。不要用中学的办法去准备小学，也不要把科学当成 AEIS 科目。</p>
+        <div class="paths">
+          <article class="card">
+            <p class="tag" data-i18n="priTag">Primary · P2–P5</p>
+            <h3 data-i18n="priTitle">小学路径</h3>
+            <p data-i18n="priIntro">先过英语门槛，再在新加坡考 AEIS 数学。小学 AEIS 不另考英语卷，英语能力由 CEQ 证明。</p>
+            <div class="flow" aria-hidden="true">
+              <span class="pill" data-i18n="priPill1">CEQ</span>
+              <span class="arrow">→</span>
+              <span class="pill" data-i18n="priPill2">AEIS 数学</span>
+              <span class="arrow">→</span>
+              <span class="pill" data-i18n="priPill3">视空缺派位</span>
+            </div>
+            <ul>
+              <li data-i18n="priLi1">英语：剑桥英语资格考试（Cambridge English Qualifications, CEQ）。P2–P4 一般对应 A2 Key for Schools；P5 一般对应 B1 Preliminary for Schools。</li>
+              <li data-i18n="priLi2">CEQ 须在提交 AEIS / S-AEIS 申请前 12 个月内取得。提供成绩单 PDF（Statement of Results）即可，不必等待纸质证书。</li>
+              <li data-i18n="priLi3">数学：赴新加坡参加 AEIS 数学。考试地点与场次以教育部公布为准。</li>
+              <li data-i18n="priLi4">科学不是 AEIS 试卷。政府小学各科以英语授课，科学准备放在录取之后。</li>
+            </ul>
+          </article>
+          <article class="card">
+            <p class="tag" data-i18n="secTag">Secondary · Sec 1–3</p>
+            <h3 data-i18n="secTitle">中学路径</h3>
+            <p data-i18n="secIntro">AEIS 英语与 AEIS 数学两科都要考。中学路径不要求 CEQ。</p>
+            <div class="flow" aria-hidden="true">
+              <span class="pill" data-i18n="secPill1">AEIS 英语</span>
+              <span class="plus">+</span>
+              <span class="pill" data-i18n="secPill2">AEIS 数学</span>
+              <span class="arrow">→</span>
+              <span class="pill" data-i18n="secPill3">视空缺派位</span>
+            </div>
+            <ul>
+              <li data-i18n="secLi1">英语、数学均在新加坡参加 AEIS（或后续的 S-AEIS，如当年开放）。</li>
+              <li data-i18n="secLi2">不要求提交剑桥英语资格考试（CEQ）。</li>
+              <li data-i18n="secLi3">科学及其他英语授课科目不是 AEIS 考试范围。部分预备课程会按教育部大纲教科学，那是入学后的适应，不能替代 AEIS。</li>
+              <li data-i18n="secLi4">派位取决于考试表现、学位空缺与申报居住区域，不是交了申请就会有学位。</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="band band-alt" id="eligibility">
+      <div class="wrap">
+        <h2 data-i18n="eligTitle">先核对官方资格，再谈备考</h2>
+        <p class="section-lead" data-i18n="eligLead">年龄、可申请学段，请用教育部的查询工具自行核对。我们不转载 CES 分数线或截止对照表——那些以官网当时公布为准。</p>
+        <div class="cta-panel">
+          <div>
+            <a class="btn btn-accent" href="https://www.moe.gov.sg/international-students/aeis/eligibility-criteria" rel="noopener noreferrer" target="_blank" data-i18n="eligBtn">打开教育部资格查询</a>
+            <p class="note" style="margin-top:1rem" data-i18n="dateNote">日期请以教育部官网为准。截至 2026 年 8 月：2026 年 AEIS 申请已经截止，考试安排在 2026 年 9 月 1–3 日于新加坡举行。S-AEIS 及之后场次，一律以官网最新公告为准。</p>
+            <p class="callout" data-i18n="permitNote"><strong>入境与准考不是一回事。</strong>教育部不会仅为参加 AEIS 而签发入境许可。AEIS 报名或准考证也不是移民与关卡局（ICA）的通行证。赴新考试的签证与行程，须自行依法安排。</p>
+          </div>
+          <div class="card" style="box-shadow:none">
+            <h3 style="font-size:1.05rem;margin-bottom:0.65rem" data-i18n="linksTitle">官方链接</h3>
+            <ul class="official-list">
+              <li><span class="badge" data-i18n="official">官方</span><a href="https://www.moe.gov.sg/international-students/aeis" rel="noopener noreferrer" target="_blank" data-i18n="linkAeis">AEIS 说明（教育部）</a></li>
+              <li><span class="badge" data-i18n="official">官方</span><a href="https://www.moe.gov.sg/international-students/aeis/eligibility-criteria" rel="noopener noreferrer" target="_blank" data-i18n="linkElig">AEIS 资格查询</a></li>
+              <li><span class="badge" data-i18n="official">官方</span><a href="https://www.moe.gov.sg/international-students/s-aeis/eligibility-criteria" rel="noopener noreferrer" target="_blank" data-i18n="linkSaeis">S-AEIS 资格查询</a></li>
+              <li><span class="badge" data-i18n="official">官方</span><a href="https://www.seab.gov.sg/aeis/about-aeis/" rel="noopener noreferrer" target="_blank" data-i18n="linkSeab">AEIS 考试说明（考评局）</a></li>
+              <li><span class="badge" data-i18n="official">官方</span><a href="https://www.assessment.sg/" rel="noopener noreferrer" target="_blank" data-i18n="linkCeq">剑桥英语考试（新加坡考点相关）</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="band" id="help">
+      <div class="wrap">
+        <h2 data-i18n="helpTitle">我们具体帮什么</h2>
+        <p class="section-lead" data-i18n="helpLead">对外只强调三门考试。科学与其他英语授课科目，是录取之后的事，放在后面说清楚，避免家长一开始就备错科目。</p>
+        <div class="help-grid">
+          <article class="help-item">
+            <p class="num">01</p>
+            <h3 data-i18n="help1Title">CEQ · 小学英语门槛</h3>
+            <p data-i18n="help1Body">剑桥英语资格考试是小学国际学生常见的英语门槛。级别按拟入学段选择（P2–P4 多为 A2 Key for Schools，P5 多为 B1 Preliminary for Schools）。可在授权考点报考，不必为了 CEQ 先到新加坡。</p>
+          </article>
+          <article class="help-item">
+            <p class="num">02</p>
+            <h3 data-i18n="help2Title">AEIS 数学</h3>
+            <p data-i18n="help2Body">小学、中学路径都要面对的核心试卷。考查与新加坡学校数学接近的内容与表达方式。考试在新加坡举行。</p>
+          </article>
+          <article class="help-item">
+            <p class="num">03</p>
+            <h3 data-i18n="help3Title">AEIS 英语（中学）</h3>
+            <p data-i18n="help3Body">中学申请者须考 AEIS 英语。小学申请者一般不以 AEIS 英语卷作为门槛，而是提交符合要求的 CEQ 成绩。</p>
+          </article>
+          <article class="help-item secondary">
+            <p class="num">04 · <span data-i18n="help4Label">入学之后</span></p>
+            <h3 data-i18n="help4Title">英语授课的科学与其他科目</h3>
+            <p data-i18n="help4Body">新加坡政府学校各科以英语授课。科学不是 AEIS 科目，也没有「AEIS 科学卷」。有的预备学校会按教育部大纲提前教科学，那是为入学后适应课堂，不能代替 CEQ 或 AEIS，也不能提高录取概率的官方权重。我们把这项放在录取之后再安排。</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="band band-alt" id="timeline">
+      <div class="wrap-narrow">
+        <h2 data-i18n="timeTitle">一条简单的时间线</h2>
+        <p class="section-lead" data-i18n="timeLead">实际开放日、考期、成绩公布都以教育部与考评局公告为准。下面只说明先后顺序，不是当年日历。</p>
+        <ol class="timeline">
+          <li>
+            <h3 data-i18n="t1Title">核对资格</h3>
+            <p data-i18n="t1Body">用教育部官方工具核对孩子出生日期对应的可申请学段。不符就不要强行报名。</p>
+          </li>
+          <li>
+            <h3 data-i18n="t2Title">小学：先考 CEQ</h3>
+            <p data-i18n="t2Body">成绩须落在提交 AEIS / S-AEIS 申请前的 12 个月内。成绩单 PDF 即可。</p>
+          </li>
+          <li>
+            <h3 data-i18n="t3Title">在官网提交申请</h3>
+            <p data-i18n="t3Body">AEIS 为主轮，S-AEIS 为可能开放的补轮。开放窗口短，材料以官网清单为准。</p>
+          </li>
+          <li>
+            <h3 data-i18n="t4Title">赴新加坡参加 AEIS</h3>
+            <p data-i18n="t4Body">小学考数学；中学考英语与数学。须自行安排合法入境。教育部不为考试签发入境许可。</p>
+          </li>
+          <li>
+            <h3 data-i18n="t5Title">等待派位</h3>
+            <p data-i18n="t5Body">通过考试不等于有学位。派位还看空缺与申报居住区域。未获派位不保证下一轮。</p>
+          </li>
+          <li>
+            <h3 data-i18n="t6Title">入学后跟上全英文课堂</h3>
+            <p data-i18n="t6Body">科学、人文等科目此时才成为日常。需要的话，再做英语授课适应，而不是把它们提前当成入学考试。</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="band" id="faq">
+      <div class="wrap-narrow">
+        <h2 data-i18n="faqTitle">常见问题</h2>
+        <div class="faq">
+          <details>
+            <summary data-i18n="q1">CEQ 和 AEIS 有什么不同？</summary>
+            <p class="a" data-i18n="a1">CEQ 是剑桥英语资格考试，用来证明英语水平；对小学国际学生而言，它通常是申请 AEIS / S-AEIS 前的英语门槛。AEIS 是教育部面向国际学生的入学编班考试：小学主要考数学，中学考英语和数学。两套考试机构、用途、地点都不一样，不能互相替代。</p>
+          </details>
+          <details>
+            <summary data-i18n="q2">一定要来新加坡考试吗？</summary>
+            <p class="a" data-i18n="a2">CEQ 可在剑桥授权考点参加，不必为了考 CEQ 先入境新加坡。AEIS 与 S-AEIS 在新加坡举行，需要本人到场。教育部不为参加考试签发入境许可，准考证也不是 ICA 通行证。能否成行，取决于你为孩子安排的合法入境条件，而不是报名成功与否。</p>
+          </details>
+          <details>
+            <summary data-i18n="q3">考试通过就会被录取吗？</summary>
+            <p class="a" data-i18n="a3">不会保证。录取与派位取决于考试表现、当年学位空缺，以及申报的居住区域。即使达到考试要求，也可能没有合适学位。任何「包过」「内定学校」的说法都不可信。我们也不编造通过率或名额。</p>
+          </details>
+          <details>
+            <summary data-i18n="q4">小学和中学差别在哪？</summary>
+            <p class="a" data-i18n="a4">小学：先提交符合学段要求的 CEQ（常见为 A2 Key for Schools 或 B1 Preliminary for Schools，且在申请前 12 个月内），再考 AEIS 数学。中学：不要求 CEQ，须考 AEIS 英语与 AEIS 数学。可申请的具体年级以教育部资格查询为准，不要用口口相传的年龄表代替官网。</p>
+          </details>
+          <details>
+            <summary data-i18n="q5">进了政府学校，科目是全英文的吗？</summary>
+            <p class="a" data-i18n="a5">是。新加坡政府学校以英语为主要教学媒介，数学、科学和其他科目都用英语上课（母语课除外）。所以英语能力不只是「过门槛」，入学后每天都要用。科学仍不是 AEIS 科目：没有科学试卷可用来换取入学资格。</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="band band-alt" id="contact">
+      <div class="wrap-narrow">
+        <h2 data-i18n="contactTitle">咨询</h2>
+        <p class="section-lead" data-i18n="contactLead">留下称呼与联系方式。本页没有后台服务器，提交后只会在本机显示确认。若要立刻联系，请加微信。</p>
+        <form class="consult-form" id="consult-form" action="#" method="post">
+          <div class="form-row">
+            <label>
+              <span data-i18n="fName">家长称呼</span>
+              <input type="text" name="name" required maxlength="80" autocomplete="name" data-i18n-placeholder="phName" placeholder="例如：王女士">
+            </label>
+            <label>
+              <span data-i18n="fWechat">微信或手机</span>
+              <input type="text" name="contact" required maxlength="80" autocomplete="tel" data-i18n-placeholder="phWechat" placeholder="微信号或手机号">
+            </label>
+          </div>
+          <div class="form-row">
+            <label>
+              <span data-i18n="fYear">孩子出生年份</span>
+              <select name="year" id="year" required>
+              <option value="" data-i18n="yearAny">年份</option>
+              <option value="2019">2019</option>
+              <option value="2018">2018</option>
+              <option value="2017">2017</option>
+              <option value="2016">2016</option>
+              <option value="2015">2015</option>
+              <option value="2014">2014</option>
+              <option value="2013">2013</option>
+              <option value="2012">2012</option>
+              <option value="2011">2011</option>
+              <option value="2010">2010</option>
+              <option value="2009">2009</option>
+              <option value="2008">2008</option>
+            </select>
+            </label>
+            <label>
+              <span data-i18n="fTrack">拟申请学段</span>
+              <select name="track" required>
+                <option value="" data-i18n="optPick">请选择</option>
+                <option value="primary" data-i18n="optPri">小学（P2–P5）</option>
+                <option value="secondary" data-i18n="optSec">中学（Sec 1–3）</option>
+              </select>
+            </label>
+          </div>
+          <button class="btn btn-accent" type="submit" data-i18n="fSubmit">提交</button>
+        </form>
+        <div class="thanks" id="thanks" role="status">
+          <h3 data-i18n="tyTitle">已记下，谢谢。</h3>
+          <p data-i18n="tyBody">这条信息只显示在您的浏览器里，没有发到服务器。若希望我们联系您，请通过微信或下方邮箱主动发一条，并简单说明孩子出生年份与小学/中学。</p>
+        </div>
+        <p class="wechat">
+          <span data-i18n="wxLabel">微信</span>：<code>your-wechat-id</code>
+          · <a href="mailto:hello@example.com" data-i18n="emailLabel">发邮件</a>
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site">
+    <div class="wrap">
+      <p class="legal" data-i18n="footerLegal">狮城入学（SG School Entry）与新加坡教育部（MOE）、新加坡考试与评鉴局（SEAB）、剑桥大学英语考评部（Cambridge English）均无隶属、授权或官方合作关系。本站不使用新加坡狮头国家标志，也不使用上述机构的标识。页面内容仅为路径说明，不构成录取、派位、签证或入境方面的承诺或法律意见。入学资格、考期、规则一律以各机构官网为准。</p>
+      <p class="meta">
+        <span data-i18n="footerBrand">狮城入学 · SG School Entry</span>
+        <a href="https://www.moe.gov.sg/international-students/aeis" rel="noopener noreferrer" target="_blank">MOE AEIS</a>
+        <a href="https://www.seab.gov.sg/aeis/about-aeis/" rel="noopener noreferrer" target="_blank">SEAB</a>
+        <a href="https://www.assessment.sg/" rel="noopener noreferrer" target="_blank">assessment.sg</a>
+      </p>
+    </div>
+  </footer>
+
+  <script>
+    const COPY = {
+      "zh-CN": {
+        skip: "跳到正文",
+        brandZh: "狮城入学",
+        brandEn: "SG School Entry",
+        navConsult: "咨询",
+        kicker: "新加坡政府学校路径",
+        heroTitle: "帮中国家庭走通往新加坡政府学校的路",
+        heroLede: "CEQ、AEIS 数学、AEIS 英语，以及入学后的英语授课。我们先把该考的三门说清楚，再谈进校之后怎么跟上全英文课堂。",
+        ctaPaths: "看小学与中学路径",
+        ctaOfficial: "官方资格查询",
+        heroNote: "面向拟入读新加坡教育部（MOE）政府小学 P2–P5、中学 Sec 1–3 的中国家长与学生。录取不保证。本站与教育部、考评局、剑桥均无隶属关系。",
+        pathsTitle: "小学一条路，中学另一条",
+        pathsLead: "学段不同，考试组合就不同。不要用中学的办法去准备小学，也不要把科学当成 AEIS 科目。",
+        priTag: "小学 · P2–P5",
+        priTitle: "小学路径",
+        priIntro: "先过英语门槛，再在新加坡考 AEIS 数学。小学 AEIS 不另考英语卷，英语能力由 CEQ 证明。",
+        priPill1: "CEQ",
+        priPill2: "AEIS 数学",
+        priPill3: "视空缺派位",
+        priLi1: "英语：剑桥英语资格考试（Cambridge English Qualifications, CEQ）。P2–P4 一般对应 A2 Key for Schools；P5 一般对应 B1 Preliminary for Schools。",
+        priLi2: "CEQ 须在提交 AEIS / S-AEIS 申请前 12 个月内取得。提供成绩单 PDF（Statement of Results）即可，不必等待纸质证书。",
+        priLi3: "数学：赴新加坡参加 AEIS 数学。考试地点与场次以教育部公布为准。",
+        priLi4: "科学不是 AEIS 试卷。政府小学各科以英语授课，科学准备放在录取之后。",
+        secTag: "中学 · Sec 1–3",
+        secTitle: "中学路径",
+        secIntro: "AEIS 英语与 AEIS 数学两科都要考。中学路径不要求 CEQ。",
+        secPill1: "AEIS 英语",
+        secPill2: "AEIS 数学",
+        secPill3: "视空缺派位",
+        secLi1: "英语、数学均在新加坡参加 AEIS（或后续的 S-AEIS，如当年开放）。",
+        secLi2: "不要求提交剑桥英语资格考试（CEQ）。",
+        secLi3: "科学及其他英语授课科目不是 AEIS 考试范围。部分预备课程会按教育部大纲教科学，那是入学后的适应，不能替代 AEIS。",
+        secLi4: "派位取决于考试表现、学位空缺与申报居住区域，不是交了申请就会有学位。",
+        eligTitle: "先核对官方资格，再谈备考",
+        eligLead: "年龄、可申请学段，请用教育部的查询工具自行核对。我们不转载 CES 分数线或截止对照表——那些以官网当时公布为准。",
+        eligBtn: "打开教育部资格查询",
+        dateNote: "日期请以教育部官网为准。截至 2026 年 8 月：2026 年 AEIS 申请已经截止，考试安排在 2026 年 9 月 1–3 日于新加坡举行。S-AEIS 及之后场次，一律以官网最新公告为准。",
+        permitNote: "入境与准考不是一回事。教育部不会仅为参加 AEIS 而签发入境许可。AEIS 报名或准考证也不是移民与关卡局（ICA）的通行证。赴新考试的签证与行程，须自行依法安排。",
+        linksTitle: "官方链接",
+        official: "官方",
+        linkAeis: "AEIS 说明（教育部）",
+        linkElig: "AEIS 资格查询",
+        linkSaeis: "S-AEIS 资格查询",
+        linkSeab: "AEIS 考试说明（考评局）",
+        linkCeq: "剑桥英语考试（新加坡考点相关）",
+        helpTitle: "我们具体帮什么",
+        helpLead: "对外只强调三门考试。科学与其他英语授课科目，是录取之后的事，放在后面说清楚，避免家长一开始就备错科目。",
+        help1Title: "CEQ · 小学英语门槛",
+        help1Body: "剑桥英语资格考试是小学国际学生常见的英语门槛。级别按拟入学段选择（P2–P4 多为 A2 Key for Schools，P5 多为 B1 Preliminary for Schools）。可在授权考点报考，不必为了 CEQ 先到新加坡。",
+        help2Title: "AEIS 数学",
+        help2Body: "小学、中学路径都要面对的核心试卷。考查与新加坡学校数学接近的内容与表达方式。考试在新加坡举行。",
+        help3Title: "AEIS 英语（中学）",
+        help3Body: "中学申请者须考 AEIS 英语。小学申请者一般不以 AEIS 英语卷作为门槛，而是提交符合要求的 CEQ 成绩。",
+        help4Label: "入学之后",
+        help4Title: "英语授课的科学与其他科目",
+        help4Body: "新加坡政府学校各科以英语授课。科学不是 AEIS 科目，也没有「AEIS 科学卷」。有的预备学校会按教育部大纲提前教科学，那是为入学后适应课堂，不能代替 CEQ 或 AEIS，也不能提高录取概率的官方权重。我们把这项放在录取之后再安排。",
+        timeTitle: "一条简单的时间线",
+        timeLead: "实际开放日、考期、成绩公布都以教育部与考评局公告为准。下面只说明先后顺序，不是当年日历。",
+        t1Title: "核对资格",
+        t1Body: "用教育部官方工具核对孩子出生日期对应的可申请学段。不符就不要强行报名。",
+        t2Title: "小学：先考 CEQ",
+        t2Body: "成绩须落在提交 AEIS / S-AEIS 申请前的 12 个月内。成绩单 PDF 即可。",
+        t3Title: "在官网提交申请",
+        t3Body: "AEIS 为主轮，S-AEIS 为可能开放的补轮。开放窗口短，材料以官网清单为准。",
+        t4Title: "赴新加坡参加 AEIS",
+        t4Body: "小学考数学；中学考英语与数学。须自行安排合法入境。教育部不为考试签发入境许可。",
+        t5Title: "等待派位",
+        t5Body: "通过考试不等于有学位。派位还看空缺与申报居住区域。未获派位不保证下一轮。",
+        t6Title: "入学后跟上全英文课堂",
+        t6Body: "科学、人文等科目此时才成为日常。需要的话，再做英语授课适应，而不是把它们提前当成入学考试。",
+        faqTitle: "常见问题",
+        q1: "CEQ 和 AEIS 有什么不同？",
+        a1: "CEQ 是剑桥英语资格考试，用来证明英语水平；对小学国际学生而言，它通常是申请 AEIS / S-AEIS 前的英语门槛。AEIS 是教育部面向国际学生的入学编班考试：小学主要考数学，中学考英语和数学。两套考试机构、用途、地点都不一样，不能互相替代。",
+        q2: "一定要来新加坡考试吗？",
+        a2: "CEQ 可在剑桥授权考点参加，不必为了考 CEQ 先入境新加坡。AEIS 与 S-AEIS 在新加坡举行，需要本人到场。教育部不为参加考试签发入境许可，准考证也不是 ICA 通行证。能否成行，取决于你为孩子安排的合法入境条件，而不是报名成功与否。",
+        q3: "考试通过就会被录取吗？",
+        a3: "不会保证。录取与派位取决于考试表现、当年学位空缺，以及申报的居住区域。即使达到考试要求，也可能没有合适学位。任何「包过」「内定学校」的说法都不可信。我们也不编造通过率或名额。",
+        q4: "小学和中学差别在哪？",
+        a4: "小学：先提交符合学段要求的 CEQ（常见为 A2 Key for Schools 或 B1 Preliminary for Schools，且在申请前 12 个月内），再考 AEIS 数学。中学：不要求 CEQ，须考 AEIS 英语与 AEIS 数学。可申请的具体年级以教育部资格查询为准，不要用口口相传的年龄表代替官网。",
+        q5: "进了政府学校，科目是全英文的吗？",
+        a5: "是。新加坡政府学校以英语为主要教学媒介，数学、科学和其他科目都用英语上课（母语课除外）。所以英语能力不只是「过门槛」，入学后每天都要用。科学仍不是 AEIS 科目：没有科学试卷可用来换取入学资格。",
+        contactTitle: "咨询",
+        contactLead: "留下称呼与联系方式。本页没有后台服务器，提交后只会在本机显示确认。若要立刻联系，请加微信。",
+        fName: "家长称呼",
+        fWechat: "微信或手机",
+        fYear: "孩子出生年份",
+        fTrack: "拟申请学段",
+        phName: "例如：王女士",
+        phWechat: "微信号或手机号",
+        optPick: "请选择",
+        optPri: "小学（P2–P5）",
+        optSec: "中学（Sec 1–3）",
+        fSubmit: "提交",
+        tyTitle: "已记下，谢谢。",
+        tyBody: "这条信息只显示在您的浏览器里，没有发到服务器。若希望我们联系您，请通过微信或下方邮箱主动发一条，并简单说明孩子出生年份与小学/中学。",
+        wxLabel: "微信",
+        emailLabel: "发邮件",
+        footerLegal: "狮城入学（SG School Entry）与新加坡教育部（MOE）、新加坡考试与评鉴局（SEAB）、剑桥大学英语考评部（Cambridge English）均无隶属、授权或官方合作关系。本站不使用新加坡狮头国家标志，也不使用上述机构的标识。页面内容仅为路径说明，不构成录取、派位、签证或入境方面的承诺或法律意见。入学资格、考期、规则一律以各机构官网为准。",
+        footerBrand: "狮城入学 · SG School Entry",
+        title: "狮城入学 · 新加坡政府学校 CEQ / AEIS 入学路径",
+        desc: "狮城入学协助中国家庭走通往新加坡教育部政府学校的路径：小学先考剑桥英语资格考试（CEQ），再考 AEIS 数学；中学考 AEIS 英语与数学。录取不保证。非教育部、考评局或剑桥官方机构。",
+        yearAny: "年份"
+      },
+      en: {
+        skip: "Skip to content",
+        brandZh: "狮城入学",
+        brandEn: "SG School Entry",
+        navConsult: "Enquire",
+        kicker: "Path into Singapore government schools",
+        heroTitle: "Helping Chinese families find the path into Singapore government schools",
+        heroLede: "CEQ, AEIS Mathematics, AEIS English — and English-medium lessons after a place is offered. We keep the three exam subjects clear first; science and the rest of the timetable come after admission.",
+        ctaPaths: "See primary and secondary paths",
+        ctaOfficial: "Official eligibility check",
+        heroNote: "For PRC parents and students aiming at MOE government primary (P2–P5) or secondary (Sec 1–3). Admission is not guaranteed. This site is not affiliated with MOE, SEAB, or Cambridge.",
+        pathsTitle: "One path for primary, another for secondary",
+        pathsLead: "The exam mix is not the same. Do not prepare a primary applicant as if they were sitting secondary papers, and do not treat Science as an AEIS subject.",
+        priTag: "Primary · P2–P5",
+        priTitle: "Primary path",
+        priIntro: "Clear the English gate first, then sit AEIS Mathematics in Singapore. Primary AEIS does not add a separate English paper; English is evidenced by CEQ.",
+        priPill1: "CEQ",
+        priPill2: "AEIS Maths",
+        priPill3: "Placement if a vacancy exists",
+        priLi1: "English: Cambridge English Qualifications (CEQ). P2–P4 typically map to A2 Key for Schools; P5 typically to B1 Preliminary for Schools.",
+        priLi2: "CEQ must be dated within 12 months before the AEIS / S-AEIS application. A Statement of Results PDF is sufficient; you do not need to wait for the hard-copy certificate.",
+        priLi3: "Mathematics: sit AEIS Maths in Singapore. Venues and dates follow MOE’s published notice.",
+        priLi4: "Science is not an AEIS paper. Government primary schools teach subjects in English; science prep belongs after a place is offered.",
+        secTag: "Secondary · Sec 1–3",
+        secTitle: "Secondary path",
+        secIntro: "Sit both AEIS English and AEIS Mathematics. CEQ is not required on the secondary path.",
+        secPill1: "AEIS English",
+        secPill2: "AEIS Maths",
+        secPill3: "Placement if a vacancy exists",
+        secLi1: "Both English and Mathematics are sat in Singapore at AEIS (or at S-AEIS, if that round opens that year).",
+        secLi2: "No Cambridge English Qualifications (CEQ) submission is required.",
+        secLi3: "Science and other English-medium subjects are outside the AEIS papers. Some bridging programmes teach Science to the MOE syllabus; that is post-admission orientation, not a substitute for AEIS.",
+        secLi4: "Placement depends on test performance, vacancies, and the declared residential area. Applying does not create a place.",
+        eligTitle: "Check official eligibility before you prepare",
+        eligLead: "Age and the level you may apply for should be checked on MOE’s own tool. We do not republish CES cut-off tables — those belong on the live official pages.",
+        eligBtn: "Open MOE’s eligibility checker",
+        dateNote: "Treat MOE’s website as the source of dates. As of August 2026, applications for the 2026 AEIS had closed, and tests were scheduled for 1–3 September 2026 in Singapore. For S-AEIS and later rounds, follow the latest official notice only.",
+        permitNote: "Sitting the test is not an immigration pass. MOE does not issue entry permits merely to sit AEIS. An AEIS registration or entry proof is not an ICA pass. Travel and visa arrangements are yours to make lawfully.",
+        linksTitle: "Official links",
+        official: "Official",
+        linkAeis: "AEIS overview (MOE)",
+        linkElig: "AEIS eligibility checker",
+        linkSaeis: "S-AEIS eligibility checker",
+        linkSeab: "About AEIS (SEAB)",
+        linkCeq: "Cambridge English testing (Singapore-related)",
+        helpTitle: "What we actually help with",
+        helpLead: "Outwardly we emphasise three exam subjects. Science and other English-medium subjects come after a place is offered, so families do not start on the wrong paper.",
+        help1Title: "CEQ · primary English gate",
+        help1Body: "Cambridge English Qualifications are the usual English gate for primary international applicants. Choose the level for the intended grade (P2–P4 often A2 Key for Schools; P5 often B1 Preliminary for Schools). They can be sat at authorised centres; you do not need to enter Singapore just for CEQ.",
+        help2Title: "AEIS Mathematics",
+        help2Body: "The core paper on both paths. It tests mathematics in a form close to Singapore school practice. The sitting is in Singapore.",
+        help3Title: "AEIS English (secondary)",
+        help3Body: "Secondary applicants sit AEIS English. Primary applicants generally do not use an AEIS English paper as the gate; they submit an eligible CEQ result instead.",
+        help4Label: "after admission",
+        help4Title: "English-medium Science and other subjects",
+        help4Body: "Singapore government schools teach in English. Science is not an AEIS subject, and there is no “AEIS Science” paper. Some preparatory schools teach Science to the MOE syllabus so a child can cope after arrival — that does not replace CEQ or AEIS, and it carries no official weight in admission. We schedule this only after a place is offered.",
+        timeTitle: "A simple sequence",
+        timeLead: "Open windows, test dates and result releases follow MOE and SEAB. This is order, not a calendar for any given year.",
+        t1Title: "Check eligibility",
+        t1Body: "Use MOE’s official tool against the child’s date of birth. If the level does not match, do not force an application.",
+        t2Title: "Primary: sit CEQ first",
+        t2Body: "The result must fall within 12 months before the AEIS / S-AEIS application. A Statement of Results PDF is enough.",
+        t3Title: "Apply on the official site",
+        t3Body: "AEIS is the main round; S-AEIS may open as a supplementary round. Windows are short. Follow the official document list.",
+        t4Title: "Sit AEIS in Singapore",
+        t4Body: "Primary: Mathematics. Secondary: English and Mathematics. Lawful entry is your responsibility. MOE does not issue a permit just to sit the test.",
+        t5Title: "Wait for placement",
+        t5Body: "Passing the tests is not a place. Vacancies and the declared residential area still matter. A missed round does not guarantee the next.",
+        t6Title: "Keep up in English-medium class",
+        t6Body: "Science and the humanities become daily work only after admission. Bridging, if needed, belongs here — not as a fake entrance exam.",
+        faqTitle: "Questions we hear first",
+        q1: "How is CEQ different from AEIS?",
+        a1: "CEQ is a Cambridge English qualification used to show English level. For primary international applicants it is typically the English gate before an AEIS / S-AEIS application. AEIS is MOE’s admissions and placement test: primarily Mathematics at primary, English and Mathematics at secondary. Different boards, purposes and venues. One does not replace the other.",
+        q2: "Must we come to Singapore to sit the exams?",
+        a2: "CEQ can be taken at authorised Cambridge centres; you need not enter Singapore for CEQ itself. AEIS and S-AEIS are held in Singapore and require attendance in person. MOE does not issue an entry permit for the test, and the entry proof is not an ICA pass. Whether the child can travel depends on lawful immigration arrangements, not on a successful registration alone.",
+        q3: "If we pass, is admission guaranteed?",
+        a3: "No. Admission and placement depend on the tests, vacancies that year, and the declared residential area. Meeting the test bar still may not yield a suitable place. Claims of guaranteed passes or reserved schools are not credible. We do not invent pass rates or seat counts.",
+        q4: "What differs between primary and secondary?",
+        a4: "Primary: submit an eligible CEQ (commonly A2 Key for Schools or B1 Preliminary for Schools, dated within 12 months before application), then sit AEIS Mathematics. Secondary: no CEQ requirement; sit AEIS English and AEIS Mathematics. The exact grade a child may apply for is what MOE’s checker says — not a circulating age chart.",
+        q5: "Are government-school subjects taught in English?",
+        a5: "Yes. English is the main medium of instruction. Mathematics, Science and other subjects are taught in English (mother-tongue lessons aside). English is therefore not only a gate: it is the classroom every day after admission. Science remains outside AEIS. There is no Science paper that can be swapped for a place.",
+        contactTitle: "Enquire",
+        contactLead: "Leave a name and a way to reach you. This page has no server: submit only shows a confirmation on this device. To reach us now, add the WeChat ID.",
+        fName: "Parent’s name",
+        fWechat: "WeChat or mobile",
+        fYear: "Child’s year of birth",
+        fTrack: "Intended level",
+        phName: "e.g. Ms Wang",
+        phWechat: "WeChat ID or mobile number",
+        optPick: "Please choose",
+        optPri: "Primary (P2–P5)",
+        optSec: "Secondary (Sec 1–3)",
+        fSubmit: "Send",
+        tyTitle: "Noted — thank you.",
+        tyBody: "This stayed in your browser; nothing was sent to a server. If you want a reply, message us on WeChat or the email below, and include the child’s year of birth and primary or secondary.",
+        wxLabel: "WeChat",
+        emailLabel: "Email us",
+        footerLegal: "狮城入学 (SG School Entry) is not affiliated with, authorised by, or in official partnership with the Ministry of Education (MOE), the Singapore Examinations and Assessment Board (SEAB), or Cambridge English. This site does not use the Singapore lion-head symbol or those organisations’ logos. Content is a path explainer only. It is not a promise of admission, placement, a visa, or entry, and it is not legal advice. Eligibility, dates and rules are whatever the official sites currently say.",
+        footerBrand: "狮城入学 · SG School Entry",
+        title: "SG School Entry · CEQ / AEIS path into Singapore government schools",
+        desc: "SG School Entry helps Chinese families understand the path into MOE government schools: CEQ then AEIS Mathematics at primary; AEIS English and Mathematics at secondary. Admission is not guaranteed. Not affiliated with MOE, SEAB, or Cambridge.",
+        yearAny: "Year"
+      }
+    };
+
+    const htmlEl = document.documentElement;
+    const metaDesc = document.querySelector('meta[name="description"]');
+    const ogTitle = document.querySelector('meta[property="og:title"]');
+    const ogDesc = document.querySelector('meta[property="og:description"]');
+    const ogLocale = document.querySelector('meta[property="og:locale"]');
+    const btnZh = document.getElementById("btn-zh");
+    const btnEn = document.getElementById("btn-en");
+    const yearSel = document.getElementById("year");
+
+    function fillYears(lang) {
+      const keep = yearSel.value;
+      const dict = COPY[lang];
+      yearSel.innerHTML = "";
+      const first = document.createElement("option");
+      first.value = "";
+      first.textContent = dict.yearAny;
+      yearSel.appendChild(first);
+      for (let y = 2019; y >= 2008; y--) {
+        const o = document.createElement("option");
+        o.value = String(y);
+        o.textContent = String(y);
+        yearSel.appendChild(o);
+      }
+      if (keep && yearSel.querySelector('[value="' + keep + '"]')) yearSel.value = keep;
+    }
+
+    function applyLang(lang) {
+      const dict = COPY[lang] || COPY["zh-CN"];
+      htmlEl.lang = lang === "en" ? "en" : "zh-CN";
+      document.title = dict.title;
+      if (metaDesc) metaDesc.setAttribute("content", dict.desc);
+      if (ogTitle) ogTitle.setAttribute("content", dict.title);
+      if (ogDesc) ogDesc.setAttribute("content", dict.desc);
+      if (ogLocale) ogLocale.setAttribute("content", lang === "en" ? "en_SG" : "zh_CN");
+      document.querySelectorAll("[data-i18n]").forEach((el) => {
+        const key = el.getAttribute("data-i18n");
+        if (dict[key] != null) el.textContent = dict[key];
+      });
+      document.querySelectorAll("[data-i18n-placeholder]").forEach((el) => {
+        const key = el.getAttribute("data-i18n-placeholder");
+        if (dict[key] != null) el.setAttribute("placeholder", dict[key]);
+      });
+      btnZh.setAttribute("aria-pressed", lang !== "en" ? "true" : "false");
+      btnEn.setAttribute("aria-pressed", lang === "en" ? "true" : "false");
+      fillYears(lang);
+      try { localStorage.setItem("sgse-lang", lang); } catch (e) {}
+    }
+
+    btnZh.addEventListener("click", () => applyLang("zh-CN"));
+    btnEn.addEventListener("click", () => applyLang("en"));
+
+    let start = "zh-CN";
+    try {
+      const saved = localStorage.getItem("sgse-lang");
+      if (saved === "en" || saved === "zh-CN") start = saved;
+    } catch (e) {}
+    applyLang(start);
+
+    const form = document.getElementById("consult-form");
+    const thanks = document.getElementById("thanks");
+    form.addEventListener("submit", (e) => {
+      e.preventDefault();
+      if (!form.reportValidity()) return;
+      form.hidden = true;
+      thanks.classList.add("show");
+    });
+  </script>
+</body>
+</html>
