@@ -1182,82 +1182,20 @@ Useful phrases:
   console.log("✅ Weeks and questions upserted");
 
   // =================================================================
-  // UPDATE DEMO SUBMISSION FOR A2 WEEK 0
+  // DELETE EXISTING SUBMISSIONS FOR DEMO ACCOUNTS
   // =================================================================
+  // Both demo and trial accounts should start fresh with zero submissions
+  // so users can actually try the sample weeks
 
-  const demoWeek = await prisma.week.findUnique({
-    where: {
-      level_weekNumber: {
-        level: "A2",
-        weekNumber: 0,
-      },
-    },
-    include: {
-      questions: {
-        orderBy: {
-          order: "asc",
-        },
-      },
-    },
-  });
-
-  if (demoWeek) {
-    const questions = demoWeek.questions;
-
-    // Build demo answers matching correct answers for A2-0
-    const demoAnswers: Record<string, any> = {};
-
-    questions.forEach((q) => {
-      if (q.type === "reading" || q.type === "grammar" || q.type === "listening") {
-        const correctAnswers = q.correctAnswer?.split(",") || [];
-        const answerObj: Record<number, string> = {};
-        correctAnswers.forEach((ans, idx) => {
-          answerObj[idx] = ans;
-        });
-        demoAnswers[q.id] = answerObj;
-      } else if (q.type === "writing") {
-        demoAnswers[q.id] =
-          "Dear Mei, I start school at 7:45 every morning. I travel to school by MRT with my brother – it takes about twenty minutes. My favourite subject is English because I enjoy reading stories and our teacher is very kind. Hope to hear from you soon!";
-      } else if (q.type === "speaking") {
-        demoAnswers[q.id] = "completed";
-      }
-    });
-
-    // Calculate score: all correct = full points
-    const totalScore = questions.reduce((sum, q) => sum + q.points, 0);
-
-    await prisma.submission.upsert({
-      where: {
-        userId_weekId: {
-          userId: demoUser.id,
-          weekId: demoWeek.id,
-        },
-      },
-      update: {
-        answers: JSON.stringify(demoAnswers),
-        score: totalScore,
-        completedAt: new Date("2026-08-10"),
-      },
-      create: {
-        userId: demoUser.id,
-        weekId: demoWeek.id,
-        answers: JSON.stringify(demoAnswers),
-        score: totalScore,
-        completedAt: new Date("2026-08-10"),
-      },
-    });
-
-    console.log("✅ Demo submission updated for A2 Week 0");
-  }
-
-  // Ensure trial user has no submission for week 0
   await prisma.submission.deleteMany({
     where: {
-      userId: trialUser.id,
+      userId: {
+        in: [demoUser.id, trialUser.id],
+      },
     },
   });
 
-  console.log("✅ Trial user has no submissions");
+  console.log("✅ Demo and trial users have no submissions");
   console.log("🎉 Seed completed!");
 }
 
