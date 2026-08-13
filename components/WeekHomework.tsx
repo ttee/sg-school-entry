@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useRef, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 
@@ -19,6 +19,7 @@ type Week = {
   id: string;
   title: string;
   description: string | null;
+  level: string;
 };
 
 type Submission = {
@@ -46,6 +47,21 @@ export default function WeekHomework({
   const [submitting, setSubmitting] = useState(false);
   const [error, setError] = useState("");
   const [showTranscript, setShowTranscript] = useState<Record<string, boolean>>({});
+  
+  // Speaking recording state
+  const [recording, setRecording] = useState<Record<string, boolean>>({});
+  const [recordedBlob, setRecordedBlob] = useState<Record<string, Blob | null>>({});
+  const [recordingTime, setRecordingTime] = useState<Record<string, number>>({});
+  const [evaluating, setEvaluating] = useState<Record<string, boolean>>({});
+  const [speakingEval, setSpeakingEval] = useState<Record<string, any>>({});
+  const [speakingAttempts, setSpeakingAttempts] = useState<Record<string, any[]>>({});
+  const mediaRecorderRef = useRef<Record<string, MediaRecorder | null>>({});
+  const audioChunksRef = useRef<Record<string, Blob[]>>({});
+  const timerIntervalRef = useRef<Record<string, NodeJS.Timeout | null>>({});
+  
+  // Writing feedback state
+  const [writingFeedback, setWritingFeedback] = useState<Record<string, any>>({});
+  const [gettingFeedback, setGettingFeedback] = useState<Record<string, boolean>>({});
 
   const isCompleted = !!initialSubmission?.completedAt;
 
@@ -72,6 +88,160 @@ export default function WeekHomework({
       [questionId]: "completed",
     }));
   };
+
+  // Speaking recording handlers
+  const startRecording = async (questionId: string, maxDuration: number) => {
+    try {
+      const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+      const mediaRecorder = new MediaRecorder(stream);
+      
+      mediaRecorderRef.current[questionId] = mediaRecorder;
+      audioChunksRef.current[questionId] = [];
+      
+      mediaRecorder.ondataavailable = (event) => {
+        if (event.data.size > 0) {
+          audioChunksRef.current[questionId].push(event.data);
+        }
+      };
+      
+      mediaRecorder.onstop = () => {
+        const blob = new Blob(audioChunksRef.current[questionId], { type: "audio/webm" });
+        setRecordedBlob((prev) => ({ ...prev, [questionId]: blob }));
+        stream.getTracks().forEach((track) => track.stop());
+        if (timerIntervalRef.current[questionId]) {
+          clearInterval(timerIntervalRef.current[questionId]!);
+        }
+      };
+      
+      mediaRecorder.start();
+      setRecording((prev) => ({ ...prev, [questionId]: true }));
+      setRecordingTime((prev) => ({ ...prev, [questionId]: 0 }));
+      
+      // Start timer
+      timerIntervalRef.current[questionId] = setInterval(() => {
+        setRecordingTime((prev) => {
+          const newTime = (prev[questionId] || 0) + 1;
+          if (newTime >= maxDuration) {
+            stopRecording(questionId);
+            return { ...prev, [questionId]: maxDuration };
+          }
+          return { ...prev, [questionId]: newTime };
+        });
+      }, 1000);
+    } catch (err: any) {
+      console.error("Recording failed:", err);
+      alert("无法访问麦克风。WeChat 中请使用「上传录音」功能。");
+    }
+  };
+  
+  const stopRecording = (questionId: string) => {
+    const recorder = mediaRecorderRef.current[questionId];
+    if (recorder && recorder.state === "recording") {
+      recorder.stop();
+      setRecording((prev) => ({ ...prev, [questionId]: false }));
+    }
+    if (timerIntervalRef.current[questionId]) {
+      clearInterval(timerIntervalRef.current[questionId]!);
+    }
+  };
+  
+  const submitSpeaking = async (questionId: string, level: string) => {
+    const blob = recordedBlob[questionId];
+    if (!blob) return;
+    
+    setEvaluating((prev) => ({ ...prev, [questionId]: true }));
+    setError("");
+    
+    try {
+      const formData = new FormData();
+      formData.append("audio", blob, "recording.webm");
+      formData.append("questionId", questionId);
+      formData.append("durationSec", String(recordingTime[questionId] || 0));
+      formData.append("level", level);
+      
+      const res = await fetch("/api/speaking/evaluate", {
+        method: "POST",
+        body: formData,
+      });
+      
+      const data = await res.json();
+      
+      if (!res.ok) {
+        throw new Error(data.message || data.error || "评估失败");
+      }
+      
+      setSpeakingEval((prev) => ({ ...prev, [questionId]: data.evaluation }));
+      
+      // Fetch updated attempts
+      const attemptsRes = await fetch(`/api/speaking/attempts?questionId=${questionId}`);
+      const attemptsData = await attemptsRes.json();
+      if (attemptsData.success) {
+        setSpeakingAttempts((prev) => ({ ...prev, [questionId]: attemptsData.attempts }));
+      }
+      
+      // Mark as completed
+      handleSpeakingComplete(questionId);
+    } catch (err: any) {
+      setError(err.message || "评估失败，请重试");
+    } finally {
+      setEvaluating((prev) => ({ ...prev, [questionId]: false }));
+    }
+  };
+  
+  const getWritingFeedback = async (questionId: string) => {
+    const text = answers[questionId];
+    if (!text || !text.trim()) {
+      alert("请先输入写作内容");
+      return;
+    }
+    
+    setGettingFeedback((prev) => ({ ...prev, [questionId]: true }));
+    setError("");
+    
+    try {
+      const res = await fetch("/api/writing/feedback", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ questionId, text }),
+      });
+      
+      const data = await res.json();
+      
+      if (!res.ok) {
+        throw new Error(data.message || data.error || "批改失败");
+      }
+      
+      setWritingFeedback((prev) => ({ ...prev, [questionId]: data.feedback }));
+    } catch (err: any) {
+      setError(err.message || "批改失败，请重试");
+    } finally {
+      setGettingFeedback((prev) => ({ ...prev, [questionId]: false }));
+    }
+  };
+  
+  // Load speaking attempts on mount
+  useEffect(() => {
+    questions.forEach(async (q) => {
+      if (q.type === "speaking") {
+        try {
+          const res = await fetch(`/api/speaking/attempts?questionId=${q.id}`);
+          const data = await res.json();
+          if (data.success && data.attempts.length > 0) {
+            setSpeakingAttempts((prev) => ({ ...prev, [q.id]: data.attempts }));
+            setSpeakingEval((prev) => ({ 
+              ...prev, 
+              [q.id]: {
+                scores: data.attempts[data.attempts.length - 1].scores,
+                feedback: data.attempts[data.attempts.length - 1].feedback,
+              }
+            }));
+          }
+        } catch (err) {
+          console.error("Failed to load speaking attempts:", err);
+        }
+      }
+    });
+  }, [questions]);
 
   const saveProgress = async () => {
     setSaving(true);
@@ -288,7 +458,7 @@ export default function WeekHomework({
             )}
 
             {question.type === "writing" && (
-              <div>
+              <div className="space-y-4">
                 <textarea
                   value={answers[question.id] || ""}
                   onChange={(e) =>
@@ -300,31 +470,314 @@ export default function WeekHomework({
                   className="w-full px-4 py-3 bg-paper border border-line rounded-lg text-ink resize-y focus:outline-none focus:ring-2 focus:ring-accent disabled:opacity-60"
                   placeholder="在此输入你的答案..."
                 />
-                <div className="flex justify-between items-center mt-2">
-                  <p className="text-xs text-muted">
-                    写作需手动批改。完成后提交即可。
-                  </p>
+                <div className="flex justify-between items-center">
+                  <div className="flex gap-2">
+                    {answers[question.id] && answers[question.id].trim().length > 10 && !isCompleted && (
+                      <button
+                        onClick={() => getWritingFeedback(question.id)}
+                        disabled={gettingFeedback[question.id]}
+                        className="px-4 py-2 bg-accent text-accent-ink text-sm font-semibold rounded-full hover:bg-accent-hover transition-colors disabled:opacity-50"
+                      >
+                        {gettingFeedback[question.id] ? "批改中..." : "📝 请老师点评 / Get feedback"}
+                      </button>
+                    )}
+                  </div>
                   <p className="text-xs text-muted">
                     字数 / Words: {(answers[question.id] || "").trim().split(/\s+/).filter((w: string) => w.length > 0).length}
                   </p>
                 </div>
+                
+                {/* AI Feedback Display */}
+                {writingFeedback[question.id] && (
+                  <div className="bg-accent/10 border border-accent/20 rounded-lg p-4 space-y-3 text-sm">
+                    <h3 className="font-semibold text-ink text-lg">AI 批改反馈</h3>
+                    
+                    {writingFeedback[question.id].highlights && (
+                      <div>
+                        <p className="font-semibold text-ink mb-1">✨ 本次亮点：</p>
+                        <ul className="list-disc list-inside space-y-1 text-ink-2">
+                          {writingFeedback[question.id].highlights.map((h: string, i: number) => (
+                            <li key={i}>{h}</li>
+                          ))}
+                        </ul>
+                      </div>
+                    )}
+                    
+                    {writingFeedback[question.id].taskCompletion && (
+                      <div>
+                        <p className="font-semibold text-ink mb-1">✅ 任务完成度：</p>
+                        <p className="text-ink-2">{writingFeedback[question.id].taskCompletion}</p>
+                      </div>
+                    )}
+                    
+                    {writingFeedback[question.id].grammarOfWeek && (
+                      <div>
+                        <p className="font-semibold text-ink mb-1">📚 本周语法点：</p>
+                        <p className="text-ink-2">{writingFeedback[question.id].grammarOfWeek}</p>
+                      </div>
+                    )}
+                    
+                    {writingFeedback[question.id].cohesion && (
+                      <div>
+                        <p className="font-semibold text-ink mb-1">🔗 连接词和逻辑：</p>
+                        <p className="text-ink-2">{writingFeedback[question.id].cohesion}</p>
+                      </div>
+                    )}
+                    
+                    {writingFeedback[question.id].wordCount && (
+                      <div>
+                        <p className="font-semibold text-ink mb-1">📊 字数：</p>
+                        <p className="text-ink-2">
+                          实际 {writingFeedback[question.id].wordCount.actual} 词 
+                          (目标 {writingFeedback[question.id].wordCount.target}) - 
+                          {writingFeedback[question.id].wordCount.comment}
+                        </p>
+                      </div>
+                    )}
+                    
+                    {writingFeedback[question.id].focus && (
+                      <div>
+                        <p className="font-semibold text-ink mb-1">🎯 改善焦点：</p>
+                        <p className="text-ink-2 bg-paper rounded p-2">
+                          {writingFeedback[question.id].focus}
+                        </p>
+                      </div>
+                    )}
+                    
+                    {writingFeedback[question.id].modelParagraph && (
+                      <div>
+                        <p className="font-semibold text-ink mb-1">📖 示范段落：</p>
+                        <p className="text-ink-2 bg-paper rounded p-3 whitespace-pre-wrap italic">
+                          {writingFeedback[question.id].modelParagraph}
+                        </p>
+                      </div>
+                    )}
+                    
+                    {!isCompleted && (
+                      <button
+                        onClick={() => {
+                          setWritingFeedback((prev) => ({ ...prev, [question.id]: null }));
+                        }}
+                        className="px-4 py-2 bg-paper text-ink border border-line text-sm font-semibold rounded-full hover:bg-paper-2 transition-colors"
+                      >
+                        🔄 再写一次
+                      </button>
+                    )}
+                  </div>
+                )}
               </div>
             )}
 
             {question.type === "speaking" && (
-              <div className="bg-paper border border-line rounded-lg p-4">
-                {answers[question.id] === "completed" || isCompleted ? (
-                  <div className="flex items-center gap-2 text-accent">
-                    <span className="text-2xl">✓</span>
-                    <span className="font-semibold">已练习完成</span>
+              <div className="space-y-4">
+                {/* Recording UI */}
+                <div className="bg-paper border border-line rounded-lg p-4">
+                  <p className="text-sm text-ink-2 mb-3">
+                    请点击"开始录音"并按照提示完成口语练习。录音将由AI评估并提供改进建议。
+                  </p>
+                  
+                  {!recording[question.id] && !recordedBlob[question.id] && (
+                    <button
+                      onClick={() => startRecording(question.id, week.level === "A2" ? 60 : 120)}
+                      disabled={isCompleted || evaluating[question.id]}
+                      className="px-5 py-2.5 bg-accent text-accent-ink font-semibold rounded-full hover:bg-accent-hover transition-colors disabled:opacity-50"
+                    >
+                      🎤 开始录音
+                    </button>
+                  )}
+                  
+                  {recording[question.id] && (
+                    <div className="space-y-3">
+                      <div className="flex items-center gap-3">
+                        <div className="w-3 h-3 bg-warn-ink rounded-full animate-pulse"></div>
+                        <span className="text-lg font-semibold text-ink">
+                          {Math.floor((recordingTime[question.id] || 0) / 60)}:
+                          {String((recordingTime[question.id] || 0) % 60).padStart(2, "0")}
+                        </span>
+                        <span className="text-sm text-muted">
+                          / {week.level === "A2" ? "1:00" : "2:00"}
+                        </span>
+                      </div>
+                      <button
+                        onClick={() => stopRecording(question.id)}
+                        className="px-5 py-2.5 bg-warn-bg text-warn-ink font-semibold rounded-full hover:opacity-80 transition-opacity"
+                      >
+                        ⏹ 停止录音
+                      </button>
+                    </div>
+                  )}
+                  
+                  {recordedBlob[question.id] && !evaluating[question.id] && !speakingEval[question.id] && (
+                    <div className="space-y-3">
+                      <audio
+                        controls
+                        src={URL.createObjectURL(recordedBlob[question.id]!)}
+                        className="w-full"
+                      />
+                      <div className="flex gap-3">
+                        <button
+                          onClick={() => submitSpeaking(question.id, week.level)}
+                          className="px-5 py-2.5 bg-accent text-accent-ink font-semibold rounded-full hover:bg-accent-hover transition-colors"
+                        >
+                          提交评估
+                        </button>
+                        <button
+                          onClick={() => {
+                            setRecordedBlob((prev) => ({ ...prev, [question.id]: null }));
+                            setRecordingTime((prev) => ({ ...prev, [question.id]: 0 }));
+                          }}
+                          className="px-5 py-2.5 bg-paper-2 text-ink border border-line font-semibold rounded-full hover:bg-line transition-colors"
+                        >
+                          重新录音
+                        </button>
+                      </div>
+                    </div>
+                  )}
+                  
+                  {evaluating[question.id] && (
+                    <div className="text-center py-4">
+                      <div className="animate-spin w-8 h-8 border-4 border-accent border-t-transparent rounded-full mx-auto mb-2"></div>
+                      <p className="text-sm text-muted">AI 正在评估中...</p>
+                    </div>
+                  )}
+                  
+                  {/* Fallback file upload for WeChat */}
+                  {!recording[question.id] && !recordedBlob[question.id] && !isCompleted && (
+                    <div className="mt-3 pt-3 border-t border-line">
+                      <label className="block">
+                        <span className="text-sm text-muted mb-2 block">
+                          如果录音失败（WeChat环境），可以上传录音文件：
+                        </span>
+                        <input
+                          type="file"
+                          accept="audio/*"
+                          onChange={(e) => {
+                            const file = e.target.files?.[0];
+                            if (file) {
+                              setRecordedBlob((prev) => ({ ...prev, [question.id]: file }));
+                            }
+                          }}
+                          className="text-sm"
+                        />
+                      </label>
+                    </div>
+                  )}
+                </div>
+                
+                {/* AI Feedback Display */}
+                {speakingEval[question.id] && (
+                  <div className="bg-accent/10 border border-accent/20 rounded-lg p-4 space-y-4">
+                    <h3 className="font-semibold text-ink text-lg">AI 评估结果</h3>
+                    
+                    {/* Scores */}
+                    <div className="space-y-2">
+                      {Object.entries(speakingEval[question.id].scores || {}).map(([key, value]: [string, any]) => {
+                        const labels: Record<string, string> = {
+                          pronunciation: "发音 Pronunciation",
+                          fluency: "流利 Fluency",
+                          taskAchievement: "任务 Task",
+                          vocabularyGrammar: "词汇/语法 Vocab/Grammar",
+                        };
+                        return (
+                          <div key={key} className="flex items-center gap-3">
+                            <span className="text-sm font-medium text-ink w-40">{labels[key]}</span>
+                            {value === null ? (
+                              <span className="text-xs text-muted">发音评估暂不可用</span>
+                            ) : (
+                              <div className="flex-1 bg-paper-2 rounded-full h-6 overflow-hidden">
+                                <div
+                                  className="bg-accent h-full flex items-center justify-center text-xs text-accent-ink font-semibold"
+                                  style={{ width: `${(value / 5) * 100}%` }}
+                                >
+                                  {value}/5
+                                </div>
+                              </div>
+                            )}
+                          </div>
+                        );
+                      })}
+                    </div>
+                    
+                    {/* Feedback */}
+                    {speakingEval[question.id].feedback && (
+                      <div className="space-y-3 text-sm">
+                        {speakingEval[question.id].feedback.highlights && (
+                          <div>
+                            <p className="font-semibold text-ink mb-1">✨ 本次亮点：</p>
+                            <ul className="list-disc list-inside space-y-1 text-ink-2">
+                              {speakingEval[question.id].feedback.highlights.map((h: string, i: number) => (
+                                <li key={i}>{h}</li>
+                              ))}
+                            </ul>
+                          </div>
+                        )}
+                        
+                        {speakingEval[question.id].feedback.focus && (
+                          <div>
+                            <p className="font-semibold text-ink mb-1">🎯 改善焦点：</p>
+                            <p className="text-ink-2">{speakingEval[question.id].feedback.focus}</p>
+                          </div>
+                        )}
+                        
+                        {speakingEval[question.id].feedback.modelSentences && (
+                          <div>
+                            <p className="font-semibold text-ink mb-1">📖 跟读句子：</p>
+                            <ul className="list-decimal list-inside space-y-1 text-ink-2">
+                              {speakingEval[question.id].feedback.modelSentences.map((s: string, i: number) => (
+                                <li key={i}>{s}</li>
+                              ))}
+                            </ul>
+                          </div>
+                        )}
+                        
+                        {speakingEval[question.id].feedback.nextSteps && (
+                          <div>
+                            <p className="font-semibold text-ink mb-1">💡 下次怎么说得更好：</p>
+                            <p className="text-ink-2">{speakingEval[question.id].feedback.nextSteps}</p>
+                          </div>
+                        )}
+                      </div>
+                    )}
+                    
+                    {/* Re-record button */}
+                    {!isCompleted && (
+                      <button
+                        onClick={() => {
+                          setRecordedBlob((prev) => ({ ...prev, [question.id]: null }));
+                          setRecordingTime((prev) => ({ ...prev, [question.id]: 0 }));
+                          setSpeakingEval((prev) => ({ ...prev, [question.id]: null }));
+                        }}
+                        className="px-5 py-2.5 bg-paper text-ink border border-line font-semibold rounded-full hover:bg-paper-2 transition-colors"
+                      >
+                        🔄 再录一次
+                      </button>
+                    )}
+                    
+                    {/* Attempt history comparison */}
+                    {speakingAttempts[question.id] && speakingAttempts[question.id].length > 1 && (
+                      <div className="pt-3 border-t border-line">
+                        <p className="text-xs text-muted mb-2">
+                          进步对比 ({speakingAttempts[question.id].length} 次尝试)
+                        </p>
+                        <div className="flex gap-2 text-xs">
+                          {speakingAttempts[question.id].slice(-2).map((attempt: any, i: number) => (
+                            <div key={i} className="flex-1 bg-paper-2 rounded p-2">
+                              <p className="font-semibold text-ink mb-1">
+                                {i === 0 ? "上次" : "本次"}
+                              </p>
+                              {Object.entries(attempt.scores).map(([key, val]: [string, any]) => (
+                                val !== null && (
+                                  <p key={key} className="text-muted">
+                                    {key}: {val}/5
+                                  </p>
+                                )
+                              ))}
+                            </div>
+                          ))}
+                        </div>
+                      </div>
+                    )}
                   </div>
-                ) : (
-                  <button
-                    onClick={() => handleSpeakingComplete(question.id)}
-                    className="px-5 py-2.5 bg-accent text-accent-ink font-semibold rounded-full hover:bg-accent-hover transition-colors"
-                  >
-                    确认已练习
-                  </button>
                 )}
               </div>
             )}

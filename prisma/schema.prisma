@@ -73,3 +73,30 @@ model Submission {
   @@index([userId])
   @@index([weekId])
 }
+
+model SpeakingAttempt {
+  id            String   @id @default(uuid())
+  userId        String
+  questionId    String
+  attemptNumber Int
+  durationSec   Int
+  transcript    String
+  scores        String
+  feedback      String
+  audioUrl      String?
+  createdAt     DateTime @default(now())
+
+  @@index([userId, questionId])
+  @@index([userId, createdAt])
+}
+
+model WritingFeedback {
+  id         String   @id @default(uuid())
+  userId     String
+  questionId String
+  text       String
+  feedback   String
+  createdAt  DateTime @default(now())
+
+  @@index([userId, questionId])
+}
