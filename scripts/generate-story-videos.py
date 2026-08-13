@@ -551,12 +551,33 @@ async def generate_video(week_id: str, story_data: Dict, temp_dir: Path):
     output_file = OUTPUT_DIR / f"{week_id}.mp4"
     scenes = story_data['scenes']
     
-    # Generate placeholder scene images (simple colored backgrounds with text)
-    # In production, these would be generated with proper illustration tools
+    # Check for pre-generated illustrated scene images first
+    # If they exist (e.g., a2-w0-scene1-intro.png), use them
+    # Otherwise fall back to generating placeholder PIL images
     scene_images = []
     for i, scene in enumerate(scenes):
-        img_path = STORYBOARD_DIR / f"{week_id}_scene{i}.png"
-        create_placeholder_scene_image(scene, img_path, i, story_data['location'])
+        # Try to find pre-generated scene image with multiple naming patterns
+        pre_generated_patterns = [
+            STORYBOARD_DIR / f"{week_id}-scene{i+1}-*.png",  # e.g., a2-w0-scene1-intro.png
+            STORYBOARD_DIR / f"{week_id}_scene{i}.png",       # e.g., a2-w0_scene0.png (old pattern)
+        ]
+        
+        img_path = None
+        for pattern in pre_generated_patterns:
+            import glob
+            matches = glob.glob(str(pattern))
+            if matches:
+                img_path = Path(matches[0])
+                print(f"  Using pre-generated scene: {img_path.name}")
+                break
+        
+        if not img_path:
+            # Fall back to generating placeholder if no pre-generated image exists
+            img_path = STORYBOARD_DIR / f"{week_id}_scene{i}.png"
+            if not img_path.exists():
+                print(f"  Generating placeholder for scene {i}")
+                create_placeholder_scene_image(scene, img_path, i, story_data['location'])
+        
         scene_images.append(img_path)
     
     # Generate audio for all scenes
