@@ -116,20 +116,28 @@ cp .env.example .env
 
 Required variables:
 - `DATABASE_URL` — PostgreSQL connection string
-  - **Local dev:** `postgresql://localhost:5432/sgschoolentry` (requires local Postgres)
-  - **Or use SQLite for quick local dev:** `file:./dev.db` (change schema.prisma provider to "sqlite")
-  - **Production:** `postgresql://user:pass@host:5432/dbname?pgbouncer=true`
+  - **Production (Vercel):** `postgresql://user:pass@host:5432/dbname?pgbouncer=true`
+  - **Local dev option 1:** Use local PostgreSQL `postgresql://localhost:5432/sgschoolentry`
+  - **Local dev option 2 (SQLite):** `file:./dev.db`
+    - Change `prisma/schema.prisma` provider to `"sqlite"` and remove `directUrl` line
+    - Faster for local testing, but production uses PostgreSQL
 - `DIRECT_URL` — (Optional) Direct connection for migrations when using pooled connections
   - For **Supabase/pooled**: Use direct connection URL (port 5432, no `?pgbouncer=true`)
   - If not set, `DATABASE_URL` is used for both queries and migrations
 - `AUTH_SECRET` — generate with `openssl rand -base64 32`
 - `NEXTAUTH_URL` — defaults to `http://localhost:3000`
 
-### 3. Create database and seed data
+### 3. Run migrations and seed data
 
 ```bash
-npm run db:push    # Create tables
+npm run db:migrate # Run migrations to create tables
 npm run db:seed    # Seed demo users + weeks (idempotent, safe to re-run)
+```
+
+Or for local dev with a fresh database:
+```bash
+npm run db:push    # Quick schema sync (local dev only)
+npm run db:seed
 ```
 
 This creates:
@@ -282,9 +290,11 @@ npm start
    - `AUTH_SECRET` — generate with `openssl rand -base64 32`
    - `NEXTAUTH_URL` — your production domain (e.g. `https://sgschoolentry.com`)
 5. Deploy
-   - **Schema and seed run automatically** during build (`npm run build` includes `prisma db push && prisma db seed`)
-   - First deploy creates tables and seeds demo users + weeks
+   - **Schema and seed run automatically** during build (`npm run build` includes `prisma migrate deploy && prisma db seed`)
+   - First deploy runs migrations to create tables, then seeds demo users + weeks
+   - Migrations are committed to repo under `prisma/migrations/`
    - Seed is idempotent — safe to re-run on subsequent deploys
+   - **Safe for existing databases** — migrations only touch our tables (User, Week, Question, Submission), won't affect Supabase Auth or other tables
 
 **Vercel auto-detects Next.js** — no `vercel.json` needed. Just ensure Framework Preset = Next.js.
 
