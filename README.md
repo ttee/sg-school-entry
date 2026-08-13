@@ -68,7 +68,7 @@ CEQ exam-focused sprint courses:
 - **Auth.js** (credentials provider) — email + password, no WeChat OAuth in v1
 - **Prisma + SQLite** (local dev) or PostgreSQL (production via `DATABASE_URL`)
 - **Tailwind CSS 4** — Matches the existing cream/ink/teal paper look
-- **Original homework content** — Not copied from real Cambridge past papers (copyright). Original practice in the same CEFR skills.
+- **Original homework content** — All homework texts are original studio materials modelled on Cambridge English Qualifications (CEQ) task TYPES at CEFR A2 and B1 levels. They are NOT official Cambridge past papers or sample papers. Content is unique per week, created specifically for this studio's students.
 
 System CJK fonts (no Google Fonts for WeChat compatibility).
 
@@ -146,7 +146,7 @@ This creates:
 - Each week has 5 question types: reading, grammar, writing, listening, speaking
 - Demo user has Week 0 (sample) already submitted with score
 
-**Seed is idempotent** — re-running is safe (uses upsert, skips existing questions).
+**Seed is idempotent** — re-running is safe and UPDATES existing week content in place. Questions are upserted by `(weekId, order)`, so production content will refresh on every build. This allows homework content to be improved over time without orphaning existing submissions.
 
 ### 4. Run dev server
 
@@ -323,8 +323,9 @@ npx prisma db seed    # Seed demo users + weeks
 - **As of August 2026:** 2026 AEIS applications closed; tests scheduled 1–3 September 2026 in Singapore. Defer to [MOE AEIS](https://www.moe.gov.sg/international-students/aeis) for dates.
 - **Science is not an AEIS subject.** No "AEIS Science paper" exists. Post-admission adaptation only.
 - **MOE does not issue entry permits just to sit AEIS.** AEIS registration is not an ICA pass.
+- **Homework content originality:** All reading passages, grammar items, writing tasks, listening scripts, and speaking prompts in the homework app are original studio materials. They are NOT copied from, paraphrased from, or reconstructed from Cambridge Assessment English official papers. They follow CEQ task TYPES and CEFR level descriptors, but all names, situations, and wording are invented for this studio.
 
-对外只强调三门考试。日期、资格、派位规则一律以官网为准。不编造通过率或名额。
+对外只强调三门考试。日期、资格、派位规则一律以官网为准。不编造通过率或名额。作业内容全部原创，不抄剑桥真题。
 
 ---
 
