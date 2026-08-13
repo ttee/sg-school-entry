@@ -108,27 +108,11 @@ export async function POST(req: NextRequest) {
     const audioBuffer = await audioFile.arrayBuffer();
     const audioBase64 = Buffer.from(audioBuffer).toString("base64");
 
-    // Use Gemini Flash with audio input (try latest models with fallback)
-    const modelNames = ["gemini-2.0-flash-exp", "gemini-1.5-flash"];
-    let model;
-    let modelUsed = "";
-    
-    for (const modelName of modelNames) {
-      try {
-        model = genAI.getGenerativeModel({ model: modelName });
-        modelUsed = modelName;
-        break;
-      } catch (err) {
-        console.log(`Model ${modelName} not available, trying next...`);
-      }
-    }
-
-    if (!model) {
-      return NextResponse.json(
-        { error: "Gemini 模型不可用" },
-        { status: 503 }
-      );
-    }
+    // Get model list: env override or default fallback chain
+    // gemini-2.0-* was shut down June 2026; use 2.5 or 3.x
+    const envModel = process.env.GEMINI_MODEL;
+    const defaultModels = ["gemini-2.5-flash", "gemini-3.5-flash", "gemini-3.1-flash-lite"];
+    const modelNames = envModel ? [envModel] : defaultModels;
 
     const kaizenContext = previousFocus
       ? `\n\n【Kaizen 改善追踪】
@@ -175,33 +159,65 @@ ${kaizenContext}
   }
 }`;
 
+    // Try models with automatic fallback on 404
     let evaluation: any;
-    try {
-      const result = await model.generateContent([
-        {
-          inlineData: {
-            mimeType: audioFile.type,
-            data: audioBase64,
-          },
-        },
-        { text: evaluationPrompt },
-      ]);
+    let modelUsed = "";
+    const triedModels: string[] = [];
 
-      const responseText = result.response.text();
-      
-      // Clean up response (remove markdown code blocks if present)
-      const jsonMatch = responseText.match(/\{[\s\S]*\}/);
-      const jsonText = jsonMatch ? jsonMatch[0] : responseText;
-      
-      evaluation = JSON.parse(jsonText);
-    } catch (error: any) {
-      console.error("Gemini evaluation error:", error);
+    for (const modelName of modelNames) {
+      try {
+        triedModels.push(modelName);
+        const model = genAI.getGenerativeModel({ model: modelName });
+        
+        const result = await model.generateContent([
+          {
+            inlineData: {
+              mimeType: audioFile.type,
+              data: audioBase64,
+            },
+          },
+          { text: evaluationPrompt },
+        ]);
+
+        const responseText = result.response.text();
+        
+        // Clean up response (remove markdown code blocks if present)
+        const jsonMatch = responseText.match(/\{[\s\S]*\}/);
+        const jsonText = jsonMatch ? jsonMatch[0] : responseText;
+        
+        evaluation = JSON.parse(jsonText);
+        modelUsed = modelName;
+        console.log(`Speaking evaluation succeeded with model: ${modelUsed}`);
+        break; // Success, exit retry loop
+      } catch (error: any) {
+        const is404 = error.message?.includes("404") || error.message?.includes("not found");
+        
+        if (is404 && triedModels.length < modelNames.length) {
+          // 404 error and we have more models to try
+          console.log(`Model ${modelName} returned 404, trying next model...`);
+          continue;
+        }
+        
+        // Final error (no more models or non-404 error)
+        console.error("Speaking evaluation error:", error);
+        return NextResponse.json(
+          {
+            error: "批改暂时不可用",
+            message: "批改暂时不可用，请稍后再试。",
+          },
+          { status: 500 }
+        );
+      }
+    }
+
+    if (!evaluation) {
+      // All models failed
       return NextResponse.json(
         {
-          error: "AI评估失败",
-          message: error.message || "Gemini API 调用失败",
+          error: "批改暂时不可用",
+          message: "批改暂时不可用，请稍后再试。",
         },
-        { status: 500 }
+        { status: 503 }
       );
     }
 

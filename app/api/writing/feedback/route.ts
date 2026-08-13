@@ -146,44 +146,62 @@ ${kaizenContext}
   "errorTags": ["错误类型1", "错误类型2"]
 }`;
 
-    // Use Gemini Flash with fallback
-    const modelNames = ["gemini-2.0-flash-exp", "gemini-1.5-flash"];
-    let model;
-    
+    // Get model list: env override or default fallback chain
+    // gemini-2.0-* was shut down June 2026; use 2.5 or 3.x
+    const envModel = process.env.GEMINI_MODEL;
+    const defaultModels = ["gemini-2.5-flash", "gemini-3.5-flash", "gemini-3.1-flash-lite"];
+    const modelNames = envModel ? [envModel] : defaultModels;
+
+    // Try models with automatic fallback on 404
+    let feedback: any;
+    let modelUsed = "";
+    const triedModels: string[] = [];
+
     for (const modelName of modelNames) {
       try {
-        model = genAI.getGenerativeModel({ model: modelName });
-        break;
-      } catch (err) {
-        console.log(`Model ${modelName} not available, trying next...`);
+        triedModels.push(modelName);
+        const model = genAI.getGenerativeModel({ model: modelName });
+        
+        const result = await model.generateContent(feedbackPrompt);
+        const responseText = result.response.text();
+        
+        // Clean up response (remove markdown code blocks if present)
+        const jsonMatch = responseText.match(/\{[\s\S]*\}/);
+        const jsonText = jsonMatch ? jsonMatch[0] : responseText;
+        
+        feedback = JSON.parse(jsonText);
+        modelUsed = modelName;
+        console.log(`Writing feedback succeeded with model: ${modelUsed}`);
+        break; // Success, exit retry loop
+      } catch (error: any) {
+        const is404 = error.message?.includes("404") || error.message?.includes("not found");
+        
+        if (is404 && triedModels.length < modelNames.length) {
+          // 404 error and we have more models to try
+          console.log(`Model ${modelName} returned 404, trying next model...`);
+          continue;
+        }
+        
+        // Final error (no more models or non-404 error)
+        console.error("Writing feedback error:", error);
+        return NextResponse.json(
+          {
+            error: "批改暂时不可用",
+            message: "批改暂时不可用，请稍后再试。",
+          },
+          { status: 500 }
+        );
       }
     }
 
-    if (!model) {
-      return NextResponse.json(
-        { error: "Gemini 模型不可用" },
-        { status: 503 }
-      );
-    }
-
-    let feedback: any;
-    try {
-      const result = await model.generateContent(feedbackPrompt);
-      const responseText = result.response.text();
-      
-      // Clean up response (remove markdown code blocks if present)
-      const jsonMatch = responseText.match(/\{[\s\S]*\}/);
-      const jsonText = jsonMatch ? jsonMatch[0] : responseText;
-      
-      feedback = JSON.parse(jsonText);
-    } catch (error: any) {
-      console.error("Gemini feedback error:", error);
+    if (!feedback) {
+      // All models failed
       return NextResponse.json(
         {
-          error: "批改失败",
-          message: error.message || "Gemini API 调用失败",
+          error: "批改暂时不可用",
+          message: "批改暂时不可用，请稍后再试。",
         },
-        { status: 500 }
+        { status: 503 }
       );
     }
 
