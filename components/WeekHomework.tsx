@@ -130,7 +130,7 @@ export default function WeekHomework({
       }, 1000);
     } catch (err: any) {
       console.error("Recording failed:", err);
-      alert("无法访问麦克风。WeChat 中请使用"上传录音"功能。");
+      alert("无法访问麦克风。WeChat 中请使用「上传录音」功能。");
     }
   };
   
