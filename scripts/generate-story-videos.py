@@ -70,38 +70,39 @@ STORIES = {
                     ("mei", "mei", "I want the chicken rice."),
                     ("priya", "priya", "First, take a tray. You mean: I want chicken rice."),
                 ],
-                chinese_caption='梅说"我要the鸡饭"。第一次提到用a，特指用the。'
+                chinese_caption='梅说"我要the鸡饭"，但这是第一次提到，不该用the。'
             ),
             Scene(
-                description="Classroom whiteboard, soft illustrated style. Board shows: '1st mention → a tray' and 'specific → the tray' in clear handwriting. Cream background, ink text.",
+                description="Canteen counter with fruit basket, illustrated. Apple and banana visible. Speech bubbles showing 'an apple' and 'a banana'. Simple, clear children's book style.",
                 dialogue=[
-                    ("narrator", "narrator", "Use 'a' or 'an' for first mention. Use 'the' for specific things."),
+                    ("priya", "priya", "Use a if the next word starts with a consonant sound. Use an if it starts with a vowel sound."),
+                    ("narrator", "narrator", "An apple. A banana. It's the sound, not the letter."),
                 ],
-                chinese_caption='首次提到：a tray。特指的托盘：the tray。'
+                chinese_caption='下个词是元音发音用an，辅音发音用a。看发音不看字母。'
             ),
             Scene(
-                description="Bus stop illustration, gouache style. Mei with backpack at bus stop, bus in background. Speech bubble: 'by bus' (no article). Morning light, cheerful.",
+                description="Two trays side by side, illustrated. Left tray labeled 'a tray' (first time), right tray with arrow labeled 'the tray' (now specific). Visual comparison, cream and teal colors.",
                 dialogue=[
-                    ("priya", "priya", "How do you get to school?"),
+                    ("priya", "priya", "Is it specific? Both of us know which one? Use the. First time mentioning? Use a or an."),
+                    ("narrator", "narrator", "A tray when you first mention it. The tray when we both know which one."),
+                ],
+                chinese_caption='特指（双方都知道）用the。首次提到用a或an。'
+            ),
+            Scene(
+                description="Bus stop with Mei waiting, illustrated gouache style. Bus approaching in background. Speech bubble: 'by bus' (no article). Morning light.",
+                dialogue=[
                     ("mei", "mei", "I go to school by bus."),
-                    ("narrator", "narrator", "Use zero article for transport: by bus, by train."),
+                    ("priya", "priya", "Good! No article for transport: by bus, by train."),
                 ],
-                chinese_caption="交通方式不用冠词：by bus, by train。"
+                chinese_caption='交通方式不用冠词：by bus, by MRT, by train。'
             ),
             Scene(
-                description="School hallway, illustrated. Mei confident now, pointing to herself. Speech bubble: 'I am a student'. Priya gives thumbs up.",
+                description="School hallway, illustrated. Mei confident, pointing to herself. Speech bubble: 'I am a student'. Priya gives thumbs up. Homework card visible in corner.",
                 dialogue=[
-                    ("mei", "mei", "I am a student!"),
-                    ("narrator", "narrator", "Use 'a' for jobs and roles: a student, a teacher."),
+                    ("mei", "mei", "I am a student! I go to school by bus!"),
+                    ("narrator", "narrator", "This week, your homework will practice articles. One step at a time."),
                 ],
-                chinese_caption="职业用a：I am a student. She is a teacher。"
-            ),
-            Scene(
-                description="Homework reminder card, illustrated. Text: 'This week: Practice articles' with checkbox icons. Cream and teal design.",
-                dialogue=[
-                    ("narrator", "narrator", "This week's homework will practice articles. Watch for: a, an, the, or zero."),
-                ],
-                chinese_caption="本周作业：练习a/an/the和零冠词。"
+                chinese_caption='本周作业：练习冠词a/an/the和零冠词。一步一步来。'
             ),
         ]
     },
