@@ -2,11 +2,10 @@ import { NextRequest, NextResponse } from "next/server";
 import { getServerSession } from "next-auth";
 import { authOptions } from "@/lib/auth";
 import { prisma } from "@/lib/db";
-import OpenAI from "openai";
+import { GoogleGenerativeAI } from "@google/generative-ai";
 
-const openai = process.env.OPENAI_API_KEY
-  ? new OpenAI({ apiKey: process.env.OPENAI_API_KEY })
-  : null;
+const apiKey = process.env.GEMINI_API_KEY || process.env.GOOGLE_GENERATIVE_AI_API_KEY;
+const genAI = apiKey ? new GoogleGenerativeAI(apiKey) : null;
 
 // Rate limit: 8 speaking evals per user per day
 const RATE_LIMIT = 8;
@@ -30,11 +29,11 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: "未授权" }, { status: 401 });
   }
 
-  if (!openai) {
+  if (!genAI) {
     return NextResponse.json(
       {
         error: "未配置批改服务",
-        message: "服务器未配置 OPENAI_API_KEY，暂时无法提供AI批改。",
+        message: "服务器未配置 GEMINI_API_KEY，暂时无法提供AI批改。",
       },
       { status: 503 }
     );
@@ -86,65 +85,82 @@ export async function POST(req: NextRequest) {
       },
     }) + 1;
 
-    // Step 1: Transcribe audio using Whisper
-    let transcript = "";
-    try {
-      const transcription = await openai.audio.transcriptions.create({
-        file: audioFile,
-        model: "whisper-1",
-        language: "en",
-      });
-      transcript = transcription.text;
-    } catch (error) {
-      console.error("Transcription error:", error);
-      return NextResponse.json(
-        { error: "音频转录失败" },
-        { status: 500 }
-      );
+    // Load previous attempts for Kaizen feedback (compare errors)
+    const previousAttempts = await prisma.speakingAttempt.findMany({
+      where: {
+        userId: session.user.id,
+        questionId,
+      },
+      orderBy: { createdAt: "desc" },
+      take: 3,
+    });
+
+    // Extract previous focus and error tags
+    let previousFocus = "";
+    let previousErrorTags: string[] = [];
+    if (previousAttempts.length > 0) {
+      const lastFeedback = JSON.parse(previousAttempts[0].feedback);
+      previousFocus = lastFeedback.focus || "";
+      previousErrorTags = lastFeedback.errorTags || [];
     }
 
-    if (!transcript || transcript.length < 10) {
-      return NextResponse.json(
-        {
-          error: "录音内容太短",
-          message: "请确保清晰录音并说完整内容。",
-        },
-        { status: 400 }
-      );
-    }
-
-    // Step 2: Evaluate with gpt-4o for audio analysis (pronunciation)
-    // We'll use audio input for pronunciation assessment
+    // Prepare audio for Gemini
     const audioBuffer = await audioFile.arrayBuffer();
     const audioBase64 = Buffer.from(audioBuffer).toString("base64");
-    const audioDataUrl = `data:${audioFile.type};base64,${audioBase64}`;
+
+    // Use Gemini Flash with audio input (try latest models with fallback)
+    const modelNames = ["gemini-2.0-flash-exp", "gemini-1.5-flash"];
+    let model;
+    let modelUsed = "";
+    
+    for (const modelName of modelNames) {
+      try {
+        model = genAI.getGenerativeModel({ model: modelName });
+        modelUsed = modelName;
+        break;
+      } catch (err) {
+        console.log(`Model ${modelName} not available, trying next...`);
+      }
+    }
+
+    if (!model) {
+      return NextResponse.json(
+        { error: "Gemini 模型不可用" },
+        { status: 503 }
+      );
+    }
+
+    const kaizenContext = previousFocus
+      ? `\n\n【Kaizen 改善追踪】
+上一次的改善焦点是：「${previousFocus}」
+上一次的错误标签：${previousErrorTags.join(", ") || "无"}
+
+请仔细听音频，判断学生这次是否还在犯同样的错误。如果是，请保持相同的改善焦点，并在 feedback.focus 中说明「上一次的焦点还在：${previousFocus}」。只有当学生明显改进后，才换一个新的焦点。`
+      : "\n\n这是学生第一次尝试此题目。";
 
     const evaluationPrompt = `你是剑桥英语考试 ${level} 级别（${level === "A2" ? "Key for Schools" : "Preliminary for Schools"}）的口语考官。
 
 学生的口语任务：
 ${question.content}
+${kaizenContext}
 
-学生的录音已转录为：
-"${transcript}"
-
-请根据剑桥考试标准评估（0-5分制）：
-1. 发音 Pronunciation (clarity, stress, intonation)
+请直接听这段音频进行评估（0-5分制）：
+1. 发音 Pronunciation (clarity, stress, intonation) — 必须基于音频评估，如果听不到音频则设为 null
 2. 流利 Fluency (pace, hesitation, self-correction)
 3. 任务 Task Achievement (covered all bullet points, appropriate length)
 4. 词汇/语法 Vocabulary & Grammar Range
 
-重要：你需要听音频来评估发音。如果无法听到音频，请在发音项说明"发音评估暂不可用"。
-
 然后提供简体中文的Kaizen改善反馈：
 - 本次亮点（1-2点具体优点）
-- 改善焦点（ONE thing only — 聚焦一个最重要的改进点）
+- 改善焦点（ONE thing only — 如果上次焦点还在，就保持；只有明显改进后才换新焦点）
 - 跟读句子（2-3个适合${level}水平的示范句，基于学生的话题）
-- 下次怎么说得更好（具体建议，不要泛泛而谈）
+- 下次怎么说得更好（具体建议）
+- errorTags（错误类型标签数组，例如：["articles", "tense", "pronunciation-th", "word-stress"]）
 
-返回JSON格式：
+严格返回JSON格式（不要markdown代码块）：
 {
   "scores": {
-    "pronunciation": 0-5,
+    "pronunciation": 0-5或null,
     "fluency": 0-5,
     "taskAchievement": 0-5,
     "vocabularyGrammar": 0-5
@@ -152,48 +168,41 @@ ${question.content}
   "overall": "整体简短评价（1句话）",
   "feedback": {
     "highlights": ["亮点1", "亮点2"],
-    "focus": "ONE 改善焦点",
-    "modelSentences": ["示范句1", "示范句2", "示范句3"],
-    "nextSteps": "下次具体怎么做"
+    "focus": "ONE 改善焦点（如果是重复问题，说明「上一次的焦点还在：...」）",
+    "modelSentences": ["示范句1", "示范句2"],
+    "nextSteps": "下次具体怎么做",
+    "errorTags": ["错误类型1", "错误类型2"]
   }
 }`;
 
     let evaluation: any;
     try {
-      // Try to use gpt-4o for evaluation (will use transcript only if audio input not supported)
-      // For production, consider using the audio models when they become available
-      const response = await openai.chat.completions.create({
-        model: "gpt-4o-mini",
-        messages: [
-          {
-            role: "user",
-            content: `${evaluationPrompt}\n\n注意：当前使用文本评估。发音分数基于转录文本的完整度和流畅度推断，非直接音频分析。`,
+      const result = await model.generateContent([
+        {
+          inlineData: {
+            mimeType: audioFile.type,
+            data: audioBase64,
           },
-        ],
-        response_format: { type: "json_object" },
-      });
+        },
+        { text: evaluationPrompt },
+      ]);
 
-      evaluation = JSON.parse(response.choices[0].message.content || "{}");
-    } catch (audioError: any) {
-      console.log("Audio model failed, falling back to transcript-only:", audioError.message);
+      const responseText = result.response.text();
       
-      // Fallback: use text-only model, mark pronunciation as unavailable
-      const fallbackPrompt = `${evaluationPrompt}
-
-注意：音频处理失败，仅基于转录文本评估。发音分数设为 null，在反馈中说明"发音评估暂不可用"。`;
-
-      const response = await openai.chat.completions.create({
-        model: "gpt-4o-mini",
-        messages: [{ role: "user", content: fallbackPrompt }],
-        response_format: { type: "json_object" },
-      });
-
-      evaluation = JSON.parse(response.choices[0].message.content || "{}");
+      // Clean up response (remove markdown code blocks if present)
+      const jsonMatch = responseText.match(/\{[\s\S]*\}/);
+      const jsonText = jsonMatch ? jsonMatch[0] : responseText;
       
-      // Ensure pronunciation is marked as unavailable
-      if (evaluation.scores) {
-        evaluation.scores.pronunciation = null;
-      }
+      evaluation = JSON.parse(jsonText);
+    } catch (error: any) {
+      console.error("Gemini evaluation error:", error);
+      return NextResponse.json(
+        {
+          error: "AI评估失败",
+          message: error.message || "Gemini API 调用失败",
+        },
+        { status: 500 }
+      );
     }
 
     // Store the attempt
@@ -203,17 +212,17 @@ ${question.content}
         questionId,
         attemptNumber,
         durationSec,
-        transcript,
+        transcript: evaluation.transcript || evaluation.overall || "(Gemini audio-only evaluation)",
         scores: JSON.stringify(evaluation.scores || {}),
         feedback: JSON.stringify(evaluation.feedback || {}),
-        audioUrl: null, // Could upload to Vercel Blob or Supabase in v2
+        audioUrl: null,
       },
     });
 
     return NextResponse.json({
       success: true,
       attemptNumber,
-      transcript,
+      transcript: evaluation.transcript || evaluation.overall || "",
       evaluation: {
         scores: evaluation.scores || {},
         overall: evaluation.overall || "",

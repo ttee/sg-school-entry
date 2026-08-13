@@ -62,6 +62,7 @@ export default function WeekHomework({
   // Writing feedback state
   const [writingFeedback, setWritingFeedback] = useState<Record<string, any>>({});
   const [gettingFeedback, setGettingFeedback] = useState<Record<string, boolean>>({});
+  const [previousWritingFocus, setPreviousWritingFocus] = useState<Record<string, string>>({});
 
   const isCompleted = !!initialSubmission?.completedAt;
 
@@ -228,16 +229,30 @@ export default function WeekHomework({
           const data = await res.json();
           if (data.success && data.attempts.length > 0) {
             setSpeakingAttempts((prev) => ({ ...prev, [q.id]: data.attempts }));
+            const lastAttempt = data.attempts[data.attempts.length - 1];
             setSpeakingEval((prev) => ({ 
               ...prev, 
               [q.id]: {
-                scores: data.attempts[data.attempts.length - 1].scores,
-                feedback: data.attempts[data.attempts.length - 1].feedback,
+                scores: lastAttempt.scores,
+                feedback: lastAttempt.feedback,
               }
             }));
           }
         } catch (err) {
           console.error("Failed to load speaking attempts:", err);
+        }
+      }
+      
+      if (q.type === "writing") {
+        // Fetch previous writing feedback to show the 改善焦点
+        try {
+          const res = await fetch(`/api/writing/previous?questionId=${q.id}`);
+          const data = await res.json();
+          if (data.success && data.previousFocus) {
+            setPreviousWritingFocus((prev) => ({ ...prev, [q.id]: data.previousFocus }));
+          }
+        } catch (err) {
+          console.error("Failed to load previous writing focus:", err);
         }
       }
     });
@@ -459,6 +474,14 @@ export default function WeekHomework({
 
             {question.type === "writing" && (
               <div className="space-y-4">
+                {/* Show previous focus if exists */}
+                {previousWritingFocus[question.id] && !isCompleted && (
+                  <div className="bg-accent/10 border border-accent/30 rounded-lg p-3">
+                    <p className="text-sm font-semibold text-ink mb-1">📌 本次练习焦点：</p>
+                    <p className="text-sm text-ink-2">{previousWritingFocus[question.id]}</p>
+                  </div>
+                )}
+                
                 <textarea
                   value={answers[question.id] || ""}
                   onChange={(e) =>
@@ -570,6 +593,16 @@ export default function WeekHomework({
 
             {question.type === "speaking" && (
               <div className="space-y-4">
+                {/* Show previous focus if exists */}
+                {speakingAttempts[question.id] && speakingAttempts[question.id].length > 0 && !isCompleted && (
+                  <div className="bg-accent/10 border border-accent/30 rounded-lg p-3">
+                    <p className="text-sm font-semibold text-ink mb-1">📌 本次练习焦点：</p>
+                    <p className="text-sm text-ink-2">
+                      {speakingAttempts[question.id][speakingAttempts[question.id].length - 1].feedback?.focus || ""}
+                    </p>
+                  </div>
+                )}
+                
                 {/* Recording UI */}
                 <div className="bg-paper border border-line rounded-lg p-4">
                   <p className="text-sm text-ink-2 mb-3">
