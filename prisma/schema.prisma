@@ -1,0 +1,70 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id          String       @id @default(uuid())
+  email       String       @unique
+  password    String
+  name        String?
+  role        String       @default("student")
+  level       String?
+  subscribed  Boolean      @default(false)
+  createdAt   DateTime     @default(now())
+  updatedAt   DateTime     @updatedAt
+  submissions Submission[]
+}
+
+model Week {
+  id          String       @id @default(uuid())
+  level       String
+  weekNumber  Int
+  title       String
+  description String?
+  isSample    Boolean      @default(false)
+  dueDate     DateTime?
+  createdAt   DateTime     @default(now())
+  updatedAt   DateTime     @updatedAt
+  questions   Question[]
+  submissions Submission[]
+
+  @@unique([level, weekNumber])
+}
+
+model Question {
+  id            String   @id @default(uuid())
+  weekId        String
+  type          String
+  order         Int
+  content       String
+  options       String?
+  correctAnswer String?
+  points        Int      @default(1)
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+  week          Week     @relation(fields: [weekId], references: [id], onDelete: Cascade)
+
+  @@index([weekId])
+}
+
+model Submission {
+  id          String    @id @default(uuid())
+  userId      String
+  weekId      String
+  answers     String
+  score       Int?
+  completedAt DateTime?
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+  user        User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  week        Week      @relation(fields: [weekId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, weekId])
+  @@index([userId])
+  @@index([weekId])
+}

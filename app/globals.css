@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+@theme {
+  --color-paper: #F4EFE6;
+  --color-paper-2: #EBE4D6;
+  --color-card: #FBF7F0;
+  --color-ink: #1C1915;
+  --color-ink-2: #3F3A33;
+  --color-muted: #6F675C;
+  --color-line: #D6CDBF;
+  --color-accent: #0E5852;
+  --color-accent-ink: #F4EFE6;
+  --color-accent-hover: #0A3F3B;
+  --color-warn-bg: #F3E6D4;
+  --color-warn-ink: #5C3D1E;
+
+  --font-family-sans: "PingFang SC", "Hiragino Sans GB", "Noto Sans SC", "Source Han Sans SC", "Microsoft YaHei", "Segoe UI", sans-serif;
+  --font-family-serif: "Songti SC", "STSong", "Noto Serif SC", "Source Han Serif SC", "Iowan Old Style", Georgia, serif;
+
+  --radius: 14px;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+body {
+  background-color: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-family-sans);
+}
