@@ -3,10 +3,11 @@ generator client {
 }
 
 datasource db {
-  provider = "sqlite"
+  provider = "postgresql"
   url      = env("DATABASE_URL")
-  // For local dev with SQLite, use "sqlite" provider
-  // For production PostgreSQL, change to "postgresql" and add directUrl = env("DIRECT_URL")
+  directUrl = env("DIRECT_URL")
+  // For local dev with SQLite, change provider to "sqlite" and comment out directUrl
+  // Vercel production uses PostgreSQL from environment variables
 }
 
 model User {
