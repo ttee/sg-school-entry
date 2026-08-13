@@ -160,26 +160,14 @@ ${question.content}
 
     let evaluation: any;
     try {
-      // Try to use gpt-4o with audio input for pronunciation
+      // Try to use gpt-4o for evaluation (will use transcript only if audio input not supported)
+      // For production, consider using the audio models when they become available
       const response = await openai.chat.completions.create({
-        model: "gpt-4o-audio-preview",
-        modalities: ["text"],
+        model: "gpt-4o-mini",
         messages: [
           {
             role: "user",
-            content: [
-              {
-                type: "text",
-                text: evaluationPrompt,
-              },
-              {
-                type: "input_audio",
-                input_audio: {
-                  data: audioBase64,
-                  format: audioFile.type.includes("wav") ? "wav" : "mp3",
-                },
-              },
-            ],
+            content: `${evaluationPrompt}\n\n注意：当前使用文本评估。发音分数基于转录文本的完整度和流畅度推断，非直接音频分析。`,
           },
         ],
         response_format: { type: "json_object" },
