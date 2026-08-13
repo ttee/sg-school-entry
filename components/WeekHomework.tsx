@@ -482,6 +482,19 @@ export default function WeekHomework({
                   </div>
                 )}
                 
+                {/* How to practice guide */}
+                {!isCompleted && !writingFeedback[question.id] && (
+                  <div className="bg-paper border border-line rounded-lg p-3">
+                    <p className="text-sm font-semibold text-ink mb-2">💡 如何练习 / How to practice:</p>
+                    <ol className="text-sm text-ink-2 space-y-1 list-decimal list-inside">
+                      <li>输入你的写作内容 / Write your answer</li>
+                      <li>点击"提交写作"获取 AI 反馈 / Tap submit to get AI feedback</li>
+                      <li>阅读改善焦点 / Read the improvement focus</li>
+                      <li>点击"再写一次"继续练习 / Tap rewrite to practice again</li>
+                    </ol>
+                  </div>
+                )}
+                
                 <textarea
                   value={answers[question.id] || ""}
                   onChange={(e) =>
@@ -493,19 +506,24 @@ export default function WeekHomework({
                   className="w-full px-4 py-3 bg-paper border border-line rounded-lg text-ink resize-y focus:outline-none focus:ring-2 focus:ring-accent disabled:opacity-60"
                   placeholder="在此输入你的答案..."
                 />
-                <div className="flex justify-between items-center">
-                  <div className="flex gap-2">
-                    {answers[question.id] && answers[question.id].trim().length > 10 && !isCompleted && (
+                <div className="flex justify-between items-center gap-3">
+                  <div className="flex flex-col gap-2 flex-1">
+                    {!isCompleted && (
                       <button
                         onClick={() => getWritingFeedback(question.id)}
-                        disabled={gettingFeedback[question.id]}
-                        className="px-4 py-2 bg-accent text-accent-ink text-sm font-semibold rounded-full hover:bg-accent-hover transition-colors disabled:opacity-50"
+                        disabled={gettingFeedback[question.id] || !answers[question.id] || answers[question.id].trim().length <= 10}
+                        className="px-5 py-2.5 bg-accent text-accent-ink font-semibold rounded-full hover:bg-accent-hover transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
                       >
-                        {gettingFeedback[question.id] ? "批改中..." : "📝 请老师点评 / Get feedback"}
+                        {gettingFeedback[question.id] ? "批改中..." : "📝 提交写作 / Get feedback"}
                       </button>
                     )}
+                    {!isCompleted && (!answers[question.id] || answers[question.id].trim().length <= 10) && (
+                      <p className="text-xs text-muted">
+                        请先输入至少 10 个字符，然后点击提交获取改善反馈 / Type at least 10 characters to submit for feedback
+                      </p>
+                    )}
                   </div>
-                  <p className="text-xs text-muted">
+                  <p className="text-xs text-muted whitespace-nowrap">
                     字数 / Words: {(answers[question.id] || "").trim().split(/\s+/).filter((w: string) => w.length > 0).length}
                   </p>
                 </div>
