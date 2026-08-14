@@ -364,15 +364,21 @@ export default function WeekHomework({
             <div className="bg-card border border-line rounded-xl p-5">
               <h3 className="font-semibold text-ink mb-3">🎬 播放本周微课 / Watch this week's micro-lesson</h3>
               <video
+                autoPlay
+                muted
+                loop
                 controls
                 playsInline
-                preload="metadata"
+                preload="auto"
                 className="w-full rounded-lg bg-paper-2"
                 style={{ maxHeight: '480px' }}
               >
                 <source src={week.videoUrl} type="video/mp4" />
                 Your browser does not support the video element.
               </video>
+              <p className="mt-2 text-sm text-ink-2">
+                先看动画（无声自动播放）。要点右下角开声音。
+              </p>
               <div className="mt-3 text-sm text-ink-2 space-y-1">
                 <p className="font-semibold">💡 如何看微课 / How to use:</p>
                 <ol className="list-decimal list-inside space-y-1 ml-2">
