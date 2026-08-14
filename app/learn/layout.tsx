@@ -54,6 +54,12 @@ export default async function LearnLayout({
               </div>
             </Link>
             <div className="flex items-center gap-4">
+              <Link
+                href="/learn/progress"
+                className="text-sm text-muted hover:text-ink transition-colors"
+              >
+                进度
+              </Link>
               <span className="text-sm text-muted hidden sm:block">
                 {session.user.name || session.user.email}
               </span>
