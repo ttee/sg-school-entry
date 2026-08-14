@@ -55,10 +55,10 @@ async function main() {
       title: "试学周 / Sample Week",
       description: "First week in a Singapore school",
       isSample: true,
-      errorFocus: "articles",
-      parentBrief: "本周纠错焦点仍是冠词。微课故事是开学第一天自我介绍（I am a student）和失物招领（a water bottle → the water bottle with Mum's pink flower）。中文没有冠词，孩子会漏 a 或乱加 the。by bus 是零冠词。",
+      errorFocus: "articles-demonstratives-possessives",
+      parentBrief: "本周纠错焦点：冠词 + 指示代词 + 物主代词。微课是失物招领：Auntie Tan 问 Is this your bottle? Mei 答 Yes, that's mine. 孩子会说 this is your bottle?（疑问语序错）、that is my（漏 -s）、I lost water bottle（漏 a）。练 this/that、your/mine、Is this your…? 和 a → the。不提开学板书，不提食堂。",
       videoUrl: "/video/a2-w0.mp4",
-      kaizenFocus: "Use articles a/an/the correctly, and know when to use zero article (by bus, on Monday)",
+      kaizenFocus: "Use articles (a/the), demonstratives (this/that), possessives (your/mine), and question form 'Is this your...?'",
       questions: [
         {
           type: "reading",
@@ -67,33 +67,35 @@ async function main() {
 
 From: Mei Lin <mei.lin@student.sg>
 To: Cousin Hua <hua@email.com>
-Subject: My first day!
+Subject: Lost and Found!
 
 Hi Hua!
 
-Today was my first day at my new school in Singapore! This morning, Ms Tan asked everyone to introduce themselves. I stood up and said, "Good morning. I am a student from China. My name is Mei Lin." My voice was quiet but Ms Tan smiled at me.
+Today at school I lost my water bottle! I looked everywhere – in my bag, in the classroom, near the lockers. I couldn't find it. I was worried because Mum just bought it for me. It's a white water bottle with a pink flower sticker on it.
 
-At recess, I met a girl called Priya. She showed me the canteen, the library, and our classroom. We went to the canteen together, and I ordered some food. But after recess, I couldn't find my water bottle! I looked everywhere.
+My new friend Priya saw I was upset. She put her hand on my shoulder and said, "Don't worry! Let's go to the Lost and Found office." We walked down the corridor to the school office.
 
-Priya said, "Let's go to Lost and Found." We walked to the office. A teacher there asked, "What did you lose?" I said, "I lost a water bottle." The teacher showed me a box full of water bottles. Then I saw it – the water bottle with my mum's pink flower sticker! "That's the one!" I said. I was so happy.
+At the counter there was Auntie Tan. She has curly grey hair, glasses, and she wears a pink polo shirt with a gold nametag that says AUNTIE TAN. Behind her I could see a shelf with a plant, a crate, a basket, and some lunch bags. There's a big sign on the wall: LOST AND FOUND, and under it in Chinese: 失物招领.
 
-Tomorrow I will take the bus to school. Priya told me I can take bus number 80. I go to school by bus now, not by car like back home.
+Auntie Tan looked at the counter. There were so many water bottles! I saw a blue one, a pink one, a green one, and a yellow one. Then she picked up a white bottle with a pink flower sticker. She held it up and asked me, "Is this your bottle?"
 
-Everyone here is friendly. I think I will like this school!
+I was so happy! I said, "Yes, that's mine. Thank you!"
+
+Auntie Tan smiled and gave it to me. Priya is a good friend for helping me. The Lost and Found office really helps students.
 
 Love,
 Mei`,
           options: JSON.stringify([
-            "What did Mei say when she introduced herself?|A. I am from Singapore|B. I am a student from China|C. I am a teacher|D. I am Priya's friend",
-            "Who showed Mei the canteen and library?|A. Ms Tan|B. Her mother|C. Priya|D. A teacher at Lost and Found",
-            "What did Mei lose?|A. Her homework|B. Her timetable|C. A water bottle|D. Her school bag",
-            "Where did Mei find her water bottle?|A. In the classroom|B. In the canteen|C. At Lost and Found|D. In the library",
-            "How did Mei know which water bottle was hers?|A. It had her name on it|B. It was blue|C. It had her mum's pink flower sticker|D. It was the biggest one",
-            "How will Mei go to school tomorrow?|A. By car|B. By bus|C. By MRT|D. She will walk",
-            "Which bus number did Priya tell Mei to take?|A. Bus 70|B. Bus 80|C. Bus 90|D. Bus 100",
-            "How does Mei feel about her new school?|A. Angry and sad|B. Bored|C. Happy and positive|D. Very worried",
+            "Why was Mei worried?|A. She was late|B. She lost her water bottle|C. She had no friends|D. She failed a test",
+            "Who helped Mei?|A. Ms Tan|B. Her mother|C. Priya|D. A teacher",
+            "Where did Priya take Mei?|A. The classroom|B. The library|C. The Lost and Found office|D. The playground",
+            "Who works at the Lost and Found?|A. Ms Tan|B. Auntie Tan|C. Mei's mother|D. Priya",
+            "What did Auntie Tan ask Mei?|A. What did you lose?|B. Where is your bottle?|C. Is this your bottle?|D. What's your name?",
+            "How many other water bottles were on the counter?|A. Two|B. Three|C. Four|D. Five",
+            "What did Mei say to Auntie Tan?|A. That's the one!|B. Yes, that's mine. Thank you.|C. I lost my bottle.|D. Can I have it?",
+            "What is behind Auntie Tan?|A. A clock|B. A map|C. A shelf with a plant, crate, basket, and lunch bags|D. A notice board",
           ]),
-          correctAnswer: "B,C,C,C,C,B,B,C",
+          correctAnswer: "B,C,C,B,C,C,B,C",
           points: 8,
         },
         {
@@ -101,16 +103,16 @@ Mei`,
           order: 2,
           content: "Choose the correct answer:",
           options: JSON.stringify([
-            "Mei ____ at a new school now.|A. is|B. are|C. am|D. be",
-            "Priya ____ Mei yesterday.|A. help|B. helps|C. helped|D. helping",
-            "There ____ thirty students in my class.|A. is|B. are|C. has|D. have",
-            "I go to school ____ bus.|A. by|B. on|C. in|D. at",
-            "Ms Tan is ____ kind teacher.|A. a|B. an|C. the|D. some",
-            "Drama Club practises ____ Thursday.|A. in|B. at|C. on|D. by",
-            "That is ____ water bottle with the pink flower.|A. a|B. an|C. the|D. no article",
-            "The library is ____ the canteen.|A. next|B. next to|C. next of|D. next at",
+            "Is ____ your bottle?|A. this|B. these|C. those|D. them",
+            "Yes, that's ____.|A. my|B. mine|C. me|D. I",
+            "Mei lost ____ water bottle.|A. a|B. an|C. the|D. some",
+            "Auntie Tan wears ____ pink polo shirt.|A. a|B. an|C. the|D. some",
+            "That is ____ bottle with the pink flower.|A. a|B. an|C. the|D. no article",
+            "____ is Auntie Tan at the counter.|A. This|B. That|C. These|D. Those",
+            "The Lost and Found office is ____ the school office.|A. in|B. at|C. on|D. by",
+            "Mei said thank ____.|A. me|B. your|C. you|D. yours",
           ]),
-          correctAnswer: "A,C,B,A,A,C,C,B",
+          correctAnswer: "A,B,A,A,C,B,A,C",
           points: 8,
         },
         {
@@ -118,15 +120,15 @@ Mei`,
           order: 3,
           content: `Write an email to Mei (50-70 words).
 
-Answer these THREE questions:
-• What time do you start school?
-• How do you travel to school?
-• What is your favourite subject?
+Mei told you about finding her bottle at Lost and Found. Write back and answer these THREE questions:
+• Have you ever lost something at school? What was it?
+• How did you find it (or did someone help you)?
+• What would you say to someone at Lost and Found?
 
 成功标准 / Success Criteria:
 ✓ 回答所有3个问题 (Answer all 3 content points)
-✓ 使用现在时态 (Use present simple tense correctly: I go, I start, my favourite is...)
-✓ 连接词 (Use linking words: and, but, because)
+✓ 使用 this/that 和 your/mine (Use demonstratives and possessives: Is this yours? That's mine.)
+✓ 使用正确冠词 (Use articles correctly: a water bottle, the Lost and Found office)
 ✓ 50-70词 (50-70 words)`,
           points: 10,
         },
@@ -135,7 +137,9 @@ Answer these THREE questions:
           order: 4,
           content: `听读练习 / Listening Preparation (read carefully)
 
-Ms Tan: Good morning, class. Tomorrow is Tuesday, so let me remind you about your timetable. You start with English at eight o'clock, then Maths at nine fifteen. Break is at ten thirty. After break you have Science with Mr Lim in the lab. Don't forget your lab coat! Lunch is at twelve thirty in the canteen. In the afternoon you have PE outside, so bring your water bottle and sports shoes. School finishes at two forty-five. Any questions?
+Note: This is a separate timetable listening task, not the Lost and Found story.
+
+Ms Tan: Good morning, class. Tomorrow is Tuesday, so let me remind you about your timetable. You start with English at eight o'clock, then Maths at nine fifteen. Break is at ten thirty. After break you have Science with Mr Lim in the lab. Don't forget your lab coat! Lunch is at twelve thirty. In the afternoon you have PE outside, so bring your water bottle and sports shoes. School finishes at two forty-five. Any questions?
 
 Student: Do we need our Maths homework tomorrow?
 
@@ -156,21 +160,23 @@ Ms Tan: Yes, please bring your Maths workbook. And remember, Thursday is Drama C
           order: 5,
           content: `口语练习 / Speaking Practice
 
-Task: Talk about "My first day at school" (1 minute)
+Task: Talk about "Lost and Found at school" (1 minute)
 
 Think about these points:
-• How you felt on your first day
-• Who you met
-• What surprised you
-• One thing you liked
+• Have you ever lost something at school? What was it?
+• How did you ask for help or look for it?
+• Practice saying: "Is this your...?" and "Yes, that's mine. Thank you."
+• What advice would you give to someone who lost something?
 
 Useful phrases:
-• On my first day, I felt...
-• I met a student called...
-• I was surprised that...
-• The thing I liked most was...
-• At first I was nervous, but then...
-• Everyone was very friendly.
+• Once I lost...
+• I asked, "Is this your...?" / "Is that yours?"
+• Someone said, "That's mine." / "This is mine."
+• The Lost and Found office is...
+• If you lose something, you should...
+• Always say "Thank you" when...
+• I would feel worried if I lost...
+• It's important to write your name on...
 
 如何练习 / How to practise:
 1. 准备1分钟 (Prepare for 1 minute)

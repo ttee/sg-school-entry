@@ -5,7 +5,7 @@ export default function DualValidationMap() {
         本周对照考试题型
       </h2>
       <p className="text-sm text-ink-2 mb-4 leading-relaxed">
-        试学周按 <strong>A2 Key for Schools</strong> 题型来练。故事是<strong>开学第一天 + Lost and Found</strong>，焦点是冠词 a/an/the。
+        试学周按 <strong>A2 Key for Schools</strong> 题型来练。故事是<strong>失物招领 / Lost and Found</strong>：Auntie Tan 问 "Is this your bottle?"，Mei 答 "Yes, that's mine. Thank you." 焦点是 this/that、your/mine 和冠词 a → the。
       </p>
 
       <div className="overflow-x-auto">
@@ -26,24 +26,24 @@ export default function DualValidationMap() {
           <tbody>
             <tr className="border-b border-accent/10">
               <td className="px-3 py-3 text-ink align-top">
-                <strong>阅读</strong><br />学校邮件 + 选择题
+                <strong>阅读</strong><br />Mei 的失物招领邮件 + 选择题
               </td>
               <td className="px-3 py-3 text-ink-2 align-top">
                 <strong>Reading Part 3</strong><br />一篇长文本，5 道三选一
               </td>
               <td className="px-3 py-3 text-ink-2 align-top">
-                读学校通知，做 5 道选择题，练考试 Part 3 题型
+                读 Mei 写给表姐的邮件，讲 Auntie Tan 帮她找回水壶的经过，做 8 道选择题
               </td>
             </tr>
             <tr className="border-b border-accent/10">
               <td className="px-3 py-3 text-ink align-top">
-                <strong>语法</strong><br />Lost and Found 故事中的 a/an/the
+                <strong>语法</strong><br />Is this your…? / this/that / your/mine
               </td>
               <td className="px-3 py-3 text-ink-2 align-top">
                 <strong>Reading Part 4 & 5</strong><br />完形填空（选择 + 开放式）
               </td>
               <td className="px-3 py-3 text-ink-2 align-top">
-                在故事里填冠词，训练完形填空的语法判断
+                练指示代词（this/that）、物主代词（your/mine）、疑问句（Is this your…?）和冠词
               </td>
             </tr>
             <tr className="border-b border-accent/10">
@@ -59,24 +59,24 @@ export default function DualValidationMap() {
             </tr>
             <tr className="border-b border-accent/10">
               <td className="px-3 py-3 text-ink align-top">
-                <strong>听力</strong><br />Ms Tan 课表公告 + 选择题
+                <strong>听力</strong><br />课表公告 + 选择题（额外练习，非微课）
               </td>
               <td className="px-3 py-3 text-ink-2 align-top">
                 <strong>Listening Part 3</strong><br />对话，5 道三选一
               </td>
               <td className="px-3 py-3 text-ink-2 align-top">
-                听公告或对话，做 5 道三选一题；官方考试听两遍，我们的播放器可重听
+                听老师公告明天的课表，做 5 道三选一题；官方考试听两遍，我们的播放器可重听
               </td>
             </tr>
             <tr>
               <td className="px-3 py-3 text-ink align-top">
-                <strong>口语</strong><br />~1 分钟自述第一天
+                <strong>口语</strong><br />~1 分钟谈失物招领 + 练对话
               </td>
               <td className="px-3 py-3 text-ink-2 align-top">
                 <strong>Speaking Part 1</strong><br />事实性和个人信息问答
               </td>
               <td className="px-3 py-3 text-ink-2 align-top">
-                讲第一天上学的经历，练 Part 1 的个人问答
+                讲失物招领经历，练对话 "Is this your…?" / "Yes, that's mine. Thank you."
               </td>
             </tr>
           </tbody>
