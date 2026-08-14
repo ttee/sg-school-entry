@@ -45,7 +45,7 @@ export default async function ProgressPage() {
           const isDone = submission?.completedAt;
           const score = submission?.score;
 
-          const weekLabel = week.isSample
+          const weekLabel = week.weekNumber === 0 || week.isSample
             ? "试学周"
             : `第 ${week.weekNumber} 周`;
 
