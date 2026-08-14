@@ -27,6 +27,9 @@ export default function HomePage() {
             </div>
           </Link>
           <nav className="hidden md:flex items-center gap-6 text-sm">
+            <Link href="/assess" className="text-ink-2 hover:text-ink transition-colors font-medium">
+              入学摸底
+            </Link>
             <Link href="#paths" className="text-ink-2 hover:text-ink transition-colors font-medium">
               路径
             </Link>
@@ -67,6 +70,12 @@ export default function HomePage() {
                 className="inline-flex items-center justify-center px-6 py-3.5 bg-accent text-accent-ink font-semibold rounded-full hover:bg-accent-hover transition-colors text-base"
               >
                 微信咨询 / 预约评估
+              </Link>
+              <Link
+                href="/assess"
+                className="inline-flex items-center justify-center px-6 py-3.5 bg-transparent text-ink border border-accent font-semibold rounded-full hover:bg-accent/10 transition-colors text-base"
+              >
+                入学英语摸底
               </Link>
               <Link
                 href="/learn"
