@@ -78,6 +78,18 @@ export default function HomePage() {
             <p className="text-sm text-muted max-w-2xl">
               非 MOE、SEAB、Cambridge 官方机构 · 录取不保证 · 月度会员 S$320 或预付 12 周 A2 / B1 冲刺包 · PayNow / 微信转账
             </p>
+            <p className="text-sm text-ink-2 mt-3 max-w-2xl">
+              <strong>AEIS 申请：</strong>
+              <a 
+                href="https://www.moe.gov.sg/international-students/aeis/apply" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-accent hover:text-accent-hover underline ml-1"
+              >
+                moe.gov.sg/international-students/aeis/apply
+              </a>
+              {" "}· 2026 年小学申请曾在 7 月开放，具体日期以官网为准
+            </p>
           </div>
         </section>
 
@@ -170,7 +182,7 @@ export default function HomePage() {
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-accent mt-0.5">✓</span>
-                  <span>选择题自动批改，写作待家长/老师查看</span>
+                  <span>选择题自动批改，写作有 AI 简体点评（Kaizen 一个改善焦点）</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-accent mt-0.5">✓</span>
