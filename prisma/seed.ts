@@ -55,10 +55,10 @@ async function main() {
       title: "试学周 / Sample Week",
       description: "First week in a Singapore school",
       isSample: true,
-      errorFocus: "articles",
-      parentBrief: "本周纠错焦点是冠词。微课是失物招领：Auntie Tan 把 the water bottle with the pink flower 交给 Mei。中文没有冠词，孩子会说 I lost water bottle / that is water bottle。先练 a → the 的转换。不提开学自我介绍板书，不提食堂。",
+      errorFocus: "articles-demonstratives-possessives",
+      parentBrief: "本周纠错焦点：冠词 + 指示代词 + 物主代词。微课是失物招领：Auntie Tan 问 Is this your bottle? Mei 答 Yes, that's mine. 孩子会说 this is your bottle?（疑问语序错）、that is my（漏 -s）、I lost water bottle（漏 a）。练 this/that、your/mine、Is this your…? 和 a → the。不提开学板书，不提食堂。",
       videoUrl: "/video/a2-w0.mp4",
-      kaizenFocus: "Use articles a/an/the correctly, and know when to use zero article (by bus, on Monday)",
+      kaizenFocus: "Use articles (a/the), demonstratives (this/that), possessives (your/mine), and question form 'Is this your...?'",
       questions: [
         {
           type: "reading",
@@ -75,15 +75,13 @@ Today at school I lost my water bottle! I looked everywhere – in my bag, in th
 
 My new friend Priya saw I was upset. She put her hand on my shoulder and said, "Don't worry! Let's go to the Lost and Found office." We walked down the corridor to the school office.
 
-At the counter there was Auntie Tan. She has curly grey hair, glasses, and she wears a pink polo shirt with a gold nametag that says AUNTIE TAN. She smiled and asked, "What did you lose?"
+At the counter there was Auntie Tan. She has curly grey hair, glasses, and she wears a pink polo shirt with a gold nametag that says AUNTIE TAN. Behind her I could see a shelf with a plant, a crate, a basket, and some lunch bags. There's a big sign on the wall: LOST AND FOUND, and under it in Chinese: 失物招领.
 
-I said, "I lost a water bottle." Auntie Tan showed me the counter. There were so many water bottles! I saw a blue one, a pink one, a green one, and a yellow one. But then I saw MY bottle – the water bottle with the pink flower sticker!
+Auntie Tan looked at the counter. There were so many water bottles! I saw a blue one, a pink one, a green one, and a yellow one. Then she picked up a white bottle with a pink flower sticker. She held it up and asked me, "Is this your bottle?"
 
-"That's the one!" I said, pointing at it. "The water bottle with the pink flower – that's mine!"
+I was so happy! I said, "Yes, that's mine. Thank you!"
 
-Auntie Tan gave it to me. Behind her I could see a shelf with a plant, a crate, a basket, and some lunch bags. There's a big sign on the wall: LOST AND FOUND, and under it in Chinese: 失物招领.
-
-I'm so happy I found my bottle! Priya is a good friend. The Lost and Found office really helps.
+Auntie Tan smiled and gave it to me. Priya is a good friend for helping me. The Lost and Found office really helps students.
 
 Love,
 Mei`,
@@ -92,12 +90,12 @@ Mei`,
             "Who helped Mei?|A. Ms Tan|B. Her mother|C. Priya|D. A teacher",
             "Where did Priya take Mei?|A. The classroom|B. The library|C. The Lost and Found office|D. The playground",
             "Who works at the Lost and Found?|A. Ms Tan|B. Auntie Tan|C. Mei's mother|D. Priya",
-            "What does Auntie Tan wear?|A. A blue shirt|B. A pink polo shirt with a gold nametag|C. A school uniform|D. A hat",
+            "What did Auntie Tan ask Mei?|A. What did you lose?|B. Where is your bottle?|C. Is this your bottle?|D. What's your name?",
             "How many other water bottles were on the counter?|A. Two|B. Three|C. Four|D. Five",
-            "How did Mei identify her water bottle?|A. It had her name on it|B. It was white with a pink flower sticker|C. It was the biggest one|D. It was blue",
-            "What is on the wall above the counter?|A. A clock|B. A map|C. A sign saying LOST AND FOUND over 失物招领|D. A notice board",
+            "What did Mei say to Auntie Tan?|A. That's the one!|B. Yes, that's mine. Thank you.|C. I lost my bottle.|D. Can I have it?",
+            "What is behind Auntie Tan?|A. A clock|B. A map|C. A shelf with a plant, crate, basket, and lunch bags|D. A notice board",
           ]),
-          correctAnswer: "B,C,C,B,B,C,B,C",
+          correctAnswer: "B,C,C,B,C,C,B,C",
           points: 8,
         },
         {
@@ -105,16 +103,16 @@ Mei`,
           order: 2,
           content: "Choose the correct answer:",
           options: JSON.stringify([
-            "Mei ____ at a new school now.|A. is|B. are|C. am|D. be",
-            "Priya ____ Mei yesterday.|A. help|B. helps|C. helped|D. helping",
-            "There ____ many water bottles on the counter.|A. is|B. are|C. has|D. have",
+            "Is ____ your bottle?|A. this|B. these|C. those|D. them",
+            "Yes, that's ____.|A. my|B. mine|C. me|D. I",
+            "Mei lost ____ water bottle.|A. a|B. an|C. the|D. some",
             "Auntie Tan wears ____ pink polo shirt.|A. a|B. an|C. the|D. some",
-            "Mei saw ____ water bottle with the pink flower.|A. a|B. an|C. the|D. no article",
+            "That is ____ bottle with the pink flower.|A. a|B. an|C. the|D. no article",
+            "____ is Auntie Tan at the counter.|A. This|B. That|C. These|D. Those",
             "The Lost and Found office is ____ the school office.|A. in|B. at|C. on|D. by",
-            "That is ____ water bottle with the pink flower sticker.|A. a|B. an|C. the|D. no article",
-            "Priya put her hand ____ Mei's shoulder.|A. in|B. at|C. on|D. by",
+            "Mei said, "Thank ____."|A. me|B. your|C. you|D. yours",
           ]),
-          correctAnswer: "A,C,B,A,C,A,C,C",
+          correctAnswer: "A,B,A,A,C,B,A,C",
           points: 8,
         },
         {
@@ -122,15 +120,15 @@ Mei`,
           order: 3,
           content: `Write an email to Mei (50-70 words).
 
-Mei told you about the Lost and Found office. Write back and answer these THREE questions:
-• Have you ever lost something at school?
-• What did you lose (or what would you NOT want to lose)?
-• What do you think of Auntie Tan and the Lost and Found office?
+Mei told you about finding her bottle at Lost and Found. Write back and answer these THREE questions:
+• Have you ever lost something at school? What was it?
+• How did you find it (or did someone help you)?
+• What would you say to someone at Lost and Found?
 
 成功标准 / Success Criteria:
 ✓ 回答所有3个问题 (Answer all 3 content points)
-✓ 使用正确冠词 (Use articles correctly: a water bottle, the Lost and Found office, an umbrella)
-✓ 过去时态 (Use past simple if telling a story: I lost, I found, Auntie helped)
+✓ 使用 this/that 和 your/mine (Use demonstratives and possessives: Is this yours? That's mine.)
+✓ 使用正确冠词 (Use articles correctly: a water bottle, the Lost and Found office)
 ✓ 50-70词 (50-70 words)`,
           points: 10,
         },
@@ -166,17 +164,17 @@ Task: Talk about "Lost and Found at school" (1 minute)
 
 Think about these points:
 • Have you ever lost something at school? What was it?
-• Where did you find it (or where do you think it might be)?
-• What is the Lost and Found office like at your school?
+• How did you ask for help or look for it?
+• Practice saying: "Is this your...?" and "Yes, that's mine. Thank you."
 • What advice would you give to someone who lost something?
 
 Useful phrases:
 • Once I lost...
-• I looked everywhere but...
-• I found it in/at...
+• I asked, "Is this your...?" / "Is that yours?"
+• Someone said, "That's mine." / "This is mine."
 • The Lost and Found office is...
 • If you lose something, you should...
-• Always check the Lost and Found...
+• Always say "Thank you" when...
 • I would feel worried if I lost...
 • It's important to write your name on...
 
