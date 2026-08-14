@@ -182,11 +182,7 @@ export default function HomePage() {
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-accent mt-0.5">✓</span>
-<<<<<<< HEAD
-                  <span>选择题自动批改，写作有 AI 简体点评（Kaizen 一个改善焦点）</span>
-=======
                   <span>选择题自动批改，写作 AI 简体点评（Kaizen 一个改善焦点）</span>
->>>>>>> 2e98c53 (Add privacy page and A2 Week 0 dual-validation map)
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-accent mt-0.5">✓</span>
