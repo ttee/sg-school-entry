@@ -57,7 +57,7 @@ async function main() {
       isSample: true,
       errorFocus: "articles",
       parentBrief: "本周纠错焦点仍是冠词。微课故事是开学第一天自我介绍（I am a student）和失物招领（a water bottle → the water bottle with Mum's pink flower）。中文没有冠词，孩子会漏 a 或乱加 the。by bus 是零冠词。",
-      videoUrl: null,
+      videoUrl: "/video/a2-w0.mp4",
       kaizenFocus: "Use articles a/an/the correctly, and know when to use zero article (by bus, on Monday)",
       questions: [
         {
