@@ -5,7 +5,7 @@ export default function DualValidationMap() {
         试学周对应官方什么 / Week 0 Curriculum Alignment
       </h2>
       <p className="text-sm text-ink-2 mb-4 leading-relaxed">
-        试学周按 <strong>A2 Key for Schools 题型</strong>来练，让孩子先熟悉考试会见到的读、写、听、说。本周故事是<strong>开学第一天 + Lost and Found</strong>，焦点是冠词 a/an/the。所有内容为工作室原创编写，参考 MOE 英语大纲和 Cambridge 官方考试格式。
+        试学周按 <strong>A2 Key for Schools 题型</strong>来练，让孩子先熟悉考试会见到的读、写、听、说。本周故事是<strong>开学第一天 + Lost and Found</strong>，焦点是冠词 a/an/the。
       </p>
 
       <div className="overflow-x-auto">
@@ -80,7 +80,7 @@ export default function DualValidationMap() {
                 <strong>Listening Part 3</strong> — dialogue, 5 three-option questions; each recording played twice
               </td>
               <td className="px-4 py-3 text-ink-2 align-top">
-                听课堂公告或对话，做 5 道三选一题；官方考试每段听两遍，本周也听两遍
+                听课堂公告或对话，做 5 道三选一题；官方考试每段听两遍，孩子可重听
               </td>
             </tr>
             <tr>
