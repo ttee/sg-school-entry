@@ -159,6 +159,22 @@ function LoginForm() {
             ← 返回首页 / Back to home
           </Link>
         </div>
+
+        <div className="mt-8 pt-6 border-t border-line">
+          <div className="flex justify-center gap-4 text-xs text-muted">
+            <Link href="/privacy" className="hover:text-ink transition-colors">
+              隐私 / Privacy
+            </Link>
+            <a
+              href="https://www.pdpc.gov.sg/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-ink transition-colors"
+            >
+              PDPC
+            </a>
+          </div>
+        </div>
       </div>
     </div>
   );
