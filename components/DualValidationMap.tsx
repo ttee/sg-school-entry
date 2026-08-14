@@ -5,8 +5,7 @@ export default function DualValidationMap() {
         试学周对应官方什么 / Week 0 Curriculum Alignment
       </h2>
       <p className="text-sm text-ink-2 mb-4 leading-relaxed">
-        本周是<strong>第一天入学 + Lost and Found / 冠词 a/an/the</strong>。以下是诚实的双重对照：MOE
-        官方英语大纲 + Cambridge A2 Key for Schools 考试格式（技能相关，但<strong>不是真题</strong>）。
+        试学周按 <strong>A2 Key for Schools 题型</strong>来练，让孩子先熟悉考试会见到的读、写、听、说。本周故事是<strong>开学第一天 + Lost and Found</strong>，焦点是冠词 a/an/the。
       </p>
 
       <div className="overflow-x-auto">
@@ -20,10 +19,10 @@ export default function DualValidationMap() {
                 MOE 英语大纲 2020 / MOE EL Syllabus 2020
               </th>
               <th className="px-4 py-3 text-left font-semibold text-ink border-b border-line">
-                Cambridge A2 Key 技能对应 / Related Skill
+                对应考试题型 / Exam Question Type
               </th>
               <th className="px-4 py-3 text-left font-semibold text-ink border-b border-line">
-                诚实说明 / Honest Gap
+                孩子练到什么 / What Your Child Practices
               </th>
             </tr>
           </thead>
@@ -36,10 +35,10 @@ export default function DualValidationMap() {
                 Reading and Viewing
               </td>
               <td className="px-4 py-3 text-ink-2 align-top">
-                Reading Parts 1–5：简单书面信息理解
+                <strong>Reading Part 3</strong> — one long text, detailed understanding + main ideas, 5 MCQ
               </td>
-              <td className="px-4 py-3 text-muted text-xs align-top">
-                原创 CEQ 风格作业，不是官方真题或样题
+              <td className="px-4 py-3 text-ink-2 align-top">
+                读一篇文本（学校通知）+ 5 道三选一选择题，练的就是考试 Part 3 题型
               </td>
             </tr>
             <tr className="border-b border-line">
@@ -50,10 +49,10 @@ export default function DualValidationMap() {
                 Grammar + Vocabulary
               </td>
               <td className="px-4 py-3 text-ink-2 align-top">
-                考试最接近的是 Parts 4–5 完形填空；我们教冠词在故事情境中的使用
+                <strong>Reading Part 4 & 5</strong> — Part 4 multiple-choice cloze (vocabulary gaps); Part 5 open cloze (one word per gap)
               </td>
-              <td className="px-4 py-3 text-muted text-xs align-top">
-                不是 Cambridge 完形填空试卷；是针对冠词的原创练习
+              <td className="px-4 py-3 text-ink-2 align-top">
+                在 Lost and Found 故事里填 a/an/the，训练完形填空的语法判断能力
               </td>
             </tr>
             <tr className="border-b border-line">
@@ -64,24 +63,24 @@ export default function DualValidationMap() {
                 Writing and Representing
               </td>
               <td className="px-4 py-3 text-ink-2 align-top">
-                Part 6 Guided writing：官方要求 25+ 词；我们要求 50–70 词作为拉伸练习
+                <strong>Reading & Writing Part 6</strong> — guided writing: short email or note, 25 words or more
               </td>
-              <td className="px-4 py-3 text-muted text-xs align-top">
-                不是限时 1 小时试卷；不是 Part 7 图片故事题
+              <td className="px-4 py-3 text-ink-2 align-top">
+                写一封邮件；官方最低 25 词，我们练 50–70 词作为拉伸，熟悉考试邮件格式
               </td>
             </tr>
             <tr className="border-b border-line">
               <td className="px-4 py-3 text-ink align-top">
-                <strong>听力：</strong>选择题
+                <strong>听力：</strong>Ms Tan 课表公告 + 选择题
               </td>
               <td className="px-4 py-3 text-ink-2 align-top">
                 Listening and Viewing
               </td>
               <td className="px-4 py-3 text-ink-2 align-top">
-                Listening Parts 1–5：公告、对话等日常语速适中的材料
+                <strong>Listening Part 3</strong> — dialogue, 5 three-option questions; each recording played twice
               </td>
-              <td className="px-4 py-3 text-muted text-xs align-top">
-                播放器可暂停和重听；官方考试听两遍
+              <td className="px-4 py-3 text-ink-2 align-top">
+                听课堂公告或对话，做 5 道三选一题；官方考试每段听两遍，孩子可重听
               </td>
             </tr>
             <tr>
@@ -92,20 +91,30 @@ export default function DualValidationMap() {
                 Speaking and Representing
               </td>
               <td className="px-4 py-3 text-ink-2 align-top">
-                Speaking Part 1 个人信息和事实性话题（非 Part 2 的双人讨论）
+                <strong>Speaking Part 1</strong> — interview: factual/personal information, 3–4 min (full test 8–10 min per pair)
               </td>
-              <td className="px-4 py-3 text-muted text-xs align-top">
-                不是官方 8–10 分钟双人考试；是单人自述练习
+              <td className="px-4 py-3 text-ink-2 align-top">
+                自述个人经历（第一天上学），练的是 Part 1 事实性和个人信息问答
               </td>
             </tr>
           </tbody>
         </table>
       </div>
 
-      <div className="mt-5 space-y-3">
+      <div className="mt-5">
         <div className="bg-paper-2 border border-line rounded-lg p-4 text-sm">
           <p className="font-semibold text-ink mb-2">📚 官方资源 / Official Resources:</p>
           <ul className="space-y-1.5 text-ink-2">
+            <li>
+              <a
+                href="https://www.cambridgeenglish.org/exams-and-tests/key/exam-format"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-accent hover:underline"
+              >
+                Cambridge A2 Key for Schools 官方考试格式
+              </a>
+            </li>
             <li>
               <a
                 href="https://www.moe.gov.sg/primary/curriculum/syllabus"
@@ -126,44 +135,7 @@ export default function DualValidationMap() {
                 EL Syllabus 2020 完整版 PDF（NIE 托管）
               </a>
             </li>
-            <li>
-              <a
-                href="https://www.cambridgeenglish.org/exams-and-tests/key/exam-format"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-accent hover:underline"
-              >
-                Cambridge A2 Key for Schools 官方考试格式
-              </a>
-            </li>
           </ul>
-        </div>
-
-        <div className="bg-warn-bg border border-warn-ink/30 rounded-lg p-4 text-sm">
-          <p className="font-semibold text-ink mb-2">⚠️ 不是什么 / What This Is NOT:</p>
-          <ul className="list-disc list-inside space-y-1 text-ink-2 ml-2">
-            <li>
-              <strong>不是 Cambridge 官方真题或样题</strong> — 本站与剑桥无隶属关系，不出售或使用官方 past papers
-            </li>
-            <li>
-              <strong>不是 STELLAR 课本内容</strong> — 我们不抄 Shared Book Approach / Supported Reading 的具体步骤
-            </li>
-            <li>
-              <strong>不保证 CES 分数或 AEIS 录取</strong> — 不编造「CES 120 保证」或「往年 AEIS 通过率」
-            </li>
-          </ul>
-        </div>
-
-        <div className="bg-accent/5 border border-accent/20 rounded-lg p-4 text-sm">
-          <p className="font-semibold text-ink mb-2">✅ 诚实说明 / Honest Statement:</p>
-          <p className="text-ink-2 leading-relaxed">
-            本周作业内容<strong>全部原创</strong>，由本工作室编写，参考 MOE Areas of Language Learning 和
-            Cambridge A2 Key for Schools <strong>任务类型</strong>（不是真题内容）。所有情境、人名、地点均为虚构。
-          </p>
-          <p className="text-ink-2 leading-relaxed mt-2">
-            <strong>纠错焦点：</strong>冠词 a/an/the 和零冠词（by bus, on Monday）。这是中国学生的高频错误（中文没有冠词）。本周微课、语法题、AI
-            口语/写作反馈会盯住这一个错误，直到孩子改掉。
-          </p>
         </div>
       </div>
     </div>
