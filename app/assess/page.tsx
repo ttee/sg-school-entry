@@ -72,7 +72,7 @@ const diagnosticItems = [
   {
     id: 8,
     type: "reading",
-    question: `Read this notice:\n\n**Lost and Found**\nSomeone found a water bottle near the canteen this morning. It has a pink flower sticker. Please come to the office ___ recess to collect it.\n\nWhat is the correct word for the blank?`,
+    question: `Read this notice:\n\n**Lost and Found**\nSomeone found a water bottle outside the office this morning. It has a pink flower sticker. Please come to the office ___ recess to collect it.\n\nWhat is the correct word for the blank?`,
     options: ["in", "on", "at", "by"],
     correct: 2,
     errorFocus: "time-prepositions",
@@ -134,7 +134,7 @@ function calculateRecommendation(answers: (number | null)[]) {
   if (articlesRate <= 0.5 || thirdPersonRate <= 0.5) {
     return {
       door: "试学周",
-      doorEn: "Sample Week (Week 0)",
+      doorEn: "Sample week",
       reason: "冠词或第三人称单数还需要打基础，建议从试学周开始，重点纠正这两个高频错误。",
       kaizenFocus: articlesRate < thirdPersonRate ? "冠词 a/an/the 的使用" : "第三人称单数动词加 -s"
     };
