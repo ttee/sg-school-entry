@@ -243,7 +243,7 @@ export default function HomePage() {
                 <span className="text-ink-2">/ 月</span>
               </div>
               <p className="text-sm text-ink-2 mb-4">
-                小班直播课（每周 2 次，每次 1.5 小时）+ 每周作业 app 解锁当前级别已上线周数（A2 试学周 + 第 1–8 周，B1 试学周 + 第 1–6 周，后续周次陆续更新）。包含 CEQ 备考四项技能：阅读、写作、听读准备、口语提示。
+                小班直播课（每周 2 次，每次 1.5 小时）+ 每周作业 app 解锁当前级别已上线周数（A2 试学周 + 第 1–8 周，B1 试学周 + 第 1–7 周，后续周次陆续更新）。包含 CEQ 备考四项技能：阅读、写作、听读准备、口语提示。
               </p>
               <ul className="space-y-2 text-sm text-ink-2 mb-5">
                 <li className="flex items-start gap-2">
@@ -252,7 +252,7 @@ export default function HomePage() {
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-accent mt-0.5">✓</span>
-                  <span>每周作业 app 解锁已上线周数（A2: 试学周 + 第 1–8 周；B1: 试学周 + 第 1–6 周；后续周次陆续更新）</span>
+                  <span>每周作业 app 解锁已上线周数（A2: 试学周 + 第 1–8 周；B1: 试学周 + 第 1–7 周；后续周次陆续更新）</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-accent mt-0.5">✓</span>

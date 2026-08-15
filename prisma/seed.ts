@@ -2779,9 +2779,9 @@ Then it started raining heavily. (5) ____ wanting to continue, we had to stop fo
           options: JSON.stringify([
             "(1)|A. Despite|B. Although|C. Despite of|D. Although but",
             "(2)|A. Despite|B. Although|C. Despite of|D. In spite",
-            "(3)|A. Although|B. Despite of|C. Despite|D. Even though",
+            "(3)|A. Although of|B. Despite of|C. Despite|D. Even though of",
             "(4)|A. Despite|B. Although|C. In spite|D. Despite of",
-            "(5)|A. Despite|B. Although|C. Despite of|D. In spite",
+            "(5)|A. Despite|B. Although of|C. Despite of|D. In spite but",
             "(6)|A. Although|B. Despite|C. Even though|D. Despite of",
           ]),
           correctAnswer: "B,A,C,B,A,B",
