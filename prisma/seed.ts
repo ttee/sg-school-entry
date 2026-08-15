@@ -2391,7 +2391,7 @@ Ms Indira comes from India, and she has a degree in Library Science, (4) ____ is
             "(1)|A. which|B. who|C. what|D. whose",
             "(2)|A. which|B. what|C. who|D. whom",
             "(3)|A. which|B. who|C. what|D. whose",
-            "(4)|A. that|B. who|C. what|D. whom",
+            "(4)|A. which|B. who|C. what|D. that",
             "(5)|A. which|B. what|C. who|D. whose",
             "(6)|A. who|B. which|C. what|D. whose",
           ]),
