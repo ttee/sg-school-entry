@@ -59,13 +59,13 @@ export default function DualValidationMapB1Week1() {
             </tr>
             <tr className="border-b border-accent/10">
               <td className="px-3 py-3 text-ink align-top">
-                <strong>听力</strong><br />景点导游讲解 + 配对题
+                <strong>听力</strong><br />Sentosa Heritage Trail 导游公告 + 选择题
               </td>
               <td className="px-3 py-3 text-ink-2 align-top">
-                <strong>听力配对</strong><br />听讲解，配对信息
+                <strong>听力公告</strong><br />5 道选择题
               </td>
               <td className="px-3 py-3 text-ink-2 align-top">
-                听导游 Mr Tan 介绍 Gardens by the Bay 各区域特色，配对地点和特点；官方考试听两遍，我们的播放器可重听
+                听导游 Janice 在 Sentosa Heritage Trail 入口公告行程安排、规则、时间地点，做 5 道三选一题；官方考试听两遍，我们的播放器可重听
               </td>
             </tr>
             <tr>

@@ -904,29 +904,25 @@ In your email, you should:
           order: 4,
           content: `听读练习 / Listening Preparation (read carefully)
 
-[Guide Mr Tan introduces different zones at Gardens by the Bay to students]
+[Announcement at Sentosa Heritage Trail entrance]
 
-Mr Tan: Welcome everyone! Before we start exploring, let me tell you about the five main zones we'll visit today. 
+Guide: Good afternoon, everyone, and welcome to the Sentosa Heritage Trail. My name is Janice and I'll be your guide today. Before we start, let me give you some important information.
 
-First, the Cloud Forest Dome. It's home to plants from tropical mountain regions. The indoor waterfall there is taller than a six-storey building – quite spectacular!
+The trail takes about ninety minutes to complete, and we'll walk about two kilometres. Please stay with the group and listen carefully at each stop. We'll visit six historical sites, including the old fort and the underground tunnels.
 
-Second, the Flower Dome. It showcases Mediterranean and semi-arid plants. It's drier than the Cloud Forest, but just as impressive. You'll see baobab trees and olive groves.
+It's quite sunny today, so make sure you drink water regularly. We'll take a short break at the halfway point near the cannon display. If you need the restroom, that's the best time to go.
 
-Third, the Supertree Grove. These vertical gardens are between 25 to 50 metres tall. They collect rainwater and generate solar power – much more useful than ordinary sculptures!
+Please don't touch any of the historical structures or artefacts. They are very old and we need to preserve them for future generations. You can take photos, but no flash photography inside the tunnels, please.
 
-Fourth, the Heritage Gardens. Here we celebrate Asian culture through plants. You'll find Chinese, Malay, and Indian garden sections. It's quieter than the Domes, perfect for reflection.
-
-Finally, the Outdoor Gardens. These are free to explore and include the Dragonfly and Kingfisher Lakes. They're larger than many neighbourhood parks and great for bird-watching.
-
-Match each zone to its special feature:`,
+Our trail starts at Fort Siloso and ends at the beach. When we finish, you'll have free time to explore or have lunch at the food court nearby. Any questions before we begin? No? Great, let's go!`,
           options: JSON.stringify([
-            "Cloud Forest Dome|A. Celebrates Asian culture|B. Has a very tall indoor waterfall|C. Free to explore|D. Has Mediterranean plants|E. Collects rainwater and solar power",
-            "Flower Dome|A. Celebrates Asian culture|B. Has a very tall indoor waterfall|C. Free to explore|D. Has Mediterranean plants|E. Collects rainwater and solar power",
-            "Supertree Grove|A. Celebrates Asian culture|B. Has a very tall indoor waterfall|C. Free to explore|D. Has Mediterranean plants|E. Collects rainwater and solar power",
-            "Heritage Gardens|A. Celebrates Asian culture|B. Has a very tall indoor waterfall|C. Free to explore|D. Has Mediterranean plants|E. Collects rainwater and solar power",
-            "Outdoor Gardens|A. Celebrates Asian culture|B. Has a very tall indoor waterfall|C. Free to explore|D. Has Mediterranean plants|E. Collects rainwater and solar power",
+            "How long does the trail take?|A. 60 minutes|B. 75 minutes|C. 90 minutes|D. 120 minutes",
+            "How many historical sites will they visit?|A. Four|B. Five|C. Six|D. Seven",
+            "When can people use the restroom?|A. Anytime|B. At the start|C. At the halfway point near the cannon display|D. At the end only",
+            "What are visitors told NOT to do?|A. Take photos|B. Drink water|C. Use flash photography in tunnels|D. Ask questions",
+            "Where does the trail end?|A. Fort Siloso|B. The tunnels|C. The beach|D. The food court",
           ]),
-          correctAnswer: "B,D,E,A,C",
+          correctAnswer: "C,C,C,C,C",
           points: 5,
           audioUrl: "/audio/b1-w1-listening.mp3",
         },
