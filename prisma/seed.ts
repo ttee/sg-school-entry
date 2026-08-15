@@ -680,6 +680,206 @@ Useful phrases (use past simple!):
         },
       ],
     },
+    {
+      level: "A2",
+      weekNumber: 4,
+      title: "Week 4: Shopping and Food",
+      description: "Talking about shopping and quantities",
+      isSample: false,
+      dueDate: new Date("2026-09-10"),
+      errorFocus: "quantifiers-countable-uncountable",
+      parentBrief: "本周纠错焦点：可数/不可数名词 + 量词（some/any、much/many、a lot of）。中文量词系统不同，孩子会说 two breads、how many rice?、I need some waters。英语可数名词有复数：apples, bottles；不可数名词无复数：water, bread, rice。问可数用 How many + 复数，问不可数用 How much + 单数。some/any 都可以，但疑问句和否定句常用 any。本周作业会反复纠正这些高频错误。",
+      videoUrl: null,
+      kaizenFocus: "Use some/any correctly; count vs non-count nouns; How many/How much",
+      officialClipId: null,
+      officialClipCredit: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: `Read Priya's blog post:
+
+Shopping Day at Tekka Market
+
+Last Saturday, my mum took me to Tekka Market in Little India. She needed to buy some ingredients for our family dinner party on Sunday. I love going to Tekka Market because there's always so much to see!
+
+First, we went to the vegetable stalls. Mum bought a lot of fresh vegetables: three kilograms of potatoes, two kilograms of onions, and some green beans. The lady at the stall was very friendly. She gave us a discount because we bought so many vegetables! Mum also bought a big bunch of coriander leaves and a bag of red chillies.
+
+Then we walked to the spice section. The smell was amazing! Mum needed some turmeric powder, cumin seeds, and a packet of curry leaves. She asked the uncle at the spice stall, "Do you have any saffron today?" He said, "Sorry, I don't have any saffron left, but I can get some for you next week." Mum said it was okay – she could use the spices we had at home.
+
+After that, we went to buy some meat and fish. Mum bought a whole chicken and a kilogram of prawns. The fishmonger asked, "How much fish do you want today?" Mum replied, "I don't need any fish today, thanks. Just the prawns."
+
+Next, we stopped at the fruit stalls. I wanted to buy some mangoes, but Mum said we already have a lot of fruit at home. Instead, we bought just two papayas and a small basket of rambutans for dessert.
+
+At the end, we bought a few bottles of coconut water to drink on the way home because it was very hot. When we got home, my dad helped us carry all the shopping bags upstairs. He said, "Wow! How many bags do we have?" I counted them – we had seven big bags!
+
+On Sunday, Mum cooked a delicious curry with all the ingredients we bought. She didn't waste any food – she used everything. My grandparents and my aunt's family came for dinner. Everyone said the food was excellent. I'm proud of our shopping trip!`,
+          options: JSON.stringify([
+            "Why does Priya love going to Tekka Market?|A. It's near her house|B. There's always so much to see|C. Her friends go there|D. It's very cheap",
+            "How many kilograms of potatoes did they buy?|A. One|B. Two|C. Three|D. Four",
+            "Why didn't Mum buy saffron?|A. It was too expensive|B. She didn't like it|C. The stall didn't have any|D. She forgot to buy it",
+            "What did the fishmonger ask?|A. How many prawns do you want?|B. How much money do you have?|C. How much fish do you want?|D. Do you need any meat?",
+            "Why didn't they buy mangoes?|A. They were too expensive|B. They already have a lot of fruit at home|C. The mangoes were not fresh|D. Priya doesn't like mangoes",
+            "What did they drink on the way home?|A. Orange juice|B. Water|C. Coconut water|D. Tea",
+            "How many shopping bags did they have?|A. Five|B. Six|C. Seven|D. Eight",
+            "Did Mum waste any food?|A. Yes, she wasted some vegetables|B. Yes, she wasted the prawns|C. No, she used everything|D. The text doesn't say",
+          ]),
+          correctAnswer: "B,C,C,C,B,C,C,C",
+          points: 8,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: `Read about Mei's shopping trip. Choose the correct word for each gap.
+
+Shopping List
+by Mei Lin
+
+Today my mum gave me (1) ____ money and a shopping list. I need to go to the supermarket and buy (2) ____ things for dinner. The list says:
+
+• (3) ____ rice – 2 kilograms
+• (4) ____ eggs – one carton (10 eggs)
+• (5) ____ milk – 2 bottles
+• (6) ____ tomatoes – half a kilogram
+• (7) ____ bread – 1 loaf
+• cooking oil – but Mum wrote "Do we have (8) ____ cooking oil at home? If yes, don't buy (9) ____."
+
+I asked my little sister, "How (10) ____ bottles of milk should I buy?" She said, "Two, but I don't know how (11) ____ rice we need. Check the list again!"
+
+When I got to the supermarket, I looked at the eggs. I didn't know (12) ____ to buy – white or brown. I called Mum and she said, "It doesn't matter. Buy (13) ____ white eggs." So I did! Then I found the rice aisle. There were (14) ____ different brands! I chose the one Mum always buys.
+
+At the checkout, the cashier asked, "Do you need (15) ____ plastic bags?" I said, "No thanks, I brought my own bag." I spent $28 in total. When I got home, Mum said, "Well done! You didn't forget (16) ____ of the items!"`,
+          options: JSON.stringify([
+            "(1)|A. some|B. any|C. much|D. many",
+            "(2)|A. much|B. any|C. some|D. a little",
+            "(3)|A. Some|B. Any|C. A|D. An",
+            "(4)|A. Some|B. Any|C. Much|D. A",
+            "(5)|A. Some|B. Any|C. Many|D. Much",
+            "(6)|A. Some|B. Any|C. A|D. Much",
+            "(7)|A. Some|B. Many|C. A few|D. Much",
+            "(8)|A. some|B. any|C. many|D. a few",
+            "(9)|A. some|B. any|C. many|D. much",
+            "(10)|A. much|B. many|C. any|D. a little",
+            "(11)|A. many|B. much|C. any|D. few",
+            "(12)|A. how much|B. how many|C. which|D. what",
+            "(13)|A. much|B. any|C. some|D. a little",
+            "(14)|A. so much|B. so many|C. so any|D. so some",
+            "(15)|A. some|B. any|C. much|D. many",
+            "(16)|A. some|B. any|C. much|D. many",
+          ]),
+          correctAnswer: "A,C,A,A,A,A,A,B,B,B,B,C,C,B,B,B",
+          points: 16,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `You receive this email from your English friend, Alex:
+
+From: Alex
+To: You
+Subject: Shopping trip
+
+Hi!
+
+I'm learning about different foods in Singapore! Can you tell me about a shopping trip you or your family did recently? Where did you go? What did you buy? Did you buy a lot of things or just a few?
+
+Write back soon!
+Alex
+
+Write your email to Alex (50-70 words). Answer ALL the questions.
+
+成功标准 / Success Criteria:
+✓ 回答所有3个问题 (Answer all 3 questions)
+✓ 可数/不可数名词 (Use countable/uncountable nouns correctly: some vegetables, two bottles, a lot of rice)
+✓ 量词正确 (Quantifiers: some/any, much/many, a lot of, How many/How much)
+✓ 邮件格式 (Email format: Hi Alex, ... / Best, [your name])
+✓ 50-70词 (50-70 words)`,
+          points: 10,
+        },
+        {
+          type: "listening",
+          order: 4,
+          content: `听读练习 / Listening Preparation (read carefully)
+
+Note: Since no audio file exists yet, read the script carefully and then answer the questions.
+
+Mum: Priya, I'm making a shopping list for tomorrow. Can you help me?
+
+Priya: Sure, Mum! What do we need?
+
+Mum: Let me check the fridge. We don't have any eggs left. How many eggs should I buy?
+
+Priya: Get two dozen. We use a lot of eggs in our cooking.
+
+Mum: Okay. Do we have any milk?
+
+Priya: Yes, we have some milk, but not much. Maybe buy two more bottles?
+
+Mum: Good idea. What about vegetables?
+
+Priya: We have a lot of vegetables – potatoes, carrots, tomatoes. But we don't have any onions.
+
+Mum: Right. I'll get some onions and maybe some green beans too. How much rice do we have?
+
+Priya: We still have half a bag. That's enough for this week.
+
+Mum: Perfect. What about bread?
+
+Priya: We finished the bread this morning. We need a new loaf.
+
+Mum: Okay. And we need some fruit. Any requests?
+
+Priya: Can we get some mangoes? I love mangoes!
+
+Mum: Sure. How many?
+
+Priya: Maybe four or five?
+
+Mum: That's a lot! Let's get three. Okay, I think that's everything. Thanks for your help!`,
+          options: JSON.stringify([
+            "How many eggs will they buy?|A. One dozen|B. Two dozen|C. Three dozen|D. Four dozen",
+            "How much milk do they have now?|A. None|B. Some, but not much|C. A lot|D. Two bottles",
+            "Which vegetable do they NOT have?|A. Potatoes|B. Carrots|C. Onions|D. Tomatoes",
+            "How much rice do they have?|A. None|B. A little|C. Half a bag|D. Two bags",
+            "How many mangoes will they buy?|A. Two|B. Three|C. Four|D. Five",
+          ]),
+          correctAnswer: "B,B,C,C,B",
+          points: 5,
+        },
+        {
+          type: "speaking",
+          order: 5,
+          content: `口语练习 / Speaking Practice
+
+Task: Talk about a shopping trip (1 minute)
+
+Think about a time you or your family went shopping (supermarket, market, mall). Talk about:
+• Where you went
+• What you bought (use some/any, much/many, a lot of, How many/How much)
+• Did you buy many things or just a few?
+• What did you like or not like about the trip?
+
+Useful phrases (量词练习):
+• We bought some... / We didn't buy any...
+• We got a lot of vegetables / fruit / food
+• I bought three... / two kilograms of... / a bottle of...
+• There were many people / much noise
+• How many bags did we carry? / How much money did we spend?
+• We needed some... but we couldn't find any...
+
+Grammar focus for AI:
+AI will check if you correctly use some/any, much/many, and distinguish countable (apples, eggs, bottles) from uncountable nouns (rice, water, bread).
+
+如何练习 / How to practise:
+1. 想一次购物经历 (Think of a shopping trip)
+2. 准备用量词的例子：some, any, much, many, a lot of (Prepare examples with quantifiers)
+3. 点击下方"开始录音"按钮 (Tap "开始录音")
+4. 说满1分钟 (Speak for 1 minute)
+5. AI会评估量词和可数/不可数名词使用 (AI evaluates quantifiers and count/non-count nouns)`,
+          points: 5,
+        },
+      ],
+    },
 
     // B1 WEEKS
     {
