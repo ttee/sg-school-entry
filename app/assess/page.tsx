@@ -149,7 +149,7 @@ function calculateRecommendation(answers: (number | null)[]) {
     return {
       door: "A2 当前已上线周数 + 咨询",
       doorEn: "A2 Available Weeks + Consultation",
-      reason: "基础语法已有基础，可以开始 A2 Key for Schools 水平学习。当前 app 已上线 A2 试学周 + 第 1–10 周（共 11 周），后续周次陆续上线。建议咨询 12 周直播课预付包。",
+      reason: "基础语法已有基础，可以开始 A2 Key for Schools 水平学习。当前 app 已上线 A2 试学周 + 第 1–11 周（共 12 周），后续周次陆续上线。建议咨询 12 周直播课预付包。",
       kaizenFocus: totalCorrect < 6 ? "时态的准确使用" : "现在进行时与一般现在时的区分"
     };
   }
