@@ -692,6 +692,8 @@ Useful phrases (use past simple!):
       parentBrief: "本周纠错焦点：现在完成时 vs 一般过去时。中文的「了」不等于 have + V3，孩子会说 I have went yesterday（时态混用）或 I am here for 6 months（该用 have been）。英语现在完成表示「过去的事对现在还有影响」：I have been here for six months（还在这里）。明确过去的时间用过去时：I went yesterday。本周微课和作业会反复对比这两个时态。",
       videoUrl: null,
       kaizenFocus: "Use present perfect (have/has + V3) for situations that still matter now; past simple for finished time",
+      officialClipId: "xF_Q2anYOfc",
+      officialClipCredit: "片源 Cambridge English 官方频道，B1 Preliminary for Schools 口语样例。本站与剑桥无隶属，不提供官方试卷。孩子先看两人怎么回答自己、学校、经历，再练 Have you ever…? / present perfect。",
       questions: [
         {
           type: "reading",

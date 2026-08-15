@@ -8,6 +8,10 @@ export default function DualValidationMapB1Week0() {
         试学周按 <strong>B1 Preliminary for Schools</strong> 题型来练。故事是<strong>转校适应 / School Transition</strong>：Chen Wei 从中文学校转到英文学校的经历。焦点是<strong>现在完成时 vs 一般过去时</strong>（have been here for six months / went last year）。
       </p>
 
+      <p className="text-sm text-ink-2 mb-4">
+        先看官方 B1 口语样例，再做作业。
+      </p>
+
       <div className="overflow-x-auto">
         <table className="w-full border border-accent/20 rounded-lg overflow-hidden text-sm bg-card">
           <thead className="bg-accent/5">
