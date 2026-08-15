@@ -200,6 +200,180 @@ He paid with a $50 note.
         },
       ],
     },
+    {
+      level: "MATH",
+      weekNumber: 2,
+      title: "数学 第 2 周 / Maths Week 2",
+      description: "AEIS-Primary P2 Mathematics: Fractions",
+      isSample: false,
+      errorFocus: null,
+      parentBrief: "本周主题：分数（对应 MOE 小学 P2 数学大纲 Fractions）。孩子会认识分数是「整体的一部分」，学会分数记号（1/2、1/3、1/4 等），比较单位分数和同分母分数的大小，在一个整体内加减同分母分数。分母不超过 12。题目是简体中文家长说明 + 英文题干。全部原创，不抄 SEAB / AEIS / Cambridge 试卷。本周配有双向对照表，显示题目对应的官方 2021 Primary Mathematics Syllabus 内容点，以及 MOE AEIS 的「preceding level」规则（申请 P3 → 掌握 P2 内容）。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: `阅读理解 / Reading Comprehension
+
+**家长说明（简体中文）：**
+本题是数学应用题，配合新加坡情境。孩子需要读懂英文题目，理解分数在实际生活中的应用，然后从选项中选择正确答案。
+
+**Question 1:**
+Mei bought a pizza. She cut it into 8 equal slices. She ate 3 slices. What fraction of the pizza did she eat?
+
+A. 1/8
+B. 3/8
+C. 5/8
+D. 8/3
+
+**Question 2:**
+A ribbon is 1 metre long. Ali cut it into 4 equal parts. What fraction of the whole ribbon is each part?
+
+A. 1/2
+B. 1/3
+C. 1/4
+D. 4/1
+
+**Question 3:**
+There are 12 cupcakes. 5 cupcakes have chocolate icing and 7 cupcakes have vanilla icing. What fraction of the cupcakes have chocolate icing?
+
+A. 5/7
+B. 5/12
+C. 7/12
+D. 12/5
+
+**Question 4:**
+A jug contains 1 litre of orange juice. Sarah drinks 1/4 of the juice. How much juice is left in the jug?
+
+A. 1/4 litre
+B. 2/4 litre
+C. 3/4 litre
+D. 4/4 litre
+
+**Question 5:**
+In a class, 2/10 of the students wear glasses and 3/10 of the students wear braces. What fraction of the class wears glasses or braces?
+
+A. 1/10
+B. 5/10
+C. 6/10
+D. 2/3`,
+          options: JSON.stringify([
+            "Question 1|A. 1/8|B. 3/8|C. 5/8|D. 8/3",
+            "Question 2|A. 1/2|B. 1/3|C. 1/4|D. 4/1",
+            "Question 3|A. 5/7|B. 5/12|C. 7/12|D. 12/5",
+            "Question 4|A. 1/4 litre|B. 2/4 litre|C. 3/4 litre|D. 4/4 litre",
+            "Question 5|A. 1/10|B. 5/10|C. 6/10|D. 2/3",
+          ]),
+          correctAnswer: "B,C,B,C,B",
+          points: 5,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: `数学选择题 / Mathematics Multiple Choice
+
+**家长说明（简体中文）：**
+本题练习分数的认识、比较、加减。这些是 P2 数学的核心技能，也是 AEIS P2/P3 数学考试的基础内容。
+
+**Question 1:**
+Which fraction is the largest?
+A. 1/2
+B. 1/3
+C. 1/4
+D. 1/5
+
+**Question 2:**
+Which fraction is the smallest?
+A. 1/6
+B. 1/8
+C. 1/10
+D. 1/12
+
+**Question 3:**
+Compare: 3/7 ___ 5/7
+A. =
+B. >
+C. <
+D. Cannot tell
+
+**Question 4:**
+Arrange these fractions from smallest to largest: 2/9, 5/9, 1/9, 7/9
+A. 1/9, 2/9, 5/9, 7/9
+B. 7/9, 5/9, 2/9, 1/9
+C. 2/9, 1/9, 5/9, 7/9
+D. 1/9, 7/9, 2/9, 5/9
+
+**Question 5:**
+What is 2/8 + 3/8?
+A. 1/8
+B. 5/8
+C. 5/16
+D. 6/8
+
+**Question 6:**
+What is 7/10 - 3/10?
+A. 3/10
+B. 4/10
+C. 10/10
+D. 4/20
+
+**Question 7:**
+Jun has 5/12 of a cake. He eats 2/12 of the cake. What fraction of the cake is left?
+A. 3/12
+B. 3/24
+C. 7/12
+D. 7/24
+
+**Question 8:**
+Which is equal to one whole?
+A. 5/5
+B. 6/8
+C. 7/10
+D. 11/12`,
+          options: JSON.stringify([
+            "Question 1|A. 1/2|B. 1/3|C. 1/4|D. 1/5",
+            "Question 2|A. 1/6|B. 1/8|C. 1/10|D. 1/12",
+            "Question 3|A. =|B. >|C. <|D. Cannot tell",
+            "Question 4|A. 1/9, 2/9, 5/9, 7/9|B. 7/9, 5/9, 2/9, 1/9|C. 2/9, 1/9, 5/9, 7/9|D. 1/9, 7/9, 2/9, 5/9",
+            "Question 5|A. 1/8|B. 5/8|C. 5/16|D. 6/8",
+            "Question 6|A. 3/10|B. 4/10|C. 10/10|D. 4/20",
+            "Question 7|A. 3/12|B. 3/24|C. 7/12|D. 7/24",
+            "Question 8|A. 5/5|B. 6/8|C. 7/10|D. 11/12",
+          ]),
+          correctAnswer: "A,D,C,A,B,B,A,A",
+          points: 8,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `数学应用题（需写出算式和答案）/ Word Problem (Show Your Working)
+
+**家长说明（简体中文）：**
+本题是 open-ended question，孩子需要写出计算步骤和答案。这对应 AEIS P2/P3 数学考试 Part 2 的 short-answer questions，需要展示 working steps。
+
+**Question:**
+At Toa Payoh library, there is a bookshelf with 12 storybooks. 5 of the books are about animals, 3 of the books are about adventures, and the rest are about science.
+
+(a) What fraction of the books are about animals? Show your working.
+(b) What fraction of the books are about science? Show your working.
+(c) If you add the fractions of animal books and adventure books together, what fraction of all the books is this? Show your working.
+
+**成功标准 / Success Criteria:**
+✓ 写出每一步计算过程（Show all working steps）
+✓ 使用正确的分数记号（Use correct fraction notation: numerator/denominator）
+✓ 最终答案清晰（Circle or underline your final answer）
+
+**提示 / Hint:**
+You may use this format:
+(a) Fraction of animal books = number of animal books / total number of books = ___ / ___
+(b) Number of science books = 12 - 5 - 3 = ___
+    Fraction of science books = ___ / ___
+(c) Fraction of animal and adventure books = ___ / ___ + ___ / ___ = ___ / ___`,
+          points: 10,
+        },
+      ],
+    },
     
     // A2 WEEKS
     {
