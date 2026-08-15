@@ -3023,6 +3023,107 @@ You MUST use "can" at least once and "must" at least once.
         },
       ],
     },
+    {
+      level: "A2",
+      weekNumber: 9,
+      title: "Week 9: What We Like Doing",
+      description: "Talking about likes and dislikes with like + -ing",
+      isSample: false,
+      dueDate: new Date("2026-10-15"),
+      errorFocus: "like-ing",
+      parentBrief: "本周纠错焦点：like / love / hate / enjoy + -ing。中文「喜欢」后直接加动词，孩子会说 I like swim / I like to swimming / I like swimminging / I enjoy to read。英语规则：like/love/hate/enjoy 后面加动词-ing。Cambridge A2 Key for Schools (Handbook 2020) Language Specifications 规定考 like / love / hate / enjoy + -ing 表达喜好。本周不是 like + to-infinitive（可能出现在错误选项）。",
+      videoUrl: null,
+      kaizenFocus: "Use like/love/hate/enjoy + -ing for likes and dislikes (I like swimming; She enjoys reading)",
+      officialClipId: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: `Read the email from Mei:
+
+From: Mei
+To: Priya
+Subject: Weekend Hobbies
+
+Hi Priya,
+
+How are you? I want to tell you about my weekend hobbies!
+
+I love swimming at the East Coast Park pool on Saturday mornings. The water is cool and I enjoy doing laps. My brother Jun Wei doesn't like swimming. He prefers playing football with his friends at the field near our flat.
+
+On Sunday afternoons, I enjoy reading at the library. I like reading mystery books about detectives. Ms Tan, our English teacher, also loves reading mystery books. She says reading helps us learn new words.
+
+My mum enjoys drawing in her free time. She hates sitting at home doing nothing. She loves going to art classes at the community centre. My dad enjoys cooking on weekends. He doesn't like eating outside because he says home cooking is healthier.
+
+What about you? What do you like doing on weekends? Do you enjoy drawing like my mum? Or do you prefer playing sports?
+
+Write back soon!
+Mei`,
+          options: JSON.stringify([
+            "What does Mei love doing on Saturday mornings?|A. Playing football|B. Swimming at East Coast Park|C. Reading at the library|D. Drawing at home",
+            "What does Jun Wei prefer doing?|A. Swimming|B. Reading mystery books|C. Drawing|D. Playing football",
+            "What does Ms Tan love reading?|A. Story books|B. Science books|C. Mystery books|D. History books",
+            "What does Mei's mum enjoy doing?|A. Swimming|B. Cooking|C. Drawing|D. Playing football",
+            "Why doesn't Mei's dad like eating outside?|A. It's too expensive|B. It's too far|C. Home cooking is healthier|D. He doesn't like restaurants",
+          ]),
+          correctAnswer: "B,D,C,C,C",
+          points: 5,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: `Read the text below and choose the correct word for each gap.
+
+Saturday Hobbies
+by Priya, Primary 5
+
+My family all have different hobbies. I (1) ____ painting pictures of flowers and animals. My little sister doesn't like painting. She (2) ____ playing with her toys and watching cartoons on TV.
+
+My dad (3) ____ playing badminton every Saturday morning at the sports hall. He says exercise is important. My mum (4) ____ jogging in the morning. She says she (5) ____ waiting for the lift, so she always takes the stairs!
+
+On rainy days, we all stay at home. My sister and I (6) ____ reading storybooks together. My dad reads the newspaper and my mum listens to music. We are a happy family!`,
+          options: JSON.stringify([
+            "(1)|A. enjoy|B. enjoy to|C. enjoys|D. enjoys to",
+            "(2)|A. love|B. loves|C. love to|D. loves to",
+            "(3)|A. enjoy|B. enjoys|C. enjoy to|D. enjoys to",
+            "(4)|A. hate|B. hates|C. hate to|D. hates to",
+            "(5)|A. hate|B. hates|C. hate to|D. hates to",
+            "(6)|A. like|B. likes|C. like to|D. likes to",
+          ]),
+          correctAnswer: "A,B,B,B,B,A",
+          points: 6,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `You receive this email from your English friend, Alex:
+
+From: Alex
+To: You
+Subject: Your hobbies
+
+Hi!
+
+I want to know more about you! What do you like doing after school? What hobbies do you enjoy? Tell me about the things you love and hate doing!
+
+Write back soon!
+Alex
+
+Write your email to Alex (40-60 words). Tell Alex about what you like doing after school.
+
+You MUST use like/love/enjoy + -ing at least twice.
+
+成功标准 / Success Criteria:
+✓ 讲你喜欢做什么 (Tell what you like doing)
+✓ 用 like/love/enjoy/hate + -ing 至少 2 次 (Use like/love/enjoy/hate + -ing at least 2 times)
+✓ 动词加 -ing 形式正确 (Correct -ing form: swimming, reading, playing, NOT swim, to swimming, swimminging)
+✓ 主语和动词一致 (Subject-verb agreement: I like / She likes / He enjoys)
+✓ 邮件格式 (Email format: Hi Alex, ... / Best, [your name])
+✓ 40-60词 (40-60 words)`,
+          points: 10,
+        },
+      ],
+    },
   ];
 
   // =================================================================

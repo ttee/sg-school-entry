@@ -12,6 +12,7 @@ import DualValidationMapWeek5 from "./DualValidationMapWeek5";
 import DualValidationMapWeek6 from "./DualValidationMapWeek6";
 import DualValidationMapWeek7 from "./DualValidationMapWeek7";
 import DualValidationMapWeek8 from "./DualValidationMapWeek8";
+import DualValidationMapWeek9 from "./DualValidationMapWeek9";
 import DualValidationMapB1Week0 from "./DualValidationMapB1Week0";
 import DualValidationMapB1Week1 from "./DualValidationMapB1Week1";
 import DualValidationMapB1Week2 from "./DualValidationMapB1Week2";
@@ -454,6 +455,9 @@ export default function WeekHomework({
 
       {/* Dual-validation map for A2 Week 8 */}
       {week.level === "A2" && week.weekNumber === 8 && <DualValidationMapWeek8 />}
+
+      {/* Dual-validation map for A2 Week 9 */}
+      {week.level === "A2" && week.weekNumber === 9 && <DualValidationMapWeek9 />}
 
       {/* Dual-validation map for B1 Week 0 */}
       {week.level === "B1" && week.weekNumber === 0 && <DualValidationMapB1Week0 />}
