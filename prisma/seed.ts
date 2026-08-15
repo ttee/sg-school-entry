@@ -540,6 +540,8 @@ AI will check if you correctly use present continuous (am/is/are + -ing) for NOW
       parentBrief: "本周纠错焦点：一般过去时和 used to。中文靠时间词「昨天、上周」来表示过去，动词不变形，孩子会说 yesterday I go。英语过去时动词必须变形：went, visited, had。另外，以前的习惯用 used to（不是 use to）：I used to live in Beijing。本周作业会反复纠正这两个化石化高危点。",
       videoUrl: null,
       kaizenFocus: "Use past simple for finished actions (went, visited); used to for old habits",
+      officialClipId: "ecm9HEFcfdQ",
+      officialClipCredit: "片源 Super Simple Songs 官方频道。The Family Tree。本站不拥有该片，仅嵌入官方 YouTube。孩子先听 mummy / daddy / grandma，再练过去时 visited / used to。",
       questions: [
         {
           type: "reading",
