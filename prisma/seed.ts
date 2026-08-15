@@ -2990,7 +2990,7 @@ Last Tuesday was stressful! I woke up late because my alarm didn't ring. I was (
 
 At school, Ms Tan gave us a group project. My group had only two days to prepare, which wasn't (2) ____. We had to research, make slides, and practise presenting.
 
-Jun Wei said he was (3) ____ a good speaker, so he volunteered to present. Priya was (4) ____ to design the slides beautifully. I did the research because I'm usually (5) ____ to find information online.
+Jun Wei said he was (3) ____ to present, so he volunteered. Priya was (4) ____ to design the slides beautifully. I did the research because I'm usually (5) ____ to find information online.
 
 By Thursday, we were ready. Ms Tan said our project was (6) ____ to get a good grade. I was relieved!`,
           options: JSON.stringify([
