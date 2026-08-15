@@ -2809,6 +2809,109 @@ You MUST use "going to" at least twice.
         },
       ],
     },
+    {
+      level: "A2",
+      weekNumber: 8,
+      title: "Week 8: School Rules and What We Can Do",
+      description: "Talking about ability and rules with can and must",
+      isSample: false,
+      dueDate: new Date("2026-10-08"),
+      errorFocus: "can-must",
+      parentBrief: "本周纠错焦点：can / must + 动词原形。中文「能/必须」不变形，孩子会说 I can to swim / I must to go / I can swimming。英语规则：can + 原形（能力或许可）；must + 原形（必须）；问句 Can I…? 请求许可。Cambridge A2 Key for Schools (Handbook 2020) 规定考 can（ability / permission）和 must（obligation）。",
+      videoUrl: null,
+      kaizenFocus: "Use can + infinitive for ability/permission and must + infinitive for obligation; no to after can/must",
+      officialClipId: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: `Read the notice from Ms Tan:
+
+From: Ms Tan
+To: All Primary 5 students
+Subject: School Rules and CCA Time
+
+Dear students,
+
+This is a reminder about our school rules and what you can do during CCA time on Wednesdays.
+
+Library Rules:
+You can borrow up to 3 books from the school library. You can read quietly in the reading corner. You must return books on time. You must not talk loudly in the library. You can ask the librarian for help if you cannot find a book.
+
+Canteen Rules:
+You can buy food and drinks during recess. You must queue up at the stalls. You can sit at any empty table. You must put your trays and plates in the collection area. You cannot run in the canteen.
+
+Swimming Pool (CCA Time):
+If you are in the swimming CCA, you can use the school pool on Wednesday afternoons. You must bring your own towel and goggles. You can swim in the lanes marked for your level. You must listen to the coach. You cannot dive into the shallow end.
+
+After CCA:
+Mei and Priya are in the library club. They can stay in the library until 4 p.m. on Wednesdays. They can use the computers to do research for their projects. They must ask Ms Wong before they print anything.
+
+If you have any questions about the rules, you can ask me or any teacher.
+
+Best regards,
+Ms Tan`,
+          options: JSON.stringify([
+            "How many books can students borrow from the library?|A. 2 books|B. 3 books|C. 4 books|D. 5 books",
+            "What must students do with their trays in the canteen?|A. Leave them on the table|B. Give them to teachers|C. Put them in the collection area|D. Take them to class",
+            "What must swimming CCA students bring?|A. Their own food|B. Their own books|C. Their own towel and goggles|D. Their own swimsuit only",
+            "What can Mei and Priya do in the library club?|A. Run in the library|B. Talk loudly|C. Use computers for research|D. Dive in the pool",
+            "What must Mei and Priya do before they print?|A. Pay money|B. Ask Ms Tan|C. Ask Ms Wong|D. Go home",
+          ]),
+          correctAnswer: "B,C,C,C,C",
+          points: 5,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: `Read the text below and choose the correct word for each gap.
+
+The School Library
+by Mei, Primary 5
+
+I love our school library! At the library, you (1) ____ borrow books and read magazines. You (2) ____ be quiet because other students are reading. If you need help, you (3) ____ ask the librarian, Ms Wong. She is very kind. Last week, I wanted to borrow a book about Singapore history, but I (4) ____ find it. Ms Wong helped me look for it. She said I (5) ____ keep the book for two weeks. I (6) ____ read it at home or in the library. I love reading at the library after school!`,
+          options: JSON.stringify([
+            "(1)|A. can|B. can to|C. must|D. must to",
+            "(2)|A. can|B. can to|C. must|D. must to",
+            "(3)|A. can|B. can to|C. must|D. must to",
+            "(4)|A. can|B. cannot|C. can to|D. can't to",
+            "(5)|A. can|B. can to|C. must|D. must to",
+            "(6)|A. can|B. can to|C. must|D. must to",
+          ]),
+          correctAnswer: "A,C,A,B,A,A",
+          points: 6,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `You receive this email from your English friend, Sam:
+
+From: Sam
+To: You
+Subject: Your school rules
+
+Hi!
+
+I want to know about your school! What are the rules at your school? What can you do after school? Tell me about it!
+
+Write back soon!
+Sam
+
+Write your email to Sam (40-60 words). Tell Sam about school rules and what you can do.
+
+You MUST use "can" at least once and "must" at least once.
+
+成功标准 / Success Criteria:
+✓ 讲学校规则和你能做什么 (Tell about school rules and what you can do)
+✓ 用 can 至少 1 次 (Use can at least 1 time: I can… / We can… / You can…)
+✓ 用 must 至少 1 次 (Use must at least 1 time: I must… / We must… / You must…)
+✓ can / must 后面直接加动词原形，不加 to (can + infinitive; must + infinitive; no to)
+✓ 邮件格式 (Email format: Hi Sam, ... / Best, [your name])
+✓ 40-60词 (40-60 words)`,
+          points: 10,
+        },
+      ],
+    },
   ];
 
   // =================================================================
