@@ -3443,6 +3443,103 @@ You MUST use at least two different frequency adverbs (always/usually/often/some
         },
       ],
     },
+    {
+      level: "A2",
+      weekNumber: 11,
+      title: "Week 11: Where Things Are",
+      description: "Talking about place with in, on and at",
+      isSample: false,
+      dueDate: new Date("2026-10-29"),
+      errorFocus: "prepositions-place-in-on-at",
+      parentBrief: "本周纠错焦点：地点介词 in / on / at。中文「在」一个字，孩子会说 in the bus / on the classroom / at the table (for in) / in the wall。规则：in 用在封闭空间（in the classroom, in the library）；on 用在表面（on the desk, on the wall）；at 把地点看作一个点（at the bus stop, at the door, at school）。本周还练 under / next to / between / behind / in front of 这些方位词。本周不教时间介词 at 7 o'clock / on Monday / in the morning（第 6 周已教）。Cambridge A2 Key for Schools (Handbook 2020) Language Specifications 包含地点介词 in, on, at, under, next to, between, behind, in front of。",
+      videoUrl: null,
+      kaizenFocus: "Use in/on/at (and under/next to/between) for place, not time",
+      officialClipId: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: `Read the notice from Ms Tan:
+
+From: Ms Tan
+To: All Primary 5A students
+Subject: Lost and Found + Sports Day meeting
+
+Dear students,
+
+I found several items in the classroom yesterday after school. There is a water bottle on my desk with a Merlion sticker. There is a blue pencil case under the chair next to the whiteboard. Someone left a library book on the windowsill next to the plant.
+
+Also, this Friday is Sports Day! We will meet at the school gate at 7:30 a.m. Please bring your water bottle and wear your PE uniform. Mei's group will sit in the shelter next to the track. Jun Wei's group will wait at the canteen until your race time.
+
+During the races, all bags must stay in the classroom. Do not leave anything on the field. Put your water bottle on the bench between the two trees behind the shelter.
+
+See you on Friday!
+
+Ms Tan`,
+          options: JSON.stringify([
+            "Where is the water bottle with the Merlion sticker?|A. Under the chair|B. On Ms Tan's desk|C. On the windowsill|D. At the school gate",
+            "Where is the blue pencil case?|A. On the desk|B. On the windowsill|C. Under the chair next to the whiteboard|D. Next to the plant",
+            "Where will students meet on Friday morning?|A. In the classroom|B. At the canteen|C. On the field|D. At the school gate",
+            "Where will Mei's group sit?|A. At the canteen|B. On the field|C. In the shelter next to the track|D. Behind the shelter",
+            "Where should students put their water bottles?|A. In the classroom|B. On the bench between the two trees|C. At the school gate|D. Under the chair",
+          ]),
+          correctAnswer: "B,C,D,C,B",
+          points: 5,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: `Read the text below and choose the correct word for each gap.
+
+In the Classroom
+by Priya
+
+Our classroom is (1) ____ the second floor. When you walk in the door, you can see Ms Tan's desk (2) ____ the front. The whiteboard is (3) ____ the wall behind her desk.
+
+My table is (4) ____ Mei and Jun Wei. I sit between them every day. We put our bags (5) ____ our chairs, and we put our books (6) ____ the desk. Ms Tan always tells us to keep the classroom tidy!`,
+          options: JSON.stringify([
+            "(1)|A. in|B. on|C. at|D. under",
+            "(2)|A. in|B. on|C. at|D. between",
+            "(3)|A. in|B. on|C. at|D. under",
+            "(4)|A. in|B. on|C. at|D. between",
+            "(5)|A. in|B. at|C. between|D. under",
+            "(6)|A. in|B. on|C. at|D. under",
+          ]),
+          correctAnswer: "B,C,B,D,D,B",
+          points: 6,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `You receive this email from your English friend, Alex:
+
+From: Alex
+To: You
+Subject: Meeting at school
+
+Hi!
+
+I'm visiting your school next week! Where should we meet? Can you tell me where your classroom is? And where do you usually sit in class?
+
+Write back soon!
+Alex
+
+Write your email to Alex (40-60 words). Answer ALL the questions.
+
+You MUST use in, on, and at for place at least once each (不是时间介词).
+
+成功标准 / Success Criteria:
+✓ 回答所有3个问题 (Answer all 3 questions: where to meet, where classroom is, where you sit)
+✓ 用 in 表示封闭空间 (Use in for enclosed spaces: in the classroom, in the library, in Building A)
+✓ 用 on 表示表面或楼层 (Use on for surfaces or floors: on the desk, on the second floor, on the wall)
+✓ 用 at 表示地点作为一个点 (Use at for places as points: at the school gate, at the door, at the canteen)
+✓ 至少用 in / on / at 各一次 (Use in, on, and at at least once each for PLACE)
+✓ 邮件格式 (Email format: Hi Alex, ... / Best, [your name])
+✓ 40-60词 (40-60 words)`,
+          points: 10,
+        },
+      ],
+    },
   ];
 
   // =================================================================
