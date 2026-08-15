@@ -361,7 +361,7 @@ export default function WeekHomework({
           {week.parentBrief && (
             <div className="bg-accent/10 border border-accent/30 rounded-xl p-5">
               <h2 className="font-serif font-semibold text-lg text-ink mb-2 flex items-center gap-2">
-                <span>📌 本周纠错焦点</span>
+                <span>📌 {week.level === "MATH" ? "本周家长说明" : "本周纠错焦点"}</span>
                 {week.errorFocus && (
                   <span className="text-sm font-normal text-accent px-2 py-1 bg-accent/20 rounded-full">
                     {week.errorFocus}
@@ -621,7 +621,7 @@ export default function WeekHomework({
                 )}
                 
                 {/* How to practice guide */}
-                {!isCompleted && !writingFeedback[question.id] && (
+                {!isCompleted && !writingFeedback[question.id] && week.level !== "MATH" && (
                   <div className="bg-paper border border-line rounded-lg p-3">
                     <p className="text-sm font-semibold text-ink mb-2">💡 如何练习 / How to practice:</p>
                     <ol className="text-sm text-ink-2 space-y-1 list-decimal list-inside">
@@ -655,15 +655,17 @@ export default function WeekHomework({
                         {gettingFeedback[question.id] ? "批改中..." : "📝 提交写作 / Get feedback"}
                       </button>
                     )}
-                    {!isCompleted && (!answers[question.id] || answers[question.id].trim().length <= 10) && (
+                    {!isCompleted && week.level !== "MATH" && (!answers[question.id] || answers[question.id].trim().length <= 10) && (
                       <p className="text-xs text-muted">
                         请先输入至少 10 个字符，然后点击提交获取改善反馈 / Type at least 10 characters to submit for feedback
                       </p>
                     )}
                   </div>
-                  <p className="text-xs text-muted whitespace-nowrap">
-                    字数 / Words: {(answers[question.id] || "").trim().split(/\s+/).filter((w: string) => w.length > 0).length}
-                  </p>
+                  {week.level !== "MATH" && (
+                    <p className="text-xs text-muted whitespace-nowrap">
+                      字数 / Words: {(answers[question.id] || "").trim().split(/\s+/).filter((w: string) => w.length > 0).length}
+                    </p>
+                  )}
                 </div>
                 
                 {/* AI Feedback Display */}
