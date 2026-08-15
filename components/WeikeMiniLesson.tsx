@@ -125,6 +125,15 @@ export default function WeikeMiniLesson({ level, weekNumber }: WeikeMiniLessonPr
       ],
       gloss: "although / even though 后面接句子（有主语和动词）。despite / in spite of 后面接名词或 -ing 形式。不要写 although … but。不要写 despite of。不要在 despite 后面接句子。"
     },
+    "B1-8": {
+      fossil: "so a beautiful park / such beautiful / so beautiful park / such a weather",
+      examples: [
+        "The park was so beautiful.",
+        "It was such a beautiful park.",
+        "We had such bad weather."
+      ],
+      gloss: "so 后面加形容词（so tired, so interesting）。such a/an 后面加形容词 + 单数可数名词（such a beautiful park, such an interesting book）。不可数或复数用 such（such bad weather, such friendly teachers）。不要写 so a 或 so + 名词。"
+    },
   };
 
   const key = `${level}-${weekNumber}`;
