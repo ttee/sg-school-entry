@@ -264,6 +264,177 @@ Change = $___ - $___ = $___`,
         },
       ],
     },
+    {
+      level: "MATH",
+      weekNumber: 1,
+      title: "数学 第 1 周 / Maths Week 1",
+      description: "AEIS-Primary P2 Mathematics: Multiplication and division within tables",
+      isSample: false,
+      errorFocus: null,
+      parentBrief: "本周主题：乘法与除法（对应 MOE 小学 P2 数学大纲 3.1–3.5）。孩子会练习 2、3、4、5、10 的乘法口诀，理解乘法和除法的关系（例如 3 × 4 = 12，所以 12 ÷ 3 = 4），并在应用题中使用这些技能。题目是简体中文家长说明 + 英文题干。全部原创，不抄 SEAB / AEIS / Cambridge 试卷。本周配有双向对照表，显示题目对应的官方 2021 Primary Mathematics Syllabus 内容点，以及 MOE AEIS 的「preceding level」规则（申请 P3 → 掌握 P2 内容）。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: `阅读理解 / Reading Comprehension
+
+**家长说明（简体中文）：**
+本题是数学应用题，配合新加坡情境。孩子需要读懂英文题目，理解乘法和除法的实际运用，然后从选项中选择正确答案。
+
+**Question 1:**
+At a canteen stall, chicken drumsticks are sold in packs of 3. Mrs Tan bought 5 packs. How many chicken drumsticks did she buy?
+
+A. 8
+B. 12
+C. 15
+D. 18
+
+**Question 2:**
+A gardener plants flowers in rows. Each row has 4 flowers. He planted 6 rows. How many flowers did he plant in total?
+
+A. 10
+B. 20
+C. 24
+D. 28
+
+**Question 3:**
+Ali saved $5 every week for 8 weeks. How much money did he save in total?
+
+A. $13
+B. $35
+C. $40
+D. $45
+
+**Question 4:**
+There are 20 apples. The apples are shared equally among 4 children. How many apples does each child get?
+
+A. 4
+B. 5
+C. 16
+D. 24
+
+**Question 5:**
+A bookshop has 30 notebooks. The notebooks are arranged equally on 5 shelves. How many notebooks are on each shelf?
+
+A. 5
+B. 6
+C. 10
+D. 25`,
+          options: JSON.stringify([
+            "Question 1|A. 8|B. 12|C. 15|D. 18",
+            "Question 2|A. 10|B. 20|C. 24|D. 28",
+            "Question 3|A. $13|B. $35|C. $40|D. $45",
+            "Question 4|A. 4|B. 5|C. 16|D. 24",
+            "Question 5|A. 5|B. 6|C. 10|D. 25",
+          ]),
+          correctAnswer: "C,C,C,B,B",
+          points: 5,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: `数学选择题 / Mathematics Multiple Choice
+
+**家长说明（简体中文）：**
+本题练习 2、3、4、5、10 的乘法和除法。这些是 P2 数学的核心技能，也是 AEIS P2/P3 数学考试的基础内容。
+
+**Question 1:**
+What is 3 × 5?
+A. 8
+B. 12
+C. 15
+D. 18
+
+**Question 2:**
+What is 4 × 6?
+A. 10
+B. 20
+C. 24
+D. 28
+
+**Question 3:**
+What is 10 × 7?
+A. 17
+B. 60
+C. 70
+D. 80
+
+**Question 4:**
+What is 18 ÷ 3?
+A. 3
+B. 6
+C. 9
+D. 15
+
+**Question 5:**
+What is 20 ÷ 4?
+A. 4
+B. 5
+C. 16
+D. 24
+
+**Question 6:**
+Which number sentence is correct?
+A. 2 × 8 = 14
+B. 3 × 7 = 21
+C. 4 × 5 = 24
+D. 5 × 6 = 35
+
+**Question 7:**
+15 ÷ 5 = ?
+A. 3
+B. 5
+C. 10
+D. 20
+
+**Question 8:**
+Which of these is equal to 24?
+A. 4 × 6
+B. 4 × 5
+C. 5 × 5
+D. 10 × 3`,
+          options: JSON.stringify([
+            "Question 1|A. 8|B. 12|C. 15|D. 18",
+            "Question 2|A. 10|B. 20|C. 24|D. 28",
+            "Question 3|A. 17|B. 60|C. 70|D. 80",
+            "Question 4|A. 3|B. 6|C. 9|D. 15",
+            "Question 5|A. 4|B. 5|C. 16|D. 24",
+            "Question 6|A. 2 × 8 = 14|B. 3 × 7 = 21|C. 4 × 5 = 24|D. 5 × 6 = 35",
+            "Question 7|A. 3|B. 5|C. 10|D. 20",
+            "Question 8|A. 4 × 6|B. 4 × 5|C. 5 × 5|D. 10 × 3",
+          ]),
+          correctAnswer: "C,C,C,B,B,B,A,A",
+          points: 8,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `数学应用题（需写出算式和答案）/ Word Problem (Show Your Working)
+
+**家长说明（简体中文）：**
+本题是 open-ended question，孩子需要写出计算步骤和答案。这对应 AEIS P2/P3 数学考试 Part 2 的 short-answer questions，需要展示 working steps。
+
+**Question:**
+At Jurong Point shopping centre, the toy shop is having a sale. A toy car costs $4. Jun Wei wants to buy 3 toy cars for his cousins.
+
+(a) How much will 3 toy cars cost in total? Show your working.
+(b) Jun Wei has $20. After buying the 3 toy cars, how much money will he have left?
+
+**成功标准 / Success Criteria:**
+✓ 写出每一步计算过程（Show all working steps）
+✓ 标注单位（$）
+✓ 最终答案清晰（Circle or underline your final answer）
+
+**提示 / Hint:**
+You may use this format:
+(a) Cost of 3 toy cars = 3 × $4 = $___
+(b) Money left = $___ - $___ = $___`,
+          points: 10,
+        },
+      ],
+    },
     
     // A2 WEEKS
     {
