@@ -37,7 +37,8 @@ export default async function WeekPage({
   }
 
   const isSubscribed = session.user.subscribed;
-  const canAccess = isSubscribed || week.isSample;
+  const isAdmin = session.user.role === "admin";
+  const canAccess = isSubscribed || week.isSample || isAdmin;
 
   if (!canAccess) {
     redirect("/learn");

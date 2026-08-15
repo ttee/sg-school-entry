@@ -41,6 +41,24 @@ async function main() {
     },
   });
 
+  const adminUser = await prisma.user.upsert({
+    where: { email: "admin@sgschoolentry.local" },
+    update: {
+      name: "Review Admin",
+      role: "admin",
+      level: null,
+      subscribed: true,
+    },
+    create: {
+      email: "admin@sgschoolentry.local",
+      password: await bcrypt.hash("admin1234", 10),
+      name: "Review Admin",
+      role: "admin",
+      level: null,
+      subscribed: true,
+    },
+  });
+
   console.log("✅ Upserted demo users");
 
   // =================================================================
@@ -1314,18 +1332,18 @@ Useful phrases:
   // =================================================================
   // DELETE EXISTING SUBMISSIONS FOR DEMO ACCOUNTS
   // =================================================================
-  // Both demo and trial accounts should start fresh with zero submissions
+  // Demo, trial, and admin accounts should start fresh with zero submissions
   // so users can actually try the sample weeks
 
   await prisma.submission.deleteMany({
     where: {
       userId: {
-        in: [demoUser.id, trialUser.id],
+        in: [demoUser.id, trialUser.id, adminUser.id],
       },
     },
   });
 
-  console.log("✅ Demo and trial users have no submissions");
+  console.log("✅ Demo, trial, and admin users have no submissions");
   console.log("🎉 Seed completed!");
 }
 
