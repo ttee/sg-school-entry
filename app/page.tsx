@@ -295,7 +295,7 @@ export default function HomePage() {
                     针对 Cambridge A2 Key for Schools 四项技能：阅读、写作、听力、口语
                   </li>
                   <li className="border-b border-line py-3 pl-5 relative before:absolute before:left-0 before:top-5 before:w-2 before:h-2 before:rounded-full before:bg-accent text-sm text-ink-2">
-                    作业 app 当前已上线 A2 试学周 + 第 1–6 周（共 7 周），后续周次陆续上线
+                    作业 app 当前已上线 A2 试学周 + 第 1–7 周（共 8 周），后续周次陆续上线
                   </li>
                   <li className="border-b border-line py-3 pl-5 relative before:absolute before:left-0 before:top-5 before:w-2 before:h-2 before:rounded-full before:bg-accent text-sm text-ink-2">
                     包含 2 次模拟考，家长微信通报进度
