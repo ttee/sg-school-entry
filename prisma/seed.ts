@@ -3160,6 +3160,117 @@ DO NOT write: You like it, is it? / She's tall, is she? / You don't like English
         },
       ],
     },
+    {
+      level: "B1",
+      weekNumber: 11,
+      title: "Week 11: What Had Already Happened",
+      description: "Using the past perfect for the earlier past action",
+      isSample: false,
+      dueDate: new Date("2026-11-12"),
+      errorFocus: "past-perfect",
+      parentBrief: "本周纠错焦点：过去完成时 past perfect。中文没有这个时态，孩子会说 When I arrived, the bus left / I have finished before she came。英语规则：两个过去动作，较早的那个用 had + 过去分词（When I arrived, the bus had left）。",
+      videoUrl: null,
+      kaizenFocus: "Use had + past participle for the earlier of two past actions",
+      officialClipId: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: `Read this email from Mei:
+
+From: Mei
+To: Priya
+Subject: A Disappointing Day
+
+Hi Priya,
+
+Yesterday was such a frustrating day! Everything went wrong because I was late.
+
+I woke up at 7:00, but when I checked my phone, I realized I had forgotten to set my alarm! I was supposed to wake up at 6:30. When I rushed to the kitchen, Mum told me she had already finished making breakfast. She had eaten her food and left for work at 6:45, so I had to eat alone.
+
+I quickly got dressed and ran to the bus stop. When I arrived at 7:25, the bus had already left! The 7:20 bus was my usual one. I had missed it by five minutes. I had to wait twenty minutes for the next bus.
+
+When I finally reached school at 8:05, the English lesson had already started. Ms Tan had already explained the homework instructions to the class. Jun Wei whispered to me that she had written everything on the board, but she had erased it before I arrived! I felt so lost.
+
+At lunchtime, I went to the canteen to buy my favourite chicken rice. But when I got to the stall, the uncle told me he had already sold out! He had only made fifty portions that day, and they had finished by 12:15. I arrived at 12:20.
+
+After school, I wanted to borrow a book from the library. When I got there at 2:35, I saw that the library had already closed for the day. It had closed at 2:30 for a staff meeting. The librarian had put a notice on the door, but I hadn't seen it in the morning.
+
+When I got home, I asked my brother if he had saved me any dinner. He said Mum had cooked curry chicken, but he had already eaten everything! He hadn't known I would be late.
+
+What a terrible day! Have you ever had a day like this? I hope today will be better!
+
+Mei`,
+          options: JSON.stringify([
+            "Why did Mei wake up late?|A. Her alarm clock was broken|B. She had forgotten to set her alarm|C. Her mum didn't wake her|D. The phone battery was dead",
+            "What happened when Mei got to the bus stop?|A. The bus was waiting for her|B. The bus had already left|C. The bus was five minutes late|D. The bus didn't come at all",
+            "Why did Mei feel lost in English class?|A. She forgot her textbook|B. Ms Tan was angry with her|C. Ms Tan had erased the homework instructions before she arrived|D. Jun Wei didn't help her",
+            "Why couldn't Mei buy chicken rice at lunch?|A. The stall was closed|B. She didn't have money|C. The chicken rice had already sold out|D. The uncle was on break",
+            "What did Mei find when she went to the library?|A. It was open but crowded|B. It had already closed for a staff meeting|C. It was only open for teachers|D. It had moved to a new location",
+          ]),
+          correctAnswer: "B,B,C,C,B",
+          points: 5,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: `Read the text below and choose the correct word for each gap.
+
+Too Late at the Gate
+by Jun Wei, Primary 5
+
+Last Saturday, I wanted to visit the Science Centre with my family. We (1) ____ to go at 9 a.m., but we left home late.
+
+When we arrived at the carpark at 10:15, we saw that it was full. The security guard told us the last space (2) ____ at 10:00. We had to park on the street and walk fifteen minutes to the entrance.
+
+When we finally reached the ticket counter, we found out that the special robot demonstration (3) ____ at 10:00. The staff member said the show (4) ____ already and wouldn't happen again until 2 p.m. We felt disappointed.
+
+At lunchtime, we went to the café. I wanted to order the dinosaur-shaped pizza, but the waiter said they (5) ____ all of them. Other children (6) ____ them earlier in the morning. I had to order a regular sandwich instead!
+
+Next time, we'll arrive early!`,
+          options: JSON.stringify([
+            "(1)|A. had planned|B. have planned|C. planned|D. were planning",
+            "(2)|A. had been taken|B. has been taken|C. was taken|D. is taken",
+            "(3)|A. has started|B. had started|C. started|D. starts",
+            "(4)|A. had finished|B. finished|C. has finished|D. finishes",
+            "(5)|A. have sold|B. sold|C. had sold|D. sell",
+            "(6)|A. ordered|B. have ordered|C. order|D. had ordered",
+          ]),
+          correctAnswer: "A,A,B,A,C,D",
+          points: 6,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `Write an email to your friend (100-120 words).
+
+Your friend asked you: "Have you ever been late for something important and missed it?"
+
+Write an email telling them about a time when you arrived late and found that something had already happened (the bus had left, the shop had closed, your friend had already eaten, the class had started, etc.).
+
+In your email:
+• Describe when and where this happened
+• Explain why you were late
+• Tell them what had already happened when you arrived
+• Say how you felt
+
+You MUST use the past perfect (had + past participle) at least TWICE to show what had already happened before you arrived.
+
+DO NOT write: I already eat before she come / When I arrived, the bus left / I have finished before she came
+
+成功标准 / Success Criteria:
+✓ 用 had + 过去分词表示更早的过去动作 (Use had + past participle for the earlier past action)
+✓ 至少用两次 past perfect (Use past perfect at least twice: the bus had left, she had already finished, the shop had closed)
+✓ 对比两个过去动作 (Show two past actions: When I arrived, the shop had closed; When I got there, my friends had already eaten)
+✓ 不要用 I have finished before she came (Don't mix present perfect with past tense)
+✓ 不要用两个一般过去时 (Don't use two simple past when one happened before the other: NOT "When I arrived, the bus left")
+✓ 描述一次迟到经历 (Describe being late for something)
+✓ 邮件格式 (Email format: greeting, body, closing)
+✓ 100-120词 (100-120 words)`,
+          points: 10,
+        },
+      ],
+    },
 
     // Week 7: going to future
     {
