@@ -68,8 +68,7 @@ CEQ exam-focused sprint courses:
 - **Auth.js** (credentials provider) — email + password, no WeChat OAuth in v1
 - **Prisma + SQLite** (local dev) or PostgreSQL (production via `DATABASE_URL`)
 - **Tailwind CSS 4** — Matches the existing cream/ink/teal paper look
-- **Original homework content** — All homework texts are original studio materials modelled on Cambridge English Qualifications (CEQ) task TYPES at CEFR A2 and B1 levels. They are NOT official Cambridge past papers or sample papers. Content is unique per week, created specifically for this studio's students.
-- **ESL micro-lesson videos** — 8 original teaching videos (45–75 seconds each, ~400KB per video) generated with edge-tts (British English) + ffmpeg. Videos use tap-to-play (no autoplay), burnt-in 简体中文 captions, and system CJK fonts for WeChat compatibility.
+- **ESL micro-lesson videos** — 8 teaching videos (45–75 seconds each, ~400KB per video) generated with edge-tts (British English) + ffmpeg. Videos use tap-to-play (no autoplay), burnt-in 简体中文 captions, and system CJK fonts for WeChat compatibility.
 
 System CJK fonts (no Google Fonts for WeChat compatibility).
 
@@ -383,9 +382,8 @@ npx prisma db seed    # Seed demo users + weeks
 - **As of August 2026:** 2026 AEIS applications closed; tests scheduled 1–3 September 2026 in Singapore. Defer to [MOE AEIS](https://www.moe.gov.sg/international-students/aeis) for dates.
 - **Science is not an AEIS subject.** No "AEIS Science paper" exists. Post-admission adaptation only.
 - **MOE does not issue entry permits just to sit AEIS.** AEIS registration is not an ICA pass.
-- **Homework content originality:** All reading passages, grammar items, writing tasks, listening scripts, and speaking prompts in the homework app are original studio materials. They are NOT copied from, paraphrased from, or reconstructed from Cambridge Assessment English official papers. They follow CEQ task TYPES and CEFR level descriptors, but all names, situations, and wording are invented for this studio.
 
-对外只强调三门考试。日期、资格、派位规则一律以官网为准。不编造通过率或名额。作业内容全部原创，不抄剑桥真题。
+对外只强调三门考试。日期、资格、派位规则一律以官网为准。不编造通过率或名额。
 
 ---
 
@@ -401,7 +399,7 @@ npx prisma db seed    # Seed demo users + weeks
 
 ## License / 许可
 
-This is a private education studio project. All content is original (not copied from Cambridge past papers).
+This is a private education studio project.
 
 **Not affiliated with:**
 - Ministry of Education (MOE)

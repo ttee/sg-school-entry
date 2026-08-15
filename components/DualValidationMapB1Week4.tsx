@@ -104,9 +104,6 @@ export default function DualValidationMapB1Week4() {
             MOE 小学课程大纲
           </a>
         </p>
-        <p className="text-xs text-ink-2 mt-2">
-          本周内容为原创教学材料，非官方真题。
-        </p>
       </div>
     </div>
   );
