@@ -808,67 +808,95 @@ Useful phrases:
           order: 1,
           content: `Read this article:
 
-Learning Beyond the Classroom
+A Different Kind of Visit
 
-Last Wednesday, our Secondary 2 cohort went on a learning journey to Gardens by the Bay. I had visited the Gardens with my family before, but this time was different – we were there to learn about sustainability and biodiversity.
+"Have you ever been to Gardens by the Bay?" asked Ms Rao, our English teacher, as we gathered at the MRT station. Most hands went up. My friend Jun Wei whispered, "I've visited at least five times with my family." I'd been there twice before – once for my cousin's wedding photos and once for Supertree light show. But this learning journey, Ms Rao promised, would be more meaningful than any tourist visit.
 
-Our guide, Mr Tan, led us through the Cloud Forest first. As we climbed the circular walkway surrounded by mist and rare plants, he explained how the conservatory uses recycled water and energy-efficient cooling systems. I was amazed to learn that the famous Supertrees aren't just sculptures – they collect rainwater, generate solar power, and act as vertical gardens! I had always thought they were just for decoration.
+Our guide, Mr Tan, met us at the entrance. "How many of you have explored the Cloud Forest Dome?" he asked. Only three students raised their hands. "Well," he smiled, "today you'll see why it's more impressive than most people realise."
 
-What surprised me most was seeing plants from countries I'd only read about in Geography lessons. There were orchids from South America, ferns from New Zealand, and pitcher plants from our own Borneo rainforests. Our teacher, Ms Rao, asked us to sketch one plant and research its natural habitat later. I chose a bright red Heliconia from Costa Rica. It looked like a work of art!
+Inside the Cloud Forest, the temperature dropped. We climbed the circular walkway, surrounded by cool mist and towering plants. Mr Tan stopped at a viewing point. "This conservatory is bigger than two football fields," he explained. "Have you ever wondered how we keep it this cool in tropical Singapore?" He pointed to hidden vents and explained the energy-saving systems. I'd never thought about that before – I'd just enjoyed the cold air!
 
-After the Cloud Forest, we had a workshop on urban food production. A volunteer taught us how Gardens by the Bay grows vegetables on rooftops and in small vertical farms. She said that in a land-scarce country like Singapore, we need to think creatively about where our food comes from. Some of my classmates had never thought about how far their vegetables travel before reaching the supermarket.
+The plant diversity amazed me even more than the technology. Mr Tan showed us orchids from Ecuador, ferns from Tasmania, and carnivorous pitcher plants from Borneo. "Our Borneo plants are rarer than pandas," he joked. Ms Rao asked us to sketch one plant. I chose a red ginger flower from Thailand – smaller than the others but brighter and more delicate.
 
-By the end of the day, I realised that Gardens by the Bay isn't just a tourist spot. It's a living example of how technology and nature can work together. I left feeling inspired to learn more about environmental science. Maybe one day I'll work on projects like this!`,
+After lunch, we visited the Supertree Grove. "Have you ever climbed one?" asked Mr Tan. We laughed – of course not! He explained that the Supertrees are taller than fifteen-storey HDB flats and collect rainwater while generating solar power. Standing beneath them felt more humbling than standing beneath any building I'd seen.
+
+At the end of the visit, Jun Wei turned to me. "This was better than all my family trips combined," he admitted. I agreed. We'd learned more in four hours than in weeks of Geography lessons. I now see Gardens by the Bay differently – not as a tourist spot, but as a living classroom.`,
           options: JSON.stringify([
-            "Why was this visit to Gardens by the Bay different for the writer?|A. It was their first visit|B. They went with family|C. They went to learn about sustainability|D. It was raining",
-            "What do the Supertrees do?|A. They are only decorative sculptures|B. They collect rainwater and generate solar power|C. They are just for tourists to take photos|D. They store food",
-            "Which plant did the writer choose to sketch?|A. An orchid from South America|B. A fern from New Zealand|C. A pitcher plant from Borneo|D. A Heliconia from Costa Rica",
-            "What was the workshop about?|A. Sketching plants|B. Urban food production|C. Recycling plastic|D. Building Supertrees",
-            "Why does Singapore need creative food solutions?|A. Because food is expensive|B. Because it is land-scarce|C. Because people don't like vegetables|D. Because there are no farms",
-            "How did the writer feel at the end of the day?|A. Bored|B. Tired and uninterested|C. Inspired to learn more|D. Confused",
-            "What subject does the writer mention?|A. History|B. Mathematics|C. Geography|D. Literature",
-            "What does the writer say Gardens by the Bay is an example of?|A. Old traditions|B. Technology and nature working together|C. Expensive tourism|D. How to build tall buildings",
+            "Why was this visit different from the writer's previous visits?|A. It was the first time visiting|B. It was for a learning journey, not tourism|C. It was raining|D. They went alone",
+            "How many times had Jun Wei visited Gardens by the Bay before?|A. Never|B. Once or twice|C. At least five times|D. Ten times",
+            "What did Mr Tan say about the Cloud Forest size?|A. Smaller than a classroom|B. As big as a football field|C. Bigger than two football fields|D. Bigger than a school",
+            "Which plant did the writer choose to sketch?|A. Orchids from Ecuador|B. Ferns from Tasmania|C. Pitcher plants from Borneo|D. A red ginger flower from Thailand",
+            "What did Mr Tan compare the Borneo plants to?|A. Tigers|B. Pandas|C. Elephants|D. Whales",
+            "How tall are the Supertrees compared to HDB flats?|A. Ten storeys|B. Fifteen storeys|C. Twenty storeys|D. Five storeys",
+            "What did Jun Wei say at the end?|A. He was tired|B. He wanted to leave|C. This was better than his family trips|D. He didn't learn anything",
+            "How does the writer now see Gardens by the Bay?|A. As a boring place|B. As an expensive tourist spot|C. As a living classroom|D. As just a park",
           ]),
-          correctAnswer: "C,B,D,B,B,C,C,B",
+          correctAnswer: "B,C,C,D,B,B,C,C",
           points: 8,
         },
         {
           type: "grammar",
           order: 2,
-          content: "Choose the correct answer:",
+          content: `Read this email and choose the correct word for each gap.
+
+From: Rachel
+To: Emma
+Subject: My Gardens by the Bay trip!
+
+Hi Emma,
+
+(1) ____ to Gardens by the Bay? I went last Friday with my school and it was amazing! I (2) ____ there once before with my parents, but this learning journey was (3) ____ than that family visit. Our guide showed us the Cloud Forest – (4) ____ inside a Cloud Forest Dome? The plants were (5) ____ than I expected, and some were (6) ____ than a tall person! 
+
+The most interesting part was learning about the Supertrees. They're (7) ____ impressive than ordinary trees because they collect rainwater and make solar power. Our teacher said Singapore's gardens are (8) ____ creative than gardens in many other cities. After the trip, I felt (9) ____ interested in environmental science than before. (10) ____ thought about gardens this way?
+
+I'd love to go back again!
+
+Rachel`,
           options: JSON.stringify([
-            "I ____ Gardens by the Bay with my family before.|A. visit|B. visited|C. have visited|D. am visiting",
-            "The guide ____ us about the cooling systems.|A. explained|B. explains|C. has explained|D. explaining",
-            "There ____ plants from many countries.|A. was|B. were|C. is|D. has been",
-            "Singapore ____ be creative about food production.|A. use to|B. used to|C. is used to|D. uses to",
-            "If I ____ more time, I would explore the whole garden.|A. have|B. had|C. will have|D. having",
-            "The Supertrees are ____ than I expected.|A. impressive|B. more impressive|C. most impressive|D. impressiver",
-            "We were asked ____ one plant.|A. sketch|B. sketching|C. to sketch|D. sketched",
-            "I left ____ inspired.|A. feel|B. to feel|C. felt|D. feeling",
+            "(1)|A. Do you ever go|B. Did you ever go|C. Have you ever been|D. Are you ever going",
+            "(2)|A. visit|B. visited|C. am visiting|D. have been",
+            "(3)|A. educational|B. more educational|C. most educational|D. educationaler",
+            "(4)|A. Do you ever walk|B. Did you ever walk|C. Have you ever walked|D. Are you ever walking",
+            "(5)|A. more beautiful|B. most beautiful|C. beautifuler|D. beautiful",
+            "(6)|A. tall|B. taller|C. tallest|D. more tall",
+            "(7)|A. much|B. many|C. more|D. most",
+            "(8)|A. more|B. most|C. many|D. much",
+            "(9)|A. much|B. more|C. most|D. many",
+            "(10)|A. Do you ever|B. Did you ever|C. Have you ever|D. Are you ever",
           ]),
-          correctAnswer: "C,A,B,B,B,B,C,D",
-          points: 8,
+          correctAnswer: "C,D,B,C,A,B,C,A,B,C",
+          points: 10,
         },
         {
           type: "writing",
           order: 3,
-          content: `Write an article for your school magazine (100-120 words):
+          content: `Read this email from your friend:
 
-"A trip that taught me something"
+From: Alex
+To: You
 
-Describe a school trip, family visit, or outing where you learned something new or saw things differently.
+Hi!
 
-Include:
-• Where you went and when
-• What you did or saw
-• What you learned or how it changed your view
+How are you? I'm thinking about visiting Singapore next month. Have you ever been to any interesting places there? I'd love to hear about a place you've visited that you think is worth seeing. What made it special? Was it better than you expected?
+
+Let me know!
+
+Alex
+
+---
+
+Write your reply to Alex (about 100 words).
+
+In your email, you should:
+• Answer Alex's question about an interesting place you've visited
+• Explain what you did or saw there
+• Compare it to another place or your expectations (use comparatives)
 
 成功标准 / Success Criteria:
-✓ 过去时态 (Past simple and past continuous: we went, I was walking...)
-✓ 描述性形容词 (Descriptive language: amazing, surprised, fascinated)
-✓ 连接词 (Linking words: first, then, after that, however, what surprised me most was...)
-✓ 清晰结构 (Clear structure: introduction, main points, conclusion)
-✓ 100-120词 (100-120 words)`,
+✓ 现在完成时 (Present perfect for experience: Have you ever been…? I've visited...)
+✓ 比较级 (Comparatives: more impressive, bigger, better than…)
+✓ 邮件格式 (Email format: greeting, answers to all points, closing)
+✓ 约100词 (About 100 words)`,
           points: 10,
         },
         {
@@ -876,25 +904,29 @@ Include:
           order: 4,
           content: `听读练习 / Listening Preparation (read carefully)
 
-[Announcement at Sentosa Heritage Trail entrance]
+[Guide Mr Tan introduces different zones at Gardens by the Bay to students]
 
-Guide: Good afternoon, everyone, and welcome to the Sentosa Heritage Trail. My name is Janice and I'll be your guide today. Before we start, let me give you some important information.
+Mr Tan: Welcome everyone! Before we start exploring, let me tell you about the five main zones we'll visit today. 
 
-The trail takes about ninety minutes to complete, and we'll walk about two kilometres. Please stay with the group and listen carefully at each stop. We'll visit six historical sites, including the old fort and the underground tunnels.
+First, the Cloud Forest Dome. It's home to plants from tropical mountain regions. The indoor waterfall there is taller than a six-storey building – quite spectacular!
 
-It's quite sunny today, so make sure you drink water regularly. We'll take a short break at the halfway point near the cannon display. If you need the restroom, that's the best time to go.
+Second, the Flower Dome. It showcases Mediterranean and semi-arid plants. It's drier than the Cloud Forest, but just as impressive. You'll see baobab trees and olive groves.
 
-Please don't touch any of the historical structures or artefacts. They are very old and we need to preserve them for future generations. You can take photos, but no flash photography inside the tunnels, please.
+Third, the Supertree Grove. These vertical gardens are between 25 to 50 metres tall. They collect rainwater and generate solar power – much more useful than ordinary sculptures!
 
-Our trail starts at Fort Siloso and ends at the beach. When we finish, you'll have free time to explore or have lunch at the food court nearby. Any questions before we begin? No? Great, let's go!`,
+Fourth, the Heritage Gardens. Here we celebrate Asian culture through plants. You'll find Chinese, Malay, and Indian garden sections. It's quieter than the Domes, perfect for reflection.
+
+Finally, the Outdoor Gardens. These are free to explore and include the Dragonfly and Kingfisher Lakes. They're larger than many neighbourhood parks and great for bird-watching.
+
+Match each zone to its special feature:`,
           options: JSON.stringify([
-            "How long does the trail take?|A. 60 minutes|B. 75 minutes|C. 90 minutes|D. 120 minutes",
-            "How many historical sites will they visit?|A. Four|B. Five|C. Six|D. Seven",
-            "When can people use the restroom?|A. Anytime|B. At the start|C. At the halfway point near the cannon display|D. At the end only",
-            "What are visitors told NOT to do?|A. Take photos|B. Drink water|C. Use flash photography in tunnels|D. Ask questions",
-            "Where does the trail end?|A. Fort Siloso|B. The tunnels|C. The beach|D. The food court",
+            "Cloud Forest Dome|A. Celebrates Asian culture|B. Has a very tall indoor waterfall|C. Free to explore|D. Has Mediterranean plants|E. Collects rainwater and solar power",
+            "Flower Dome|A. Celebrates Asian culture|B. Has a very tall indoor waterfall|C. Free to explore|D. Has Mediterranean plants|E. Collects rainwater and solar power",
+            "Supertree Grove|A. Celebrates Asian culture|B. Has a very tall indoor waterfall|C. Free to explore|D. Has Mediterranean plants|E. Collects rainwater and solar power",
+            "Heritage Gardens|A. Celebrates Asian culture|B. Has a very tall indoor waterfall|C. Free to explore|D. Has Mediterranean plants|E. Collects rainwater and solar power",
+            "Outdoor Gardens|A. Celebrates Asian culture|B. Has a very tall indoor waterfall|C. Free to explore|D. Has Mediterranean plants|E. Collects rainwater and solar power",
           ]),
-          correctAnswer: "C,C,C,C,C",
+          correctAnswer: "B,D,E,A,C",
           points: 5,
           audioUrl: "/audio/b1-w1-listening.mp3",
         },
@@ -903,30 +935,32 @@ Our trail starts at Fort Siloso and ends at the beach. When we finish, you'll ha
           order: 5,
           content: `口语练习 / Speaking Practice
 
-Task: Describe a place in your city a visitor should see (2 minutes)
+Task: Talk about a place you've visited (about 1 minute)
 
-Talk about:
-• What the place is and where it is located
-• What visitors can see or do there
-• Why you recommend it
-• Any personal experience or memory you have of that place
+Answer these questions:
+• Have you ever visited an interesting place in Singapore (or another country)?
+• Where did you go and when?
+• What did you see or do there?
+• How did it compare to other places you've been? (Use comparatives: more interesting, bigger, better than...)
+
+You MUST use:
+✓ Present perfect for experience (Have you visited…? I've been to… I've never seen…)
+✓ Comparatives (It was more impressive than… / bigger than… / better than I expected)
 
 Useful phrases:
-• I'd recommend visiting...
-• It's located in/near...
-• One of the most interesting things about it is...
-• Visitors can...
-• What makes it special is...
-• I remember when I...
-• You should definitely see it because...
-• It's well worth a visit
+• I've visited... several times
+• Have you ever been to...?
+• It was more interesting than I expected
+• The place is bigger / smaller / quieter / busier than...
+• I found it more educational than other places
+• It's better than many tourist spots because...
 
 如何练习 / How to practise:
-1. 选择一个你了解的地方 (Choose a place you know well)
-2. 想好推荐理由 (Think of reasons to recommend it)
-3. 点击"开始录音"，说满2分钟 (Tap "开始录音", speak for 2 minutes)
-4. 提交给AI，获得发音和内容反馈 (Submit to AI for pronunciation and content feedback)
-5. 查看"跟读句子"并再录一次 (Check model sentences and re-record)`,
+1. 选择一个你去过的地方 (Choose a place you've visited)
+2. 想好比较的对象 (Think of something to compare it to)
+3. 点击"开始录音"，说满1分钟 (Tap "开始录音", speak for 1 minute)
+4. 提交给AI，获得语法和发音反馈 (Submit to AI for grammar and pronunciation feedback - AI will focus on present perfect and comparatives)
+5. 查看反馈并再录一次 (Check feedback and re-record)`,
           points: 5,
         },
       ],
