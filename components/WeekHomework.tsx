@@ -405,7 +405,7 @@ export default function WeekHomework({
                 </ol>
               </div>
             </div>
-          ) : !week.officialClipId && (
+          ) : !(week.officialClipId && week.officialClipCredit) && (
             <div className="bg-card border border-line rounded-xl p-5">
               <h3 className="font-semibold text-ink mb-3">🎬 本周微课</h3>
               <p className="text-sm text-ink-2">
