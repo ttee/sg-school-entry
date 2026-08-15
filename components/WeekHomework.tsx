@@ -4,6 +4,7 @@ import { useState, useRef, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 import DualValidationMap from "./DualValidationMap";
+import DualValidationMapWeek1 from "./DualValidationMapWeek1";
 
 type Question = {
   id: string;
@@ -399,8 +400,11 @@ export default function WeekHomework({
         </div>
       )}
 
-      {/* Dual-validation map for A2 Week 0 only */}
+      {/* Dual-validation map for A2 Week 0 */}
       {week.level === "A2" && week.weekNumber === 0 && <DualValidationMap />}
+
+      {/* Dual-validation map for A2 Week 1 */}
+      {week.level === "A2" && week.weekNumber === 1 && <DualValidationMapWeek1 />}
 
       <div className="space-y-8">
         {questions.map((question, idx) => (

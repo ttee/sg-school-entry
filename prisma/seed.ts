@@ -202,61 +202,82 @@ Useful phrases:
         {
           type: "reading",
           order: 1,
-          content: `Read about Lin's weekday:
+          content: `Read Mei's diary entry:
 
-My Weekday in Tampines
+My School Day – Monday
 
-My name is Lin and I live in Tampines with my family. We live in a flat on the tenth floor of an HDB block. Every weekday I wake up at six thirty in the morning. I brush my teeth, wash my face, and put on my school uniform. My mum makes breakfast for me – usually toast with kaya jam and a glass of Milo.
+I live in Bedok with my family. Every Monday I wake up early because I have extra Math class before school starts. My alarm rings at 6:00 a.m. but I sometimes press snooze! My dad always tells me not to be late.
 
-At seven fifteen, my mum and I walk to Tampines MRT station. The train is always crowded! We take the green line and I get off at Paya Lebar. Then I walk five minutes to my school. Lessons start at eight o'clock sharp.
+I get up at 6:15, brush my teeth, and put on my school uniform. My mum prepares breakfast – fried rice or noodles. I drink tea and check my bag. My little sister Jia is still sleeping! She goes to kindergarten, so she wakes up later.
 
-After school finishes at two thirty, I go home on the MRT again. I have a snack, then I do my homework at the dining table. My little brother sometimes plays noisily in the living room, but I can still concentrate! In the evening, my family has dinner together at around seven. After dinner, I read or watch a bit of TV before bed. I usually go to sleep at nine thirty because I'm always tired!
+At 7:00 a.m. sharp, Dad and I leave home. We walk to the bus stop together. The 168 bus arrives at 7:10. Dad takes it to work and I take it to school. The journey is twenty minutes. I get off near the library and walk three minutes to the school gate.
 
-On Saturdays, I wake up late and help my mum at the market. Sundays are for resting!`,
+My extra Math class starts at 7:45. Miss Chen teaches us fractions and problem sums. She writes on the whiteboard and asks us questions. After that, normal school starts at 8:30. We have assembly, then English, Science, and PE before lunch.
+
+At 2:00 p.m. school finishes. I take the bus home. At home, I change into comfortable clothes, have a snack, and do my homework. In the evening, we have dinner together at 7:00 p.m. After dinner, I help wash the dishes, then read for a bit. I go to bed at 9:30 p.m.
+
+I like Mondays because Math is my favourite subject!`,
           options: JSON.stringify([
-            "Where does Lin live?|A. In a house in Tampines|B. In a flat on the tenth floor|C. Near Paya Lebar station|D. In the city centre",
-            "What does Lin have for breakfast?|A. Noodles|B. Rice|C. Toast with kaya jam|D. Sandwich",
-            "How does Lin travel to school?|A. By bus|B. Her mum drives|C. She walks all the way|D. By MRT and walking",
-            "What time do lessons start?|A. 7:15|B. 7:30|C. 8:00|D. 8:30",
-            "Where does Lin do her homework?|A. In her bedroom|B. At the dining table|C. In the living room|D. At the library",
-            "What does Lin's little brother do?|A. Helps with homework|B. Plays noisily|C. Cooks dinner|D. Goes to sleep early",
-            "What time does Lin usually go to sleep?|A. 8:30|B. 9:00|C. 9:30|D. 10:00",
-            "What does Lin do on Saturdays?|A. Goes to school|B. Wakes up late and helps at the market|C. Visits friends|D. Does homework all day",
+            "Why does Mei wake up early on Mondays?|A. She has basketball practice|B. She has extra Math class|C. Her mum tells her to|D. The bus comes early",
+            "Who wakes up later than Mei?|A. Her dad|B. Her mum|C. Her sister Jia|D. Her teacher",
+            "What time does Mei leave home?|A. 6:00 a.m.|B. 6:15 a.m.|C. 7:00 a.m.|D. 7:10 a.m.",
+            "How does Mei travel to school?|A. Dad drives her|B. She walks all the way|C. She takes bus 168|D. She rides a bicycle",
+            "What does Miss Chen teach?|A. English|B. Science|C. Math|D. PE",
+            "What time does normal school start?|A. 7:45|B. 8:00|C. 8:30|D. 9:00",
+            "What does Mei do after she gets home?|A. Plays computer games|B. Changes clothes, has a snack, does homework|C. Goes to sleep|D. Watches TV for two hours",
+            "How does Mei feel about Mondays?|A. She dislikes them|B. She thinks they are boring|C. She likes them because Math is her favourite|D. She doesn't say",
           ]),
-          correctAnswer: "B,C,D,C,B,B,C,B",
+          correctAnswer: "B,C,C,C,C,C,B,C",
           points: 8,
         },
         {
           type: "grammar",
           order: 2,
-          content: "Choose the correct answer:",
+          content: `Read about Jun's routine. Choose the correct word for each gap.
+
+My School Routine
+
+My name is Jun. I (1) ____ at a secondary school in Tampines. Every weekday, my sister Amy and I wake up early. Amy is in Primary 5. She (2) ____ her alarm at 6:30 a.m. I wake up a bit earlier, (3) ____ 6:15 a.m.
+
+After we wash up, we have breakfast together. Mum (4) ____ us rice porridge or toast. Amy always (5) ____ orange juice, but I prefer milk. Dad leaves for work (6) ____ 7:00 a.m. He (7) ____ the MRT to the city.
+
+Amy and I walk to the bus stop. We (8) ____ the same bus to school. Amy's school is near mine, so we get off at the same stop. Then Amy walks left and I walk right!`,
           options: JSON.stringify([
-            "Lin ____ up at six thirty every morning.|A. wake|B. wakes|C. waking|D. woke",
-            "I ____ take the MRT to school.|A. always|B. yesterday|C. next week|D. soon",
-            "My brother ____ plays in the living room.|A. yesterday|B. sometimes|C. tomorrow|D. last week",
-            "Lessons start ____ eight o'clock.|A. in|B. on|C. at|D. by",
-            "We have dinner ____ the evening.|A. at|B. in|C. on|D. by",
-            "I live ____ Tampines.|A. at|B. in|C. on|D. by",
-            "How ____ do you go to the library?|A. many|B. much|C. often|D. long",
-            "She ____ her homework after school every day.|A. do|B. does|C. doing|D. did",
+            "(1)|A. study|B. studies|C. studied|D. studying",
+            "(2)|A. set|B. sets|C. setting|D. setted",
+            "(3)|A. in|B. on|C. at|D. by",
+            "(4)|A. make|B. makes|C. making|D. maked",
+            "(5)|A. drink|B. drinks|C. drank|D. drinking",
+            "(6)|A. in|B. on|C. at|D. to",
+            "(7)|A. take|B. takes|C. taking|D. taked",
+            "(8)|A. catch|B. catches|C. catched|D. catching",
           ]),
-          correctAnswer: "B,A,B,C,B,B,C,B",
+          correctAnswer: "A,B,C,B,B,C,B,A",
           points: 8,
         },
         {
           type: "writing",
           order: 3,
-          content: `Write an email to your friend about your daily routine (50-70 words).
+          content: `You receive this email from your English friend, Sam:
 
-Include these THREE points:
-• What time you wake up and what you have for breakfast
-• How you get to school
-• What you do in the evening
+From: Sam
+To: You
+Subject: Your daily routine
+
+Hi!
+
+Thanks for your last email. I want to know about your school day! What time do you wake up? What do you eat for breakfast? How do you get to school? And what do you do after school in the evening?
+
+Write back soon!
+Sam
+
+Write your email to Sam (50-70 words). Answer ALL the questions.
 
 成功标准 / Success Criteria:
-✓ 包含所有3点内容 (All 3 content points)
-✓ 现在时态和频率副词 (Present simple + adverbs of frequency: always, usually, sometimes)
-✓ 时间介词 (Prepositions of time: at, in, on)
+✓ 回答所有4个问题 (Answer all 4 questions)
+✓ 第三人称单数 -s (If you mention family: My dad drives... / My sister wakes...)
+✓ 时间介词 at/in/on (at 7:00, in the morning, on weekdays)
+✓ 邮件格式 (Email format: Hi Sam, ... / Best, [your name])
 ✓ 50-70词 (50-70 words)`,
           points: 10,
         },
@@ -279,13 +300,13 @@ Jun Wei: Not really. I usually eat bread on the bus! But on weekends I wake up l
 
 Sarah: Weekends are the best! I always sleep until eight thirty on Saturdays. No school, no alarm clock!`,
           options: JSON.stringify([
-            "What time does Jun Wei wake up on weekdays?|A. 6:00|B. 6:15|C. 7:00|D. 7:15",
-            "How does Sarah get to school?|A. By bus|B. By MRT|C. She walks|D. Her dad drives",
-            "How long is Jun Wei's bus journey?|A. Ten minutes|B. Twenty minutes|C. Thirty minutes|D. Forty minutes",
-            "Where does Jun Wei usually eat breakfast?|A. At home at the table|B. On the bus|C. At school|D. He doesn't eat breakfast",
-            "What time does Sarah wake up on Saturdays?|A. 6:15|B. 7:00|C. 8:30|D. 9:00",
+            "What time does Jun Wei wake up on weekdays?|A. 6:00|B. 6:15|C. 7:00",
+            "How does Sarah get to school?|A. By bus|B. By MRT|C. She walks",
+            "How long is Jun Wei's bus journey?|A. Ten minutes|B. Twenty minutes|C. Thirty minutes",
+            "Where does Jun Wei usually eat breakfast on weekdays?|A. At home|B. On the bus|C. At school",
+            "What time does Sarah wake up on Saturdays?|A. 7:00|B. 8:30|C. 9:00",
           ]),
-          correctAnswer: "B,C,C,B,C",
+          correctAnswer: "B,C,C,B,B",
           points: 5,
           audioUrl: "/audio/a2-w1-listening.mp3",
         },
@@ -294,28 +315,33 @@ Sarah: Weekends are the best! I always sleep until eight thirty on Saturdays. No
           order: 5,
           content: `口语练习 / Speaking Practice
 
-Task: Describe your typical school morning (1 minute)
+Task: Talk about your weekday morning routine (1 minute)
 
-Talk about these points:
-• What time your alarm goes off
-• Your morning routine (washing, breakfast, getting dressed)
-• How you travel to school
-• How you feel in the morning (tired? excited?)
+Describe these points:
+• What time you wake up and who wakes you (alarm? parent?)
+• What you do first (wash? eat? get dressed?)
+• What your family members do in the morning (use he/she + verb + -s!)
+• What time you leave home and how you travel
 
 Useful phrases:
-• My alarm goes off at...
+• I wake up at...
+• My alarm rings at...
+• My mum/dad wakes up at... (note: wakes, not wake!)
+• She makes breakfast / He leaves for work
 • The first thing I do is...
 • Then I...
 • After that, I...
-• It takes me ... minutes to...
-• I usually feel... in the morning
 • On weekdays, I always...
+• In the morning, my family...
+
+Grammar focus for AI:
+AI will listen for correct use of third-person -s (my sister walks, dad takes the MRT) and time prepositions (at 7:00, in the morning, on Monday).
 
 如何练习 / How to practise:
-1. 计划你要说的内容 (Plan what you'll say)
-2. 点击下方"开始录音"按钮 (Tap the "开始录音" button below)
-3. 清晰地说出你的内容 (Speak clearly through your points)
-4. 听回放后提交给AI评估，获得改进建议 (Submit for AI feedback and improvement tips)`,
+1. 计划你的内容，特别注意 he/she + 动词-s (Plan your content; focus on he/she + verb-s)
+2. 点击下方"开始录音"按钮 (Tap "开始录音")
+3. 说满1分钟 (Speak for 1 minute)
+4. AI会评估你的语法，特别是第三人称-s和时间介词 (AI evaluates grammar, especially 3rd person -s and time prepositions)`,
           points: 5,
         },
       ],
