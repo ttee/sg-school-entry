@@ -188,7 +188,7 @@ export default function HomePage() {
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-accent mt-0.5">✓</span>
-                  <span>每周作业 app 全部解锁（阅读、语法、写作、听读、口语）</span>
+                  <span>每周作业 app 解锁已上线周数（试学周 + 第 1–3 周，后续周次陆续更新）</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-accent mt-0.5">✓</span>
@@ -445,7 +445,7 @@ export default function HomePage() {
                   </>
                 ) : (
                   <span className="text-ink-2">
-                    报名时向老师索取微信号，或通过下方邮件联系。
+                    报名时向老师索取微信号。
                   </span>
                 )}
               </p>
