@@ -5,7 +5,7 @@ export default function DualValidationMapWeek3() {
         本周对照考试题型
       </h2>
       <p className="text-sm text-ink-2 mb-4 leading-relaxed">
-        本周按 <strong>A2 Key for Schools</strong> 题型来练。故事是<strong>家庭与朋友 / Family and Friends</strong>：Wei 上周日去大巴窑探望阿嬷阿公。焦点是<strong>一般过去时</strong>（yesterday I went, we visited, I had）和 <strong>used to</strong>（Ah Gong used to be a taxi driver，不是 use to）。
+        先看 Family Tree 儿歌，认 mummy / daddy / grandma，再做作业。本周按 <strong>A2 Key for Schools</strong> 题型来练。故事是<strong>家庭与朋友 / Family and Friends</strong>：Wei 上周日去大巴窑探望阿嬷阿公。焦点是<strong>一般过去时</strong>（yesterday I went, we visited, I had）和 <strong>used to</strong>（Ah Gong used to be a taxi driver，不是 use to）。
       </p>
 
       <div className="overflow-x-auto">
