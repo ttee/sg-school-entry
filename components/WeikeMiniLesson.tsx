@@ -143,6 +143,15 @@ export default function WeikeMiniLesson({ level, weekNumber }: WeikeMiniLessonPr
       ],
       gloss: "so 后面加形容词（so tired, so interesting）。such a/an 后面加形容词 + 单数可数名词（such a beautiful park, such an interesting book）。不可数或复数用 such（such bad weather, such friendly teachers）。不要写 so a 或 so + 名词。"
     },
+    "B1-9": {
+      fossil: "too much tired / enough rich / too tired that I can't / I am not enough tall",
+      examples: [
+        "I was too tired to run.",
+        "She is tall enough to reach the shelf.",
+        "We didn't have enough time."
+      ],
+      gloss: "too + 形容词 + to 不定式表示太…而不能（too tired to run, too late to catch）。形容词 + enough + to 不定式表示够…可以（tall enough to reach）。enough 修饰名词时放在名词前（enough time, enough money）。不要写 too much tired, enough tall, 或 I am not enough tall。"
+    },
   };
 
   const key = `${level}-${weekNumber}`;
