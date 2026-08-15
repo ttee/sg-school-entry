@@ -6,6 +6,7 @@ import Link from "next/link";
 import DualValidationMap from "./DualValidationMap";
 import DualValidationMapWeek1 from "./DualValidationMapWeek1";
 import DualValidationMapWeek2 from "./DualValidationMapWeek2";
+import DualValidationMapWeek3 from "./DualValidationMapWeek3";
 
 type Question = {
   id: string;
@@ -409,6 +410,9 @@ export default function WeekHomework({
 
       {/* Dual-validation map for A2 Week 2 */}
       {week.level === "A2" && week.weekNumber === 2 && <DualValidationMapWeek2 />}
+
+      {/* Dual-validation map for A2 Week 3 */}
+      {week.level === "A2" && week.weekNumber === 3 && <DualValidationMapWeek3 />}
 
       <div className="space-y-8">
         {questions.map((question, idx) => (

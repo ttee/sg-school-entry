@@ -551,18 +551,26 @@ At around four o'clock, we said goodbye. Ah Ma packed some leftover food for us 
         {
           type: "grammar",
           order: 2,
-          content: "Choose the correct answer:",
+          content: `Read about Wei's visit to his grandparents. Choose the correct word for each gap.
+
+Visiting Ah Ma and Ah Gong
+
+Last Sunday, my family (1) ____ my grandparents in Toa Payoh. We call them Ah Ma and Ah Gong. They (2) ____ to live in a kampong when they were young, but now they have a flat near the MRT station.
+
+We (3) ____ at their home around eleven in the morning. Ah Gong (4) ____ reading his Chinese newspaper when we walked in. He smiled and (5) ____ us tea. Ah Ma was in the kitchen. She (6) ____ my favourite dishes for lunch – steamed fish and chicken rice!
+
+After lunch, Ah Gong (7) ____ me some old photos. In one photo, he (8) ____ standing in front of his old taxi. He used to be a taxi driver for thirty years. I love visiting them!`,
           options: JSON.stringify([
-            "Ah Ma is ____ cook.|A. a amazing|B. an amazing|C. amazing|D. the amazing",
-            "My grandparents' flat is ____ than ours.|A. small|B. smaller|C. smallest|D. more small",
-            "We ____ them last Sunday.|A. visit|B. visits|C. visited|D. visiting",
-            "Xiao Hui is my ____.|A. cousin|B. cousins|C. cousin's|D. cousins'",
-            "Ah Gong ____ as a taxi driver.|A. use to work|B. used to work|C. used work|D. is used to work",
-            "This is the book ____ Ah Gong gave me.|A. who|B. what|C. which|D. where",
-            "Ah Ma was ____ lunch when we arrived.|A. prepare|B. prepares|C. prepared|D. preparing",
-            "I wish we ____ visit more often.|A. can|B. could|C. will|D. shall",
+            "(1)|A. visit|B. visits|C. visited|D. visiting",
+            "(2)|A. use to live|B. used to live|C. uses to live|D. are used to live",
+            "(3)|A. arrive|B. arrives|C. arriving|D. arrived",
+            "(4)|A. is|B. are|C. was|D. were",
+            "(5)|A. give|B. gives|C. giving|D. gave",
+            "(6)|A. cook|B. cooks|C. cooked|D. cooking",
+            "(7)|A. show|B. shows|C. showing|D. showed",
+            "(8)|A. is|B. are|C. was|D. were",
           ]),
-          correctAnswer: "B,B,C,A,B,C,D,B",
+          correctAnswer: "C,B,D,C,D,C,D,C",
           points: 8,
         },
         {
@@ -620,29 +628,30 @@ Mum: I'll pack sandwiches and fruit. You can bring some biscuits if you want. Do
           order: 5,
           content: `口语练习 / Speaking Practice
 
-Task: Describe a person in your family (1 minute)
+Task: Talk about a past family day (1 minute)
 
-Talk about:
-• Who the person is (relationship to you)
-• What they look like or what they like doing
-• Why they are special to you
-• A memory you have with them
+Think about a day you spent with family in the past. Talk about:
+• When it was and who you were with
+• Where you went or what you did together
+• What you ate or what happened
+• How you felt about it
 
-Useful phrases:
-• I want to talk about my...
-• He/She is... years old
-• He/She has... (appearance or personality)
-• He/She loves/enjoys...
-• He/She is special to me because...
-• I remember when we...
-• One thing I love about him/her is...
+Useful phrases (use past simple!):
+• Last weekend / Last month, I...
+• We visited / went to...
+• My family and I had...
+• I saw / ate / played...
+• Ah Ma / Ah Gong / My cousin was...
+• When I was younger, we used to...
+• It was special because...
+• I felt happy / excited when...
 
 如何练习 / How to practise:
-1. 选择一个家人 (Choose a family member)
-2. 想好细节 (Think of details about them)
+1. 想一个过去的家庭日 (Think of a past family day)
+2. 用过去时说 (Use past tense: went, had, visited)
 3. 点击"开始录音"按钮 (Tap the "开始录音" button)
-4. 说完后听回放，满意则提交给AI (Playback, then submit to AI)
-5. AI会给你改进建议和跟读句子 (AI gives improvement tips and model sentences)`,
+4. 说完整1分钟，然后停止 (Speak for the full minute, then stop)
+5. AI会盯住过去时动词和 used to (AI will focus on past tense and used to)`,
           points: 5,
         },
       ],
