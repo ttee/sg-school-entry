@@ -349,7 +349,7 @@ export default function WeekHomework({
       </div>
 
       {/* Lesson content: Parent brief + Video + How to use */}
-      {(week.parentBrief || week.videoUrl) && (
+      {(week.parentBrief || week.videoUrl || (week.officialClipId && week.officialClipCredit)) && (
         <div className="mb-8 space-y-4">
           {/* Parent brief card */}
           {week.parentBrief && (
@@ -366,6 +366,14 @@ export default function WeekHomework({
                 {week.parentBrief}
               </p>
             </div>
+          )}
+
+          {/* Official YouTube clip (when configured via seed) */}
+          {week.officialClipId && week.officialClipCredit && (
+            <OfficialClip 
+              videoId={week.officialClipId}
+              credit={week.officialClipCredit}
+            />
           )}
 
           {/* Video player or coming soon message */}
@@ -397,7 +405,7 @@ export default function WeekHomework({
                 </ol>
               </div>
             </div>
-          ) : (
+          ) : !week.officialClipId && (
             <div className="bg-card border border-line rounded-xl p-5">
               <h3 className="font-semibold text-ink mb-3">🎬 本周微课</h3>
               <p className="text-sm text-ink-2">
@@ -428,14 +436,6 @@ export default function WeekHomework({
 
       {/* Dual-validation map for B1 Week 2 */}
       {week.level === "B1" && week.weekNumber === 2 && <DualValidationMapB1Week2 />}
-
-      {/* Official YouTube clip (when configured via seed) */}
-      {week.officialClipId && week.officialClipCredit && (
-        <OfficialClip 
-          videoId={week.officialClipId}
-          credit={week.officialClipCredit}
-        />
-      )}
 
       <div className="space-y-8">
         {questions.map((question, idx) => (
