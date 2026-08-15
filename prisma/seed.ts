@@ -2548,6 +2548,110 @@ Useful phrases:
         },
       ],
     },
+
+    // Week 7: going to future
+    {
+      level: "A2",
+      weekNumber: 7,
+      title: "Week 7: Weekend Plans",
+      description: "Talking about future plans with going to",
+      isSample: false,
+      dueDate: new Date("2026-10-01"),
+      errorFocus: "going-to-future",
+      parentBrief: "本周纠错焦点：be going to 表示打算。中文用「要/打算」不变形，孩子会说 I going to the library tomorrow / I go to swim / Tomorrow I go library（用裸现在时表达计划）。英语规则：I am going to + 动词原形；He/She is going to + 动词原形；We/They are going to + 动词原形。本周轻微对比 present continuous（第 2 周已教）：this week focuses on PLANS (going to), not actions happening now.",
+      videoUrl: null,
+      kaizenFocus: "Use be going to + infinitive for plans (I am going to visit…; She is going to…; We are going to…)",
+      officialClipId: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: `Read Mei's email:
+
+From: Mei
+To: Priya
+Subject: This Weekend!
+
+Hi Priya,
+
+I'm so excited about this weekend! Let me tell you our plans.
+
+On Saturday morning, my family is going to visit East Coast Park. We're going to cycle along the beach. My dad is going to bring his new camera. He's going to take photos of the sunrise. Mum is going to pack sandwiches and drinks for our picnic.
+
+After East Coast Park, we're going to go to Bedok Mall. I'm going to buy a new book at the bookshop. Mum is going to get groceries at the supermarket. Dad says he's going to look at sports equipment. We're going to have lunch at the food court.
+
+On Saturday evening, my cousin Jun Wei is going to come to our flat. We're going to do our English homework together. Ms Tan gave us a writing task about weekend plans! After homework, Jun Wei and I are going to play video games. My parents are going to watch a movie in the living room.
+
+On Sunday morning, I'm going to go to the library at Bedok Community Centre. I'm going to return my books and borrow new ones. Priya, are you going to come with me? The library opens at 10 a.m.
+
+On Sunday afternoon, my family is going to visit my grandparents. My grandmother is going to cook her special chicken rice for lunch. After lunch, Grandpa is going to tell us stories. He always tells funny stories about when he was young!
+
+In the evening, I'm going to practise piano. I'm going to prepare for my Grade 2 exam next month. Mum is going to help me with the difficult parts.
+
+What about you? What are you going to do this weekend? Are you going to do anything special? Write back soon!
+
+Best,
+Mei`,
+          options: JSON.stringify([
+            "What is Mei's family going to do on Saturday morning?|A. Visit the library|B. Visit East Coast Park|C. Visit grandparents|D. Go to Bedok Mall",
+            "What is Mei's dad going to do at East Coast Park?|A. Pack sandwiches|B. Cycle along the beach|C. Take photos with his new camera|D. Buy groceries",
+            "What is Mei going to buy at Bedok Mall?|A. A new book|B. Sports equipment|C. Groceries|D. Video games",
+            "When is Jun Wei going to come to Mei's flat?|A. Saturday morning|B. Saturday afternoon|C. Saturday evening|D. Sunday morning",
+            "What are Mei and Jun Wei going to do together?|A. Cycle at East Coast Park|B. Do their homework|C. Visit grandparents|D. Go to the library",
+          ]),
+          correctAnswer: "B,C,A,C,B",
+          points: 5,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: `Read the text below and choose the correct word for each gap.
+
+Saturday at East Coast Park
+by Priya, Primary 5
+
+This Saturday is going to be exciting! My parents (1) ____ to East Coast Park in the morning. My brother (2) ____ his new kite. I (3) ____ my art supplies because I want to draw the sea. Mum and Dad (4) ____ jogging along the path. After that, we (5) ____ ice cream at the café. In the afternoon, my cousins (6) ____ to join us. We're all going to play at the playground together!`,
+          options: JSON.stringify([
+            "(1)|A. is going to go|B. are going to go|C. going to go|D. go to",
+            "(2)|A. going to bring|B. is going bring|C. is going to bring|D. will going to bring",
+            "(3)|A. going to take|B. am going take|C. am going to take|D. go to take",
+            "(4)|A. is going to go|B. going to go|C. are going to go|D. are go to",
+            "(5)|A. going to have|B. are going to have|C. is going to have|D. go to have",
+            "(6)|A. is going to come|B. going to come|C. are going to come|D. are going come",
+          ]),
+          correctAnswer: "B,C,C,C,B,C",
+          points: 6,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `You receive this email from your English friend, Sam:
+
+From: Sam
+To: You
+Subject: Weekend plans?
+
+Hi!
+
+What are you going to do this weekend? I want to know about your plans! Are you going to do anything fun or interesting? Tell me all about it!
+
+Write back!
+Sam
+
+Write your email to Sam (40-60 words). Tell Sam about your weekend plans.
+
+You MUST use "going to" at least twice.
+
+成功标准 / Success Criteria:
+✓ 讲周末打算 (Tell Sam about your weekend plans)
+✓ 用 be going to 至少 2 次 (Use be going to at least 2 times: I am going to…; My family is going to…; We are going to…)
+✓ 主语动词一致 (Subject-verb agreement: I am / She is / We are + going to + verb)
+✓ 邮件格式 (Email format: Hi Sam, ... / Best, [your name])
+✓ 40-60词 (40-60 words)`,
+          points: 10,
+        },
+      ],
+    },
   ];
 
   // =================================================================

@@ -62,6 +62,15 @@ export default function WeikeMiniLesson({ level, weekNumber }: WeikeMiniLessonPr
       ],
       gloss: "正方体 cube（6 个正方形面）vs 长方体 cuboid（6 个长方形面）；圆柱 cylinder（2 个圆形面）；圆锥 cone；球体 sphere。平面图形规律按 size / shape / colour / orientation 找下一个。"
     },
+    "A2-7": {
+      fossil: "I going to the library tomorrow / I go to swim / Tomorrow I go library",
+      examples: [
+        "I am going to visit East Coast Park.",
+        "Priya is going to draw.",
+        "We are going to do homework."
+      ],
+      gloss: "be going to + 动词原形表示打算和计划。I am / She is / We are 必须加 be 动词。不要写成 I going to 或 I go to tomorrow。中文用「要/打算」不变形，但英语 going to 前面必须加 am/is/are。"
+    },
     "B1-5": {
       fossil: "The girl sits next to me is Priya / the book who I read",
       examples: [
