@@ -354,7 +354,7 @@ export default function AssessPage() {
               <p className="text-sm text-ink-2 leading-relaxed">
                 <strong className="text-ink">诚实告知：</strong>
                 这是本工作室的摸底练习，不是 Cambridge 或 MOE 官方测验。
-                结果仅供参考，不预测 CEQ 具体分数（CES），不保证 AEIS 录取。
+                结果仅供参考。
                 真实水平需通过剑桥授权考点的正式 CEQ 考试评定。
               </p>
             </div>

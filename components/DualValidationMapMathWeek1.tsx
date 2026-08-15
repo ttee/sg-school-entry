@@ -165,7 +165,7 @@ export default function DualValidationMapMathWeek1() {
           </a>
         </p>
         <p className="text-xs text-muted mt-3 pt-2 border-t border-accent/10">
-          所有情境、人名、地点均为虚构。我们<strong>不编造</strong> CES 分数、不编造「往年通过率」，也<strong>不承诺</strong>「包过」或录取结果。
+          所有情境、人名、地点均为虚构。
         </p>
       </div>
     </div>
