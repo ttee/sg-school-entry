@@ -3,6 +3,7 @@ import Link from "next/link";
 export default function HomePage() {
   const wechatId = process.env.NEXT_PUBLIC_WECHAT_ID;
   const contactEmail = process.env.NEXT_PUBLIC_CONTACT_EMAIL;
+  const payNowNumber = process.env.NEXT_PUBLIC_PAYNOW || "94594601";
 
   return (
     <>
@@ -85,7 +86,7 @@ export default function HomePage() {
               </Link>
             </div>
             <p className="text-sm text-muted max-w-2xl">
-              非 MOE、SEAB、Cambridge 官方机构 · 录取不保证 · 月度会员 S$320 或预付 12 周 A2 / B1 冲刺包 · PayNow / 微信转账
+              非 MOE、SEAB、Cambridge 官方机构 · 录取不保证 · 月度会员 S$320 或预付 12 周 A2 / B1 冲刺包 · PayNow {payNowNumber} / 微信转账
             </p>
             <p className="text-sm text-ink-2 mt-3 max-w-2xl">
               <strong>AEIS 申请：</strong>
@@ -454,9 +455,14 @@ export default function HomePage() {
                 </p>
               )}
               <div className="mt-4 pt-4 border-t border-line">
-                <p className="text-sm text-ink-2">
+                <p className="text-sm text-ink-2 mb-2">
                   <strong className="text-ink font-semibold">付款方式：</strong>
-                  PayNow / 微信转账
+                </p>
+                <p className="text-sm text-ink-2">
+                  PayNow：{payNowNumber}（手机号）
+                </p>
+                <p className="text-sm text-ink-2">
+                  微信转账：报名时向老师索取微信号
                 </p>
               </div>
             </div>
