@@ -142,7 +142,7 @@ function calculateRecommendation(answers: (number | null)[]) {
     return {
       door: "B1 当前已上线周数 + 咨询",
       doorEn: "B1 Available Weeks + Consultation",
-      reason: "基础语法掌握较好，可以开始 B1 Preliminary for Schools 水平学习。当前 app 已上线 B1 试学周 + 第 1–10 周（共 11 周），后续周次陆续上线。建议咨询 12 周直播课预付包。",
+      reason: "基础语法掌握较好，可以开始 B1 Preliminary for Schools 水平学习。当前 app 已上线 B1 试学周 + 第 1–11 周（共 12 周），后续周次陆续上线。建议咨询 12 周直播课预付包。",
       kaizenFocus: "现在完成时与过去时的区分"
     };
   } else {

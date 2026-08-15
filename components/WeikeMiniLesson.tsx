@@ -170,6 +170,15 @@ export default function WeikeMiniLesson({ level, weekNumber }: WeikeMiniLessonPr
       ],
       gloss: "反意疑问句 question tags：前面肯定，后面用否定尾（aren't you, doesn't she）。前面否定，后面用肯定尾（does she, is he）。助动词要和前面一致（is→isn't, does→doesn't, can→can't）。不要一律用 is it。"
     },
+    "B1-11": {
+      fossil: "When I arrived, the bus left / I have finished before she came / I already eat before she come",
+      examples: [
+        "When I arrived, the bus had left.",
+        "Jun Wei had already eaten.",
+        "The library had closed before we got there."
+      ],
+      gloss: "过去完成时 past perfect：两个过去动作，较早的那个用 had + 过去分词。When I arrived（后发生）, the bus had left（先发生）。不要用现在完成时 I have finished before she came，也不要两个都用一般过去时。"
+    },
   };
 
   const key = `${level}-${weekNumber}`;

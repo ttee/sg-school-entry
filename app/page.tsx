@@ -127,7 +127,7 @@ export default function HomePage() {
               小班直播课（最多 8 人）+ 每周作业 app。家长订阅，孩子登录做题。
             </p>
             <p className="text-sm text-accent mb-8 max-w-2xl">
-              新增：<strong>B1 Preliminary 第 10 周（反意疑问句 question tags）</strong>已上线；<strong>A2 Key 第 11 周（地点介词 in/on/at）</strong>已上线；<strong>AEIS 数学 试学周 + 第 1–5 周</strong>现已上线（Week 0 整数与钱币，Week 1 乘法与除法，Week 2 分数，Week 3 长度、质量、容积与时间，Week 4 平面图形规律与立体图形，Week 5 带单位的象形统计图，均对应 MOE P2 大纲），后续周次陆续更新。
+              新增：<strong>B1 Preliminary 第 11 周（过去完成时 past perfect）</strong>已上线；<strong>A2 Key 第 11 周（地点介词 in/on/at）</strong>已上线；<strong>AEIS 数学 试学周 + 第 1–5 周</strong>现已上线（Week 0 整数与钱币，Week 1 乘法与除法，Week 2 分数，Week 3 长度、质量、容积与时间，Week 4 平面图形规律与立体图形，Week 5 带单位的象形统计图，均对应 MOE P2 大纲），后续周次陆续更新。
             </p>
             <div className="flex flex-wrap gap-3 mb-6">
               <Link
@@ -243,7 +243,7 @@ export default function HomePage() {
                 <span className="text-ink-2">/ 月</span>
               </div>
               <p className="text-sm text-ink-2 mb-4">
-                小班直播课（每周 2 次，每次 1.5 小时）+ 每周作业 app 解锁当前级别已上线周数（A2 试学周 + 第 1–11 周，B1 试学周 + 第 1–10 周，后续周次陆续更新）。包含 CEQ 备考四项技能：阅读、写作、听读准备、口语提示。
+                小班直播课（每周 2 次，每次 1.5 小时）+ 每周作业 app 解锁当前级别已上线周数（A2 试学周 + 第 1–11 周，B1 试学周 + 第 1–11 周，后续周次陆续更新）。包含 CEQ 备考四项技能：阅读、写作、听读准备、口语提示。
               </p>
               <ul className="space-y-2 text-sm text-ink-2 mb-5">
                 <li className="flex items-start gap-2">
@@ -252,7 +252,7 @@ export default function HomePage() {
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-accent mt-0.5">✓</span>
-                  <span>每周作业 app 解锁已上线周数（A2: 试学周 + 第 1–11 周；B1: 试学周 + 第 1–10 周；后续周次陆续更新）</span>
+                  <span>每周作业 app 解锁已上线周数（A2: 试学周 + 第 1–11 周；B1: 试学周 + 第 1–11 周；后续周次陆续更新）</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-accent mt-0.5">✓</span>
@@ -319,7 +319,7 @@ export default function HomePage() {
                 </div>
                 <p className="text-xs font-semibold uppercase tracking-wide text-accent mb-3">适合 P5 CEQ 门槛</p>
             <p className="text-ink-2 mb-4 text-sm">
-              12 周直播课冲刺剑桥 B1 Preliminary for Schools 水平，配合当前 app 已上线周数（试学周 + 第 1–10 周，共 11 周），帮孩子在 CEQ 考试前准备好听、说、读、写四项。
+              12 周直播课冲刺剑桥 B1 Preliminary for Schools 水平，配合当前 app 已上线周数（试学周 + 第 1–11 周，共 12 周），帮孩子在 CEQ 考试前准备好听、说、读、写四项。
             </p>
                 <ul className="space-y-0 border-t border-line mb-5">
                   <li className="border-b border-line py-3 pl-5 relative before:absolute before:left-0 before:top-5 before:w-2 before:h-2 before:rounded-full before:bg-accent text-sm text-ink-2">
@@ -332,7 +332,7 @@ export default function HomePage() {
                     针对 Cambridge B1 Preliminary for Schools 四项技能：阅读、写作、听力、口语
                   </li>
                   <li className="border-b border-line py-3 pl-5 relative before:absolute before:left-0 before:top-5 before:w-2 before:h-2 before:rounded-full before:bg-accent text-sm text-ink-2">
-                    作业 app 当前已上线 B1 试学周 + 第 1–10 周（共 11 周）
+                    作业 app 当前已上线 B1 试学周 + 第 1–11 周（共 12 周）
                   </li>
                   <li className="border-b border-line py-3 pl-5 relative before:absolute before:left-0 before:top-5 before:w-2 before:h-2 before:rounded-full before:bg-accent text-sm text-ink-2">
                     包含 2 次模拟考，家长微信通报进度
@@ -409,7 +409,7 @@ export default function HomePage() {
               </div>
             </div>
 
-            <h3 className="font-serif font-semibold text-xl mb-4 text-ink">已上线纠错地图（A2 共 11 周，B1 共 10 周）</h3>
+            <h3 className="font-serif font-semibold text-xl mb-4 text-ink">已上线纠错地图（A2 共 11 周，B1 共 11 周）</h3>
             <div className="overflow-x-auto">
               <table className="w-full border border-line rounded-xl overflow-hidden text-sm">
                 <thead>
@@ -562,12 +562,33 @@ export default function HomePage() {
                     <td className="px-4 py-3 text-ink">although / despite 对比转折</td>
                     <td className="px-4 py-3 text-ink-2">Although...but / Despite of / Despite + 句子</td>
                   </tr>
-                  <tr className="bg-paper-2">
+                  <tr className="border-b border-line bg-paper-2">
                     <td className="px-4 py-3 font-semibold text-accent">B1</td>
                     <td className="px-4 py-3 text-ink-2">8</td>
                     <td className="px-4 py-3 text-ink-2">Such a Busy Week</td>
                     <td className="px-4 py-3 text-ink">so / such 加强描述</td>
                     <td className="px-4 py-3 text-ink-2">so a beautiful park / such beautiful / so + 名词</td>
+                  </tr>
+                  <tr className="border-b border-line bg-paper-2">
+                    <td className="px-4 py-3 font-semibold text-accent">B1</td>
+                    <td className="px-4 py-3 text-ink-2">9</td>
+                    <td className="px-4 py-3 text-ink-2">Too Tired to Run</td>
+                    <td className="px-4 py-3 text-ink">too...to / enough</td>
+                    <td className="px-4 py-3 text-ink-2">too much tired / enough rich / I am not enough tall</td>
+                  </tr>
+                  <tr className="border-b border-line bg-paper-2">
+                    <td className="px-4 py-3 font-semibold text-accent">B1</td>
+                    <td className="px-4 py-3 text-ink-2">10</td>
+                    <td className="px-4 py-3 text-ink-2">Checking What We Heard</td>
+                    <td className="px-4 py-3 text-ink">反意疑问句 question tags</td>
+                    <td className="px-4 py-3 text-ink-2">You like it, is it? / She's tall, is she? / You don't like English, isn't it?</td>
+                  </tr>
+                  <tr className="bg-paper-2">
+                    <td className="px-4 py-3 font-semibold text-accent">B1</td>
+                    <td className="px-4 py-3 text-ink-2">11</td>
+                    <td className="px-4 py-3 text-ink-2">What Had Already Happened</td>
+                    <td className="px-4 py-3 text-ink">过去完成时 past perfect</td>
+                    <td className="px-4 py-3 text-ink-2">When I arrived, the bus left / I have finished before she came</td>
                   </tr>
                 </tbody>
               </table>
