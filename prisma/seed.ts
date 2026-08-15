@@ -3232,6 +3232,107 @@ You MUST use like/love/enjoy + -ing at least twice.
         },
       ],
     },
+    {
+      level: "A2",
+      weekNumber: 10,
+      title: "Week 10: Everyday Routines",
+      description: "Talking about how often we do things",
+      isSample: false,
+      dueDate: new Date("2026-10-22"),
+      errorFocus: "adverbs-of-frequency",
+      parentBrief: "本周纠错焦点：always / usually / often / sometimes / never 的位置。中文频率词位置自由，孩子会说 I go always / I am always go / I never am late。英语规则：频率副词放在实义动词前面（I always walk to school），放在 be 动词后面（I am always tired）。Cambridge A2 Key for Schools (Handbook 2020) Language Specifications 规定考 always, usually, often, sometimes, never 这些频率副词。本周不教 present perfect + ever/never（那是 B1 Week 0）。",
+      videoUrl: null,
+      kaizenFocus: "Place always/usually/often/sometimes/never before the main verb and after be",
+      officialClipId: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: `Read the email from Mei:
+
+From: Mei
+To: Priya
+Subject: My School Day
+
+Hi Priya,
+
+How are you? I want to tell you about my weekday routines!
+
+I always wake up at 6:30 in the morning. My mum usually makes breakfast for me. I never skip breakfast because Ms Tan says it's important for our brains. After breakfast, I often take the bus to school. Sometimes my dad drives me when he has time.
+
+At school, I usually arrive before 7:30. My best friend Jun Wei is always at the canteen buying his breakfast. He never wakes up early enough to eat at home! Our first lesson is at 7:45. I am never late because I always check my watch.
+
+During recess, I sometimes play with Priya at the basketball court. We often sit together at lunch and talk about our CCA activities. After school, I usually go to the library to do homework. I am always busy on weekdays, but I enjoy my school life!
+
+What about your daily routine? Do you always wake up early? Write back soon!
+
+Mei`,
+          options: JSON.stringify([
+            "When does Mei always wake up?|A. At 6:00|B. At 6:30|C. At 7:00|D. At 7:30",
+            "What does Mei never skip?|A. Homework|B. Breakfast|C. CCA activities|D. Bus rides",
+            "Where is Jun Wei always at in the morning?|A. At the library|B. At the basketball court|C. At the canteen|D. At home",
+            "When does Mei sometimes play basketball?|A. After school|B. During recess|C. Before 7:30|D. At lunch",
+            "What does Mei usually do after school?|A. Play basketball|B. Go home|C. Talk with Priya|D. Go to the library",
+          ]),
+          correctAnswer: "B,B,C,B,D",
+          points: 5,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: `Read the text below and choose the correct word for each gap.
+
+A Normal School Day
+by Priya, Primary 5
+
+My school day is very busy! I (1) ____ to school because I live nearby. My brother takes the bus, but I (2) ____ because walking is good exercise.
+
+My favourite teacher is Ms Tan. She (3) ____ to class early. She is very kind and (4) ____ angry. During lessons, she (5) ____ helps us when we have questions.
+
+After school, I (6) ____ tired because we have so many activities. But I love my school and my friends!`,
+          options: JSON.stringify([
+            "(1)|A. always walk|B. walk always|C. am always walk|D. always am walk",
+            "(2)|A. am never late|B. never am late|C. am late never|D. late never am",
+            "(3)|A. always come|B. always comes|C. come always|D. comes always",
+            "(4)|A. never is|B. is never|C. not never is|D. never be",
+            "(5)|A. often|B. often is|C. is often|D. often does",
+            "(6)|A. sometimes|B. sometimes am|C. am sometimes|D. am sometimes be",
+          ]),
+          correctAnswer: "A,A,B,B,A,C",
+          points: 6,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `You receive this email from your English friend, Alex:
+
+From: Alex
+To: You
+Subject: Your school day
+
+Hi!
+
+I'm curious about your daily routine at school! What time do you usually wake up? What do you always do in the morning? Do you often play sports after school? Tell me about the things you do every day!
+
+Write back soon!
+Alex
+
+Write your email to Alex (40-60 words). Tell Alex about your school day routine.
+
+You MUST use at least two different frequency adverbs (always/usually/often/sometimes/never) in the correct position.
+
+成功标准 / Success Criteria:
+✓ 讲你的日常作息 (Tell about your daily routine)
+✓ 用至少 2 个不同的频率副词，位置正确 (Use at least 2 different frequency adverbs in correct position)
+✓ 频率副词在实义动词前：I always walk / She usually eats (Adverb before main verb)
+✓ 频率副词在 be 后：I am never late / He is always tired (Adverb after be)
+✓ 主语动词一致 (Subject-verb agreement: I always wake / She always wakes)
+✓ 邮件格式 (Email format: Hi Alex, ... / Best, [your name])
+✓ 40-60词 (40-60 words)`,
+          points: 10,
+        },
+      ],
+    },
   ];
 
   // =================================================================

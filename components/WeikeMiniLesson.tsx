@@ -98,6 +98,15 @@ export default function WeikeMiniLesson({ level, weekNumber }: WeikeMiniLessonPr
       ],
       gloss: "like / love / hate / enjoy 后面加动词-ing。不要写 I like swim 或 I enjoy to read。中文「喜欢」后直接加动词，但英语必须用 -ing 形式。"
     },
+    "A2-10": {
+      fossil: "I go always / I am always go / I never am late",
+      examples: [
+        "I always walk to school.",
+        "She is never late.",
+        "We sometimes eat at the canteen."
+      ],
+      gloss: "always / usually / often / sometimes / never 放在实义动词前面（I always walk, She often plays），放在 be 动词后面（I am always tired, He is never late）。中文「总是/经常/有时/从不」位置自由，但英语频率副词位置固定。不要写 I go always 或 I am always go。"
+    },
     "B1-5": {
       fossil: "The girl sits next to me is Priya / the book who I read",
       examples: [
