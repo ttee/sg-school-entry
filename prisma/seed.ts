@@ -1011,6 +1011,8 @@ Useful phrases:
       parentBrief: "本周纠错焦点：第一条件句（If + 现在式, will/must/can...）和动名词（enjoy/like + -ing，介词后 + -ing）。中文条件句不变形，孩子会说 If you bring phone, must...（缺主句主语或助动词）。还有典型化石化：enjoy to use（应该是 enjoy using），good at learn（应该是 good at learning）。本周作业会反复训练这两个难点。",
       videoUrl: null,
       kaizenFocus: "If + present, will/must (1st conditional); enjoy/like + -ing, preposition + -ing",
+      officialClipId: "dVrHLZtvr5g",
+      officialClipCredit: "片源 gov.sg 官方频道。Real or Fake: Disinformation。本站不拥有该片，仅嵌入官方 YouTube。孩子先看 how to check real or fake，再练 If you see a message, you should… 和 enjoy checking / good at spotting。",
       questions: [
         {
           type: "reading",

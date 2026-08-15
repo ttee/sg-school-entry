@@ -5,7 +5,7 @@ export default function DualValidationMapB1Week2() {
         本周对照考试题型
       </h2>
       <p className="text-sm text-ink-2 mb-4 leading-relaxed">
-        本周按 <strong>B1 Preliminary for Schools</strong> 题型来练。故事是<strong>科技日常 / Technology Today</strong>：新加坡学校科技政策、Student Learning Space (SLS)、手机规则。焦点是<strong>第一条件句</strong>（If you bring your phone, you must...）和<strong>动名词</strong>（enjoy using, good at learning, after prepositions）。
+        先看官方 gov.sg Real or Fake 影片，再做作业。本周按 <strong>B1 Preliminary for Schools</strong> 题型来练。故事是<strong>科技日常 / Technology Today</strong>：新加坡学校科技政策、Student Learning Space (SLS)、手机规则。焦点是<strong>第一条件句</strong>（If you bring your phone, you must...）和<strong>动名词</strong>（enjoy using, good at learning, after prepositions）。
       </p>
 
       <div className="overflow-x-auto">
