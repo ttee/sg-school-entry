@@ -1383,69 +1383,22 @@ I think weekdays and weekends are both nice. On weekdays, I see my friends at sc
         {
           type: "grammar",
           order: 2,
-          content: `Read about Jun Wei's week. Choose the correct preposition for each gap.
+          content: `Read the text below and choose the correct word for each gap.
 
-My Busy Week
+My Week
 by Jun Wei, Primary 5
 
-My week is always very busy! Let me tell you about my typical schedule.
-
-(1) ____ weekdays, I wake up (2) ____ 6:30 (3) ____ the morning. School starts (4) ____ 7:30, so I can't be late! We have lessons all morning, and then we have lunch (5) ____ 12:30. School finishes (6) ____ 2 p.m. every day.
-
-(7) ____ Monday and Wednesday, I have football training (8) ____ the afternoon. Training starts (9) ____ 2:30 and finishes (10) ____ 4 o'clock. I love football! Our big match is (11) ____ 20 September. I'm very excited!
-
-(12) ____ Tuesday, I go to Chinese tuition. The class is (13) ____ 4 p.m. and lasts for one hour. My tuition teacher is very kind. She started teaching me (14) ____ February this year.
-
-(15) ____ Thursday afternoons, I'm free! I usually go home and rest. Sometimes I play computer games (16) ____ 3 o'clock, before my mum gets home from work.
-
-(17) ____ Friday, school ends early – we finish (18) ____ 1 p.m.! My friends and I often go to the library (19) ____ Friday afternoons. We do our homework there and read books.
-
-(20) ____ the weekend, my family likes to spend time together. (21) ____ Saturday mornings, my dad takes me swimming (22) ____ 9 o'clock. (23) ____ the afternoon, we usually do grocery shopping or visit relatives.
-
-(24) ____ Sunday, we have a family day. We wake up late – sometimes (25) ____ 10 a.m.! (26) ____ the morning, we have a big breakfast. Then, (27) ____ Sunday afternoons, we go to the park, watch movies, or visit museums. Last month, (28) ____ August, we went to the Science Centre three times!
-
-(29) ____ Sunday evenings, I finish all my homework and prepare my school bag for Monday. I usually go to bed (30) ____ 9:30 (31) ____ night. Then everything starts again (32) ____ Monday morning!
-
-I like my routine. (33) ____ the week, I study and do my CCAs. (34) ____ weekends, I relax with my family. Next year, (35) ____ 2027, I'll be in Primary 6. I hope my schedule won't be too different!`,
+I'm very busy every week! (1) ____ weekdays, I wake up (2) ____ 6:30 in the morning. School starts (3) ____ 7:30, so I can't be late. (4) ____ Monday and Wednesday, I have football training in the afternoon. Our big match is (5) ____ 20 September! (6) ____ the weekend, my family spends time together. We went to the Science Centre last month in August.`,
           options: JSON.stringify([
-            "(1)|A. On|B. In|C. At|D. For",
-            "(2)|A. on|B. in|C. at|D. for",
-            "(3)|A. on|B. in|C. at|D. for",
-            "(4)|A. on|B. in|C. at|D. for",
-            "(5)|A. on|B. in|C. at|D. for",
-            "(6)|A. on|B. in|C. at|D. for",
-            "(7)|A. On|B. In|C. At|D. For",
-            "(8)|A. on|B. in|C. at|D. for",
-            "(9)|A. on|B. in|C. at|D. for",
-            "(10)|A. on|B. in|C. at|D. for",
-            "(11)|A. on|B. in|C. at|D. for",
-            "(12)|A. On|B. In|C. At|D. For",
-            "(13)|A. on|B. in|C. at|D. for",
-            "(14)|A. on|B. in|C. at|D. for",
-            "(15)|A. On|B. In|C. At|D. For",
-            "(16)|A. on|B. in|C. at|D. for",
-            "(17)|A. On|B. In|C. At|D. For",
-            "(18)|A. on|B. in|C. at|D. for",
-            "(19)|A. on|B. in|C. at|D. for",
-            "(20)|A. On|B. In|C. At|D. For",
-            "(21)|A. On|B. In|C. At|D. For",
-            "(22)|A. on|B. in|C. at|D. for",
-            "(23)|A. On|B. In|C. At|D. For",
-            "(24)|A. On|B. In|C. At|D. For",
-            "(25)|A. on|B. in|C. at|D. for",
-            "(26)|A. On|B. In|C. At|D. For",
-            "(27)|A. on|B. in|C. at|D. for",
-            "(28)|A. on|B. in|C. at|D. for",
-            "(29)|A. On|B. In|C. At|D. For",
-            "(30)|A. on|B. in|C. at|D. for",
-            "(31)|A. on|B. in|C. at|D. for",
-            "(32)|A. on|B. in|C. at|D. for",
-            "(33)|A. On|B. In|C. At|D. During",
-            "(34)|A. On|B. In|C. At|D. For",
-            "(35)|A. on|B. in|C. at|D. for",
+            "(1)|A. In|B. On|C. At",
+            "(2)|A. in|B. on|C. at",
+            "(3)|A. in|B. on|C. at",
+            "(4)|A. In|B. On|C. At",
+            "(5)|A. in|B. on|C. at",
+            "(6)|A. In|B. On|C. At",
           ]),
-          correctAnswer: "A,C,B,C,C,C,A,B,C,C,A,A,C,B,A,C,A,C,A,C,A,C,B,A,C,B,A,B,A,C,C,A,D,C,B",
-          points: 35,
+          correctAnswer: "B,C,C,B,B,C",
+          points: 6,
         },
         {
           type: "writing",

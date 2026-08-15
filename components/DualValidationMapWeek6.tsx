@@ -40,10 +40,10 @@ export default function DualValidationMapWeek6() {
                 <strong>语法</strong><br />完形：时间介词 at/in/on
               </td>
               <td className="px-3 py-3 text-ink-2 align-top">
-                <strong>Reading Part 4 / Part 5</strong><br />语法选择填空
+                <strong>Reading Part 5</strong><br />语法选择填空（6 gaps）
               </td>
               <td className="px-3 py-3 text-ink-2 align-top">
-                练时间介词（at 7 o'clock, at night, at the weekend, in the morning, in July, in 2026, on Monday, on 15 September），短文完形选择题（20 题全聚焦 at/in/on）
+                练时间介词（On weekdays, at 6:30, at 7:30, On Monday, on 20 September, At the weekend），短文完形 6 题全聚焦 at/in/on
               </td>
             </tr>
             <tr className="border-b border-accent/10">
