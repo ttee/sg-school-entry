@@ -5,7 +5,7 @@ export default function DualValidationMapWeek1() {
         本周对照考试题型
       </h2>
       <p className="text-sm text-ink-2 mb-4 leading-relaxed">
-        本周按 <strong>A2 Key for Schools</strong> 题型来练。故事是<strong>日常作息 / Daily Routines</strong>：Lin / Mei 讲自己的上学日。焦点是<strong>第三人称单数 -s</strong>（she wakes, he goes）和<strong>时间介词</strong> at/in/on（at 7:00, in the morning, on Monday）。
+        本周按 <strong>A2 Key for Schools</strong> 题型来练。故事是<strong>日常作息 / Daily Routines</strong>：Mei 的上学日。焦点是<strong>第三人称单数 -s</strong>（she wakes, he goes）和<strong>时间介词</strong> at/in/on（at 7:00, in the morning, on Monday）。
       </p>
 
       <div className="overflow-x-auto">
@@ -26,13 +26,13 @@ export default function DualValidationMapWeek1() {
           <tbody>
             <tr className="border-b border-accent/10">
               <td className="px-3 py-3 text-ink align-top">
-                <strong>阅读</strong><br />Lin 的作息日记 + 选择题
+                <strong>阅读</strong><br />Mei 的周一日记 + 选择题
               </td>
               <td className="px-3 py-3 text-ink-2 align-top">
                 <strong>Reading Part 3</strong><br />一篇长文本，选择题
               </td>
               <td className="px-3 py-3 text-ink-2 align-top">
-                读 Lin 的作息日记，讲早起、早餐、搭地铁、上课、回家做作业，做选择题，练读懂日常时间表
+                读 Mei 的周一日记（早起、加课、168 巴士、作业），做选择题，练读懂日常时间表
               </td>
             </tr>
             <tr className="border-b border-accent/10">
