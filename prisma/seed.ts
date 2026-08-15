@@ -361,65 +361,85 @@ AI will listen for correct use of third-person -s (my sister walks, dad takes th
         {
           type: "reading",
           order: 1,
-          content: `Read Wei's blog:
+          content: `Read Mei's diary:
 
-My School Day – Tuesday
+Tuesday, 13 August
+Art Class & Choir Practice
 
-Hi everyone! Today I want to tell you about a typical Tuesday at my secondary school in Queenstown.
+Today is Tuesday, and I love Tuesdays! I have Art in the morning with Ms Tan. She is very patient and always encourages us. Right now, our class is learning about Singapore landmarks. This month we are painting famous places. I am working on a picture of the Merlion. It's difficult because I'm trying to show the water coming out of its mouth!
 
-I really enjoy Tuesdays because I have Art in the morning. Art is my favourite subject. Our Art teacher, Mr Hassan, is very creative and he always gives us interesting projects. Last month we painted Singapore street scenes. This month we're making clay sculptures of animals. I'm making a merlion!
+In Art lessons, I usually sit next to Priya. She enjoys painting too. She is making a picture of Gardens by the Bay. We often help each other. Last week she showed me how to mix colours to make the sky look more real. I like learning new techniques.
 
-After Art, we have English and then Maths. English is okay but Maths is quite difficult for me. My friend Raj sits next to me and he sometimes helps me with problem sums. We have a short recess at ten forty-five. I usually buy a curry puff and a packet of Milo from the canteen. The canteen is always noisy and crowded during recess!
+After Art, we have Maths and English. At recess, I usually sit with my friends near the benches under the big tree. Sometimes I bring a snack from home – today I had a cheese sandwich my mum made.
 
-In the afternoon, we have Science and PE. I like Science experiments, especially when we use the Bunsen burner. PE is tiring but fun. Today we played basketball in the school hall because it was raining outside.
+In the afternoon, we have PE. Usually we play outside, but today it is raining, so we are playing badminton in the school hall. I enjoy playing badminton because it makes me feel active and strong.
 
-After school, I have CCA. I'm in the school choir. We practise in the music room every Tuesday and Thursday. We're preparing songs for National Day next month. I can't wait to perform!
+After school finishes at two thirty, I stay for CCA. I'm in the school choir. We practise every Tuesday and Thursday in the music room. Right now, we are preparing three songs for National Day next month. Our conductor, Mr Lim, says we are improving every week. I love singing because it helps me relax after lessons. When I sing with my friends, I feel happy and confident.
 
-School finishes at four o'clock on CCA days. I take the bus home and I'm always hungry when I arrive!`,
+I usually get home at four o'clock on CCA days. Choir practice is tiring, but I never want to miss it!`,
           options: JSON.stringify([
-            "Why does Wei enjoy Tuesdays?|A. There is no homework|B. He finishes early|C. He has Art, his favourite subject|D. His friend is at school",
-            "What are the students making in Art this month?|A. Paintings of street scenes|B. Clay animal sculptures|C. Drawings of the merlion|D. Paper crafts",
-            "Who helps Wei with Maths?|A. Mr Hassan|B. His teacher|C. Raj|D. His parents",
-            "What does Wei buy at recess?|A. Noodles and tea|B. Sandwich and juice|C. Curry puff and Milo|D. Chicken rice",
-            "Why did they play basketball in the hall?|A. The court was closed|B. It was raining|C. The teacher said so|D. They always play indoors",
-            "What CCA is Wei in?|A. Basketball team|B. Art club|C. Choir|D. Science club",
-            "When does the choir practise?|A. Monday and Wednesday|B. Tuesday and Thursday|C. Wednesday and Friday|D. Every day",
-            "What is the choir preparing for?|A. A concert|B. National Day|C. A competition|D. The school assembly",
+            "What is Mei's class painting this month?|A. Animals|B. Family members|C. Famous Singapore places|D. Flowers",
+            "What is Mei painting?|A. Gardens by the Bay|B. The Merlion|C. A tree|D. The school",
+            "Who sits next to Mei in Art?|A. Ms Tan|B. Mr Lim|C. Priya|D. Her mum",
+            "What did Priya teach Mei last week?|A. How to sing|B. How to play badminton|C. How to mix colours|D. How to make sandwiches",
+            "Why are they playing badminton in the hall today?|A. The hall is bigger|B. The teacher prefers indoors|C. It is raining|D. They always play inside",
+            "What CCA is Mei in?|A. Badminton club|B. Art club|C. Drama club|D. Choir",
+            "When does the choir practise?|A. Monday and Wednesday|B. Tuesday and Thursday|C. Only on Tuesday|D. Every day",
+            "How does Mei feel when she sings with her friends?|A. Tired and bored|B. Nervous|C. Happy and confident|D. Hungry",
           ]),
-          correctAnswer: "C,B,C,C,B,C,B,B",
+          correctAnswer: "C,B,C,C,C,D,B,C",
           points: 8,
         },
         {
           type: "grammar",
           order: 2,
-          content: "Choose the correct answer:",
+          content: `Read about Raj's school week. Choose the correct word for each gap.
+
+My School Week
+
+I (1) ____ to secondary school in Tampines. This week is very busy! Every Tuesday I have Art class. I really enjoy (2) ____ because our teacher gives us interesting projects. Right now, my class (3) ____ clay sculptures. I (4) ____ a model of a lion!
+
+On Wednesdays, I usually (5) ____ extra Maths after school. I don't mind it because the teacher is kind. But right now it's Tuesday evening and I (6) ____ my Science homework at home. Science is hard, but I like (7) ____ experiments in the lab.
+
+At the moment, my sister (8) ____ the piano downstairs. She practises every evening. She enjoys (9) ____ music. I prefer sport – I (10) ____ football with my friends every Saturday morning.`,
           options: JSON.stringify([
-            "Wei ____ Art every Tuesday.|A. have|B. has|C. having|D. had",
-            "Right now, we ____ a sculpture.|A. make|B. makes|C. are making|D. made",
-            "The canteen is always ____ during recess.|A. noisy|B. noise|C. noisily|D. noises",
-            "I like ____ Science experiments.|A. do|B. to do|C. doing|D. did",
-            "Maths is ____ than English for me.|A. difficult|B. difficulter|C. more difficult|D. most difficult",
-            "Mr Hassan ____ us interesting projects.|A. give|B. gives|C. giving|D. gave",
-            "We practise ____ the music room.|A. at|B. on|C. in|D. by",
-            "I can't wait ____ perform!|A. for|B. to|C. at|D. in",
+            "(1)|A. go|B. goes|C. am going|D. going",
+            "(2)|A. paint|B. to paint|C. painting|D. painted",
+            "(3)|A. make|B. makes|C. is making|D. are making",
+            "(4)|A. make|B. makes|C. making|D. am making",
+            "(5)|A. have|B. has|C. having|D. am having",
+            "(6)|A. do|B. does|C. doing|D. am doing",
+            "(7)|A. do|B. to do|C. doing|D. did",
+            "(8)|A. play|B. plays|C. playing|D. is playing",
+            "(9)|A. play|B. to play|C. playing|D. played",
+            "(10)|A. play|B. plays|C. am playing|D. playing",
           ]),
-          correctAnswer: "B,C,A,C,C,B,C,B",
-          points: 8,
+          correctAnswer: "A,C,D,D,A,D,C,D,C,A",
+          points: 10,
         },
         {
           type: "writing",
           order: 3,
-          content: `Write a note to your teacher about joining a CCA (50-70 words).
+          content: `You receive this email from your friend Jamie:
 
-Include these THREE points:
-• Which CCA you want to join
-• Why you are interested in it
-• When you are free to attend
+From: Jamie
+To: You
+Subject: What are you doing this week?
+
+Hi!
+
+I want to know about your school week! What are you doing in class right now? What subjects do you usually have? And tell me about any CCA or activities – what do you enjoy doing?
+
+Write back soon!
+Jamie
+
+Write your email to Jamie (50-70 words). Answer ALL the questions.
 
 成功标准 / Success Criteria:
-✓ 正式礼貌的语气 (Polite and appropriate tone: Dear..., I would like to...)
-✓ 包含全部3点 (All 3 content points)
-✓ 现在时态和"like + -ing" (Present tenses + like/enjoy + -ing)
+✓ 回答所有3个问题 (Answer all 3 questions)
+✓ 区分 now vs 习惯 (Contrast now vs habits: Right now I am studying... / I usually have... / Every Tuesday I...)
+✓ 使用 like/enjoy + -ing (Use like/enjoy + -ing correctly)
+✓ 邮件格式 (Email format: Hi Jamie, ... / Best, [your name])
 ✓ 50-70词 (50-70 words)`,
           points: 10,
         },
@@ -428,52 +448,70 @@ Include these THREE points:
           order: 4,
           content: `听读练习 / Listening Preparation (read carefully)
 
-Mr Krishnan (PE teacher): Good morning, everyone! Listen carefully. Next Friday is our School Sports Day. We will meet at the stadium at eight in the morning. Don't be late! You must wear your PE kit – that's your house T-shirt, shorts, and sports shoes. Bring a water bottle and a cap because it will be sunny.
+Sarah: Hi Wei! Are you going to choir practice today?
 
-There are four events. First is the hundred-metre sprint at nine o'clock. Then we have long jump, relay race, and finally the fun obstacle course. Parents can watch from the stand.
+Wei: Yes, we're practising right now in the music room. Actually, I'm taking a short break – we start again in five minutes.
 
-After all the events, we will have a prize-giving ceremony at twelve thirty. The principal will give medals to the winners. Remember, the most important thing is to try your best and have fun!
+Sarah: That's nice! Do you enjoy singing?
 
-If it rains heavily, Sports Day will move to next Monday. Check the school website on Friday morning. Any questions? No? Okay, start warming up!`,
+Wei: I love it! I really enjoy learning new songs. Right now we're preparing three songs for National Day. What about you? What are you doing after school today?
+
+Sarah: I usually have Art Club on Tuesdays, but today I'm finishing my Science project at home instead. I'm making a poster about recycling.
+
+Wei: Sounds interesting! Do you like doing Art?
+
+Sarah: Yes, I love drawing and painting. In Art Club, we usually work on different creative projects. Last week we painted bookmarks. This week we're designing posters for the library.
+
+Wei: Cool! Oh, Mr Lim is calling us back. I need to go now. See you tomorrow!
+
+Sarah: Good luck with your practice! Bye!`,
           options: JSON.stringify([
-            "When is Sports Day?|A. This Friday|B. Next Friday|C. Next Monday|D. Next Tuesday",
-            "What time should students arrive?|A. 7:00|B. 7:30|C. 8:00|D. 9:00",
-            "What must students bring?|A. Textbooks|B. Packed lunch|C. Water bottle and cap|D. Calculator",
-            "What is the first event?|A. Long jump|B. Relay race|C. 100m sprint|D. Obstacle course",
-            "What will the principal do?|A. Start the race|B. Give medals to winners|C. Sell drinks|D. Take photographs",
+            "Where is Wei right now?|A. At home|B. In the music room|C. In the library|D. In the Science lab",
+            "What is Wei's choir preparing for?|A. A competition|B. National Day|C. Art Club|D. Science Fair",
+            "What is Sarah doing after school today?|A. Going to choir|B. Playing sport|C. Finishing a Science project|D. Having Maths class",
+            "What does Sarah enjoy doing?|A. Singing songs|B. Playing football|C. Drawing and painting|D. Doing experiments",
+            "What are Sarah's Art Club designing this week?|A. Bookmarks|B. Posters for the library|C. Science projects|D. National Day songs",
           ]),
-          correctAnswer: "B,C,C,C,B",
+          correctAnswer: "B,B,C,C,B",
           points: 5,
-          audioUrl: "/audio/a2-w2-listening.mp3",
         },
         {
           type: "speaking",
           order: 5,
           content: `口语练习 / Speaking Practice
 
-Task: Talk about your favourite subject (1 minute)
+Task: Talk about what you are doing now vs what you do every day (1 minute)
 
-Discuss these points:
-• What the subject is
-• Why you like it
-• What you do in lessons
-• Who teaches it
+Describe these points:
+• What you are doing right now (at this moment)
+• What you usually do every day or every week
+• What school subjects or activities you like doing
+• Why you enjoy them
 
-Useful phrases:
-• My favourite subject is... because...
-• I enjoy... lessons
-• In class, we usually...
-• The teacher is... and she/he...
-• I'm good at...
-• The thing I like most is...
-• We learn about...
+Useful phrases for NOW (present continuous):
+• Right now, I am...
+• At the moment, I am...
+• Today I am...
+
+Useful phrases for HABITS (present simple):
+• Every day, I...
+• I usually...
+• On Tuesdays, I have...
+• I always...
+
+Useful phrases for LIKES:
+• I like doing... / I enjoy doing...
+• I love playing... / I like learning...
+• I don't like doing... but I like...
+
+Grammar focus for AI:
+AI will check if you correctly use present continuous (am/is/are + -ing) for NOW and present simple for habits. AI will also check like/enjoy + -ing form.
 
 如何练习 / How to practise:
-1. 选择一个科目 (Choose one subject)
-2. 想好理由 (Think of reasons why you like it)
-3. 点击"开始录音"，说满1分钟 (Tap "开始录音" and speak for 1 minute)
-4. 提交后AI会评估你的发音、流利度和内容 (AI evaluates pronunciation, fluency, content)
-5. 可以根据反馈再录一次 (Re-record based on feedback)`,
+1. 准备内容，对比"正在做"和"习惯做" (Plan content contrasting "doing now" vs "usually do")
+2. 点击下方"开始录音"按钮 (Tap "开始录音")
+3. 说满1分钟 (Speak for 1 minute)
+4. AI会重点评估进行时、一般现在时、like + -ing (AI evaluates continuous, simple, like + -ing)`,
           points: 5,
         },
       ],
