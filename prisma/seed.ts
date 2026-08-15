@@ -311,6 +311,58 @@ He paid with a $50 note.
         },
       ],
     },
+    {
+      level: "MATH",
+      weekNumber: 4,
+      title: "数学 第 4 周 / Maths Week 4",
+      description: "AEIS-Primary P2 Mathematics: 2D patterns and 3D shapes",
+      isSample: false,
+      errorFocus: null,
+      parentBrief: "本周主题：平面图形规律与立体图形（对应 MOE 小学 P2 数学大纲 Measurement and Geometry）。孩子会练习按 size / shape / colour / orientation 一个属性找规律（下一个图形是什么），还会认识五种立体图形：cube（正方体，6 个正方形面）、cuboid（长方体，6 个长方形面）、cone（圆锥，圆形底和顶点）、cylinder（圆柱，2 个圆形面）、sphere（球体，圆球）。题目是简体中文家长说明 + 英文题干。本周配有双向对照表，显示题目对应的官方 2021 Primary Mathematics Syllabus 内容点，以及 MOE AEIS 的「preceding level」规则（申请 P3 → 掌握 P2 内容）。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: `Read each question and choose the correct answer.`,
+          options: JSON.stringify([
+            "Mei makes a pattern with shapes: big red circle, small red circle, big red circle, small red circle. The pattern uses size. What comes next?|A. big red circle|B. small red circle|C. big blue circle|D. small square",
+            "Priya arranges blocks: triangle, square, triangle, square, triangle. What shape comes next?|A. triangle|B. square|C. circle|D. rectangle",
+            "At Tampines library, Ms Tan shows objects: a dice, a book box, and a ball. Which one is a cube?|A. the ball|B. the dice|C. the book box|D. none of them",
+            "Jun Wei sees a can of drink at Bedok hawker centre. What 3D shape is the can?|A. cube|B. cuboid|C. cylinder|D. sphere",
+            "In the classroom, there is a globe on the teacher's desk. What 3D shape is the globe?|A. cube|B. cone|C. cylinder|D. sphere",
+          ]),
+          correctAnswer: "A,B,B,C,D",
+          points: 5,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: `Choose the correct answer for each question.`,
+          options: JSON.stringify([
+            "A pattern uses shapes: circle, triangle, circle, triangle, circle. The pattern changes by shape. What is the next shape?|A. circle|B. triangle|C. square|D. rectangle",
+            "Which 3D shape has 6 square faces?|A. cuboid|B. cube|C. cylinder|D. cone",
+            "At Toa Payoh library, there is a box for recycling paper. The box has 6 rectangular faces. What shape is it?|A. cube|B. cuboid|C. cylinder|D. sphere",
+            "Mei sees an ice-cream cone. The ice-cream cone has a circular base and a point at the top. What 3D shape is it?|A. cube|B. cylinder|C. cone|D. sphere",
+            "A pattern uses colour: red square, blue square, red square, blue square. The pattern changes by colour. What comes next?|A. red square|B. blue square|C. red triangle|D. green square",
+          ]),
+          correctAnswer: "B,B,B,C,A",
+          points: 5,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `At Bedok Primary School, the teacher shows three boxes to the class. Box A is a cube. Box B is a cuboid. Box C is a cylinder.
+
+(a) How many faces does Box A (the cube) have? Write your answer.
+(b) The teacher says Box B (the cuboid) has 6 faces. Are all the faces of Box B squares? Write Yes or No and explain why.
+
+写出算式和答案。`,
+          points: 10,
+        },
+      ],
+    },
     
     // A2 WEEKS
     {
