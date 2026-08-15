@@ -1004,75 +1004,98 @@ Useful phrases:
       isSample: false,
       dueDate: new Date("2026-08-27"),
       errorFocus: "conditional-gerund",
-      parentBrief: "本周纠错焦点：第二条件句（If + 过去式, would...）和动名词/不定式（suggest + -ing, want + to）。中文条件句不变形，孩子会说 If the school change...（该用 changed）。还有典型化石化：suggest to use（应该是 suggest using），want using（应该是 want to use）。本周作业会反复训练这两个难点。",
+      parentBrief: "本周纠错焦点：第一条件句（If + 现在式, will/must/can...）和动名词（enjoy/like + -ing，介词后 + -ing）。中文条件句不变形，孩子会说 If you bring phone, must...（缺主句主语或助动词）。还有典型化石化：enjoy to use（应该是 enjoy using），good at learn（应该是 good at learning）。本周作业会反复训练这两个难点。",
       videoUrl: null,
-      kaizenFocus: "If + past, would (2nd conditional); suggest + -ing, want + to",
+      kaizenFocus: "If + present, will/must (1st conditional); enjoy/like + -ing, preposition + -ing",
       questions: [
         {
           type: "reading",
           order: 1,
-          content: `Read this article:
+          content: `Read this guide:
 
-Phones at School: Finding the Right Balance
+Using Technology at Westwood Secondary School – Student Guide 2026
 
-Should students be allowed to bring phones to school? This question has sparked debates in Singapore schools for years, and opinions remain divided.
+At Westwood Secondary, we believe technology can help learning when used responsibly. This guide explains our school's technology rules and the Student Learning Space (SLS) platform.
 
-Last term, our school introduced a new rule: students can bring phones, but they must be switched off and kept in lockers during lessons. Before this rule, some students checked messages under their desks during class or took photos in the corridors without permission. Teachers found it distracting, and learning suffered. The new policy aims to balance safety with focus.
+Personal Devices Policy
 
-I interviewed ten students to hear their views. Supporters of the rule, like Rui Ming from Sec 3, argue that phones are necessary. "My parents need to contact me if plans change," he said. "Last month my mum's meeting finished early, so she texted me to meet her at a different gate. Without my phone, I would have waited at the wrong place for an hour." Rui Ming also pointed out that students use apps like Google Classroom and education websites for homework, so phones are tools, not just distractions.
+Students may bring phones and tablets to school. If you bring a personal device, you must switch it off and store it in your locker before 7:30 am. If you forget to switch off your phone and it rings during a lesson, your teacher will keep it until the end of the school day. If this happens three times in one term, your parents will be called for a meeting.
 
-However, others feel the rule is too strict. Amira from Sec 2 said, "I understand we shouldn't use phones during lessons, but why can't we check them during recess? If my phone is locked away all day, I can't reply to my tuition teacher or check my CCA group chat." She believes students should be trusted to make responsible decisions during break times.
+During recess and after school, you may use your device in designated areas only: the canteen, the school courtyard, and the library ground floor. If you use your phone in corridors or staircases, a teacher will remind you to put it away. We made this rule because students were walking while looking at screens and several minor accidents happened last year.
 
-Some teachers support a middle-ground approach. Mr Yeo, our ICT coordinator, suggested allowing supervised phone use in the library for research. "Technology isn't going away," he said. "We should teach students how to use it responsibly instead of banning it completely."
+Student Learning Space (SLS)
 
-So, what's the right answer? Perhaps there isn't one single solution. What's clear is that schools, parents, and students need to keep talking and find a balance that works for everyone.`,
+All students have an SLS account. If you log in to SLS regularly, you will find your homework assignments, revision materials, and announcements from your teachers. Most teachers post homework on SLS by 6 pm, so if you check the platform after dinner, you won't miss any deadlines.
+
+The SLS app is available on phones and tablets. Many students enjoy using the app because it sends notifications when teachers post new assignments. However, you are responsible for checking SLS yourself – if you miss an assignment because you didn't check, you will still receive a zero for that task.
+
+SLS also includes interactive videos and quizzes. If you spend fifteen minutes daily on the practice quizzes, you will improve your exam readiness. Students who are good at managing their time find SLS very helpful. Those who struggle with self-discipline sometimes spend too much time on non-academic apps instead.
+
+Charging Stations
+
+If you need to charge your device, use one of the charging stations in the library or the student lounge. If you bring your own charging cable and adapter, you can charge your device there during recess or after school. Please don't charge devices in classrooms – we don't have enough power points, and trailing cables can be dangerous.
+
+Need Help?
+
+If you have problems logging in to SLS or accessing materials, visit the IT Help Desk in the library every Monday and Wednesday after school. Our student IT helpers are good at solving common problems. For more serious technical issues, email ithelpdesk@westwood.edu.sg and the ICT coordinator will reply within two working days.
+
+Remember: technology is a tool to help you learn. If you use it wisely, you will succeed. If you waste time on distractions, you will fall behind. The choice is yours.`,
           options: JSON.stringify([
-            "What is the new school rule?|A. Phones are completely banned|B. Phones must be off and in lockers during lessons|C. Students can use phones anytime|D. Only teachers can have phones",
-            "Why does Rui Ming think phones are necessary?|A. For playing games|B. For taking photos|C. For parent contact and homework apps|D. For social media",
-            "What happened to Rui Ming last month?|A. He lost his phone|B. His mum changed the meeting place|C. He was late to school|D. He failed an exam",
-            "What is Amira's concern?|A. She can't use her phone during recess|B. She can't bring her phone at all|C. Her phone was stolen|D. She doesn't have a locker",
-            "What does Mr Yeo suggest?|A. Banning phones completely|B. Allowing phones in lessons|C. Supervised phone use in the library for research|D. Giving students new phones",
-            "What does the article conclude?|A. Phones should be banned|B. Phones should be allowed everywhere|C. There's no single solution; balance is needed|D. Only seniors should have phones",
-            "What problem existed before the new rule?|A. Students couldn't do homework|B. Students checked messages during class|C. Teachers used phones too much|D. Parents complained about costs",
-            "What does Mr Yeo say about technology?|A. It's going away soon|B. It's too difficult for students|C. It isn't going away; teach responsible use|D. It's only for adults",
+            "What must students do if they bring a phone?|A. Leave it at home|B. Give it to the teacher|C. Switch it off and store it in their locker by 7:30 am|D. Use it only during lessons",
+            "What happens if your phone rings during a lesson?|A. Nothing|B. You get detention immediately|C. The teacher keeps it until the end of the day|D. Your parents come to school",
+            "Where can students use phones during recess?|A. Anywhere in school|B. Only in classrooms|C. In the canteen, courtyard, and library ground floor|D. Only in the principal's office",
+            "Why did the school make rules about phones in corridors?|A. To save electricity|B. Because accidents happened when students walked while looking at screens|C. Because phones are too expensive|D. Because parents complained",
+            "When do most teachers post homework on SLS?|A. At 6 am|B. During lessons|C. By 6 pm|D. At midnight",
+            "What will happen if you spend 15 minutes daily on SLS practice quizzes?|A. You will get detention|B. You will improve your exam readiness|C. You will lose marks|D. You will be punished",
+            "Where can students charge devices?|A. In any classroom|B. In the charging stations in the library or student lounge|C. In the canteen|D. In the staff room",
+            "What does the guide say about technology?|A. It's dangerous|B. It's banned|C. It's a tool; if you use it wisely you will succeed|D. Only teachers can use it",
           ]),
-          correctAnswer: "B,C,B,A,C,C,B,C",
+          correctAnswer: "C,C,C,B,C,B,B,C",
           points: 8,
         },
         {
           type: "grammar",
           order: 2,
-          content: "Choose the correct answer:",
+          content: `Choose the correct word for each gap:
+
+My Experience with Student Learning Space
+
+I started using the Student Learning Space (SLS) platform last year. At first, I wasn't very (1) ____ at navigating the website, but now I find it easy. If you (2) ____ in regularly, you will quickly become familiar with all the features.
+
+I really enjoy (3) ____ the interactive videos. They make difficult topics easier to understand. My Science teacher posts quizzes every week, and if you (4) ____ them on time, you will see your scores improve. I'm particularly interested (5) ____ learning through videos rather than just reading textbooks.
+
+One useful tip: if you (6) ____ problems logging in, don't wait – report it to the IT Help Desk immediately. Last month I had trouble accessing my account, and the IT helpers were very good (7) ____ solving the issue quickly. They finished (8) ____ the problem in just ten minutes, and I could access my homework again.`,
           options: JSON.stringify([
-            "If the school ____ the rule, students would be happier.|A. change|B. changed|C. will change|D. changes",
-            "Phones must ____ in lockers during lessons.|A. keep|B. kept|C. be kept|D. keeping",
-            "I suggest ____ phones for research only.|A. use|B. to use|C. using|D. used",
-            "Students want ____ their phones during recess.|A. check|B. to check|C. checking|D. checked",
-            "If I ____ my phone, I would call my parents.|A. have|B. had|C. will have|D. having",
-            "We stopped ____ our phones in class.|A. use|B. to use|C. using|D. used",
-            "The rule ____ last term.|A. introduced|B. was introduced|C. is introduced|D. introduces",
-            "I think students ____ be trusted with phones.|A. should|B. must|C. have to|D. need",
+            "(1)|A. good|B. well|C. better|D. best",
+            "(2)|A. logs|B. log|C. logging|D. logged",
+            "(3)|A. watch|B. to watch|C. watched|D. watching",
+            "(4)|A. complete|B. completes|C. completing|D. completed",
+            "(5)|A. at|B. on|C. in|D. for",
+            "(6)|A. have|B. has|C. having|D. had",
+            "(7)|A. in|B. on|C. at|D. for",
+            "(8)|A. fix|B. fixed|C. fixing|D. to fix",
           ]),
-          correctAnswer: "B,C,C,B,B,C,B,A",
+          correctAnswer: "A,B,D,A,C,A,C,C",
           points: 8,
         },
         {
           type: "writing",
           order: 3,
-          content: `Write an email to your principal (100-120 words).
+          content: `Write an email to a friend in another school (100-120 words).
 
-Your school is considering a phone locker rule (phones locked away all day). Write to EITHER support or oppose this rule.
+Your friend asks about using technology to learn English. Write about your experience with apps, websites, or platforms like SLS.
 
 Include:
-• Your clear opinion
-• TWO reasons with explanations
-• A polite suggestion or conclusion
+• What technology you use for learning English
+• What you enjoy about using it
+• Give advice using "If you..."
+• Suggest they try something
 
 成功标准 / Success Criteria:
-✓ 清晰观点 (Clear position: I believe... / In my opinion...)
-✓ 条件句和情态动词 (Conditionals: if students could... / Modals: should, could, would)
-✓ 连接词 (Linking: firstly, however, therefore, although)
-✓ 正式礼貌语气 (Formal polite tone: Dear Principal, I am writing to...)
+✓ 友好语气 (Friendly tone: Hi / Dear...)
+✓ 动名词 (Gerunds: I enjoy using... / I'm good at learning... / interested in watching...)
+✓ 第一条件句 (First conditional: If you try this app, you will... / If you use it daily, you will see...)
+✓ 具体例子 (Specific examples: app names, features, results)
 ✓ 100-120词 (100-120 words)`,
           points: 10,
         },
@@ -1116,30 +1139,33 @@ Priya: No problem. Let me know if you want to join a study group on the app – 
           order: 5,
           content: `口语练习 / Speaking Practice
 
-Task: How you use technology to learn English (2 minutes)
+Task: Technology for Learning English (2 minutes)
 
-Discuss:
-• What apps, websites, or tools you use
-• How they help you improve your English
-• Which skill they help most (reading, listening, vocabulary, etc.)
-• One tip you'd give to other learners
+Talk about how you use technology to learn English. Discuss:
+• What apps, websites, or platforms you use (e.g. SLS, YouTube, language apps)
+• What you enjoy about using them
+• Give advice: "If you want to improve... you should try..."
+• What you're good at learning through technology
+
+Focus on using:
+• Gerunds: "I enjoy watching...", "I'm good at learning by...", "I'm interested in..."
+• First conditional: "If you use this app daily, you will...", "If you try this website, you will see..."
 
 Useful phrases:
-• I often use... to improve my...
-• One app/website that really helps me is...
-• It's useful because...
-• I find it helpful for...
-• What I like about it is...
-• It has helped me to...
-• I would recommend... because...
-• One tip I'd give is...
+• I enjoy using... because...
+• I'm good at learning through...
+• I'm interested in watching/reading...
+• If you want to improve your..., you should try...
+• If you use this regularly, you will notice...
+• One thing I really like about... is...
 
 如何练习 / How to practise:
 1. 想想你真正用过的工具 (Think of tools you actually use)
-2. 准备具体例子 (Prepare specific examples)
-3. 点击"开始录音"，说2分钟 (Tap "开始录音", speak for 2 minutes)
-4. AI会评估你的词汇、语法和流利度 (AI evaluates vocabulary, grammar, fluency)
-5. 看反馈后可以多录几次改进 (Re-record multiple times to improve)`,
+2. 准备至少3个动名词例子 (Prepare at least 3 gerund examples)
+3. 准备至少2个第一条件句 (Prepare at least 2 first conditional sentences)
+4. 点击"开始录音"，说2分钟 (Tap "开始录音", speak for 2 minutes)
+5. AI会盯住动名词和条件句 (AI will check gerunds and conditionals)
+6. 看反馈后可以多录几次改进 (Re-record multiple times to improve)`,
           points: 5,
         },
       ],
