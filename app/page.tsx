@@ -86,7 +86,7 @@ export default function HomePage() {
               </Link>
             </div>
             <p className="text-sm text-muted max-w-2xl">
-              非 MOE、SEAB、Cambridge 官方机构 · 录取不保证 · 月度会员 S$320 或预付 12 周 A2 / B1 冲刺包 · PayNow {payNowNumber} / 微信转账
+              非 MOE、SEAB、Cambridge 官方机构 · 录取不保证 · 月度会员 S$320 或 12 周直播课预付包 · PayNow {payNowNumber} / 微信转账
             </p>
             <p className="text-sm text-ink-2 mt-3 max-w-2xl">
               <strong>AEIS 申请：</strong>
@@ -179,7 +179,7 @@ export default function HomePage() {
                 <span className="text-ink-2">/ 月</span>
               </div>
               <p className="text-sm text-ink-2 mb-4">
-                小班直播课（每周 2 次，每次 1.5 小时）+ 每周作业 app 解锁全部当前级别（A2 或 B1）。包含 CEQ 备考四项技能：阅读、写作、听读准备、口语提示。
+                小班直播课（每周 2 次，每次 1.5 小时）+ 每周作业 app 解锁当前级别已上线周数（A2 或 B1，试学周 + 第 1–3 周，后续周次陆续更新）。包含 CEQ 备考四项技能：阅读、写作、听读准备、口语提示。
               </p>
               <ul className="space-y-2 text-sm text-ink-2 mb-5">
                 <li className="flex items-start gap-2">
@@ -208,7 +208,7 @@ export default function HomePage() {
             </div>
 
             <h3 className="font-serif font-semibold text-xl mb-4 text-ink">
-              12 周预付包（CEQ 冲刺）
+              12 周直播课预付包（CEQ 冲刺）
             </h3>
             <div className="grid md:grid-cols-2 gap-5">
               <article className="bg-card border border-line rounded-2xl p-6 shadow">
@@ -218,17 +218,20 @@ export default function HomePage() {
                 </div>
                 <p className="text-xs font-semibold uppercase tracking-wide text-accent mb-3">适合 P2–P4 CEQ 门槛</p>
                 <p className="text-ink-2 mb-4 text-sm">
-                  12 周冲刺剑桥 A2 Key for Schools 水平，帮孩子在 CEQ 考试前准备好听、说、读、写四项。
+                  12 周直播课冲刺剑桥 A2 Key for Schools 水平，配合当前 app 已上线周数（试学周 + 第 1–3 周，后续周次陆续更新），帮孩子在 CEQ 考试前准备好听、说、读、写四项。
                 </p>
                 <ul className="space-y-0 border-t border-line mb-5">
                   <li className="border-b border-line py-3 pl-5 relative before:absolute before:left-0 before:top-5 before:w-2 before:h-2 before:rounded-full before:bg-accent text-sm text-ink-2">
-                    12 周，每周 2 次课，每次 1.5 小时（共 24 节课）
+                    12 周直播课，每周 2 次，每次 1.5 小时（共 24 节课）
                   </li>
                   <li className="border-b border-line py-3 pl-5 relative before:absolute before:left-0 before:top-5 before:w-2 before:h-2 before:rounded-full before:bg-accent text-sm text-ink-2">
                     小班授课，每班最多 8 人
                   </li>
                   <li className="border-b border-line py-3 pl-5 relative before:absolute before:left-0 before:top-5 before:w-2 before:h-2 before:rounded-full before:bg-accent text-sm text-ink-2">
                     针对 Cambridge A2 Key for Schools 四项技能：阅读、写作、听力、口语
+                  </li>
+                  <li className="border-b border-line py-3 pl-5 relative before:absolute before:left-0 before:top-5 before:w-2 before:h-2 before:rounded-full before:bg-accent text-sm text-ink-2">
+                    作业 app 当前已上线 A2 试学周 + 第 1–3 周（共 4 周），后续周次陆续上线
                   </li>
                   <li className="border-b border-line py-3 pl-5 relative before:absolute before:left-0 before:top-5 before:w-2 before:h-2 before:rounded-full before:bg-accent text-sm text-ink-2">
                     包含 2 次模拟考，家长微信通报进度
@@ -252,17 +255,20 @@ export default function HomePage() {
                 </div>
                 <p className="text-xs font-semibold uppercase tracking-wide text-accent mb-3">适合 P5 CEQ 门槛</p>
                 <p className="text-ink-2 mb-4 text-sm">
-                  12 周冲刺剑桥 B1 Preliminary for Schools 水平，帮孩子在 CEQ 考试前准备好听、说、读、写四项。
+                  12 周直播课冲刺剑桥 B1 Preliminary for Schools 水平，配合当前 app 已上线周数（试学周 + 第 1–3 周，后续周次陆续更新），帮孩子在 CEQ 考试前准备好听、说、读、写四项。
                 </p>
                 <ul className="space-y-0 border-t border-line mb-5">
                   <li className="border-b border-line py-3 pl-5 relative before:absolute before:left-0 before:top-5 before:w-2 before:h-2 before:rounded-full before:bg-accent text-sm text-ink-2">
-                    12 周，每周 2 次课，每次 1.5 小时（共 24 节课）
+                    12 周直播课，每周 2 次，每次 1.5 小时（共 24 节课）
                   </li>
                   <li className="border-b border-line py-3 pl-5 relative before:absolute before:left-0 before:top-5 before:w-2 before:h-2 before:rounded-full before:bg-accent text-sm text-ink-2">
                     小班授课，每班最多 8 人
                   </li>
                   <li className="border-b border-line py-3 pl-5 relative before:absolute before:left-0 before:top-5 before:w-2 before:h-2 before:rounded-full before:bg-accent text-sm text-ink-2">
                     针对 Cambridge B1 Preliminary for Schools 四项技能：阅读、写作、听力、口语
+                  </li>
+                  <li className="border-b border-line py-3 pl-5 relative before:absolute before:left-0 before:top-5 before:w-2 before:h-2 before:rounded-full before:bg-accent text-sm text-ink-2">
+                    作业 app 当前已上线 B1 试学周 + 第 1–3 周（共 4 周），后续周次陆续上线
                   </li>
                   <li className="border-b border-line py-3 pl-5 relative before:absolute before:left-0 before:top-5 before:w-2 before:h-2 before:rounded-full before:bg-accent text-sm text-ink-2">
                     包含 2 次模拟考，家长微信通报进度
@@ -281,7 +287,7 @@ export default function HomePage() {
             </div>
 
             <p className="text-sm text-muted mt-5 max-w-3xl">
-              <strong className="text-ink-2">付款方式：</strong>PayNow 或微信转账，报名以咨询确认为准。无 Stripe。月度会员可随时取消，12 周预付包不退费。
+              <strong className="text-ink-2">付款方式：</strong>PayNow 或微信转账，报名以咨询确认为准。无 Stripe。月度会员可随时取消，12 周直播课预付包不退费。
               <br />
               <strong className="text-ink-2 mt-2 inline-block">考试单独报名：</strong>CEQ 考试本身在剑桥授权考点报名，不含在课程学费内。
             </p>
@@ -469,7 +475,7 @@ export default function HomePage() {
             <div className="bg-paper-2 border border-line rounded-xl p-5">
               <h3 className="font-serif font-semibold text-base mb-2 text-ink">免费试学一周</h3>
               <p className="text-sm text-ink-2">
-                家长可先让孩子免费试学一周（Week 0 试学周），体验作业 app。点击页面顶部「登录」，咨询时向老师索取试学账号。订阅后解锁全部当前级别周数。
+                家长可先让孩子免费试学一周（Week 0 试学周），体验作业 app。点击页面顶部「登录」，咨询时向老师索取试学账号。订阅后解锁当前已上线周数（A2 / B1 各 试学周 + 第 1–3 周）。
               </p>
             </div>
           </div>
