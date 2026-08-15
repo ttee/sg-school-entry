@@ -2609,9 +2609,9 @@ Priya`,
 
 Primary One Recess
 
-When I was in Primary One, recess (1) ____ very different. I (2) ____ to bring my own food from home. My mother (3) ____ to pack sandwiches and a drink box for me every morning.
+When I was in Primary One, recess (1) ____ very different. I (2) ____ bring my own food from home. My mother (3) ____ pack sandwiches and a drink box for me every morning.
 
-I (4) ____ to buy food from the canteen at first because I was too shy. But then my friend Jun Wei (5) ____ to help me order chicken rice. Now I (6) ____ to the canteen every day and order by myself!`,
+I (4) ____ buy food from the canteen at first because I was too shy. But then my friend Jun Wei (5) ____ help me order chicken rice. Now I (6) ____ to the canteen every day and order by myself!`,
           options: JSON.stringify([
             "(1)|A. use to be|B. used to be|C. used be|D. am used to be",
             "(2)|A. didn't used to|B. didn't use to|C. not used to|D. am not used to",
