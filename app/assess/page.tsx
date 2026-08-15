@@ -133,23 +133,23 @@ function calculateRecommendation(answers: (number | null)[]) {
   // 推荐规则
   if (articlesRate <= 0.5 || thirdPersonRate <= 0.5) {
     return {
-      door: "试学周",
-      doorEn: "Sample week",
-      reason: "冠词或第三人称单数还需要打基础，建议从试学周开始，重点纠正这两个高频错误。",
+      door: "A2 试学周（当前已上线）",
+      doorEn: "A2 Sample Week (currently available)",
+      reason: "冠词或第三人称单数还需要打基础，建议从 A2 试学周开始，重点纠正这两个高频错误。试学周免费，体验后可咨询订阅。",
       kaizenFocus: articlesRate < thirdPersonRate ? "冠词 a/an/the 的使用" : "第三人称单数动词加 -s"
     };
   } else if (basicRate >= 0.8 && totalCorrect >= 8) {
     return {
-      door: "B1 Preliminary 12周",
-      doorEn: "B1 12-week Sprint",
-      reason: "基础语法掌握较好，可以冲刺 B1 Preliminary for Schools 水平。",
+      door: "B1 当前已上线周数 + 咨询",
+      doorEn: "B1 Available Weeks + Consultation",
+      reason: "基础语法掌握较好，可以开始 B1 Preliminary for Schools 水平学习。当前 app 已上线 B1 试学周 + 第 1–3 周（共 4 周），后续周次陆续上线。建议咨询 12 周直播课预付包。",
       kaizenFocus: "现在完成时与过去时的区分"
     };
   } else {
     return {
-      door: "A2 Key for Schools 12周",
-      doorEn: "A2 12-week Sprint",
-      reason: "基础语法已有基础，建议直接进入 A2 Key for Schools 12 周冲刺，系统巩固四项技能。",
+      door: "A2 当前已上线周数 + 咨询",
+      doorEn: "A2 Available Weeks + Consultation",
+      reason: "基础语法已有基础，可以开始 A2 Key for Schools 水平学习。当前 app 已上线 A2 试学周 + 第 1–3 周（共 4 周），后续周次陆续上线。建议咨询 12 周直播课预付包。",
       kaizenFocus: totalCorrect < 6 ? "时态的准确使用" : "现在进行时与一般现在时的区分"
     };
   }
