@@ -11,6 +11,7 @@ import DualValidationMapB1Week0 from "./DualValidationMapB1Week0";
 import DualValidationMapB1Week1 from "./DualValidationMapB1Week1";
 import DualValidationMapB1Week2 from "./DualValidationMapB1Week2";
 import DualValidationMapB1Week3 from "./DualValidationMapB1Week3";
+import DualValidationMapMath from "./DualValidationMapMath";
 import OfficialClip from "./OfficialClip";
 
 type Question = {
@@ -440,6 +441,10 @@ export default function WeekHomework({
 
       {/* Dual-validation map for B1 Week 3 */}
       {week.level === "B1" && week.weekNumber === 3 && <DualValidationMapB1Week3 />}
+
+      {/* Dual-validation map for MATH Week 0 */}
+      {week.level === "MATH" && week.weekNumber === 0 && <DualValidationMapMath />}
+      
       <div className="space-y-8">
         {questions.map((question, idx) => (
           <div
