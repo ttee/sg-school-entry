@@ -216,6 +216,8 @@ Useful phrases:
       parentBrief: "本周纠错焦点：第三人称单数 -s（he/she/it + 动词要加 -s）和时间介词 at/in/on。中文动词不变形，孩子会说 she wake up 或 he go to school。英语现在时里，he/she/it 后面的动词必须加 -s：wakes, goes, has。时间介词：at 7:00, in the morning, on Monday。本周作业会抓住这两个高频错误。",
       videoUrl: null,
       kaizenFocus: "Add -s to verbs after he/she/it in present simple; use at/in/on for time correctly",
+      officialClipId: "loINl3Ln6Ck",
+      officialClipCredit: "片源 Super Simple Songs 官方频道。Days of the Week。本站不拥有该片，仅嵌入官方 YouTube。孩子先听 on Monday / on Tuesday，再练 she wakes / at 7:00 / on Monday。",
       questions: [
         {
           type: "reading",
