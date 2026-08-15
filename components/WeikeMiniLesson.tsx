@@ -53,6 +53,15 @@ export default function WeikeMiniLesson({ level, weekNumber }: WeikeMiniLessonPr
       ],
       gloss: "长度 length：2 metres (m)。时间 time：2 hours = 120 minutes。单位不用复数 -s：2 m（不是 2 ms）。做题先统一单位。"
     },
+    "B1-5": {
+      fossil: "The girl sits next to me is Priya / the book who I read",
+      examples: [
+        "The girl who sits next to me is Priya.",
+        "The book which I read was interesting.",
+        "That's the teacher that helped me."
+      ],
+      gloss: "定语从句 relative clauses：先行词是人用 who / that（The student who…），先行词是物用 which / that（The book which…）。中文用「的」不需要关系代词，但英语必须加 who / which / that 才能连接从句。"
+    },
   };
 
   const key = `${level}-${weekNumber}`;
