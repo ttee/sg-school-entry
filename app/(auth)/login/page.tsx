@@ -133,26 +133,17 @@ function LoginForm() {
           </form>
 
           <div className="mt-6 pt-6 border-t border-line">
-            <p className="text-sm text-muted text-center">
-              试学账号 / Demo account
+            <p className="text-sm text-ink-2 text-center leading-relaxed">
+              试学或订阅账号由老师开通。
+              <br />
+              <Link
+                href="/#contact"
+                className="text-accent hover:text-accent-hover underline"
+              >
+                咨询
+              </Link>
+              后向老师索取登录邮箱和密码。
             </p>
-            <div className="mt-3 space-y-2 text-sm text-center">
-              <p className="font-mono text-xs bg-paper rounded px-3 py-2">
-                <strong>订阅用户 / Subscribed:</strong>
-                <br />
-                demo@sgschoolentry.local / demo1234
-              </p>
-              <p className="font-mono text-xs bg-paper rounded px-3 py-2">
-                <strong>试学用户 / Trial:</strong>
-                <br />
-                trial@sgschoolentry.local / trial1234
-              </p>
-              <p className="font-mono text-xs bg-paper rounded px-3 py-2 text-muted">
-                <strong>管理员 / Admin:</strong>
-                <br />
-                admin@sgschoolentry.local · 可查看全部周
-              </p>
-            </div>
           </div>
         </div>
 
