@@ -3219,22 +3219,22 @@ Mei`,
 Too Late at the Gate
 by Jun Wei, Primary 5
 
-Last Saturday, I wanted to visit the Science Centre with my family. We (1) ____ to go at 9 a.m., but we left home late.
+Last Saturday, I wanted to visit the Science Centre with my family. We had (1) ____ to leave at 9 a.m., but we woke up late.
 
-When we arrived at the carpark at 10:15, we saw that it was full. The security guard told us the last space (2) ____ at 10:00. We had to park on the street and walk fifteen minutes to the entrance.
+By the time we arrived at the carpark at 10:15, we saw that it was full. The security guard told us the last space (2) ____ already. We had to park on the street and walk fifteen minutes to the entrance.
 
-When we finally reached the ticket counter, we found out that the special robot demonstration (3) ____ at 10:00. The staff member said the show (4) ____ already and wouldn't happen again until 2 p.m. We felt disappointed.
+When we finally reached the ticket counter at 10:35, the staff member told us we were too late. The special robot demonstration (3) ____ at 10:00, and the show (4) ____ by 10:30. It wouldn't happen again until 2 p.m. We felt disappointed.
 
-At lunchtime, we went to the café. I wanted to order the dinosaur-shaped pizza, but the waiter said they (5) ____ all of them. Other children (6) ____ them earlier in the morning. I had to order a regular sandwich instead!
+At lunchtime, we went to the café. I wanted to order the dinosaur-shaped pizza, but the waiter said they (5) ____ already. When I asked why, he explained that other children (6) ____ all of them by 11:30. I had to order a regular sandwich instead!
 
 Next time, we'll arrive early!`,
           options: JSON.stringify([
-            "(1)|A. had planned|B. have planned|C. planned|D. were planning",
+            "(1)|A. planned|B. plan|C. planning|D. plans",
             "(2)|A. had been taken|B. has been taken|C. was taken|D. is taken",
             "(3)|A. has started|B. had started|C. started|D. starts",
-            "(4)|A. had finished|B. finished|C. has finished|D. finishes",
-            "(5)|A. have sold|B. sold|C. had sold|D. sell",
-            "(6)|A. ordered|B. have ordered|C. order|D. had ordered",
+            "(4)|A. had finished|B. has finished|C. finished|D. finishes",
+            "(5)|A. have sold out|B. sold out|C. had sold out|D. sell out",
+            "(6)|A. order|B. have ordered|C. ordered|D. had ordered",
           ]),
           correctAnswer: "A,A,B,A,C,D",
           points: 6,

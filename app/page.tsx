@@ -127,7 +127,7 @@ export default function HomePage() {
               小班直播课（最多 8 人）+ 每周作业 app。家长订阅，孩子登录做题。
             </p>
             <p className="text-sm text-accent mb-8 max-w-2xl">
-              新增：<strong>B1 Preliminary 第 10 周（反意疑问句 question tags）</strong>已上线；<strong>A2 Key 第 11 周（地点介词 in/on/at）</strong>已上线；<strong>AEIS 数学 试学周 + 第 1–5 周</strong>现已上线（Week 0 整数与钱币，Week 1 乘法与除法，Week 2 分数，Week 3 长度、质量、容积与时间，Week 4 平面图形规律与立体图形，Week 5 带单位的象形统计图，均对应 MOE P2 大纲），后续周次陆续更新。
+              新增：<strong>B1 Preliminary 第 11 周（过去完成时 past perfect）</strong>已上线；<strong>A2 Key 第 11 周（地点介词 in/on/at）</strong>已上线；<strong>AEIS 数学 试学周 + 第 1–5 周</strong>现已上线（Week 0 整数与钱币，Week 1 乘法与除法，Week 2 分数，Week 3 长度、质量、容积与时间，Week 4 平面图形规律与立体图形，Week 5 带单位的象形统计图，均对应 MOE P2 大纲），后续周次陆续更新。
             </p>
             <div className="flex flex-wrap gap-3 mb-6">
               <Link
