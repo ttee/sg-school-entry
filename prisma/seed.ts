@@ -1250,6 +1250,201 @@ AI will check if you correctly use some/any, much/many, and distinguish countabl
         },
       ],
     },
+    {
+      level: "A2",
+      weekNumber: 5,
+      title: "Week 5: Sports Day",
+      description: "Comparing people and things",
+      isSample: false,
+      dueDate: new Date("2026-09-17"),
+      errorFocus: "comparatives-superlatives",
+      parentBrief: "本周纠错焦点：比较级和最高级（bigger than / the biggest；more + 多音节形容词）。中文用「比」和「最」，孩子会说 more bigger、more cheap、he is tall than me。英语单音节形容词加 -er / -est：taller, tallest；多音节加 more / most：more difficult, most difficult。比较级后接 than：She is taller than me。本周作业会反复纠正这些高频错误。",
+      videoUrl: null,
+      kaizenFocus: "Use comparatives correctly (taller, more interesting, better than); superlatives (the tallest, the most interesting, the best)",
+      officialClipId: null,
+      officialClipCredit: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: `Read Mei's diary entry:
+
+Sports Day at Bedok View Primary
+
+Friday, 12 September
+
+Today was the best day of the school year – our annual Sports Day! The weather was perfect. It was cooler than last week and sunnier than yesterday. The school field looked amazing with colourful flags and the big white tents.
+
+I arrived early with Priya. She's my best friend and she's faster than most students in our class. We walked to the field together and found our class area. Our teacher, Ms Tan, was already there with a big box of water bottles and snacks.
+
+The first event was the 100-metre sprint for Primary 5 girls. Priya was in this race! She was the tallest runner in her heat, and when the whistle blew, she was also the fastest. She finished first and got a gold medal. I was so proud of her! She said it was easier than she expected because she practised every evening this week.
+
+After that, I had my event – the long jump. I was more nervous than Priya because I'm not as athletic as her. My first jump was 2.3 metres. My second jump was better – 2.5 metres. But the girl from Primary 5B was the best. Her jump was 2.8 metres, which was longer than everyone else's. She was also shorter than me, so I learned that height doesn't matter in long jump!
+
+The most exciting event was the relay race. Each class chose four runners. Ms Tan picked the fastest students from our class. The race was closer than we thought. Our team ran well, but the other team was just a bit quicker. We came second, which was still good!
+
+At lunchtime, we sat under the big tent and ate sandwiches. Ms Tan told us, "You all did better than last year. I'm very proud of you. Remember, the most important thing is not winning. It's trying your best and supporting your teammates."
+
+The day ended with a prize-giving ceremony. The principal gave out medals and certificates. Priya got her gold medal for the 100-metre sprint. When she stood on the stage, her smile was bigger than ever!
+
+On the way home, I said to Priya, "You're the fastest runner in the whole school!" She laughed and said, "Maybe in Primary 5, but the Primary 6 students are faster than me. And you were braver than you think – you did the long jump even though you were nervous!"
+
+I think Sports Day is more fun than regular lessons. Next year, I want to be stronger and jump further. But today was already the most memorable day of this term!`,
+          options: JSON.stringify([
+            "How was the weather compared to last week?|A. Hotter|B. Rainier|C. Cooler|D. Windier",
+            "What was Priya's result in the 100m sprint?|A. Second place|B. Third place|C. First place (gold medal)|D. She didn't finish",
+            "How long was Mei's best long jump?|A. 2.3 metres|B. 2.5 metres|C. 2.8 metres|D. 3.0 metres",
+            "Who jumped the furthest in the long jump?|A. Mei|B. Priya|C. A girl from Primary 5B|D. Ms Tan",
+            "What position did Mei's class get in the relay race?|A. First|B. Second|C. Third|D. Fourth",
+            "What did Ms Tan say was most important?|A. Winning gold medals|B. Being the fastest|C. Trying your best and supporting teammates|D. Beating the other classes",
+            "Who is faster according to Priya?|A. Mei|B. Primary 5 students|C. Primary 6 students|D. Ms Tan",
+            "What does Mei want to do next year?|A. Win gold|B. Be stronger and jump further|C. Run faster than Priya|D. Not do Sports Day",
+          ]),
+          correctAnswer: "C,C,B,C,B,C,C,B",
+          points: 8,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: `Read about Sports Day at Tampines Primary. Choose the correct word for each gap.
+
+Sports Day at Tampines Primary
+
+by Jun Wei, Primary 5
+
+Yesterday was our Sports Day. The weather was (1) ____ than last year – it was sunny but not too hot. Our school field is (2) ____ than many other schools, so we had lots of space for all the events.
+
+I took part in two races. The first was the 100-metre sprint. I ran (3) ____ I could, but another boy was (4) ____ than me. He was (5) ____ runner in our year! I came third, which was (6) ____ than I expected.
+
+The second race was the 400-metre run. This race was much (7) ____ than the sprint. My legs felt tired, but I kept going. At the end, I was (8) ____ than at the start! One girl from Primary 5C was (9) ____ runner of all. She finished the race (10) ____ than everyone else, but she still smiled and looked fresh!
+
+The relay race was (11) ____ event of the day. All the students were shouting and cheering. It was (12) ____ than any PE lesson!
+
+My friend Sarah did the long jump. She was nervous at first, but her third jump was (13) ____ than her first two jumps. She said, "Next year I'll train harder and jump even (14) ____!"
+
+At the prize-giving ceremony, our principal said, "Today, everyone was (15) ____ winner. You all tried your best, and that's (16) ____ important thing." I think she was right. Sports Day was (17) ____ day of the whole term!`,
+          options: JSON.stringify([
+            "(1)|A. good|B. better|C. best|D. more good",
+            "(2)|A. big|B. bigger|C. biggest|D. more big",
+            "(3)|A. as fast as|B. faster|C. fastest|D. more fast",
+            "(4)|A. quick|B. quicker|C. quickest|D. more quick",
+            "(5)|A. the fast|B. the faster|C. the fastest|D. the most fast",
+            "(6)|A. good|B. better|C. best|D. more better",
+            "(7)|A. hard|B. harder|C. hardest|D. more hard",
+            "(8)|A. tired|B. more tired|C. most tired|D. tireder",
+            "(9)|A. the strong|B. the stronger|C. the strongest|D. the most strong",
+            "(10)|A. quick|B. quicker|C. quickest|D. more quickly",
+            "(11)|A. the exciting|B. the more exciting|C. the most exciting|D. the excitingest",
+            "(12)|A. fun|B. more fun|C. most fun|D. funner",
+            "(13)|A. far|B. further|C. furthest|D. more far",
+            "(14)|A. far|B. further|C. furthest|D. more far",
+            "(15)|A. a|B. the|C. an|D. some",
+            "(16)|A. the more|B. the most|C. the|D. most",
+            "(17)|A. the good|B. the better|C. the best|D. the most good",
+          ]),
+          correctAnswer: "B,B,A,B,C,B,B,B,C,D,C,B,B,B,A,B,C",
+          points: 17,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `You receive this email from your English friend, Sam:
+
+From: Sam
+To: You
+Subject: Sports at your school
+
+Hi!
+
+Thanks for your last email. I want to know about sports at your school! Do you have a Sports Day or sports events? What sports do you do? Who is the best at sports in your class? Tell me about it!
+
+Write back soon!
+Sam
+
+Write your email to Sam (50-70 words). Answer ALL the questions.
+
+成功标准 / Success Criteria:
+✓ 回答所有3个问题 (Answer all 3 questions)
+✓ 比较级 (Comparatives: faster than, better than, more exciting than)
+✓ 最高级 (Superlatives: the fastest, the best, the most fun)
+✓ 邮件格式 (Email format: Hi Sam, ... / Best, [your name])
+✓ 50-70词 (50-70 words)`,
+          points: 10,
+        },
+        {
+          type: "listening",
+          order: 4,
+          content: `听读练习 / Listening Preparation (read carefully)
+
+Note: Since no audio file exists yet, read the script carefully and then answer the questions.
+
+先读脚本（音频稍后）
+
+Ms Tan: Good morning, everyone! Listen carefully. Our Sports Day is next Friday. We'll meet at the school field at eight o'clock sharp. Don't be late!
+
+You must wear your PE uniform – that's your house T-shirt, shorts, and sports shoes. Red House wears red T-shirts, Blue House wears blue, Yellow House wears yellow, and Green House wears green. Bring a water bottle and a cap because it will be sunny.
+
+There are four events. First is the 100-metre sprint at nine o'clock. Then we have the long jump, the relay race, and the fun obstacle course. Parents can watch from the benches near the canteen.
+
+After all the events, we'll have a prize-giving ceremony at twelve o'clock. The principal will give medals to the winners. But remember, the most important thing is to do your best and have fun!
+
+If it rains heavily on Friday morning, Sports Day will move to next Monday. Check the school website on Thursday evening. Any questions?
+
+Student 1: Ms Tan, I'm in Yellow House. Can I wear my yellow T-shirt from home?
+
+Ms Tan: Yes, as long as it's your house colour. But make sure it's suitable for sports!
+
+Student 2: What if I'm not good at running?
+
+Ms Tan: That's okay! You can join the obstacle course – that's more about teamwork than speed. Everyone can take part in something!`,
+          options: JSON.stringify([
+            "When is Sports Day?|A. This Friday|B. Next Friday|C. Next Monday|D. Next Tuesday",
+            "What time should students arrive?|A. 7:00|B. 7:30|C. 8:00|D. 9:00",
+            "What must students bring?|A. Lunch box|B. Homework|C. Water bottle and cap|D. Tennis racket",
+            "What is the first event?|A. Long jump|B. Relay race|C. 100-metre sprint|D. Obstacle course",
+            "When will the principal give out medals?|A. At 9:00|B. At 10:00|C. At 11:00|D. At 12:00",
+          ]),
+          correctAnswer: "B,C,C,C,D",
+          points: 5,
+        },
+        {
+          type: "speaking",
+          order: 5,
+          content: `口语练习 / Speaking Practice
+
+Task: Compare yourself and your classmates (1 minute)
+
+Talk about sports or activities at your school. Use comparatives and superlatives.
+
+Points to cover:
+• What sports or activities you do (PE lessons, Sports Day, CCAs)
+• Compare yourself to your friends or classmates (Who is faster? taller? better at...?)
+• Use superlatives (Who is the best? the fastest? the most...)
+• Say which activity you find easier or more difficult
+
+Useful phrases (比较级和最高级):
+• I am faster than... / slower than...
+• My friend is taller than me / shorter than me
+• She is the fastest runner in our class
+• He is the best at football
+• This game is easier than... / more difficult than...
+• PE is more fun than... / less fun than...
+• The most exciting event is...
+• The hardest part is...
+
+Grammar focus for AI:
+AI will listen for correct use of comparatives (taller, faster, more difficult, better than) and superlatives (the tallest, the fastest, the most difficult, the best).
+
+如何练习 / How to practise:
+1. 想好要比较的人或事 (Think of people or things to compare)
+2. 准备至少3个比较级和2个最高级 (Prepare at least 3 comparatives and 2 superlatives)
+3. 点击下方"开始录音"按钮 (Tap "开始录音")
+4. 说满1分钟 (Speak for 1 minute)
+5. AI会评估比较级和最高级的使用 (AI will check comparatives and superlatives)`,
+          points: 5,
+        },
+      ],
+    },
 
     // B1 WEEKS
     {
