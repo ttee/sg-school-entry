@@ -5,7 +5,7 @@ export default function DualValidationMapWeek1() {
         本周对照考试题型
       </h2>
       <p className="text-sm text-ink-2 mb-4 leading-relaxed">
-        本周按 <strong>A2 Key for Schools</strong> 题型来练。故事是<strong>日常作息 / Daily Routines</strong>：Mei 的上学日。焦点是<strong>第三人称单数 -s</strong>（she wakes, he goes）和<strong>时间介词</strong> at/in/on（at 7:00, in the morning, on Monday）。
+        本周按 <strong>A2 Key for Schools</strong> 题型来练。故事是<strong>日常作息 / Daily Routines</strong>：Mei 的上学日。焦点是<strong>第三人称单数 -s</strong>（she wakes, he goes）和<strong>时间介词</strong> at/in/on（at 7:00, in the morning, on Monday）。先看 Days of the Week 儿歌，听 on Monday / on Tuesday，再做作业。
       </p>
 
       <div className="overflow-x-auto">
