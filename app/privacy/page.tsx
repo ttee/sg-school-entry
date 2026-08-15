@@ -6,9 +6,6 @@ export const metadata = {
 };
 
 export default function PrivacyPage() {
-  const wechatId = process.env.NEXT_PUBLIC_WECHAT_ID;
-  const contactEmail = process.env.NEXT_PUBLIC_CONTACT_EMAIL;
-
   return (
     <>
       <a
@@ -144,15 +141,15 @@ export default function PrivacyPage() {
               </thead>
               <tbody className="bg-card">
                 <tr className="border-b border-line">
-                  <td className="px-4 py-3 text-ink">家长联系方式</td>
+                  <td className="px-4 py-3 text-ink">报名咨询</td>
                   <td className="px-4 py-3 text-ink-2">
-                    微信号或邮箱（用于咨询、报名、进度通报）
+                    家长微信号、孩子出生年份、拟申请学段、报名意向（通过本站报名表留下，7 个工作日内回复）
                   </td>
                 </tr>
                 <tr className="border-b border-line">
                   <td className="px-4 py-3 text-ink">学生信息</td>
                   <td className="px-4 py-3 text-ink-2">
-                    姓名、年级/级别（A2 或 B1）、登录邮箱（家长提供）
+                    姓名、年级/级别（A2 或 B1）、登录邮箱（家长提供，用于登录和进度通报）
                   </td>
                 </tr>
                 <tr className="border-b border-line">
@@ -176,7 +173,7 @@ export default function PrivacyPage() {
               </tbody>
             </table>
             <p className="text-sm text-ink-2 leading-relaxed">
-              <strong>English:</strong> We collect parent contact (WeChat/email), student name/class/level, homework answers, optional voice recordings for speaking evaluation, and progress data for parent updates.
+              <strong>English:</strong> We collect enquiry data via registration form (parent WeChat, child birth year, intended stage, registration intent), student name/class/level, login email provided by parent, homework answers, optional voice recordings for speaking evaluation, and progress data for parent updates.
             </p>
           </section>
 
@@ -316,33 +313,8 @@ export default function PrivacyPage() {
             <div className="bg-card border border-line rounded-xl p-5">
               <p className="font-semibold text-ink mb-2">如何联系我们 / How to Contact Us:</p>
               <p className="text-sm text-ink-2 mb-2">
-                请通过本站首页显示的微信号或邮箱联系：
+                通过本站报名表留下微信号，7 个工作日内回复。
               </p>
-              <ul className="text-sm text-ink-2 space-y-1">
-                <li>
-                  <strong>微信 WeChat:</strong>{" "}
-                  {wechatId ? (
-                    <code className="px-2 py-0.5 bg-paper-2 rounded text-xs">
-                      {wechatId}
-                    </code>
-                  ) : (
-                    <span className="text-muted">请见首页</span>
-                  )}
-                </li>
-                <li>
-                  <strong>邮件 Email:</strong>{" "}
-                  {contactEmail ? (
-                    <a
-                      href={`mailto:${contactEmail}`}
-                      className="text-accent hover:underline"
-                    >
-                      {contactEmail}
-                    </a>
-                  ) : (
-                    <span className="text-muted">请见首页</span>
-                  )}
-                </li>
-              </ul>
               <p className="text-xs text-muted mt-3">
                 我们会在 7 个工作日内回复您的请求。删除数据后，孩子的账号将无法继续使用本站服务。
               </p>
@@ -423,7 +395,7 @@ export default function PrivacyPage() {
               <strong className="text-ink">联系我们 / Contact Us:</strong>
             </p>
             <p className="text-sm text-ink-2 mb-2">
-              如对本隐私政策有任何疑问，请通过首页显示的微信号或邮箱联系。报名时也可向老师咨询数据收集与使用的具体情况。
+              如对本隐私政策有任何疑问，请通过首页报名表留下微信号。报名时也可向老师咨询数据收集与使用的具体情况。
             </p>
             <Link
               href="/"
