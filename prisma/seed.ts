@@ -3502,7 +3502,7 @@ My table is (4) ____ Mei and Jun Wei. I sit between them every day. We put our b
             "(2)|A. in|B. on|C. at|D. between",
             "(3)|A. in|B. on|C. at|D. under",
             "(4)|A. in|B. on|C. at|D. between",
-            "(5)|A. in|B. on|C. at|D. under",
+            "(5)|A. in|B. at|C. between|D. under",
             "(6)|A. in|B. on|C. at|D. under",
           ]),
           correctAnswer: "B,C,B,D,D,B",
