@@ -89,6 +89,15 @@ export default function WeikeMiniLesson({ level, weekNumber }: WeikeMiniLessonPr
       ],
       gloss: "can / must 后面直接加动词原形，不加 to，不加 -ing。can 表示能力或许可；must 表示必须。Can I…? 用来请求许可。"
     },
+    "A2-9": {
+      fossil: "I like swim / I like to swimming / I enjoy to read",
+      examples: [
+        "I like swimming.",
+        "Priya enjoys drawing.",
+        "We hate waiting in the rain."
+      ],
+      gloss: "like / love / hate / enjoy 后面加动词-ing。不要写 I like swim 或 I enjoy to read。中文「喜欢」后直接加动词，但英语必须用 -ing 形式。"
+    },
     "B1-5": {
       fossil: "The girl sits next to me is Priya / the book who I read",
       examples: [
