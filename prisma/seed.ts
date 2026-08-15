@@ -2924,6 +2924,116 @@ DO NOT write: so + noun / so a + noun / such + adjective alone (without noun)
         },
       ],
     },
+    {
+      level: "B1",
+      weekNumber: 9,
+      title: "Week 9: Too Tired, Not Enough Time",
+      description: "Using too and enough to talk about limits",
+      isSample: false,
+      dueDate: new Date("2026-10-29"),
+      errorFocus: "too-enough",
+      parentBrief: "本周纠错焦点：too / enough。中文「太 / 够」位置不同，孩子会说 too much tired / enough rich / too tired that I can't / I am not enough tall。英语规则：too + 形容词 + to 不定式（too tired to run）；形容词 + enough + to 不定式（tall enough to reach）；enough + 名词（enough time）。本周不把 so/such 作为目标（可能作为错误选项出现）。",
+      videoUrl: null,
+      kaizenFocus: "Use too + adjective + to-infinitive and adjective/enough + noun correctly",
+      officialClipId: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: `Read Priya's email:
+
+From: Priya
+To: Mei
+Subject: Friday Was Crazy!
+
+Hi Mei,
+
+Thanks for checking on me! I'm feeling better now. Let me tell you about Friday – it was one of those days where everything went wrong because of timing!
+
+In the morning, Jun Wei and I went to the library during recess. We wanted to borrow books for our History project. When we arrived, the librarian, Ms Liu, said, "Sorry, but you're too late to borrow these reference books. Another class took them twenty minutes ago." Jun Wei was so disappointed! Ms Liu was kind enough to suggest we try the public library after school.
+
+After recess, we had PE. Mr Kumar set up a new high jump bar. I tried three times, but I wasn't tall enough to clear it. The bar was at 1.2 metres, and I'm only 1.15 metres tall. Mr Kumar said, "Don't worry, Priya. You're fast enough to excel at sprinting instead!" That made me feel better.
+
+At lunchtime, Jun Wei and I rushed to the canteen. We were too hungry to wait in the long queue, so we went to the drinks stall first. But when we got to the food stall, they said, "Sorry, we don't have enough chicken rice left. Only two portions remain, and they're reserved." We weren't quick enough to get our favourite meal! We had to settle for fried noodles instead.
+
+In the afternoon, our class had a Maths quiz. Ms Tan gave us thirty minutes, but the quiz was too difficult to finish in time. I answered only fifteen out of twenty questions. Jun Wei said he was too stressed to think clearly. Ms Tan told us, "Don't worry. This quiz was challenging enough to show me what we need to revise together."
+
+After school, Jun Wei and I went to Bedok Public Library. We searched for History books about early Singapore. Luckily, we found enough materials for our project – six books and three magazines! The librarian was helpful enough to show us the online catalogue too.
+
+By the time we left the library, it was nearly 6 p.m. I was too exhausted to do any homework. Mum said I looked tired enough to sleep through dinner! I told her about the day, and she laughed. She said, "At least you were determined enough to keep trying!"
+
+Looking back, Friday taught me something important: even when things don't go perfectly, you can still be resourceful enough to find solutions. Jun Wei and I were patient enough to visit another library, and now our project is on track!
+
+Hope you're back at school on Monday. We have enough work to do together!
+
+Write back soon,
+Priya`,
+          options: JSON.stringify([
+            "Why couldn't Priya and Jun Wei borrow the reference books?|A. The library was closed|B. They were too late – another class took them|C. Ms Liu said they couldn't borrow them|D. The books were too expensive",
+            "What did Mr Kumar say about Priya's sprinting?|A. She wasn't tall enough|B. She was too slow|C. She was fast enough to excel at it|D. She needed more practice",
+            "Why couldn't Priya and Jun Wei get chicken rice?|A. It was too expensive|B. The canteen was closed|C. They weren't hungry enough|D. There wasn't enough left – only two portions remained",
+            "How did Jun Wei feel during the Maths quiz?|A. Too stressed to think clearly|B. Too happy to concentrate|C. Confident enough to finish|D. Too tired to start",
+            "What did Priya learn from Friday?|A. Always bring enough money|B. Don't go to the library|C. Even when things don't go perfectly, you can be resourceful enough to find solutions|D. PE is too difficult",
+          ]),
+          correctAnswer: "B,C,D,A,C",
+          points: 5,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: `Choose the correct word for each gap:
+
+Not Enough Time
+by Mei, Primary 5
+
+Last Tuesday was stressful! I woke up late because my alarm didn't ring. I was (1) ____ to eat breakfast – I just grabbed a banana and ran.
+
+At school, Ms Tan gave us a group project. My group had only two days to prepare, which wasn't (2) ____. We had to research, make slides, and practise presenting.
+
+Jun Wei said he was (3) ____ to present, so he volunteered. Priya was (4) ____ to design the slides beautifully. I did the research because I'm usually (5) ____ to find information online.
+
+By Thursday, we were ready. Ms Tan said our project was (6) ____ to get a good grade. I was relieved!`,
+          options: JSON.stringify([
+            "(1)|A. too rush|B. enough rushed|C. too rushed|D. rushed enough",
+            "(2)|A. enough time|B. too time|C. time enough|D. too much time",
+            "(3)|A. too confident|B. enough confident|C. confident too|D. confident enough",
+            "(4)|A. too creative|B. creative enough|C. enough creative|D. too much creative",
+            "(5)|A. enough quick|B. quick enough|C. too quick|D. quick too",
+            "(6)|A. too good|B. good too|C. good enough|D. enough good",
+          ]),
+          correctAnswer: "C,A,D,B,B,C",
+          points: 6,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `Write an email to your friend (100-120 words).
+
+Your friend asked you about something you wanted to do recently but couldn't do because of a limit (too tired, not enough time, not old enough, not tall enough, etc.).
+
+In your email:
+• Say what you wanted to do
+• Explain what the problem was (use too...to or not...enough)
+• Describe how you felt
+• Say what you did instead or what you learned
+
+You MUST use "too + adjective + to-infinitive" at least once and "adjective + enough" or "enough + noun" at least once.
+
+DO NOT write: too much tired / enough tall / too tired that I can't / I am not enough tall
+
+成功标准 / Success Criteria:
+✓ Too + 形容词 + to 不定式 (too + adjective + to-infinitive: too tired to run, too late to catch)
+✓ 形容词 + enough + to 不定式 (adjective + enough + to-infinitive: tall enough to reach, fast enough to win)
+✓ Enough + 名词 (enough + noun: enough time, enough money)
+✓ 不要写 too much tired 或 too + 形容词 + that 句子 (Don't write: too much tired / too tired that I couldn't)
+✓ 不要写 enough + 形容词 或形容词在 enough 后面 (Don't write: enough tall / I am not enough tall)
+✓ 解释限制是什么以及你的感受 (Explain the limit and how you felt)
+✓ 邮件格式 (Email format: greeting, paragraphs, closing)
+✓ 100-120词 (100-120 words)`,
+          points: 10,
+        },
+      ],
+    },
 
     // Week 7: going to future
     {
