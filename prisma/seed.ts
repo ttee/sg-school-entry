@@ -2320,6 +2320,182 @@ Useful phrases:
         },
       ],
     },
+    {
+      level: "B1",
+      weekNumber: 5,
+      title: "Week 5: Describing People",
+      description: "Using relative clauses who/which/that",
+      isSample: false,
+      dueDate: new Date("2026-09-17"),
+      errorFocus: "relative-clauses-who-which-that",
+      parentBrief: "本周纠错焦点：定语从句（relative clauses）——关系代词 who / which / that。孩子会说 The girl sits next to me is Priya（漏关系代词）、the book who I read（人物混用，book 应该用 which）、the teacher which helps me（teacher 是人应该用 who）。英语定语从句必须用关系代词连接：先行词是人用 who / that，先行词是物用 which / that。本周作业会反复练习这个高危点。",
+      videoUrl: null,
+      kaizenFocus: "who for people, which for things, that for both (defining relative clauses)",
+      officialClipId: null,
+      officialClipCredit: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: `Read this article:
+
+The Mix-Up
+
+Last Wednesday, our form teacher Ms Tan made an announcement that changed our lunch break completely. She said that a new student who had just transferred from another school would be joining our class. His name was Wei Han, and he would arrive on Thursday.
+
+Priya, who always likes to make new friends, was excited. "I hope he's friendly!" she whispered to me during Science. I nodded, but I was more worried about my History presentation that afternoon.
+
+On Thursday morning, Wei Han walked into our classroom. He was the boy who had been standing nervously outside the staff room earlier. Ms Tan introduced him and asked Priya to show him around during recess. Mei, who sits next to Priya, offered to help too.
+
+At recess, I saw them at the canteen. Wei Han was eating chicken rice, which is the most popular dish at our school. Priya and Mei were asking him questions about his old school. He seemed quiet but friendly – exactly the kind of person who listens more than he talks.
+
+After recess, we had English with Ms Lee, who is the teacher that everyone respects. She asked Wei Han to introduce himself. He stood up nervously. "I'm Wei Han, and I come from a school that's near Bedok," he began. "My favourite subject is History, which I find really interesting. I like reading books that explain how ancient civilisations worked."
+
+Jun Wei, who sits behind me, leaned forward and whispered, "Did he say History? But didn't someone say he hated History?" I frowned. I hadn't heard that.
+
+At lunch, a rumour started spreading. Someone said Wei Han was the student who had failed History at his old school and that's why he transferred. Priya looked confused. "But he just said History is his favourite subject!" she protested.
+
+By the end of the day, the rumour had grown. Some students were saying Wei Han was the boy who had been expelled for copying History homework. Others claimed he was the student who had argued with his History teacher. The stories, which were obviously exaggerated, kept getting worse.
+
+That evening, I saw a message in our class group chat. It was from Jun Wei: "Sorry everyone! I think I started a misunderstanding. I heard someone say 'Wei Han' and 'History' and assumed it was the new student. But actually, they were talking about someone else called Wei Hao who used to go to my primary school. Wei Han is NOT that person. I apologise for the confusion."
+
+The next morning, Priya walked straight up to Wei Han and apologised on behalf of the class. She explained what had happened and said we all felt terrible about the rumour. Wei Han, who had heard some of the gossip, smiled kindly. "It's okay. Mistakes happen," he said. "The important thing is that you checked and corrected it."
+
+Ms Tan, who had found out about the incident, used it as a teaching moment. "This is why we don't spread information that we haven't verified," she reminded us during morning assembly. "A person's reputation is something which can be damaged by careless words."
+
+Since then, Wei Han has become good friends with Priya, Mei, and Jun Wei. He's now the classmate who always brings interesting History articles to share. And Jun Wei? He's the person who learned to double-check information before speaking – a lesson which has made him much more careful about what he says.`,
+          options: JSON.stringify([
+            "What did Ms Tan say about the new student?|A. He would arrive next week|B. His name was Wei Han and he'd join on Thursday|C. He was from Bedok Primary|D. He didn't like History",
+            "Who offered to help Priya show Wei Han around?|A. Ms Tan|B. Jun Wei|C. Mei|D. Ms Lee",
+            "What subject did Wei Han say was his favourite?|A. English|B. Science|C. History|D. Mathematics",
+            "What was the rumour about Wei Han?|A. He loved History|B. He was a teacher's son|C. He had failed or been expelled because of History|D. He was moving away",
+            "Who started the misunderstanding?|A. Priya|B. Mei|C. Jun Wei|D. Ms Lee",
+            "What did Jun Wei confuse?|A. Wei Han with Wei Hao|B. History with Geography|C. Two different teachers|D. Two different schools",
+            "Who apologised to Wei Han the next morning?|A. Ms Tan|B. Jun Wei|C. Priya on behalf of the class|D. Ms Lee",
+            "What lesson did Ms Tan teach about the incident?|A. Don't trust new students|B. Don't spread unverified information|C. Always ask teachers first|D. Don't use group chats",
+          ]),
+          correctAnswer: "B,C,C,C,C,A,C,B",
+          points: 8,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: `Choose the correct word for each gap:
+
+The New Librarian
+
+Yesterday, our school welcomed a new librarian (1) ____ will be working in the library every afternoon. Her name is Ms Indira. She's the person (2) ____ replaced Mr Chen, (3) ____ retired last month after twenty years of service.
+
+Ms Indira comes from India, and she has a degree in Library Science, (4) ____ is quite rare in Singapore. She's someone (5) ____ really loves books and wants to help students find materials (6) ____ they need for their projects.`,
+          options: JSON.stringify([
+            "(1)|A. which|B. who|C. what|D. whose",
+            "(2)|A. which|B. what|C. who|D. whom",
+            "(3)|A. which|B. who|C. what|D. whose",
+            "(4)|A. that|B. who|C. what|D. whom",
+            "(5)|A. which|B. what|C. who|D. whose",
+            "(6)|A. who|B. which|C. what|D. whose",
+          ]),
+          correctAnswer: "B,C,B,A,C,B",
+          points: 6,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `Write an email to your English friend (100-120 words).
+
+Your friend is coming to visit your school next month. Write an email describing a classmate or teacher you think they should meet.
+
+In your email:
+• Introduce the person and say why they're special
+• Describe something they do or a subject they're good at
+• Explain why you think your friend would like them
+
+You MUST use relative clauses (who/which/that) to give more information.
+
+成功标准 / Success Criteria:
+✓ 定语从句 (Relative clauses: who for people, which/that for things)
+✓ 定语从句位置正确 (Relative clauses placed right after the noun they describe)
+✓ 区分人物用词 (Use who/that for people, which/that for things - don't mix)
+✓ 邮件格式 (Email format: greeting, clear paragraphs, closing)
+✓ 100-120词 (100-120 words)`,
+          points: 10,
+        },
+        {
+          type: "listening",
+          order: 4,
+          content: `听读练习 / Listening Preparation
+
+[In the school library – group project discussion]
+
+Mei: Hi Priya! Thanks for coming. We need to organise our Science project team.
+
+Priya: No problem. So we have four people in total, right? You, me, Jun Wei, and that new student who just joined our class last week – what's his name?
+
+Mei: Wei Han. He's the one who said he's good at research. I think he should handle the research part – you know, finding the articles and information that we need.
+
+Priya: Good idea. And I can do the presentation slides. I have that software which makes really nice graphics.
+
+Mei: Perfect. Jun Wei is the person who's best at explaining things clearly, so he should be our main speaker.
+
+Priya: What about you?
+
+Mei: I'll coordinate everything and write the script. I'm good at organising the parts that everyone writes.
+
+Priya: When's our deadline?
+
+Mei: Ms Tan said it's the project which is due on the twenty-third of next month. That gives us four weeks.
+
+Priya: We should meet every Tuesday after school. The library has study rooms that we can book.
+
+Mei: Great idea. I'll message the boys now.`,
+          options: JSON.stringify([
+            "How many people are in the project team?|A. Two|B. Three|C. Four|D. Five",
+            "What will Wei Han do?|A. Make slides|B. Handle research|C. Be the main speaker|D. Write the script",
+            "What is Priya good at?|A. Research|B. Speaking|C. Making presentation slides|D. Coordinating",
+            "What is Jun Wei best at?|A. Research|B. Explaining things clearly|C. Making graphics|D. Writing",
+            "When is the project due?|A. Next week|B. In two weeks|C. On the 23rd of next month|D. On the 13th of next month",
+          ]),
+          correctAnswer: "C,B,C,B,C",
+          points: 5,
+          audioUrl: null,
+        },
+        {
+          type: "speaking",
+          order: 5,
+          content: `口语练习 / Speaking Practice
+
+Task: Talk about a person you know well (about 1 minute)
+
+Describe a classmate, teacher, or friend using relative clauses.
+
+Talk about:
+• Who the person is and how you know them
+• What they do or what they're good at (use relative clauses)
+• Why you like or respect them
+• Something interesting about them
+
+You MUST use relative clauses:
+✓ who / that for people (She's the teacher who helped me...)
+✓ which / that for things (She teaches a subject which I love...)
+
+Useful phrases:
+• He's / She's the person who...
+• He's / She's someone who...
+• He's / She's the student that...
+• I know someone who...
+• He has a skill which...
+• She teaches a subject that...
+
+如何练习 / How to practise:
+1. 选择一个你认识的人 (Choose a person you know)
+2. 准备至少 2 个定语从句 (Prepare at least 2 relative clauses)
+3. 点击"开始录音"，说满1分钟 (Tap "开始录音", speak for 1 minute)
+4. 提交给AI，AI会盯住关系代词 who/which/that 的使用 (Submit to AI - AI checks who/which/that usage)
+5. 查看反馈后可再录一次 (Check feedback and re-record)`,
+          points: 5,
+        },
+      ],
+    },
   ];
 
   // =================================================================
