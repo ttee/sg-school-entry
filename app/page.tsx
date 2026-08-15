@@ -127,7 +127,7 @@ export default function HomePage() {
               小班直播课（最多 8 人）+ 每周作业 app。家长订阅，孩子登录做题。
             </p>
             <p className="text-sm text-accent mb-8 max-w-2xl">
-              新增：<strong>AEIS 数学 试学周 + 第 1–3 周</strong>现已上线（Week 0 整数与钱币，Week 1 乘法与除法，Week 2 分数，Week 3 长度、质量、容积与时间，均对应 MOE P2 大纲），后续周次陆续更新。不编造通过率，不承诺包过。
+              新增：<strong>AEIS 数学 试学周 + 第 1–3 周</strong>现已上线（Week 0 整数与钱币，Week 1 乘法与除法，Week 2 分数，Week 3 长度、质量、容积与时间，均对应 MOE P2 大纲），后续周次陆续更新。
             </p>
             <div className="flex flex-wrap gap-3 mb-6">
               <Link
@@ -150,7 +150,7 @@ export default function HomePage() {
               </Link>
             </div>
             <p className="text-sm text-muted max-w-2xl">
-              非 MOE、SEAB、Cambridge 官方机构 · 录取不保证 · 月度会员 S$320 或 12 周直播课预付包 · PayNow {payNowNumber} / 微信转账
+              非 MOE、SEAB、Cambridge 官方机构 · 月度会员 S$320 或 12 周直播课预付包 · PayNow {payNowNumber} / 微信转账
             </p>
             <p className="text-sm text-ink-2 mt-3 max-w-2xl">
               <strong>AEIS 申请：</strong>
@@ -301,7 +301,7 @@ export default function HomePage() {
                     包含 2 次模拟考，家长微信通报进度
                   </li>
                   <li className="py-3 pl-5 relative before:absolute before:left-0 before:top-5 before:w-2 before:h-2 before:rounded-full before:bg-accent text-sm text-ink-2">
-                    帮孩子在提交 AEIS / S-AEIS 申请前 12 个月内考出 CEQ，不保证具体 CES 分数或学校录取
+                    帮孩子在提交 AEIS / S-AEIS 申请前 12 个月内考出 CEQ
                   </li>
                 </ul>
                 <Link
@@ -338,7 +338,7 @@ export default function HomePage() {
                     包含 2 次模拟考，家长微信通报进度
                   </li>
                   <li className="py-3 pl-5 relative before:absolute before:left-0 before:top-5 before:w-2 before:h-2 before:rounded-full before:bg-accent text-sm text-ink-2">
-                    帮孩子在提交 AEIS / S-AEIS 申请前 12 个月内考出 CEQ，不保证具体 CES 分数或学校录取
+                    帮孩子在提交 AEIS / S-AEIS 申请前 12 个月内考出 CEQ
                   </li>
                 </ul>
                 <Link
@@ -364,7 +364,7 @@ export default function HomePage() {
               针对性纠错，防止英语化石化
             </h2>
             <p className="text-ink-2 mb-6 max-w-3xl">
-              每周只打<strong>一个</strong>中国学生的高频错误。微课对照中英句子，作业 + AI 口语/写作盯住同一点，直到改掉。不保证录取，不编造通过率。我们只帮孩子改掉会跟一辈子的错。
+              每周只打<strong>一个</strong>中国学生的高频错误。微课对照中英句子，作业 + AI 口语/写作盯住同一点，直到改掉。
             </p>
 
             <div className="bg-card border border-line rounded-2xl p-6 mb-6 shadow">
@@ -498,7 +498,7 @@ export default function HomePage() {
 
             <div className="mt-6 bg-paper-2 border border-line rounded-xl p-5">
               <p className="text-sm text-ink-2">
-                所有情境、人名、地点均为虚构。不编造"剑桥官方分数"或"往年通过率"。
+                所有情境、人名、地点均为虚构。
               </p>
             </div>
           </div>

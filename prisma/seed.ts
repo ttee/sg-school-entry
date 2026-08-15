@@ -92,7 +92,7 @@ async function main() {
       description: "AEIS-Primary P2 Mathematics: Whole numbers and money",
       isSample: true,
       errorFocus: null,
-      parentBrief: "本周主题：整数与钱币（对应 MOE 小学 P2 数学大纲）。孩子会做加减法、比较大小、认识新加坡钱币。题目是简体中文家长说明 + 英文题干，帮孩子同时熟悉数学和英语。本周配有双向对照表，显示题目对应的官方 2021 Primary Mathematics Syllabus 内容点，以及 MOE AEIS 的「preceding level」规则（申请 P3 → 掌握 P2 内容）。不编造 CES 分数、不承诺包过。",
+      parentBrief: "本周主题：整数与钱币（对应 MOE 小学 P2 数学大纲）。孩子会做加减法、比较大小、认识新加坡钱币。题目是简体中文家长说明 + 英文题干，帮孩子同时熟悉数学和英语。本周配有双向对照表，显示题目对应的官方 2021 Primary Mathematics Syllabus 内容点，以及 MOE AEIS 的「preceding level」规则（申请 P3 → 掌握 P2 内容）。",
       videoUrl: null,
       kaizenFocus: null,
       questions: [
@@ -263,7 +263,7 @@ He paid with a $50 note.
       description: "AEIS-Primary P2 Mathematics: Length, Mass, Volume and Time",
       isSample: false,
       errorFocus: null,
-      parentBrief: "本周主题：长度、质量、容积与时间（对应 MOE 小学 P2 数学大纲 Measurement and Geometry）。孩子会练习用米（m）测量长度、用千克（kg）和克（g）测量质量、用升（ℓ）测量容积，学会比较和排序这些量。还会练习看时钟读时间到分钟、测量小时和分钟、进行小时和分钟之间的转换（1 小时 = 60 分钟）。题目是简体中文家长说明 + 英文题干。本周配有双向对照表，显示题目对应的官方 2021 Primary Mathematics Syllabus 内容点，以及 MOE AEIS 的「preceding level」规则（申请 P3 → 掌握 P2 内容）。不编造 CES 分数、不承诺包过。",
+      parentBrief: "本周主题：长度、质量、容积与时间（对应 MOE 小学 P2 数学大纲 Measurement and Geometry）。孩子会练习用米（m）测量长度、用千克（kg）和克（g）测量质量、用升（ℓ）测量容积，学会比较和排序这些量。还会练习看时钟读时间到分钟、测量小时和分钟、进行小时和分钟之间的转换（1 小时 = 60 分钟）。题目是简体中文家长说明 + 英文题干。本周配有双向对照表，显示题目对应的官方 2021 Primary Mathematics Syllabus 内容点，以及 MOE AEIS 的「preceding level」规则（申请 P3 → 掌握 P2 内容）。",
       videoUrl: null,
       kaizenFocus: null,
       questions: [
