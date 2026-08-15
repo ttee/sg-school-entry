@@ -106,7 +106,7 @@ export default function DualValidationMapMath() {
               </td>
               <td className="px-3 py-3 text-ink-2 align-top">
                 $6.75 = 675 cents（换算）<br />
-                5 dollars and 8 dimes = $5.80（认识新加坡 dime）
+                5 dollars and eight 10-cent coins = $5.80
               </td>
             </tr>
             <tr>

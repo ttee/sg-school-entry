@@ -454,15 +454,25 @@ export default function WeekHomework({
             <div className="flex items-start justify-between mb-4">
               <h2 className="font-serif font-semibold text-xl text-ink">
                 {idx + 1}.{" "}
-                {question.type === "reading"
-                  ? "阅读理解 / Reading"
-                  : question.type === "grammar"
-                  ? "语法 / Use of English"
-                  : question.type === "writing"
-                  ? "写作 / Writing"
-                  : question.type === "listening"
-                  ? "听力 / Listening"
-                  : "口语 / Speaking"}
+                {week.level === "MATH" 
+                  ? (question.type === "reading"
+                    ? "应用题 / Word Problems"
+                    : question.type === "grammar"
+                    ? "选择题 / Multiple Choice"
+                    : question.type === "writing"
+                    ? "应用题（写算式）/ Show Your Working"
+                    : question.type === "listening"
+                    ? "听力 / Listening"
+                    : "口语 / Speaking")
+                  : (question.type === "reading"
+                    ? "阅读理解 / Reading"
+                    : question.type === "grammar"
+                    ? "语法 / Use of English"
+                    : question.type === "writing"
+                    ? "写作 / Writing"
+                    : question.type === "listening"
+                    ? "听力 / Listening"
+                    : "口语 / Speaking")}
               </h2>
               <span className="text-sm text-muted">{question.points} 分</span>
             </div>
@@ -620,7 +630,7 @@ export default function WeekHomework({
                 />
                 <div className="flex justify-between items-center gap-3">
                   <div className="flex flex-col gap-2 flex-1">
-                    {!isCompleted && (
+                    {!isCompleted && week.level !== "MATH" && (
                       <button
                         onClick={() => getWritingFeedback(question.id)}
                         disabled={gettingFeedback[question.id] || !answers[question.id] || answers[question.id].trim().length <= 10}

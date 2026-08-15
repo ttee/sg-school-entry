@@ -190,8 +190,7 @@ C. 6075 cents
 D. 7560 cents
 
 **Question 5:**
-Which amount is the same as 5 dollars and 8 dimes?
-(Note: 1 dime = 10 cents)
+Which amount is the same as 5 dollars and eight 10-cent coins?
 A. $5.08
 B. $5.80
 C. $58.00
