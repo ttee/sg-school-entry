@@ -11,14 +11,22 @@ export default async function ProgressPage() {
   }
 
   const userLevel = session.user.level || "A2";
+  const isAdmin = session.user.role === "admin";
 
   const weeks = await prisma.week.findMany({
-    where: {
-      level: userLevel,
-    },
-    orderBy: {
-      weekNumber: "asc",
-    },
+    where: isAdmin
+      ? {}
+      : {
+          level: userLevel,
+        },
+    orderBy: isAdmin
+      ? [
+          { level: "asc" },
+          { weekNumber: "asc" },
+        ]
+      : {
+          weekNumber: "asc",
+        },
     include: {
       submissions: {
         where: {
@@ -35,70 +43,149 @@ export default async function ProgressPage() {
           孩子进度
         </h1>
         <p className="text-sm text-ink-2">
-          查看孩子的每周作业完成情况与得分。本进度仅显示当前登录账号的学习数据。
+          {isAdmin
+            ? "管理员视图：查看所有级别的每周作业完成情况与得分。"
+            : "查看孩子的每周作业完成情况与得分。本进度仅显示当前登录账号的学习数据。"}
         </p>
       </div>
 
-      <div className="space-y-3">
-        {weeks.map((week) => {
-          const submission = week.submissions[0];
-          const isDone = submission?.completedAt;
-          const score = submission?.score;
+      {isAdmin ? (
+        <div className="space-y-8">
+          {["A2", "B1"].map((level) => {
+            const levelWeeks = weeks.filter((w) => w.level === level);
+            if (levelWeeks.length === 0) return null;
 
-          const weekLabel = week.weekNumber === 0 || week.isSample
-            ? "试学周"
-            : `第 ${week.weekNumber} 周`;
+            return (
+              <div key={level}>
+                <h2 className="font-serif font-semibold text-xl text-accent mb-3">
+                  {level} 级别
+                </h2>
+                <div className="space-y-3">
+                  {levelWeeks.map((week) => {
+                    const submission = week.submissions[0];
+                    const isDone = submission?.completedAt;
+                    const score = submission?.score;
 
-          return (
-            <div
-              key={week.id}
-              className="bg-card border border-line rounded-xl p-4 md:p-5"
-            >
-              <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-3">
-                <div className="flex-1">
-                  <div className="flex items-center gap-2 mb-1">
-                    <span className="text-xs font-semibold uppercase tracking-wide text-accent">
-                      {weekLabel}
-                    </span>
-                  </div>
-                  <h2 className="font-serif font-semibold text-lg text-ink mb-1">
-                    {week.title}
-                  </h2>
-                  {week.description && (
-                    <p className="text-sm text-muted">{week.description}</p>
-                  )}
+                    const weekLabel = week.weekNumber === 0 || week.isSample
+                      ? "试学周"
+                      : `第 ${week.weekNumber} 周`;
+
+                    return (
+                      <div
+                        key={week.id}
+                        className="bg-card border border-line rounded-xl p-4 md:p-5"
+                      >
+                        <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-3">
+                          <div className="flex-1">
+                            <div className="flex items-center gap-2 mb-1">
+                              <span className="text-xs font-semibold uppercase tracking-wide text-accent">
+                                {weekLabel}
+                              </span>
+                            </div>
+                            <h3 className="font-serif font-semibold text-lg text-ink mb-1">
+                              {week.title}
+                            </h3>
+                            {week.description && (
+                              <p className="text-sm text-muted">{week.description}</p>
+                            )}
+                          </div>
+
+                          <div className="flex items-center gap-4 sm:flex-col sm:items-end sm:gap-2 flex-shrink-0">
+                            <div className="flex items-center gap-2">
+                              {isDone ? (
+                                <>
+                                  <span className="text-2xl">✓</span>
+                                  <span className="text-sm font-semibold text-accent">
+                                    已完成
+                                  </span>
+                                </>
+                              ) : (
+                                <>
+                                  <span className="text-xl text-muted">○</span>
+                                  <span className="text-sm text-muted">未完成</span>
+                                </>
+                              )}
+                            </div>
+
+                            {isDone && score !== null && (
+                              <div className="px-3 py-1.5 bg-accent/10 rounded-full">
+                                <span className="text-sm font-semibold text-accent">
+                                  {score} 分
+                                </span>
+                              </div>
+                            )}
+                          </div>
+                        </div>
+                      </div>
+                    );
+                  })}
                 </div>
+              </div>
+            );
+          })}
+        </div>
+      ) : (
+        <div className="space-y-3">
+          {weeks.map((week) => {
+            const submission = week.submissions[0];
+            const isDone = submission?.completedAt;
+            const score = submission?.score;
 
-                <div className="flex items-center gap-4 sm:flex-col sm:items-end sm:gap-2 flex-shrink-0">
-                  <div className="flex items-center gap-2">
-                    {isDone ? (
-                      <>
-                        <span className="text-2xl">✓</span>
-                        <span className="text-sm font-semibold text-accent">
-                          已完成
-                        </span>
-                      </>
-                    ) : (
-                      <>
-                        <span className="text-xl text-muted">○</span>
-                        <span className="text-sm text-muted">未完成</span>
-                      </>
+            const weekLabel = week.weekNumber === 0 || week.isSample
+              ? "试学周"
+              : `第 ${week.weekNumber} 周`;
+
+            return (
+              <div
+                key={week.id}
+                className="bg-card border border-line rounded-xl p-4 md:p-5"
+              >
+                <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-3">
+                  <div className="flex-1">
+                    <div className="flex items-center gap-2 mb-1">
+                      <span className="text-xs font-semibold uppercase tracking-wide text-accent">
+                        {weekLabel}
+                      </span>
+                    </div>
+                    <h2 className="font-serif font-semibold text-lg text-ink mb-1">
+                      {week.title}
+                    </h2>
+                    {week.description && (
+                      <p className="text-sm text-muted">{week.description}</p>
                     )}
                   </div>
 
-                  {isDone && score !== null && (
-                    <div className="px-3 py-1.5 bg-accent/10 rounded-full">
-                      <span className="text-sm font-semibold text-accent">
-                        {score} 分
-                      </span>
+                  <div className="flex items-center gap-4 sm:flex-col sm:items-end sm:gap-2 flex-shrink-0">
+                    <div className="flex items-center gap-2">
+                      {isDone ? (
+                        <>
+                          <span className="text-2xl">✓</span>
+                          <span className="text-sm font-semibold text-accent">
+                            已完成
+                          </span>
+                        </>
+                      ) : (
+                        <>
+                          <span className="text-xl text-muted">○</span>
+                          <span className="text-sm text-muted">未完成</span>
+                        </>
+                      )}
                     </div>
-                  )}
+
+                    {isDone && score !== null && (
+                      <div className="px-3 py-1.5 bg-accent/10 rounded-full">
+                        <span className="text-sm font-semibold text-accent">
+                          {score} 分
+                        </span>
+                      </div>
+                    )}
+                  </div>
                 </div>
               </div>
-            </div>
-          );
-        })}
-      </div>
+            );
+          })}
+        </div>
+      )}
 
       {weeks.length === 0 && (
         <div className="bg-card border border-line rounded-xl p-8 text-center">

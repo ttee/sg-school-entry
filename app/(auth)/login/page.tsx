@@ -147,6 +147,11 @@ function LoginForm() {
                 <br />
                 trial@sgschoolentry.local / trial1234
               </p>
+              <p className="font-mono text-xs bg-paper rounded px-3 py-2 text-muted">
+                <strong>管理员 / Admin:</strong>
+                <br />
+                admin@sgschoolentry.local · 可查看全部周
+              </p>
             </div>
           </div>
         </div>
