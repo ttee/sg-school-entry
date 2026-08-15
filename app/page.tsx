@@ -123,8 +123,11 @@ export default function HomePage() {
             <p className="text-lg text-ink-2 mb-3 max-w-2xl">
               CEQ 英语门槛 → AEIS 数学与英语，以及录取后的英语授课适应。
             </p>
-            <p className="text-base text-ink-2 mb-8 max-w-2xl">
+            <p className="text-base text-ink-2 mb-2 max-w-2xl">
               小班直播课（最多 8 人）+ 每周作业 app。家长订阅，孩子登录做题。
+            </p>
+            <p className="text-sm text-accent mb-8 max-w-2xl">
+              新增：<strong>AEIS 数学 试学周</strong>现已上线（整数与钱币，对应 MOE P2 大纲），后续周次陆续更新。不编造通过率，不承诺包过。
             </p>
             <div className="flex flex-wrap gap-3 mb-6">
               <Link

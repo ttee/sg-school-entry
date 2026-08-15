@@ -59,6 +59,24 @@ async function main() {
     },
   });
 
+  const mathTrialUser = await prisma.user.upsert({
+    where: { email: "math@sgschoolentry.local" },
+    update: {
+      name: "Math Trial Student",
+      role: "student",
+      level: "MATH",
+      subscribed: false,
+    },
+    create: {
+      email: "math@sgschoolentry.local",
+      password: await bcrypt.hash("math1234", 10),
+      name: "Math Trial Student",
+      role: "student",
+      level: "MATH",
+      subscribed: false,
+    },
+  });
+
   console.log("✅ Upserted demo users");
 
   // =================================================================
@@ -66,6 +84,187 @@ async function main() {
   // =================================================================
 
   const weekDefinitions = [
+    // MATH WEEKS (AEIS-Primary Mathematics)
+    {
+      level: "MATH",
+      weekNumber: 0,
+      title: "数学 试学周 / Maths Sample Week",
+      description: "AEIS-Primary P2 Mathematics: Whole numbers and money",
+      isSample: true,
+      errorFocus: null,
+      parentBrief: "本周主题：整数与钱币（对应 MOE 小学 P2 数学大纲）。孩子会做加减法、比较大小、认识新加坡钱币。题目是简体中文家长说明 + 英文题干，帮孩子同时熟悉数学和英语。题目全部原创，不抄 SEAB / AEIS / Cambridge 试卷。本周配有双向对照表，显示题目对应的官方 2021 Primary Mathematics Syllabus 内容点，以及 MOE AEIS 的「preceding level」规则（申请 P3 → 掌握 P2 内容）。不编造 CES 分数、不承诺包过。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: `阅读理解 / Reading Comprehension
+
+**家长说明（简体中文）：**
+本题是数学应用题，配合新加坡情境。孩子需要读懂英文题目，然后从选项中选择正确答案。
+
+**Question 1:**
+At a bookshop in Bedok, Jun Wei bought 2 storybooks for $8 each and 1 pencil case for $5. How much did he spend in total?
+
+A. $13
+B. $16
+C. $21
+D. $26
+
+**Question 2:**
+Mei has $50. She wants to buy a schoolbag for $32 and a water bottle for $12. Does she have enough money?
+
+A. Yes, she has $6 left
+B. Yes, she has $8 left
+C. No, she needs $4 more
+D. No, she needs $6 more
+
+**Question 3:**
+A hawker centre has 345 seats. 128 seats are occupied. How many seats are empty?
+
+A. 117
+B. 217
+C. 227
+D. 473
+
+**Question 4:**
+Sarah counts her savings. She has three $10 notes, five $2 coins, and eight 50-cent coins. How much money does she have?
+
+A. $38
+B. $40
+C. $44
+D. $48
+
+**Question 5:**
+A library has 680 English books and 215 Chinese books. How many books are there in total?
+
+A. 465
+B. 795
+C. 895
+D. 905`,
+          options: JSON.stringify([
+            "Question 1|A. $13|B. $16|C. $21|D. $26",
+            "Question 2|A. Yes, she has $6 left|B. Yes, she has $8 left|C. No, she needs $4 more|D. No, she needs $6 more",
+            "Question 3|A. 117|B. 217|C. 227|D. 473",
+            "Question 4|A. $38|B. $40|C. $44|D. $48",
+            "Question 5|A. 465|B. 795|C. 895|D. 905",
+          ]),
+          correctAnswer: "C,A,B,C,C",
+          points: 5,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: `数学选择题 / Mathematics Multiple Choice
+
+**家长说明（简体中文）：**
+本题练习数字比较、加减计算、钱币换算。这些是 P2 数学的核心技能，也是 AEIS P2/P3 数学考试的基础内容。
+
+**Question 1:**
+Which number is the greatest?
+A. 456
+B. 654
+C. 546
+D. 465
+
+**Question 2:**
+What is 725 - 389?
+A. 336
+B. 346
+C. 436
+D. 1114
+
+**Question 3:**
+Arrange these numbers from smallest to greatest: 802, 280, 820, 208
+A. 208, 280, 802, 820
+B. 802, 820, 280, 208
+C. 280, 208, 820, 802
+D. 208, 820, 280, 802
+
+**Question 4:**
+How many cents are there in $6.75?
+A. 75 cents
+B. 675 cents
+C. 6075 cents
+D. 7560 cents
+
+**Question 5:**
+Which amount is the same as 5 dollars and eight 10-cent coins?
+A. $5.08
+B. $5.80
+C. $58.00
+D. $50.80
+
+**Question 6:**
+Raju has two $5 notes, three $2 coins, and five 20-cent coins. How much does he have?
+A. $15.00
+B. $16.00
+C. $17.00
+D. $17.20
+
+**Question 7:**
+What is 348 + 276?
+A. 514
+B. 524
+C. 614
+D. 624
+
+**Question 8:**
+Compare: 539 ___ 593
+A. =
+B. >
+C. <
+D. Cannot tell`,
+          options: JSON.stringify([
+            "Question 1|A. 456|B. 654|C. 546|D. 465",
+            "Question 2|A. 336|B. 346|C. 436|D. 1114",
+            "Question 3|A. 208, 280, 802, 820|B. 802, 820, 280, 208|C. 280, 208, 820, 802|D. 208, 820, 280, 802",
+            "Question 4|A. 75 cents|B. 675 cents|C. 6075 cents|D. 7560 cents",
+            "Question 5|A. $5.08|B. $5.80|C. $58.00|D. $50.80",
+            "Question 6|A. $15.00|B. $16.00|C. $17.00|D. $17.20",
+            "Question 7|A. 514|B. 524|C. 614|D. 624",
+            "Question 8|A. =|B. >|C. <|D. Cannot tell",
+          ]),
+          correctAnswer: "B,A,A,B,B,C,D,C",
+          points: 8,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `数学应用题（需写出算式和答案）/ Word Problem (Show Your Working)
+
+**家长说明（简体中文）：**
+本题是 open-ended question，孩子需要写出计算步骤和答案。这对应 AEIS P2/P3 数学考试 Part 2 的 short-answer questions，需要展示 working steps。
+
+**Question:**
+At a canteen in Tampines, Ali bought the following items for his family:
+- 3 plates of chicken rice at $4 each
+- 2 bowls of laksa at $5 each
+- 4 cups of drinks at $2 each
+
+He paid with a $50 note.
+
+(a) How much did Ali spend in total? Show your working.
+(b) How much change did he receive?
+
+**成功标准 / Success Criteria:**
+✓ 写出每一步计算过程（Show all working steps）
+✓ 标注单位（$）
+✓ 最终答案清晰（Circle or underline your final answer）
+
+**提示 / Hint:**
+You may use this format:
+Cost of chicken rice = 3 × $4 = $___
+Cost of laksa = 2 × $5 = $___
+Cost of drinks = 4 × $2 = $___
+Total cost = $___ + $___ + $___ = $___
+Change = $___ - $___ = $___`,
+          points: 10,
+        },
+      ],
+    },
+    
     // A2 WEEKS
     {
       level: "A2",

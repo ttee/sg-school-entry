@@ -12,6 +12,7 @@ import DualValidationMapB1Week0 from "./DualValidationMapB1Week0";
 import DualValidationMapB1Week1 from "./DualValidationMapB1Week1";
 import DualValidationMapB1Week2 from "./DualValidationMapB1Week2";
 import DualValidationMapB1Week3 from "./DualValidationMapB1Week3";
+import DualValidationMapMath from "./DualValidationMapMath";
 import OfficialClip from "./OfficialClip";
 
 type Question = {
@@ -444,6 +445,10 @@ export default function WeekHomework({
 
       {/* Dual-validation map for B1 Week 3 */}
       {week.level === "B1" && week.weekNumber === 3 && <DualValidationMapB1Week3 />}
+
+      {/* Dual-validation map for MATH Week 0 */}
+      {week.level === "MATH" && week.weekNumber === 0 && <DualValidationMapMath />}
+      
       <div className="space-y-8">
         {questions.map((question, idx) => (
           <div
@@ -453,15 +458,25 @@ export default function WeekHomework({
             <div className="flex items-start justify-between mb-4">
               <h2 className="font-serif font-semibold text-xl text-ink">
                 {idx + 1}.{" "}
-                {question.type === "reading"
-                  ? "阅读理解 / Reading"
-                  : question.type === "grammar"
-                  ? "语法 / Use of English"
-                  : question.type === "writing"
-                  ? "写作 / Writing"
-                  : question.type === "listening"
-                  ? "听力 / Listening"
-                  : "口语 / Speaking"}
+                {week.level === "MATH" 
+                  ? (question.type === "reading"
+                    ? "应用题 / Word Problems"
+                    : question.type === "grammar"
+                    ? "选择题 / Multiple Choice"
+                    : question.type === "writing"
+                    ? "应用题（写算式）/ Show Your Working"
+                    : question.type === "listening"
+                    ? "听力 / Listening"
+                    : "口语 / Speaking")
+                  : (question.type === "reading"
+                    ? "阅读理解 / Reading"
+                    : question.type === "grammar"
+                    ? "语法 / Use of English"
+                    : question.type === "writing"
+                    ? "写作 / Writing"
+                    : question.type === "listening"
+                    ? "听力 / Listening"
+                    : "口语 / Speaking")}
               </h2>
               <span className="text-sm text-muted">{question.points} 分</span>
             </div>
@@ -619,7 +634,7 @@ export default function WeekHomework({
                 />
                 <div className="flex justify-between items-center gap-3">
                   <div className="flex flex-col gap-2 flex-1">
-                    {!isCompleted && (
+                    {!isCompleted && week.level !== "MATH" && (
                       <button
                         onClick={() => getWritingFeedback(question.id)}
                         disabled={gettingFeedback[question.id] || !answers[question.id] || answers[question.id].trim().length <= 10}
