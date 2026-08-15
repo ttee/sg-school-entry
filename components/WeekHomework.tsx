@@ -20,6 +20,7 @@ import DualValidationMapMathWeek1 from "./DualValidationMapMathWeek1";
 import DualValidationMapMathWeek2 from "./DualValidationMapMathWeek2";
 import DualValidationMapMathWeek3 from "./DualValidationMapMathWeek3";
 import OfficialClip from "./OfficialClip";
+import WeikeMiniLesson from "./WeikeMiniLesson";
 
 type Question = {
   id: string;
@@ -385,7 +386,7 @@ export default function WeekHomework({
             />
           )}
 
-          {/* Video player or coming soon message */}
+          {/* Video player or mini-lesson */}
           {week.videoUrl ? (
             <div className="bg-card border border-line rounded-xl p-5">
               <h3 className="font-semibold text-ink mb-3">🎬 播放本周微课 / Watch this week's micro-lesson</h3>
@@ -415,12 +416,7 @@ export default function WeekHomework({
               </div>
             </div>
           ) : !(week.officialClipId && week.officialClipCredit) && (
-            <div className="bg-card border border-line rounded-xl p-5">
-              <h3 className="font-semibold text-ink mb-3">🎬 本周微课</h3>
-              <p className="text-sm text-ink-2">
-                本周微课即将上线，请先查看上方的纠错焦点，然后直接开始下方作业练习。
-              </p>
-            </div>
+            <WeikeMiniLesson level={week.level} weekNumber={week.weekNumber} />
           )}
         </div>
       )}

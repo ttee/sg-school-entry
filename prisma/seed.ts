@@ -937,8 +937,8 @@ Useful phrases (use past simple!):
       parentBrief: "本周纠错焦点：可数/不可数名词 + 量词（some/any、much/many、a lot of）。中文量词系统不同，孩子会说 two breads、how many rice?、I need some waters。英语可数名词有复数：apples, bottles；不可数名词无复数：water, bread, rice。问可数用 How many + 复数，问不可数用 How much + 单数。some/any 都可以，但疑问句和否定句常用 any。本周作业会反复纠正这些高频错误。",
       videoUrl: null,
       kaizenFocus: "Use some/any correctly; count vs non-count nouns; How many/How much",
-      officialClipId: null,
-      officialClipCredit: null,
+      officialClipId: "KbrSWbuWtmc",
+      officialClipCredit: "片源 Super Simple Songs 官方频道。The Ice Cream Song。本站不拥有该片，仅嵌入官方 YouTube。孩子先听 how many scoops，再练 some / any / much / many。",
       questions: [
         {
           type: "reading",
@@ -1046,8 +1046,6 @@ Write your email to Alex (50-70 words). Answer ALL the questions.
           type: "listening",
           order: 4,
           content: `听读练习 / Listening Preparation (read carefully)
-
-Note: Since no audio file exists yet, read the script carefully and then answer the questions.
 
 Mum: Priya, I'm making a shopping list for tomorrow. Can you help me?
 
@@ -1252,10 +1250,6 @@ Write your email to Sam (50-70 words). Answer ALL the questions.
           order: 4,
           content: `听读练习 / Listening Preparation (read carefully)
 
-Note: Since no audio file exists yet, read the script carefully and then answer the questions.
-
-先读脚本（音频稍后）
-
 Ms Tan: Good morning, everyone! Listen carefully. Our Sports Day is next Friday. We'll meet at the school field at eight o'clock sharp. Don't be late!
 
 You must wear your PE uniform – that's your house T-shirt, shorts, and sports shoes. Red House wears red T-shirts, Blue House wears blue, Yellow House wears yellow, and Green House wears green. Bring a water bottle and a cap because it will be sunny.
@@ -1334,8 +1328,8 @@ AI will listen for correct use of comparatives (taller, faster, more difficult, 
       parentBrief: "本周纠错焦点：时间介词 at / in / on。中文用「在」表达所有时间（在周一、在早上、在七点），孩子会说 in Monday、on morning、in 7 o'clock。英语规则：at + 钟点时间（at 7 o'clock, at night, at the weekend），in + 时段/月份/年份（in the morning, in July, in 2026），on + 星期/日期（on Monday, on 12 September）。本周作业会反复练习这三个介词的正确搭配。",
       videoUrl: null,
       kaizenFocus: "Use at for clock times and specific moments (at 7 o'clock, at night, at the weekend); in for parts of day, months, years (in the morning, in July); on for days and dates (on Monday, on 12 September)",
-      officialClipId: null,
-      officialClipCredit: null,
+      officialClipId: "loINl3Ln6Ck",
+      officialClipCredit: "片源 Super Simple Songs 官方频道。Days of the Week。本站不拥有该片，仅嵌入官方 YouTube。孩子先听 on Monday / on Tuesday，再练 at 7 o'clock / in the morning / on Monday。",
       questions: [
         {
           type: "reading",
@@ -1431,10 +1425,6 @@ Write your email to Alex (50-70 words). Answer ALL the questions.
           type: "listening",
           order: 4,
           content: `听读练习 / Listening Preparation (read carefully)
-
-Note: Since no audio file exists yet, read the script carefully and then answer the questions.
-
-先读脚本（音频稍后）
 
 Mei: Hi Priya! What are your plans for this weekend?
 
@@ -2168,8 +2158,8 @@ Useful phrases:
       parentBrief: "本周纠错焦点：间接引语（reported speech）——said/told + 时态后移。孩子会说 He said me that...（应该是 told me）、He said he will go（应该是 would go，时态要后移）、She told that...（漏掉宾语，应该是 told me that）。英语间接引语要 say + (that)，tell + 人 + (that)，主句过去式时从句时态后移：will → would, can → could。本周作业会反复练习这三个高危点。",
       videoUrl: null,
       kaizenFocus: "said (that) vs told sb (that); tense backshift in reported speech (will→would, can→could)",
-      officialClipId: null,
-      officialClipCredit: null,
+      officialClipId: "xF_Q2anYOfc",
+      officialClipCredit: "片源 Cambridge English 官方频道，B1 Preliminary for Schools 口语样例。本站与剑桥无隶属。孩子先听两人怎么说，再练 she said / he told us。",
       questions: [
         {
           type: "reading",
@@ -2263,8 +2253,6 @@ In your email:
           type: "listening",
           order: 4,
           content: `听读练习 / Listening Preparation
-
-先读脚本（音频稍后）
 
 [At the school canteen after morning assembly]
 

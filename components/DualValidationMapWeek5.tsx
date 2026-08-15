@@ -59,13 +59,13 @@ export default function DualValidationMapWeek5() {
             </tr>
             <tr className="border-b border-accent/10">
               <td className="px-3 py-3 text-ink align-top">
-                <strong>听力</strong><br />通知：Ms Tan 讲运动会安排<br /><span className="text-xs text-muted">（先读脚本，音频稍后）</span>
+                <strong>听力</strong><br />通知：Ms Tan 讲运动会安排
               </td>
               <td className="px-3 py-3 text-ink-2 align-top">
                 <strong>听力通知</strong><br />5 道选择题
               </td>
               <td className="px-3 py-3 text-ink-2 align-top">
-                读通知脚本（Ms Tan 宣布运动会下周五、穿house T恤、带水壶和帽子、第一项是 100 米、12 点颁奖），做 5 道选择题；音频稍后更新
+                读通知脚本（Ms Tan 宣布运动会下周五、穿house T恤、带水壶和帽子、第一项是 100 米、12 点颁奖），做 5 道选择题
               </td>
             </tr>
             <tr>
