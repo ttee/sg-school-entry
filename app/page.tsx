@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function HomePage() {
   const wechatId = process.env.NEXT_PUBLIC_WECHAT_ID;
-  const contactEmail = process.env.NEXT_PUBLIC_CONTACT_EMAIL;
+  const contactEmail = process.env.NEXT_PUBLIC_CONTACT_EMAIL || "pangtee@gmail.com";
   const payNowNumber = process.env.NEXT_PUBLIC_PAYNOW || "94594601";
 
   return (
