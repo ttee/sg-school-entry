@@ -62,6 +62,15 @@ export default function WeikeMiniLesson({ level, weekNumber }: WeikeMiniLessonPr
       ],
       gloss: "正方体 cube（6 个正方形面）vs 长方体 cuboid（6 个长方形面）；圆柱 cylinder（2 个圆形面）；圆锥 cone；球体 sphere。平面图形规律按 size / shape / colour / orientation 找下一个。"
     },
+    "MATH-5": {
+      fossil: "4 pictures means 4 children",
+      examples: [
+        "Each ⭐ stands for 2. 4 stars → 4 × 2 = 8.",
+        "Apple 8, orange 6. Apple has 2 more.",
+        "Each ⭐ stands for 5. 3 stars → 15."
+      ],
+      gloss: "象形统计图有单位。Each picture stands for 2 / 5 / 10。先看 1 个图代表几个，再乘。不要数图就当答案。"
+    },
     "A2-7": {
       fossil: "I going to the library tomorrow / I go to swim / Tomorrow I go library",
       examples: [

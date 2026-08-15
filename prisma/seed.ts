@@ -363,6 +363,63 @@ He paid with a $50 note.
         },
       ],
     },
+    {
+      level: "MATH",
+      weekNumber: 5,
+      title: "数学 第 5 周 / Maths Week 5",
+      description: "AEIS-Primary P2 Mathematics: Picture graphs with scales",
+      isSample: false,
+      errorFocus: null,
+      parentBrief: "本周主题：带单位的象形统计图（对应 MOE 小学 P2 数学大纲 Statistics）。P1 学过每个图代表 1 个物品。本周 P2 的新知识点是单位：每个图代表 2 个、5 个或 10 个。孩子要先看「Each ⭐ stands for 2」，再数有几个图，然后乘出总数（4 个 ⭐ × 2 = 8），最后比较大小或求差。常见化石：数了 4 个图就写 4，忘了乘单位。题目是简体中文家长说明 + 英文题干。本周配有双向对照表，显示题目对应的官方 2021 Primary Mathematics Syllabus P2 Statistics 内容点（Picture graphs with scales 1.1），以及 MOE AEIS 的「preceding level」规则（申请 P3 → 掌握 P2 内容）。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: `Read each question and choose the correct answer.`,
+          options: JSON.stringify([
+            "Ms Tan's class voted for their favourite fruit. Each 🍎 stands for 2 children. The picture graph shows: Apple 🍎🍎🍎🍎  Orange 🍊🍊🍊  Banana 🍌🍌. How many children chose apple?|A. 4|B. 6|C. 8|D. 10",
+            "At Tampines library, the librarian recorded books borrowed in one week. Each 📚 stands for 5 books. Story books 📚📚📚  Science books 📚📚  Picture books 📚📚📚📚. Which type had the most books borrowed?|A. Story books|B. Science books|C. Picture books|D. All the same",
+            "Priya counted transport to school. Each 🚗 stands for 2 students. Car 🚗🚗🚗  Bus 🚗🚗🚗🚗🚗  Walk 🚗🚗. How many students walk to school?|A. 2|B. 3|C. 4|D. 5",
+            "At Bedok canteen, Jun Wei recorded drinks sold on Monday. Each ☕ stands for 10 cups. Milo ☕☕☕  Water ☕☕  Tea ☕. How many more cups of Milo than tea were sold?|A. 1|B. 2|C. 10|D. 20",
+            "The P2 class voted for CCA choice. Each ⭐ stands for 5 children. Football ⭐⭐  Art ⭐⭐⭐  Music ⭐⭐. How many children voted for Art?|A. 3|B. 10|C. 12|D. 15",
+          ]),
+          correctAnswer: "C,C,C,D,D",
+          points: 5,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: `Choose the correct answer for each question.`,
+          options: JSON.stringify([
+            "At Toa Payoh library story time, Ms Tan recorded attendance. Each 👧 stands for 2 children. Week 1 👧👧👧  Week 2 👧👧👧👧  Week 3 👧👧. How many children came in Week 2?|A. 4|B. 6|C. 8|D. 10",
+            "Mei counted birds at East Coast Park. Each 🦜 stands for 5 birds. Monday 🦜🦜  Tuesday 🦜🦜🦜  Wednesday 🦜. How many birds did she count on Tuesday?|A. 3|B. 10|C. 15|D. 20",
+            "The school canteen sold ice cream. Each 🍦 stands for 10 ice creams. Chocolate 🍦🍦  Vanilla 🍦🍦🍦  Strawberry 🍦. Which flavour sold the least?|A. Chocolate|B. Vanilla|C. Strawberry|D. Chocolate and Strawberry",
+            "Jun Wei recorded homework time. Each ⏰ stands for 5 minutes. Maths ⏰⏰⏰  English ⏰⏰  Science ⏰⏰⏰⏰. How many minutes did he spend on Science?|A. 4|B. 15|C. 20|D. 25",
+            "At Bedok swimming pool, Priya counted swimmers. Each 🏊 stands for 2 people. Morning 🏊🏊🏊🏊  Afternoon 🏊🏊🏊. How many fewer people swam in the afternoon than in the morning?|A. 1|B. 2|C. 3|D. 4",
+          ]),
+          correctAnswer: "C,C,C,C,B",
+          points: 5,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `At Tampines Primary School, Ms Tan asked her class to vote for their favourite subject. She made a picture graph. Each 📖 stands for 5 children.
+
+Maths 📖📖📖
+English 📖📖📖📖
+Science 📖📖
+Art 📖📖📖📖📖
+
+(a) How many children voted for English? Show your working.
+(b) How many more children like Art than Science? Show your working.
+
+写出算式和答案。`,
+          points: 10,
+        },
+      ],
+    },
     
     // A2 WEEKS
     {
