@@ -256,6 +256,61 @@ He paid with a $50 note.
         },
       ],
     },
+    {
+      level: "MATH",
+      weekNumber: 3,
+      title: "数学 第 3 周 / Maths Week 3",
+      description: "AEIS-Primary P2 Mathematics: Length, Mass, Volume and Time",
+      isSample: false,
+      errorFocus: null,
+      parentBrief: "本周主题：长度、质量、容积与时间（对应 MOE 小学 P2 数学大纲 Measurement and Geometry）。孩子会练习用米（m）测量长度、用千克（kg）和克（g）测量质量、用升（ℓ）测量容积，学会比较和排序这些量。还会练习看时钟读时间到分钟、测量小时和分钟、进行小时和分钟之间的转换（1 小时 = 60 分钟）。题目是简体中文家长说明 + 英文题干。本周配有双向对照表，显示题目对应的官方 2021 Primary Mathematics Syllabus 内容点，以及 MOE AEIS 的「preceding level」规则（申请 P3 → 掌握 P2 内容）。不编造 CES 分数、不承诺包过。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: `Read each question and choose the correct answer.`,
+          options: JSON.stringify([
+            "At Tampines library, the bookshelf is 2 metres tall and the study table is 1 metre tall. How much taller is the bookshelf than the study table?|A. 1 m|B. 2 m|C. 3 m|D. 4 m",
+            "A hawker stall has a bag of rice with a mass of 5 kilograms and a bag of flour with a mass of 2 kilograms. How much heavier is the rice than the flour?|A. 2 kg|B. 3 kg|C. 5 kg|D. 7 kg",
+            "At Bedok MRT station, the water dispenser holds 8 litres of water. 3 litres have been used. How many litres of water are left?|A. 3 ℓ|B. 5 ℓ|C. 8 ℓ|D. 11 ℓ",
+            "The clock shows that the hour hand is on 3 and the minute hand is on 6. What time is it?|A. 3:00|B. 3:30|C. 6:00|D. 6:30",
+            "At Toa Payoh library, a blue ribbon is 8 metres long and a red ribbon is 5 metres long. How much longer is the blue ribbon than the red ribbon?|A. 3 m|B. 5 m|C. 8 m|D. 13 m",
+          ]),
+          correctAnswer: "A,B,B,B,A",
+          points: 5,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: `Choose the correct answer for each question.`,
+          options: JSON.stringify([
+            "Which unit is used to measure the length of a classroom?|A. Grams|B. Litres|C. Metres|D. Kilograms",
+            "Which unit should you use to measure the mass of a bag of apples?|A. Metres|B. Litres|C. Grams or kilograms|D. Minutes",
+            "Which container holds the most liquid?|A. 3 litres|B. 5 litres|C. 2 litres|D. 4 litres",
+            "What time is shown on the clock when the hour hand is between 3 and 4, and the minute hand is on 6?|A. 3:00|B. 3:30|C. 4:00|D. 4:30",
+            "How many minutes are in 2 hours?|A. 60 minutes|B. 90 minutes|C. 120 minutes|D. 200 minutes",
+            "Compare: 4 kg ___ 3 kg|A. =|B. >|C. <|D. Cannot tell",
+            "Jun Wei studies for 1 hour and 45 minutes. How many minutes is that?|A. 45 minutes|B. 75 minutes|C. 105 minutes|D. 145 minutes",
+            "Arrange these lengths from shortest to longest: 7 m, 2 m, 5 m, 9 m|A. 2 m, 5 m, 7 m, 9 m|B. 9 m, 7 m, 5 m, 2 m|C. 2 m, 7 m, 5 m, 9 m|D. 5 m, 2 m, 7 m, 9 m",
+          ]),
+          correctAnswer: "C,C,B,B,C,B,C,A",
+          points: 8,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `At the school sports day in Tampines Primary School, the teachers set up a relay race. The race track is 8 metres long for each runner. There are 3 runners in Team A.
+
+(a) What is the total length that Team A will run? Show your working.
+(b) The race starts at 9:00 in the morning. Each runner takes 2 minutes to complete their part. How long does the whole race take for Team A? Show your working.
+
+写出算式和答案。`,
+          points: 10,
+        },
+      ],
+    },
     
     // A2 WEEKS
     {
