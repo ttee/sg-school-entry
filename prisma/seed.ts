@@ -2816,6 +2816,114 @@ DO NOT write: although + but / despite of / despite + clause without noun
         },
       ],
     },
+    {
+      level: "B1",
+      weekNumber: 8,
+      title: "Week 8: Such a Busy Week",
+      description: "Using so and such to make descriptions stronger",
+      isSample: false,
+      dueDate: new Date("2026-10-22"),
+      errorFocus: "so-such",
+      parentBrief: "本周纠错焦点：so / such。中文「这么 / 那么」不区分 so / such，孩子会说 so a beautiful park / such beautiful / so beautiful park / such a weather。英语规则：so + 形容词（so tired, so interesting）；such a/an + 形容词 + 单数可数名词（such a beautiful park）；such + 形容词 + 不可数或复数（such bad weather, such friendly teachers）。本周不把 too/enough 作为目标（可能作为错误选项出现）。",
+      videoUrl: null,
+      kaizenFocus: "Use so + adjective and such (+ a/an) + adjective + noun",
+      officialClipId: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: `Read Mei's email:
+
+From: Mei
+To: Priya
+Subject: Such a Long Saturday!
+
+Hi Priya,
+
+Last Saturday was so tiring! Let me tell you what happened.
+
+In the morning, Ms Tan organised a school concert rehearsal. We arrived at 8 a.m. The hall was so crowded with students from every class! Jun Wei and I were in the choir. We had to practise for such a long time – three hours without a break! My legs were so sore from standing. But Ms Tan was so patient with us. She said, "You're making such good progress! One more run-through and we'll be ready."
+
+After rehearsal, I was so hungry. Mum had packed me such a big lunch – chicken rice, fruit, and mango pudding! Jun Wei forgot his lunch, so I shared mine with him. He was so grateful.
+
+In the afternoon, it started raining. The rain was so heavy that we couldn't go home yet. Ms Tan said, "It's such terrible weather! Everyone wait in the hall." We waited for such a long time. Some parents called to say the roads near East Coast were flooded. It was so frustrating to be stuck at school!
+
+But then something nice happened. Mr Kumar, our PE teacher, had such a brilliant idea. He said, "Let's play indoor games!" We played charades and board games. Jun Wei was so funny acting out different animals. Everyone was laughing so hard! Even though we were tired, we had such a good time.
+
+By 5 p.m., the rain stopped. Mum finally came to pick me up. She was so relieved to see me. She said, "I was so worried! The traffic was terrible." On the way home, we saw such deep puddles on the roads. Some cars were moving so slowly through the water.
+
+When I got home, I was so exhausted that I fell asleep before dinner! Dad said I was sleeping so deeply that he couldn't wake me up. I woke up at 8 p.m. feeling so confused. Mum had saved me such a delicious dinner – my favourite laksa!
+
+Looking back, it was such a long day. But I learned something: even when you're so tired and things don't go as planned, good friends and kind teachers can make such a difference. Ms Tan and Mr Kumar were so thoughtful, and Jun Wei made the boring parts so much fun!
+
+Anyway, how was your weekend? I hope it wasn't as tiring as mine!
+
+Write back soon!
+
+Love,
+Mei`,
+          options: JSON.stringify([
+            "How long was the morning rehearsal?|A. One hour|B. Two hours|C. Three hours|D. Four hours",
+            "Why couldn't the students leave school after rehearsal?|A. They had more practice|B. The rain was too heavy|C. The doors were locked|D. Ms Tan made them stay",
+            "What did Mr Kumar suggest when students were stuck at school?|A. Continue rehearsing|B. Do homework|C. Play indoor games|D. Call parents",
+            "How did Mei feel when she got home?|A. So excited|B. So angry|C. So exhausted|D. So happy",
+            "What did Mei learn from the experience?|A. Always bring an umbrella|B. Don't go to school on Saturdays|C. Good friends and kind teachers make a difference|D. Rehearsals are boring",
+          ]),
+          correctAnswer: "C,B,C,C,C",
+          points: 5,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: `Choose the correct word for each gap:
+
+A Busy School Week
+by Jun Wei, Primary 5
+
+Last week was (1) ____ busy week at school. On Monday, we had (2) ____ much homework that I stayed up late. I was (3) ____ tired on Tuesday morning!
+
+On Wednesday, our class went to the Science Centre. The exhibitions were (4) ____ interesting! We saw (5) ____ amazing experiments with electricity and light. Our guide was (6) ____ helpful person – she answered all our questions.`,
+          options: JSON.stringify([
+            "(1)|A. so|B. such|C. such a|D. so a",
+            "(2)|A. such|B. such a|C. so|D. so a",
+            "(3)|A. such|B. so|C. such a|D. so a",
+            "(4)|A. such|B. so a|C. so|D. such a",
+            "(5)|A. so|B. such a|C. such|D. so a",
+            "(6)|A. so|B. such|C. so a|D. such a",
+          ]),
+          correctAnswer: "C,C,B,C,C,D",
+          points: 6,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `Write an email to your friend (100-120 words).
+
+Your friend asked you to describe a day that was unusually good or unusually difficult.
+
+In your email:
+• Say what day it was and what you did
+• Describe why it was special (very good or very difficult)
+• Explain how you felt
+• Say what you learned or how it ended
+
+You MUST use "so + adjective" at least once and "such (+ a/an) + adjective + noun" at least once.
+
+DO NOT write: so + noun / so a + noun / such + adjective alone (without noun)
+
+成功标准 / Success Criteria:
+✓ So + 形容词 (so + adjective: so tired, so interesting, so happy)
+✓ Such a/an + 形容词 + 单数名词 (such a + adjective + singular noun: such a good day, such an interesting book)
+✓ Such + 形容词 + 不可数/复数 (such + adjective + uncountable/plural: such bad weather, such friendly people)
+✓ 不要写 so + 名词 或 so a (Don't write: so beautiful park / so a day)
+✓ 不要写 such + 形容词 alone (Don't write: such beautiful without noun)
+✓ 描述为什么这一天特别 (Explain why the day was special)
+✓ 邮件格式 (Email format: greeting, paragraphs, closing)
+✓ 100-120词 (100-120 words)`,
+          points: 10,
+        },
+      ],
+    },
 
     // Week 7: going to future
     {
