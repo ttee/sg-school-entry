@@ -3292,7 +3292,7 @@ My favourite teacher is Ms Tan. She (3) ____ to class early. She is very kind an
 After school, I (6) ____ tired because we have so many activities. But I love my school and my friends!`,
           options: JSON.stringify([
             "(1)|A. always walk|B. walk always|C. am always walk|D. always am walk",
-            "(2)|A. am never late|B. never am late|C. am late never|D. late never am",
+            "(2)|A. never take the bus|B. take never the bus|C. am never take the bus|D. never am take the bus",
             "(3)|A. always come|B. always comes|C. come always|D. comes always",
             "(4)|A. never is|B. is never|C. not never is|D. never be",
             "(5)|A. often|B. often is|C. is often|D. often does",
