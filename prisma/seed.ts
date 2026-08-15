@@ -99,56 +99,13 @@ async function main() {
         {
           type: "reading",
           order: 1,
-          content: `阅读理解 / Reading Comprehension
-
-**家长说明（简体中文）：**
-本题是数学应用题，配合新加坡情境。孩子需要读懂英文题目，然后从选项中选择正确答案。
-
-**Question 1:**
-At a bookshop in Bedok, Jun Wei bought 2 storybooks for $8 each and 1 pencil case for $5. How much did he spend in total?
-
-A. $13
-B. $16
-C. $21
-D. $26
-
-**Question 2:**
-Mei has $50. She wants to buy a schoolbag for $32 and a water bottle for $12. Does she have enough money?
-
-A. Yes, she has $6 left
-B. Yes, she has $8 left
-C. No, she needs $4 more
-D. No, she needs $6 more
-
-**Question 3:**
-A hawker centre has 345 seats. 128 seats are occupied. How many seats are empty?
-
-A. 117
-B. 217
-C. 227
-D. 473
-
-**Question 4:**
-Sarah counts her savings. She has three $10 notes, five $2 coins, and eight 50-cent coins. How much money does she have?
-
-A. $38
-B. $40
-C. $44
-D. $48
-
-**Question 5:**
-A library has 680 English books and 215 Chinese books. How many books are there in total?
-
-A. 465
-B. 795
-C. 895
-D. 905`,
+          content: `Read each question and choose the correct answer.`,
           options: JSON.stringify([
-            "Question 1|A. $13|B. $16|C. $21|D. $26",
-            "Question 2|A. Yes, she has $6 left|B. Yes, she has $8 left|C. No, she needs $4 more|D. No, she needs $6 more",
-            "Question 3|A. 117|B. 217|C. 227|D. 473",
-            "Question 4|A. $38|B. $40|C. $44|D. $48",
-            "Question 5|A. 465|B. 795|C. 895|D. 905",
+            "At a bookshop in Bedok, Jun Wei bought 2 storybooks for $8 each and 1 pencil case for $5. How much did he spend in total?|A. $13|B. $16|C. $21|D. $26",
+            "Mei has $50. She wants to buy a schoolbag for $32 and a water bottle for $12. Does she have enough money?|A. Yes, she has $6 left|B. Yes, she has $8 left|C. No, she needs $4 more|D. No, she needs $6 more",
+            "A hawker centre has 345 seats. 128 seats are occupied. How many seats are empty?|A. 117|B. 217|C. 227|D. 473",
+            "Sarah counts her savings. She has three $10 notes, five $2 coins, and eight 50-cent coins. How much money does she have?|A. $38|B. $40|C. $44|D. $48",
+            "A library has 680 English books and 215 Chinese books. How many books are there in total?|A. 465|B. 795|C. 895|D. 905",
           ]),
           correctAnswer: "C,A,B,C,C",
           points: 5,
@@ -156,75 +113,16 @@ D. 905`,
         {
           type: "grammar",
           order: 2,
-          content: `数学选择题 / Mathematics Multiple Choice
-
-**家长说明（简体中文）：**
-本题练习数字比较、加减计算、钱币换算。这些是 P2 数学的核心技能，也是 AEIS P2/P3 数学考试的基础内容。
-
-**Question 1:**
-Which number is the greatest?
-A. 456
-B. 654
-C. 546
-D. 465
-
-**Question 2:**
-What is 725 - 389?
-A. 336
-B. 346
-C. 436
-D. 1114
-
-**Question 3:**
-Arrange these numbers from smallest to greatest: 802, 280, 820, 208
-A. 208, 280, 802, 820
-B. 802, 820, 280, 208
-C. 280, 208, 820, 802
-D. 208, 820, 280, 802
-
-**Question 4:**
-How many cents are there in $6.75?
-A. 75 cents
-B. 675 cents
-C. 6075 cents
-D. 7560 cents
-
-**Question 5:**
-Which amount is the same as 5 dollars and eight 10-cent coins?
-A. $5.08
-B. $5.80
-C. $58.00
-D. $50.80
-
-**Question 6:**
-Raju has two $5 notes, three $2 coins, and five 20-cent coins. How much does he have?
-A. $15.00
-B. $16.00
-C. $17.00
-D. $17.20
-
-**Question 7:**
-What is 348 + 276?
-A. 514
-B. 524
-C. 614
-D. 624
-
-**Question 8:**
-Compare: 539 ___ 593
-A. =
-B. >
-C. <
-D. Cannot tell`,
+          content: `Choose the correct answer for each question.`,
           options: JSON.stringify([
-            "Question 1|A. 456|B. 654|C. 546|D. 465",
-            "Question 2|A. 336|B. 346|C. 436|D. 1114",
-            "Question 3|A. 208, 280, 802, 820|B. 802, 820, 280, 208|C. 280, 208, 820, 802|D. 208, 820, 280, 802",
-            "Question 4|A. 75 cents|B. 675 cents|C. 6075 cents|D. 7560 cents",
-            "Question 5|A. $5.08|B. $5.80|C. $58.00|D. $50.80",
-            "Question 6|A. $15.00|B. $16.00|C. $17.00|D. $17.20",
-            "Question 7|A. 514|B. 524|C. 614|D. 624",
-            "Question 8|A. =|B. >|C. <|D. Cannot tell",
+            "Which number is the greatest?|A. 456|B. 654|C. 546|D. 465",
+            "What is 725 - 389?|A. 336|B. 346|C. 436|D. 1114",
+            "Arrange these numbers from smallest to greatest: 802, 280, 820, 208|A. 208, 280, 802, 820|B. 802, 820, 280, 208|C. 280, 208, 820, 802|D. 208, 820, 280, 802",
+            "How many cents are there in $6.75?|A. 75 cents|B. 675 cents|C. 6075 cents|D. 7560 cents",
+            "Which amount is the same as 5 dollars and eight 10-cent coins?|A. $5.08|B. $5.80|C. $58.00|D. $50.80",
+            "Raju has two $5 notes, three $2 coins, and five 20-cent coins. How much does he have?|A. $15.00|B. $16.00|C. $17.00|D. $17.20",
+            "What is 348 + 276?|A. 514|B. 524|C. 614|D. 624",
+            "Compare: 539 ___ 593|A. =|B. >|C. <|D. Cannot tell",
           ]),
           correctAnswer: "B,A,A,B,B,C,D,C",
           points: 8,
@@ -232,13 +130,7 @@ D. Cannot tell`,
         {
           type: "writing",
           order: 3,
-          content: `数学应用题（需写出算式和答案）/ Word Problem (Show Your Working)
-
-**家长说明（简体中文）：**
-本题是 open-ended question，孩子需要写出计算步骤和答案。这对应 AEIS P2/P3 数学考试 Part 2 的 short-answer questions，需要展示 working steps。
-
-**Question:**
-At a canteen in Tampines, Ali bought the following items for his family:
+          content: `At a canteen in Tampines, Ali bought the following items for his family:
 - 3 plates of chicken rice at $4 each
 - 2 bowls of laksa at $5 each
 - 4 cups of drinks at $2 each
@@ -248,18 +140,7 @@ He paid with a $50 note.
 (a) How much did Ali spend in total? Show your working.
 (b) How much change did he receive?
 
-**成功标准 / Success Criteria:**
-✓ 写出每一步计算过程（Show all working steps）
-✓ 标注单位（$）
-✓ 最终答案清晰（Circle or underline your final answer）
-
-**提示 / Hint:**
-You may use this format:
-Cost of chicken rice = 3 × $4 = $___
-Cost of laksa = 2 × $5 = $___
-Cost of drinks = 4 × $2 = $___
-Total cost = $___ + $___ + $___ = $___
-Change = $___ - $___ = $___`,
+写出算式和答案，标注 $.`,
           points: 10,
         },
       ],
@@ -278,56 +159,13 @@ Change = $___ - $___ = $___`,
         {
           type: "reading",
           order: 1,
-          content: `阅读理解 / Reading Comprehension
-
-**家长说明（简体中文）：**
-本题是数学应用题，配合新加坡情境。孩子需要读懂英文题目，理解乘法和除法的实际运用，然后从选项中选择正确答案。
-
-**Question 1:**
-At a canteen stall, chicken drumsticks are sold in packs of 3. Mrs Tan bought 5 packs. How many chicken drumsticks did she buy?
-
-A. 8
-B. 12
-C. 15
-D. 18
-
-**Question 2:**
-A gardener plants flowers in rows. Each row has 4 flowers. He planted 6 rows. How many flowers did he plant in total?
-
-A. 10
-B. 20
-C. 24
-D. 28
-
-**Question 3:**
-Ali saved $5 every week for 8 weeks. How much money did he save in total?
-
-A. $13
-B. $35
-C. $40
-D. $45
-
-**Question 4:**
-There are 20 apples. The apples are shared equally among 4 children. How many apples does each child get?
-
-A. 4
-B. 5
-C. 16
-D. 24
-
-**Question 5:**
-A bookshop has 30 notebooks. The notebooks are arranged equally on 5 shelves. How many notebooks are on each shelf?
-
-A. 5
-B. 6
-C. 10
-D. 25`,
+          content: `Read each question and choose the correct answer.`,
           options: JSON.stringify([
-            "Question 1|A. 8|B. 12|C. 15|D. 18",
-            "Question 2|A. 10|B. 20|C. 24|D. 28",
-            "Question 3|A. $13|B. $35|C. $40|D. $45",
-            "Question 4|A. 4|B. 5|C. 16|D. 24",
-            "Question 5|A. 5|B. 6|C. 10|D. 25",
+            "At a canteen stall, chicken drumsticks are sold in packs of 3. Mrs Tan bought 5 packs. How many chicken drumsticks did she buy?|A. 8|B. 12|C. 15|D. 18",
+            "A gardener plants flowers in rows. Each row has 4 flowers. He planted 6 rows. How many flowers did he plant in total?|A. 10|B. 20|C. 24|D. 28",
+            "Ali saved $5 every week for 8 weeks. How much money did he save in total?|A. $13|B. $35|C. $40|D. $45",
+            "There are 20 apples. The apples are shared equally among 4 children. How many apples does each child get?|A. 4|B. 5|C. 16|D. 24",
+            "A bookshop has 30 notebooks. The notebooks are arranged equally on 5 shelves. How many notebooks are on each shelf?|A. 5|B. 6|C. 10|D. 25",
           ]),
           correctAnswer: "C,C,C,B,B",
           points: 5,
@@ -335,75 +173,16 @@ D. 25`,
         {
           type: "grammar",
           order: 2,
-          content: `数学选择题 / Mathematics Multiple Choice
-
-**家长说明（简体中文）：**
-本题练习 2、3、4、5、10 的乘法和除法。这些是 P2 数学的核心技能，也是 AEIS P2/P3 数学考试的基础内容。
-
-**Question 1:**
-What is 3 × 5?
-A. 8
-B. 12
-C. 15
-D. 18
-
-**Question 2:**
-What is 4 × 6?
-A. 10
-B. 20
-C. 24
-D. 28
-
-**Question 3:**
-What is 10 × 7?
-A. 17
-B. 60
-C. 70
-D. 80
-
-**Question 4:**
-What is 18 ÷ 3?
-A. 3
-B. 6
-C. 9
-D. 15
-
-**Question 5:**
-What is 20 ÷ 4?
-A. 4
-B. 5
-C. 16
-D. 24
-
-**Question 6:**
-Which number sentence is correct?
-A. 2 × 8 = 14
-B. 3 × 7 = 21
-C. 4 × 5 = 24
-D. 5 × 6 = 35
-
-**Question 7:**
-15 ÷ 5 = ?
-A. 3
-B. 5
-C. 10
-D. 20
-
-**Question 8:**
-Which of these is equal to 24?
-A. 4 × 6
-B. 4 × 5
-C. 5 × 5
-D. 10 × 3`,
+          content: `Choose the correct answer for each question.`,
           options: JSON.stringify([
-            "Question 1|A. 8|B. 12|C. 15|D. 18",
-            "Question 2|A. 10|B. 20|C. 24|D. 28",
-            "Question 3|A. 17|B. 60|C. 70|D. 80",
-            "Question 4|A. 3|B. 6|C. 9|D. 15",
-            "Question 5|A. 4|B. 5|C. 16|D. 24",
-            "Question 6|A. 2 × 8 = 14|B. 3 × 7 = 21|C. 4 × 5 = 24|D. 5 × 6 = 35",
-            "Question 7|A. 3|B. 5|C. 10|D. 20",
-            "Question 8|A. 4 × 6|B. 4 × 5|C. 5 × 5|D. 10 × 3",
+            "What is 3 × 5?|A. 8|B. 12|C. 15|D. 18",
+            "What is 4 × 6?|A. 10|B. 20|C. 24|D. 28",
+            "What is 10 × 7?|A. 17|B. 60|C. 70|D. 80",
+            "What is 18 ÷ 3?|A. 3|B. 6|C. 9|D. 15",
+            "What is 20 ÷ 4?|A. 4|B. 5|C. 16|D. 24",
+            "Which number sentence is correct?|A. 2 × 8 = 14|B. 3 × 7 = 21|C. 4 × 5 = 24|D. 5 × 6 = 35",
+            "15 ÷ 5 = ?|A. 3|B. 5|C. 10|D. 20",
+            "Which of these is equal to 24?|A. 4 × 6|B. 4 × 5|C. 5 × 5|D. 10 × 3",
           ]),
           correctAnswer: "C,C,C,B,B,B,A,A",
           points: 8,
@@ -411,26 +190,12 @@ D. 10 × 3`,
         {
           type: "writing",
           order: 3,
-          content: `数学应用题（需写出算式和答案）/ Word Problem (Show Your Working)
-
-**家长说明（简体中文）：**
-本题是 open-ended question，孩子需要写出计算步骤和答案。这对应 AEIS P2/P3 数学考试 Part 2 的 short-answer questions，需要展示 working steps。
-
-**Question:**
-At Jurong Point shopping centre, the toy shop is having a sale. A toy car costs $4. Jun Wei wants to buy 3 toy cars for his cousins.
+          content: `At Jurong Point shopping centre, the toy shop is having a sale. A toy car costs $4. Jun Wei wants to buy 3 toy cars for his cousins.
 
 (a) How much will 3 toy cars cost in total? Show your working.
 (b) Jun Wei has $20. After buying the 3 toy cars, how much money will he have left?
 
-**成功标准 / Success Criteria:**
-✓ 写出每一步计算过程（Show all working steps）
-✓ 标注单位（$）
-✓ 最终答案清晰（Circle or underline your final answer）
-
-**提示 / Hint:**
-You may use this format:
-(a) Cost of 3 toy cars = 3 × $4 = $___
-(b) Money left = $___ - $___ = $___`,
+写出算式和答案，标注 $.`,
           points: 10,
         },
       ],
