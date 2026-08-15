@@ -2548,6 +2548,106 @@ Useful phrases:
         },
       ],
     },
+    {
+      level: "B1",
+      weekNumber: 6,
+      title: "Week 6: When We Were Younger",
+      description: "Talking about past habits with used to",
+      isSample: false,
+      dueDate: new Date("2026-10-08"),
+      errorFocus: "used-to-past-habits",
+      parentBrief: "本周纠错焦点：used to 表示过去习惯。中文用「以前…」不变形，孩子会说 I use to walk to school（漏 d）、I used go home（漏 to）、I didn't used to like rice（否定时 used 不该带 d）、I am used to swim（混淆 be used to + -ing）。英语规则：used to + 动词原形表示过去常做（现在不做了）；否定是 didn't use to + 动词原形（use 不带 d）。本周只教 used to 表过去习惯，不教 be used to + -ing（习惯于）。",
+      videoUrl: null,
+      kaizenFocus: "Use used to + infinitive for past habits and states; didn't use to + infinitive for the negative",
+      officialClipId: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: `Read Priya's email:
+
+From: Priya
+To: Emma (London)
+Subject: How Primary School Used to Be
+
+Hi Emma,
+
+Thanks for asking about my primary school life! Things are quite different now compared to when I was in Primary One and Two.
+
+When I was younger, I used to walk to school every morning with my mum. We used to leave home at 7:15 a.m. because my school was only ten minutes away. Now I take the bus by myself because we moved to a different neighbourhood last year.
+
+In Primary One, I didn't use to like reading very much. I only read picture books, and I didn't use to finish them! But now I love reading chapter books. Last week I finished a 200-page mystery novel.
+
+My best friend Mei used to live in Guangzhou before she moved to Singapore in Primary Three. She used to go to a Chinese-medium school there. She told me she used to wear a red scarf as part of her uniform. In Guangzhou, she used to have classes from 8 a.m. to 4 p.m., which was longer than our school day here. She didn't use to speak much English back then, but now she's one of the top students in our English class!
+
+At recess in Primary One and Two, we used to play at the playground every day. We used to go on the swings and the slide. Now in Primary Five, we usually sit in the canteen and chat or do homework, because we're "too old" for the playground – that's what Jun Wei says anyway!
+
+Our class teacher Ms Tan used to teach us Mathematics in Primary Three. She used to give us mental sums at the start of every lesson. Now she teaches us English, and she doesn't use to give us mental sums anymore... wait, I mean she doesn't give us mental sums anymore! (She always corrects us when we say "doesn't use to" – it should be just "doesn't"!)
+
+I also used to be scared of speaking English in front of the class. I didn't use to volunteer to answer questions. But Ms Tan used to encourage me every week, and now I actually enjoy speaking tasks.
+
+One more thing: I used to think Science was boring in Primary One. We didn't use to do experiments back then – we only looked at pictures in textbooks. Now we do experiments in the Science lab, and it's my favourite subject!
+
+Write back and tell me what your primary school used to be like!
+
+Best wishes,
+Priya`,
+          options: JSON.stringify([
+            "How did Priya use to go to school in Primary One?|A. By bus|B. By car|C. Walking with her mum|D. By MRT",
+            "Did Priya use to like reading in Primary One?|A. Yes, she loved it|B. No, she didn't like it much|C. Yes, but only textbooks|D. She only read online",
+            "Where did Mei use to live before Singapore?|A. Beijing|B. Shanghai|C. Guangzhou|D. Hong Kong",
+            "What did Mei use to wear at her school in China?|A. A red scarf|B. A blue tie|C. A green badge|D. A yellow ribbon",
+            "What did students use to do at recess in Primary One and Two?|A. Sit in the canteen|B. Do homework|C. Play at the playground|D. Study in the library",
+          ]),
+          correctAnswer: "C,B,C,A,C",
+          points: 5,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: `Choose the correct word for each gap:
+
+Primary One Recess
+
+When I was in Primary One, recess (1) ____ very different. I (2) ____ bring my own food from home. My mother (3) ____ pack sandwiches and a drink box for me every morning.
+
+I (4) ____ buy food from the canteen at first because I was too shy. But then my friend Jun Wei (5) ____ help me order chicken rice. Now I (6) ____ to the canteen every day and order by myself!`,
+          options: JSON.stringify([
+            "(1)|A. use to be|B. used to be|C. used be|D. am used to be",
+            "(2)|A. didn't used to|B. didn't use to|C. not used to|D. am not used to",
+            "(3)|A. use to|B. used|C. used to|D. is used to",
+            "(4)|A. didn't used to|B. didn't use to|C. not use to|D. am not used to",
+            "(5)|A. use to|B. used|C. used to|D. is used to",
+            "(6)|A. am going|B. go|C. used to go|D. am used to go",
+          ]),
+          correctAnswer: "B,B,C,B,C,B",
+          points: 6,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `Write an email to your friend (100-120 words).
+
+Your friend in another country wants to know what you used to do after school when you were in Primary One.
+
+In your email:
+• Describe what you used to do after school
+• Say what you didn't use to do
+• Explain how things are different now
+
+You MUST use "used to" at least twice and "didn't use to" at least once.
+
+成功标准 / Success Criteria:
+✓ Used to + 动词原形 (used to + infinitive for past habits: I used to play…)
+✓ Didn't use to + 动词原形 (didn't use to + infinitive for negative: I didn't use to like…)
+✓ 不要写 I use to / I didn't used to / I am used to swim (Don't write: I use to / I didn't used to / I am used to + -ing)
+✓ 对比过去和现在 (Compare past and present: I used to…, but now I…)
+✓ 邮件格式 (Email format: greeting, paragraphs, closing)
+✓ 100-120词 (100-120 words)`,
+          points: 10,
+        },
+      ],
+    },
 
     // Week 7: going to future
     {
