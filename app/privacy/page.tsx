@@ -6,6 +6,9 @@ export const metadata = {
 };
 
 export default function PrivacyPage() {
+  const wechatId = process.env.NEXT_PUBLIC_WECHAT_ID;
+  const contactEmail = process.env.NEXT_PUBLIC_CONTACT_EMAIL || "pangtee@gmail.com";
+
   return (
     <>
       <a
@@ -318,9 +321,9 @@ export default function PrivacyPage() {
               <ul className="text-sm text-ink-2 space-y-1">
                 <li>
                   <strong>微信 WeChat:</strong>{" "}
-                  {process.env.NEXT_PUBLIC_WECHAT_ID ? (
+                  {wechatId ? (
                     <code className="px-2 py-0.5 bg-paper-2 rounded text-xs">
-                      {process.env.NEXT_PUBLIC_WECHAT_ID}
+                      {wechatId}
                     </code>
                   ) : (
                     <span className="text-muted">请见首页</span>
@@ -328,15 +331,13 @@ export default function PrivacyPage() {
                 </li>
                 <li>
                   <strong>邮件 Email:</strong>{" "}
-                  {process.env.NEXT_PUBLIC_CONTACT_EMAIL ? (
+                  {contactEmail && (
                     <a
-                      href={`mailto:${process.env.NEXT_PUBLIC_CONTACT_EMAIL}`}
+                      href={`mailto:${contactEmail}`}
                       className="text-accent hover:underline"
                     >
-                      {process.env.NEXT_PUBLIC_CONTACT_EMAIL}
+                      {contactEmail}
                     </a>
-                  ) : (
-                    <span className="text-muted">请见首页</span>
                   )}
                 </li>
               </ul>
