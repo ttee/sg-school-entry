@@ -1224,7 +1224,7 @@ Recycling at East Coast Secondary
 
 Every week, tonnes of recyclable materials (1) ____ at our school. Paper, plastic bottles, and drink cans (2) ____ by students in special bins near the canteen. Last month, the Eco Club decided that more (3) ____ to encourage recycling.
 
-The club members designed new posters that (4) ____ in every classroom. They also started a "Green Class Challenge." Each class (5) ____ try to recycle as much as possible. At the end of the month, the winning class (6) ____ a prize. Students (7) ____ bring reusable containers instead of using single-use plastic. If everyone participates, our school's waste (8) ____ by half.
+The club members designed new posters that (4) ____ in every classroom. They also started a "Green Class Challenge." Each class (5) ____ try to recycle as much as possible. At the end of the month, a prize (6) ____ to the winning class by the principal. Students (7) ____ bring reusable containers instead of using single-use plastic. If everyone participates, our school's waste (8) ____ by half.
 
 Choose the correct answer for each gap:`,
           options: JSON.stringify([
@@ -1233,7 +1233,7 @@ Choose the correct answer for each gap:`,
             "(3)|A. should do|B. should be done|C. should doing|D. should does",
             "(4)|A. display|B. displayed|C. were displayed|D. are displaying",
             "(5)|A. ought|B. ought to|C. ought be|D. ought doing",
-            "(6)|A. receive|B. receives|C. will receive|D. receiving",
+            "(6)|A. gives|B. gave|C. will be given|D. is giving",
             "(7)|A. should|B. should to|C. ought|D. must to",
             "(8)|A. reduce|B. reduced|C. is reduced|D. could be reduced",
           ]),
@@ -1243,23 +1243,20 @@ Choose the correct answer for each gap:`,
         {
           type: "writing",
           order: 3,
-          content: `Write an article for your school website (100-120 words):
+          content: `Write an email to your friend (100-120 words):
 
-"One change my school should make for the environment"
+Your friend at another school wants to start a recycling project. Write an email giving advice about how to do it successfully.
 
-Choose ONE environmental change you think your school should make (e.g. reduce plastic, save electricity, start composting, plant trees, repair leaking taps, etc.)
-
-Include:
-• What the change is
-• Why it's important
-• How it could be done
-• What impact it would have
+In your email:
+• Explain what should be done first (e.g. posters, talking to teachers, etc.)
+• Describe how recyclable items ought to be sorted
+• Give one or two tips to make the project work well
 
 成功标准 / Success Criteria:
-✓ 被动语态 (Passive voice: Plastic should be reduced / Trees could be planted)
+✓ 被动语态 (Passive voice: Bins should be placed / Posters could be displayed)
 ✓ 情态动词建议 (Modal verbs for advice: should, ought to, could, must)
-✓ 连接词 (Linking: therefore, however, as a result, for example)
-✓ 清晰结构 (Clear structure with reasons and solutions)
+✓ 连接词 (Linking: first, then, also, for example)
+✓ Email 格式 (Email format: greeting, closing)
 ✓ 100-120词 (100-120 words)`,
           points: 10,
         },

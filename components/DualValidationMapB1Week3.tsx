@@ -48,13 +48,13 @@ export default function DualValidationMapB1Week3() {
             </tr>
             <tr className="border-b border-accent/10">
               <td className="px-3 py-3 text-ink align-top">
-                <strong>写作</strong><br />邮件 100-120 词，给学校网站写环保建议文
+                <strong>写作</strong><br />邮件 100-120 词，给朋友讲如何做回收项目
               </td>
               <td className="px-3 py-3 text-ink-2 align-top">
                 <strong>邮件写作</strong><br />官方 100 词左右
               </td>
               <td className="px-3 py-3 text-ink-2 align-top">
-                写文章给学校网站，建议学校做的环保改变，用被动语态（Plastic should be reduced, trees could be planted）和情态动词（should, ought to, could, must）
+                写邮件给朋友，建议他如何做回收项目，用被动语态（Bins should be placed, posters could be displayed）和情态动词（should, ought to, could, must）
               </td>
             </tr>
             <tr className="border-b border-accent/10">
