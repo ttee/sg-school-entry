@@ -53,6 +53,15 @@ export default function WeikeMiniLesson({ level, weekNumber }: WeikeMiniLessonPr
       ],
       gloss: "长度 length：2 metres (m)。时间 time：2 hours = 120 minutes。单位不用复数 -s：2 m（不是 2 ms）。做题先统一单位。"
     },
+    "MATH-4": {
+      fossil: "a can is a cube",
+      examples: [
+        "A dice is a cube. It has 6 square faces.",
+        "A book box is a cuboid. It has 6 rectangular faces.",
+        "A can is a cylinder. It has 2 circular faces."
+      ],
+      gloss: "正方体 cube（6 个正方形面）vs 长方体 cuboid（6 个长方形面）；圆柱 cylinder（2 个圆形面）；圆锥 cone；球体 sphere。平面图形规律按 size / shape / colour / orientation 找下一个。"
+    },
     "B1-5": {
       fossil: "The girl sits next to me is Priya / the book who I read",
       examples: [
