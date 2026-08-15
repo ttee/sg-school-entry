@@ -1322,6 +1322,240 @@ AI will listen for correct use of comparatives (taller, faster, more difficult, 
       ],
     },
 
+    // Week 6: Prepositions of time (at/in/on)
+    {
+      level: "A2",
+      weekNumber: 6,
+      title: "Week 6: After School and Weekends",
+      description: "Talking about daily routines and time",
+      isSample: false,
+      dueDate: new Date("2026-09-24"),
+      errorFocus: "prepositions-time-at-in-on",
+      parentBrief: "本周纠错焦点：时间介词 at / in / on。中文用「在」表达所有时间（在周一、在早上、在七点），孩子会说 in Monday、on morning、in 7 o'clock。英语规则：at + 钟点时间（at 7 o'clock, at night, at the weekend），in + 时段/月份/年份（in the morning, in July, in 2026），on + 星期/日期（on Monday, on 12 September）。本周作业会反复练习这三个介词的正确搭配。",
+      videoUrl: null,
+      kaizenFocus: "Use at for clock times and specific moments (at 7 o'clock, at night, at the weekend); in for parts of day, months, years (in the morning, in July); on for days and dates (on Monday, on 12 September)",
+      officialClipId: null,
+      officialClipCredit: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: `Read Mei's diary entry:
+
+After School and Weekends at Bedok View
+
+Monday, 15 September
+
+This week I want to write about what we do after school and at the weekend. School finishes at 2 p.m. every day. Most students have CCAs (Co-Curricular Activities) in the afternoon.
+
+On Monday, I have ballet CCA. It starts at 2:30 and finishes at 4 o'clock. I love ballet! In July, we had a performance at the school hall. My mum took lots of photos. She said I looked beautiful in my costume.
+
+On Tuesday and Thursday, Priya has Art Club. She's really good at drawing. Last week, on Thursday afternoon, she showed me her painting of Marina Bay Sands. It was amazing! Her art teacher said she might win a prize in November.
+
+On Wednesday, I go home early because I have piano lessons. My piano teacher, Miss Lim, comes to our flat at 4 o'clock. I've been learning piano since January 2025. My favourite pieces are the ones in the Grade 2 book. I practise every evening at 6 p.m., just before dinner.
+
+Priya doesn't have CCA on Wednesday either. She usually does her homework in the afternoon, then goes to the library at Bedok Mall at 5 o'clock. Sometimes I go with her. We sit in the children's section and read books. The library closes at 9 p.m., but we always leave before dinner time.
+
+On Friday, school feels different because the weekend is coming! On Friday afternoons, both of us are free. Sometimes we go to the playground near my block. Other times we just walk around the neighbourhood and talk. Last Friday, we bought bubble tea at 3:30 p.m. and sat at the void deck.
+
+At the weekend, our families do different things. On Saturday morning, I usually have extra Maths tuition at 9 o'clock. It finishes at 11 a.m., then my dad takes me to lunch. In the afternoon, we might go to the supermarket or visit my grandparents. On Saturday evenings, we have a family dinner at home. My mum cooks something special.
+
+On Sunday, we go to church in the morning. The service starts at 10 o'clock. After church, we sometimes go to East Coast Park. We cycle or have a picnic. Last month, in August, we went there three times! On Sunday afternoons, I do my homework and get ready for the new week.
+
+Priya's family is different. On Saturday mornings, they sleep in! Priya told me they don't wake up until 10 a.m. at the weekend. In the afternoon, her family often goes to Little India or to Botanic Gardens. On Saturday nights, they have family movie time at 8 p.m.
+
+On Sunday, Priya's dad makes a big breakfast at 11 a.m. (He calls it brunch!) Then, in the afternoon, Priya and her brother go to their grandparents' flat. They stay there until 6 p.m. Priya's grandmother teaches her to cook Indian dishes. Last Sunday, they made samosas!
+
+I think weekdays and weekends are both nice. On weekdays, I see my friends at school and do my CCAs. At the weekend, I spend time with my family. I'm always busy, but I like it that way. Next month, in October, we have a school holiday. I'm already looking forward to it!`,
+          options: JSON.stringify([
+            "What time does school finish every day?|A. At 1 p.m.|B. At 2 p.m.|C. At 3 p.m.|D. At 4 p.m.",
+            "When does Mei have ballet CCA?|A. On Monday|B. On Tuesday|C. On Wednesday|D. On Friday",
+            "What time does Mei's piano lesson start?|A. At 2:30|B. At 3 o'clock|C. At 4 o'clock|D. At 6 p.m.",
+            "When has Mei been learning piano?|A. Since June 2025|B. Since July 2025|C. Since January 2025|D. Since November 2025",
+            "What does Priya do on Wednesday afternoon?|A. Art Club|B. Ballet|C. Homework and library|D. Piano lesson",
+            "When does Mei have extra Maths tuition?|A. On Friday afternoon|B. On Saturday morning|C. On Sunday morning|D. On Monday evening",
+            "What time does church start on Sunday?|A. At 9 o'clock|B. At 10 o'clock|C. At 11 a.m.|D. At 8 p.m.",
+            "When does Priya's family have movie time?|A. On Friday night|B. On Saturday morning|C. On Saturday night at 8 p.m.|D. On Sunday afternoon",
+          ]),
+          correctAnswer: "B,A,C,C,C,B,B,C",
+          points: 8,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: `Read about Jun Wei's week. Choose the correct preposition for each gap.
+
+My Busy Week
+by Jun Wei, Primary 5
+
+My week is always very busy! Let me tell you about my typical schedule.
+
+(1) ____ weekdays, I wake up (2) ____ 6:30 (3) ____ the morning. School starts (4) ____ 7:30, so I can't be late! We have lessons all morning, and then we have lunch (5) ____ 12:30. School finishes (6) ____ 2 p.m. every day.
+
+(7) ____ Monday and Wednesday, I have football training (8) ____ the afternoon. Training starts (9) ____ 2:30 and finishes (10) ____ 4 o'clock. I love football! Our big match is (11) ____ 20 September. I'm very excited!
+
+(12) ____ Tuesday, I go to Chinese tuition. The class is (13) ____ 4 p.m. and lasts for one hour. My tuition teacher is very kind. She started teaching me (14) ____ February this year.
+
+(15) ____ Thursday afternoons, I'm free! I usually go home and rest. Sometimes I play computer games (16) ____ 3 o'clock, before my mum gets home from work.
+
+(17) ____ Friday, school ends early – we finish (18) ____ 1 p.m.! My friends and I often go to the library (19) ____ Friday afternoons. We do our homework there and read books.
+
+(20) ____ the weekend, my family likes to spend time together. (21) ____ Saturday mornings, my dad takes me swimming (22) ____ 9 o'clock. (23) ____ the afternoon, we usually do grocery shopping or visit relatives.
+
+(24) ____ Sunday, we have a family day. We wake up late – sometimes (25) ____ 10 a.m.! (26) ____ the morning, we have a big breakfast. Then, (27) ____ Sunday afternoons, we go to the park, watch movies, or visit museums. Last month, (28) ____ August, we went to the Science Centre three times!
+
+(29) ____ Sunday evenings, I finish all my homework and prepare my school bag for Monday. I usually go to bed (30) ____ 9:30 (31) ____ night. Then everything starts again (32) ____ Monday morning!
+
+I like my routine. (33) ____ the week, I study and do my CCAs. (34) ____ weekends, I relax with my family. Next year, (35) ____ 2027, I'll be in Primary 6. I hope my schedule won't be too different!`,
+          options: JSON.stringify([
+            "(1)|A. On|B. In|C. At|D. For",
+            "(2)|A. on|B. in|C. at|D. for",
+            "(3)|A. on|B. in|C. at|D. for",
+            "(4)|A. on|B. in|C. at|D. for",
+            "(5)|A. on|B. in|C. at|D. for",
+            "(6)|A. on|B. in|C. at|D. for",
+            "(7)|A. On|B. In|C. At|D. For",
+            "(8)|A. on|B. in|C. at|D. for",
+            "(9)|A. on|B. in|C. at|D. for",
+            "(10)|A. on|B. in|C. at|D. for",
+            "(11)|A. on|B. in|C. at|D. for",
+            "(12)|A. On|B. In|C. At|D. For",
+            "(13)|A. on|B. in|C. at|D. for",
+            "(14)|A. on|B. in|C. at|D. for",
+            "(15)|A. On|B. In|C. At|D. For",
+            "(16)|A. on|B. in|C. at|D. for",
+            "(17)|A. On|B. In|C. At|D. For",
+            "(18)|A. on|B. in|C. at|D. for",
+            "(19)|A. on|B. in|C. at|D. for",
+            "(20)|A. On|B. In|C. At|D. For",
+            "(21)|A. On|B. In|C. At|D. For",
+            "(22)|A. on|B. in|C. at|D. for",
+            "(23)|A. On|B. In|C. At|D. For",
+            "(24)|A. On|B. In|C. At|D. For",
+            "(25)|A. on|B. in|C. at|D. for",
+            "(26)|A. On|B. In|C. At|D. For",
+            "(27)|A. on|B. in|C. at|D. for",
+            "(28)|A. on|B. in|C. at|D. for",
+            "(29)|A. On|B. In|C. At|D. For",
+            "(30)|A. on|B. in|C. at|D. for",
+            "(31)|A. on|B. in|C. at|D. for",
+            "(32)|A. on|B. in|C. at|D. for",
+            "(33)|A. On|B. In|C. At|D. During",
+            "(34)|A. On|B. In|C. At|D. For",
+            "(35)|A. on|B. in|C. at|D. for",
+          ]),
+          correctAnswer: "A,C,B,C,C,C,A,B,C,C,A,A,C,B,A,C,A,C,A,C,A,C,B,A,C,B,A,B,A,C,C,A,D,C,B",
+          points: 35,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `You receive this email from your English friend, Alex:
+
+From: Alex
+To: You
+Subject: After school and weekends
+
+Hi!
+
+I want to know about your life in Singapore! What do you do after school finishes? Do you have any activities or hobbies? What about weekends – do you do anything special on Saturday or Sunday? Tell me all about it!
+
+Write back soon!
+Alex
+
+Write your email to Alex (50-70 words). Answer ALL the questions.
+
+成功标准 / Success Criteria:
+✓ 回答所有3个问题 (Answer all 3 questions)
+✓ 时间介词 at (Use at for clock times: at 7 o'clock, at night, at the weekend)
+✓ 时间介词 in (Use in for parts of day, months, years: in the morning, in July)
+✓ 时间介词 on (Use on for days and dates: on Monday, on 15 September)
+✓ 邮件格式 (Email format: Hi Alex, ... / Best, [your name])
+✓ 50-70词 (50-70 words)`,
+          points: 10,
+        },
+        {
+          type: "listening",
+          order: 4,
+          content: `听读练习 / Listening Preparation (read carefully)
+
+Note: Since no audio file exists yet, read the script carefully and then answer the questions.
+
+先读脚本（音频稍后）
+
+Mei: Hi Priya! What are your plans for this weekend?
+
+Priya: Hi Mei! On Saturday morning, I have art class at 10 o'clock. It's at the community centre near my flat.
+
+Mei: That sounds fun! What will you do after that?
+
+Priya: In the afternoon, my mum and I are going to the library. We usually go there on Saturday afternoons. Then, at night, my family will watch a movie at home. We always have movie night on Saturdays at 8 p.m.
+
+Mei: Nice! What about Sunday?
+
+Priya: On Sunday, we're going to Gardens by the Bay! We'll leave in the morning, at about 9:30. We're meeting my cousins there. Have you been there?
+
+Mei: Yes! I went there in August with my family. It was beautiful! What time will you come back?
+
+Priya: Probably in the evening, at around 6 o'clock. Then I need to finish my homework at night before Monday. What about you? What will you do at the weekend?
+
+Mei: On Saturday, I have piano practice at 2 p.m. Then, on Sunday morning, I'm going to church with my family at 10 o'clock. In the afternoon, we might go to East Coast Park.
+
+Priya: That's nice! I love East Coast Park. Maybe we can go there together in October, during the school holiday?
+
+Mei: Yes! That would be great! Let's plan it next week.`,
+          options: JSON.stringify([
+            "When is Priya's art class on Saturday?|A. At 9 o'clock|B. At 10 o'clock|C. At 2 p.m.|D. At 8 p.m.",
+            "When does Priya go to the library?|A. On Friday afternoon|B. On Saturday morning|C. On Saturday afternoon|D. On Sunday morning",
+            "What time is Priya's family movie night?|A. At 6 o'clock|B. At 7 p.m.|C. At 8 p.m.|D. At 9:30",
+            "When are Priya and her family going to Gardens by the Bay?|A. On Saturday|B. On Sunday morning|C. On Sunday afternoon|D. On Monday",
+            "When did Mei visit Gardens by the Bay?|A. In July|B. In August|C. In September|D. In October",
+          ]),
+          correctAnswer: "B,C,C,B,B",
+          points: 5,
+        },
+        {
+          type: "speaking",
+          order: 5,
+          content: `口语练习 / Speaking Practice
+
+Task: Talk about your daily routine and weekend activities (1 minute)
+
+Talk about what you do after school and at the weekend. Use time prepositions (at / in / on).
+
+Points to cover:
+• What time school finishes (at...)
+• What you do in the afternoon after school
+• Activities you do on specific days (on Monday, on Tuesday...)
+• What you do at the weekend (on Saturday, on Sunday)
+• Times of your activities (at 4 o'clock, in the morning...)
+
+Useful phrases (时间介词 at/in/on):
+• School finishes at 2 p.m.
+• I have CCA on Monday / on Tuesday
+• I go to piano lessons at 4 o'clock
+• In the afternoon, I...
+• At the weekend, I...
+• On Saturday morning, I...
+• On Sunday, my family...
+• In the evening, I do my homework
+• I go to bed at 9 o'clock at night
+• In July / In 2026 we will...
+
+Grammar focus for AI:
+AI will listen for correct use of time prepositions: at (clock times, night, weekend), in (parts of day, months, years), on (days and dates).
+
+如何练习 / How to practise:
+1. 想好一周的安排 (Think about your weekly schedule)
+2. 准备至少5个时间介词句子 (Prepare at least 5 sentences with time prepositions)
+3. 点击下方"开始录音"按钮 (Tap "开始录音")
+4. 说满1分钟 (Speak for 1 minute)
+5. AI会评估时间介词 at/in/on 的使用 (AI will check your use of at/in/on)`,
+          points: 5,
+        },
+      ],
+    },
+
     // B1 WEEKS
     {
       level: "B1",
