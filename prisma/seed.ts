@@ -835,6 +835,8 @@ Useful phrases (时态对比练习):
       parentBrief: "本周纠错焦点：现在完成时的经历用法（Have you ever...?）和比较级。孩子会说 Have you go to Gardens by the Bay?（过去式和完成时混淆）或 It was impressive than...（漏了 more）。英语问经历用 Have you ever been...? Have you visited...?；比较级要加 more 或 -er：more impressive, bigger。本周写作和口语会盯住这两个点。",
       videoUrl: null,
       kaizenFocus: "Use present perfect for experience (Have you ever...?); comparatives with more/-er",
+      officialClipId: "Lwkn3WWGhUg",
+      officialClipCredit: "片源 VisitSingapore 官方频道（新加坡旅游局）。宣传片 SingapoReimagine，Cloud Forest / Gardens by the Bay。本站不拥有该片，仅嵌入官方 YouTube。孩子先看片子，再练 Have you ever been…? 和 more impressive than…。",
       questions: [
         {
           type: "reading",

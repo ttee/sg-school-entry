@@ -425,6 +425,14 @@ export default function WeekHomework({
       {/* Dual-validation map for B1 Week 1 */}
       {week.level === "B1" && week.weekNumber === 1 && <DualValidationMapB1Week1 />}
 
+      {/* Official YouTube clip (when configured via seed) */}
+      {week.officialClipId && week.officialClipCredit && (
+        <OfficialClip 
+          videoId={week.officialClipId}
+          credit={week.officialClipCredit}
+        />
+      )}
+
       <div className="space-y-8">
         {questions.map((question, idx) => (
           <div
@@ -703,14 +711,6 @@ export default function WeekHomework({
 
             {question.type === "speaking" && (
               <div className="space-y-4">
-                {/* Official YouTube clip (when configured via seed) */}
-                {week.officialClipId && week.officialClipCredit && (
-                  <OfficialClip 
-                    videoId={week.officialClipId}
-                    credit={week.officialClipCredit}
-                  />
-                )}
-                
                 {/* Show previous focus if exists */}
                 {speakingAttempts[question.id] && speakingAttempts[question.id].length > 0 && !isCompleted && (
                   <div className="bg-accent/10 border border-accent/30 rounded-lg p-3">

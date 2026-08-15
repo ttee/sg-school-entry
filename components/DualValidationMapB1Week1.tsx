@@ -32,7 +32,7 @@ export default function DualValidationMapB1Week1() {
                 <strong>长文本阅读</strong><br />一篇长文本，多道选择题
               </td>
               <td className="px-3 py-3 text-ink-2 align-top">
-                读学生写的 Gardens by the Bay 学习之旅游记，练读懂游记细节、推断意图
+                读学生写的 Gardens by the Bay 学习之旅游记，练读懂游记细节、推断意图。<span className="text-accent font-medium">（先看上方 VisitSingapore 官方 Cloud Forest 影片）</span>
               </td>
             </tr>
             <tr className="border-b border-accent/10">
