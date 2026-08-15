@@ -80,6 +80,15 @@ export default function WeikeMiniLesson({ level, weekNumber }: WeikeMiniLessonPr
       ],
       gloss: "定语从句 relative clauses：先行词是人用 who / that（The student who…），先行词是物用 which / that（The book which…）。中文用「的」不需要关系代词，但英语必须加 who / which / that 才能连接从句。"
     },
+    "B1-6": {
+      fossil: "I use to walk to school / I didn't used to like rice / I am used to swim",
+      examples: [
+        "I used to walk to school.",
+        "She used to live in Guangzhou.",
+        "We didn't use to speak English at home."
+      ],
+      gloss: "used to + 动词原形 = 以前常做（现在不做了）。否定是 didn't use to（use 不带 d）。不要写成 I use to 或 I didn't used to。本周不教 be used to + -ing（习惯于做某事）。"
+    },
   };
 
   const key = `${level}-${weekNumber}`;

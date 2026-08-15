@@ -243,7 +243,7 @@ export default function HomePage() {
                 <span className="text-ink-2">/ 月</span>
               </div>
               <p className="text-sm text-ink-2 mb-4">
-                小班直播课（每周 2 次，每次 1.5 小时）+ 每周作业 app 解锁当前级别已上线周数（A2 试学周 + 第 1–7 周，B1 试学周 + 第 1–5 周，后续周次陆续更新）。包含 CEQ 备考四项技能：阅读、写作、听读准备、口语提示。
+                小班直播课（每周 2 次，每次 1.5 小时）+ 每周作业 app 解锁当前级别已上线周数（A2 试学周 + 第 1–7 周，B1 试学周 + 第 1–6 周，后续周次陆续更新）。包含 CEQ 备考四项技能：阅读、写作、听读准备、口语提示。
               </p>
               <ul className="space-y-2 text-sm text-ink-2 mb-5">
                 <li className="flex items-start gap-2">
@@ -252,7 +252,7 @@ export default function HomePage() {
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-accent mt-0.5">✓</span>
-                  <span>每周作业 app 解锁已上线周数（A2: 试学周 + 第 1–7 周；B1: 试学周 + 第 1–5 周；后续周次陆续更新）</span>
+                  <span>每周作业 app 解锁已上线周数（A2: 试学周 + 第 1–7 周；B1: 试学周 + 第 1–6 周；后续周次陆续更新）</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-accent mt-0.5">✓</span>
@@ -281,9 +281,9 @@ export default function HomePage() {
                   <div className="font-serif text-2xl font-semibold text-accent">S$2,480</div>
                 </div>
                 <p className="text-xs font-semibold uppercase tracking-wide text-accent mb-3">适合 P2–P4 CEQ 门槛</p>
-                <p className="text-ink-2 mb-4 text-sm">
-                  12 周直播课冲刺剑桥 A2 Key for Schools 水平，配合当前 app 已上线周数（试学周 + 第 1–7 周，后续周次陆续更新），帮孩子在 CEQ 考试前准备好听、说、读、写四项。
-                </p>
+            <p className="text-ink-2 mb-4 text-sm">
+              12 周直播课冲刺剑桥 A2 Key for Schools 水平，配合当前 app 已上线周数（试学周 + 第 1–7 周，共 8 周），帮孩子在 CEQ 考试前准备好听、说、读、写四项。
+            </p>
                 <ul className="space-y-0 border-t border-line mb-5">
                   <li className="border-b border-line py-3 pl-5 relative before:absolute before:left-0 before:top-5 before:w-2 before:h-2 before:rounded-full before:bg-accent text-sm text-ink-2">
                     12 周直播课，每周 2 次，每次 1.5 小时（共 24 节课）
@@ -295,7 +295,7 @@ export default function HomePage() {
                     针对 Cambridge A2 Key for Schools 四项技能：阅读、写作、听力、口语
                   </li>
                   <li className="border-b border-line py-3 pl-5 relative before:absolute before:left-0 before:top-5 before:w-2 before:h-2 before:rounded-full before:bg-accent text-sm text-ink-2">
-                    作业 app 当前已上线 A2 试学周 + 第 1–7 周（共 8 周），后续周次陆续上线
+                    作业 app 当前已上线 A2 试学周 + 第 1–7 周（共 8 周）
                   </li>
                   <li className="border-b border-line py-3 pl-5 relative before:absolute before:left-0 before:top-5 before:w-2 before:h-2 before:rounded-full before:bg-accent text-sm text-ink-2">
                     包含 2 次模拟考，家长微信通报进度
@@ -318,9 +318,9 @@ export default function HomePage() {
                   <div className="font-serif text-2xl font-semibold text-accent">S$2,880</div>
                 </div>
                 <p className="text-xs font-semibold uppercase tracking-wide text-accent mb-3">适合 P5 CEQ 门槛</p>
-                <p className="text-ink-2 mb-4 text-sm">
-                  12 周直播课冲刺剑桥 B1 Preliminary for Schools 水平，配合当前 app 已上线周数（试学周 + 第 1–5 周，后续周次陆续更新），帮孩子在 CEQ 考试前准备好听、说、读、写四项。
-                </p>
+            <p className="text-ink-2 mb-4 text-sm">
+              12 周直播课冲刺剑桥 B1 Preliminary for Schools 水平，配合当前 app 已上线周数（试学周 + 第 1–6 周，共 7 周），帮孩子在 CEQ 考试前准备好听、说、读、写四项。
+            </p>
                 <ul className="space-y-0 border-t border-line mb-5">
                   <li className="border-b border-line py-3 pl-5 relative before:absolute before:left-0 before:top-5 before:w-2 before:h-2 before:rounded-full before:bg-accent text-sm text-ink-2">
                     12 周直播课，每周 2 次，每次 1.5 小时（共 24 节课）
@@ -332,7 +332,7 @@ export default function HomePage() {
                     针对 Cambridge B1 Preliminary for Schools 四项技能：阅读、写作、听力、口语
                   </li>
                   <li className="border-b border-line py-3 pl-5 relative before:absolute before:left-0 before:top-5 before:w-2 before:h-2 before:rounded-full before:bg-accent text-sm text-ink-2">
-                    作业 app 当前已上线 B1 试学周 + 第 1–5 周（共 6 周），后续周次陆续上线
+                    作业 app 当前已上线 B1 试学周 + 第 1–6 周（共 7 周）
                   </li>
                   <li className="border-b border-line py-3 pl-5 relative before:absolute before:left-0 before:top-5 before:w-2 before:h-2 before:rounded-full before:bg-accent text-sm text-ink-2">
                     包含 2 次模拟考，家长微信通报进度
@@ -409,7 +409,7 @@ export default function HomePage() {
               </div>
             </div>
 
-            <h3 className="font-serif font-semibold text-xl mb-4 text-ink">已上线纠错地图（A2 共 7 周，B1 共 5 周）</h3>
+            <h3 className="font-serif font-semibold text-xl mb-4 text-ink">已上线纠错地图（A2 共 7 周，B1 共 6 周）</h3>
             <div className="overflow-x-auto">
               <table className="w-full border border-line rounded-xl overflow-hidden text-sm">
                 <thead>
@@ -485,12 +485,33 @@ export default function HomePage() {
                     <td className="px-4 py-3 text-ink">If + 过去, would... / suggest + -ing</td>
                     <td className="px-4 py-3 text-ink-2">If school change... / suggest to use</td>
                   </tr>
-                  <tr className="bg-paper-2">
+                  <tr className="border-b border-line bg-paper-2">
                     <td className="px-4 py-3 font-semibold text-accent">B1</td>
                     <td className="px-4 py-3 text-ink-2">3</td>
                     <td className="px-4 py-3 text-ink-2">Environment</td>
                     <td className="px-4 py-3 text-ink">被动语态；should/ought to</td>
                     <td className="px-4 py-3 text-ink-2">We recycle the bottles（该用被动）</td>
+                  </tr>
+                  <tr className="border-b border-line bg-paper-2">
+                    <td className="px-4 py-3 font-semibold text-accent">B1</td>
+                    <td className="px-4 py-3 text-ink-2">4</td>
+                    <td className="px-4 py-3 text-ink-2">Communication</td>
+                    <td className="px-4 py-3 text-ink">间接引语 (Reported speech)</td>
+                    <td className="px-4 py-3 text-ink-2">He said he will come / She said I am busy</td>
+                  </tr>
+                  <tr className="border-b border-line bg-paper-2">
+                    <td className="px-4 py-3 font-semibold text-accent">B1</td>
+                    <td className="px-4 py-3 text-ink-2">5</td>
+                    <td className="px-4 py-3 text-ink-2">Describing People</td>
+                    <td className="px-4 py-3 text-ink">定语从句 who/which/that</td>
+                    <td className="px-4 py-3 text-ink-2">The girl sits next to me / the book who I read</td>
+                  </tr>
+                  <tr className="bg-paper-2">
+                    <td className="px-4 py-3 font-semibold text-accent">B1</td>
+                    <td className="px-4 py-3 text-ink-2">6</td>
+                    <td className="px-4 py-3 text-ink-2">When We Were Younger</td>
+                    <td className="px-4 py-3 text-ink">used to 表过去习惯</td>
+                    <td className="px-4 py-3 text-ink-2">I use to walk / I didn't used to / I am used to swim</td>
                   </tr>
                 </tbody>
               </table>
