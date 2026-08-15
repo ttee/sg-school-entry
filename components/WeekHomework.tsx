@@ -695,8 +695,8 @@ export default function WeekHomework({
 
             {question.type === "speaking" && (
               <div className="space-y-4">
-                {/* Official YouTube clip for A2 Week 2 */}
-                {week.level === "A2" && week.weekNumber === 2 && week.officialClipId && week.officialClipCredit && (
+                {/* Official YouTube clip (when configured via seed) */}
+                {week.officialClipId && week.officialClipCredit && (
                   <OfficialClip 
                     videoId={week.officialClipId}
                     credit={week.officialClipCredit}
