@@ -1899,6 +1899,181 @@ Useful phrases:
         },
       ],
     },
+    {
+      level: "B1",
+      weekNumber: 4,
+      title: "Week 4: School Updates",
+      description: "Reporting what people said",
+      isSample: false,
+      dueDate: new Date("2026-09-10"),
+      errorFocus: "reported-speech",
+      parentBrief: "本周纠错焦点：间接引语（reported speech）——said/told + 时态后移。孩子会说 He said me that...（应该是 told me）、He said he will go（应该是 would go，时态要后移）、She told that...（漏掉宾语，应该是 told me that）。英语间接引语要 say + (that)，tell + 人 + (that)，主句过去式时从句时态后移：will → would, can → could。本周作业会反复练习这三个高危点。",
+      videoUrl: null,
+      kaizenFocus: "said (that) vs told sb (that); tense backshift in reported speech (will→would, can→could)",
+      officialClipId: null,
+      officialClipCredit: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: `Read this article:
+
+The Message Chain
+
+Last Monday morning started normally – until I opened my phone at the school gate. My classmate Jun Wei had sent an urgent message in our class group chat at 6:45 a.m.: "Ms Tan said we should bring our Science textbooks today. She told me that the lab session has been moved to period two."
+
+I panicked. My Science textbook was still on my desk at home! I quickly messaged my mum, explaining the situation. She replied that she could bring it during her lunch break, but that meant I wouldn't have it for the morning lab.
+
+When I reached our classroom, my friend Priya asked what was wrong. I told her that Ms Tan had said we needed Science textbooks, and that I'd forgotten mine at home. Priya looked confused. "Ms Tan? But she's away today. Mr Lim is covering our Science lesson."
+
+At assembly, our form teacher Ms Chen made an announcement. She said that some students had been spreading incorrect information about today's timetable. She explained that Ms Tan had told her on Friday that Monday's lab session was cancelled because the equipment was being serviced. She added that students should always check the official class noticeboard, not rely on group chat messages.
+
+After assembly, Jun Wei apologised. He admitted that he'd misunderstood a message from another student. He said he thought Ms Tan had told that student about the lab change, but he'd got it wrong. Jun Wei explained that the original message actually said the lab was cancelled, not moved. He felt terrible about causing confusion.
+
+During recess, our class prefect reminded everyone that Ms Chen had told us last term to verify information before sharing it. She said that spreading unverified news caused unnecessary stress. Several classmates agreed and suggested that only prefects should post timetable changes in the group chat.
+
+At the end of the day, Jun Wei posted a proper apology. He said he would be more careful in future. Ms Chen told him that everyone makes mistakes, but that he should remember to double-check facts before sharing them. She added that clear communication was especially important in a school environment where changes can affect many people.
+
+I called my mum after school and told her that the whole thing had been a false alarm. She said she was glad I didn't actually need the textbook, but reminded me to keep a checklist so I wouldn't forget things in future. She was right – a bit of organisation would save a lot of stress.`,
+          options: JSON.stringify([
+            "What did Jun Wei's message say?|A. The lab was cancelled|B. Ms Tan said to bring Science textbooks|C. Mr Lim was absent|D. School starts early",
+            "Who told the writer that Ms Tan was away?|A. Jun Wei|B. Priya|C. Ms Chen|D. Mr Lim",
+            "What did Ms Chen say about Ms Tan's message?|A. It was correct|B. Ms Tan had told her the lab was cancelled|C. Ms Tan would return tomorrow|D. The lab was moved to period two",
+            "Why was the lab cancelled?|A. Ms Tan was sick|B. Students didn't bring textbooks|C. The equipment was being serviced|D. The school was closed",
+            "What did Jun Wei admit?|A. He deliberately lied|B. He misunderstood a message|C. He never saw the noticeboard|D. He lost his textbook",
+            "What did the class prefect say Ms Chen had told them?|A. To ignore group chats|B. To verify information before sharing it|C. To arrive early|D. To buy new textbooks",
+            "Who suggested that only prefects should post timetable changes?|A. Ms Chen|B. Jun Wei|C. Several classmates|D. The writer's mum",
+            "What did the writer's mum remind her about?|A. Checking group chats|B. Arriving on time|C. Keeping a checklist|D. Apologising to Jun Wei",
+          ]),
+          correctAnswer: "B,B,B,C,B,B,C,C",
+          points: 8,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: `Choose the correct word for each gap:
+
+Reporting What Others Said
+
+Yesterday, my friend Ethan (1) ____ that he was feeling nervous about the upcoming Maths test. He (2) ____ me that he hadn't understood the last two chapters. I told him that I (3) ____ help him revise after school.
+
+Later, our Maths teacher Mr Lee made an announcement. He (4) ____ us that the test date had been changed to next Friday instead of this Wednesday. He explained that several students (5) ____ him they needed more time to prepare. He added that everyone (6) ____ use the extra week wisely.
+
+After class, I met Priya in the canteen. She asked what Mr Lee (7) ____. I told her that he (8) ____ the test would be next Friday now. She said she (9) ____ relieved because she could study more. I (10) ____ her that Ethan and I were planning a study session, and she said she (11) ____ join us.
+
+This morning, Ethan sent me a message. He said he (12) ____ to thank me for offering to help. He added that he now (13) ____ more confident about the test. I replied that I was happy to help, and reminded him that we (14) ____ meet in the library after school today.`,
+          options: JSON.stringify([
+            "(1)|A. said|B. told|C. said me|D. told to me",
+            "(2)|A. said|B. said me|C. told|D. told to",
+            "(3)|A. can|B. could|C. will|D. would",
+            "(4)|A. said|B. said us|C. told|D. told to us",
+            "(5)|A. had told|B. has told|C. told|D. tells",
+            "(6)|A. can|B. should|C. shall|D. may",
+            "(7)|A. has said|B. had said|C. says|D. said",
+            "(8)|A. has said|B. had said|C. says|D. said",
+            "(9)|A. is|B. was|C. will be|D. would be",
+            "(10)|A. said|B. said her|C. told|D. told to her",
+            "(11)|A. will|B. would|C. can|D. could",
+            "(12)|A. wanted|B. wants|C. will want|D. want",
+            "(13)|A. feels|B. felt|C. will feel|D. has felt",
+            "(14)|A. will|B. shall|C. should|D. would",
+          ]),
+          correctAnswer: "A,C,B,C,A,B,B,B,B,C,B,A,B,D",
+          points: 14,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `Write an email to your English friend (100-120 words).
+
+Your friend missed last week's classes. Write an email telling them what the teacher and classmates said about homework, tests, and any important announcements.
+
+In your email:
+• Report what your teacher said about homework or tests
+• Tell them what a classmate said about a class activity
+• Explain any important information someone told you to pass on
+
+成功标准 / Success Criteria:
+✓ 间接引语 (Reported speech: said (that), told sb (that))
+✓ 时态后移 (Tense backshift: will → would, can → could, is → was)
+✓ 准确区分 said 和 told (Use "said (that)" and "told sb (that)" correctly)
+✓ 邮件格式 (Email format: greeting, clear paragraphs, closing)
+✓ 100-120词 (100-120 words)`,
+          points: 10,
+        },
+        {
+          type: "listening",
+          order: 4,
+          content: `听读练习 / Listening Preparation
+
+先读脚本（音频稍后）
+
+[At the school canteen after morning assembly]
+
+Mei: Hi Priya! Did you hear what Ms Chen said in assembly this morning?
+
+Priya: Not really – I was standing at the back and couldn't hear clearly. What did she say?
+
+Mei: She said that the school library would be closed next week for renovations. She told us that we should borrow any books we need before Friday.
+
+Priya: Oh no! I need to finish my History project. Did she say when the library would reopen?
+
+Mei: Yes, she said it would reopen on the fifteenth of next month. She also told us that we could use the public library near Bedok MRT if we needed to.
+
+Priya: That's helpful. Did she mention anything else?
+
+Mei: She said the canteen would have new operating hours from next Monday. She told us that breakfast would start at seven instead of seven-thirty, but lunch would still be at the usual time.
+
+Priya: Great! That means I can grab something before my early class. Thanks for letting me know!`,
+          options: JSON.stringify([
+            "What did Ms Chen say about the library?|A. It would close permanently|B. It would be closed next week for renovations|C. It was already closed|D. It would open earlier",
+            "What did Ms Chen tell students to do before Friday?|A. Return all books|B. Pay library fees|C. Borrow any books they need|D. Clean the library",
+            "When did Ms Chen say the library would reopen?|A. Next Friday|B. Next Monday|C. On the fifteenth of next month|D. In two weeks",
+            "Where did Ms Chen say students could go if they needed to?|A. School computer lab|B. Public library near Bedok MRT|C. Community centre|D. Another school",
+            "What did Ms Chen say about breakfast time?|A. It would start at seven|B. It would start at seven-thirty|C. It would be cancelled|D. It would end earlier",
+          ]),
+          correctAnswer: "B,C,C,B,A",
+          points: 5,
+          audioUrl: null,
+        },
+        {
+          type: "speaking",
+          order: 5,
+          content: `口语练习 / Speaking Practice
+
+Task: Report some school news (about 1 minute)
+
+Think of a recent situation where someone told you important information at school (a teacher, a friend, a prefect, etc.). Report what they said using reported speech.
+
+Talk about:
+• Who told you the information
+• What they said (remember to backshift: will → would, can → could)
+• Why the information was important
+• What you did after hearing it
+
+You MUST use:
+✓ Reported speech with "said (that)" and "told sb (that)"
+✓ Tense backshift (She said she would..., He told me he could...)
+✓ Do NOT say "He said me" or "She told that" (common errors!)
+
+Useful phrases:
+• My teacher said that...
+• She told me that...
+• He explained that the test would be...
+• They said they could...
+• The prefect told us that we should...
+• After she said that, I...
+
+如何练习 / How to practise:
+1. 想一个真实例子（老师说的话、同学告诉你的消息）(Think of a real example)
+2. 记住：said + that, told + 人 + that (Remember: said (that), told sb (that))
+3. 点击"开始录音"，说1分钟 (Tap "开始录音", speak for 1 minute)
+4. 提交给AI，AI会盯住 said/told 的正确用法和时态后移 (Submit to AI - AI checks said/told usage and tense backshift)
+5. 查看反馈后可再录一次 (Check feedback and re-record)`,
+          points: 5,
+        },
+      ],
+    },
   ];
 
   // =================================================================
