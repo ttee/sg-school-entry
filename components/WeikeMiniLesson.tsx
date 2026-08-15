@@ -161,6 +161,15 @@ export default function WeikeMiniLesson({ level, weekNumber }: WeikeMiniLessonPr
       ],
       gloss: "too + 形容词 + to 不定式表示太…而不能（too tired to run, too late to catch）。形容词 + enough + to 不定式表示够…可以（tall enough to reach）。enough 修饰名词时放在名词前（enough time, enough money）。不要写 too much tired, enough tall, 或 I am not enough tall。"
     },
+    "B1-10": {
+      fossil: "You like it, is it? / She's tall, is she? / You don't like English, isn't it?",
+      examples: [
+        "You're in Priya's class, aren't you?",
+        "She doesn't take the bus, does she?",
+        "Jun Wei can swim, can't he?"
+      ],
+      gloss: "反意疑问句 question tags：前面肯定，后面用否定尾（aren't you, doesn't she）。前面否定，后面用肯定尾（does she, is he）。助动词要和前面一致（is→isn't, does→doesn't, can→can't）。不要一律用 is it。"
+    },
   };
 
   const key = `${level}-${weekNumber}`;

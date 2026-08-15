@@ -3034,6 +3034,132 @@ DO NOT write: too much tired / enough tall / too tired that I can't / I am not e
         },
       ],
     },
+    {
+      level: "B1",
+      weekNumber: 10,
+      title: "Week 10: Checking What We Heard",
+      description: "Using question tags to check information",
+      isSample: false,
+      dueDate: new Date("2026-11-05"),
+      errorFocus: "question-tags",
+      parentBrief: "本周纠错焦点：反意疑问句 question tags。中文用「是不是 / 对不对」，孩子会说 You like it, is it? / She's tall, is she?（同极性）/ You don't like English, isn't it? / He can swim, can he?（想确认肯定）。英语规则：肯定句 + 否定尾（You're tired, aren't you?）；否定句 + 肯定尾（She doesn't like rice, does she?）；助动词要一致（do/does/did/is/are/can/will）。本周不教倒装疑问句，也不是间接引语（B1 W4 已教）。",
+      videoUrl: null,
+      kaizenFocus: "Use opposite-polarity question tags that match the auxiliary",
+      officialClipId: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: `Read this email exchange about Sports Day:
+
+From: Mei
+To: Priya
+Subject: Sports Day Checks
+
+Hi Priya,
+
+Ms Tan just told us about Sports Day next Friday! I want to make sure I have all the details right.
+
+Sports Day is on Friday, isn't it? I think she said Friday, but I want to be certain. And we need to wear our PE uniform, don't we? I remember her mentioning that.
+
+Jun Wei told me the sprinting race starts at 9 a.m. That's correct, isn't it? I don't want to be late! He also said you're running in the 100-metre race, aren't you? I'll come and cheer for you!
+
+Ms Tan said parents can come to watch, didn't she? My mum wants to come, but she wasn't sure if parents were allowed. I think Ms Tan mentioned it at the end of class.
+
+Oh, and we don't need to bring our textbooks that day, do we? I assume we'll leave them at home since we're doing sports all day. But the library books are due on Friday, so we can't forget those, can we?
+
+One more thing – the canteen will be open during lunch break, won't it? Jun Wei wasn't sure, so I told him I'd check with you. You usually know these details!
+
+Write back soon and let me know if I got everything right!
+
+Mei
+
+---
+
+From: Priya
+To: Mei
+Subject: Re: Sports Day Checks
+
+Hi Mei,
+
+Yes, you've got most things right! Sports Day is on Friday, and we definitely need to wear our PE uniform. Ms Tan was very clear about that!
+
+The sprinting race does start at 9 a.m., so don't be late! And yes, I'm running the 100 metres – I've been practising all week! Jun Wei is running too, isn't he? I thought I saw his name on the list.
+
+Your mum can definitely come – Ms Tan said parents are welcome to watch from the spectator area. She even said they could help with the water station, didn't she? I remember her asking for parent volunteers.
+
+You're right about the textbooks – we don't need to bring them. But the library books are due, so we should return them on Thursday instead, shouldn't we? Otherwise we'll forget on Friday!
+
+The canteen will be open, but only for drinks and snacks, not full meals. Ms Tan said we should bring a packed lunch, didn't she? I'm bringing sandwiches.
+
+See you on Friday – it's going to be fun, isn't it?
+
+Priya`,
+          options: JSON.stringify([
+            "What does Mei want to confirm about Sports Day?|A. Whether it's on Thursday|B. Whether it's on Friday and other details|C. Whether parents must come|D. Whether the canteen is closed",
+            "According to Priya, when should they return library books?|A. On Friday morning|B. On Friday afternoon|C. On Thursday instead|D. Next Monday",
+            "What is Priya doing to prepare for Sports Day?|A. She's been practising all week|B. She's studying the rules|C. She's helping Ms Tan|D. She's not participating",
+            "What did Ms Tan ask parents to help with?|A. Bringing textbooks|B. The water station|C. Coaching students|D. Opening the canteen",
+            "What should students bring for lunch on Sports Day?|A. Money for the canteen|B. Nothing – the canteen provides meals|C. A packed lunch|D. Library books",
+          ]),
+          correctAnswer: "B,C,A,B,C",
+          points: 5,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: `Choose the correct question tag for each gap:
+
+Checking the Plan
+by Jun Wei, Primary 5
+
+Tomorrow is the school library visit, and I want to make sure I have the right information!
+
+The bus leaves at 8:30 a.m., (1) ____? I don't want to miss it. Ms Tan said we should bring our library cards, (2) ____? I found mine in my bag.
+
+Priya is coming with our class, (3) ____? I thought I saw her name on the list. Mei can't come because she has a doctor's appointment, (4) ____? That's what she told me yesterday.
+
+The library visit will take two hours, (5) ____? That means we'll be back at school by lunchtime. We don't need to bring lunch money, (6) ____? I think we'll eat at the school canteen after we return.`,
+          options: JSON.stringify([
+            "(1)|A. isn't it|B. doesn't it|C. won't it|D. hasn't it",
+            "(2)|A. doesn't she|B. isn't she|C. didn't she|D. hasn't she",
+            "(3)|A. doesn't she|B. isn't she|C. won't she|D. hasn't she",
+            "(4)|A. does she|B. is she|C. can she|D. will she",
+            "(5)|A. isn't it|B. doesn't it|C. won't it|D. hasn't it",
+            "(6)|A. are we|B. will we|C. have we|D. do we",
+          ]),
+          correctAnswer: "B,C,B,C,C,D",
+          points: 6,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `Write an email to your friend (100-120 words).
+
+Your friend asked you to check some facts about a school event or activity (CCA, class outing, homework deadline, etc.).
+
+In your email:
+• Confirm at least two facts you're sure about
+• Ask your friend to verify at least two other details
+• Say what you're looking forward to or worried about
+
+You MUST use at least TWO question tags: one after a POSITIVE statement and one after a NEGATIVE statement.
+
+DO NOT write: You like it, is it? / She's tall, is she? / You don't like English, isn't it?
+
+成功标准 / Success Criteria:
+✓ 肯定句 + 否定尾 (Positive statement + negative tag: You're in Priya's class, aren't you? / The exam is tomorrow, isn't it?)
+✓ 否定句 + 肯定尾 (Negative statement + positive tag: She doesn't take the bus, does she? / We can't bring phones, can we?)
+✓ 助动词要一致 (Match the auxiliary: is→isn't it, does→doesn't she, can→can't he, did→didn't they)
+✓ 不要用同极性 (Don't use same polarity: NOT "You're tired, are you?" or "She doesn't like it, doesn't she?")
+✓ 不要一律用 is it (Don't always use "is it" – match the verb!)
+✓ 确认至少两个事实、询问至少两个细节 (Confirm at least 2 facts, ask about at least 2 details)
+✓ 邮件格式 (Email format: greeting, paragraphs, closing)
+✓ 100-120词 (100-120 words)`,
+          points: 10,
+        },
+      ],
+    },
 
     // Week 7: going to future
     {
