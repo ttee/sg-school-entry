@@ -29,7 +29,7 @@ export default function DualValidationMapWeek1() {
                 <strong>阅读</strong><br />Lin 的作息日记 + 选择题
               </td>
               <td className="px-3 py-3 text-ink-2 align-top">
-                <strong>Reading Part 3</strong><br />短文本，多选一
+                <strong>Reading Part 3</strong><br />一篇长文本，选择题
               </td>
               <td className="px-3 py-3 text-ink-2 align-top">
                 读 Lin 的作息日记，讲早起、早餐、搭地铁、上课、回家做作业，做选择题，练读懂日常时间表
@@ -62,7 +62,7 @@ export default function DualValidationMapWeek1() {
                 <strong>听力</strong><br />对话：Sarah 和 Jun Wei 聊作息
               </td>
               <td className="px-3 py-3 text-ink-2 align-top">
-                <strong>Listening Part 1 & 2</strong><br />短对话，多选一
+                <strong>Listening Part 3</strong><br />对话，5 道三选一
               </td>
               <td className="px-3 py-3 text-ink-2 align-top">
                 听两个学生聊起床时间、上学方式、早餐习惯，做 5 道三选一题；官方考试听两遍，我们的播放器可重听
@@ -85,14 +85,14 @@ export default function DualValidationMapWeek1() {
 
       <div className="mt-4 pt-3 border-t border-accent/20">
         <p className="text-xs text-ink-2 mb-2">
-          📚 <strong>题型说明：</strong>
+          📚 <strong>官方链接：</strong>
           <a
-            href="https://www.cambridgeenglish.org/exams-and-tests/key-for-schools/"
+            href="https://www.cambridgeenglish.org/exams-and-tests/key/exam-format"
             target="_blank"
             rel="noopener noreferrer"
             className="text-accent hover:underline ml-1"
           >
-            Cambridge A2 Key for Schools
+            Cambridge A2 Key for Schools 考试格式
           </a>
           {" · "}
           <a
