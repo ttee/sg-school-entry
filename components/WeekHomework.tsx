@@ -448,17 +448,15 @@ export default function WeekHomework({
       {/* Dual-validation map for B1 Week 3 */}
       {week.level === "B1" && week.weekNumber === 3 && <DualValidationMapB1Week3 />}
 
-<<<<<<< HEAD
+      {/* Dual-validation map for B1 Week 4 */}
+      {week.level === "B1" && week.weekNumber === 4 && <DualValidationMapB1Week4 />}
+
       {/* Dual-validation map for MATH Week 0 */}
       {week.level === "MATH" && week.weekNumber === 0 && <DualValidationMapMath />}
 
       {/* Dual-validation map for MATH Week 1 */}
       {week.level === "MATH" && week.weekNumber === 1 && <DualValidationMapMathWeek1 />}
-      
-=======
-      {/* Dual-validation map for B1 Week 4 */}
-      {week.level === "B1" && week.weekNumber === 4 && <DualValidationMapB1Week4 />}
->>>>>>> 051f01b (Add B1 Week 4: reported speech (said/told + tense backshift))
+
       <div className="space-y-8">
         {questions.map((question, idx) => (
           <div
