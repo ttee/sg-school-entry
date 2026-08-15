@@ -1180,78 +1180,83 @@ Useful phrases:
       isSample: false,
       dueDate: new Date("2026-09-03"),
       errorFocus: "passive-modals",
-      parentBrief: "本周纠错焦点：被动语态和情态动词（should/ought to）。中文少用被动，孩子会说 We recycle the bottles（主动）而写不出 Plastic is recycled（被动）。还有建议表达：should/ought to + 动词原形。本周环保话题特别需要被动（Plastic is recycled, bins are collected）和建议（We should reduce, students ought to bring...）。作业会盯住这两个表达。",
+      parentBrief: "本周纠错焦点：被动语态和情态动词（should/ought to）。中文少用被动，孩子会说 We recycle the bottles（主动）而写不出 Plastic is recycled（被动）。建议表达用 should/ought to + 动词原形。环保话题需要被动语态描述系统（Plastic is recycled, bins are collected）和情态动词提建议（We should reduce, students ought to bring...）。作业盯住这两个化石化高危点。",
       videoUrl: null,
-      kaizenFocus: "Use passive voice (is recycled, are collected); should/ought to + verb for advice",
+      kaizenFocus: "Use passive voice (is recycled, are collected); should/ought to + bare verb for advice",
       questions: [
         {
           type: "reading",
           order: 1,
           content: `Read this article:
 
-Our Class Recycling Project
+Green Steps at Bedok View Secondary
 
-Last month, our Secondary 3 Geography class started a recycling awareness project in our HDB neighbourhood in Bedok. What began as a simple homework assignment became something much more meaningful.
+Last term, our Secondary 2 class launched a recycling drive at the HDB blocks near our school in Bedok. What started as a Geography project became a community effort that surprised everyone.
 
-Our teacher, Mr Chan, asked us to investigate how much waste our estate produces each week. We worked in groups, interviewing residents and observing the rubbish chutes and recycling bins. The results shocked us. While most blocks had blue recycling bins on the ground floor, many were either overflowing or contaminated with non-recyclable items like food waste and plastic bags. One neighbour told us, "I want to recycle, but I'm not sure which bin to use, so sometimes I just throw everything down the chute."
+Mr Tan, our Geography teacher, gave us a challenge: find out how much recyclable waste is thrown away in one HDB block. My group chose Block 538, a twenty-storey block with about sixty households. We observed the rubbish collection every evening for one week, and we were shocked. On Monday alone, we counted twelve cardboard boxes, fifteen plastic bottles, and eight drink cans sitting beside the rubbish chute – none of them in the blue recycling bins downstairs.
 
-That's when we decided to act. First, we designed simple bilingual posters explaining what can and cannot be recycled. We included pictures because not everyone reads English or Chinese fluently. The Town Council gave us permission to put posters near every recycling bin and lift lobby in three blocks.
+We interviewed ten residents. Most said they wanted to recycle, but didn't know what could go in the blue bins. One uncle explained, "I'm not sure if this plastic container is recyclable or not, so I just throw it down the chute. Safer that way."
 
-Next, we organised a Saturday morning "Recycling Awareness Walk." About twenty residents joined us, including some elderly uncles and aunties. We walked around the estate, pointing out recycling bins and answering questions. One auntie asked, "Can I recycle old clothes?" We explained that while clothes can't go in the blue bins, there are donation boxes at community centres. She seemed relieved to know there was an option.
+That feedback gave us an idea. We designed simple bilingual posters with pictures showing what belongs in recycling bins: clean paper, cardboard, plastic bottles, drink cans, and glass jars. We avoided complicated symbols. The Town Council approved our posters, and we stuck them in every lift lobby and near the ground-floor bins in Block 538 and two neighbouring blocks.
 
-The most surprising outcome? One month after our project, the Town Council reported a fifteen percent increase in proper recycling in those three blocks. It's not a huge change, but it's a start. We realised that many people want to help the environment – they just need clear information and a little encouragement.
+Three weeks later, we checked again. The rubbish chute area was much cleaner, and the blue bins were fuller. The Town Council confirmed that contamination – people throwing food waste or plastic bags into recycling bins – had dropped by about twenty percent in those three blocks.
 
-Now we're working with the Town Council to expand the project to more blocks. We've also been invited to present our project at the school's Eco Fair next month. I used to think one class couldn't make a difference, but I was wrong. Small actions, when done together, can lead to real change.`,
+Our teacher was so proud that he arranged for us to present our findings at the upcoming school Eco Fair. We're now helping other classes design similar projects for their neighbourhoods. I used to think recycling was boring, but seeing real change made it exciting. Small efforts, if done consistently, do make a difference.`,
           options: JSON.stringify([
-            "What was the original homework assignment?|A. To design posters|B. To investigate waste in the neighbourhood|C. To interview the principal|D. To write an essay about recycling",
-            "What problem did they discover?|A. There were no recycling bins|B. Bins were overflowing or contaminated|C. Residents refused to recycle|D. The bins were locked",
-            "Why did they include pictures on the posters?|A. To make them colourful|B. Because not everyone reads English or Chinese fluently|C. The teacher told them to|D. To save space",
-            "What did they organise on Saturday morning?|A. A clean-up day|B. A recycling sale|C. A Recycling Awareness Walk|D. A tree-planting event",
-            "What did the auntie ask about?|A. Plastic bottles|B. Old clothes|C. Food waste|D. Paper",
-            "What happened one month after the project?|A. Nothing changed|B. Recycling increased by 15% in three blocks|C. The bins were removed|D. The school cancelled the project",
-            "Where will they present their project?|A. At the Town Council|B. At a shopping mall|C. At the school's Eco Fair|D. On the news",
-            "What did the writer learn from the project?|A. Recycling is too difficult|B. Small actions together can lead to real change|C. Only adults can help the environment|D. The project was a waste of time",
+            "What was the Geography challenge?|A. To clean the rubbish chute|B. To find out how much recyclable waste is thrown away|C. To design new bins|D. To interview the Town Council",
+            "How many households are there in Block 538?|A. Twenty|B. Twelve|C. About sixty|D. Fifteen",
+            "Why did residents not recycle properly?|A. They refused to recycle|B. There were no bins|C. They didn't know what could go in the blue bins|D. The bins were locked",
+            "What did the students put on the posters?|A. Complicated symbols|B. Simple bilingual pictures showing recyclable items|C. Advertisements|D. Rules from the Town Council",
+            "How many blocks received the posters?|A. One|B. Two|C. Three|D. Five",
+            "What result did the Town Council confirm?|A. No change|B. Contamination dropped by about 20%|C. All bins were removed|D. The project failed",
+            "Where will the students present their findings?|A. At the Town Council office|B. At a shopping mall|C. At the school Eco Fair|D. On television",
+            "What did the writer learn?|A. Recycling is boring|B. Only adults can recycle|C. Small efforts done consistently do make a difference|D. The project was too difficult",
           ]),
-          correctAnswer: "B,B,B,C,B,B,C,B",
+          correctAnswer: "B,C,C,B,C,B,C,C",
           points: 8,
         },
         {
           type: "grammar",
           order: 2,
-          content: "Choose the correct answer:",
+          content: `Read this passage and choose the correct word for each gap:
+
+Recycling at East Coast Secondary
+
+Every week, tonnes of recyclable materials (1) ____ at our school. Paper, plastic bottles, and drink cans (2) ____ by students in special bins near the canteen. Last month, the Eco Club decided that more (3) ____ to encourage recycling.
+
+The club members designed new posters that (4) ____ in every classroom. They also started a "Green Class Challenge." Each class (5) ____ try to recycle as much as possible. At the end of the month, a prize (6) ____ to the winning class by the principal. Students (7) ____ bring reusable containers instead of using single-use plastic. If everyone participates, our school's waste (8) ____ by half.
+
+Choose the correct answer for each gap:`,
           options: JSON.stringify([
-            "Plastic bottles ____ in the blue bin.|A. recycle|B. recycled|C. are recycled|D. recycling",
-            "We ____ act to solve the problem.|A. should|B. could|C. would|D. might",
-            "People want to help, ____ they need information.|A. so|B. but|C. because|D. although",
-            "If more people recycled, the environment ____ cleaner.|A. is|B. was|C. would be|D. will be",
-            "The project ____ by our Geography class.|A. started|B. was started|C. is started|D. starts",
-            "Many residents ____ to the walk.|A. come|B. comes|C. came|D. coming",
-            "We ought ____ more effort to protect the environment.|A. make|B. to make|C. making|D. made",
-            "The problem is serious; ____, we can still make a difference.|A. but|B. so|C. however|D. because",
+            "(1)|A. collect|B. collected|C. are collected|D. collecting",
+            "(2)|A. are sorted|B. sort|C. sorted|D. sorting",
+            "(3)|A. should do|B. should be done|C. should doing|D. should does",
+            "(4)|A. display|B. displayed|C. were displayed|D. are displaying",
+            "(5)|A. ought|B. ought to|C. ought be|D. ought doing",
+            "(6)|A. gives|B. gave|C. will be given|D. is giving",
+            "(7)|A. should|B. should to|C. ought|D. must to",
+            "(8)|A. reduce|B. reduced|C. is reduced|D. could be reduced",
           ]),
-          correctAnswer: "C,A,B,C,B,C,B,C",
+          correctAnswer: "C,A,B,C,B,C,A,D",
           points: 8,
         },
         {
           type: "writing",
           order: 3,
-          content: `Write an article for your school website (100-120 words):
+          content: `Write an email to your friend (100-120 words):
 
-"One change my school should make for the environment"
+Your friend at another school wants to start a recycling project. Write an email giving advice about how to do it successfully.
 
-Choose ONE environmental change you think your school should make (e.g. reduce plastic, save electricity, start composting, plant trees, repair leaking taps, etc.)
-
-Include:
-• What the change is
-• Why it's important
-• How it could be done
-• What impact it would have
+In your email:
+• Explain what should be done first (e.g. posters, talking to teachers, etc.)
+• Describe how recyclable items ought to be sorted
+• Give one or two tips to make the project work well
 
 成功标准 / Success Criteria:
-✓ 被动语态 (Passive voice: Plastic should be reduced / Trees could be planted)
+✓ 被动语态 (Passive voice: Bins should be placed / Posters could be displayed)
 ✓ 情态动词建议 (Modal verbs for advice: should, ought to, could, must)
-✓ 连接词 (Linking: therefore, however, as a result, for example)
-✓ 清晰结构 (Clear structure with reasons and solutions)
+✓ 连接词 (Linking: first, then, also, for example)
+✓ Email 格式 (Email format: greeting, closing)
 ✓ 100-120词 (100-120 words)`,
           points: 10,
         },
