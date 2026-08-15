@@ -2610,7 +2610,7 @@ Mei`,
 Saturday at East Coast Park
 by Priya, Primary 5
 
-This Saturday is going to be exciting! My family (1) ____ to East Coast Park in the morning. My brother (2) ____ his new kite. I (3) ____ my art supplies because I want to draw the sea. Mum and Dad (4) ____ jogging along the path. After that, we (5) ____ ice cream at the café. In the afternoon, my cousins (6) ____ to join us. We're all going to play at the playground together!`,
+This Saturday is going to be exciting! My parents (1) ____ to East Coast Park in the morning. My brother (2) ____ his new kite. I (3) ____ my art supplies because I want to draw the sea. Mum and Dad (4) ____ jogging along the path. After that, we (5) ____ ice cream at the café. In the afternoon, my cousins (6) ____ to join us. We're all going to play at the playground together!`,
           options: JSON.stringify([
             "(1)|A. is going to go|B. are going to go|C. going to go|D. go to",
             "(2)|A. going to bring|B. is going bring|C. is going to bring|D. will going to bring",
