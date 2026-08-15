@@ -391,7 +391,7 @@ D. 20
 
 **Question 8:**
 Which of these is equal to 24?
-A. 3 × 6
+A. 4 × 6
 B. 4 × 5
 C. 5 × 5
 D. 10 × 3`,
@@ -403,7 +403,7 @@ D. 10 × 3`,
             "Question 5|A. 4|B. 5|C. 16|D. 24",
             "Question 6|A. 2 × 8 = 14|B. 3 × 7 = 21|C. 4 × 5 = 24|D. 5 × 6 = 35",
             "Question 7|A. 3|B. 5|C. 10|D. 20",
-            "Question 8|A. 3 × 6|B. 4 × 5|C. 5 × 5|D. 10 × 3",
+            "Question 8|A. 4 × 6|B. 4 × 5|C. 5 × 5|D. 10 × 3",
           ]),
           correctAnswer: "C,C,C,B,B,B,A,A",
           points: 8,
