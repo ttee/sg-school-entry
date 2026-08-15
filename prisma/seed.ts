@@ -92,7 +92,7 @@ async function main() {
       description: "AEIS-Primary P2 Mathematics: Whole numbers and money",
       isSample: true,
       errorFocus: null,
-      parentBrief: "本周主题：整数与钱币（对应 MOE 小学 P2 数学大纲）。孩子会做加减法、比较大小、认识新加坡钱币。题目是简体中文家长说明 + 英文题干，帮孩子同时熟悉数学和英语。题目全部原创，不抄 SEAB / AEIS / Cambridge 试卷。本周配有双向对照表，显示题目对应的官方 2021 Primary Mathematics Syllabus 内容点，以及 MOE AEIS 的「preceding level」规则（申请 P3 → 掌握 P2 内容）。不编造 CES 分数、不承诺包过。",
+      parentBrief: "本周主题：整数与钱币（对应 MOE 小学 P2 数学大纲）。孩子会做加减法、比较大小、认识新加坡钱币。题目是简体中文家长说明 + 英文题干，帮孩子同时熟悉数学和英语。本周配有双向对照表，显示题目对应的官方 2021 Primary Mathematics Syllabus 内容点，以及 MOE AEIS 的「preceding level」规则（申请 P3 → 掌握 P2 内容）。不编造 CES 分数、不承诺包过。",
       videoUrl: null,
       kaizenFocus: null,
       questions: [
@@ -152,7 +152,7 @@ He paid with a $50 note.
       description: "AEIS-Primary P2 Mathematics: Multiplication and division within tables",
       isSample: false,
       errorFocus: null,
-      parentBrief: "本周主题：乘法与除法（对应 MOE 小学 P2 数学大纲 3.1–3.5）。孩子会练习 2、3、4、5、10 的乘法口诀，理解乘法和除法的关系（例如 3 × 4 = 12，所以 12 ÷ 3 = 4），并在应用题中使用这些技能。题目是简体中文家长说明 + 英文题干。全部原创，不抄 SEAB / AEIS / Cambridge 试卷。本周配有双向对照表，显示题目对应的官方 2021 Primary Mathematics Syllabus 内容点，以及 MOE AEIS 的「preceding level」规则（申请 P3 → 掌握 P2 内容）。",
+      parentBrief: "本周主题：乘法与除法（对应 MOE 小学 P2 数学大纲 3.1–3.5）。孩子会练习 2、3、4、5、10 的乘法口诀，理解乘法和除法的关系（例如 3 × 4 = 12，所以 12 ÷ 3 = 4），并在应用题中使用这些技能。题目是简体中文家长说明 + 英文题干。本周配有双向对照表，显示题目对应的官方 2021 Primary Mathematics Syllabus 内容点，以及 MOE AEIS 的「preceding level」规则（申请 P3 → 掌握 P2 内容）。",
       videoUrl: null,
       kaizenFocus: null,
       questions: [
@@ -207,7 +207,7 @@ He paid with a $50 note.
       description: "AEIS-Primary P2 Mathematics: Fractions",
       isSample: false,
       errorFocus: null,
-      parentBrief: "本周主题：分数（对应 MOE 小学 P2 数学大纲 Fractions）。孩子会认识分数是「整体的一部分」，学会分数记号（1/2、1/3、1/4 等），比较单位分数和同分母分数的大小，在一个整体内加减同分母分数。分母不超过 12。题目是简体中文家长说明 + 英文题干。全部原创，不抄 SEAB / AEIS / Cambridge 试卷。本周配有双向对照表，显示题目对应的官方 2021 Primary Mathematics Syllabus 内容点，以及 MOE AEIS 的「preceding level」规则（申请 P3 → 掌握 P2 内容）。",
+      parentBrief: "本周主题：分数（对应 MOE 小学 P2 数学大纲 Fractions）。孩子会认识分数是「整体的一部分」，学会分数记号（1/2、1/3、1/4 等），比较单位分数和同分母分数的大小，在一个整体内加减同分母分数。分母不超过 12。题目是简体中文家长说明 + 英文题干。本周配有双向对照表，显示题目对应的官方 2021 Primary Mathematics Syllabus 内容点，以及 MOE AEIS 的「preceding level」规则（申请 P3 → 掌握 P2 内容）。",
       videoUrl: null,
       kaizenFocus: null,
       questions: [

@@ -498,8 +498,7 @@ export default function HomePage() {
 
             <div className="mt-6 bg-paper-2 border border-line rounded-xl p-5">
               <p className="text-sm text-ink-2">
-                <strong className="text-ink">原创内容：</strong>
-                所有微课、阅读文章、语法题、写作任务均为本工作室原创教学材料，参考剑桥英语考试（CEQ）任务类型和 CEFR 标准编写，<strong>不抄袭剑桥真题</strong>。所有情境、人名、地点均为虚构。不编造"剑桥官方分数"或"往年通过率"。
+                所有情境、人名、地点均为虚构。不编造"剑桥官方分数"或"往年通过率"。
               </p>
             </div>
           </div>

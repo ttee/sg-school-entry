@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useState } from "react";
 
-// 诊断题目 - 原创内容，基于现有 A2 Week 0-3 的错误焦点
+// 诊断题目 - 基于现有 A2 Week 0-3 的错误焦点
 // Error foci: articles, 3sg-s, present simple vs continuous, past simple, at/in/on time, like + -ing
 const diagnosticItems = [
   {
@@ -233,7 +233,7 @@ export default function AssessPage() {
                 入学英语摸底
               </h1>
               <p className="text-ink-2 mb-2">
-                这是本工作室原创摸底练习，帮助家长判断孩子适合从哪个门槛开始。共 10 题，约 5–8 分钟完成。
+                这是本工作室的摸底练习，帮助家长判断孩子适合从哪个门槛开始。共 10 题，约 5–8 分钟完成。
               </p>
               <p className="text-sm text-muted">
                 <strong>适合对象：</strong>中国小学生（拟申请新加坡政府小学 P2–P5）<br />
@@ -353,7 +353,7 @@ export default function AssessPage() {
             <div className="bg-paper-2 border border-line rounded-xl p-5 mb-6">
               <p className="text-sm text-ink-2 leading-relaxed">
                 <strong className="text-ink">诚实告知：</strong>
-                这是本工作室原创摸底，不是 Cambridge 或 MOE 官方测验。
+                这是本工作室的摸底练习，不是 Cambridge 或 MOE 官方测验。
                 结果仅供参考，不预测 CEQ 具体分数（CES），不保证 AEIS 录取。
                 真实水平需通过剑桥授权考点的正式 CEQ 考试评定。
               </p>

@@ -5,7 +5,7 @@ export default function DualValidationMapMath() {
         本周对照官方大纲 / Mapping to Official Syllabus
       </h2>
       <p className="text-sm text-ink-2 mb-4 leading-relaxed">
-        本周练习题对应 <strong>MOE 2021 Primary Mathematics Syllabus P1 to P6</strong>（Updated October 2025）中的 <strong>Primary 2</strong> 内容，符合 MOE AEIS 的「<strong>preceding level</strong>」规则：<em>申请 P3 入学的孩子需掌握 P2 数学内容</em>。题目全部原创，不抄袭 SEAB / AEIS / Cambridge 试卷。
+        本周练习题对应 <strong>MOE 2021 Primary Mathematics Syllabus P1 to P6</strong>（Updated October 2025）中的 <strong>Primary 2</strong> 内容，符合 MOE AEIS 的「<strong>preceding level</strong>」规则：<em>申请 P3 入学的孩子需掌握 P2 数学内容</em>。
       </p>
 
       <div className="overflow-x-auto">
@@ -162,7 +162,7 @@ export default function DualValidationMapMath() {
           </a>
         </p>
         <p className="text-xs text-muted mt-3 pt-2 border-t border-accent/10">
-          <strong>原创内容声明：</strong>本周所有题目由狮城入学工作室原创，参考 MOE 2021 Primary Mathematics Syllabus 编写。我们<strong>不抄袭</strong> SEAB、AEIS 或 Cambridge 考试真题。所有情境、人名、地点均为虚构。我们<strong>不编造</strong> CES 分数、不编造「往年通过率」，也<strong>不承诺</strong>「包过」或录取结果。
+          所有情境、人名、地点均为虚构。我们<strong>不编造</strong> CES 分数、不编造「往年通过率」，也<strong>不承诺</strong>「包过」或录取结果。
         </p>
       </div>
     </div>
