@@ -55,7 +55,10 @@ export default async function LearnDashboard() {
         <p className="text-ink-2">
           {isAdmin ? (
             <>
-              <span className="text-accent font-semibold">管理员模式</span> · 可查看所有级别
+              <span className="text-accent font-semibold">管理员模式</span> · 可查看所有级别 ·{" "}
+              <Link href="/learn/enquiries" className="text-accent hover:underline font-semibold">
+                查看报名咨询
+              </Link>
             </>
           ) : (
             <>

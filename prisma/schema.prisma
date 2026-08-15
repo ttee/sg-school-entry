@@ -106,3 +106,15 @@ model WritingFeedback {
 
   @@index([userId, questionId])
 }
+
+model Enquiry {
+  id             String   @id @default(uuid())
+  parentWechat   String
+  childBirthYear Int
+  stage          String
+  intent         String
+  createdAt      DateTime @default(now())
+
+  @@index([createdAt])
+  @@index([parentWechat])
+}

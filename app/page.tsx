@@ -1,9 +1,70 @@
+"use client";
+
 import Link from "next/link";
+import { useState } from "react";
 
 export default function HomePage() {
-  const wechatId = process.env.NEXT_PUBLIC_WECHAT_ID;
-  const contactEmail = process.env.NEXT_PUBLIC_CONTACT_EMAIL;
-  const payNowNumber = process.env.NEXT_PUBLIC_PAYNOW || "94594601";
+  const payNowNumber = "94594601";
+  
+  const [formData, setFormData] = useState({
+    parentWechat: "",
+    childBirthYear: "",
+    stage: "",
+    intent: "",
+  });
+  const [formStatus, setFormStatus] = useState<{
+    type: "success" | "error" | null;
+    message: string;
+  }>({ type: null, message: "" });
+  const [isSubmitting, setIsSubmitting] = useState(false);
+
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    setIsSubmitting(true);
+    setFormStatus({ type: null, message: "" });
+
+    try {
+      const response = await fetch("/api/enquiry", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          parentWechat: formData.parentWechat,
+          childBirthYear: parseInt(formData.childBirthYear),
+          stage: formData.stage,
+          intent: formData.intent,
+        }),
+      });
+
+      const data = await response.json();
+
+      if (response.ok) {
+        setFormStatus({
+          type: "success",
+          message: data.message || "提交成功！",
+        });
+        setFormData({
+          parentWechat: "",
+          childBirthYear: "",
+          stage: "",
+          intent: "",
+        });
+      } else {
+        setFormStatus({
+          type: "error",
+          message: data.error || "提交失败，请稍后重试",
+        });
+      }
+    } catch (error) {
+      setFormStatus({
+        type: "error",
+        message: "提交失败，请检查网络连接",
+      });
+    } finally {
+      setIsSubmitting(false);
+    }
+  };
 
   return (
     <>
@@ -429,53 +490,140 @@ export default function HomePage() {
 
         <section className="py-12 md:py-16 bg-paper" id="contact">
           <div className="max-w-2xl mx-auto px-4">
-            <h2 className="font-serif font-semibold text-2xl md:text-3xl mb-3">咨询与报名</h2>
+            <h2 className="font-serif font-semibold text-2xl md:text-3xl mb-3">报名咨询</h2>
             <p className="text-ink-2 mb-6">
-              咨询月度会员或 12 周预付包，请说明孩子出生年份、拟申请学段（小学 P2–P5 或中学 Sec 1–3）。报名以咨询确认为准。
+              提交后老师会在 1-2 个工作日内添加您的微信。咨询月度会员、12 周预付包或试学账号。
             </p>
-            <div className="bg-card border border-line rounded-2xl p-6 shadow mb-6">
-              <h3 className="font-serif font-semibold text-lg mb-4 text-ink">添加顾问微信</h3>
-              <p className="text-sm text-ink-2 mb-4">
-                {wechatId ? (
-                  <>
-                    <strong className="text-ink font-semibold">微信号：</strong>
-                    <code className="ml-2 px-2 py-1 bg-paper-2 rounded text-sm font-mono">
-                      {wechatId}
-                    </code>
-                  </>
-                ) : (
-                  <span className="text-ink-2">
-                    报名时向老师索取微信号。
-                  </span>
-                )}
-              </p>
-              {contactEmail && (
-                <p className="text-sm text-ink-2">
-                  <strong className="text-ink font-semibold">邮件：</strong>
-                  <a
-                    href={`mailto:${contactEmail}`}
-                    className="ml-2 text-accent hover:text-accent-hover underline"
+
+            <form onSubmit={handleSubmit} className="bg-card border border-line rounded-2xl p-6 shadow mb-6">
+              <div className="space-y-4">
+                <div>
+                  <label htmlFor="parentWechat" className="block text-sm font-semibold text-ink mb-1">
+                    家长微信号 <span className="text-accent">*</span>
+                  </label>
+                  <input
+                    id="parentWechat"
+                    type="text"
+                    required
+                    value={formData.parentWechat}
+                    onChange={(e) => setFormData({ ...formData, parentWechat: e.target.value })}
+                    className="w-full px-4 py-2.5 bg-paper border border-line rounded-xl text-ink focus:outline-none focus:ring-2 focus:ring-accent focus:border-accent"
+                    placeholder="您的微信号"
+                  />
+                </div>
+
+                <div>
+                  <label htmlFor="childBirthYear" className="block text-sm font-semibold text-ink mb-1">
+                    孩子出生年份 <span className="text-accent">*</span>
+                  </label>
+                  <input
+                    id="childBirthYear"
+                    type="number"
+                    required
+                    min="2000"
+                    max={new Date().getFullYear()}
+                    value={formData.childBirthYear}
+                    onChange={(e) => setFormData({ ...formData, childBirthYear: e.target.value })}
+                    className="w-full px-4 py-2.5 bg-paper border border-line rounded-xl text-ink focus:outline-none focus:ring-2 focus:ring-accent focus:border-accent"
+                    placeholder="例如：2015"
+                  />
+                </div>
+
+                <div>
+                  <label htmlFor="stage" className="block text-sm font-semibold text-ink mb-1">
+                    拟申请学段 <span className="text-accent">*</span>
+                  </label>
+                  <select
+                    id="stage"
+                    required
+                    value={formData.stage}
+                    onChange={(e) => setFormData({ ...formData, stage: e.target.value })}
+                    className="w-full px-4 py-2.5 bg-paper border border-line rounded-xl text-ink focus:outline-none focus:ring-2 focus:ring-accent focus:border-accent"
                   >
-                    {contactEmail}
-                  </a>
+                    <option value="">请选择</option>
+                    <optgroup label="小学 Primary">
+                      <option value="P2">P2</option>
+                      <option value="P3">P3</option>
+                      <option value="P4">P4</option>
+                      <option value="P5">P5</option>
+                    </optgroup>
+                    <optgroup label="中学 Secondary">
+                      <option value="Sec1">Sec 1</option>
+                      <option value="Sec2">Sec 2</option>
+                      <option value="Sec3">Sec 3</option>
+                    </optgroup>
+                  </select>
+                </div>
+
+                <div>
+                  <label htmlFor="intent" className="block text-sm font-semibold text-ink mb-1">
+                    报名意向 <span className="text-accent">*</span>
+                  </label>
+                  <select
+                    id="intent"
+                    required
+                    value={formData.intent}
+                    onChange={(e) => setFormData({ ...formData, intent: e.target.value })}
+                    className="w-full px-4 py-2.5 bg-paper border border-line rounded-xl text-ink focus:outline-none focus:ring-2 focus:ring-accent focus:border-accent"
+                  >
+                    <option value="">请选择</option>
+                    <option value="monthly">月度会员（S$320/月）</option>
+                    <option value="a2-12week">A2 Key 12 周预付包（S$2,480）</option>
+                    <option value="b1-12week">B1 Preliminary 12 周预付包（S$2,880）</option>
+                    <option value="trial">免费试学账号</option>
+                  </select>
+                </div>
+
+                {formStatus.type && (
+                  <div
+                    className={`text-sm rounded-lg px-4 py-3 ${
+                      formStatus.type === "success"
+                        ? "bg-accent/10 text-accent border border-accent/20"
+                        : "bg-warn-bg text-warn-ink border border-warn-ink/20"
+                    }`}
+                  >
+                    {formStatus.message}
+                  </div>
+                )}
+
+                <button
+                  type="submit"
+                  disabled={isSubmitting}
+                  className="w-full bg-accent text-accent-ink font-semibold py-3 rounded-full hover:bg-accent-hover transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+                >
+                  {isSubmitting ? "提交中..." : "提交咨询"}
+                </button>
+
+                <p className="text-xs text-muted text-center">
+                  提交后老师会添加您的微信 · 不会向您推送任何营销信息
                 </p>
-              )}
-              <div className="mt-4 pt-4 border-t border-line">
-                <p className="text-sm text-ink-2 mb-2">
-                  <strong className="text-ink font-semibold">付款方式：</strong>
-                </p>
-                <p className="text-sm text-ink-2">
+              </div>
+            </form>
+
+            <div className="grid md:grid-cols-2 gap-4 mb-6">
+              <div className="bg-paper-2 border border-line rounded-xl p-5">
+                <h3 className="font-serif font-semibold text-base mb-2 text-ink">付款方式</h3>
+                <p className="text-sm text-ink-2 mb-1">
                   PayNow：{payNowNumber}（手机号）
                 </p>
                 <p className="text-sm text-ink-2">
-                  微信转账：报名时向老师索取微信号
+                  微信转账：老师添加后告知
+                </p>
+              </div>
+
+              <div className="bg-paper-2 border border-line rounded-xl p-5">
+                <h3 className="font-serif font-semibold text-base mb-2 text-ink">免费试学</h3>
+                <p className="text-sm text-ink-2">
+                  提交表单时选择「免费试学账号」，老师会为您开通 Week 0 试学周权限。
                 </p>
               </div>
             </div>
-            <div className="bg-paper-2 border border-line rounded-xl p-5">
-              <h3 className="font-serif font-semibold text-base mb-2 text-ink">免费试学一周</h3>
-              <p className="text-sm text-ink-2">
-                家长可先让孩子免费试学一周（Week 0 试学周），体验作业 app。点击页面顶部「登录」，咨询时向老师索取试学账号。订阅后解锁当前已上线周数（A2 / B1 各 试学周 + 第 1–3 周）。
+
+            <div className="bg-accent/5 border border-accent/20 rounded-xl p-5">
+              <p className="text-xs text-ink-2">
+                <strong className="text-ink">隐私说明：</strong>
+                我们仅收集您的微信号用于咨询回复，不会公开或出售给第三方。您可随时要求删除。详见
+                <Link href="/privacy" className="text-accent hover:underline ml-1">隐私政策</Link>。
               </p>
             </div>
           </div>

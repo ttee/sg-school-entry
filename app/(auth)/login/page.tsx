@@ -133,17 +133,15 @@ function LoginForm() {
           </form>
 
           <div className="mt-6 pt-6 border-t border-line">
-            <p className="text-sm text-ink-2 text-center leading-relaxed">
-              试学或订阅账号由老师开通。
-              <br />
-              <Link
-                href="/#contact"
-                className="text-accent hover:text-accent-hover underline"
-              >
-                咨询
-              </Link>
-              后向老师索取登录邮箱和密码。
+            <p className="text-sm text-center text-ink-2 mb-3">
+              需要试学账号？
             </p>
+            <Link
+              href="/#contact"
+              className="block text-center text-sm text-accent hover:text-accent-hover font-semibold underline"
+            >
+              前往首页报名表
+            </Link>
           </div>
         </div>
 
