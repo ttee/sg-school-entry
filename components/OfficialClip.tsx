@@ -1,0 +1,44 @@
+"use client";
+
+type OfficialClipProps = {
+  videoId: string;
+  credit: string;
+};
+
+export default function OfficialClip({ videoId, credit }: OfficialClipProps) {
+  return (
+    <div className="bg-card border border-line rounded-xl p-5 mb-6">
+      <h3 className="font-semibold text-ink mb-3">🎬 官方样例 / Official Sample</h3>
+      <p className="text-sm text-ink-2 mb-3">
+        先看官方样例，再自己说。
+      </p>
+      
+      {/* YouTube privacy-enhanced embed */}
+      <div className="relative w-full" style={{ paddingBottom: '56.25%' /* 16:9 aspect ratio */ }}>
+        <iframe
+          className="absolute top-0 left-0 w-full h-full rounded-lg"
+          src={`https://www.youtube-nocookie.com/embed/${videoId}?rel=0&modestbranding=1`}
+          title="Official YouTube Sample"
+          frameBorder="0"
+          allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        />
+      </div>
+      
+      {/* 片源说明 */}
+      <div className="mt-4 bg-paper border border-line rounded-lg p-3">
+        <p className="text-xs text-ink-2 leading-relaxed">
+          <strong>片源说明：</strong>{credit}
+        </p>
+        <a
+          href={`https://www.youtube.com/watch?v=${videoId}`}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-xs text-accent hover:text-accent-hover mt-2 inline-block"
+        >
+          在 YouTube 观看 →
+        </a>
+      </div>
+    </div>
+  );
+}
