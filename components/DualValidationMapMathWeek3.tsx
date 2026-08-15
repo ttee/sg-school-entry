@@ -41,15 +41,15 @@ export default function DualValidationMapMathWeek3() {
             <tr className="border-b border-accent/10">
               <td className="px-3 py-3 text-ink align-top">
                 <strong>应用题 Q2</strong><br />
-                千克与克的关系
+                米饭和面粉质量比较
               </td>
               <td className="px-3 py-3 text-ink-2 align-top">
                 <strong>Length, Mass and Volume</strong><br />
-                • 1.1 Measuring mass in kilograms/grams<br />
-                • 1.2 Using appropriate units and abbreviations: g, kg
+                • 1.1 Measuring mass in kilograms<br />
+                • 1.3 Comparing and ordering masses
               </td>
               <td className="px-3 py-3 text-ink-2 align-top">
-                P2 大纲要求孩子会用千克（kg）和克（g）测量质量：1 kg = 1000 g
+                P2 大纲要求孩子会比较质量：5 kg - 2 kg = 3 kg，米饭重 3 千克
               </td>
             </tr>
             <tr className="border-b border-accent/10">
@@ -70,21 +70,20 @@ export default function DualValidationMapMathWeek3() {
             <tr className="border-b border-accent/10">
               <td className="px-3 py-3 text-ink align-top">
                 <strong>应用题 Q4</strong><br />
-                午餐时间计算
+                读时钟到分钟
               </td>
               <td className="px-3 py-3 text-ink-2 align-top">
                 <strong>Measurement and Geometry → Time</strong><br />
-                • 2.1 Telling time to the minute<br />
-                • 2.2 Measuring time in hours and minutes
+                • 2.1 Telling time to the minute
               </td>
               <td className="px-3 py-3 text-ink-2 align-top">
-                P2 大纲要求孩子会读时钟到分钟：12:30 加 25 分钟 = 12:55
+                P2 大纲要求孩子会读时钟到分钟：时针在 3，分针在 6 → 3:30
               </td>
             </tr>
             <tr className="border-b border-accent/10">
               <td className="px-3 py-3 text-ink align-top">
                 <strong>应用题 Q5</strong><br />
-                步行距离比较
+                丝带长度比较
               </td>
               <td className="px-3 py-3 text-ink-2 align-top">
                 <strong>Length, Mass and Volume</strong><br />
@@ -92,7 +91,7 @@ export default function DualValidationMapMathWeek3() {
                 • 1.3 Comparing and ordering lengths
               </td>
               <td className="px-3 py-3 text-ink-2 align-top">
-                P2 大纲要求孩子会比较长度：5 m {">"} 3 m，Tuesday 更远
+                P2 大纲要求孩子会比较长度：8 m - 5 m = 3 m，蓝色丝带长 3 米
               </td>
             </tr>
             <tr className="border-b border-accent/10">
@@ -111,15 +110,14 @@ export default function DualValidationMapMathWeek3() {
             <tr className="border-b border-accent/10">
               <td className="px-3 py-3 text-ink align-top">
                 <strong>选择题 Q2</strong><br />
-                克与千克换算
+                选择适当的质量单位
               </td>
               <td className="px-3 py-3 text-ink-2 align-top">
                 <strong>Length, Mass and Volume</strong><br />
-                • 1.1 Measuring mass in kilograms/grams<br />
-                • 1.2 Using appropriate units: g, kg
+                • 1.2 Using appropriate units and abbreviations: g, kg
               </td>
               <td className="px-3 py-3 text-ink-2 align-top">
-                P2 标准计算：2000 g = 2 kg（理解 1 kg = 1000 g）
+                P2 标准技能：认识质量用克（g）或千克（kg）测量
               </td>
             </tr>
             <tr className="border-b border-accent/10">
@@ -164,14 +162,14 @@ export default function DualValidationMapMathWeek3() {
             <tr className="border-b border-accent/10">
               <td className="px-3 py-3 text-ink align-top">
                 <strong>选择题 Q6</strong><br />
-                比较质量（千克与克）
+                比较质量大小
               </td>
               <td className="px-3 py-3 text-ink-2 align-top">
                 <strong>Length, Mass and Volume</strong><br />
                 • 1.3 Comparing and ordering masses
               </td>
               <td className="px-3 py-3 text-ink-2 align-top">
-                P2 标准技能：比较不同单位的质量：4 kg = 4000 g {">"} 3000 g
+                P2 标准技能：比较相同单位的质量：4 kg {">"} 3 kg
               </td>
             </tr>
             <tr className="border-b border-accent/10">
