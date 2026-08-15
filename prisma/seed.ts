@@ -1183,6 +1183,8 @@ Useful phrases:
       parentBrief: "本周纠错焦点：被动语态和情态动词（should/ought to）。中文少用被动，孩子会说 We recycle the bottles（主动）而写不出 Plastic is recycled（被动）。建议表达用 should/ought to + 动词原形。环保话题需要被动语态描述系统（Plastic is recycled, bins are collected）和情态动词提建议（We should reduce, students ought to bring...）。作业盯住这两个化石化高危点。",
       videoUrl: null,
       kaizenFocus: "Use passive voice (is recycled, are collected); should/ought to + bare verb for advice",
+      officialClipId: "jAeqGbJIfJE",
+      officialClipCredit: "片源 Clean and Green Singapore 官方频道（NEA Recycle Right / Bloobin）。本站不拥有该片，仅嵌入官方 YouTube。孩子先看 check / clean / recycle，再练 Plastic is recycled 和 should/ought to。",
       questions: [
         {
           type: "reading",

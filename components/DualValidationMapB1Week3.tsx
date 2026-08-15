@@ -5,7 +5,7 @@ export default function DualValidationMapB1Week3() {
         本周对照考试题型
       </h2>
       <p className="text-sm text-ink-2 mb-4 leading-relaxed">
-        本周按 <strong>B1 Preliminary for Schools</strong> 题型来练。故事是<strong>环境行动 / Environment Action</strong>：新加坡学校环保项目、HDB 社区回收、Town Council 垃圾分类、Eco Fair 展示。焦点是<strong>被动语态</strong>（Plastic is recycled, bins are collected）和<strong>情态动词建议</strong>（should/ought to + 动词原形）。
+        本周按 <strong>B1 Preliminary for Schools</strong> 题型来练。故事是<strong>环境行动 / Environment Action</strong>：新加坡学校环保项目、HDB 社区回收、Town Council 垃圾分类、Eco Fair 展示。焦点是<strong>被动语态</strong>（Plastic is recycled, bins are collected）和<strong>情态动词建议</strong>（should/ought to + 动词原形）。先看官方 Bloobin Recycle Right 影片，再做作业。
       </p>
 
       <div className="overflow-x-auto">
