@@ -2869,7 +2869,7 @@ Ms Tan`,
 The School Library
 by Mei, Primary 5
 
-I love our school library! At the library, you (1) ____ borrow books and read magazines. You (2) ____ be quiet because other students are reading. If you need help, you (3) ____ ask the librarian, Ms Wong. She is very kind. Last week, I wanted to borrow a book about Singapore history, but I (4) ____ find it. Ms Wong helped me look for it. She said I (5) ____ keep the book for two weeks. I (6) ____ read it at home or in the library. I love reading at the library after school!`,
+I love our school library! At the library, you (1) ____ borrow books and read magazines. You (2) ____ be quiet because other students are reading. If you need help, you (3) ____ ask the librarian, Ms Wong. She is very kind. Sometimes I want to borrow a book about Singapore history, but I (4) ____ find it on the shelf. When that happens, Ms Wong helps me look for it. She says I (5) ____ keep the books for two weeks. I (6) ____ read them at home or in the library. I love reading at the library after school!`,
           options: JSON.stringify([
             "(1)|A. can|B. can to|C. must|D. must to",
             "(2)|A. can|B. can to|C. must|D. must to",
