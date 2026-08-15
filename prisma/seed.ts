@@ -721,18 +721,32 @@ Now, six months later, I'm not fluent, but I'm no longer silent. I volunteer ans
         {
           type: "grammar",
           order: 2,
-          content: "Choose the correct answer:",
+          content: `完形填空 / Cloze Test
+
+Read this short text and choose the correct word for each gap. Focus on present perfect vs past simple.
+
+My First Term at an English-Medium School
+
+by Rajesh Kumar, Secondary 1
+
+I (1) ____ at Anglo-Chinese School for three months now. It's quite different from my primary school! When I first (2) ____ here in June, I felt very nervous. Everything was in English, and the teachers spoke so fast.
+
+In primary school, I (3) ____ Mandarin and Tamil most of the time. I (4) ____ English lessons, but we mostly did grammar exercises. Here, we use English all day for every subject.
+
+At first, I didn't understand many instructions. But since September, my confidence (5) ____. Last week, I even (6) ____ a question in Science class, and the teacher said my answer was excellent! I (7) ____ several new friends who help me when I'm confused. One of them, Marcus, (8) ____ in an English-medium school all his life, so he gives me useful tips.
+
+I know I still make mistakes, but I'm improving every week.`,
           options: JSON.stringify([
-            "When I moved to secondary school, I ____ completely lost.|A. feel|B. felt|C. have felt|D. am feeling",
-            "I ____ at this school for six months now.|A. am|B. was|C. have been|D. had been",
-            "Everything ____ in English at my school.|A. teach|B. teaches|C. is taught|D. teaching",
-            "Siti helped me ____ I was nervous.|A. because|B. so|C. although|D. but",
-            "I'm not fluent, ____ I'm no longer silent.|A. because|B. so|C. but|D. and",
-            "I started ____ the notice board every morning.|A. read|B. to read|C. reading|D. reads",
-            "If I ____ a question, my teacher always helps.|A. ask|B. asked|C. will ask|D. asking",
-            "The teacher said my effort ____ excellent.|A. is|B. was|C. has been|D. will be",
+            "(1)|A. am|B. was|C. have been|D. had been",
+            "(2)|A. arrive|B. arrived|C. have arrived|D. am arriving",
+            "(3)|A. speak|B. spoke|C. have spoken|D. am speaking",
+            "(4)|A. have|B. had|C. have had|D. am having",
+            "(5)|A. improves|B. improved|C. has improved|D. is improving",
+            "(6)|A. answer|B. answered|C. have answered|D. am answering",
+            "(7)|A. make|B. made|C. have made|D. am making",
+            "(8)|A. is|B. was|C. has been|D. had been",
           ]),
-          correctAnswer: "B,C,C,A,C,C,A,B",
+          correctAnswer: "C,B,B,B,C,B,C,C",
           points: 8,
         },
         {
@@ -742,12 +756,13 @@ Now, six months later, I'm not fluent, but I'm no longer silent. I volunteer ans
 
 The student asks: "I'm joining an English-medium school next term and I'm worried. What should I do?"
 
-Give THREE pieces of helpful advice based on your own experience or ideas.
+Give THREE pieces of helpful advice. Share your own experience if possible.
 
 成功标准 / Success Criteria:
 ✓ 3条建议清晰 (Three clear pieces of advice)
-✓ 使用情态动词 (Modal verbs: should, could, ought to, must)
-✓ 连接词 (Linking: firstly, also, because, so that, however)
+✓ 使用现在完成时描述持续经验 (Present perfect for ongoing experience: I have been..., I have learned...)
+✓ 使用一般过去时说明确过去事件 (Past simple for finished events: I went..., I started..., I felt...)
+✓ 情态动词和连接词 (Modal verbs: should, could; Linking: firstly, also, because)
 ✓ 支持和鼓励的语气 (Supportive and encouraging tone)
 ✓ 100-120词 (100-120 words)`,
           points: 10,
@@ -785,25 +800,25 @@ Finally, CCA sign-ups are next week. Joining a CCA is a great way to practise En
 Task: Talk about a challenge you overcame when learning English (2 minutes)
 
 Discuss:
-• What the challenge was
-• How you felt about it
-• What you did to improve
+• What the challenge was (past simple: I felt..., I started...)
+• How long you have been working on it (present perfect: I have been..., I have improved...)
+• What you did to improve (past simple: I went..., I asked...)
 • What advice you would give to others
 
-Useful phrases:
-• When I first started..., I found it difficult to...
-• The biggest challenge for me was...
-• I felt... because...
-• To improve, I...
-• One thing that really helped was...
-• Now I realise that...
+Useful phrases (时态对比练习):
+• When I first started... (过去时), I felt... (过去时)
+• I have been studying English for... (完成时)
+• Last year, I joined... (过去时)
+• Since then, I have learned... (完成时)
+• One thing that really helped was... (过去时)
+• Now I have become... (完成时)
 • My advice to other students would be...
 
 如何练习 / How to practise:
 1. 想一个真实经历 (Think of a real experience)
 2. 准备2分钟内容 (Prepare 2 minutes of content)
 3. 点击"开始录音"，有2分钟时间 (Tap "开始录音", you have 2 minutes)
-4. 提交后AI会评估发音、流利度、任务完成度 (AI evaluates pronunciation, fluency, task)
+4. 提交后AI会评估发音、流利度、任务完成度、时态准确性 (AI evaluates pronunciation, fluency, task, tense accuracy)
 5. 根据反馈的"改善焦点"再录一次 (Re-record focusing on the improvement tip)`,
           points: 5,
         },
