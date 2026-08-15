@@ -5,7 +5,7 @@ export default function DualValidationMapB1Week2() {
         本周对照考试题型
       </h2>
       <p className="text-sm text-ink-2 mb-4 leading-relaxed">
-        先看官方 gov.sg Real or Fake 影片，再做作业。本周按 <strong>B1 Preliminary for Schools</strong> 题型来练。故事是<strong>科技日常 / Technology Today</strong>：新加坡学校科技政策、Student Learning Space (SLS)、手机规则。焦点是<strong>第一条件句</strong>（If you bring your phone, you must...）和<strong>动名词</strong>（enjoy using, good at learning, after prepositions）。
+        先看官方 gov.sg Real or Fake 影片（街访：识别 AI 生成照片、deepfake 视频、假政府短信，下载 ScamShield），再做作业。本周按 <strong>B1 Preliminary for Schools</strong> 题型来练。故事是<strong>科技日常 / Technology Today</strong>：新加坡青少年学习辨别真假信息、ScamShield app、网络安全习惯。焦点是<strong>第一条件句</strong>（If you see a strange SMS, you should...）和<strong>动名词</strong>（enjoy checking, good at spotting, interested in learning）。
       </p>
 
       <div className="overflow-x-auto">
@@ -26,35 +26,35 @@ export default function DualValidationMapB1Week2() {
           <tbody>
             <tr className="border-b border-accent/10">
               <td className="px-3 py-3 text-ink align-top">
-                <strong>阅读</strong><br />Singapore School Tech Rules 学生指南 + 选择题
+                <strong>阅读</strong><br />How to Spot Real or Fake 青少年指南 + 选择题
               </td>
               <td className="px-3 py-3 text-ink-2 align-top">
                 <strong>长文本阅读</strong><br />一篇长文本，多道选择题
               </td>
               <td className="px-3 py-3 text-ink-2 align-top">
-                读学校科技使用指南，练读懂规则细节、条件、推断后果
+                读 Priya 写的辨别真假指南（阿姨差点被假 SMS 骗，学习识别 AI 照片、deepfake 视频、假政府短信，下载 ScamShield），练读懂细节、推断建议
               </td>
             </tr>
             <tr className="border-b border-accent/10">
               <td className="px-3 py-3 text-ink align-top">
-                <strong>语法</strong><br />完形：If you bring... / enjoy using / good at learning
+                <strong>语法</strong><br />完形：If you see... / enjoy checking / good at spotting
               </td>
               <td className="px-3 py-3 text-ink-2 align-top">
                 <strong>语法完形</strong><br />短文，选择填空
               </td>
               <td className="px-3 py-3 text-ink-2 align-top">
-                练第一条件句（If + present, will/must...）和动名词（enjoy/like + -ing，介词 + -ing），一个完整短文完形
+                练第一条件句（If you see a suspicious message, you should...）和动名词（enjoy checking, good at spotting, interested in learning），一个完整短文完形
               </td>
             </tr>
             <tr className="border-b border-accent/10">
               <td className="px-3 py-3 text-ink align-top">
-                <strong>写作</strong><br />邮件 100 词，给朋友讲科技学习经验
+                <strong>写作</strong><br />邮件 100-120 词，给朋友讲辨别真假经验
               </td>
               <td className="px-3 py-3 text-ink-2 align-top">
                 <strong>邮件写作</strong><br />官方 100 词左右
               </td>
               <td className="px-3 py-3 text-ink-2 align-top">
-                写邮件给朋友，讲用科技学习的经验，用第一条件句（If you try this app, you will...）和动名词（I enjoy using... / I'm good at learning by...）
+                写邮件给朋友，讲学习辨别真假的经验，用第一条件句（If you see a strange SMS, you should check...）和动名词（I enjoy checking... / I'm good at spotting...），推荐 ScamShield 等工具
               </td>
             </tr>
             <tr className="border-b border-accent/10">
@@ -70,13 +70,13 @@ export default function DualValidationMapB1Week2() {
             </tr>
             <tr>
               <td className="px-3 py-3 text-ink align-top">
-                <strong>口语</strong><br />~2 分钟讲科技学习工具
+                <strong>口语</strong><br />~2 分钟讲怎么识别真假
               </td>
               <td className="px-3 py-3 text-ink-2 align-top">
                 <strong>个人陈述</strong><br />2 分钟独白
               </td>
               <td className="px-3 py-3 text-ink-2 align-top">
-                讲用科技学习英语的经验，用第一条件句（If you use this daily, you will improve...）和动名词（I enjoy watching... / I'm good at learning by...），AI 会盯住条件句和动名词
+                讲怎么识别 AI 照片、deepfake 视频、假 SMS，用第一条件句（If you see something suspicious, you should...）和动名词（I enjoy checking... / I'm good at spotting...），AI 会盯住条件句和动名词
               </td>
             </tr>
           </tbody>

@@ -537,79 +537,82 @@ AI will check if you correctly use present continuous (am/is/are + -ing) for NOW
       isSample: false,
       dueDate: new Date("2026-09-03"),
       errorFocus: "past-simple",
-      parentBrief: "本周纠错焦点：一般过去时和 used to。中文靠时间词「昨天、上周」来表示过去，动词不变形，孩子会说 yesterday I go。英语过去时动词必须变形：went, visited, had。另外，以前的习惯用 used to（不是 use to）：I used to live in Beijing。本周作业会反复纠正这两个化石化高危点。",
+      parentBrief: "本周纠错焦点：一般过去时和 used to。中文靠时间词「昨天、上周」来表示过去，动词不变形，孩子会说 yesterday I go。英语过去时动词必须变形：went, visited, brought, had。另外，以前的习惯用 used to（不是 use to）：We used to picnic every week。本周儿歌是 The Family Tree（mommy/daddy/grandma/grandpa/aunt/uncle/cousin 在野餐带什么），作业讲上周日家庭野餐，练 visited / brought / had 和 used to。",
       videoUrl: null,
-      kaizenFocus: "Use past simple for finished actions (went, visited); used to for old habits",
+      kaizenFocus: "Use past simple for finished actions (went, visited, brought, had); used to for old habits",
       officialClipId: "ecm9HEFcfdQ",
-      officialClipCredit: "片源 Super Simple Songs 官方频道。The Family Tree。本站不拥有该片，仅嵌入官方 YouTube。孩子先听 mummy / daddy / grandma，再练过去时 visited / used to。",
+      officialClipCredit: "片源 Super Simple Songs 官方频道。The Family Tree。本站不拥有该片，仅嵌入官方 YouTube。孩子先听 mommy/daddy/grandma/grandpa/aunt/uncle/cousin 在 family tree 野餐带 apples/grapes/crackers/cheese，再练过去时 visited/brought/had 和 used to。",
       questions: [
         {
           type: "reading",
           order: 1,
-          content: `Read about Wei's weekend:
+          content: `Read about Wei's family picnic:
 
-Visiting Ah Ma and Ah Gong
+A Family Picnic at East Coast Park
 
-Last Sunday, my family visited my grandparents. We call them Ah Ma and Ah Gong. They live in an old HDB flat in Toa Payoh. It's smaller than our flat, but I love going there because Ah Ma always cooks delicious food!
+Last Sunday, my whole family had a big picnic at East Coast Park. It was a wonderful day! My daddy picked everyone up in the morning. First we collected Grandma and Grandpa from their home in Bedok. Then we drove to my Aunt Lily's house to pick up my cousin Xiao Hui. My mummy sat in the front with a big basket of food.
 
-We arrived at eleven o'clock in the morning. Ah Gong was sitting in the living room reading the Chinese newspaper. He's seventy-five years old now, but he's still very healthy. He used to work as a taxi driver, and he loves telling stories about old Singapore. My dad is his youngest son.
+We arrived at East Coast Park at ten o'clock. The weather was perfect – sunny but not too hot. My brother Jun and I helped carry the picnic mats and bags. My sister Mei brought her kite. She wanted to fly it after lunch.
 
-Ah Ma was in the kitchen preparing lunch. She made my favourite dishes: steamed fish, stir-fried vegetables, and her special soup. She's an amazing cook! My little cousin, Xiao Hui, was there too. She's only six years old and she's very playful. She wanted me to play with her toys and watch cartoons together.
+Everyone brought something for the picnic! Grandma brought a big bag of red apples. Grandpa brought purple grapes in a plastic box. My mummy made sandwiches and packed them in foil. My daddy brought crackers and cheese in a cooler bag. Aunt Lily brought orange juice and water bottles. My cousin Xiao Hui brought cookies that she baked herself – they were delicious!
 
-After lunch, we all sat in the living room and talked. Ah Gong showed me some old photos from when he was young. In one photo, he was standing in front of a kampong house! Singapore looked so different then. Ah Ma gave me a red packet with some money inside and said, "Study hard!"
+We spread the mats under a big tree near the beach. Mummy and Aunt Lily set out all the food. We had so much! I ate two sandwiches, some crackers with cheese, grapes, an apple, and three of Xiao Hui's cookies. My brother Jun ate even more than me!
 
-At around four o'clock, we said goodbye. Ah Ma packed some leftover food for us to take home. I felt happy but also a bit sad to leave. I wish we could visit them more often. Family is very important to me.`,
+After lunch, Grandpa told us stories about when he was young. He said, "We used to picnic at Changi Beach every month. Your grandma used to make curry puffs for every picnic!" Grandma smiled and said, "Yes, and you used to play football with your brothers on the sand!"
+
+My sister Mei and I flew the kite with Daddy. Xiao Hui and Jun played with a frisbee. Grandma and Grandpa sat on the mat and watched us. Mummy and Aunt Lily walked along the beach.
+
+At four o'clock, we packed everything up. Daddy drove everyone home. On the way back, Mummy said, "We should do this again next month!" I really hope we do. I love spending time with my whole family. We used to have picnics more often when I was younger, but everyone is busy now. Last Sunday reminded me how much fun it is to be together.`,
           options: JSON.stringify([
-            "Who are Ah Ma and Ah Gong?|A. Wei's parents|B. Wei's aunt and uncle|C. Wei's grandparents|D. Wei's teachers",
-            "Where do the grandparents live?|A. In a kampong|B. In Toa Payoh|C. In Wei's house|D. In Queenstown",
-            "What did Ah Gong use to do?|A. He was a teacher|B. He was a cook|C. He was a taxi driver|D. He worked in an office",
-            "How old is Xiao Hui?|A. 5|B. 6|C. 7|D. 10",
-            "What did they do after lunch?|A. Played outside|B. Watched cartoons|C. Sat and talked, looked at photos|D. Went shopping",
-            "What did Ah Ma give Wei?|A. A toy|B. A book|C. A red packet with money|D. Some soup",
-            "What was Ah Gong doing when they arrived?|A. Cooking|B. Reading the newspaper|C. Sleeping|D. Watching TV",
-            "How does Wei feel about family?|A. It's not important|B. It's very important|C. It's boring|D. He doesn't say",
+            "When did the family have the picnic?|A. Last Saturday|B. Last Sunday|C. Yesterday|D. Next week",
+            "Where did they have the picnic?|A. Changi Beach|B. Bedok Park|C. East Coast Park|D. Sentosa",
+            "What did Grandma bring?|A. Grapes|B. Apples|C. Cookies|D. Sandwiches",
+            "What did Grandpa bring?|A. Apples|B. Grapes|C. Crackers|D. Juice",
+            "Who made sandwiches?|A. Grandma|B. Aunt Lily|C. Mummy|D. Daddy",
+            "What did Xiao Hui bring?|A. Apples|B. Juice|C. Cookies she baked|D. Kite",
+            "What did Grandpa say they used to do?|A. Go to the zoo every week|B. Picnic at Changi Beach every month|C. Eat at restaurants|D. Play at the playground",
+            "What time did they leave?|A. Two o'clock|B. Three o'clock|C. Four o'clock|D. Five o'clock",
           ]),
-          correctAnswer: "C,B,C,B,C,C,B,B",
+          correctAnswer: "B,C,B,B,C,C,B,C",
           points: 8,
         },
         {
           type: "grammar",
           order: 2,
-          content: `Read about Wei's visit to his grandparents. Choose the correct word for each gap.
+          content: `Read about Wei's family picnic. Choose the correct word for each gap.
 
-Visiting Ah Ma and Ah Gong
+A Family Picnic at East Coast Park
 
-Last Sunday, my family (1) ____ my grandparents in Toa Payoh. We call them Ah Ma and Ah Gong. They (2) ____ to live in a kampong when they were young, but now they have a flat near the MRT station.
+Last Sunday, my family (1) ____ a picnic at East Coast Park. We (2) ____ to have picnics every month when I was younger, but now everyone is busy. This was special!
 
-We (3) ____ at their home around eleven in the morning. Ah Gong (4) ____ reading his Chinese newspaper when we walked in. He smiled and (5) ____ us tea. Ah Ma was in the kitchen. She (6) ____ my favourite dishes for lunch – steamed fish and chicken rice!
-
-After lunch, Ah Gong (7) ____ me some old photos. In one photo, he (8) ____ standing in front of his old taxi. He used to be a taxi driver for thirty years. I love visiting them!`,
+My mummy and daddy (3) ____ at my grandparents' house first. Grandma (4) ____ a big bag of apples. Grandpa (5) ____ grapes. My aunt and cousin (6) ____ too. My cousin Xiao Hui (7) ____ cookies she baked! We (8) ____ so much food and everyone had a great time. Grandpa said he used to play football on the beach when he was young!`,
           options: JSON.stringify([
-            "(1)|A. visit|B. visits|C. visited|D. visiting",
-            "(2)|A. use to live|B. used to live|C. uses to live|D. are used to live",
-            "(3)|A. arrive|B. arrives|C. arriving|D. arrived",
-            "(4)|A. is|B. are|C. was|D. were",
-            "(5)|A. give|B. gives|C. giving|D. gave",
-            "(6)|A. cook|B. cooks|C. cooked|D. cooking",
-            "(7)|A. show|B. shows|C. showing|D. showed",
-            "(8)|A. is|B. are|C. was|D. were",
+            "(1)|A. have|B. has|C. had|D. having",
+            "(2)|A. use to have|B. used to have|C. uses to have|D. using to have",
+            "(3)|A. stop|B. stops|C. stopping|D. stopped",
+            "(4)|A. bring|B. brings|C. brought|D. bringing",
+            "(5)|A. bring|B. brings|C. brought|D. bringing",
+            "(6)|A. come|B. comes|C. coming|D. came",
+            "(7)|A. bring|B. brings|C. brought|D. bringing",
+            "(8)|A. have|B. has|C. having|D. had",
           ]),
-          correctAnswer: "C,B,D,C,D,C,D,C",
+          correctAnswer: "C,B,D,C,C,D,C,D",
           points: 8,
         },
         {
           type: "writing",
           order: 3,
-          content: `Write an email to a friend about a family weekend (50-70 words).
+          content: `Write an email to a friend about a family picnic or family day (50-70 words).
 
 Include these THREE points:
-• Who you spent time with
-• What you did together
-• Why it was special or enjoyable
+• Who you spent time with (use family words: mummy, daddy, grandma, grandpa, aunt, uncle, cousin, brother, sister)
+• What everyone brought and what you did together
+• Mention something your family used to do in the past
 
 成功标准 / Success Criteria:
-✓ 过去时态 (Past simple tense: we visited, I saw, we had...)
-✓ 家庭词汇 (Family vocabulary: grandparents, cousin, aunt, uncle, etc.)
+✓ 过去时态 (Past simple tense: we had, I visited, everyone brought, we played...)
+✓ 家庭词汇 (Family vocabulary from the song: mummy, daddy, grandma, grandpa, aunt, uncle, cousin)
+✓ used to 句型 (Used to for past habits: We used to picnic... / Grandpa used to...)
 ✓ 形容词表达感受 (Adjectives for feelings: happy, fun, delicious, special)
 ✓ 50-70词 (50-70 words)`,
           points: 10,
@@ -652,30 +655,33 @@ Mum: I'll pack sandwiches and fruit. You can bring some biscuits if you want. Do
           order: 5,
           content: `口语练习 / Speaking Practice
 
-Task: Talk about a past family day (1 minute)
+Task: Talk about a past family picnic or family day (1 minute)
 
 Think about a day you spent with family in the past. Talk about:
-• When it was and who you were with
-• Where you went or what you did together
-• What you ate or what happened
-• How you felt about it
+• When it was and who you were with (use family words: mummy, daddy, grandma, grandpa, aunt, uncle, cousin, brother, sister)
+• Where you went and what everyone brought
+• What you ate, played, or did together
+• Something your family used to do in the past
 
 Useful phrases (use past simple!):
-• Last weekend / Last month, I...
-• We visited / went to...
-• My family and I had...
-• I saw / ate / played...
-• Ah Ma / Ah Gong / My cousin was...
+• Last weekend / Last Sunday, I...
+• We had a picnic at...
+• My whole family was there: my mummy, daddy...
+• Grandma brought... / Grandpa brought... / My aunt brought...
+• We ate... / We played...
+• Mummy made... / Daddy drove...
 • When I was younger, we used to...
+• My grandpa used to...
 • It was special because...
 • I felt happy / excited when...
 
 如何练习 / How to practise:
-1. 想一个过去的家庭日 (Think of a past family day)
-2. 用过去时说 (Use past tense: went, had, visited)
-3. 点击"开始录音"按钮 (Tap the "开始录音" button)
-4. 说完整1分钟，然后停止 (Speak for the full minute, then stop)
-5. AI会盯住过去时动词和 used to (AI will focus on past tense and used to)`,
+1. 想一个过去的家庭野餐或家庭日 (Think of a past family picnic or family day)
+2. 用儿歌的家庭词汇 (Use family words from the song: mummy, daddy, grandma, grandpa, aunt, uncle, cousin)
+3. 用过去时说谁带了什么 (Use past tense: brought, had, visited, ate, played)
+4. 点击"开始录音"按钮 (Tap the "开始录音" button)
+5. 说完整1分钟，然后停止 (Speak for the full minute, then stop)
+6. AI会盯住过去时动词和 used to (AI will focus on past tense verbs and used to)`,
           points: 5,
         },
       ],
@@ -886,9 +892,9 @@ Subject: My Gardens by the Bay trip!
 
 Hi Emma,
 
-(1) ____ to Gardens by the Bay? I went last Friday with my school and it was amazing! I (2) ____ there once before with my parents, but this learning journey was (3) ____ than that family visit. Our guide showed us the Cloud Forest – (4) ____ inside a Cloud Forest Dome? The plants were (5) ____ than I expected, and some were (6) ____ than a tall person! 
+(1) ____ to Gardens by the Bay? I went last Friday with my school and it was amazing! I (2) ____ there once before with my parents, but this learning journey was (3) ____ than that family visit. Our guide showed us the Cloud Forest – the plants were (4) ____ than I expected, and the indoor waterfall was (5) ____ than any I've seen! 
 
-The most interesting part was learning about the Supertrees. They're (7) ____ impressive than ordinary trees because they collect rainwater and make solar power. Our teacher said Singapore's gardens are (8) ____ creative than gardens in many other cities. After the trip, I felt (9) ____ interested in environmental science than before. (10) ____ thought about gardens this way?
+The most interesting part was learning about the Supertrees. They're (6) ____ impressive than ordinary trees because they collect rainwater and make solar power. Our teacher said Singapore's gardens are (7) ____ creative than gardens in many other cities. After the trip, I felt (8) ____ interested in environmental science than before.
 
 I'd love to go back again!
 
@@ -897,16 +903,14 @@ Rachel`,
             "(1)|A. Do you ever go|B. Did you ever go|C. Have you ever been|D. Are you ever going",
             "(2)|A. visit|B. visited|C. am visiting|D. have been",
             "(3)|A. educational|B. more educational|C. most educational|D. educationaler",
-            "(4)|A. Do you ever walk|B. Did you ever walk|C. Have you ever walked|D. Are you ever walking",
-            "(5)|A. more beautiful|B. most beautiful|C. beautifuler|D. beautiful",
-            "(6)|A. tall|B. taller|C. tallest|D. more tall",
-            "(7)|A. much|B. many|C. more|D. most",
-            "(8)|A. more|B. most|C. many|D. much",
-            "(9)|A. much|B. more|C. most|D. many",
-            "(10)|A. Do you ever|B. Did you ever|C. Have you ever|D. Are you ever",
+            "(4)|A. more beautiful|B. most beautiful|C. beautifuler|D. beautiful",
+            "(5)|A. tall|B. taller|C. tallest|D. more tall",
+            "(6)|A. much|B. many|C. more|D. most",
+            "(7)|A. more|B. most|C. many|D. much",
+            "(8)|A. much|B. more|C. most|D. many",
           ]),
-          correctAnswer: "C,D,B,C,A,B,C,A,B,C",
-          points: 10,
+          correctAnswer: "C,D,B,A,B,C,A,B",
+          points: 8,
         },
         {
           type: "writing",
@@ -1010,80 +1014,70 @@ Useful phrases:
       isSample: false,
       dueDate: new Date("2026-08-27"),
       errorFocus: "conditional-gerund",
-      parentBrief: "本周纠错焦点：第一条件句（If + 现在式, will/must/can...）和动名词（enjoy/like + -ing，介词后 + -ing）。中文条件句不变形，孩子会说 If you bring phone, must...（缺主句主语或助动词）。还有典型化石化：enjoy to use（应该是 enjoy using），good at learn（应该是 good at learning）。本周作业会反复训练这两个难点。",
+      parentBrief: "本周纠错焦点：第一条件句（If + 现在式, will/must/can...）和动名词（enjoy/like + -ing，介词后 + -ing）。中文条件句不变形，孩子会说 If you see message, must...（缺主句主语或助动词）。还有典型化石化：enjoy to check（应该是 enjoy checking），good at spot（应该是 good at spotting）。本周影片讲辨别真假：AI 生成照片、deepfake 视频、假政府短信，ScamShield app。作业练 If it looks fake, you should... 和 enjoy checking / interested in learning 怎么防诈骗。",
       videoUrl: null,
-      kaizenFocus: "If + present, will/must (1st conditional); enjoy/like + -ing, preposition + -ing",
+      kaizenFocus: "If + present, will/must/should (1st conditional); enjoy/like/good at + -ing",
       officialClipId: "dVrHLZtvr5g",
-      officialClipCredit: "片源 gov.sg 官方频道。Real or Fake: Disinformation。本站不拥有该片，仅嵌入官方 YouTube。孩子先看 how to check real or fake，再练 If you see a message, you should… 和 enjoy checking / good at spotting。",
+      officialClipCredit: "片源 gov.sg 官方频道。Real or Fake: Disinformation。本站不拥有该片，仅嵌入官方 YouTube。孩子先看街访：怎么识别 AI 生成图片、deepfake 视频、假政府短信，下载 ScamShield app，再练 If you see... you should... 和 enjoy checking / good at spotting。",
       questions: [
         {
           type: "reading",
           order: 1,
-          content: `Read this guide:
+          content: `Read this article:
 
-Using Technology at Westwood Secondary School – Student Guide 2026
+How to Spot Real or Fake – A Singapore Teen's Guide
 
-At Westwood Secondary, we believe technology can help learning when used responsibly. This guide explains our school's technology rules and the Student Learning Space (SLS) platform.
+By Priya Menon, Secondary 3 Student
 
-Personal Devices Policy
+Last month, my aunt in Bukit Merah almost lost $5,000 to a scam SMS. The message claimed to be from the Singapore government, saying she had an unpaid fine and needed to click a link to pay immediately. The message looked real – it even had an official-looking logo! Luckily, my uncle stopped her just before she entered her bank details. That scary moment made me realise: if we don't learn to check what's real and what's fake online, anyone can become a victim.
 
-Students may bring phones and tablets to school. If you bring a personal device, you must switch it off and store it in your locker before 7:30 am. If you forget to switch off your phone and it rings during a lesson, your teacher will keep it until the end of the school day. If this happens three times in one term, your parents will be called for a meeting.
+At school, our Cyber Wellness teacher, Ms Tan, showed us a gov.sg video called "Real or Fake: Disinformation." It's a street interview where people try to spot AI-generated photos, deepfake videos, and fake government messages. Some people were good at spotting fakes, but many got tricked! The video taught me three important lessons.
 
-During recess and after school, you may use your device in designated areas only: the canteen, the school courtyard, and the library ground floor. If you use your phone in corridors or staircases, a teacher will remind you to put it away. We made this rule because students were walking while looking at screens and several minor accidents happened last year.
+First, check photos carefully. If you look closely at AI-generated images, you might notice strange details – for example, people might have six fingers, or shadows might point the wrong way. If something looks too perfect or slightly odd, you should reverse-image search it using Google to check if it's real.
 
-Student Learning Space (SLS)
+Second, watch for deepfake videos. Deepfakes use AI to make fake videos of real people. If you see a video of a politician or celebrity saying something shocking, you must check reliable news sources before believing it. Deepfakes often have unnatural blinking, strange lip movements, or mismatched audio. If you notice these signs, you should report the video.
 
-All students have an SLS account. If you log in to SLS regularly, you will find your homework assignments, revision materials, and announcements from your teachers. Most teachers post homework on SLS by 6 pm, so if you check the platform after dinner, you won't miss any deadlines.
+Third, be careful with messages claiming to be from the government. In Singapore, the government never sends links asking for personal information or payment through SMS. If you receive a suspicious message, you should check the official gov.sg website or call the agency directly. Never click links in random messages!
 
-The SLS app is available on phones and tablets. Many students enjoy using the app because it sends notifications when teachers post new assignments. However, you are responsible for checking SLS yourself – if you miss an assignment because you didn't check, you will still receive a zero for that task.
+Ms Tan strongly recommended downloading ScamShield, a free app by the Singapore government. If you install ScamShield on your phone, it will automatically block scam calls and SMS. My whole family downloaded it, and we're already interested in seeing how much spam it blocks. My dad enjoys checking the app's daily report – last week it blocked four scam calls!
 
-SLS also includes interactive videos and quizzes. If you spend fifteen minutes daily on the practice quizzes, you will improve your exam readiness. Students who are good at managing their time find SLS very helpful. Those who struggle with self-discipline sometimes spend too much time on non-academic apps instead.
-
-Charging Stations
-
-If you need to charge your device, use one of the charging stations in the library or the student lounge. If you bring your own charging cable and adapter, you can charge your device there during recess or after school. Please don't charge devices in classrooms – we don't have enough power points, and trailing cables can be dangerous.
-
-Need Help?
-
-If you have problems logging in to SLS or accessing materials, visit the IT Help Desk in the library every Monday and Wednesday after school. Our student IT helpers are good at solving common problems. For more serious technical issues, email ithelpdesk@westwood.edu.sg and the ICT coordinator will reply within two working days.
-
-Remember: technology is a tool to help you learn. If you use it wisely, you will succeed. If you waste time on distractions, you will fall behind. The choice is yours.`,
+I used to think I was good at spotting fake news, but that video humbled me. Now I always pause before sharing something online. If it looks suspicious, I check first. I'm also better at explaining to my younger brother why he shouldn't click random links. Everyone in my family is now more careful, and we enjoy discussing what's real or fake when we see viral posts. It's become a useful family habit.`,
           options: JSON.stringify([
-            "What must students do if they bring a phone?|A. Leave it at home|B. Give it to the teacher|C. Switch it off and store it in their locker by 7:30 am|D. Use it only during lessons",
-            "What happens if your phone rings during a lesson?|A. Nothing|B. You get detention immediately|C. The teacher keeps it until the end of the day|D. Your parents come to school",
-            "Where can students use phones during recess?|A. Anywhere in school|B. Only in classrooms|C. In the canteen, courtyard, and library ground floor|D. Only in the principal's office",
-            "Why did the school make rules about phones in corridors?|A. To save electricity|B. Because accidents happened when students walked while looking at screens|C. Because phones are too expensive|D. Because parents complained",
-            "When do most teachers post homework on SLS?|A. At 6 am|B. During lessons|C. By 6 pm|D. At midnight",
-            "What will happen if you spend 15 minutes daily on SLS practice quizzes?|A. You will get detention|B. You will improve your exam readiness|C. You will lose marks|D. You will be punished",
-            "Where can students charge devices?|A. In any classroom|B. In the charging stations in the library or student lounge|C. In the canteen|D. In the staff room",
-            "What does the guide say about technology?|A. It's dangerous|B. It's banned|C. It's a tool; if you use it wisely you will succeed|D. Only teachers can use it",
+            "What nearly happened to Priya's aunt?|A. She lost her phone|B. She almost lost $5,000 to a scam SMS|C. She bought a fake product|D. She shared a fake video",
+            "What did the scam message claim?|A. She won a prize|B. She had an unpaid fine|C. Her bank account was hacked|D. She needed to update her password",
+            "What is a sign that a photo might be AI-generated?|A. It's in black and white|B. It's very small|C. Strange details like six fingers or wrong shadows|D. It has a watermark",
+            "What should you do if you see a shocking deepfake video?|A. Share it immediately|B. Check reliable news sources first|C. Delete your account|D. Ignore it completely",
+            "Does the Singapore government send SMS with payment links?|A. Yes, always|B. Yes, sometimes|C. No, never|D. Only for fines",
+            "What does ScamShield do?|A. Creates fake messages|B. Blocks scam calls and SMS|C. Makes videos|D. Teaches English",
+            "How many scam calls did ScamShield block for Priya's dad last week?|A. Two|B. Three|C. Four|D. Five",
+            "What is Priya's new habit before sharing something online?|A. Share it quickly|B. Ask her teacher|C. Pause and check if it's suspicious first|D. Post it on all platforms",
           ]),
-          correctAnswer: "C,C,C,B,C,B,B,C",
+          correctAnswer: "B,B,C,B,C,B,C,C",
           points: 8,
         },
         {
           type: "grammar",
           order: 2,
-          content: `Choose the correct word for each gap:
+          content: `Read Jun Wei's message and choose the correct word for each gap.
 
-My Experience with Student Learning Space
+Checking Real or Fake – My Family's New Habit
 
-I started using the Student Learning Space (SLS) platform last year. At first, I wasn't very (1) ____ at navigating the website, but now I find it easy. If you (2) ____ in regularly, you will quickly become familiar with all the features.
+Last month, my aunt almost got scammed by a fake SMS. Since then, my whole family has become interested (1) ____ learning how to spot fakes. We watched the gov.sg video "Real or Fake: Disinformation," and it really opened our eyes!
 
-I really enjoy (3) ____ the interactive videos. They make difficult topics easier to understand. My Science teacher posts quizzes every week, and if you (4) ____ them on time, you will see your scores improve. I'm particularly interested (5) ____ learning through videos rather than just reading textbooks.
+Now, if we (2) ____ a suspicious message or post, we always check before believing it. My dad enjoys (3) ____ photos carefully for strange details. If you (4) ____ closely at AI-generated images, you can sometimes see people with six fingers or weird shadows. It's like a game!
 
-One useful tip: if you (6) ____ problems logging in, don't wait – report it to the IT Help Desk immediately. Last month I had trouble accessing my account, and the IT helpers were very good (7) ____ solving the issue quickly. They finished (8) ____ the problem in just ten minutes, and I could access my homework again.`,
+My mum is good (5) ____ spotting deepfake videos. She says if the lip movements (6) ____ unnatural, you should check reliable news sources first. We all downloaded ScamShield. If you (7) ____ this app on your phone, it will block scam calls automatically. My younger sister loves (8) ____ the daily reports showing how many scams it blocked!`,
           options: JSON.stringify([
-            "(1)|A. good|B. well|C. better|D. best",
-            "(2)|A. logs|B. log|C. logging|D. logged",
-            "(3)|A. watch|B. to watch|C. watched|D. watching",
-            "(4)|A. complete|B. completes|C. completing|D. completed",
-            "(5)|A. at|B. on|C. in|D. for",
-            "(6)|A. have|B. has|C. having|D. had",
-            "(7)|A. in|B. on|C. at|D. for",
-            "(8)|A. fix|B. fixed|C. fixing|D. to fix",
+            "(1)|A. at|B. in|C. on|D. for",
+            "(2)|A. see|B. sees|C. seeing|D. saw",
+            "(3)|A. check|B. to check|C. checked|D. checking",
+            "(4)|A. look|B. looks|C. looking|D. looked",
+            "(5)|A. in|B. on|C. at|D. for",
+            "(6)|A. look|B. looks|C. looking|D. looked",
+            "(7)|A. install|B. installs|C. installing|D. installed",
+            "(8)|A. read|B. to read|C. reading|D. reads",
           ]),
-          correctAnswer: "A,B,D,A,C,A,C,C",
+          correctAnswer: "B,A,D,A,C,A,A,C",
           points: 8,
         },
         {
@@ -1091,19 +1085,18 @@ One useful tip: if you (6) ____ problems logging in, don't wait – report it to
           order: 3,
           content: `Write an email to a friend in another school (100-120 words).
 
-Your friend asks about using technology to learn English. Write about your experience with apps, websites, or platforms like SLS.
+Your friend asks about staying safe online and checking if information is real or fake. Write about:
 
-Include:
-• What technology you use for learning English
-• What you enjoy about using it
+• Your experience learning to spot fake content (photos, videos, messages)
+• What you enjoy about checking for fakes or what you're good at spotting
 • Give advice using "If you..."
-• Suggest they try something
+• Recommend one tool or habit
 
 成功标准 / Success Criteria:
 ✓ 友好语气 (Friendly tone: Hi / Dear...)
-✓ 动名词 (Gerunds: I enjoy using... / I'm good at learning... / interested in watching...)
-✓ 第一条件句 (First conditional: If you try this app, you will... / If you use it daily, you will see...)
-✓ 具体例子 (Specific examples: app names, features, results)
+✓ 动名词 (Gerunds: I enjoy checking... / I'm good at spotting... / interested in learning...)
+✓ 第一条件句 (First conditional: If you see a strange message, you should... / If you install ScamShield, it will... / If it looks fake, you must...)
+✓ 具体例子 (Specific examples: AI-generated photos, deepfakes, fake SMS, ScamShield app)
 ✓ 100-120词 (100-120 words)`,
           points: 10,
         },
@@ -1147,30 +1140,32 @@ Priya: No problem. Let me know if you want to join a study group on the app – 
           order: 5,
           content: `口语练习 / Speaking Practice
 
-Task: Technology for Learning English (2 minutes)
+Task: How to Spot Real or Fake Online (2 minutes)
 
-Talk about how you use technology to learn English. Discuss:
-• What apps, websites, or platforms you use (e.g. SLS, YouTube, language apps)
-• What you enjoy about using them
-• Give advice: "If you want to improve... you should try..."
-• What you're good at learning through technology
+Talk about how to check if information, photos, or messages are real or fake. Discuss:
+• What kinds of fake content you've seen or heard about (AI photos, deepfakes, scam SMS)
+• What you enjoy about learning to spot fakes, or what you're good at checking
+• Give advice: "If you see... you should... / If it looks... you must..."
+• What tools or habits help you stay safe online
 
 Focus on using:
-• Gerunds: "I enjoy watching...", "I'm good at learning by...", "I'm interested in..."
-• First conditional: "If you use this app daily, you will...", "If you try this website, you will see..."
+• Gerunds: "I enjoy checking...", "I'm good at spotting...", "I'm interested in learning...", "After seeing... / Before sharing..."
+• First conditional: "If you see a strange message, you should...", "If you notice weird details, you must...", "If you install ScamShield, it will..."
 
 Useful phrases:
-• I enjoy using... because...
-• I'm good at learning through...
-• I'm interested in watching/reading...
-• If you want to improve your..., you should try...
-• If you use this regularly, you will notice...
-• One thing I really like about... is...
+• I enjoy checking photos carefully for...
+• I'm good at spotting fake...
+• I'm interested in learning how to...
+• If you see something suspicious, you should...
+• If it looks too perfect or has strange details, you must...
+• Before sharing something online, I always...
+• After watching the gov.sg video, I learned...
+• One useful tool is... If you download it, it will...
 
 如何练习 / How to practise:
-1. 想想你真正用过的工具 (Think of tools you actually use)
-2. 准备至少3个动名词例子 (Prepare at least 3 gerund examples)
-3. 准备至少2个第一条件句 (Prepare at least 2 first conditional sentences)
+1. 想想影片中教的三个检查方法 (Think of the 3 checking methods from the gov.sg video: AI photos, deepfakes, fake SMS)
+2. 准备至少3个动名词例子 (Prepare at least 3 gerund examples: enjoy checking, good at spotting, interested in)
+3. 准备至少2个第一条件句建议 (Prepare at least 2 first conditional advice: If you see..., you should...)
 4. 点击"开始录音"，说2分钟 (Tap "开始录音", speak for 2 minutes)
 5. AI会盯住动名词和条件句 (AI will check gerunds and conditionals)
 6. 看反馈后可以多录几次改进 (Re-record multiple times to improve)`,

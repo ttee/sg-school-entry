@@ -5,7 +5,7 @@ export default function DualValidationMapWeek3() {
         本周对照考试题型
       </h2>
       <p className="text-sm text-ink-2 mb-4 leading-relaxed">
-        先看 Family Tree 儿歌，认 mummy / daddy / grandma，再做作业。本周按 <strong>A2 Key for Schools</strong> 题型来练。故事是<strong>家庭与朋友 / Family and Friends</strong>：Wei 上周日去大巴窑探望阿嬷阿公。焦点是<strong>一般过去时</strong>（yesterday I went, we visited, I had）和 <strong>used to</strong>（Ah Gong used to be a taxi driver，不是 use to）。
+        先看 Family Tree 儿歌（mommy/daddy/grandma/grandpa/aunt/uncle/cousin 在野餐带 apples/grapes/crackers/cheese），再做作业。本周按 <strong>A2 Key for Schools</strong> 题型来练。故事是<strong>家庭与朋友 / Family and Friends</strong>：Wei 上周日全家 East Coast Park 野餐，mummy/daddy/grandma/grandpa/aunt/cousin 都去了，每个人带了吃的，Grandpa 讲以前常去 Changi Beach 野餐。焦点是<strong>一般过去时</strong>（yesterday I went, we visited, everyone brought, we had）和 <strong>used to</strong>（We used to picnic every month，不是 use to）。
       </p>
 
       <div className="overflow-x-auto">
@@ -26,35 +26,35 @@ export default function DualValidationMapWeek3() {
           <tbody>
             <tr className="border-b border-accent/10">
               <td className="px-3 py-3 text-ink align-top">
-                <strong>阅读</strong><br />Wei 探望阿嬷阿公 + 选择题
+                <strong>阅读</strong><br />Wei 全家 East Coast Park 野餐 + 选择题
               </td>
               <td className="px-3 py-3 text-ink-2 align-top">
                 <strong>Reading Part 3</strong><br />一篇长文本，选择题
               </td>
               <td className="px-3 py-3 text-ink-2 align-top">
-                读 Wei 上周日去大巴窑探望祖父母，阿公以前是德士司机，看老照片，拿红包，做选择题
+                读 Wei 上周日全家野餐，mummy/daddy/grandma/grandpa/aunt/cousin 每人带食物（apples/grapes/crackers/cheese/cookies），Grandpa 讲以前常去 Changi Beach 野餐，做选择题
               </td>
             </tr>
             <tr className="border-b border-accent/10">
               <td className="px-3 py-3 text-ink align-top">
-                <strong>语法</strong><br />完形：went / visited / used to live
+                <strong>语法</strong><br />完形：had / brought / used to have
               </td>
               <td className="px-3 py-3 text-ink-2 align-top">
                 <strong>Reading Part 4</strong><br />语法选择填空
               </td>
               <td className="px-3 py-3 text-ink-2 align-top">
-                练过去时不规则动词（went, had, saw, gave）和 used to（以前的习惯），短文完形选择题
+                练过去时不规则动词（had, brought, came, stopped）和 used to（We used to have picnics），短文完形选择题
               </td>
             </tr>
             <tr className="border-b border-accent/10">
               <td className="px-3 py-3 text-ink align-top">
-                <strong>写作</strong><br />邮件 50–70 词，讲过去的家庭周末
+                <strong>写作</strong><br />邮件 50–70 词，讲过去的家庭野餐
               </td>
               <td className="px-3 py-3 text-ink-2 align-top">
                 <strong>Part 6 guided email</strong><br />官方最低 25 词
               </td>
               <td className="px-3 py-3 text-ink-2 align-top">
-                写邮件给朋友，讲上周末跟谁在一起、做了什么、为什么特别，练过去时（went/visited/had）
+                写邮件给朋友，讲家庭野餐，用儿歌的家庭词（mummy/daddy/grandma/grandpa/aunt/uncle/cousin），练过去时（brought/had/played）和 used to
               </td>
             </tr>
             <tr className="border-b border-accent/10">
@@ -70,13 +70,13 @@ export default function DualValidationMapWeek3() {
             </tr>
             <tr>
               <td className="px-3 py-3 text-ink align-top">
-                <strong>口语</strong><br />~1 分钟讲过去的家庭日
+                <strong>口语</strong><br />~1 分钟讲过去的家庭野餐
               </td>
               <td className="px-3 py-3 text-ink-2 align-top">
                 <strong>Speaking Part 1</strong><br />个人信息问答
               </td>
               <td className="px-3 py-3 text-ink-2 align-top">
-                讲上次跟家人相处的日子，练过去时（went/visited/had）和 used to，AI 会盯住过去时动词变形
+                讲家庭野餐，用儿歌的家庭词（mummy/daddy/grandma/grandpa/aunt/uncle/cousin），练过去时（went/brought/had/played）和 used to，AI 会盯住过去时动词变形
               </td>
             </tr>
           </tbody>
