@@ -2705,6 +2705,117 @@ You MUST use "used to" at least twice and "didn't use to" at least once.
         },
       ],
     },
+    {
+      level: "B1",
+      weekNumber: 7,
+      title: "Week 7: Rain or Shine",
+      description: "Talking about contrast with although and despite",
+      isSample: false,
+      dueDate: new Date("2026-10-15"),
+      errorFocus: "although-despite",
+      parentBrief: "本周纠错焦点：although / despite。中文「虽然…但是」成对出现，孩子会说 Although it is raining, but I go / Despite of the rain / Despite it is raining / Although the rain。英语规则：although / even though 后面接句子（有主语和动词）；despite / in spite of 后面接名词或 -ing 形式。不要在 although 后面再加 but。不要写 despite of。",
+      videoUrl: null,
+      kaizenFocus: "Use although/even though + clause and despite/in spite of + noun/-ing; never although + but",
+      officialClipId: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: `Read Mei's email:
+
+From: Mei
+To: Priya
+Subject: Sports Day in the Rain!
+
+Hi Priya,
+
+I know you couldn't come to school yesterday because you were unwell. Let me tell you about our Sports Day – it was quite an adventure!
+
+Although the weather forecast said it would rain, we all hoped Sports Day would go ahead as planned. We arrived at school at 7:30 a.m. with our red team shirts. Despite the dark clouds above us, everyone was excited and ready to compete.
+
+The first event was the 100-metre sprint. Although I was nervous about running in front of the whole school, I did my best. Jun Wei won the boys' race! Despite finishing third, I was happy because I improved my time from last year.
+
+Then it started to drizzle during the relay race. Despite the light rain, Ms Tan said we could continue. Our red team was leading! But then, although we were ahead, our final runner slipped on the wet track. The blue team won instead. Although we lost, everyone cheered for both teams – it was still exciting!
+
+After the relay, the rain got heavier. Mr Kumar, our PE teacher, made an announcement: "Although we want to finish all events, safety is more important. We'll move the remaining races to next week." Despite feeling disappointed, we all understood. It was too slippery to run safely.
+
+We didn't go home though! Despite the rain, the teachers moved us to the school hall. Although we couldn't run outside anymore, we played indoor team games instead. We had sack races and a tug-of-war competition in the hall! Despite the change of plans, it turned out to be really fun.
+
+At lunchtime, despite the wet weather, some parents still came with our packed lunches. My mum brought my favourite chicken rice. Although the hall was crowded and noisy, we enjoyed eating together. Jun Wei's dad even brought extra curry puffs for our whole team!
+
+In the afternoon, although Sports Day was officially over, our class stayed behind to help clean up. Despite being tired, we worked as a team. Ms Tan said she was proud of us. She said, "Although the weather didn't cooperate, you all showed great teamwork and positive attitudes."
+
+I learned something yesterday: although things don't always go as planned, you can still make the best of any situation. Despite the rain, it was one of my favourite school days this year!
+
+Anyway, I hope you're feeling better. Although you missed Sports Day, there's still the make-up races next week. You'll get to compete then!
+
+Write back soon!
+
+Best wishes,
+Mei`,
+          options: JSON.stringify([
+            "Why did Sports Day continue at first despite the weather?|A. It wasn't raining yet|B. The dark clouds went away|C. Everyone was excited and ready|D. Parents demanded it",
+            "How did Mei feel about the 100-metre sprint?|A. She was nervous but did her best|B. She won the race|C. She didn't want to run|D. She was injured",
+            "Why did the red team lose the relay race?|A. They were too slow|B. The final runner slipped on the wet track|C. Jun Wei couldn't run|D. They started late",
+            "What happened after Mr Kumar cancelled the outdoor events?|A. Everyone went home|B. They waited for the rain to stop|C. They moved to the hall for indoor games|D. They continued running in the rain",
+            "What was Ms Tan proud of?|A. The weather clearing up|B. The students' teamwork and positive attitudes|C. Winning all the races|D. The parents bringing food",
+          ]),
+          correctAnswer: "C,A,B,C,B",
+          points: 5,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: `Choose the correct word for each gap:
+
+Sports Day in the Rain
+by Priya, Primary 5
+
+Last Friday was our school Sports Day. (1) ____ the weather was not perfect, we had a great time. (2) ____ some rain in the morning, the teachers said we could start the races.
+
+I was in the red team. (3) ____ feeling nervous, I ran as fast as I could in the 100-metre sprint. (4) ____ I didn't win, I was happy with my time.
+
+Then it started raining heavily. (5) ____ wanting to continue, we had to stop for safety. (6) ____ the rain, we moved inside and played team games in the hall instead!`,
+          options: JSON.stringify([
+            "(1)|A. Despite|B. Although|C. Despite of|D. Although but",
+            "(2)|A. Despite|B. Although|C. Despite of|D. In spite",
+            "(3)|A. Although|B. Despite of|C. Despite|D. Even though",
+            "(4)|A. Despite|B. Although|C. In spite|D. Despite of",
+            "(5)|A. Despite|B. Although|C. Despite of|D. In spite",
+            "(6)|A. Although|B. Despite|C. Even though|D. Despite of",
+          ]),
+          correctAnswer: "B,A,C,B,A,B",
+          points: 6,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `Write an email to your friend (100-120 words).
+
+Your friend in another country asked about a day when your plans changed because of weather or an unexpected situation.
+
+In your email:
+• Describe what you originally planned to do
+• Explain what went wrong or changed
+• Say what you did instead
+• Explain how you felt about the situation
+
+You MUST use "although" or "even though" at least once and "despite" or "in spite of" at least once.
+
+DO NOT write: although + but / despite of / despite + clause without noun
+
+成功标准 / Success Criteria:
+✓ Although / even though + 从句 (although + clause with subject and verb: Although it was raining, we went…)
+✓ Despite / in spite of + 名词或 -ing (despite + noun or -ing: Despite the rain, we…)
+✓ 不要写 although … but (Don't write: Although it rained, but we went)
+✓ 不要写 despite of 或 despite + 从句 (Don't write: Despite of the rain / Despite it was raining)
+✓ 对比计划和实际情况 (Compare original plans with what actually happened)
+✓ 邮件格式 (Email format: greeting, paragraphs, closing)
+✓ 100-120词 (100-120 words)`,
+          points: 10,
+        },
+      ],
+    },
 
     // Week 7: going to future
     {
