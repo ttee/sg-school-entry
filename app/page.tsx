@@ -243,7 +243,7 @@ export default function HomePage() {
                 <span className="text-ink-2">/ 月</span>
               </div>
               <p className="text-sm text-ink-2 mb-4">
-                小班直播课（每周 2 次，每次 1.5 小时）+ 每周作业 app 解锁当前级别已上线周数（A2 试学周 + 第 1–7 周，B1 试学周 + 第 1–6 周，后续周次陆续更新）。包含 CEQ 备考四项技能：阅读、写作、听读准备、口语提示。
+                小班直播课（每周 2 次，每次 1.5 小时）+ 每周作业 app 解锁当前级别已上线周数（A2 试学周 + 第 1–8 周，B1 试学周 + 第 1–6 周，后续周次陆续更新）。包含 CEQ 备考四项技能：阅读、写作、听读准备、口语提示。
               </p>
               <ul className="space-y-2 text-sm text-ink-2 mb-5">
                 <li className="flex items-start gap-2">
@@ -252,7 +252,7 @@ export default function HomePage() {
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-accent mt-0.5">✓</span>
-                  <span>每周作业 app 解锁已上线周数（A2: 试学周 + 第 1–7 周；B1: 试学周 + 第 1–6 周；后续周次陆续更新）</span>
+                  <span>每周作业 app 解锁已上线周数（A2: 试学周 + 第 1–8 周；B1: 试学周 + 第 1–6 周；后续周次陆续更新）</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-accent mt-0.5">✓</span>
@@ -282,7 +282,7 @@ export default function HomePage() {
                 </div>
                 <p className="text-xs font-semibold uppercase tracking-wide text-accent mb-3">适合 P2–P4 CEQ 门槛</p>
             <p className="text-ink-2 mb-4 text-sm">
-              12 周直播课冲刺剑桥 A2 Key for Schools 水平，配合当前 app 已上线周数（试学周 + 第 1–7 周，共 8 周），帮孩子在 CEQ 考试前准备好听、说、读、写四项。
+              12 周直播课冲刺剑桥 A2 Key for Schools 水平，配合当前 app 已上线周数（试学周 + 第 1–8 周，共 9 周），帮孩子在 CEQ 考试前准备好听、说、读、写四项。
             </p>
                 <ul className="space-y-0 border-t border-line mb-5">
                   <li className="border-b border-line py-3 pl-5 relative before:absolute before:left-0 before:top-5 before:w-2 before:h-2 before:rounded-full before:bg-accent text-sm text-ink-2">
@@ -295,7 +295,7 @@ export default function HomePage() {
                     针对 Cambridge A2 Key for Schools 四项技能：阅读、写作、听力、口语
                   </li>
                   <li className="border-b border-line py-3 pl-5 relative before:absolute before:left-0 before:top-5 before:w-2 before:h-2 before:rounded-full before:bg-accent text-sm text-ink-2">
-                    作业 app 当前已上线 A2 试学周 + 第 1–7 周（共 8 周）
+                    作业 app 当前已上线 A2 试学周 + 第 1–8 周（共 9 周）
                   </li>
                   <li className="border-b border-line py-3 pl-5 relative before:absolute before:left-0 before:top-5 before:w-2 before:h-2 before:rounded-full before:bg-accent text-sm text-ink-2">
                     包含 2 次模拟考，家长微信通报进度
@@ -409,7 +409,7 @@ export default function HomePage() {
               </div>
             </div>
 
-            <h3 className="font-serif font-semibold text-xl mb-4 text-ink">已上线纠错地图（A2 共 7 周，B1 共 6 周）</h3>
+            <h3 className="font-serif font-semibold text-xl mb-4 text-ink">已上线纠错地图（A2 共 8 周，B1 共 6 周）</h3>
             <div className="overflow-x-auto">
               <table className="w-full border border-line rounded-xl overflow-hidden text-sm">
                 <thead>
