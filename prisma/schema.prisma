@@ -24,21 +24,23 @@ model User {
 }
 
 model Week {
-  id          String       @id @default(uuid())
-  level       String
-  weekNumber  Int
-  title       String
-  description String?
-  isSample    Boolean      @default(false)
-  dueDate     DateTime?
-  errorFocus  String?
-  parentBrief String?
-  videoUrl    String?
-  kaizenFocus String?
-  createdAt   DateTime     @default(now())
-  updatedAt   DateTime     @updatedAt
-  questions   Question[]
-  submissions Submission[]
+  id                 String       @id @default(uuid())
+  level              String
+  weekNumber         Int
+  title              String
+  description        String?
+  isSample           Boolean      @default(false)
+  dueDate            DateTime?
+  errorFocus         String?
+  parentBrief        String?
+  videoUrl           String?
+  kaizenFocus        String?
+  officialClipId     String?
+  officialClipCredit String?
+  createdAt          DateTime     @default(now())
+  updatedAt          DateTime     @updatedAt
+  questions          Question[]
+  submissions        Submission[]
 
   @@unique([level, weekNumber])
 }

@@ -7,6 +7,7 @@ import DualValidationMap from "./DualValidationMap";
 import DualValidationMapWeek1 from "./DualValidationMapWeek1";
 import DualValidationMapWeek2 from "./DualValidationMapWeek2";
 import DualValidationMapWeek3 from "./DualValidationMapWeek3";
+import OfficialClip from "./OfficialClip";
 
 type Question = {
   id: string;
@@ -29,6 +30,8 @@ type Week = {
   parentBrief: string | null;
   videoUrl: string | null;
   kaizenFocus: string | null;
+  officialClipId: string | null;
+  officialClipCredit: string | null;
 };
 
 type Submission = {
@@ -692,6 +695,14 @@ export default function WeekHomework({
 
             {question.type === "speaking" && (
               <div className="space-y-4">
+                {/* Official YouTube clip (when configured via seed) */}
+                {week.officialClipId && week.officialClipCredit && (
+                  <OfficialClip 
+                    videoId={week.officialClipId}
+                    credit={week.officialClipCredit}
+                  />
+                )}
+                
                 {/* Show previous focus if exists */}
                 {speakingAttempts[question.id] && speakingAttempts[question.id].length > 0 && !isCompleted && (
                   <div className="bg-accent/10 border border-accent/30 rounded-lg p-3">

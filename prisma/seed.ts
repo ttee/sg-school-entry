@@ -357,6 +357,8 @@ AI will listen for correct use of third-person -s (my sister walks, dad takes th
       parentBrief: "本周纠错焦点：现在进行时 vs 一般现在时，以及 like + -ing。中文用时间词表示习惯，孩子会说 I am going to school every day（进行时被过度泛化）。英语习惯用一般现在时：I go to school every day；正在发生才用进行时：I am swimming now。另外，like/enjoy 后面接 -ing：I like reading。本周盯住这两个混淆点。",
       videoUrl: null,
       kaizenFocus: "Use present simple for habits, present continuous for now; like/enjoy + -ing",
+      officialClipId: "-DNilMthxx8",
+      officialClipCredit: "片源 Cambridge English 官方频道，A2 Key for Schools 口语样例。本站与剑桥无隶属，不提供官方试卷。孩子看两人怎么回答学校、作业、喜欢做什么。",
       questions: [
         {
           type: "reading",
@@ -1246,6 +1248,8 @@ Useful phrases:
         parentBrief: weekDef.parentBrief || null,
         videoUrl: weekDef.videoUrl || null,
         kaizenFocus: weekDef.kaizenFocus || null,
+        officialClipId: (weekDef as any).officialClipId || null,
+        officialClipCredit: (weekDef as any).officialClipCredit || null,
       },
       create: {
         level: weekDef.level,
@@ -1258,6 +1262,8 @@ Useful phrases:
         parentBrief: weekDef.parentBrief || null,
         videoUrl: weekDef.videoUrl || null,
         kaizenFocus: weekDef.kaizenFocus || null,
+        officialClipId: (weekDef as any).officialClipId || null,
+        officialClipCredit: (weekDef as any).officialClipCredit || null,
       },
     });
 
