@@ -551,18 +551,26 @@ At around four o'clock, we said goodbye. Ah Ma packed some leftover food for us 
         {
           type: "grammar",
           order: 2,
-          content: "Choose the correct answer:",
+          content: `Read about Wei's visit to his grandparents. Choose the correct word for each gap.
+
+Visiting Ah Ma and Ah Gong
+
+Last Sunday, my family (1) ____ my grandparents in Toa Payoh. We call them Ah Ma and Ah Gong. They (2) ____ to live in a kampong when they were young, but now they have a flat near the MRT station.
+
+We (3) ____ at their home around eleven in the morning. Ah Gong (4) ____ reading his Chinese newspaper when we walked in. He smiled and (5) ____ us tea. Ah Ma was in the kitchen. She (6) ____ my favourite dishes for lunch – steamed fish and chicken rice!
+
+After lunch, Ah Gong (7) ____ me some old photos. In one photo, he (8) ____ standing in front of his old taxi. He used to be a taxi driver for thirty years. I love visiting them!`,
           options: JSON.stringify([
-            "Last Sunday, we ____ my grandparents.|A. visit|B. visits|C. visited|D. visiting",
-            "Ah Gong ____ as a taxi driver when he was younger.|A. use to work|B. used to work|C. used work|D. is used to work",
-            "We ____ at their flat at eleven o'clock.|A. arrive|B. arrives|C. arriving|D. arrived",
-            "Ah Ma ____ delicious food for lunch yesterday.|A. cook|B. cooks|C. cooked|D. cooking",
-            "When I was small, I ____ play at their house every weekend.|A. use to|B. used to|C. uses to|D. using to",
-            "Ah Gong ____ me some old photos from the past.|A. show|B. shows|C. showing|D. showed",
-            "In the old days, Singapore ____ very different.|A. look|B. looks|C. looked|D. looking",
-            "We ____ home at four o'clock in the afternoon.|A. go|B. goes|C. went|D. going",
+            "(1)|A. visit|B. visits|C. visited|D. visiting",
+            "(2)|A. use to live|B. used to live|C. uses to live|D. are used to live",
+            "(3)|A. arrive|B. arrives|C. arriving|D. arrived",
+            "(4)|A. is|B. are|C. was|D. were",
+            "(5)|A. give|B. gives|C. giving|D. gave",
+            "(6)|A. cook|B. cooks|C. cooked|D. cooking",
+            "(7)|A. show|B. shows|C. showing|D. showed",
+            "(8)|A. is|B. are|C. was|D. were",
           ]),
-          correctAnswer: "C,B,D,C,B,D,C,C",
+          correctAnswer: "C,B,D,C,D,C,D,C",
           points: 8,
         },
         {
