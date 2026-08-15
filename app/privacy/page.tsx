@@ -7,7 +7,7 @@ export const metadata = {
 
 export default function PrivacyPage() {
   const wechatId = process.env.NEXT_PUBLIC_WECHAT_ID;
-  const contactEmail = process.env.NEXT_PUBLIC_CONTACT_EMAIL || "pangtee@gmail.com";
+  const contactEmail = process.env.NEXT_PUBLIC_CONTACT_EMAIL;
 
   return (
     <>
@@ -331,13 +331,15 @@ export default function PrivacyPage() {
                 </li>
                 <li>
                   <strong>邮件 Email:</strong>{" "}
-                  {contactEmail && (
+                  {contactEmail ? (
                     <a
                       href={`mailto:${contactEmail}`}
                       className="text-accent hover:underline"
                     >
                       {contactEmail}
                     </a>
+                  ) : (
+                    <span className="text-muted">请见首页</span>
                   )}
                 </li>
               </ul>
