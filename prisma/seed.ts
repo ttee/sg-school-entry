@@ -251,7 +251,7 @@ He paid with a $50 note.
 (b) What fraction of the books are about science? Show your working.
 (c) If you add the fractions of animal books and adventure books together, what fraction of all the books is this? Show your working.
 
-写出算式和答案，标注 $.`,
+写出算式和答案。`,
           points: 10,
         },
       ],
