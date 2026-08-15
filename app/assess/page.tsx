@@ -142,14 +142,14 @@ function calculateRecommendation(answers: (number | null)[]) {
     return {
       door: "B1 当前已上线周数 + 咨询",
       doorEn: "B1 Available Weeks + Consultation",
-      reason: "基础语法掌握较好，可以开始 B1 Preliminary for Schools 水平学习。当前 app 已上线 B1 试学周 + 第 1–5 周（共 6 周），后续周次陆续上线。建议咨询 12 周直播课预付包。",
+      reason: "基础语法掌握较好，可以开始 B1 Preliminary for Schools 水平学习。当前 app 已上线 B1 试学周 + 第 1–7 周（共 8 周），后续周次陆续上线。建议咨询 12 周直播课预付包。",
       kaizenFocus: "现在完成时与过去时的区分"
     };
   } else {
     return {
       door: "A2 当前已上线周数 + 咨询",
       doorEn: "A2 Available Weeks + Consultation",
-      reason: "基础语法已有基础，可以开始 A2 Key for Schools 水平学习。当前 app 已上线 A2 试学周 + 第 1–3 周（共 4 周），后续周次陆续上线。建议咨询 12 周直播课预付包。",
+      reason: "基础语法已有基础，可以开始 A2 Key for Schools 水平学习。当前 app 已上线 A2 试学周 + 第 1–8 周（共 9 周），后续周次陆续上线。建议咨询 12 周直播课预付包。",
       kaizenFocus: totalCorrect < 6 ? "时态的准确使用" : "现在进行时与一般现在时的区分"
     };
   }

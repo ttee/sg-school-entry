@@ -107,6 +107,15 @@ export default function WeikeMiniLesson({ level, weekNumber }: WeikeMiniLessonPr
       ],
       gloss: "used to + 动词原形 = 以前常做（现在不做了）。否定是 didn't use to（use 不带 d）。不要写成 I use to 或 I didn't used to。本周不教 be used to + -ing（习惯于做某事）。"
     },
+    "B1-7": {
+      fossil: "Although it is raining, but I go / Despite of the rain / Despite it is raining",
+      examples: [
+        "Although it was raining, we went to East Coast Park.",
+        "Despite the rain, Sports Day continued.",
+        "In spite of feeling tired, Mei finished the race."
+      ],
+      gloss: "although / even though 后面接句子（有主语和动词）。despite / in spite of 后面接名词或 -ing 形式。不要写 although … but。不要写 despite of。不要在 despite 后面接句子。"
+    },
   };
 
   const key = `${level}-${weekNumber}`;
