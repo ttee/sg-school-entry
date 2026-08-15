@@ -59,13 +59,13 @@ export default function DualValidationMapWeek6() {
             </tr>
             <tr className="border-b border-accent/10">
               <td className="px-3 py-3 text-ink align-top">
-                <strong>听力</strong><br />对话：Priya 讲她的周末安排<br /><span className="text-xs text-muted">（先读脚本，音频稍后）</span>
+                <strong>听力</strong><br />对话：Priya 讲她的周末安排
               </td>
               <td className="px-3 py-3 text-ink-2 align-top">
                 <strong>听力对话</strong><br />5 道选择题
               </td>
               <td className="px-3 py-3 text-ink-2 align-top">
-                读对话脚本（Priya 和 Mei 聊周末：Saturday morning 画画课、at 10 o'clock 开始、in the afternoon 去图书馆、on Sunday 和家人去 Gardens by the Bay、at night 做作业），做 5 道选择题；音频稍后更新
+                读对话脚本（Priya 和 Mei 聊周末：Saturday morning 画画课、at 10 o'clock 开始、in the afternoon 去图书馆、on Sunday 和家人去 Gardens by the Bay、at night 做作业），做 5 道选择题
               </td>
             </tr>
             <tr>

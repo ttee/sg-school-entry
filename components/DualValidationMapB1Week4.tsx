@@ -65,7 +65,7 @@ export default function DualValidationMapB1Week4() {
                 <strong>听力对话</strong><br />5 道选择题（Listening Part 2: Multiple choice）
               </td>
               <td className="px-3 py-3 text-ink-2 align-top">
-                听 Mei 和 Priya 在食堂聊天，Mei 转述 Ms Chen 的通知（图书馆装修、食堂时间），做 5 道三选一题；先读脚本（音频稍后）
+                听 Mei 和 Priya 在食堂聊天，Mei 转述 Ms Chen 的通知（图书馆装修、食堂时间），做 5 道三选一题
               </td>
             </tr>
             <tr>
