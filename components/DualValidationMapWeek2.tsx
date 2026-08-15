@@ -59,13 +59,13 @@ export default function DualValidationMapWeek2() {
             </tr>
             <tr className="border-b border-accent/10">
               <td className="px-3 py-3 text-ink align-top">
-                <strong>听力</strong><br />对话：两个学生聊 CCA 和课程
+                <strong>听力</strong><br />老师公告校运会 + 选择题
               </td>
               <td className="px-3 py-3 text-ink-2 align-top">
-                <strong>Listening Part 3</strong><br />对话，5 道三选一
+                <strong>听力公告</strong><br />单人说明，5 道三选一
               </td>
               <td className="px-3 py-3 text-ink-2 align-top">
-                听两个学生聊合唱团排练、美术作业、正在做什么，做 5 道三选一题；官方考试听两遍，我们的播放器可重听
+                听 PE 老师 Mr Krishnan 公告下周五校运会安排（时间、服装、比赛项目），做 5 道三选一题；官方考试听两遍，我们的播放器可重听
               </td>
             </tr>
             <tr>

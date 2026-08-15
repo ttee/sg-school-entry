@@ -366,7 +366,7 @@ AI will listen for correct use of third-person -s (my sister walks, dad takes th
 Tuesday, 13 August
 Art Class & Choir Practice
 
-Today is Tuesday, and I love Tuesdays! I have Art in the morning with Ms Tan. She is very patient and always encourages us. Right now, our class is learning about Singapore landmarks. This month we are painting famous places. I am working on a picture of the Merlion. It's difficult because I'm trying to show the water coming out of its mouth!
+Today is Tuesday, and I love Tuesdays! I have Art in the morning with Mr Hassan. He is very patient and always encourages us. Right now, our class is learning about Singapore landmarks. This month we are painting famous places. I am working on a picture of the Merlion. It's difficult because I'm trying to show the water coming out of its mouth!
 
 In Art lessons, I usually sit next to Priya. She enjoys painting too. She is making a picture of Gardens by the Bay. We often help each other. Last week she showed me how to mix colours to make the sky look more real. I like learning new techniques.
 
@@ -380,7 +380,7 @@ I usually get home at four o'clock on CCA days. Choir practice is tiring, but I 
           options: JSON.stringify([
             "What is Mei's class painting this month?|A. Animals|B. Family members|C. Famous Singapore places|D. Flowers",
             "What is Mei painting?|A. Gardens by the Bay|B. The Merlion|C. A tree|D. The school",
-            "Who sits next to Mei in Art?|A. Ms Tan|B. Mr Lim|C. Priya|D. Her mum",
+            "Who sits next to Mei in Art?|A. Mr Hassan|B. Mr Lim|C. Priya|D. Her mum",
             "What did Priya teach Mei last week?|A. How to sing|B. How to play badminton|C. How to mix colours|D. How to make sandwiches",
             "Why are they playing badminton in the hall today?|A. The hall is bigger|B. The teacher prefers indoors|C. It is raining|D. They always play inside",
             "What CCA is Mei in?|A. Badminton club|B. Art club|C. Drama club|D. Choir",
@@ -397,21 +397,21 @@ I usually get home at four o'clock on CCA days. Choir practice is tiring, but I 
 
 My School Week
 
-I (1) ____ to secondary school in Tampines. This week is very busy! Every Tuesday I have Art class. I really enjoy (2) ____ because our teacher gives us interesting projects. Right now, my class (3) ____ clay sculptures. I (4) ____ a model of a lion!
+I (1) ____ to secondary school in Tampines. This week is very busy! Every Tuesday I have Art class. I really enjoy (2) ____ because our teacher gives us interesting projects. Right now, the students (3) ____ clay sculptures. I (4) ____ a model of a lion!
 
 On Wednesdays, I usually (5) ____ extra Maths after school. I don't mind it because the teacher is kind. But right now it's Tuesday evening and I (6) ____ my Science homework at home. Science is hard, but I like (7) ____ experiments in the lab.
 
 At the moment, my sister (8) ____ the piano downstairs. She practises every evening. She enjoys (9) ____ music. I prefer sport – I (10) ____ football with my friends every Saturday morning.`,
           options: JSON.stringify([
             "(1)|A. go|B. goes|C. am going|D. going",
-            "(2)|A. paint|B. to paint|C. painting|D. painted",
+            "(2)|A. paint|B. painted|C. painting|D. paints",
             "(3)|A. make|B. makes|C. is making|D. are making",
             "(4)|A. make|B. makes|C. making|D. am making",
             "(5)|A. have|B. has|C. having|D. am having",
-            "(6)|A. do|B. does|C. doing|D. am doing",
-            "(7)|A. do|B. to do|C. doing|D. did",
+            "(6)|A. do|B. does|C. done|D. am doing",
+            "(7)|A. do|B. did|C. doing|D. done",
             "(8)|A. play|B. plays|C. playing|D. is playing",
-            "(9)|A. play|B. to play|C. playing|D. played",
+            "(9)|A. play|B. played|C. playing|D. plays",
             "(10)|A. play|B. plays|C. am playing|D. playing",
           ]),
           correctAnswer: "A,C,D,D,A,D,C,D,C,A",
@@ -448,32 +448,23 @@ Write your email to Jamie (50-70 words). Answer ALL the questions.
           order: 4,
           content: `听读练习 / Listening Preparation (read carefully)
 
-Sarah: Hi Wei! Are you going to choir practice today?
+Mr Krishnan (PE teacher): Good morning, everyone! Listen carefully. Next Friday is our School Sports Day. We will meet at the stadium at eight in the morning. Don't be late! You must wear your PE kit – that's your house T-shirt, shorts, and sports shoes. Bring a water bottle and a cap because it will be sunny.
 
-Wei: Yes, we're practising right now in the music room. Actually, I'm taking a short break – we start again in five minutes.
+There are four events. First is the hundred-metre sprint at nine o'clock. Then we have long jump, relay race, and finally the fun obstacle course. Parents can watch from the stand.
 
-Sarah: That's nice! Do you enjoy singing?
+After all the events, we will have a prize-giving ceremony at twelve thirty. The principal will give medals to the winners. Remember, the most important thing is to try your best and have fun!
 
-Wei: I love it! I really enjoy learning new songs. Right now we're preparing three songs for National Day. What about you? What are you doing after school today?
-
-Sarah: I usually have Art Club on Tuesdays, but today I'm finishing my Science project at home instead. I'm making a poster about recycling.
-
-Wei: Sounds interesting! Do you like doing Art?
-
-Sarah: Yes, I love drawing and painting. In Art Club, we usually work on different creative projects. Last week we painted bookmarks. This week we're designing posters for the library.
-
-Wei: Cool! Oh, Mr Lim is calling us back. I need to go now. See you tomorrow!
-
-Sarah: Good luck with your practice! Bye!`,
+If it rains heavily, Sports Day will move to next Monday. Check the school website on Friday morning. Any questions? No? Okay, start warming up!`,
           options: JSON.stringify([
-            "Where is Wei right now?|A. At home|B. In the music room|C. In the library|D. In the Science lab",
-            "What is Wei's choir preparing for?|A. A competition|B. National Day|C. Art Club|D. Science Fair",
-            "What is Sarah doing after school today?|A. Going to choir|B. Playing sport|C. Finishing a Science project|D. Having Maths class",
-            "What does Sarah enjoy doing?|A. Singing songs|B. Playing football|C. Drawing and painting|D. Doing experiments",
-            "What are Sarah's Art Club designing this week?|A. Bookmarks|B. Posters for the library|C. Science projects|D. National Day songs",
+            "When is Sports Day?|A. This Friday|B. Next Friday|C. Next Monday|D. Next Tuesday",
+            "What time should students arrive?|A. 7:00|B. 7:30|C. 8:00|D. 9:00",
+            "What must students bring?|A. Textbooks|B. Packed lunch|C. Water bottle and cap|D. Calculator",
+            "What is the first event?|A. Long jump|B. Relay race|C. 100m sprint|D. Obstacle course",
+            "What will the principal do?|A. Start the race|B. Give medals to winners|C. Sell drinks|D. Take photographs",
           ]),
-          correctAnswer: "B,B,C,C,B",
+          correctAnswer: "B,C,C,C,B",
           points: 5,
+          audioUrl: "/audio/a2-w2-listening.mp3",
         },
         {
           type: "speaking",
