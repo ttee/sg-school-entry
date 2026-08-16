@@ -6149,6 +6149,100 @@ Note: This is a Sec 1 writing sample (2 topics, 200–300 words), not Sec 2 or S
         },
       ],
     },
+    {
+      level: "SEC",
+      weekNumber: 3,
+      title: "英语 第 3 周 / English Week 3",
+      description: "AEIS-Secondary English (Sec 1 paper shape): school library sample",
+      isSample: false,
+      errorFocus: "homework is uncountable (not a homework)",
+      parentBrief: "中学 AEIS 英语第 3 周。对应官方 SEAB Sec 1 卷型（https://www.seab.gov.sg/aeis/test-details/ 2026年7月1日更新）：Part 1 Writing 提供 2 个作文题目，选写 1 篇，200–300 词；Part 2 Comprehension & Language Use 共 50 道 MCQ（理解 15 + 完形 15 + 词汇 10 + 语法 10）。本周作业是样本，不是完整 50 题，不是 2 小时 10 分钟正式试卷。AEIS-Secondary 官方 preceding-level 规则：申请者需熟悉所申请级别前一级（preceding level）的内容。官方举例：apply Sec 3 → 熟悉 Sec 2。本周针对 Sec 1 申请者，对应 Sec 1 前一级内容水平。本周纠错化石：homework / advice / information 是不可数名词（uncountable），不能说 a homework / a piece of homework（中文「一份作业」迁移错误）。情境：Wei 在 Riverside Secondary 图书馆第一次借书，用于英语作业。本周不是 CEQ。",
+      videoUrl: null,
+      kaizenFocus: "classroom English a listener needs in the library (borrow, due date, assignment)",
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: `Read this passage about Wei's visit to the school library:
+
+Visit to the School Library
+
+On Thursday afternoon, Wei had his first free period at Riverside Secondary. Mr Lim had given the class homework for English—they had to write a book report by next Monday. Wei decided to visit the school library to find a suitable book.
+
+The library was on the third floor of Block B. When Wei arrived at 2:30, Ms Ong, the librarian, was at the front desk helping another student. Wei waited quietly, looking at the shelves. The fiction section had many interesting books—adventure stories, mystery novels, and science fiction.
+
+After a few minutes, Ms Ong called Wei over. "Good afternoon. How can I help you?"
+
+"Good afternoon, Ms Ong. I need to borrow a book for my English assignment. Mr Lim asked us to read a fiction book and write a report. Can you recommend something?"
+
+Ms Ong smiled. "For a book report, I suggest starting with something not too long. How about this one?" She handed him a novel called *The Mystery at East Coast Park*. "It's 180 pages, and many students enjoy it. You can borrow it for two weeks—the due date will be 26 September. If you need more time, you can renew it online or come back here."
+
+Wei thanked her and borrowed the book. He also asked, "Can I do my homework here in the library?"
+
+"Of course," Ms Ong replied. "The reading area is over there by the windows. It's quiet, and there's good light. Just remember—no food or drinks, and keep your phones on silent mode."
+
+Wei found a seat and started reading the first chapter. By 3:30, he had read 20 pages and made some notes. He felt ready to start his assignment over the weekend.`,
+          options: JSON.stringify([
+            "Why did Wei visit the library?|A. To meet Ms Ong|B. To do homework for Maths|C. To borrow a book for an English assignment|D. To return a book",
+            "When is the due date for the book Wei borrowed?|A. Next Monday|B. 20 September|C. 26 September|D. Two days later",
+            "Where is the reading area in the library?|A. At the front desk|B. On the second floor|C. In the fiction section|D. By the windows",
+            "What did Ms Ong tell Wei about using the library reading area?|A. He must book it in advance|B. No food or drinks, and keep phones on silent|C. He can only stay for 30 minutes|D. He needs a library card first",
+            "How many pages had Wei read by 3:30?|A. 10 pages|B. 20 pages|C. 30 pages|D. 180 pages",
+          ]),
+          correctAnswer: "C,C,D,B,B",
+          points: 10,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: "Choose the correct word to complete each sentence:",
+          options: JSON.stringify([
+            "Mr Lim gave us ____ for English class.|A. a homework|B. homework|C. homeworks|D. some homeworks",
+            "Ms Ong gave Wei ____ about choosing a book.|A. an advice|B. some advice|C. some advices|D. advices",
+            "There is ____ in the library notice about borrowing rules.|A. an information|B. some information|C. informations|D. some informations",
+            "Wei needs to write ____ for his English assignment.|A. a report|B. report|C. some report|D. reports",
+            "The library has ____ on many topics.|A. book|B. a books|C. books|D. some book",
+            "Ms Ong is very helpful—she always gives students good ____.|A. advice|B. advices|C. an advice|D. some advices",
+            "Wei did his ____ in the reading area.|A. homeworks|B. homework|C. a homework|D. some homeworks",
+            "The librarian provided ____ about the due date.|A. information|B. an information|C. informations|D. some informations",
+          ]),
+          correctAnswer: "B,B,B,A,C,A,B,A",
+          points: 16,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `Part 1: Writing (Sec 1 format)
+
+Choose ONE topic and write 200–300 words.
+
+Topic 1: A Visit to the School Library
+Write about a time when you visited your school library (or imagine it if you haven't been to a secondary school library yet). Describe:
+• Why did you go to the library?
+• What did you do there? (borrow books, do homework, etc.)
+• Who helped you, and what did they say?
+• How did you feel about the visit?
+
+Topic 2: An Assignment I Had to Finish
+Write about a time when you had to complete an assignment or homework. Describe:
+• What assignment did your teacher give you?
+• Where did you do the work? (at home, in the library, etc.)
+• What steps did you take to complete it?
+• Did you finish on time, and how did you feel?
+
+写作提示 / Writing Tips:
+✓ 写出提纲（3-4 个要点）再写正文 (Plan first: 3-4 bullet points, then write)
+✓ 叙事用过去时态 (Narrative → past tense: I visited the library. The librarian helped me.)
+✓ 注意不可数名词 (Uncountable nouns: homework, advice, information—NO 'a homework')
+✓ 分段：开头 + 2-3 段正文 + 结尾 (Paragraphs: intro + 2-3 body + conclusion)
+✓ 字数 200–300 词 (Word count: 200–300 words)
+
+注：这是 Sec 1 写作样本，不是 Sec 2（4 题 250–350 词）或 Sec 3（4 题 300–400 词）格式。这是本周题目，不是官方题目。
+Note: This is a Sec 1 writing sample (2 topics, 200–300 words), not Sec 2 or Sec 3 format. These are this week's topics, not official examination topics.`,
+          points: 20,
+        },
+      ],
+    },
     // SMATH WEEK (AEIS-Secondary Mathematics)
     {
       level: "SMATH",
