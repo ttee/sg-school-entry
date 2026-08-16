@@ -2322,6 +2322,105 @@ On a square grid, you draw a square with each side 3 units long. How many units 
       ],
     },
     
+    // MATH WEEK 28
+    {
+      level: "MATH",
+      weekNumber: 28,
+      title: "数学 第 28 周 / Maths Week 28",
+      description: "AEIS-Primary P4 Mathematics: Line symmetry",
+      isSample: false,
+      errorFocus: null,
+      parentBrief: "本周主题：对称轴 / line of symmetry，对应官方 2021 P4 Geometry → Symmetry 3.1–3.3（identifying symmetric figures, determining whether a straight line is a line of symmetry of a symmetric figure, completing a symmetric figure with respect to a given line of symmetry on a square grid）。申请 P5 入学的孩子需掌握 P4 内容（MOE AEIS 的 preceding level 规则）。关键技能：一个图形是对称的，如果一半是另一半在一条直线（对称轴）对面的镜像。正方形有 4 条对称轴（两条中线穿过对边，两条对角线）。非正方形长方形有 2 条对称轴（两条中线穿过对边的中点——不包括对角线）。等边三角形有 3 条。非等边的等腰三角形有 1 条。圆有很多条（不要发明数字）。不规则三角形 / 不规则四边形通常有 0 条。完成图形：如果方格纸有一条垂直/水平对称轴，一侧有一些单位格已着色，另一侧的匹配格必须距离对称轴相同的距离。算法：识别对称图形、判断一条直线是否是对称轴、在方格纸上完成对称图形。常见错误：把长方形的对角线当对称轴（rectangle diagonals are NOT lines of symmetry）、认为每个图形都有对称轴（scalene triangles usually have 0）、在对称轴错误的一侧完成图形（should be same distance on the other side）、数出不能让两半重合的折叠线（must check that folding makes two halves match exactly）。题目配有双向对照表，显示对应官方 2021 Primary Mathematics Syllabus P4 Geometry → Symmetry 3.1–3.3，以及申请 P5 → 掌握 P4 的规则。本周明确不教：rotational symmetry / order of rotational symmetry（旋转对称）、reflection in a point（点对称）、3D symmetry（立体对称）、nets（展开图，那是第 29 周）、triangle angle sum（三角形内角和）、quadrilateral interior-angle sum（四边形内角和）。本周只教：line of symmetry（对称轴）、symmetric figure（对称图形）、identifying symmetric figures（识别对称图形 3.1）、determining whether a straight line is a line of symmetry（判断一条直线是否是对称轴 3.2）、completing a symmetric figure on a square grid（在方格纸上完成对称图形 3.3）。每个题目用文字描述图形，给足信息让孩子能唯一确定答案。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: `Read the information and choose the correct answer.
+
+Question 1:
+An isosceles triangle has two sides that are equal. The isosceles triangle is NOT an equilateral triangle. Is this triangle a symmetric figure? (Hint: Yes. An isosceles triangle that is not equilateral has one line of symmetry. The line of symmetry goes from the vertex between the two equal sides to the midpoint of the base. So it is a symmetric figure.)
+
+Question 2:
+A square has four sides that are all equal. How many lines of symmetry does a square have? (Hint: A square has 4 lines of symmetry. Two lines of symmetry are the two midlines through opposite sides. Two lines of symmetry are the two diagonals.)
+
+Question 3:
+A rectangle is NOT a square. The rectangle has two long sides and two short sides. Are the two diagonals of this rectangle lines of symmetry? (Hint: No. If you fold the rectangle along a diagonal, the two halves do NOT match. The diagonals are NOT lines of symmetry.)
+
+Question 4:
+A rectangle is NOT a square. The rectangle has two long sides and two short sides. How many lines of symmetry does this rectangle have? (Hint: A non-square rectangle has 2 lines of symmetry. The two lines of symmetry are the two midlines through opposite sides.)
+
+Question 5:
+On a 4-by-4 square grid, a vertical line of symmetry runs down the middle. One unit square is shaded one unit to the left of the line. Where must the matching square be? (Hint: The matching square must be one unit to the right of the line. Same distance from the line of symmetry.)`,
+          options: JSON.stringify([
+            "Isosceles triangle (not equilateral): symmetric figure?|A. Yes|B. No|C. Only if all sides equal|D. Cannot tell",
+            "Square: how many lines of symmetry?|A. 2|B. 3|C. 4|D. 8",
+            "Non-square rectangle: diagonals as lines of symmetry?|A. Yes|B. No|C. Only one diagonal|D. Cannot tell",
+            "Non-square rectangle: how many lines of symmetry?|A. 0|B. 1|C. 2|D. 4",
+            "4×4 grid, vertical line, 1 square shaded 1 unit left. Matching square?|A. 1 unit left|B. 1 unit right|C. 2 units right|D. 0 units (same position)",
+          ]),
+          correctAnswer: "A,C,B,C,B",
+          points: 5,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: `Choose the correct answer for each question.
+
+Question 6:
+Which figure is NOT symmetric? A scalene triangle has three sides that are all different lengths. (Hint: A scalene triangle usually has 0 lines of symmetry. It is NOT a symmetric figure.)
+
+Question 7:
+An equilateral triangle has three sides that are all equal. How many lines of symmetry does an equilateral triangle have? (Hint: An equilateral triangle has 3 lines of symmetry. Each line goes from one vertex to the midpoint of the opposite side.)
+
+Question 8:
+A rectangle is NOT a square. A straight line goes through two opposite corners of the rectangle (a diagonal). Is this diagonal a line of symmetry of the rectangle? (Hint: No. If you fold the rectangle along the diagonal, the two halves do NOT match. The diagonal is NOT a line of symmetry.)
+
+Question 9:
+A rectangle is NOT a square. A straight line goes through the midpoints of the two long sides of the rectangle (a midline). Is this midline a line of symmetry of the rectangle? (Hint: Yes. If you fold the rectangle along this midline, the two halves match. The midline is a line of symmetry.)
+
+Question 10:
+On a square grid, a horizontal line of symmetry runs across the middle. Two unit squares are shaded one unit above the line. How many matching squares must be below the line? How far below? (Hint: Two unit squares are one unit above. The matching squares must be one unit below. Same number: 2 squares. Same distance: 1 unit below.)
+
+Question 11:
+A circle has a center. Does a circle have a line of symmetry? (Hint: Yes. A circle has many lines of symmetry. Any straight line that goes through the center is a line of symmetry. Do not invent a number for how many.)
+
+Question 12:
+A square has four sides that are all equal. A straight line goes through two opposite corners of the square (a diagonal). Is this diagonal a line of symmetry of the square? (Hint: Yes. If you fold the square along the diagonal, the two halves match. The diagonal is a line of symmetry. A square has 4 lines of symmetry: 2 midlines + 2 diagonals.)
+
+Question 13:
+On a square grid, a vertical line of symmetry runs down the middle. After completing the symmetric figure, the left half has 5 shaded unit squares. How many shaded unit squares are on the right half? (Hint: A symmetric figure has two halves that match. If the left half has 5 shaded squares, the right half must also have 5 shaded squares. Same number.)`,
+          options: JSON.stringify([
+            "Which figure is NOT symmetric?|A. Square|B. Equilateral triangle|C. Scalene triangle|D. Circle",
+            "Equilateral triangle: how many lines of symmetry?|A. 1|B. 2|C. 3|D. 4",
+            "Rectangle diagonal: line of symmetry?|A. Yes|B. No|C. Only for squares|D. Cannot tell",
+            "Rectangle long-side midline: line of symmetry?|A. Yes|B. No|C. Only for squares|D. Cannot tell",
+            "Horizontal line, 2 squares 1 unit above. Matching squares below?|A. 1 square, 1 unit|B. 2 squares, 1 unit|C. 2 squares, 2 units|D. 3 squares, 1 unit",
+            "Circle: has a line of symmetry?|A. No|B. Yes|C. Only if diameter shown|D. Cannot tell",
+            "Square diagonal: line of symmetry?|A. Yes|B. No|C. Only one diagonal|D. Cannot tell",
+            "Left half: 5 shaded squares. Right half?|A. 3 squares|B. 5 squares|C. 7 squares|D. 10 squares",
+          ]),
+          correctAnswer: "C,C,B,A,B,B,A,B",
+          points: 8,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `At Tampines Primary School, the students are learning about line symmetry.
+
+(a) Mei draws a rectangle that is NOT a square. The rectangle has two long sides and two short sides. How many lines of symmetry does Mei's rectangle have? Show your working by stating the property: A non-square rectangle has 2 lines of symmetry. The two lines of symmetry are the two midlines through opposite sides. One midline goes through the midpoints of the two long sides. The other midline goes through the midpoints of the two short sides. The diagonals are NOT lines of symmetry because folding along a diagonal does not make the two halves match. So Mei's rectangle has 2 lines of symmetry.
+
+(b) Jun Wei draws an equilateral triangle. All three sides of the triangle are equal. How many lines of symmetry does Jun Wei's triangle have? Show your working: An equilateral triangle has 3 lines of symmetry. Each line of symmetry goes from one vertex (顶点) to the midpoint of the opposite side. There are three vertices, so there are three lines of symmetry. An equilateral triangle has 3 lines of symmetry.
+
+(c) Priya draws a shape on a square grid. A vertical line of symmetry runs down the middle of the grid. Priya shades some unit squares on the left side of the line. To complete the symmetric figure, how should Priya shade the unit squares on the right side? Show your working: A symmetric figure has two halves that match when you fold along the line of symmetry. If a unit square is shaded on the left side at a certain distance from the line, the matching unit square on the right side must be at the same distance from the line. For example, if a square is 1 unit to the left of the line, the matching square is 1 unit to the right of the line. Same distance from the line of symmetry. The number of shaded squares on the right must equal the number of shaded squares on the left. To complete the symmetric figure, Priya should shade the matching squares on the right side at the same distance from the line.
+
+写出说明、算式和答案。Show working step by step. For line symmetry, state the properties (e.g., "A non-square rectangle has 2 lines of symmetry: the two midlines. The diagonals are NOT lines of symmetry", "An equilateral triangle has 3 lines of symmetry"). For completing a symmetric figure on a grid, explain the rule (e.g., "same distance from the line of symmetry"). Explain common errors (e.g., thinking a rectangle's diagonals are lines of symmetry, thinking every figure has a line of symmetry, completing the figure on the wrong side of the line, counting a fold that does not make two matching halves).`,
+          points: 10,
+        },
+      ],
+    },
+    
     // A2 WEEKS
     {
       level: "A2",

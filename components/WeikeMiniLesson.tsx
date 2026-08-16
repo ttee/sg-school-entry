@@ -250,6 +250,14 @@ export default function WeikeMiniLesson({ level, weekNumber }: WeikeMiniLessonPr
       ],
       gloss: "P4 学长方形和正方形（rectangle and square）：rectangle 有 4 right angles = 90° 和 opposite sides equal（对边相等）；square 有 4 right angles = 90° 和 4 equal sides（四边相等）；both have opposite sides parallel（对边平行，如果 P3 第 12 周已教平行和垂直，可以回顾）；在方格纸上画长方形和正方形（draw on a square grid: 'draw a rectangle 4 units by 3 units'，用文字描述尺寸，不需要图片文件）。常见错误：把 rectangle 当成四边相等（thinking rectangle has all sides equal instead of only opposite sides equal）、用对角线性质（using diagonal properties，官方明确 excluding diagonal properties）、混淆 rectangle 和 square 的定义（confusing rectangle and square: rectangle has opposite sides equal, square has all four sides equal）、忘记两个形状都有 4 个直角 = 90°（forgetting both shapes have four right angles = 90°）。关键词：rectangle（长方形）、square（正方形）、right angle（直角 = 90°）、opposite sides（对边）、equal sides（相等的边）、parallel（平行）、square grid（方格纸）。本周不教：diagonal properties（对角线性质，官方明确 excluding diagonal properties）、line symmetry / nets（对称/展开图）、triangle angle sum（三角形内角和）、quadrilateral interior angle sum（四边形内角和，不在官方 P4 2.1 列表中）。"
     },
+    "MATH-28": {
+      examples: [
+        "A non-square rectangle has 2 lines of symmetry: the two midlines through opposite sides.",
+        "The diagonals are NOT lines of symmetry (folding along a diagonal does not make the two halves match).",
+        "A square has 4 lines of symmetry (2 midlines + 2 diagonals). An equilateral triangle has 3."
+      ],
+      gloss: "P4 学对称轴（line of symmetry / 对称轴）与对称图形（symmetric figure / 对称图形）：一个图形是对称的，如果一半是另一半在一条直线（对称轴）对面的镜像。正方形有 4 条对称轴（两条中线穿过对边，两条对角线）。非正方形长方形有 2 条对称轴（两条中线穿过对边的中点——不包括对角线）。等边三角形有 3 条。非等边的等腰三角形有 1 条。圆有很多条（不要发明数字）。不规则三角形 / 不规则四边形通常有 0 条。完成图形：如果方格纸有一条垂直/水平对称轴，一侧有一些单位格已着色，另一侧的匹配格必须距离对称轴相同的距离。常见错误：把长方形的对角线当对称轴、认为每个图形都有对称轴、在对称轴错误的一侧完成图形、数出不能让两半重合的折叠线。本周不教：rotational symmetry / order of rotational symmetry（旋转对称）、reflection in a point（点对称）、3D symmetry（立体对称）、nets（展开图，那是第 29 周）。"
+    },
     "A2-7": {
       fossil: "I going to the library tomorrow / I go to swim / Tomorrow I go library",
       examples: [

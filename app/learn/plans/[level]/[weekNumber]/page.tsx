@@ -2398,6 +2398,54 @@ const lessonPlans: Record<string, LessonPlan> = {
       "How many right angles does a rectangle have? How many right angles does a square have? (Say the property and answer.)",
     ],
   },
+  "MATH-28": {
+    title: "对称轴 — Line of Symmetry",
+    mathExample: "A non-square rectangle has 2 lines of symmetry: the two midlines through opposite sides. The diagonals are NOT lines of symmetry. A square has 4 lines of symmetry (2 midlines + 2 diagonals). An equilateral triangle has 3.",
+    sections: [
+      {
+        name: "热身",
+        duration: "3 分钟",
+        teacherNotes: "问孩子：'What is a line of symmetry? What is a symmetric figure?' 引导：A line of symmetry (对称轴) is a straight line. When you fold a figure along this line, the two halves match exactly (一半是另一半的镜像). A symmetric figure (对称图形) is a figure that has at least one line of symmetry. 让孩子想想哪些图形有对称轴：square（正方形）、rectangle（长方形）、equilateral triangle（等边三角形）、circle（圆）。也可以问：'Does every figure have a line of symmetry?' 答案：No. A scalene triangle (三边不等的三角形) or irregular quadrilateral (不规则四边形) usually has 0 lines of symmetry.",
+      },
+      {
+        name: "本周例题",
+        duration: "8 分钟",
+        teacherNotes: "在白板上写：'A non-square rectangle has 2 lines of symmetry: the two midlines through opposite sides.' 画简单示意图：一个长方形，画两条中线（horizontal midline through the two long sides, vertical midline through the two short sides），标注 'midline 1' and 'midline 2'. 问孩子：'Are the diagonals of a non-square rectangle lines of symmetry?' 引导：No. If you fold along a diagonal, the two halves do NOT match. The diagonals are NOT lines of symmetry. 再写：'A square has 4 lines of symmetry (2 midlines + 2 diagonals).' 画简单示意图：一个正方形，画 4 条对称轴（2 midlines + 2 diagonals），标注 'midline 1', 'midline 2', 'diagonal 1', 'diagonal 2'. 讲完成对称图形：'On a 4 by 4 square grid, a vertical line of symmetry runs down the middle. One unit square is shaded 1 unit left of the line. Where must the matching square be?' 引导：1 unit right of the line (距离相同). 讲等边三角形：'An equilateral triangle has 3 lines of symmetry (从每个顶点到对边中点).' 讲圆：'A circle has many lines of symmetry (任何经过圆心的直线).' 强调：正方形有 4 条（2 midlines + 2 diagonals），非正方形长方形有 2 条（2 midlines only, diagonals are NOT），等边三角形有 3 条，非等边的等腰三角形有 1 条，不规则三角形通常有 0 条。关键词：line of symmetry（对称轴）、symmetric figure（对称图形）、midline（中线）、diagonal（对角线）、fold（折叠）、match（重合）、equilateral triangle（等边三角形）、isosceles triangle（等腰三角形）、scalene triangle（不规则三角形）。本周不教：rotational symmetry（旋转对称）、reflection in a point（点对称）、3D symmetry（立体对称）、nets（展开图，那是第 29 周）。常见错误：把长方形的对角线当对称轴（rectangle diagonals are NOT lines of symmetry）、认为每个图形都有对称轴（scalene triangles usually have 0）、在对称轴错误的一侧完成图形（should be same distance on the other side）、数出不能让两半重合的折叠线（must check that folding makes two halves match exactly）。",
+      },
+      {
+        name: "孩子口头说算式",
+        duration: "10 分钟",
+        teacherNotes: "给 3 个口头题，孩子说出性质和判断。题目 1：'A non-square rectangle has two long sides and two short sides. How many lines of symmetry does it have?' 期待输出：'A non-square rectangle has two lines of symmetry. The two lines of symmetry are the two midlines through opposite sides. One midline goes through the midpoints of the two long sides. The other midline goes through the midpoints of the two short sides. The diagonals are NOT lines of symmetry. So a non-square rectangle has two lines of symmetry.' 题目 2：'An equilateral triangle has three sides that are all equal. How many lines of symmetry does it have?' 期待输出：'An equilateral triangle has three lines of symmetry. Each line of symmetry goes from one vertex (顶点) to the midpoint of the opposite side. There are three vertices, so there are three lines of symmetry. An equilateral triangle has three lines of symmetry.' 题目 3：'On a four by four square grid, a vertical line of symmetry runs down the middle. One unit square is shaded one unit to the left of the line. Where must the matching square be?' 期待输出：'The matching square must be one unit to the right of the line. A line of symmetry means that if you fold along the line, the two halves match. If one square is one unit to the left, the matching square is one unit to the right. Same distance from the line. So the matching square is one unit to the right of the line.' 如果孩子卡住，教师给提示：'A non-square rectangle has how many midlines? Are the diagonals lines of symmetry?' 或 'An equilateral triangle has three sides. From each vertex, draw a line to the midpoint of the opposite side. How many lines?' 或 'If one square is one unit left, the matching square is … units right?'",
+      },
+      {
+        name: "开口",
+        duration: "12 分钟",
+        teacherNotes: "让孩子读出对称轴的性质并判断。比如 'A square has four corners and four sides that are all equal. How many lines of symmetry does it have?'，孩子要说 'A square has four lines of symmetry. Two lines of symmetry are the two midlines through opposite sides. Two lines of symmetry are the two diagonals. So a square has four lines of symmetry: two midlines plus two diagonals.' 或 'Is an isosceles triangle that is not equilateral a symmetric figure?'，孩子要说 'Yes. An isosceles triangle that is not equilateral is a symmetric figure. It has one line of symmetry. The line of symmetry goes from the vertex between the two equal sides to the midpoint of the base (底边). So it is a symmetric figure.' 或 'On a square grid, a horizontal line of symmetry runs across the middle. Two unit squares are shaded one unit above the line. How many matching squares must be below the line? How far below?'，孩子要说 'The two unit squares are one unit above the line. The matching squares must be one unit below the line. Same number of squares: two squares. Same distance from the line: one unit below. So two squares, one unit below the line.' 或 'Does a circle have a line of symmetry?'，孩子要说 'Yes. A circle has many lines of symmetry. Any straight line that goes through the center of the circle is a line of symmetry. When you fold along that line, the two halves match. So a circle has many lines of symmetry. We do not invent a number for how many.' 如果孩子卡住，教师给提示：'A square has two midlines and two diagonals. Are they all lines of symmetry?' 或 'An isosceles triangle has two equal sides. Does it have a line of symmetry?' 或 'If two squares are one unit above, the matching squares are … units below?' 或 'A circle: any line through the center is …?'",
+      },
+      {
+        name: "收口",
+        duration: "5 分钟",
+        teacherNotes: "提醒本周作业有 P4 数学题目，包括 identifying symmetric figures（识别对称图形 3.1）、determining whether a straight line is a line of symmetry（判断一条直线是否是对称轴 3.2）、completing a symmetric figure on a square grid（在方格纸上完成对称图形 3.3）。对应申请 P5 的孩子需要掌握的 P4 内容（preceding level 规则，Geometry → Symmetry 3.1–3.3）。题目使用新加坡学校情境（Tampines Primary School, Jun Wei, Mei, Priya 等）。本周不教：rotational symmetry / order of rotational symmetry（旋转对称）、reflection in a point（点对称）、3D symmetry（立体对称）、nets（展开图，那是第 29 周）。常见错误：把长方形的对角线当对称轴（rectangle diagonals are NOT）、认为每个图形都有对称轴（scalene triangles usually have 0）、在对称轴错误的一侧完成图形（should be same distance on the other side）、数出不能让两半重合的折叠线（must check by folding）。",
+      },
+    ],
+    spokenLines: [
+      "A non-square rectangle has 2 lines of symmetry: the two midlines.",
+      "The diagonals are NOT lines of symmetry.",
+      "A square has 4 lines of symmetry: 2 midlines + 2 diagonals.",
+      "An equilateral triangle has 3 lines of symmetry.",
+      "An isosceles triangle (not equilateral) has 1 line of symmetry.",
+      "A circle has many lines of symmetry.",
+      "Scalene triangle / irregular quadrilateral usually has 0 lines of symmetry.",
+      "Completing on grid: 1 unit left → 1 unit right (same distance).",
+      "After completing: left half 5 shaded squares → right half 5 shaded squares.",
+      "Not teaching: rotational symmetry, nets.",
+    ],
+    childPrompts: [
+      "A non-square rectangle has two long sides and two short sides. How many lines of symmetry does it have? (Say the property and answer.)",
+      "An equilateral triangle has three sides that are all equal. How many lines of symmetry does it have? (Say the property and answer.)",
+      "On a four by four square grid, a vertical line of symmetry runs down the middle. One unit square is shaded one unit to the left of the line. Where must the matching square be? (Say the property and answer.)",
+    ],
+  },
 };
 
 export default async function LessonPlanPage({
