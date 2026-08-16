@@ -370,7 +370,7 @@ He paid with a $50 note.
       description: "AEIS-Primary P2 Mathematics: Picture graphs with scales",
       isSample: false,
       errorFocus: null,
-      parentBrief: "本周主题：带单位的象形统计图（对应 MOE 小学 P2 数学大纲 Statistics）。P1 学过每个图代表 1 个物品。本周 P2 的新知识点是单位：每个图代表 2 个、5 个或 10 个。孩子要先看「Each ⭐ stands for 2」，再数有几个图，然后乘出总数（4 个 ⭐ × 2 = 8），最后比较大小或求差。常见化石：数了 4 个图就写 4，忘了乘单位。题目是简体中文家长说明 + 英文题干。本周配有双向对照表，显示题目对应的官方 2021 Primary Mathematics Syllabus P2 Statistics 内容点（Picture graphs with scales 1.1），以及 MOE AEIS 的「preceding level」规则（申请 P3 → 掌握 P2 内容）。",
+      parentBrief: "本周主题：带单位的象形统计图（对应 MOE 小学 P2 数学大纲 Statistics）。P1 学过每个图代表 1 个物品。本周 P2 的新知识点是单位：每个图代表 2 个、5 个或 10 个。孩子要先看「Each ⭐ stands for 2」，再数有几个图，然后乘出总数（4 个 ⭐ × 2 = 8），最后比较大小或求差。常见错误：数了 4 个图就写 4，忘了乘单位。题目是简体中文家长说明 + 英文题干。本周配有双向对照表，显示题目对应的官方 2021 Primary Mathematics Syllabus P2 Statistics 内容点（Picture graphs with scales 1.1），以及 MOE AEIS 的「preceding level」规则（申请 P3 → 掌握 P2 内容）。",
       videoUrl: null,
       kaizenFocus: null,
       questions: [
