@@ -1929,6 +1929,103 @@ A rectangular garden is 15 m long and 8 m wide. A square flower bed of side 3 m 
         },
       ],
     },
+    {
+      level: "MATH",
+      weekNumber: 24,
+      title: "数学 第 24 周 / Maths Week 24",
+      description: "AEIS-Primary P4 Mathematics: Tables and line graphs",
+      isSample: false,
+      errorFocus: null,
+      parentBrief: "本周主题：从表补全数据、读折线图（最高/最低、升/降、差值），对应官方 2021 P4 Statistics 1.1–1.2（completing a table from given data; reading and interpreting data from tables and line graphs）。申请 P5 入学的孩子需掌握 P4 内容（MOE AEIS 的 preceding level 规则）。关键技能：读表格（table）找缺失数字、把给出的数据填入空白表格、折线图（line graph）读点（reading data points: 横轴日期/类别 + 纵轴数值）、找最高点/最低点（highest / lowest point）、判断升降趋势（increase / decrease from one point to another）、计算差值（difference = 高的值 − 低的值）、回答 'how much more / less'（用减法）。常见错误：把折线两点之间的斜率当成数值（the slope is not the value, read the point on the vertical axis）、读错横轴日期（misreading the day/category on horizontal axis）、算差值用加法而不是减法（difference should be subtraction, not addition）、表格填数时单位漏写或错写（missing or wrong units when completing a table）。题目配有双向对照表，显示对应官方 2021 Primary Mathematics Syllabus P4 Statistics 1.1–1.2，以及申请 P5 → 掌握 P4 的规则。本周明确不教：饼图（pie charts，下周）、条形图作为主要新技能（bar graphs 已在 P3 第 13 周学过）、平均数/均值（mean / average，除非能从官方 P4 大纲引用，不要自创）、P5/P6 数据主题（如 mode / median / range）。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: `Read the information and choose the correct answer.
+
+Question 1:
+The library recorded book loans each day. Monday: 45 books, Tuesday: 52 books, Wednesday: 48 books, Thursday: 56 books, Friday: 50 books. On which day were the most books loaned out?
+
+Question 2:
+The temperature at noon each day: Monday 30°C, Tuesday 31°C, Wednesday 29°C, Thursday 32°C, Friday 30°C. The line graph shows these temperatures connected by lines going up when it gets hotter and down when it gets cooler. From Tuesday to Wednesday, did the temperature go up or down? By how much?
+
+Question 3:
+The table shows the number of students who borrowed library books. Monday: 28, Tuesday: ?, Wednesday: 34, Thursday: 40, Friday: 36. The pattern increases by 3 each day from Monday to Thursday, then decreases by 4 from Thursday to Friday. What number goes in Tuesday's blank space?
+
+Question 4:
+The school canteen sold these meals on Monday: Rice 68, Noodles 52, Bread 40. On Tuesday: Rice 72, Noodles 48, Bread 44. How many more rice meals than noodles meals were sold on Monday?
+
+Question 5:
+The line graph shows temperature from 8 a.m. to 12 noon. At 8 a.m. it was 26°C. At 10 a.m. it was 29°C. At 12 noon it was 31°C. The line goes up all morning. What is the difference between the noon temperature and the 8 a.m. temperature?`,
+          options: JSON.stringify([
+            "Library loans: Mon 45, Tue 52, Wed 48, Thu 56, Fri 50|A. Monday|B. Tuesday|C. Wednesday|D. Thursday",
+            "Temperature: Mon 30, Tue 31, Wed 29, Thu 32, Fri 30. Tue to Wed change?|A. Up by 1°C|B. Down by 1°C|C. Up by 2°C|D. Down by 2°C",
+            "Students: Mon 28, Tue ?, Wed 34, Thu 40, Fri 36. Pattern +3 then -4.|A. 30|B. 31|C. 32|D. 33",
+            "Monday meals: Rice 68, Noodles 52, Bread 40. How much more rice than noodles?|A. 12|B. 14|C. 16|D. 18",
+            "Temperature: 8am 26°C, 10am 29°C, 12noon 31°C. Difference noon − 8am?|A. 3°C|B. 4°C|C. 5°C|D. 6°C",
+          ]),
+          correctAnswer: "D,D,B,C,C",
+          points: 5,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: `Choose the correct answer for each question.
+
+Question 6:
+The table shows daily rainfall in mm: Monday 12, Tuesday 8, Wednesday 15, Thursday 10, Friday 6. On which day was the rainfall the lowest?
+
+Question 7:
+The number of students at the playground each day: Monday 34, Tuesday 38, Wednesday 42, Thursday 46, Friday 50. By how much did the number increase from Monday to Friday?
+
+Question 8:
+The line graph shows book sales. Monday: 24 books, Tuesday: 30 books, Wednesday: 27 books, Thursday: 33 books, Friday: 36 books. On which day did sales go down compared to the previous day?
+
+Question 9:
+The table shows the number of buses at the interchange. 7 a.m.: 18, 8 a.m.: 25, 9 a.m.: 32, 10 a.m.: 28, 11 a.m.: 22. At what time were there the most buses?
+
+Question 10:
+Visitors to East Coast Park: Saturday 245, Sunday 320. How many more visitors on Sunday than Saturday?
+
+Question 11:
+The line graph shows Mei's savings each month. January: $45, February: $52, March: $48, April: $58, May: $60. Between which two consecutive months did her savings increase the most?
+
+Question 12:
+The table shows the temperature at different times. 6 a.m.: 24°C, 9 a.m.: 28°C, 12 noon: 32°C, 3 p.m.: 30°C, 6 p.m.: 26°C. What is the temperature at 12 noon?
+
+Question 13:
+The canteen sold drinks each day: Monday 85, Tuesday 92, Wednesday 88, Thursday 95, Friday 90. Complete the table: On Tuesday, the canteen sold ___ drinks.`,
+          options: JSON.stringify([
+            "Rainfall mm: Mon 12, Tue 8, Wed 15, Thu 10, Fri 6. Lowest day?|A. Monday|B. Tuesday|C. Thursday|D. Friday",
+            "Playground students: Mon 34, Tue 38, Wed 42, Thu 46, Fri 50. Mon→Fri increase?|A. 12|B. 14|C. 16|D. 18",
+            "Book sales: Mon 24, Tue 30, Wed 27, Thu 33, Fri 36. Which day went down?|A. Tuesday|B. Wednesday|C. Thursday|D. Friday",
+            "Buses: 7am 18, 8am 25, 9am 32, 10am 28, 11am 22. Most buses at?|A. 7 a.m.|B. 8 a.m.|C. 9 a.m.|D. 10 a.m.",
+            "East Coast Park: Sat 245, Sun 320. How much more on Sunday?|A. 65|B. 70|C. 75|D. 80",
+            "Savings: Jan $45, Feb $52, Mar $48, Apr $58, May $60. Biggest increase between?|A. Jan-Feb|B. Feb-Mar|C. Mar-Apr|D. Apr-May",
+            "Temperature: 6am 24°C, 9am 28°C, 12noon 32°C, 3pm 30°C, 6pm 26°C. At noon?|A. 28°C|B. 30°C|C. 32°C|D. 34°C",
+            "Drinks sold: Mon 85, Tue 92, Wed 88, Thu 95, Fri 90. Tuesday?|A. 88|B. 90|C. 92|D. 95",
+          ]),
+          correctAnswer: "D,C,B,C,C,C,C,C",
+          points: 8,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `At Tampines Primary School, the students recorded weather data.
+
+(a) The table shows the number of rainy days each month. January: 12 days, February: 8 days, March: 10 days, April: 15 days. Which month had the most rainy days? Show your working by comparing the numbers: 12, 8, 10, 15. The highest is 15.
+
+(b) The line graph shows temperature at noon each day of one week. Monday: 29°C, Tuesday: 31°C, Wednesday: 30°C, Thursday: 33°C, Friday: 32°C. On which day was the temperature the highest? What is the difference between the highest temperature and Monday's temperature? Show your working: Highest is Thursday 33°C. Difference = 33 − 29 = 4°C.
+
+(c) The table shows library visitors. Monday: 56, Tuesday: ?, Wednesday: 68, Thursday: 74, Friday: 70. The number increased by 6 from Monday to Tuesday, then by 6 again from Tuesday to Wednesday. Complete the table by finding Tuesday's number. Show your working: Monday 56 + 6 = 62. So Tuesday is 62 visitors. Check: 62 + 6 = 68 (Wednesday). Correct.
+
+写出算式、答案和说明。Show working step by step. For line graphs, write out the comparison (e.g., "Monday 29°C, Thursday 33°C. 33 > 29, so Thursday is highest."). For tables with missing data, show the pattern or calculation. Explain common errors (e.g., reading the slope instead of the point value on the vertical axis, using addition instead of subtraction for difference, mixing up days on the horizontal axis).`,
+          points: 10,
+        },
+      ],
+    },
     
     // A2 WEEKS
     {

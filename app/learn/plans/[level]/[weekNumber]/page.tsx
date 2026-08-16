@@ -2206,6 +2206,54 @@ const lessonPlans: Record<string, LessonPlan> = {
       "An L-shape is made of an 8×3 rectangle and a 4×5 rectangle. They share the 4 cm side. What is the total area? (Say the calculation.)",
     ],
   },
+  "MATH-24": {
+    title: "表格和折线图 — Tables and line graphs",
+    mathExample: "Temperature at noon: Monday 30°C, Tuesday 31°C, Wednesday 29°C, Thursday 32°C, Friday 30°C. The line goes up from Monday to Tuesday (30 → 31), down to Wednesday (31 → 29), up to Thursday (29 → 32), down to Friday (32 → 30). Highest: Thursday 32°C. Lowest: Wednesday 29°C. Difference: 32 − 29 = 3°C.",
+    sections: [
+      {
+        name: "热身",
+        duration: "3 分钟",
+        teacherNotes: "用文字描述一组温度数据：'Temperature at noon each day: Monday 30°C, Tuesday 31°C, Wednesday 29°C.' 问孩子：'On which day was it hottest?' 引导：比较 30, 31, 29，最大是 31，所以 Tuesday。让孩子注意：表格和折线图都是从数据里找最高/最低、算差值、看趋势。",
+      },
+      {
+        name: "本周例题",
+        duration: "8 分钟",
+        teacherNotes: "在白板上写温度数据（文字描述）：'Temperature at noon each day: Monday 30°C, Tuesday 31°C, Wednesday 29°C, Thursday 32°C, Friday 30°C.' 说：'Imagine this is a line graph. The line goes up from Monday to Tuesday (30 → 31), down to Wednesday (31 → 29), up to Thursday (29 → 32), down to Friday (32 → 30).' 画简单示意图：横轴日期 Mon Tue Wed Thu Fri，纵轴温度，标上 30, 31, 29, 32, 30，连线。问孩子：'Which day had the highest temperature?' 引导：compare all values: 30, 31, 29, 32, 30. Highest is 32, so Thursday. 再问：'What is the difference between the highest and the lowest?' 引导：highest = Thursday 32°C, lowest = Wednesday 29°C. Difference = 32 − 29 = 3°C. 强调：读折线图时看点在纵轴的高度，不要看斜线（the slope is NOT the value; read the point on the vertical axis）。接着写表格练习（文字描述）：'Library visitors: Monday 56, Tuesday ?, Wednesday 68, Thursday 74, Friday 70. The number increased by 6 from Monday to Tuesday.' 问孩子：'What is Tuesday?' 引导：Monday 56 + 6 = 62. Check: 62 + 6 = 68 (Wednesday) ✓. 关键词：table（表格）、line graph（折线图）、horizontal axis（横轴）、vertical axis（纵轴）、data point（数据点）、highest（最高）、lowest（最低）、increase（上升）、decrease（下降）、difference（差值）、pattern（规律）。注意：本周只教 P4 Statistics 1.1–1.2（completing a table from given data; reading and interpreting data from tables and line graphs），不教饼图（pie charts，下周）、条形图作为主要新技能（bar graphs 已在 P3 第 13 周学过）、平均数/均值（mean / average）、P5/P6 数据主题（mode / median / range）。",
+      },
+      {
+        name: "孩子口头说算式",
+        duration: "10 分钟",
+        teacherNotes: "给 3 个口头题，孩子说出比较和算式。题目 1：'Rainfall in mm: Monday 12, Tuesday 8, Wednesday 15, Thursday 10, Friday 6. On which day was the rainfall the lowest?' 期待输出：'Compare the numbers: 12, 8, 15, 10, 6. The lowest is 6. So Friday had the lowest rainfall.' 题目 2：'Book sales: Monday 24, Tuesday 30, Wednesday 27, Thursday 33, Friday 36. On which day did sales go down compared to the previous day?' 期待输出：'Monday 24, Tuesday 30. Tuesday went up. Tuesday 30, Wednesday 27. 30 is more than 27, so Wednesday went down. Wednesday is the answer.' 题目 3：'Temperature: 8 a.m. 26°C, 10 a.m. 29°C, 12 noon 31°C. What is the difference between noon and 8 a.m.?' 期待输出：'Noon is 31°C. 8 a.m. is 26°C. Difference equals 31 minus 26 equals 5°C.'",
+      },
+      {
+        name: "开口",
+        duration: "12 分钟",
+        teacherNotes: "让孩子读出数据并解释趋势。比如 'Temperature: Monday 30°C, Tuesday 31°C, Wednesday 29°C, Thursday 32°C, Friday 30°C'，孩子要说 'The line goes up from Monday to Tuesday because thirty is less than thirty-one. Then it goes down to Wednesday because thirty-one is more than twenty-nine. Then it goes up to Thursday because twenty-nine is less than thirty-two. Then it goes down to Friday because thirty-two is more than thirty. The highest temperature is Thursday at thirty-two degrees Celsius. The lowest is Wednesday at twenty-nine degrees Celsius. The difference is thirty-two minus twenty-nine equals three degrees Celsius.' 或 'Library visitors: Monday 56, Tuesday ?, Wednesday 68, Thursday 74, Friday 70. The pattern is plus six from Monday to Tuesday'，孩子要说 'Monday is fifty-six. Add six: fifty-six plus six equals sixty-two. So Tuesday is sixty-two visitors. Check: sixty-two plus six equals sixty-eight. That matches Wednesday. Correct.' 注意读法：highest（最高）、lowest（最低）、increase / goes up（上升）、decrease / goes down（下降）、difference（差值）、pattern（规律）、add（加）、minus / subtract（减）、compare（比较）、degrees Celsius（摄氏度）、books / visitors（单位）。",
+      },
+      {
+        name: "收口",
+        duration: "5 分钟",
+        teacherNotes: "提醒本周作业有 P4 数学题目，包括从表补全数据（completing a table from given data）、读折线图找最高/最低点（finding highest/lowest point on line graph）、判断升降趋势（identifying increase/decrease）、计算差值（calculating difference）。对应申请 P5 的孩子需要掌握的 P4 内容（preceding level 规则）。题目使用新加坡学校情境（图书馆、食堂、天气、East Coast Park 等）。描述表格和折线图时用文字给足数字让孩子能唯一确定最高/最低点和趋势，例如 'Temperature at noon: Monday 30°C, Tuesday 31°C, Wednesday 29°C, Thursday 32°C, Friday 30°C. The line goes up from Monday to Tuesday, down to Wednesday, up to Thursday, down to Friday.' 强调：读折线图时看点在纵轴的高度，不要看斜线（the slope is NOT the value）；算差值用减法（difference = higher − lower）；表格填数时写上单位（°C, books, visitors 等）。常见错误：把折线两点之间的斜率当成数值（confusing slope with value）、读错横轴日期（misreading the day on horizontal axis）、算差值用加法（using addition instead of subtraction）、表格填数时单位漏写或错写（missing or wrong units）。本周不教饼图（pie charts，下周）、条形图作为主要新技能（bar graphs 已在 P3 第 13 周学过）、平均数/均值（mean / average）、P5/P6 数据主题（mode / median / range）。",
+      },
+    ],
+    spokenLines: [
+      "Temperature Monday 30, Tuesday 31, Wednesday 29, Thursday 32, Friday 30.",
+      "The line goes up from Monday to Tuesday. Thirty to thirty-one.",
+      "Highest temperature is Thursday at thirty-two degrees Celsius.",
+      "Lowest temperature is Wednesday at twenty-nine degrees Celsius.",
+      "Difference = 32 − 29 = 3°C",
+      "Thirty-two minus twenty-nine equals three degrees Celsius.",
+      "Library visitors: Monday 56, Tuesday ?, Wednesday 68. Pattern plus six.",
+      "Monday fifty-six plus six equals sixty-two. So Tuesday is sixty-two visitors.",
+      "Read the point on the vertical axis, not the slope.",
+      "读折线图时看点在纵轴的高度，不要看斜线。",
+    ],
+    childPrompts: [
+      "Rainfall mm: Monday 12, Tuesday 8, Wednesday 15, Thursday 10, Friday 6. Which day had the lowest rainfall? (Say the comparison.)",
+      "Book sales: Monday 24, Tuesday 30, Wednesday 27, Thursday 33, Friday 36. On which day did sales go down? (Say the comparison.)",
+      "Temperature: 8 a.m. 26°C, 10 a.m. 29°C, 12 noon 31°C. What is the difference between noon and 8 a.m.? (Say the calculation.)",
+    ],
+  },
 };
 
 export default async function LessonPlanPage({
