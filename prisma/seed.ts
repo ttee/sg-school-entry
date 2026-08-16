@@ -5968,6 +5968,77 @@ Note: This is a Sec 1 writing sample (2 topics, 200–300 words), not Sec 2 or S
         },
       ],
     },
+    // SMATH WEEK (AEIS-Secondary Mathematics)
+    {
+      level: "SMATH",
+      weekNumber: 0,
+      title: "试学周 / Sample Week",
+      description: "AEIS-Secondary Mathematics (Sec 1 paper shape): P6 percentage sample",
+      isSample: true,
+      errorFocus: "part/whole mix-up / % of vs % increase",
+      parentBrief: "本周是中学 AEIS 数学试学周，对应官方 SEAB Sec 1 卷型样本（https://www.seab.gov.sg/aeis/test-details/ 2026年7月1日更新）。Part 1 Multiple-choice questions：34 道 MCQ，30 分钟。Part 2 Short-answer questions (20 items) and open-ended questions (10 to 15 items)：1 小时 45 分钟。Calculators are not allowed（不允许使用计算器）。Short-answer and open-ended questions：candidates are required to show the method of solution clearly by writing working steps in the spaces provided, plus the final answer（需写出算式步骤和最终答案）。AEIS-Secondary 官方 preceding-level 规则：申请 Sec 1 入学者需熟悉 Sec 1 前一级的内容。官方举例：apply Secondary 3 → be familiar with Secondary 2. 本周试学针对 Sec 1 申请者，内容为 Sec 1 前一级（P6）的官方 2021 Primary Mathematics Syllabus - P6 Percentage 1.1 (finding the whole given a part and the percentage) and 1.2 (finding percentage increase/decrease)。本周作业是样本，不是完整 34 + 20 + 10–15 题。本周化石：part/whole 混淆（20% of S$50 ≠ 20% increase from S$50）。用新加坡元 S$，不用美元。不教：ratio, algebra, circles, volume, compound interest, profit/loss formulas beyond increase/decrease, calculators, invented cut-scores。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "20% of 150 = ?|A. 20|B. 30|C. 40|D. 50",
+            "15 is 25% of a number. What is the number?|A. 40|B. 50|C. 60|D. 75",
+            "A bag costs S$80. After a 10% increase, what is the new price?|A. S$8|B. S$72|C. S$88|D. S$90",
+            "A price falls from S$50 to S$40. What is the percentage decrease?|A. 10%|B. 20%|C. 25%|D. 40%",
+            "40% of a class of 35 students are boys. How many boys are there?|A. 12|B. 14|C. 16|D. 21",
+          ]),
+          correctAnswer: "B,C,C,B,B",
+          points: 10,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "12 is 20% of a number. What is the number?|A. 2.4|B. 24|C. 60|D. 240",
+            "S$200 after a 15% decrease = ?|A. S$30|B. S$170|C. S$185|D. S$215",
+            "The increase from 40 to 50 is a percentage increase of:|A. 10%|B. 20%|C. 25%|D. 80%",
+            "5% of 80 = ?|A. 4|B. 8|C. 16|D. 40",
+            "A whole is 90. What is 30% of it?|A. 3|B. 27|C. 30|D. 60",
+            "Which is the percentage increase from 80 to 100?|A. 20%|B. 25%|C. 80%|D. 100%",
+            "Find the whole: 18 is 15% of ?|A. 2.7|B. 12|C. 120|D. 270",
+            "S$60 is 75% of the original price. What is the original price?|A. S$45|B. S$75|C. S$80|D. S$135",
+          ]),
+          correctAnswer: "C,B,C,A,B,B,C,C",
+          points: 16,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `Part 2: Show Your Working (写出算式步骤)
+
+Riverside Secondary School is planning a school fair. Answer the questions below. Show all your working clearly.
+
+Question (a)
+The school bought 250 books for the book sale. 20% of the books are storybooks. How many storybooks are there?
+
+Question (b)
+Last year, the school fair raised S$1,200. This year, they raised 15% more than last year. How much money did they raise this year?
+
+Question (c)
+The school canteen sold 180 sandwiches today. This is 60% of the total sandwiches they made. How many sandwiches did they make in total?
+
+写作提示 / Tips:
+✓ 每题分步骤写出算式 (Show working steps for each question)
+✓ Part 2 官方要求：clearly show the method of solution by writing working steps, plus the final answer
+✓ 百分数计算不用计算器 (No calculators allowed: do percentage calculations by hand)
+✓ 写出百分数公式的中文或英文表述，如「20% of 250 = 250 ÷ 5 = 50」或「增加 = 原价 × 百分比」
+✓ 最终答案标注单位（如 S$、books、sandwiches）
+
+Note: This is a sample of Part 2 short-answer/open-ended questions. The official paper has 20 short-answer + 10–15 open-ended items in 1 hour 45 minutes.`,
+          points: 20,
+        },
+      ],
+    },
   ];
 
   // =================================================================

@@ -2547,6 +2547,43 @@ const lessonPlans: Record<string, LessonPlan> = {
       "Your English lessons are harder than primary school, but your teacher is helpful. Tell me.",
     ],
   },
+  "SMATH-0": {
+    title: "百分数增减 — Percentage Increase/Decrease",
+    fossil: "part/whole mix-up / % of vs % increase",
+    sections: [
+      {
+        name: "课前",
+        duration: "2 分钟",
+        teacherNotes: "确认 Zoom 设置正常。孩子和家长都在镜头前。对家长说：「今天教中学 AEIS 数学试学周，不是 CEQ 也不是小学 AEIS 数学。本周是 Sec 1 数学卷型样本，内容对应前一级 P6 百分数。SEAB 官方规则：申请 Sec 1 入学的孩子需熟悉 Sec 1 前一级的内容。不用计算器，要写出算式步骤。」",
+      },
+      {
+        name: "热身",
+        duration: "5 分钟",
+        teacherNotes: "问孩子：'Do you know what 10% means?' 等孩子回答。然后说：'10% means 10 out of 100, or 10 divided by 100, or 0.1.' 用新加坡元举例：'A book costs S$80. What is 10% of S$80?' 引导孩子说 'S$80 divided by 10 equals S$8.' 或 'S$8.' 不立刻讲增减，只练「几分之几 of 某数」的算法。",
+      },
+      {
+        name: "化石",
+        duration: "8 分钟",
+        teacherNotes: "在屏幕上或白板上写下常见混淆：'20% of S$50 ≠ 20% increase from S$50.' 解释：20% of S$50 = S$50 ÷ 5 = S$10（这是一部分，不是增加后的新价格）。20% increase from S$50：先算 20% of S$50 = S$10，再加到 S$50 → S$50 + S$10 = S$60（这才是新价格）。写出公式：Increase = original × percentage, New price = original + increase. Decrease 同理：先算 decrease amount，再减。让孩子跟读公式 2 次。",
+      },
+      {
+        name: "例题",
+        duration: "10 分钟",
+        teacherNotes: "教师示范一道完整例题（写出算式步骤）。例题：Jun Wei bought a book for S$80. The price increased by 10%. What is the new price? 步骤：① 10% of S$80 = S$80 ÷ 10 = S$8. ② New price = S$80 + S$8 = S$88. Answer: S$88. 强调：算式要分步骤写，不能只写答案。再做一道减少：A bag costs S$50. The price decreased by 20%. New price? 步骤：① 20% of S$50 = S$50 ÷ 5 = S$10. ② New price = S$50 − S$10 = S$40. 孩子在纸上抄一遍例题步骤。",
+      },
+      {
+        name: "练习",
+        duration: "12 分钟",
+        teacherNotes: "给孩子 3 道练习题，让孩子独立做，写出算式步骤。家长可以用手机拍照孩子的算式。题 1：A toy costs S$60. Price increased by 15%. New price? 答案：15% of S$60 = S$9, New = S$60 + S$9 = S$69. 题 2：A dress costs S$100. Price decreased by 25%. New price? 答案：25% of S$100 = S$25, New = S$100 − S$25 = S$75. 题 3：18 is 25% of a number. What is the number? 答案：18 ÷ 0.25 = 72 或 18 ÷ 25 × 100 = 72. 教师巡看孩子的算式，纠正格式（如果孩子只写答案不写步骤，提醒 'AEIS 官方要求写出 working steps'）。",
+      },
+      {
+        name: "收口",
+        duration: "3 分钟",
+        teacherNotes: "总结本周重点：(1) 官方 Sec 1 AEIS 数学卷型：Part 1 MCQ 34 题 30 分钟 + Part 2 show working 20+10–15 题 1 小时 45 分钟，不用计算器。(2) 本周内容：P6 Percentage 1.1 (找整体) + 1.2 (增减)，对应 preceding level 规则。(3) 本周化石：part/whole 混淆（20% of ≠ 20% increase）。对家长说：「本周作业有 5+8+3 道题，模拟官方题型，不是完整 34+20+10–15 题。孩子做完后上传到作业 app，选择题自动批改，写算式题家长拍照上传。」",
+      },
+    ],
+    speakingPrompts: null,
+  },
 };
 
 export default async function LessonPlanPage({
@@ -2587,7 +2624,7 @@ export default async function LessonPlanPage({
     );
   }
 
-  const isMath = level === "MATH";
+  const isMath = level === "MATH" || level === "SMATH";
 
   return (
     <div>

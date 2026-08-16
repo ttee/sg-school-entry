@@ -104,7 +104,7 @@ export default async function LearnDashboard() {
         </h2>
         {isAdmin ? (
           <div className="space-y-8">
-            {["A2", "B1", "MATH", "SEC"].map((level) => {
+            {["A2", "B1", "MATH", "SEC", "SMATH"].map((level) => {
               const levelWeeks = weeks.filter((w) => w.level === level);
               if (levelWeeks.length === 0) return null;
               

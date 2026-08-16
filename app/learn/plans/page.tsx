@@ -14,6 +14,7 @@ export default async function LessonPlansIndex() {
   const b1Weeks = Array.from({ length: 12 }, (_, i) => i);
   const mathWeeks = Array.from({ length: 30 }, (_, i) => i);
   const secWeeks = Array.from({ length: 1 }, (_, i) => i);
+  const smathWeeks = Array.from({ length: 1 }, (_, i) => i);
 
   return (
     <div>
@@ -108,6 +109,29 @@ export default async function LessonPlansIndex() {
               <Link
                 key={week}
                 href={`/learn/plans/SEC/${week}`}
+                className="bg-card border border-line hover:border-accent hover:shadow-md rounded-lg p-4 transition-all"
+              >
+                <div className="font-serif font-semibold text-lg text-ink">
+                  第 {week} 周
+                </div>
+                {week === 0 && (
+                  <p className="text-xs text-accent mt-1">试学周</p>
+                )}
+              </Link>
+            ))}
+          </div>
+        </div>
+
+        {/* SMATH Level */}
+        <div>
+          <h2 className="font-serif font-semibold text-2xl text-accent mb-4">
+            中学数学 / SMATH (1 周)
+          </h2>
+          <div className="grid md:grid-cols-4 gap-3">
+            {smathWeeks.map((week) => (
+              <Link
+                key={week}
+                href={`/learn/plans/SMATH/${week}`}
                 className="bg-card border border-line hover:border-accent hover:shadow-md rounded-lg p-4 transition-all"
               >
                 <div className="font-serif font-semibold text-lg text-ink">
