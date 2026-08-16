@@ -1962,6 +1962,54 @@ const lessonPlans: Record<string, LessonPlan> = {
       "What is 2/3 of 18? (Say the calculation.)",
     ],
   },
+  "MATH-19": {
+    title: "分数加减 — Adding and subtracting fractions",
+    mathExample: "2/7 + 3/7 = 5/7. Same denominator: add numerators. 1/2 + 1/4 = 2/4 + 1/4 = 3/4. Unlike fractions: find common denominator first. 2/3 − 1/6 = 4/6 − 1/6 = 3/6 = 1/2. Simplify to simplest form.",
+    sections: [
+      {
+        name: "热身",
+        duration: "3 分钟",
+        teacherNotes: "说 '2/7 + 3/7' 和 '1/2 + 1/4'。让孩子注意：同分母的分数可以直接加分子，异分母的要先找公分母。展示两个披萨的图：一个分成 7 块（2 块红色 + 3 块黄色 = 5 块），问 'How many sevenths?' 引导：2/7 + 3/7 = 5/7。",
+      },
+      {
+        name: "本周例题",
+        duration: "8 分钟",
+        teacherNotes: "在白板上写：'2/7 + 3/7'。问孩子：'Are the denominators the same?' Yes. 'So we can add the numerators: 2 + 3 = 5. Answer: 5/7.' 这叫 like fractions（同分母分数）。然后写：'1/2 + 1/4'。问孩子：'Are the denominators the same?' No. 'So we need a common denominator first.' 引导：1/2 = 2/4。现在变成 2/4 + 1/4 = 3/4。强调：unlike fractions（异分母分数）要先找 common denominator（公分母），然后加减分子。再写：'2/3 − 1/6 = 4/6 − 1/6 = 3/6 = 1/2'。提醒：答案要化到 simplest form（最简分数）。关键词：like fractions（同分母）、unlike fractions（异分母）、common denominator（公分母）、simplest form（最简分数）。注意：本周只教至多两个不同分母（not more than two different denominators），分母不超过 12。不教带分数加减（P5）、分数乘法（P5）、三个不同分母、小数百分数。",
+      },
+      {
+        name: "孩子口头说算式",
+        duration: "10 分钟",
+        teacherNotes: "给 3 个口头题，孩子说出算式和答案。题目 1：'What is 3/4 − 1/2?' 期待输出：'3/4 − 1/2 = 3/4 − 2/4 = 1/4. Three quarters minus one half equals one quarter.' 题目 2：'Mei ate 1/3 of a cake. Ali ate 1/6 of the same cake. What fraction did they eat altogether?' 期待输出：'1/3 + 1/6 = 2/6 + 1/6 = 3/6 = 1/2. They ate one half of the cake.' 题目 3：'What is 5/12 + 1/4? Give your answer in simplest form.' 期待输出：'5/12 + 1/4 = 5/12 + 3/12 = 8/12 = 2/3. Five twelfths plus one quarter equals two thirds.'",
+      },
+      {
+        name: "开口",
+        duration: "12 分钟",
+        teacherNotes: "让孩子读出算式并解释步骤。比如 '1/2 + 1/4 = 3/4'，孩子要说 'One half plus one quarter equals three quarters. I change one half to two quarters. Then I add two quarters plus one quarter to get three quarters.' 或 '2/3 − 1/6 = 1/2'，孩子要说 'Two thirds minus one sixth equals one half. I change two thirds to four sixths. Then I subtract four sixths minus one sixth to get three sixths, which simplifies to one half.' 注意读法：plus（加）、minus（减）、equals（等于）、change to（变成）、common denominator（公分母）、simplest form（最简分数）、thirds / quarters / sixths / eighths / twelfths（分母读法）。",
+      },
+      {
+        name: "收口",
+        duration: "5 分钟",
+        teacherNotes: "提醒本周作业有 P4 数学题目，包括同分母和异分母分数加减（adding and subtracting like and unlike fractions）。对应申请 P5 的孩子需要掌握的 P4 内容（preceding level 规则）。题目使用新加坡学校情境（教室活动、分享食物、文具、花园等）。强调：同分母直接加减分子，异分母先找公分母再加减分子，答案要化到最简分数。常见错误：分子分母一起加（1/2 + 1/3 ≠ 2/5）、异分母不先通分、通分后忘了改分子（1/2 变成 2/4 时分子也要×2）、答案不约分（写 4/8 而不是 1/2）。本周只教至多两个不同分母，分母不超过 12。",
+      },
+    ],
+    spokenLines: [
+      "2/7 + 3/7 = 5/7",
+      "Two sevenths plus three sevenths equals five sevenths.",
+      "1/2 + 1/4 = 2/4 + 1/4 = 3/4",
+      "One half plus one quarter equals three quarters. I change one half to two quarters first.",
+      "2/3 − 1/6 = 4/6 − 1/6 = 3/6 = 1/2",
+      "Two thirds minus one sixth equals one half. I change two thirds to four sixths, then simplify three sixths to one half.",
+      "3/4 − 1/2 = 3/4 − 2/4 = 1/4",
+      "Three quarters minus one half equals one quarter.",
+      "5/12 + 1/4 = 5/12 + 3/12 = 8/12 = 2/3",
+      "Five twelfths plus one quarter equals two thirds.",
+    ],
+    childPrompts: [
+      "What is 3/4 − 1/2? (Say the calculation and answer in simplest form.)",
+      "Mei ate 1/3 of a cake. Ali ate 1/6 of the same cake. What fraction did they eat altogether? (Say the calculation.)",
+      "What is 5/12 + 1/4? Give your answer in simplest form. (Say the calculation.)",
+    ],
+  },
 };
 
 export default async function LessonPlanPage({

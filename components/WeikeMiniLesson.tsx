@@ -175,6 +175,14 @@ export default function WeikeMiniLesson({ level, weekNumber }: WeikeMiniLessonPr
       ],
       gloss: "P4 学一组的几分之几（fraction of a set）：找 a/b of N，算法是先÷分母再×分子（N ÷ b × a）。关键词：fraction of a set（一组的几分之几）、of（的）、divide by denominator（除以分母）、multiply by numerator（乘以分子）。常见错误：先乘后除（先×分子再÷分母，错误）、把 of 当成减去（误以为 'of' 表示减法）、分母分子对调。例：2/3 of 18 = 18 ÷ 3 × 2 = 6 × 2 = 12；1/4 of 12 = 12 ÷ 4 = 3；5/8 of 24 = 24 ÷ 8 × 5 = 3 × 5 = 15。情境：学生分组、分享文具、食堂座位、图书馆书籍等。注意：本周不教带分数互换（mixed / improper, 已在第 17 周）、异分母加减（adding/subtracting unlike fractions）、分数乘法（multiplying fractions, P5）、小数百分数（decimals/percentages）、需要余数作为分数的除法（leftover with remainder as fraction）。分母不超过 12（denominators not exceeding 12），集合必须能整除（sets must divide evenly）。"
     },
+    "MATH-19": {
+      examples: [
+        "2/7 + 3/7 = 5/7. Like fractions: same denominator, add numerators.",
+        "1/2 + 1/4 = 2/4 + 1/4 = 3/4. Unlike fractions: find common denominator first (2, 4 → 4), then add.",
+        "2/3 − 1/6 = 4/6 − 1/6 = 3/6 = 1/2. After subtracting, simplify to simplest form."
+      ],
+      gloss: "P4 学分数加减（adding and subtracting fractions）：同分母（like fractions）直接加减分子，如 2/7 + 3/7 = 5/7。异分母（unlike fractions）先找公分母（common denominator），再加减分子，如 1/2 + 1/4 = 2/4 + 1/4 = 3/4（把 1/2 变成 2/4）。答案要化简到最简分数（simplest form），如 4/8 = 1/2。关键词：like fractions（同分母分数）、unlike fractions（异分母分数）、common denominator（公分母）、simplest form（最简分数）。常见错误：分子分母一起加（1/2 + 1/3 ≠ 2/5，错误）、异分母不先通分、通分后忘了改分子（1/2 变成 2/4 时分子也要×2）、答案不约分（写 4/8 而不是 1/2）。例：3/4 − 1/2 = 3/4 − 2/4 = 1/4；5/12 + 1/4 = 5/12 + 3/12 = 8/12 = 2/3；5/6 − 1/3 = 5/6 − 2/6 = 3/6 = 1/2。注意：本周只教至多两个不同分母（not more than two different denominators），分母不超过 12。本周不教带分数加减（adding mixed numbers, P5）、分数乘法（multiplying fractions, P5）、三个不同分母、小数百分数。"
+    },
     "A2-7": {
       fossil: "I going to the library tomorrow / I go to swim / Tomorrow I go library",
       examples: [

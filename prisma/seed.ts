@@ -1444,6 +1444,103 @@ Which calculation shows 2/3 of 18?`,
         },
       ],
     },
+    {
+      level: "MATH",
+      weekNumber: 19,
+      title: "数学 第 19 周 / Maths Week 19",
+      description: "AEIS-Primary P4 Mathematics: Adding and subtracting fractions",
+      isSample: false,
+      errorFocus: null,
+      parentBrief: "本周主题：分数加减（adding and subtracting fractions），包括同分母加减（like fractions, 如 2/7 + 3/7）和异分母加减（unlike fractions with TWO denominators, 如 1/2 + 1/4, 2/3 − 1/6），对应官方 2021 Primary Mathematics Syllabus P4 Fractions 3.1 adding and subtracting fractions with denominators of given fractions not exceeding 12 and not more than two different denominators。申请 P5 入学的孩子需掌握 P4 内容（MOE AEIS preceding level 规则）。算法：同分母直接加减分子（2/7 + 3/7 = 5/7），异分母先通分再加减（1/2 + 1/4 = 2/4 + 1/4 = 3/4）。答案要化简到最简分数（simplest form, 如 4/8 = 1/2）。常见错误：分子分母一起加（adding numerators and denominators together, 1/2 + 1/3 ≠ 2/5）、异分母不先通分（not finding common denominator first）、通分后忘了改分子（forgetting to adjust numerator after finding common denominator）、答案不约分（not simplifying to simplest form, 写 4/8 而不是 1/2）。题目是简体中文家长说明 + 英文题干。本周配有双向对照表，显示题目对应的官方 2021 Primary Mathematics Syllabus P4 内容点（Fractions: 3.1 adding and subtracting fractions），以及 MOE AEIS 的「preceding level」规则（申请 P5 → 掌握 P4 内容）。明确说明：本周不教带分数加减（adding/subtracting mixed numbers, P5）、分数乘法（multiplying fractions, P5）、三个不同分母（three different denominators）、分母大于 12（denominators > 12）、小数（decimals）、百分数（percentages）。本周只教至多两个不同分母（not more than two different denominators）。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: `Read each question and choose the correct answer.
+
+Question 1:
+At Bedok Primary School, the art class made paper flowers. 2/7 of the flowers are red and 3/7 are yellow. What fraction of the flowers are red or yellow?
+
+Question 2:
+Mei ate 5/8 of a pizza. Jun Wei ate 1/8 of the same pizza. What fraction of the pizza is left? Give your answer in simplest form.
+
+Question 3:
+Ali had 1/2 of a cake. Priya had 1/4 of the same cake. What fraction of the cake do they have altogether?
+
+Question 4:
+In the library, 2/3 of the books are English books. 1/6 of the books are Chinese books. What fraction more are the English books than the Chinese books?
+
+Question 5:
+At the canteen, 1/3 of the tables are red and 1/6 are blue. What fraction of the tables are red or blue? Give your answer in simplest form.`,
+          options: JSON.stringify([
+            "2/7 + 3/7|A. 5/14|B. 5/7|C. 6/7|D. 1",
+            "1 − (5/8 + 1/8) or 8/8 − 6/8|A. 1/4|B. 2/8|C. 1/2|D. 3/4",
+            "1/2 + 1/4|A. 2/6|B. 1/3|C. 3/4|D. 2/4",
+            "2/3 − 1/6|A. 1/3|B. 1/2|C. 1/6|D. 3/6",
+            "1/3 + 1/6|A. 2/9|B. 1/2|C. 3/6|D. 2/6",
+          ]),
+          correctAnswer: "B,A,C,B,B",
+          points: 5,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: `Choose the correct answer for each question.
+
+Question 6:
+What is 3/4 − 1/2?
+
+Question 7:
+What is 5/12 + 1/4? Give your answer in simplest form.
+
+Question 8:
+What is 5/6 − 1/3? Give your answer in simplest form.
+
+Question 9:
+Mei bought 1/4 of a melon. Ali bought 1/8 of the same melon. What fraction of the melon did they buy altogether?
+
+Question 10:
+In a class, 7/10 of the children are girls. 1/5 of the children are boys who wear glasses. What fraction more are the girls than boys who wear glasses?
+
+Question 11:
+At Woodlands Primary School, the students planted flowers. 3/8 of the flowers are roses and 1/4 are sunflowers. What fraction of the flowers are roses or sunflowers?
+
+Question 12:
+Priya had 5/6 of a ribbon. She used 1/2 of the ribbon for a gift. What fraction of the ribbon does she have left? Give your answer in simplest form.
+
+Question 13:
+Which calculation shows adding 1/2 and 1/4?`,
+          options: JSON.stringify([
+            "3/4 − 1/2|A. 2/4|B. 1/4|C. 1/2|D. 2/2",
+            "5/12 + 1/4|A. 6/16|B. 8/12|C. 2/3|D. 1/3",
+            "5/6 − 1/3|A. 4/3|B. 3/6|C. 1/2|D. 2/3",
+            "1/4 + 1/8|A. 2/12|B. 3/8|C. 1/2|D. 2/8",
+            "7/10 − 1/5|A. 6/5|B. 1/2|C. 5/10|D. 6/10",
+            "3/8 + 1/4|A. 4/12|B. 5/8|C. 1/2|D. 4/8",
+            "5/6 − 1/2|A. 4/4|B. 2/6|C. 1/3|D. 1/2",
+            "1/2 + 1/4|A. 1/2 + 1/4 = 2/6|B. 1/2 + 1/4 = 2/4 + 1/4 = 3/4|C. 1/2 + 1/4 = 1/6|D. 1/2 + 1/4 = 2/8",
+          ]),
+          correctAnswer: "B,C,C,B,B,B,C,B",
+          points: 8,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `At Raffles Primary School, the students are learning about adding and subtracting fractions.
+
+(a) The art class has 2/5 of red paint and 1/5 of blue paint. What fraction of paint is red or blue? Show your working.
+
+(b) Ali had 3/4 of a sandwich. He ate 1/2 of the sandwich. What fraction of the sandwich does he have left? Show your working and give your answer in simplest form.
+
+(c) In the music class, 1/3 of the students play the piano and 1/6 play the violin. What fraction of the students play the piano or the violin? Show your working and give your answer in simplest form.
+
+写出算式、答案和说明。For unlike fractions, show how you find the common denominator and adjust the numerators.`,
+          points: 10,
+        },
+      ],
+    },
     
     // A2 WEEKS
     {
