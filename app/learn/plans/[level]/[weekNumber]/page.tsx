@@ -3657,6 +3657,43 @@ const lessonPlans: Record<string, LessonPlan> = {
     ],
     speakingPrompts: null,
   },
+  "SMATH-21": {
+    title: "逆向百分数 — Reverse Percentages",
+    fossil: "subtracting r% of the NEW amount instead of dividing by the factor (72 after 20% increase wrongly calculated as 57.6) / adding r% of the new amount after a decrease (64 after 20% decrease wrongly calculated as 76.8)",
+    sections: [
+      {
+        name: "课前",
+        duration: "2 分钟",
+        teacherNotes: "确认 Zoom 设置正常。孩子和家长都在镜头前。对家长说：「今天教中学 AEIS 数学第 21 周，逆向百分数（reverse percentages）。本周是 Sec 1 数学卷型样本，内容对应前一级 Sec 1 NUMBER AND ALGEBRA, N3. Percentage: 3.5 reverse percentages。官方 MOE 2020 G3 Mathematics Syllabuses, Secondary One, NUMBER AND ALGEBRA。SEAB 官方规则：申请 Sec 2 入学的孩子需熟悉 Sec 2 前一级（Sec 1）的内容。第 17 周已教 N3 的 3.1（expressing one quantity as a percentage of another），第 18 周教 3.2（comparing two quantities by percentage），第 19 周教 3.3（percentages greater than 100%），第 20 周教 3.4（increasing/decreasing a quantity by a given percentage, including percentage point），本周只教 3.5（reverse percentages，逆向百分数）。本周不教 3.6 solving problems involving percentage（3.6 百分数综合应用是下周内容）。本周重点：After an increase of r%, new = original × (1 + r/100), so original = new ÷ (1 + r/100)。After a decrease of r%, new = original × (1 − r/100), so original = new ÷ (1 − r/100)。本周化石：subtracting r% of the NEW amount instead of dividing by the factor（从新值减去百分数而不是除以因数），adding r% of the new amount after a decrease。不用计算器，要写出推理步骤。」",
+      },
+      {
+        name: "热身",
+        duration: "5 分钟",
+        teacherNotes: "在白板上写：After a 20% increase, a price is S$72. Find the original price. 问孩子：'What's the first step?' 等孩子思考后，解释：'Reverse percentages means we know the final value after a percentage increase or decrease, and we need to find the original value. Step 1: After 20% increase, new price = original price × (1 + 20/100) = original price × 1.20. Step 2: So S$72 = original price × 1.20. Step 3: Original price = S$72 ÷ 1.20 = S$60.' 再问：'What if we subtract 20% of 72 instead? 20% of 72 = 14.4. 72 − 14.4 = 57.6. That's wrong! The original price is S$60 (not S$57.6). The fossil is subtracting r% of the NEW amount instead of dividing by the factor. We must divide 72 by 1.20 (not subtract 20% of 72).' 再写：After a 20% decrease, a price is S$64. Find the original price. 解释：'After 20% decrease, new price = original price × (1 − 20/100) = original price × 0.80. So S$64 = original price × 0.80. Original price = S$64 ÷ 0.80 = S$80.' 让孩子看到今天的目标：reverse percentages（逆向百分数），given the final value after a percentage increase or decrease, find the original value。",
+      },
+      {
+        name: "化石",
+        duration: "8 分钟",
+        teacherNotes: "在屏幕上或白板上写下常见混淆：'Fossil 1: Subtracting r% of the NEW amount instead of dividing by the factor (after an increase). ✗ Example: After a 20% increase, a price is S$72. Find the original price. Wrong: 20% of 72 = 14.4. Original = 72 − 14.4 = 57.6. Correct: After 20% increase, new = original × 1.20. So 72 = original × 1.20. Original = 72 ÷ 1.20 = 60. Rule: When finding the original after an increase, divide the new value by (1 + r/100). Don't subtract r% of the new value. The correct answer is S$60 (not S$57.6). After a 20% increase, the new value is 1.20 times the original. So divide by 1.20 to reverse the increase.' 再写：'Fossil 2: Adding r% of the new amount after a decrease (instead of dividing by the factor). ✗ Example: After a 20% decrease, a price is S$64. Find the original price. Wrong: 20% of 64 = 12.8. Original = 64 + 12.8 = 76.8. Correct: After 20% decrease, new = original × 0.80. So 64 = original × 0.80. Original = 64 ÷ 0.80 = 80. Rule: When finding the original after a decrease, divide the new value by (1 − r/100). Don't add r% of the new value. The correct answer is S$80 (not S$76.8). After a 20% decrease, the new value is 0.80 times the original. So divide by 0.80 to reverse the decrease.' 让孩子跟读改正后的推理步骤 2 次。",
+      },
+      {
+        name: "例题",
+        duration: "10 分钟",
+        teacherNotes: "教师示范三道完整例题（写出推理步骤）。例题 1（reverse an increase）：After a 20% increase, a price is S$72. Find the original price. Show your working steps. 步骤：① After 20% increase, new price = original price × (1 + 20/100) = original price × 1.20. ② So S$72 = original price × 1.20. ③ Original price = S$72 ÷ 1.20 = S$60. Answer: S$60. 例题 2（reverse a decrease, 应用题 word problem with discount）：After a 20% discount, a price is S$64. Find the original price before the discount. Show your working steps. 步骤：① After 20% decrease, new price = original price × (1 − 20/100) = original price × 0.80. ② So S$64 = original price × 0.80. ③ Original price = S$64 ÷ 0.80 = S$80. Answer: S$80. 例题 3（application problem with reverse）：Aisha's allowance was increased by 25%. After the increase, her allowance is S$100. What was her original allowance? Show your working clearly. 步骤：① After 25% increase, new allowance = original allowance × (1 + 25/100) = original allowance × 1.25. ② So S$100 = original allowance × 1.25. ③ Original allowance = S$100 ÷ 1.25 = S$80. Answer: S$80. 让孩子理解三道题的共同点：都是已知百分数增减后的值，求原始值。方法：写出等式（new = original × factor），移项（original = new ÷ factor）。",
+      },
+      {
+        name: "练习",
+        duration: "12 分钟",
+        teacherNotes: "给孩子 3 道练习题，让孩子独立做，写出推理步骤。家长可以用手机拍照孩子的推理。题 1：After a 15% increase, Wei's allowance is S$92. What was Wei's original allowance? Show your working steps. 答案：① After 15% increase, new = original × (1 + 15/100) = original × 1.15. ② So S$92 = original × 1.15. ③ Original = S$92 ÷ 1.15 = S$80. Answer: S$80. 题 2：Aisha bought a phone case. After a 20% discount, the price is S$64. What was the original price before the discount? Show your working steps. 答案：① After 20% decrease, new = original × (1 − 20/100) = original × 0.80. ② So S$64 = original × 0.80. ③ Original = S$64 ÷ 0.80 = S$80. Answer: S$80. 题 3：Mr Lim's monthly pass was increased by 25%. After the increase, the pass costs S$100. (i) What was the original price of the pass before the increase? Show your working. (ii) Check your answer by calculating 25% of your original price and adding it to see if you get S$100. 答案：(i) ① After 25% increase, new = original × 1.25. ② So S$100 = original × 1.25. ③ Original = S$100 ÷ 1.25 = S$80. Answer: S$80. (ii) Check: 25% of S$80 = 0.25 × 80 = 20. S$80 + S$20 = S$100. ✓ 教师巡看孩子的推理，纠正格式（如果孩子只写答案不写步骤，提醒 'AEIS 官方要求写出 working steps'）。如果孩子用化石方法（如题 1 算 92 − 0.15 × 92），指出：'That's the fossil! After a 15% increase, the new value is 1.15 times the original. So divide 92 by 1.15 to find the original. Don't subtract 15% of 92 from 92. The correct method is original = 92 ÷ 1.15 = 80.'",
+      },
+      {
+        name: "收口",
+        duration: "3 分钟",
+        teacherNotes: "总结本周重点：(1) 官方 Sec 1 AEIS 数学卷型：Part 1 MCQ 34 题 30 分钟 + Part 2 show working 20+10–15 题 1 小时 45 分钟，不用计算器。(2) 本周内容：Sec 1 NUMBER AND ALGEBRA, N3. Percentage: 3.5 reverse percentages（逆向百分数），对应 preceding level 规则。(3) 本周化石：subtracting r% of the NEW amount instead of dividing by the factor（从新值减去百分数而不是除以因数：72 after 20% increase 错误地算 72 − 14.4 = 57.6，应该是 72 ÷ 1.20 = 60）；adding r% of the new amount after a decrease（64 after 20% decrease 错误地算 64 + 12.8 = 76.8，应该是 64 ÷ 0.80 = 80）。(4) After an increase of r%, new = original × (1 + r/100), so original = new ÷ (1 + r/100)（增加后逆向：原值 = 新值 ÷ (1 + r/100)）。例：After a 20% increase the price is S$72. Original = 72 ÷ 1.20 = S$60。(5) After a decrease of r%, new = original × (1 − r/100), so original = new ÷ (1 − r/100)（减少后逆向：原值 = 新值 ÷ (1 − r/100)）。例：After a 20% decrease the price is S$64. Original = 64 ÷ 0.80 = S$80。(6) 关键步骤：Step 1: Identify r% and the final value. Step 2: Write the equation: new = original × factor. For increase: factor = 1 + r/100. For decrease: factor = 1 − r/100. Step 3: Rearrange: original = new ÷ factor. Step 4: Calculate and state the answer with units. Step 5: Check by working forward (用原值乘以因数看是否得到新值)。(7) 不用计算器，用友好的整数（原值是整数如 60, 80, 100）。金额用新加坡元 S$。(8) 不声称 AEIS 是 G3 paper（G3 只是官方 preceding-level 内容来源）。对家长说：「第 17 周已教 N3 的 3.1，第 18 周教 3.2，第 19 周教 3.3，第 20 周教 3.4，本周教 3.5（reverse percentages）。下周教 3.6 solving problems involving percentage（百分数综合应用）。app 作业包括应用题 MCQ + 选择题 MCQ + 写算式 show working，不是完整 34 + 20 + 10–15 题。本周让孩子熟悉 Sec 1 数学卷型和格式。」",
+      },
+    ],
+    speakingPrompts: null,
+  },
   "SMATH-17": {
     title: "百分数 — Expressing One Quantity as a Percentage of Another",
     fossil: "dividing the wrong way (B as a percentage of A) / forgetting to multiply by 100",

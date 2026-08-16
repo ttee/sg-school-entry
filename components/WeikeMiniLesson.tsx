@@ -460,6 +460,15 @@ export default function WeikeMiniLesson({ level, weekNumber }: WeikeMiniLessonPr
       ],
       gloss: "AEIS 中学数学第 20 周 / SMATH Week 20. 本周例题：Sec 1 用百分数增减数量与百分点（Sec 1 NUMBER AND ALGEBRA: N3.4 increasing/decreasing a quantity by a given percentage, including concept of percentage point）。Increase by r%: 先算 r% of 原值，再加。例：80 increased by 10% = 10% of 80 = 8，80 + 8 = 88（或 80 × 1.1 = 88）。Decrease by r%: 先算 r% of 原值，再减。例：80 decreased by 10% = 10% of 80 = 8，80 − 8 = 72（或 80 × 0.9 = 72）。Percentage point（百分点，官方术语）：a change from 40% to 50% is 10 percentage points（从 40% 到 50% 是 10 个百分点），NOT a 10% increase（不是 10% 的增长，因为 10% increase of 40% would be 44%）。应用题：A price of S$60 is increased by 20%. What is the new price? Solution: 20% of S$60 = 12. New price = S$60 + S$12 = S$72。本周化石：adding the percentage value instead of the percentage of the quantity（80 increased by 10% 错误地写成 90，应该是 88）；treating a percentage-point change as a percentage increase（40% → 50% 错误地说是 10% 增长，应该是 10 个百分点的增长）。不用计算器，写出算式步骤。"
     },
+    "SMATH-21": {
+      examples: [
+        "After a 20% increase, a price is S$72. Find the original price.",
+        "Solution: 72 = original × 1.20, so original = 72 ÷ 1.20 = S$60",
+        "After a 20% decrease, a price is S$64. Find the original price.",
+        "Solution: 64 = original × 0.80, so original = 64 ÷ 0.80 = S$80"
+      ],
+      gloss: "AEIS 中学数学第 21 周 / SMATH Week 21. 本周例题：Sec 1 逆向百分数（Sec 1 NUMBER AND ALGEBRA: N3.5 reverse percentages）。Reverse percentages: given the final value after a percentage increase or decrease, find the original value（已知百分数增减后的值，求原始值）。After an increase of r%, new = original × (1 + r/100), so original = new ÷ (1 + r/100)（增加 r% 后，新值 = 原值 × (1 + r/100)，所以原值 = 新值 ÷ (1 + r/100)）。例：After a 20% increase the price is S$72. Original = 72 ÷ 1.20 = S$60。After a decrease of r%, new = original × (1 − r/100), so original = new ÷ (1 − r/100)（减少 r% 后，新值 = 原值 × (1 − r/100)，所以原值 = 新值 ÷ (1 − r/100)）。例：After a 20% decrease the price is S$64. Original = 64 ÷ 0.80 = S$80。本周化石：subtracting r% of the NEW amount instead of dividing（从新值减去百分数而不是除以因数：72 after 20% increase 错误地算 72 − 14.4 = 57.6，应该是 72 ÷ 1.20 = 60）；adding r% of the new amount after a decrease（64 after 20% decrease 错误地算 64 + 12.8 = 76.8，应该是 64 ÷ 0.80 = 80）。不用计算器，写出算式步骤。"
+    },
     "SEC-0": {
       fossil: "Although I was nervous, but I tried. ✗ (中文「虽然…但是…」迁移) / I go yesterday ✗ (叙事体过去时掉落)",
       examples: [

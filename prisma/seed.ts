@@ -8679,6 +8679,93 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
         },
       ],
     },
+    {
+      level: "SMATH",
+      weekNumber: 21,
+      title: "数学 第 21 周 / Maths Week 21",
+      description: "AEIS-Secondary Mathematics: Sec 1 reverse percentages",
+      isSample: false,
+      errorFocus: "subtracting r% of the NEW amount instead of dividing by the factor (e.g. 72 after 20% increase wrongly calculated as 72 − 14.4 = 57.6 instead of 72 ÷ 1.20 = 60); adding r% of the new amount after a decrease (e.g. 64 after 20% decrease wrongly calculated as 64 + 12.8 = 76.8 instead of 64 ÷ 0.80 = 80)",
+      parentBrief: "本周是中学 AEIS 数学第 21 周，对应官方 SEAB Sec 1 卷型（https://www.seab.gov.sg/aeis/test-details/ 2026年7月1日更新）。Part 1 Multiple-choice questions：34 道 MCQ，30 分钟。Part 2 Short-answer questions (20 items) and open-ended questions (10 to 15 items)：1 小时 45 分钟。Calculators are not allowed（不允许使用计算器）。Short-answer and open-ended questions：candidates are required to show the method of solution clearly by writing working steps in the spaces provided, plus the final answer（需写出算式步骤和最终答案）。AEIS-Secondary 官方 preceding-level 规则：申请 Sec 2 入学者需熟悉 Sec 2 前一级的内容。官方举例：apply Secondary 3 → be familiar with Secondary 2 content. 本周针对 Sec 2 申请者，内容为 Sec 2 前一级（Sec 1）的官方 MOE 2020 G3 Mathematics Syllabuses, Secondary One, NUMBER AND ALGEBRA, N3. Percentage: 3.5 reverse percentages（逆向百分数）。第 17 周已教 3.1（expressing one quantity as a percentage of another），第 18 周已教 3.2（comparing two quantities by percentage），第 19 周已教 3.3（percentages greater than 100%），第 20 周已教 3.4（increasing/decreasing a quantity by a given percentage, including percentage point），本周只教 3.5（reverse percentages，逆向百分数），本周不教 3.6 solving problems involving percentage（3.6 百分数综合应用是下周内容）。本周方法：After an increase of r%, new = original × (1 + r/100), so original = new ÷ (1 + r/100)（增加 r% 后，新值 = 原值 × (1 + r/100)，所以原值 = 新值 ÷ (1 + r/100)）。例：After a 20% increase the price is S$72. Original = 72 ÷ 1.20 = S$60. After a decrease of r%, new = original × (1 − r/100), so original = new ÷ (1 − r/100)（减少 r% 后，新值 = 原值 × (1 − r/100)，所以原值 = 新值 ÷ (1 − r/100)）。例：After a 20% decrease the price is S$64. Original = 64 ÷ 0.80 = S$80. 本周作业是样本，不是完整 34 + 20 + 10–15 题。本周化石：subtracting r% of the NEW amount instead of dividing by the factor（从新值减去百分数而不是除以因数，例如 72 after 20% increase 错误地算 72 − 20% of 72 = 72 − 14.4 = 57.6，应该是 72 ÷ 1.20 = 60）；adding r% of the new amount after a decrease（例如 64 after 20% decrease 错误地算 64 + 20% of 64 = 64 + 12.8 = 76.8，应该是 64 ÷ 0.80 = 80）。用友好的整数（friendly numbers），原值是整数（如 60, 80, 100）。不用计算器 no calculator。金额用新加坡元 S$（money in Singapore dollars S$），never 美元。唯一性 unique keys：两个选项不能是同一个金额。不要同时提供 60 和 72 ÷ 1.2 作为两个选项（那是同一个值的不同表示）。The wrong fossil values（化石错误值，如 57.6 when the answer is 60，or 76.8 when the answer is 80）必须作为错误选项（wrong option），不是第二个正确答案。非官方机构运营（affiliation 非官方机构 is OK）。不发明官方未提及的内容（do not invent official facts）。不声称 AEIS 是 G3 paper（G3 只是官方 preceding-level 内容来源）。不发明官方 cut-scores 或 extra official names。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "After a 20% increase, a price is S$72. What was the original price?|A. S$60|B. S$57.60|C. S$86.40|D. S$90",
+            "After a 20% decrease, a price is S$64. What was the original price?|A. S$51.20|B. S$76.80|C. S$80|D. S$84",
+            "After a 25% increase, a score is 100. What was the original score?|A. 75|B. 80|C. 100|D. 125",
+            "After a 10% decrease, a price is S$90. What was the original price?|A. S$81|B. S$99|C. S$100|D. S$110",
+            "Which working is correct?|A. 72 after 20% increase: 72 − 0.2 × 72 = 57.6|B. 72 after 20% increase: 72 ÷ 1.2 = 60|C. 72 after 20% increase: 72 + 20 = 92|D. 72 after 20% increase: 72 × 1.2 = 86.4",
+          ]),
+          correctAnswer: "A,C,B,C,B",
+          points: 10,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "After a 25% increase, a value is 60. What was the original value?|A. 45|B. 48|C. 50|D. 75",
+            "After a 20% discount, a shop price is S$96. What was the original price?|A. S$76.80|B. S$115.20|C. S$120|D. S$100",
+            "After a 50% increase, a number is 150. What was the original number?|A. 75|B. 100|C. 112.50|D. 225",
+            "After 10% tax is added, a price is S$110. What was the original price before tax?|A. S$99|B. S$98|C. S$100|D. S$121",
+            "Which working is correct?|A. 64 after 20% decrease: 64 ÷ 0.8 = 80|B. 64 after 20% decrease: 64 + 0.2 × 64 = 76.8|C. 64 after 20% decrease: 64 − 20 = 44|D. 64 after 20% decrease: 64 × 0.8 = 51.2",
+            "After a 20% decrease, a value is 80. What was the original value?|A. 64|B. 96|C. 100|D. 104",
+            "After a 25% decrease, a class size is 18. What was the original class size?|A. 13.50|B. 22.50|C. 24|D. 43",
+            "After a 10% increase, Wei's savings is S$44. What was his original savings?|A. S$39.60|B. S$40|C. S$48.40|D. S$55",
+          ]),
+          correctAnswer: "B,C,B,C,A,C,C,B",
+          points: 16,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `Part 2: Show Your Working (写出算式步骤)
+
+Riverside Secondary School has reverse percentage problems. Answer the questions below. Show all your working clearly.
+
+Question (a)
+After a 15% increase, Wei's allowance is S$92. What was Wei's original allowance? Show your working steps.
+
+Question (b)
+Aisha bought a phone case. After a 20% discount, the price is S$64. What was the original price before the discount? Show your working steps.
+
+Question (c)
+Mr Lim's monthly pass was increased by 25%. After the increase, the pass costs S$100.
+(i) What was the original price of the pass before the increase? Show your working.
+(ii) Check your answer by calculating 25% of your original price and adding it to see if you get S$100.
+
+写作提示 / Tips:
+✓ 每题分步骤写出推理 (Show working steps for each question)
+✓ Part 2 官方要求：clearly show the method of solution by writing working steps, plus the final answer
+✓ 不用计算器 (No calculators allowed)
+✓ 逆向百分数步骤示范 (reverse percentages examples)：
+  • After an increase of r%, find original：
+    After a 20% increase the price is S$72. Find the original price. Show your working steps.
+    Solution: ① After 20% increase, new price = original price × (1 + 20/100) = original price × 1.20. ② So S$72 = original price × 1.20. ③ Original price = S$72 ÷ 1.20 = S$60. Answer: S$60.
+  • After a decrease of r%, find original：
+    After a 20% decrease the price is S$64. Find the original price. Show your working steps.
+    Solution: ① After 20% decrease, new price = original price × (1 − 20/100) = original price × 0.80. ② So S$64 = original price × 0.80. ③ Original price = S$64 ÷ 0.80 = S$80. Answer: S$80.
+  • Application problem with reverse：
+    Aisha's allowance was increased by 25%. After the increase, her allowance is S$100. What was her original allowance? Show your working clearly.
+    Solution: ① After 25% increase, new allowance = original allowance × (1 + 25/100) = original allowance × 1.25. ② So S$100 = original allowance × 1.25. ③ Original allowance = S$100 ÷ 1.25 = S$80. Answer: S$80.
+✓ 金额用新加坡元 S$ (money in Singapore dollars S$)
+✓ 关键词：reverse percentages 逆向百分数，after an increase find original 增加后求原值，after a decrease find original 减少后求原值
+✓ 关键步骤：Step 1: Identify the percentage increase or decrease r% and the final value (确定增减的百分数和最终值). Step 2: Write the equation: new = original × factor (写出等式：新值 = 原值 × 因数). For increase: factor = 1 + r/100. For decrease: factor = 1 − r/100. Step 3: Rearrange to find original: original = new ÷ factor (移项求原值：原值 = 新值 ÷ 因数). Step 4: Calculate and state the answer with units (计算并陈述答案加单位，如 S$). Step 5: Check by working forward (检验：用原值乘以因数看是否得到新值).
+✓ 化石 (fossil errors)：
+  • Subtracting r% of the NEW amount instead of dividing by the factor（从新值减去百分数而不是除以因数：例如 72 after 20% increase 错误地算 72 − 20% of 72 = 72 − 14.4 = 57.6，应该是 72 ÷ 1.20 = 60）
+  • Adding r% of the new amount after a decrease（例如 64 after 20% decrease 错误地算 64 + 20% of 64 = 64 + 12.8 = 76.8，应该是 64 ÷ 0.80 = 80）
+  • 本周教逆向百分数（3.5），下周教百分数综合应用（3.6 solving problems involving percentage）
+
+Note: This is a sample of Part 2 short-answer/open-ended questions. The official paper has 20 short-answer + 10–15 open-ended items in 1 hour 45 minutes.`,
+          points: 20,
+        },
+      ],
+    },
   ];
 
   // =================================================================
