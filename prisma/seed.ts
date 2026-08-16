@@ -6905,7 +6905,7 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
             "The average of 6 numbers is 15. The total value of 5 of them is 70. What is the 6th number?|A. 10|B. 15|C. 20|D. 25",
             "Jun Wei spent S$45, S$50, and S$60 on three books. What is the average cost per book?|A. S$50|B. S$51.67|C. S$52.50|D. S$55",
           ]),
-          correctAnswer: "B,D,B,B,D,C,C,C",
+          correctAnswer: "B,D,B,B,A,C,C,C",
           points: 16,
         },
         {
