@@ -6156,7 +6156,7 @@ Note: This is a Sec 1 writing sample (2 topics, 200–300 words), not Sec 2 or S
       description: "AEIS-Secondary English (Sec 1 paper shape): school library sample",
       isSample: false,
       errorFocus: "homework is uncountable (not a homework)",
-      parentBrief: "中学 AEIS 英语第 3 周。对应官方 SEAB Sec 1 卷型（https://www.seab.gov.sg/aeis/test-details/ 2026年7月1日更新）：Part 1 Writing 提供 2 个作文题目，选写 1 篇，200–300 词；Part 2 Comprehension & Language Use 共 50 道 MCQ（理解 15 + 完形 15 + 词汇 10 + 语法 10）。本周作业是样本，不是完整 50 题，不是 2 小时 10 分钟正式试卷。AEIS-Secondary 官方 preceding-level 规则：申请者需熟悉所申请级别前一级（preceding level）的内容。官方举例：apply Sec 3 → 熟悉 Sec 2。本周针对 Sec 1 申请者，对应 Sec 1 前一级内容水平。本周纠错化石：homework / advice / information 是不可数名词（uncountable），不能说 a homework / a piece of homework（中文「一份作业」迁移错误）。情境：Wei 在 Riverside Secondary 图书馆第一次借书，用于英语作业。本周不是 CEQ。",
+      parentBrief: "中学 AEIS 英语第 3 周。对应官方 SEAB Sec 1 卷型（https://www.seab.gov.sg/aeis/test-details/ 2026年7月1日更新）：Part 1 Writing 提供 2 个作文题目，选写 1 篇，200–300 词；Part 2 Comprehension & Language Use 共 50 道 MCQ（理解 15 + 完形 15 + 词汇 10 + 语法 10）。本周作业是样本，不是完整 50 题，不是 2 小时 10 分钟正式试卷。AEIS-Secondary 官方 preceding-level 规则：申请者需熟悉所申请级别前一级（preceding level）的内容。官方举例：apply Sec 3 → 熟悉 Sec 2。本周针对 Sec 1 申请者，对应 Sec 1 前一级内容水平。本周纠错化石：homework / advice / information 是不可数名词（uncountable），不能说 a homework（中文「一份作业」迁移）。正确说法是 homework / some homework / a piece of homework。情境：Wei 在 Riverside Secondary 图书馆第一次借书，用于英语作业。本周不是 CEQ。",
       videoUrl: null,
       kaizenFocus: "classroom English a listener needs in the library (borrow, due date, assignment)",
       questions: [

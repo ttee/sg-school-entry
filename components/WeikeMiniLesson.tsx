@@ -346,14 +346,14 @@ export default function WeikeMiniLesson({ level, weekNumber }: WeikeMiniLessonPr
       gloss: "中学 AEIS 英语本周例题：时间介词（prepositions of time）。at 用于具体时刻（at 7:30 / at noon），on 用于星期和日期（on Monday / on 15 August），in 用于时段（in the morning / in 2026 / in January）。中文用一个「在」，英语要区分 at / on / in。"
     },
     "SEC-3": {
-      fossil: "a homework / a piece of homework / an advice / an information (不可数名词不加 a)",
+      fossil: "a homework / an advice / an information (不可数名词不加 a)",
       examples: [
         "We have homework tonight. ✓ (homework 不可数，不加 a)",
         "Mr Lim gave us some advice. ✓ (advice 不可数，用 some)",
         "The library has information about borrowing. ✓ (information 不可数)",
-        "I need to finish my homework by Monday. ✓ (用 my，不用 a)"
+        "I need to finish a piece of homework by Monday. ✓ (可以用 a piece of)"
       ],
-      gloss: "中学 AEIS 英语本周例题：不可数名词（uncountable nouns）。homework / advice / information 是不可数的，不能加 a / an。中文可以说「一份作业」，但英语不能说 a homework（错误）。正确说法：homework（不加 a）、some homework、my homework。同理：advice（不是 an advice）、information（不是 an information）。"
+      gloss: "中学 AEIS 英语本周例题：不可数名词（uncountable nouns）。homework / advice / information 是不可数的，不能说 a homework / an advice / an information（错误）。正确说法：homework / some homework / a piece of homework。同理：advice / some advice / a piece of advice；information / some information / a piece of information。"
     },
     "A2-7": {
       fossil: "I going to the library tomorrow / I go to swim / Tomorrow I go library",
