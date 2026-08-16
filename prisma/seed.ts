@@ -476,6 +476,62 @@ Art 📖📖📖📖📖
         },
       ],
     },
+    {
+      level: "MATH",
+      weekNumber: 7,
+      title: "数学 第 7 周 / Maths Week 7",
+      description: "AEIS-Primary P3 Mathematics: Multiplication and division (6–9 tables, remainder, 3-digit ÷ 1-digit)",
+      isSample: false,
+      errorFocus: null,
+      parentBrief: "本周主题：六七八九的乘法口诀、有余数的除法、三位数乘/除一位数（对应 MOE 小学 P3 数学大纲）。P2 学过 2/3/4/5/10 的乘法口诀，本周学 P3 新知识点：6、7、8、9 的乘法口诀（Multiplication tables of 6, 7, 8 and 9）、有余数的除法（Division with remainder，例如 50 ÷ 6 = 8 R 2）、以及三位数乘/除一位数的算法（up to 3 digits by 1 digit）。申请 P4 入学的孩子需掌握 P3 内容（MOE AEIS preceding level 规则）。常见错误：7 × 8 = 54（记混成 6 × 9）、137 × 3 算错进位、50 ÷ 6 = 8（忘了余数 R 2）。题目是简体中文家长说明 + 英文题干。本周配有双向对照表，显示题目对应的官方 2021 Primary Mathematics Syllabus P3 内容点（Multiplication tables of 6, 7, 8 and 9; Division with remainder; Multiplication and division algorithms up to 3 digits by 1 digit; Mental calculation），以及 MOE AEIS 的「preceding level」规则（申请 P4 → 掌握 P3 内容）。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: `Read each question and choose the correct answer.`,
+          options: JSON.stringify([
+            "At Bedok Mall, Mei bought 7 storybooks at $8 each. How much did she spend in total?|A. $54|B. $56|C. $63|D. $64",
+            "A baker made 146 muffins. He packed them equally into 2 boxes. How many muffins in each box?|A. 72|B. 73|C. 74|D. 75",
+            "Priya had 50 stickers. She shared them equally among 6 friends. How many stickers did each friend get, and how many were left?|A. 8 stickers each, 2 left|B. 8 stickers each, 0 left|C. 7 stickers each, 2 left|D. 9 stickers each, 1 left",
+            "At East Coast Park, 213 children were divided equally into 3 groups for sports. How many children in each group?|A. 69|B. 70|C. 71|D. 72",
+            "Ali multiplied 124 by 6. What is the answer?|A. 724|B. 744|C. 754|D. 764",
+          ]),
+          correctAnswer: "B,B,A,C,B",
+          points: 5,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: `Choose the correct answer for each question.`,
+          options: JSON.stringify([
+            "What is 7 × 9?|A. 62|B. 63|C. 64|D. 65",
+            "What is 8 × 7?|A. 54|B. 55|C. 56|D. 57",
+            "Jun Wei calculated 6 × 8. What is the answer?|A. 42|B. 46|C. 48|D. 54",
+            "What is 153 ÷ 3?|A. 49|B. 50|C. 51|D. 52",
+            "Raju had 85 marbles. He divided them equally among 9 friends. How many marbles did each friend get, and how many were left?|A. 9 each, 3 left|B. 9 each, 4 left|C. 10 each, 5 left|D. 8 each, 5 left",
+            "What is 237 × 4?|A. 928|B. 938|C. 948|D. 958",
+            "At a hawker centre, 6 plates of chicken rice cost $42. How much does one plate cost?|A. $6|B. $7|C. $8|D. $9",
+            "What is 568 ÷ 8?|A. 69|B. 70|C. 71|D. 72",
+          ]),
+          correctAnswer: "B,C,C,C,B,C,B,C",
+          points: 5,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `At Tampines Community Centre, the art teacher ordered supplies for 8 classes.
+
+(a) Each class needs 7 packets of colored paper. Each packet costs $6. How many packets in total, and how much does the teacher pay? Show your working.
+
+(b) The teacher bought 156 paintbrushes. She distributed them equally among 4 classes. How many paintbrushes did each class get? Show your working.
+
+写出算式和答案。`,
+          points: 10,
+        },
+      ],
+    },
     
     // A2 WEEKS
     {

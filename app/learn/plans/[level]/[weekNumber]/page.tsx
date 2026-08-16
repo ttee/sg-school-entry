@@ -1412,6 +1412,52 @@ const lessonPlans: Record<string, LessonPlan> = {
       "Compare 4567 and 4576. Which is greater? (Say the answer.)",
     ],
   },
+  "MATH-7": {
+    title: "六七八九乘法口诀与有余数除法 — Multiplication tables 6–9 and division with remainder",
+    mathExample: "Mei bought 7 packs of stickers. Each pack has 8 stickers. 7 × 8 = 56. She has 56 stickers. Also: 50 ÷ 6 = 8 R 2 (8 remainder 2). 124 × 6 = 744.",
+    sections: [
+      {
+        name: "热身",
+        duration: "3 分钟",
+        teacherNotes: "说 '7 × 8 = 56.' '8 × 7 = 56.' 让孩子注意乘法交换律。再说 '50 ÷ 6 = 8 R 2.' 解释 R 表示 remainder（余数）。",
+      },
+      {
+        name: "本周例题",
+        duration: "8 分钟",
+        teacherNotes: "在白板上写：'7 × 8 = 56'。强调 P2 学过 2/3/4/5/10 的乘法口诀，P3 新学 6/7/8/9。然后写：'50 ÷ 6 = 8 R 2'。解释：6 × 8 = 48，还剩 2，所以余数是 2。再写：'124 × 6 = 744'。演示竖式进位。关键词：times（乘）、divided by（除）、remainder（余数）、equally（平均分）。",
+      },
+      {
+        name: "孩子口头说算式",
+        duration: "10 分钟",
+        teacherNotes: "给 3 个口头题，孩子说出算式和答案。题目 1：'What is 6 × 9?' 期待输出：'54.' 题目 2：'Priya has 85 marbles. She shares them equally among 9 friends. How many marbles does each friend get, and how many are left?' 期待输出：'85 ÷ 9 = 9 R 4. Each friend gets 9 marbles, 4 are left.' 题目 3：'What is 237 × 4?' 期待输出：'948.'",
+      },
+      {
+        name: "开口",
+        duration: "12 分钟",
+        teacherNotes: "让孩子读出算式并解释。比如 '50 ÷ 6 = 8 R 2'，孩子要说 'Fifty divided by six equals eight remainder two.' 或 'Fifty divided by six is eight with a remainder of two.'",
+      },
+      {
+        name: "收口",
+        duration: "5 分钟",
+        teacherNotes: "提醒本周作业有 P3 数学题目，包括六七八九乘法口诀、有余数除法、三位数乘/除一位数。对应申请 P4 的孩子需要掌握的内容（preceding level 规则）。",
+      },
+    ],
+    spokenLines: [
+      "7 × 8 = 56",
+      "Seven times eight equals fifty-six.",
+      "50 ÷ 6 = 8 R 2",
+      "Fifty divided by six equals eight remainder two.",
+      "124 × 6 = 744",
+      "One hundred and twenty-four times six equals seven hundred and forty-four.",
+      "6 × 9 = 54",
+      "Six times nine equals fifty-four.",
+    ],
+    childPrompts: [
+      "What is 8 × 7? (Say the calculation.)",
+      "85 marbles shared equally among 9 friends. How many each, and how many left? (Say the calculation.)",
+      "What is 237 × 4? (Say the calculation.)",
+    ],
+  },
 };
 
 export default async function LessonPlanPage({
