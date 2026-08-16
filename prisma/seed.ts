@@ -8855,6 +8855,95 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
         },
       ],
     },
+    {
+      level: "SMATH",
+      weekNumber: 23,
+      title: "数学 第 23 周 / Maths Week 23",
+      description: "AEIS-Secondary Mathematics: Sec 1 average rate, speed, constant speed and average speed",
+      isSample: false,
+      errorFocus: "taking the mean of two speeds (e.g. average of 40 km/h and 60 km/h as 50 km/h) instead of total distance ÷ total time; using one part of the journey as if it were the whole; mixing rate units (pages per hour vs hours per page)",
+      parentBrief: "本周是中学 AEIS 数学第 23 周，对应官方 SEAB Sec 1 卷型（https://www.seab.gov.sg/aeis/test-details/ 2026年7月1日更新）。Part 1 Multiple-choice questions：34 道 MCQ，30 分钟。Part 2 Short-answer questions (20 items) and open-ended questions (10 to 15 items)：1 小时 45 分钟。Calculators are not allowed（不允许使用计算器）。Short-answer and open-ended questions：candidates are required to show the method of solution clearly by writing working steps in the spaces provided, plus the final answer（需写出算式步骤和最终答案）。AEIS-Secondary 官方 preceding-level 规则：申请 Sec 2 入学者需熟悉 Sec 2 前一级的内容。官方举例：apply Secondary 3 → be familiar with Secondary 2 content. 本周针对 Sec 2 申请者，内容为 Sec 2 前一级（Sec 1）的官方 MOE 2020 G3 Mathematics Syllabuses, Secondary One, NUMBER AND ALGEBRA, N4. Rate and Speed: 4.1 concepts of average rate, speed, constant speed and average speed（平均速率、速度、匀速和平均速度的概念）。第 17–22 周已完成 N3（百分数），本周开始 N4，只教 4.1（concepts of average rate, speed, constant speed and average speed）。本周不教 4.2 conversion of units（单位换算，如 km/h 与 m/s 互换），4.3 problems involving rate and speed（速率和速度应用题），4.2–4.3 是后续内容。Speed 是官方 Sec 1 内容，不是 P6-only（不要声称速度是 P6 专属或发明禁令）。本周方法：Average rate = total quantity ÷ total time（平均速率 = 总量 ÷ 总时间，如 90 pages in 3 hours → 30 pages/h）。Speed = distance ÷ time（速度 = 路程 ÷ 时间，如 120 km in 2 h → 60 km/h）。Constant speed = the same speed for the whole journey（匀速 = 全程保持同一速度）。Average speed = total distance ÷ total time（平均速度 = 总路程 ÷ 总时间，不是两个速度的平均数；例：60 km at 60 km/h then 60 km at 30 km/h：times 1 h + 2 h = 3 h，average speed = 120 ÷ 3 = 40 km/h，不是 45）。本周作业是样本，不是完整 34 + 20 + 10–15 题。本周化石：taking the mean of two speeds（把两个速度求平均数，如 40 km/h 和 60 km/h 错误地算 (40+60)÷2 = 50 km/h，应该是 total distance ÷ total time；例：60 km at 60 km/h 用时 1 h，60 km at 30 km/h 用时 2 h，total 120 km in 3 h，average speed = 120 ÷ 3 = 40 km/h，不是 (60+30)÷2 = 45）；using one part of the journey as if it were the whole（把旅程的一段当作全程，如只用第一段的速度作为全程平均速度）；mixing rate units（混淆速率单位，如把 pages per hour 和 hours per page 搞混）。用友好的整数（friendly numbers），答案是整数。不用计算器 no calculator。金额如涉及用新加坡元 S$（money in Singapore dollars S$），never 美元。Distances 用 km 或 m；times 用 h 或 min（保持单位一致；本周不教 km/h ↔ m/s 换算）。唯一性 unique keys：两个选项不能是同一个数值。If a two-speed journey has average 40 km/h, do not also offer the true \"mean of the two speeds\" as a second correct option unless the question specifically asks for average speed (then the mean is WRONG). The fossil (mean of two speeds) must be a WRONG option when the question asks for average speed（如果一个双速度旅程平均速度是 40 km/h，不要同时提供真实的"两个速度的平均数"作为第二个正确选项，除非题目特别要求平均速度（那时平均数是错的）。当题目问平均速度时，化石（两个速度的平均数）必须是错误选项）。非官方机构运营（affiliation 非官方机构 is OK）。不发明官方未提及的内容（do not invent official facts）。不声称 AEIS 是 G3 paper（G3 只是官方 preceding-level 内容来源）。不发明官方 cut-scores 或 extra official names。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "Wei reads 90 pages in 3 hours. What is his average reading rate?|A. 27 pages/h|B. 30 pages/h|C. 33 pages/h|D. 270 pages/h",
+            "Aisha cycles 120 km in 2 hours. What is her speed?|A. 60 km/h|B. 118 km/h|C. 122 km/h|D. 240 km/h",
+            "Which statement describes constant speed?|A. Wei cycled 20 km at 20 km/h, then 30 km at 30 km/h.|B. Aisha ran at 10 km/h for the whole 5 km.|C. Mr Lim drove faster in the first half than the second half.|D. The speed increased from 40 km/h to 50 km/h.",
+            "Wei cycles 60 km at 60 km/h, then 60 km at 30 km/h. What is his average speed for the whole journey?|A. 35 km/h|B. 40 km/h|C. 45 km/h|D. 50 km/h",
+            "Which working correctly calculates average speed?|A. Add the two speeds and divide by 2.|B. Divide total distance by total time.|C. Use the speed of the longer part only.|D. Use the speed of the first part only.",
+          ]),
+          correctAnswer: "B,A,B,B,B",
+          points: 10,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "A printer prints 240 pages in 4 hours. What is the average printing rate?|A. 40 pages/h|B. 60 pages/h|C. 80 pages/h|D. 236 pages/h",
+            "A car travels 150 km in 3 hours. What is its speed?|A. 45 km/h|B. 50 km/h|C. 147 km/h|D. 450 km/h",
+            "Wei runs 12 km at constant speed in 2 hours. What is his speed?|A. 6 km/h|B. 10 km/h|C. 14 km/h|D. 24 km/h",
+            "Aisha cycles 30 km at 30 km/h, then 30 km at 20 km/h. What is the total time?|A. 2 h|B. 2.5 h|C. 3 h|D. 5 h",
+            "For the journey in the previous question, what is Aisha's average speed?|A. 20 km/h|B. 24 km/h|C. 25 km/h|D. 30 km/h",
+            "A tap fills 180 litres in 6 minutes. What is the average rate?|A. 20 litres/min|B. 30 litres/min|C. 40 litres/min|D. 174 litres/min",
+            "Which is NOT the correct way to calculate average speed?|A. Total distance ÷ total time|B. Add all speeds and divide by the number of speeds|C. Sum of all distances ÷ sum of all times|D. (Distance 1 + Distance 2) ÷ (Time 1 + Time 2)",
+            "Wei drives 80 km at 40 km/h, then 80 km at 80 km/h. What is his average speed?|A. 48 km/h|B. 53.3 km/h|C. 60 km/h|D. 64 km/h",
+          ]),
+          correctAnswer: "B,B,A,B,B,B,B,B",
+          points: 16,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `Part 2: Show Your Working (写出算式步骤)
+
+Riverside Secondary School has rate and speed problems. Answer the questions below. Show all your working clearly.
+
+Question (a)
+Wei prints 150 pages in 5 hours. What is the average printing rate in pages per hour? Show your working steps.
+
+Question (b)
+Aisha cycles from home to school, a distance of 18 km, at constant speed in 2 hours. What is her speed in km/h? Show your working steps.
+
+Question (c)
+Mr Lim drives from Riverside Secondary to Marina Bay. He drives the first 40 km at 40 km/h, then the next 40 km at 20 km/h.
+(i) What is the total distance? Show your working.
+(ii) What is the total time? Show your working clearly for each part of the journey.
+(iii) What is Mr Lim's average speed for the whole journey? Show your working.
+
+写作提示 / Tips:
+✓ 每题分步骤写出推理 (Show working steps for each question)
+✓ Part 2 官方要求：clearly show the method of solution by writing working steps, plus the final answer
+✓ 不用计算器 (No calculators allowed)
+✓ 平均速率、速度、匀速和平均速度步骤示范 (average rate, speed, constant speed and average speed examples)：
+  • Average rate = total quantity ÷ total time：
+    Wei reads 90 pages in 3 hours. What is his average reading rate? Show your working steps.
+    Solution: ① Total pages = 90. Total time = 3 hours. ② Average rate = total pages ÷ total time = 90 ÷ 3 = 30. Answer: 30 pages/h.
+  • Speed = distance ÷ time：
+    Aisha cycles 18 km in 2 hours at constant speed. What is her speed? Show your working steps.
+    Solution: ① Distance = 18 km. Time = 2 hours. ② Speed = distance ÷ time = 18 ÷ 2 = 9. Answer: 9 km/h.
+  • Average speed = total distance ÷ total time (NOT the mean of two speeds)：
+    Wei cycles 60 km at 60 km/h, then 60 km at 30 km/h. What is his average speed for the whole journey? Show your working steps.
+    Solution: ① Part 1: distance = 60 km, speed = 60 km/h. Time = distance ÷ speed = 60 ÷ 60 = 1 hour. ② Part 2: distance = 60 km, speed = 30 km/h. Time = 60 ÷ 30 = 2 hours. ③ Total distance = 60 + 60 = 120 km. Total time = 1 + 2 = 3 hours. ④ Average speed = total distance ÷ total time = 120 ÷ 3 = 40. Answer: 40 km/h. (Note: The average of the two speeds (60+30)÷2 = 45 is WRONG. We must use total distance ÷ total time = 40 km/h.)
+✓ 金额用新加坡元 S$ (money in Singapore dollars S$, if money appears)
+✓ 关键词：average rate 平均速率，speed 速度，constant speed 匀速，average speed 平均速度，total distance ÷ total time 总路程 ÷ 总时间
+✓ 关键步骤：Step 1: Identify quantities (rate: total quantity and total time; speed: distance and time) (确定量：速率需要总量和总时间；速度需要路程和时间). Step 2: For average speed with two parts, calculate time for each part: time = distance ÷ speed (对于分两段的平均速度，计算每段的时间：时间 = 路程 ÷ 速度). Step 3: Find total distance and total time (求总路程和总时间). Step 4: Average speed = total distance ÷ total time (NOT the mean of speeds) (平均速度 = 总路程 ÷ 总时间，不是速度的平均数). Step 5: State the answer with units (陈述答案并加单位，如 km/h, pages/h, litres/min).
+✓ 化石 (fossil errors)：
+  • Taking the mean of two speeds instead of total distance ÷ total time（把两个速度求平均数而不是用总路程 ÷ 总时间：60 km/h and 30 km/h 错误地算 (60+30)÷2 = 45 km/h；正确算法：如果两段距离相等，先求每段时间，再用总路程 ÷ 总时间）
+  • Using one part of the journey as if it were the whole（把旅程的一段当作全程：如只用 60 km/h 作为全程平均速度，忽略第二段 30 km/h）
+  • Mixing rate units（混淆速率单位：如把 30 pages per hour 和 30 hours per page 搞混）
+  • 本周只教 N4 的 4.1（concepts of average rate, speed, constant speed and average speed）。本周不教 4.2 conversion of units（单位换算，如 km/h ↔ m/s），4.3 problems involving rate and speed（速率和速度应用题）。4.2 和 4.3 是后续周次内容。
+
+Note: This is a sample of Part 2 short-answer/open-ended questions. The official paper has 20 short-answer + 10–15 open-ended items in 1 hour 45 minutes.`,
+          points: 20,
+        },
+      ],
+    },
   ];
 
   // =================================================================
