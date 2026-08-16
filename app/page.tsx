@@ -185,7 +185,7 @@ export default function HomePage() {
 
               <article className="bg-card border border-line rounded-2xl p-6 shadow">
                 <h3 className="font-serif text-xl font-semibold mb-2">AEIS 数学</h3>
-                <p className="text-sm text-ink-2 mb-2">试学周 + 第 1–28 周 · P2 + P3 + P4 十万以内整数 + 因数倍数 + 乘除算法 + 带分数假分数 + 一组的几分之几 + 分数加减 + P4 小数位值比较转换四舍五入 + P4 小数加减 + P4 小数乘除一位整数 + P4 面积周长求缺失边与组合图形 + P4 表格和折线图 + P4 饼图 + P4 角 + P4 长方形正方形 + P4 对称轴</p>
+                <p className="text-sm text-ink-2 mb-2">试学周 + 第 1–29 周 · P2 + P3 + P4 十万以内整数 + 因数倍数 + 乘除算法 + 带分数假分数 + 一组的几分之几 + 分数加减 + P4 小数位值比较转换四舍五入 + P4 小数加减 + P4 小数乘除一位整数 + P4 面积周长求缺失边与组合图形 + P4 表格和折线图 + P4 饼图 + P4 角 + P4 长方形正方形 + P4 对称轴 + P4 展开图</p>
                 <p className="text-xs text-muted">试学周免费</p>
               </article>
             </div>
@@ -282,7 +282,7 @@ export default function HomePage() {
                 </div>
                 <p className="text-xs font-semibold uppercase tracking-wide text-accent mb-3">按月订阅</p>
                 <p className="text-ink-2 mb-4 text-sm">
-                  作业 app 解锁已上线周数（A2 试学周 + 第 1–11 周，B1 试学周 + 第 1–11 周，MATH 试学周 + 第 1–28 周）+ 家长微信进度通报。可随时取消。
+                  作业 app 解锁已上线周数（A2 试学周 + 第 1–11 周，B1 试学周 + 第 1–11 周，MATH 试学周 + 第 1–29 周）+ 家长微信进度通报。可随时取消。
                 </p>
                 <ul className="space-y-0 border-t border-line mb-5">
                   <li className="border-b border-line py-3 pl-5 relative before:absolute before:left-0 before:top-5 before:w-2 before:h-2 before:rounded-full before:bg-accent text-sm text-ink-2">

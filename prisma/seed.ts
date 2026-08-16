@@ -2421,6 +2421,105 @@ On a square grid, a vertical line of symmetry runs down the middle. After comple
       ],
     },
     
+    // MATH WEEK 29
+    {
+      level: "MATH",
+      weekNumber: 29,
+      title: "数学 第 29 周 / Maths Week 29",
+      description: "AEIS-Primary P4 Mathematics: Nets",
+      isSample: false,
+      errorFocus: null,
+      parentBrief: "本周主题：展开图 / nets，对应官方 2021 P4 Geometry → Nets 4.1–4.4（identifying 2D representations of cube, cuboid, cone, cylinder, prism, pyramid; drawing 2D representations of cube, cuboid, prism, pyramid; identifying the nets of 3D solids: cube, cuboid, prism, pyramid; identifying the solid which can be formed by a given net）。申请 P5 入学的孩子需掌握 P4 内容（MOE AEIS 的 preceding level 规则）。关键技能：识别立体图形的二维表示（4.1: cube 立方体, cuboid 长方体, cone 圆锥, cylinder 圆柱, prism 棱柱, pyramid 棱锥）；画二维表示（4.2: cube, cuboid, prism, pyramid——注意 cone 和 cylinder 不在 4.2）；识别展开图（4.3: cube, cuboid, prism, pyramid 的展开图——注意 cone 和 cylinder 不在 4.3，不能发明圆锥圆柱展开图）；从展开图判断可组成的立体图形（4.4）。官方事实：cube 有 6 个正方形面，都相等，有效的 cube net 有 6 个正方形折叠后无重叠；cuboid 有 6 个长方形面（对面相等）；triangular prism 有 2 个三角形面和 3 个长方形面（共 5 面）；square pyramid 有 1 个正方形底和 4 个三角形面（共 5 面）；cone 的 2D 表示是圆+三角形或圆+扇形（只在 4.1，不在 4.3）；cylinder 的 2D 表示是长方形+两个圆（只在 4.1，不在 4.3）。常见错误：以为任何 6 个正方形排列都是 cube net（一排 6 个正方形折叠时面会重叠，不是 cube net）；混淆 prism（2 triangles + 3 rectangles）和 square pyramid（1 square + 4 triangles）；发明 cone/cylinder net（cone 和 cylinder 只在 4.1 二维表示，不在 4.3 展开图中）；把 2D 画法当展开图（2D drawing 如正方形+两个平行四边形表示立方体，不是 net）。本周不教：surface area / volume formulas（表面积体积公式）、Euler's formula（欧拉公式）、line symmetry / rotational symmetry（已教）、triangle angle sum（三角形内角和）、sphere net（球体不在 P4 nets 列表）。这是最后一个官方 P4 Geometry 主题周。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: `Read the information and choose the correct answer.
+
+Question 1:
+A solid has 6 faces. All 6 faces are squares, and all the squares are equal in size. Which solid is this? (Hint: A cube has 6 square faces, all equal. A cuboid has 6 rectangular faces. A cone has 1 circular face and a curved surface. A pyramid with a square base has 1 square and 4 triangles. So the answer is cube.)
+
+Question 2:
+A 2D representation shows a rectangle and two circles (one circle at each end of the rectangle). Which solid does this represent? (Hint: This is the 2D representation of a cylinder. A cylinder has two circular faces and one curved surface. When drawn on paper, it looks like a rectangle with two circles. Note: 4.1 identifying 2D representations includes cone and cylinder. But 4.3 identifying nets does NOT include cone or cylinder.)
+
+Question 3:
+A net has 6 equal squares arranged in a cross shape: one square in the center, one square on each of the four sides of the center square, and one more square attached to the bottom square. Which solid can be formed by this net? (Hint: A cube net has 6 squares that fold to a cube without overlapping faces. A cross shape of 6 equal squares is a valid cube net. So the answer is cube.)
+
+Question 4:
+A net has 1 square and 4 triangles. The square is in the center, and one triangle is attached to each side of the square. Which solid can be formed by this net? (Hint: A square pyramid has 1 square base and 4 triangular faces. The net has 1 square + 4 triangles. So the answer is square pyramid. A triangular prism has 2 triangles + 3 rectangles, not 1 square + 4 triangles.)
+
+Question 5:
+A net has 2 triangles and 3 rectangles. Which solid can be formed by this net? (Hint: A triangular prism has 2 triangular faces and 3 rectangular faces (5 faces in total). The net has 2 triangles + 3 rectangles. So the answer is triangular prism. A square pyramid has 1 square + 4 triangles, not 2 triangles + 3 rectangles.)`,
+          options: JSON.stringify([
+            "A solid has 6 square faces, all equal. Which solid?|A. Cube|B. Cuboid|C. Cone|D. Pyramid",
+            "2D representation: a rectangle and two circles. Which solid?|A. Cube|B. Prism|C. Cylinder|D. Pyramid",
+            "Net: 6 equal squares in a cross. Which solid?|A. Cube|B. Cuboid|C. Prism|D. Pyramid",
+            "Net: 1 square and 4 triangles. Which solid?|A. Cube|B. Triangular prism|C. Square pyramid|D. Cylinder",
+            "Net: 2 triangles and 3 rectangles. Which solid?|A. Cube|B. Triangular prism|C. Square pyramid|D. Cylinder",
+          ]),
+          correctAnswer: "A,C,A,C,B",
+          points: 5,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: `Choose the correct answer for each question.
+
+Question 6:
+A row of 6 equal squares arranged in a straight line. Is this a net of a cube? (Hint: No. When you fold a row of 6 squares, the faces overlap. A valid cube net has 6 squares that fold to a cube without overlapping faces. A row of 6 squares is NOT a cube net.)
+
+Question 7:
+A cuboid net must have how many faces? (Hint: A cuboid has 6 rectangular faces (opposite faces are equal). So a cuboid net must have 6 faces.)
+
+Question 8:
+Which solid is included in 4.1 identifying 2D representations, but is NOT included in 4.3 identifying nets? (Hint: 4.1 includes cube, cuboid, cone, cylinder, prism, pyramid. 4.3 includes cube, cuboid, prism, pyramid. 4.3 does NOT include cone or cylinder. So the answer is cone or cylinder.)
+
+Question 9:
+A 2D drawing shows a square with two parallelograms attached (one for the top face, one for the side face). Is this a net of a cube? (Hint: No. This is a 2D representation (2D drawing) of a cube, not a net. A net is a flat shape that folds into a 3D solid. A 2D drawing shows the 3D solid on paper, but it is not a net.)
+
+Question 10:
+A net has 6 rectangles. The rectangles have dimensions: 2 faces are 8 cm by 4 cm, 2 faces are 8 cm by 3 cm, and 2 faces are 4 cm by 3 cm (opposite faces match in pairs). Which solid can be formed by this net? (Hint: A cuboid has 6 rectangular faces, and opposite faces are equal. The net has 6 rectangles with opposite faces matching in pairs. So the answer is cuboid.)
+
+Question 11:
+Can a net of 1 square and 4 triangles form a cube? (Hint: No. A cube has 6 square faces, all equal. A net of 1 square + 4 triangles can form a square pyramid (1 square base + 4 triangular faces), not a cube.)
+
+Question 12:
+How many faces does a square pyramid have? (Hint: A square pyramid has 1 square base and 4 triangular faces. In total: 1 + 4 = 5 faces.)
+
+Question 13:
+A 2D representation shows a circle and a triangle. Which solid does this represent? (Hint: This is the 2D representation of a cone. A cone has 1 circular face and a curved surface. When drawn on paper, it looks like a circle with a triangle. Note: 4.1 identifying 2D representations includes cone. But 4.3 identifying nets does NOT include cone.)`,
+          options: JSON.stringify([
+            "Row of 6 equal squares in a straight line: net of a cube?|A. Yes|B. No|C. Only if folded carefully|D. Cannot tell",
+            "Cuboid net must have how many faces?|A. 4|B. 5|C. 6|D. 8",
+            "In 4.1 2D representations but NOT in 4.3 nets?|A. Cube|B. Prism|C. Cone|D. Pyramid",
+            "2D drawing of a cube (square + 2 parallelograms): is that a net?|A. Yes|B. No|C. Only if 3D|D. Cannot tell",
+            "Net: 6 rectangles, opposite faces match (8×4, 8×3, 4×3). Which solid?|A. Cube|B. Cuboid|C. Prism|D. Pyramid",
+            "Can net of 1 square + 4 triangles form a cube?|A. Yes|B. No|C. Only if squares|D. Cannot tell",
+            "How many faces does a square pyramid have?|A. 4|B. 5|C. 6|D. 8",
+            "2D representation: circle + triangle. Which solid?|A. Cube|B. Cylinder|C. Cone|D. Sphere",
+          ]),
+          correctAnswer: "B,C,C,B,B,B,B,C",
+          points: 8,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `At Raffles Girls' Primary School, the students are learning about nets of 3D solids.
+
+(a) Mei draws a net with 6 equal squares arranged in a row (a straight line). Is this a net of a cube? Show your working by stating the property: A cube has 6 square faces, all equal. A valid cube net has 6 squares that fold to a cube without overlapping faces. When you fold a row of 6 squares in a straight line, the faces overlap when folded. For example, the first square and the last square both try to cover the same position on the cube. So a row of 6 squares is NOT a cube net because faces overlap when folded. A valid cube net could be a cross shape: one center square, one square on each of the four sides, and one more attached to the bottom. That cross shape folds to a cube without overlapping.
+
+(b) Jun Wei draws a net with 1 square and 4 triangles. The square is in the center, and one triangle is attached to each side of the square. Which solid can be formed by Jun Wei's net? Show your working: A square pyramid has 1 square base and 4 triangular faces (5 faces in total). Jun Wei's net has 1 square + 4 triangles. When you fold Jun Wei's net, the square becomes the base, and the 4 triangles fold up to meet at the top vertex (顶点). This forms a square pyramid. A triangular prism has 2 triangles + 3 rectangles (5 faces), not 1 square + 4 triangles. A cube has 6 squares, not 1 square + 4 triangles. So Jun Wei's net forms a square pyramid.
+
+(c) Priya draws a net with 2 triangles and 3 rectangles. Which solid can be formed by Priya's net? Show your working: A triangular prism has 2 triangular faces and 3 rectangular faces (5 faces in total). Priya's net has 2 triangles + 3 rectangles. When you fold Priya's net, the 2 triangles become the two ends of the prism, and the 3 rectangles wrap around to connect the two triangular ends. This forms a triangular prism. A square pyramid has 1 square + 4 triangles (5 faces), not 2 triangles + 3 rectangles. So Priya's net forms a triangular prism.
+
+写出说明、算式和答案。Show working step by step. For nets, state the properties (e.g., "A cube net has 6 squares that fold without overlapping. A row of 6 squares is NOT a cube net because faces overlap when folded.", "A square pyramid net has 1 square + 4 triangles.", "A triangular prism net has 2 triangles + 3 rectangles."). Explain common errors (e.g., thinking any arrangement of 6 squares is a cube net, confusing prism (2 triangles + 3 rectangles) with square pyramid (1 square + 4 triangles), inventing a cone/cylinder net when cone/cylinder are only in 4.1 2D representations not in 4.3 nets, counting a 2D drawing as a net).`,
+          points: 10,
+        },
+      ],
+    },
+    
     // A2 WEEKS
     {
       level: "A2",
