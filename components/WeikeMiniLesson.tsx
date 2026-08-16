@@ -346,6 +346,17 @@ export default function WeikeMiniLesson({ level, weekNumber }: WeikeMiniLessonPr
       ],
       gloss: "AEIS 中学数学第 8 周 / SMATH Week 8. 本周例题：Sec 1 质数与质数分解（Sec 1 NUMBER AND ALGEBRA: N1.1 primes and prime factorisation）。质数 prime：只能被 1 和它自己整除的大于 1 的整数（2, 3, 5, 7, 11, 13, ...）。1 不是质数（1 is not a prime）。质数分解 prime factorisation：把合数分解成质数相乘（60 = 2 × 2 × 3 × 5）。分解方法：从最小的质数开始除，直到全部都是质数。不用计算器，写出分解步骤。"
     },
+    "SMATH-9": {
+      examples: [
+        "Find the HCF of 12 and 18.",
+        "12 = 2 × 2 × 3 = 2² × 3",
+        "18 = 2 × 3 × 3 = 2 × 3²",
+        "HCF = 2 × 3 = 6 (共有的质数取小次幂)",
+        "Find the LCM of 12 and 18.",
+        "LCM = 2² × 3² = 4 × 9 = 36 (所有质数取大次幂)"
+      ],
+      gloss: "AEIS 中学数学第 9 周 / SMATH Week 9. 本周例题：Sec 1 HCF 和 LCM 通过质数分解（Sec 1 NUMBER AND ALGEBRA: N1.2 HCF and LCM by prime factorisation）。HCF（highest common factor / 最大公约数）：先质数分解两个数，找共有的质因数，取最小次幂相乘。LCM（lowest common multiple / 最小公倍数）：所有质因数（共有的和独有的），取最大次幂相乘。应用：largest number of bags = HCF（最多袋数用 HCF），smallest total = LCM（最少总数用 LCM）。不用计算器，写出分解和乘法步骤。"
+    },
     "SEC-0": {
       fossil: "Although I was nervous, but I tried. ✗ (中文「虽然…但是…」迁移) / I go yesterday ✗ (叙事体过去时掉落)",
       examples: [

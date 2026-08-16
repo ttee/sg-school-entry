@@ -7628,6 +7628,87 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
         },
       ],
     },
+    {
+      level: "SMATH",
+      weekNumber: 9,
+      title: "数学 第 9 周 / Maths Week 9",
+      description: "AEIS-Secondary Mathematics: Sec 1 HCF and LCM by prime factorisation",
+      isSample: false,
+      errorFocus: "swapping HCF and LCM / using product of highest powers for HCF",
+      parentBrief: "本周是中学 AEIS 数学第 9 周，对应官方 SEAB Sec 1 卷型（https://www.seab.gov.sg/aeis/test-details/ 2026年7月1日更新）。Part 1 Multiple-choice questions：34 道 MCQ，30 分钟。Part 2 Short-answer questions (20 items) and open-ended questions (10 to 15 items)：1 小时 45 分钟。Calculators are not allowed（不允许使用计算器）。Short-answer and open-ended questions：candidates are required to show the method of solution clearly by writing working steps in the spaces provided, plus the final answer（需写出算式步骤和最终答案）。AEIS-Secondary 官方 preceding-level 规则：申请 Sec 2 入学者需熟悉 Sec 2 前一级的内容。官方举例：apply Secondary 3 → be familiar with Secondary 2 content. 本周针对 Sec 2 申请者，内容为 Sec 2 前一级（Sec 1）的官方 MOE 2020 G3 Mathematics Syllabuses, Secondary One, NUMBER AND ALGEBRA, N1. Numbers and their operations: 1.2 finding highest common factor (HCF) and lowest common multiple (LCM) by prime factorisation（只教 HCF 和 LCM 部分，本周不教 squares, cubes, square roots and cube roots，那是下一周）。本周作业是样本，不是完整 34 + 20 + 10–15 题。本周化石：swapping HCF and LCM（孩子写 HCF 时用了 LCM 的方法，把所有质数的最高次幂乘起来；或写 LCM 时用了 HCF 的方法，只乘共有的质数）。本周内容：HCF（highest common factor / 最大公约数）：两个数共有的质因数，取最小次幂相乘。例：12 = 2² × 3, 18 = 2 × 3²，共有 2 和 3，HCF = 2¹ × 3¹ = 2 × 3 = 6。LCM（lowest common multiple / 最小公倍数）：所有质因数，取最大次幂相乘。例：12 = 2² × 3, 18 = 2 × 3²，LCM = 2² × 3² = 4 × 9 = 36。方法步骤：(1) 质数分解两个数（prime factorisation），写成质数乘积，例如 12 = 2 × 2 × 3 或 2² × 3；(2) 找 HCF：只看共有的质数，取最小次幂相乘；(3) 找 LCM：看所有质数（共有的和独有的），取最大次幂相乘。不用计算器，写出分解和乘法步骤。数字保持友好（numbers stay friendly，不超过 100）。金额用新加坡元 S$（如题目涉及钱币）。题目选项必须唯一（unique keys only）：不能有两个选项是相同数值或相同含义（例如 HCF 选项不能同时提供 6 和 2×3 这样本质相同的答案；也不能让 HCF 和 LCM 的正确答案在同一题出现）。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "Find the HCF of 12 and 18.|A. 3|B. 6|C. 12|D. 36",
+            "Find the LCM of 12 and 18.|A. 6|B. 18|C. 36|D. 72",
+            "Two bells ring together at 8 a.m. One bell rings every 12 minutes, the other rings every 18 minutes. At what time will they ring together again?|A. 8:30 a.m.|B. 8:36 a.m.|C. 9:00 a.m.|D. 9:06 a.m.",
+            "Pens come in packs of 8 or boxes of 12. What is the smallest number of pens that can be made up using only packs of 8, or only boxes of 12?|A. 20|B. 24|C. 48|D. 96",
+            "Find the HCF of 20 and 30.|A. 5|B. 10|C. 30|D. 60",
+          ]),
+          correctAnswer: "B,C,B,B,B",
+          points: 10,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "Find the LCM of 8 and 12.|A. 4|B. 12|C. 24|D. 96",
+            "Find the HCF of 24 and 36.|A. 6|B. 12|C. 18|D. 72",
+            "What is the LCM of 15 and 20?|A. 5|B. 30|C. 60|D. 300",
+            "Two buses leave the terminal together. Bus A returns every 20 minutes, Bus B returns every 30 minutes. After how many minutes will they meet at the terminal again?|A. 10|B. 50|C. 60|D. 100",
+            "Find the HCF of 18 and 24.|A. 2|B. 3|C. 6|D. 72",
+            "Find the LCM of 6 and 9.|A. 3|B. 18|C. 27|D. 54",
+            "Three ropes have lengths 12 m, 18 m, and 24 m. They are to be cut into pieces of equal length with no rope left over. What is the greatest possible length of each piece?|A. 2 m|B. 6 m|C. 12 m|D. 72 m",
+            "Find the HCF of 16 and 24.|A. 4|B. 8|C. 16|D. 48",
+          ]),
+          correctAnswer: "C,B,C,C,C,B,B,B",
+          points: 16,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `Part 2: Show Your Working (写出算式步骤)
+
+Riverside Secondary School has number theory problems. Answer the questions below. Show all your working clearly.
+
+Question (a)
+Find the HCF of 24 and 36 by prime factorisation.
+
+Question (b)
+Find the LCM of 15 and 20 by prime factorisation.
+
+Question (c)
+Mei and Jun Wei are making goody bags for a charity event. Mei has 30 stickers and Jun Wei has 45 stickers. They want to divide all the stickers equally into the largest possible number of goody bags with no stickers left over. How many goody bags can they make? Show your working.
+
+写作提示 / Tips:
+✓ 每题分步骤写出推理 (Show working steps for each question)
+✓ Part 2 官方要求：clearly show the method of solution by writing working steps, plus the final answer
+✓ 不用计算器 (No calculators allowed: do number theory reasoning by hand)
+✓ HCF 和 LCM 步骤示范：
+  • 24 和 36 的 HCF (HCF of 24 and 36)：
+    24 = 2 × 2 × 2 × 3 = 2³ × 3
+    36 = 2 × 2 × 3 × 3 = 2² × 3²
+    HCF = 2² × 3 = 4 × 3 = 12 (共有的质数取最小次幂)
+  • 12 和 18 的 LCM (LCM of 12 and 18)：
+    12 = 2 × 2 × 3 = 2² × 3
+    18 = 2 × 3 × 3 = 2 × 3²
+    LCM = 2² × 3² = 4 × 9 = 36 (所有质数取最大次幂)
+✓ 应用题：largest number of bags = HCF（最多袋数用 HCF），smallest total = LCM（最少总数用 LCM）
+✓ 记住：HCF ≤ 两个数中较小的那个，LCM ≥ 两个数中较大的那个
+✓ 不要混淆：HCF 用共有的质数取小次幂，LCM 用所有质数取大次幂
+✓ 如果题目有钱币，用新加坡元 S$（本周题目无钱币情境）
+
+Note: This is a sample of Part 2 short-answer/open-ended questions. The official paper has 20 short-answer + 10–15 open-ended items in 1 hour 45 minutes.`,
+          points: 20,
+        },
+      ],
+    },
   ];
 
   // =================================================================
