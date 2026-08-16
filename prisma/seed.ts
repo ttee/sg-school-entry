@@ -567,7 +567,7 @@ Art 📖📖📖📖📖
             "Which is greater: 1/4 or 1/5?|A. 1/4|B. 1/5|C. They are equal|D. Cannot tell",
             "What is 2/4 + 1/4?|A. 3/8|B. 3/4|C. 2/4|D. 1/2",
             "At Bedok Mall, Mei bought 3/12 kg of grapes and 6/12 kg of apples. How much fruit did she buy in total? Give your answer in simplest form.|A. 9/12 kg|B. 3/4 kg|C. 3/12 kg|D. 9/24 kg",
-            "What is 5/6 − 1/6?|A. 4/6|B. 2/3|C. 4/0|D. 5/6",
+            "What is 5/6 − 1/6? Give your answer in simplest form.|A. 4/6|B. 2/3|C. 4/0|D. 5/6",
             "Which fraction is equivalent to 3/4?|A. 6/8|B. 4/6|C. 3/8|D. 2/4",
             "Priya walked 2/3 of the way to school. Jun Wei walked 3/4 of the way. Who walked further?|A. Priya|B. Jun Wei|C. Same distance|D. Cannot tell",
           ]),

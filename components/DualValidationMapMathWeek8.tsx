@@ -158,7 +158,7 @@ export default function DualValidationMapMathWeek8() {
             <tr className="border-b border-accent/10">
               <td className="px-3 py-3 text-ink align-top">
                 <strong>选择题 Q6</strong><br />
-                5/6 − 1/6 = ?
+                5/6 − 1/6 in simplest form
               </td>
               <td className="px-3 py-3 text-ink-2 align-top">
                 <strong>Subtract related fractions</strong><br />
