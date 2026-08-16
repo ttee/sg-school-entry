@@ -6612,6 +6612,99 @@ Note: This is a Sec 1 writing sample (2 topics, 200–300 words), not Sec 2 or S
         },
       ],
     },
+    {
+      level: "SEC",
+      weekNumber: 8,
+      title: "英语 第 8 周 / English Week 8",
+      description: "AEIS-Secondary English (Sec 1 paper shape): computer lab sample",
+      isSample: false,
+      errorFocus: "present perfect (unfinished / for / since) vs past simple (finished time) — unique keys",
+      parentBrief: "中学 AEIS 英语第 8 周。对应官方 SEAB Sec 1 卷型（https://www.seab.gov.sg/aeis/test-details/ 2026年7月1日更新）：Part 1 Writing 提供 2 个作文题目，选写 1 篇，200–300 词；Part 2 Comprehension & Language Use 共 50 道 MCQ（理解 15 + 完形 15 + 词汇 10 + 语法 10）。本周作业是样本，不是完整 50 题，不是 2 小时 10 分钟正式试卷。AEIS-Secondary 官方 preceding-level 规则：申请者需熟悉所申请级别前一级（preceding level）的内容。官方举例：apply Sec 3 → 熟悉 Sec 2。本周针对 Sec 1 申请者，对应 Sec 1 前一级内容水平。本周纠错化石：present perfect（未完成/持续的时间：for two weeks / since Monday / already）vs past simple（已完成的时间：yesterday / last week / at 2 p.m.）。如果时间是已完成的（yesterday / last week / at 2 p.m.），正确答案是 past simple（went / forgot / logged in），present perfect 不出现或明显错误。如果时间是未完成的/持续的（for two weeks / since Monday / already），正确答案是 present perfect（has been / has learned / have saved），past simple 不出现或明显错误。不能同时让 present perfect 和 past simple 都对同一个空。情境：Wei 第一次上计算机实验室课（ICT lesson: log in / don't share your password / save your work / headphones / instructions a listener needs）。Riverside Secondary 的 Mr Raj ICT teacher。Wei 已在 Riverside 两周（has been for two weeks）；昨天他忘了密码（yesterday he forgot）。本周不是 CEQ。",
+      videoUrl: null,
+      kaizenFocus: "classroom English a listener needs at ICT lesson (log in, password, save, headphones)",
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: `Read this passage about Wei's first ICT lesson at Riverside Secondary:
+
+First ICT Lesson at Riverside Secondary
+
+Wei has been at Riverside Secondary for two weeks now. On Wednesday morning, his class had their first ICT (Information and Communication Technology) lesson in the computer lab. Mr Raj, the ICT teacher, welcomed them at the door.
+
+"Good morning, everyone. Today you will learn how to use the school network safely," Mr Raj said. "First, each of you has been given a username and password. You must log in with your own account. Never share your password with anyone, not even your best friend."
+
+Wei sat at a computer next to Aisha. Mr Raj continued, "When you log in, you will see your student folder. Save all your work in this folder. The school system backs up your files every night, but you should also save your work every five minutes while you are typing."
+
+Aisha whispered to Wei, "Yesterday I forgot my password and had to ask Mr Raj to reset it. It was embarrassing!"
+
+Mr Raj heard her and smiled. "That's why we have a password-reset system. If you forget your password, just email me or come to the staffroom. It happens to everyone."
+
+He then showed them how to use headphones when listening to audio files. "Put on your headphones before you click play. This way, you won't disturb other students who are working quietly. Since Monday, I have reminded every class about this rule."
+
+By the end of the lesson, Wei had logged in successfully and saved a practice document. He felt confident about using the school computers. Mr Raj had already explained the main rules clearly, and Wei knew he would follow them every lesson.`,
+          options: JSON.stringify([
+            "How long has Wei been at Riverside Secondary?|A. One week|B. Two weeks|C. Since Monday|D. The passage does not say",
+            "What did Mr Raj tell students to do with their passwords?|A. Share them with friends|B. Write them on paper|C. Never share them|D. Email them to teachers",
+            "What happened to Aisha yesterday?|A. She shared her password|B. She forgot her password|C. She saved her work|D. She wore headphones",
+            "Why should students use headphones?|A. To hear better|B. To save files|C. To log in safely|D. To avoid disturbing others",
+            "When should students save their work?|A. Only at the end|B. Every five minutes|C. Once a day|D. Never",
+          ]),
+          correctAnswer: "B,C,B,D,B",
+          points: 10,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: "Choose the correct tense to complete each sentence. Each blank has only one correct answer:",
+          options: JSON.stringify([
+            "Wei ____ at Riverside Secondary for two weeks. (unfinished time)|A. has been|B. was|C. is|D. be",
+            "Yesterday, Aisha ____ her password. (finished time: yesterday)|A. has forgotten|B. forgot|C. forgets|D. is forgetting",
+            "Mr Raj ____ the password-reset system since Monday. (unfinished time: since Monday)|A. explained|B. explains|C. has explained|D. is explaining",
+            "Last Wednesday, Wei ____ in to the school network. (finished time: last Wednesday)|A. has logged|B. logs|C. logged|D. is logging",
+            "The students ____ their work every night since the term started. (unfinished time: since the term started)|A. saved|B. save|C. are saving|D. have saved",
+            "At 10 a.m. this morning, Mr Raj ____ the class about headphones. (finished time: at 10 a.m.)|A. has told|B. told|C. tells|D. is telling",
+            "Wei ____ how to use the school computers already. (unfinished time: already)|A. learned|B. learns|C. has learned|D. is learning",
+            "Last week, the class ____ their first ICT lesson. (finished time: last week)|A. has had|B. had|C. have|D. is having",
+          ]),
+          correctAnswer: "A,B,C,C,D,B,C,B",
+          points: 16,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `Part 1: Writing (Sec 1 format)
+
+Choose ONE topic and write 200–300 words.
+
+Topic 1: My First Computer Lesson at Secondary School
+Write about your first computer lesson at secondary school (or imagine it if you haven't experienced it yet). Describe:
+• What did the teacher teach you? (logging in, saving files, using programs)
+• What rules did the teacher explain? (password safety, saving work, wearing headphones)
+• Did anything interesting or challenging happen?
+• How did you feel about learning to use school computers?
+
+Topic 2: Using Technology Safely at School
+Write about how students should use technology safely at school. Describe:
+• Why is it important not to share passwords?
+• What should students do if they forget their password?
+• How often should students save their work? Why?
+• What other rules help students use school computers safely?
+
+写作提示 / Writing Tips:
+✓ 写出提纲（3-4 个要点）再写正文 (Plan first: 3-4 bullet points, then write)
+✓ 叙事用过去时态 (Narrative → past tense: Mr Raj told us to log in. I saved my file.)
+✓ 注意 present perfect（未完成时间：for / since / already）vs past simple（已完成时间：yesterday / last week / at 2 p.m.）
+✓ 不要让 present perfect 和 past simple 混淆：I have been at school for two weeks ✓. Yesterday I forgot my password ✓. I have forgotten my password yesterday ✗.
+✓ 分段：开头 + 2-3 段正文 + 结尾 (Paragraphs: intro + 2-3 body + conclusion)
+✓ 字数 200–300 词 (Word count: 200–300 words)
+
+注：这是 Sec 1 写作样本，不是 Sec 2（4 题 250–350 词）或 Sec 3（4 题 300–400 词）格式。这是本周题目，不是官方题目。
+Note: This is a Sec 1 writing sample (2 topics, 200–300 words), not Sec 2 or Sec 3 format. These are this week's topics, not official examination topics.`,
+          points: 20,
+        },
+      ],
+    },
     // SMATH WEEK (AEIS-Secondary Mathematics)
     {
       level: "SMATH",
