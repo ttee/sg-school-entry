@@ -1050,6 +1050,103 @@ The smallest 5-digit number is _____ .`,
         },
       ],
     },
+    {
+      level: "MATH",
+      weekNumber: 15,
+      title: "数学 第 15 周 / Maths Week 15",
+      description: "AEIS-Primary P4 Mathematics: Factors and multiples",
+      isSample: false,
+      errorFocus: null,
+      parentBrief: "本周主题：因数与倍数（factors and multiples），对应官方 2021 Primary Mathematics Syllabus P4 Whole Numbers → Factors and Multiples。P4 新知识点：2.1 factors, multiples and their relationship（因数、倍数及关系）；2.2 determining if a 1-digit number is a factor of a given number within 100（判断一位数是否是 100 以内某数的因数）；2.3 finding the common factors of two given numbers（找两个数的公因数）；2.4 determining if a number is a multiple of a given 1-digit number（判断某数是否是一位数的倍数）；2.5 finding the common multiples of two given 1-digit numbers（找两个一位数的公倍数）。申请 P5 入学的孩子需掌握 P4 内容（MOE AEIS preceding level 规则）。常见错误：把倍数当因数（混淆 factor 和 multiple）、列因数时漏掉 1 和自己、找公倍数时只写其中一个数的倍数。题目是简体中文家长说明 + 英文题干。本周配有双向对照表，显示题目对应的官方 2021 Primary Mathematics Syllabus P4 内容点（Factors and Multiples: 2.1–2.5），以及 MOE AEIS 的「preceding level」规则（申请 P5 → 掌握 P4 内容）。注意：本周不教质数（prime numbers）、质因数分解（prime factorisation）、HCF/LCM 作为算法名称（只说公因数 common factors / 公倍数 common multiples）、小数（decimals）、百分数（percentages）、4 位数 × 1 位数（那是下周）、假分数/带分数（improper/mixed fractions）、折线图（line graphs）。测试「N 是否是 M 的因数」时 M 必须 ≤ 100。公倍数必须是两个一位数的公倍数。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: `Read each question and choose the correct answer.
+
+Question 1:
+Mei has 12 stickers. She wants to arrange them in equal rows with no stickers left over. Which of the following is a factor of 12?
+
+Question 2:
+At Jurong Primary School, the P4 students are learning about factors. Mr Tan asks: "Is 6 a factor of 42?" What is the correct answer?
+
+Question 3:
+Priya and Jun Wei are finding the common factors of 12 and 18. Which list shows all the common factors?
+
+Question 4:
+Ali is counting by sevens: 7, 14, 21, 28, 35. Is 35 a multiple of 7?
+
+Question 5:
+The school canteen has plates in packs. They come in packs of 4 and packs of 6. What is the smallest number of plates you can buy if you want the same number from each pack size?`,
+          options: JSON.stringify([
+            "Which is a factor of 12?|A. 5|B. 8|C. 6|D. 7",
+            "Is 6 a factor of 42?|A. Yes, because 42 ÷ 6 = 7 with no remainder|B. No, because 42 ÷ 6 has a remainder|C. Yes, because 6 is less than 42|D. No, because 6 is not in the 7 times table",
+            "Common factors of 12 and 18|A. 1, 2, 3, 6|B. 1, 2, 3, 4, 6|C. 2, 3, 6|D. 1, 3, 6",
+            "Is 35 a multiple of 7?|A. No, because 35 ÷ 7 has a remainder|B. Yes, because 7 × 5 = 35|C. No, because 7 is smaller than 35|D. Yes, because 35 is odd",
+            "Smallest common number for packs of 4 and 6|A. 4|B. 6|C. 12|D. 24",
+          ]),
+          correctAnswer: "C,A,A,B,C",
+          points: 5,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: `Choose the correct answer for each question.
+
+Question 6:
+Which of the following is NOT a factor of 24?
+
+Question 7:
+List all the factors of 18.
+
+Question 8:
+Which number is a common factor of both 20 and 30?
+
+Question 9:
+Which of these numbers is a multiple of 8?
+
+Question 10:
+What are the first three common multiples of 3 and 4?
+
+Question 11:
+A number is a factor of 36 and also a factor of 48. Which number could it be?
+
+Question 12:
+Priya says: "Any number is a factor of itself." Is she correct?
+
+Question 13:
+Which statement is true about the relationship between factors and multiples?`,
+          options: JSON.stringify([
+            "Which is NOT a factor of 24?|A. 3|B. 5|C. 6|D. 8",
+            "All factors of 18|A. 1, 2, 3, 6, 9, 18|B. 1, 2, 3, 9, 18|C. 2, 3, 6, 9, 18|D. 1, 3, 6, 9, 18",
+            "Common factor of 20 and 30|A. 10|B. 15|C. 20|D. 60",
+            "Which is a multiple of 8?|A. 42|B. 48|C. 50|D. 54",
+            "First three common multiples of 3 and 4|A. 3, 4, 7|B. 12, 24, 36|C. 4, 8, 12|D. 3, 6, 9",
+            "Common factor of 36 and 48|A. 18|B. 24|C. 12|D. 36",
+            "Any number is a factor of itself|A. No, only 1 is a factor of itself|B. Yes, because any number divides itself exactly|C. No, factors must be smaller|D. Yes, but only for even numbers",
+            "Relationship between factors and multiples|A. Factors are always larger than multiples|B. If 4 is a factor of 12, then 12 is a multiple of 4|C. Multiples are always smaller than factors|D. Factors and multiples are the same thing",
+          ]),
+          correctAnswer: "B,A,A,B,B,C,B,B",
+          points: 8,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `At East Coast Primary School, the students are learning about factors and multiples.
+
+(a) The school has 48 books to arrange on shelves. Each shelf must have the same number of books with no books left over. List all the possible numbers of books that can go on each shelf (list all factors of 48).
+
+(b) Jun Wei has some marbles. He can group them in 6s with no marbles left over. He can also group them in 9s with no marbles left over. What is the smallest number of marbles Jun Wei could have? Show your working.
+
+(c) Mei says: "15 is a multiple of 3." Ali says: "3 is a factor of 15." Are both statements correct? Explain the relationship between factors and multiples using this example.
+
+写出答案和说明。`,
+          points: 10,
+        },
+      ],
+    },
     
     // A2 WEEKS
     {

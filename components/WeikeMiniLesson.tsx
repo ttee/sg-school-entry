@@ -143,6 +143,14 @@ export default function WeikeMiniLesson({ level, weekNumber }: WeikeMiniLessonPr
       ],
       gloss: "P4 学十万以内整数（whole numbers to 100 000）：识别位值（place value: 万位 ten thousands、千位 thousands、百位 hundreds、十位 tens、个位 ones），数字与文字互换（73 685 = seventy-three thousand, six hundred and eighty-five），比较五位数大小（从高位往低位比），加减整万（+ 10 000 只改万位）。关键词：place value（位值）、ten thousands place（万位）、compare（比较）、order（排序）、number pattern（数字规律）。注意：本周只教到 100 000，不教 P5 的小数（decimals）、百分数（percentages）。也不教 P4 下学期的因数倍数（factors/multiples）。P3 学过 10 000 以内（四位数），本周扩展到 100 000（五位数）。"
     },
+    "MATH-15": {
+      examples: [
+        "Factors of 12 = 1, 2, 3, 4, 6, 12. 3 is a factor of 12 because 12 ÷ 3 = 4 remainder 0.",
+        "Common factors of 12 and 18 = 1, 2, 3, 6. Both 12 and 18 can be divided by these numbers.",
+        "Is 35 a multiple of 7? Yes, because 7 × 5 = 35. Common multiples of 4 and 6 include 12, 24, 36."
+      ],
+      gloss: "P4 学因数与倍数（factors and multiples）：因数 factors 是能整除某数的数（12 ÷ 3 = 4 无余数，所以 3 是 12 的因数）；倍数 multiples 是某数乘以整数的结果（7 × 5 = 35，所以 35 是 7 的倍数）。公因数 common factors：12 的因数有 1,2,3,4,6,12，18 的因数有 1,2,3,6,9,18，公因数是 1,2,3,6。公倍数 common multiples：4 的倍数有 4,8,12,16,20,24...，6 的倍数有 6,12,18,24...，公倍数有 12,24,36... 关键词：factor（因数）、multiple（倍数）、common factors（公因数）、common multiples（公倍数）、divides exactly（整除）。注意：本周不教质数 prime numbers / 质因数分解 prime factorisation / HCF LCM 名称（只说 common factors / common multiples）。任何数都是自己的因数和倍数。常见错误：把倍数当因数、列因数漏 1 和自己、找公倍数只写一个数的倍数。"
+    },
     "A2-7": {
       fossil: "I going to the library tomorrow / I go to swim / Tomorrow I go library",
       examples: [
