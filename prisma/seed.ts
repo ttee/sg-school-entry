@@ -8894,7 +8894,7 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
             "Which is NOT the correct way to calculate average speed?|A. Total distance ÷ total time|B. Add all speeds and divide by the number of speeds|C. Sum of all distances ÷ sum of all times|D. (Distance 1 + Distance 2) ÷ (Time 1 + Time 2)",
             "Wei drives 80 km at 40 km/h, then 80 km at 80 km/h. What is his average speed?|A. 48 km/h|B. 53.3 km/h|C. 60 km/h|D. 64 km/h",
           ]),
-          correctAnswer: "B,B,A,C,B,B,B,B",
+          correctAnswer: "B,B,A,B,B,B,B,B",
           points: 16,
         },
         {
