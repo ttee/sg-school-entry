@@ -3324,6 +3324,43 @@ const lessonPlans: Record<string, LessonPlan> = {
     ],
     speakingPrompts: null,
   },
+  "SMATH-10": {
+    title: "平方立方与根 — Squares, Cubes, Square Roots and Cube Roots by Prime Factorisation",
+    fossil: "swapping square and cube (×2 vs ×3 on exponents) / taking √ of a non-square / taking ³√ of a non-cube",
+    sections: [
+      {
+        name: "课前",
+        duration: "2 分钟",
+        teacherNotes: "确认 Zoom 设置正常。孩子和家长都在镜头前。对家长说：「今天教中学 AEIS 数学第 10 周，平方、立方、平方根和立方根通过质数分解（squares, cubes, square roots and cube roots by prime factorisation）。本周是 Sec 1 数学卷型样本，内容对应前一级 Sec 1 NUMBER AND ALGEBRA, N1. Numbers and their operations: 1.2 squares, cubes, square roots and cube roots by prime factorisation（本周只教平方、立方、平方根和立方根部分，不教 HCF 和 LCM，那是上周第 9 周）。官方 MOE 2020 G3 Mathematics Syllabuses, Secondary One, NUMBER AND ALGEBRA。SEAB 官方规则：申请 Sec 2 入学的孩子需熟悉 Sec 2 前一级（Sec 1）的内容。不用计算器，要写出分解步骤。」",
+      },
+      {
+        name: "热身",
+        duration: "5 分钟",
+        teacherNotes: "问孩子：'Do you remember how to find prime factorisation? Last week we used it for HCF and LCM. This week we use it for squares, cubes, square roots and cube roots.' 在白板上写：'6 = 2 × 3. What is 6²?' 等孩子回答。然后说：'Let's use prime factorisation. 6 = 2 × 3, so 6² = (2 × 3)² = 2² × 3² = 4 × 9 = 36.' 让孩子看到今天的目标：用质数分解求平方、立方、平方根、立方根。",
+      },
+      {
+        name: "化石",
+        duration: "8 分钟",
+        teacherNotes: "在屏幕上或白板上写下常见混淆：'Fossil 1: Swapping square and cube. ✗ Some students multiply exponents by 3 when finding a square (should be ×2), or multiply by 2 when finding a cube (should be ×3). Example: 4 = 2². Wrong: 4² = 2³ = 8 (used ×3, this is 2³ not 2⁴). Correct: 4² = 2⁴ = 16 (multiply exponent by 2: 2 × 2 = 4, so 2⁴ = 16).' 再写：'Fossil 2: Taking square root of a non-perfect-square. ✗ Example: √12. 12 = 2² × 3¹. Wrong: √12 = 2¹ × 3^0.5 (divided odd exponent 3¹ by 2). Correct: 12 is not a perfect square (because 3 has odd exponent 1). Only perfect squares have all even exponents.' 再举例：'Fossil 3: Taking cube root of a non-perfect-cube. ✗ Example: ³√16. 16 = 2⁴. Wrong: ³√16 = 2^(4/3) (divided 4 by 3). Correct: 16 is not a perfect cube (because 4 is not a multiple of 3). Only perfect cubes have all exponents as multiples of 3.' 最后写：'Fossil 4: Mixing √ and ³√. ✗ Example: Find √27. Wrong: √27 = 3 (this is ³√27, not √27). Correct: 27 = 3³, so √27 is not an integer (27 is a perfect cube, not a perfect square).'",
+      },
+      {
+        name: "例题",
+        duration: "10 分钟",
+        teacherNotes: "教师示范四道完整例题（写出分解和计算步骤）。例题 1：Find 6² by prime factorisation. 步骤：① Factorise 6. 6 = 2 × 3. ② Square: multiply each exponent by 2. 6² = (2 × 3)² = 2² × 3² = 4 × 9 = 36. Answer: 36. 例题 2：Find √36 by prime factorisation. 步骤：① Factorise 36. 36 = 2 × 2 × 3 × 3 = 2² × 3². ② Check: are all exponents even? Yes (2 and 2 are even). So 36 is a perfect square. ③ Square root: divide each exponent by 2. √36 = 2^(2÷2) × 3^(2÷2) = 2¹ × 3¹ = 2 × 3 = 6. Answer: 6. 例题 3：Find 4³ by prime factorisation. 步骤：① Factorise 4. 4 = 2 × 2 = 2². ② Cube: multiply each exponent by 3. 4³ = (2²)³ = 2^(2×3) = 2⁶ = 64. Answer: 64. 例题 4：Find ³√64 by prime factorisation. 步骤：① Factorise 64. 64 = 2 × 2 × 2 × 2 × 2 × 2 = 2⁶. ② Check: is the exponent a multiple of 3? Yes (6 = 3 × 2). So 64 is a perfect cube. ③ Cube root: divide the exponent by 3. ³√64 = 2^(6÷3) = 2² = 4. Answer: 4. 再做一道应用题：Wei is making a square floor pattern with square tiles. Each small tile measures 1 cm by 1 cm. He has 36 tiles in total. If he arranges all the tiles to form a large square, what is the length of one side of the large square? 步骤：① We need √36 (area of large square = 36 cm², side = √36). ② Factorise 36: 36 = 2² × 3². ③ √36 = 2¹ × 3¹ = 6. Answer: 6 cm.",
+      },
+      {
+        name: "练习",
+        duration: "12 分钟",
+        teacherNotes: "给孩子 3 道练习题，让孩子独立做，写出分解和计算步骤。家长可以用手机拍照孩子的推理。题 1：Find 8² by prime factorisation. 答案：8 = 2 × 2 × 2 = 2³. 8² = (2³)² = 2^(3×2) = 2⁶ = 64. Answer: 64. 题 2：Find ³√125 by prime factorisation. 答案：125 = 5 × 5 × 5 = 5³. Check: exponent 3 is a multiple of 3, so 125 is a perfect cube. ³√125 = 5^(3÷3) = 5¹ = 5. Answer: 5. 题 3：Is 18 a perfect square? 答案：Factorise 18: 18 = 2 × 3 × 3 = 2¹ × 3². Check exponents: 2 has exponent 1 (odd), 3 has exponent 2 (even). Not all exponents are even, so 18 is not a perfect square. Answer: No. 教师巡看孩子的推理，纠正格式（如果孩子只写答案不写步骤，提醒 'AEIS 官方要求写出 working steps'）。如果孩子把平方和立方的指数规则搞反（×2 vs ×3），指出：'Square: multiply by 2. Cube: multiply by 3. Don't swap them.' 如果孩子开平方根时遇到奇数次幂还除以 2，指出：'Only even exponents can be divided by 2. If any exponent is odd, it is not a perfect square.' 如果孩子开立方根时遇到不是 3 的倍数的次幂还除以 3，指出：'Only exponents that are multiples of 3 can be divided by 3. If any exponent is not a multiple of 3, it is not a perfect cube.'",
+      },
+      {
+        name: "收口",
+        duration: "3 分钟",
+        teacherNotes: "总结本周重点：(1) 官方 Sec 1 AEIS 数学卷型：Part 1 MCQ 34 题 30 分钟 + Part 2 show working 20+10–15 题 1 小时 45 分钟，不用计算器。(2) 本周内容：Sec 1 NUMBER AND ALGEBRA, N1. Numbers and their operations: 1.2 squares, cubes, square roots and cube roots by prime factorisation（本周只教平方、立方、平方根和立方根，不教 HCF 和 LCM），对应 preceding level 规则。(3) 本周化石：swapping square and cube（把平方和立方的指数规则搞反，平方时次幂×3，立方时次幂×2），taking square root of a non-perfect-square（开平方时遇到奇数次幂），taking cube root of a non-perfect-cube（开立方根时遇到不是 3 的倍数的次幂），mixing √ and ³√（把平方根和立方根混淆）。(4) Square 方法：先质数分解一个数（如 6 = 2 × 3），求平方时每个质因数的次幂×2（6² = 2² × 3² = 36）。(5) Cube 方法：每个质因数的次幂×3（4 = 2²，4³ = 2⁶ = 64）。(6) Square root 方法：只有每个质因数的次幂都是偶数才是 perfect square，每个次幂÷2（√36 = √(2² × 3²) = 2¹ × 3¹ = 6）。如果有奇数次幂，不是 perfect square。(7) Cube root 方法：只有每个质因数的次幂都是 3 的倍数才是 perfect cube，每个次幂÷3（³√64 = ³√(2⁶) = 2² = 4）。如果有次幂不是 3 的倍数，不是 perfect cube。(8) 应用：正方形地砖拼成大正方形，求边长用平方根（area = n², side = √n）；小立方体堆成大立方体，求边长用立方根（volume = n³, side = ³√n）。对家长说：「本周作业有 5+8+3 道题，模拟官方题型，不是完整 34+20+10–15 题。孩子做完后上传到作业 app，选择题自动批改，写推理题家长拍照上传。」",
+      },
+    ],
+    speakingPrompts: null,
+  },
 };
 
 export default async function LessonPlanPage({
