@@ -447,6 +447,16 @@ export default function WeikeMiniLesson({ level, weekNumber }: WeikeMiniLessonPr
       ],
       gloss: "中学 AEIS 英语本周例题：too + adj（太…不能）vs adj + enough（足够…可以）。如果意思是「超过需要/不可能」，用 too + adj（too crowded, too slow, too late, too loud）。如果意思是「足够达到需要」，用 adj + enough（wide enough, quiet enough, fast enough, large enough）。禁止：too enough, enough too, very enough。注意：The room is too small（小到不行，不够用）vs The room is small enough（小到刚好够用）意思相反！情境：Wei 第一次消防演习（alarm / leave bags / walk / stairs / assembly point / register）。"
     },
+    "SEC-11": {
+      fossil: "a few money / a little pens / few of money",
+      examples: [
+        "Wei needed a few pens for his English class. ✓ (pens 可数，用 a few)",
+        "Wei had a little money left from his allowance. ✓ (money 不可数，用 a little)",
+        "There was a little queue at the counter. ✓ (queue 单数，用 a little 表示小规模)",
+        "The auntie gave Wei a little change. ✓ (change 作为找零的钱不可数，用 a little)"
+      ],
+      gloss: "中学 AEIS 英语本周例题：a few（可数）vs a little（不可数）。如果名词可数（pens, books, minutes, dollars），用 a few。如果名词不可数（money, time, paper, water, stationery, change 作为找零），用 a little。禁止：a few money（money 不可数），a little pens（pens 可数），few of money（介词 of 用法错误）。不能同时让 a few 和 a little 都对。情境：Wei 在学校书店买文具（bookshop / exercise book / pens / S$1.50 each / receipt / wallet / allowance）。"
+    },
     "A2-7": {
       fossil: "I going to the library tomorrow / I go to swim / Tomorrow I go library",
       examples: [

@@ -2917,6 +2917,43 @@ const lessonPlans: Record<string, LessonPlan> = {
       "The alarm was too loud. It made everyone stop. ✓ (太大声了，超过需要，用 too)",
     ],
   },
+  "SEC-11": {
+    title: "School Bookshop — a few vs a little",
+    fossil: "a few (countable) vs a little (uncountable) — unique keys",
+    sections: [
+      {
+        name: "课前",
+        duration: "2 分钟",
+        teacherNotes: "确认 Zoom 设置正常。孩子和家长都在镜头前。对家长说：「今天教中学 AEIS 英语第 11 周，不是 CEQ。本周只练一个区别：a few（可数）vs a little（不可数）。如果名词可数（pens, books, minutes, dollars），正确答案是 a few，a little 不出现或明显错误。如果名词不可数（money, time, paper, water, stationery, change 作为找零），正确答案是 a little，a few 不出现或明显错误。禁止：a few money, a little pens, few of money。每个空只有一个正确答案，不能让 a few 和 a little 都对同一个空。本周情境是 Wei 在学校书店买文具。」提醒家长可以在旁边观摩，但请让孩子自己开口。",
+      },
+      {
+        name: "热身",
+        duration: "5 分钟",
+        teacherNotes: "问孩子：'Have you ever bought pens or notebooks at a school bookshop?' 让孩子说 yes / no / I don't know。问：'What do you usually buy at the bookshop?'，引导孩子说 pens / pencils / erasers / notebooks / exercise books。问：'Do you pay with cash or with your phone?'，让孩子说话。如果孩子混淆 a few 和 a little（例如说 'I need a little pens' 或 'I have a few money'），不要立刻纠正，等微课环节再讲。",
+      },
+      {
+        name: "化石",
+        duration: "8 分钟",
+        teacherNotes: "在屏幕上或白板上写下两个句子：'Wei needed _____ pens.' 和 'Wei had _____ money left.' 问孩子：'第一句空格填 a few 还是 a little？第二句填 a few 还是 a little？' 等孩子思考后，解释化石：第一句 pens 是可数名词（one pen, two pens），用 a few（a little 不出现或明显错误）。第二句 money 是不可数名词（不能说 one money, two moneys），用 a little（a few 不出现或明显错误）。关键区别：a few + 可数名词复数（a few pens / a few books / a few minutes / a few dollars），a little + 不可数名词（a little money / a little time / a little paper / a little water / a little stationery / a little change 作为找零）。禁止：a few money（money 不可数）, a little pens（pens 可数）, few of money（介词 of 用法错误）。让孩子跟读改正后的句子 3 次：Wei needed a few pens. Wei had a little money left.",
+      },
+      {
+        name: "跟读",
+        duration: "5 分钟",
+        teacherNotes: "展示 4 个正确句子（见 spokenLines），一句一句让孩子跟读。读完后问：'Which sentences use a few?' 等孩子指出可数名词的句子。问：'Which sentences use a little?' 等孩子指出不可数名词的句子。问：'Can we say a few money?' 等孩子说 'No, money is uncountable, we say a little money.' 如果孩子说错，再带读 2 次。确认孩子能区分 a few（可数）和 a little（不可数）。",
+      },
+      {
+        name: "作业",
+        duration: "5 分钟",
+        teacherNotes: "打开 /learn 页面，给孩子看 SEC 第 11 周作业入口。告诉孩子：「这周的作业是中学 AEIS 英语第 11 周，包括阅读理解（Wei 在学校书店买文具：bookshop near canteen / a little queue / a few blue pens / exercise book / Mr Lim told class to buy a little extra stationery / total S$6.50 / Wei had a little money left—only S$8 / receipt / change S$1.50 / Aisha forgot wallet / Wei can lend a few dollars）、语法题（a few 可数 vs a little 不可数，每个空只有一个正确答案）、写作（2 题选 1，写 200-300 词）。完成后系统会自动批改选择题，写作部分会有 AI 反馈。」对家长说：「这是 AEIS-Secondary 第 11 周，不是 CEQ。官方 Sec 1 卷型：Part 1 Writing 2 题选 1 篇，200-300 词；Part 2 有 50 道 MCQ（理解 + 完形 + 词汇 + 语法）。本周是样本，不是完整 50 题。孩子完成作业后，我们会在微信群里同步进度。」不提「包过」「保证录取」「题目全部原创」「官方题目」等话术。",
+      },
+    ],
+    spokenLines: [
+      "Wei needed a few pens for his English class. ✓ (pens 可数，用 a few)",
+      "Wei had a little money left from his allowance. ✓ (money 不可数，用 a little)",
+      "There was a little queue at the counter. ✓ (queue 单数，用 a little 表示小规模)",
+      "The auntie gave Wei a little change. ✓ (change 作为找零的钱不可数，用 a little)",
+    ],
+  },
   "SMATH-0": {
     title: "百分数增减 — Percentage Increase/Decrease",
     fossil: "part/whole mix-up / % of vs % increase",
