@@ -266,6 +266,14 @@ export default function WeikeMiniLesson({ level, weekNumber }: WeikeMiniLessonPr
       ],
       gloss: "P4 学展开图（nets / 展开图）：识别立体图形的二维表示（4.1: cube 立方体, cuboid 长方体, cone 圆锥, cylinder 圆柱, prism 棱柱, pyramid 棱锥）；识别展开图（4.3: cube, cuboid, prism, pyramid 的展开图——注意 cone 和 cylinder 不在 4.3，不能发明圆锥圆柱展开图）；从展开图判断可组成的立体图形（4.4）。Cube 有 6 个正方形面，cube net 有 6 个正方形折叠后无重叠（十字形 OK，一排 6 个不 OK 因为重叠）。Cuboid 有 6 个长方形面（对面相等）。Triangular prism 有 2 个三角形面 + 3 个长方形面（共 5 面）。Square pyramid 有 1 个正方形底 + 4 个三角形面（共 5 面）。常见错误：以为任何 6 个正方形排列都是 cube net、混淆 prism（2 triangles + 3 rectangles）和 square pyramid（1 square + 4 triangles）、发明 cone/cylinder net（cone 和 cylinder 只在 4.1 二维表示，不在 4.3 展开图中）、把 2D drawing 当 net。这是最后一个官方 P4 Geometry 主题周。"
     },
+    "SMATH-0": {
+      examples: [
+        "Jun Wei bought a book for S$80. The price increased by 10%.",
+        "Increase = 10% of S$80 = S$80 ÷ 10 = S$8",
+        "New price = S$80 + S$8 = S$88"
+      ],
+      gloss: "AEIS 中学数学试学周 / SMATH Sample Week. 本周例题：百分数增加/减少的算法（P6 Percentage 1.1–1.2）。新加坡钱币用 S$ 符号。10% increase: 先算 10% of 原价，再加到原价。20% decrease: 先算 20% of 原价，再从原价减去。如果已知部分和百分比，求整体：15 is 25% of ? → 15 ÷ 0.25 = 60 或 15 ÷ 25 × 100 = 60。不用计算器，写出算式步骤。"
+    },
     "SEC-0": {
       fossil: "Although I was nervous, but I tried. ✗ (中文「虽然…但是…」迁移) / I go yesterday ✗ (叙事体过去时掉落)",
       examples: [
@@ -393,7 +401,7 @@ export default function WeikeMiniLesson({ level, weekNumber }: WeikeMiniLessonPr
     return null;
   }
 
-  const isMath = level === "MATH";
+  const isMath = level === "MATH" || level === "SMATH";
 
   // MATH levels show worked examples, not fossil cards
   if (isMath) {

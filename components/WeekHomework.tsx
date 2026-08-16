@@ -58,6 +58,7 @@ import DualValidationMapMathWeek27 from "./DualValidationMapMathWeek27";
 import DualValidationMapMathWeek28 from "./DualValidationMapMathWeek28";
 import DualValidationMapMathWeek29 from "./DualValidationMapMathWeek29";
 import DualValidationMapSecWeek0 from "./DualValidationMapSecWeek0";
+import DualValidationMapSmathWeek0 from "./DualValidationMapSmathWeek0";
 import OfficialClip from "./OfficialClip";
 import WeikeMiniLesson from "./WeikeMiniLesson";
 
@@ -404,7 +405,7 @@ export default function WeekHomework({
           {week.parentBrief && (
             <div className="bg-accent/10 border border-accent/30 rounded-xl p-5">
               <h2 className="font-serif font-semibold text-lg text-ink mb-2 flex items-center gap-2">
-                <span>📌 {week.level === "MATH" ? "本周家长说明" : "本周纠错焦点"}</span>
+                <span>📌 {(week.level === "MATH" || week.level === "SMATH") ? "本周家长说明" : "本周纠错焦点"}</span>
                 {week.errorFocus && (
                   <span className="text-sm font-normal text-accent px-2 py-1 bg-accent/20 rounded-full">
                     {week.errorFocus}
@@ -618,6 +619,9 @@ export default function WeekHomework({
 
       {/* Dual-validation map for SEC Week 0 */}
       {week.level === "SEC" && week.weekNumber === 0 && <DualValidationMapSecWeek0 />}
+
+      {/* Dual-validation map for SMATH Week 0 */}
+      {week.level === "SMATH" && week.weekNumber === 0 && <DualValidationMapSmathWeek0 />}
       
       <div className="space-y-8">
         {questions.map((question, idx) => (
@@ -628,7 +632,7 @@ export default function WeekHomework({
             <div className="flex items-start justify-between mb-4">
               <h2 className="font-serif font-semibold text-xl text-ink">
                 {idx + 1}.{" "}
-                {week.level === "MATH" 
+                {(week.level === "MATH" || week.level === "SMATH")
                   ? (question.type === "reading"
                     ? "应用题 / Word Problems"
                     : question.type === "grammar"
@@ -788,7 +792,7 @@ export default function WeekHomework({
                 )}
                 
                 {/* How to practice guide */}
-                {!isCompleted && !writingFeedback[question.id] && week.level !== "MATH" && (
+                {!isCompleted && !writingFeedback[question.id] && week.level !== "MATH" && week.level !== "SMATH" && week.level !== "SMATH" && (
                   <div className="bg-paper border border-line rounded-lg p-3">
                     <p className="text-sm font-semibold text-ink mb-2">💡 如何练习 / How to practice:</p>
                     <ol className="text-sm text-ink-2 space-y-1 list-decimal list-inside">
@@ -813,7 +817,7 @@ export default function WeekHomework({
                 />
                 <div className="flex justify-between items-center gap-3">
                   <div className="flex flex-col gap-2 flex-1">
-                    {!isCompleted && week.level !== "MATH" && (
+                    {!isCompleted && week.level !== "MATH" && week.level !== "SMATH" && (
                       <button
                         onClick={() => getWritingFeedback(question.id)}
                         disabled={gettingFeedback[question.id] || !answers[question.id] || answers[question.id].trim().length <= 10}
@@ -822,13 +826,13 @@ export default function WeekHomework({
                         {gettingFeedback[question.id] ? "批改中..." : "📝 提交写作 / Get feedback"}
                       </button>
                     )}
-                    {!isCompleted && week.level !== "MATH" && (!answers[question.id] || answers[question.id].trim().length <= 10) && (
+                    {!isCompleted && week.level !== "MATH" && week.level !== "SMATH" && (!answers[question.id] || answers[question.id].trim().length <= 10) && (
                       <p className="text-xs text-muted">
                         请先输入至少 10 个字符，然后点击提交获取改善反馈 / Type at least 10 characters to submit for feedback
                       </p>
                     )}
                   </div>
-                  {week.level !== "MATH" && (
+                  {week.level !== "MATH" && week.level !== "SMATH" && (
                     <p className="text-xs text-muted whitespace-nowrap">
                       字数 / Words: {(answers[question.id] || "").trim().split(/\s+/).filter((w: string) => w.length > 0).length}
                     </p>
