@@ -2991,6 +2991,43 @@ const lessonPlans: Record<string, LessonPlan> = {
     ],
     speakingPrompts: null,
   },
+  "SMATH-7": {
+    title: "特殊四边形求未知角 — Special Quadrilaterals",
+    fossil: "treating parallelogram angle as triangle sum / treating trapezium as parallelogram / adding extra construction lines",
+    sections: [
+      {
+        name: "课前",
+        duration: "2 分钟",
+        teacherNotes: "确认 Zoom 设置正常。孩子和家长都在镜头前。对家长说：「今天教中学 AEIS 数学第 7 周，特殊四边形求未知角（finding unknown angles in special quadrilaterals）。本周是 Sec 1 数学卷型样本，内容对应前一级 P6 MEASUREMENT AND GEOMETRY, SUB-STRAND: GEOMETRY: 1. Special Quadrilaterals, 1.1 finding unknown angles, without additional construction of lines, in composite geometric figures involving square / rectangle / triangle / parallelogram / rhombus / trapezium。官方 MOE 2021 Primary Mathematics (Updated Oct 2025), PRIMARY SIX。SEAB 官方规则：申请 Sec 1 入学的孩子需熟悉 Sec 1 前一级的内容。不用计算器，要写出推理步骤。不加辅助线（without additional construction of lines）。」",
+      },
+      {
+        name: "热身",
+        duration: "5 分钟",
+        teacherNotes: "问孩子：'Do you know the properties of special quadrilaterals?' 等孩子回答。然后说：'Square and rectangle: all angles 90°. Parallelogram: adjacent angles add to 180°. Rhombus: adjacent angles add to 180°. Trapezium (Singapore): one pair of parallel sides; the two angles between the same pair of parallel sides add to 180°.' 在白板上画一个平行四边形 ABCD，标注 ∠A = 70°，问：'What is ∠B?' 等孩子回答。解释：'Adjacent angles in a parallelogram add to 180°. So ∠B = 180° − 70° = 110°.' 在白板上写公式 ∠A + ∠B = 180°，计算 ∠B = 180° − 70° = 110°。再画一个梯形 PQRS（PQ ∥ SR），标注 ∠P = 80°，问：'What is ∠S?' 等孩子回答。解释：'The two angles between the same pair of parallel sides add to 180°. So ∠S = 180° − 80° = 100°.' 在白板上写 ∠P + ∠S = 180°，计算 ∠S = 180° − 80° = 100°。",
+      },
+      {
+        name: "化石",
+        duration: "8 分钟",
+        teacherNotes: "在屏幕上或白板上写下常见混淆：'Fossil 1: Treating a parallelogram angle as a triangle sum. ✗ A parallelogram is NOT a triangle. Adjacent angles in a parallelogram add to 180°, NOT all three angles adding to 180°.' 举例：'In parallelogram ABCD, ∠A = 70°. Some students think ∠B + ∠C = 110° (triangle sum). ✗ Wrong. Adjacent angles add to 180°. So ∠B = 180° − 70° = 110°. Opposite angles are equal. So ∠C = ∠A = 70°.' 再写：'Fossil 2: Treating a trapezium as a parallelogram. ✗ A trapezium has only ONE pair of parallel sides, NOT two. So NOT all opposite angles are equal. Only the two angles between the same pair of parallel sides add to 180°.' 举例：'In trapezium PQRS (PQ ∥ SR), ∠P = 80°. Some students think ∠R = ∠P = 80° (parallelogram). ✗ Wrong. ∠P and ∠S are between the same pair of parallel sides, so ∠S = 180° − 80° = 100°. But ∠R is NOT necessarily equal to ∠P.' 再写：'Fossil 3: Adding extra construction lines. ✗ The question says without additional construction of lines. Do NOT draw diagonals or extra lines unless the question gives them.' 让孩子跟读：'Adjacent angles in a parallelogram add to 180°. The two angles between the same pair of parallel sides in a trapezium add to 180°. Do not add extra construction lines.' 2 次。",
+      },
+      {
+        name: "例题",
+        duration: "10 分钟",
+        teacherNotes: "教师示范一道完整例题（写出推理步骤）。例题 1：In parallelogram ABCD, ∠A = 70°. Find ∠B. 步骤：① In a parallelogram, adjacent angles add to 180°. ② ∠A + ∠B = 180°. ③ ∠B = 180° − 70° = 110°. Answer: 110°. 再做一道梯形：In trapezium PQRS, PQ is parallel to SR. ∠P = 80° and ∠Q = 100°. Find ∠R. 步骤：① In a trapezium, the two angles between the same pair of parallel sides add to 180°. ② PQ ∥ SR, so ∠Q and ∠R are between the same pair of parallel sides. ③ ∠Q + ∠R = 180°. ④ ∠R = 180° − 100° = 80°. Answer: 80°. 再做一道菱形：In rhombus WXYZ, ∠W = 110°. Find ∠X. 步骤：① In a rhombus, adjacent angles add to 180°. ② ∠W + ∠X = 180°. ③ ∠X = 180° − 110° = 70°. Answer: 70°. 孩子在纸上抄一遍例题步骤。",
+      },
+      {
+        name: "练习",
+        duration: "12 分钟",
+        teacherNotes: "给孩子 3 道练习题，让孩子独立做，写出推理步骤。家长可以用手机拍照孩子的推理。题 1：In parallelogram ABCD, ∠B = 65°. Find ∠C. 答案：Adjacent angles add to 180°. ∠B + ∠C = 180°. ∠C = 180° − 65° = 115°. 题 2：In trapezium WXYZ, WX is parallel to ZY. ∠W = 110°. Find ∠Z. 答案：The two angles between the same pair of parallel sides add to 180°. ∠W + ∠Z = 180°. ∠Z = 180° − 110° = 70°. 题 3：In rectangle PQRS, ∠P = 90°. Find ∠Q. 答案：All angles in a rectangle are 90°. ∠Q = 90°. 教师巡看孩子的推理，纠正格式（如果孩子只写答案不写步骤，提醒 'AEIS 官方要求写出 working steps'）。如果孩子把平行四边形当成三角形，提醒 'A parallelogram is NOT a triangle. Adjacent angles add to 180°, NOT all angles adding to 180°.' 如果孩子把梯形当成平行四边形，提醒 'A trapezium has only ONE pair of parallel sides. NOT all opposite angles are equal.'",
+      },
+      {
+        name: "收口",
+        duration: "3 分钟",
+        teacherNotes: "总结本周重点：(1) 官方 Sec 1 AEIS 数学卷型：Part 1 MCQ 34 题 30 分钟 + Part 2 show working 20+10–15 题 1 小时 45 分钟，不用计算器。(2) 本周内容：P6 MEASUREMENT AND GEOMETRY, GEOMETRY: 1. Special Quadrilaterals, 1.1 finding unknown angles, without additional construction of lines, in composite geometric figures involving square / rectangle / triangle / parallelogram / rhombus / trapezium，对应 preceding level 规则。(3) 本周化石：treating a parallelogram angle as a triangle sum（把平行四边形的角当成三角形和 180°）、treating a trapezium as a parallelogram（把梯形当成平行四边形，以为所有对角都相等）、adding extra construction lines（加了题目没给的辅助线）。(4) 四边形性质：square / rectangle all angles 90°；parallelogram adjacent angles add to 180°；rhombus adjacent angles add to 180°；trapezium (SG) the two angles between the same pair of parallel sides add to 180°。对家长说：「本周作业有 5+8+3 道题，模拟官方题型，不是完整 34+20+10–15 题。孩子做完后上传到作业 app，选择题自动批改，写推理题家长拍照上传。」",
+      },
+    ],
+    speakingPrompts: null,
+  },
 };
 
 export default async function LessonPlanPage({
