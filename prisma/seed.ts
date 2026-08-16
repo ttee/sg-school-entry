@@ -1541,6 +1541,103 @@ Which calculation shows adding 1/2 and 1/4?`,
         },
       ],
     },
+    {
+      level: "MATH",
+      weekNumber: 20,
+      title: "数学 第 20 周 / Maths Week 20",
+      description: "AEIS-Primary P4 Mathematics: Decimals up to 3 decimal places",
+      isSample: false,
+      errorFocus: null,
+      parentBrief: "本周主题：小数到三位（decimals up to 3 decimal places）：十分位 tenths、百分位 hundredths、千分位 thousandths，包括 1.1 小数记法和位值（notation, representations and place values）、1.2 比较和排序（comparing and ordering decimals）、1.3 小数转分数（expressing decimals as fractions）、1.4 分数转小数当分母是 10 或 100 的因数时（expressing fractions as decimals when the denominator is a factor of 10 or 100）、1.5 四舍五入到整数/1 位/2 位（rounding decimals to the nearest whole number / 1 decimal place / 2 decimal places），对应官方 2021 Primary Mathematics Syllabus P4 Decimals 1.1–1.5。申请 P5 入学的孩子需掌握 P4 内容（MOE AEIS preceding level 规则）。位值：0.256 中的 5 在百分位 = 0.05。比较：0.47 < 0.5 因为 0.47 = 47 hundredths, 0.50 = 50 hundredths。转换：0.4 = 4/10 = 2/5（要约分到最简）；3/5 = 6/10 = 0.6（分母是 10 的因数）。四舍五入：2.36 到 1 d.p. = 2.4（看百分位 6 ≥ 5 进位）；5.852 到 2 d.p. = 5.85（看千分位 2 < 5 不进位）。常见错误：0.35 当成 0.350 比大小时只看位数不看值（错误地认为位数多就大）、0.4 = 4/10 忘了约分（应该是 2/5）、四舍五入看错位（要四舍五入到 1 d.p. 却看了百分位而不是十分位后一位）。题目是简体中文家长说明 + 英文题干。本周配有双向对照表，显示题目对应的官方 2021 Primary Mathematics Syllabus P4 内容点（Decimals 1.1–1.5），以及 MOE AEIS 的「preceding level」规则（申请 P5 → 掌握 P4 内容）。明确说明：本周不教小数加减乘除（adding/subtracting/multiplying/dividing decimals，那是下周 2.1 和后续 3.1–3.3）、小数×÷10/100/1000（P5）、百分数（percentages）、4 位小数（4 decimal places）。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: `Read each question and choose the correct answer.
+
+Question 1:
+At Tampines Primary School, Jun Wei wrote the number 3.256 on the board. What is the value of the digit 5 in this number?
+
+Question 2:
+Priya ran 0.47 km. Mei ran 0.5 km. Who ran further?
+
+Question 3:
+Ali measured three ribbons. The lengths are 0.8 m, 0.75 m, and 0.805 m. Arrange the ribbons from shortest to longest.
+
+Question 4:
+In the canteen, 0.4 of the tables have red chairs. Write 0.4 as a fraction in simplest form.
+
+Question 5:
+At the library, 3/5 of the books are fiction. Write 3/5 as a decimal.`,
+          options: JSON.stringify([
+            "Value of 5 in 3.256|A. 0.5|B. 0.05|C. 0.005|D. 5",
+            "0.47 km vs 0.5 km|A. Priya ran further|B. Mei ran further|C. They ran the same distance|D. Cannot tell",
+            "Order 0.8, 0.75, 0.805 from shortest to longest|A. 0.8, 0.75, 0.805|B. 0.75, 0.805, 0.8|C. 0.75, 0.8, 0.805|D. 0.805, 0.8, 0.75",
+            "0.4 as a fraction in simplest form|A. 4/10|B. 2/5|C. 4/100|D. 1/4",
+            "3/5 as a decimal|A. 0.3|B. 0.35|C. 0.6|D. 0.65",
+          ]),
+          correctAnswer: "B,B,C,B,C",
+          points: 5,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: `Choose the correct answer for each question.
+
+Question 6:
+What is 0.25 written as a fraction in simplest form?
+
+Question 7:
+What is 7/10 written as a decimal?
+
+Question 8:
+Round 2.36 to 1 decimal place.
+
+Question 9:
+Round 5.852 to 2 decimal places.
+
+Question 10:
+Which is greater: 0.6 or 0.58?
+
+Question 11:
+What is 1/4 written as a decimal?
+
+Question 12:
+Round 3.47 to the nearest whole number.
+
+Question 13:
+What is 0.75 written as a fraction in simplest form?`,
+          options: JSON.stringify([
+            "0.25 as fraction in simplest form|A. 25/100|B. 1/4|C. 2/5|D. 5/20",
+            "7/10 as decimal|A. 0.07|B. 0.7|C. 7.0|D. 0.71",
+            "Round 2.36 to 1 d.p.|A. 2.3|B. 2.4|C. 2.0|D. 3.0",
+            "Round 5.852 to 2 d.p.|A. 5.85|B. 5.86|C. 5.9|D. 6.0",
+            "0.6 vs 0.58|A. 0.6 > 0.58|B. 0.6 < 0.58|C. 0.6 = 0.58|D. Cannot tell",
+            "1/4 as decimal|A. 0.14|B. 0.25|C. 0.4|D. 0.5",
+            "Round 3.47 to nearest whole number|A. 3|B. 3.5|C. 4|D. 3.4",
+            "0.75 as fraction in simplest form|A. 75/100|B. 7/10|C. 3/4|D. 15/20",
+          ]),
+          correctAnswer: "B,B,B,A,A,B,A,C",
+          points: 8,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `At Bedok Primary School, the students are learning about decimals.
+
+(a) In the number 12.385, what is the value of the digit 8? Show your working.
+
+(b) Compare and arrange these decimals from smallest to greatest: 1.2, 1.15, 1.205. Show your working.
+
+(c) Convert 0.6 to a fraction in simplest form. Convert 3/4 to a decimal. Round 4.68 to 1 decimal place. Show your working for each.
+
+写出算式、答案和说明。For comparing decimals, show how you align decimal places. For fractions, show simplification steps.`,
+          points: 10,
+        },
+      ],
+    },
     
     // A2 WEEKS
     {

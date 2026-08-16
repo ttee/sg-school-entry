@@ -47,6 +47,7 @@ import DualValidationMapMathWeek16 from "./DualValidationMapMathWeek16";
 import DualValidationMapMathWeek17 from "./DualValidationMapMathWeek17";
 import DualValidationMapMathWeek18 from "./DualValidationMapMathWeek18";
 import DualValidationMapMathWeek19 from "./DualValidationMapMathWeek19";
+import DualValidationMapMathWeek20 from "./DualValidationMapMathWeek20";
 import OfficialClip from "./OfficialClip";
 import WeikeMiniLesson from "./WeikeMiniLesson";
 
@@ -580,6 +581,9 @@ export default function WeekHomework({
 
       {/* Dual-validation map for MATH Week 19 */}
       {week.level === "MATH" && week.weekNumber === 19 && <DualValidationMapMathWeek19 />}
+
+      {/* Dual-validation map for MATH Week 20 */}
+      {week.level === "MATH" && week.weekNumber === 20 && <DualValidationMapMathWeek20 />}
       
       <div className="space-y-8">
         {questions.map((question, idx) => (
