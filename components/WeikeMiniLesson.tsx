@@ -151,6 +151,14 @@ export default function WeikeMiniLesson({ level, weekNumber }: WeikeMiniLessonPr
       ],
       gloss: "P4 学因数与倍数（factors and multiples）：因数 factors 是能整除某数的数（12 ÷ 3 = 4 无余数，所以 3 是 12 的因数）；倍数 multiples 是某数乘以整数的结果（7 × 5 = 35，所以 35 是 7 的倍数）。公因数 common factors：12 的因数有 1,2,3,4,6,12，18 的因数有 1,2,3,6,9,18，公因数是 1,2,3,6。公倍数 common multiples：4 的倍数有 4,8,12,16,20,24...，6 的倍数有 6,12,18,24...，公倍数有 12,24,36... 关键词：factor（因数）、multiple（倍数）、common factors（公因数）、common multiples（公倍数）、divides exactly（整除）。注意：本周不教质数 prime numbers / 质因数分解 prime factorisation / HCF LCM 名称（只说 common factors / common multiples）。任何数都是自己的因数和倍数。常见错误：把倍数当因数、列因数漏 1 和自己、找公倍数只写一个数的倍数。"
     },
+    "MATH-16": {
+      examples: [
+        "Jun Wei counted 2413 stickers. He has 6 folders. He puts them equally: 2413 ÷ 6 = 402 R1.",
+        "Each folder gets 402 stickers. 1 sticker is left over.",
+        "The school bought 316 boxes of pencils. Each box has 28 pencils. 316 × 28 = 8848 pencils in total."
+      ],
+      gloss: "P4 学四则运算里的乘除算法（multiplication / division algorithm）：3.1 乘法算法 up to 4 digits by 1 digit（2413 × 6 = 14478, 竖式进位）、up to 3 digits by 2 digits（316 × 28 = 8848, 两个部分积对齐位值 316×20=6320, 316×8=2528）；3.2 除法算法 up to 4 digits by 1 digit（2413 ÷ 6 = 402 R1, 竖式 long division, 余数必须 < 除数）。关键词：multiplication algorithm（乘法算法）、division algorithm（除法算法）、carry（进位）、partial product（部分积）、quotient（商）、remainder（余数）。常见错误：进位漏写、个位对齐错、余数 ≥ 除数、3位数×2位数把部分积错位。注意：本周不教运算顺序 order of operations / 括号 brackets / 小数百分数 decimals & percentages / 两位数除法 long division by 2-digit（那是 P5）/ 计算器。4位数÷1位数有余数OK（如果题目要求 quotient and remainder）。"
+    },
     "A2-7": {
       fossil: "I going to the library tomorrow / I go to swim / Tomorrow I go library",
       examples: [

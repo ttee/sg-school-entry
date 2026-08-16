@@ -1147,6 +1147,105 @@ Which statement is true about the relationship between factors and multiples?`,
         },
       ],
     },
+
+    // MATH WEEK 16
+    {
+      level: "MATH",
+      weekNumber: 16,
+      title: "数学 第 16 周 / Maths Week 16",
+      description: "AEIS-Primary P4 Mathematics: Four operations (multiply and divide)",
+      isSample: false,
+      errorFocus: null,
+      parentBrief: "本周主题：四则运算里的乘除算法（multiplication / division algorithm），对应官方 2021 Primary Mathematics Syllabus P4 Whole Numbers → Four Operations。P4 新知识点：3.1 multiplication algorithm（乘法算法）up to 4 digits by 1 digit（4 位数 × 1 位数）、up to 3 digits by 2 digits（3 位数 × 2 位数）；3.2 division algorithm（除法算法）up to 4 digits by 1 digit（4 位数 ÷ 1 位数）。申请 P5 入学的孩子需掌握 P4 内容（MOE AEIS preceding level 规则）。常见错误：进位漏写或写错位置（carry 错）、个位对齐错误（竖式没对齐 place value）、余数 ≥ 除数（remainder 必须小于 divisor）、3 位数 × 2 位数把第二个部分积放错位（partial product 对齐错）。题目是简体中文家长说明 + 英文题干。本周配有双向对照表，显示题目对应的官方 2021 Primary Mathematics Syllabus P4 内容点（Four Operations: 3.1 multiplication algorithm, 3.2 division algorithm），以及 MOE AEIS 的「preceding level」规则（申请 P5 → 掌握 P4 内容）。注意：本周不教运算顺序（order of operations）、括号（brackets）、因数倍数（factors/multiples，那是上周）、小数（decimals）、百分数（percentages）、余数当分数写（remainder as fraction）、两位数除法（long division by 2-digit divisor, 那是 P5）、计算器（calculator）、5 位数 × 任何数（five digits × anything）。4 位数 ÷ 1 位数有余数是可以的，如果题目要求 quotient and remainder（P4 标准）。乘积和被除数都要保持在官方规定的位数范围内。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: `Read each question and choose the correct answer.
+
+Question 1:
+At East Coast Primary School, the library has 8 shelves. Each shelf holds 1267 books. How many books are there in total?
+
+Question 2:
+Mr Tan bought 23 boxes of pencils for the art room. Each box contains 124 pencils. How many pencils did he buy altogether?
+
+Question 3:
+Jurong Primary School collected 9856 bottle caps for recycling. The students want to pack them equally into 4 bins. How many bottle caps will each bin have?
+
+Question 4:
+The school library received 9847 new books. The librarian wants to arrange them equally on 8 shelves. How many books will go on each shelf, and how many books will be left over?
+
+Question 5:
+A bakery in Chinatown made 5634 pineapple tarts. They pack 6 tarts in each box. How many boxes can they fill, and how many tarts will be left over?`,
+          options: JSON.stringify([
+            "Total books in library|A. 10136 books|B. 10136|C. 10 136|D. 10,136",
+            "Total pencils Mr Tan bought|A. 2752|B. 2852|C. 2952|D. 2862",
+            "Bottle caps in each bin|A. 2464|B. 2364|C. 2564|D. 2454",
+            "9847 ÷ 8|A. 1230 R7|B. 1231 R7|C. 1230 R8|D. 1231 R0",
+            "Boxes and leftover tarts|A. 939 boxes, 0 tarts left|B. 939 boxes, 6 tarts left|C. 938 boxes, 6 tarts left|D. 939 boxes, 2 tarts left",
+          ]),
+          correctAnswer: "A,B,A,A,A",
+          points: 5,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: `Choose the correct answer for each question.
+
+Question 6:
+What is 3456 × 7?
+
+Question 7:
+What is 8293 × 8?
+
+Question 8:
+What is 425 × 36?
+
+Question 9:
+What is 567 × 29?
+
+Question 10:
+What is 8964 ÷ 4?
+
+Question 11:
+What is 7236 ÷ 3?
+
+Question 12:
+What is 9125 ÷ 5?
+
+Question 13:
+Mei solved 6847 ÷ 7. She got quotient 978 and remainder 1. Is she correct?`,
+          options: JSON.stringify([
+            "3456 × 7|A. 24192|B. 24292|C. 24182|D. 24092",
+            "8293 × 8|A. 66344|B. 66334|C. 66244|D. 66444",
+            "425 × 36|A. 15300|B. 15200|C. 15400|D. 15100",
+            "567 × 29|A. 16443|B. 16343|C. 16543|D. 16243",
+            "8964 ÷ 4|A. 2241|B. 2242|C. 2240|D. 2243",
+            "7236 ÷ 3|A. 2412|B. 2512|C. 2312|D. 2612",
+            "9125 ÷ 5|A. 1825|B. 1925|C. 1725|D. 1625",
+            "Is Mei correct? 6847 ÷ 7 = 978 R1|A. No, the quotient should be 977|B. No, the remainder should be 0|C. Yes, she is correct|D. No, the remainder should be 2",
+          ]),
+          correctAnswer: "A,A,A,A,A,A,A,C",
+          points: 8,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `At Bedok Primary School, the students are learning about the four operations.
+
+(a) The school cafeteria serves 1856 students lunch every day. If lunch costs $3 for each student, how much money does the cafeteria collect in one day? Show your working.
+
+(b) Jun Wei's class collected 4365 marbles for a charity sale. They want to pack them equally into 9 bags. How many marbles will go in each bag, and how many marbles will be left over? Show your working and explain what the remainder means.
+
+(c) The school ordered 248 boxes of markers. Each box contains 45 markers. The art teacher wants to know if there are enough markers for all 600 students to get at least 18 markers each. Calculate the total number of markers and show whether there are enough. Show your working.
+
+写出答案和说明。`,
+          points: 10,
+        },
+      ],
+    },
     
     // A2 WEEKS
     {

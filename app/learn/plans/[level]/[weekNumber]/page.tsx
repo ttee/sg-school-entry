@@ -1824,6 +1824,52 @@ const lessonPlans: Record<string, LessonPlan> = {
       "What are the first three common multiples of 3 and 5? (Say the answer.)",
     ],
   },
+  "MATH-16": {
+    title: "四则运算乘除算法 — Multiplication and division algorithms",
+    mathExample: "Jun Wei counted 2413 stickers. He has 6 folders. 2413 ÷ 6 = 402 R1. Each folder gets 402 stickers, 1 left over. Also: 316 boxes × 28 pencils = 8848 pencils.",
+    sections: [
+      {
+        name: "热身",
+        duration: "3 分钟",
+        teacherNotes: "说 '2413 × 6.' 和 '2413 ÷ 6 = 402 R1.' 让孩子注意四位数的乘除算法。",
+      },
+      {
+        name: "本周例题",
+        duration: "8 分钟",
+        teacherNotes: "在白板上写：'2413 ÷ 6 = 402 R1'。问孩子：'How many in each folder?' 引导回答 '402 stickers in each folder, 1 sticker left over.' 强调 remainder（余数）必须小于 divisor（除数）。然后写：'316 × 28 = 8848'。解释：3 位数 × 2 位数，两个部分积（316×20=6320, 316×8=2528），对齐位值后相加。关键词：multiplication algorithm（乘法算法）、division algorithm（除法算法）、partial product（部分积）、quotient（商）、remainder（余数）。注意：P4 只教 up to 4 digits by 1 digit（4 位数 × 1 位数）、up to 3 digits by 2 digits（3 位数 × 2 位数）、up to 4 digits by 1 digit division（4 位数 ÷ 1 位数）。不教两位数除法（那是 P5）。",
+      },
+      {
+        name: "孩子口头说算式",
+        duration: "10 分钟",
+        teacherNotes: "给 3 个口头题，孩子说出算式和答案。题目 1：'What is 3456 × 7?' 期待输出：'3456 × 7 = 24192. Three thousand four hundred and fifty-six times seven equals twenty-four thousand one hundred and ninety-two.' 题目 2：'What is 425 × 36?' 期待输出：'425 × 36 = 15300. Four hundred and twenty-five times thirty-six equals fifteen thousand three hundred.' 题目 3：'What is 8964 ÷ 4?' 期待输出：'8964 ÷ 4 = 2241. Eight thousand nine hundred and sixty-four divided by four equals two thousand two hundred and forty-one.'",
+      },
+      {
+        name: "开口",
+        duration: "12 分钟",
+        teacherNotes: "让孩子读出算式并解释。比如 '2413 ÷ 6 = 402 R1'，孩子要说 'Two thousand four hundred and thirteen divided by six equals four hundred and two remainder one.' 或 '316 × 28 = 8848'，孩子要说 'Three hundred and sixteen times twenty-eight equals eight thousand eight hundred and forty-eight.' 注意读法：times（乘）、divided by（除）、remainder（余数）、equals（等于）。",
+      },
+      {
+        name: "收口",
+        duration: "5 分钟",
+        teacherNotes: "提醒本周作业有 P4 数学题目，包括四则运算里的乘法算法（multiplication algorithm: 4 位数 × 1 位数、3 位数 × 2 位数）、除法算法（division algorithm: 4 位数 ÷ 1 位数，可能有余数）。对应申请 P5 的孩子需要掌握的 P4 内容（preceding level 规则）。题目使用新加坡学校情境（图书馆、文具、回收、食堂等）。强调：本周不教运算顺序 order of operations（+ − 和 × ÷ 混合谁先算）、括号 brackets、小数 decimals、百分数 percentages、两位数除法 long division by 2-digit（那是 P5）、计算器 calculator。常见错误：进位漏写 carry error、个位对齐错 place value alignment、余数 ≥ 除数 remainder ≥ divisor（余数必须 < 除数）、3位数×2位数把第二个部分积放错位 partial product misaligned。",
+      },
+    ],
+    spokenLines: [
+      "2413 ÷ 6 = 402 R1",
+      "Two thousand four hundred and thirteen divided by six equals four hundred and two remainder one.",
+      "316 × 28 = 8848",
+      "Three hundred and sixteen times twenty-eight equals eight thousand eight hundred and forty-eight.",
+      "3456 × 7 = 24192",
+      "Three thousand four hundred and fifty-six times seven equals twenty-four thousand one hundred and ninety-two.",
+      "425 × 36 = 15300",
+      "Four hundred and twenty-five times thirty-six equals fifteen thousand three hundred.",
+    ],
+    childPrompts: [
+      "What is 3456 × 7? (Say the calculation.)",
+      "What is 8964 ÷ 4? (Say the calculation.)",
+      "What is 425 × 36? (Say the calculation.)",
+    ],
+  },
 };
 
 export default async function LessonPlanPage({
