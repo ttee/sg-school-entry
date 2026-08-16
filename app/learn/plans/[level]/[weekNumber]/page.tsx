@@ -2254,6 +2254,54 @@ const lessonPlans: Record<string, LessonPlan> = {
       "Temperature: 8 a.m. 26°C, 10 a.m. 29°C, 12 noon 31°C. What is the difference between noon and 8 a.m.? (Say the calculation.)",
     ],
   },
+  "MATH-25": {
+    title: "饼图 — Pie charts",
+    mathExample: "40 children chose favourite sports. The pie chart shows: Football 1/2, Swimming 1/4, Basketball 1/8, Running 1/8. Which sport is most popular? Compare: 1/2 > 1/4 > 1/8. Football (1/2) is the largest slice. How many chose Football? 1/2 of 40 = 40 ÷ 2 = 20 children.",
+    sections: [
+      {
+        name: "热身",
+        duration: "3 分钟",
+        teacherNotes: "用文字描述一个饼图：'40 children chose favourite sports. The pie chart shows: Football 1/2, Swimming 1/4, Basketball 1/8, Running 1/8.' 问孩子：'Which sport is the most popular?' 引导：比较分数 1/2, 1/4, 1/8, 1/8。最大的是 1/2，所以 Football。让孩子注意：饼图每一块是整体的几分之几（each slice is a fraction of the whole），最大块就是分数最大的块（the largest slice is the one with the biggest fraction）。",
+      },
+      {
+        name: "本周例题",
+        duration: "8 分钟",
+        teacherNotes: "在白板上写饼图数据（文字描述）：'40 children chose favourite sports. The pie chart shows: Football 1/2, Swimming 1/4, Basketball 1/8, Running 1/8.' 画简单饼图示意图：圆形分成四块，标上 Football 1/2（一半）、Swimming 1/4（四分之一）、Basketball 1/8、Running 1/8。问孩子：'Which sport is the most popular?' 引导：compare fractions: 1/2 = 4/8, 1/4 = 2/8, 1/8 = 1/8, 1/8 = 1/8. Biggest is 4/8 = 1/2, so Football. 再问：'How many children chose Football?' 引导：Football is 1/2 of the total. Total is 40. So 1/2 of 40 = 40 ÷ 2 = 20 children. 强调：用分数乘总数时先除以分母再乘以分子（divide by denominator first, then multiply by numerator），如 1/2 of 40 = 40 ÷ 2 = 20，2/5 of 60 = 60 ÷ 5 × 2 = 12 × 2 = 24。验证所有分数块之和是 1（check that all fractions add up to 1）：1/2 + 1/4 + 1/8 + 1/8 = 4/8 + 2/8 + 1/8 + 1/8 = 8/8 = 1 ✓. 关键词：pie chart（饼图）、slice（一块）、fraction of the whole（整体的几分之几）、largest slice（最大块）、smallest slice（最小块）、of（的，用于分数乘法）、divide by denominator（除以分母）、multiply by numerator（乘以分子）。本周只用分数（fractions: 1/2, 1/4, 1/8, 1/5, 3/8 等），不用百分数（percentages）。",
+      },
+      {
+        name: "孩子口头说算式",
+        duration: "10 分钟",
+        teacherNotes: "给 3 个口头题，孩子说出比较和算式。题目 1：'48 students. Pie chart shows: Bus 1/2, Walk 1/4, Car 1/6, Cycle 1/12. How many travel by bus?' 期待输出：'Bus is one half of the total. Total is forty-eight. One half of forty-eight equals forty-eight divided by two equals twenty-four. Twenty-four students travel by bus.' 题目 2：'24 students. Pie chart shows: Apple 1/3, Orange 1/4, Mango 1/6, Banana 1/4. Which fruit is the least popular?' 期待输出：'Compare the fractions: one third, one quarter, one sixth, one quarter. Convert to common denominator: one third equals four twelfths, one quarter equals three twelfths, one sixth equals two twelfths, one quarter equals three twelfths. The smallest is two twelfths equals one sixth. So Mango is the least popular.' 题目 3：'60 students. Pie chart shows: Water 2/5, Juice 1/5, Milk 1/5, Milo 1/5. How many bought water?' 期待输出：'Water is two fifths of the total. Total is sixty. Two fifths of sixty equals sixty divided by five times two equals twelve times two equals twenty-four. Twenty-four students bought water.'",
+      },
+      {
+        name: "开口",
+        duration: "12 分钟",
+        teacherNotes: "让孩子读出饼图数据并说出最大/最小块和人数计算。比如 '32 students. Pie chart shows: Apple 1/4, Orange 1/2, Mango 1/8, Banana 1/8'，孩子要说 'The pie chart shows fruit choices. Apple is one quarter, orange is one half, mango is one eighth, banana is one eighth. To find the most popular, I compare the fractions: one half equals four eighths, one quarter equals two eighths, one eighth equals one eighth, one eighth equals one eighth. The largest is four eighths equals one half. So orange is the most popular. How many students chose orange? Orange is one half of thirty-two. One half of thirty-two equals thirty-two divided by two equals sixteen students.' 或 '40 drinks. Pie chart shows: Water 1/2, Juice 1/4, Milk 1/8, Milo 1/8'，孩子要说 'Water is one half of forty. Forty divided by two equals twenty students. Juice is one quarter of forty. Forty divided by four equals ten students. Check: all fractions must add to one. One half plus one quarter plus one eighth plus one eighth equals four eighths plus two eighths plus one eighth plus one eighth equals eight eighths equals one. Correct.' 注意读法：pie chart（饼图）、slice（一块）、one half / one quarter / one eighth（二分之一 / 四分之一 / 八分之一）、the largest slice（最大块）、the smallest slice（最小块）、of（的，用于分数乘法）、divide by denominator（除以分母）、multiply by numerator（乘以分子）、add up to one（加起来是 1）。常见错误：treating the largest slice as the whole（把最大块当作全部：如果 Football 是 1/2，不是说 Football = 40，而是 Football = 40 ÷ 2 = 20）、fractions do not sum to 1（分数块加起来不是 1：必须检查）、incorrect order: multiplying by numerator first（先乘分子再除分母：应该先除以分母，如 40 ÷ 2，不是 40 × 1 ÷ 2）、not converting to common denominator when comparing unlike fractions（比较分数时不通分）。",
+      },
+      {
+        name: "收口",
+        duration: "5 分钟",
+        teacherNotes: "提醒本周作业有 P4 数学题目，包括读饼图找最大/最小块（finding the largest/smallest slice by comparing fractions）、用分数乘总数求人数（calculating the number by multiplying the total by the fraction: divide by denominator first, then multiply by numerator）、验证所有分数块之和是 1（verifying that all fractions add up to 1）。对应申请 P5 的孩子需要掌握的 P4 内容（preceding level 规则，Statistics 1.2 pie charts）。题目使用新加坡学校情境（运动选择、交通方式、水果选择、图书借阅、CCA 活动、East Coast Park 活动等）。描述饼图时用文字给出总数和每一块的分数让孩子能唯一确定最大/最小块和人数，例如 '40 children. Pie chart shows: Football 1/2, Swimming 1/4, Basketball 1/8, Running 1/8.' 强调：饼图每一块是整体的几分之几（each slice is a fraction of the whole），最大块就是分数最大的块（the largest slice is the one with the biggest fraction），用分数乘总数时先除以分母再乘以分子（divide by denominator first, then multiply by numerator），所有分数块之和必须是 1（all fractions must add up to 1）。常见错误：treating the largest slice as the whole（把最大块当作全部）、fractions do not sum to 1（分数块加起来不是 1）、incorrect order（先乘分子再除分母）、not converting to common denominator when comparing unlike fractions（比较分数时不通分）。本周只用分数（fractions: 1/2, 1/4, 1/8, 1/5, 3/8 等），不用百分数（percentages）。本周不教：百分数（percentages，P5）、平均数/均值（mean / average）、360° 扇形角度计算（sector angles in degrees，除非用简单分数 1/4 = 90°，但重点是分数 of a set）。",
+      },
+    ],
+    spokenLines: [
+      "40 children. Pie: Football 1/2, Swimming 1/4, Basketball 1/8, Running 1/8.",
+      "Which sport is most popular? Compare: one half, one quarter, one eighth, one eighth.",
+      "One half equals four eighths. One quarter equals two eighths.",
+      "Largest is four eighths equals one half. So Football.",
+      "How many chose Football? One half of forty = 40 ÷ 2 = 20 children.",
+      "Check: 1/2 + 1/4 + 1/8 + 1/8 = 4/8 + 2/8 + 1/8 + 1/8 = 8/8 = 1.",
+      "All fractions add up to one. Correct.",
+      "2/5 of 60 = 60 ÷ 5 × 2 = 12 × 2 = 24.",
+      "Divide by denominator first, then multiply by numerator.",
+      "先除以分母再乘以分子。",
+    ],
+    childPrompts: [
+      "48 students. Pie: Bus 1/2, Walk 1/4, Car 1/6, Cycle 1/12. How many travel by bus? (Say the calculation.)",
+      "24 students. Pie: Apple 1/3, Orange 1/4, Mango 1/6, Banana 1/4. Which fruit is the least popular? (Say the comparison.)",
+      "60 students. Pie: Water 2/5, Juice 1/5, Milk 1/5, Milo 1/5. How many bought water? (Say the calculation.)",
+    ],
+  },
 };
 
 export default async function LessonPlanPage({
