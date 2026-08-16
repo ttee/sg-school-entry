@@ -2010,6 +2010,54 @@ const lessonPlans: Record<string, LessonPlan> = {
       "What is 5/12 + 1/4? Give your answer in simplest form. (Say the calculation.)",
     ],
   },
+  "MATH-20": {
+    title: "小数到三位 — Decimals up to 3 decimal places",
+    mathExample: "0.47 < 0.5 because 0.47 = 47 hundredths, 0.50 = 50 hundredths. 3/5 = 6/10 = 0.6. The denominator 5 is a factor of 10. 2.36 to 1 d.p. = 2.4. Look at hundredths: 6 ≥ 5, round up.",
+    sections: [
+      {
+        name: "热身",
+        duration: "3 分钟",
+        teacherNotes: "说 '0.47' 和 '0.5'。让孩子注意：小数可以有不同位数，比较时要补零对齐。展示两个数字卡：0.47 和 0.5。问 'Which is bigger?' 引导：0.47 = 47 hundredths, 0.5 = 0.50 = 50 hundredths。所以 0.5 > 0.47。",
+      },
+      {
+        name: "本周例题",
+        duration: "8 分钟",
+        teacherNotes: "在白板上写：'3.256'。问孩子：'What is the value of the digit 5?' 引导：5 在百分位（hundredths place）= 0.05。位值：十分位 tenths（0.1）、百分位 hundredths（0.01）、千分位 thousandths（0.001）。然后写：'0.47 and 0.5'。问孩子：'Which is greater?' 引导：补零对齐，0.47 = 0.470, 0.5 = 0.500。比较：470 < 500，所以 0.47 < 0.5。再写：'0.4 as a fraction'。引导：0.4 = 4/10 = 2/5（约分到最简分数 simplest form）。写：'3/5 as a decimal'。引导：分母 5 是 10 的因数（factor of 10）。3/5 = 6/10 = 0.6。写：'Round 2.36 to 1 d.p.'。引导：看百分位（hundredths place）：6 ≥ 5，进位。2.36 → 2.4。关键词：tenths（十分位）、hundredths（百分位）、thousandths（千分位）、place value（位值）、compare（比较）、order（排序）、decimal（小数）、fraction（分数）、round（四舍五入）、d.p.（decimal place，小数位）、simplest form（最简分数）。注意：本周只教 P4 Decimals 1.1–1.5（notation, place values, comparing, decimals ↔ fractions when denominator is factor of 10/100, rounding to whole/1 d.p./2 d.p.）。不教小数加减乘除（adding/subtracting/multiplying/dividing decimals）、×÷10/100/1000（P5）、百分数（percentages）、4 位小数（4 decimal places）。",
+      },
+      {
+        name: "孩子口头说算式",
+        duration: "10 分钟",
+        teacherNotes: "给 3 个口头题，孩子说出算式和答案。题目 1：'What is the value of the digit 8 in 12.385?' 期待输出：'The digit 8 is in the hundredths place. Its value is 0.08. Zero point zero eight or eight hundredths.' 题目 2：'Compare 1.2, 1.15, and 1.205. Arrange them from smallest to greatest.' 期待输出：'Align the decimal places: 1.200, 1.150, 1.205. From smallest to greatest: 1.15, 1.2, 1.205. One point one five, one point two, one point two zero five.' 题目 3：'Convert 0.6 to a fraction in simplest form. Convert 3/4 to a decimal. Round 4.68 to 1 decimal place.' 期待输出：'0.6 = 6/10 = 3/5. Three fifths. 3/4 = 75/100 = 0.75. Zero point seven five. 4.68 to 1 d.p.: look at hundredths, 8 is greater than or equal to 5, round up to 4.7. Four point seven.'",
+      },
+      {
+        name: "开口",
+        duration: "12 分钟",
+        teacherNotes: "让孩子读出小数并解释位值、比较、转换、四舍五入。比如 '3.256'，孩子要说 'Three point two five six. The 5 is in the hundredths place. Its value is zero point zero five or five hundredths.' 或 '0.47 < 0.5'，孩子要说 'Zero point four seven is less than zero point five. Because zero point four seven equals forty-seven hundredths, and zero point five equals fifty hundredths.' 注意读法：point（小数点）、tenths（十分位）、hundredths（百分位）、thousandths（千分位）、less than（小于）、greater than（大于）、equals（等于）、simplest form（最简分数）、round to（四舍五入到）、d.p.（decimal place）。",
+      },
+      {
+        name: "收口",
+        duration: "5 分钟",
+        teacherNotes: "提醒本周作业有 P4 数学题目，包括小数位值（place values）、比较排序（comparing and ordering）、小数转分数（decimals to fractions）、分数转小数（fractions to decimals when denominator is factor of 10/100）、四舍五入（rounding to whole/1 d.p./2 d.p.）。对应申请 P5 的孩子需要掌握的 P4 内容（preceding level 规则）。题目使用新加坡学校情境（测量、比赛、图书馆、食堂座位比例等）。强调：位值读法（tenths, hundredths, thousandths）、比较时补零对齐、小数转分数要约分到最简、分数转小数分母要是 10 或 100 的因数、四舍五入看下一位（≥5 进位，<5 不进位）。常见错误：0.35 当成 0.350 比大小只看位数、0.4 = 4/10 忘了约分、四舍五入看错位（要四舍五入到 1 d.p. 却看了百分位而不是十分位后一位）。本周不教小数加减乘除（下周开始）、×÷10/100/1000（P5）、百分数、4 位小数。",
+      },
+    ],
+    spokenLines: [
+      "0.47 < 0.5",
+      "Zero point four seven is less than zero point five.",
+      "3/5 = 0.6",
+      "Three fifths equals zero point six.",
+      "2.36 to 1 d.p. = 2.4",
+      "Two point three six rounded to one decimal place equals two point four.",
+      "0.4 = 4/10 = 2/5",
+      "Zero point four equals four tenths or two fifths in simplest form.",
+      "5.852 to 2 d.p. = 5.85",
+      "Five point eight five two rounded to two decimal places equals five point eight five.",
+    ],
+    childPrompts: [
+      "What is the value of the digit 8 in 12.385? (Say the place and value.)",
+      "Compare 1.2, 1.15, and 1.205. Arrange from smallest to greatest. (Say the order.)",
+      "Convert 0.6 to a fraction in simplest form. Convert 3/4 to a decimal. Round 4.68 to 1 d.p. (Say all three.)",
+    ],
+  },
 };
 
 export default async function LessonPlanPage({

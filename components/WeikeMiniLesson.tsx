@@ -183,6 +183,14 @@ export default function WeikeMiniLesson({ level, weekNumber }: WeikeMiniLessonPr
       ],
       gloss: "P4 学分数加减（adding and subtracting fractions）：同分母（like fractions）直接加减分子，如 2/7 + 3/7 = 5/7。异分母（unlike fractions）先找公分母（common denominator），再加减分子，如 1/2 + 1/4 = 2/4 + 1/4 = 3/4（把 1/2 变成 2/4）。答案要化简到最简分数（simplest form），如 4/8 = 1/2。关键词：like fractions（同分母分数）、unlike fractions（异分母分数）、common denominator（公分母）、simplest form（最简分数）。常见错误：分子分母一起加（1/2 + 1/3 ≠ 2/5，错误）、异分母不先通分、通分后忘了改分子（1/2 变成 2/4 时分子也要×2）、答案不约分（写 4/8 而不是 1/2）。例：3/4 − 1/2 = 3/4 − 2/4 = 1/4；5/12 + 1/4 = 5/12 + 3/12 = 8/12 = 2/3；5/6 − 1/3 = 5/6 − 2/6 = 3/6 = 1/2。注意：本周只教至多两个不同分母（not more than two different denominators），分母不超过 12。本周不教带分数加减（adding mixed numbers, P5）、分数乘法（multiplying fractions, P5）、三个不同分母、小数百分数。"
     },
+    "MATH-20": {
+      examples: [
+        "0.47 < 0.5 because 0.47 = 47 hundredths, 0.50 = 50 hundredths.",
+        "3/5 = 6/10 = 0.6. The denominator 5 is a factor of 10.",
+        "2.36 to 1 d.p. = 2.4. Look at the hundredths place: 6 ≥ 5, so round up."
+      ],
+      gloss: "P4 学小数到三位（decimals up to 3 decimal places）：十分位 tenths、百分位 hundredths、千分位 thousandths。位值：3.256 中的 5 在百分位 = 0.05。比较小数：补零对齐，0.47 = 0.470, 0.5 = 0.500，所以 0.47 < 0.5。小数转分数：0.4 = 4/10 = 2/5（约分到最简）。分数转小数：分母是 10 或 100 的因数时，如 3/5 = 6/10 = 0.6。四舍五入：2.36 到 1 d.p.，看百分位 6 ≥ 5，进位得 2.4；5.852 到 2 d.p.，看千分位 2 < 5，不进位得 5.85。关键词：tenths（十分位）、hundredths（百分位）、thousandths（千分位）、place value（位值）、compare（比较）、order（排序）、round（四舍五入）、simplest form（最简分数）。常见错误：0.35 当成 0.350 比大小只看位数、0.4 = 4/10 忘了约分、四舍五入看错位。注意：本周不教小数加减乘除（下周 2.1）、×÷10/100/1000（P5）、百分数、4 位小数。"
+    },
     "A2-7": {
       fossil: "I going to the library tomorrow / I go to swim / Tomorrow I go library",
       examples: [
