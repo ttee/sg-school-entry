@@ -7985,7 +7985,7 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
           order: 1,
           content: "Choose the correct answer:",
           options: JSON.stringify([
-            "Fill in the blank with the correct symbol: −8 ___ −3|A. <|B. >|C. ≤|D. ≥",
+            "Fill in the blank with the correct symbol: −8 ___ −3|A. <|B. >|C. =|D. Cannot be compared",
             "Is the statement −3 ≤ −3 true or false?|A. True|B. False|C. Cannot be determined|D. Need more information",
             "Which statement is true?|A. −5 < −2|B. −5 > −2|C. −5 = −2|D. 0 < −1",
             "Fill in the blank with the correct symbol: 0 ___ −2|A. <|B. >|C. They are equal|D. Cannot be compared",
@@ -8008,7 +8008,7 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
             "Which statement is true?|A. −2.5 < −1.5|B. −2.5 > −1.5|C. −2.5 = −1.5|D. 0 < −2.5",
             "The temperature on Monday was −6°C. On Tuesday it was −2°C. On Wednesday it was 1°C. Which inequality shows Monday's temperature compared to Tuesday's?|A. −6 < −2|B. −6 > −2|C. −6 = −2|D. −2 < −6",
           ]),
-          correctAnswer: "A,A,A,C,B,A,A,A",
+          correctAnswer: "A,A,A,C,A,A,A,A",
           points: 16,
         },
         {
