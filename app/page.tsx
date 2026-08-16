@@ -185,7 +185,7 @@ export default function HomePage() {
 
               <article className="bg-card border border-line rounded-2xl p-6 shadow">
                 <h3 className="font-serif text-xl font-semibold mb-2">AEIS 数学</h3>
-                <p className="text-sm text-ink-2 mb-2">试学周 + 第 1–12 周 · P2 全套 + P3 整数/乘除/分数/测量/面积周长/时间/角与直线</p>
+                <p className="text-sm text-ink-2 mb-2">试学周 + 第 1–13 周 · P2 全套 + P3 至条形统计图</p>
                 <p className="text-xs text-muted">试学周免费</p>
               </article>
             </div>
@@ -282,7 +282,7 @@ export default function HomePage() {
                 </div>
                 <p className="text-xs font-semibold uppercase tracking-wide text-accent mb-3">按月订阅</p>
                 <p className="text-ink-2 mb-4 text-sm">
-                  作业 app 解锁已上线周数（A2 试学周 + 第 1–11 周，B1 试学周 + 第 1–11 周，MATH 试学周 + 第 1–12 周）+ 家长微信进度通报。可随时取消。
+                  作业 app 解锁已上线周数（A2 试学周 + 第 1–11 周，B1 试学周 + 第 1–11 周，MATH 试学周 + 第 1–13 周）+ 家长微信进度通报。可随时取消。
                 </p>
                 <ul className="space-y-0 border-t border-line mb-5">
                   <li className="border-b border-line py-3 pl-5 relative before:absolute before:left-0 before:top-5 before:w-2 before:h-2 before:rounded-full before:bg-accent text-sm text-ink-2">

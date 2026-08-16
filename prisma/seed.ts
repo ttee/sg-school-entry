@@ -822,6 +822,129 @@ Art 📖📖📖📖📖
         },
       ],
     },
+    {
+      level: "MATH",
+      weekNumber: 13,
+      title: "数学 第 13 周 / Maths Week 13",
+      description: "AEIS-Primary P3 Mathematics: Bar graphs",
+      isSample: false,
+      errorFocus: null,
+      parentBrief: "本周主题：条形统计图（对应 MOE 小学 P3 数学大纲）。P3 新知识点：读条形图（bar graph）、比较条的高低、找最多/最少、计算差值（difference）、计算总数（total）。P2 第 5 周学过象形统计图（picture graph），本周升级到条形图。申请 P4 入学的孩子需掌握 P3 内容（MOE AEIS preceding level 规则）。常见错误：不看纵轴刻度直接猜答案、混淆「most」（最多）和「least」（最少）、计算差值时忘记减法、求总数时漏掉某个条。题目是简体中文家长说明 + 英文题干。本周配有双向对照表，显示题目对应的官方 2021 Primary Mathematics Syllabus P3 内容点（Statistics: Reading and interpreting bar graphs; Comparing data; Solving simple problems involving bar graphs），以及 MOE AEIS 的「preceding level」规则（申请 P4 → 掌握 P3 内容）。注意：P3 只教条形图，不教 P4 的折线图（line graph）或 P5 的饼图（pie chart）。题目用文字描述条形图（因为系统是文字 MCQ，没有图片上传功能），例如「Favourite fruit (each bar = number of children) Apple 8, Orange 5, Mango 12, Banana 7」。数字保持简单，条的高度差别明显，便于比较。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: `Read each question and choose the correct answer. The bar graphs are described in text form below.
+
+Bar graph 1: Favourite Fruits
+(Each bar shows the number of children who chose that fruit)
+Apple: 8 children
+Orange: 5 children
+Mango: 12 children
+Banana: 7 children
+
+Bar graph 2: Favourite Sports
+(Each bar shows the number of students)
+Football: 15 students
+Basketball: 10 students
+Swimming: 18 students
+Badminton: 9 students
+
+Bar graph 3: Favourite Colours
+(Each bar shows the number of children)
+Red: 6 children
+Blue: 14 children
+Green: 10 children
+Yellow: 4 children
+
+Bar graph 4: Pets at Home
+(Each bar shows the number of children who have that pet)
+Dog: 11 children
+Cat: 9 children
+Fish: 5 children
+Rabbit: 7 children
+
+Bar graph 5: Favourite Drinks
+(Each bar shows the number of children)
+Milk: 8 children
+Juice: 12 children
+Water: 15 children
+Tea: 5 children`,
+          options: JSON.stringify([
+            "Look at Bar graph 1 (Favourite Fruits). How many children chose Apple?|A. 5 children|B. 7 children|C. 8 children|D. 12 children",
+            "Look at Bar graph 2 (Favourite Sports). Which sport is the most popular?|A. Football|B. Basketball|C. Swimming|D. Badminton",
+            "Look at Bar graph 3 (Favourite Colours). Which colour is the least popular?|A. Red|B. Blue|C. Green|D. Yellow",
+            "Look at Bar graph 4 (Pets at Home). How many more children have dogs than fish?|A. 4 children|B. 5 children|C. 6 children|D. 7 children",
+            "Look at Bar graph 5 (Favourite Drinks). How many children were surveyed in total?|A. 35 children|B. 40 children|C. 45 children|D. 50 children",
+          ]),
+          correctAnswer: "C,C,D,C,B",
+          points: 5,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: `Choose the correct answer for each question.
+
+Bar graph 6: Number of Books Read
+(Each bar shows the number of books read by each student in one month)
+Ali: 8 books
+Sara: 5 books
+Jun Wei: 10 books
+Priya: 6 books
+
+Bar graph 7: Favourite Subjects
+(Each bar shows the number of students)
+English: 12 students
+Maths: 16 students
+Science: 10 students
+Art: 8 students
+
+Bar graph 8: Activities Participated
+(Each bar shows the number of children)
+Dance: 7 children
+Music: 9 children
+Drama: 5 children
+Robotics: 11 children`,
+          options: JSON.stringify([
+            "A bar graph is used to show _____ .|A. pictures only|B. data and compare information|C. words and sentences|D. colours and shapes",
+            "In a bar graph, the height of the bar shows _____ .|A. the colour|B. the name|C. the number or value|D. the date",
+            "Look at Bar graph 6. The tallest bar shows the _____ number of books read.|A. smallest|B. same|C. average|D. greatest",
+            "Look at Bar graph 6. The shortest bar shows the _____ number of books read.|A. greatest|B. smallest|C. middle|D. total",
+            "Look at Bar graph 7. How many students chose Maths?|A. 10 students|B. 12 students|C. 16 students|D. 8 students",
+            "Look at Bar graph 6. How many more books did Ali read than Sara?|A. 2 books|B. 3 books|C. 4 books|D. 5 books",
+            "Look at Bar graph 7. What is the total number of students who participated?|A. 40 students|B. 42 students|C. 46 students|D. 50 students",
+            "In a bar graph, each bar represents _____ .|A. nothing|B. a category or item|C. the same number|D. only colours",
+          ]),
+          correctAnswer: "B,C,D,B,C,B,C,B",
+          points: 8,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `At Tampines Primary School, Class 3A did a survey about favourite sports. The results are shown in the bar graph below.
+
+Favourite Sports Survey - Class 3A
+(Each bar shows the number of students)
+Football: 12 students
+Basketball: 8 students
+Swimming: 10 students
+Badminton: 6 students
+
+Answer the following questions. Show your working.
+
+(a) How many students chose Football? Show your working.
+
+(b) Which sport is the most popular? How do you know?
+
+(c) How many more students chose Football than Badminton? Show your working.
+
+写出答案和说明。`,
+          points: 10,
+        },
+      ],
+    },
     
     // A2 WEEKS
     {
