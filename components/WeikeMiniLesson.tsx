@@ -486,6 +486,14 @@ export default function WeikeMiniLesson({ level, weekNumber }: WeikeMiniLessonPr
       ],
       gloss: "AEIS 中学数学第 23 周 / SMATH Week 23. 本周例题：Sec 1 平均速率、速度、匀速和平均速度（Sec 1 NUMBER AND ALGEBRA: N4.1 concepts of average rate, speed, constant speed and average speed）。Average rate = total quantity ÷ total time（平均速率 = 总量 ÷ 总时间，如 90 pages in 3 h → 30 pages/h）。Speed = distance ÷ time（速度 = 路程 ÷ 时间，如 120 km in 2 h → 60 km/h）。Constant speed = the same speed for the whole journey（匀速 = 全程保持同一速度）。Average speed = total distance ÷ total time（平均速度 = 总路程 ÷ 总时间，不是两个速度的平均数）。例：60 km at 60 km/h then 60 km at 30 km/h：times 1 h + 2 h = 3 h，average speed = 120 ÷ 3 = 40 km/h，不是 (60+30)÷2 = 45。本周化石：taking the mean of two speeds（把两个速度求平均数，如 40 和 60 错误地算 50，应该是 total distance ÷ total time）；using one part of journey as whole（把旅程一段当全程）；mixing rate units（混淆速率单位）。本周只教 N4 的 4.1（concepts），不教 4.2 conversion of units（单位换算，如 km/h ↔ m/s）和 4.3 problems involving rate and speed（速率和速度应用题），那些是后续内容。不用计算器，写出算式步骤。"
     },
+    "SMATH-24": {
+      examples: [
+        "18 km/h = 18 × 5/18 = 5 m/s",
+        "36 km/h = 36 × 5/18 = 10 m/s. 72 km/h = 72 × 5/18 = 20 m/s",
+        "10 m/s = 10 × 18/5 = 36 km/h. 5 m/s = 5 × 18/5 = 18 km/h"
+      ],
+      gloss: "AEIS 中学数学第 24 周 / SMATH Week 24. 本周例题：Sec 1 速率单位换算（Sec 1 NUMBER AND ALGEBRA: N4.2 conversion of units, e.g. km/h to m/s）。1 km = 1000 m, 1 h = 3600 s。km/h → m/s: multiply by 1000/3600 = 5/18（如 18 km/h = 18 × 5/18 = 5 m/s，36 km/h = 10 m/s，72 km/h = 20 m/s，54 km/h = 15 m/s）。m/s → km/h: multiply by 3600/1000 = 18/5（如 10 m/s = 10 × 18/5 = 36 km/h，5 m/s = 18 km/h）。本周化石：multiplying by 18/5 when converting km/h → m/s（方向错误，应该是 × 5/18）；multiplying by 5/18 when converting m/s → km/h（方向错误，应该是 × 18/5）；treating 1 hour as 60 seconds（把 1 小时当 60 秒，应该是 3600 秒）；forgetting the 1000（忘记 1 km = 1000 m）。第 23 周已完成 4.1（concepts of average rate, speed, constant speed and average speed），本周只教 4.2（conversion of units），第 25 周教 4.3（problems involving rate and speed）。不用计算器，写出算式步骤。"
+    },
     "SEC-0": {
       fossil: "Although I was nervous, but I tried. ✗ (中文「虽然…但是…」迁移) / I go yesterday ✗ (叙事体过去时掉落)",
       examples: [
