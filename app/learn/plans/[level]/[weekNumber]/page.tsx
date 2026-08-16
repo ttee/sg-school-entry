@@ -2880,6 +2880,43 @@ const lessonPlans: Record<string, LessonPlan> = {
       "Wei wanted to go back, but Nurse Ong told him to rest. ✓ (but 在逗号后)",
     ],
   },
+  "SEC-10": {
+    title: "Fire Drill — too vs enough",
+    fossil: "too + adj vs adj + enough — unique keys",
+    sections: [
+      {
+        name: "课前",
+        duration: "2 分钟",
+        teacherNotes: "确认 Zoom 设置正常。孩子和家长都在镜头前。对家长说：「今天教中学 AEIS 英语第 10 周，不是 CEQ。本周只练一个区别：too + adj（太…不能）vs adj + enough（足够…可以）。如果意思是『超过需要/不可能』，正确答案是 too（too crowded / too slow / too late / too loud），enough 不出现或明显错误。如果意思是『足够达到需要』，正确答案是 enough（wide enough / quiet enough / fast enough / large enough），too 不出现或明显错误。禁止：too enough, enough too, very enough。每个空只有一个正确答案，不能让 too 和 enough 都对同一个空。本周情境是 Wei 第一次消防演习。」提醒家长可以在旁边观摩，但请让孩子自己开口。",
+      },
+      {
+        name: "热身",
+        duration: "5 分钟",
+        teacherNotes: "问孩子：'Have you ever had a fire drill at school?' 让孩子说 yes / no / I don't know。问：'What do you do during a fire drill?'，引导孩子说 leave the classroom / go outside / line up / don't run。问：'Why do schools have fire drills?'，让孩子说话。如果孩子混淆 too 和 enough（例如说 'The room is too big enough' 或 'The corridor was enough crowded'），不要立刻纠正，等微课环节再讲。",
+      },
+      {
+        name: "化石",
+        duration: "8 分钟",
+        teacherNotes: "在屏幕上或白板上写下两个句子：'The corridor was _____ for them to move quickly. (meaning: more crowded than wanted)' 和 'The staircase was _____ for two lines of students. (meaning: sufficient width)' 问孩子：'第一句空格填 too crowded 还是 crowded enough？第二句填 too wide 还是 wide enough？' 等孩子思考后，解释化石：第一句意思是「太挤了，不能快走」（超过需要，不可能），用 too crowded（enough 不出现或明显错误）。第二句意思是「够宽，可以走两排」（足够达到需要），用 wide enough（too 不出现或明显错误）。关键区别：too + adj = 超过需要/不可能（The corridor was too crowded. ✓ The alarm was too loud. ✓），adj + enough = 足够达到需要（The staircase was wide enough. ✓ The field was large enough. ✓）。禁止：too enough, enough too, very enough。强调：The room is too small（小到不行，不够用）vs The room is small enough（小到刚好够用）意思相反！让孩子跟读改正后的句子 3 次。",
+      },
+      {
+        name: "跟读",
+        duration: "5 分钟",
+        teacherNotes: "展示 4 个正确句子（见 spokenLines），一句一句让孩子跟读。读完后问：'Which sentences use too?' 等孩子指出超过需要的句子。问：'Which sentences use enough?' 等孩子指出足够达到需要的句子。问：'Can we say the corridor was too crowded enough?' 等孩子说 'No, we can only use too or enough, not both.' 如果孩子说错，再带读 2 次。确认孩子能区分 too（超过需要）和 enough（达到需要）。",
+      },
+      {
+        name: "作业",
+        duration: "5 分钟",
+        teacherNotes: "打开 /learn 页面，给孩子看 SEC 第 10 周作业入口。告诉孩子：「这周的作业是中学 AEIS 英语第 10 周，包括阅读理解（Wei 第一次消防演习：alarm / leave bags / walk don't run / stairs / assembly point on the field / class register）、语法题（too + adj vs adj + enough，每个空只有一个正确答案）、写作（2 题选 1，写 200-300 词）。完成后系统会自动批改选择题，写作部分会有 AI 反馈。」对家长说：「这是 AEIS-Secondary 第 10 周，不是 CEQ。官方 Sec 1 卷型：Part 1 Writing 2 题选 1 篇，200-300 词；Part 2 有 50 道 MCQ（理解 + 完形 + 词汇 + 语法）。本周是样本，不是完整 50 题。孩子完成作业后，我们会在微信群里同步进度。」不提「包过」「保证录取」「题目全部原创」「官方题目」等话术。",
+      },
+    ],
+    spokenLines: [
+      "The corridor was too crowded to move quickly. ✓ (太挤了，不能快走，用 too)",
+      "The staircase was wide enough for two lines. ✓ (够宽，可以走两排，用 enough)",
+      "The field was large enough for all classes. ✓ (够大，所有班级都能站，用 enough)",
+      "The alarm was too loud. It made everyone stop. ✓ (太大声了，超过需要，用 too)",
+    ],
+  },
   "SMATH-0": {
     title: "百分数增减 — Percentage Increase/Decrease",
     fossil: "part/whole mix-up / % of vs % increase",

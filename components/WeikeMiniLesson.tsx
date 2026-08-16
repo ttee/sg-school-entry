@@ -437,6 +437,16 @@ export default function WeikeMiniLesson({ level, weekNumber }: WeikeMiniLessonPr
       ],
       gloss: "中学 AEIS 英语本周例题：although（concession 让步）和 but（contrast 对比转折）不能同时用（中文「虽然…但是…」在英语里只用一个）。Although Wei felt unwell, he finished the lesson. ✓ 或 Wei felt unwell, but he finished the lesson. ✓。如果空格在句首或引导让步从句，用 although。如果空格在逗号后连接对比句子，用 but。每个空只有一个正确答案。情境：Wei 身体不适去 sick bay（Mr Lim sends him / Nurse Ong: sit down, take temperature, drink water）。"
     },
+    "SEC-10": {
+      fossil: "too enough / enough too / very enough / The room is too small vs The room is small enough (意思相反)",
+      examples: [
+        "The corridor was too crowded to move quickly. ✓ (太挤了，不能快走)",
+        "The staircase was wide enough for two lines. ✓ (够宽，可以走两排)",
+        "The field was large enough for all classes. ✓ (够大，所有班级都能站)",
+        "The alarm was too loud. It made everyone stop. ✓ (太大声了，超过需要的程度)"
+      ],
+      gloss: "中学 AEIS 英语本周例题：too + adj（太…不能）vs adj + enough（足够…可以）。如果意思是「超过需要/不可能」，用 too + adj（too crowded, too slow, too late, too loud）。如果意思是「足够达到需要」，用 adj + enough（wide enough, quiet enough, fast enough, large enough）。禁止：too enough, enough too, very enough。注意：The room is too small（小到不行，不够用）vs The room is small enough（小到刚好够用）意思相反！情境：Wei 第一次消防演习（alarm / leave bags / walk / stairs / assembly point / register）。"
+    },
     "A2-7": {
       fossil: "I going to the library tomorrow / I go to swim / Tomorrow I go library",
       examples: [
