@@ -1345,6 +1345,105 @@ Look at these fractions: 2 1/4, 5/3, 1 5/8, 9/2. How many of them are improper f
         },
       ],
     },
+
+    // MATH WEEK 18
+    {
+      level: "MATH",
+      weekNumber: 18,
+      title: "数学 第 18 周 / Maths Week 18",
+      description: "AEIS-Primary P4 Mathematics: Fraction of a set",
+      isSample: false,
+      errorFocus: null,
+      parentBrief: "本周主题：一组的几分之几（fraction of a set），对应官方 2021 Primary Mathematics Syllabus P4 Fractions 2.1 fraction as part of a set。申请 P5 入学的孩子需掌握 P4 内容（MOE AEIS preceding level 规则）。算法：先÷分母再×分子。常见错误：先乘后除（multiplying before dividing）、把 of 当成减去（misinterpreting 'of' as subtraction）、分母分子对调（swapping numerator and denominator）。题目是简体中文家长说明 + 英文题干。本周配有双向对照表，显示题目对应的官方 2021 Primary Mathematics Syllabus P4 内容点（Fractions: 2.1 fraction as part of a set），以及 MOE AEIS 的「preceding level」规则（申请 P5 → 掌握 P4 内容）。明确说明：本周不教带分数互换（mixed / improper conversion, 已在第 17 周）、异分母加减（adding/subtracting unlike fractions, 后续周）、分数乘法（multiplying fractions, P5）、小数（decimals）、百分数（percentages）、需要余数作为分数的除法问题（leftover items with remainder as fraction）。分母不超过 12（denominators not exceeding 12）。集合必须能整除（sets must divide evenly）。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: `Read each question and choose the correct answer.
+
+Question 1:
+At Tampines Primary School, there are 12 students in the art class. The teacher asks 1/4 of the students to prepare the paint brushes. How many students will prepare the paint brushes?
+
+Question 2:
+Jun Wei has 18 stickers. He gives 2/3 of his stickers to his friend Priya. How many stickers does Jun Wei give to Priya?
+
+Question 3:
+The library has 20 books about Singapore animals. 3/5 of the books are about birds. How many books are about birds?
+
+Question 4:
+At the canteen, there are 24 chairs. 5/8 of the chairs are red. The rest are blue. How many chairs are red?
+
+Question 5:
+In Mei's class, there are 32 children. 3/4 of the children walk to school. How many children walk to school?`,
+          options: JSON.stringify([
+            "1/4 of 12 students|A. 3 students|B. 4 students|C. 6 students|D. 8 students",
+            "2/3 of 18 stickers|A. 6 stickers|B. 9 stickers|C. 12 stickers|D. 16 stickers",
+            "3/5 of 20 books|A. 8 books|B. 10 books|C. 12 books|D. 15 books",
+            "5/8 of 24 chairs|A. 12 chairs|B. 15 chairs|C. 18 chairs|D. 20 chairs",
+            "3/4 of 32 children|A. 8 children|B. 16 children|C. 24 children|D. 28 children",
+          ]),
+          correctAnswer: "A,C,C,B,C",
+          points: 5,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: `Choose the correct answer for each question.
+
+Question 6:
+What is 1/3 of 15?
+
+Question 7:
+What is 2/5 of 30?
+
+Question 8:
+Priya has 16 pencils. She uses 3/4 of them for her drawing. How many pencils does she use?
+
+Question 9:
+At Woodlands Primary School, there are 36 books on the shelf. 5/6 of the books are story books. How many story books are there?
+
+Question 10:
+Ali bought 28 erasers. He gave 3/7 of the erasers to his classmates. How many erasers did he give away?
+
+Question 11:
+In the school garden, there are 40 plants. 7/10 of the plants are flowers. How many plants are flowers?
+
+Question 12:
+Jun Wei collected 48 bottle caps. He gave 5/8 of them to the recycling bin. How many bottle caps did he give?
+
+Question 13:
+Which calculation shows 2/3 of 18?`,
+          options: JSON.stringify([
+            "1/3 of 15|A. 3|B. 5|C. 6|D. 10",
+            "2/5 of 30|A. 6|B. 10|C. 12|D. 15",
+            "3/4 of 16 pencils|A. 4 pencils|B. 8 pencils|C. 12 pencils|D. 14 pencils",
+            "5/6 of 36 books|A. 6 books|B. 18 books|C. 24 books|D. 30 books",
+            "3/7 of 28 erasers|A. 4 erasers|B. 8 erasers|C. 12 erasers|D. 21 erasers",
+            "7/10 of 40 plants|A. 4 plants|B. 14 plants|C. 28 plants|D. 35 plants",
+            "5/8 of 48 bottle caps|A. 6 bottle caps|B. 24 bottle caps|C. 30 bottle caps|D. 40 bottle caps",
+            "2/3 of 18|A. 18 − 2 = 16|B. 18 × 3 ÷ 2 = 27|C. 18 ÷ 3 × 2 = 12|D. 18 ÷ 2 × 3 = 27",
+          ]),
+          correctAnswer: "B,C,C,D,C,C,C,C",
+          points: 8,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `At Raffles Primary School, the students are learning about fractions of a set.
+
+(a) The art teacher has 20 markers. She uses 2/5 of the markers for the drawing lesson. How many markers does she use? Show your working.
+
+(b) In the library, there are 30 children. 3/10 of the children are reading books about Singapore history. How many children are reading books about Singapore history? Show your working.
+
+(c) Priya has 24 stickers of animals. 5/6 of the stickers are stickers of birds. The rest are stickers of fish. How many stickers of birds does Priya have? Show your working and explain your answer.
+
+写出算式、答案和说明。`,
+          points: 10,
+        },
+      ],
+    },
     
     // A2 WEEKS
     {
