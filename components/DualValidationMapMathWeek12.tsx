@@ -160,27 +160,27 @@ export default function DualValidationMapMathWeek12() {
             <tr className="border-b border-accent/10">
               <td className="px-3 py-3 text-ink align-top">
                 <strong>选择题 Q6</strong><br />
-                Look at the classroom floor. The tiles are laid in rows. The lines between the tiles are parallel. How many pairs of parallel lines can you see if there are 3 rows?
+                The longer sides of a rectangle are _____ .
               </td>
               <td className="px-3 py-3 text-ink-2 align-top">
-                <strong>Lines: Parallel lines</strong><br />
-                • Identifying parallel lines in real contexts
+                <strong>Lines: Parallel lines in shapes</strong><br />
+                • Properties of rectangles
               </td>
               <td className="px-3 py-3 text-ink-2 align-top">
-                P3 标准技能：3 行瓷砖会形成平行线，相邻两行之间有 2 对平行线
+                P3 标准技能：长方形的长边（longer sides）与长边是平行的，短边与短边也是平行的
               </td>
             </tr>
             <tr className="border-b border-accent/10">
               <td className="px-3 py-3 text-ink align-top">
                 <strong>选择题 Q7</strong><br />
-                The corner of a book makes a right angle. If you place two books together at their corners, how many right angles are there in total?
+                One corner of a book is a right angle. How many degrees is that?
               </td>
               <td className="px-3 py-3 text-ink-2 align-top">
-                <strong>Angles: Right angles</strong><br />
-                • Counting right angles
+                <strong>Angles: Right angle</strong><br />
+                • Understanding right angle = 90°
               </td>
               <td className="px-3 py-3 text-ink-2 align-top">
-                P3 标准技能：每本书有 1 个直角（corner），2 本书 = 2 个 right angles
+                P3 标准技能：直角 = 90°（ninety degrees）
               </td>
             </tr>
             <tr className="border-b border-accent/10">

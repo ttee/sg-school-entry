@@ -12,7 +12,7 @@ export default async function LessonPlansIndex() {
 
   const a2Weeks = Array.from({ length: 12 }, (_, i) => i);
   const b1Weeks = Array.from({ length: 12 }, (_, i) => i);
-  const mathWeeks = Array.from({ length: 12 }, (_, i) => i);
+  const mathWeeks = Array.from({ length: 13 }, (_, i) => i);
 
   return (
     <div>
