@@ -2496,6 +2496,57 @@ const lessonPlans: Record<string, LessonPlan> = {
       "A net has 2 triangles and 3 rectangles. Which solid can be formed by this net? (Say the property and answer.)",
     ],
   },
+  "SEC-0": {
+    title: "Wei 的第一周 — First Week at Secondary School",
+    fossil: "Although I was nervous, but I tried. ✗ / I go yesterday ✗",
+    sections: [
+      {
+        name: "课前",
+        duration: "2 分钟",
+        teacherNotes: "确认 Zoom 设置正常。孩子和家长都在镜头前。对家长说：「今天教中学 AEIS 英语试学，不是 CEQ。本周只练一个错误：although 和 but 不能同时用，叙事体用过去时。」提醒家长可以在旁边观摩，但请让孩子自己开口。",
+      },
+      {
+        name: "热身",
+        duration: "5 分钟",
+        teacherNotes: "问孩子：'Have you started secondary school? Or will you start soon?' 让孩子说几句。如果孩子说 'I go to secondary school yesterday'（过去时错误）或 'Although I was nervous, but I tried'（although-but 错误），不要立刻纠正，等微课环节再讲。问：'Were you nervous on your first day?'，引导孩子说 'Yes, I was nervous.' 或 'I felt nervous.'（过去时）。",
+      },
+      {
+        name: "化石",
+        duration: "8 分钟",
+        teacherNotes: "在屏幕上或白板上写下两个错误句子：'Although I was nervous, but I tried.' 和 'I go yesterday.' 问孩子：'这两句话对吗？' 等孩子思考后，圈出错误部分。解释化石 1：中文说「虽然…但是…」，英语只用一个词。Although I was nervous, I tried. ✓（只用 although）或 I was nervous, but I tried. ✓（只用 but）。不能同时用。化石 2：Yesterday / Last Monday 出现时，动词变过去式。I went yesterday. ✓（不是 I go）。叙事体全用过去时：Wei felt nervous（不是 feel）、Mr Lim welcomed us（不是 welcome）。让孩子跟读改正后的句子 3 次。",
+      },
+      {
+        name: "跟读",
+        duration: "10 分钟",
+        teacherNotes: "教师说一句，孩子跟读一句。每句重复 2 次。共 6-8 句短句，场景是 Wei 的中学第一周。包括 although / but 的对比句和叙事过去时句子。句子见下方【跟读句子】列表。注意语调：陈述句平稳，疑问句结尾上扬。如果孩子某句卡住，教师拆分成小块再跟读。",
+      },
+      {
+        name: "开口",
+        duration: "12 分钟",
+        teacherNotes: "给孩子 3 个开放提示，让孩子自己说完整句子。家长可以用手机录像。第一个提示：'You were nervous on your first day at secondary school, but you made one friend. Tell me.' 期待输出：'Although I was nervous, I made one friend.' 或 'I was nervous, but I made one friend.'（注意不要同时用 although 和 but）。第二个提示：'Yesterday your form teacher welcomed the class. Tell me what happened.' 期待输出：'Yesterday my form teacher welcomed the class.'（注意过去时 welcomed）。第三个提示：'Your English lessons are harder than primary school, but your teacher is helpful. Tell me.' 期待输出：'Although my English lessons are harder, my teacher is helpful.' 或 'My English lessons are harder, but my teacher is helpful.' 如果孩子卡住，教师给一个词提示（比如说 'Start with Although...' 或 'Start with I was nervous...'），但不说完整句子。",
+      },
+      {
+        name: "收口",
+        duration: "5 分钟",
+        teacherNotes: "打开 /learn 页面，给孩子看 SEC 试学周作业入口。告诉孩子：「这周的作业是中学 AEIS 英语样本，包括阅读理解、语法题、写作（2 题选 1，写 200-300 词）。完成后系统会自动批改选择题，写作部分会有 AI 反馈。」对家长说：「这是 AEIS-Secondary 试学周，不是 CEQ。官方 Sec 1 卷型：Part 1 Writing 2 题选 1 篇，200-300 词；Part 2 有 50 道 MCQ（理解 + 完形 + 词汇 + 语法）。本周是样本，不是完整 50 题。孩子完成作业后，我们会在微信群里同步进度。」不提「包过」「保证录取」等话术。",
+      },
+    ],
+    spokenLines: [
+      "Although Wei was nervous, he made three friends. ✓",
+      "Wei was nervous, but he made three friends. ✓",
+      "I was nervous, but I tried my best. ✓",
+      "Last Monday, Mr Lim welcomed our class. ✓ (past tense: welcomed)",
+      "Although the lessons were harder, I felt confident. ✓",
+      "Wei worried about making friends. ✓ (past tense: worried)",
+      "Ms Raj handed out a comprehension passage. ✓ (past tense: handed)",
+      "The lessons are harder than primary school. ✓",
+    ],
+    childPrompts: [
+      "You were nervous on your first day at secondary school, but you made one friend. Tell me.",
+      "Yesterday your form teacher welcomed the class. Tell me what happened.",
+      "Your English lessons are harder than primary school, but your teacher is helpful. Tell me.",
+    ],
+  },
 };
 
 export default async function LessonPlanPage({

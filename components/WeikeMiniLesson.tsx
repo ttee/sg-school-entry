@@ -266,6 +266,16 @@ export default function WeikeMiniLesson({ level, weekNumber }: WeikeMiniLessonPr
       ],
       gloss: "P4 学展开图（nets / 展开图）：识别立体图形的二维表示（4.1: cube 立方体, cuboid 长方体, cone 圆锥, cylinder 圆柱, prism 棱柱, pyramid 棱锥）；识别展开图（4.3: cube, cuboid, prism, pyramid 的展开图——注意 cone 和 cylinder 不在 4.3，不能发明圆锥圆柱展开图）；从展开图判断可组成的立体图形（4.4）。Cube 有 6 个正方形面，cube net 有 6 个正方形折叠后无重叠（十字形 OK，一排 6 个不 OK 因为重叠）。Cuboid 有 6 个长方形面（对面相等）。Triangular prism 有 2 个三角形面 + 3 个长方形面（共 5 面）。Square pyramid 有 1 个正方形底 + 4 个三角形面（共 5 面）。常见错误：以为任何 6 个正方形排列都是 cube net、混淆 prism（2 triangles + 3 rectangles）和 square pyramid（1 square + 4 triangles）、发明 cone/cylinder net（cone 和 cylinder 只在 4.1 二维表示，不在 4.3 展开图中）、把 2D drawing 当 net。这是最后一个官方 P4 Geometry 主题周。"
     },
+    "SEC-0": {
+      fossil: "Although I was nervous, but I tried. ✗ (中文「虽然…但是…」迁移) / I go yesterday ✗ (叙事体过去时掉落)",
+      examples: [
+        "Although Wei was nervous, he made three friends. ✓",
+        "Wei worried about making friends, but his teachers were helpful. ✓ (but 前面没有 although)",
+        "Last Monday, Mr Lim welcomed the class. ✓ (叙事用过去时: welcomed, not welcome)",
+        "Although the lessons were harder, Wei felt confident. ✓ (although 后面不加 but)"
+      ],
+      gloss: "中学 AEIS 英语本周例题：although 和 but 不能同时用（中文「虽然…但是…」在英语里只用一个）。Although Wei was nervous, he tried. ✓ 或 Wei was nervous, but he tried. ✓。叙事体用过去时：Wei felt nervous（不是 feel）、Mr Lim welcomed us（不是 welcome）。Yesterday / Last Monday 出现时，动词变过去式。"
+    },
     "A2-7": {
       fossil: "I going to the library tomorrow / I go to swim / Tomorrow I go library",
       examples: [
