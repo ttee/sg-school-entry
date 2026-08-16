@@ -8592,6 +8592,93 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
         },
       ],
     },
+    {
+      level: "SMATH",
+      weekNumber: 20,
+      title: "数学 第 20 周 / Maths Week 20",
+      description: "AEIS-Secondary Mathematics: Sec 1 increasing/decreasing a quantity by a given percentage, percentage point",
+      isSample: false,
+      errorFocus: "adding the percentage value instead of the percentage of the quantity (e.g. 80 increased by 10% written as 90 instead of 88); treating a percentage-point change as a percentage increase (e.g. 40% → 50% called a 10% increase instead of a 10 percentage-point increase)",
+      parentBrief: "本周是中学 AEIS 数学第 20 周，对应官方 SEAB Sec 1 卷型（https://www.seab.gov.sg/aeis/test-details/ 2026年7月1日更新）。Part 1 Multiple-choice questions：34 道 MCQ，30 分钟。Part 2 Short-answer questions (20 items) and open-ended questions (10 to 15 items)：1 小时 45 分钟。Calculators are not allowed（不允许使用计算器）。Short-answer and open-ended questions：candidates are required to show the method of solution clearly by writing working steps in the spaces provided, plus the final answer（需写出算式步骤和最终答案）。AEIS-Secondary 官方 preceding-level 规则：申请 Sec 2 入学者需熟悉 Sec 2 前一级的内容。官方举例：apply Secondary 3 → be familiar with Secondary 2 content. 本周针对 Sec 2 申请者，内容为 Sec 2 前一级（Sec 1）的官方 MOE 2020 G3 Mathematics Syllabuses, Secondary One, NUMBER AND ALGEBRA, N3. Percentage: 3.4 increasing/decreasing a quantity by a given percentage (including concept of percentage point)（用百分数增减数量，包括百分点的概念）。第 17 周已教 3.1（expressing one quantity as a percentage of another），第 18 周已教 3.2（comparing two quantities by percentage），第 19 周已教 3.3（percentages greater than 100%），本周只教 3.4（increasing/decreasing a quantity by a given percentage, including percentage point），本周不教 3.5 reverse percentages（逆向百分数），3.6 solving problems involving percentage（3.5–3.6 是后续内容）。本周方法：Increase a quantity by r%: new = original × (1 + r/100)（增加 r%：新值 = 原值 × (1 + r/100)）。例：80 increased by 10% = 80 × (1 + 10/100) = 80 × 1.1 = 88，或分步：10% of 80 = 8，80 + 8 = 88。Decrease a quantity by r%: new = original × (1 − r/100)（减少 r%：新值 = 原值 × (1 − r/100)）。例：80 decreased by 10% = 80 × (1 − 10/100) = 80 × 0.9 = 72，或分步：10% of 80 = 8，80 − 8 = 72。Percentage point（百分点）：a change from 40% to 50% is an increase of 10 percentage points（从 40% 到 50% 是增加 10 个百分点，不是 10% 的增长）。It is NOT a 10% increase（不是 10% 的增长，因为 10% increase of 40% would be 44%）。本周作业是样本，不是完整 34 + 20 + 10–15 题。本周化石：adding the percentage value instead of the percentage of the quantity（直接加百分数值而不是加上数量的百分数，如 80 increased by 10% 错误地写成 90，应该是 88；正确算法是 10% of 80 = 8，80 + 8 = 88，不是 80 + 10 = 90）；treating a percentage-point change as a percentage increase（把百分点变化当作百分数增长，如 40% → 50% 错误地说是 10% 的增长，应该是 10 个百分点的增长；10% increase of 40% would be 44%，不是 50%）。用友好的整数（friendly numbers），答案是整数（如 88, 72, 60, 120, 10 percentage points）。不用计算器 no calculator。金额用新加坡元 S$（money in Singapore dollars S$），never 美元。唯一性 unique keys：两个选项不能是同一个金额。不要同时提供 88 和 80 + 8 作为两个选项（那是同一个值的不同表示）。不要同时提供「10 percentage points」和「10% increase」作为两个正确选项（一题只有一个正确答案）。The wrong fossil values（化石错误值，如 90 when the answer is 88，or「10% increase」when it's a 10 percentage-point increase）必须作为错误选项（wrong option），不是第二个正确答案。非官方机构运营（affiliation 非官方机构 is OK）。不发明官方未提及的内容（do not invent official facts）。不声称 AEIS 是 G3 paper（G3 只是官方 preceding-level 内容来源）。不发明官方 cut-scores 或 extra official names。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "Increase 80 by 10%.|A. 90|B. 88|C. 70|D. 72",
+            "Decrease 80 by 10%.|A. 90|B. 88|C. 70|D. 72",
+            "A shop price of S$60 is increased by 20%. What is the new price?|A. S$62|B. S$66|C. S$72|D. S$80",
+            "A rate changes from 40% to 50%. By how many percentage points did the rate increase?|A. 10 percentage points|B. 25 percentage points|C. 10%|D. 25%",
+            "Which statement is true?|A. A change from 40% to 50% is a 10% increase.|B. A change from 40% to 50% is a 10 percentage-point increase.|C. Percentage point is the same as percentage increase.|D. A 10 percentage-point increase means multiplying by 1.1.",
+          ]),
+          correctAnswer: "B,D,C,A,B",
+          points: 10,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "Increase 50 by 20%.|A. 52|B. 55|C. 60|D. 70",
+            "Decrease 120 by 25%.|A. 95|B. 90|C. 100|D. 105",
+            "A shop adds 8% to a price of S$50. What is the new price?|A. S$52|B. S$54|C. S$56|D. S$58",
+            "A rate changes from 30% to 45%. By how many percentage points did the rate increase?|A. 10 percentage points|B. 15 percentage points|C. 50 percentage points|D. 15%",
+            "Which working is correct for increasing 80 by 10%?|A. 80 + 10 = 90|B. 10% of 80 = 8, then 80 + 8 = 88|C. 80 × 10 = 800|D. 80 − 8 = 72",
+            "Wei had S$40. His savings increased by 50%. How much does he have now?|A. S$45|B. S$50|C. S$60|D. S$90",
+            "A test pass rate increased from 60% to 75%. Which statement is correct?|A. The rate increased by 15 percentage points.|B. The rate increased by 25%.|C. The rate increased by 15%.|D. Percentage points and percentages are the same.",
+            "Aisha's S$100 phone credit decreased by 30%. How much credit does she have now?|A. S$70|B. S$97|C. S$103|D. S$130",
+          ]),
+          correctAnswer: "C,B,B,B,B,C,A,A",
+          points: 16,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `Part 2: Show Your Working (写出算式步骤)
+
+Riverside Secondary School has percentage problems involving increasing and decreasing quantities. Answer the questions below. Show all your working clearly.
+
+Question (a)
+Wei has S$80. His allowance is increased by 15%. How much does Wei have now? Show your working steps.
+
+Question (b)
+Aisha bought a bag. The original price was S$60. The shop gave a 20% discount. What is the discounted price? Show your working steps.
+
+Question (c)
+At Riverside Secondary, the Science Club membership rate increased from 25% to 40%.
+(i) By how many percentage points did the rate increase? Show your working.
+(ii) Is this increase a 15% increase of the old rate? Explain clearly with calculations.
+
+写作提示 / Tips:
+✓ 每题分步骤写出推理 (Show working steps for each question)
+✓ Part 2 官方要求：clearly show the method of solution by writing working steps, plus the final answer
+✓ 不用计算器 (No calculators allowed)
+✓ 百分数增减与百分点步骤示范 (increasing/decreasing by percentage & percentage point examples)：
+  • Increase a quantity by r%：
+    Increase 80 by 10%. Show your working steps.
+    Solution: ① Original = 80. Increase by 10%. ② Method 1: 10% of 80 = (10 ÷ 100) × 80 = 0.1 × 80 = 8. ③ New value = original + increase = 80 + 8 = 88. Answer: 88. (Or Method 2: new = 80 × (1 + 10/100) = 80 × 1.1 = 88.)
+  • Decrease a quantity by r%：
+    Decrease S$60 by 20%. Show your working steps.
+    Solution: ① Original = S$60. Decrease by 20%. ② 20% of S$60 = (20 ÷ 100) × 60 = 0.2 × 60 = 12. ③ New value = original − decrease = S$60 − S$12 = S$48. Answer: S$48. (Or: new = 60 × (1 − 20/100) = 60 × 0.8 = 48.)
+  • Percentage point change：
+    A rate increased from 40% to 50%. By how many percentage points did it increase? Is this a 10% increase? Show your working.
+    Solution: ① Old rate = 40%. New rate = 50%. ② Percentage-point increase = new − old = 50% − 40% = 10 percentage points. ③ Is this a 10% increase? Check: 10% of 40% = (10 ÷ 100) × 40 = 4. So a 10% increase of 40% would be 40 + 4 = 44%, not 50%. ④ Answer: The rate increased by 10 percentage points (not a 10% increase). A 10% increase of 40% would only reach 44%, not 50%.
+✓ 金额用新加坡元 S$ (money in Singapore dollars S$)
+✓ 关键词：increase a quantity by a given percentage 用给定百分数增加数量，decrease a quantity by a given percentage 用给定百分数减少数量，percentage point 百分点（a change from 40% to 50% is 10 percentage points, not a 10% increase）
+✓ 关键步骤：Step 1: Identify the original quantity (确定原始数量). Step 2: Calculate the percentage of the quantity: r% of N = (r ÷ 100) × N (计算数量的 r%：r% of N = (r ÷ 100) × N). Step 3: For increase, add; for decrease, subtract (增加时相加，减少时相减：increase: new = original + (r% of original); decrease: new = original − (r% of original)). Step 4: State the answer with units (陈述答案并加单位，如 S$, marks, %). Step 5 (for percentage point): Percentage-point change = new rate − old rate (百分点变化 = 新比率 − 旧比率). This is NOT the same as percentage increase (这不等于百分数增长).
+✓ 化石 (fossil errors)：
+  • Adding the percentage value instead of the percentage of the quantity（直接加百分数而不是加数量的百分数：80 increased by 10% 错误地写成 80 + 10 = 90，应该是 10% of 80 = 8，then 80 + 8 = 88）
+  • Treating a percentage-point change as a percentage increase（把百分点变化当百分数增长：40% → 50% 错误地说是 10% 增长，应该是 10 个百分点的增长；10% increase of 40% 是 44%，不是 50%）
+  • 本周教增减与百分点（3.4），下周教逆向百分数（3.5 reverse percentages）
+
+Note: This is a sample of Part 2 short-answer/open-ended questions. The official paper has 20 short-answer + 10–15 open-ended items in 1 hour 45 minutes.`,
+          points: 20,
+        },
+      ],
+    },
   ];
 
   // =================================================================
