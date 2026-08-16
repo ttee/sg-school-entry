@@ -315,7 +315,7 @@ export default function HomePage() {
                 </div>
                 <p className="text-xs font-semibold uppercase tracking-wide text-accent mb-3">适合 P2–P4 CEQ 门槛</p>
                 <p className="text-ink-2 mb-4 text-sm">
-                  该级别作业 app 12 周路径（试学周 + 第 1–11 周）。12 周是三个月的作业路径，不是 12 个月。不是直播课。
+                  该级别作业 app 12 周路径（试学周 + 第 1–11 周）。
                 </p>
                 <ul className="space-y-0 border-t border-line mb-5">
                   <li className="border-b border-line py-3 pl-5 relative before:absolute before:left-0 before:top-5 before:w-2 before:h-2 before:rounded-full before:bg-accent text-sm text-ink-2">
@@ -346,7 +346,7 @@ export default function HomePage() {
                 </div>
                 <p className="text-xs font-semibold uppercase tracking-wide text-accent mb-3">适合 P5 CEQ 门槛</p>
                 <p className="text-ink-2 mb-4 text-sm">
-                  该级别作业 app 12 周路径（试学周 + 第 1–11 周）。12 周是三个月的作业路径，不是 12 个月。不是直播课。
+                  该级别作业 app 12 周路径（试学周 + 第 1–11 周）。
                 </p>
                 <ul className="space-y-0 border-t border-line mb-5">
                   <li className="border-b border-line py-3 pl-5 relative before:absolute before:left-0 before:top-5 before:w-2 before:h-2 before:rounded-full before:bg-accent text-sm text-ink-2">
