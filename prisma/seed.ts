@@ -5879,6 +5879,95 @@ You MUST use in, on, and at for place at least once each (不是时间介词).
         },
       ],
     },
+    // SEC WEEKS (AEIS-Secondary English)
+    {
+      level: "SEC",
+      weekNumber: 0,
+      title: "试学周 / Sample Week",
+      description: "AEIS-Secondary English (Sec 1 paper shape): writing + comprehension / language use sample",
+      isSample: true,
+      errorFocus: "although-but / past tense in narrative",
+      parentBrief: "本周是中学 AEIS 英语试学周，对应官方 SEAB Sec 1 卷型样本（https://www.seab.gov.sg/aeis/test-details/ 2026年7月1日更新）。Part 1 Writing：Sec 1 提供 2 个作文题目，选写 1 篇，200–300 词。Part 2 Comprehension & Language Use：50 道 MCQ（理解 + 完形 + 词汇 + 语法）。本周作业是样本，不是完整 50 题，不是 2 小时 10 分钟正式试卷。AEIS-Secondary 官方 preceding-level 规则：申请 Sec 1 入学者需熟悉 Sec 1 前一级（即 P6 后/Sec 1 前）的英语与数学内容。本周纠错化石：although...but...（中文虽然…但是…迁移）和叙事体过去时态掉落（中文靠时间词yesterday表示过去，动词不变形）。",
+      videoUrl: null,
+      kaizenFocus: "Classroom English a Sec 1 listener needs: teacher instructions, classmate questions, timetable announcements",
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: `Read this passage about Wei's first week in secondary school:
+
+First Week at Riverside Secondary
+
+Wei had always been nervous about starting secondary school. Although he passed his PSLE with good grades, he worried about making new friends and keeping up with harder subjects.
+
+On Monday morning, his form teacher Mr Lim welcomed the class. "Good morning, everyone. I'm Mr Lim, your Form 1A form teacher. This week we'll focus on settling in. Your timetable is in your handbook—flip to page 3. We start each day with morning assembly at 7:30 a.m. If you're late three times, you'll need to see me after school."
+
+Wei's new classmate, Aisha, sat next to him. During recess, she asked, "Do you know where the canteen is? I'm completely lost!" Wei showed her the way. They joined the queue at Stall 4, which sold chicken rice and noodles.
+
+In English class, Ms Raj handed out a comprehension passage. "Read this carefully," she said. "Underline key words and check if your answers make sense. You have 20 minutes." Wei found the passage challenging, but he remembered his Primary 6 teacher's advice: read the questions first, then scan the text.
+
+By Friday afternoon, Wei felt more confident. Although the lessons were harder than primary school, his teachers were helpful. He'd made three friends—Aisha, Ravi, and Ming Hui—and they'd formed a study group. When his mother picked him up, she asked how his week went. Wei smiled and said, "It was tough, but I'm ready for next week."`,
+          options: JSON.stringify([
+            "Why was Wei nervous?|A. He failed his PSLE|B. He worried about making friends and keeping up with harder subjects|C. His form teacher was strict|D. He didn't know where the canteen was",
+            "What will happen if a student is late three times?|A. They will fail the term|B. Their parents will be called|C. They need to see Mr Lim after school|D. They will be sent home",
+            "Who helped Wei find the canteen?|A. Mr Lim|B. Ms Raj|C. Aisha asked Wei for help|D. Ravi",
+            "What advice did Wei remember during English class?|A. Always underline everything|B. Read the questions first, then scan the text|C. Spend 10 minutes on each question|D. Ask the teacher for help",
+            "How many friends had Wei made by Friday?|A. One|B. Two|C. Three|D. Four",
+          ]),
+          correctAnswer: "B,C,C,B,C",
+          points: 10,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: "Choose the correct word to complete each sentence:",
+          options: JSON.stringify([
+            "Although Wei ____ nervous, he was ready to try his best.|A. is|B. was|C. has been|D. will be",
+            "The lessons are harder ____ primary school.|A. than|B. then|C. from|D. as",
+            "Mr Lim ____ the class every morning.|A. teach|B. teaching|C. teaches|D. taught",
+            "Wei ____ his Primary 6 teacher's advice during the test.|A. remember|B. remembers|C. remembering|D. remembered",
+            "Although the week was tough, ____ Wei felt confident by Friday.|A. but|B. and|C. Ø (no word needed)|D. so",
+            "Aisha asked Wei ____ the canteen was.|A. where|B. what|C. which|D. who",
+            "If you ____ late three times, you must see the form teacher.|A. is|B. are|C. was|D. been",
+            "Wei and his friends ____ a study group last Friday.|A. form|B. forms|C. formed|D. forming",
+          ]),
+          correctAnswer: "B,A,C,D,C,A,B,C",
+          points: 16,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `Part 1: Writing (Sec 1 format)
+
+Choose ONE topic and write 200–300 words.
+
+Topic 1: First Day at Secondary School
+Describe your first day at secondary school (or imagine it if you haven't started yet). Write about:
+• How you felt that morning
+• What happened when you arrived
+• One person you met or one thing you learned
+• How you felt at the end of the day
+
+Topic 2: A Classmate Who Helped Me
+Write about a time when a classmate helped you with something at school. Describe:
+• The situation (what problem did you have?)
+• What your classmate did to help
+• How you felt
+• What you learned from this experience
+
+写作提示 / Writing Tips:
+✓ 写出提纲（3-4 个要点）再写正文 (Plan first: 3-4 bullet points, then write)
+✓ 叙事用过去时态 (Narrative → past tense: I felt nervous. She showed me the way.)
+✓ 不要写 Although...but... (Don't write: Although I was nervous, but I tried. ✗  →  Write: Although I was nervous, I tried. ✓)
+✓ 分段：开头 + 2-3 段正文 + 结尾 (Paragraphs: intro + 2-3 body + conclusion)
+✓ 字数 200–300 词 (Word count: 200–300 words)
+
+注：这是 Sec 1 写作样本，不是 Sec 2（4 题 250–350 词）或 Sec 3（4 题 300–400 词）格式。
+Note: This is a Sec 1 writing sample (2 topics, 200–300 words), not Sec 2 or Sec 3 format.`,
+          points: 20,
+        },
+      ],
+    },
   ];
 
   // =================================================================
