@@ -87,6 +87,14 @@ export default function WeikeMiniLesson({ level, weekNumber }: WeikeMiniLessonPr
       ],
       gloss: "P3 学六七八九的乘法口诀（6, 7, 8, 9 times tables）。有余数的除法：50 ÷ 6 = 8 R 2 读 eight remainder two。三位数乘/除一位数：124 × 6 = 744（竖式进位），156 ÷ 4 = 39。关键词：times（乘）、divided by（除）、remainder（余数）、equally（平均分）。"
     },
+    "MATH-8": {
+      examples: [
+        "Mei ate 2/3 of a pizza. Ali ate 4/6 of another pizza.",
+        "2/3 = 4/6 (equivalent fractions)",
+        "Also: 1/2 + 1/4 = 2/4 + 1/4 = 3/4. And: 4/8 = 1/2 (simplest form)."
+      ],
+      gloss: "P3 学分数新技能：等值分数（2/3 = 4/6 = 8/12）、最简分数（4/8 = 1/2）、异分母比较（1/2 > 1/3，分母越大分数越小）、相关分数加减（1/2 + 1/4 = 3/4）。关键词：equivalent fractions（等值分数）、simplest form（最简）、eighths / sixths / quarters（分母读法加 -s）、compare（比较）。P2 第 2 周学过 2/8 + 3/8 = 5/8（同分母加法），本周练异分母和约分。"
+    },
     "A2-7": {
       fossil: "I going to the library tomorrow / I go to swim / Tomorrow I go library",
       examples: [
