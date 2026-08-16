@@ -3768,6 +3768,43 @@ const lessonPlans: Record<string, LessonPlan> = {
     ],
     speakingPrompts: null,
   },
+  "SMATH-24": {
+    title: "速率单位换算 — Conversion of Units (km/h to m/s)",
+    fossil: "multiplying by 18/5 when converting km/h → m/s (wrong direction); multiplying by 5/18 when converting m/s → km/h; treating 1 hour as 60 seconds; forgetting the 1000",
+    sections: [
+      {
+        name: "课前",
+        duration: "2 分钟",
+        teacherNotes: "确认 Zoom 设置正常。孩子和家长都在镜头前。对家长说：「今天教中学 AEIS 数学第 24 周，速率单位换算（conversion of units，官方举例 e.g. km/h to m/s）。本周是 Sec 1 数学卷型样本，内容对应前一级 Sec 1 NUMBER AND ALGEBRA, N4. Rate and Speed: 4.2 conversion of units (e.g. km/h to m/s)。官方 MOE 2020 G3 Mathematics Syllabuses, Secondary One, NUMBER AND ALGEBRA。SEAB 官方规则：申请 Sec 2 入学的孩子需熟悉 Sec 2 前一级（Sec 1）的内容。第 23 周已完成 4.1（concepts of average rate, speed, constant speed and average speed），本周只教 4.2 conversion of units（单位换算，如 km/h ↔ m/s）。本周不教 4.3 problems involving rate and speed（速率和速度应用题），4.3 是第 25 周内容。本周方法：1 km = 1000 m, 1 h = 3600 s。km/h → m/s: multiply by 1000/3600 = 5/18（如 18 km/h = 18 × 5/18 = 5 m/s）。m/s → km/h: multiply by 3600/1000 = 18/5（如 10 m/s = 10 × 18/5 = 36 km/h）。不用计算器，要写出推理步骤。」",
+      },
+      {
+        name: "热身",
+        duration: "5 分钟",
+        teacherNotes: "在白板上写：Convert 18 km/h to m/s. 问孩子：'What's the first step?' 等孩子思考后，解释：'To convert km/h to m/s, we need to know: 1 km = 1000 m, 1 h = 3600 s. So 1 km/h = 1000 m / 3600 s = 1000/3600 m/s. We can simplify this fraction: 1000/3600 = 5/18. So to convert km/h to m/s, we multiply by 5/18. Step 1: 1 km = 1000 m, 1 h = 3600 s. Step 2: km/h → m/s: multiply by 1000/3600 = 5/18. Step 3: 18 km/h = 18 × 5/18 = 5 m/s. Answer: 5 m/s.' 再写：Convert 10 m/s to km/h. 解释：'To convert m/s to km/h, we multiply by the reciprocal: 3600/1000 = 18/5. Step 1: 1 km = 1000 m, 1 h = 3600 s. Step 2: m/s → km/h: multiply by 3600/1000 = 18/5. Step 3: 10 m/s = 10 × 18/5 = 36 km/h. Answer: 36 km/h.' 让孩子看到今天的目标：conversion of units（单位换算），specifically km/h ↔ m/s。Key formula: km/h × 5/18 = m/s; m/s × 18/5 = km/h。",
+      },
+      {
+        name: "化石",
+        duration: "8 分钟",
+        teacherNotes: "在屏幕上或白板上写下常见混淆：'Fossil 1: Multiplying by 18/5 when converting km/h → m/s (wrong direction). ✗ Example: Convert 18 km/h to m/s. Wrong: 18 × 18/5 = 64.8 m/s. Correct: 18 × 5/18 = 5 m/s. Rule: km/h → m/s: multiply by 5/18 (not 18/5). To remember: km is bigger than m (1 km = 1000 m), and h is bigger than s (1 h = 3600 s), so when we convert km/h to m/s, the numerator grows 1000 times but the denominator also grows 3600 times, so the overall value gets smaller. 18 km/h = 5 m/s (5 is smaller than 18). If you multiply by 18/5, you get 64.8, which is bigger than 18—that tells you the direction is wrong!' 再写：'Fossil 2: Multiplying by 5/18 when converting m/s → km/h (wrong direction). ✗ Example: Convert 10 m/s to km/h. Wrong: 10 × 5/18 = 2.78 m/s. Correct: 10 × 18/5 = 36 km/h. Rule: m/s → km/h: multiply by 18/5 (not 5/18). To remember: m/s → km/h is the opposite direction of km/h → m/s, so we use the reciprocal: 18/5 instead of 5/18.' 再写：'Fossil 3: Treating 1 hour as 60 seconds (forgetting 3600). ✗ Example: 1 h = 60 s. Wrong! Correct: 1 h = 60 min = 60 × 60 s = 3600 s. Rule: 1 h = 3600 s (not 60 s). This is why the conversion factor is 5/18 = 1000/3600, not 1000/60.' 再写：'Fossil 4: Forgetting the 1000 (forgetting 1 km = 1000 m). ✗ Example: 1 km = 100 m or 1 km = 10 m. Wrong! Correct: 1 km = 1000 m. Rule: 1 km = 1000 m. This is why the conversion factor is 5/18 = 1000/3600.' 让孩子跟读改正后的推理步骤 2 次。",
+      },
+      {
+        name: "例题",
+        duration: "10 分钟",
+        teacherNotes: "教师示范三道完整例题（写出推理步骤），覆盖两个方向的换算。例题 1（km/h → m/s）：Convert 18 km/h to m/s. Show your working steps. 步骤：① 1 km = 1000 m, 1 h = 3600 s. ② km/h → m/s: multiply by 1000/3600 = 5/18. ③ 18 km/h = 18 × 5/18 = 5 m/s. Answer: 5 m/s. 例题 2（m/s → km/h）：Convert 10 m/s to km/h. Show your working steps. 步骤：① 1 km = 1000 m, 1 h = 3600 s. ② m/s → km/h: multiply by 3600/1000 = 18/5. ③ 10 m/s = 10 × 18/5 = 36 km/h. Answer: 36 km/h. 例题 3（short application）：Wei cycles at 18 km/h. Write the speed in m/s. Show your working steps. 步骤：① Wei's speed = 18 km/h. ② km/h → m/s: multiply by 5/18. ③ 18 km/h = 18 × 5/18 = 5 m/s. Answer: 5 m/s. 每做完一题，问孩子：'What's the key conversion factor? km/h → m/s use × 5/18. m/s → km/h use × 18/5. Can you remember which one is for which direction?' 指出常见数值：18 km/h = 5 m/s, 36 km/h = 10 m/s, 72 km/h = 20 m/s, 54 km/h = 15 m/s（方便孩子记住）。",
+      },
+      {
+        name: "练习",
+        duration: "12 分钟",
+        teacherNotes: "给孩子 3 道练习题，让孩子独立做，写出推理步骤。家长可以用手机拍照孩子的推理。题 1（km/h → m/s）：Convert 18 km/h to m/s. Show your working steps. 答案：① 1 km = 1000 m, 1 h = 3600 s. ② km/h → m/s: multiply by 1000/3600 = 5/18. ③ 18 km/h = 18 × 5/18 = 5 m/s. Answer: 5 m/s. 题 2（m/s → km/h）：Convert 10 m/s to km/h. Show your working steps. 答案：① 1 km = 1000 m, 1 h = 3600 s. ② m/s → km/h: multiply by 3600/1000 = 18/5. ③ 10 m/s = 10 × 18/5 = 36 km/h. Answer: 36 km/h. 题 3（short application）：Wei cycles at 18 km/h. Write the speed in m/s. Show your working steps. 答案：① Wei's speed = 18 km/h. ② km/h → m/s: multiply by 5/18. ③ 18 km/h = 18 × 5/18 = 5 m/s. Answer: 5 m/s. 教师巡看孩子的推理，纠正格式（如果孩子只写答案不写步骤，提醒 'AEIS 官方要求写出 working steps'）。如果孩子在题 1 用 18 × 18/5 = 64.8 m/s（错误方向），指出：'You multiplied by 18/5. But that's the WRONG direction! To convert km/h to m/s, we multiply by 5/18 (not 18/5). Let me show you: 1 km/h = 1000 m / 3600 s = 5/18 m/s. So 18 km/h = 18 × 5/18 = 5 m/s. The correct answer is 5 m/s (not 64.8 m/s). To check: 5 m/s is smaller than 18 km/h, which makes sense because m is smaller than km and s is smaller than h, so the numerical value should be smaller.' 如果孩子在题 2 用 10 × 5/18 = 2.78...（错误方向），指出：'You multiplied by 5/18. But that's the WRONG direction! To convert m/s to km/h, we multiply by 18/5 (not 5/18). Let me show you: 1 m/s = 3600 s / 1000 m × 1 km = 18/5 km/h. So 10 m/s = 10 × 18/5 = 36 km/h. The correct answer is 36 km/h (not 2.78 km/h). To check: 36 km/h is larger than 10 m/s, which makes sense because km is larger than m and h is larger than s, so the numerical value should be larger.'",
+      },
+      {
+        name: "收口",
+        duration: "3 分钟",
+        teacherNotes: "总结本周重点：(1) 官方 Sec 1 AEIS 数学卷型：Part 1 MCQ 34 题 30 分钟 + Part 2 show working 20+10–15 题 1 小时 45 分钟，不用计算器。(2) 本周内容：Sec 1 NUMBER AND ALGEBRA, N4. Rate and Speed: 4.2 conversion of units (e.g. km/h to m/s)（速率单位换算，官方举例），对应 preceding level 规则。第 23 周已完成 4.1，本周只教 4.2。(3) 本周化石：multiplying by 18/5 when converting km/h → m/s（方向错误，应该是 × 5/18：如 18 km/h 错误地算 18 × 18/5 = 64.8 m/s，正确应该是 18 × 5/18 = 5 m/s）；multiplying by 5/18 when converting m/s → km/h（方向错误，应该是 × 18/5：如 10 m/s 错误地算 10 × 5/18 = 2.78... m/s，正确应该是 10 × 18/5 = 36 km/h）；treating 1 hour as 60 seconds（把 1 小时当 60 秒，正确是 1 h = 3600 s）；forgetting the 1000（忘记 1 km = 1000 m）。(4) 关键换算公式：1 km = 1000 m, 1 h = 3600 s。km/h → m/s: multiply by 1000/3600 = 5/18（如 18 km/h = 18 × 5/18 = 5 m/s，36 km/h = 10 m/s，72 km/h = 20 m/s，54 km/h = 15 m/s）。m/s → km/h: multiply by 3600/1000 = 18/5（如 10 m/s = 10 × 18/5 = 36 km/h，5 m/s = 18 km/h）。(5) 关键步骤：Step 1: Write the given speed and units (写出已知速度和单位，如 18 km/h 或 10 m/s). Step 2: Identify the conversion factor (确定转换因数：km/h → m/s 用 × 5/18；m/s → km/h 用 × 18/5). Step 3: Perform the calculation (执行计算：18 × 5/18 = 5；10 × 18/5 = 36). Step 4: State the answer with units (陈述答案并加单位，如 5 m/s 或 36 km/h). Step 5: Check if needed (检验如果需要：5 m/s × 18/5 = 18 km/h ✓). (6) 记忆技巧：To remember the direction: km/h → m/s makes the number smaller (18 → 5), because m is smaller than km. m/s → km/h makes the number bigger (10 → 36), because km is bigger than m. If your converted number goes the wrong way (e.g., 18 → 64.8), you've used the wrong factor! (7) 常见友好数值（convenient values）：18 km/h = 5 m/s, 36 km/h = 10 m/s, 72 km/h = 20 m/s, 54 km/h = 15 m/s. 这些数值方便记忆和检验。(8) 唯一性 unique keys：两个选项不能是同一个数值。Do not offer both 18 × 5/18 and 5 m/s as two separate options unless you're asking \"which working is correct\". The fossil \"wrong direction\" must be a WRONG option（化石"方向错误"必须是错误选项）。(9) 本周继续 N4（第 23 周完成 4.1）。本周只教 N4 的 4.2（conversion of units，单位换算）。本周不教 4.1（concepts of average rate, speed, constant speed and average speed，已在第 23 周完成）和 4.3（problems involving rate and speed，速率和速度应用题，第 25 周内容）。课后引导家长和孩子完成 /learn 页面的第 24 周作业（5 道应用题选择题 + 8 道选择题 + 3 道 show-working 题），系统会自动批改。",
+      },
+    ],
+    speakingPrompts: null,
+  },
   "SMATH-17": {
     title: "百分数 — Expressing One Quantity as a Percentage of Another",
     fossil: "dividing the wrong way (B as a percentage of A) / forgetting to multiply by 100",
