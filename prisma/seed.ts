@@ -8766,6 +8766,95 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
         },
       ],
     },
+    {
+      level: "SMATH",
+      weekNumber: 22,
+      title: "数学 第 22 周 / Maths Week 22",
+      description: "AEIS-Secondary Mathematics: Sec 1 problems involving percentages",
+      isSample: false,
+      errorFocus: "treating a reverse problem as \"subtract r% of the new amount\" (72 after 20% increase wrongly calculated as 57.6); treating a percentage-point change as a relative % (40% → 50% wrongly saying \"increased by 25%\" instead of \"10 percentage points\"); adding the % as a raw number (80 + 10 = 90); saying \"A is 20% of B\" when the story is \"A is 20% more than B\"",
+      parentBrief: "本周是中学 AEIS 数学第 22 周，对应官方 SEAB Sec 1 卷型（https://www.seab.gov.sg/aeis/test-details/ 2026年7月1日更新）。Part 1 Multiple-choice questions：34 道 MCQ，30 分钟。Part 2 Short-answer questions (20 items) and open-ended questions (10 to 15 items)：1 小时 45 分钟。Calculators are not allowed（不允许使用计算器）。Short-answer and open-ended questions：candidates are required to show the method of solution clearly by writing working steps in the spaces provided, plus the final answer（需写出算式步骤和最终答案）。AEIS-Secondary 官方 preceding-level 规则：申请 Sec 2 入学者需熟悉 Sec 2 前一级的内容。官方举例：apply Secondary 3 → be familiar with Secondary 2 content. 本周针对 Sec 2 申请者，内容为 Sec 2 前一级（Sec 1）的官方 MOE 2020 G3 Mathematics Syllabuses, Secondary One, NUMBER AND ALGEBRA, N3. Percentage: 3.6 problems involving percentages（百分数综合应用）。第 17 周已教 3.1（expressing one quantity as a percentage of another），第 18 周已教 3.2（comparing two quantities by percentage），第 19 周已教 3.3（percentages greater than 100%），第 20 周已教 3.4（increasing/decreasing a quantity by a given percentage, including percentage point），第 21 周已教 3.5（reverse percentages），本周只教 3.6（problems involving percentages，百分数综合应用，在应用题中混合使用 3.1–3.5 技能）。本周完成 N3。本周方法：mix skills from 3.1–3.5 in short word problems（在短应用题中混合使用 3.1–3.5 的技能）。Skill 3.1: express A as % of B（20 of 50 = (20 ÷ 50) × 100% = 40%）。Skill 3.2: compare by %（80 is what % of 50? (80 ÷ 50) × 100% = 160%; 80 is 60% more than 50）。Skill 3.3: % > 100（125% of 80 = 1.25 × 80 = 100）。Skill 3.4: increase/decrease（increase S$80 by 10% → S$80 + 0.1 × 80 = S$88; decrease S$80 by 10% → S$80 − 0.1 × 80 = S$72; 40% → 50% is 10 percentage points, not 25%）。Skill 3.5: reverse（after 20% increase the price is S$72, original = 72 ÷ 1.20 = S$60）。本周作业是样本，不是完整 34 + 20 + 10–15 题。本周化石：treating a reverse problem as \"subtract r% of the new amount\"（把逆向问题当作"从新值减去 r%"：72 after 20% increase 错误地算 72 − 20% of 72 = 57.6，应该是 72 ÷ 1.20 = 60）；treating a percentage-point change as a relative %（把百分点变化当作相对百分数：40% → 50% 错误地说"increased by 25%"，应该是"increased by 10 percentage points"）；adding the % as a raw number（把百分数当作原始数加：80 + 10 = 90，应该是 80 + 10% of 80 = 88）；saying \"A is 20% of B\" when the story is \"A is 20% more than B\"（把"A 比 B 多 20%"说成"A 是 B 的 20%"）。用友好的整数（friendly numbers），答案是整数。不用计算器 no calculator。金额用新加坡元 S$（money in Singapore dollars S$），never 美元。唯一性 unique keys：两个选项不能是同一个金额或同一个真实陈述。不要同时提供"15 percentage points"和"increased by 25%"当两者都对同一对（60% → 75%）成立。不要同时提供 60 和 72 ÷ 1.2 作为两个选项（那是同一个值）。The fossil errors（化石错误值）必须作为错误选项（wrong option），不是第二个正确答案。非官方机构运营（affiliation 非官方机构 is OK）。不发明官方未提及的内容（do not invent official facts）。不声称 AEIS 是 G3 paper（G3 只是官方 preceding-level 内容来源）。不发明官方 cut-scores 或 extra official names。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "Express 15 as a percentage of 60.|A. 15%|B. 20%|C. 25%|D. 40%",
+            "80 is what percentage of 50?|A. 62.5%|B. 100%|C. 160%|D. 200%",
+            "Increase S$80 by 10%.|A. S$81|B. S$88|C. S$90|D. S$100",
+            "After a 20% increase, a price is S$72. What was the original price?|A. S$57.60|B. S$60|C. S$64|D. S$86.40",
+            "A rate increased from 40% to 50%. By how many percentage points did the rate increase?|A. 10 percentage points|B. 20 percentage points|C. 25%|D. 50 percentage points",
+          ]),
+          correctAnswer: "C,C,B,B,A",
+          points: 10,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "Express 20 as a percentage of 50.|A. 20%|B. 25%|C. 40%|D. 50%",
+            "60 is what percentage of 40?|A. 66.67%|B. 120%|C. 150%|D. 200%",
+            "Increase S$90 by 20%.|A. S$92|B. S$100|C. S$108|D. S$110",
+            "After a 20% increase, Wei's score is 48. What was his original score?|A. 38.40|B. 40|C. 44|D. 57.60",
+            "An attendance rate increased from 75% to 90%. By how many percentage points did it increase?|A. 10 percentage points|B. 15 percentage points|C. 20%|D. 25 percentage points",
+            "After a 25% discount, a price is S$60. What was the original price?|A. S$45|B. S$48|C. S$75|D. S$80",
+            "Which working is correct for finding the original price after a 15% increase to S$69?|A. 69 − 0.15 × 69 = 58.65|B. 69 ÷ 1.15 = 60|C. 69 + 15 = 84|D. 69 × 1.15 = 79.35",
+            "Decrease S$72 by 25%.|A. S$47|B. S$54|C. S$57|D. S$90",
+          ]),
+          correctAnswer: "C,C,C,B,B,D,B,B",
+          points: 16,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `Part 2: Show Your Working (写出算式步骤)
+
+Riverside Secondary School has percentage problems. Answer the questions below. Show all your working clearly.
+
+Question (a)
+Express 24 as a percentage of 80. Show your working steps.
+
+Question (b)
+Wei had S$60. His allowance was increased by 15%. What is Wei's new allowance after the increase? Show your working steps.
+
+Question (c)
+Aisha bought a phone at a sale. After a 15% discount, the sale price is S$68.
+(i) What was the original price before the discount? Show your working.
+(ii) Check your answer by calculating 15% of your original price and subtracting it to see if you get S$68.
+
+写作提示 / Tips:
+✓ 每题分步骤写出推理 (Show working steps for each question)
+✓ Part 2 官方要求：clearly show the method of solution by writing working steps, plus the final answer
+✓ 不用计算器 (No calculators allowed)
+✓ 百分数综合应用步骤示范 (problems involving percentages examples, mixing skills 3.1–3.5)：
+  • Express A as % of B (skill 3.1)：
+    Express 15 as a percentage of 60. Show your working steps.
+    Solution: ① A = 15, B = 60. ② (A ÷ B) × 100% = (15 ÷ 60) × 100%. ③ 15 ÷ 60 = 0.25. ④ 0.25 × 100 = 25. Answer: 25%.
+  • Increase by r% (skill 3.4)：
+    Increase S$60 by 15%. Show your working steps.
+    Solution: ① 15% of S$60 = 0.15 × 60 = 9. ② S$60 + S$9 = S$69. Answer: S$69.
+  • Reverse a decrease with discount story (skill 3.5)：
+    Wei bought a phone at a sale. After a 15% discount, the price is S$68. What was the original price before the discount? Show your working clearly.
+    Solution: ① After 15% discount, new price = original price × (1 − 15/100) = original price × 0.85. ② So S$68 = original price × 0.85. ③ Original price = S$68 ÷ 0.85 = S$80. Answer: S$80.
+✓ 金额用新加坡元 S$ (money in Singapore dollars S$)
+✓ 关键词：express as percentage 表达为百分数，increase by percentage 按百分数增加，decrease by percentage 按百分数减少，reverse percentages 逆向百分数，percentage point 百分点
+✓ 关键步骤：Step 1: Identify the type of problem (确定题目类型：表达为百分数、用百分数比较、增减、逆向、百分点). Step 2: Write the equation or formula (写出等式或公式). For express as %: (A ÷ B) × 100%. For increase: original + r% of original. For decrease: original − r% of original. For reverse after increase: original = new ÷ (1 + r/100). For reverse after decrease: original = new ÷ (1 − r/100). Step 3: Calculate step by step (逐步计算). Step 4: State the answer with units (陈述答案加单位，如 %, S$). Step 5: Check by working forward when possible (检验：正向计算看是否得到原值).
+✓ 化石 (fossil errors)：
+  • Treating a reverse problem as "subtract r% of the new amount"（把逆向问题当作"从新值减去 r%"：72 after 20% increase 错误地算 72 − 14.4 = 57.6，应该是 72 ÷ 1.20 = 60）
+  • Treating a percentage-point change as a relative %（把百分点变化当作相对百分数：40% → 50% 错误地说"increased by 25%"，应该是"increased by 10 percentage points"）
+  • Adding the % as a raw number（80 + 10 = 90，应该是 80 + 10% of 80 = 88）
+  • Saying "A is 20% of B" when the story is "A is 20% more than B"
+  • 本周教百分数综合应用（3.6，mixing skills 3.1–3.5 in word problems），完成 N3。下周教 N4 rate and speed。
+
+Note: This is a sample of Part 2 short-answer/open-ended questions. The official paper has 20 short-answer + 10–15 open-ended items in 1 hour 45 minutes.`,
+          points: 20,
+        },
+      ],
+    },
   ];
 
   // =================================================================

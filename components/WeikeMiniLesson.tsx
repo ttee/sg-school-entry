@@ -469,6 +469,15 @@ export default function WeikeMiniLesson({ level, weekNumber }: WeikeMiniLessonPr
       ],
       gloss: "AEIS 中学数学第 21 周 / SMATH Week 21. 本周例题：Sec 1 逆向百分数（Sec 1 NUMBER AND ALGEBRA: N3.5 reverse percentages）。Reverse percentages: given the final value after a percentage increase or decrease, find the original value（已知百分数增减后的值，求原始值）。After an increase of r%, new = original × (1 + r/100), so original = new ÷ (1 + r/100)（增加 r% 后，新值 = 原值 × (1 + r/100)，所以原值 = 新值 ÷ (1 + r/100)）。例：After a 20% increase the price is S$72. Original = 72 ÷ 1.20 = S$60。After a decrease of r%, new = original × (1 − r/100), so original = new ÷ (1 − r/100)（减少 r% 后，新值 = 原值 × (1 − r/100)，所以原值 = 新值 ÷ (1 − r/100)）。例：After a 20% decrease the price is S$64. Original = 64 ÷ 0.80 = S$80。本周化石：subtracting r% of the NEW amount instead of dividing（从新值减去百分数而不是除以因数：72 after 20% increase 错误地算 72 − 14.4 = 57.6，应该是 72 ÷ 1.20 = 60）；adding r% of the new amount after a decrease（64 after 20% decrease 错误地算 64 + 12.8 = 76.8，应该是 64 ÷ 0.80 = 80）。不用计算器，写出算式步骤。"
     },
+    "SMATH-22": {
+      examples: [
+        "Express 15 as a percentage of 60. Solution: (15 ÷ 60) × 100% = 25%",
+        "Increase S$80 by 10%. Solution: 10% of 80 = 8, so S$80 + S$8 = S$88",
+        "After 20% increase, price is S$72. Original = 72 ÷ 1.20 = S$60",
+        "40% to 50% is 10 percentage points (not 25%)"
+      ],
+      gloss: "AEIS 中学数学第 22 周 / SMATH Week 22. 本周例题：Sec 1 百分数综合应用（Sec 1 NUMBER AND ALGEBRA: N3.6 problems involving percentages）。混合使用 3.1–3.5 技能：3.1 express A as % of B（15 of 60 = 25%），3.2 compare by %（80 is 160% of 50），3.3 % > 100（125% of 80 = 100），3.4 increase/decrease（S$80 + 10% = S$88; 40% → 50% is 10 percentage points, not 25%），3.5 reverse（72 after 20% increase, original = 72 ÷ 1.20 = 60）。本周化石：treating reverse as "subtract r% of new"（72 − 14.4 = 57.6 错，应该 72 ÷ 1.20 = 60）；percentage point as relative %（40% → 50% 说"增加 25%"错，应该说"10 percentage points"）；adding % as raw number（80 + 10 = 90 错，应该 80 + 10% of 80 = 88）；混淆"A is 20% of B"和"A is 20% more than B"。本周完成 N3，下周教 N4 rate and speed。不用计算器，写出算式步骤。"
+    },
     "SEC-0": {
       fossil: "Although I was nervous, but I tried. ✗ (中文「虽然…但是…」迁移) / I go yesterday ✗ (叙事体过去时掉落)",
       examples: [
