@@ -8058,6 +8058,98 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
         },
       ],
     },
+    {
+      level: "SMATH",
+      weekNumber: 14,
+      title: "数学 第 14 周 / Maths Week 14",
+      description: "AEIS-Secondary Mathematics: Sec 1 approximation and estimation (decimal places, significant figures, estimate a computation)",
+      isSample: false,
+      errorFocus: "rounding down when the next digit is 5 / counting leading zeros as significant figures / estimating without rounding first (or rounding the answer only)",
+      parentBrief: "本周是中学 AEIS 数学第 14 周，对应官方 SEAB Sec 1 卷型（https://www.seab.gov.sg/aeis/test-details/ 2026年7月1日更新）。Part 1 Multiple-choice questions：34 道 MCQ，30 分钟。Part 2 Short-answer questions (20 items) and open-ended questions (10 to 15 items)：1 小时 45 分钟。Calculators are not allowed（不允许使用计算器）。Short-answer and open-ended questions：candidates are required to show the method of solution clearly by writing working steps in the spaces provided, plus the final answer（需写出算式步骤和最终答案）。AEIS-Secondary 官方 preceding-level 规则：申请 Sec 2 入学者需熟悉 Sec 2 前一级的内容。官方举例：apply Secondary 3 → be familiar with Secondary 2 content. 本周针对 Sec 2 申请者，内容为 Sec 2 前一级（Sec 1）的官方 MOE 2020 G3 Mathematics Syllabuses, Secondary One, NUMBER AND ALGEBRA, N1. Numbers and their operations: 1.7 approximation and estimation (including rounding off numbers to a required number of decimal places or significant figures, and estimating the results of computation)（近似与估算，包括四舍五入到小数位数或有效数字，以及估算计算结果）。本周作业是样本，不是完整 34 + 20 + 10–15 题。第 8–13 周已教 1.1 质数分解、1.2 HCF/LCM/平方立方和根、1.3 负数四则、1.5 数轴、1.6 不等号，跳过 1.4 计算器运算（AEIS 禁用计算器），本周是 1.7 近似与估算。本周只教 1.7，本周完成官方 N1（N2 比 ratio 是下一部分，未开放）。本周化石：rounding down when the next digit is 5（2.5 to 0 d.p. 应该是 3，不是 2，因为下一位是 5，digit ≥ 5 要 round up）、counting leading zeros as significant figures（0.03450 to 2 s.f. = 0.035，小数点后的前导零不是有效数字 leading zeros after the decimal are not significant，有效数字从第一个非零数字开始，只有 3450 是）、estimating without rounding first, or rounding the answer only（48 × 21 应该先 round 每个数成 50 × 20，再计算 = 1000，不是先算 48 × 21 = 1008 再 round to 1000）。本周内容：四舍五入到小数位数 rounding off to decimal places (d.p.)：3.456 to 2 d.p. = 3.46（看第三位 6 ≥ 5，进位）；2.5 to 0 d.p. = 3（看第一位 5 ≥ 5，进位，答案只能是 3，not 2）。四舍五入到有效数字 rounding off to significant figures (s.f.)：0.03450 to 2 s.f. = 0.035（leading zeros after the decimal are not significant，有效数字从第一个非零数字开始，3 和 4 是前两位有效数字，看第三位 5 ≥ 5，进位）；3482 to 2 s.f. = 3500（3 和 4 是前两位有效数字，看第三位 8 ≥ 5，进位，后面补零保持位值）。估算 estimating the results of computation：先四舍五入每个数，再计算。48 × 21 ≈ 50 × 20 = 1000（先 round 每个数，再相乘）。金额用新加坡元 S$（money in Singapore dollars S$）。不用计算器 no calculator。唯一性 unique keys：两个选项不能都对同一题干为真。不提供 3.46 和 346/100 作为两个选项（数值相同）。2.5 to 0 d.p. 只有 3 是正确答案（not 2）。估算题只有一个 intended estimate 是正确的（如果 key 是 50×20=1000，不提供 48×20=960 或其他合理估算作为第二个正确答案）。化石 rounding down when digit is 5 必须作为错误选项（wrong option），不是第二个正确答案。非官方机构运营（affiliation 非官方机构 is OK）。不发明官方未提及的内容（do not invent official facts）。不声称 AEIS 是 G3 paper（G3 只是官方 preceding-level 内容来源）。不发明官方 cut-scores 或 extra official names。'rounding off', 'decimal places', 'significant figures', 'estimating the results of computation' 是官方用词 in 1.7。不声称有官方命名的 rounding algorithm（使用通常学校方法 digit ≥ 5 round up，without calling it official MOE policy）。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "Round 3.456 to 2 decimal places.|A. 3.45|B. 3.46|C. 3.5|D. 3.4",
+            "Round 2.5 to 0 decimal places.|A. 2|B. 3|C. 2.0|D. 2.5",
+            "Round 3482 to 2 significant figures.|A. 3400|B. 3500|C. 3480|D. 3000",
+            "Round 0.03450 to 2 significant figures.|A. 0.03|B. 0.034|C. 0.035|D. 0.00",
+            "Estimate 48 × 21 by rounding each number first, then compute.|A. 1000|B. 1008|C. 960|D. 1050",
+          ]),
+          correctAnswer: "B,B,B,C,A",
+          points: 10,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "Round 7.845 to 1 decimal place.|A. 7.8|B. 7.9|C. 7.84|D. 8.0",
+            "Round 0.004567 to 2 significant figures.|A. 0.0046|B. 0.0045|C. 0.00|D. 0.005",
+            "How many significant figures are in the number 0.03450?|A. 5|B. 4|C. 3|D. 2",
+            "Estimate 312 + 197 by rounding each number first, then compute.|A. 509|B. 500|C. 510|D. 300",
+            "Estimate 485 ÷ 23 by rounding each number first, then compute.|A. 21|B. 20|C. 25|D. 10",
+            "Wei bought a bag for S$48.50 and a book for S$21.80. Estimate the total cost by rounding each price to the nearest dollar first.|A. S$70|B. S$71|C. S$69|D. S$50",
+            "Round 5.678 to 2 decimal places.|A. 5.67|B. 5.68|C. 5.7|D. 6.0",
+            "Which number is NOT correctly rounded to 1 significant figure?|A. 456 → 500|B. 0.0789 → 0.08|C. 23 → 20|D. 3.6 → 4",
+          ]),
+          correctAnswer: "B,A,C,B,C,B,B,A",
+          points: 16,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `Part 2: Show Your Working (写出算式步骤)
+
+Riverside Secondary School has approximation and estimation problems. Answer the questions below. Show all your working clearly.
+
+Question (a)
+Round 6.847 to 2 decimal places. Show which digit you look at to make your decision.
+
+Question (b)
+Round 0.005682 to 3 significant figures. Explain which digits are significant and show your working.
+
+Question (c)
+Aisha went shopping at a store. She bought items for S$37.50, S$22.80, and S$19.40. Mr Lim wants to estimate the total cost. Estimate the total by rounding each price to the nearest dollar first, then compute the sum. Show your working.
+
+写作提示 / Tips:
+✓ 每题分步骤写出推理 (Show working steps for each question)
+✓ Part 2 官方要求：clearly show the method of solution by writing working steps, plus the final answer
+✓ 不用计算器 (No calculators allowed)
+✓ 四舍五入步骤示范：
+  • 小数位数 (decimal places)：
+    Round 3.456 to 2 d.p.
+    Solution: 3.456 to 2 d.p. Look at the third decimal place: 6. Since 6 ≥ 5, round up.
+    Answer: 3.46
+  • 有效数字 (significant figures)：
+    Round 0.03450 to 2 s.f.
+    Solution: 0.03450. Leading zeros after the decimal are not significant. The first non-zero digit is 3 (1st s.f.), then 4 (2nd s.f.), then 5 (3rd digit). Since 5 ≥ 5, round up the 2nd s.f. from 4 to 5.
+    Answer: 0.035
+  • 估算 (estimation)：
+    Estimate 48 × 21
+    Solution: Round 48 to 50 (nearest ten). Round 21 to 20 (nearest ten). Estimate: 50 × 20 = 1000.
+    Answer: 1000
+✓ 金额应用 (money application)：
+  Wei bought items for S$19.80, S$32.50, and S$8.40. Estimate the total.
+  Solution: S$19.80 ≈ S$20, S$32.50 ≈ S$33 (since 0.50 ≥ 0.5, round up), S$8.40 ≈ S$8. Estimate: S$20 + S$33 + S$8 = S$61.
+  Answer: S$61
+✓ 金额用新加坡元 S$ (money in Singapore dollars S$)
+✓ 关键词：decimal places (d.p.) 小数位数，significant figures (s.f.) 有效数字，rounding off 四舍五入，estimating 估算
+✓ 关键规则：digit ≥ 5 → round up（数字 ≥ 5 就进位），leading zeros after the decimal are not significant（小数点后的前导零不是有效数字），estimate by rounding first, then compute（先四舍五入，再计算）
+✓ 化石 (fossil errors)：
+  • 2.5 to 0 d.p. = 2 ✗ (应该是 3，因为 5 ≥ 5，round up)
+  • 0.03450 to 2 s.f. = 0.00 ✗ (前导零不是有效数字，正确是 0.035)
+  • 48 × 21: 先算 1008 再 round to 1000 ✗ (应该先 round 每个数 50×20，再算 1000)
+
+Note: This is a sample of Part 2 short-answer/open-ended questions. The official paper has 20 short-answer + 10–15 open-ended items in 1 hour 45 minutes.`,
+          points: 20,
+        },
+      ],
+    },
   ];
 
   // =================================================================

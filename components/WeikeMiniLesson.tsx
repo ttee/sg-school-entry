@@ -397,6 +397,15 @@ export default function WeikeMiniLesson({ level, weekNumber }: WeikeMiniLessonPr
       ],
       gloss: "AEIS 中学数学第 13 周 / SMATH Week 13. 本周例题：Sec 1 不等号的使用（Sec 1 NUMBER AND ALGEBRA: N1.6 use of <, >, ≤, ≥）。不等号符号：< 小于 less than，> 大于 greater than，≤ 小于或等于 less than or equal to，≥ 大于或等于 greater than or equal to。填空：−8 ___ −3 → < （因为 −8 在数轴上更靠左）。真假判断：−3 ≤ −3 是 true（−3 等于 −3，符合 less than or equal to），−3 < −3 是 false（−3 等于 −3，不符合 less than）。负数比较：−8 < −3（不是 −8 > −3，这是本周化石错误）。应用：温度（−8°C 比 −3°C 更冷，写 −8 < −3），账户余额（负数 = 欠款，−S$50 比 S$20 更小，写 −50 < 20）。不用计算器。"
     },
+    "SMATH-14": {
+      examples: [
+        "Round 3.456 to 2 decimal places.",
+        "Solution: 3.456 to 2 d.p. Look at the third decimal place: 6. Since 6 ≥ 5, round up. Answer: 3.46",
+        "Estimate 48 × 21 by rounding each number first.",
+        "Solution: Round 48 to 50. Round 21 to 20. Estimate: 50 × 20 = 1000."
+      ],
+      gloss: "AEIS 中学数学第 14 周 / SMATH Week 14. 本周例题：Sec 1 近似与估算（Sec 1 NUMBER AND ALGEBRA: N1.7 approximation and estimation）。四舍五入到小数位数 rounding off to decimal places (d.p.)：3.456 to 2 d.p. = 3.46（看第三位 6 ≥ 5，进位）；2.5 to 0 d.p. = 3（看第一位 5 ≥ 5，进位，只能是 3，不是 2）。四舍五入到有效数字 rounding off to significant figures (s.f.)：0.03450 to 2 s.f. = 0.035（leading zeros after the decimal are not significant，有效数字从第一个非零数字开始）；3482 to 2 s.f. = 3500（进位，后面补零保持位值）。估算 estimating the results of computation：先四舍五入每个数，再计算。48 × 21 ≈ 50 × 20 = 1000（不是先算 1008 再 round）。金额用新加坡元 S$。不用计算器。本周完成官方 N1。"
+    },
     "SEC-0": {
       fossil: "Although I was nervous, but I tried. ✗ (中文「虽然…但是…」迁移) / I go yesterday ✗ (叙事体过去时掉落)",
       examples: [
