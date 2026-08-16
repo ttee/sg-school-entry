@@ -2123,6 +2123,105 @@ The pie chart shows 56 students' favourite games. Soccer 3/8, Basketball 1/4, Ba
         },
       ],
     },
+
+    // MATH WEEK 26
+    {
+      level: "MATH",
+      weekNumber: 26,
+      title: "数学 第 26 周 / Maths Week 26",
+      description: "AEIS-Primary P4 Mathematics: Angles",
+      isSample: false,
+      errorFocus: null,
+      parentBrief: "本周主题：角的名称（∠ABC、∠a）、度数测量、直角/平角/周角（right angle = 90°、straight angle = 180°、complete turn = 360°）、1/4 圈 = 90°、1/2 圈 = 180°、一整圈 = 360°、画指定角度（describe in words: 'draw a 90° angle / a right angle'），对应官方 2021 P4 Geometry → Angles 1.1–1.3（using notation such as ∠ABC and ∠a to name angles, measuring angles in degrees, drawing an angle of given size, relating quarter turn to 90°, half turn to 180°, complete turn to 360°, comparing two given degree measures, acute angle < 90°, right angle = 90°, obtuse angle between 90° and 180°）。申请 P5 入学的孩子需掌握 P4 内容（MOE AEIS 的 preceding level 规则）。关键技能：识别角的名称（∠ABC 中间字母 B 是角的顶点）、知道直角 = 90°、平角/半圈 = 180°、周角/一整圈 = 360°、1/4 圈 = 90°、比较角度大小（comparing degrees: 75° < 90°, 120° > 90°）、识别锐角（acute < 90°）、直角（right = 90°）、钝角（obtuse between 90° and 180°）。算法：quarter turn (1/4 turn) = 90°, half turn (1/2 turn) = 180°, complete turn = 360°。常见错误：把 1/4 圈当 45°（thinking quarter turn is 45° instead of 90°）、锐角钝角看错 90°（confusing acute and obtuse: acute is less than 90°, obtuse is more than 90° but less than 180°）、∠ABC 时把 A 或 C 当作角的顶点（vertex should be the middle letter B, not A or C）、把半圈当 90°（thinking half turn is 90° instead of 180°）。题目配有双向对照表，显示对应官方 2021 Primary Mathematics Syllabus P4 Geometry → Angles 1.1–1.3，以及申请 P5 → 掌握 P4 的规则。本周明确不教：properties of rectangles/squares beyond 'four right angles' as a fact（长方形正方形性质仅限「四个直角」，不教其他性质）、line symmetry / nets（对称/展开图，那是后续单元）、protractor construction that needs a diagram（需要图示的量角器使用）、triangle angle sum（三角形内角和，不在官方 P4 Angles 1.1–1.3 列表中）、angles beyond obtuse（reflex angle、angles on a straight line add up to 180°，P5）。本周只教：angle notation（角的名称 ∠ABC, ∠a）、angle in degrees（度数）、quarter/half/complete turn（1/4 圈、1/2 圈、一整圈）、comparing angles（比较角度大小）、acute/right/obtuse angle（锐角/直角/钝角）。每个题目用文字描述角，给足信息让孩子能唯一确定答案。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: `Read the information and choose the correct answer.
+
+Question 1:
+A quarter turn is the same as how many degrees? (Hint: quarter turn = 1/4 of a complete turn. A complete turn = 360°. So quarter turn = 360° ÷ 4 = 90°.)
+
+Question 2:
+Look at these angles: ∠ABC = 45°, ∠DEF = 120°, ∠GHI = 90°. Which angle is a right angle? (Hint: A right angle is exactly 90°.)
+
+Question 3:
+The angle ∠ABC is named with three letters. Which letter shows the vertex (the point where the two lines meet)? The letters are A, B, and C. (Hint: The vertex is always the middle letter.)
+
+Question 4:
+Which is larger: 75° or 90°? Compare the two degree measures.
+
+Question 5:
+A half turn is the same as how many degrees? (Hint: half turn = 1/2 of a complete turn. A complete turn = 360°. So half turn = 360° ÷ 2 = 180°.)`,
+          options: JSON.stringify([
+            "Quarter turn = 1/4 of 360° = ?|A. 45°|B. 60°|C. 90°|D. 180°",
+            "∠ABC = 45°, ∠DEF = 120°, ∠GHI = 90°. Which is a right angle?|A. ∠ABC|B. ∠DEF|C. ∠GHI|D. None",
+            "∠ABC. Which letter is the vertex?|A. A|B. B|C. C|D. All three",
+            "Which is larger: 75° or 90°?|A. 75°|B. 90°|C. They are equal|D. Cannot tell",
+            "Half turn = 1/2 of 360° = ?|A. 90°|B. 120°|C. 180°|D. 270°",
+          ]),
+          correctAnswer: "C,C,B,B,C",
+          points: 5,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: `Choose the correct answer for each question.
+
+Question 6:
+A complete turn is the same as how many degrees? (Hint: A complete turn means turning all the way around in a full circle = 360°.)
+
+Question 7:
+Which of these angles is acute (less than 90°)? Angle P = 35°, Angle Q = 90°, Angle R = 105°. (Hint: Acute angle < 90°.)
+
+Question 8:
+Which of these angles is obtuse (more than 90° but less than 180°)? Angle M = 50°, Angle N = 90°, Angle O = 135°. (Hint: Obtuse angle is between 90° and 180°.)
+
+Question 9:
+Look at angle ∠a = 80°. Is this angle acute, right, or obtuse? (Hint: 80° < 90°, so it is acute.)
+
+Question 10:
+A rectangle has four corners. Each corner is a right angle. How many degrees is each corner? (Hint: Right angle = 90°.)
+
+Question 11:
+If you turn 1/4 of the way around, you turn 90°. If you turn 2/4 (which is the same as 1/2) of the way around, how many degrees do you turn? (Hint: 2/4 = 1/2, half turn = 180°.)
+
+Question 12:
+Which is smaller: 85° or 100°? Compare the two degree measures.
+
+Question 13:
+The angle ∠XYZ has its vertex at Y. The two lines forming the angle are YX and YZ. Which letter is at the vertex? (Hint: The vertex is always the middle letter in the angle name.)`,
+          options: JSON.stringify([
+            "Complete turn = ?|A. 90°|B. 180°|C. 270°|D. 360°",
+            "Angle P = 35°, Q = 90°, R = 105°. Which is acute?|A. P|B. Q|C. R|D. All",
+            "Angle M = 50°, N = 90°, O = 135°. Which is obtuse?|A. M|B. N|C. O|D. All",
+            "∠a = 80°. Acute, right, or obtuse?|A. Acute|B. Right|C. Obtuse|D. None",
+            "Rectangle corner = ?|A. 45°|B. 60°|C. 90°|D. 180°",
+            "2/4 turn = 1/2 turn = ?|A. 90°|B. 120°|C. 180°|D. 270°",
+            "Which is smaller: 85° or 100°?|A. 85°|B. 100°|C. Equal|D. Cannot tell",
+            "∠XYZ. Which letter is the vertex?|A. X|B. Y|C. Z|D. All three",
+          ]),
+          correctAnswer: "D,A,C,A,C,C,A,B",
+          points: 8,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `At Tampines Primary School, the students are learning about angles.
+
+(a) Jun Wei draws an angle. The angle measures 90°. What type of angle is this? Show your working by stating the definition: A right angle is exactly 90°. So Jun Wei's angle is a right angle.
+
+(b) Mei turns 1/4 of the way around. How many degrees does she turn? Show your working: 1/4 turn = 1/4 of a complete turn. A complete turn = 360°. So 1/4 of 360° = 360° ÷ 4 = 90°. Mei turns 90°.
+
+(c) Priya measures three angles: ∠ABC = 60°, ∠DEF = 95°, ∠GHI = 90°. Which angle is acute? Which angle is obtuse? Which angle is a right angle? Show your working: Acute angle < 90°. 60° < 90°, so ∠ABC is acute. Obtuse angle is between 90° and 180°. 95° is between 90° and 180°, so ∠DEF is obtuse. Right angle = 90°. 90° = 90°, so ∠GHI is a right angle.
+
+写出说明、算式和答案。Show working step by step. For angles, state the definition (e.g., "A right angle is exactly 90°"). For turns, calculate the degrees (e.g., "1/4 turn = 1/4 of 360° = 360° ÷ 4 = 90°"). For comparing angles, use the definitions of acute, right, and obtuse (e.g., "Acute < 90°, Right = 90°, Obtuse between 90° and 180°"). Explain common errors (e.g., thinking quarter turn is 45° instead of 90°, confusing acute and obtuse, thinking the vertex in ∠ABC is A or C instead of B).`,
+          points: 10,
+        },
+      ],
+    },
     
     // A2 WEEKS
     {
