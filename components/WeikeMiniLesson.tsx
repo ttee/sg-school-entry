@@ -368,6 +368,15 @@ export default function WeikeMiniLesson({ level, weekNumber }: WeikeMiniLessonPr
       ],
       gloss: "AEIS 中学数学第 10 周 / SMATH Week 10. 本周例题：Sec 1 平方、立方、平方根和立方根通过质数分解（Sec 1 NUMBER AND ALGEBRA: N1.2 squares, cubes, square roots and cube roots by prime factorisation）。Square（平方）：每个质因数次幂×2（6 = 2 × 3 → 6² = 2² × 3² = 36）。Cube（立方）：每个质因数次幂×3（4 = 2² → 4³ = 2⁶ = 64）。Square root（平方根）：只有每个次幂都是偶数才是 perfect square，每个次幂÷2（√36 = √(2² × 3²) = 2¹ × 3¹ = 6）。Cube root（立方根）：只有每个次幂都是 3 的倍数才是 perfect cube，每个次幂÷3（³√64 = ³√(2⁶) = 2² = 4）。不用计算器，写出分解和乘法步骤。"
     },
+    "SMATH-11": {
+      examples: [
+        "Calculate: 3 + (−5) = −2",
+        "Calculate: −4 − (−6) = −4 + 6 = 2 (减负数等于加正数)",
+        "Calculate: (−3) × (−4) = 12 (负负得正)",
+        "(−3)² = (−3) × (−3) = 9, but −3² = −(3²) = −9"
+      ],
+      gloss: "AEIS 中学数学第 11 周 / SMATH Week 11. 本周例题：Sec 1 负数、整数、有理数、实数及其四则运算（Sec 1 NUMBER AND ALGEBRA: N1.3 negative numbers, integers, rational numbers, real numbers and their four operations）。加减法：3 + (−5) = −2（加负数等于减正数），−4 − (−6) = 2（减负数等于加正数）。乘除法：(−3) × (−4) = 12（负负得正），(−12) ÷ 4 = −3（负正得负）。区分 (−3)² = 9（括号内先负后平方）和 −3² = −9（先平方后负）。简单分数：−2/3 + 1/6 = −1/2。不用计算器，写出算式步骤。"
+    },
     "SEC-0": {
       fossil: "Although I was nervous, but I tried. ✗ (中文「虽然…但是…」迁移) / I go yesterday ✗ (叙事体过去时掉落)",
       examples: [
