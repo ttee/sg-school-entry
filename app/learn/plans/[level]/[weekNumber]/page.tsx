@@ -1596,6 +1596,53 @@ const lessonPlans: Record<string, LessonPlan> = {
       "A rectangle is 9 m long and 4 m wide. What is its perimeter? (Say the calculation.)",
     ],
   },
+  "MATH-11": {
+    title: "时间 — Time: seconds, duration, 24-hour clock",
+    mathExample: "The lesson starts at 9:30 a.m. and ends at 10:15 a.m. Duration = 45 minutes. 2:30 p.m. = 14:30 (24-hour clock: 2 + 12 = 14). 1 minute = 60 seconds. So 3 minutes = 3 × 60 = 180 seconds.",
+    sections: [
+      {
+        name: "热身",
+        duration: "3 分钟",
+        teacherNotes: "说 '1 minute = 60 seconds.' '2:30 p.m. = 14:30.' 让孩子注意：秒（seconds）、24 小时制（24-hour clock）。",
+      },
+      {
+        name: "本周例题",
+        duration: "8 分钟",
+        teacherNotes: "在白板上写：'1 min = 60 s'。解释：1 分钟有 60 秒，所以 3 min = 3 × 60 = 180 s。然后写：'2:30 p.m. = 14:30'。解释：下午时间转 24 小时制，加 12。2 + 12 = 14。早上不变，比如 8:00 a.m. = 08:00。再写：'A lesson starts at 9:30 a.m. and ends at 10:15 a.m. Duration = 45 minutes.'。解释：经过时间 duration = 结束 − 开始，10:15 − 9:30 = 45 min。关键词：seconds（秒）、duration（经过时间）、starting time（开始时间）、finishing time（结束时间）、24-hour clock（24 小时制）。",
+      },
+      {
+        name: "孩子口头说算式",
+        duration: "10 分钟",
+        teacherNotes: "给 3 个口头题，孩子说出算式和答案。题目 1：'How many seconds in 2 minutes?' 期待输出：'2 min = 2 × 60 = 120 s. Two minutes equals one hundred and twenty seconds.' 题目 2：'What is 3:45 p.m. in 24-hour clock?' 期待输出：'3 + 12 = 15. So 3:45 p.m. = 15:45.' 题目 3：'A recess starts at 10:00 a.m. and ends at 10:30 a.m. How long is the recess?' 期待输出：'10:30 − 10:00 = 30 minutes. The recess is 30 minutes long.'",
+      },
+      {
+        name: "开口",
+        duration: "12 分钟",
+        teacherNotes: "让孩子读出时间算式并解释。比如 '1 min = 60 s'，孩子要说 'One minute equals sixty seconds.' 或 '2:30 p.m. = 14:30'，孩子要说 'Two thirty p.m. equals fourteen thirty in 24-hour clock.' 或 'The lesson lasted 45 minutes'，孩子要说 'The lesson lasted forty-five minutes.' 注意读法：seconds（秒）、minutes（分钟）、hours（小时）、a.m. / p.m.（上午/下午）、24-hour clock（24 小时制）。",
+      },
+      {
+        name: "收口",
+        duration: "5 分钟",
+        teacherNotes: "提醒本周作业有 P3 数学题目，包括秒（seconds）、起始/结束/经过时间（starting/finishing/duration）、24 小时制（24-hour clock）。对应申请 P4 的孩子需要掌握的 P3 内容（preceding level 规则）。强调：P2 第 3 周学过时间到 5 分钟（telling time to 5 minutes），本周新增秒和 24 小时制，不教 P4 跨午夜的时间计算（duration across midnight），题目都在同一天内。",
+      },
+    ],
+    spokenLines: [
+      "1 min = 60 s",
+      "One minute equals sixty seconds.",
+      "2:30 p.m. = 14:30",
+      "Two thirty p.m. equals fourteen thirty in 24-hour clock.",
+      "The lesson starts at 9:30 a.m. and ends at 10:15 a.m.",
+      "Duration = 10:15 − 9:30 = 45 minutes.",
+      "The lesson lasted forty-five minutes.",
+      "3 min = 3 × 60 = 180 s",
+      "Three minutes equals one hundred and eighty seconds.",
+    ],
+    childPrompts: [
+      "How many seconds in 2 minutes? (Say the calculation.)",
+      "What is 3:45 p.m. in 24-hour clock? (Say the calculation.)",
+      "A recess starts at 10:00 a.m. and ends at 10:30 a.m. How long is the recess? (Say the calculation.)",
+    ],
+  },
 };
 
 export default async function LessonPlanPage({

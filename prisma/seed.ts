@@ -706,6 +706,64 @@ Art 📖📖📖📖📖
         },
       ],
     },
+    {
+      level: "MATH",
+      weekNumber: 11,
+      title: "数学 第 11 周 / Maths Week 11",
+      description: "AEIS-Primary P3 Mathematics: Time (seconds, duration, 24-hour clock)",
+      isSample: false,
+      errorFocus: null,
+      parentBrief: "本周主题：时间（对应 MOE 小学 P3 数学大纲）。P3 新知识点：秒（measuring time in seconds, 1 min = 60 s）、计算起始时间/结束时间/经过时间（finding starting time, finishing time, or duration）、24 小时制（24-hour clock，例如 2:30 p.m. = 14:30）。申请 P4 入学的孩子需掌握 P3 内容（MOE AEIS preceding level 规则）。常见错误：秒和分钟的换算记错（应该是 1 min = 60 s）、24 小时制转换错误（下午时间要加 12，早上不变）、起始/结束/经过时间三者关系混淆（开始 + 经过 = 结束，结束 − 经过 = 开始）。题目是简体中文家长说明 + 英文题干。本周配有双向对照表，显示题目对应的官方 2021 Primary Mathematics Syllabus P3 内容点（Measurement: Measuring time in seconds; Finding starting time, finishing time, or duration; 24-hour clock），以及 MOE AEIS 的「preceding level」规则（申请 P4 → 掌握 P3 内容）。注意：P2 第 3 周已学过时间到 5 分钟（telling time to 5 minutes），本周重点是秒和 24 小时制，不教 P4 跨午夜的时间计算（duration across midnight），题目都在同一天内。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: `Read each question and choose the correct answer.`,
+          options: JSON.stringify([
+            "The school library opens at 9:00 a.m. and closes at 6:00 p.m. How long is the library open?|A. 3 hours|B. 6 hours|C. 9 hours|D. 15 hours",
+            "A PE lesson starts at 10:15 a.m. It lasts 45 minutes. What time does it finish?|A. 10:45 a.m.|B. 10:60 a.m.|C. 11:00 a.m.|D. 11:15 a.m.",
+            "How many seconds are there in 3 minutes?|A. 30 seconds|B. 90 seconds|C. 120 seconds|D. 180 seconds",
+            "The clock shows 14:30. What is this time in 12-hour clock?|A. 1:30 p.m.|B. 2:30 p.m.|C. 4:30 p.m.|D. 2:30 a.m.",
+            "Jun Wei's art lesson ended at 11:20 a.m. It lasted 50 minutes. What time did it start?|A. 10:20 a.m.|B. 10:30 a.m.|C. 10:70 a.m.|D. 12:10 p.m.",
+          ]),
+          correctAnswer: "C,C,D,B,B",
+          points: 5,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: `Choose the correct answer for each question.`,
+          options: JSON.stringify([
+            "What is 2:45 p.m. in 24-hour clock?|A. 02:45|B. 12:45|C. 14:45|D. 24:45",
+            "How many seconds are in 1 minute?|A. 10 seconds|B. 50 seconds|C. 60 seconds|D. 100 seconds",
+            "A music lesson starts at 1:30 p.m. and ends at 2:15 p.m. How long is the lesson?|A. 15 minutes|B. 30 minutes|C. 45 minutes|D. 60 minutes",
+            "The school assembly starts at 07:45. What is this time in 12-hour clock?|A. 7:45 p.m.|B. 7:45 a.m.|C. 12:45 p.m.|D. 19:45",
+            "Mei's recess is 30 minutes long. It starts at 9:45 a.m. When does it end?|A. 9:75 a.m.|B. 10:05 a.m.|C. 10:15 a.m.|D. 10:45 a.m.",
+            "How many seconds are there in 2 minutes?|A. 60 seconds|B. 90 seconds|C. 100 seconds|D. 120 seconds",
+            "A swimming lesson is from 3:00 p.m. to 4:30 p.m. How long is the lesson?|A. 30 minutes|B. 1 hour|C. 1 hour 30 minutes|D. 2 hours",
+            "What is 8:20 a.m. in 24-hour clock?|A. 08:20|B. 18:20|C. 20:08|D. 20:20",
+          ]),
+          correctAnswer: "C,C,C,B,C,D,C,A",
+          points: 8,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `At Tampines Primary School, the students are learning about their daily timetable.
+
+(a) A Chinese lesson starts at 10:30 a.m. and lasts 1 hour 15 minutes. What time does it finish? Show your working.
+
+(b) The school canteen opens at 06:45. What is this time in 12-hour clock? Show your working.
+
+(c) Ali ran 100 metres in 18 seconds. Priya ran the same distance in 15 seconds. How many seconds faster was Priya? Show your working.
+
+写出算式和答案，标注单位。`,
+          points: 10,
+        },
+      ],
+    },
     
     // A2 WEEKS
     {
