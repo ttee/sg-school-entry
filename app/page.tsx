@@ -230,7 +230,7 @@ export default function HomePage() {
                   AEIS 英语与 AEIS 数学两科都要考。中学路径不要求 CEQ。
                 </p>
                 <p className="text-sm text-ink-2 mb-4">
-                  中学英语有试学周 + 第 1–5 周已上线（Sec 1 卷型样本：写作 + 理解/语言运用）。中学数学有试学周 + 第 1–5 周已上线（Sec 1 卷型样本：选择题 + 写算式；内容为申请 Sec 1 的前一级 P6 百分数、比、代数、分数除法、圆的面积和周长、正方体和长方体体积）。
+                  中学英语有试学周 + 第 1–5 周已上线（Sec 1 卷型样本：写作 + 理解/语言运用）。中学数学有试学周 + 第 1–6 周已上线（Sec 1 卷型样本：选择题 + 写算式；内容为申请 Sec 1 的前一级 P6 百分数、比、代数、分数除法、圆的面积和周长、正方体和长方体体积、平均数）。
                 </p>
                 <ul className="space-y-0 border-t border-line">
                   <li className="border-b border-line py-3 pl-5 relative before:absolute before:left-0 before:top-5 before:w-2 before:h-2 before:rounded-full before:bg-accent text-sm text-ink-2">
@@ -285,7 +285,7 @@ export default function HomePage() {
                 </div>
                 <p className="text-xs font-semibold uppercase tracking-wide text-accent mb-3">按月订阅</p>
                 <p className="text-ink-2 mb-4 text-sm">
-                  作业 app 解锁已上线周数（A2 试学周 + 第 1–11 周，B1 试学周 + 第 1–11 周，MATH 试学周 + 第 1–29 周，SEC 试学周 + 第 1–5 周，SMATH 试学周 + 第 1–5 周）+ 家长微信进度通报。可随时取消。
+                  作业 app 解锁已上线周数（A2 试学周 + 第 1–11 周，B1 试学周 + 第 1–11 周，MATH 试学周 + 第 1–29 周，SEC 试学周 + 第 1–5 周，SMATH 试学周 + 第 1–6 周）+ 家长微信进度通报。可随时取消。
                 </p>
                 <ul className="space-y-0 border-t border-line mb-5">
                   <li className="border-b border-line py-3 pl-5 relative before:absolute before:left-0 before:top-5 before:w-2 before:h-2 before:rounded-full before:bg-accent text-sm text-ink-2">

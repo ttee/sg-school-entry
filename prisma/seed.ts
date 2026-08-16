@@ -6866,6 +6866,81 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
         },
       ],
     },
+    {
+      level: "SMATH",
+      weekNumber: 6,
+      title: "数学 第 6 周 / Maths Week 6",
+      description: "AEIS-Secondary Mathematics: P6 data analysis (average)",
+      isSample: false,
+      errorFocus: "average confused with total / forgetting total = average × n",
+      parentBrief: "本周是中学 AEIS 数学第 6 周，对应官方 SEAB Sec 1 卷型（https://www.seab.gov.sg/aeis/test-details/ 2026年7月1日更新）。Part 1 Multiple-choice questions：34 道 MCQ，30 分钟。Part 2 Short-answer questions (20 items) and open-ended questions (10 to 15 items)：1 小时 45 分钟。Calculators are not allowed（不允许使用计算器）。Short-answer and open-ended questions：candidates are required to show the method of solution clearly by writing working steps in the spaces provided, plus the final answer（需写出算式步骤和最终答案）。AEIS-Secondary 官方 preceding-level 规则：申请 Sec 1 入学者需熟悉 Sec 1 前一级的内容。官方举例：apply Secondary 3 → be familiar with Secondary 2. 本周针对 Sec 1 申请者，内容为 Sec 1 前一级（P6）的官方 MOE 2021 Primary Mathematics (Updated Oct 2025), PRIMARY SIX, STATISTICS, SUB-STRAND: DATA ANALYSIS: 1. Average of a Set of Data, 1.1 average as 'total value ÷ number of data', 1.2 relationship between average, total value and number of data。本周作业是样本，不是完整 34 + 20 + 10–15 题。本周化石：average confused with total（孩子写总值而不是平均数，或把 average 当成 total × number of data 而不是 total ÷ number of data）、求缺失值时忘记 total = average × number of data（when finding a missing value, forgetting that total = average × number of data）。官方用词是 average（平均数），不教 mean / median / mode 作为官方名称（DO NOT teach mean/median/mode as official names; official word is average）。不教：speed（速度，已从 P6 2021 大纲移到 Sec 1）、官方未给出的分数/等级切线（DO NOT invent official cut-scores）、invented official facts。数字保持友好（numbers stay friendly, no calculator）。金额用新加坡元 S$ 不用美元（如果题目涉及钱币情境，用 S$）。题目选项必须唯一（unique keys only）：不能有两个选项是相同数值或相同含义。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "5 students scored 70, 80, 90, 85, 75 in a test. What is the average score?|A. 75|B. 80|C. 85|D. 90",
+            "The average of 4 numbers is 12. What is the total value of the 4 numbers?|A. 3|B. 16|C. 36|D. 48",
+            "Jun Wei scored 78, 82, 85, and 90 in four tests. What is his average score?|A. 80|B. 82|C. 83.75|D. 84",
+            "The average weight of 5 boxes is 8 kg. What is the total weight of all 5 boxes?|A. 1.6 kg|B. 13 kg|C. 40 kg|D. 45 kg",
+            "3 books cost S$15, S$20, and S$25. What is the average cost per book?|A. S$18|B. S$20|C. S$22|D. S$25",
+          ]),
+          correctAnswer: "B,D,C,C,B",
+          points: 10,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "Mei scored 85, 90, 80, and 95 in four subjects. What is her average score?|A. 85|B. 87.5|C. 90|D. 92",
+            "The average of 3 numbers is 24. What is the total value of the 3 numbers?|A. 8|B. 27|C. 48|D. 72",
+            "A shop sold 6 items for S$12, S$15, S$18, S$20, S$22, and S$24. What is the average price?|A. S$17.50|B. S$18.50|C. S$19.50|D. S$20.50",
+            "The total weight of 4 bags is 60 kg. What is the average weight per bag?|A. 12 kg|B. 15 kg|C. 18 kg|D. 20 kg",
+            "5 students scored an average of 70. 4 of them scored 65, 72, 68, and 75. What did the 5th student score?|A. 70|B. 72|C. 75|D. 80",
+            "A school has 3 classes with 30, 32, and 34 students. What is the average class size?|A. 30|B. 31|C. 32|D. 33",
+            "The average of 6 numbers is 15. The total value of 5 of them is 70. What is the 6th number?|A. 10|B. 15|C. 20|D. 25",
+            "Jun Wei spent S$45, S$50, and S$60 on three books. What is the average cost per book?|A. S$50|B. S$51.67|C. S$52.50|D. S$55",
+          ]),
+          correctAnswer: "B,D,B,B,D,C,C,C",
+          points: 16,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `Part 2: Show Your Working (写出算式步骤)
+
+Riverside Secondary School has test scores. Answer the questions below. Show all your working clearly.
+
+Question (a)
+5 students scored 70, 80, 90, 85, and 75 in a test. Find the average score.
+
+Question (b)
+The average score of 6 students is 80. Find the total value of all 6 scores.
+
+Question (c)
+4 students scored 80, 70, 90, and 75 in a test. The average of all 5 students is 80. Find the score of the 5th student.
+
+写作提示 / Tips:
+✓ 每题分步骤写出算式 (Show working steps for each question)
+✓ Part 2 官方要求：clearly show the method of solution by writing working steps, plus the final answer
+✓ Average 计算不用计算器 (No calculators allowed: do average calculations by hand)
+✓ 写出平均数公式步骤：
+  • 求平均数：average = total value ÷ number of data. Example: average = (70 + 80 + 90 + 85 + 75) ÷ 5 = 400 ÷ 5 = 80
+  • 求总值：total value = average × number of data. Example: total = 80 × 6 = 480
+  • 求缺失值：先算总值 total = average × number of data，再用 total − 已知数据之和 = 缺失值. Example: total = 80 × 5 = 400, sum of 4 scores = 80 + 70 + 90 + 75 = 315, 5th score = 400 − 315 = 85
+✓ 单位标注清晰（如分数用 marks / points，价格用 S$，重量用 kg）
+✓ 官方用词是 average（平均数），不用 mean / median / mode 这些名称
+✓ 如果题目有钱币，用新加坡元 S$（本周题目可能有钱币情境）
+
+Note: This is a sample of Part 2 short-answer/open-ended questions. The official paper has 20 short-answer + 10–15 open-ended items in 1 hour 45 minutes.`,
+          points: 20,
+        },
+      ],
+    },
   ];
 
   // =================================================================

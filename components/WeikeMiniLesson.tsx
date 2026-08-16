@@ -315,6 +315,17 @@ export default function WeikeMiniLesson({ level, weekNumber }: WeikeMiniLessonPr
       ],
       gloss: "AEIS 中学数学第 5 周 / SMATH Week 5. 本周例题：P6 正方体和长方体体积（P6 Volume of Cube and Cuboid 2.1–2.5）。Volume of a cube = edge³（正方体体积 = 边³）。Volume of a cuboid = length × width × height（长方体体积 = 长 × 宽 × 高）。单位 cm³ / m³。已知体积求正方体边长：edge = ³√volume（如 V=64 cm³ → edge=³√64=4 cm）。已知体积和两边求第三边：如 V=120 cm³, l=10 cm, w=4 cm → h=120÷10÷4=3 cm。已知体积和底面积求高：h = V ÷ base area（如 V=96 cm³, base=16 cm² → h=96÷16=6 cm）。不教 cm³↔m³ 转换、球体/圆锥/圆柱。不用计算器，写出算式步骤。"
     },
+    "SMATH-6": {
+      examples: [
+        "5 students scored 70, 80, 90, 85, 75. Find the average.",
+        "Total value = 70 + 80 + 90 + 85 + 75 = 400",
+        "Average = total value ÷ number of data = 400 ÷ 5 = 80",
+        "Also: 4 students scored 80, 70, 90, 75. The average is 80. Find the 5th student's score.",
+        "Total = average × number of data = 80 × 5 = 400",
+        "5th score = 400 − (80 + 70 + 90 + 75) = 400 − 315 = 85"
+      ],
+      gloss: "AEIS 中学数学第 6 周 / SMATH Week 6. 本周例题：P6 数据分析 - 平均数（P6 STATISTICS: DATA ANALYSIS 1.1–1.2）。Average = total value ÷ number of data（平均数 = 总值 ÷ 数据个数）。求总值：Total = average × number of data（总值 = 平均数 × 数据个数）。求缺失值：先算总值 total = average × n，再用 total − 已知数据之和 = 缺失值。官方用词是 average，不教 mean / median / mode 作为官方名称。不用计算器，写出算式步骤。"
+    },
     "SEC-0": {
       fossil: "Although I was nervous, but I tried. ✗ (中文「虽然…但是…」迁移) / I go yesterday ✗ (叙事体过去时掉落)",
       examples: [

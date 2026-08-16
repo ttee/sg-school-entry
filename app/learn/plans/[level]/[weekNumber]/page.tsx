@@ -2954,6 +2954,43 @@ const lessonPlans: Record<string, LessonPlan> = {
     ],
     speakingPrompts: null,
   },
+  "SMATH-6": {
+    title: "平均数 — Average of a Set of Data",
+    fossil: "average confused with total / forgetting total = average × n",
+    sections: [
+      {
+        name: "课前",
+        duration: "2 分钟",
+        teacherNotes: "确认 Zoom 设置正常。孩子和家长都在镜头前。对家长说：「今天教中学 AEIS 数学第 6 周，平均数（average of a set of data）。本周是 Sec 1 数学卷型样本，内容对应前一级 P6 STATISTICS: DATA ANALYSIS 1.1–1.2。官方 MOE 2021 Primary Mathematics (Updated Oct 2025), PRIMARY SIX, STATISTICS, SUB-STRAND: DATA ANALYSIS: 1. Average of a Set of Data, 1.1 average as 'total value ÷ number of data', 1.2 relationship between average, total value and number of data。SEAB 官方规则：申请 Sec 1 入学的孩子需熟悉 Sec 1 前一级的内容。不用计算器，要写出算式步骤。官方用词是 average（平均数），不教 mean / median / mode 作为官方名称。」",
+      },
+      {
+        name: "热身",
+        duration: "5 分钟",
+        teacherNotes: "问孩子：'Do you know how to find the average?' 等孩子回答。然后说：'Average = total value ÷ number of data. For example, 5 students scored 70, 80, 90, 85, 75. Total = 70 + 80 + 90 + 85 + 75 = 400. Number of students = 5. Average = 400 ÷ 5 = 80.' 在白板上写公式 Average = total value ÷ number of data，计算 (70+80+90+85+75) ÷ 5 = 400 ÷ 5 = 80。再说：'If we know the average and the number of data, we can find the total. Total = average × number of data. For example, the average of 6 students is 80. Total = 80 × 6 = 480.' 在白板上写 Total = average × number of data，计算 80 × 6 = 480。",
+      },
+      {
+        name: "化石",
+        duration: "8 分钟",
+        teacherNotes: "在屏幕上或白板上写下常见混淆：'Average confused with total: 80 is the average, NOT the total. The total is 400.' 解释：平均数和总值是不同的。平均数 = 总值 ÷ 数据个数，总值 = 平均数 × 数据个数。举例：'5 students have an average score of 80. The total is 80 × 5 = 400, NOT 80.' 再写：'Finding a missing value: if the average of 5 students is 80, and 4 of them scored 80, 70, 90, 75, what did the 5th student score? Step 1: Total = 80 × 5 = 400. Step 2: Sum of 4 scores = 80 + 70 + 90 + 75 = 315. Step 3: 5th score = 400 − 315 = 85.' 让孩子跟读：'Average equals total value divided by number of data. Total equals average times number of data. To find a missing value, first find the total, then subtract the known values.' 2 次。",
+      },
+      {
+        name: "例题",
+        duration: "10 分钟",
+        teacherNotes: "教师示范一道完整例题（写出算式步骤）。例题 1：5 students scored 70, 80, 90, 85, and 75 in a test. Find the average score. 步骤：① Total = 70 + 80 + 90 + 85 + 75 = 400. ② Number of students = 5. ③ Average = total ÷ number of data = 400 ÷ 5 = 80. Answer: 80. 再做一道求总值：The average score of 6 students is 80. Find the total value of all 6 scores. 步骤：① Total = average × number of data. ② Total = 80 × 6 = 480. Answer: 480. 再做一道求缺失值：4 students scored 80, 70, 90, and 75 in a test. The average of all 5 students is 80. Find the score of the 5th student. 步骤：① Total = average × number of data = 80 × 5 = 400. ② Sum of 4 scores = 80 + 70 + 90 + 75 = 315. ③ 5th score = total − sum of known scores = 400 − 315 = 85. Answer: 85. 孩子在纸上抄一遍例题步骤。",
+      },
+      {
+        name: "练习",
+        duration: "12 分钟",
+        teacherNotes: "给孩子 3 道练习题，让孩子独立做，写出算式步骤。家长可以用手机拍照孩子的算式。题 1：Jun Wei scored 78, 82, 85, and 90 in four tests. Find his average score. 答案：Total = 78 + 82 + 85 + 90 = 335. Number = 4. Average = 335 ÷ 4 = 83.75. 题 2：The average weight of 5 boxes is 8 kg. Find the total weight of all 5 boxes. 答案：Total = average × number = 8 × 5 = 40 kg. 题 3：5 students scored an average of 70. 4 of them scored 65, 72, 68, and 75. Find the 5th student's score. 答案：Total = 70 × 5 = 350. Sum of 4 = 65 + 72 + 68 + 75 = 280. 5th score = 350 − 280 = 70. 教师巡看孩子的算式，纠正格式（如果孩子只写答案不写步骤，提醒 'AEIS 官方要求写出 working steps'）。如果孩子把平均数和总值混淆，提醒 'Average is NOT the same as total. Average = total ÷ number of data.'",
+      },
+      {
+        name: "收口",
+        duration: "3 分钟",
+        teacherNotes: "总结本周重点：(1) 官方 Sec 1 AEIS 数学卷型：Part 1 MCQ 34 题 30 分钟 + Part 2 show working 20+10–15 题 1 小时 45 分钟，不用计算器。(2) 本周内容：P6 STATISTICS: DATA ANALYSIS 1.1 average as 'total value ÷ number of data', 1.2 relationship between average, total value and number of data，对应 preceding level 规则。(3) 本周化石：平均数和总值混淆（average confused with total: 孩子写总值而不是平均数，或者把 average 当成 total × number 而不是 total ÷ number）、求缺失值时忘记 total = average × number of data（when finding a missing value, forgetting that total = average × number of data）。(4) 官方用词是 average（平均数），不用 mean / median / mode 这些名称。对家长说：「本周作业有 5+8+3 道题，模拟官方题型，不是完整 34+20+10–15 题。孩子做完后上传到作业 app，选择题自动批改，写算式题家长拍照上传。」",
+      },
+    ],
+    speakingPrompts: null,
+  },
 };
 
 export default async function LessonPlanPage({
