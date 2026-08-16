@@ -335,18 +335,24 @@ export default function AssessPage() {
               </div>
             )}
 
-            <div className="grid md:grid-cols-2 gap-4 mb-8">
+            <div className="grid md:grid-cols-3 gap-3 mb-8">
+              <Link
+                href="/guide"
+                className="flex items-center justify-center px-5 py-3.5 bg-accent text-accent-ink font-semibold rounded-full hover:bg-accent-hover transition-colors text-center"
+              >
+                升学向导
+              </Link>
               <Link
                 href="/#contact"
-                className="flex items-center justify-center px-6 py-3.5 bg-accent text-accent-ink font-semibold rounded-full hover:bg-accent-hover transition-colors text-center"
+                className="flex items-center justify-center px-5 py-3.5 bg-transparent text-ink border border-accent font-semibold rounded-full hover:bg-accent/10 transition-colors text-center"
               >
-                微信咨询 / 预约评估
+                微信咨询
               </Link>
               <Link
                 href="/learn"
-                className="flex items-center justify-center px-6 py-3.5 bg-transparent text-ink border border-line font-semibold rounded-full hover:border-ink-2 hover:bg-card transition-colors text-center"
+                className="flex items-center justify-center px-5 py-3.5 bg-transparent text-ink border border-line font-semibold rounded-full hover:border-ink-2 hover:bg-card transition-colors text-center"
               >
-                免费试学一周
+                免费试学
               </Link>
             </div>
 

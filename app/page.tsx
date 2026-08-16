@@ -89,6 +89,9 @@ export default function HomePage() {
             </div>
           </Link>
           <nav className="hidden md:flex items-center gap-6 text-sm">
+            <Link href="/guide" className="text-ink-2 hover:text-ink transition-colors font-medium">
+              升学向导
+            </Link>
             <Link href="/assess" className="text-ink-2 hover:text-ink transition-colors font-medium">
               入学摸底
             </Link>
@@ -131,8 +134,14 @@ export default function HomePage() {
             </p>
             <div className="flex flex-wrap gap-3 mb-6">
               <Link
-                href="#contact"
+                href="/guide"
                 className="inline-flex items-center justify-center px-6 py-3.5 bg-accent text-accent-ink font-semibold rounded-full hover:bg-accent-hover transition-colors text-base"
+              >
+                升学向导（新）
+              </Link>
+              <Link
+                href="#contact"
+                className="inline-flex items-center justify-center px-6 py-3.5 bg-transparent text-ink border border-accent font-semibold rounded-full hover:bg-accent/10 transition-colors text-base"
               >
                 微信咨询 / 预约评估
               </Link>
