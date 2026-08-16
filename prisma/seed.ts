@@ -6255,6 +6255,82 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
         },
       ],
     },
+    {
+      level: "SMATH",
+      weekNumber: 4,
+      title: "数学 第 4 周 / Maths Week 4",
+      description: "AEIS-Secondary Mathematics: P6 circles",
+      isSample: false,
+      errorFocus: "semicircle perimeter needs the diameter / πr² vs 2πr mix-up",
+      parentBrief: "本周是中学 AEIS 数学第 4 周，对应官方 SEAB Sec 1 卷型（https://www.seab.gov.sg/aeis/test-details/ 2026年7月1日更新）。Part 1 Multiple-choice questions：34 道 MCQ，30 分钟。Part 2 Short-answer questions (20 items) and open-ended questions (10 to 15 items)：1 小时 45 分钟。Calculators are not allowed（不允许使用计算器）。Short-answer and open-ended questions：candidates are required to show the method of solution clearly by writing working steps in the spaces provided, plus the final answer（需写出算式步骤和最终答案）。AEIS-Secondary 官方 preceding-level 规则：申请 Sec 1 入学者需熟悉 Sec 1 前一级的内容。官方举例：apply Secondary 3 → be familiar with Secondary 2. 本周针对 Sec 1 申请者，内容为 Sec 1 前一级（P6）的官方 2021 Primary Mathematics Syllabus - P6 Area and Circumference of Circle 1.1 (area and circumference of circle), 1.2 (finding the area and perimeter of semicircle and quarter circle), 1.3 (finding the area and perimeter of composite figures made up of square, rectangle, triangle, semicircle and quarter circle)。本周作业是样本，不是完整 34 + 20 + 10–15 题。本周化石：semicircle perimeter needs the diameter / πr² vs 2πr mix-up（半圆周长忘了加直径 / 面积公式 πr² 与周长公式 2πr 混淆）。π 的值不是官方统一规定：题目会在每道题中明确说明「Take π = 22/7」或「Take π = 3.14」，用哪个值算哪个。本周优先用 π = 22/7（radius 是 7 的倍数时答案是整数）。不混用 22/7 和 3.14 在同一道题。用新加坡元 S$，不用美元。不教：volume（体积）、algebra（代数）、ratio（比）、percentage（百分数）、fraction division（分数除法，已在第 3 周）、speed（速度）、sphere/cone/cylinder formulae（球体/圆锥/圆柱公式，官方不在 P6 Circle 1.1–1.3）、invented official facts。题目选项必须唯一：不能有 2πr 和 πd 作为两个选项（除非题目明确要求不同形式）；不能有 154 和 154 cm² 作为两个选项；不能有两个组合图形算出相同面积；不能有 22/7 和 3.14 混用导致两个选项都接近正确值。所有题目全用 π = 22/7，不用 3.14，保持选项干净。Semicircle perimeter = πr + diameter（curved part + straight part），不是只有 πr 或只有 (1/2)×2πr。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "A circle has radius 7 cm. Take π = 22/7. What is the circumference?|A. 22 cm|B. 44 cm|C. 154 cm|D. 88 cm",
+            "A circle has diameter 21 cm. Take π = 22/7. What is the circumference?|A. 33 cm|B. 44 cm|C. 66 cm|D. 132 cm",
+            "A semicircle has radius 7 cm. Take π = 22/7. What is the perimeter (curved part + diameter)?|A. 22 cm|B. 36 cm|C. 44 cm|D. 58 cm",
+            "A quarter circle has radius 14 cm. Take π = 22/7. What is the perimeter (curved part + two straight sides)?|A. 22 cm|B. 36 cm|C. 50 cm|D. 72 cm",
+            "A rectangle is 14 cm by 10 cm. A semicircle of diameter 14 cm is added to one 14-cm side. Take π = 22/7. What is the total area?|A. 140 cm²|B. 154 cm²|C. 217 cm²|D. 294 cm²",
+          ]),
+          correctAnswer: "B,C,B,C,C",
+          points: 10,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "A circle has radius 14 cm. Take π = 22/7. What is the area?|A. 44 cm²|B. 88 cm²|C. 616 cm²|D. 1232 cm²",
+            "A semicircle has radius 14 cm. Take π = 22/7. What is the perimeter (curved part + diameter)?|A. 36 cm|B. 44 cm|C. 50 cm|D. 72 cm",
+            "A circle has diameter 14 cm. Take π = 22/7. What is the area?|A. 44 cm²|B. 88 cm²|C. 154 cm²|D. 308 cm²",
+            "A quarter circle has radius 7 cm. Take π = 22/7. What is the perimeter (curved part + two straight sides)?|A. 11 cm|B. 14 cm|C. 25 cm|D. 36 cm",
+            "A semicircle has radius 7 cm. Take π = 22/7. What is the area?|A. 38.5 cm²|B. 77 cm²|C. 154 cm²|D. 308 cm²",
+            "A square has side 14 cm. A quarter circle of radius 14 cm is removed from one corner. Take π = 22/7. What is the shaded area (square minus quarter circle)?|A. 42 cm²|B. 77 cm²|C. 154 cm²|D. 196 cm²",
+            "A circle has circumference 44 cm. Take π = 22/7. What is the radius?|A. 7 cm|B. 14 cm|C. 21 cm|D. 22 cm",
+            "A circle has radius 21 cm. Take π = 22/7. What is the area?|A. 616 cm²|B. 1232 cm²|C. 1386 cm²|D. 2772 cm²",
+          ]),
+          correctAnswer: "C,D,C,C,B,A,A,C",
+          points: 16,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `Part 2: Show Your Working (写出算式步骤)
+
+Riverside Secondary School has a circular garden. Answer the questions below. Show all your working clearly.
+
+Take π = 22/7 for all questions.
+
+Question (a)
+The circular garden has radius 7 cm. Find the circumference.
+
+Question (b)
+The school also has a semicircular garden area with radius 7 cm. Find the perimeter. (Remember: semicircle perimeter = curved part + diameter, not just the curved part.)
+
+Question (c)
+A composite shape is made of a rectangle 14 cm by 10 cm with a semicircle of diameter 14 cm on one of the 14-cm sides. Find the total area.
+
+写作提示 / Tips:
+✓ 每题分步骤写出算式 (Show working steps for each question)
+✓ Part 2 官方要求：clearly show the method of solution by writing working steps, plus the final answer
+✓ Circle 计算不用计算器 (No calculators allowed: do circle calculations by hand)
+✓ 写出圆的公式步骤，如「Circumference = 2πr = 2 × 22/7 × 7 = 44 cm」「Area of circle = πr² = 22/7 × 7 × 7 = 154 cm²」「Semicircle perimeter = πr + diameter = 22/7 × 7 + 14 = 22 + 14 = 36 cm」
+✓ 半圆周长 = 弧长 + 直径（curved part + diameter），不是只有弧长。弧长是半个圆周 πr，但周长还要加上底边（直径 2r）
+✓ 组合图形分块计算：长方形面积 + 半圆面积，如「Rectangle area = 14 × 10 = 140 cm²」「Semicircle area = (1/2) × πr² = (1/2) × 22/7 × 7 × 7 = 77 cm²」「Total = 140 + 77 = 217 cm²」
+✓ 所有题目用 π = 22/7，题干已明确，不要写 3.14
+✓ 单位标注清晰（如 44 cm, 154 cm², 36 cm）
+✓ 如果题目有钱币，用新加坡元 S$（本周题目无钱币情境）
+
+Note: This is a sample of Part 2 short-answer/open-ended questions. The official paper has 20 short-answer + 10–15 open-ended items in 1 hour 45 minutes.`,
+          points: 20,
+        },
+      ],
+    },
   ];
 
   // =================================================================

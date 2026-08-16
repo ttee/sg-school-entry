@@ -2695,6 +2695,43 @@ const lessonPlans: Record<string, LessonPlan> = {
     ],
     speakingPrompts: null,
   },
+  "SMATH-4": {
+    title: "圆的面积和周长 — Circle Area and Circumference",
+    fossil: "semicircle perimeter needs the diameter / πr² vs 2πr mix-up",
+    sections: [
+      {
+        name: "课前",
+        duration: "2 分钟",
+        teacherNotes: "确认 Zoom 设置正常。孩子和家长都在镜头前。对家长说：「今天教中学 AEIS 数学第 4 周，圆的面积和周长（area and circumference of circle）。本周是 Sec 1 数学卷型样本，内容对应前一级 P6 Area and Circumference of Circle 1.1–1.3。SEAB 官方规则：申请 Sec 1 入学的孩子需熟悉 Sec 1 前一级的内容。不用计算器，要写出算式步骤。π 的值每道题都会明确给出，本周全用 π = 22/7。本周不教体积、球体/圆锥/圆柱公式。」",
+      },
+      {
+        name: "热身",
+        duration: "5 分钟",
+        teacherNotes: "问孩子：'Do you know the formula for the circumference of a circle?' 等孩子回答。然后说：'Circumference = 2πr or πd. For example, if radius = 7 cm and π = 22/7, circumference = 2 × 22/7 × 7 = 44 cm.' 在白板上写 C = 2πr，计算 2 × 22/7 × 7 = 44。再问：'What is the formula for the area of a circle?' 等孩子说 'πr².' 强调：'Area = πr². For example, if r = 7 cm and π = 22/7, area = 22/7 × 7 × 7 = 154 cm².' 在白板上写 A = πr²，计算 22/7 × 49 = 154。",
+      },
+      {
+        name: "化石",
+        duration: "8 分钟",
+        teacherNotes: "在屏幕上或白板上写下常见混淆：'Semicircle perimeter = curved part + diameter = πr + 2r.' 解释：半圆的周长不是只有弧长（πr），还要加上底边（直径 2r）。举例：'If r = 7 cm and π = 22/7, semicircle perimeter = 22/7 × 7 + 14 = 22 + 14 = 36 cm.' 强调：'Perimeter means the outer edge. For a semicircle, the outer edge includes the curved part AND the straight part (the diameter).' 再写：'Area = πr², Circumference = 2πr. Don't mix them up!' 让孩子跟读：'Semicircle perimeter equals pi r plus diameter. Area is pi r squared, not two pi r.' 2 次。",
+      },
+      {
+        name: "例题",
+        duration: "10 分钟",
+        teacherNotes: "教师示范一道完整例题（写出算式步骤）。例题：A semicircle has radius 7 cm. Take π = 22/7. Find the perimeter. 步骤：① Curved part = πr = 22/7 × 7 = 22 cm. ② Diameter = 2r = 2 × 7 = 14 cm. ③ Perimeter = curved part + diameter = 22 + 14 = 36 cm. Answer: 36 cm. 强调：半圆周长 = 弧长 + 直径。再做一道圆的面积：A circle has radius 7 cm. Take π = 22/7. Find the area. 步骤：① Area = πr² = 22/7 × 7 × 7. ② Calculate: 22/7 × 49 = 22 × 7 = 154 cm². Answer: 154 cm². 再做一道组合图形：A rectangle is 14 cm by 10 cm. A semicircle of diameter 14 cm is added to one 14-cm side. Take π = 22/7. Find the total area. 步骤：① Rectangle area = 14 × 10 = 140 cm². ② Semicircle radius = 14 ÷ 2 = 7 cm. ③ Semicircle area = (1/2) × πr² = (1/2) × 22/7 × 49 = 77 cm². ④ Total area = 140 + 77 = 217 cm². Answer: 217 cm². 孩子在纸上抄一遍例题步骤。",
+      },
+      {
+        name: "练习",
+        duration: "12 分钟",
+        teacherNotes: "给孩子 3 道练习题，让孩子独立做，写出算式步骤。家长可以用手机拍照孩子的算式。题 1：A circle has diameter 21 cm. Take π = 22/7. Find the circumference. 答案：C = πd = 22/7 × 21 = 66 cm. 题 2：A circle has radius 14 cm. Take π = 22/7. Find the area. 答案：A = πr² = 22/7 × 14 × 14 = 22/7 × 196 = 616 cm². 题 3：A quarter circle has radius 7 cm. Take π = 22/7. Find the perimeter (curved part + two straight sides). 答案：Curved part = (1/4) × 2πr = (1/4) × 2 × 22/7 × 7 = 11 cm. Two sides = 7 + 7 = 14 cm. Perimeter = 11 + 14 = 25 cm. 教师巡看孩子的算式，纠正格式（如果孩子只写答案不写步骤，提醒 'AEIS 官方要求写出 working steps'）。如果孩子半圆周长忘了加直径，提醒 'Semicircle perimeter = πr + diameter, not just πr'。",
+      },
+      {
+        name: "收口",
+        duration: "3 分钟",
+        teacherNotes: "总结本周重点：(1) 官方 Sec 1 AEIS 数学卷型：Part 1 MCQ 34 题 30 分钟 + Part 2 show working 20+10–15 题 1 小时 45 分钟，不用计算器。(2) 本周内容：P6 Area and Circumference of Circle 1.1 (area and circumference of circle), 1.2 (finding the area and perimeter of semicircle and quarter circle), 1.3 (finding the area and perimeter of composite figures made up of square, rectangle, triangle, semicircle and quarter circle)，对应 preceding level 规则。(3) 本周化石：半圆周长忘了加直径（semicircle perimeter = πr + diameter，不是只有 πr）、面积公式 πr² 与周长公式 2πr 混淆。(4) π 的值：官方没有统一规定，每道题会明确说明。本周全用 π = 22/7。对家长说：「本周作业有 5+8+3 道题，模拟官方题型，不是完整 34+20+10–15 题。孩子做完后上传到作业 app，选择题自动批改，写算式题家长拍照上传。」",
+      },
+    ],
+    speakingPrompts: null,
+  },
 };
 
 export default async function LessonPlanPage({
