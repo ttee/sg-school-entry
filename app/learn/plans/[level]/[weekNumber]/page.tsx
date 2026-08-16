@@ -2058,6 +2058,54 @@ const lessonPlans: Record<string, LessonPlan> = {
       "Convert 0.6 to a fraction in simplest form. Convert 3/4 to a decimal. Round 4.68 to 1 d.p. (Say all three.)",
     ],
   },
+  "MATH-21": {
+    title: "小数加减 — Adding and subtracting decimals (up to 2 d.p.)",
+    mathExample: "3.45 + 2.7: Align decimal points. 3.45 + 2.70 = 6.15. Also: 6.80 − 1.35 = 5.45. $4.50 + $2.75 = $7.25.",
+    sections: [
+      {
+        name: "热身",
+        duration: "3 分钟",
+        teacherNotes: "说 '3.45 + 2.7' 和 '6.8 − 1.35'。让孩子注意：小数加减要对齐小数点。展示两个数字卡：3.45 和 2.7。问 'How do we add these?' 引导：写成竖式，对齐小数点，补零 2.70，然后加。",
+      },
+      {
+        name: "本周例题",
+        duration: "8 分钟",
+        teacherNotes: "在白板上写：'3.45 + 2.7'。问孩子：'Where is the decimal point?' 引导：对齐小数点。写竖式：3.45 下面写 2.70（补零）。从右边开始加：5 + 0 = 5, 4 + 7 = 11（写 1 进 1），3 + 2 + 1 = 6。答案 6.15。然后写：'6.8 − 1.35'。引导：对齐小数点，6.80 − 1.35。从右边开始减：0 − 5 不够，从 8 借 1，10 − 5 = 5。8 − 1 − 3 = 4。6 − 1 = 5。答案 5.45。再写：'$4.50 + $2.75'。引导：钱币是 2 位小数。对齐小数点，$4.50 + $2.75 = $7.25。强调关键词：decimal point（小数点）、align（对齐）、add zeros（补零）、borrow（借位）、carry（进位）。注意：本周只教 P4 Decimals 2.1 最多两位小数的加减，不教三位小数加减、小数乘除（Decimals 3.1–3.3）、×÷10/100/1000（P5）、百分数（percentages）。",
+      },
+      {
+        name: "孩子口头说算式",
+        duration: "10 分钟",
+        teacherNotes: "给 3 个口头题，孩子说出算式和答案。题目 1：'What is 5.04 + 0.8?' 期待输出：'Align decimal points: 5.04 + 0.80 = 5.84. Five point zero four plus zero point eight equals five point eight four.' 题目 2：'What is 10 − 3.26?' 期待输出：'Write as 10.00 − 3.26. Align decimal points. 10.00 − 3.26 = 6.74. Ten minus three point two six equals six point seven four.' 题目 3：'Mei spent $4.50 and $2.75. How much in total?' 期待输出：'$4.50 + $2.75 = $7.25. Align decimal points. Four dollars fifty cents plus two dollars seventy-five cents equals seven dollars twenty-five cents.'",
+      },
+      {
+        name: "开口",
+        duration: "12 分钟",
+        teacherNotes: "让孩子读出算式并解释对齐小数点的过程。比如 '3.45 + 2.7'，孩子要说 'I align the decimal points. I add a zero to make 2.70. Then I add from the right: 5 + 0 = 5, 4 + 7 = 11, write 1 carry 1, 3 + 2 + 1 = 6. The answer is 6.15.' 或 '6.8 − 1.35'，孩子要说 'I align the decimal points. I write 6.80. I subtract from the right: 0 − 5, I need to borrow, 10 − 5 = 5. 8 − 1 − 3 = 4. 6 − 1 = 5. The answer is 5.45.' 注意读法：decimal point（小数点）、align（对齐）、borrow（借位）、carry（进位）、from the right（从右边）。",
+      },
+      {
+        name: "收口",
+        duration: "5 分钟",
+        teacherNotes: "提醒本周作业有 P4 数学题目，包括小数加减（adding and subtracting decimals up to 2 decimal places）。对应申请 P5 的孩子需要掌握的 P4 内容（preceding level 规则）。题目使用新加坡学校情境（测量、钱币、液体容量等）。强调：对齐小数点是关键，补零后位数相同，从右边开始算。常见错误：不对齐小数点、从左边开始减、借位漏了某一位。本周不教三位小数加减、小数乘除、×÷10/100/1000、百分数。",
+      },
+    ],
+    spokenLines: [
+      "3.45 + 2.7 = 6.15",
+      "Three point four five plus two point seven equals six point one five.",
+      "6.8 − 1.35 = 5.45",
+      "Six point eight minus one point three five equals five point four five.",
+      "$4.50 + $2.75 = $7.25",
+      "Four dollars fifty cents plus two dollars seventy-five cents equals seven dollars twenty-five cents.",
+      "10 − 3.26 = 6.74",
+      "Ten minus three point two six equals six point seven four.",
+      "5.04 + 0.8 = 5.84",
+      "Five point zero four plus zero point eight equals five point eight four.",
+    ],
+    childPrompts: [
+      "What is 5.04 + 0.8? (Say the calculation and align decimal points.)",
+      "What is 10 − 3.26? (Say the calculation and show how you write 10.00.)",
+      "Mei spent $4.50 and $2.75. How much in total? (Say the calculation.)",
+    ],
+  },
 };
 
 export default async function LessonPlanPage({

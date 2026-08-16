@@ -191,6 +191,14 @@ export default function WeikeMiniLesson({ level, weekNumber }: WeikeMiniLessonPr
       ],
       gloss: "P4 学小数到三位（decimals up to 3 decimal places）：十分位 tenths、百分位 hundredths、千分位 thousandths。位值：3.256 中的 5 在百分位 = 0.05。比较小数：补零对齐，0.47 = 0.470, 0.5 = 0.500，所以 0.47 < 0.5。小数转分数：0.4 = 4/10 = 2/5（约分到最简）。分数转小数：分母是 10 或 100 的因数时，如 3/5 = 6/10 = 0.6。四舍五入：2.36 到 1 d.p.，看百分位 6 ≥ 5，进位得 2.4；5.852 到 2 d.p.，看千分位 2 < 5，不进位得 5.85。关键词：tenths（十分位）、hundredths（百分位）、thousandths（千分位）、place value（位值）、compare（比较）、order（排序）、round（四舍五入）、simplest form（最简分数）。常见错误：0.35 当成 0.350 比大小只看位数、0.4 = 4/10 忘了约分、四舍五入看错位。注意：本周不教小数加减乘除（下周 2.1）、×÷10/100/1000（P5）、百分数、4 位小数。"
     },
+    "MATH-21": {
+      examples: [
+        "3.45 + 2.7: Align decimal points. 3.45 + 2.70 = 6.15",
+        "6.80 − 1.35 = 5.45. Align decimal points, borrow from the left.",
+        "$4.50 + $2.75 = $7.25. Money (dollars and cents) has 2 decimal places."
+      ],
+      gloss: "P4 学小数加减（最多两位小数）：adding and subtracting decimals (up to 2 decimal places)。关键技能：对齐小数点（align decimal points），补零补位（add zeros to make equal decimal places），竖式计算（vertical calculation）。例：3.45 + 2.7 → 对齐小数点 3.45 + 2.70 = 6.15；6.8 − 1.35 → 对齐小数点 6.80 − 1.35 = 5.45（从右边开始借位）；10 − 3.26 → 写成 10.00 − 3.26 = 6.74。金额美元和分（dollars and cents）是 2 位小数可以练，如 $4.50 + $2.75 = $7.25。常见错误：不对齐小数点（把 3.45 和 2.7 的个位对齐而不是小数点对齐）、从左边开始减（应该从右边个位或小数部分开始）、借位时漏了某一位（如 10.00 − 3.26，忘了从十位借到个位再借到十分位）。关键词：decimal point（小数点）、align（对齐）、add zeros（补零）、borrow（借位）、carry（进位）。注意：本周只教 P4 Decimals 2.1 最多两位小数的加减，不教三位小数加减、小数乘除（Decimals 3.1–3.3）、×÷10/100/1000（P5）、百分数（percentages）。"
+    },
     "A2-7": {
       fossil: "I going to the library tomorrow / I go to swim / Tomorrow I go library",
       examples: [
