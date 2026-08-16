@@ -3472,6 +3472,43 @@ const lessonPlans: Record<string, LessonPlan> = {
     ],
     speakingPrompts: null,
   },
+  "SMATH-14": {
+    title: "近似与估算 — Approximation and Estimation",
+    fossil: "rounding down when the next digit is 5 / counting leading zeros as significant figures / estimating without rounding first",
+    sections: [
+      {
+        name: "课前",
+        duration: "2 分钟",
+        teacherNotes: "确认 Zoom 设置正常。孩子和家长都在镜头前。对家长说：「今天教中学 AEIS 数学第 14 周，近似与估算（approximation and estimation）。本周是 Sec 1 数学卷型样本，内容对应前一级 Sec 1 NUMBER AND ALGEBRA, N1. Numbers and their operations: 1.7 approximation and estimation (including rounding off numbers to a required number of decimal places or significant figures, and estimating the results of computation)。官方 MOE 2020 G3 Mathematics Syllabuses, Secondary One, NUMBER AND ALGEBRA。SEAB 官方规则：申请 Sec 2 入学的孩子需熟悉 Sec 2 前一级（Sec 1）的内容。第 8–13 周已教 1.1 质数分解、1.2 HCF/LCM/平方立方和根、1.3 负数四则、1.5 数轴、1.6 不等号，跳过了 1.4 计算器运算（AEIS 禁用计算器），本周是 1.7 近似与估算。本周完成官方 N1（N2 比 ratio 是下一部分，未开放）。不用计算器，要写出推理步骤。」",
+      },
+      {
+        name: "热身",
+        duration: "5 分钟",
+        teacherNotes: "在白板上写：3.456 to 2 decimal places = ?  问孩子：'What is 3.456 rounded to 2 decimal places?' 等孩子思考后，解释：'Look at the third decimal place. It's 6. Since 6 ≥ 5, we round up the second decimal place from 5 to 6. Answer: 3.46.' 再写：2.5 to 0 decimal places = ?  问孩子：'What is 2.5 rounded to 0 decimal places? Is it 2 or 3?' 等孩子回答。如果孩子说 2（常见化石），说：'Let's check. Look at the first decimal place. It's 5. Since 5 ≥ 5, we round up. So 2.5 becomes 3, not 2. This is important: when the next digit is 5, we round up.' 再写：48 × 21 ≈ ?  问孩子：'How can we estimate this?' 等孩子思考后，解释：'To estimate, we round each number first, then compute. Round 48 to 50. Round 21 to 20. Then compute: 50 × 20 = 1000. So 48 × 21 ≈ 1000.' 让孩子看到今天的目标：四舍五入到小数位数（decimal places）、四舍五入到有效数字（significant figures）、估算计算结果（estimating the results of computation）。",
+      },
+      {
+        name: "化石",
+        duration: "8 分钟",
+        teacherNotes: "在屏幕上或白板上写下常见混淆：'Fossil 1: Rounding down when the next digit is 5. ✗ Example: Round 2.5 to 0 decimal places. Wrong: 2 (thinking 5 is in the middle, so round down). Correct: 3. Rule: digit ≥ 5 → round up. So 2.5 becomes 3, not 2. Always round up when the next digit is 5 or more.' 再写：'Fossil 2: Counting leading zeros as significant figures. ✗ Example: Round 0.03450 to 2 significant figures. Wrong: 0.00 (thinking the first two digits 0 and 0 are the 2 s.f.). Correct: 0.035. Rule: Leading zeros after the decimal are not significant. Only count non-zero digits and zeros between or after them. In 0.03450, the significant figures are 3, 4, 5, 0 (4 s.f.). The first s.f. is 3, the second s.f. is 4, the third digit is 5. Since 5 ≥ 5, round up the second s.f. from 4 to 5. Answer: 0.035.' 再写：'Fossil 3: Estimating without rounding first, or rounding the answer only. ✗ Example: Estimate 48 × 21. Wrong: 48 × 21 = 1008, then round 1008 to 1000. Correct: Round 48 to 50, round 21 to 20, then compute 50 × 20 = 1000. Rule: To estimate, round each number first, then compute. Don't compute the exact answer and then round it.' 画出例子：2.5 → 3（not 2），0.03450 to 2 s.f. → 0.035（not 0.00），48 × 21 ≈ 50 × 20 = 1000（not 1008 → 1000）。让孩子跟读正确的方法 3 次。",
+      },
+      {
+        name: "例题",
+        duration: "10 分钟",
+        teacherNotes: "教师示范五道完整例题（写出推理步骤）。例题 1：Round 3.456 to 2 decimal places. 步骤：① 3.456 to 2 d.p. ② Look at the third decimal place: 6. ③ Since 6 ≥ 5, round up the second decimal place from 5 to 6. Answer: 3.46. 例题 2：Round 2.5 to 0 decimal places. 步骤：① 2.5 to 0 d.p. ② Look at the first decimal place: 5. ③ Since 5 ≥ 5, round up. 2 becomes 3. Answer: 3 (not 2). 例题 3：Round 3482 to 2 significant figures. 步骤：① 3482 to 2 s.f. ② The first s.f. is 3, the second s.f. is 4, the third digit is 8. ③ Since 8 ≥ 5, round up the second s.f. from 4 to 5. ④ Keep the place value by adding zeros: 3500. Answer: 3500. 例题 4：Round 0.03450 to 2 significant figures. 步骤：① 0.03450. ② Leading zeros after the decimal are not significant. The first non-zero digit is 3 (1st s.f.), then 4 (2nd s.f.), then 5 (3rd digit). ③ Since 5 ≥ 5, round up the 2nd s.f. from 4 to 5. ④ Write: 0.035. Answer: 0.035 (not 0.00). 例题 5：Estimate 48 × 21 by rounding each number first, then compute. 步骤：① Round 48 to the nearest ten: 50. ② Round 21 to the nearest ten: 20. ③ Estimate: 50 × 20 = 1000. Answer: 1000 (not 1008 or other). 教师在白板上写出每一步，让孩子看到完整推理过程。强调：'AEIS 官方要求写出 working steps，不能只写答案。四舍五入要说明看哪一位数字，是否 ≥ 5。估算要先 round 每个数，再计算。'",
+      },
+      {
+        name: "练习",
+        duration: "12 分钟",
+        teacherNotes: "给孩子 3 道练习题，让孩子独立做，写出推理步骤。家长可以用手机拍照孩子的推理。题 1：Round 6.847 to 2 decimal places. Show which digit you look at to make your decision. 答案：① 6.847 to 2 d.p. ② Look at the third decimal place: 7. ③ Since 7 ≥ 5, round up the second decimal place from 4 to 5. Answer: 6.85. 题 2：Round 0.005682 to 3 significant figures. Explain which digits are significant and show your working. 答案：① 0.005682. ② Leading zeros after the decimal are not significant. The first non-zero digit is 5 (1st s.f.), then 6 (2nd s.f.), then 8 (3rd s.f.), then 2 (4th digit). ③ Since 2 < 5, do not round up. Keep the first 3 s.f.: 5, 6, 8. Answer: 0.00568. 题 3：Aisha went shopping. She bought items for S$37.50, S$22.80, and S$19.40. Estimate the total cost by rounding each price to the nearest dollar first, then compute the sum. Show your working. 答案：① S$37.50 ≈ S$38 (0.50 ≥ 0.5, round up). ② S$22.80 ≈ S$23 (0.80 ≥ 0.5, round up). ③ S$19.40 ≈ S$19 (0.40 < 0.5, do not round up). ④ Estimate: S$38 + S$23 + S$19 = S$80. Answer: S$80. 教师巡看孩子的推理，纠正格式（如果孩子只写答案不写步骤，提醒 'AEIS 官方要求写出 working steps'）。如果孩子在题 1 或题 2 出现化石（2.5 → 2 或前导零算作有效数字），指出错误并让孩子重做。如果孩子在题 3 先算精确值再四舍五入（化石 3），指出错误：'To estimate, round each number first, then compute. Don't compute the exact answer and then round it.'",
+      },
+      {
+        name: "收口",
+        duration: "3 分钟",
+        teacherNotes: "总结本周重点：(1) 官方 Sec 1 AEIS 数学卷型：Part 1 MCQ 34 题 30 分钟 + Part 2 show working 20+10–15 题 1 小时 45 分钟，不用计算器。(2) 本周内容：Sec 1 NUMBER AND ALGEBRA, N1. Numbers and their operations: 1.7 approximation and estimation (including rounding off numbers to a required number of decimal places or significant figures, and estimating the results of computation)（近似与估算），对应 preceding level 规则。(3) 本周化石：rounding down when the next digit is 5（2.5 to 0 d.p. = 2 是错的，应该是 3，因为 5 ≥ 5，round up），counting leading zeros as significant figures（0.03450 to 2 s.f. = 0.00 是错的，应该是 0.035，前导零不是有效数字），estimating without rounding first（48 × 21 先算 1008 再 round to 1000 是错的，应该先 round 50×20 再算 1000）。(4) 四舍五入到小数位数 rounding off to decimal places (d.p.)：3.456 to 2 d.p. = 3.46（看第三位 6 ≥ 5，进位）；2.5 to 0 d.p. = 3（看第一位 5 ≥ 5，进位，只能是 3，不是 2）。(5) 四舍五入到有效数字 rounding off to significant figures (s.f.)：0.03450 to 2 s.f. = 0.035（leading zeros after the decimal are not significant，有效数字从第一个非零数字开始，3 和 4 是前两位，看第三位 5 ≥ 5，进位）；3482 to 2 s.f. = 3500（3 和 4 是前两位，看第三位 8 ≥ 5，进位，后面补零保持位值）。(6) 估算 estimating the results of computation：先四舍五入每个数，再计算。48 × 21 ≈ 50 × 20 = 1000（先 round 每个数，再相乘，不是先算 48 × 21 = 1008 再 round to 1000）。(7) 金额用新加坡元 S$（money in Singapore dollars S$）。不用计算器（calculators are not allowed）。(8) 唯一性 unique keys：两个选项不能都对同一题干为真。不提供 3.46 和 346/100 作为两个选项（数值相同）。2.5 to 0 d.p. 只有 3 是正确答案（不是 2）。估算题只有一个 intended estimate 是正确的（如果 key 是 50×20=1000，不提供 48×20=960 或其他合理估算作为第二个正确答案）。(9) 本周完成官方 N1：第 8 周教了 1.1 质数分解，第 9 周教了 1.2 HCF/LCM，第 10 周教了 1.2 平方立方和根，第 11 周教了 1.3 负数四则，1.4 计算器运算已跳过（AEIS 禁用计算器），第 12 周教了 1.5 数轴，第 13 周教了 1.6 不等号，本周教 1.7 近似与估算，本周完成官方 N1。下一部分是 N2 比 ratio（未开放）。(10) 不声称 AEIS 是 G3 paper（G3 只是官方 preceding-level 内容来源，官方举例：apply Secondary 3 → be familiar with Secondary 2 content，本周针对 Sec 2 申请者，内容为 Sec 1）。对家长说：「本周作业有 5+8+3 道题，模拟官方题型，不是完整 34+20+10–15 题。孩子做完后上传到作业 app，选择题自动批改，写推理题家长拍照上传。」",
+      },
+    ],
+    speakingPrompts: null,
+  },
 };
 
 export default async function LessonPlanPage({
