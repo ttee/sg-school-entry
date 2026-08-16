@@ -2732,6 +2732,43 @@ const lessonPlans: Record<string, LessonPlan> = {
       "If you feel unwell, you should sit at the side. ✓ (建议用 should)",
     ],
   },
+  "SEC-6": {
+    title: "Science Lab — because vs so",
+    fossil: "because (reason) vs so (result)",
+    sections: [
+      {
+        name: "课前",
+        duration: "2 分钟",
+        teacherNotes: "确认 Zoom 设置正常。孩子和家长都在镜头前。对家长说：「今天教中学 AEIS 英语第 6 周，不是 CEQ。本周只练一个区别：because（原因）vs so（结果）。如果空格需要填原因从句连接词，用 because；如果需要填结果连接词，用 so。每个空只有一个正确答案，不能让 because 和 so 都对同一个空。本周情境是 Wei 第一次上科学实验课。」提醒家长可以在旁边观摩，但请让孩子自己开口。",
+      },
+      {
+        name: "热身",
+        duration: "5 分钟",
+        teacherNotes: "问孩子：'Have you ever done a science experiment at school?' 让孩子说。问：'What safety rules do you follow in the lab?' 引导孩子说 wear goggles / don't touch chemicals / wash hands。问：'Why do you need to wear goggles?'，让孩子说话。如果孩子说 'Because of the chemicals are dangerous'（because of + 句子的错误）或混淆 because 和 so，不要立刻纠正，等微课环节再讲。",
+      },
+      {
+        name: "化石",
+        duration: "8 分钟",
+        teacherNotes: "在屏幕上或白板上写下两个句子：'You must wear goggles ____ the chemicals can be dangerous.' 和 'The chemicals are dangerous, ____ you need to wear goggles.' 问孩子：'第一句空格填 because 还是 so？第二句呢？' 等孩子思考后，解释化石：第一句是原因（because the chemicals are dangerous），because 引导原因从句。第二句是结果（so you need to wear goggles），so 引导结果。关键区别：原因（reason）→ because（so 不出现或明显错误）；结果（result）→ so（because 不出现或明显错误）。让孩子跟读改正后的句子 3 次。强调：不能用 because of + 句子（because of 后只能接名词短语，如 because of the dangerous chemicals），不能用 so that 当 because（so that 表示目的）。",
+      },
+      {
+        name: "跟读",
+        duration: "5 分钟",
+        teacherNotes: "展示 4 个正确句子（见 spokenLines），一句一句让孩子跟读。读完后问：'Which sentences use because?' 等孩子指出原因的句子。问：'Which sentences use so?' 等孩子指出结果的句子。问：'Can we use because to show a result?' 等孩子说 'No, we use so for results.' 如果孩子说错，再带读 2 次。确认孩子能区分 because（原因）和 so（结果）。",
+      },
+      {
+        name: "作业",
+        duration: "5 分钟",
+        teacherNotes: "打开 /learn 页面，给孩子看 SEC 第 6 周作业入口。告诉孩子：「这周的作业是中学 AEIS 英语第 6 周，包括阅读理解（Wei 第一次上科学实验课）、语法题（because vs so，每个空只有一个正确答案）、写作（2 题选 1，写 200-300 词）。完成后系统会自动批改选择题，写作部分会有 AI 反馈。」对家长说：「这是 AEIS-Secondary 第 6 周，不是 CEQ。官方 Sec 1 卷型：Part 1 Writing 2 题选 1 篇，200-300 词；Part 2 有 50 道 MCQ（理解 + 完形 + 词汇 + 语法）。本周是样本，不是完整 50 题。孩子完成作业后，我们会在微信群里同步进度。」不提「包过」「保证录取」等话术。",
+      },
+    ],
+    spokenLines: [
+      "You must wear goggles because the chemicals are dangerous. ✓ (because 表示原因)",
+      "The chemicals are dangerous, so you need to wear goggles. ✓ (so 表示结果)",
+      "Because lab safety is important, you must follow the rules. ✓ (because 引导原因从句)",
+      "Lab safety is important, so you must follow the rules. ✓ (so 引导结果)",
+    ],
+  },
   "SMATH-0": {
     title: "百分数增减 — Percentage Increase/Decrease",
     fossil: "part/whole mix-up / % of vs % increase",

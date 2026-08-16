@@ -397,6 +397,16 @@ export default function WeikeMiniLesson({ level, weekNumber }: WeikeMiniLessonPr
       ],
       gloss: "中学 AEIS 英语本周例题：should（建议/advice）vs must（规则/school rule）。如果是学校规则（You ___ change into PE attire），用 must。如果是建议（You ___ bring water—it's helpful），用 should。每个句子只有一个正确答案。情境：Wei 第一次上 PE 课，Coach Ng 和 Aisha 给出指令。"
     },
+    "SEC-6": {
+      fossil: "because (reason) vs so (result) — unique keys",
+      examples: [
+        "You must wear goggles because the chemicals can be dangerous. ✓ (because 表示原因)",
+        "The chemicals are dangerous, so you need to wear goggles. ✓ (so 表示结果)",
+        "Because lab safety is important, you must follow the rules. ✓ (because 引导原因从句)",
+        "Lab safety is important, so you must follow the rules. ✓ (so 引导结果)"
+      ],
+      gloss: "中学 AEIS 英语本周例题：because（原因）vs so（结果）。如果空格需要填原因从句连接词（You must wear goggles ___ the chemicals are dangerous），用 because。如果空格需要填结果连接词（The chemicals are dangerous, ___ you need goggles），用 so。每个空只有一个正确答案。不能让 because 和 so 都对同一个空。禁止：because of + 句子（because of 后只能接名词短语）、so that 当 because 用（so that 表示目的）。情境：Wei 第一次上科学实验课。"
+    },
     "A2-7": {
       fossil: "I going to the library tomorrow / I go to swim / Tomorrow I go library",
       examples: [
