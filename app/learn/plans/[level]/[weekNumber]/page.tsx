@@ -1643,6 +1643,52 @@ const lessonPlans: Record<string, LessonPlan> = {
       "A recess starts at 10:00 a.m. and ends at 10:30 a.m. How long is the recess? (Say the calculation.)",
     ],
   },
+  "MATH-12": {
+    title: "角与直线 — Angles and lines: right angle, perpendicular, parallel",
+    mathExample: "A square has 4 right angles. Each right angle = 90°. The door frame has sides that are perpendicular (meet at a right angle). The opposite sides of a rectangle are parallel (never meet, always the same distance apart).",
+    sections: [
+      {
+        name: "热身",
+        duration: "3 分钟",
+        teacherNotes: "展示正方形图片，说 'A square has 4 right angles.' '一个直角 = 90°。' 让孩子注意：直角（right angle）= 90°。",
+      },
+      {
+        name: "本周例题",
+        duration: "8 分钟",
+        teacherNotes: "在白板上画一个正方形，标注 4 个角。说：'Each corner is a right angle. A right angle = 90°.' 然后画字母 T，说：'These two lines are perpendicular. Perpendicular means they meet at a right angle.' 再画两条平行线，说：'These lines are parallel. Parallel lines never meet. They are always the same distance apart.' 强调：P3 只教直角 = 90°、垂直（perpendicular）、平行（parallel），不教 P4 的量角器和非直角度数，也不教 P5 的三角形性质。关键词：right angle（直角）、perpendicular（垂直）、parallel（平行）、opposite sides（对边）。",
+      },
+      {
+        name: "孩子口头说算式",
+        duration: "10 分钟",
+        teacherNotes: "给 3 个口头题，孩子说出答案。题目 1：'How many right angles does a rectangle have?' 期待输出：'A rectangle has 4 right angles.' 题目 2：'Look at the door frame. Are the sides parallel or perpendicular?' 期待输出：'The sides are perpendicular. They meet at a right angle.' 题目 3：'Do the opposite sides of a square parallel?' 期待输出：'Yes, the opposite sides of a square are parallel.'",
+      },
+      {
+        name: "开口",
+        duration: "12 分钟",
+        teacherNotes: "让孩子描述教室里的物品。比如 'The door frame has 4 right angles.' 'The window sides are perpendicular.' 'The floor tiles have parallel lines.' 提示孩子用 right angle, perpendicular, parallel 这些词。",
+      },
+      {
+        name: "收口",
+        duration: "5 分钟",
+        teacherNotes: "提醒本周作业有 P3 数学题目，包括直角（right angle = 90°）、垂直线（perpendicular lines）、平行线（parallel lines）。对应申请 P4 的孩子需要掌握的 P3 内容（preceding level 规则）。强调：本周不教 P4 的量角器（protractor）和非直角的度数，也不教 P5 的三角形性质（triangle properties）。题目使用学校日常物品（门框、书本、教室瓷砖、窗户）作为情境。",
+      },
+    ],
+    spokenLines: [
+      "A square has 4 right angles.",
+      "Each right angle = 90°.",
+      "A right angle equals ninety degrees.",
+      "These lines are perpendicular.",
+      "Perpendicular lines meet at a right angle.",
+      "These lines are parallel.",
+      "Parallel lines never meet.",
+      "The opposite sides of a rectangle are parallel.",
+    ],
+    childPrompts: [
+      "How many right angles does a square have? (Say the answer.)",
+      "Look at the letter T. Are the lines perpendicular or parallel? (Say the answer.)",
+      "Look at the window. Are the opposite sides parallel? (Say the answer.)",
+    ],
+  },
 };
 
 export default async function LessonPlanPage({
