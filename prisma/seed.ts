@@ -1638,6 +1638,103 @@ What is 0.75 written as a fraction in simplest form?`,
         },
       ],
     },
+    {
+      level: "MATH",
+      weekNumber: 21,
+      title: "数学 第 21 周 / Maths Week 21",
+      description: "AEIS-Primary P4 Mathematics: Adding and subtracting decimals",
+      isSample: false,
+      errorFocus: null,
+      parentBrief: "本周主题：小数加减（最多两位小数，up to 2 decimal places），对应官方 2021 Primary Mathematics Syllabus P4 Decimals 2.1 adding and subtracting decimals (up to 2 decimal places)。申请 P5 入学的孩子需掌握 P4 内容（MOE AEIS preceding level 规则）。关键技能：对齐小数点，补零补位，竖式计算。金额新元和分（dollars and cents）是 2 位小数可以练。常见错误：不对齐小数点（把 3.45 和 2.7 的个位对齐而不是小数点对齐）、从左边开始减（应该从右边个位或小数部分开始）、借位时漏了某一位。题目是简体中文家长说明 + 英文题干。本周配有双向对照表，显示题目对应的官方 2021 Primary Mathematics Syllabus P4 Decimals 2.1，以及申请 P5 → 掌握 P4 的规则。本周不教：三位小数的加减（那超出 P4 Decimals 2.1 范围）、小数乘除（Decimals 3.1–3.3 是 P4 后续内容）、乘除 10/100/1000（P5）、百分数（percentages）。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: `Read each question and choose the correct answer.
+
+Question 1:
+At Tampines Primary School, Jun Wei measured 3.45 m of ribbon for a banner. Priya measured 2.7 m of ribbon. How much ribbon do they have altogether?
+
+Question 2:
+Mei bought a book for $4.50 and a pen for $2.75. How much money did she spend in total?
+
+Question 3:
+Ali had 10 litres of juice. He used 3.26 litres for the school party. How much juice does he have left?
+
+Question 4:
+At the library, a shelf is 7.2 m long. If 0.45 m is taken up by bookends, how much space is left for books?
+
+Question 5:
+In PE class, Priya ran 12.5 km in the first week and 3.75 km in the second week. What is the total distance she ran?`,
+          options: JSON.stringify([
+            "3.45 m + 2.7 m|A. 5.75 m|B. 6.15 m|C. 6.12 m|D. 5.45 m",
+            "$4.50 + $2.75|A. $7.25|B. $6.25|C. $7.75|D. $6.75",
+            "10 l − 3.26 l|A. 7.74 l|B. 6.74 l|C. 7.26 l|D. 6.84 l",
+            "7.2 m − 0.45 m|A. 6.85 m|B. 6.75 m|C. 7.75 m|D. 6.95 m",
+            "12.5 km + 3.75 km|A. 15.25 km|B. 16.25 km|C. 15.75 km|D. 16.75 km",
+          ]),
+          correctAnswer: "B,A,B,B,B",
+          points: 5,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: `Choose the correct answer for each question.
+
+Question 6:
+What is 5.04 + 0.8?
+
+Question 7:
+What is 6.8 − 1.35?
+
+Question 8:
+Mei spent $9.00 on lunch and $2.48 on a drink. How much change does she get from $20?
+
+Question 9:
+Jun Wei has 15.6 m of string. He cuts off 2.75 m. How much string is left?
+
+Question 10:
+What is 4.5 + 3.86?
+
+Question 11:
+A tank had 25.0 litres of water. After cleaning, 8.45 litres were used. How much water is left?
+
+Question 12:
+Priya bought items for $3.60 and $4.95. How much did she spend?
+
+Question 13:
+What is 10.00 − 4.37?`,
+          options: JSON.stringify([
+            "5.04 + 0.8|A. 5.84|B. 5.12|C. 5.48|D. 5.04",
+            "6.8 − 1.35|A. 6.65|B. 5.45|C. 5.55|D. 6.45",
+            "$9.00 + $2.48, change from $20|A. $8.52|B. $8.48|C. $9.52|D. $7.52",
+            "15.6 m − 2.75 m|A. 13.85 m|B. 12.85 m|C. 13.75 m|D. 12.75 m",
+            "4.5 + 3.86|A. 7.36|B. 8.36|C. 7.46|D. 8.46",
+            "25.0 l − 8.45 l|A. 17.55 l|B. 16.55 l|C. 17.45 l|D. 16.45 l",
+            "$3.60 + $4.95|A. $7.55|B. $8.55|C. $8.45|D. $7.65",
+            "10.00 − 4.37|A. 6.63|B. 5.63|C. 6.73|D. 5.73",
+          ]),
+          correctAnswer: "A,B,A,B,B,B,B,B",
+          points: 8,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `At Bedok Primary School, the students are learning about adding and subtracting decimals.
+
+(a) Ali bought a textbook for $18.65 and a notebook for $3.50. How much did he spend in total? Show your working, aligning the decimal points.
+
+(b) The school water tank had 45.8 litres of water in the morning. By lunchtime, 12.35 litres had been used. How much water is left? Show your working, aligning the decimal points.
+
+(c) In the science experiment, Mei measured 8.0 cm of liquid in a beaker. She added 2.45 cm more liquid. Then Jun Wei used 3.8 cm of the liquid for his experiment. How much liquid is left in the beaker? Show all your working steps, aligning decimal points.
+
+写出算式、答案和说明。Show working by aligning decimal points vertically. Explain any common errors (not aligning decimal points, subtracting from left to right, forgetting to borrow).`,
+          points: 10,
+        },
+      ],
+    },
     
     // A2 WEEKS
     {
