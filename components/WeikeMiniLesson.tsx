@@ -478,6 +478,14 @@ export default function WeikeMiniLesson({ level, weekNumber }: WeikeMiniLessonPr
       ],
       gloss: "AEIS 中学数学第 22 周 / SMATH Week 22. 本周例题：Sec 1 百分数综合应用（Sec 1 NUMBER AND ALGEBRA: N3.6 problems involving percentages）。混合使用 3.1–3.5 技能：3.1 express A as % of B（15 of 60 = 25%），3.2 compare by %（80 is 160% of 50），3.3 % > 100（125% of 80 = 100），3.4 increase/decrease（S$80 + 10% = S$88; 40% → 50% is 10 percentage points, not 25%），3.5 reverse（72 after 20% increase, original = 72 ÷ 1.20 = 60）。本周化石：treating reverse as "subtract r% of new"（72 − 14.4 = 57.6 错，应该 72 ÷ 1.20 = 60）；percentage point as relative %（40% → 50% 说"增加 25%"错，应该说"10 percentage points"）；adding % as raw number（80 + 10 = 90 错，应该 80 + 10% of 80 = 88）；混淆"A is 20% of B"和"A is 20% more than B"。本周完成 N3，下周教 N4 rate and speed。不用计算器，写出算式步骤。"
     },
+    "SMATH-23": {
+      examples: [
+        "90 pages in 3 hours. Average rate = 90 ÷ 3 = 30 pages/h",
+        "120 km in 2 h. Speed = 120 ÷ 2 = 60 km/h",
+        "60 km at 60 km/h (time 1 h), then 60 km at 30 km/h (time 2 h). Total 120 km in 3 h. Average speed = 120 ÷ 3 = 40 km/h (not 45 km/h, which is the mean of 60 and 30)"
+      ],
+      gloss: "AEIS 中学数学第 23 周 / SMATH Week 23. 本周例题：Sec 1 平均速率、速度、匀速和平均速度（Sec 1 NUMBER AND ALGEBRA: N4.1 concepts of average rate, speed, constant speed and average speed）。Average rate = total quantity ÷ total time（平均速率 = 总量 ÷ 总时间，如 90 pages in 3 h → 30 pages/h）。Speed = distance ÷ time（速度 = 路程 ÷ 时间，如 120 km in 2 h → 60 km/h）。Constant speed = the same speed for the whole journey（匀速 = 全程保持同一速度）。Average speed = total distance ÷ total time（平均速度 = 总路程 ÷ 总时间，不是两个速度的平均数）。例：60 km at 60 km/h then 60 km at 30 km/h：times 1 h + 2 h = 3 h，average speed = 120 ÷ 3 = 40 km/h，不是 (60+30)÷2 = 45。本周化石：taking the mean of two speeds（把两个速度求平均数，如 40 和 60 错误地算 50，应该是 total distance ÷ total time）；using one part of journey as whole（把旅程一段当全程）；mixing rate units（混淆速率单位）。本周只教 N4 的 4.1（concepts），不教 4.2 conversion of units（单位换算，如 km/h ↔ m/s）和 4.3 problems involving rate and speed（速率和速度应用题），那些是后续内容。不用计算器，写出算式步骤。"
+    },
     "SEC-0": {
       fossil: "Although I was nervous, but I tried. ✗ (中文「虽然…但是…」迁移) / I go yesterday ✗ (叙事体过去时掉落)",
       examples: [
