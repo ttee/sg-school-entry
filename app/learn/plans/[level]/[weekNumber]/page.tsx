@@ -2350,6 +2350,54 @@ const lessonPlans: Record<string, LessonPlan> = {
       "Angle a = 80°. Is this acute, right, or obtuse? (Say the definition and compare.)",
     ],
   },
+  "MATH-27": {
+    title: "长方形和正方形 — Rectangle and Square",
+    mathExample: "Rectangle: 4 right angles = 90°, opposite sides equal. Long side 8 cm, short side 5 cm → opposite sides: 8 cm, 5 cm, 8 cm, 5 cm. Square: 4 right angles = 90°, 4 equal sides. Each side 6 cm → all four sides 6 cm. Draw on grid: rectangle 4 units by 3 units.",
+    sections: [
+      {
+        name: "热身",
+        duration: "3 分钟",
+        teacherNotes: "问孩子：'What is a rectangle? What is a square?' 引导：A rectangle has 4 right angles = 90° and opposite sides equal. A square has 4 right angles = 90° and 4 equal sides. 让孩子注意：rectangle 的对边相等（opposite sides equal: two long sides are equal, two short sides are equal），但不是四边都相等；square 的四边都相等（all four sides equal）。也可以问：'How many right angles does a rectangle have? How many right angles does a square have?' 答案：Both have 4 right angles = 90°. 让孩子想想哪里见过长方形和正方形：book cover（书的封面，usually rectangle）、window（窗户，usually rectangle）、tile（地砖，usually square）、table（桌子，usually rectangle）。",
+      },
+      {
+        name: "本周例题",
+        duration: "8 分钟",
+        teacherNotes: "在白板上写：'Rectangle: 4 right angles = 90°, opposite sides equal.' 画简单示意图：一个长方形，标出 long side 8 cm, short side 5 cm, opposite sides: 8 cm, 5 cm, 8 cm, 5 cm. 问孩子：'Are all four sides of a rectangle equal?' 引导：No. Only opposite sides are equal. The two long sides are equal. The two short sides are equal. 再写：'Square: 4 right angles = 90°, 4 equal sides.' 画简单示意图：一个正方形，标出 each side 6 cm, all four sides 6 cm. 问孩子：'Are all four sides of a square equal?' 引导：Yes. All four sides are equal. 讲在方格纸上画长方形和正方形：'Draw a rectangle 4 units by 3 units on a square grid.' 引导：long side 4 units, short side 3 units. Two sides 4 units, two sides 3 units. 强调：rectangle 和 square 都有 4 right angles = 90°，都有 opposite sides parallel（对边平行，如果 P3 第 12 周已教平行和垂直，可以回顾）。关键词：rectangle（长方形）、square（正方形）、right angle（直角 = 90°）、opposite sides（对边）、equal sides（相等的边）、parallel（平行）、square grid（方格纸）。本周不教：diagonal properties（对角线性质，官方明确 excluding diagonal properties）、line symmetry / nets（对称/展开图）、triangle angle sum（三角形内角和）、quadrilateral interior angle sum（四边形内角和，不在官方 P4 2.1 列表中）。",
+      },
+      {
+        name: "孩子口头说算式",
+        duration: "10 分钟",
+        teacherNotes: "给 3 个口头题，孩子说出性质和计算。题目 1：'A rectangle has one side that is ten centimeters long. The opposite side is also ten centimeters long. Another side is four centimeters long. How long is the side opposite to the four centimeter side?' 期待输出：'A rectangle has opposite sides equal. One side is ten centimeters. The opposite side is also ten centimeters. Another side is four centimeters. The side opposite to the four centimeter side is also four centimeters. So the opposite side is four centimeters.' 题目 2：'A square has one side that is nine centimeters long. How long are the other three sides?' 期待输出：'A square has four equal sides. One side is nine centimeters. All four sides are equal. So the other three sides are also nine centimeters each. All four sides are nine centimeters.' 题目 3：'On a square grid, you draw a rectangle with a long side of five units and a short side of two units. How many sides are five units long?' 期待输出：'A rectangle has opposite sides equal. The long side is five units. The two long sides are opposite to each other. So both long sides are five units. There are two sides that are five units long.' 强调：rectangle 的 opposite sides equal，square 的 4 equal sides，both have 4 right angles = 90°。",
+      },
+      {
+        name: "开口",
+        duration: "12 分钟",
+        teacherNotes: "让孩子读出长方形和正方形的性质并说出计算。比如 'A rectangle has two long sides that are both eight centimeters. The two short sides are both five centimeters. Are the opposite sides equal?'，孩子要说 'A rectangle has opposite sides equal. The two long sides are opposite to each other. Both long sides are eight centimeters. So the opposite sides are equal. The two short sides are opposite to each other. Both short sides are five centimeters. So the opposite sides are equal. Yes, the opposite sides are equal.' 或 'A square has sides that are each six centimeters long. How long are all four sides?'，孩子要说 'A square has four equal sides. Each side is six centimeters. All four sides are equal. So all four sides are six centimeters.' 或 'How many right angles does a rectangle have?'，孩子要说 'A rectangle has four corners. Each corner is a right angle. A right angle is ninety degrees. So a rectangle has four right angles.' 或 'On a square grid, you want to draw a rectangle that is four units long and three units wide. How many units is the long side?'，孩子要说 'The rectangle is four units long and three units wide. The long side is four units. The short side is three units. The rectangle has two long sides and two short sides. Two sides are four units long. Two sides are three units long.' 强调：rectangle: 4 right angles = 90°, opposite sides equal; square: 4 right angles = 90°, 4 equal sides; both have opposite sides parallel。常见错误：把 rectangle 当成四边相等（应该是 opposite sides equal）、忘记两个形状都有 4 right angles = 90°、用对角线性质（不在 P4 2.1-2.2）。",
+      },
+      {
+        name: "收口",
+        duration: "5 分钟",
+        teacherNotes: "提醒本周作业有 P4 数学题目，包括 rectangle properties（4 right angles = 90°, opposite sides equal）、square properties（4 right angles = 90°, 4 equal sides）、drawing rectangles and squares on a square grid（在方格纸上画长方形和正方形，用文字描述 'draw a rectangle 4 units by 3 units'）。对应申请 P5 的孩子需要掌握的 P4 内容（preceding level 规则，Geometry → 2D Shapes 2.1–2.2）。题目使用新加坡学校情境（Tampines Primary School, Jun Wei, Mei, Priya 等）。本周不教：diagonal properties（对角线性质，官方明确 excluding diagonal properties）、line symmetry / nets（对称/展开图）、triangle angle sum（三角形内角和）、quadrilateral interior angle sum（四边形内角和，不在官方 P4 2.1 列表中）。常见错误：把 rectangle 当成四边相等（应该是 opposite sides equal）、用对角线性质（官方排除）、混淆 rectangle 和 square 的定义（rectangle 对边相等，square 四边相等）、忘记两个形状都有 4 right angles = 90°。",
+      },
+    ],
+    spokenLines: [
+      "Rectangle: 4 right angles = 90°, opposite sides equal.",
+      "Square: 4 right angles = 90°, 4 equal sides.",
+      "Rectangle: long side 8 cm, short side 5 cm. Opposite sides: 8 cm, 5 cm, 8 cm, 5 cm.",
+      "Square: each side 6 cm. All four sides 6 cm.",
+      "Rectangle: opposite sides equal. Two long sides equal, two short sides equal.",
+      "Square: all four sides equal. If one side 9 cm, all four sides 9 cm.",
+      "Both rectangle and square have 4 right angles = 90°.",
+      "Draw on grid: rectangle 4 units by 3 units. Long side 4 units, short side 3 units.",
+      "Rectangle and square: opposite sides parallel.",
+      "Not teaching: diagonal properties, line symmetry, nets.",
+    ],
+    childPrompts: [
+      "A rectangle has one side that is 10 cm long. The opposite side is also 10 cm long. Another side is 4 cm long. How long is the opposite side? (Say the property and answer.)",
+      "A square has one side that is 9 cm long. How long are the other three sides? (Say the property and answer.)",
+      "How many right angles does a rectangle have? How many right angles does a square have? (Say the property and answer.)",
+    ],
+  },
 };
 
 export default async function LessonPlanPage({
