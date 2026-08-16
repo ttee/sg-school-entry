@@ -3398,6 +3398,43 @@ const lessonPlans: Record<string, LessonPlan> = {
     ],
     speakingPrompts: null,
   },
+  "SMATH-12": {
+    title: "数轴表示与排序 — Representation and Ordering of Numbers on the Number Line",
+    fossil: "placing a negative on the positive side / thinking −8 > −3 because 8 > 3",
+    sections: [
+      {
+        name: "课前",
+        duration: "2 分钟",
+        teacherNotes: "确认 Zoom 设置正常。孩子和家长都在镜头前。对家长说：「今天教中学 AEIS 数学第 12 周，数轴上的数的表示和排序（representation and ordering of numbers on the number line）。本周是 Sec 1 数学卷型样本，内容对应前一级 Sec 1 NUMBER AND ALGEBRA, N1. Numbers and their operations: 1.5 representation and ordering of numbers on the number line。官方 MOE 2020 G3 Mathematics Syllabuses, Secondary One, NUMBER AND ALGEBRA。SEAB 官方规则：申请 Sec 2 入学的孩子需熟悉 Sec 2 前一级（Sec 1）的内容。第 8–11 周已教 1.1 质数分解、1.2 HCF/LCM/平方立方和根、1.3 负数四则，跳过了 1.4 计算器运算（AEIS 禁用计算器），本周是 1.5 数轴，下一周是 1.6 不等号。本周可以说『左边的数小于右边的数』，但不把不等号符号作为本周主要练习内容。不用计算器，要写出推理步骤。」",
+      },
+      {
+        name: "热身",
+        duration: "5 分钟",
+        teacherNotes: "在白板上画一条横线，中间标 0，右边标 1, 2, 3，左边标 −1, −2, −3。问孩子：'What do we call this line?' 等孩子回答（number line / 数轴）。指着 0 右边说：'Numbers to the right of 0 are positive.' 指着 0 左边说：'Numbers to the left of 0 are negative.' 再问：'Which number is bigger, 2 or −3?' 等孩子回答。如果孩子说 2，点头。指着数轴说：'2 is to the right of −3, so 2 is bigger.' 再问：'Which number is bigger, −3 or −8?' 等孩子回答。如果孩子说 −3，点头并强调：'−3 is to the right of −8 on the number line, so −3 is bigger than −8. Further left means smaller.' 如果孩子说 −8（常见化石），说：'Let's look at the number line. −8 is to the left of −3. Further left means smaller. So −8 is smaller than −3, not bigger.' 让孩子看到今天的目标：在数轴上表示数、从小到大排序、比较负数大小。",
+      },
+      {
+        name: "化石",
+        duration: "8 分钟",
+        teacherNotes: "在屏幕上或白板上写下常见混淆：'Fossil 1: Placing a negative on the positive side. ✗ Example: Where is −2 on the number line? Wrong: Place −2 to the right of 0 (on the positive side). Correct: −2 is to the left of 0 (on the negative side). All negative numbers are to the left of 0.' 再写：'Fossil 2: Thinking a more-negative number is larger because its absolute value is larger. ✗ Example: Which is bigger, −8 or −3? Wrong: −8 is bigger because 8 > 3. Correct: −8 is to the left of −3 on the number line, so −8 is smaller than −3. Further left = smaller. Remember: −8 < −3 (not −8 > −3).' 画一条数轴，标上 −8, −3, 0, 3。指着 −8 和 −3 说：'−8 is further left, so −8 is smaller. Think about temperature: −8°C is colder than −3°C.' 对家长说：「本周两大化石：把负数标在正数一侧、以为 −8 > −3 因为 8 > 3。记住关键规则：数轴上越靠左的数越小。」",
+      },
+      {
+        name: "例题",
+        duration: "10 分钟",
+        teacherNotes: "教师示范五道完整例题（写出推理步骤）。例题 1：Which point is furthest left among −2, 0, 3, −5? 步骤：① Draw a number line. Mark −5, −2, 0, 3. ② −5 is furthest left. Answer: −5. 例题 2：Arrange −4, 1, −1, 0 from smallest to largest. 步骤：① On a number line, numbers increase from left to right. ② −4 is furthest left, then −1, then 0, then 1. Answer: −4, −1, 0, 1. 例题 3：Where is −1/2 on the number line? 步骤：① −1/2 is negative, so it is to the left of 0. ② −1/2 is halfway between −1 and 0. Answer: −1/2 lies between −1 and 0 on the negative side. 例题 4：Which number lies between −3 and 1? 选项：A. −5, B. −2, C. 2, D. 3. 步骤：① Between −3 and 1 means to the right of −3 and to the left of 1. ② −5 is to the left of −3 (✗). −2 is between −3 and 1 (✓). 2 and 3 are to the right of 1 (✗). Answer: B. −2. 例题 5：Which is smaller, −8 or −3? 步骤：① On a number line, −8 is to the left of −3. ② Further left = smaller. Answer: −8 is smaller than −3. 再做一道应用题：On Monday the temperature was −8°C. On Tuesday it was −3°C. Which day was colder? 步骤：① −8°C < −3°C (−8 is to the left of −3 on the number line). ② Smaller temperature = colder. Answer: Monday (−8°C is colder). 让孩子跟读每个步骤，特别是 'further left = smaller' 和 '−8 is to the left of −3, so −8 < −3'。",
+      },
+      {
+        name: "练习",
+        duration: "12 分钟",
+        teacherNotes: "给孩子 3 道练习题，让孩子独立做，写出推理步骤。家长可以用手机拍照孩子的推理。题 1：Arrange −7, 3, −2, 0 from smallest to largest. Show your working. 答案：① On a number line, numbers increase from left to right. ② −7 is furthest left, then −2, then 0, then 3. Answer: −7, −2, 0, 3. 题 2：Mark the position of 3/2 on the number line. Show your working. 答案：① 3/2 = 1.5. ② 3/2 is positive, so it is to the right of 0. ③ 3/2 lies halfway between 1 and 2. Answer: 3/2 lies between 1 and 2 on the positive side. 题 3：Wei and Aisha are at Riverside Secondary. The ground floor is level 0. Wei is at level −3 (basement parking). Aisha is at level 2 (classroom). Arrange their floor levels from lowest to highest. Show your working. 答案：① Wei: −3. Aisha: 2. Ground: 0. ② On a number line, −3 is to the left of 0, and 0 is to the left of 2. ③ From lowest to highest: −3, 0, 2. Answer: Wei (−3), Ground (0), Aisha (2). 教师巡看孩子的推理，纠正格式（如果孩子只写答案不写步骤，提醒 'AEIS 官方要求写出 working steps'）。如果孩子把 −7 排在 −2 右边（以为 −7 > −2），指出：'−7 is to the left of −2 on the number line, so −7 is smaller. Further left = smaller.' 如果孩子把 3/2 标在负数一侧，指出：'3/2 is positive (3 ÷ 2 = 1.5 > 0), so it must be to the right of 0.' 如果孩子把 Wei (−3) 排在 Aisha (2) 上面（以为 −3 > 2），指出：'−3 is to the left of 2 on the number line, so −3 is lower (smaller). Think: basement is below ground, ground is below classrooms.'",
+      },
+      {
+        name: "收口",
+        duration: "3 分钟",
+        teacherNotes: "总结本周重点：(1) 官方 Sec 1 AEIS 数学卷型：Part 1 MCQ 34 题 30 分钟 + Part 2 show working 20+10–15 题 1 小时 45 分钟，不用计算器。(2) 本周内容：Sec 1 NUMBER AND ALGEBRA, N1. Numbers and their operations: 1.5 representation and ordering of numbers on the number line（数轴上的数的表示和排序），对应 preceding level 规则。(3) 本周化石：placing a negative on the positive side（把 −2 标在 0 右边），thinking −8 > −3 because 8 > 3（以为 −8 大于 −3）。(4) 数轴规则：0 右边是正数 positive numbers，0 左边是负数 negative numbers。从左到右 = 从小到大（left to right = smallest to largest）。越靠左越小（further left = smaller）。(5) 表示 representation：整数（−3, 0, 2）容易标。简单有理数：−1/2 在 −1 和 0 中间，3/2 在 1 和 2 中间，−2.5 在 −3 和 −2 中间。(6) 排序 ordering：例如 −5, −1, 0, 2 从小到大（按数轴从左到右顺序）。(7) 负数比较：−8 在 −3 左边，所以 −8 < −3（不是 −8 > −3）。记住：更负的数更小。(8) 两数之间 between：−3 和 1 之间可以是 −2, −1, 0（这些数在 −3 右边且在 1 左边）。(9) 应用：温度（−8°C 比 −3°C 更冷，因为 −8 < −3），楼层（地下用负数，地面 = 0，地上用正数），账户余额（负数 = 欠款）。金额用新加坡元 S$。(10) 本周不教：1.6 不等号符号（<, >, ≤, ≥），那是下一周。本周可以说「left = smaller」或「−8 is smaller than −3」，但不把不等号符号作为主要教学目标。对家长说：「本周作业有 5+8+3 道题，模拟官方题型，不是完整 34+20+10–15 题。孩子做完后上传到作业 app，选择题自动批改，写推理题家长拍照上传。」",
+      },
+    ],
+    speakingPrompts: null,
+  },
 };
 
 export default async function LessonPlanPage({
