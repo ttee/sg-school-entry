@@ -2658,6 +2658,43 @@ const lessonPlans: Record<string, LessonPlan> = {
     ],
     speakingPrompts: null,
   },
+  "SMATH-3": {
+    title: "分数除法 — Fraction Division",
+    fossil: "÷ a whole number vs ÷ a fraction / invert-and-multiply",
+    sections: [
+      {
+        name: "课前",
+        duration: "2 分钟",
+        teacherNotes: "确认 Zoom 设置正常。孩子和家长都在镜头前。对家长说：「今天教中学 AEIS 数学第 3 周，分数除法（fraction division）。本周是 Sec 1 数学卷型样本，内容对应前一级 P6 Fractions 1.1–1.2。SEAB 官方规则：申请 Sec 1 入学的孩子需熟悉 Sec 1 前一级的内容。不用计算器，要写出算式步骤。本周不教带分数除法（如果不在 1.1–1.2）、百分数、比、代数。」",
+      },
+      {
+        name: "热身",
+        duration: "5 分钟",
+        teacherNotes: "问孩子：'Do you know how to divide fractions?' 等孩子回答。然后说：'When we divide by a fraction, we invert and multiply. For example, 3 ÷ 1/2 means 3 × 2/1 = 6.' 在白板上写 3 ÷ 1/2，解释：'Dividing by 1/2 is the same as multiplying by 2/1 (the reciprocal).' 问孩子：'What is 4 ÷ 1/4?' 等孩子说 '16.' 强调：'4 ÷ 1/4 = 4 × 4/1 = 16.' 再问：'What is 1/2 ÷ 2?' 等孩子尝试。解释：'1/2 ÷ 2 = 1/2 × 1/2 = 1/4.'",
+      },
+      {
+        name: "化石",
+        duration: "8 分钟",
+        teacherNotes: "在屏幕上或白板上写下常见混淆：'Dividing a fraction by a whole number: 1/2 ÷ 4 = 1/2 × 1/4 = 1/8.' 解释：除以整数时，要把整数写成分数（4 = 4/1），然后倒过来乘（1/4）。再写：'Dividing by a fraction: 3 ÷ 1/2 = 3 × 2/1 = 6.' 强调：除以分数时，把分数倒过来（invert）再乘（multiply）。1/2 倒过来是 2/1。让孩子跟读：'To divide by a fraction, invert and multiply. One half divided by four equals one eighth.' 2 次。",
+      },
+      {
+        name: "例题",
+        duration: "10 分钟",
+        teacherNotes: "教师示范一道完整例题（写出算式步骤）。例题：What is 3 ÷ 1/2? 步骤：① Write 3 as 3/1. ② Invert 1/2 to get 2/1. ③ Multiply: 3/1 × 2/1 = 6/1 = 6. Answer: 6. 强调：算式要分步骤写，说明 invert and multiply。再做一道真分数除以整数：What is 3/4 ÷ 3? (Give answer in simplest form) 步骤：① Write 3 as 3/1. ② Invert 3/1 to get 1/3. ③ Multiply: 3/4 × 1/3 = 3/12. ④ Simplify: 3/12 = 1/4. Answer: 1/4. 再做一道真分数除以真分数：What is 1/3 ÷ 1/6? 步骤：① Invert 1/6 to get 6/1. ② Multiply: 1/3 × 6/1 = 6/3 = 2. Answer: 2. 孩子在纸上抄一遍例题步骤。",
+      },
+      {
+        name: "练习",
+        duration: "12 分钟",
+        teacherNotes: "给孩子 3 道练习题，让孩子独立做，写出算式步骤。家长可以用手机拍照孩子的算式。题 1：What is 2/3 ÷ 5? (Give answer in simplest form) 答案：2/3 ÷ 5 = 2/3 × 1/5 = 2/15. 题 2：What is 8 ÷ 2/3? 答案：8 ÷ 2/3 = 8/1 × 3/2 = 24/2 = 12. 题 3：What is 2/5 ÷ 1/10? 答案：2/5 ÷ 1/10 = 2/5 × 10/1 = 20/5 = 4. 教师巡看孩子的算式，纠正格式（如果孩子只写答案不写步骤，提醒 'AEIS 官方要求写出 working steps'）。如果孩子忘记化简，提醒 'Simplify to simplest form when the question says so'。",
+      },
+      {
+        name: "收口",
+        duration: "3 分钟",
+        teacherNotes: "总结本周重点：(1) 官方 Sec 1 AEIS 数学卷型：Part 1 MCQ 34 题 30 分钟 + Part 2 show working 20+10–15 题 1 小时 45 分钟，不用计算器。(2) 本周内容：P6 Fractions 1.1 (dividing a proper fraction by a whole number without calculator), 1.2 (dividing a whole number or a proper fraction by a proper fraction without calculator)，对应 preceding level 规则。(3) 本周化石：÷ a whole number vs ÷ a fraction（除以整数 vs 除以分数混淆）、invert-and-multiply（倒过来乘）。对家长说：「本周作业有 5+8+3 道题，模拟官方题型，不是完整 34+20+10–15 题。孩子做完后上传到作业 app，选择题自动批改，写算式题家长拍照上传。答案要求 simplest form 时题干会明确说明。」",
+      },
+    ],
+    speakingPrompts: null,
+  },
 };
 
 export default async function LessonPlanPage({

@@ -291,6 +291,14 @@ export default function WeikeMiniLesson({ level, weekNumber }: WeikeMiniLessonPr
       ],
       gloss: "AEIS 中学数学第 2 周 / SMATH Week 2. 本周例题：P6 代数（P6 Algebra 1.1–1.5）。3a 表示 3 × a（乘法，不是 3 + a）。化简同类项：2x + 3x = 5x。代入求值：If a = 4, then 3a + 2 = 3 × 4 + 2 = 12 + 2 = 14。解方程：2x + 3 = 11 → 2x = 11 − 3 → 2x = 8 → x = 4。不教括号（brackets）、负系数（negative coefficients）、联立方程（simultaneous equations）。不用计算器，写出算式步骤。"
     },
+    "SMATH-3": {
+      examples: [
+        "What is 3 ÷ 1/2?",
+        "3 ÷ 1/2 = 3 × 2/1 = 6",
+        "(Invert and multiply: dividing by 1/2 means multiplying by 2/1)"
+      ],
+      gloss: "AEIS 中学数学第 3 周 / SMATH Week 3. 本周例题：P6 分数除法（P6 Fractions 1.1–1.2）。真分数除以整数：1/2 ÷ 4 = 1/2 × 1/4 = 1/8。整数除以真分数：3 ÷ 1/2 = 3 × 2/1 = 6。真分数除以真分数：1/3 ÷ 1/6 = 1/3 × 6/1 = 2。Invert and multiply（倒过来乘）：除以一个分数就是乘以这个分数的倒数。答案化简到最简分数。不教带分数除法（mixed-number ÷ mixed-number，如果不在 1.1–1.2）。不用计算器，写出算式步骤。"
+    },
     "SEC-0": {
       fossil: "Although I was nervous, but I tried. ✗ (中文「虽然…但是…」迁移) / I go yesterday ✗ (叙事体过去时掉落)",
       examples: [

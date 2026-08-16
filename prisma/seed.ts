@@ -6183,6 +6183,78 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
         },
       ],
     },
+    {
+      level: "SMATH",
+      weekNumber: 3,
+      title: "数学 第 3 周 / Maths Week 3",
+      description: "AEIS-Secondary Mathematics: P6 fraction division",
+      isSample: false,
+      errorFocus: "÷ a whole number vs ÷ a fraction / invert-and-multiply",
+      parentBrief: "本周是中学 AEIS 数学第 3 周，对应官方 SEAB Sec 1 卷型（https://www.seab.gov.sg/aeis/test-details/ 2026年7月1日更新）。Part 1 Multiple-choice questions：34 道 MCQ，30 分钟。Part 2 Short-answer questions (20 items) and open-ended questions (10 to 15 items)：1 小时 45 分钟。Calculators are not allowed（不允许使用计算器）。Short-answer and open-ended questions：candidates are required to show the method of solution clearly by writing working steps in the spaces provided, plus the final answer（需写出算式步骤和最终答案）。AEIS-Secondary 官方 preceding-level 规则：申请 Sec 1 入学者需熟悉 Sec 1 前一级的内容。官方举例：apply Secondary 3 → be familiar with Secondary 2. 本周针对 Sec 1 申请者，内容为 Sec 1 前一级（P6）的官方 2021 Primary Mathematics Syllabus - P6 Fractions 1.1 (dividing a proper fraction by a whole number without calculator), 1.2 (dividing a whole number or a proper fraction by a proper fraction without calculator)。本周作业是样本，不是完整 34 + 20 + 10–15 题。本周化石：dividing a proper fraction by a whole number vs dividing by a proper fraction（除以整数 vs 除以分数混淆）、invert-and-multiply（倒过来乘）。用新加坡元 S$，不用美元。不教：mixed-number ÷ mixed-number（带分数除法，如果不在 1.1–1.2）、percentage、ratio、algebra、circles、volume、speed、brackets-in-algebra、invented official facts。题目选项必须唯一：不能有 1/2 ÷ 4 = 1/8 和 2/16 同时作为两个正确选项；不能有 3 ÷ 1/2 = 6 和 12/2 同时作为正确选项；不能有 2/3 ÷ 4 = 2/12 和 1/6 同时作为正确选项，除非题干明确要求 simplest form。当有未化简的等值分数作为选项时，题干必须说 simplest form，否则不要列出等值分数。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: "Choose the correct answer. Give your answer in simplest form where stated:",
+          options: JSON.stringify([
+            "What is 1/2 ÷ 4? (Give answer in simplest form)|A. 1/8|B. 2/8|C. 1/6|D. 4/2",
+            "What is 3 ÷ 1/2?|A. 3/2|B. 1/6|C. 6|D. 1.5",
+            "What is 2/3 ÷ 5? (Give answer in simplest form)|A. 2/15|B. 10/3|C. 2/8|D. 5/6",
+            "What is 4 ÷ 1/4?|A. 1|B. 4/4|C. 16|D. 4/16",
+            "What is 3/4 ÷ 3? (Give answer in simplest form)|A. 3/12|B. 1/4|C. 9/4|D. 3/7",
+          ]),
+          correctAnswer: "A,C,A,C,B",
+          points: 10,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: "Choose the correct answer. Give your answer in simplest form where stated:",
+          options: JSON.stringify([
+            "What is 5/6 ÷ 2? (Give answer in simplest form)|A. 5/12|B. 10/6|C. 5/8|D. 2/6",
+            "What is 8 ÷ 2/3?|A. 16/3|B. 12|C. 8/6|D. 6",
+            "What is 1/3 ÷ 1/6?|A. 1/18|B. 1/2|C. 2|D. 3",
+            "What is 5 ÷ 1/5?|A. 1|B. 5/5|C. 25|D. 5/25",
+            "What is 4/5 ÷ 2? (Give answer in simplest form)|A. 4/10|B. 2/5|C. 8/5|D. 4/7",
+            "What is 2/5 ÷ 1/10?|A. 2/50|B. 2/15|C. 4|D. 20/50",
+            "What is 7/8 ÷ 7? (Give answer in simplest form)|A. 1/8|B. 7/56|C. 49/8|D. 7/15",
+            "What is 9 ÷ 3/4?|A. 12|B. 27/4|C. 9/12|D. 3",
+          ]),
+          correctAnswer: "A,B,C,C,B,C,A,A",
+          points: 16,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `Part 2: Show Your Working (写出算式步骤)
+
+Riverside Secondary School is preparing for a charity bake sale. Answer the questions below. Show all your working clearly.
+
+Question (a)
+Priya has 3/4 of a cake. She wants to divide it equally among 3 friends. What fraction of the whole cake does each friend get?
+
+Question (b)
+Jun Wei has 6 kilograms of flour. Each batch of cookies needs 1/2 kilogram of flour. How many batches can he make?
+
+Question (c)
+Mei has 2/5 of a pizza. Each serving is 1/2 of the whole pizza. How many servings can she make from 2/5 of the pizza?
+
+写作提示 / Tips:
+✓ 每题分步骤写出算式 (Show working steps for each question)
+✓ Part 2 官方要求：clearly show the method of solution by writing working steps, plus the final answer
+✓ Fraction division 不用计算器 (No calculators allowed: do fraction division by hand)
+✓ 写出分数除法步骤，用 invert-and-multiply：如「3/4 ÷ 3 = 3/4 × 1/3 = 3/12 = 1/4」「6 ÷ 1/2 = 6 × 2/1 = 12」「2/5 ÷ 1/2 = 2/5 × 2/1 = 4/5 (This means 4/5 of a serving, or she can make 0.8 servings)」
+✓ 用文字说明：「To divide by a whole number, multiply by 1 over that number」或「To divide by a fraction, multiply by its reciprocal (invert and multiply)」
+✓ 最终答案化简到最简分数（如 3/12 = 1/4）
+✓ 如果题目有钱币，用新加坡元 S$（本周题目无钱币情境）
+
+Note: This is a sample of Part 2 short-answer/open-ended questions. The official paper has 20 short-answer + 10–15 open-ended items in 1 hour 45 minutes.`,
+          points: 20,
+        },
+      ],
+    },
   ];
 
   // =================================================================
