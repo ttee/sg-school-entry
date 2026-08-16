@@ -1780,6 +1780,50 @@ const lessonPlans: Record<string, LessonPlan> = {
       "What is 56 789 + 10 000? (Say the calculation.)",
     ],
   },
+  "MATH-15": {
+    title: "因数与倍数 — Factors and multiples: common factors, common multiples",
+    mathExample: "Factors of 12 = 1, 2, 3, 4, 6, 12. 3 is a factor of 12 because 12 ÷ 3 = 4 remainder 0. Common factors of 12 and 18 = 1, 2, 3, 6. Common multiples of 4 and 6 include 12, 24, 36.",
+    sections: [
+      {
+        name: "热身",
+        duration: "3 分钟",
+        teacherNotes: "说 '12 ÷ 3 = 4. 3 is a factor of 12.' 让孩子注意：因数 factor 是能整除某数的数。",
+      },
+      {
+        name: "本周例题",
+        duration: "8 分钟",
+        teacherNotes: "在白板上写：'Factors of 12'。问孩子：'Which numbers divide 12 exactly?' 引导列举：1, 2, 3, 4, 6, 12（配对：1×12, 2×6, 3×4）。强调：1 和 12 自己都是因数，不要漏掉。然后写：'Is 6 a factor of 42?' 引导计算：42 ÷ 6 = 7 无余数，所以是。再写：'Common factors of 12 and 18'。先列 12 的因数：1, 2, 3, 4, 6, 12。再列 18 的因数：1, 2, 3, 6, 9, 18。找共同的：1, 2, 3, 6。然后写：'Is 35 a multiple of 7?' 引导：7 × 5 = 35，所以 35 是 7 的倍数。最后写：'Common multiples of 4 and 6'。列 4 的倍数：4, 8, 12, 16, 20, 24...。列 6 的倍数：6, 12, 18, 24...。找共同的：12, 24, 36... 强调关键词：factor（因数）、multiple（倍数）、common factors（公因数）、common multiples（公倍数）、divides exactly（整除）、remainder（余数）。注意：本周不教质数 prime numbers / 质因数分解 prime factorisation / HCF LCM 名称（只说 common factors / common multiples）。测试因数时数字 ≤ 100。公倍数是两个一位数的公倍数。",
+      },
+      {
+        name: "孩子口头说算式",
+        duration: "10 分钟",
+        teacherNotes: "给 3 个口头题，孩子说出算式和答案。题目 1：'What are the factors of 18?' 期待输出：'1, 2, 3, 6, 9, 18. One, two, three, six, nine, eighteen.' 题目 2：'Is 8 a factor of 56?' 期待输出：'Yes. 56 ÷ 8 = 7. No remainder. So 8 is a factor of 56.' 题目 3：'What are the common multiples of 3 and 5?' 期待输出：'Multiples of 3: 3, 6, 9, 12, 15, 18, 21, 24, 27, 30... Multiples of 5: 5, 10, 15, 20, 25, 30... Common multiples: 15, 30, 45...'",
+      },
+      {
+        name: "开口",
+        duration: "12 分钟",
+        teacherNotes: "让孩子读出因数倍数并解释关系。比如 '12 的因数是 1, 2, 3, 4, 6, 12. 3 is a factor of 12 because 12 divided by 3 equals 4 with no remainder.' 或 '35 is a multiple of 7 because 7 times 5 equals 35.' 注意读法：factor（因数）、multiple（倍数）、common factors（公因数）、common multiples（公倍数）。",
+      },
+      {
+        name: "收口",
+        duration: "5 分钟",
+        teacherNotes: "提醒本周作业有 P4 数学题目，包括因数（factors）、倍数（multiples）、公因数（common factors）、公倍数（common multiples）。对应申请 P5 的孩子需要掌握的 P4 内容（preceding level 规则）。题目使用新加坡学校情境（学生分组、排队、分享文具等）。强调：本周不教质数、质因数分解、HCF/LCM 作为算法名称（只说 common factors / common multiples）。任何数都是自己的因数和倍数。常见错误：把倍数当因数、列因数漏 1 和自己、找公倍数只写一个数的倍数。",
+      },
+    ],
+    spokenLines: [
+      "Factors of 12 = 1, 2, 3, 4, 6, 12",
+      "3 is a factor of 12 because 12 ÷ 3 = 4 remainder 0.",
+      "Common factors of 12 and 18 = 1, 2, 3, 6",
+      "35 is a multiple of 7 because 7 × 5 = 35.",
+      "Common multiples of 4 and 6 include 12, 24, 36.",
+      "If 3 is a factor of 15, then 15 is a multiple of 3.",
+    ],
+    childPrompts: [
+      "What are the factors of 18? (Say the answer.)",
+      "Is 8 a factor of 56? (Say the calculation and answer.)",
+      "What are the first three common multiples of 3 and 5? (Say the answer.)",
+    ],
+  },
 };
 
 export default async function LessonPlanPage({
