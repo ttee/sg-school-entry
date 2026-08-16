@@ -6517,6 +6517,101 @@ Note: This is a Sec 1 writing sample (2 topics, 200–300 words), not Sec 2 or S
         },
       ],
     },
+    {
+      level: "SEC",
+      weekNumber: 7,
+      title: "英语 第 7 周 / English Week 7",
+      description: "AEIS-Secondary English (Sec 1 paper shape): after-school dismissal sample",
+      isSample: false,
+      errorFocus: "if (possible) vs when (certain) — unique keys",
+      parentBrief: "中学 AEIS 英语第 7 周。对应官方 SEAB Sec 1 卷型（https://www.seab.gov.sg/aeis/test-details/ 2026年7月1日更新）：Part 1 Writing 提供 2 个作文题目，选写 1 篇，200–300 词；Part 2 Comprehension & Language Use 共 50 道 MCQ（理解 15 + 完形 15 + 词汇 10 + 语法 10）。本周作业是样本，不是完整 50 题，不是 2 小时 10 分钟正式试卷。AEIS-Secondary 官方 preceding-level 规则：申请者需熟悉所申请级别前一级（preceding level）的内容。官方举例：apply Sec 3 → 熟悉 Sec 2。本周针对 Sec 1 申请者，对应 Sec 1 前一级内容水平。本周纠错化石：if（可能/不确定）vs when（一定会发生）。如果事件是一定会发生的（the bell rings every day），正确答案是 when，if 不出现或明显错误。如果事件是可能的（if you miss the bus），正确答案是 if，when 不出现或明显错误。不能让 if 和 when 都对同一个空。情境：Wei 第一次放学（bell / bag / bus bay or MRT / wait for the bus / don't run across the road）。Riverside Secondary 的 Mr Lim 和 duty teacher。听者需要的指令。本周不是 CEQ。",
+      videoUrl: null,
+      kaizenFocus: "classroom English a listener needs at dismissal (bell, bag, bus bay, wait, road safety)",
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: `Read this passage about Wei's first dismissal at Riverside Secondary:
+
+First Dismissal at Riverside Secondary
+
+On Monday afternoon, Wei experienced his first school dismissal at Riverside Secondary. The last lesson ended at 1:30 p.m., but Mr Lim had reminded the class about dismissal procedures during form period.
+
+"When the bell rings at 1:40 p.m., you must pack your bags quickly and quietly," Mr Lim explained. "Don't leave any textbooks or personal belongings behind. Check your desk before you leave the classroom."
+
+At 1:40 p.m., the dismissal bell rang. Wei packed his bag carefully. Aisha turned to him and said, "Are you taking the bus or the MRT?"
+
+"I'm taking Bus 138 from the bus bay," Wei replied. "My mother told me to wait at the shelter."
+
+They walked down to the bus bay together. A duty teacher wearing a red vest stood near the road. "Students, please wait behind the yellow line until your bus arrives," she called out. "When you see your bus number, walk—don't run—to the door. If you run across the road, you could get hurt."
+
+Wei saw Bus 138 approaching. He walked calmly to the bus door and tapped his student pass on the card reader. As he sat down, he thought about the duty teacher's instructions. "If I follow the rules," he told himself, "dismissal will be safe and smooth every day."
+
+When Wei got home at 2:10 p.m., his mother asked, "How was your first dismissal?"
+
+Wei smiled. "It was organized. The teachers made sure everyone knew what to do."`,
+          options: JSON.stringify([
+            "What time does the dismissal bell ring?|A. 1:30 p.m.|B. 1:40 p.m.|C. 2:10 p.m.|D. The passage does not say",
+            "What should students do when the bell rings?|A. Run to the bus bay|B. Leave everything on the desk|C. Pack bags quickly and quietly|D. Wait for the teacher",
+            "Who was standing near the road at the bus bay?|A. Mr Lim|B. Aisha|C. A duty teacher|D. Wei's mother",
+            "What should students do when they see their bus number?|A. Run to the door|B. Walk to the door|C. Wait at the yellow line|D. Call the teacher",
+            "Why did Wei think dismissal would be safe every day?|A. Because his mother would pick him up|B. Because he lives nearby|C. Because Aisha helps him|D. Because he follows the rules",
+          ]),
+          correctAnswer: "B,C,C,B,D",
+          points: 10,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: "Choose the correct word (if or when) to complete each sentence:",
+          options: JSON.stringify([
+            "____ the bell rings at 1:40 p.m., you must pack your bags. (The bell rings every day at 1:40 p.m.)|A. If|B. When",
+            "____ you miss the bus, you can take the MRT instead. (Maybe you will miss it, maybe not)|A. If|B. When",
+            "Walk to the bus door ____ you see your bus number. (Your bus will come)|A. if|B. when",
+            "____ you run across the road, you could get hurt. (Running is a possibility, not certain)|A. If|B. When",
+            "Check your desk ____ you leave the classroom. (You will leave at the end of the day)|A. if|B. when",
+            "____ the duty teacher calls your bus number, go to the door. (The teacher calls numbers when buses arrive)|A. If|B. When",
+            "____ you are not sure which bus to take, ask the duty teacher. (Maybe you're not sure, maybe you are)|A. If|B. When",
+            "Tap your student pass ____ you board the bus. (You will board the bus)|A. if|B. when",
+          ]),
+          correctAnswer: "B,A,B,A,B,B,A,B",
+          points: 16,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `Part 1: Writing (Sec 1 format)
+
+Choose ONE topic and write 200–300 words.
+
+Topic 1: My First Dismissal at Secondary School
+Write about your first dismissal at secondary school (or imagine it if you haven't experienced it yet). Describe:
+• What time did the bell ring? What did your teacher tell you to do?
+• How did you get home? (bus, MRT, walking, parent picking you up)
+• What instructions did the duty teacher or form teacher give?
+• How did you feel about your first dismissal?
+
+Topic 2: Staying Safe After School
+Write about how students can stay safe during dismissal. Describe:
+• What should students do when they wait for their bus or transport?
+• What could happen if students don't follow dismissal rules? (Use if for possible situations)
+• What happens when students follow the rules? (Use when for certain situations)
+• Why are dismissal procedures important at secondary school?
+
+写作提示 / Writing Tips:
+✓ 写出提纲（3-4 个要点）再写正文 (Plan first: 3-4 bullet points, then write)
+✓ 叙事用过去时态 (Narrative → past tense: The bell rang at 1:40. Mr Lim told us to pack our bags.)
+✓ 注意 if（可能）vs when（一定会发生）(if = possible/uncertain, when = certain/it happens)
+✓ 不要让 if 和 when 混淆：The bell rings every day → use when. You might miss the bus → use if.
+✓ 分段：开头 + 2-3 段正文 + 结尾 (Paragraphs: intro + 2-3 body + conclusion)
+✓ 字数 200–300 词 (Word count: 200–300 words)
+
+注：这是 Sec 1 写作样本，不是 Sec 2（4 题 250–350 词）或 Sec 3（4 题 300–400 词）格式。这是本周题目，不是官方题目。
+Note: This is a Sec 1 writing sample (2 topics, 200–300 words), not Sec 2 or Sec 3 format. These are this week's topics, not official examination topics.`,
+          points: 20,
+        },
+      ],
+    },
     // SMATH WEEK (AEIS-Secondary Mathematics)
     {
       level: "SMATH",
