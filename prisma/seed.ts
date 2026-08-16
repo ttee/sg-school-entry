@@ -7969,6 +7969,95 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
         },
       ],
     },
+    {
+      level: "SMATH",
+      weekNumber: 13,
+      title: "数学 第 13 周 / Maths Week 13",
+      description: "AEIS-Secondary Mathematics: Sec 1 use of <, >, ≤, ≥",
+      isSample: false,
+      errorFocus: "flipping the inequality on negatives (writing −8 > −3) / mixing < with ≤ when numbers are equal",
+      parentBrief: "本周是中学 AEIS 数学第 13 周，对应官方 SEAB Sec 1 卷型（https://www.seab.gov.sg/aeis/test-details/ 2026年7月1日更新）。Part 1 Multiple-choice questions：34 道 MCQ，30 分钟。Part 2 Short-answer questions (20 items) and open-ended questions (10 to 15 items)：1 小时 45 分钟。Calculators are not allowed（不允许使用计算器）。Short-answer and open-ended questions：candidates are required to show the method of solution clearly by writing working steps in the spaces provided, plus the final answer（需写出算式步骤和最终答案）。AEIS-Secondary 官方 preceding-level 规则：申请 Sec 2 入学者需熟悉 Sec 2 前一级的内容。官方举例：apply Secondary 3 → be familiar with Secondary 2 content. 本周针对 Sec 2 申请者，内容为 Sec 2 前一级（Sec 1）的官方 MOE 2020 G3 Mathematics Syllabuses, Secondary One, NUMBER AND ALGEBRA, N1. Numbers and their operations: 1.6 use of <, >, ≤, ≥（不等号的使用）。本周作业是样本，不是完整 34 + 20 + 10–15 题。第 8–12 周已教 1.1 质数分解、1.2 HCF/LCM/平方立方和根、1.3 负数四则、1.5 数轴，跳过 1.4 计算器运算（AEIS 禁用计算器），本周是 1.6 不等号。本周只教 1.6 不等号符号的使用，不教 1.7 近似与估算 approximation and estimation（包括 rounding off 四舍五入 和 significant figures 有效数字），那是下一周的内容。本周化石：flipping the inequality on negatives（写 −8 > −3，因为以为 8 > 3，实际上 −8 在 −3 左边，所以 −8 < −3）、mixing < with ≤ when the numbers are equal（接受 −3 < −3 为真，实际上 −3 等于 −3，应该用 ≤ 或 ≥，−3 < −3 是 false）。记住：数轴上越靠左的数越小（further left = smaller）。−8 在 −3 左边，所以 −8 < −3（不是 −8 > −3）。本周内容：不等号符号（inequality symbols）：< less than 小于，> greater than 大于，≤ less than or equal to 小于或等于，≥ greater than or equal to 大于或等于。填空 fill in the blank：−8 ___ −3 → <（因为 −8 is to the left of −3 on the number line，所以 −8 is smaller，所以 −8 < −3）。真假判断 true or false of a single statement：−3 ≤ −3 is true（−3 等于 −3，符合 less than or equal to），−3 < −3 is false（−3 等于 −3，不符合 less than）。选择唯一正确语句 which statement is true：只有一个选项是正确的（unique keys only），不提供两个都正确的选项在一题中（例如不能同时提供 −5 < −2 和 −2 > −5 作为选项，因为两者都是真的；不提供 −3 ≤ 1 和 −3 < 1 作为两个正确选项，如果都对该题干，只选一个作为正确答案）。负数比较 comparing negative numbers：−8 < −3（不是 −8 > −3）。进一步靠左 = 更小 further left on the number line = smaller（上周 1.5 数轴内容）。等号情况 equality case：−3 ___ −3 的答案只能是 ≤ 或 ≥（不能是 < 或 >，因为 −3 equals −3）。简单有理数 simple rationals only：整数 integers 和友好有理数 friendly rationals（如 −1/2, 3/2, −2.5）。不用计算器 no calculator。金额 money if any：新加坡元 S$，never 美元（do not use USD）。应用：温度读数（−8°C 比 −3°C 更冷，写 −8 < −3），账户余额（负数 = 欠款，−S$50 比 S$20 更小，写 −50 < 20）。唯一性 unique keys：两个选项不能都对同一题干为真。不提供 −5 < −2 和 −2 > −5 同时作为选项（both true）。不提供 −3 ≤ 1 和 −3 < 1 作为两个正确选项（如果都对，只选一个）。填空题如果 < 和 ≤ 都能真（例如 −5 ___ −2，both < and ≤ would be true），则要么选择只有一个符号正确的题干（如 −3 ___ −3 只有 ≤ 或 ≥ 正确，< 和 > 不正确），要么问 which symbol is always correct with a unique intended key。化石 −8 > −3 必须作为错误选项（wrong option），不是第二个正确答案。非官方机构运营（affiliation 非官方机构 is OK）。不发明官方未提及的内容（do not invent official facts）。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "Fill in the blank with the correct symbol: −8 ___ −3|A. <|B. >|C. =|D. Cannot be compared",
+            "Is the statement −3 ≤ −3 true or false?|A. True|B. False|C. Cannot be determined|D. Need more information",
+            "Which statement is true?|A. −5 < −2|B. −5 > −2|C. −5 = −2|D. 0 < −1",
+            "Fill in the blank with the correct symbol: 0 ___ −2|A. <|B. >|C. They are equal|D. Cannot be compared",
+            "Is the statement −5 > −1 true or false?|A. True|B. False|C. Cannot be determined|D. Need more information",
+          ]),
+          correctAnswer: "A,A,A,B,B",
+          points: 10,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "Fill in the blank with the correct symbol: −10 ___ −4|A. <|B. >|C. =|D. Cannot be compared",
+            "Is the statement 2 > −3 true or false?|A. True|B. False|C. Cannot be determined|D. They are equal",
+            "Which statement is true?|A. −7 < −3|B. −7 > −3|C. −7 = −3|D. −3 < −7",
+            "Fill in the blank with the correct symbol: −3 ___ −3 (Note: The numbers are equal)|A. <|B. >|C. ≤|D. Cannot use any symbol",
+            "Which statement is true?|A. −1/2 > −1|B. −1/2 < −1|C. −1/2 = −1|D. 0 < −1/2",
+            "On Monday, Wei's account balance was −S$30 (he owes $30). On Tuesday, his balance was −S$50 (he owes $50). Which inequality is correct?|A. −30 > −50|B. −30 < −50|C. −30 = −50|D. Both are positive",
+            "Which statement is true?|A. −2.5 < −1.5|B. −2.5 > −1.5|C. −2.5 = −1.5|D. 0 < −2.5",
+            "The temperature on Monday was −6°C. On Tuesday it was −2°C. On Wednesday it was 1°C. Which inequality shows Monday's temperature compared to Tuesday's?|A. −6 < −2|B. −6 > −2|C. −6 = −2|D. −2 < −6",
+          ]),
+          correctAnswer: "A,A,A,C,A,A,A,A",
+          points: 16,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `Part 2: Show Your Working (写出算式步骤)
+
+Riverside Secondary School has inequality problems. Answer the questions below. Show all your working clearly.
+
+Question (a)
+Write the correct symbol (<, >, ≤, or ≥) in the blank and explain using the number line: −8 ___ −3
+
+Question (b)
+Is the statement −5 ≤ −5 true or false? Explain why using the meaning of the symbol ≤.
+
+Question (c)
+Aisha's bank account shows a balance of −S$40 (she owes $40). Mr Lim's account shows a balance of S$15 (he has $15). Write an inequality to compare the two balances and explain which account has less money.
+
+写作提示 / Tips:
+✓ 每题分步骤写出推理 (Show working steps for each question)
+✓ Part 2 官方要求：clearly show the method of solution by writing working steps, plus the final answer
+✓ 不用计算器 (No calculators allowed)
+✓ 不等号步骤示范：
+  • 填空 (fill in the blank)：
+    −8 ___ −3
+    Solution: On a number line, −8 is to the left of −3. Further left = smaller. So −8 is less than −3.
+    Answer: −8 < −3
+  • 真假判断 (true or false)：
+    Is −3 ≤ −3 true or false?
+    Solution: −3 equals −3. The symbol ≤ means "less than or equal to". Since −3 equals −3, the statement is true.
+    Answer: True
+  • 比较大小 (comparing)：
+    Which is smaller, −8 or −3?
+    Solution: On a number line, −8 is to the left of −3. Further left = smaller.
+    Answer: −8 is smaller than −3, so −8 < −3.
+✓ 应用题 (word problems)：
+  • 温度 temperature: −8°C, −3°C 比较冷暖（compare coldness）。−8°C 比 −3°C 更冷，因为 −8 < −3（−8 is to the left of −3, so −8 is smaller, so −8°C is colder）。
+  • 账户余额 account balance: 负数 = 欠款（negative = debt）。−S$50 比 −S$20 更小（−S$50 < −S$20，因为 −50 is to the left of −20 on the number line, so −50 is smaller）。−S$50 比 S$20 更小（−50 < 20，因为 negative is to the left of positive, so −50 is smaller）。
+✓ 金额用新加坡元 S$ (money in Singapore dollars S$)
+✓ 符号意义：< 小于 less than，> 大于 greater than，≤ 小于或等于 less than or equal to，≥ 大于或等于 greater than or equal to
+✓ 关键规则：越靠左越小（further left = smaller），从左到右 = 从小到大（left to right = smallest to largest）
+✓ 负数比较：−8 在 −3 左边，所以 −8 < −3（−8 is to the left of −3, so −8 is smaller than −3）。记住：不是 −8 > −3（this is the common fossil: thinking −8 > −3 because 8 > 3）
+✓ 等号情况：−3 ≤ −3 is true（−3 equals −3, which fits "less than or equal to"），−3 < −3 is false（−3 equals −3, which does not fit "less than"）
+
+Note: This is a sample of Part 2 short-answer/open-ended questions. The official paper has 20 short-answer + 10–15 open-ended items in 1 hour 45 minutes.`,
+          points: 20,
+        },
+      ],
+    },
   ];
 
   // =================================================================

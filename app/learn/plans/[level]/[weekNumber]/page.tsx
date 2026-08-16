@@ -3435,6 +3435,43 @@ const lessonPlans: Record<string, LessonPlan> = {
     ],
     speakingPrompts: null,
   },
+  "SMATH-13": {
+    title: "不等号的使用 — Use of <, >, ≤, ≥",
+    fossil: "flipping the inequality on negatives (writing −8 > −3) / mixing < with ≤ when numbers are equal",
+    sections: [
+      {
+        name: "课前",
+        duration: "2 分钟",
+        teacherNotes: "确认 Zoom 设置正常。孩子和家长都在镜头前。对家长说：「今天教中学 AEIS 数学第 13 周，不等号的使用（use of <, >, ≤, ≥）。本周是 Sec 1 数学卷型样本，内容对应前一级 Sec 1 NUMBER AND ALGEBRA, N1. Numbers and their operations: 1.6 use of <, >, ≤, ≥。官方 MOE 2020 G3 Mathematics Syllabuses, Secondary One, NUMBER AND ALGEBRA。SEAB 官方规则：申请 Sec 2 入学的孩子需熟悉 Sec 2 前一级（Sec 1）的内容。第 8–12 周已教 1.1 质数分解、1.2 HCF/LCM/平方立方和根、1.3 负数四则、1.5 数轴，跳过了 1.4 计算器运算（AEIS 禁用计算器），本周是 1.6 不等号。本周不教 1.7 近似与估算（approximation and estimation，包括 rounding off 四舍五入 和 significant figures 有效数字），那是下一周。不用计算器，要写出推理步骤。」",
+      },
+      {
+        name: "热身",
+        duration: "5 分钟",
+        teacherNotes: "在白板上写四个符号：<, >, ≤, ≥。指着 < 问：'What does this symbol mean?' 等孩子回答（less than / 小于）。指着 > 问：'What does this symbol mean?' 等孩子回答（greater than / 大于）。指着 ≤ 问：'What about this one?' 等孩子回答（less than or equal to / 小于或等于）。指着 ≥ 问：'And this one?' 等孩子回答（greater than or equal to / 大于或等于）。在白板上写 −8 和 −3。问：'Which number is smaller, −8 or −3?' 等孩子回答。如果孩子说 −8，点头并说：'Correct. On a number line, −8 is to the left of −3, so −8 is smaller. How do we write this using symbols?' 如果孩子说 −8 < −3，点头。如果孩子说 −8 > −3（常见化石），说：'Let's check. −8 is to the left of −3 on the number line, so −8 is smaller, not bigger. The correct symbol is <, not >. −8 < −3.' 让孩子看到今天的目标：用不等号符号表示数的大小关系、判断不等式的真假、处理等号情况（≤ 和 ≥）。",
+      },
+      {
+        name: "化石",
+        duration: "8 分钟",
+        teacherNotes: "在屏幕上或白板上写下常见混淆：'Fossil 1: Flipping the inequality on negatives. ✗ Example: Fill in the blank: −8 ___ −3. Wrong: −8 > −3 (thinking 8 > 3, so −8 > −3). Correct: −8 < −3. Remember: −8 is to the left of −3 on the number line, so −8 is smaller than −3. Further left = smaller. Don't flip the inequality because of the absolute values!' 再写：'Fossil 2: Mixing < with ≤ when the numbers are equal. ✗ Example: Is −3 < −3 true or false? Wrong: True (thinking < means less than or equal to). Correct: False. −3 equals −3, not less than −3. The symbol < means strictly less than. If the numbers are equal, use ≤ or ≥, not < or >. −3 ≤ −3 is true (because −3 equals −3, which fits "less than or equal to"). −3 < −3 is false (because −3 equals −3, which does not fit "less than").' 画一条数轴，标上 −8, −3, 0。指着 −8 和 −3 说：'−8 is to the left of −3, so −8 < −3. Think about temperature: −8°C is colder than −3°C, so −8 < −3.' 再写 −3 和 −3，说：'These are the same number. −3 = −3. So −3 ≤ −3 is true (fits "less than or equal to"), but −3 < −3 is false (does not fit "less than").' 对家长说：「本周两大化石：写 −8 > −3 因为以为 8 > 3、接受 −3 < −3 为真。记住：数轴上越靠左的数越小，等号情况用 ≤ 或 ≥。」",
+      },
+      {
+        name: "例题",
+        duration: "10 分钟",
+        teacherNotes: "教师示范五道完整例题（写出推理步骤）。例题 1：Fill in the blank with the correct symbol: −8 ___ −3. 选项：A. <, B. >, C. ≤, D. ≥. 步骤：① On a number line, −8 is to the left of −3. ② Further left = smaller. So −8 is less than −3. ③ The symbol for "less than" is <. Answer: A. −8 < −3. 例题 2：Is the statement −3 ≤ −3 true or false? 步骤：① −3 equals −3. ② The symbol ≤ means "less than or equal to". ③ Since −3 equals −3, the statement is true. Answer: True. 例题 3：Which statement is true? 选项：A. −5 < −2, B. −5 > −2, C. −5 = −2, D. 0 < −1. 步骤：① Option A: −5 is to the left of −2, so −5 < −2 is true (✓). ② Option B: −5 is not greater than −2 (✗). ③ Option C: −5 does not equal −2 (✗). ④ Option D: 0 is to the right of −1, so 0 > −1, not 0 < −1 (✗). Answer: A. −5 < −2. 例题 4：Fill in the blank with the correct symbol: −3 ___ −3 (Note: The numbers are equal). 选项：A. <, B. >, C. ≤, D. Cannot use any symbol. 步骤：① −3 equals −3. ② The symbol < means strictly less than, so −3 < −3 is false (✗ A). ③ The symbol > means strictly greater than, so −3 > −3 is false (✗ B). ④ The symbol ≤ means "less than or equal to". Since −3 equals −3, −3 ≤ −3 is true (✓ C). Answer: C. −3 ≤ −3. 例题 5：Wei's account balance is −S$30 (he owes $30). Aisha's balance is −S$50 (she owes $50). Which inequality is correct? 选项：A. −30 > −50, B. −30 < −50, C. −30 = −50, D. Both are positive. 步骤：① On a number line, −30 is to the right of −50. ② Further right = bigger. So −30 is greater than −50. ③ The symbol for "greater than" is >. Answer: A. −30 > −50. (Interpretation: Wei owes less money than Aisha, so his balance is higher, even though both are negative.) 每道题后问孩子：'Do you understand the working steps?' 确保孩子看到：符号 < 是 less than（严格小于），≤ 是 less than or equal to（小于或等于），等号情况用 ≤ 或 ≥ 而不是 < 或 >，负数比较看数轴位置（左边 = 小）。",
+      },
+      {
+        name: "练习",
+        duration: "12 分钟",
+        teacherNotes: "给孩子 3 道练习题，让孩子独立做，写出推理步骤。家长可以用手机拍照孩子的推理。题 1：Write the correct symbol (<, >, ≤, or ≥) in the blank and explain using the number line: −8 ___ −3. 答案：① On a number line, −8 is to the left of −3. ② Further left = smaller. So −8 is less than −3. Answer: −8 < −3. 题 2：Is the statement −5 ≤ −5 true or false? Explain why using the meaning of the symbol ≤. 答案：① −5 equals −5. ② The symbol ≤ means "less than or equal to". ③ Since −5 equals −5, the statement is true. Answer: True. 题 3：Aisha's bank account shows a balance of −S$40 (she owes $40). Mr Lim's account shows a balance of S$15 (he has $15). Write an inequality to compare the two balances and explain which account has less money. 答案：① Aisha: −40. Mr Lim: 15. ② On a number line, −40 is to the left of 15. ③ Further left = smaller. So −40 is less than 15. Answer: −40 < 15. (Aisha's account has less money because she owes money, which is a negative balance.) 教师巡看孩子的推理，纠正格式（如果孩子只写答案不写步骤，提醒 'AEIS 官方要求写出 working steps'）。如果孩子写 −8 > −3（化石），指出：'−8 is to the left of −3 on the number line, so −8 is smaller, not bigger. The correct symbol is <, not >.' 如果孩子接受 −5 < −5 为真（化石），指出：'−5 equals −5, not less than −5. The symbol < means strictly less than. Since the numbers are equal, the statement −5 < −5 is false. But −5 ≤ −5 is true because ≤ means "less than or equal to".' 做完三题后，问孩子：'What is the fossil error we want to avoid this week?' 等孩子回答（flipping the inequality on negatives, mixing < with ≤ when numbers are equal）。",
+      },
+      {
+        name: "收口",
+        duration: "3 分钟",
+        teacherNotes: "总结本周重点：(1) 官方 Sec 1 AEIS 数学卷型：Part 1 MCQ 34 题 30 分钟 + Part 2 show working 20+10–15 题 1 小时 45 分钟，不用计算器。(2) 本周内容：Sec 1 NUMBER AND ALGEBRA, N1. Numbers and their operations: 1.6 use of <, >, ≤, ≥（不等号的使用），对应 preceding level 规则。(3) 本周化石：flipping the inequality on negatives（写 −8 > −3 因为以为 8 > 3），mixing < with ≤ when numbers are equal（接受 −3 < −3 为真）。(4) 不等号符号：< 小于 less than，> 大于 greater than，≤ 小于或等于 less than or equal to，≥ 大于或等于 greater than or equal to。(5) 填空：−8 ___ −3 → < （因为 −8 在数轴上更靠左，所以 −8 < −3）。(6) 真假判断：−3 ≤ −3 是 true（−3 等于 −3，符合 less than or equal to），−3 < −3 是 false（−3 等于 −3，不符合 less than）。(7) 负数比较：−8 < −3（不是 −8 > −3）。进一步靠左 = 更小（further left = smaller）。(8) 等号情况：−3 ___ −3 的答案只能是 ≤ 或 ≥（不能是 < 或 >，因为 −3 equals −3）。(9) 应用：温度（−8°C 比 −3°C 更冷，写 −8 < −3），账户余额（负数 = 欠款，−S$50 比 S$20 更小，写 −50 < 20）。金额用新加坡元 S$。(10) 唯一性 unique keys：两个选项不能都对同一题干为真。不提供 −5 < −2 和 −2 > −5 同时作为选项（都是真的）。不提供 −3 ≤ 1 和 −3 < 1 作为两个正确选项（如果都对，只选一个）。填空题如果 < 和 ≤ 都能真（例如 −5 ___ −2），则选择只有一个符号正确的题干（如 −3 ___ −3 只有 ≤ 正确），或问 which symbol is always correct。化石 −8 > −3 必须作为错误选项。(11) 本周不教 1.7 近似与估算 approximation and estimation（包括 rounding off 四舍五入 和 significant figures 有效数字），那是下一周。对家长说：「本周作业有 5+8+3 道题，模拟官方题型，不是完整 34+20+10–15 题。孩子做完后上传到作业 app，选择题自动批改，写推理题家长拍照上传。」",
+      },
+    ],
+    speakingPrompts: null,
+  },
 };
 
 export default async function LessonPlanPage({
