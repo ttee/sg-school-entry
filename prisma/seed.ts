@@ -7647,7 +7647,7 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
             "Find the HCF of 12 and 18.|A. 3|B. 6|C. 12|D. 36",
             "Find the LCM of 12 and 18.|A. 6|B. 18|C. 36|D. 72",
             "Two bells ring together at 8 a.m. One bell rings every 12 minutes, the other rings every 18 minutes. At what time will they ring together again?|A. 8:30 a.m.|B. 8:36 a.m.|C. 9:00 a.m.|D. 9:06 a.m.",
-            "Ali wants to buy pens. Pens come in packs of 8 or boxes of 12. What is the smallest number of pens Ali can buy if he wants equal numbers of pens from packs and boxes?|A. 20|B. 24|C. 48|D. 96",
+            "Pens come in packs of 8 or boxes of 12. What is the smallest number of pens that can be made up using only packs of 8, or only boxes of 12?|A. 20|B. 24|C. 48|D. 96",
             "Find the HCF of 20 and 30.|A. 5|B. 10|C. 30|D. 60",
           ]),
           correctAnswer: "B,C,B,B,B",
