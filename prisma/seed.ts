@@ -945,6 +945,111 @@ Answer the following questions. Show your working.
         },
       ],
     },
+    {
+      level: "MATH",
+      weekNumber: 14,
+      title: "数学 第 14 周 / Maths Week 14",
+      description: "AEIS-Primary P4 Mathematics: Whole numbers to 100 000",
+      isSample: false,
+      errorFocus: null,
+      parentBrief: "本周主题：十万以内整数（对应 MOE 小学 P4 数学大纲）。P4 新知识点：10 万以内的数（numbers to 100 000）、位值（place value: 万位 ten thousands、千位 thousands、百位 hundreds、十位 tens、个位 ones）、读写数字、比较大小、排序、数字规律。P3 学过 10 000 以内的数，本周扩展到 100 000（五位数）。申请 P5 入学的孩子需掌握 P4 内容（MOE AEIS preceding level 规则）。常见错误：位值混淆（例如 45 678 中的 5 在千位不是百位）、比较大小时只看首位不看后续位数、数字规律找错模式、写数字时漏写 0 占位。题目是简体中文家长说明 + 英文题干。本周配有双向对照表，显示题目对应的官方 2021 Primary Mathematics Syllabus P4 内容点（Whole Numbers: Numbers up to 100 000; Place value; Reading, writing, comparing and ordering numbers; Number patterns），以及 MOE AEIS 的「preceding level」规则（申请 P5 → 掌握 P4 内容）。注意：P4 只教到 100 000，不教 P5 的小数（decimals）、百分数（percentages）。本周也不教 P4 下学期的因数倍数（factors/multiples）。算术保持在整数加减（5 位数如果大纲允许，否则 4 位数）。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: `Read each question and choose the correct answer.
+
+Question 1:
+At Changi Airport, the number of passengers in one week is 85 432. What is the value of the digit 5 in this number?
+
+Question 2:
+Mr Tan's company has 67 890 items in stock. Mrs Lee's company has 67 980 items in stock. Which company has more items?
+
+Question 3:
+The school library has 52 147 books. Write this number in words.
+
+Question 4:
+A factory produced these numbers of bottles in four months:
+January: 34 567
+February: 34 756
+March: 34 657
+April: 34 576
+Which month had the highest production?
+
+Question 5:
+The population of a town is ninety-three thousand, two hundred and fifteen. Write this number in numerals.`,
+          options: JSON.stringify([
+            "What is the value of the digit 5 in 85 432?|A. 5|B. 50|C. 500|D. 5 000",
+            "Which company has more items in stock?|A. Mr Tan's company|B. Mrs Lee's company|C. Both have the same|D. Cannot tell",
+            "Write 52 147 in words.|A. Fifty-two thousand, one hundred and forty-seven|B. Five thousand, two hundred and forty-seven|C. Fifty-two thousand, one hundred and seventy-four|D. Fifty thousand, two hundred and forty-seven",
+            "Which month had the highest bottle production?|A. January|B. February|C. March|D. April",
+            "Write ninety-three thousand, two hundred and fifteen in numerals.|A. 93 215|B. 93 251|C. 93 125|D. 90 315",
+          ]),
+          correctAnswer: "D,B,A,B,A",
+          points: 5,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: `Choose the correct answer for each question.
+
+Question 6:
+In the number 78 456, the digit 7 is in the _____ place.
+
+Question 7:
+Arrange these numbers in order from smallest to largest: 45 678, 45 768, 45 687, 45 786.
+
+Question 8:
+What is the missing number in this pattern? 52 000, 54 000, 56 000, _____, 60 000
+
+Question 9:
+Round 67 482 to the nearest thousand.
+
+Question 10:
+In the number 90 345, which digit is in the hundreds place?
+
+Question 11:
+Compare: 81 234 _____ 81 324
+
+Question 12:
+What is 10 000 more than 56 789?
+
+Question 13:
+The smallest 5-digit number is _____ .`,
+          options: JSON.stringify([
+            "In 78 456, the digit 7 is in the _____ place.|A. thousands|B. ten thousands|C. hundreds|D. tens",
+            "Arrange from smallest to largest: 45 678, 45 768, 45 687, 45 786.|A. 45 678, 45 687, 45 768, 45 786|B. 45 768, 45 786, 45 678, 45 687|C. 45 678, 45 768, 45 687, 45 786|D. 45 786, 45 768, 45 687, 45 678",
+            "Missing number: 52 000, 54 000, 56 000, _____, 60 000|A. 57 000|B. 58 000|C. 59 000|D. 61 000",
+            "Round 67 482 to the nearest thousand.|A. 67 000|B. 68 000|C. 70 000|D. 67 500",
+            "In 90 345, which digit is in the hundreds place?|A. 9|B. 0|C. 3|D. 4",
+            "Compare: 81 234 _____ 81 324|A. >|B. <|C. =|D. Cannot compare",
+            "What is 10 000 more than 56 789?|A. 57 789|B. 66 789|C. 56 799|D. 65 789",
+            "The smallest 5-digit number is _____.|A. 10 000|B. 1 000|C. 100 000|D. 11 111",
+          ]),
+          correctAnswer: "B,A,B,A,C,B,B,A",
+          points: 8,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `At Jurong Primary School, the students are learning about large numbers and place value.
+
+(a) The school fundraiser collected $73 685. Write this amount in words. Show the place value of each digit.
+
+(b) Compare these two amounts and write which is larger:
+    Fundraiser A: $84 567
+    Fundraiser B: $84 657
+    Show your working.
+
+(c) The school wants to reach a goal of $90 000. They have collected $73 685. How much more do they need? Show your working.
+
+写出答案和说明。`,
+          points: 10,
+        },
+      ],
+    },
     
     // A2 WEEKS
     {

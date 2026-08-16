@@ -1689,6 +1689,97 @@ const lessonPlans: Record<string, LessonPlan> = {
       "Look at the window. Are the opposite sides parallel? (Say the answer.)",
     ],
   },
+  "MATH-13": {
+    title: "条形统计图 — Bar graphs: most, least, difference, total",
+    mathExample: "Favourite fruit (each bar = number of children): Apple 8, Orange 5, Mango 12, Banana 7. Most popular = Mango (12 is the tallest bar). Least popular = Orange (5 is the shortest bar). Difference: Apple − Orange = 8 − 5 = 3. Total: 8 + 5 + 12 + 7 = 32 children.",
+    sections: [
+      {
+        name: "热身",
+        duration: "3 分钟",
+        teacherNotes: "展示条形统计图图片，说 'This is a bar graph. Each bar shows a number.' 让孩子注意条形图（bar graph）和条的高度（height of the bar）。",
+      },
+      {
+        name: "本周例题",
+        duration: "8 分钟",
+        teacherNotes: "在白板上写：'Favourite fruit: Apple 8, Orange 5, Mango 12, Banana 7.' 画简单的条形图或用文字描述。问孩子：'Which fruit is most popular?' 引导回答 'Mango is most popular because 12 is the tallest bar.' 再问：'Which is least popular?' 引导回答 'Orange is least popular because 5 is the shortest bar.' 然后问：'What is the difference between Apple and Orange?' 引导列式：8 − 5 = 3。最后问：'How many children in total?' 引导列式：8 + 5 + 12 + 7 = 32。强调关键词：bar graph（条形图）、tallest bar（最高的条）、shortest bar（最短的条）、most popular（最多）、least popular（最少）、difference（差值）、total（总数）。注意：P3 只教条形图，不教 P4 的折线图（line graph）或 P5 的饼图（pie chart）。",
+      },
+      {
+        name: "孩子口头说算式",
+        duration: "10 分钟",
+        teacherNotes: "给 3 个口头题，孩子说出算式和答案。题目 1：'Favourite sports: Football 15, Basketball 10, Swimming 18, Badminton 9. Which sport is most popular?' 期待输出：'Swimming is most popular. 18 is the tallest bar.' 题目 2：'Same bar graph. Which is least popular?' 期待输出：'Badminton is least popular. 9 is the shortest bar.' 题目 3：'How many more children chose Swimming than Badminton?' 期待输出：'18 − 9 = 9. Nine more children chose Swimming.'",
+      },
+      {
+        name: "开口",
+        duration: "12 分钟",
+        teacherNotes: "让孩子读出条形图信息并解释。比如 'Mango is most popular because it has the tallest bar.' 'The difference between Apple and Orange is 8 − 5 = 3.' 'The total is 32 children.'",
+      },
+      {
+        name: "收口",
+        duration: "5 分钟",
+        teacherNotes: "提醒本周作业有 P3 数学题目，包括读条形图、找最多/最少、计算差值、求总数。对应申请 P4 的孩子需要掌握的 P3 内容（preceding level 规则）。题目用文字描述条形图（系统是文字 MCQ，没有图片上传功能），数字简单，条的高度差别明显。P2 第 5 周学过象形统计图（picture graph），本周升级到条形图。",
+      },
+    ],
+    spokenLines: [
+      "Mango is most popular.",
+      "Mango has the tallest bar.",
+      "Orange is least popular.",
+      "Orange has the shortest bar.",
+      "8 − 5 = 3",
+      "The difference is 3.",
+      "8 + 5 + 12 + 7 = 32",
+      "The total is 32 children.",
+    ],
+    childPrompts: [
+      "Favourite sports: Football 15, Basketball 10, Swimming 18, Badminton 9. Which sport is most popular? (Say the answer.)",
+      "Same bar graph. Which is least popular? (Say the answer.)",
+      "How many more children chose Swimming than Badminton? (Say the calculation.)",
+    ],
+  },
+  "MATH-14": {
+    title: "十万以内整数 — Numbers to 100 000: place value, compare",
+    mathExample: "The number 73 685 = Seventy-three thousand, six hundred and eighty-five. In 73 685: 7 is in ten thousands place = 70 000, 3 is in thousands place = 3 000, 6 is in hundreds place = 600. Compare: 84 567 < 84 657 (because 5 hundreds < 6 hundreds). Add: 56 789 + 10 000 = 66 789.",
+    sections: [
+      {
+        name: "热身",
+        duration: "3 分钟",
+        teacherNotes: "说 '73 685 = Seventy-three thousand, six hundred and eighty-five.' 让孩子注意五位数的读法。",
+      },
+      {
+        name: "本周例题",
+        duration: "8 分钟",
+        teacherNotes: "在白板上写：'73 685'。问孩子：'What is the value of 7?' 引导回答 '7 is in ten thousands place. 7 = 70 000.' 再问：'What is the value of 6?' 引导回答 '6 is in hundreds place. 6 = 600.' 然后写：'84 567 vs 84 657'。问：'Which is greater?' 引导比较：万位相同，千位相同，百位 5 < 6，所以 84 567 < 84 657。最后写：'56 789 + 10 000 = 66 789'。解释：加一万只改万位，5 变成 6。强调关键词：place value（位值）、ten thousands place（万位）、thousands place（千位）、hundreds place（百位）、compare（比较）、greater than / less than（大于/小于）。注意：P4 只教到 100 000（五位数），不教 P5 的小数（decimals）、百分数（percentages）。也不教 P4 下学期的因数倍数（factors/multiples）。P3 学过 10 000 以内（四位数），本周扩展到 100 000（五位数）。",
+      },
+      {
+        name: "孩子口头说算式",
+        duration: "10 分钟",
+        teacherNotes: "给 3 个口头题，孩子说出算式和答案。题目 1：'In the number 85 432, what is the value of the digit 5?' 期待输出：'5 is in thousands place. The value is 5 000. Five thousand.' 题目 2：'Compare 67 890 and 67 980. Which is greater?' 期待输出：'67 980 is greater. Because 8 tens is greater than 9 tens. Wait, 67 980 has 9 in hundreds place, 67 890 has 8 in hundreds place. So 67 980 is greater.' 题目 3：'What is 56 789 + 10 000?' 期待输出：'56 789 + 10 000 = 66 789. Sixty-six thousand, seven hundred and eighty-nine.'",
+      },
+      {
+        name: "开口",
+        duration: "12 分钟",
+        teacherNotes: "让孩子读出五位数并解释位值。比如 '73 685 = Seventy-three thousand, six hundred and eighty-five. The digit 7 is in ten thousands place. Its value is 70 000.' 或 '84 567 < 84 657 because 5 hundreds is less than 6 hundreds.'",
+      },
+      {
+        name: "收口",
+        duration: "5 分钟",
+        teacherNotes: "提醒本周作业有 P4 数学题目，包括十万以内整数（numbers to 100 000）、位值（place value: 万位、千位、百位、十位、个位）、读写数字、比较大小。对应申请 P5 的孩子需要掌握的 P4 内容（preceding level 规则）。题目使用新加坡学校、机场、图书馆等情境。强调：本周只教到 100 000（五位数），不教 P5 的小数、百分数，也不教 P4 下学期的因数倍数。",
+      },
+    ],
+    spokenLines: [
+      "73 685 = Seventy-three thousand, six hundred and eighty-five.",
+      "In 73 685, the digit 7 is in ten thousands place.",
+      "Its value is 70 000.",
+      "84 567 < 84 657",
+      "84 567 is less than 84 657.",
+      "56 789 + 10 000 = 66 789",
+      "Fifty-six thousand, seven hundred and eighty-nine plus ten thousand equals sixty-six thousand, seven hundred and eighty-nine.",
+    ],
+    childPrompts: [
+      "In the number 85 432, what is the value of the digit 5? (Say the answer.)",
+      "Compare 67 890 and 67 980. Which is greater? (Say the answer.)",
+      "What is 56 789 + 10 000? (Say the calculation.)",
+    ],
+  },
 };
 
 export default async function LessonPlanPage({

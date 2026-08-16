@@ -135,6 +135,14 @@ export default function WeikeMiniLesson({ level, weekNumber }: WeikeMiniLessonPr
       ],
       gloss: "P3 学条形统计图（bar graph）：读条的高度 = 数值，找最高的条 = most popular，找最短的条 = least popular，计算差值用减法（difference = 高的 − 低的），求总数把所有条相加（total = 所有数相加）。关键词：bar graph（条形图）、tallest bar（最高的条）、shortest bar（最短的条）、most popular（最多）、least popular（最少）、difference（差值）、total（总数）。注意：本周只教条形图，不教 P4 的折线图（line graph）或 P5 的饼图（pie chart）。题目用文字描述条形图，数字简单，条的高度差别明显。P2 第 5 周学过象形统计图（picture graph），本周升级到条形图。"
     },
+    "MATH-14": {
+      examples: [
+        "The number 73 685 = Seventy-three thousand, six hundred and eighty-five.",
+        "In 73 685: 7 is in ten thousands place = 70 000, 3 is in thousands place = 3 000, 6 is in hundreds place = 600.",
+        "Compare: 84 567 < 84 657 (because 5 hundreds < 6 hundreds). Add: 56 789 + 10 000 = 66 789."
+      ],
+      gloss: "P4 学十万以内整数（whole numbers to 100 000）：识别位值（place value: 万位 ten thousands、千位 thousands、百位 hundreds、十位 tens、个位 ones），数字与文字互换（73 685 = seventy-three thousand, six hundred and eighty-five），比较五位数大小（从高位往低位比），加减整万（+ 10 000 只改万位）。关键词：place value（位值）、ten thousands place（万位）、compare（比较）、order（排序）、number pattern（数字规律）。注意：本周只教到 100 000，不教 P5 的小数（decimals）、百分数（percentages）。也不教 P4 下学期的因数倍数（factors/multiples）。P3 学过 10 000 以内（四位数），本周扩展到 100 000（五位数）。"
+    },
     "A2-7": {
       fossil: "I going to the library tomorrow / I go to swim / Tomorrow I go library",
       examples: [
