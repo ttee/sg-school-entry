@@ -2695,6 +2695,43 @@ const lessonPlans: Record<string, LessonPlan> = {
       "We have to wear our nametags. ✓ (have to 表示必须)",
     ],
   },
+  "SEC-5": {
+    title: "PE Lesson — should vs must",
+    fossil: "should (advice) vs must (school rule)",
+    sections: [
+      {
+        name: "课前",
+        duration: "2 分钟",
+        teacherNotes: "确认 Zoom 设置正常。孩子和家长都在镜头前。对家长说：「今天教中学 AEIS 英语第 5 周，不是 CEQ。本周只练一个区别：should（建议/advice）vs must（学校规则/school rule）。如果是学校规则，用 must；如果是建议，用 should。每个句子只有一个正确答案，不能两个选项都对。本周情境是 Wei 第一次上 PE 课。」提醒家长可以在旁边观摩，但请让孩子自己开口。",
+      },
+      {
+        name: "热身",
+        duration: "5 分钟",
+        teacherNotes: "问孩子：'Do you have PE lessons at school?' 让孩子说。问：'What do you wear for PE?' 引导孩子说 PE attire / PE shirt / shorts。问：'What are some PE rules at your school?'，让孩子说话。如果孩子说 'You should wear PE uniform'（should 和 must 混淆），不要立刻纠正，等微课环节再讲。",
+      },
+      {
+        name: "化石",
+        duration: "8 分钟",
+        teacherNotes: "在屏幕上或白板上写下两个句子：'You ____ change into your PE attire before the lesson.' 和 'You ____ bring a water bottle to PE—it's helpful.' 问孩子：'第一句空格填 must 还是 should？第二句呢？' 等孩子思考后，解释化石：第一句是学校规则（must change），因为 PE attire 是必须的。第二句是建议（should bring），因为 water bottle 是 helpful but not required。关键区别：规则（rule）→ must（should 不出现或明显错误）；建议（advice）→ should（must 不出现或明显错误）。让孩子跟读改正后的句子 3 次。强调：不能说 must to 或 should to，后面直接加动词原形。",
+      },
+      {
+        name: "跟读",
+        duration: "5 分钟",
+        teacherNotes: "展示 4 个正确句子（见 spokenLines），一句一句让孩子跟读。读完后问：'Which sentences use must?' 等孩子指出规则的句子。问：'Which sentences use should?' 等孩子指出建议的句子。问：'Can we say must bring a water bottle if it's only helpful?' 等孩子说 'No, we say should.' 如果孩子说错，再带读 2 次。确认孩子能区分 must（规则）和 should（建议）。",
+      },
+      {
+        name: "作业",
+        duration: "5 分钟",
+        teacherNotes: "打开 /learn 页面，给孩子看 SEC 第 5 周作业入口。告诉孩子：「这周的作业是中学 AEIS 英语第 5 周，包括阅读理解（Wei 第一次上 PE 课）、语法题（should vs must，每个空只有一个正确答案）、写作（2 题选 1，写 200-300 词）。完成后系统会自动批改选择题，写作部分会有 AI 反馈。」对家长说：「这是 AEIS-Secondary 第 5 周，不是 CEQ。官方 Sec 1 卷型：Part 1 Writing 2 题选 1 篇，200-300 词；Part 2 有 50 道 MCQ（理解 + 完形 + 词汇 + 语法）。本周是样本，不是完整 50 题。孩子完成作业后，我们会在微信群里同步进度。」不提「包过」「保证录取」等话术。",
+      },
+    ],
+    spokenLines: [
+      "You must change into your PE attire. ✓ (学校规则用 must)",
+      "You should bring a water bottle. ✓ (建议用 should)",
+      "Students must do a warm-up before PE. ✓ (规则用 must)",
+      "If you feel unwell, you should sit at the side. ✓ (建议用 should)",
+    ],
+  },
   "SMATH-0": {
     title: "百分数增减 — Percentage Increase/Decrease",
     fossil: "part/whole mix-up / % of vs % increase",
