@@ -127,6 +127,9 @@ AUDIO_CONFIGS = [
             ("Priya", STUDENT_VOICE, "We finished the bread this morning. We need a new loaf."),
             ("Mum", FEMALE_VOICE, "Okay. And we need some fruit. Any requests?"),
             ("Priya", STUDENT_VOICE, "Can we get some mangoes? I love mangoes!"),
+            ("Mum", FEMALE_VOICE, "Sure. How many?"),
+            ("Priya", STUDENT_VOICE, "Maybe four or five?"),
+            ("Mum", FEMALE_VOICE, "That's a lot! Let's get three. Okay, I think that's everything. Thanks for your help!"),
         ]
     },
     {
