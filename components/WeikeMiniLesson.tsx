@@ -5,9 +5,15 @@ type WeikeMiniLessonProps = {
   weekNumber: number;
 };
 
+type LessonContent = {
+  fossil?: string;
+  examples: string[];
+  gloss: string;
+};
+
 export default function WeikeMiniLesson({ level, weekNumber }: WeikeMiniLessonProps) {
   // Define mini-lesson content for each week
-  const lessons: Record<string, { fossil: string; examples: string[]; gloss: string }> = {
+  const lessons: Record<string, LessonContent> = {
     "A2-5": {
       fossil: "more bigger / more cheap / he is tall than me",
       examples: [
@@ -18,16 +24,14 @@ export default function WeikeMiniLesson({ level, weekNumber }: WeikeMiniLessonPr
       gloss: "中文用「比」和「最」，但英语单音节形容词加 -er/-est（faster, fastest），多音节加 more/most（more exciting, most exciting）。比较级后接 than。"
     },
     "MATH-0": {
-      fossil: "Jun Wei bought 2 books",
       examples: [
         "Jun Wei bought 2 books for $8 each.",
         "2 × $8 = $16",
-        "He paid $21 in total."
+        "He paid $16."
       ],
       gloss: "新加坡钱币用 $ 符号。2 books at $8 each → 2 × $8 = $16。做应用题先找关键词：each、in total、altogether。"
     },
     "MATH-1": {
-      fossil: "3 packs of 4",
       examples: [
         "3 packs of 4 = 3 × 4 = 12",
         "12 sweets shared equally among 3 children.",
@@ -36,25 +40,22 @@ export default function WeikeMiniLesson({ level, weekNumber }: WeikeMiniLessonPr
       gloss: "乘法 multiplication：3 packs of 4 = 3 × 4。除法 division：12 shared equally among 3 = 12 ÷ 3。练习关键词：of, shared equally, per。"
     },
     "MATH-2": {
-      fossil: "three eighth of the pizza",
       examples: [
-        "3/8 of the pizza",
-        "Mei ate 2/8, Priya ate 3/8.",
-        "2/8 + 3/8 = 5/8"
+        "Mei ate 2/8 of the pizza, Priya ate 3/8.",
+        "2/8 + 3/8 = 5/8",
+        "Together they ate 5/8 of the pizza."
       ],
       gloss: "分数：3/8 读作 three eighths。分母加 -s（eighths, quarters）。加法：same denominator → 2/8 + 3/8 = 5/8。"
     },
     "MATH-3": {
-      fossil: "2 metres minus 1 metres",
       examples: [
         "The bookshelf is 2 m. The table is 1 m.",
         "2 m − 1 m = 1 m",
-        "2 hours = 120 minutes."
+        "The bookshelf is 1 m taller. Also: 2 hours = 120 minutes."
       ],
       gloss: "长度 length：2 metres (m)。时间 time：2 hours = 120 minutes。单位不用复数 -s：2 m（不是 2 ms）。做题先统一单位。"
     },
     "MATH-4": {
-      fossil: "a can is a cube",
       examples: [
         "A dice is a cube. It has 6 square faces.",
         "A book box is a cuboid. It has 6 rectangular faces.",
@@ -63,11 +64,10 @@ export default function WeikeMiniLesson({ level, weekNumber }: WeikeMiniLessonPr
       gloss: "正方体 cube（6 个正方形面）vs 长方体 cuboid（6 个长方形面）；圆柱 cylinder（2 个圆形面）；圆锥 cone；球体 sphere。平面图形规律按 size / shape / colour / orientation 找下一个。"
     },
     "MATH-5": {
-      fossil: "4 pictures means 4 children",
       examples: [
-        "Each ⭐ stands for 2. 4 stars → 4 × 2 = 8.",
-        "Apple 8, orange 6. Apple has 2 more.",
-        "Each ⭐ stands for 5. 3 stars → 15."
+        "Each ⭐ stands for 2. There are 4 stars.",
+        "4 × 2 = 8",
+        "There are 8 children. Also: Each ⭐ stands for 5. 3 stars → 3 × 5 = 15."
       ],
       gloss: "象形统计图有单位。Each picture stands for 2 / 5 / 10。先看 1 个图代表几个，再乘。不要数图就当答案。"
     },
@@ -188,6 +188,47 @@ export default function WeikeMiniLesson({ level, weekNumber }: WeikeMiniLessonPr
     return null;
   }
 
+  const isMath = level === "MATH";
+
+  // MATH levels show worked examples, not fossil cards
+  if (isMath) {
+    return (
+      <div className="mb-8 bg-gradient-to-br from-accent/5 via-card to-accent/10 border border-accent/20 rounded-xl p-6 shadow-sm">
+        <h2 className="font-serif font-semibold text-xl text-ink mb-4">
+          本周例题
+        </h2>
+        
+        <div className="space-y-4">
+          {/* Worked example */}
+          <div className="bg-card border border-line rounded-lg p-4">
+            <ul className="space-y-2">
+              {lesson.examples.map((line, i) => (
+                <li key={i} className="text-sm text-ink flex items-start gap-2">
+                  <span className="text-accent font-semibold mt-0.5">•</span>
+                  <span>{line}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Tips */}
+          <div className="bg-paper border border-line rounded-lg p-3">
+            <p className="text-xs font-semibold text-muted mb-2">💡 提示：</p>
+            <p className="text-sm text-ink-2 leading-relaxed">{lesson.gloss}</p>
+          </div>
+
+          {/* How to use */}
+          <div className="pt-3 border-t border-accent/20">
+            <p className="text-xs text-ink-2">
+              看完例题，直接开始下方作业。写出算式和答案。
+            </p>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+  // A2/B1 levels show fossil cards (unchanged)
   return (
     <div className="mb-8 bg-gradient-to-br from-accent/5 via-card to-accent/10 border border-accent/20 rounded-xl p-6 shadow-sm">
       <h2 className="font-serif font-semibold text-xl text-ink mb-4">
