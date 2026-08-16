@@ -2769,6 +2769,43 @@ const lessonPlans: Record<string, LessonPlan> = {
       "Lab safety is important, so you must follow the rules. ✓ (so 引导结果)",
     ],
   },
+  "SEC-7": {
+    title: "Dismissal — if vs when",
+    fossil: "if (possible) vs when (certain)",
+    sections: [
+      {
+        name: "课前",
+        duration: "2 分钟",
+        teacherNotes: "确认 Zoom 设置正常。孩子和家长都在镜头前。对家长说：「今天教中学 AEIS 英语第 7 周，不是 CEQ。本周只练一个区别：if（可能/不确定）vs when（一定会发生）。如果事件是一定会发生的（例如铃声每天都会响），用 when；如果事件是可能的、不确定的（例如可能错过车），用 if。每个空只有一个正确答案，不能让 if 和 when 都对同一个空。本周情境是 Wei 第一次放学。」提醒家长可以在旁边观摩，但请让孩子自己开口。",
+      },
+      {
+        name: "热身",
+        duration: "5 分钟",
+        teacherNotes: "问孩子：'How do you go home after school?' 让孩子说 take the bus / MRT / walk / parent picks me up。问：'What time do you leave school?' 引导孩子说 The bell rings at... / We pack our bags at... 问：'What happens if you miss your bus?'，让孩子说话。如果孩子混淆 if 和 when（例如说 'When you miss the bus' 或 'If the bell rings'），不要立刻纠正，等微课环节再讲。",
+      },
+      {
+        name: "化石",
+        duration: "8 分钟",
+        teacherNotes: "在屏幕上或白板上写下两个句子：'____ the bell rings at 1:40, you must pack your bags. (The bell rings every day)' 和 '____ you miss the bus, you can take the MRT. (Maybe you will miss it, maybe not)' 问孩子：'第一句空格填 if 还是 when？第二句呢？' 等孩子思考后，解释化石：第一句是一定会发生的事件（铃声每天都响），用 when。第二句是可能的、不确定的事件（可能错过车），用 if。关键区别：一定会发生（certain / it happens）→ when（if 不出现或明显错误）；可能的、不确定的（possible / not sure）→ if（when 不出现或明显错误）。让孩子跟读改正后的句子 3 次。强调：不能让 if 和 when 都对同一个空。",
+      },
+      {
+        name: "跟读",
+        duration: "5 分钟",
+        teacherNotes: "展示 4 个正确句子（见 spokenLines），一句一句让孩子跟读。读完后问：'Which sentences use when?' 等孩子指出一定会发生的事件句子。问：'Which sentences use if?' 等孩子指出可能的事件句子。问：'Can we use if for something that happens every day?' 等孩子说 'No, we use when for certain things.' 如果孩子说错，再带读 2 次。确认孩子能区分 if（可能）和 when（一定会发生）。",
+      },
+      {
+        name: "作业",
+        duration: "5 分钟",
+        teacherNotes: "打开 /learn 页面，给孩子看 SEC 第 7 周作业入口。告诉孩子：「这周的作业是中学 AEIS 英语第 7 周，包括阅读理解（Wei 第一次放学：bell / bag / bus bay / wait for bus / road safety）、语法题（if vs when，每个空只有一个正确答案）、写作（2 题选 1，写 200-300 词）。完成后系统会自动批改选择题，写作部分会有 AI 反馈。」对家长说：「这是 AEIS-Secondary 第 7 周，不是 CEQ。官方 Sec 1 卷型：Part 1 Writing 2 题选 1 篇，200-300 词；Part 2 有 50 道 MCQ（理解 + 完形 + 词汇 + 语法）。本周是样本，不是完整 50 题。孩子完成作业后，我们会在微信群里同步进度。」不提「包过」「保证录取」等话术。",
+      },
+    ],
+    spokenLines: [
+      "When the bell rings at 1:40, you must pack your bags. ✓ (铃声每天都响，用 when)",
+      "If you miss the bus, you can take the MRT. ✓ (可能错过车，用 if)",
+      "Walk to the door when you see your bus number. ✓ (车会来，用 when)",
+      "If you run across the road, you could get hurt. ✓ (跑是可能的，不一定，用 if)",
+    ],
+  },
   "SMATH-0": {
     title: "百分数增减 — Percentage Increase/Decrease",
     fossil: "part/whole mix-up / % of vs % increase",

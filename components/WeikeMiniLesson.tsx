@@ -407,6 +407,16 @@ export default function WeikeMiniLesson({ level, weekNumber }: WeikeMiniLessonPr
       ],
       gloss: "中学 AEIS 英语本周例题：because（原因）vs so（结果）。如果空格需要填原因从句连接词（You must wear goggles ___ the chemicals are dangerous），用 because。如果空格需要填结果连接词（The chemicals are dangerous, ___ you need goggles），用 so。每个空只有一个正确答案。不能让 because 和 so 都对同一个空。禁止：because of + 句子（because of 后只能接名词短语）、so that 当 because 用（so that 表示目的）。情境：Wei 第一次上科学实验课。"
     },
+    "SEC-7": {
+      fossil: "if (possible) vs when (certain) — unique keys",
+      examples: [
+        "When the bell rings at 1:40, you must pack your bags. ✓ (铃声每天都响，用 when)",
+        "If you miss the bus, you can take the MRT. ✓ (可能错过车，用 if)",
+        "Walk to the door when you see your bus number. ✓ (车会来，用 when)",
+        "If you run across the road, you could get hurt. ✓ (跑是可能的，不一定，用 if)"
+      ],
+      gloss: "中学 AEIS 英语本周例题：if（可能/不确定）vs when（一定会发生）。如果事件是一定会发生的（The bell rings every day → When the bell rings），用 when。如果事件是可能的、不确定的（Maybe you will miss the bus → If you miss the bus），用 if。每个空只有一个正确答案。不能让 if 和 when 都对同一个空。情境：Wei 第一次放学（bell / bag / bus bay / wait for bus / road safety）。"
+    },
     "A2-7": {
       fossil: "I going to the library tomorrow / I go to swim / Tomorrow I go library",
       examples: [
