@@ -1180,7 +1180,7 @@ The school library received 9847 new books. The librarian wants to arrange them 
 Question 5:
 A bakery in Chinatown made 5634 pineapple tarts. They pack 6 tarts in each box. How many boxes can they fill, and how many tarts will be left over?`,
           options: JSON.stringify([
-            "Total books in library|A. 10136 books|B. 10136|C. 10 136|D. 10,136",
+            "Total books in library|A. 10136|B. 10036|C. 9136|D. 11136",
             "Total pencils Mr Tan bought|A. 2752|B. 2852|C. 2952|D. 2862",
             "Bottle caps in each bin|A. 2464|B. 2364|C. 2564|D. 2454",
             "9847 ÷ 8|A. 1230 R7|B. 1231 R7|C. 1230 R8|D. 1231 R0",
