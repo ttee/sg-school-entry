@@ -1470,7 +1470,7 @@ Question 3:
 Ali had 1/2 of a cake. Priya had 1/4 of the same cake. What fraction of the cake do they have altogether?
 
 Question 4:
-In the library, 2/3 of the books are English books. 1/6 of the books are Chinese books. What fraction more are the English books than the Chinese books?
+In the library, 2/3 of the books are English books. 1/6 of the books are Chinese books. What fraction more are the English books than the Chinese books? Give your answer in simplest form.
 
 Question 5:
 At the canteen, 1/3 of the tables are red and 1/6 are blue. What fraction of the tables are red or blue? Give your answer in simplest form.`,
@@ -1502,7 +1502,7 @@ Question 9:
 Mei bought 1/4 of a melon. Ali bought 1/8 of the same melon. What fraction of the melon did they buy altogether?
 
 Question 10:
-In a class, 7/10 of the children are girls. 1/5 of the children are boys who wear glasses. What fraction more are the girls than boys who wear glasses?
+In a class, 7/10 of the children are girls. 1/5 of the children are boys who wear glasses. What fraction more are the girls than boys who wear glasses? Give your answer in simplest form.
 
 Question 11:
 At Woodlands Primary School, the students planted flowers. 3/8 of the flowers are roses and 1/4 are sunflowers. What fraction of the flowers are roses or sunflowers?
