@@ -8243,6 +8243,94 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
         },
       ],
     },
+    {
+      level: "SMATH",
+      weekNumber: 16,
+      title: "数学 第 16 周 / Maths Week 16",
+      description: "AEIS-Secondary Mathematics: Sec 1 problems involving ratio",
+      isSample: false,
+      errorFocus: "using 2/3 of the total when the ratio is 2 : 3 (should be 2/5) / swapping who gets which part",
+      parentBrief: "本周是中学 AEIS 数学第 16 周，对应官方 SEAB Sec 1 卷型（https://www.seab.gov.sg/aeis/test-details/ 2026年7月1日更新）。Part 1 Multiple-choice questions：34 道 MCQ，30 分钟。Part 2 Short-answer questions (20 items) and open-ended questions (10 to 15 items)：1 小时 45 分钟。Calculators are not allowed（不允许使用计算器）。Short-answer and open-ended questions：candidates are required to show the method of solution clearly by writing working steps in the spaces provided, plus the final answer（需写出算式步骤和最终答案）。AEIS-Secondary 官方 preceding-level 规则：申请 Sec 2 入学者需熟悉 Sec 2 前一级的内容。官方举例：apply Secondary 3 → be familiar with Secondary 2 content. 本周针对 Sec 2 申请者，内容为 Sec 2 前一级（Sec 1）的官方 MOE 2020 G3 Mathematics Syllabuses, Secondary One, NUMBER AND ALGEBRA, N2. Ratio and proportion: 2.3 problems involving ratio（比的应用题）。第 15 周已教 2.1–2.2（ratios involving rational numbers, writing a ratio in its simplest form），本周只教 2.3（problems involving ratio），本周完成官方 N2。本周不教 N3 percentage（百分数，那是更后面的内容）。本周作业是样本，不是完整 34 + 20 + 10–15 题。本周化石：using 2/3 of the total when the ratio is 2 : 3（如果比是 2 : 3，错误地用 2/3 of total，正确应该是 2/5 of total，因为总份数是 2+3=5）；swapping who gets which part（如果 Wei : Aisha = 2 : 3，把 Wei 的份数错给成 3 parts，Aisha 错给成 2 parts，应该 Wei 是 2 parts，Aisha 是 3 parts）。本周内容：share a quantity in a given ratio（按给定比例分配数量）：S$60 in 2 : 3 → total parts = 2+3=5, one part = S$60÷5 = S$12, shares are S$24 and S$36。Given one quantity and the ratio, find the other（已知一个量和比，求另一个量）：Wei has S$24, Wei : Aisha = 2 : 3 → Wei's 2 parts = S$24, one part = S$24÷2 = S$12, Aisha's 3 parts = 3×S$12 = S$36。Given the difference and the ratio, find a quantity（已知差和比，求数量）：Aisha has S$12 more than Wei, ratio 2 : 3 → difference = 3−2 = 1 part = S$12, Wei's 2 parts = 2×S$12 = S$24, Aisha's 3 parts = 3×S$12 = S$36。Ratios may involve rationals from last week（比可能涉及有理数，先化简再用）：如 1/2 : 1/3 化简为 3 : 2，然后用 3 : 2 来分配。不用计算器 no calculator。金额用新加坡元 S$（money in Singapore dollars S$）。唯一性 unique keys：两个选项不能是同一个金额。如果 key 是 S$24，不能同时提供 S$24 和 24（作为 2/5 of 60 的另一种写法），也不能同时提供 S$24 和 S$36 作为「Wei 的份数」的正确答案在同一题中。化石 2/3-of-total 必须作为错误选项（wrong option），不是第二个正确答案。非官方机构运营（affiliation 非官方机构 is OK）。不发明官方未提及的内容（do not invent official facts）。不声称 AEIS 是 G3 paper（G3 只是官方 preceding-level 内容来源）。不发明官方 cut-scores 或 extra official names（不发明「地图比例尺」等官方主题名，ordinary share / find-one-quantity problems are enough）。'problems involving ratio' 是官方用词 in N2.3。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "Wei and Aisha share S$60 in the ratio 2 : 3. How much does Wei get?|A. S$20|B. S$24|C. S$30|D. S$40",
+            "Aisha has S$36. The ratio of Wei's money to Aisha's money is 2 : 3. How much does Wei have?|A. S$18|B. S$24|C. S$27|D. S$54",
+            "Wei and Aisha share some money in the ratio 2 : 3. Aisha gets S$12 more than Wei. How much money do they share in total?|A. S$12|B. S$24|C. S$36|D. S$60",
+            "Mr Lim shares 45 stickers among two students in the ratio 1/2 : 1/3. What is the largest share?|A. 15|B. 18|C. 25|D. 27",
+            "Wei and Aisha share S$40 in the ratio 3 : 5. Who gets more money and by how much?|A. Wei gets S$5 more|B. Aisha gets S$5 more|C. Wei gets S$10 more|D. Aisha gets S$10 more",
+          ]),
+          correctAnswer: "B,B,D,D,D",
+          points: 10,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "A class has 35 students. The ratio of boys to girls is 3 : 4. How many boys are there?|A. 12|B. 15|C. 20|D. 21",
+            "Wei and Aisha share S$50 in the ratio 2 : 3. How much does Aisha get?|A. S$20|B. S$25|C. S$30|D. S$33.33",
+            "The ratio of Wei's money to Aisha's money is 4 : 5. Wei has S$32. How much does Aisha have?|A. S$25.60|B. S$36|C. S$40|D. S$45",
+            "Wei has S$18 and Aisha has S$27. They share the total in the ratio 2 : 3. How much does Wei get from the total?|A. S$12|B. S$18|C. S$20|D. S$30",
+            "Which working is correct for sharing S$80 in the ratio 3 : 5? (Total is S$80, find the larger share.)|A. 3/5 of S$80 = S$48|B. 5/8 of S$80 = S$50|C. 5/3 of S$80|D. 3/8 of S$80 = S$30",
+            "Mr Lim has S$120. He gives Wei and Aisha money in the ratio 2 : 3. After giving, he has S$20 left. How much did Wei get?|A. S$30|B. S$40|C. S$48|D. S$60",
+            "A shop sells 60 items. The ratio of pens to erasers is 2 : 1. How many pens are sold?|A. 20|B. 30|C. 40|D. 50",
+            "Two students share the cost of a gift in the ratio 1/3 : 1/2. The gift costs S$30. What is the smaller share?|A. S$10|B. S$12|C. S$15|D. S$18",
+          ]),
+          correctAnswer: "B,C,C,B,B,B,C,B",
+          points: 16,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `Part 2: Show Your Working (写出算式步骤)
+
+Riverside Secondary School has ratio application problems. Answer the questions below. Show all your working clearly.
+
+Question (a)
+Wei and Aisha share S$75 in the ratio 2 : 3. How much does each person get? Show your working steps.
+
+Question (b)
+The ratio of Wei's savings to Aisha's savings is 3 : 4. Wei has S$36. How much does Aisha have? Show your working steps.
+
+Question (c)
+The canteen has 48 students. Mr Lim divides them into two groups for a class trip in the ratio 5 : 3. How many students are in the larger group? Show your working steps.
+
+写作提示 / Tips:
+✓ 每题分步骤写出推理 (Show working steps for each question)
+✓ Part 2 官方要求：clearly show the method of solution by writing working steps, plus the final answer
+✓ 不用计算器 (No calculators allowed)
+✓ 比的应用步骤示范 (ratio application examples)：
+  • 按比例分配 (share a quantity in a given ratio)：
+    Wei and Aisha share S$60 in the ratio 2 : 3. How much does Wei get?
+    Solution: Ratio 2 : 3. Total parts = 2 + 3 = 5. One part = S$60 ÷ 5 = S$12. Wei gets 2 parts = 2 × S$12 = S$24. Aisha gets 3 parts = 3 × S$12 = S$36.
+    Answer: Wei gets S$24, Aisha gets S$36.
+  • 已知一个量求另一个量 (given one quantity, find the other)：
+    Wei has S$24. The ratio Wei : Aisha = 2 : 3. How much does Aisha have?
+    Solution: Wei's 2 parts = S$24. One part = S$24 ÷ 2 = S$12. Aisha's 3 parts = 3 × S$12 = S$36.
+    Answer: Aisha has S$36.
+  • 已知差求数量 (given the difference, find the quantities)：
+    Wei and Aisha share money in the ratio 2 : 3. Aisha gets S$12 more than Wei. How much does Wei get?
+    Solution: Ratio 2 : 3. Difference = 3 − 2 = 1 part = S$12. Wei's 2 parts = 2 × S$12 = S$24. Aisha's 3 parts = 3 × S$12 = S$36.
+    Answer: Wei gets S$24.
+✓ 金额用新加坡元 S$ (money in Singapore dollars S$)
+✓ 关键词：ratio 比，share 分配，total parts 总份数，one part 一份
+✓ 关键步骤：Step 1: Find total parts (总份数 = 比的各项相加). Step 2: Find one part (一份 = total ÷ total parts). Step 3: Find each share (each share = one part × that person's ratio number).
+✓ 化石 (fossil errors)：
+  • 比 2 : 3 时，用 2/3 of total 来算 Wei 的份数 ✗ (应该是 2/5 of total，因为总份数是 2+3=5)
+  • 比 Wei : Aisha = 2 : 3 时，把 Wei 的份数算成 3 parts ✗ (应该是 2 parts)
+  • 忘记先把有理数比化简 ✗ (如果比是 1/2 : 1/3，必须先化简为 3 : 2，然后用 3 : 2 来算)
+
+Note: This is a sample of Part 2 short-answer/open-ended questions. The official paper has 20 short-answer + 10–15 open-ended items in 1 hour 45 minutes.`,
+          points: 20,
+        },
+      ],
+    },
   ];
 
   // =================================================================
