@@ -1550,6 +1550,52 @@ const lessonPlans: Record<string, LessonPlan> = {
       "A bottle has 1 l 800 ml. Mei drinks 600 ml. How much is left? (Say the calculation.)",
     ],
   },
+  "MATH-10": {
+    title: "面积与周长 — Area and perimeter",
+    mathExample: "A rectangle is 8 m long and 5 m wide. Area = 8 × 5 = 40 m². A square has sides of 6 cm. Area = 6 × 6 = 36 cm². A rectangle is 10 m long and 4 m wide. Perimeter = 10 + 4 + 10 + 4 = 28 m.",
+    sections: [
+      {
+        name: "热身",
+        duration: "3 分钟",
+        teacherNotes: "说 'Area is the space inside a shape.' '面积用 cm² 或 m²（平方单位）。' '周长是所有边长之和。' 让孩子注意：面积 area vs 周长 perimeter。",
+      },
+      {
+        name: "本周例题",
+        duration: "8 分钟",
+        teacherNotes: "在白板上画一个长方形，标注：长 8 m，宽 5 m。写：'Area = length × width = 8 m × 5 m = 40 m²'。强调：面积用平方单位 m²。然后画一个正方形，边长 6 cm。写：'Area = side × side = 6 cm × 6 cm = 36 cm²'。再画长方形（10 m 长、4 m 宽），写：'Perimeter = 10 + 4 + 10 + 4 = 28 m' 或 '2 × (10 + 4) = 28 m'。强调：周长是所有边长之和，单位是 m，不是 m²。关键词：area（面积）、perimeter（周长）、length（长）、width（宽）、side（边）、square units（平方单位 cm², m²）。",
+      },
+      {
+        name: "孩子口头说算式",
+        duration: "10 分钟",
+        teacherNotes: "给 3 个口头题，孩子说出算式和答案。题目 1：'A rectangle is 12 m long and 7 m wide. What is its area?' 期待输出：'Area = 12 m × 7 m = 84 m².' 题目 2：'A square has sides of 5 cm. What is its area?' 期待输出：'Area = 5 cm × 5 cm = 25 cm².' 题目 3：'A rectangle is 9 m long and 4 m wide. What is its perimeter?' 期待输出：'Perimeter = 9 + 4 + 9 + 4 = 26 m. Or 2 times 9 plus 4 equals 2 times 13 equals 26 m.'",
+      },
+      {
+        name: "开口",
+        duration: "12 分钟",
+        teacherNotes: "让孩子读出面积和周长算式并解释。比如 'Area = 8 m × 5 m = 40 m²'，孩子要说 'Area equals eight metres times five metres equals forty square metres.' 或 'Perimeter = 10 + 4 + 10 + 4 = 28 m'，孩子要说 'Perimeter equals ten plus four plus ten plus four equals twenty-eight metres.' 注意读法：square metres（平方米）、square centimetres（平方厘米）、times（乘）、plus（加）。",
+      },
+      {
+        name: "收口",
+        duration: "5 分钟",
+        teacherNotes: "提醒本周作业有 P3 数学题目，包括面积（area in cm², m²）、周长（perimeter of rectangles and squares）、面积与周长的应用题（word problems）。对应申请 P4 的孩子需要掌握的 P3 内容（preceding level 规则）。强调：本周不教 P4 圆形、三角形面积（circles, triangles area），不教 P3 角度（angles），答案用整数 cm 或 m，不用小数。",
+      },
+    ],
+    spokenLines: [
+      "Area = 8 m × 5 m = 40 m²",
+      "Area equals eight metres times five metres equals forty square metres.",
+      "Area = 6 cm × 6 cm = 36 cm²",
+      "Area equals six centimetres times six centimetres equals thirty-six square centimetres.",
+      "Perimeter = 10 + 4 + 10 + 4 = 28 m",
+      "Perimeter equals ten plus four plus ten plus four equals twenty-eight metres.",
+      "Perimeter = 4 × 5 cm = 20 cm",
+      "Perimeter equals four times five centimetres equals twenty centimetres.",
+    ],
+    childPrompts: [
+      "A rectangle is 12 m long and 7 m wide. What is its area? (Say the calculation.)",
+      "A square has sides of 5 cm. What is its area? (Say the calculation.)",
+      "A rectangle is 9 m long and 4 m wide. What is its perimeter? (Say the calculation.)",
+    ],
+  },
 };
 
 export default async function LessonPlanPage({

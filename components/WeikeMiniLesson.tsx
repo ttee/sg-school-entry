@@ -103,6 +103,14 @@ export default function WeikeMiniLesson({ level, weekNumber }: WeikeMiniLessonPr
       ],
       gloss: "P3 学测量新单位：千米（km, 1 km = 1000 m）、毫升（ml, 1 l = 1000 ml）、复合单位（compound units, 例如 1 m 35 cm = 135 cm, 2 kg 500 g = 2500 g, 1 l 200 ml = 1200 ml）。P2 第 3 周学过 m/cm、kg/g、l，本周练 km、ml、复合单位、大小单位互换。关键词：kilometres / millilitres / convert（转换）、compound units（复合单位）。"
     },
+    "MATH-10": {
+      examples: [
+        "A rectangle is 8 m long and 5 m wide. Area = 8 × 5 = 40 m².",
+        "A square has sides of 6 cm. Area = 6 × 6 = 36 cm².",
+        "A rectangle is 10 m long and 4 m wide. Perimeter = 10 + 4 + 10 + 4 = 28 m."
+      ],
+      gloss: "P3 学面积与周长：面积（area）用平方单位 cm² 或 m²，长方形面积 = 长 × 宽（length × width），正方形面积 = 边长 × 边长（side × side）。周长（perimeter）是所有边长之和，长方形周长 = 长 + 宽 + 长 + 宽 或 2 × (长 + 宽)，正方形周长 = 4 × 边长。关键词：area（面积）、perimeter（周长）、square units（平方单位）、length（长）、width（宽）、side（边）。注意：本周不教圆形、三角形面积（那是 P4 内容），答案用整数 cm 或 m，不用小数。"
+    },
     "A2-7": {
       fossil: "I going to the library tomorrow / I go to swim / Tomorrow I go library",
       examples: [
