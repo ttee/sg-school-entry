@@ -128,7 +128,7 @@ export default async function LessonPlansIndex() {
         {/* SMATH Level */}
         <div>
           <h2 className="font-serif font-semibold text-2xl text-accent mb-4">
-            SMATH 中学数学 (13 周)
+            SMATH 中学数学 (14 周)
           </h2>
           <div className="grid md:grid-cols-4 gap-3">
             {smathWeeks.map((week) => (
