@@ -3287,6 +3287,43 @@ const lessonPlans: Record<string, LessonPlan> = {
     ],
     speakingPrompts: null,
   },
+  "SMATH-9": {
+    title: "HCF 和 LCM 质数分解 — HCF and LCM by Prime Factorisation",
+    fossil: "swapping HCF and LCM / using product of highest powers for HCF instead of lowest powers",
+    sections: [
+      {
+        name: "课前",
+        duration: "2 分钟",
+        teacherNotes: "确认 Zoom 设置正常。孩子和家长都在镜头前。对家长说：「今天教中学 AEIS 数学第 9 周，HCF 和 LCM 通过质数分解（HCF and LCM by prime factorisation）。本周是 Sec 1 数学卷型样本，内容对应前一级 Sec 1 NUMBER AND ALGEBRA, N1. Numbers and their operations: 1.2 finding HCF and LCM by prime factorisation（只教 HCF 和 LCM 部分，本周不教 squares, cubes, square roots and cube roots）。官方 MOE 2020 G3 Mathematics Syllabuses, Secondary One, NUMBER AND ALGEBRA。SEAB 官方规则：申请 Sec 2 入学的孩子需熟悉 Sec 2 前一级（Sec 1）的内容。不用计算器，要写出分解步骤。」",
+      },
+      {
+        name: "热身",
+        duration: "5 分钟",
+        teacherNotes: "问孩子：'Do you remember how to find prime factorisation from last week?' 等孩子回答。然后说：'Good. This week we use prime factorisation to find HCF and LCM. HCF stands for Highest Common Factor (最大公约数). LCM stands for Lowest Common Multiple (最小公倍数).' 在白板上写例子：'12 and 18. First we factorise: 12 = 2 × 2 × 3 = 2² × 3. 18 = 2 × 3 × 3 = 2 × 3². Now we find HCF and LCM.' 先不解释，让孩子看到今天的目标。",
+      },
+      {
+        name: "化石",
+        duration: "8 分钟",
+        teacherNotes: "在屏幕上或白板上写下常见混淆：'Fossil 1: Swapping HCF and LCM. ✗ Some students use the LCM method (all primes, highest powers) to find HCF. ✗ Some students use the HCF method (common primes only, lowest powers) to find LCM. HCF = common primes, lowest powers. LCM = all primes, highest powers.' 再写：'Fossil 2: Using highest powers for HCF. ✗ For example, 12 = 2² × 3, 18 = 2 × 3². Wrong: HCF = 2² × 3² = 36 (this is actually LCM, not HCF). Correct: HCF = 2¹ × 3¹ = 6 (common primes, lowest powers).' 举例：'Find the HCF of 24 and 36. ✗ Wrong: 24 = 2³ × 3, 36 = 2² × 3². HCF = 2³ × 3² = 72 (using highest powers, this is LCM method). ✓ Correct: HCF = 2² × 3¹ = 12 (common primes, lowest powers).' 再举例：'Find the LCM of 8 and 12. ✗ Wrong: 8 = 2³, 12 = 2² × 3. LCM = 2² × 3 = 12 (using lowest powers, this is HCF method). ✓ Correct: LCM = 2³ × 3 = 24 (all primes, highest powers).'",
+      },
+      {
+        name: "例题",
+        duration: "10 分钟",
+        teacherNotes: "教师示范两道完整例题（写出分解和求 HCF/LCM 的步骤）。例题 1：Find the HCF of 12 and 18 by prime factorisation. 步骤：① Factorise both numbers. 12 = 2 × 2 × 3 = 2² × 3. 18 = 2 × 3 × 3 = 2 × 3². ② Find common primes: 2 and 3. ③ Take lowest powers: 2¹ (because 12 has 2², 18 has 2¹, so lowest is 2¹), 3¹ (because 12 has 3¹, 18 has 3², so lowest is 3¹). ④ HCF = 2¹ × 3¹ = 2 × 3 = 6. Answer: 6. 例题 2：Find the LCM of 12 and 18 by prime factorisation. 步骤：① Factorise both numbers (same as above): 12 = 2² × 3, 18 = 2 × 3². ② Take all primes (both have 2 and 3). ③ Take highest powers: 2² (because 12 has 2², 18 has 2¹, so highest is 2²), 3² (because 12 has 3¹, 18 has 3², so highest is 3²). ④ LCM = 2² × 3² = 4 × 9 = 36. Answer: 36. 再做一道应用题：Two bells ring together at 8 a.m. One bell rings every 12 minutes, the other rings every 18 minutes. At what time will they ring together again? 步骤：① Find LCM of 12 and 18 (smallest common time). ② LCM = 36 minutes (from example above). ③ 8:00 a.m. + 36 minutes = 8:36 a.m. Answer: 8:36 a.m. 孩子在纸上抄一遍例题步骤。",
+      },
+      {
+        name: "练习",
+        duration: "12 分钟",
+        teacherNotes: "给孩子 3 道练习题，让孩子独立做，写出分解和求 HCF/LCM 的步骤。家长可以用手机拍照孩子的推理。题 1：Find the HCF of 24 and 36 by prime factorisation. 答案：24 = 2 × 2 × 2 × 3 = 2³ × 3. 36 = 2 × 2 × 3 × 3 = 2² × 3². Common primes: 2, 3. Lowest powers: 2² (lowest is 2² from both), 3¹ (lowest is 3¹ from 24). HCF = 2² × 3 = 4 × 3 = 12. Answer: 12. 题 2：Find the LCM of 15 and 20 by prime factorisation. 答案：15 = 3 × 5. 20 = 2 × 2 × 5 = 2² × 5. All primes: 2, 3, 5. Highest powers: 2² (from 20), 3¹ (from 15), 5¹ (both have 5¹). LCM = 2² × 3 × 5 = 4 × 3 × 5 = 60. Answer: 60. 题 3：Mei has 30 stickers and Jun Wei has 45 stickers. They want to divide all the stickers equally into the largest possible number of goody bags with no stickers left over. How many goody bags can they make? 答案：We need HCF of 30 and 45 (largest number of bags). 30 = 2 × 3 × 5. 45 = 3 × 3 × 5 = 3² × 5. Common primes: 3, 5. Lowest powers: 3¹, 5¹. HCF = 3 × 5 = 15. Answer: 15 goody bags. 教师巡看孩子的推理，纠正格式（如果孩子只写答案不写步骤，提醒 'AEIS 官方要求写出 working steps'）。如果孩子混淆 HCF 和 LCM，提醒 'HCF = common primes, lowest powers. LCM = all primes, highest powers.' 如果孩子求 HCF 时用了最高次幂，提醒 'For HCF, we take the LOWEST powers of common primes, not the highest powers.'",
+      },
+      {
+        name: "收口",
+        duration: "3 分钟",
+        teacherNotes: "总结本周重点：(1) 官方 Sec 1 AEIS 数学卷型：Part 1 MCQ 34 题 30 分钟 + Part 2 show working 20+10–15 题 1 小时 45 分钟，不用计算器。(2) 本周内容：Sec 1 NUMBER AND ALGEBRA, N1. Numbers and their operations: 1.2 finding HCF and LCM by prime factorisation，对应 preceding level 规则。(3) 本周化石：swapping HCF and LCM（把 HCF 和 LCM 的方法搞反），using highest powers for HCF（HCF 应该取最小次幂，不是最大次幂）。(4) HCF 方法：先质数分解两个数，找共有的质因数，取最小次幂相乘。例：12 = 2² × 3, 18 = 2 × 3²，HCF = 2¹ × 3¹ = 6。(5) LCM 方法：先质数分解两个数，看所有质因数（共有的和独有的），取最大次幂相乘。例：12 = 2² × 3, 18 = 2 × 3²，LCM = 2² × 3² = 36。(6) 应用规律：largest number of groups/bags = HCF（最多能分几组/几袋用 HCF），smallest total/common time = LCM（最小公倍数/最早共同时间用 LCM）。对家长说：「本周作业有 5+8+3 道题，模拟官方题型，不是完整 34+20+10–15 题。孩子做完后上传到作业 app，选择题自动批改，写推理题家长拍照上传。」",
+      },
+    ],
+    speakingPrompts: null,
+  },
 };
 
 export default async function LessonPlanPage({
