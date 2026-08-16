@@ -9243,7 +9243,7 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
             "What does a³ mean?|A. 3a|B. a + a + a|C. a × a × a|D. a ÷ 3",
             "What does a²b mean?|A. 2ab|B. a + a + b|C. a × a × b|D. a² + b",
             "What does (3 + y)/5 mean?|A. 3 + y + 5|B. (3 + y) × 5|C. (3 + y) ÷ 5|D. 3 ÷ 5 + y",
-            "Which is NOT the correct reading of 3y?|A. 3 × y|B. y + y + y|C. 3 + y|D. y³",
+            "What does 3y mean?|A. 3 + y|B. y³|C. 3 × y|D. 3 − y",
             "What does 5x mean?|A. 5 + x|B. 5 × x|C. 5 − x|D. x⁵",
             "Which working correctly reads a²?|A. a × a|B. 2 × a|C. a + a|D. a ÷ 2",
             "What does 2(a + b) mean?|A. 2a + b|B. 2 + a + b|C. 2 × (a + b)|D. 2ab",
