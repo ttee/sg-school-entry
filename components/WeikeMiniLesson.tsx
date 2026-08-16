@@ -388,6 +388,15 @@ export default function WeikeMiniLesson({ level, weekNumber }: WeikeMiniLessonPr
       ],
       gloss: "AEIS 中学数学第 12 周 / SMATH Week 12. 本周例题：Sec 1 数轴上的数的表示和排序（Sec 1 NUMBER AND ALGEBRA: N1.5 representation and ordering of numbers on the number line）。数轴 number line：0 右边是正数，0 左边是负数。从左到右 = 从小到大（left to right = smallest to largest）。越靠左越小（further left = smaller）。负数比较：−8 在 −3 左边，所以 −8 小于 −3（common fossil: 以为 −8 > −3 因为 8 > 3，错！正确是 −8 < −3）。排序：−5, −1, 0, 2 从小到大（按数轴从左到右顺序）。简单分数：−1/2 在 −1 和 0 中间，3/2 在 1 和 2 中间。应用：温度（−8°C 比 −3°C 更冷）、楼层（地下 = 负数）。不用计算器。"
     },
+    "SMATH-13": {
+      examples: [
+        "Fill in the blank: −8 ___ −3",
+        "Solution: On a number line, −8 is to the left of −3. Further left = smaller. So −8 < −3.",
+        "Is −3 ≤ −3 true or false?",
+        "Solution: −3 equals −3. The symbol ≤ means 'less than or equal to'. Since −3 equals −3, the statement is true."
+      ],
+      gloss: "AEIS 中学数学第 13 周 / SMATH Week 13. 本周例题：Sec 1 不等号的使用（Sec 1 NUMBER AND ALGEBRA: N1.6 use of <, >, ≤, ≥）。不等号符号：< 小于 less than，> 大于 greater than，≤ 小于或等于 less than or equal to，≥ 大于或等于 greater than or equal to。填空：−8 ___ −3 → < （因为 −8 在数轴上更靠左）。真假判断：−3 ≤ −3 是 true（−3 等于 −3，符合 less than or equal to），−3 < −3 是 false（−3 等于 −3，不符合 less than）。负数比较：−8 < −3（不是 −8 > −3，这是本周化石错误）。应用：温度（−8°C 比 −3°C 更冷，写 −8 < −3），账户余额（负数 = 欠款，−S$50 比 S$20 更小，写 −50 < 20）。不用计算器。"
+    },
     "SEC-0": {
       fossil: "Although I was nervous, but I tried. ✗ (中文「虽然…但是…」迁移) / I go yesterday ✗ (叙事体过去时掉落)",
       examples: [
