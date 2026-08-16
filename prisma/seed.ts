@@ -1832,6 +1832,103 @@ What is 4.38 × 2, rounded to 1 decimal place?`,
         },
       ],
     },
+    {
+      level: "MATH",
+      weekNumber: 23,
+      title: "数学 第 23 周 / Maths Week 23",
+      description: "AEIS-Primary P4 Mathematics: Area and perimeter (missing side, composite)",
+      isSample: false,
+      errorFocus: null,
+      parentBrief: "本周主题：已知面积/周长求一边、正方形边长、长方形+正方形组合图形的面积和周长，对应官方 2021 P4 Area and Perimeter 1.1–1.3（finding one dimension of a rectangle given the other dimension and its area/perimeter; finding the length of one side of a square given its area/perimeter; finding the area and perimeter of composite figures made up of rectangles and squares）。申请 P5 入学的孩子需掌握 P4 内容（MOE AEIS 的 preceding level 规则）。关键技能：长方形 area = length × width → 已知 area 和 length，求 width：width = area ÷ length；长方形 perimeter = 2 × (length + width) → 已知 perimeter 和 length，求 width：width = perimeter ÷ 2 − length；正方形 area = side × side → 已知 area 求 side：side = √area（例 area 36 cm² → side 6 cm）；正方形 perimeter = 4 × side → 已知 perimeter 求 side：side = perimeter ÷ 4；组合图形（L-shape / T-shape 等）：可以拆分（split）成几个长方形分别算面积再相加，或用大长方形减去缺口；周长只算外轮廓（outer perimeter），不算内部拼接线。常见错误：组合图形把内部边算进周长（should only count outer edges）、求一边时面积÷错边（area ÷ wrong side）、正方形边长当面积（confusing side with area）、拆分组合图形时漏算某一块。题目配有双向对照表，显示对应官方 2021 Primary Mathematics Syllabus P4 Area and Perimeter 1.1–1.3，以及申请 P5 → 掌握 P4 的规则。本周明确不教：三角形面积（area of triangle, P5）、圆形/半圆（circles / semicircles）、立方体/长方体的体积（volume of cube/cuboid）、cm² ↔ m² 互换（converting cm² ↔ m²）、P3 纯概念「什么是面积」而不求缺失边/不涉及组合图形的题目。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: `Read each question and choose the correct answer.
+
+Question 1:
+A rectangle has area 24 cm² and length 8 cm. What is the breadth of the rectangle?
+
+Question 2:
+A square has area 36 cm². What is the length of one side?
+
+Question 3:
+A square has perimeter 20 cm. What is the length of one side?
+
+Question 4:
+An L-shape is made of two rectangles. Rectangle A is 6 cm long and 4 cm wide. Rectangle B is 3 cm long and 2 cm wide. They are joined along the 3 cm side. What is the total area of the L-shape?
+
+Question 5:
+An L-shape has outer perimeter. The L-shape can be described as: a 10 cm × 6 cm rectangle with a 4 cm × 3 cm rectangle cut out from one corner. What is the outer perimeter of this L-shape?`,
+          options: JSON.stringify([
+            "Rectangle area 24 cm², length 8 cm|A. breadth 2 cm|B. breadth 3 cm|C. breadth 4 cm|D. breadth 6 cm",
+            "Square area 36 cm²|A. side 4 cm|B. side 5 cm|C. side 6 cm|D. side 9 cm",
+            "Square perimeter 20 cm|A. side 4 cm|B. side 5 cm|C. side 6 cm|D. side 8 cm",
+            "L-shape: 6×4 rectangle + 3×2 rectangle|A. total area 24 cm²|B. total area 28 cm²|C. total area 30 cm²|D. total area 32 cm²",
+            "L-shape: 10×6 rectangle minus 4×3 corner|A. perimeter 28 cm|B. perimeter 30 cm|C. perimeter 32 cm|D. perimeter 34 cm",
+          ]),
+          correctAnswer: "B,C,B,C,C",
+          points: 5,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: `Choose the correct answer for each question.
+
+Question 6:
+A rectangle has area 48 m² and breadth 6 m. What is the length?
+
+Question 7:
+A rectangle has perimeter 28 m. The length is 9 m. What is the breadth?
+
+Question 8:
+A square has area 49 cm². What is the length of one side?
+
+Question 9:
+A square has perimeter 32 cm. What is the length of one side?
+
+Question 10:
+A T-shape is made of two rectangles. The top rectangle is 8 cm long and 3 cm wide. The bottom rectangle is 4 cm long and 5 cm wide. They share the 4 cm side. What is the total area of the T-shape?
+
+Question 11:
+A composite figure is made of a 12 m × 8 m rectangle joined to a 5 m × 5 m square along one of the 5 m sides. What is the total area?
+
+Question 12:
+An L-shape can be described as: a large 9 cm × 7 cm rectangle with a small 3 cm × 2 cm rectangle removed from one corner. What is the remaining area?
+
+Question 13:
+A rectangular garden is 15 m long and 8 m wide. A square flower bed of side 3 m is built inside the garden. What is the area of the garden that is NOT the flower bed?`,
+          options: JSON.stringify([
+            "Rectangle area 48 m², breadth 6 m|A. length 6 m|B. length 7 m|C. length 8 m|D. length 9 m",
+            "Rectangle perimeter 28 m, length 9 m|A. breadth 3 m|B. breadth 4 m|C. breadth 5 m|D. breadth 6 m",
+            "Square area 49 cm²|A. side 5 cm|B. side 6 cm|C. side 7 cm|D. side 8 cm",
+            "Square perimeter 32 cm|A. side 6 cm|B. side 7 cm|C. side 8 cm|D. side 10 cm",
+            "T-shape: 8×3 top + 4×5 bottom (share 4 cm)|A. area 40 cm²|B. area 42 cm²|C. area 44 cm²|D. area 46 cm²",
+            "12×8 rectangle + 5×5 square|A. area 116 m²|B. area 121 m²|C. area 125 m²|D. area 131 m²",
+            "9×7 rectangle − 3×2 corner|A. area 55 cm²|B. area 57 cm²|C. area 59 cm²|D. area 61 cm²",
+            "15×8 garden − 3×3 flower bed|A. area 111 m²|B. area 115 m²|C. area 117 m²|D. area 120 m²",
+          ]),
+          correctAnswer: "C,C,C,C,C,B,B,A",
+          points: 8,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `At Bedok Primary School, the students are learning about area and perimeter.
+
+(a) A rectangle has area 40 cm² and length 10 cm. What is the breadth? Show your working with the division: breadth = area ÷ length.
+
+(b) A square has perimeter 28 cm. What is the length of one side? Show your working with the division: side = perimeter ÷ 4.
+
+(c) An L-shape composite figure is made of two rectangles. Rectangle P is 7 cm long and 5 cm wide. Rectangle Q is 4 cm long and 3 cm wide. They are joined along the 4 cm side. What is the total area of the L-shape? Show your working by calculating the area of each rectangle and adding them together.
+
+写出算式、答案和说明。Show working by calculating step by step. For composite figures, explain how you split the figure (e.g., "Rectangle P area = 7 × 5 = 35 cm². Rectangle Q area = 4 × 3 = 12 cm². Total area = 35 + 12 = 47 cm²."). Explain common errors (e.g., dividing area by the wrong side, confusing side with area for a square, including internal edges in perimeter).`,
+          points: 10,
+        },
+      ],
+    },
     
     // A2 WEEKS
     {
