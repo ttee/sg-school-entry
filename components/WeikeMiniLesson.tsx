@@ -451,6 +451,15 @@ export default function WeikeMiniLesson({ level, weekNumber }: WeikeMiniLessonPr
       ],
       gloss: "AEIS 中学数学第 19 周 / SMATH Week 19. 本周例题：Sec 1 大于 100% 的百分数（Sec 1 NUMBER AND ALGEBRA: N3.3 percentages greater than 100%）。If A > B, then A as a percentage of B is greater than 100%（如果 A > B，则 A 占 B 的百分数大于 100%）。例：25 as a percentage of 20 = (25 ÷ 20) × 100% = 1.25 × 100% = 125%。50 as a percentage of 20 = 250%。36 as a percentage of 24 = 150%。A percentage can be more than 100% when the first quantity is larger than the second（当第一个数大于第二个数时，百分比可以超过 100%）。应用题：Wei has S$36, Aisha has S$24. Express Wei's amount as a percentage of Aisha's. Solution: S$36 > S$24. (36 ÷ 24) × 100% = 1.5 × 100% = 150%. So S$36 is 150% of S$24 (Wei has more)。本周化石：thinking a percentage cannot exceed 100%（认为百分数不能超过 100%，错！当第一个数大于第二个数时，百分数可以大于 100%）；writing the inverted ≤100% value instead（如 25 of 20 错误地写成 80%，应该是 125%）。第 17–18 周教 ≤100% 的情况，本周教 >100%。金额用新加坡元 S$。不用计算器。"
     },
+    "SMATH-20": {
+      examples: [
+        "Increase 80 by 10%. Solution: 10% of 80 = 8.",
+        "New value = 80 + 8 = 88",
+        "A rate from 40% to 50%: percentage-point increase = 50% − 40% = 10 percentage points.",
+        "(This is NOT a 10% increase. A 10% increase of 40% would be 44%, not 50%.)"
+      ],
+      gloss: "AEIS 中学数学第 20 周 / SMATH Week 20. 本周例题：Sec 1 用百分数增减数量与百分点（Sec 1 NUMBER AND ALGEBRA: N3.4 increasing/decreasing a quantity by a given percentage, including concept of percentage point）。Increase by r%: 先算 r% of 原值，再加。例：80 increased by 10% = 10% of 80 = 8，80 + 8 = 88（或 80 × 1.1 = 88）。Decrease by r%: 先算 r% of 原值，再减。例：80 decreased by 10% = 10% of 80 = 8，80 − 8 = 72（或 80 × 0.9 = 72）。Percentage point（百分点，官方术语）：a change from 40% to 50% is 10 percentage points（从 40% 到 50% 是 10 个百分点），NOT a 10% increase（不是 10% 的增长，因为 10% increase of 40% would be 44%）。应用题：A price of S$60 is increased by 20%. What is the new price? Solution: 20% of S$60 = 12. New price = S$60 + S$12 = S$72。本周化石：adding the percentage value instead of the percentage of the quantity（80 increased by 10% 错误地写成 90，应该是 88）；treating a percentage-point change as a percentage increase（40% → 50% 错误地说是 10% 增长，应该是 10 个百分点的增长）。不用计算器，写出算式步骤。"
+    },
     "SEC-0": {
       fossil: "Although I was nervous, but I tried. ✗ (中文「虽然…但是…」迁移) / I go yesterday ✗ (叙事体过去时掉落)",
       examples: [
