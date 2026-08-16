@@ -8628,7 +8628,7 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
             "A rate changes from 30% to 45%. By how many percentage points did the rate increase?|A. 10 percentage points|B. 15 percentage points|C. 50 percentage points|D. 15%",
             "Which working is correct for increasing 80 by 10%?|A. 80 + 10 = 90|B. 10% of 80 = 8, then 80 + 8 = 88|C. 80 × 10 = 800|D. 80 − 8 = 72",
             "Wei had S$40. His savings increased by 50%. How much does he have now?|A. S$45|B. S$50|C. S$60|D. S$90",
-            "A test pass rate increased from 60% to 75%. Which statement is correct?|A. The rate increased by 15 percentage points.|B. The rate increased by 25%.|C. The rate increased by 15%.|D. Percentage points and percentages are the same.",
+            "A test pass rate increased from 60% to 75%. Which statement is correct?|A. The rate increased by 15 percentage points.|B. The rate increased by 25 percentage points.|C. The rate increased by 15%.|D. Percentage points and percentages are the same.",
             "Aisha's S$100 phone credit decreased by 30%. How much credit does she have now?|A. S$70|B. S$97|C. S$103|D. S$130",
           ]),
           correctAnswer: "C,B,B,B,B,C,A,A",
