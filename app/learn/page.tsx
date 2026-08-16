@@ -59,6 +59,10 @@ export default async function LearnDashboard() {
               <Link href="/learn/enquiries" className="text-accent hover:underline font-semibold">
                 查看报名咨询
               </Link>
+              {" · "}
+              <Link href="/learn/plans" className="text-accent hover:underline font-semibold">
+                Zoom 教案
+              </Link>
             </>
           ) : (
             <>
