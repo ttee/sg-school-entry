@@ -542,7 +542,7 @@ export default function WeekHomework({
                     : question.type === "writing"
                     ? "应用题（写算式）/ Show Your Working"
                     : question.type === "listening"
-                    ? "听力 / Listening"
+                    ? (question.audioUrl ? "听力 / Listening" : "听读 / Reading")
                     : "口语 / Speaking")
                   : (question.type === "reading"
                     ? "阅读理解 / Reading"
@@ -551,7 +551,7 @@ export default function WeekHomework({
                     : question.type === "writing"
                     ? "写作 / Writing"
                     : question.type === "listening"
-                    ? "听力 / Listening"
+                    ? (question.audioUrl ? "听力 / Listening" : "听读 / Reading")
                     : "口语 / Speaking")}
               </h2>
               <span className="text-sm text-muted">{question.points} 分</span>
@@ -594,6 +594,15 @@ export default function WeekHomework({
                       {question.content}
                     </div>
                   )}
+                </div>
+              </div>
+            )}
+
+            {question.type === "listening" && !question.audioUrl && (
+              <div className="mb-6 bg-paper border border-line rounded-lg p-4">
+                <p className="text-sm font-semibold text-ink mb-3">听读课文 / Reading Text</p>
+                <div className="whitespace-pre-wrap text-sm text-ink-2">
+                  {question.content}
                 </div>
               </div>
             )}
