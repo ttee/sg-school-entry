@@ -8150,6 +8150,99 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
         },
       ],
     },
+    {
+      level: "SMATH",
+      weekNumber: 15,
+      title: "数学 第 15 周 / Maths Week 15",
+      description: "AEIS-Secondary Mathematics: Sec 1 ratios involving rational numbers, simplest form",
+      isSample: false,
+      errorFocus: "leaving a ratio with fractions unsimplified / swapping the order / treating 2/3 : 4 as 2 : 4",
+      parentBrief: "本周是中学 AEIS 数学第 15 周，对应官方 SEAB Sec 1 卷型（https://www.seab.gov.sg/aeis/test-details/ 2026年7月1日更新）。Part 1 Multiple-choice questions：34 道 MCQ，30 分钟。Part 2 Short-answer questions (20 items) and open-ended questions (10 to 15 items)：1 小时 45 分钟。Calculators are not allowed（不允许使用计算器）。Short-answer and open-ended questions：candidates are required to show the method of solution clearly by writing working steps in the spaces provided, plus the final answer（需写出算式步骤和最终答案）。AEIS-Secondary 官方 preceding-level 规则：申请 Sec 2 入学者需熟悉 Sec 2 前一级的内容。官方举例：apply Secondary 3 → be familiar with Secondary 2 content. 本周针对 Sec 2 申请者，内容为 Sec 2 前一级（Sec 1）的官方 MOE 2020 G3 Mathematics Syllabuses, Secondary One, NUMBER AND ALGEBRA, N2. Ratio and proportion: 2.1 ratios involving rational numbers, 2.2 writing a ratio in its simplest form（有理数比，化简比）。本周作业是样本，不是完整 34 + 20 + 10–15 题。第 8–14 周已完成 N1（1.1 质数分解、1.2 HCF/LCM/平方立方和根、1.3 负数四则、1.5 数轴、1.6 不等号、1.7 近似估算，1.4 跳过因 AEIS 禁用计算器），本周开始 N2，只教 2.1–2.2（ratios involving rational numbers, writing a ratio in its simplest form）。本周不教 2.3 problems involving ratio（比的应用题，那是下一周）。本周化石：leaving a ratio with fractions unsimplified（把 1/2 : 1/3 作为最终答案，而不是化简为 3 : 2）、swapping the order（如果 key 是 3 : 2，错写成 2 : 3，a : b 不是 b : a）、treating 2/3 : 4 as 2 : 4（只取分子，忽略分母，错！应该转换 4 = 12/3，然后 2/3 : 12/3 = 2 : 12 = 1 : 6）。本周内容：比 ratio 可以涉及分数或小数 involving rational numbers：1/2 : 1/3, 0.4 : 0.6, 2/3 : 4。化简 writing in its simplest form：转换为相同形式（全是整数，或全是相同分母），然后除以 HCF（highest common factor）。1/2 : 1/3 = 3 : 2（乘以 6）；0.4 : 0.6 = 4 : 6 = 2 : 3（先转整数，再除以 HCF 2）；2/3 : 4 = 2 : 12 = 1 : 6（转换为相同形式，4 = 12/3，然后 2/3 : 12/3 = 2 : 12，再除以 HCF 2）。顺序 order matters：a : b 不是 b : a。不用计算器 no calculator。金额用新加坡元 S$（money in Singapore dollars S$，如涉及钱币）。唯一性 unique keys：两个选项不能是同一个比的不同写法。不提供 2 : 3 和 4 : 6 同时作为选项（都是同一个比）。不提供 1 : 6 和 2 : 12 同时作为选项（都是同一个比）。如果 key 是 3 : 2，2 : 3 必须作为错误选项（order fossil），不是第二个正确答案。化石 leaving unsimplified 或 swapping order 必须作为错误选项（wrong option），不是第二个正确答案。非官方机构运营（affiliation 非官方机构 is OK）。不发明官方未提及的内容（do not invent official facts）。不声称 AEIS 是 G3 paper（G3 只是官方 preceding-level 内容来源）。不发明官方 cut-scores 或 extra official names。'ratios involving rational numbers', 'writing a ratio in its simplest form' 是官方用词 in N2.1–2.2。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "Write 1/2 : 1/3 in its simplest form.|A. 1/2 : 1/3|B. 3 : 2|C. 2 : 3|D. 6 : 6",
+            "Write 0.4 : 0.6 in its simplest form.|A. 4 : 5|B. 0.4 : 0.6|C. 2 : 3|D. 3 : 2",
+            "Write 2/3 : 4 in its simplest form.|A. 2 : 4|B. 2 : 3|C. 1 : 6|D. 3 : 12",
+            "Which ratio is the same as 3 : 2?|A. 2 : 3|B. 6 : 4|C. 9 : 8|D. 1.5 : 2",
+            "Write 1.5 : 2.5 in its simplest form.|A. 15 : 25|B. 3 : 5|C. 5 : 3|D. 1.5 : 2.5",
+          ]),
+          correctAnswer: "B,C,C,B,B",
+          points: 10,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "Write 1/4 : 1/2 in its simplest form.|A. 1 : 2|B. 2 : 1|C. 1/4 : 1/2|D. 4 : 2",
+            "Write 0.8 : 1.2 in its simplest form.|A. 8 : 12|B. 2 : 3|C. 3 : 2|D. 0.8 : 1.2",
+            "Write 3/4 : 6 in its simplest form.|A. 3 : 6|B. 1 : 8|C. 3 : 4|D. 4 : 24",
+            "Write 1/3 : 1/2 : 1 in its simplest form.|A. 2 : 3 : 6|B. 1 : 2 : 3|C. 3 : 2 : 1|D. 1/3 : 1/2 : 1",
+            "Which of these ratios is already in its simplest form?|A. 4 : 6|B. 5 : 7|C. 10 : 15|D. 8 : 12",
+            "Wei has S$1.50 and Aisha has S$2.25. Write the ratio of Wei's money to Aisha's money in its simplest form.|A. 150 : 225|B. 2 : 3|C. 3 : 2|D. 1.5 : 2.25",
+            "Write 0.5 : 1.5 in its simplest form.|A. 5 : 15|B. 1 : 3|C. 0.5 : 1.5|D. 3 : 1",
+            "Write 3 : 1/2 in its simplest form.|A. 3 : 1|B. 6 : 1|C. 1 : 6|D. 3 : 0.5",
+          ]),
+          correctAnswer: "A,B,B,A,B,B,B,B",
+          points: 16,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `Part 2: Show Your Working (写出算式步骤)
+
+Riverside Secondary School has ratio problems. Answer the questions below. Show all your working clearly.
+
+Question (a)
+Write 1/2 : 1/3 in its simplest form. Show your working steps.
+
+Question (b)
+Write 0.6 : 1.5 in its simplest form. Show your working steps.
+
+Question (c)
+Wei has S$2.40 and Aisha has S$3.60. Write the ratio of Wei's money to Aisha's money in its simplest form. Show your working steps.
+
+写作提示 / Tips:
+✓ 每题分步骤写出推理 (Show working steps for each question)
+✓ Part 2 官方要求：clearly show the method of solution by writing working steps, plus the final answer
+✓ 不用计算器 (No calculators allowed)
+✓ 比的化简步骤示范 (ratio simplification examples)：
+  • 分数比 (fraction ratio)：
+    Write 1/2 : 1/3 in its simplest form.
+    Solution: 1/2 : 1/3. To compare fractions, find a common denominator. LCM of 2 and 3 is 6. 1/2 = 3/6, 1/3 = 2/6. So 1/2 : 1/3 = 3/6 : 2/6 = 3 : 2 (use the numerators after converting to the same denominator).
+    Answer: 3 : 2
+  • 小数比 (decimal ratio)：
+    Write 0.4 : 0.6 in its simplest form.
+    Solution: 0.4 : 0.6. Convert to whole numbers by multiplying by 10: 0.4 × 10 = 4, 0.6 × 10 = 6. So 0.4 : 0.6 = 4 : 6. Find HCF of 4 and 6: HCF = 2. Divide both by 2: 4 ÷ 2 = 2, 6 ÷ 2 = 3.
+    Answer: 2 : 3
+  • 混合比 (mixed ratio)：
+    Write 2/3 : 4 in its simplest form.
+    Solution: 2/3 : 4. Convert to the same form. 4 = 12/3. So 2/3 : 4 = 2/3 : 12/3 = 2 : 12 (use the numerators). Find HCF of 2 and 12: HCF = 2. Divide both by 2: 2 ÷ 2 = 1, 12 ÷ 2 = 6.
+    Answer: 1 : 6
+✓ 金额应用 (money application)：
+  Wei has S$2.50 and Aisha has S$3.75. Write the ratio of Wei's money to Aisha's money in its simplest form.
+  Solution: Wei : Aisha = S$2.50 : S$3.75. Convert to cents: 250 cents : 375 cents. Find HCF of 250 and 375: HCF = 125. Divide both by 125: 250 ÷ 125 = 2, 375 ÷ 125 = 3.
+  Answer: 2 : 3
+✓ 金额用新加坡元 S$ (money in Singapore dollars S$)
+✓ 关键词：ratio 比，rational numbers 有理数（分数或小数），simplest form 化简，HCF 最高公因数
+✓ 关键规则：Convert to the same form (转换为相同形式), then divide by HCF (除以 HCF)
+✓ 顺序 order matters：a : b 不是 b : a。如果题目是 Wei : Aisha，答案必须是 Wei 在前 Aisha 在后
+✓ 化石 (fossil errors)：
+  • 1/2 : 1/3 留为最终答案 ✗ (应化简为 3 : 2)
+  • 3 : 2 写成 2 : 3 ✗ (顺序颠倒，order matters)
+  • 2/3 : 4 写成 2 : 4 ✗ (只取分子，忽略分母；应是 1 : 6)
+
+Note: This is a sample of Part 2 short-answer/open-ended questions. The official paper has 20 short-answer + 10–15 open-ended items in 1 hour 45 minutes.`,
+          points: 20,
+        },
+      ],
+    },
   ];
 
   // =================================================================

@@ -3509,6 +3509,43 @@ const lessonPlans: Record<string, LessonPlan> = {
     ],
     speakingPrompts: null,
   },
+  "SMATH-15": {
+    title: "有理数比与化简 — Ratios Involving Rational Numbers, Simplest Form",
+    fossil: "leaving a ratio with fractions unsimplified / swapping the order / treating 2/3 : 4 as 2 : 4",
+    sections: [
+      {
+        name: "课前",
+        duration: "2 分钟",
+        teacherNotes: "确认 Zoom 设置正常。孩子和家长都在镜头前。对家长说：「今天教中学 AEIS 数学第 15 周，有理数比与化简（ratios involving rational numbers, writing a ratio in its simplest form）。本周是 Sec 1 数学卷型样本，内容对应前一级 Sec 1 NUMBER AND ALGEBRA, N2. Ratio and proportion: 2.1 ratios involving rational numbers, 2.2 writing a ratio in its simplest form。官方 MOE 2020 G3 Mathematics Syllabuses, Secondary One, NUMBER AND ALGEBRA。SEAB 官方规则：申请 Sec 2 入学的孩子需熟悉 Sec 2 前一级（Sec 1）的内容。第 8–14 周已完成 N1（1.1 质数分解、1.2 HCF/LCM/平方立方和根、1.3 负数四则、1.5 数轴、1.6 不等号、1.7 近似估算，1.4 跳过因 AEIS 禁用计算器），本周开始 N2，只教 2.1–2.2（ratios involving rational numbers, writing a ratio in its simplest form）。本周不教 2.3 problems involving ratio（比的应用题，那是下一周）。不用计算器，要写出推理步骤。」",
+      },
+      {
+        name: "热身",
+        duration: "5 分钟",
+        teacherNotes: "在白板上写：1/2 : 1/3 = ?  问孩子：'How do we write this ratio in its simplest form?' 等孩子思考后，解释：'To compare fractions, we need a common denominator. The LCM of 2 and 3 is 6. Convert: 1/2 = 3/6, 1/3 = 2/6. So 1/2 : 1/3 = 3/6 : 2/6 = 3 : 2. We just use the numerators after converting to the same denominator.' 再写：0.4 : 0.6 = ?  问孩子：'How do we write this ratio in its simplest form?' 等孩子回答。解释：'Convert to whole numbers by multiplying by 10: 0.4 × 10 = 4, 0.6 × 10 = 6. So 0.4 : 0.6 = 4 : 6. Now find the HCF of 4 and 6. HCF = 2. Divide both by 2: 4 ÷ 2 = 2, 6 ÷ 2 = 3. Answer: 2 : 3.' 再写：2/3 : 4 = ?  问孩子：'How do we write this ratio in its simplest form?' 等孩子思考后，解释：'We have a fraction and a whole number. Convert 4 to a fraction with the same denominator: 4 = 12/3. So 2/3 : 4 = 2/3 : 12/3 = 2 : 12. Find HCF of 2 and 12. HCF = 2. Divide: 2 ÷ 2 = 1, 12 ÷ 2 = 6. Answer: 1 : 6.' 让孩子看到今天的目标：化简涉及分数或小数的比（ratios involving rational numbers），写成最简形式（writing in its simplest form）。",
+      },
+      {
+        name: "化石",
+        duration: "8 分钟",
+        teacherNotes: "在屏幕上或白板上写下常见混淆：'Fossil 1: Leaving a ratio with fractions unsimplified. ✗ Example: Write 1/2 : 1/3 in its simplest form. Wrong: 1/2 : 1/3 (leaving it as is, not simplifying). Correct: 3 : 2. Rule: ratios must be written in their simplest form, which means converting to whole numbers (usually integers) and dividing by the HCF. 1/2 : 1/3 = 3/6 : 2/6 = 3 : 2. Always simplify to whole number ratios when asked for simplest form.' 再写：'Fossil 2: Swapping the order. ✗ Example: Write 1/2 : 1/3 in its simplest form. Wrong: 2 : 3 (swapping the order). Correct: 3 : 2. Rule: order matters. a : b is not b : a. 1/2 = 3/6, 1/3 = 2/6, so 1/2 : 1/3 = 3 : 2 (not 2 : 3). If the question asks for Wei : Aisha, the answer must have Wei first, Aisha second.' 再写：'Fossil 3: Treating 2/3 : 4 as 2 : 4 (only taking the numerator of the fraction). ✗ Example: Write 2/3 : 4 in its simplest form. Wrong: 2 : 4 (taking 2 from the numerator, ignoring the denominator 3). Correct: 1 : 6. Rule: convert 4 to a fraction with the same denominator. 4 = 12/3. So 2/3 : 4 = 2/3 : 12/3 = 2 : 12 = 1 : 6 (after dividing by HCF 2). Never just take the numerator!' 画一个示意图：1/2 : 1/3。转换为相同分母：3/6 : 2/6。取分子：3 : 2。对家长说：「本周三大化石：不化简比（留为 1/2 : 1/3）、顺序颠倒（3 : 2 写成 2 : 3）、只取分子（2/3 : 4 写成 2 : 4，忽略分母）。记住关键规则：转换为相同形式，然后除以 HCF；顺序很重要，a : b 不是 b : a。」",
+      },
+      {
+        name: "例题",
+        duration: "10 分钟",
+        teacherNotes: "教师示范五道完整例题（写出推理步骤）。例题 1：Write 1/2 : 1/3 in its simplest form. 步骤：① 1/2 : 1/3. ② Find common denominator. LCM of 2 and 3 is 6. ③ Convert: 1/2 = 3/6, 1/3 = 2/6. ④ So 1/2 : 1/3 = 3/6 : 2/6 = 3 : 2. Answer: 3 : 2. 例题 2：Write 0.4 : 0.6 in its simplest form. 步骤：① 0.4 : 0.6. ② Convert to whole numbers by multiplying by 10: 4 : 6. ③ Find HCF of 4 and 6: HCF = 2. ④ Divide both by 2: 4 ÷ 2 = 2, 6 ÷ 2 = 3. Answer: 2 : 3. 例题 3：Write 2/3 : 4 in its simplest form. 步骤：① 2/3 : 4. ② Convert 4 to a fraction: 4 = 12/3. ③ So 2/3 : 4 = 2/3 : 12/3 = 2 : 12. ④ Find HCF of 2 and 12: HCF = 2. ⑤ Divide: 2 ÷ 2 = 1, 12 ÷ 2 = 6. Answer: 1 : 6. 例题 4：Which ratio is the same as 3 : 2? 选项：A. 2 : 3, B. 6 : 4, C. 9 : 8, D. 1.5 : 1. 步骤：① Check each option. ② Option A: 2 : 3 is not the same as 3 : 2 (order swapped) (✗). ③ Option B: 6 : 4. Simplify: HCF = 2. 6 ÷ 2 = 3, 4 ÷ 2 = 2. So 6 : 4 = 3 : 2 (✓). ④ Option C: 9 : 8 is already simplified, not 3 : 2 (✗). ⑤ Option D: 1.5 : 1 = 15 : 10 = 3 : 2 (HCF 5) (✓, but B is listed first). Answer: B. 6 : 4. 例题 5：Write 1.5 : 2.5 in its simplest form. 步骤：① 1.5 : 2.5. ② Convert to whole numbers by multiplying by 10: 15 : 25. ③ Find HCF of 15 and 25: HCF = 5. ④ Divide: 15 ÷ 5 = 3, 25 ÷ 5 = 5. Answer: 3 : 5. 再做一道金额应用题：Wei has S$2.50 and Aisha has S$3.75. Write the ratio of Wei's money to Aisha's money in its simplest form. 步骤：① Wei : Aisha = S$2.50 : S$3.75. ② Convert to cents: 250 cents : 375 cents. ③ Find HCF of 250 and 375: HCF = 125. ④ Divide: 250 ÷ 125 = 2, 375 ÷ 125 = 3. ⑤ Remember order: Wei first, Aisha second. Answer: 2 : 3 (Wei : Aisha).",
+      },
+      {
+        name: "练习",
+        duration: "12 分钟",
+        teacherNotes: "给孩子 3 道练习题，让孩子独立做，写出推理步骤。家长可以用手机拍照孩子的推理。题 1：Write 1/2 : 1/3 in its simplest form. Show your working steps. 答案：① 1/2 : 1/3. ② Find common denominator. LCM of 2 and 3 is 6. ③ Convert: 1/2 = 3/6, 1/3 = 2/6. ④ So 1/2 : 1/3 = 3/6 : 2/6 = 3 : 2. Answer: 3 : 2. 题 2：Write 0.6 : 1.5 in its simplest form. Show your working steps. 答案：① 0.6 : 1.5. ② Convert to whole numbers by multiplying by 10: 6 : 15. ③ Find HCF of 6 and 15: HCF = 3. ④ Divide: 6 ÷ 3 = 2, 15 ÷ 3 = 5. Answer: 2 : 5. 题 3：Wei has S$2.40 and Aisha has S$3.60. Write the ratio of Wei's money to Aisha's money in its simplest form. Show your working steps. 答案：① Wei : Aisha = S$2.40 : S$3.60. ② Convert to cents: 240 cents : 360 cents. ③ Find HCF of 240 and 360: HCF = 120. ④ Divide: 240 ÷ 120 = 2, 360 ÷ 120 = 3. ⑤ Remember order: Wei first, Aisha second. Answer: 2 : 3. 教师巡看孩子的推理，纠正格式（如果孩子只写答案不写步骤，提醒 'AEIS 官方要求写出 working steps'）。如果孩子留为 1/2 : 1/3 不化简，指出：'You need to write it in its simplest form. Convert to the same denominator, then simplify to whole numbers: 3 : 2.' 如果孩子把 3 : 2 写成 2 : 3，指出：'Order matters. 1/2 = 3/6, 1/3 = 2/6, so 1/2 : 1/3 = 3 : 2, not 2 : 3.' 如果孩子把 2/3 : 4 写成 2 : 4，指出：'You can't just take the numerator. Convert 4 to 12/3 first. Then 2/3 : 12/3 = 2 : 12 = 1 : 6.' 如果孩子完成速度快，给备用练习题：Write 1/4 : 1/2 in its simplest form. （答案：1 : 2）Write 3 : 1/2 in its simplest form. （答案：6 : 1）",
+      },
+      {
+        name: "收口",
+        duration: "3 分钟",
+        teacherNotes: "总结本周重点：(1) 官方 Sec 1 AEIS 数学卷型：Part 1 MCQ 34 题 30 分钟 + Part 2 show working 20+10–15 题 1 小时 45 分钟，不用计算器。(2) 本周内容：Sec 1 NUMBER AND ALGEBRA, N2. Ratio and proportion: 2.1 ratios involving rational numbers, 2.2 writing a ratio in its simplest form（有理数比与化简），对应 preceding level 规则。(3) 本周化石：leaving a ratio with fractions unsimplified（把 1/2 : 1/3 作为最终答案，而不是化简为 3 : 2），swapping the order（如果 key 是 3 : 2，错写成 2 : 3，a : b 不是 b : a），treating 2/3 : 4 as 2 : 4（只取分子，忽略分母，错！应是 1 : 6）。(4) 比 ratio 可以涉及分数或小数 involving rational numbers：1/2 : 1/3, 0.4 : 0.6, 2/3 : 4。(5) 化简 writing in its simplest form：转换为相同形式（全是整数，或全是相同分母），然后除以 HCF（highest common factor）。1/2 : 1/3 = 3 : 2（乘以 6）；0.4 : 0.6 = 4 : 6 = 2 : 3（先转整数，再除以 HCF 2）；2/3 : 4 = 2 : 12 = 1 : 6（4 = 12/3，然后 2/3 : 12/3 = 2 : 12，除以 HCF 2）。(6) 顺序 order matters：a : b 不是 b : a。如果题目是 Wei : Aisha，答案必须是 Wei 在前 Aisha 在后。(7) 金额用新加坡元 S$（money in Singapore dollars S$，如涉及钱币）。Convert to cents, find HCF, divide. (8) 唯一性 unique keys：两个选项不能是同一个比的不同写法。不提供 2 : 3 和 4 : 6 同时作为选项（都是同一个比）。不提供 1 : 6 和 2 : 12 同时作为选项（都是同一个比）。如果 key 是 3 : 2，2 : 3 必须作为错误选项（order fossil），不是第二个正确答案。(9) 本周不教：2.3 problems involving ratio（比的应用题，那是下一周）。本周只教 2.1–2.2（ratios involving rational numbers, writing a ratio in its simplest form）。(10) 第 8–14 周已完成 N1，本周开始 N2。N1 包括：1.1 质数分解、1.2 HCF/LCM/平方立方和根、1.3 负数四则、1.5 数轴、1.6 不等号、1.7 近似估算（1.4 跳过因 AEIS 禁用计算器）。对家长说：「本周作业有 5+8+3 道题，模拟官方 Sec 1 数学卷型。孩子完成后系统会自动批改选择题，写作部分要求写出推理步骤。本周不是完整试卷，是样本。本周只教 2.1–2.2 有理数比与化简，不教 2.3 应用题（下一周）。不用计算器。」",
+      },
+    ],
+    speakingPrompts: null,
+  },
 };
 
 export default async function LessonPlanPage({
