@@ -7709,6 +7709,88 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
         },
       ],
     },
+    {
+      level: "SMATH",
+      weekNumber: 10,
+      title: "数学 第 10 周 / Maths Week 10",
+      description: "AEIS-Secondary Mathematics: Sec 1 squares, cubes, square roots and cube roots by prime factorisation",
+      isSample: false,
+      errorFocus: "swapping square and cube / taking √ of a non-square / taking ³√ of a non-cube",
+      parentBrief: "本周是中学 AEIS 数学第 10 周，对应官方 SEAB Sec 1 卷型（https://www.seab.gov.sg/aeis/test-details/ 2026年7月1日更新）。Part 1 Multiple-choice questions：34 道 MCQ，30 分钟。Part 2 Short-answer questions (20 items) and open-ended questions (10 to 15 items)：1 小时 45 分钟。Calculators are not allowed（不允许使用计算器）。Short-answer and open-ended questions：candidates are required to show the method of solution clearly by writing working steps in the spaces provided, plus the final answer（需写出算式步骤和最终答案）。AEIS-Secondary 官方 preceding-level 规则：申请 Sec 2 入学者需熟悉 Sec 2 前一级的内容。官方举例：apply Secondary 3 → be familiar with Secondary 2 content. 本周针对 Sec 2 申请者，内容为 Sec 2 前一级（Sec 1）的官方 MOE 2020 G3 Mathematics Syllabuses, Secondary One, NUMBER AND ALGEBRA, N1. Numbers and their operations: 1.2 squares, cubes, square roots and cube roots by prime factorisation（只教平方、立方、平方根和立方根部分，不教 HCF 和 LCM，那是上周第 9 周）。本周作业是样本，不是完整 34 + 20 + 10–15 题。本周化石：swapping square and cube（把平方和立方的指数规则搞反，平方时把质数次幂×3，立方时把质数次幂×2），taking square root of a non-perfect-square（开平方时遇到奇数次幂仍然除以 2），taking cube root of a non-perfect-cube（开立方根时遇到不是 3 的倍数的次幂仍然除以 3），mixing √ and ³√（把平方根和立方根混淆）。本周内容：Square（平方）：先质数分解一个数，写成质数乘积形式（如 6 = 2 × 3），求它的平方时把每个质因数的次幂×2（6² = 2² × 3² = 36）。Cube（立方）：把每个质因数的次幂×3（4 = 2²，4³ = 2⁶ = 64）。Square root（平方根）：只有每个质因数的次幂都是偶数时才是 perfect square，每个次幂÷2（√36 = √(2² × 3²) = 2¹ × 3¹ = 6）。如果有奇数次幂，不是 perfect square。Cube root（立方根）：只有每个质因数的次幂都是 3 的倍数时才是 perfect cube，每个次幂÷3（³√64 = ³√(2⁶) = 2² = 4）。如果有次幂不是 3 的倍数，不是 perfect cube。方法步骤：(1) 质数分解一个数（prime factorisation），写成质数乘积，例如 6 = 2 × 3 或 2¹ × 3¹；(2) 求平方：每个质因数的次幂×2；(3) 求立方：每个质因数的次幂×3；(4) 求平方根：只有每个质因数的次幂都是偶数才是 perfect square，每个次幂÷2；(5) 求立方根：只有每个质因数的次幂都是 3 的倍数才是 perfect cube，每个次幂÷3。应用：正方形地砖拼成大正方形，求边长用平方根（tiles in a square）；小立方体堆成大立方体，求边长用立方根（cube of unit cubes）。不用计算器，写出分解和乘法步骤。数字保持友好（numbers stay friendly，平方和立方保持在 1000 以下）。题目选项必须唯一（unique keys only）：不能有两个选项是相同数值或相同含义（例如不能同时提供 36 和 6²；不能同时提供 8 和 2³；如果 √144 = 12 就不能再提供 144÷12）。一个 non-square / non-cube 必须有一个清晰的正确选项（例如 \"not a perfect square\"）。不要在同一题让平方和立方的正确答案都出现（do not put both the square and the cube of the same base as correct answers on one item）。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "Find 6² by prime factorisation.|A. 12|B. 18|C. 30|D. 36",
+            "Find √36 by prime factorisation.|A. 6|B. 9|C. 12|D. 18",
+            "Is 12 a perfect square?|A. Yes|B. No|C. Cannot determine|D. Only if divided by 2",
+            "Find ³√8 by prime factorisation.|A. 2|B. 3|C. 4|D. 6",
+            "Find 4³ by prime factorisation.|A. 12|B. 16|C. 24|D. 64",
+          ]),
+          correctAnswer: "D,A,B,A,D",
+          points: 10,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "Find 5².|A. 10|B. 15|C. 20|D. 25",
+            "Find √49.|A. 7|B. 14|C. 24.5|D. 98",
+            "Which of the following is a perfect square?|A. 18|B. 32|C. 48|D. 64",
+            "Find 3³.|A. 6|B. 9|C. 18|D. 27",
+            "Is 50 a perfect square?|A. Yes|B. No|C. Cannot determine|D. Only with a calculator",
+            "Find ³√27.|A. 3|B. 6|C. 9|D. 13.5",
+            "Which of the following is a perfect cube?|A. 16|B. 25|C. 64|D. 100",
+            "Find √100.|A. 5|B. 10|C. 20|D. 50",
+          ]),
+          correctAnswer: "D,A,D,D,B,A,C,B",
+          points: 16,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `Part 2: Show Your Working (写出算式步骤)
+
+Riverside Secondary School has number theory problems. Answer the questions below. Show all your working clearly.
+
+Question (a)
+Find 8² by prime factorisation.
+
+Question (b)
+Find ³√125 by prime factorisation.
+
+Question (c)
+Wei is making a square floor pattern with square tiles. Each small tile measures 1 cm by 1 cm. He has 144 tiles in total. If he arranges all the tiles to form a large square, what is the length of one side of the large square? Show your working.
+
+写作提示 / Tips:
+✓ 每题分步骤写出推理 (Show working steps for each question)
+✓ Part 2 官方要求：clearly show the method of solution by writing working steps, plus the final answer
+✓ 不用计算器 (No calculators allowed: do number theory reasoning by hand)
+✓ 平方、立方、平方根、立方根步骤示范：
+  • 8² by prime factorisation (8² 通过质数分解)：
+    8 = 2 × 2 × 2 = 2³
+    8² = (2³)² = 2⁶ = 64 (每个次幂×2)
+  • ³√125 by prime factorisation (³√125 通过质数分解)：
+    125 = 5 × 5 × 5 = 5³
+    ³√125 = ³√(5³) = 5¹ = 5 (每个次幂÷3)
+  • √144 by prime factorisation (√144 通过质数分解)：
+    144 = 2 × 2 × 2 × 2 × 3 × 3 = 2⁴ × 3²
+    √144 = 2² × 3¹ = 4 × 3 = 12 (每个次幂÷2, 必须是偶数次幂)
+✓ 应用题：tiles in a square = 求边长用平方根（area of large square = 144 cm², side = √144 = 12 cm）
+✓ 记住：Square 时每个质因数次幂×2，Cube 时×3；Square root 时每个次幂÷2（必须是偶数），Cube root 时÷3（必须是 3 的倍数）
+✓ 不要混淆：平方时次幂×2（不是×3），立方时次幂×3（不是×2）；开平方根只有偶数次幂才是 perfect square，开立方根只有 3 的倍数次幂才是 perfect cube
+✓ 如果题目有钱币，用新加坡元 S$（本周题目无钱币情境）
+
+Note: This is a sample of Part 2 short-answer/open-ended questions. The official paper has 20 short-answer + 10–15 open-ended items in 1 hour 45 minutes.`,
+          points: 20,
+        },
+      ],
+    },
   ];
 
   // =================================================================

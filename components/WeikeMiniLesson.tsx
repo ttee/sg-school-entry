@@ -357,6 +357,17 @@ export default function WeikeMiniLesson({ level, weekNumber }: WeikeMiniLessonPr
       ],
       gloss: "AEIS 中学数学第 9 周 / SMATH Week 9. 本周例题：Sec 1 HCF 和 LCM 通过质数分解（Sec 1 NUMBER AND ALGEBRA: N1.2 HCF and LCM by prime factorisation）。HCF（highest common factor / 最大公约数）：先质数分解两个数，找共有的质因数，取最小次幂相乘。LCM（lowest common multiple / 最小公倍数）：所有质因数（共有的和独有的），取最大次幂相乘。应用：largest number of bags = HCF（最多袋数用 HCF），smallest total = LCM（最少总数用 LCM）。不用计算器，写出分解和乘法步骤。"
     },
+    "SMATH-10": {
+      examples: [
+        "Find 6² by prime factorisation.",
+        "6 = 2 × 3",
+        "6² = 2² × 3² = 4 × 9 = 36 (每个次幂×2)",
+        "Find √36 by prime factorisation.",
+        "36 = 2² × 3²",
+        "√36 = 2¹ × 3¹ = 2 × 3 = 6 (每个次幂÷2, 必须是偶数)"
+      ],
+      gloss: "AEIS 中学数学第 10 周 / SMATH Week 10. 本周例题：Sec 1 平方、立方、平方根和立方根通过质数分解（Sec 1 NUMBER AND ALGEBRA: N1.2 squares, cubes, square roots and cube roots by prime factorisation）。Square（平方）：每个质因数次幂×2（6 = 2 × 3 → 6² = 2² × 3² = 36）。Cube（立方）：每个质因数次幂×3（4 = 2² → 4³ = 2⁶ = 64）。Square root（平方根）：只有每个次幂都是偶数才是 perfect square，每个次幂÷2（√36 = √(2² × 3²) = 2¹ × 3¹ = 6）。Cube root（立方根）：只有每个次幂都是 3 的倍数才是 perfect cube，每个次幂÷3（³√64 = ³√(2⁶) = 2² = 4）。不用计算器，写出分解和乘法步骤。"
+    },
     "SEC-0": {
       fossil: "Although I was nervous, but I tried. ✗ (中文「虽然…但是…」迁移) / I go yesterday ✗ (叙事体过去时掉落)",
       examples: [

@@ -79,6 +79,7 @@ import DualValidationMapSmathWeek6 from "./DualValidationMapSmathWeek6";
 import DualValidationMapSmathWeek7 from "./DualValidationMapSmathWeek7";
 import DualValidationMapSmathWeek8 from "./DualValidationMapSmathWeek8";
 import DualValidationMapSmathWeek9 from "./DualValidationMapSmathWeek9";
+import DualValidationMapSmathWeek10 from "./DualValidationMapSmathWeek10";
 import OfficialClip from "./OfficialClip";
 import WeikeMiniLesson from "./WeikeMiniLesson";
 
@@ -696,6 +697,7 @@ export default function WeekHomework({
       {week.level === "SMATH" && week.weekNumber === 7 && <DualValidationMapSmathWeek7 />}
       {week.level === "SMATH" && week.weekNumber === 8 && <DualValidationMapSmathWeek8 />}
       {week.level === "SMATH" && week.weekNumber === 9 && <DualValidationMapSmathWeek9 />}
+      {week.level === "SMATH" && week.weekNumber === 10 && <DualValidationMapSmathWeek10 />}
       
       <div className="space-y-8">
         {questions.map((question, idx) => (
