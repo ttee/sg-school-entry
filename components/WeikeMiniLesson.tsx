@@ -167,6 +167,14 @@ export default function WeikeMiniLesson({ level, weekNumber }: WeikeMiniLessonPr
       ],
       gloss: "P4 学带分数与假分数（mixed numbers / improper fractions）及互换：带分数 = 整数 + 真分数（如 2 1/3），假分数 = 分子 ≥ 分母（如 7/3）。转换公式：带分数 a b/c → 假分数 (a×c+b)/c；假分数 n/d → 带分数（n ÷ d = 商 q 余数 r，写成 q r/d）。关键词：mixed number（带分数）、improper fraction（假分数）、whole number（整数部分）、numerator（分子）、denominator（分母）、remainder（余数）。常见错误：换成假分数时只乘不加整数（忘了 +b）、换成带分数时余数当分子忘了、分子分母对调。例：2 1/3 = (2×3+1)/3 = 7/3；11/4 = 11÷4 = 2 R 3 = 2 3/4。注意：本周不教一组的几分之几（fraction of a set, 下周）、异分母加减（adding/subtracting unlike fractions）、带分数加减（adding mixed numbers, P5）、分数乘法（multiplying fractions, P5）。分母不超过 12。"
     },
+    "MATH-18": {
+      examples: [
+        "2/3 of 18 = 18 ÷ 3 × 2 = 6 × 2 = 12. Divide by the denominator first, then multiply by the numerator.",
+        "1/4 of 12 = 12 ÷ 4 = 3. Find one quarter of 12.",
+        "5/8 of 24 stickers = 24 ÷ 8 × 5 = 3 × 5 = 15 stickers. Mei has 24 stickers. She gives 5/8 of them to Priya."
+      ],
+      gloss: "P4 学一组的几分之几（fraction of a set）：找 a/b of N，算法是先÷分母再×分子（N ÷ b × a）。关键词：fraction of a set（一组的几分之几）、of（的）、divide by denominator（除以分母）、multiply by numerator（乘以分子）。常见错误：先乘后除（先×分子再÷分母，错误）、把 of 当成减去（误以为 'of' 表示减法）、分母分子对调。例：2/3 of 18 = 18 ÷ 3 × 2 = 6 × 2 = 12；1/4 of 12 = 12 ÷ 4 = 3；5/8 of 24 = 24 ÷ 8 × 5 = 3 × 5 = 15。情境：学生分组、分享文具、食堂座位、图书馆书籍等。注意：本周不教带分数互换（mixed / improper, 已在第 17 周）、异分母加减（adding/subtracting unlike fractions）、分数乘法（multiplying fractions, P5）、小数百分数（decimals/percentages）、需要余数作为分数的除法（leftover with remainder as fraction）。分母不超过 12（denominators not exceeding 12），集合必须能整除（sets must divide evenly）。"
+    },
     "A2-7": {
       fossil: "I going to the library tomorrow / I go to swim / Tomorrow I go library",
       examples: [

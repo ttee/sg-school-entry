@@ -1916,6 +1916,52 @@ const lessonPlans: Record<string, LessonPlan> = {
       "Which form is 9/4? Convert it to the other form. (Say the calculation.)",
     ],
   },
+  "MATH-18": {
+    title: "一组的几分之几 — Fraction of a set",
+    mathExample: "2/3 of 18 = 18 ÷ 3 × 2 = 6 × 2 = 12. Divide by denominator first, then multiply by numerator. Also: 1/4 of 12 = 12 ÷ 4 = 3.",
+    sections: [
+      {
+        name: "热身",
+        duration: "3 分钟",
+        teacherNotes: "说 '1/4 of 12' 和 '2/3 of 18'。让孩子注意 'of' 这个词表示找一组里的几分之几。展示 12 个物品，问 '1/4 is how many?' 引导：把 12 分成 4 份，每份 3 个。",
+      },
+      {
+        name: "本周例题",
+        duration: "8 分钟",
+        teacherNotes: "在白板上写：'2/3 of 18'。问孩子：'How do we find 2/3 of 18?' 引导算法：先÷分母再×分子。18 ÷ 3 = 6（一份是 6），6 × 2 = 12（2 份是 12）。所以 2/3 of 18 = 12。强调：divide by denominator first, then multiply by numerator。然后写：'1/4 of 12 = 12 ÷ 4 = 3'。再写：'5/8 of 24'。引导：24 ÷ 8 = 3，3 × 5 = 15。关键词：fraction of a set（一组的几分之几）、of（的）、divide by denominator（除以分母）、multiply by numerator（乘以分子）。注意：本周不教带分数互换（已在第 17 周）、异分母加减、分数乘法（P5）、小数百分数、余数作为分数。分母不超过 12，集合必须整除。",
+      },
+      {
+        name: "孩子口头说算式",
+        duration: "10 分钟",
+        teacherNotes: "给 3 个口头题，孩子说出算式和答案。题目 1：'What is 1/3 of 15?' 期待输出：'1/3 of 15 = 15 ÷ 3 = 5. One third of fifteen equals five.' 题目 2：'Priya has 20 stickers. She gives 3/5 of them to Jun Wei. How many stickers does she give?' 期待输出：'3/5 of 20 = 20 ÷ 5 × 3 = 4 × 3 = 12. Priya gives 12 stickers.' 题目 3：'What is 2/3 of 18?' 期待输出：'2/3 of 18 = 18 ÷ 3 × 2 = 6 × 2 = 12. Two thirds of eighteen equals twelve.'",
+      },
+      {
+        name: "开口",
+        duration: "12 分钟",
+        teacherNotes: "让孩子读出算式并解释步骤。比如 '2/3 of 18 = 12'，孩子要说 'Two thirds of eighteen equals twelve. I divide 18 by 3 to get 6. Then I multiply 6 by 2 to get 12.' 或 '1/4 of 12 = 3'，孩子要说 'One quarter of twelve equals three. I divide 12 by 4 to get 3.' 注意读法：of（的）、divide by（除以）、multiply by（乘以）、thirds / quarters / fifths（分母读法）。",
+      },
+      {
+        name: "收口",
+        duration: "5 分钟",
+        teacherNotes: "提醒本周作业有 P4 数学题目，包括找一组的几分之几（fraction of a set）。对应申请 P5 的孩子需要掌握的 P4 内容（preceding level 规则）。题目使用新加坡学校情境（教室学生、文具、食堂座位、图书馆书籍等）。强调：算法是先÷分母再×分子（divide by denominator first, then multiply by numerator）。常见错误：先乘后除（multiplying before dividing）、把 of 当成减去（misinterpreting 'of' as subtraction）、分母分子对调（swapping numerator and denominator）。分母不超过 12，集合必须整除（no remainders）。",
+      },
+    ],
+    spokenLines: [
+      "2/3 of 18 = 18 ÷ 3 × 2 = 12",
+      "Two thirds of eighteen equals twelve.",
+      "1/4 of 12 = 12 ÷ 4 = 3",
+      "One quarter of twelve equals three.",
+      "5/8 of 24 = 24 ÷ 8 × 5 = 15",
+      "Five eighths of twenty-four equals fifteen.",
+      "3/5 of 20 = 20 ÷ 5 × 3 = 12",
+      "Three fifths of twenty equals twelve.",
+    ],
+    childPrompts: [
+      "What is 1/3 of 15? (Say the calculation.)",
+      "Priya has 20 stickers. She gives 3/5 of them to Jun Wei. How many stickers does she give? (Say the calculation.)",
+      "What is 2/3 of 18? (Say the calculation.)",
+    ],
+  },
 };
 
 export default async function LessonPlanPage({
