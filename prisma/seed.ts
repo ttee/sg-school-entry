@@ -6069,7 +6069,7 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
           order: 2,
           content: "Choose the correct answer:",
           options: JSON.stringify([
-            "The ratio 3:5 is equivalent to:|A. 3:5|B. 6:10|C. 9:12|D. 12:15",
+            "The ratio 3:5 is equivalent to:|A. 5:3|B. 6:10|C. 9:12|D. 12:15",
             "Write 15:25 in its simplest form.|A. 15:25|B. 5:10|C. 3:5|D. 30:50",
             "Divide S$80 in the ratio 3:5. What is the larger share?|A. S$30|B. S$40|C. S$50|D. S$60",
             "Find the missing term: 4:7 = 12:□|A. 15|B. 18|C. 21|D. 28",
