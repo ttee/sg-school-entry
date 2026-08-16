@@ -1368,6 +1368,50 @@ const lessonPlans: Record<string, LessonPlan> = {
       "Look at this pictogram. Each picture stands for 10. There are 7 pictures. How many? (Say the calculation.)",
     ],
   },
+  "MATH-6": {
+    title: "万以内整数与钱币 — Numbers to 10 000 and money",
+    mathExample: "Ali had $50.00. He bought a book for $18.60. $50.00 − $18.60 = $31.40. He has $31.40 left. Also: 4256 + 2318 → line up ones, tens, hundreds, thousands → 6574.",
+    sections: [
+      {
+        name: "热身",
+        duration: "3 分钟",
+        teacherNotes: "展示数字 7395，说 'Seven thousand three hundred and ninety-five.' 让孩子注意千位 thousands。",
+      },
+      {
+        name: "本周例题",
+        duration: "8 分钟",
+        teacherNotes: "在白板上写：'$50.00 − $18.60 = $31.40'。强调对齐小数点。再写：'4256 + 2318 = 6574'。强调对齐位值（千、百、十、个）。关键词：place value（位值），decimal notation（小数记法）。",
+      },
+      {
+        name: "孩子口头说算式",
+        duration: "10 分钟",
+        teacherNotes: "给 3 个口头题，孩子说出算式和答案。题目 1：'What is 3000 + 2000 + 400 + 50 + 6?' 期待输出：'5456.' 题目 2：'Priya bought a toy for $12.50 and a book for $8.30. How much did she spend?' 期待输出：'$12.50 + $8.30 = $20.80.' 题目 3：'Which is greater: 4567 or 4576?' 期待输出：'4576 is greater.'",
+      },
+      {
+        name: "开口",
+        duration: "12 分钟",
+        teacherNotes: "让孩子读出算式并解释。比如 '$50.00 − $18.60 = $31.40'，孩子要说 'Fifty dollars minus eighteen dollars sixty cents equals thirty-one dollars forty cents.'",
+      },
+      {
+        name: "收口",
+        duration: "5 分钟",
+        teacherNotes: "提醒本周作业有 P3 数学题目，对应申请 P4 的孩子需要掌握的内容（preceding level 规则）。",
+      },
+    ],
+    spokenLines: [
+      "$50.00 − $18.60 = $31.40",
+      "Fifty dollars minus eighteen dollars sixty cents equals thirty-one dollars forty cents.",
+      "4256 + 2318 = 6574",
+      "Four thousand two hundred and fifty-six plus two thousand three hundred and eighteen equals six thousand five hundred and seventy-four.",
+      "The value of 7 in 7395 is 7000.",
+      "Seven thousand.",
+    ],
+    childPrompts: [
+      "What is 5000 + 3000? (Say the calculation.)",
+      "Mei spent $15.60 and $8.50. How much in total? (Say the calculation.)",
+      "Compare 4567 and 4576. Which is greater? (Say the answer.)",
+    ],
+  },
 };
 
 export default async function LessonPlanPage({

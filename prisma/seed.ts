@@ -420,6 +420,62 @@ Art 📖📖📖📖📖
         },
       ],
     },
+    {
+      level: "MATH",
+      weekNumber: 6,
+      title: "数学 第 6 周 / Maths Week 6",
+      description: "AEIS-Primary P3 Mathematics: Whole numbers to 10 000 and money",
+      isSample: false,
+      errorFocus: null,
+      parentBrief: "本周主题：万以内整数与钱币（对应 MOE 小学 P3 数学大纲）。P2 学过千以内（到 1000），本周学 P3 的新知识点：万以内（到 10 000）的位值（千位、百位、十位、个位）、读写数字和单词、比较大小、四位数加减法、以及钱币的小数记法（加减法和两步应用题）。申请 P4 入学的孩子需掌握 P3 内容（MOE AEIS preceding level 规则）。常见错误：5000 + 3000 = 5300（忘了是 8000）、$15.60 + $8.50 = $23.10 或 $24.10（小数进位错）。题目是简体中文家长说明 + 英文题干。本周配有双向对照表，显示题目对应的官方 2021 Primary Mathematics Syllabus P3 内容点（Whole numbers to 10 000: place value, reading/writing, compare/order, patterns; Addition and subtraction up to 4 digits; Money: addition/subtraction in decimal notation, 2-step word problems），以及 MOE AEIS 的「preceding level」规则（申请 P4 → 掌握 P3 内容）。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: `Read each question and choose the correct answer.`,
+          options: JSON.stringify([
+            "At Tampines Mall, a toy shop had 4256 small toys and 2318 big toys. How many toys in total?|A. 6474|B. 6574|C. 7574|D. 6464",
+            "Jun Wei saved $12.40 in January and $15.80 in February. How much did he save altogether?|A. $27.20|B. $28.20|C. $27.60|D. $28.60",
+            "Bedok Library had 7845 books. They bought 1237 more books. How many books now?|A. 8082|B. 9082|C. 9072|D. 8072",
+            "Priya had $50.00. She bought a book for $18.60. How much money does she have left?|A. $31.40|B. $32.40|C. $31.60|D. $32.60",
+            "A hawker centre in Tampines served 5234 customers on Saturday and 3896 customers on Sunday. How many more customers on Saturday?|A. 1238|B. 1338|C. 1348|D. 1438",
+          ]),
+          correctAnswer: "B,B,B,A,B",
+          points: 5,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: `Choose the correct answer for each question.`,
+          options: JSON.stringify([
+            "What is the value of the digit 7 in 7395?|A. 7|B. 70|C. 700|D. 7000",
+            "Which number is greater: 4567 or 4576?|A. 4567|B. 4576|C. Both the same|D. Cannot compare",
+            "Mei bought 3 books at $9.50 each. How much did she spend?|A. $27.50|B. $28.00|C. $28.50|D. $29.00",
+            "At East Coast Park, Ali counted 2340 visitors in the morning and 1895 in the afternoon. How many visitors in total?|A. 4135|B. 4235|C. 4225|D. 4145",
+            "Raju had 8200 stickers. He gave away 3456 stickers. How many stickers does he have left?|A. 4644|B. 4744|C. 4844|D. 4944",
+            "At a hawker centre, chicken rice costs $4.80 and drink costs $1.50. How much for both?|A. $5.30|B. $6.00|C. $6.30|D. $6.80",
+            "What is 3000 + 2000 + 400 + 50 + 6?|A. 5456|B. 5546|C. 5465|D. 6456",
+            "At Bedok MRT station, 6789 people took the train on Monday. On Tuesday, 5432 people took the train. How many fewer on Tuesday?|A. 1257|B. 1357|C. 1457|D. 1367",
+          ]),
+          correctAnswer: "D,B,C,B,B,C,A,B",
+          points: 5,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `At Tampines Sports Hall, tickets for a basketball game cost $12.50 for adults and $7.80 for children.
+
+(a) Mr Tan bought 2 adult tickets and 3 children tickets. How much did he pay in total? Show your working.
+
+(b) Mrs Lee gave the cashier $100.00 for 4 adult tickets. How much change did she receive? Show your working.
+
+写出算式和答案。`,
+          points: 10,
+        },
+      ],
+    },
     
     // A2 WEEKS
     {
