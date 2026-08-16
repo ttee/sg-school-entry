@@ -6425,6 +6425,98 @@ Note: This is a Sec 1 writing sample (2 topics, 200–300 words), not Sec 2 or S
         },
       ],
     },
+    // SEC WEEK 6
+    {
+      level: "SEC",
+      weekNumber: 6,
+      title: "英语 第 6 周 / English Week 6",
+      description: "AEIS-Secondary English (Sec 1 paper shape): science lab sample",
+      isSample: false,
+      errorFocus: "because (reason) vs so (result) — unique keys",
+      parentBrief: "中学 AEIS 英语第 6 周。对应官方 SEAB Sec 1 卷型（https://www.seab.gov.sg/aeis/test-details/ 2026年7月1日更新）：Part 1 Writing 提供 2 个作文题目，选写 1 篇，200–300 词；Part 2 Comprehension & Language Use 共 50 道 MCQ（理解 15 + 完形 15 + 词汇 10 + 语法 10）。本周作业是样本，不是完整 50 题，不是 2 小时 10 分钟正式试卷。AEIS-Secondary 官方 preceding-level 规则：申请者需熟悉所申请级别前一级（preceding level）的内容。官方举例：apply Sec 3 → 熟悉 Sec 2。本周针对 Sec 1 申请者，对应 Sec 1 前一级内容水平。本周纠错化石：because（表示原因）vs so（表示结果）。如果空格需要填原因从句连接词，正确答案是 because，so 不出现或明显错误。如果空格需要填结果连接词，正确答案是 so，because 不出现或明显错误。不能让 because 和 so 都对同一个空。禁止错误：because of + 句子（because of 后只能接名词短语，不能接句子）、so that 当 because 用（so that 表示目的，不表示原因）。情境：Wei 第一次上科学实验课（戴护目镜 / 不要碰本生灯 / 等 Ms Chen 老师 / 洗手）。听者需要的指令。本周不是 CEQ。",
+      videoUrl: null,
+      kaizenFocus: "classroom English a listener needs in science lab (goggles, Bunsen burner, wait for teacher, wash hands)",
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: `Read this passage about Wei's first science lab lesson:
+
+First Science Lab Lesson at Riverside Secondary
+
+On Wednesday morning, Wei had his first science lab lesson. The timetable showed "Science (Lab)" from 10:00 a.m. to 11:00 a.m. Wei was excited because he had never done a real lab experiment before.
+
+Ms Chen, the science teacher, stood at the front of the lab. "Good morning, everyone. Today we're going to do our first experiment. Because lab safety is very important, you must follow all the rules carefully. First, everyone must wear safety goggles. The chemicals we use can be dangerous, so you need to protect your eyes."
+
+Wei put on his safety goggles. Aisha, who was his lab partner, said, "These goggles feel uncomfortable, but we have to wear them because the rules say so."
+
+Ms Chen continued, "You'll see a Bunsen burner on each lab bench. Do not touch or light it yet. Because I need to check everything first, please wait for my instructions. If you touch the burner before I say it's safe, you could get hurt."
+
+After Ms Chen checked all the equipment, she said, "Now you can light your Bunsen burners. But be very careful—the flame is hot, so keep your hands away from it. If you're not sure what to do, raise your hand and wait for help."
+
+Wei and Aisha followed the instructions carefully. At the end of the lesson, Ms Chen reminded them, "Before you leave the lab, you must wash your hands thoroughly. We used chemicals today, so washing is important for your health. Well done, everyone!"`,
+          options: JSON.stringify([
+            "Why must students wear safety goggles in the lab?|A. They look professional|B. The chemicals can be dangerous|C. Ms Chen likes them|D. It's more comfortable",
+            "Why shouldn't students touch the Bunsen burner at first?|A. It's too cold|B. It's not their equipment|C. Ms Chen needs to check everything first|D. The lab is closing",
+            "Why should students keep their hands away from the flame?|A. The flame is hot|B. The flame is cold|C. They might break it|D. Ms Chen said no touching",
+            "Why must students wash their hands after the lab?|A. It's time for lunch|B. They used chemicals|C. The sink is new|D. Ms Chen is watching",
+            "What should students do if they're not sure what to do?|A. Touch the burner|B. Leave the lab|C. Ask their partner|D. Raise their hand and wait for help",
+          ]),
+          correctAnswer: "B,C,A,B,D",
+          points: 10,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: "Choose the correct word to complete each sentence:",
+          options: JSON.stringify([
+            "You must wear goggles ____ the chemicals can be dangerous. (reason)|A. because|B. so|C. because of|D. so that",
+            "The chemicals are dangerous, ____ you need to wear goggles. (result)|A. because|B. so|C. because of|D. so that",
+            "____ lab safety is very important, you must follow all the rules. (reason)|A. Because|B. So|C. Because of|D. So that",
+            "Lab safety is very important, ____ you must follow all the rules. (result)|A. because|B. so|C. because of|D. so that",
+            "You cannot touch the burner ____ Ms Chen needs to check it first. (reason)|A. because|B. so|C. because of|D. so that",
+            "The flame is very hot, ____ keep your hands away from it. (result)|A. because|B. so|C. because of|D. so that",
+            "____ we used chemicals, you must wash your hands. (reason)|A. Because|B. So|C. Because of|D. So that",
+            "We used chemicals today, ____ washing your hands is important. (result)|A. because|B. so|C. because of|D. so that",
+          ]),
+          correctAnswer: "A,B,A,B,A,B,A,B",
+          points: 16,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `Part 1: Writing (Sec 1 format)
+
+Choose ONE topic and write 200–300 words.
+
+Topic 1: My First Science Lab Lesson
+Write about your first science lab lesson at secondary school (or imagine it if you haven't had one yet). Describe:
+• What safety equipment did you need to use, and why?
+• What experiment did you do?
+• What instructions did the teacher give?
+• How did you feel about the lesson?
+
+Topic 2: Why Safety Rules Matter
+Write about why safety rules are important at school. Describe:
+• One safety rule you must follow (e.g., wear goggles in lab, do warm-up in PE)
+• Why is this rule important? (Give a reason with because)
+• What could happen if students don't follow the rule? (Give a result with so)
+• How do you make sure you follow safety rules?
+
+写作提示 / Writing Tips:
+✓ 写出提纲（3-4 个要点）再写正文 (Plan first: 3-4 bullet points, then write)
+✓ 叙事用过去时态 (Narrative → past tense: Ms Chen said we must wear goggles. We followed the instructions.)
+✓ 注意 because（原因）vs so（结果）(because = reason, so = result)
+✓ 不要写 because of + 句子，because of 后面只能接名词 (Don't write: because of the chemicals are dangerous ✗ → Write: because the chemicals are dangerous ✓ or because of the dangerous chemicals ✓)
+✓ 分段：开头 + 2-3 段正文 + 结尾 (Paragraphs: intro + 2-3 body + conclusion)
+✓ 字数 200–300 词 (Word count: 200–300 words)
+
+注：这是 Sec 1 写作样本，不是 Sec 2（4 题 250–350 词）或 Sec 3（4 题 300–400 词）格式。这是本周题目，不是官方题目。
+Note: This is a Sec 1 writing sample (2 topics, 200–300 words), not Sec 2 or Sec 3 format. These are this week's topics, not official examination topics.`,
+          points: 20,
+        },
+      ],
+    },
     // SMATH WEEK (AEIS-Secondary Mathematics)
     {
       level: "SMATH",
