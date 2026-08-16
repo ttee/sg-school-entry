@@ -54,7 +54,7 @@ export default function DualValidationMapSecWeek0() {
                 <strong>Part 1 Writing (Sec 1)</strong><br />2 个题目，选写 1 篇，200–300 词（官方）
               </td>
               <td className="px-3 py-3 text-ink-2 align-top">
-                练 Sec 1 写作格式。官方题目：First Day at Secondary School 或 A Classmate Who Helped Me。Sec 2 是 4 题 250–350 词，Sec 3 是 4 题 300–400 词（本周不练那两个级别）。
+                练 Sec 1 写作格式。本周题目：First Day at Secondary School 或 A Classmate Who Helped Me。Sec 2 是 4 题 250–350 词，Sec 3 是 4 题 300–400 词（本周不练那两个级别）。
               </td>
             </tr>
           </tbody>

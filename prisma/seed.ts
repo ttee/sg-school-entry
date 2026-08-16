@@ -5910,7 +5910,7 @@ By Friday afternoon, Wei felt more confident. Although the lessons were harder t
           options: JSON.stringify([
             "Why was Wei nervous?|A. He failed his PSLE|B. He worried about making friends and keeping up with harder subjects|C. His form teacher was strict|D. He didn't know where the canteen was",
             "What will happen if a student is late three times?|A. They will fail the term|B. Their parents will be called|C. They need to see Mr Lim after school|D. They will be sent home",
-            "Who helped Wei find the canteen?|A. Mr Lim|B. Ms Raj|C. Aisha asked Wei for help|D. Ravi",
+            "Who asked Wei where the canteen was?|A. Mr Lim|B. Ms Raj|C. Aisha|D. Ravi",
             "What advice did Wei remember during English class?|A. Always underline everything|B. Read the questions first, then scan the text|C. Spend 10 minutes on each question|D. Ask the teacher for help",
             "How many friends had Wei made by Friday?|A. One|B. Two|C. Three|D. Four",
           ]),
