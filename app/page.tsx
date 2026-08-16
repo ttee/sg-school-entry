@@ -315,20 +315,20 @@ export default function HomePage() {
                 </div>
                 <p className="text-xs font-semibold uppercase tracking-wide text-accent mb-3">适合 P2–P4 CEQ 门槛</p>
                 <p className="text-ink-2 mb-4 text-sm">
-                  该级别作业 app 12 周路径（试学周 + 第 1–11 周）+ 2 次模拟（写作/口语在 app 里）。12 周是三个月的作业路径，不是 12 个月。不是直播课。
+                  该级别作业 app 12 周路径（试学周 + 第 1–11 周）。12 周是三个月的作业路径，不是 12 个月。不是直播课。
                 </p>
                 <ul className="space-y-0 border-t border-line mb-5">
                   <li className="border-b border-line py-3 pl-5 relative before:absolute before:left-0 before:top-5 before:w-2 before:h-2 before:rounded-full before:bg-accent text-sm text-ink-2">
-                    针对 Cambridge A2 Key for Schools 四项技能：阅读、写作、听力、口语
+                    针对 Cambridge A2 Key for Schools：阅读、写作、听读、口语提示
                   </li>
                   <li className="border-b border-line py-3 pl-5 relative before:absolute before:left-0 before:top-5 before:w-2 before:h-2 before:rounded-full before:bg-accent text-sm text-ink-2">
                     作业 app A2 试学周 + 第 1–11 周（共 12 周）
                   </li>
                   <li className="border-b border-line py-3 pl-5 relative before:absolute before:left-0 before:top-5 before:w-2 before:h-2 before:rounded-full before:bg-accent text-sm text-ink-2">
-                    2 次模拟考（写作、口语在 app），家长微信进度通报
+                    家长微信进度通报
                   </li>
                   <li className="py-3 pl-5 relative before:absolute before:left-0 before:top-5 before:w-2 before:h-2 before:rounded-full before:bg-accent text-sm text-ink-2">
-                    帮孩子在提交 AEIS / S-AEIS 申请前 12 个月内考出 CEQ
+                    对准申请前 12 个月内要交的 CEQ 成绩单格式来练
                   </li>
                 </ul>
                 <Link
@@ -346,20 +346,20 @@ export default function HomePage() {
                 </div>
                 <p className="text-xs font-semibold uppercase tracking-wide text-accent mb-3">适合 P5 CEQ 门槛</p>
                 <p className="text-ink-2 mb-4 text-sm">
-                  该级别作业 app 12 周路径（试学周 + 第 1–11 周）+ 2 次模拟（写作/口语在 app 里）。12 周是三个月的作业路径，不是 12 个月。不是直播课。
+                  该级别作业 app 12 周路径（试学周 + 第 1–11 周）。12 周是三个月的作业路径，不是 12 个月。不是直播课。
                 </p>
                 <ul className="space-y-0 border-t border-line mb-5">
                   <li className="border-b border-line py-3 pl-5 relative before:absolute before:left-0 before:top-5 before:w-2 before:h-2 before:rounded-full before:bg-accent text-sm text-ink-2">
-                    针对 Cambridge B1 Preliminary for Schools 四项技能：阅读、写作、听力、口语
+                    针对 Cambridge B1 Preliminary for Schools：阅读、写作、听读、口语提示
                   </li>
                   <li className="border-b border-line py-3 pl-5 relative before:absolute before:left-0 before:top-5 before:w-2 before:h-2 before:rounded-full before:bg-accent text-sm text-ink-2">
                     作业 app B1 试学周 + 第 1–11 周（共 12 周）
                   </li>
                   <li className="border-b border-line py-3 pl-5 relative before:absolute before:left-0 before:top-5 before:w-2 before:h-2 before:rounded-full before:bg-accent text-sm text-ink-2">
-                    2 次模拟考（写作、口语在 app），家长微信进度通报
+                    家长微信进度通报
                   </li>
                   <li className="py-3 pl-5 relative before:absolute before:left-0 before:top-5 before:w-2 before:h-2 before:rounded-full before:bg-accent text-sm text-ink-2">
-                    帮孩子在提交 AEIS / S-AEIS 申请前 12 个月内考出 CEQ
+                    对准申请前 12 个月内要交的 CEQ 成绩单格式来练
                   </li>
                 </ul>
                 <Link
