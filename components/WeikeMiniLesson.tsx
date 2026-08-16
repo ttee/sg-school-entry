@@ -159,6 +159,14 @@ export default function WeikeMiniLesson({ level, weekNumber }: WeikeMiniLessonPr
       ],
       gloss: "P4 学四则运算里的乘除算法（multiplication / division algorithm）：3.1 乘法算法 up to 4 digits by 1 digit（2413 × 6 = 14478, 竖式进位）、up to 3 digits by 2 digits（316 × 28 = 8848, 两个部分积对齐位值 316×20=6320, 316×8=2528）；3.2 除法算法 up to 4 digits by 1 digit（2413 ÷ 6 = 402 R1, 竖式 long division, 余数必须 < 除数）。关键词：multiplication algorithm（乘法算法）、division algorithm（除法算法）、carry（进位）、partial product（部分积）、quotient（商）、remainder（余数）。常见错误：进位漏写、个位对齐错、余数 ≥ 除数、3位数×2位数把部分积错位。注意：本周不教运算顺序 order of operations / 括号 brackets / 小数百分数 decimals & percentages / 两位数除法 long division by 2-digit（那是 P5）/ 计算器。4位数÷1位数有余数OK（如果题目要求 quotient and remainder）。"
     },
+    "MATH-17": {
+      examples: [
+        "2 1/3 = 7/3 because 2 × 3 + 1 = 7. The numerator is 7, denominator is 3.",
+        "11/4 = 2 3/4 because 11 ÷ 4 = 2 remainder 3. The whole number is 2, the remainder 3 becomes the numerator.",
+        "Mixed number: whole number + proper fraction (like 2 1/3). Improper fraction: numerator ≥ denominator (like 7/3 or 5/2)."
+      ],
+      gloss: "P4 学带分数与假分数（mixed numbers / improper fractions）及互换：带分数 = 整数 + 真分数（如 2 1/3），假分数 = 分子 ≥ 分母（如 7/3）。转换公式：带分数 a b/c → 假分数 (a×c+b)/c；假分数 n/d → 带分数（n ÷ d = 商 q 余数 r，写成 q r/d）。关键词：mixed number（带分数）、improper fraction（假分数）、whole number（整数部分）、numerator（分子）、denominator（分母）、remainder（余数）。常见错误：换成假分数时只乘不加整数（忘了 +b）、换成带分数时余数当分子忘了、分子分母对调。例：2 1/3 = (2×3+1)/3 = 7/3；11/4 = 11÷4 = 2 R 3 = 2 3/4。注意：本周不教一组的几分之几（fraction of a set, 下周）、异分母加减（adding/subtracting unlike fractions）、带分数加减（adding mixed numbers, P5）、分数乘法（multiplying fractions, P5）。分母不超过 12。"
+    },
     "A2-7": {
       fossil: "I going to the library tomorrow / I go to swim / Tomorrow I go library",
       examples: [

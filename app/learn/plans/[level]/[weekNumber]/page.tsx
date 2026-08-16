@@ -1870,6 +1870,52 @@ const lessonPlans: Record<string, LessonPlan> = {
       "What is 425 × 36? (Say the calculation.)",
     ],
   },
+  "MATH-17": {
+    title: "带分数与假分数 — Mixed numbers and improper fractions",
+    mathExample: "2 1/3 = 7/3 because 2 × 3 + 1 = 7. Also: 11/4 = 2 3/4 because 11 ÷ 4 = 2 remainder 3.",
+    sections: [
+      {
+        name: "热身",
+        duration: "3 分钟",
+        teacherNotes: "展示两个分数：2 1/3 和 7/3。说 '2 1/3 is a mixed number. It has a whole number and a fraction.' '7/3 is an improper fraction. The numerator is bigger than the denominator.' 让孩子注意两种形式的区别。",
+      },
+      {
+        name: "本周例题",
+        duration: "8 分钟",
+        teacherNotes: "在白板上写：'2 1/3'。问孩子：'Can we write this as an improper fraction?' 引导计算：2 × 3 + 1 = 7，所以 2 1/3 = 7/3。强调公式：a b/c = (a×c+b)/c。然后写：'11/4'。问：'Can we write this as a mixed number?' 引导除法：11 ÷ 4 = 2 余数 3，所以 11/4 = 2 3/4。强调：商是整数部分，余数是新分子，分母不变。关键词：mixed number（带分数）、improper fraction（假分数）、whole number（整数）、numerator（分子）、denominator（分母）、remainder（余数）。注意：本周不教一组的几分之几（fraction of a set）、异分母加减、带分数加减（P5）、分数乘法（P5）。分母不超过 12。",
+      },
+      {
+        name: "孩子口头说算式",
+        duration: "10 分钟",
+        teacherNotes: "给 3 个口头题，孩子说出算式和答案。题目 1：'Convert 1 2/5 to an improper fraction.' 期待输出：'1 × 5 + 2 = 7. So 1 2/5 = 7/5. One and two fifths equals seven fifths.' 题目 2：'Convert 13/6 to a mixed number.' 期待输出：'13 ÷ 6 = 2 remainder 1. So 13/6 = 2 1/6. Thirteen sixths equals two and one sixth.' 题目 3：'Which form is 9/4? Convert it to the other form.' 期待输出：'9/4 is an improper fraction because 9 is greater than 4. 9 ÷ 4 = 2 remainder 1. So 9/4 = 2 1/4.'",
+      },
+      {
+        name: "开口",
+        duration: "12 分钟",
+        teacherNotes: "让孩子读出分数转换并解释步骤。比如 '2 1/3 = 7/3'，孩子要说 'Two and one third equals seven thirds. I multiply 2 times 3 plus 1 to get 7.' 或 '11/4 = 2 3/4'，孩子要说 'Eleven quarters equals two and three quarters. I divide 11 by 4 to get 2 remainder 3.' 注意读法：mixed number（带分数）、improper fraction（假分数）、thirds / quarters / fifths / sixths（分母读法）。",
+      },
+      {
+        name: "收口",
+        duration: "5 分钟",
+        teacherNotes: "提醒本周作业有 P4 数学题目，包括带分数与假分数的识别和转换（mixed numbers and improper fractions: identify and convert both ways）。对应申请 P5 的孩子需要掌握的 P4 内容（preceding level 规则）。题目使用新加坡学校情境（食堂、美术课、图书馆等）。强调：本周只教识别和转换，不教一组的几分之几（fraction of a set, 下周）、异分母加减（adding/subtracting unlike fractions）、带分数加减（adding mixed numbers, P5）、分数乘法（multiplying fractions, P5）。分母不超过 12。常见错误：换成假分数时只乘不加整数部分（forgetting to add the whole number: should be a×c+b, not just a×c）、换成带分数时余数当分子忘了（forgetting remainder becomes numerator）、分子分母对调（swapping numerator and denominator）。",
+      },
+    ],
+    spokenLines: [
+      "2 1/3 = 7/3",
+      "Two and one third equals seven thirds.",
+      "11/4 = 2 3/4",
+      "Eleven quarters equals two and three quarters.",
+      "2 × 3 + 1 = 7",
+      "11 ÷ 4 = 2 remainder 3",
+      "1 2/5 = 7/5",
+      "One and two fifths equals seven fifths.",
+    ],
+    childPrompts: [
+      "Convert 1 2/5 to an improper fraction. (Say the calculation.)",
+      "Convert 13/6 to a mixed number. (Say the calculation.)",
+      "Which form is 9/4? Convert it to the other form. (Say the calculation.)",
+    ],
+  },
 };
 
 export default async function LessonPlanPage({
