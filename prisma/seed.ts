@@ -6705,6 +6705,88 @@ Note: This is a Sec 1 writing sample (2 topics, 200–300 words), not Sec 2 or S
         },
       ],
     },
+    {
+      level: "SEC",
+      weekNumber: 9,
+      title: "英语 第 9 周 / English Week 9",
+      description: "AEIS-Secondary English (Sec 1 paper shape): sick bay sample",
+      isSample: false,
+      errorFocus: "although (concession) vs but (contrast) — unique keys",
+      parentBrief: "本周是中学 AEIS 英语第 9 周，对应官方 SEAB Sec 1 卷型（https://www.seab.gov.sg/aeis/test-details/ 2026年7月1日更新）。Part 1 Writing：2 个题目选写 1 篇，200–300 词。Part 2 Comprehension & Language Use：50 道 MCQ（Comprehension 15 + Comprehension cloze 15 + Vocabulary 10 + Grammar 10），共 2 小时 10 分钟。AEIS-Secondary 官方 preceding-level 规则：申请 Sec 1 入学者需熟悉 Sec 1 前一级的内容。官方举例：apply Secondary 3 → be familiar with Secondary 2. 本周针对 Sec 1 申请者，内容为 Sec 1 前一级水平。本周作业是样本，不是完整 50 题。本周化石：although（concession 让步从句）vs but（contrast 对比转折）。如果空格在句首或需要引导让步从句，正确答案是 although（但 but 不出现或明显错误）。如果空格在逗号后连接对比句子，正确答案是 but（although 不出现或明显错误）。每个空只有一个正确选项。禁止：although … but … 同时出现（中文「虽然…但是…」在英语里只用一个）。例：Although the nurse was busy, she helped Wei. ✓ 或 The nurse was busy, but she helped Wei. ✓。本周情境：Wei 上课时身体不适，Mr Lim 送他去 sick bay，Nurse Ong 指导：sit down, take your temperature, drink water, call home if needed（instructions a listener needs）。Cast: Wei, Aisha, Mr Lim at Riverside Secondary, Nurse Ong（可添加校医）。本周不是 CEQ。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: `Read the passage and answer the questions:
+
+Sick Bay Visit at Riverside Secondary
+
+Wei did not feel well during Mr Lim's lesson. His head hurt and he felt dizzy. He raised his hand and told Mr Lim, "Sir, I don't feel well."
+
+Although Mr Lim was in the middle of explaining a grammar point, he stopped immediately. "Let me take you to the sick bay," he said. Wei stood up slowly. Aisha looked worried but continued with her work.
+
+When they arrived at the sick bay, Nurse Ong greeted them. "What's wrong?" she asked Wei. Wei explained that his head hurt and he felt dizzy. Nurse Ong told him to sit down and rest. She took his temperature. It was slightly high but not serious.
+
+"Drink some water and rest for 15 minutes," Nurse Ong said. "If you still feel unwell after that, I will call your parents." Wei nodded. Although he felt unwell, he was glad the nurse was kind and helpful.
+
+Mr Lim returned to the classroom, but he asked Aisha to check on Wei during the next break. Wei drank water and closed his eyes. After 15 minutes, he felt better. The headache was still there, but it was not as bad. Nurse Ong let him return to class.
+
+Choose the correct answer:`,
+          options: JSON.stringify([
+            "What was Wei's problem?|A. He was late for class|B. He felt unwell|C. He forgot his homework|D. He lost his textbook",
+            "What did Mr Lim do when Wei told him?|A. He asked Wei to sit down|B. He gave Wei medicine|C. He took Wei to the sick bay|D. He called Wei's parents",
+            "What did Nurse Ong do first?|A. She called Wei's parents|B. She gave Wei water|C. She asked Wei what was wrong|D. She sent Wei back to class",
+            "How long did Wei rest in the sick bay?|A. 5 minutes|B. 10 minutes|C. 15 minutes|D. 20 minutes",
+            "Who did Mr Lim ask to check on Wei during the next break?|A. Mr Lim|B. Aisha|C. Nurse Ong|D. His parents",
+          ]),
+          correctAnswer: "B,C,C,C,B",
+          points: 10,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: "Choose the correct word to complete each sentence:",
+          options: JSON.stringify([
+            "_____ Wei felt unwell, he finished the lesson.|A. But|B. Although|C. Because|D. So",
+            "The nurse was busy, _____ she helped Wei immediately.|A. so|B. because|C. but|D. then",
+            "_____ the sick bay was quiet, Wei felt more relaxed.|A. But|B. So|C. Although|D. Because",
+            "Wei wanted to go back to class, _____ Nurse Ong told him to rest.|A. so|B. but|C. because|D. then",
+            "_____ Mr Lim was teaching, he stopped to help Wei.|A. But|B. Although|C. So|D. Because",
+            "The headache was still there, _____ it was not as bad.|A. because|B. so|C. but|D. then",
+            "_____ Wei drank water, he felt a bit better.|A. Although|B. But|C. So|D. Because",
+            "Aisha was worried, _____ she continued with her work.|A. so|B. but|C. because|D. then",
+          ]),
+          correctAnswer: "B,C,D,B,B,C,D,B",
+          points: 16,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `Part 1: Writing (Choose ONE topic)
+
+Write 200–300 words on ONE of the following topics:
+
+Topic 1: A Visit to the Sick Bay
+Write about a time when you or someone you know visited the school sick bay. What happened? How did the nurse help?
+
+Topic 2: Taking Care of Your Health at School
+Write about ways students can take care of their health at school. What should they do if they feel unwell?
+
+写作提示 / Tips:
+✓ 选一个题目写 200–300 词 (Choose ONE topic and write 200–300 words)
+✓ Part 1 官方要求：complete the task, organize ideas clearly, use appropriate vocabulary and grammar
+✓ 写作格式：引言（介绍话题）+ 主体（2-3 段展开）+ 结尾（总结或建议）
+✓ 用连接词：First, Then, However, Although, but, because, so
+✓ 避免化石：although … but … ✗（只用一个），Although he was sick, but he went to school. ✗ 应该 Although he was sick, he went to school. ✓ 或 He was sick, but he went to school. ✓
+✓ 本周练 although（让步从句）和 but（对比转折）。If you start a sentence with Although, don't use but later in the same sentence.
+
+Note: This is Part 1 Writing for Sec 1. Official paper: 2 topics, choose 1, write 200–300 words.`,
+          points: 20,
+        },
+      ],
+    },
     // SMATH WEEK (AEIS-Secondary Mathematics)
     {
       level: "SMATH",

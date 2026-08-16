@@ -427,6 +427,16 @@ export default function WeikeMiniLesson({ level, weekNumber }: WeikeMiniLessonPr
       ],
       gloss: "中学 AEIS 英语本周例题：present perfect（未完成/持续时间：for two weeks / since Monday / already）vs past simple（已完成时间：yesterday / last week / at 2 p.m.）。如果时间是已完成的（yesterday / last week / at 2 p.m.），用 past simple（forgot / logged in / told）。如果时间是未完成的/持续的（for two weeks / since Monday / already），用 present perfect（has been / has explained / have saved）。不能让两个时态都对同一个空。情境：Wei 第一次上计算机实验室课（log in / password / save work / headphones）。"
     },
+    "SEC-9": {
+      fossil: "Although I was nervous, but I tried. ✗ (中文「虽然…但是…」迁移) / Although + but in same sentence ✗",
+      examples: [
+        "Although Wei felt unwell, he finished the lesson. ✓ (although 引导让步从句，不加 but)",
+        "The nurse was busy, but she helped Wei immediately. ✓ (but 连接对比句子，前面没有 although)",
+        "Although the sick bay was quiet, Wei felt more relaxed. ✓ (although 在句首)",
+        "Wei wanted to go back, but Nurse Ong told him to rest. ✓ (but 在逗号后)",
+      ],
+      gloss: "中学 AEIS 英语本周例题：although（concession 让步）和 but（contrast 对比转折）不能同时用（中文「虽然…但是…」在英语里只用一个）。Although Wei felt unwell, he finished the lesson. ✓ 或 Wei felt unwell, but he finished the lesson. ✓。如果空格在句首或引导让步从句，用 although。如果空格在逗号后连接对比句子，用 but。每个空只有一个正确答案。情境：Wei 身体不适去 sick bay（Mr Lim sends him / Nurse Ong: sit down, take temperature, drink water）。"
+    },
     "A2-7": {
       fossil: "I going to the library tomorrow / I go to swim / Tomorrow I go library",
       examples: [

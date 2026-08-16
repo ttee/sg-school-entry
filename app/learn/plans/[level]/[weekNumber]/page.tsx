@@ -2843,6 +2843,43 @@ const lessonPlans: Record<string, LessonPlan> = {
       "Last week the class had their first ICT lesson. ✓ (已完成时间 last week，用 past simple)",
     ],
   },
+  "SEC-9": {
+    title: "Sick Bay — although vs but",
+    fossil: "although (concession) vs but (contrast) — unique keys",
+    sections: [
+      {
+        name: "课前",
+        duration: "2 分钟",
+        teacherNotes: "确认 Zoom 设置正常。孩子和家长都在镜头前。对家长说：「今天教中学 AEIS 英语第 9 周，不是 CEQ。本周只练一个区别：although（concession 让步从句）vs but（contrast 对比转折）。如果空格在句首或需要引导让步从句，正确答案是 although（but 不出现或明显错误）；如果空格在逗号后连接对比句子，正确答案是 but（although 不出现或明显错误）。每个空只有一个正确答案，不能让 although 和 but 都对同一个空。禁止：although … but … 同时出现在一个句子里（中文「虽然…但是…」在英语里只用一个）。本周情境是 Wei 上课时身体不适去 sick bay。」提醒家长可以在旁边观摩，但请让孩子自己开口。",
+      },
+      {
+        name: "热身",
+        duration: "5 分钟",
+        teacherNotes: "问孩子：'Have you ever felt unwell during a lesson?' 让孩子说 yes / no / sometimes。问：'What did you do when you felt unwell?'，引导孩子说 told the teacher / went to sick bay / rested / drank water。问：'What does a school nurse do?'，让孩子说话。如果孩子混淆 although 和 but（例如说 'Although I was sick, but I went to school'），不要立刻纠正，等微课环节再讲。",
+      },
+      {
+        name: "化石",
+        duration: "8 分钟",
+        teacherNotes: "在屏幕上或白板上写下两个句子：'_____ Wei felt unwell, he finished the lesson.' 和 'The nurse was busy, _____ she helped Wei immediately.' 问孩子：'第一句空格填 Although 还是 but？第二句填 although 还是 but？' 等孩子思考后，解释化石：第一句空格在句首引导让步从句（让步=concession），用 Although（不用 but）。第二句空格在逗号后连接对比句子（对比转折=contrast），用 but（不用 although）。关键区别：although 引导让步从句（Although Wei felt unwell, he finished the lesson. ✓），but 在逗号后连接对比（Wei felt unwell, but he finished the lesson. ✓）。禁止：Although Wei felt unwell, but he finished the lesson. ✗（although 和 but 不能同时出现，中文「虽然…但是…」在英语里只用一个）。让孩子跟读改正后的句子 3 次。",
+      },
+      {
+        name: "跟读",
+        duration: "5 分钟",
+        teacherNotes: "展示 4 个正确句子（见 spokenLines），一句一句让孩子跟读。读完后问：'Which sentences use although?' 等孩子指出让步从句的句子。问：'Which sentences use but?' 等孩子指出对比转折的句子。问：'Can we say Although I was sick, but I went to school?' 等孩子说 'No, we can only use although or but, not both.' 如果孩子说错，再带读 2 次。确认孩子能区分 although（让步从句）和 but（对比转折）。",
+      },
+      {
+        name: "作业",
+        duration: "5 分钟",
+        teacherNotes: "打开 /learn 页面，给孩子看 SEC 第 9 周作业入口。告诉孩子：「这周的作业是中学 AEIS 英语第 9 周，包括阅读理解（Wei 上课时身体不适去 sick bay：Mr Lim sends him / Nurse Ong: sit down, take temperature, drink water, call home if needed）、语法题（although vs but，每个空只有一个正确答案）、写作（2 题选 1，写 200-300 词）。完成后系统会自动批改选择题，写作部分会有 AI 反馈。」对家长说：「这是 AEIS-Secondary 第 9 周，不是 CEQ。官方 Sec 1 卷型：Part 1 Writing 2 题选 1 篇，200-300 词；Part 2 有 50 道 MCQ（理解 + 完形 + 词汇 + 语法）。本周是样本，不是完整 50 题。孩子完成作业后，我们会在微信群里同步进度。」不提「包过」「保证录取」「题目全部原创」「官方题目」等话术。",
+      },
+    ],
+    spokenLines: [
+      "Although Wei felt unwell, he finished the lesson. ✓ (although 引导让步从句，不加 but)",
+      "The nurse was busy, but she helped Wei immediately. ✓ (but 连接对比句子，前面没有 although)",
+      "Although the sick bay was quiet, Wei felt more relaxed. ✓ (although 在句首)",
+      "Wei wanted to go back, but Nurse Ong told him to rest. ✓ (but 在逗号后)",
+    ],
+  },
   "SMATH-0": {
     title: "百分数增减 — Percentage Increase/Decrease",
     fossil: "part/whole mix-up / % of vs % increase",
