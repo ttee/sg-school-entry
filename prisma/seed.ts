@@ -610,7 +610,7 @@ Art 📖📖📖📖📖
             "Mei bought a bottle with 1 l 200 ml of juice. Jun Wei bought a bottle with 900 ml of juice. Who bought more juice?|A. Mei|B. Jun Wei|C. Same amount|D. Cannot tell",
             "A bag of rice weighs 3 m 45 cm. Wait, that doesn't make sense! What unit should it be?|A. 3 m 45 cm|B. 3 kg 45 g|C. 3 l 45 ml|D. 3 km 45 m",
             "Priya's water bottle holds 1 l 800 ml. She drinks 600 ml. How much water is left?|A. 1 l 200 ml|B. 1 l 400 ml|C. 800 ml|D. 2 l 400 ml",
-            "The distance from Mei's house to East Coast Park is 3 km. The distance from the park to Marina Bay is 1500 m. How far is Mei's house from Marina Bay if she goes via the park? Give your answer in km.|A. 4.5 km|B. 4500 km|C. 1.5 km|D. 1503 km",
+            "The distance from Mei's house to East Coast Park is 3 km. The distance from the park to Marina Bay is 1500 m. How far is Mei's house from Marina Bay if she goes via the park? Give your answer in metres.|A. 4500 m|B. 4500 km|C. 1500 m|D. 1503 m",
           ]),
           correctAnswer: "B,A,B,A,A",
           points: 5,

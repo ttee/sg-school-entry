@@ -1504,6 +1504,52 @@ const lessonPlans: Record<string, LessonPlan> = {
       "1/3 + 1/6. How much in total? (Say the calculation.)",
     ],
   },
+  "MATH-9": {
+    title: "千米、毫升与复合单位 — Kilometres, millilitres and compound units",
+    mathExample: "The road is 3 km long. 3 km = 3000 m. A bottle has 1 l 800 ml. That's 1800 ml. A bag of rice weighs 2 kg 500 g. That's 2500 g.",
+    sections: [
+      {
+        name: "热身",
+        duration: "3 分钟",
+        teacherNotes: "说 '1 km = 1000 m.' '1 l = 1000 ml.' 让孩子注意新单位：千米（kilometres）和毫升（millilitres）。",
+      },
+      {
+        name: "本周例题",
+        duration: "8 分钟",
+        teacherNotes: "在白板上写：'3 km = 3000 m'。解释：1 km = 1000 m，所以 3 × 1000 = 3000。然后写：'1 l 800 ml'（复合单位 compound units）。解释：1 l = 1000 ml，所以 1 l 800 ml = 1000 ml + 800 ml = 1800 ml。再写：'2 kg 500 g = 2500 g'。解释：1 kg = 1000 g，所以 2 kg = 2000 g，2000 + 500 = 2500。最后写：'4500 m = 4 km 500 m'。解释：4500 ÷ 1000 = 4 余 500，所以是 4 km 500 m。关键词：kilometres / millilitres / convert（转换）、compound units（复合单位）。",
+      },
+      {
+        name: "孩子口头说算式",
+        duration: "10 分钟",
+        teacherNotes: "给 3 个口头题，孩子说出算式和答案。题目 1：'How many metres in 5 km?' 期待输出：'5 km = 5000 m. 5 × 1000 = 5000.' 题目 2：'Convert 2 m 75 cm to cm.' 期待输出：'2 m = 200 cm. 200 + 75 = 275 cm.' 题目 3：'A bottle has 1 l 200 ml. Mei drinks 600 ml. How much is left?' 期待输出：'1 l 200 ml = 1200 ml. 1200 − 600 = 600 ml. Or 1 l 200 ml − 600 ml = 600 ml.'",
+      },
+      {
+        name: "开口",
+        duration: "12 分钟",
+        teacherNotes: "让孩子读出单位换算算式并解释。比如 '3 km = 3000 m'，孩子要说 'Three kilometres equals three thousand metres.' 或 '1 l 800 ml'，孩子要说 'One litre eight hundred millilitres.' 注意读法：kilometres（千米）、millilitres（毫升）。",
+      },
+      {
+        name: "收口",
+        duration: "5 分钟",
+        teacherNotes: "提醒本周作业有 P3 数学题目，包括千米、毫升、复合单位、大小单位互换（km ↔ m, m ↔ cm, kg ↔ g, l ↔ ml）。对应申请 P4 的孩子需要掌握的 P3 内容（preceding level 规则）。强调：本周不教面积/周长、时间秒/24 小时制，也不教小数（那些是 P3 其他主题或 P4 内容）。",
+      },
+    ],
+    spokenLines: [
+      "3 km = 3000 m",
+      "Three kilometres equals three thousand metres.",
+      "1 l 800 ml = 1800 ml",
+      "One litre eight hundred millilitres equals one thousand eight hundred millilitres.",
+      "2 kg 500 g = 2500 g",
+      "Two kilograms five hundred grams equals two thousand five hundred grams.",
+      "1 m 35 cm = 135 cm",
+      "One metre thirty-five centimetres equals one hundred and thirty-five centimetres.",
+    ],
+    childPrompts: [
+      "How many metres in 7 km? (Say the calculation.)",
+      "Convert 2 m 75 cm to cm. (Say the calculation.)",
+      "A bottle has 1 l 800 ml. Mei drinks 600 ml. How much is left? (Say the calculation.)",
+    ],
+  },
 };
 
 export default async function LessonPlanPage({
