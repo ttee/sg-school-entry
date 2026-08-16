@@ -2658,6 +2658,43 @@ const lessonPlans: Record<string, LessonPlan> = {
       "I need to finish my homework by Monday. ✓ (用 my，不用 a)",
     ],
   },
+  "SEC-4": {
+    title: "Canteen Rules — must / have to",
+    fossil: "must / have to for school rules (not must to)",
+    sections: [
+      {
+        name: "课前",
+        duration: "2 分钟",
+        teacherNotes: "确认 Zoom 设置正常。孩子和家长都在镜头前。对家长说：「今天教中学 AEIS 英语第 4 周，不是 CEQ。本周只练一个错误：must / have to 表示学校规则。中文说「必须要排队」，但英语是 You must queue，不是 You must to queue。must 和 have to 后面直接加动词原形，不加 to。」提醒家长可以在旁边观摩，但请让孩子自己开口。",
+      },
+      {
+        name: "热身",
+        duration: "5 分钟",
+        teacherNotes: "问孩子：'What are some school rules at your school?' 让孩子说。如果孩子说 'We must to wear uniform'（must 后加 to 的错误），不要立刻纠正，等微课环节再讲。问：'What rules do you have at the canteen?'，引导孩子说话。",
+      },
+      {
+        name: "化石",
+        duration: "8 分钟",
+        teacherNotes: "在屏幕上或白板上写下一个错误句子：'You must to queue at the canteen.' 或 'We have to to return the tray.' 问孩子：'这句话对吗？' 等孩子思考后，圈出错误部分。解释化石：must 和 have to 后面直接加动词原形，不能加 to。中文说「必须要」，但英语不能加 to。正确说法：You must queue. ✓ / You have to return the tray. ✓。must not 表示禁止（You must not cut the queue.）。让孩子跟读改正后的句子 3 次。强调：must 和 have to 都表示必须，但 must 语气更强（老师/学校规定），have to 更客观（学校制度要求）。",
+      },
+      {
+        name: "跟读",
+        duration: "5 分钟",
+        teacherNotes: "展示 4 个正确句子（见 spokenLines），一句一句让孩子跟读。读完后问：'Can we say must to queue?' 等孩子说 'No'。问：'Can we say have to to return?' 等孩子说 'No'。问：'What do we say?' 等孩子说 'must queue' 或 'have to return'。如果孩子说错，再带读 2 次。确认孩子能准确说出 must / have to 的用法。",
+      },
+      {
+        name: "作业",
+        duration: "5 分钟",
+        teacherNotes: "打开 /learn 页面，给孩子看 SEC 第 4 周作业入口。告诉孩子：「这周的作业是中学 AEIS 英语第 4 周，包括阅读理解（canteen recess 场景）、语法题（must / have to / must not）、写作（2 题选 1，写 200-300 词）。完成后系统会自动批改选择题，写作部分会有 AI 反馈。」对家长说：「这是 AEIS-Secondary 第 4 周，不是 CEQ。官方 Sec 1 卷型：Part 1 Writing 2 题选 1 篇，200-300 词；Part 2 有 50 道 MCQ（理解 + 完形 + 词汇 + 语法）。本周是样本，不是完整 50 题。孩子完成作业后，我们会在微信群里同步进度。」不提「包过」「保证录取」等话术。",
+      },
+    ],
+    spokenLines: [
+      "You must queue at the canteen. ✓ (must 后面直接加动词，不加 to)",
+      "You have to return your tray. ✓ (have to 后面直接加动词，不加 to)",
+      "Students must not cut the queue. ✓ (must not 表示禁止)",
+      "We have to wear our nametags. ✓ (have to 表示必须)",
+    ],
+  },
   "SMATH-0": {
     title: "百分数增减 — Percentage Increase/Decrease",
     fossil: "part/whole mix-up / % of vs % increase",

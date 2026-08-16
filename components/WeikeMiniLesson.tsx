@@ -355,6 +355,16 @@ export default function WeikeMiniLesson({ level, weekNumber }: WeikeMiniLessonPr
       ],
       gloss: "中学 AEIS 英语本周例题：不可数名词（uncountable nouns）。homework / advice / information 是不可数的，不能说 a homework / an advice / an information（错误）。正确说法：homework / some homework / a piece of homework。同理：advice / some advice / a piece of advice；information / some information / a piece of information。"
     },
+    "SEC-4": {
+      fossil: "must / have to for school rules (not must to)",
+      examples: [
+        "You must queue at the canteen. ✓ (must 后面直接加动词，不加 to)",
+        "You have to return your tray. ✓ (have to 后面直接加动词，不加 to)",
+        "Students must not cut the queue. ✓ (must not 表示禁止)",
+        "We have to wear our nametags. ✓ (have to 表示必须)"
+      ],
+      gloss: "中学 AEIS 英语本周例题：must / have to 表示学校规则。must 和 have to 后面直接加动词原形，不能加 to（中文「必须要」迁移）。You must queue. ✓ 不是 You must to queue. ✗。must not 表示禁止（You must not cut the queue.），have to 也表示必须（You have to return your tray.）。"
+    },
     "A2-7": {
       fossil: "I going to the library tomorrow / I go to swim / Tomorrow I go library",
       examples: [

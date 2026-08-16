@@ -6243,6 +6243,98 @@ Note: This is a Sec 1 writing sample (2 topics, 200–300 words), not Sec 2 or S
         },
       ],
     },
+    {
+      level: "SEC",
+      weekNumber: 4,
+      title: "英语 第 4 周 / English Week 4",
+      description: "AEIS-Secondary English (Sec 1 paper shape): canteen rules sample",
+      isSample: false,
+      errorFocus: "must / have to for school rules (not must to)",
+      parentBrief: "中学 AEIS 英语第 4 周。对应官方 SEAB Sec 1 卷型（https://www.seab.gov.sg/aeis/test-details/ 2026年7月1日更新）：Part 1 Writing 提供 2 个作文题目，选写 1 篇，200–300 词；Part 2 Comprehension & Language Use 共 50 道 MCQ（理解 15 + 完形 15 + 词汇 10 + 语法 10）。本周作业是样本，不是完整 50 题，不是 2 小时 10 分钟正式试卷。AEIS-Secondary 官方 preceding-level 规则：申请者需熟悉所申请级别前一级（preceding level）的内容。官方举例：apply Sec 3 → 熟悉 Sec 2。本周针对 Sec 1 申请者，对应 Sec 1 前一级内容水平。本周纠错化石：must / have to 表示学校规则，后面直接加动词原形，不能加 to。中文说「必须要排队」，但英语是 You must queue，不是 You must to queue（中文「必须要」迁移）。must not 表示禁止。情境：Wei、Aisha、Mr Lim 在 Riverside Secondary 食堂第一次午休（queue / tray / no cutting）。本周不是 CEQ。",
+      videoUrl: null,
+      kaizenFocus: "classroom English a listener needs in the canteen (queue, tray, instruction)",
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: `Read this passage about Wei's first recess at the school canteen:
+
+First Recess at the Canteen
+
+On Friday at 10:00 a.m., Wei had his first recess at Riverside Secondary. The bell rang, and students from all classes rushed to the canteen on the ground floor. Wei followed his classmate Aisha, who had been at the school since Sec 1 last year.
+
+"Come on, Wei! If we don't queue early, we'll have to wait a long time," Aisha said.
+
+The canteen was crowded. There were four food stalls—Western food, Chinese food, drinks, and snacks. Wei wanted to buy chicken rice from the Chinese stall. Aisha pointed to a long line of students. "You must queue at the back. Don't cut the queue—if a prefect sees you, you'll get a warning."
+
+Wei joined the queue. After five minutes, it was his turn. He ordered chicken rice for S$3.50 and paid the uncle at the stall. The uncle handed him a plate and said, "Remember—you have to return your tray and plate to the tray-return station after eating. It's next to the drinks stall."
+
+Wei and Aisha found a table near the windows. The canteen was noisy, but Wei could hear instructions from a prefect with a red badge. "Students, please keep your voices down. You must not run in the canteen. If you spill your food, clean it up or tell a teacher."
+
+By 10:25, Wei had finished his meal. He carried his tray to the tray-return station and placed it on the rack. Aisha smiled. "Good job! Now you know the canteen rules. Next week, recess will be much easier."
+
+Wei felt more confident. He had learned how to queue, how to order food, and how to follow the school rules. Recess was short—only 30 minutes—but it was enough time to eat and rest before the next lesson.`,
+          options: JSON.stringify([
+            "What time did the recess bell ring?|A. 9:30 a.m.|B. 10:00 a.m.|C. 10:25 a.m.|D. 10:30 a.m.",
+            "What did Aisha tell Wei about queuing?|A. He can cut the queue if he's late|B. He must queue at the back|C. He doesn't need to queue|D. He should ask a prefect first",
+            "How much did Wei pay for his chicken rice?|A. S$2.50|B. S$3.00|C. S$3.50|D. S$4.00",
+            "Where is the tray-return station?|A. At the back of the canteen|B. Next to the drinks stall|C. Near the windows|D. At the Chinese food stall",
+            "What rule did the prefect tell students about the canteen?|A. Students must finish eating in 10 minutes|B. Students must not run in the canteen|C. Students must bring their own trays|D. Students must sit near the windows",
+          ]),
+          correctAnswer: "B,B,C,B,B",
+          points: 10,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: "Choose the correct word to complete each sentence:",
+          options: JSON.stringify([
+            "Students ____ queue at the canteen.|A. must|B. must to|C. have|D. must be",
+            "You ____ return your tray after eating.|A. must to|B. have|C. have to|D. must not to",
+            "We ____ cut the queue—it's against the rules.|A. must|B. have|C. have to|D. must not",
+            "The prefect said we ____ run in the canteen.|A. must not|B. must not to|C. have not|D. don't must",
+            "Students ____ wear their nametags to school.|A. must to|B. have to|C. must not|D. have not",
+            "You ____ be late for class after recess.|A. have to|B. must to|C. must not|D. have not to",
+            "Wei ____ follow the school rules.|A. have to|B. must to|C. must|D. have not",
+            "The uncle told Wei he ____ return the tray.|A. must to|B. have to|C. has to|D. must not to",
+          ]),
+          correctAnswer: "A,C,D,A,B,C,C,C",
+          points: 16,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `Part 1: Writing (Sec 1 format)
+
+Choose ONE topic and write 200–300 words.
+
+Topic 1: Recess in the Canteen
+Write about a time when you had recess at school (or imagine it if you haven't been to a secondary school canteen yet). Describe:
+• Where is the canteen, and what time was recess?
+• What food did you buy, and how much did it cost?
+• What rules do you have to follow at the canteen?
+• How did you feel about your first recess?
+
+Topic 2: A School Rule I Followed
+Write about a time when you followed an important school rule. Describe:
+• What was the rule? (queue, wear uniform, return trays, etc.)
+• Why is this rule important?
+• How did you follow the rule?
+• What happened, and how did you feel?
+
+写作提示 / Writing Tips:
+✓ 写出提纲（3-4 个要点）再写正文 (Plan first: 3-4 bullet points, then write)
+✓ 叙事用过去时态 (Narrative → past tense: I went to the canteen. I had to queue.)
+✓ 注意 must / have to 用法 (must / have to + verb, NOT must to / have to to)
+✓ 分段：开头 + 2-3 段正文 + 结尾 (Paragraphs: intro + 2-3 body + conclusion)
+✓ 字数 200–300 词 (Word count: 200–300 words)
+
+注：这是 Sec 1 写作样本，不是 Sec 2（4 题 250–350 词）或 Sec 3（4 题 300–400 词）格式。这是本周题目，不是官方题目。
+Note: This is a Sec 1 writing sample (2 topics, 200–300 words), not Sec 2 or Sec 3 format. These are this week's topics, not official examination topics.`,
+          points: 20,
+        },
+      ],
+    },
     // SMATH WEEK (AEIS-Secondary Mathematics)
     {
       level: "SMATH",
