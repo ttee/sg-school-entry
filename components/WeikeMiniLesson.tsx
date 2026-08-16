@@ -442,6 +442,15 @@ export default function WeikeMiniLesson({ level, weekNumber }: WeikeMiniLessonPr
       ],
       gloss: "AEIS 中学数学第 18 周 / SMATH Week 18. 本周例题：Sec 1 用百分数比较两个量（Sec 1 NUMBER AND ALGEBRA: N3.2 comparing two quantities by percentage）。To compare A and B by percentage: express the smaller as a % of the larger（将较小的表示为较大的的百分比）。例：比较 15 和 20。15 < 20，所以 15 is (15 ÷ 20) × 100% = 75% of 20。15 is smaller, 20 is larger。'A is 75% of B' means A is smaller than B（A 是 B 的 75%，意味着 A < B）。应用题：Wei has S$18, Aisha has S$24. Compare by percentage. Solution: S$18 < S$24. (18 ÷ 24) × 100% = 75%. So S$18 is 75% of S$24 (Wei has less)。本周化石：comparing the wrong way（错误地说 20 is 75% of 15，应该是 15 is 75% of 20；正确顺序是 smaller ÷ larger）；treating 'A is 75% of B' as A being larger（如果 A is 75% of B，则 A 较小，B 较大，不是 A 较大）。本周只教 ≤ 100% 的情况（express the smaller as a % of the larger），不教 >100%（那是下周 3.3）。金额用新加坡元 S$。不用计算器。"
     },
+    "SMATH-19": {
+      examples: [
+        "Express 25 as a percentage of 20.",
+        "25 > 20, so the percentage will be >100%.",
+        "(25 ÷ 20) × 100% = 1.25 × 100% = 125%",
+        "So 25 is 125% of 20. (25 is larger, 20 is smaller. The percentage exceeds 100%.)"
+      ],
+      gloss: "AEIS 中学数学第 19 周 / SMATH Week 19. 本周例题：Sec 1 大于 100% 的百分数（Sec 1 NUMBER AND ALGEBRA: N3.3 percentages greater than 100%）。If A > B, then A as a percentage of B is greater than 100%（如果 A > B，则 A 占 B 的百分数大于 100%）。例：25 as a percentage of 20 = (25 ÷ 20) × 100% = 1.25 × 100% = 125%。50 as a percentage of 20 = 250%。36 as a percentage of 24 = 150%。A percentage can be more than 100% when the first quantity is larger than the second（当第一个数大于第二个数时，百分比可以超过 100%）。应用题：Wei has S$36, Aisha has S$24. Express Wei's amount as a percentage of Aisha's. Solution: S$36 > S$24. (36 ÷ 24) × 100% = 1.5 × 100% = 150%. So S$36 is 150% of S$24 (Wei has more)。本周化石：thinking a percentage cannot exceed 100%（认为百分数不能超过 100%，错！当第一个数大于第二个数时，百分数可以大于 100%）；writing the inverted ≤100% value instead（如 25 of 20 错误地写成 80%，应该是 125%）。第 17–18 周教 ≤100% 的情况，本周教 >100%。金额用新加坡元 S$。不用计算器。"
+    },
     "SEC-0": {
       fossil: "Although I was nervous, but I tried. ✗ (中文「虽然…但是…」迁移) / I go yesterday ✗ (叙事体过去时掉落)",
       examples: [
