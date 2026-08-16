@@ -173,21 +173,21 @@ export default function GuidePage() {
       recommendation.pathway = "小学 AEIS 路径（P2–P5）";
       
       if (englishRate <= 0.5) {
-        recommendation.englishCourse = "建议：A2 Key for Schools 试学周 + 第 1–11 周（直播课）";
+        recommendation.englishCourse = "建议：A2 Key for Schools 试学周 + 已上线周数 / 作业 app";
         recommendation.notes.push("英语基础需要加强，建议从 A2 试学周开始");
       } else if (isUpperPrimary && englishRate >= 0.75) {
-        recommendation.englishCourse = "建议：B1 Preliminary for Schools 试学周 + 第 1–11 周（直播课）";
+        recommendation.englishCourse = "建议：B1 Preliminary for Schools 试学周 + 已上线周数 / 作业 app";
         recommendation.notes.push("P5 申请一般对应 B1 水平（常见对应，以官网年龄核对为准）");
       } else {
-        recommendation.englishCourse = "建议：A2 Key for Schools 试学周 + 第 1–11 周（直播课）";
+        recommendation.englishCourse = "建议：A2 Key for Schools 试学周 + 已上线周数 / 作业 app";
         recommendation.notes.push("P2–P4 申请一般对应 A2 Key for Schools（常见对应，以官网年龄核对为准）");
       }
       
-      recommendation.mathCourse = "建议：AEIS 数学 试学周 + 第 1–5 周（P2 知识点直播课）";
+      recommendation.mathCourse = "建议：AEIS 数学 试学周 + 已上线周数 / 作业 app";
       recommendation.notes.push("诚实告知：当前数学周数为 P2 内容（前置级别练习）");
       
       if (intendedLevel === "P4" || intendedLevel === "P5") {
-        recommendation.notes.push(`申请 ${intendedLevel} 需要更高前置大纲知识，目前尚未上线相应周数，请微信咨询`);
+        recommendation.notes.push(`申请 ${intendedLevel} 的数学按官网是前一年大纲。我们现在的数学课是 P2。请先微信咨询。`);
       }
       
     } else if (isSecondary) {
@@ -195,9 +195,7 @@ export default function GuidePage() {
       recommendation.pathway = "中学 AEIS 路径（Sec 1–3）";
       recommendation.englishCourse = "需要：AEIS 中学英语（含写作、理解、语法）";
       recommendation.mathCourse = "需要：AEIS 中学数学";
-      recommendation.notes.push("诚实告知：目前尚未上线中学 AEIS 英语或数学周数");
-      recommendation.notes.push("请微信咨询中学路径安排");
-      recommendation.notes.push("中学不要求 CEQ，但需在新加坡参加 AEIS 英语 + 数学两科考试");
+      recommendation.notes.push("中学要考 AEIS 英语 + 数学，不要求 CEQ。我们目前的作业周是小学 CEQ 和 P2 数学。中学路径请先微信咨询。");
     }
 
     return recommendation;
@@ -426,11 +424,8 @@ export default function GuidePage() {
               <h2 className="font-serif font-semibold text-xl text-ink mb-2">
                 第三步：P2 水平数学检测
               </h2>
-              <p className="text-sm text-ink-2 mb-1">
-                共 {mathItems.length} 题，约 5 分钟。原创题目，对应 MOE P2 大纲（钱币、乘除法、简单应用题）。
-              </p>
-              <p className="text-xs text-muted mb-4">
-                所有题目均为本工作室原创，不使用过往试卷
+              <p className="text-sm text-ink-2 mb-4">
+                共 {mathItems.length} 题，约 5 分钟。对应 MOE P2 大纲（钱币、乘除法、简单应用题）。
               </p>
 
               <div className="space-y-5">
@@ -937,8 +932,7 @@ export default function GuidePage() {
 
               <div className="bg-paper border border-line rounded-lg p-3">
                 <p className="text-xs text-ink-2 leading-relaxed">
-                  <strong className="text-ink">诚实告知：</strong>
-                  不包过 · 不承诺包过 · 不保证录取 · 不编造 CES 分数线 · 题目全部原创 · 
+                  <strong className="text-ink">隐私与付款：</strong>
                   非 MOE、SEAB、Cambridge 官方机构 · 
                   付款方式：PayNow 94594601 / 微信转账（咨询时告知）
                 </p>
