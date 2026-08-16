@@ -532,6 +532,64 @@ Art 📖📖📖📖📖
         },
       ],
     },
+    {
+      level: "MATH",
+      weekNumber: 8,
+      title: "数学 第 8 周 / Maths Week 8",
+      description: "AEIS-Primary P3 Mathematics: Equivalent fractions and related fractions",
+      isSample: false,
+      errorFocus: null,
+      parentBrief: "本周主题：等值分数、最简分数、异分母分数比较、相关分数加减（对应 MOE 小学 P3 数学大纲）。P2 第 2 周学过同分母分数加减（2/8 + 3/8 = 5/8），本周学 P3 新知识点：等值分数（Equivalent fractions，例如 2/3 = 4/6 = 8/12）、最简分数（Simplest form，例如 4/6 = 2/3）、异分母分数比较（Compare unlike fractions，例如 1/2 vs 1/3，分母不超过 12）、相关分数加减（Add and subtract related fractions within one whole，例如 1/2 + 1/4 = 3/4）。申请 P4 入学的孩子需掌握 P3 内容（MOE AEIS preceding level 规则）。常见错误：认为 1/3 > 1/2（分母越大越大）、1/2 + 1/4 = 2/6（分子分母分别相加）、4/6 已是最简（忘了约分成 2/3）。题目是简体中文家长说明 + 英文题干。本周配有双向对照表，显示题目对应的官方 2021 Primary Mathematics Syllabus P3 内容点（Equivalent fractions; Express a fraction in simplest form; Compare and order unlike fractions with denominators not exceeding 12; Add and subtract related fractions within one whole），以及 MOE AEIS 的「preceding level」规则（申请 P4 → 掌握 P3 内容）。注意：本周不教 P4 的假分数/带分数（Improper fractions / Mixed numbers）或小数表示法（Decimals as fractions）。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: `Read each question and choose the correct answer.`,
+          options: JSON.stringify([
+            "At Tampines Library, Mei read 2/3 of a book. Which fraction is equivalent to 2/3?|A. 4/6|B. 3/6|C. 2/6|D. 1/3",
+            "Jun Wei ate 4/8 of a pizza. What is 4/8 in simplest form?|A. 2/4|B. 1/2|C. 4/8|D. 8/16",
+            "Priya has two ribbons. One is 1/2 m long, the other is 1/3 m long. Which ribbon is longer?|A. 1/2 m|B. 1/3 m|C. They are equal|D. Cannot tell",
+            "At East Coast Park, Ali cycled 1/2 of the path and then walked 1/4 of the path. What fraction of the path did he cover in total?|A. 2/6|B. 2/8|C. 3/4|D. 1/6",
+            "Raju had a cake. He gave 1/3 to Mei and 1/6 to Priya. What fraction of the cake did he give away?|A. 2/9|B. 1/2|C. 2/6|D. 3/6",
+          ]),
+          correctAnswer: "A,B,A,C,B",
+          points: 5,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: `Choose the correct answer for each question.`,
+          options: JSON.stringify([
+            "Which fraction is equivalent to 1/2?|A. 2/3|B. 3/6|C. 2/5|D. 1/3",
+            "What is 6/9 in simplest form?|A. 3/3|B. 2/3|C. 6/9|D. 1/3",
+            "Which is greater: 1/4 or 1/5?|A. 1/4|B. 1/5|C. They are equal|D. Cannot tell",
+            "What is 2/4 + 1/4?|A. 3/8|B. 3/4|C. 2/4|D. 1/2",
+            "At Bedok Mall, Mei bought 3/12 kg of grapes and 6/12 kg of apples. How much fruit did she buy in total? Give your answer in simplest form.|A. 9/12 kg|B. 3/4 kg|C. 3/12 kg|D. 9/24 kg",
+            "What is 5/6 − 1/6? Give your answer in simplest form.|A. 4/6|B. 2/3|C. 4/0|D. 5/6",
+            "Which fraction is equivalent to 3/4?|A. 6/8|B. 4/6|C. 3/8|D. 2/4",
+            "Priya walked 2/3 of the way to school. Jun Wei walked 3/4 of the way. Who walked further?|A. Priya|B. Jun Wei|C. Same distance|D. Cannot tell",
+          ]),
+          correctAnswer: "B,B,A,B,B,B,A,B",
+          points: 5,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `At Yishun Community Centre, children are decorating lanterns for Mid-Autumn Festival.
+
+(a) Mei painted 2/3 of her lantern red. Write another fraction equivalent to 2/3. (Denominator must be less than or equal to 12.)
+
+(b) Ali and Raju are making paper chains. Ali made 7/10 m of chain. Raju made 2/10 m of chain. How much chain did they make together? Show your working and give your answer in simplest form.
+
+(c) Priya had 5/6 of a ribbon. She used 1/6 to tie her lantern. What fraction of the ribbon does she have left? Show your working.
+
+写出算式和答案。`,
+          points: 10,
+        },
+      ],
+    },
     
     // A2 WEEKS
     {

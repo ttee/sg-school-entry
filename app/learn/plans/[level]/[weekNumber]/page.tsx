@@ -1458,6 +1458,52 @@ const lessonPlans: Record<string, LessonPlan> = {
       "What is 237 × 4? (Say the calculation.)",
     ],
   },
+  "MATH-8": {
+    title: "等值分数与相关分数加减 — Equivalent fractions and related fractions",
+    mathExample: "Mei ate 2/3 of a pizza. Ali ate 4/6 of another pizza. 2/3 = 4/6 (equivalent). Also: 1/2 + 1/4 = 2/4 + 1/4 = 3/4. And: 4/8 = 1/2 (simplest form).",
+    sections: [
+      {
+        name: "热身",
+        duration: "3 分钟",
+        teacherNotes: "展示 pizza 图片，切成 6 份。说 'This is 2/3.' 再展示另一个切成 6 份的 pizza，涂色 4 份。说 'This is 4/6.' 让孩子观察两个 pizza 涂色部分一样多。引出 2/3 = 4/6（equivalent fractions）。",
+      },
+      {
+        name: "本周例题",
+        duration: "8 分钟",
+        teacherNotes: "在白板上写：'2/3 = 4/6 = 8/12'。解释：分子分母同时乘以 2 或 3。然后写：'4/8 = 1/2'。解释：分子分母同时除以 4，约分成最简分数（simplest form）。再写：'1/2 + 1/4 = 2/4 + 1/4 = 3/4'。解释：先把 1/2 改成 2/4（相同分母），然后加。最后写：'1/2 vs 1/3'。画图说明 1/2 > 1/3（分母越大，分数越小）。关键词：equivalent fractions（等值分数）、simplest form（最简）、related fractions（相关分数）、compare（比较）。",
+      },
+      {
+        name: "孩子口头说算式",
+        duration: "10 分钟",
+        teacherNotes: "给 3 个口头题，孩子说出算式和答案。题目 1：'What is another fraction equivalent to 1/2?' 期待输出：'2/4 or 3/6.' 题目 2：'What is 6/9 in simplest form?' 期待输出：'2/3.' 题目 3：'Mei walked 1/2 of the path. Jun Wei walked 1/4. How much did they walk together?' 期待输出：'1/2 + 1/4 = 2/4 + 1/4 = 3/4.'",
+      },
+      {
+        name: "开口",
+        duration: "12 分钟",
+        teacherNotes: "让孩子读出分数算式并解释。比如 '2/3 = 4/6'，孩子要说 'Two thirds equals four sixths. They are equivalent fractions.' 或 '1/2 + 1/4 = 3/4'，孩子要说 'One half plus one quarter equals three quarters.' 注意分母读法：thirds, quarters, sixths, eighths（加 -s）。",
+      },
+      {
+        name: "收口",
+        duration: "5 分钟",
+        teacherNotes: "提醒本周作业有 P3 数学题目，包括等值分数、最简分数、异分母比较、相关分数加减。对应申请 P4 的孩子需要掌握的 P3 内容（preceding level 规则）。强调：本周不教假分数/带分数（那是 P4 内容），只练习一个整体内的分数。",
+      },
+    ],
+    spokenLines: [
+      "2/3 = 4/6",
+      "Two thirds equals four sixths.",
+      "4/8 = 1/2",
+      "Four eighths equals one half in simplest form.",
+      "1/2 + 1/4 = 3/4",
+      "One half plus one quarter equals three quarters.",
+      "1/2 > 1/3",
+      "One half is greater than one third.",
+    ],
+    childPrompts: [
+      "What is another fraction equivalent to 3/4? (Say it in English.)",
+      "What is 6/9 in simplest form? (Say the calculation.)",
+      "1/3 + 1/6. How much in total? (Say the calculation.)",
+    ],
+  },
 };
 
 export default async function LessonPlanPage({
