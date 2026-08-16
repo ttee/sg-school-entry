@@ -6059,6 +6059,96 @@ Note: This is a Sec 1 writing sample (2 topics, 200–300 words), not Sec 2 or S
         },
       ],
     },
+    {
+      level: "SEC",
+      weekNumber: 2,
+      title: "英语 第 2 周 / English Week 2",
+      description: "AEIS-Secondary English (Sec 1 paper shape): morning assembly sample",
+      isSample: false,
+      errorFocus: "prepositions of time (at / on / in)",
+      parentBrief: "中学 AEIS 英语第 2 周。对应官方 SEAB Sec 1 卷型（https://www.seab.gov.sg/aeis/test-details/ 2026年7月1日更新）：Part 1 Writing 提供 2 个作文题目，选写 1 篇，200–300 词；Part 2 Comprehension & Language Use 共 50 道 MCQ（理解 15 + 完形 15 + 词汇 10 + 语法 10）。本周作业是样本，不是完整 50 题，不是 2 小时 10 分钟正式试卷。AEIS-Secondary 官方 preceding-level 规则：申请者需熟悉所申请级别前一级（preceding level）的内容。官方举例：apply Sec 3 → 熟悉 Sec 2。本周针对 Sec 1 申请者，对应 Sec 1 前一级内容水平。本周纠错化石：时间介词（at 7:30 / on Monday / in the morning）。中文用一个「在」表达时间（在星期一早上 7:30），英语要区分 at（具体时刻）、on（星期/日期）、in（时段）。情境：Wei 在 Riverside Secondary 听 morning assembly 的 Mr Lim 指令、flag-raising、form-class line-up。本周不是 CEQ。不承诺包过。",
+      videoUrl: null,
+      kaizenFocus: "classroom English a listener needs at morning assembly (time, place, instruction)",
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: `Read this passage about Wei's morning at Riverside Secondary:
+
+Morning Assembly at Riverside Secondary
+
+Wei arrived at school on Monday at 7:30 in the morning. The school gate opened at 7:15, and students had to be in their classrooms by 7:45 for morning assembly. The flag-raising ceremony would start at 7:50 sharp.
+
+Mr Lim, the form teacher, stood at the front of the classroom. "Good morning, everyone. Please line up quietly at the corridor. We'll go down to the hall in five minutes. Remember—during assembly, you must stand straight, face the flag, and sing the national anthem clearly."
+
+Wei and his classmates lined up. Aisha stood behind him. "I was almost late this morning," she whispered. "My bus arrived at the interchange at 7:20, and I had to run from the MRT station."
+
+At 7:50, the principal's voice came through the speakers. "Good morning, students. Today is Monday, 12 August. The flag-raising will begin now. Students, please stand at attention."
+
+After the anthem, Mr Lim gave instructions. "Form 1A, your English remedial class is on Wednesday afternoon at 3:00 p.m. in Room 2-14. Don't forget—you must bring your textbook and a notebook. The class will end at 4:30."
+
+Wei wrote down the details. He wanted to make sure he wouldn't forget. Morning assembly was over by 8:10, and the first lesson would start at 8:20.`,
+          options: JSON.stringify([
+            "What time did Wei arrive at school?|A. 7:15|B. 7:20|C. 7:30|D. 7:45",
+            "On which day does this passage take place?|A. Wednesday|B. Thursday|C. Friday|D. Monday",
+            "When does the flag-raising ceremony start?|A. 7:30|B. 7:45|C. 7:50|D. 8:10",
+            "Where will the English remedial class be held?|A. In the hall|B. In the corridor|C. In Room 2-14|D. At the MRT station",
+            "What time does the English remedial class end?|A. 3:00 p.m.|B. 4:00 p.m.|C. 4:30 p.m.|D. 8:20",
+          ]),
+          correctAnswer: "C,D,C,C,C",
+          points: 10,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: "Choose the correct word to complete each sentence:",
+          options: JSON.stringify([
+            "Wei arrived at school ____ 7:30.|A. at|B. on|C. in|D. by",
+            "The assembly is ____ Monday.|A. at|B. on|C. in|D. by",
+            "Students must be in their classrooms ____ the morning.|A. at|B. on|C. in|D. by",
+            "The flag-raising starts ____ 7:50 sharp.|A. at|B. on|C. in|D. by",
+            "The remedial class is ____ Wednesday afternoon.|A. at|B. on|C. in|D. by",
+            "Aisha's bus arrived ____ 7:20.|A. at|B. on|C. in|D. by",
+            "Today is Monday, ____ 12 August.|A. at|B. on|C. in|D. by",
+            "The first lesson starts ____ 8:20.|A. at|B. on|C. in|D. by",
+          ]),
+          correctAnswer: "A,B,C,A,B,A,B,A",
+          points: 16,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `Part 1: Writing (Sec 1 format)
+
+Choose ONE topic and write 200–300 words.
+
+Topic 1: A Morning at School
+Describe a morning at your school (or imagine it if you haven't started secondary school yet). Write about:
+• What time you arrived and how you got there
+• What happened during morning assembly
+• One instruction a teacher gave
+• How you felt about the morning routine
+
+Topic 2: An Instruction I Heard at Assembly
+Write about a time when you heard an important instruction during a school assembly or morning briefing. Describe:
+• Where and when did this happen? (Use at / on / in for time correctly)
+• What instruction did the teacher or principal give?
+• Why was it important to listen carefully?
+• What did you do after hearing the instruction?
+
+写作提示 / Writing Tips:
+✓ 写出提纲（3-4 个要点）再写正文 (Plan first: 3-4 bullet points, then write)
+✓ 叙事用过去时态 (Narrative → past tense: I arrived at 7:30. The teacher explained the schedule.)
+✓ 注意时间介词 (Prepositions of time: at 7:30 / on Monday / in the morning)
+✓ 分段：开头 + 2-3 段正文 + 结尾 (Paragraphs: intro + 2-3 body + conclusion)
+✓ 字数 200–300 词 (Word count: 200–300 words)
+
+注：这是 Sec 1 写作样本，不是 Sec 2（4 题 250–350 词）或 Sec 3（4 题 300–400 词）格式。这是本周题目，不是官方题目。
+Note: This is a Sec 1 writing sample (2 topics, 200–300 words), not Sec 2 or Sec 3 format. These are this week's topics, not official examination topics.`,
+          points: 20,
+        },
+      ],
+    },
     // SMATH WEEK (AEIS-Secondary Mathematics)
     {
       level: "SMATH",

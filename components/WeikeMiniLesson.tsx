@@ -335,6 +335,16 @@ export default function WeikeMiniLesson({ level, weekNumber }: WeikeMiniLessonPr
       ],
       gloss: "中学 AEIS 英语本周例题：主谓一致（subject-verb agreement）。Everyone / Each / Every + 单数名词 → 动词用单数形式（has / is / does）。The team / group / class + of + 复数名词 → 主语是 team/group/class（单数），动词用单数形式（helps / is / does）。中文主语后动词不变形，但英语要根据主语单复数变形。"
     },
+    "SEC-2": {
+      fossil: "在星期一早上 7:30 (中文一个在，英语分 at / on / in)",
+      examples: [
+        "The assembly starts at 7:30. ✓ (具体时刻用 at)",
+        "We have assembly on Monday. ✓ (星期用 on)",
+        "We line up in the morning. ✓ (时段用 in)",
+        "The flag-raising is at 7:45 on Monday morning. ✓ (可以组合)"
+      ],
+      gloss: "中学 AEIS 英语本周例题：时间介词（prepositions of time）。at 用于具体时刻（at 7:30 / at noon），on 用于星期和日期（on Monday / on 15 August），in 用于时段（in the morning / in 2026 / in January）。中文用一个「在」，英语要区分 at / on / in。"
+    },
     "A2-7": {
       fossil: "I going to the library tomorrow / I go to swim / Tomorrow I go library",
       examples: [
