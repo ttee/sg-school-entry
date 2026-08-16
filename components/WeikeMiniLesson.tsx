@@ -406,6 +406,15 @@ export default function WeikeMiniLesson({ level, weekNumber }: WeikeMiniLessonPr
       ],
       gloss: "AEIS 中学数学第 14 周 / SMATH Week 14. 本周例题：Sec 1 近似与估算（Sec 1 NUMBER AND ALGEBRA: N1.7 approximation and estimation）。四舍五入到小数位数 rounding off to decimal places (d.p.)：3.456 to 2 d.p. = 3.46（看第三位 6 ≥ 5，进位）；2.5 to 0 d.p. = 3（看第一位 5 ≥ 5，进位，只能是 3，不是 2）。四舍五入到有效数字 rounding off to significant figures (s.f.)：0.03450 to 2 s.f. = 0.035（leading zeros after the decimal are not significant，有效数字从第一个非零数字开始）；3482 to 2 s.f. = 3500（进位，后面补零保持位值）。估算 estimating the results of computation：先四舍五入每个数，再计算。48 × 21 ≈ 50 × 20 = 1000（不是先算 1008 再 round）。金额用新加坡元 S$。不用计算器。本周完成官方 N1。"
     },
+    "SMATH-15": {
+      examples: [
+        "Write 1/2 : 1/3 in its simplest form.",
+        "Solution: 1/2 : 1/3. Find common denominator. LCM of 2 and 3 is 6. 1/2 = 3/6, 1/3 = 2/6. So 1/2 : 1/3 = 3 : 2.",
+        "Which ratio is the same as 3 : 2? (Order fossil check)",
+        "Answer: 6 : 4 is the same. (Not 2 : 3, that's swapped order.)"
+      ],
+      gloss: "AEIS 中学数学第 15 周 / SMATH Week 15. 本周例题：Sec 1 有理数比与化简（Sec 1 NUMBER AND ALGEBRA: N2.1 ratios involving rational numbers, N2.2 writing a ratio in its simplest form）。比 ratio 可以涉及分数或小数 involving rational numbers：1/2 : 1/3, 0.4 : 0.6, 2/3 : 4。化简 writing in its simplest form：转换为相同形式（全是整数，或全是相同分母），然后除以 HCF。1/2 : 1/3 = 3 : 2（乘以 6）；0.4 : 0.6 = 4 : 6 = 2 : 3（先转整数，再除以 HCF 2）；2/3 : 4 = 2 : 12 = 1 : 6（4 = 12/3，然后 2/3 : 12/3 = 2 : 12，除以 HCF 2）。顺序 order matters：a : b 不是 b : a。本周化石：1/2 : 1/3 留为最终答案（错！应是 3 : 2）；3 : 2 写成 2 : 3（错！顺序颠倒）；2/3 : 4 写成 2 : 4（错！应是 1 : 6）。金额用新加坡元 S$。不用计算器。本周开始 N2，只教 2.1–2.2（有理数比与化简），不教 2.3 应用题（下一周）。"
+    },
     "SEC-0": {
       fossil: "Although I was nervous, but I tried. ✗ (中文「虽然…但是…」迁移) / I go yesterday ✗ (叙事体过去时掉落)",
       examples: [
