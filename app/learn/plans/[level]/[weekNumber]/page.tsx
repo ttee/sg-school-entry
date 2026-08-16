@@ -2621,6 +2621,43 @@ const lessonPlans: Record<string, LessonPlan> = {
     ],
     speakingPrompts: null,
   },
+  "SMATH-2": {
+    title: "代数 — Algebra",
+    fossil: "3a means 3×a not 3+a / forgetting to simplify like terms",
+    sections: [
+      {
+        name: "课前",
+        duration: "2 分钟",
+        teacherNotes: "确认 Zoom 设置正常。孩子和家长都在镜头前。对家长说：「今天教中学 AEIS 数学第 2 周，代数（algebra）。本周是 Sec 1 数学卷型样本，内容对应前一级 P6 Algebra 1.1–1.5。SEAB 官方规则：申请 Sec 1 入学的孩子需熟悉 Sec 1 前一级的内容。不用计算器，要写出算式步骤。本周不教括号（brackets）、负系数、联立方程、不等式、二次方程。」",
+      },
+      {
+        name: "热身",
+        duration: "5 分钟",
+        teacherNotes: "问孩子：'Do you know what algebra is?' 等孩子回答。然后说：'Algebra uses letters to represent unknown numbers. For example, n stands for a number. If n = 4, then 3n means 3 × n = 3 × 4 = 12.' 在白板上写 3n，解释：'3n means 3 multiplied by n, not 3 + n.' 问孩子：'If a = 5, what is 2a?' 等孩子说 '10.' 强调：'2a = 2 × a = 2 × 5 = 10.' 不立刻讲化简，只练代数乘法记号。",
+      },
+      {
+        name: "化石",
+        duration: "8 分钟",
+        teacherNotes: "在屏幕上或白板上写下常见混淆：'3a means 3 × a, not 3 + a.' 解释：代数里 3a 表示乘法，不是加法。再写：'Simplify 2x + 3x. Answer: 2x + 3x = 5x (combine like terms).' 强调：同类项（like terms）可以合并，2x 和 3x 都是 x 的项，所以 2x + 3x = 5x。不要写成 2x + 3x 当答案，要化简到 5x。让孩子跟读：'3a equals 3 times a. Combine like terms.' 2 次。",
+      },
+      {
+        name: "例题",
+        duration: "10 分钟",
+        teacherNotes: "教师示范一道完整例题（写出算式步骤）。例题：If a = 4, find the value of 3a + 2. 步骤：① 3a = 3 × a = 3 × 4 = 12. ② 3a + 2 = 12 + 2 = 14. Answer: 14. 强调：算式要分步骤写，不能只写答案。再做一道化简：Simplify 4x + 7 + 3x − 2. 步骤：① Combine like terms: 4x + 3x = 7x. ② Combine constants: 7 − 2 = 5. ③ Answer: 7x + 5. 再做一道方程：Solve 2x + 3 = 11. 步骤：① 2x = 11 − 3. ② 2x = 8. ③ x = 8 ÷ 2. ④ x = 4. Answer: x = 4. 孩子在纸上抄一遍例题步骤。",
+      },
+      {
+        name: "练习",
+        duration: "12 分钟",
+        teacherNotes: "给孩子 3 道练习题，让孩子独立做，写出算式步骤。家长可以用手机拍照孩子的算式。题 1：Simplify 2x + 5x. 答案：2x + 5x = 7x. 题 2：If m = 6, find 2m − 5. 答案：2m = 2 × 6 = 12, 2m − 5 = 12 − 5 = 7. 题 3：Solve x + 9 = 15. 答案：x = 15 − 9 = 6. 教师巡看孩子的算式，纠正格式（如果孩子只写答案不写步骤，提醒 'AEIS 官方要求写出 working steps'）。如果孩子写 2x + 5x 当答案不化简，提醒 'Combine like terms to simplify'。",
+      },
+      {
+        name: "收口",
+        duration: "3 分钟",
+        teacherNotes: "总结本周重点：(1) 官方 Sec 1 AEIS 数学卷型：Part 1 MCQ 34 题 30 分钟 + Part 2 show working 20+10–15 题 1 小时 45 分钟，不用计算器。(2) 本周内容：P6 Algebra 1.1–1.5（using a letter, notation 3a = 3×a, simplifying excluding brackets, evaluating by substitution, simple linear equations with whole number coefficient），对应 preceding level 规则。(3) 本周化石：3a means 3×a not 3+a（未理解代数乘法记号）、forgetting to simplify like terms（忘记合并同类项）。对家长说：「本周作业有 5+8+3 道题，模拟官方题型，不是完整 34+20+10–15 题。孩子做完后上传到作业 app，选择题自动批改，写算式题家长拍照上传。」",
+      },
+    ],
+    speakingPrompts: null,
+  },
 };
 
 export default async function LessonPlanPage({

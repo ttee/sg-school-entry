@@ -283,6 +283,14 @@ export default function WeikeMiniLesson({ level, weekNumber }: WeikeMiniLessonPr
       ],
       gloss: "AEIS 中学数学第 1 周 / SMATH Week 1. 本周例题：按比例分配数量（P6 Ratio 1.1–1.7）。新加坡钱币用 S$ 符号。Divide a quantity in a ratio: 先算 total parts，再算 1 part，最后算各部分。Simplest form: 约到最简（8:12 = 2:3）。Equivalent ratios: 2:3 = 4:6 = 8:12。Missing term: 4:7 = 12:□ → □ = 21。Ratio to fraction: 2:3 的第一项占总数的 2/5。不教分数或小数比（官方排除）。不用计算器，写出算式步骤。"
     },
+    "SMATH-2": {
+      examples: [
+        "If a = 4, find the value of 3a + 2.",
+        "3a = 3 × a = 3 × 4 = 12",
+        "3a + 2 = 12 + 2 = 14"
+      ],
+      gloss: "AEIS 中学数学第 2 周 / SMATH Week 2. 本周例题：P6 代数（P6 Algebra 1.1–1.5）。3a 表示 3 × a（乘法，不是 3 + a）。化简同类项：2x + 3x = 5x。代入求值：If a = 4, then 3a + 2 = 3 × 4 + 2 = 12 + 2 = 14。解方程：2x + 3 = 11 → 2x = 11 − 3 → 2x = 8 → x = 4。不教括号（brackets）、负系数（negative coefficients）、联立方程（simultaneous equations）。不用计算器，写出算式步骤。"
+    },
     "SEC-0": {
       fossil: "Although I was nervous, but I tried. ✗ (中文「虽然…但是…」迁移) / I go yesterday ✗ (叙事体过去时掉落)",
       examples: [
