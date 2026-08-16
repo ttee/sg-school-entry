@@ -7791,6 +7791,94 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
         },
       ],
     },
+    {
+      level: "SMATH",
+      weekNumber: 11,
+      title: "数学 第 11 周 / Maths Week 11",
+      description: "AEIS-Secondary Mathematics: Sec 1 negative numbers, integers, rationals, reals and their four operations",
+      isSample: false,
+      errorFocus: "sign error when adding/subtracting negatives / minus × minus left negative / mixing (−3)² and −3²",
+      parentBrief: "本周是中学 AEIS 数学第 11 周，对应官方 SEAB Sec 1 卷型（https://www.seab.gov.sg/aeis/test-details/ 2026年7月1日更新）。Part 1 Multiple-choice questions：34 道 MCQ，30 分钟。Part 2 Short-answer questions (20 items) and open-ended questions (10 to 15 items)：1 小时 45 分钟。Calculators are not allowed（不允许使用计算器）。Short-answer and open-ended questions：candidates are required to show the method of solution clearly by writing working steps in the spaces provided, plus the final answer（需写出算式步骤和最终答案）。AEIS-Secondary 官方 preceding-level 规则：申请 Sec 2 入学者需熟悉 Sec 2 前一级的内容。官方举例：apply Secondary 3 → be familiar with Secondary 2 content. 本周针对 Sec 2 申请者，内容为 Sec 2 前一级（Sec 1）的官方 MOE 2020 G3 Mathematics Syllabuses, Secondary One, NUMBER AND ALGEBRA, N1. Numbers and their operations: 1.3 negative numbers, integers, rational numbers, real numbers and their four operations（负数、整数、有理数、实数及其四则运算）。本周作业是样本，不是完整 34 + 20 + 10–15 题。本周是 1.3 内容，第 8–10 周已教 1.1 质数分解和 1.2 HCF/LCM/平方立方和根，本周不教 1.4 计算器运算（AEIS 不允许使用计算器）、1.5 数轴、1.6 不等号、1.7 近似与估算（那些是后续周）。本周化石：sign error when adding/subtracting negatives（负数加减时符号错误，例如把 −4 − (−6) 当成 −10 而不是 2）、minus × minus left negative（负负得正记错，以为负数乘负数还是负数）、mixing (−3)² and −3²（混淆 (−3)² = 9 和 −3² = −9，前者是先负后平方，后者是先平方后负）。本周内容：负数 negative numbers、整数 integers（包括正整数、0、负整数）、有理数 rational numbers（能写成分数形式的数）、实数 real numbers（有理数 + 无理数，本周只教孩子能手算的简单数）的四则运算 four operations（加 addition、减 subtraction、乘 multiplication、除 division）。加减法：3 + (−5) = −2（加负数等于减去正数），−4 − 6 = −10（负数减正数更负），−4 − (−6) = 2（减负数等于加正数）。乘除法：(−3) × (−4) = 12（负负得正），(−12) ÷ 4 = −3（负正得负），12 ÷ (−3) = −4（正负得负）。运算顺序：先算括号内，再算乘除（从左到右），最后算加减（从左到右）。区分 (−3)² 和 −3²：(−3)² = (−3) × (−3) = 9（先负后平方），−3² = −(3²) = −9（先平方后负）。简单有理数：−2/3 + 1/6 = −4/6 + 1/6 = −3/6 = −1/2（分母相同时分子相加），(−3/4) × (8/9) = −24/36 = −2/3（分子乘分子，分母乘分母，符号负正得负，结果约分）。保持分数友好（denominators stay friendly，不超过 12）。金额用新加坡元 S$（如涉及钱币，本周可能有温度、电梯楼层、账户余额等应用）。题目选项必须唯一（unique keys only）：不能有两个选项是相同数值或相同含义。化石对应的错误答案应作为错误选项（wrong option），不是第二个正确答案（not a second correct answer）。例如 (−3)² 的正确答案是 9，不能再提供 (−3) × (−3) 作为另一个正确选项（do not offer both 9 and (−3) × (−3) as two correct forms on one item）。对于 (−3)² vs −3²，同一题只有一个正确（only one is correct for that stem）。不发明官方未提及的内容（do not invent official facts）。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "Calculate: 3 + (−5)|A. −8|B. −2|C. 2|D. 8",
+            "Calculate: −4 − (−6)|A. −10|B. −2|C. 2|D. 10",
+            "Calculate: (−3) × (−4)|A. −12|B. −7|C. 7|D. 12",
+            "Calculate: (−12) ÷ 3|A. −9|B. −4|C. 4|D. 9",
+            "Calculate: (−3)²|A. −9|B. −6|C. 6|D. 9",
+          ]),
+          correctAnswer: "B,C,D,B,D",
+          points: 10,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "Calculate: −7 + 3|A. −10|B. −4|C. 4|D. 10",
+            "Calculate: 5 − 9|A. −14|B. −4|C. 4|D. 14",
+            "Calculate: (−6) × 2|A. −12|B. −8|C. −4|D. 12",
+            "Calculate: 15 ÷ (−3)|A. −18|B. −5|C. 5|D. 18",
+            "Calculate: −3²|A. −9|B. −6|C. 6|D. 9",
+            "Calculate: −2/3 + 1/6|A. −5/6|B. −1/2|C. −1/3|D. 1/2",
+            "Calculate: (−4) + (−2) × 3|A. −18|B. −10|C. −6|D. 6",
+            "Wei's bank account had S$50. He spent S$70. What is his new balance?|A. S$120|B. S$20|C. −S$20|D. −S$120",
+          ]),
+          correctAnswer: "B,B,A,B,A,B,B,C",
+          points: 16,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `Part 2: Show Your Working (写出算式步骤)
+
+Riverside Secondary School has number theory problems. Answer the questions below. Show all your working clearly.
+
+Question (a)
+Calculate: −5 − (−8). Show your working.
+
+Question (b)
+Calculate: (−3) × 4 ÷ (−2). Show your working.
+
+Question (c)
+The temperature in a lab was 5°C. It dropped by 9°C. What is the new temperature? Show your working.
+
+写作提示 / Tips:
+✓ 每题分步骤写出算式 (Show working steps for each question)
+✓ Part 2 官方要求：clearly show the method of solution by writing working steps, plus the final answer
+✓ 不用计算器 (No calculators allowed: do calculations by hand)
+✓ 负数四则运算步骤示范：
+  • 负数加减 (adding/subtracting negatives)：
+    −5 − (−8) = −5 + 8 = 3 (减负数等于加正数 subtracting a negative equals adding a positive)
+    3 + (−5) = 3 − 5 = −2 (加负数等于减正数 adding a negative equals subtracting a positive)
+    −4 − 6 = −10 (负数减正数更负 negative minus positive gives a more negative number)
+  • 负数乘除 (multiplying/dividing negatives)：
+    (−3) × 4 = −12 (负正得负 negative × positive = negative)
+    (−3) × (−4) = 12 (负负得正 negative × negative = positive)
+    (−12) ÷ 4 = −3 (负正得负 negative ÷ positive = negative)
+    12 ÷ (−3) = −4 (正负得负 positive ÷ negative = negative)
+  • 运算顺序 (order of operations)：
+    (−4) + (−2) × 3 = (−4) + (−6) = −10 (先乘除后加减 multiplication/division before addition/subtraction)
+  • (−3)² vs −3²：
+    (−3)² = (−3) × (−3) = 9 (括号内先负后平方 negative first then square)
+    −3² = −(3 × 3) = −9 (先平方后负 square first then negative)
+✓ 应用题 (word problems)：
+  • 温度 temperature: 5°C − 9°C = −4°C (降温用减法，结果可能是负数 temperature drop uses subtraction, result can be negative)
+  • 账户余额 account balance: S$50 − S$70 = −S$20 (支出超过余额得负数 spending exceeds balance gives negative)
+✓ 金额用新加坡元 S$ (money in Singapore dollars S$)
+✓ 负数写法：−3 或 (−3)（用括号避免混淆 use brackets to avoid confusion）
+
+Note: This is a sample of Part 2 short-answer/open-ended questions. The official paper has 20 short-answer + 10–15 open-ended items in 1 hour 45 minutes.`,
+          points: 20,
+        },
+      ],
+    },
   ];
 
   // =================================================================

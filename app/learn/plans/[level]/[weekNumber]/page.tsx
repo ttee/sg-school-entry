@@ -3361,6 +3361,43 @@ const lessonPlans: Record<string, LessonPlan> = {
     ],
     speakingPrompts: null,
   },
+  "SMATH-11": {
+    title: "负数四则运算 — Negative Numbers, Integers, Rationals, Reals and Their Four Operations",
+    fossil: "sign error when adding/subtracting negatives / minus × minus left negative / mixing (−3)² and −3²",
+    sections: [
+      {
+        name: "课前",
+        duration: "2 分钟",
+        teacherNotes: "确认 Zoom 设置正常。孩子和家长都在镜头前。对家长说：「今天教中学 AEIS 数学第 11 周，负数、整数、有理数、实数及其四则运算（negative numbers, integers, rational numbers, real numbers and their four operations）。本周是 Sec 1 数学卷型样本，内容对应前一级 Sec 1 NUMBER AND ALGEBRA, N1. Numbers and their operations: 1.3 负数、整数、有理数、实数及其四则运算。官方 MOE 2020 G3 Mathematics Syllabuses, Secondary One, NUMBER AND ALGEBRA。SEAB 官方规则：申请 Sec 2 入学的孩子需熟悉 Sec 2 前一级（Sec 1）的内容。不用计算器，要写出算式步骤。」",
+      },
+      {
+        name: "热身",
+        duration: "5 分钟",
+        teacherNotes: "问孩子：'What happens when we add a negative number? For example, 3 + (−5)?' 等孩子回答。如果孩子说 3 + (−5) = −2，点头。如果孩子说 3 + (−5) = 8 或其他错误，说：'Let's think. Adding a negative number is like subtracting a positive number. 3 + (−5) = 3 − 5 = −2.' 在白板上写：'3 + (−5) = 3 − 5 = −2'。再问：'What about −4 − (−6)?' 等孩子回答。如果孩子卡住，说：'Subtracting a negative number is like adding a positive number. −4 − (−6) = −4 + 6 = 2.' 在白板上写：'−4 − (−6) = −4 + 6 = 2'。让孩子看到今天的目标：负数的加减乘除四则运算，以及区分 (−3)² 和 −3²。",
+      },
+      {
+        name: "化石",
+        duration: "8 分钟",
+        teacherNotes: "在屏幕上或白板上写下常见混淆：'Fossil 1: Sign error when adding/subtracting negatives. ✗ Example: −4 − (−6). Wrong: −4 − (−6) = −10 (treated −(−6) as −6 instead of +6). Correct: −4 − (−6) = −4 + 6 = 2. Subtracting a negative is like adding a positive.' 再写：'Fossil 2: Minus × minus left negative. ✗ Example: (−3) × (−4). Wrong: (−3) × (−4) = −12 (thought negative × negative = negative). Correct: (−3) × (−4) = 12. Negative × negative = positive.' 再写：'Fossil 3: Mixing (−3)² and −3². ✗ Example 1: (−3)². Wrong: (−3)² = −9 (forgot brackets mean the whole negative is squared). Correct: (−3)² = (−3) × (−3) = 9. Example 2: −3². Wrong: −3² = 9 (thought it was (−3)²). Correct: −3² = −(3²) = −9. Square first, then negative.' 对家长说：「本周三大化石：减负数当成加负数、负负得负、括号平方和先平方后负搞混。我们今天专攻这三个难点。」",
+      },
+      {
+        name: "例题",
+        duration: "10 分钟",
+        teacherNotes: "教师示范六道完整例题（写出算式步骤）。例题 1：Calculate: 3 + (−5). 步骤：① Adding a negative = subtracting a positive. ② 3 + (−5) = 3 − 5 = −2. Answer: −2. 例题 2：Calculate: −4 − (−6). 步骤：① Subtracting a negative = adding a positive. ② −4 − (−6) = −4 + 6 = 2. Answer: 2. 例题 3：Calculate: (−3) × (−4). 步骤：① Negative × negative = positive. ② (−3) × (−4) = 12. Answer: 12. 例题 4：Calculate: (−12) ÷ 4. 步骤：① Negative ÷ positive = negative. ② (−12) ÷ 4 = −3. Answer: −3. 例题 5：Calculate: (−3)². 步骤：① Brackets mean the whole negative is squared. ② (−3)² = (−3) × (−3) = 9. Answer: 9. 例题 6：Calculate: −3². 步骤：① Square first, then negative. ② −3² = −(3 × 3) = −9. Answer: −9. 再做一道应用题：The temperature in a lab was 5°C. It dropped by 9°C. What is the new temperature? 步骤：① Start: 5°C. ② Drop by 9°C: 5 − 9 = −4. ③ New temperature: −4°C. Answer: −4°C. 让孩子跟读每个步骤，特别是 'adding a negative = subtracting a positive'、'subtracting a negative = adding a positive'、'negative × negative = positive'。",
+      },
+      {
+        name: "练习",
+        duration: "12 分钟",
+        teacherNotes: "给孩子 3 道练习题，让孩子独立做，写出算式步骤。家长可以用手机拍照孩子的推理。题 1：Calculate: −5 − (−8). Show your working. 答案：① Subtracting a negative = adding a positive. ② −5 − (−8) = −5 + 8 = 3. Answer: 3. 题 2：Calculate: (−3) × 4 ÷ (−2). Show your working. 答案：① First, multiply: (−3) × 4 = −12 (negative × positive = negative). ② Then, divide: (−12) ÷ (−2) = 6 (negative ÷ negative = positive). Answer: 6. 题 3：Wei's bank account had S$50. He spent S$70. What is his new balance? Show your working. 答案：① Start: S$50. ② Spent: S$50 − S$70 = −S$20. ③ New balance: −S$20 (he owes S$20). Answer: −S$20. 教师巡看孩子的推理，纠正格式（如果孩子只写答案不写步骤，提醒 'AEIS 官方要求写出 working steps'）。如果孩子把 −5 − (−8) 算成 −13（把减负数当成加负数），指出：'Subtracting a negative is like adding a positive. −5 − (−8) = −5 + 8 = 3.' 如果孩子把 (−3) × (−4) 算成 −12（负负得负），指出：'Negative × negative = positive, not negative. (−3) × (−4) = 12.' 如果孩子把 (−3)² 算成 −9 或把 −3² 算成 9，指出：'(−3)² = (−3) × (−3) = 9. But −3² = −(3²) = −9. The brackets make a difference.'",
+      },
+      {
+        name: "收口",
+        duration: "3 分钟",
+        teacherNotes: "总结本周重点：(1) 官方 Sec 1 AEIS 数学卷型：Part 1 MCQ 34 题 30 分钟 + Part 2 show working 20+10–15 题 1 小时 45 分钟，不用计算器。(2) 本周内容：Sec 1 NUMBER AND ALGEBRA, N1. Numbers and their operations: 1.3 negative numbers, integers, rational numbers, real numbers and their four operations（负数、整数、有理数、实数及其四则运算），对应 preceding level 规则。(3) 本周化石：sign error when adding/subtracting negatives（把 −4 − (−6) 当成 −10），minus × minus left negative（负负得负），mixing (−3)² and −3²（混淆 (−3)² = 9 和 −3² = −9）。(4) 加减法规则：adding a negative = subtracting a positive（3 + (−5) = 3 − 5 = −2），subtracting a negative = adding a positive（−4 − (−6) = −4 + 6 = 2）。(5) 乘除法规则：negative × negative = positive（(−3) × (−4) = 12），negative × positive = negative（(−3) × 4 = −12），positive ÷ negative = negative（12 ÷ (−3) = −4），negative ÷ negative = positive（(−12) ÷ (−3) = 4）。(6) 区分 (−3)² 和 −3²：(−3)² = (−3) × (−3) = 9（括号内先负后平方），−3² = −(3²) = −9（先平方后负）。(7) 运算顺序：先括号 brackets，再乘除 multiplication/division（从左到右），最后加减 addition/subtraction（从左到右）。例：(−4) + (−2) × 3 = (−4) + (−6) = −10。(8) 应用：温度变化（5°C − 9°C = −4°C），账户余额（S$50 − S$70 = −S$20）。对家长说：「本周作业有 5+8+3 道题，模拟官方题型，不是完整 34+20+10–15 题。孩子做完后上传到作业 app，选择题自动批改，写推理题家长拍照上传。」",
+      },
+    ],
+    speakingPrompts: null,
+  },
 };
 
 export default async function LessonPlanPage({
