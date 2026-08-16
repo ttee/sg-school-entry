@@ -110,6 +110,84 @@ AUDIO_CONFIGS = [
             ("Announcer", TEACHER_VOICE, "Let's work together to make our school greener! If you have questions, see any Eco Club member. Thank you."),
         ]
     },
+    {
+        "filename": "a2-w4-listening.mp3",
+        "dialogue": [
+            ("Mum", FEMALE_VOICE, "Priya, I'm making a shopping list for tomorrow. Can you help me?"),
+            ("Priya", STUDENT_VOICE, "Sure, Mum! What do we need?"),
+            ("Mum", FEMALE_VOICE, "Let me check the fridge. We don't have any eggs left. How many eggs should I buy?"),
+            ("Priya", STUDENT_VOICE, "Get two dozen. We use a lot of eggs in our cooking."),
+            ("Mum", FEMALE_VOICE, "Okay. Do we have any milk?"),
+            ("Priya", STUDENT_VOICE, "Yes, we have some milk, but not much. Maybe buy two more bottles?"),
+            ("Mum", FEMALE_VOICE, "Good idea. What about vegetables?"),
+            ("Priya", STUDENT_VOICE, "We have a lot of vegetables – potatoes, carrots, tomatoes. But we don't have any onions."),
+            ("Mum", FEMALE_VOICE, "Right. I'll get some onions and maybe some green beans too. How much rice do we have?"),
+            ("Priya", STUDENT_VOICE, "We still have half a bag. That's enough for this week."),
+            ("Mum", FEMALE_VOICE, "Perfect. What about bread?"),
+            ("Priya", STUDENT_VOICE, "We finished the bread this morning. We need a new loaf."),
+            ("Mum", FEMALE_VOICE, "Okay. And we need some fruit. Any requests?"),
+            ("Priya", STUDENT_VOICE, "Can we get some mangoes? I love mangoes!"),
+        ]
+    },
+    {
+        "filename": "a2-w5-listening.mp3",
+        "dialogue": [
+            ("Ms Tan", TEACHER_VOICE, "Good morning, everyone! Listen carefully. Our Sports Day is next Friday. We'll meet at the school field at eight o'clock sharp. Don't be late!"),
+            ("Ms Tan", TEACHER_VOICE, "You must wear your PE uniform – that's your house T-shirt, shorts, and sports shoes. Red House wears red T-shirts, Blue House wears blue, Yellow House wears yellow, and Green House wears green. Bring a water bottle and a cap because it will be sunny."),
+            ("Ms Tan", TEACHER_VOICE, "There are four events. First is the 100-metre sprint at nine o'clock. Then we have the long jump, the relay race, and the fun obstacle course. Parents can watch from the benches near the canteen."),
+            ("Ms Tan", TEACHER_VOICE, "After all the events, we'll have a prize-giving ceremony at twelve o'clock. The principal will give medals to the winners. But remember, the most important thing is to do your best and have fun!"),
+            ("Ms Tan", TEACHER_VOICE, "If it rains heavily on Friday morning, Sports Day will move to next Monday. Check the school website on Thursday evening. Any questions?"),
+            ("Student 1", STUDENT_VOICE, "Ms Tan, I'm in Yellow House. Can I wear my yellow T-shirt from home?"),
+            ("Ms Tan", TEACHER_VOICE, "Yes, as long as it's your house colour. But make sure it's suitable for sports!"),
+            ("Student 2", STUDENT_VOICE, "What if I'm not good at running?"),
+            ("Ms Tan", TEACHER_VOICE, "That's okay! You can join the obstacle course – that's more about teamwork than speed. Everyone can take part in something!"),
+        ]
+    },
+    {
+        "filename": "a2-w6-listening.mp3",
+        "dialogue": [
+            ("Mei", FEMALE_VOICE, "Hi Priya! What are your plans for this weekend?"),
+            ("Priya", STUDENT_VOICE, "Hi Mei! On Saturday morning, I have art class at 10 o'clock. It's at the community centre near my flat."),
+            ("Mei", FEMALE_VOICE, "That sounds fun! What will you do after that?"),
+            ("Priya", STUDENT_VOICE, "In the afternoon, my mum and I are going to the library. We usually go there on Saturday afternoons. Then, at night, my family will watch a movie at home. We always have movie night on Saturdays at 8 p.m."),
+            ("Mei", FEMALE_VOICE, "Nice! What about Sunday?"),
+            ("Priya", STUDENT_VOICE, "On Sunday, we're going to Gardens by the Bay! We'll leave in the morning, at about 9:30. We're meeting my cousins there. Have you been there?"),
+            ("Mei", FEMALE_VOICE, "Yes! I went there in August with my family. It was beautiful! What time will you come back?"),
+            ("Priya", STUDENT_VOICE, "Probably in the evening, at around 6 o'clock. Then I need to finish my homework at night before Monday. What about you? What will you do at the weekend?"),
+            ("Mei", FEMALE_VOICE, "On Saturday, I have piano practice at 2 p.m. Then, on Sunday morning, I'm going to church with my family at 10 o'clock. In the afternoon, we might go to East Coast Park."),
+            ("Priya", STUDENT_VOICE, "That's nice! I love East Coast Park. Maybe we can go there together in October, during the school holiday?"),
+            ("Mei", FEMALE_VOICE, "Yes! That would be great! Let's plan it next week."),
+        ]
+    },
+    {
+        "filename": "b1-w4-listening.mp3",
+        "dialogue": [
+            ("Mei", FEMALE_VOICE, "Hi Priya! Did you hear what Ms Chen said in assembly this morning?"),
+            ("Priya", STUDENT_VOICE, "Not really – I was standing at the back and couldn't hear clearly. What did she say?"),
+            ("Mei", FEMALE_VOICE, "She said that the school library would be closed next week for renovations. She told us that we should borrow any books we need before Friday."),
+            ("Priya", STUDENT_VOICE, "Oh no! I need to finish my History project. Did she say when the library would reopen?"),
+            ("Mei", FEMALE_VOICE, "Yes, she said it would reopen on the fifteenth of next month. She also told us that we could use the public library near Bedok MRT if we needed to."),
+            ("Priya", STUDENT_VOICE, "That's helpful. Did she mention anything else?"),
+            ("Mei", FEMALE_VOICE, "She said the canteen would have new operating hours from next Monday. She told us that breakfast would start at seven instead of seven-thirty, but lunch would still be at the usual time."),
+            ("Priya", STUDENT_VOICE, "Great! That means I can grab something before my early class. Thanks for letting me know!"),
+        ]
+    },
+    {
+        "filename": "b1-w5-listening.mp3",
+        "dialogue": [
+            ("Mei", FEMALE_VOICE, "Hi Priya! Thanks for coming. We need to organise our Science project team."),
+            ("Priya", STUDENT_VOICE, "No problem. So we have four people in total, right? You, me, Jun Wei, and that new student who just joined our class last week – what's his name?"),
+            ("Mei", FEMALE_VOICE, "Wei Han. He's the one who said he's good at research. I think he should handle the research part – you know, finding the articles and information that we need."),
+            ("Priya", STUDENT_VOICE, "Good idea. And I can do the presentation slides. I have that software which makes really nice graphics."),
+            ("Mei", FEMALE_VOICE, "Perfect. Jun Wei is the person who's best at explaining things clearly, so he should be our main speaker."),
+            ("Priya", STUDENT_VOICE, "What about you?"),
+            ("Mei", FEMALE_VOICE, "I'll coordinate everything and write the script. I'm good at organising the parts that everyone writes."),
+            ("Priya", STUDENT_VOICE, "When's our deadline?"),
+            ("Mei", FEMALE_VOICE, "Ms Tan said it's the project which is due on the twenty-third of next month. That gives us four weeks."),
+            ("Priya", STUDENT_VOICE, "We should meet every Tuesday after school. The library has study rooms that we can book."),
+            ("Mei", FEMALE_VOICE, "Great idea. I'll message the boys now."),
+        ]
+    },
 ]
 
 async def generate_audio_with_pauses(dialogue, output_path):
