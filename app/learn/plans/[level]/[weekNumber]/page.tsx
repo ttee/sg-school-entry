@@ -2584,6 +2584,43 @@ const lessonPlans: Record<string, LessonPlan> = {
       "The debate team of senior students helps train juniors. ✓",
     ],
   },
+  "SEC-2": {
+    title: "Morning Assembly — Prepositions of Time",
+    fossil: "在星期一早上 7:30 (中文一个在，英语分 at / on / in)",
+    sections: [
+      {
+        name: "课前",
+        duration: "2 分钟",
+        teacherNotes: "确认 Zoom 设置正常。孩子和家长都在镜头前。对家长说：「今天教中学 AEIS 英语第 2 周，不是 CEQ。本周只练一个错误：时间介词（prepositions of time）。at 用于具体时刻（at 7:30），on 用于星期和日期（on Monday），in 用于时段（in the morning）。中文用一个「在」，英语要区分 at / on / in。」提醒家长可以在旁边观摩，但请让孩子自己开口。",
+      },
+      {
+        name: "热身",
+        duration: "5 分钟",
+        teacherNotes: "问孩子：'What time do you arrive at school?' 让孩子说。如果孩子说 'I arrive in 7:30'（时间介词错误）或 'I arrive at the morning'（时间介词错误），不要立刻纠正，等微课环节再讲。问：'What day is your assembly?'，引导孩子说话。",
+      },
+      {
+        name: "化石",
+        duration: "8 分钟",
+        teacherNotes: "在屏幕上或白板上写下一个错误句子：'The assembly is in 7:30 at Monday morning.' 或 '我在星期一早上 7:30 到学校' → 'I arrive in 7:30 on Monday at the morning.' 问孩子：'这句话对吗？' 等孩子思考后，圈出错误部分。解释化石：中文用一个「在」表达时间，英语要区分 at / on / in。at 用于具体时刻（at 7:30 / at noon），on 用于星期和日期（on Monday / on 15 August），in 用于时段（in the morning / in 2026 / in January）。正确说法：The assembly is at 7:30 on Monday morning. ✓ / I arrive at 7:30 on Monday in the morning. ✓（可组合）。让孩子跟读改正后的句子 3 次。",
+      },
+      {
+        name: "跟读",
+        duration: "5 分钟",
+        teacherNotes: "展示 4 个正确句子（见 spokenLines），一句一句让孩子跟读。读完后问：'Which preposition did we use with 7:30?' 等孩子说 'at'。问：'Which preposition did we use with Monday?' 等孩子说 'on'。问：'Which preposition did we use with the morning?' 等孩子说 'in'。如果孩子说错，再带读 2 次。确认孩子能准确说出 at / on / in 的用法。",
+      },
+      {
+        name: "作业",
+        duration: "5 分钟",
+        teacherNotes: "打开 /learn 页面，给孩子看 SEC 第 2 周作业入口。告诉孩子：「这周的作业是中学 AEIS 英语第 2 周，包括阅读理解（morning assembly）、语法题（时间介词 at / on / in）、写作（2 题选 1，写 200-300 词）。完成后系统会自动批改选择题，写作部分会有 AI 反馈。」对家长说：「这是 AEIS-Secondary 第 2 周，不是 CEQ。官方 Sec 1 卷型：Part 1 Writing 2 题选 1 篇，200-300 词；Part 2 有 50 道 MCQ（理解 + 完形 + 词汇 + 语法）。本周是样本，不是完整 50 题。孩子完成作业后，我们会在微信群里同步进度。」不提「包过」「保证录取」等话术。",
+      },
+    ],
+    spokenLines: [
+      "The assembly starts at 7:30. ✓ (具体时刻用 at)",
+      "We have assembly on Monday. ✓ (星期用 on)",
+      "We line up in the morning. ✓ (时段用 in)",
+      "The flag-raising is at 7:45 on Monday morning. ✓ (可以组合)",
+    ],
+  },
   "SMATH-0": {
     title: "百分数增减 — Percentage Increase/Decrease",
     fossil: "part/whole mix-up / % of vs % increase",
