@@ -509,6 +509,14 @@ export default function WeikeMiniLesson({ level, weekNumber }: WeikeMiniLessonPr
       ],
       gloss: "AEIS 中学数学第 26 周 / SMATH Week 26. 本周例题：Sec 1 用字母表示数（Sec 1 NUMBER AND ALGEBRA: N5.1 using letters to represent numbers）。A letter stands for a number（字母代表一个数）。3 more than n is n + 3（不是 3n）。5 less than n is n − 5（不是 5 − n）。Twice n is 2n or 2 × n（不是 n + 2）。Half of n is n ÷ 2 or n/2（不是 n − 2）。Short \"let the number be n\" phrases are 5.1（短的"设这个数为 n"属于 5.1）。本周不用 ab, a², a³ 或括号展开（那些是 5.2 interpreting notations）。本周化石：writing 3n when the story is \"3 more than n\"（当应用题说"n 多 3"时错误地写 3n，正确应该是 n + 3）；writing n + 3 when the story is \"3 times n\"（当应用题说"n 的 3 倍"时错误地写 n + 3，正确应该是 3n）；writing 3 − n when the story is \"n minus 3\"（当应用题说"n 减 3"时错误地写 3 − n，正确应该是 n − 3）；treating the letter as a unit, not a number（把字母当单位而不是数）。本周只教写出表达式 write the expression，本周不教代入数值求值 substitute a value（那是 5.3 evaluation，后续周次内容）。第 23–25 周已完成 N4，本周开始 N5，只教 5.1 using letters to represent numbers。本周不教 5.2 notations（下周内容）。不用计算器，写出算式步骤。"
     },
+    "SMATH-27": {
+      examples: [
+        "3y means 3 × y (not 3 + y). Example: If y = 4, then 3y = 3 × 4 = 12, not 3 + 4 = 7.",
+        "a² means a × a (not 2a). Example: If a = 5, then a² = 5 × 5 = 25, not 2 × 5 = 10.",
+        "3(x + y) means 3 × (x + y) (not 3x + y). Example: If x = 2 and y = 3, then 3(x + y) = 3 × (2 + 3) = 3 × 5 = 15, not 3 × 2 + 3 = 9."
+      ],
+      gloss: "AEIS 中学数学第 27 周 / SMATH Week 27. 本周例题：Sec 1 解读代数符号（Sec 1 NUMBER AND ALGEBRA: N5.2 interpreting notations）。官方 5.2 wording（逐字引用）：'• ab as a × b • a/b as a ÷ b or a × 1/b • a² as a × a, a³ as a × a × a, a²b as a × a × b • 3y as y + y + y or 3 × y • 3(x + y) as 3 × (x + y) • (3 + y)/5 as (3 + y) ÷ 5 or 1/5 × (3 + y)'。ab means a × b（不是 a + b）。3y means 3 × y（不是 3 + y）。a² means a × a（不是 2a）。a³ means a × a × a（不是 3a）。a²b means a × a × b。3(x + y) means 3 × (x + y)（不是 3x + y；3x + y 是不同的表达式，它是 3 × x plus y，不等于 3 multiplied by the whole sum (x + y)。3x + 3y 是 expansion 5.8 后续内容，本周不教）。(3 + y)/5 means (3 + y) ÷ 5。本周化石：reading 3y as 3 + y（把 3y 读成 3 + y，正确是 3 × y）；reading ab as a + b（把 ab 读成 a + b，正确是 a × b）；reading a² as 2a（把 a² 读成 2a，正确是 a × a）；reading a³ as 3a（把 a³ 读成 3a，正确是 a × a × a）；reading 3(x + y) as 3x + y (dropping the bracket)（把 3(x + y) 读成 3x + y，丢掉括号，正确是 3 × (x + y)）。本周只教 what each notation means（本周只教每个符号代表什么），本周不教代入数值求值 substitute values（那是 5.3 evaluation，下周内容）。第 26 周已完成 5.1（using letters to represent numbers），本周只教 5.2 interpreting notations。下周 5.3 evaluation。不用计算器，写出算式步骤。"
+    },
     "SEC-0": {
       fossil: "Although I was nervous, but I tried. ✗ (中文「虽然…但是…」迁移) / I go yesterday ✗ (叙事体过去时掉落)",
       examples: [
