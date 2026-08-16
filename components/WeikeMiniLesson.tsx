@@ -208,6 +208,16 @@ export default function WeikeMiniLesson({ level, weekNumber }: WeikeMiniLessonPr
       ],
       gloss: "P4 学小数乘除（最多两位小数）：multiplying and dividing decimals (up to 2 decimal places) by a 1-digit whole number, dividing a whole number by a whole number with quotient as a decimal, rounding。关键技能：2.45 × 3 → 先算 245 × 3 = 735，小数点往左移 2 位 = 7.35；6.4 ÷ 4 → 小数点直接上移，64 ÷ 4 = 16，答案 1.6；5 ÷ 2 → 除不尽时补零，5.0 ÷ 2 = 2.5；7 ÷ 4 = 1.75（4 goes into 7 once 余 3，补零 30，4 goes into 30 seven times 余 2，补零 20，4 goes into 20 five times）。四舍五入：3.26 × 5 = 16.30，若要求 1 d.p. 则看百分位 0 < 5 不进位 = 16.3。金额写新元 S$ 不是美元 $。常见错误：小数点位置错（忘了往左移几位）、除不尽不会写成小数（如 5÷2 写成 2 余 1 而不是 2.5）、四舍五入看错位（要四舍五入到 1 d.p. 看的是百分位，不是十分位）。关键词：decimal places（小数位）、multiply（乘）、divide（除）、quotient（商）、remainder（余数）、round to（四舍五入到）、d.p.（decimal place）。注意：本周只教 P4 Decimals 3.1–3.3，不教小数×小数（multiplying two decimals，不在 3.1 范围）、除以小数（dividing by a decimal）、×÷10/100/1000（P5）、百分数（percentages）、3 位小数×一位数（prefer stay at 2 d.p. operands）。"
     },
+    "MATH-23": {
+      examples: [
+        "Rectangle area 24 cm², length 8 cm. Breadth = area ÷ length = 24 ÷ 8 = 3 cm.",
+        "Square area 36 cm². Side = √36 = 6 cm (because 6 × 6 = 36).",
+        "Square perimeter 20 cm. Side = perimeter ÷ 4 = 20 ÷ 4 = 5 cm.",
+        "L-shape: 6 cm × 4 cm rectangle joined to 3 cm × 2 cm rectangle. Area = (6×4) + (3×2) = 24 + 6 = 30 cm².",
+        "Perimeter counts only outer edges, not internal lines where rectangles join."
+      ],
+      gloss: "P4 学面积和周长进阶（missing side & composite）：finding one dimension of a rectangle given the other dimension and its area/perimeter, finding the length of one side of a square given its area/perimeter, finding the area and perimeter of composite figures made up of rectangles and squares。关键技能：已知面积和一边求另一边（area = length × width → 已知 area 24 cm² 和 length 8 cm，求 width：width = area ÷ length = 24 ÷ 8 = 3 cm）；已知周长和一边求另一边（perimeter = 2×(length+width) → 已知 perimeter 28 m 和 length 9 m，求 width：width = perimeter÷2 − length = 14 − 9 = 5 m）；正方形已知面积求边（area = side×side，36 = 6×6，所以 side = 6 cm）；正方形已知周长求边（perimeter = 4×side → side = perimeter÷4，20÷4 = 5 cm）；组合图形面积（L-shape / T-shape 等）可以拆分（split）成几个长方形分别算面积再相加，或用大长方形减去缺口（subtract）；周长只算外轮廓（outer perimeter），不算内部拼接线。常见错误：组合图形把内部边算进周长（should only count outer edges）、求一边时面积÷错边（dividing by the wrong side）、正方形边长当面积（confusing side with area）、拆分组合图形时漏算某一块（missing a rectangle）。关键词：area（面积）、perimeter（周长）、length（长）、width / breadth（宽）、side（边）、composite figure（组合图形）、split（拆分）、subtract（减去）、outer perimeter（外轮廓）。本周不教：三角形面积（area of triangle, P5）、圆形/半圆（circles/semicircles）、体积（volume）、cm²↔m²互换。描述图形时用文字给足数字，如 'An L-shape is made of a 6 cm × 4 cm rectangle joined to a 3 cm × 2 cm rectangle along the 3 cm side.' 让孩子能唯一确定如何拆分或相减。"
+    },
     "A2-7": {
       fossil: "I going to the library tomorrow / I go to swim / Tomorrow I go library",
       examples: [

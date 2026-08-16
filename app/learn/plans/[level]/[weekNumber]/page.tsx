@@ -2156,6 +2156,56 @@ const lessonPlans: Record<string, LessonPlan> = {
       "What is 4.38 × 2, rounded to 1 decimal place? (Say the calculation and rounding.)",
     ],
   },
+  "MATH-23": {
+    title: "面积和周长进阶 — Area and perimeter: missing side, composite",
+    mathExample: "Rectangle area 24 cm², length 8 cm → breadth = 24 ÷ 8 = 3 cm. Square area 36 cm² → side = 6 cm. Square perimeter 20 cm → side = 20 ÷ 4 = 5 cm. L-shape: 6×4 rectangle + 3×2 rectangle = 24 + 6 = 30 cm² total area.",
+    sections: [
+      {
+        name: "热身",
+        duration: "3 分钟",
+        teacherNotes: "展示长方形图，标注：area 24 cm², length 8 cm。问孩子：'What is the breadth?' 引导：area = length × breadth → breadth = area ÷ length = 24 ÷ 8 = 3 cm。让孩子注意：已知面积和一边可以求另一边。",
+      },
+      {
+        name: "本周例题",
+        duration: "8 分钟",
+        teacherNotes: "在白板上画长方形，标注：area 24 cm², length 8 cm。写：'breadth = area ÷ length = 24 ÷ 8 = 3 cm'。然后画正方形，标注：area 36 cm²。问：'What is the side?' 引导：36 = 6 × 6，所以 side = 6 cm。再画正方形，标注：perimeter 20 cm。写：'side = perimeter ÷ 4 = 20 ÷ 4 = 5 cm'。接着画 L-shape（用文字描述）：'An L-shape is made of a 6 cm × 4 cm rectangle joined to a 3 cm × 2 cm rectangle along the 3 cm side.' 写：'Area = (6×4) + (3×2) = 24 + 6 = 30 cm²'。强调：组合图形可以拆分（split）成几个长方形分别算面积再相加。周长只算外轮廓（outer perimeter），不算内部拼接线。关键词：area（面积）、perimeter（周长）、length（长）、width / breadth（宽）、side（边）、composite figure（组合图形）、split（拆分）、outer perimeter（外轮廓）。注意：本周只教 P4 Area and Perimeter 1.1–1.3，不教三角形面积、圆形、体积、cm²↔m²互换。",
+      },
+      {
+        name: "孩子口头说算式",
+        duration: "10 分钟",
+        teacherNotes: "给 3 个口头题，孩子说出算式和答案。题目 1：'A rectangle has area 48 m² and breadth 6 m. What is the length?' 期待输出：'length = area ÷ breadth = 48 ÷ 6 = 8 m. Forty-eight square metres divided by six metres equals eight metres.' 题目 2：'A square has area 49 cm². What is the side?' 期待输出：'49 = 7 × 7, so side = 7 cm. Seven times seven equals forty-nine, so the side is seven centimetres.' 题目 3：'An L-shape is made of an 8 cm × 3 cm rectangle and a 4 cm × 5 cm rectangle. They share the 4 cm side. What is the total area?' 期待输出：'Area = (8×3) + (4×5) = 24 + 20 = 44 cm². Eight times three plus four times five equals forty-four square centimetres.'",
+      },
+      {
+        name: "开口",
+        duration: "12 分钟",
+        teacherNotes: "让孩子读出算式并解释步骤。比如 'Rectangle area 24 cm², length 8 cm → breadth ?'，孩子要说 'breadth equals area divided by length. Twenty-four divided by eight equals three. The breadth is three centimetres.' 或 'L-shape: 6×4 rectangle + 3×2 rectangle'，孩子要说 'I split the L-shape into two rectangles. Rectangle one: six times four equals twenty-four square centimetres. Rectangle two: three times two equals six square centimetres. Total area: twenty-four plus six equals thirty square centimetres.' 注意读法：area（面积）、perimeter（周长）、breadth / width（宽）、side（边）、split（拆分）、times（乘）、divided by（除）、equals（等于）、square centimetres（平方厘米）、square metres（平方米）。",
+      },
+      {
+        name: "收口",
+        duration: "5 分钟",
+        teacherNotes: "提醒本周作业有 P4 数学题目，包括已知面积/周长求一边（finding one dimension given the other and area/perimeter）、已知正方形面积/周长求边长（finding side of square given area/perimeter）、组合图形面积和周长（area and perimeter of composite figures made up of rectangles and squares）。对应申请 P5 的孩子需要掌握的 P4 内容（preceding level 规则）。题目使用新加坡学校情境（教室、花园、图书馆等）。描述组合图形时给足数字让孩子能唯一确定如何拆分或相减。强调：长方形 area = length × width → 已知 area 和 length，求 width：width = area ÷ length；周长只算外轮廓，不算内部拼接线。常见错误：面积÷错边、正方形边长当面积、组合图形漏算某一块、周长算进内部边。本周不教三角形面积、圆形、体积、cm²↔m²互换。",
+      },
+    ],
+    spokenLines: [
+      "breadth = area ÷ length",
+      "Breadth equals area divided by length.",
+      "24 ÷ 8 = 3 cm",
+      "Twenty-four divided by eight equals three centimetres.",
+      "Square area 36 cm² → side 6 cm",
+      "Thirty-six square centimetres means side is six centimetres.",
+      "Square perimeter 20 cm → side = 20 ÷ 4 = 5 cm",
+      "Perimeter twenty centimetres divided by four equals five centimetres per side.",
+      "L-shape: (6×4) + (3×2) = 24 + 6 = 30 cm²",
+      "L-shape total area: six times four plus three times two equals thirty square centimetres.",
+      "Perimeter counts only outer edges.",
+      "Perimeter只算外轮廓，不算内部拼接线。",
+    ],
+    childPrompts: [
+      "A rectangle has area 48 m² and breadth 6 m. What is the length? (Say the calculation.)",
+      "A square has area 49 cm². What is the side? (Say the calculation.)",
+      "An L-shape is made of an 8×3 rectangle and a 4×5 rectangle. They share the 4 cm side. What is the total area? (Say the calculation.)",
+    ],
+  },
 };
 
 export default async function LessonPlanPage({
