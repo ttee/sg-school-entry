@@ -417,6 +417,16 @@ export default function WeikeMiniLesson({ level, weekNumber }: WeikeMiniLessonPr
       ],
       gloss: "中学 AEIS 英语本周例题：if（可能/不确定）vs when（一定会发生）。如果事件是一定会发生的（The bell rings every day → When the bell rings），用 when。如果事件是可能的、不确定的（Maybe you will miss the bus → If you miss the bus），用 if。每个空只有一个正确答案。不能让 if 和 when 都对同一个空。情境：Wei 第一次放学（bell / bag / bus bay / wait for bus / road safety）。"
     },
+    "SEC-8": {
+      fossil: "I have forgot my password yesterday / Wei is at Riverside for two weeks / Since Monday I reminded",
+      examples: [
+        "Wei has been at Riverside for two weeks. ✓ (未完成时间 for two weeks，用 present perfect)",
+        "Yesterday Aisha forgot her password. ✓ (已完成时间 yesterday，用 past simple)",
+        "Mr Raj has explained the rules since Monday. ✓ (未完成时间 since Monday，用 present perfect)",
+        "At 10 a.m., the teacher told us to log in. ✓ (已完成时间 at 10 a.m.，用 past simple)"
+      ],
+      gloss: "中学 AEIS 英语本周例题：present perfect（未完成/持续时间：for two weeks / since Monday / already）vs past simple（已完成时间：yesterday / last week / at 2 p.m.）。如果时间是已完成的（yesterday / last week / at 2 p.m.），用 past simple（forgot / logged in / told）。如果时间是未完成的/持续的（for two weeks / since Monday / already），用 present perfect（has been / has explained / have saved）。不能让两个时态都对同一个空。情境：Wei 第一次上计算机实验室课（log in / password / save work / headphones）。"
+    },
     "A2-7": {
       fossil: "I going to the library tomorrow / I go to swim / Tomorrow I go library",
       examples: [

@@ -2806,6 +2806,43 @@ const lessonPlans: Record<string, LessonPlan> = {
       "If you run across the road, you could get hurt. ✓ (跑是可能的，不一定，用 if)",
     ],
   },
+  "SEC-8": {
+    title: "Computer Lab — present perfect vs past simple",
+    fossil: "present perfect (for / since / already) vs past simple (yesterday / last week)",
+    sections: [
+      {
+        name: "课前",
+        duration: "2 分钟",
+        teacherNotes: "确认 Zoom 设置正常。孩子和家长都在镜头前。对家长说：「今天教中学 AEIS 英语第 8 周，不是 CEQ。本周只练一个区别：present perfect（未完成/持续的时间：for two weeks / since Monday / already）vs past simple（已完成的时间：yesterday / last week / at 2 p.m.）。如果时间是已完成的，用 past simple（forgot / logged in）；如果时间是未完成的/持续的，用 present perfect（has been / has explained）。每个空只有一个正确答案，不能让两个时态都对同一个空。本周情境是 Wei 第一次上计算机实验室课。」提醒家长可以在旁边观摩，但请让孩子自己开口。",
+      },
+      {
+        name: "热身",
+        duration: "5 分钟",
+        teacherNotes: "问孩子：'Do you use computers at school?' 让孩子说 yes / no / sometimes。问：'What do you do on the computer?'，引导孩子说 type / save files / search / play games。问：'Do you have a password for your school account?'，让孩子说话。如果孩子混淆时态（例如说 'I have forgot my password yesterday' 或 'Wei is at Riverside for two weeks'），不要立刻纠正，等微课环节再讲。",
+      },
+      {
+        name: "化石",
+        duration: "8 分钟",
+        teacherNotes: "在屏幕上或白板上写下两个句子：'Wei ____ at Riverside Secondary for two weeks. (unfinished time)' 和 'Yesterday, Aisha ____ her password. (finished time: yesterday)' 问孩子：'第一句空格填 has been 还是 was？第二句填 has forgotten 还是 forgot？' 等孩子思考后，解释化石：第一句时间是未完成的/持续的（for two weeks），用 present perfect（has been）。第二句时间是已完成的（yesterday），用 past simple（forgot）。关键区别：未完成/持续时间（for / since / already）→ present perfect（past simple 不出现或明显错误）；已完成时间（yesterday / last week / at 2 p.m.）→ past simple（present perfect 不出现或明显错误）。让孩子跟读改正后的句子 3 次。强调：不能让 present perfect 和 past simple 都对同一个空。禁止：I have forgotten my password yesterday. ✗（应该用 forgot）",
+      },
+      {
+        name: "跟读",
+        duration: "5 分钟",
+        teacherNotes: "展示 4 个正确句子（见 spokenLines），一句一句让孩子跟读。读完后问：'Which sentences use present perfect?' 等孩子指出未完成时间的句子。问：'Which sentences use past simple?' 等孩子指出已完成时间的句子。问：'Can we say I have forgotten yesterday?' 等孩子说 'No, yesterday is finished time, we use past simple: I forgot.' 如果孩子说错，再带读 2 次。确认孩子能区分 present perfect（未完成时间）和 past simple（已完成时间）。",
+      },
+      {
+        name: "作业",
+        duration: "5 分钟",
+        teacherNotes: "打开 /learn 页面，给孩子看 SEC 第 8 周作业入口。告诉孩子：「这周的作业是中学 AEIS 英语第 8 周，包括阅读理解（Wei 第一次上计算机实验室课：log in / password / save work / headphones）、语法题（present perfect vs past simple，每个空只有一个正确答案）、写作（2 题选 1，写 200-300 词）。完成后系统会自动批改选择题，写作部分会有 AI 反馈。」对家长说：「这是 AEIS-Secondary 第 8 周，不是 CEQ。官方 Sec 1 卷型：Part 1 Writing 2 题选 1 篇，200-300 词；Part 2 有 50 道 MCQ（理解 + 完形 + 词汇 + 语法）。本周是样本，不是完整 50 题。孩子完成作业后，我们会在微信群里同步进度。」不提「包过」「保证录取」「题目全部原创」「官方题目」等话术。",
+      },
+    ],
+    spokenLines: [
+      "Wei has been at Riverside for two weeks. ✓ (未完成时间 for two weeks，用 present perfect)",
+      "Yesterday Aisha forgot her password. ✓ (已完成时间 yesterday，用 past simple)",
+      "Mr Raj has explained the rule since Monday. ✓ (未完成时间 since Monday，用 present perfect)",
+      "Last week the class had their first ICT lesson. ✓ (已完成时间 last week，用 past simple)",
+    ],
+  },
   "SMATH-0": {
     title: "百分数增减 — Percentage Increase/Decrease",
     fossil: "part/whole mix-up / % of vs % increase",
