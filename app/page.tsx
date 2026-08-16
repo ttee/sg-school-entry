@@ -137,7 +137,7 @@ export default function HomePage() {
                 href="/guide"
                 className="inline-flex items-center justify-center px-6 py-3.5 bg-accent text-accent-ink font-semibold rounded-full hover:bg-accent-hover transition-colors text-base"
               >
-                升学向导（新）
+                升学向导
               </Link>
               <Link
                 href="#contact"
