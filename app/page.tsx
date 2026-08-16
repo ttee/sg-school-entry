@@ -124,15 +124,12 @@ export default function HomePage() {
               帮中国家庭走通新加坡政府学校路径
             </h1>
             <p className="text-lg text-ink-2 mb-3 max-w-2xl">
-              CEQ 英语门槛 → AEIS 数学与英语，以及录取后的英语授课适应。
+              小学先 CEQ 英语门槛再考数学，中学考英语+数学。录取后续订英语授课适应。
             </p>
-            <p className="text-base text-ink-2 mb-2 max-w-2xl">
+            <p className="text-base text-ink-2 mb-6 max-w-2xl">
               每周作业 app + 家长微信跟进。家长订阅，孩子登录做题。
             </p>
-            <p className="text-sm text-accent mb-8 max-w-2xl">
-              新增：<strong>B1 Preliminary 第 11 周（过去完成时 past perfect）</strong>已上线；<strong>A2 Key 第 11 周（地点介词 in/on/at）</strong>已上线；<strong>AEIS 数学 试学周 + 第 1–5 周</strong>现已上线（Week 0 整数与钱币，Week 1 乘法与除法，Week 2 分数，Week 3 长度、质量、容积与时间，Week 4 平面图形规律与立体图形，Week 5 带单位的象形统计图，均对应 MOE P2 大纲）。
-            </p>
-            <div className="flex flex-wrap gap-3 mb-6">
+            <div className="flex flex-wrap gap-3 mb-4">
               <Link
                 href="/guide"
                 className="inline-flex items-center justify-center px-6 py-3.5 bg-accent text-accent-ink font-semibold rounded-full hover:bg-accent-hover transition-colors text-base"
@@ -143,36 +140,53 @@ export default function HomePage() {
                 href="#contact"
                 className="inline-flex items-center justify-center px-6 py-3.5 bg-transparent text-ink border border-accent font-semibold rounded-full hover:bg-accent/10 transition-colors text-base"
               >
-                微信咨询 / 预约评估
+                微信咨询
               </Link>
+            </div>
+            <div className="flex flex-wrap gap-3 mb-4 text-sm">
               <Link
                 href="/assess"
-                className="inline-flex items-center justify-center px-6 py-3.5 bg-transparent text-ink border border-accent font-semibold rounded-full hover:bg-accent/10 transition-colors text-base"
+                className="text-ink-2 hover:text-ink underline"
               >
-                入学英语摸底
+                入学摸底
               </Link>
               <Link
                 href="/learn"
-                className="inline-flex items-center justify-center px-6 py-3.5 bg-transparent text-ink border border-line font-semibold rounded-full hover:border-ink-2 hover:bg-card transition-colors text-base"
+                className="text-ink-2 hover:text-ink underline"
               >
-                免费试学一周
+                免费试学
               </Link>
             </div>
             <p className="text-sm text-muted max-w-2xl">
-              非 MOE、SEAB、Cambridge 官方机构 · 月度会员 S$320 或 12 周预付包 · PayNow {payNowNumber} / 微信转账
+              非 MOE、SEAB、Cambridge 官方机构
             </p>
-            <p className="text-sm text-ink-2 mt-3 max-w-2xl">
-              <strong>AEIS 申请：</strong>
-              <a 
-                href="https://www.moe.gov.sg/international-students/aeis/apply" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="text-accent hover:text-accent-hover underline ml-1"
-              >
-                moe.gov.sg/international-students/aeis/apply
-              </a>
-              {" "}· 2026 年小学申请曾在 7 月开放，具体日期以官网为准
-            </p>
+          </div>
+        </section>
+
+        <section className="py-12 md:py-16 bg-paper-2">
+          <div className="max-w-7xl mx-auto px-4">
+            <h2 className="font-serif font-semibold text-2xl md:text-3xl mb-6">
+              已开课程
+            </h2>
+            <div className="grid md:grid-cols-3 gap-5">
+              <article className="bg-card border border-line rounded-2xl p-6 shadow">
+                <h3 className="font-serif text-xl font-semibold mb-2">A2 Key for Schools</h3>
+                <p className="text-sm text-ink-2 mb-2">12 周 · P2–P4 CEQ 门槛</p>
+                <p className="text-xs text-muted">试学周免费</p>
+              </article>
+
+              <article className="bg-card border border-line rounded-2xl p-6 shadow">
+                <h3 className="font-serif text-xl font-semibold mb-2">B1 Preliminary for Schools</h3>
+                <p className="text-sm text-ink-2 mb-2">12 周 · P5 CEQ 门槛</p>
+                <p className="text-xs text-muted">试学周免费</p>
+              </article>
+
+              <article className="bg-card border border-line rounded-2xl p-6 shadow">
+                <h3 className="font-serif text-xl font-semibold mb-2">AEIS 数学</h3>
+                <p className="text-sm text-ink-2 mb-2">试学周 + 第 1–5 周 · 对应 MOE P2 大纲</p>
+                <p className="text-xs text-muted">试学周免费</p>
+              </article>
+            </div>
           </div>
         </section>
 
@@ -229,6 +243,23 @@ export default function HomePage() {
                 </ul>
               </article>
             </div>
+
+            <div className="mt-6 bg-paper-2 border border-line rounded-xl p-5">
+              <h3 className="font-serif font-semibold text-base mb-2 text-ink">AEIS 官方申请</h3>
+              <p className="text-sm text-ink-2 mb-2">
+                <a 
+                  href="https://www.moe.gov.sg/international-students/aeis/apply" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-accent hover:text-accent-hover underline"
+                >
+                  教育部 AEIS 申请页面
+                </a>
+              </p>
+              <p className="text-sm text-ink-2">
+                2026 年申请窗口已结束。下一轮日期与考场以官网为准。
+              </p>
+            </div>
           </div>
         </section>
 
@@ -252,13 +283,9 @@ export default function HomePage() {
                 <span className="text-ink-2">/ 月</span>
               </div>
               <p className="text-sm text-ink-2 mb-4">
-                作业 app 解锁已上线周数（A2 试学周 + 第 1–11 周，B1 试学周 + 第 1–11 周）+ 家长微信进度通报。包含 CEQ 备考四项技能：阅读、写作、听读准备、口语提示。可随时取消。
+                作业 app 解锁已上线周数（A2 试学周 + 第 1–11 周，B1 试学周 + 第 1–11 周，MATH 试学周 + 第 1–5 周）+ 家长微信进度通报。包含 CEQ 备考四项技能：阅读、写作、听读准备、口语提示。可随时取消。
               </p>
               <ul className="space-y-2 text-sm text-ink-2 mb-5">
-                <li className="flex items-start gap-2">
-                  <span className="text-accent mt-0.5">✓</span>
-                  <span>作业 app 解锁已上线周数（A2: 试学周 + 第 1–11 周；B1: 试学周 + 第 1–11 周）</span>
-                </li>
                 <li className="flex items-start gap-2">
                   <span className="text-accent mt-0.5">✓</span>
                   <span>选择题自动批改，写作 AI 简体点评（Kaizen 一个改善焦点）</span>
