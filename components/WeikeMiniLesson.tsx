@@ -424,6 +424,15 @@ export default function WeikeMiniLesson({ level, weekNumber }: WeikeMiniLessonPr
       ],
       gloss: "AEIS 中学数学第 16 周 / SMATH Week 16. 本周例题：Sec 1 比的应用题（Sec 1 NUMBER AND ALGEBRA: N2.3 problems involving ratio）。按比分配 share a quantity in a given ratio：先算总份数 total parts，再算一份 one part，最后算各部分。S$60 in 2 : 3 → total parts = 2+3=5, one part = S$60÷5 = S$12, Wei's 2 parts = 2×S$12 = S$24, Aisha's 3 parts = 3×S$12 = S$36。已知一个量求另一个 given one quantity and the ratio, find the other：Wei has S$24, Wei : Aisha = 2 : 3 → Wei's 2 parts = S$24, one part = S$24÷2 = S$12, Aisha's 3 parts = 3×S$12 = S$36。已知差求数量 given the difference and the ratio, find a quantity：Aisha has S$12 more than Wei, ratio 2 : 3 → difference = 3−2 = 1 part = S$12, Wei's 2 parts = 2×S$12 = S$24, Aisha's 3 parts = 3×S$12 = S$36。本周化石：比 2 : 3 时，用 2/3 of total 来算 Wei 的份数 ✗（应该是 2/5 of total，因为总份数是 2+3=5）；比 Wei : Aisha = 2 : 3 时，把 Wei 的份数错给成 3 parts ✗（应该是 2 parts）。金额用新加坡元 S$。不用计算器。本周完成 N2。"
     },
+    "SMATH-17": {
+      examples: [
+        "Express 12 as a percentage of 40.",
+        "(12 ÷ 40) × 100%",
+        "= 0.3 × 100%",
+        "= 30%"
+      ],
+      gloss: "AEIS 中学数学第 17 周 / SMATH Week 17. 本周例题：Sec 1 将一个数表示为另一个数的百分比（Sec 1 NUMBER AND ALGEBRA: N3.1 expressing one quantity as a percentage of another）。A as a percentage of B = (A ÷ B) × 100%。例：12 as a percentage of 40 = (12 ÷ 40) × 100% = 0.3 × 100% = 30%。应用题：Wei has S$32, he spends S$8. Express S$8 as a percentage of S$32. Solution: (8 ÷ 32) × 100% = 0.25 × 100% = 25%。本周化石：dividing the wrong way（题目是 12 as % of 40，错误地算 40 ÷ 12，正确应该是 12 ÷ 40）；forgetting to multiply by 100（只算到 12 ÷ 40 = 0.3 就停了，忘记 × 100% 得 30%）。金额用新加坡元 S$。不用计算器。本周开始 N3。"
+    },
     "SEC-0": {
       fossil: "Although I was nervous, but I tried. ✗ (中文「虽然…但是…」迁移) / I go yesterday ✗ (叙事体过去时掉落)",
       examples: [
