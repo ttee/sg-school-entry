@@ -13,7 +13,7 @@ export default async function LessonPlansIndex() {
   const a2Weeks = Array.from({ length: 12 }, (_, i) => i);
   const b1Weeks = Array.from({ length: 12 }, (_, i) => i);
   const mathWeeks = Array.from({ length: 30 }, (_, i) => i);
-  const secWeeks = Array.from({ length: 1 }, (_, i) => i);
+  const secWeeks = Array.from({ length: 2 }, (_, i) => i);
   const smathWeeks = Array.from({ length: 6 }, (_, i) => i);
 
   return (
@@ -102,7 +102,7 @@ export default async function LessonPlansIndex() {
         {/* SEC Level */}
         <div>
           <h2 className="font-serif font-semibold text-2xl text-accent mb-4">
-            SEC 试学周 (1 周)
+            SEC 中学英语 (2 周)
           </h2>
           <div className="grid md:grid-cols-4 gap-3">
             {secWeeks.map((week) => (
@@ -116,6 +116,9 @@ export default async function LessonPlansIndex() {
                 </div>
                 {week === 0 && (
                   <p className="text-xs text-accent mt-1">试学周</p>
+                )}
+                {week === 1 && (
+                  <p className="text-xs text-accent mt-1">第 1 周</p>
                 )}
               </Link>
             ))}

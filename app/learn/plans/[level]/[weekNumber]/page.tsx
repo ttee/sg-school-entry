@@ -2547,6 +2547,43 @@ const lessonPlans: Record<string, LessonPlan> = {
       "Your English lessons are harder than primary school, but your teacher is helpful. Tell me.",
     ],
   },
+  "SEC-1": {
+    title: "CCA Briefing — Subject-Verb Agreement",
+    fossil: "Everyone have ✗ / The team of teachers help ✗",
+    sections: [
+      {
+        name: "课前",
+        duration: "2 分钟",
+        teacherNotes: "确认 Zoom 设置正常。孩子和家长都在镜头前。对家长说：「今天教中学 AEIS 英语第 1 周，不是 CEQ。本周只练一个错误：主谓一致（subject-verb agreement）。Everyone / Each 用单数动词（has / is），The team of… 主语是 team，也用单数（helps）。」提醒家长可以在旁边观摩，但请让孩子自己开口。",
+      },
+      {
+        name: "热身",
+        duration: "5 分钟",
+        teacherNotes: "问孩子：'Does everyone in your school join a CCA?' 让孩子说几句。如果孩子说 'Everyone have to join'（主谓一致错误）或 'The team of teachers help us'（主谓一致错误），不要立刻纠正，等微课环节再讲。问：'What CCA do you want to join?'，引导孩子说话。",
+      },
+      {
+        name: "化石",
+        duration: "8 分钟",
+        teacherNotes: "在屏幕上或白板上写下两个错误句子：'Everyone have to join a CCA.' 和 'The team of teachers help us.' 问孩子：'这两句话对吗？' 等孩子思考后，圈出错误部分。解释化石：中文主语后动词不变形（「每个人都要」「老师团队帮」），但英语要根据主语单复数变形。Everyone / Each / Every + 单数名词 → 动词用单数形式（has / is / does）。The team / group / class + of + 复数名词 → 主语是 team/group/class（单数），动词用单数形式（helps / is / does）。正确说法：Everyone has to join. ✓ / The team of teachers helps us. ✓。让孩子跟读改正后的句子 3 次。",
+      },
+      {
+        name: "跟读",
+        duration: "5 分钟",
+        teacherNotes: "展示 4 个正确句子（见 spokenLines），一句一句让孩子跟读。读完后问：'Which verb did we use with Everyone?' 等孩子说 'has'。问：'Which verb did we use with The team?' 等孩子说 'helps'。如果孩子说错，再带读 2 次。确认孩子能准确说出单数动词。",
+      },
+      {
+        name: "作业",
+        duration: "5 分钟",
+        teacherNotes: "打开 /learn 页面，给孩子看 SEC 第 1 周作业入口。告诉孩子：「这周的作业是中学 AEIS 英语第 1 周，包括阅读理解（CCA briefing）、语法题（主谓一致）、写作（2 题选 1，写 200-300 词）。完成后系统会自动批改选择题，写作部分会有 AI 反馈。」对家长说：「这是 AEIS-Secondary 第 1 周，不是 CEQ。官方 Sec 1 卷型：Part 1 Writing 2 题选 1 篇，200-300 词；Part 2 有 50 道 MCQ（理解 + 完形 + 词汇 + 语法）。本周是样本，不是完整 50 题。孩子完成作业后，我们会在微信群里同步进度。」不提「包过」「保证录取」等话术。",
+      },
+    ],
+    spokenLines: [
+      "Everyone in secondary school has to join one CCA. ✓",
+      "The team of teachers helps the students. ✓",
+      "CCA points count towards your record. ✓",
+      "The debate team of senior students helps train juniors. ✓",
+    ],
+  },
   "SMATH-0": {
     title: "百分数增减 — Percentage Increase/Decrease",
     fossil: "part/whole mix-up / % of vs % increase",

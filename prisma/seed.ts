@@ -5968,6 +5968,97 @@ Note: This is a Sec 1 writing sample (2 topics, 200–300 words), not Sec 2 or S
         },
       ],
     },
+    // SEC WEEK 1
+    {
+      level: "SEC",
+      weekNumber: 1,
+      title: "英语 第 1 周 / English Week 1",
+      description: "AEIS-Secondary English (Sec 1 paper shape): CCA / classroom English sample",
+      isSample: false,
+      errorFocus: "subject-verb agreement (everyone / the team of…)",
+      parentBrief: "中学 AEIS 英语第 1 周。对应官方 SEAB Sec 1 卷型（https://www.seab.gov.sg/aeis/test-details/ 2026年7月1日更新）：Part 1 Writing 提供 2 个作文题目，选写 1 篇，200–300 词；Part 2 Comprehension & Language Use 共 50 道 MCQ（理解 15 + 完形 15 + 词汇 10 + 语法 10）。本周作业是样本，不是完整 50 题，不是 2 小时 10 分钟正式试卷。AEIS-Secondary 官方 preceding-level 规则：申请者需熟悉所申请级别前一级（preceding level）的内容。官方举例：apply Sec 3 → 熟悉 Sec 2。本周针对 Sec 1 申请者，对应 Sec 1 前一级内容水平。本周纠错化石：主谓一致（everyone is / the team of teachers helps，中文主语后动词不变形，英语要根据主语单复数变形）。情境：Wei 在 Riverside Secondary 听 CCA briefing、form teacher instruction。",
+      videoUrl: null,
+      kaizenFocus: "classroom English a Sec 1 listener needs (CCA briefing, form teacher instruction)",
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: `Read this passage about Wei's CCA briefing:
+
+CCA Briefing at Riverside Secondary
+
+On Monday afternoon, Mr Lim gathered the class in the school hall. "Good afternoon, Form 1A. Today we'll talk about Co-Curricular Activities, or CCAs. Everyone in secondary school must join one CCA. It's not optional—you have to choose."
+
+He pointed at the screen. "We offer four categories: Sports and Games, Uniformed Groups, Performing Arts, and Clubs and Societies. The sports team meets twice a week, usually on Tuesdays and Thursdays after school. The basketball team of Form 1 students trains from 3 p.m. to 5 p.m. If the weather is bad, we'll use the indoor sports hall."
+
+Aisha raised her hand. "Sir, what if I want to join two CCAs?" Mr Lim smiled. "You can only join one main CCA. However, you may attend CCA open houses next week—they're on different days, so you can visit all of them."
+
+Wei was interested in the debate club. Mr Lim explained, "The debate team of senior students helps train the juniors. Everyone gets a chance to speak. We meet every Friday from 3 p.m. to 4:30 p.m. in the library meeting room."
+
+"Remember," Mr Lim added, "attendance is important. If you miss three sessions without a valid reason, you'll need to explain to your CCA teacher-in-charge. CCA points count towards your overall school record."
+
+Wei decided to visit the debate club open house on Wednesday. He felt excited—this was a chance to improve his English and make more friends.`,
+          options: JSON.stringify([
+            "Is joining a CCA optional for secondary school students?|A. Yes, it is optional|B. No, every student must join one CCA|C. Only for Form 1 students|D. The passage does not say",
+            "When does the basketball team for Form 1 students train?|A. Monday and Wednesday|B. Tuesday and Thursday|C. Every Friday|D. Different days each week",
+            "Where does the debate team meet?|A. In the school hall|B. In the indoor sports hall|C. In the library meeting room|D. In the classroom",
+            "How many CCAs can a student join as their main CCA?|A. None|B. One|C. Two|D. As many as they like",
+            "What happens if a student misses three CCA sessions without a valid reason?|A. They fail the term|B. Their parents are called|C. They must explain to their CCA teacher-in-charge|D. They are removed from the CCA",
+          ]),
+          correctAnswer: "B,B,C,B,C",
+          points: 10,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: "Choose the correct word to complete each sentence:",
+          options: JSON.stringify([
+            "Everyone in secondary school ____ join one CCA.|A. have to|B. has to|C. having to|D. had to",
+            "The team of teachers ____ the students every week.|A. help|B. helps|C. helping|D. to help",
+            "CCA points ____ towards your overall school record.|A. count|B. counts|C. counting|D. counted",
+            "The debate team of senior students ____ train the juniors.|A. help|B. helps|C. helping|D. to help",
+            "Wei ____ excited about joining the debate club last Monday.|A. feel|B. feels|C. felt|D. feeling",
+            "Everyone ____ a chance to speak in the debate club.|A. get|B. gets|C. getting|D. got",
+            "The basketball team ____ from 3 p.m. to 5 p.m. on Tuesdays.|A. train|B. trains|C. training|D. trained",
+            "If the weather ____ bad, we'll use the indoor sports hall.|A. is|B. are|C. was|D. were",
+          ]),
+          correctAnswer: "B,B,A,B,C,B,B,A",
+          points: 16,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `Part 1: Writing (Sec 1 format)
+
+Choose ONE topic and write 200–300 words.
+
+Topic 1: My First CCA Session
+Describe your first CCA session at secondary school (or imagine it if you haven't started yet). Write about:
+• Which CCA you chose and why
+• What happened during your first session
+• One person you met or one skill you learned
+• How you felt at the end of the session
+
+Topic 2: A Teacher's Instruction I Followed
+Write about a time when you followed a teacher's instruction at school and what happened. Describe:
+• What instruction did the teacher give?
+• Why was it important to follow it?
+• What did you do?
+• What did you learn from this experience?
+
+写作提示 / Writing Tips:
+✓ 写出提纲（3-4 个要点）再写正文 (Plan first: 3-4 bullet points, then write)
+✓ 叙事用过去时态 (Narrative → past tense: I chose the debate club. The teacher explained the rules.)
+✓ 注意主谓一致 (Subject-verb agreement: Everyone has / The team helps, not Everyone have / The team help)
+✓ 分段：开头 + 2-3 段正文 + 结尾 (Paragraphs: intro + 2-3 body + conclusion)
+✓ 字数 200–300 词 (Word count: 200–300 words)
+
+注：这是 Sec 1 写作样本，不是 Sec 2（4 题 250–350 词）或 Sec 3（4 题 300–400 词）格式。
+Note: This is a Sec 1 writing sample (2 topics, 200–300 words), not Sec 2 or Sec 3 format.`,
+          points: 20,
+        },
+      ],
+    },
     // SMATH WEEK (AEIS-Secondary Mathematics)
     {
       level: "SMATH",
