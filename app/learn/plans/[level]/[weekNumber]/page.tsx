@@ -1373,7 +1373,7 @@ const lessonPlans: Record<string, LessonPlan> = {
 export default async function LessonPlanPage({
   params,
 }: {
-  params: { level: string; weekNumber: string };
+  params: Promise<{ level: string; weekNumber: string }>;
 }) {
   const session = await getServerSession(authOptions);
 
@@ -1381,7 +1381,7 @@ export default async function LessonPlanPage({
     redirect("/learn");
   }
 
-  const { level, weekNumber } = params;
+  const { level, weekNumber } = await params;
   const key = `${level}-${weekNumber}`;
   const plan = lessonPlans[key];
 
