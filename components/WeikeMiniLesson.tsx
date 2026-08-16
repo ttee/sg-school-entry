@@ -326,6 +326,17 @@ export default function WeikeMiniLesson({ level, weekNumber }: WeikeMiniLessonPr
       ],
       gloss: "AEIS 中学数学第 6 周 / SMATH Week 6. 本周例题：P6 数据分析 - 平均数（P6 STATISTICS: DATA ANALYSIS 1.1–1.2）。Average = total value ÷ number of data（平均数 = 总值 ÷ 数据个数）。求总值：Total = average × number of data（总值 = 平均数 × 数据个数）。求缺失值：先算总值 total = average × n，再用 total − 已知数据之和 = 缺失值。官方用词是 average，不教 mean / median / mode 作为官方名称。不用计算器，写出算式步骤。"
     },
+    "SMATH-7": {
+      examples: [
+        "In parallelogram ABCD, ∠A = 70°. Find ∠B.",
+        "Adjacent angles in a parallelogram add to 180°.",
+        "∠B = 180° − 70° = 110°",
+        "Also: In trapezium PQRS, PQ is parallel to SR. ∠P = 80°. Find ∠S.",
+        "The two angles between the same pair of parallel sides add to 180°.",
+        "∠S = 180° − 80° = 100°"
+      ],
+      gloss: "AEIS 中学数学第 7 周 / SMATH Week 7. 本周例题：P6 几何 - 特殊四边形求未知角（P6 GEOMETRY: Special Quadrilaterals 1.1）。Finding unknown angles without additional construction of lines（不加辅助线求未知角）。平行四边形 parallelogram：adjacent angles add to 180°（邻角和 180°）。梯形 trapezium (SG)：the two angles between the same pair of parallel sides add to 180°（同一组平行边之间的两个角和 180°）。菱形 rhombus：adjacent angles add to 180°。正方形 square / 长方形 rectangle：all angles 90°。三角形 triangle：angles sum 180°。不用计算器，写出推理步骤。"
+    },
     "SEC-0": {
       fossil: "Although I was nervous, but I tried. ✗ (中文「虽然…但是…」迁移) / I go yesterday ✗ (叙事体过去时掉落)",
       examples: [

@@ -6941,6 +6941,84 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
         },
       ],
     },
+    {
+      level: "SMATH",
+      weekNumber: 7,
+      title: "数学 第 7 周 / Maths Week 7",
+      description: "AEIS-Secondary Mathematics: P6 geometry (special quadrilaterals)",
+      isSample: false,
+      errorFocus: "treating parallelogram angle as triangle sum / treating trapezium as parallelogram / adding extra construction lines",
+      parentBrief: "本周是中学 AEIS 数学第 7 周，对应官方 SEAB Sec 1 卷型（https://www.seab.gov.sg/aeis/test-details/ 2026年7月1日更新）。Part 1 Multiple-choice questions：34 道 MCQ，30 分钟。Part 2 Short-answer questions (20 items) and open-ended questions (10 to 15 items)：1 小时 45 分钟。Calculators are not allowed（不允许使用计算器）。Short-answer and open-ended questions：candidates are required to show the method of solution clearly by writing working steps in the spaces provided, plus the final answer（需写出算式步骤和最终答案）。AEIS-Secondary 官方 preceding-level 规则：申请 Sec 1 入学者需熟悉 Sec 1 前一级的内容。官方举例：apply Secondary 3 → be familiar with Secondary 2. 本周针对 Sec 1 申请者，内容为 Sec 1 前一级（P6）的官方 MOE 2021 Primary Mathematics (Updated Oct 2025), PRIMARY SIX, MEASUREMENT AND GEOMETRY, SUB-STRAND: GEOMETRY: 1. Special Quadrilaterals, 1.1 finding unknown angles, without additional construction of lines, in composite geometric figures involving square / rectangle / triangle / parallelogram / rhombus / trapezium。本周作业是样本，不是完整 34 + 20 + 10–15 题。本周化石：treating a parallelogram angle as a triangle sum（把平行四边形角当成三角形和 180°）、treating a trapezium as a parallelogram（把梯形当成平行四边形，以为对角都相等）、adding extra construction lines（加了题目没给的辅助线）。本周可用 P5 已学：angles on a straight line（平角 180°）、angles at a point（周角 360°）、vertically opposite angles（对顶角相等）、angle sum of a triangle（三角形内角和 180°）、properties of isosceles / equilateral / right-angled triangle（等腰/等边/直角三角形性质）、properties of parallelogram / rhombus / trapezium（平行四边形/菱形/梯形性质）。本周新学：properties of square / rectangle（正方形/长方形角的性质：all angles 90°）、finding unknown angles in composite geometric figures without additional construction of lines（不加辅助线求复合图形未知角）。不教：速度（speed，已从 P6 2021 大纲移到 Sec 1）、官方未给出的分数/等级切线（DO NOT invent official cut-scores）、invented official facts。数字保持友好（numbers stay friendly, no calculator）。金额用新加坡元 S$ 不用美元（如果题目涉及钱币情境，用 S$）。题目选项必须唯一（unique keys only）：不能有两个选项是相同数值或相同含义。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "In parallelogram ABCD, ∠A = 70°. What is ∠B?|A. 70°|B. 90°|C. 110°|D. 140°",
+            "In rectangle PQRS, ∠P = 90°. What is ∠Q?|A. 45°|B. 60°|C. 90°|D. 180°",
+            "In trapezium ABCD, AB is parallel to DC. ∠A = 80°. What is ∠D?|A. 80°|B. 90°|C. 100°|D. 280°",
+            "In rhombus WXYZ, ∠W = 60°. What is ∠X?|A. 60°|B. 90°|C. 120°|D. 150°",
+            "In triangle ABC, ∠A = 50° and ∠B = 60°. What is ∠C?|A. 60°|B. 70°|C. 80°|D. 110°",
+          ]),
+          correctAnswer: "C,C,C,C,B",
+          points: 10,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "In parallelogram ABCD, ∠B = 65°. What is ∠C?|A. 65°|B. 90°|C. 115°|D. 130°",
+            "In square PQRS, all angles are equal. What is ∠P?|A. 45°|B. 60°|C. 90°|D. 180°",
+            "In trapezium WXYZ, WX is parallel to ZY. ∠W = 110°. What is ∠Z?|A. 55°|B. 70°|C. 90°|D. 110°",
+            "In rhombus ABCD, ∠A = 120°. What is ∠B?|A. 60°|B. 90°|C. 120°|D. 240°",
+            "In rectangle EFGH, ∠E = 90°. What is ∠F?|A. 60°|B. 90°|C. 120°|D. 180°",
+            "In parallelogram JKLM, ∠J = 85°. What is ∠K?|A. 85°|B. 90°|C. 95°|D. 170°",
+            "In trapezium PQRS, PQ is parallel to SR. ∠P = 75° and ∠Q = 105°. What is ∠R?|A. 75°|B. 90°|C. 105°|D. 285°",
+            "In triangle DEF, ∠D = 45° and ∠E = 70°. What is ∠F?|A. 45°|B. 55°|C. 65°|D. 70°",
+          ]),
+          correctAnswer: "C,C,B,A,B,C,A,C",
+          points: 16,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `Part 2: Show Your Working (写出算式步骤)
+
+Riverside Secondary School has geometry problems. Answer the questions below. Show all your working clearly.
+
+Question (a)
+In parallelogram ABCD, ∠A = 70°. Find ∠B.
+
+Question (b)
+In trapezium PQRS, PQ is parallel to SR. ∠P = 80° and ∠Q = 100°. Find ∠R.
+
+Question (c)
+In rhombus WXYZ, ∠W = 110°. Find ∠X.
+
+写作提示 / Tips:
+✓ 每题分步骤写出推理 (Show working steps for each question)
+✓ Part 2 官方要求：clearly show the method of solution by writing working steps, plus the final answer
+✓ Geometry 推理不用计算器 (No calculators allowed: do geometry reasoning by hand)
+✓ 写出图形性质步骤：
+  • 平行四边形 parallelogram：adjacent angles add to 180°. Example: ∠A = 70°, so ∠B = 180° − 70° = 110°
+  • 梯形 trapezium (SG)：one pair of parallel sides; the two angles between the same pair of parallel sides add to 180°. Example: PQ ∥ SR, ∠P = 80°, so ∠S = 180° − 80° = 100°; ∠Q = 100°, so ∠R = 180° − 100° = 80°
+  • 菱形 rhombus：adjacent angles add to 180°. Example: ∠W = 110°, so ∠X = 180° − 110° = 70°
+  • 正方形 square：all angles 90°
+  • 长方形 rectangle：all angles 90°
+  • 三角形 triangle：angles sum 180°. Example: ∠A = 50°, ∠B = 60°, so ∠C = 180° − 50° − 60° = 70°
+✓ 不加辅助线（without additional construction of lines）
+✓ 角度单位用 ° 符号
+✓ 如果题目有钱币，用新加坡元 S$（本周题目无钱币情境）
+
+Note: This is a sample of Part 2 short-answer/open-ended questions. The official paper has 20 short-answer + 10–15 open-ended items in 1 hour 45 minutes.`,
+          points: 20,
+        },
+      ],
+    },
   ];
 
   // =================================================================
