@@ -590,6 +590,64 @@ Art 📖📖📖📖📖
         },
       ],
     },
+    {
+      level: "MATH",
+      weekNumber: 9,
+      title: "数学 第 9 周 / Maths Week 9",
+      description: "AEIS-Primary P3 Mathematics: Length, mass and volume (km, ml, compound units, conversions)",
+      isSample: false,
+      errorFocus: null,
+      parentBrief: "本周主题：长度/质量/容量的测量（对应 MOE 小学 P3 数学大纲）。P2 第 3 周学过 m/cm、kg/g、l、时间（到 5 分钟），本周学 P3 新知识点：千米（km, 1 km = 1000 m）、毫升（ml, 1 l = 1000 ml）、复合单位（compound units，例如 1 m 35 cm、2 kg 500 g、1 l 200 ml）、大小单位互换（conversions: km ↔ m, m ↔ cm, kg ↔ g, l ↔ ml）。申请 P4 入学的孩子需掌握 P3 内容（MOE AEIS preceding level 规则）。常见错误：1 km = 100 m（应是 1000 m）、1 m 35 cm = 1.35 cm（应是 135 cm）、加减混合单位时忘了统一（3 km − 1500 m 要先换成同单位）。题目是简体中文家长说明 + 英文题干。本周配有双向对照表，显示题目对应的官方 2021 Primary Mathematics Syllabus P3 内容点（Length: kilometres; Volume of liquid: millilitres; Length/mass/volume in compound units; Conversion of a measurement in compound units to the smaller unit and vice versa），以及 MOE AEIS 的「preceding level」规则（申请 P4 → 掌握 P3 内容）。注意：本周不教 P3 的面积/周长（Area and perimeter）、以秒为单位的时间（Time in seconds）、24 小时制（24-hour clock），也不教 P4 的小数（Decimals）。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: `Read each question and choose the correct answer.`,
+          options: JSON.stringify([
+            "Ali walks 5 km from Bedok to Tampines. How many metres is that?|A. 500 m|B. 5000 m|C. 50 m|D. 50000 m",
+            "Mei bought a bottle with 1 l 200 ml of juice. Jun Wei bought a bottle with 900 ml of juice. Who bought more juice?|A. Mei|B. Jun Wei|C. Same amount|D. Cannot tell",
+            "A bag of rice weighs 3 m 45 cm. Wait, that doesn't make sense! What unit should it be?|A. 3 m 45 cm|B. 3 kg 45 g|C. 3 l 45 ml|D. 3 km 45 m",
+            "Priya's water bottle holds 1 l 800 ml. She drinks 600 ml. How much water is left?|A. 1 l 200 ml|B. 1 l 400 ml|C. 800 ml|D. 2 l 400 ml",
+            "The distance from Mei's house to East Coast Park is 3 km. The distance from the park to Marina Bay is 1500 m. How far is Mei's house from Marina Bay if she goes via the park? Give your answer in km.|A. 4.5 km|B. 4500 km|C. 1.5 km|D. 1503 km",
+          ]),
+          correctAnswer: "B,A,B,A,A",
+          points: 5,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: `Choose the correct answer for each question.`,
+          options: JSON.stringify([
+            "How many metres are in 2 km?|A. 200 m|B. 2000 m|C. 20 m|D. 20000 m",
+            "Convert 1 m 35 cm to cm.|A. 1.35 cm|B. 136 cm|C. 135 cm|D. 100 cm",
+            "Convert 3 kg 250 g to g.|A. 3250 g|B. 325 g|C. 3.25 g|D. 32500 g",
+            "How many millilitres (ml) are in 2 litres?|A. 200 ml|B. 20 ml|C. 2000 ml|D. 20000 ml",
+            "Convert 4500 ml to litres and millilitres.|A. 4 l 500 ml|B. 45 l|C. 450 l 5 ml|D. 4 l 50 ml",
+            "Convert 8000 m to km.|A. 80 km|B. 800 km|C. 8 km|D. 0.8 km",
+            "Convert 560 cm to metres and centimetres.|A. 5 m 60 cm|B. 56 m|C. 5 m 6 cm|D. 560 m",
+            "Convert 4200 g to kg and g.|A. 42 kg|B. 4 kg 200 g|C. 4 kg 20 g|D. 420 kg",
+          ]),
+          correctAnswer: "B,C,A,C,A,C,A,B",
+          points: 5,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `At Tampines Hub Sports Centre, students are preparing for a running event.
+
+(a) The running track is 7 km long. How many metres is that? Show your working.
+
+(b) Mei ran 2 m 75 cm in the long jump. Convert this to centimetres. Show your working.
+
+(c) After running, Raju had a bottle with 1 l 800 ml of water. He drank 600 ml. How much water is left in the bottle? Give your answer in litres and millilitres. Show your working.
+
+写出算式和答案。`,
+          points: 10,
+        },
+      ],
+    },
     
     // A2 WEEKS
     {

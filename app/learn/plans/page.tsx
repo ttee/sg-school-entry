@@ -12,7 +12,7 @@ export default async function LessonPlansIndex() {
 
   const a2Weeks = Array.from({ length: 12 }, (_, i) => i);
   const b1Weeks = Array.from({ length: 12 }, (_, i) => i);
-  const mathWeeks = Array.from({ length: 9 }, (_, i) => i);
+  const mathWeeks = Array.from({ length: 10 }, (_, i) => i);
 
   return (
     <div>
@@ -80,7 +80,7 @@ export default async function LessonPlansIndex() {
         {/* MATH Level */}
         <div>
           <h2 className="font-serif font-semibold text-2xl text-accent mb-4">
-            MATH (9 周)
+            MATH (10 周)
           </h2>
           <div className="grid md:grid-cols-4 gap-3">
             {mathWeeks.map((week) => (
