@@ -1246,6 +1246,105 @@ Mei solved 6847 ÷ 7. She got quotient 978 and remainder 1. Is she correct?`,
         },
       ],
     },
+
+    // MATH WEEK 17
+    {
+      level: "MATH",
+      weekNumber: 17,
+      title: "数学 第 17 周 / Maths Week 17",
+      description: "AEIS-Primary P4 Mathematics: Mixed numbers and improper fractions",
+      isSample: false,
+      errorFocus: null,
+      parentBrief: "本周主题：带分数与假分数（mixed numbers / improper fractions）及互换，对应官方 2021 Primary Mathematics Syllabus P4 Fractions 1.1 mixed numbers, improper fractions and their relationship。申请 P5 入学的孩子需掌握 P4 内容（MOE AEIS preceding level 规则）。常见错误：假分数分子分母对调（conversion error: swapping numerator & denominator）、带分数换成假分数时只乘不加整数部分（conversion error: multiplying but forgetting to add the whole number）、化成带分数时余数当分子忘了（conversion error: forgetting remainder becomes numerator）。题目是简体中文家长说明 + 英文题干。本周配有双向对照表，显示题目对应的官方 2021 Primary Mathematics Syllabus P4 内容点（Fractions: 1.1 mixed numbers, improper fractions and their relationship），以及 MOE AEIS 的「preceding level」规则（申请 P5 → 掌握 P4 内容）。明确说明：本周不教一组的几分之几（fraction of a set, 那是下周）、异分母加减（adding/subtracting unlike fractions, 后续周）、带分数加减（adding mixed numbers, P5）、分数乘法（multiplying fractions, P5）、小数（decimals）、百分数（percentages）。本周分母不超过 12（denominators not exceeding 12）。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: `Read each question and choose the correct answer.
+
+Question 1:
+At Tampines Primary School, the teacher drew two fractions on the board: 2 1/3 and 7/3. She asked the students, "Which of these is a mixed number?"
+
+Question 2:
+Jun Wei has 2 1/3 pizzas left from the party. He wants to write this as an improper fraction. What is 2 1/3 as an improper fraction?
+
+Question 3:
+The bakery has 11/4 kg of flour. The baker wants to write this as a mixed number to show how many full kilograms and how many quarters. What is 11/4 as a mixed number?
+
+Question 4:
+Mei solved a problem and got the answer 17/5. Her friend Priya solved it and got 3 2/5. The teacher said they are both correct because the fractions are equal. Which statement is true?
+
+Question 5:
+At the canteen, Ali bought 3/2 bottles of drink. Which statement about this fraction is correct?`,
+          options: JSON.stringify([
+            "Which is a mixed number?|A. 2 1/3|B. 7/3|C. Both|D. Neither",
+            "2 1/3 as improper fraction|A. 5/3|B. 6/3|C. 7/3|D. 8/3",
+            "11/4 as mixed number|A. 2 1/4|B. 2 3/4|C. 3 1/4|D. 2 2/4",
+            "17/5 and 3 2/5|A. They are not equal|B. 17/5 is mixed, 3 2/5 is improper|C. They are equal (both show the same amount)|D. Only one answer can be correct",
+            "About 3/2|A. It is a proper fraction|B. It is an improper fraction|C. It is a mixed number|D. It cannot be written as a fraction",
+          ]),
+          correctAnswer: "A,C,B,C,B",
+          points: 5,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: `Choose the correct answer for each question.
+
+Question 6:
+What is 1 2/5 as an improper fraction?
+
+Question 7:
+What is 13/6 as a mixed number?
+
+Question 8:
+What is 3 1/4 as an improper fraction?
+
+Question 9:
+What is 19/8 as a mixed number?
+
+Question 10:
+Which fraction is equal to 4 1/3?
+
+Question 11:
+What is 2 5/6 as an improper fraction?
+
+Question 12:
+What is 23/10 as a mixed number?
+
+Question 13:
+Look at these fractions: 2 1/4, 5/3, 1 5/8, 9/2. How many of them are improper fractions?`,
+          options: JSON.stringify([
+            "1 2/5 to improper|A. 7/5|B. 3/5|C. 5/7|D. 8/5",
+            "13/6 to mixed|A. 2 1/6|B. 1 7/6|C. 2 1/3|D. 1 1/6",
+            "3 1/4 to improper|A. 12/4|B. 13/4|C. 4/13|D. 7/4",
+            "19/8 to mixed|A. 2 1/8|B. 2 3/8|C. 1 11/8|D. 3 1/8",
+            "Equal to 4 1/3|A. 12/3|B. 13/3|C. 5/3|D. 4/3",
+            "2 5/6 to improper|A. 17/6|B. 7/6|C. 16/6|D. 12/6",
+            "23/10 to mixed|A. 2 3/10|B. 2 1/3|C. 3 2/10|D. 1 13/10",
+            "How many improper fractions?|A. 1|B. 2|C. 3|D. 4",
+          ]),
+          correctAnswer: "A,A,B,B,B,A,A,B",
+          points: 8,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `At Woodlands Primary School, the students are learning about mixed numbers and improper fractions.
+
+(a) Ali has 3 2/5 boxes of crayons. Convert this mixed number to an improper fraction. Show your working.
+
+(b) The library received 17/6 kg of recycled paper. Convert this improper fraction to a mixed number to show how many full kilograms and the remaining fraction. Show your working.
+
+(c) Priya measured 9/4 metres of ribbon for her art project. Is this a mixed number or an improper fraction? Convert it to the other form and explain what the answer means. Show your working.
+
+写出答案和说明。`,
+          points: 10,
+        },
+      ],
+    },
     
     // A2 WEEKS
     {
