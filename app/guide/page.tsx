@@ -581,16 +581,25 @@ export default function GuidePage() {
                   </div>
                   
                   <div className="bg-paper-2 border border-line rounded-lg p-3 mt-3">
-                    <p className="text-xs font-semibold text-ink mb-1">2026 年 AEIS 考试日期（官方已公布）</p>
+                    <p className="text-xs font-semibold text-ink mb-1">2026 年 AEIS（官方已公布）</p>
                     <ul className="text-xs text-ink-2 space-y-0.5">
-                      <li>• 2026 年 AEIS 申请已关闭</li>
-                      <li>• Sec 1: 2026年9月1日（周二）</li>
-                      <li>• Sec 2/3: 2026年9月2日（周三）</li>
-                      <li>• Primary 2/3 及 4/5 数学: 2026年9月3日（周四）</li>
+                      <li>• <strong className="text-ink">申请窗口（已关闭）：</strong>小学 9am 周二 2026年7月7日 – 4:30pm 周四 2026年7月16日；中学 9am 周三 2026年7月8日 – 4:30pm 周五 2026年7月17日</li>
+                      <li>• <strong className="text-ink">考试日期：</strong>Sec 1: 2026年9月1日（周二）；Sec 2/3: 2026年9月2日（周三）；Primary 2/3 及 4/5 数学: 2026年9月3日（周四）</li>
+                      <li>• <strong className="text-ink">费用（官方）：</strong>小学 $340，中学 $630，另加 GST，不退费</li>
                       <li>• 录取后次年1月入学（视表现、空缺、居住区域而定）</li>
                     </ul>
                     <p className="text-xs text-muted mt-2">
-                      具体日期以官网为准。费用请见申请页面（小学 $340，中学 $630，另加 GST，不退费——仅在官网确认后引用具体金额）。
+                      具体日期与费用以<a href="https://www.moe.gov.sg/international-students/aeis/apply" target="_blank" rel="noopener noreferrer" className="text-accent hover:underline">官网申请页面</a>为准。
+                    </p>
+                  </div>
+                  
+                  <div className="bg-paper-2 border border-line rounded-lg p-3 mt-2">
+                    <p className="text-xs text-ink-2">
+                      <strong className="text-ink">重要提示（SEAB）：</strong>
+                      MOE 不会专为 AEIS 考试签发入境许可。入场证明是考场通行证（test venue pass），不是入境签证。
+                      <a href="https://www.seab.gov.sg/aeis/about-aeis/" target="_blank" rel="noopener noreferrer" className="text-accent hover:underline ml-1">
+                        seab.gov.sg/aeis/about-aeis →
+                      </a>
                     </p>
                   </div>
                 </div>
@@ -598,19 +607,41 @@ export default function GuidePage() {
                 <div className="border-t border-line pt-3">
                   <p className="font-semibold text-ink mb-1">S-AEIS 补充考试（官方）</p>
                   <p className="text-ink-2 mb-2">
-                    S-AEIS 为同一学年内的补充入学考试，适用于 P2–P4 和 Sec 1–2（不包括 P5 和 Sec 3）。
+                    S-AEIS 为同一学年内的补充入学考试，适用于 P2–P4 和 Sec 1–2（<strong className="text-ink">不包括 P5 和 Sec 3</strong>）。
                   </p>
-                  <a
-                    href="https://www.moe.gov.sg/international-students/s-aeis"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-accent hover:underline inline-flex items-center gap-1"
-                  >
-                    moe.gov.sg/international-students/s-aeis →
-                  </a>
+                  <div className="space-y-1 text-ink-2 text-sm">
+                    <p>
+                      <a
+                        href="https://www.moe.gov.sg/international-students/s-aeis"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-accent hover:underline"
+                      >
+                        moe.gov.sg/international-students/s-aeis →
+                      </a>
+                    </p>
+                    <p>
+                      <a
+                        href="https://www.moe.gov.sg/international-students/s-aeis/eligibility-criteria"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-accent hover:underline"
+                      >
+                        S-AEIS 资格标准 →
+                      </a>
+                    </p>
+                  </div>
+                  <div className="bg-paper-2 border border-line rounded-lg p-3 mt-2">
+                    <ul className="text-xs text-ink-2 space-y-1">
+                      <li>• 2027 年 S-AEIS 申请预计 2027 年 1 月初开放；考试预计 2027 年 2 月底至 3 月初举行（暂定）</li>
+                      <li>• 如获录取，同年 4/5 月入学</li>
+                      <li>• <strong className="text-ink">小学 CEQ 时间窗口：</strong>2027 年 S-AEIS 小学申请的 CEQ 须在 2026 年 1 月至提交申请日期间取得（12 个月内）</li>
+                      <li>• <strong className="text-ink">费用（官方）：</strong>小学 $340，中学 $630，另加 GST，不退费（与 AEIS 同）</li>
+                      <li>• <strong className="text-ink">2026 AEIS P5 未录取者：</strong>如仍符合年龄要求，可申请 2027 S-AEIS P4；需提供 B1 Preliminary for Schools CEQ 成绩（须在 2027 S-AEIS 提交日期前 12 个月内取得）</li>
+                    </ul>
+                  </div>
                   <p className="text-xs text-muted mt-2">
-                    2027 年 S-AEIS 申请预计 2027 年 1 月初开放；考试预计 2027 年 2 月底至 3 月初举行（暂定）。
-                    如获录取，同年 4/5 月入学。具体以官网为准。
+                    具体日期、费用与资格以官网为准。
                   </p>
                 </div>
 
@@ -627,7 +658,13 @@ export default function GuidePage() {
                           cambridgeenglish.org/find-a-centre →
                         </a>
                       </p>
+                      <p><strong className="text-ink">报名流程（官方）：</strong>
+                        <a href="https://www.cambridgeenglish.org/exams-and-tests/register-for-an-exam/" target="_blank" rel="noopener noreferrer" className="text-accent hover:underline ml-1">
+                          cambridgeenglish.org/exams-and-tests/register-for-an-exam →
+                        </a>
+                      </p>
                       <p className="text-xs text-muted mt-1">
+                        家长通过剑桥授权考点报名，不在 Cambridge 官网直接报名。
                         任何国家的授权考点均可。提交成绩单 PDF（Statement of Results）即可，不必等纸质证书。
                         纸笔或机考均可，需选择适龄考卷。
                       </p>
@@ -703,6 +740,107 @@ export default function GuidePage() {
                       </a>
                     </p>
                   </div>
+                  <p className="text-xs text-muted mt-2">
+                    ⚠️ 预备课程不等于政府学校学位，仍需通过 AEIS 考试派位
+                  </p>
+                </div>
+
+                <div className="bg-paper border border-line rounded-xl p-4">
+                  <h4 className="font-semibold text-ink mb-1">St Francis Methodist School (International)</h4>
+                  <p className="text-sm text-ink-2 mb-2">
+                    国际/使命学校（非政府、非政府辅助），设小学与中学。
+                  </p>
+                  <div className="space-y-1 text-xs text-ink-2">
+                    <p>
+                      <strong className="text-ink">官网：</strong>
+                      <a href="https://www.sfms.edu.sg/" target="_blank" rel="noopener noreferrer" className="text-accent hover:underline ml-1">
+                        sfms.edu.sg →
+                      </a>
+                    </p>
+                    <p>
+                      <strong className="text-ink">招生信息：</strong>
+                      <a href="https://www.sfms.edu.sg/admissions/admission-matters/" target="_blank" rel="noopener noreferrer" className="text-accent hover:underline ml-1">
+                        sfms.edu.sg/admissions/admission-matters →
+                      </a>
+                    </p>
+                  </div>
+                </div>
+
+                <div className="bg-paper border border-line rounded-xl p-4">
+                  <h4 className="font-semibold text-ink mb-1">Anglo-Chinese School (International)</h4>
+                  <p className="text-sm text-ink-2 mb-2">
+                    MOE 批准的私立学校 (Privately Funded School)，<strong className="text-ink">仅设中学与大学预科，无小学部</strong>。
+                  </p>
+                  <div className="space-y-1 text-xs text-ink-2">
+                    <p>
+                      <strong className="text-ink">官网：</strong>
+                      <a href="https://www.acsinternational.edu.sg/" target="_blank" rel="noopener noreferrer" className="text-accent hover:underline ml-1">
+                        acsinternational.edu.sg →
+                      </a>
+                    </p>
+                    <p>
+                      <strong className="text-ink">招生流程：</strong>
+                      <a href="https://www.acsinternational.edu.sg/en/admissions-process/" target="_blank" rel="noopener noreferrer" className="text-accent hover:underline ml-1">
+                        acsinternational.edu.sg/en/admissions-process →
+                      </a>
+                    </p>
+                  </div>
+                </div>
+
+                <div className="bg-paper border border-line rounded-xl p-4">
+                  <h4 className="font-semibold text-ink mb-1">Hwa Chong International School</h4>
+                  <p className="text-sm text-ink-2 mb-2">
+                    MOE 批准的私立学校 (PFS)，<strong className="text-ink">招收 13–18 岁学生，IB 课程，无小学部</strong>。
+                  </p>
+                  <div className="space-y-1 text-xs text-ink-2">
+                    <p>
+                      <strong className="text-ink">官网：</strong>
+                      <a href="https://www.hcis.edu.sg/" target="_blank" rel="noopener noreferrer" className="text-accent hover:underline ml-1">
+                        hcis.edu.sg →
+                      </a>
+                    </p>
+                    <p>
+                      <strong className="text-ink">招生：</strong>
+                      <a href="https://www.hcis.edu.sg/school-admission/" target="_blank" rel="noopener noreferrer" className="text-accent hover:underline ml-1">
+                        hcis.edu.sg/school-admission →
+                      </a>
+                    </p>
+                  </div>
+                </div>
+
+                <div className="bg-paper border border-line rounded-xl p-4">
+                  <h4 className="font-semibold text-ink mb-1">St. Joseph's Institution International High School</h4>
+                  <p className="text-sm text-ink-2 mb-2">
+                    MOE 批准的私立学校 (PFS)，<strong className="text-ink">Grades 7–12（中学），无小学部</strong>。
+                  </p>
+                  <div className="space-y-1 text-xs text-ink-2">
+                    <p>
+                      <strong className="text-ink">官网：</strong>
+                      <a href="https://www.sji-international.com.sg/admissions/high-school" target="_blank" rel="noopener noreferrer" className="text-accent hover:underline ml-1">
+                        sji-international.com.sg/admissions/high-school →
+                      </a>
+                    </p>
+                  </div>
+                </div>
+
+                <div className="bg-paper-2 border border-line rounded-lg p-3">
+                  <p className="text-xs text-ink-2 mb-2">
+                    <strong className="text-ink">更多私立学校资源（MOE 官方）：</strong>
+                  </p>
+                  <div className="space-y-1 text-xs text-ink-2">
+                    <p>
+                      • MOE 批准的私立学校 (PFS) 名单：
+                      <a href="https://www.moe.gov.sg/returning-singaporeans/other-options" target="_blank" rel="noopener noreferrer" className="text-accent hover:underline ml-1">
+                        moe.gov.sg/returning-singaporeans/other-options →
+                      </a>
+                    </p>
+                    <p>
+                      • MOE 私立学校搜索：
+                      <a href="https://www.moe.gov.sg/private-education/private-schools" target="_blank" rel="noopener noreferrer" className="text-accent hover:underline ml-1">
+                        moe.gov.sg/private-education/private-schools →
+                      </a>
+                    </p>
+                  </div>
                 </div>
 
                 <div className="bg-paper-2 border border-line rounded-lg p-3">
@@ -715,6 +853,7 @@ export default function GuidePage() {
                   </p>
                   <p className="text-xs text-muted mt-2">
                     学位与签证以学校和 ICA 为准。本站不编造学费、录取分数或"容易入学"等说法。
+                    我们与以上学校无隶属或合作关系。
                   </p>
                 </div>
               </div>
