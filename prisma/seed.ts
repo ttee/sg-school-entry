@@ -9209,6 +9209,93 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
         },
       ],
     },
+    {
+      level: "SMATH",
+      weekNumber: 27,
+      title: "数学 第 27 周 / Maths Week 27",
+      description: "AEIS-Secondary Mathematics: Sec 1 interpreting algebraic notations",
+      isSample: false,
+      errorFocus: "reading 3y as 3 + y; reading ab as a + b; reading a² as 2a; reading a³ as 3a; reading 3(x + y) as 3x + y (dropping the bracket)",
+      parentBrief: "本周是中学 AEIS 数学第 27 周，对应官方 SEAB Sec 1 卷型（https://www.seab.gov.sg/aeis/test-details/ 2026年7月1日更新）。Part 1 Multiple-choice questions：34 道 MCQ，30 分钟。Part 2 Short-answer questions (20 items) and open-ended questions (10 to 15 items)：1 小时 45 分钟。Calculators are not allowed（不允许使用计算器）。Short-answer and open-ended questions：candidates are required to show the method of solution clearly by writing working steps in the spaces provided, plus the final answer（需写出算式步骤和最终答案）。AEIS-Secondary 官方 preceding-level 规则：申请 Sec 2 入学者需熟悉 Sec 2 前一级的内容。官方举例：apply Secondary 3 → be familiar with Secondary 2 content. 本周针对 Sec 2 申请者，内容为 Sec 2 前一级（Sec 1）的官方 MOE 2020 G3 Mathematics Syllabuses, Secondary One, NUMBER AND ALGEBRA, N5. Algebraic expressions and formulae: 5.2 interpreting notations（解读代数符号）。官方 5.2 wording（官方术语，逐字引用）：'interpreting notations: • ab as a × b • a/b as a ÷ b or a × 1/b • a² as a × a, a³ as a × a × a, a²b as a × a × b • 3y as y + y + y or 3 × y • 3(x + y) as 3 × (x + y) • (3 + y)/5 as (3 + y) ÷ 5 or 1/5 × (3 + y)'。第 26 周已完成 5.1（using letters to represent numbers），本周只教 5.2 interpreting notations（解读代数符号）。本周不教 5.3 evaluation of algebraic expressions and formulae（代入数值求值），5.4 translation（实际问题翻译），5.5 nth term，5.6–5.8 simplifying（化简代数式）。这些是后续周次内容。本周方法：Teach what each notation means（教每个符号代表什么）。ab means a × b（不是 a + b）。a/b means a ÷ b（也可以写成 a × 1/b，但本周不要同时提供两个作为不同选项）。a² means a × a（不是 2a）。a³ means a × a × a（不是 3a）。a²b means a × a × b（不是 2ab）。3y means 3 × y（官方也提 y + y + y，但本周选择题不要同时提供两个作为不同选项，优先用 3 × y）。3(x + y) means 3 × (x + y)（不是 3x + y）。(3 + y)/5 means (3 + y) ÷ 5。用友好的字母 friendly letters（如 a, b, x, y, k, n）。本周不代入数值 do not substitute values（那是 5.3 evaluation）。本周作业是样本，不是完整 34 + 20 + 10–15 题。本周化石 fossil errors：reading 3y as 3 + y（把 3y 读成 3 + y，正确是 3 × y）；reading ab as a + b（把 ab 读成 a + b，正确是 a × b）；reading a² as 2a（把 a² 读成 2a，正确是 a × a）；reading a³ as 3a（把 a³ 读成 3a，正确是 a × a × a）；reading 3(x + y) as 3x + y（把 3(x + y) 读成 3x + y，正确是 3 × (x + y)；3x + 3y 是展开 expansion，属于 5.8 后续内容，本周不教）。唯一性 unique keys：两个选项不能是同一个意思。Do not offer both 3 × y and y + y + y as two options when both are official readings of 3y（不要同时提供 3 × y 和 y + y + y 作为两个选项，因为官方大纲列出两个都对；选一个正确 prefer 3 × y，其他选项做成错误如 3 + y, y³, 3 − y）。Do not offer both a ÷ b and a × 1/b as two options for a/b（不要同时提供两个）。Do not offer both 3 × (x + y) and 3x + 3y as two options this week（本周不要同时提供 3 × (x + y) 和 3x + 3y，因为 3x + 3y 是 expansion 5.8 后续内容；正确是 3 × (x + y)，化石 3x + y 是错的）。非官方机构运营（affiliation 非官方机构 is OK）。不发明官方未提及的内容（do not invent official facts）。不声称 AEIS 是 G3 paper（G3 只是官方 preceding-level 内容来源，do NOT claim AEIS is a G3 paper）。不发明官方 cut-scores 或 extra official names。第 26 周已完成 5.1，本周只教 5.2，下周 5.3 evaluation。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "What does ab mean?|A. a + b|B. a × b|C. a − b|D. a ÷ b",
+            "What does 3y mean?|A. 3 + y|B. 3 × y|C. 3 − y|D. y³",
+            "What does a² mean?|A. 2a|B. a + a|C. a × a|D. a ÷ 2",
+            "What does 3(x + y) mean?|A. 3x + y|B. 3 + x + y|C. 3 × (x + y)|D. 3xy",
+            "Which is the correct reading of a²?|A. a × a|B. 2a|C. a + 2|D. a ÷ 2",
+          ]),
+          correctAnswer: "B,B,C,C,A",
+          points: 10,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "What does a/b mean?|A. a + b|B. a × b|C. a ÷ b|D. a − b",
+            "What does a³ mean?|A. 3a|B. a + a + a|C. a × a × a|D. a ÷ 3",
+            "What does a²b mean?|A. 2ab|B. a + a + b|C. a × a × b|D. a² + b",
+            "What does (3 + y)/5 mean?|A. 3 + y + 5|B. (3 + y) × 5|C. (3 + y) ÷ 5|D. 3 ÷ 5 + y",
+            "What does 3y mean?|A. 3 + y|B. y³|C. 3 × y|D. 3 − y",
+            "What does 5x mean?|A. 5 + x|B. 5 × x|C. 5 − x|D. x⁵",
+            "Which working correctly reads a²?|A. a × a|B. 2 × a|C. a + a|D. a ÷ 2",
+            "What does 2(a + b) mean?|A. 2a + b|B. 2 + a + b|C. 2 × (a + b)|D. 2ab",
+          ]),
+          correctAnswer: "C,C,C,C,C,B,A,C",
+          points: 16,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `Part 2: Show Your Working (写出算式步骤)
+
+Riverside Secondary School has algebraic notation problems. Answer the questions below. Write what each notation means.
+
+Question (a)
+Write what 3y means. Show your working clearly.
+
+Question (b)
+Write what a² means. Show your working clearly.
+
+Question (c)
+Wei says \"3(x + y) means 3x + y\". Is Wei correct? Write what 3(x + y) means and explain why Wei's answer is wrong. Show your working clearly.
+
+写作提示 / Tips:
+✓ 每题分步骤写出推理 (Show working steps for each question)
+✓ Part 2 官方要求：clearly show the method of solution by writing working steps, plus the final answer
+✓ 不用计算器 (No calculators allowed)
+✓ 解读代数符号步骤示范 (interpreting notations examples)：
+  • 3y means 3 × y (not 3 + y)：
+    What does 3y mean? Show your working.
+    Solution: ① The notation 3y means 3 multiplied by y. ② 3y = 3 × y. (Note: 3y does NOT mean 3 + y.) Answer: 3y means 3 × y.
+  • a² means a × a (not 2a)：
+    What does a² mean? Show your working.
+    Solution: ① The notation a² means a squared. ② a² = a × a. (Note: a² does NOT mean 2a or 2 × a.) Answer: a² means a × a.
+  • 3(x + y) means 3 × (x + y) (not 3x + y)：
+    What does 3(x + y) mean? Show your working.
+    Solution: ① The notation 3(x + y) means 3 multiplied by the sum (x + y). ② 3(x + y) = 3 × (x + y). (Note: 3(x + y) does NOT mean 3x + y. That would drop the bracket. 3x + y means 3 × x plus y, which is different. Also, 3x + 3y is the expanded form, which is skill 5.8 simplifying; we don't teach that this week.) Answer: 3(x + y) means 3 × (x + y).
+✓ 关键词：interpreting notations 解读符号，algebraic notation 代数符号，means 代表的意思
+✓ 关键步骤：Step 1: Read the notation carefully (仔细看符号). Step 2: Write what it means (写出它的意思：3y means 3 × y; ab means a × b; a² means a × a; a³ means a × a × a; a/b means a ÷ b; 3(x + y) means 3 × (x + y); (3 + y)/5 means (3 + y) ÷ 5). Step 3: State what it does NOT mean (陈述它不代表什么：3y does NOT mean 3 + y; a² does NOT mean 2a; 3(x + y) does NOT mean 3x + y). Step 4: If the question asks \"Is Wei correct?\", answer Yes or No and explain (如果题目问"Wei 正确吗？"，回答 Yes 或 No 并解释：Wei says 3(x + y) means 3x + y. Wei is NOT correct. 3(x + y) means 3 × (x + y), not 3x + y. If we drop the bracket and write 3x + y, that means 3 × x plus y, which is different from 3 multiplied by the whole sum (x + y)).
+✓ 化石 (fossil errors)：
+  • Reading 3y as 3 + y（把 3y 读成 3 + y，正确是 3 × y）
+  • Reading ab as a + b（把 ab 读成 a + b，正确是 a × b）
+  • Reading a² as 2a（把 a² 读成 2a，正确是 a × a）
+  • Reading a³ as 3a（把 a³ 读成 3a，正确是 a × a × a）
+  • Reading 3(x + y) as 3x + y (dropping the bracket)（把 3(x + y) 读成 3x + y，丢掉括号，正确是 3 × (x + y)；3x + y 是不同的表达式，它是 3 × x plus y，不等于 3 multiplied by the whole sum (x + y)。3x + 3y 是 expansion 5.8 后续内容，本周不教）
+  • 本周教 N5 的 5.2（interpreting notations，解读代数符号）。本周不教 5.3 evaluation of algebraic expressions and formulae（代入数值求值），5.4 translation of simple real-world situations（实际问题翻译），5.5 nth term，5.6–5.8 simplifying（化简代数式）。这些是后续周次内容。
+
+Note: This is a sample of Part 2 short-answer/open-ended questions. The official paper has 20 short-answer + 10–15 open-ended items in 1 hour 45 minutes.`,
+          points: 20,
+        },
+      ],
+    },
   ];
 
   // =================================================================
