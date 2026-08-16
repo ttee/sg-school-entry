@@ -9069,7 +9069,7 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
             "Wei drives 80 km at 40 km/h, then 80 km at 80 km/h. What is his average speed?|A. 48 km/h|B. 53.3 km/h|C. 60 km/h|D. 64 km/h",
             "36 km/h = ? m/s|A. 5 m/s|B. 10 m/s|C. 20 m/s|D. 129.6 m/s",
           ]),
-          correctAnswer: "C,B,C,B,C,B,B,B",
+          correctAnswer: "B,B,C,B,C,B,B,B",
           points: 16,
         },
         {
