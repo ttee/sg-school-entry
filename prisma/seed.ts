@@ -1254,6 +1254,7 @@ Mum: That's a lot! Let's get three. Okay, I think that's everything. Thanks for 
           ]),
           correctAnswer: "B,B,C,C,B",
           points: 5,
+          audioUrl: "/audio/a2-w4-listening.mp3",
         },
         {
           type: "speaking",
@@ -1441,6 +1442,7 @@ Ms Tan: That's okay! You can join the obstacle course – that's more about team
           ]),
           correctAnswer: "B,C,C,C,D",
           points: 5,
+          audioUrl: "/audio/a2-w5-listening.mp3",
         },
         {
           type: "speaking",
@@ -1621,6 +1623,7 @@ Mei: Yes! That would be great! Let's plan it next week.`,
           ]),
           correctAnswer: "B,C,C,B,B",
           points: 5,
+          audioUrl: "/audio/a2-w6-listening.mp3",
         },
         {
           type: "speaking",
@@ -2445,7 +2448,7 @@ Priya: Great! That means I can grab something before my early class. Thanks for 
           ]),
           correctAnswer: "B,C,C,B,A",
           points: 5,
-          audioUrl: null,
+          audioUrl: "/audio/b1-w4-listening.mp3",
         },
         {
           type: "speaking",
@@ -2622,7 +2625,7 @@ Mei: Great idea. I'll message the boys now.`,
           ]),
           correctAnswer: "C,B,C,B,C",
           points: 5,
-          audioUrl: null,
+          audioUrl: "/audio/b1-w5-listening.mp3",
         },
         {
           type: "speaking",
