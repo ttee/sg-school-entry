@@ -274,6 +274,15 @@ export default function WeikeMiniLesson({ level, weekNumber }: WeikeMiniLessonPr
       ],
       gloss: "AEIS 中学数学试学周 / SMATH Sample Week. 本周例题：百分数增加/减少的算法（P6 Percentage 1.1–1.2）。新加坡钱币用 S$ 符号。10% increase: 先算 10% of 原价，再加到原价。20% decrease: 先算 20% of 原价，再从原价减去。如果已知部分和百分比，求整体：15 is 25% of ? → 15 ÷ 0.25 = 60 或 15 ÷ 25 × 100 = 60。不用计算器，写出算式步骤。"
     },
+    "SMATH-1": {
+      examples: [
+        "The sports club has 120 students. Boys to girls = 3:5.",
+        "Total parts = 3 + 5 = 8",
+        "1 part = 120 ÷ 8 = 15",
+        "Boys = 3 × 15 = 45"
+      ],
+      gloss: "AEIS 中学数学第 1 周 / SMATH Week 1. 本周例题：按比例分配数量（P6 Ratio 1.1–1.7）。新加坡钱币用 S$ 符号。Divide a quantity in a ratio: 先算 total parts，再算 1 part，最后算各部分。Simplest form: 约到最简（8:12 = 2:3）。Equivalent ratios: 2:3 = 4:6 = 8:12。Missing term: 4:7 = 12:□ → □ = 21。Ratio to fraction: 2:3 的第一项占总数的 2/5。不教分数或小数比（官方排除）。不用计算器，写出算式步骤。"
+    },
     "SEC-0": {
       fossil: "Although I was nervous, but I tried. ✗ (中文「虽然…但是…」迁移) / I go yesterday ✗ (叙事体过去时掉落)",
       examples: [
