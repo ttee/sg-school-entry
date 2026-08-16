@@ -325,6 +325,16 @@ export default function WeikeMiniLesson({ level, weekNumber }: WeikeMiniLessonPr
       ],
       gloss: "中学 AEIS 英语本周例题：although 和 but 不能同时用（中文「虽然…但是…」在英语里只用一个）。Although Wei was nervous, he tried. ✓ 或 Wei was nervous, but he tried. ✓。叙事体用过去时：Wei felt nervous（不是 feel）、Mr Lim welcomed us（不是 welcome）。Yesterday / Last Monday 出现时，动词变过去式。"
     },
+    "SEC-1": {
+      fossil: "Everyone have ✗ / The team of teachers help ✗ (主谓一致掉落)",
+      examples: [
+        "Everyone in secondary school has to join one CCA. ✓ (everyone 是单数，动词用 has)",
+        "The team of teachers helps the students. ✓ (主语是 team，单数，动词用 helps)",
+        "CCA points count towards your record. ✓ (points 复数，动词用 count)",
+        "The debate team of senior students helps train juniors. ✓ (主语是 team，单数)"
+      ],
+      gloss: "中学 AEIS 英语本周例题：主谓一致（subject-verb agreement）。Everyone / Each / Every + 单数名词 → 动词用单数形式（has / is / does）。The team / group / class + of + 复数名词 → 主语是 team/group/class（单数），动词用单数形式（helps / is / does）。中文主语后动词不变形，但英语要根据主语单复数变形。"
+    },
     "A2-7": {
       fossil: "I going to the library tomorrow / I go to swim / Tomorrow I go library",
       examples: [
