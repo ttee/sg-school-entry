@@ -7549,6 +7549,85 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
         },
       ],
     },
+    {
+      level: "SMATH",
+      weekNumber: 8,
+      title: "数学 第 8 周 / Maths Week 8",
+      description: "AEIS-Secondary Mathematics: Sec 1 primes and prime factorisation",
+      isSample: false,
+      errorFocus: "treating 1 as a prime / writing factorisation that still has a composite",
+      parentBrief: "本周是中学 AEIS 数学第 8 周，对应官方 SEAB Sec 1 卷型（https://www.seab.gov.sg/aeis/test-details/ 2026年7月1日更新）。Part 1 Multiple-choice questions：34 道 MCQ，30 分钟。Part 2 Short-answer questions (20 items) and open-ended questions (10 to 15 items)：1 小时 45 分钟。Calculators are not allowed（不允许使用计算器）。Short-answer and open-ended questions：candidates are required to show the method of solution clearly by writing working steps in the spaces provided, plus the final answer（需写出算式步骤和最终答案）。AEIS-Secondary 官方 preceding-level 规则：申请 Sec 2 入学者需熟悉 Sec 2 前一级的内容。官方举例：apply Secondary 3 → be familiar with Secondary 2 content. 本周针对 Sec 2 申请者，内容为 Sec 2 前一级（Sec 1）的官方 MOE 2020 G3 Mathematics Syllabuses, Secondary One, NUMBER AND ALGEBRA, N1. Numbers and their operations: 1.1 primes and prime factorisation。本周作业是样本，不是完整 34 + 20 + 10–15 题。本周化石：treating 1 as a prime（把 1 当成质数，实际上 1 既不是质数也不是合数）、writing a factorisation that still has a composite（质数分解还有合数，例如写 2 × 15 而不是 2 × 3 × 5）。本周内容：质数 prime number：a whole number greater than 1 that has exactly two factors: 1 and itself（大于 1 且只有两个因数：1 和它自己的整数）。例子：2, 3, 5, 7, 11, 13, 17, 19, 23, 29, ...（2 是唯一的偶质数）。合数 composite number：大于 1 且有超过两个因数的整数（例如 4, 6, 8, 9, 10, 12, ...）。1 既不是质数也不是合数（1 is neither prime nor composite）。质数分解 prime factorisation：把合数表达成质数相乘的形式（例如 30 = 2 × 3 × 5, 24 = 2 × 2 × 2 × 3, 60 = 2 × 2 × 3 × 5）。分解方法：从最小的质数开始除，每次除后检查商是否还能继续分解，直到所有因数都是质数。不教：HCF/LCM（最大公约数/最小公倍数，那是下一周 1.2），完全平方数（perfect squares），指数记号（index notation 例如 2³）。不用计算器，写出分解步骤。数字保持友好（numbers stay friendly）。金额用新加坡元 S$（如题目涉及钱币）。题目选项必须唯一（unique keys only）：不能有两个选项是相同数值或相同含义（例如不能同时提供 2×3×5 和 30 作为不同选项）。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "Which of the following is a prime number?|A. 1|B. 9|C. 13|D. 15",
+            "Which of the following is NOT a prime number?|A. 2|B. 3|C. 9|D. 11",
+            "What is the prime factorisation of 30?|A. 2 × 15|B. 3 × 10|C. 5 × 6|D. 2 × 3 × 5",
+            "How many prime numbers are there between 10 and 20?|A. 3|B. 4|C. 5|D. 6",
+            "Which of the following numbers is a composite number?|A. 2|B. 7|C. 12|D. 17",
+          ]),
+          correctAnswer: "C,C,D,B,C",
+          points: 10,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "What is the prime factorisation of 24?|A. 3 × 8|B. 4 × 6|C. 2 × 2 × 2 × 3|D. 12 × 2",
+            "Which of the following is the smallest prime number?|A. 0|B. 1|C. 2|D. 3",
+            "What is the prime factorisation of 45?|A. 3 × 3 × 5|B. 5 × 9|C. 15 × 3|D. 45",
+            "How many prime factors does 18 have? (Count repeated factors once)|A. 1|B. 2|C. 3|D. 4",
+            "Which statement is correct?|A. 1 is a prime number|B. 2 is the only even prime number|C. All odd numbers are prime|D. 15 is a prime number",
+            "What is the prime factorisation of 50?|A. 2 × 5 × 5|B. 10 × 5|C. 25 × 2|D. 50",
+            "Which of the following is a prime number?|A. 21|B. 27|C. 29|D. 33",
+            "Express 36 as a product of its prime factors.|A. 2 × 2 × 3 × 3|B. 4 × 9|C. 6 × 6|D. 18 × 2",
+          ]),
+          correctAnswer: "C,C,A,B,B,A,C,A",
+          points: 16,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `Part 2: Show Your Working (写出算式步骤)
+
+Riverside Secondary School has number theory problems. Answer the questions below. Show all your working clearly.
+
+Question (a)
+List all the prime numbers between 15 and 30.
+
+Question (b)
+Express 72 as a product of its prime factors.
+
+Question (c)
+A number has the prime factorisation 2 × 3 × 3 × 5. What is the number?
+
+写作提示 / Tips:
+✓ 每题分步骤写出推理 (Show working steps for each question)
+✓ Part 2 官方要求：clearly show the method of solution by writing working steps, plus the final answer
+✓ 不用计算器 (No calculators allowed: do number theory reasoning by hand)
+✓ 质数分解步骤示范：
+  • 60 的质数分解 (prime factorisation of 60)：
+    60 = 2 × 30 (先除以最小质数 2)
+    60 = 2 × 2 × 15 (30 还能除以 2)
+    60 = 2 × 2 × 3 × 5 (15 = 3 × 5，全是质数)
+    Answer: 60 = 2 × 2 × 3 × 5
+  • 检查质数：试除法，看能否被 2、3、5、7 等质数整除
+  • 列举质数：逐个检查每个数，排除合数（能被 2、3、5 等整除的）
+✓ 记住：1 不是质数 (1 is not a prime number)
+✓ 质数分解必须全是质数因数（不能有 2 × 15 这样还有合数 15 的答案）
+✓ 如果题目有钱币，用新加坡元 S$（本周题目无钱币情境）
+
+Note: This is a sample of Part 2 short-answer/open-ended questions. The official paper has 20 short-answer + 10–15 open-ended items in 1 hour 45 minutes.`,
+          points: 20,
+        },
+      ],
+    },
   ];
 
   // =================================================================
