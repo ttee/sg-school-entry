@@ -2106,6 +2106,56 @@ const lessonPlans: Record<string, LessonPlan> = {
       "Mei spent $4.50 and $2.75. How much in total? (Say the calculation.)",
     ],
   },
+  "MATH-22": {
+    title: "小数乘除 — Multiplying and dividing decimals",
+    mathExample: "2.45 × 3 = 7.35. 6.4 ÷ 4 = 1.6. 5 ÷ 2 = 2.5. 7 ÷ 4 = 1.75. Round 4.38 × 2 to 1 d.p. → 8.76 → 8.8.",
+    sections: [
+      {
+        name: "热身",
+        duration: "3 分钟",
+        teacherNotes: "说 '2.45 × 3' 和 '6.4 ÷ 4'。让孩子注意：小数乘除一位整数、整数除以整数商为小数。展示数字卡：2.45 和 3。问 'How do we multiply these?' 引导：先算 245 × 3 = 735，小数点往左移 2 位 = 7.35。",
+      },
+      {
+        name: "本周例题",
+        duration: "8 分钟",
+        teacherNotes: "在白板上写：'2.45 × 3'。问孩子：'How many decimal places does 2.45 have?' 2 位。'So we calculate 245 × 3 = 735, then move the decimal point 2 places to the left: 7.35.' 然后写：'6.4 ÷ 4'。引导：小数点直接上移。64 ÷ 4 = 16，小数点在十分位，答案 1.6。再写：'5 ÷ 2'。问：'Can 2 divide 5 evenly?' No. 'So we add .0 to 5, making it 5.0. Now 50 ÷ 2 = 25, write 2.5.' 写：'7 ÷ 4'。引导：4 goes into 7 once (余 3)，补零 30，4 goes into 30 seven times (余 2)，补零 20，4 goes into 20 five times。答案 1.75。最后写：'Round 4.38 × 2 to 1 d.p.'。引导：4.38 × 2 = 8.76，看百分位 6 ≥ 5，进位 = 8.8。强调关键词：decimal places（小数位）、multiply（乘）、divide（除）、quotient（商）、remainder（余数）、round to（四舍五入到）、d.p.（decimal place）。注意：本周只教 P4 Decimals 3.1–3.3，不教小数×小数、除以小数、×÷10/100/1000（P5）、百分数、3 位小数×一位数。",
+      },
+      {
+        name: "孩子口头说算式",
+        duration: "10 分钟",
+        teacherNotes: "给 3 个口头题，孩子说出算式和答案。题目 1：'What is 3.26 × 5?' 期待输出：'3.26 has 2 decimal places. 326 × 5 = 1630. Move the point 2 places left: 16.30. Three point two six times five equals sixteen point three zero or sixteen point three.' 题目 2：'What is 7 ÷ 4?' 期待输出：'4 goes into 7 once, remainder 3. Add zero: 30. 4 goes into 30 seven times, remainder 2. Add zero: 20. 4 goes into 20 five times. Answer: 1.75. Seven divided by four equals one point seven five.' 题目 3：'What is 4.38 × 2, rounded to 1 decimal place?' 期待输出：'4.38 × 2 = 8.76. Look at the hundredths place: 6 is greater than or equal to 5, so round up. 8.76 to 1 d.p. is 8.8. Eight point eight.'",
+      },
+      {
+        name: "开口",
+        duration: "12 分钟",
+        teacherNotes: "让孩子读出算式并解释步骤。比如 '2.45 × 3'，孩子要说 'I count the decimal places: 2.45 has 2 decimal places. I calculate 245 times 3 equals 735. Then I move the decimal point 2 places to the left: 7.35. Two point four five times three equals seven point three five.' 或 '5 ÷ 2'，孩子要说 '5 divided by 2. 2 cannot divide 5 evenly. I add point zero to 5. Now 50 divided by 2 equals 25. Write 2.5. Five divided by two equals two point five.' 注意读法：times（乘）、divided by（除）、decimal places（小数位）、move the point（移动小数点）、round to（四舍五入到）、d.p.（decimal place）。",
+      },
+      {
+        name: "收口",
+        duration: "5 分钟",
+        teacherNotes: "提醒本周作业有 P4 数学题目，包括小数乘除（multiplying and dividing decimals up to 2 d.p. by a 1-digit whole number）、整数除以整数商为小数（dividing a whole number by a whole number with quotient as a decimal）、四舍五入（rounding to a specified degree of accuracy）。对应申请 P5 的孩子需要掌握的 P4 内容（preceding level 规则）。题目使用新加坡学校情境（购物、测量、分配等）。金额写新元 S$ 不是美元 $。强调：小数点位置很重要，除不尽时要写成小数，四舍五入看下一位。常见错误：小数点位置错、除不尽不会写成小数、四舍五入看错位。本周不教小数×小数、除以小数、×÷10/100/1000、百分数。",
+      },
+    ],
+    spokenLines: [
+      "2.45 × 3 = 7.35",
+      "Two point four five times three equals seven point three five.",
+      "6.4 ÷ 4 = 1.6",
+      "Six point four divided by four equals one point six.",
+      "5 ÷ 2 = 2.5",
+      "Five divided by two equals two point five.",
+      "7 ÷ 4 = 1.75",
+      "Seven divided by four equals one point seven five.",
+      "3.26 × 5 = 16.30",
+      "Three point two six times five equals sixteen point three.",
+      "4.38 × 2 = 8.76, to 1 d.p. = 8.8",
+      "Four point three eight times two equals eight point seven six. Rounded to one decimal place is eight point eight.",
+    ],
+    childPrompts: [
+      "What is 3.26 × 5? (Say the calculation and explain decimal places.)",
+      "What is 7 ÷ 4? (Say the calculation step by step.)",
+      "What is 4.38 × 2, rounded to 1 decimal place? (Say the calculation and rounding.)",
+    ],
+  },
 };
 
 export default async function LessonPlanPage({

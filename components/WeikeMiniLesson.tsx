@@ -199,6 +199,15 @@ export default function WeikeMiniLesson({ level, weekNumber }: WeikeMiniLessonPr
       ],
       gloss: "P4 学小数加减（最多两位小数）：adding and subtracting decimals (up to 2 decimal places)。关键技能：对齐小数点（align decimal points），补零补位（add zeros to make equal decimal places），竖式计算（vertical calculation）。例：3.45 + 2.7 → 对齐小数点 3.45 + 2.70 = 6.15；6.8 − 1.35 → 对齐小数点 6.80 − 1.35 = 5.45（从右边开始借位）；10 − 3.26 → 写成 10.00 − 3.26 = 6.74。金额美元和分（dollars and cents）是 2 位小数可以练，如 $4.50 + $2.75 = $7.25。常见错误：不对齐小数点（把 3.45 和 2.7 的个位对齐而不是小数点对齐）、从左边开始减（应该从右边个位或小数部分开始）、借位时漏了某一位（如 10.00 − 3.26，忘了从十位借到个位再借到十分位）。关键词：decimal point（小数点）、align（对齐）、add zeros（补零）、borrow（借位）、carry（进位）。注意：本周只教 P4 Decimals 2.1 最多两位小数的加减，不教三位小数加减、小数乘除（Decimals 3.1–3.3）、×÷10/100/1000（P5）、百分数（percentages）。"
     },
+    "MATH-22": {
+      examples: [
+        "2.45 × 3 = 7.35. Count decimal places: 2.45 has 2 d.p., so 245 × 3 = 735, then move point left 2 places.",
+        "6.4 ÷ 4 = 1.6. Decimal point goes straight up, then divide from left to right.",
+        "5 ÷ 2 = 2.5. Can't divide evenly? Add .0 to 5, divide 50 by 2 = 25, write 2.5.",
+        "7 ÷ 4 = 1.75. 4 goes into 7 once (remainder 3), add .0 → 30 ÷ 4 = 7 (remainder 2), add 0 → 20 ÷ 4 = 5."
+      ],
+      gloss: "P4 学小数乘除（最多两位小数）：multiplying and dividing decimals (up to 2 decimal places) by a 1-digit whole number, dividing a whole number by a whole number with quotient as a decimal, rounding。关键技能：2.45 × 3 → 先算 245 × 3 = 735，小数点往左移 2 位 = 7.35；6.4 ÷ 4 → 小数点直接上移，64 ÷ 4 = 16，答案 1.6；5 ÷ 2 → 除不尽时补零，5.0 ÷ 2 = 2.5；7 ÷ 4 = 1.75（4 goes into 7 once 余 3，补零 30，4 goes into 30 seven times 余 2，补零 20，4 goes into 20 five times）。四舍五入：3.26 × 5 = 16.30，若要求 1 d.p. 则看百分位 0 < 5 不进位 = 16.3。金额写新元 S$ 不是美元 $。常见错误：小数点位置错（忘了往左移几位）、除不尽不会写成小数（如 5÷2 写成 2 余 1 而不是 2.5）、四舍五入看错位（要四舍五入到 1 d.p. 看的是百分位，不是十分位）。关键词：decimal places（小数位）、multiply（乘）、divide（除）、quotient（商）、remainder（余数）、round to（四舍五入到）、d.p.（decimal place）。注意：本周只教 P4 Decimals 3.1–3.3，不教小数×小数（multiplying two decimals，不在 3.1 范围）、除以小数（dividing by a decimal）、×÷10/100/1000（P5）、百分数（percentages）、3 位小数×一位数（prefer stay at 2 d.p. operands）。"
+    },
     "A2-7": {
       fossil: "I going to the library tomorrow / I go to swim / Tomorrow I go library",
       examples: [

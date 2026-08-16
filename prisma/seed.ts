@@ -1735,6 +1735,103 @@ What is 10.00 − 4.37?`,
         },
       ],
     },
+    {
+      level: "MATH",
+      weekNumber: 22,
+      title: "数学 第 22 周 / Maths Week 22",
+      description: "AEIS-Primary P4 Mathematics: Multiplying and dividing decimals",
+      isSample: false,
+      errorFocus: null,
+      parentBrief: "本周主题：小数乘除一位整数、整数除以整数商为小数、按要求四舍五入，对应官方 2021 P4 Decimals 3.1–3.3（multiplying and dividing decimals up to 2 decimal places by a 1-digit whole number, dividing a whole number by a whole number with quotient as a decimal, rounding answers to a specified degree of accuracy）。申请 P5 入学的孩子需掌握 P4 内容（MOE AEIS preceding level 规则）。关键技能：2.45 × 3 = 7.35，6.4 ÷ 4 = 1.6，5 ÷ 2 = 2.5，7 ÷ 4 = 1.75，四舍五入到指定小数位。金额写新元 S$ 不是美元 $。常见错误：小数点位置错、除不尽不会写成小数、四舍五入看错位。题目是简体中文家长说明 + 英文题干。本周配有双向对照表，显示题目对应的官方 2021 Primary Mathematics Syllabus P4 Decimals 3.1–3.3，以及申请 P5 → 掌握 P4 的规则。本周不教：小数×小数、除以小数、×÷10 100 1000（P5）、百分数。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: `Read each question and choose the correct answer.
+
+Question 1:
+At Tampines Primary School, Mei bought 3 erasers. Each eraser costs S$1.25. How much did she spend in total?
+
+Question 2:
+Ali has 8.4 metres of rope. He cuts it into 4 equal pieces. How long is each piece?
+
+Question 3:
+Jun Wei has 9 litres of juice to share equally among 2 bottles. How many litres in each bottle?
+
+Question 4:
+Priya ran 2.35 km each day for 4 days. What is the total distance she ran?
+
+Question 5:
+A ribbon is 15.6 m long. It is cut into 3 equal parts. How long is each part?`,
+          options: JSON.stringify([
+            "S$1.25 × 3|A. S$3.75|B. S$3.65|C. S$4.25|D. S$3.25",
+            "8.4 m ÷ 4|A. 2.0 m|B. 2.1 m|C. 2.2 m|D. 1.1 m",
+            "9 l ÷ 2|A. 4 l|B. 4.0 l|C. 4.5 l|D. 3.5 l",
+            "2.35 km × 4|A. 9.20 km|B. 9.40 km|C. 8.40 km|D. 10.40 km",
+            "15.6 m ÷ 3|A. 5.2 m|B. 5.3 m|C. 4.2 m|D. 6.2 m",
+          ]),
+          correctAnswer: "A,B,C,B,A",
+          points: 5,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: `Choose the correct answer for each question.
+
+Question 6:
+What is 3.26 × 5?
+
+Question 7:
+What is 12.8 ÷ 8?
+
+Question 8:
+What is 7 ÷ 4? (Write your answer as a decimal.)
+
+Question 9:
+Mei bought 6 notebooks. Each notebook costs S$2.45. How much did she spend?
+
+Question 10:
+What is 5.6 × 3?
+
+Question 11:
+A tank had 18 litres of water. The water was poured equally into 5 containers. How much water in each container?
+
+Question 12:
+Jun Wei divided 11 kg of rice equally into 4 bags. How much rice is in each bag?
+
+Question 13:
+What is 4.38 × 2, rounded to 1 decimal place?`,
+          options: JSON.stringify([
+            "3.26 × 5|A. 16.30|B. 15.30|C. 16.20|D. 15.20",
+            "12.8 ÷ 8|A. 1.5|B. 1.6|C. 1.7|D. 1.4",
+            "7 ÷ 4|A. 1.5|B. 1.75|C. 1.85|D. 2.0",
+            "S$2.45 × 6|A. S$14.60|B. S$14.70|C. S$14.80|D. S$14.50",
+            "5.6 × 3|A. 16.8|B. 16.6|C. 17.8|D. 15.8",
+            "18 l ÷ 5|A. 3.5 l|B. 3.6 l|C. 3.4 l|D. 4.0 l",
+            "11 kg ÷ 4|A. 2.75 kg|B. 2.5 kg|C. 3.0 kg|D. 2.25 kg",
+            "4.38 × 2, to 1 d.p.|A. 8.8|B. 8.7|C. 9.0|D. 8.9",
+          ]),
+          correctAnswer: "A,B,B,B,A,B,A,A",
+          points: 8,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `At Bedok Primary School, the students are learning about multiplying and dividing decimals.
+
+(a) Ali bought 5 pens. Each pen costs S$3.26. How much did he spend in total? Show your working with the multiplication.
+
+(b) The school has 16.5 litres of paint to pour equally into 3 buckets. How much paint goes into each bucket? Show your working with the division.
+
+(c) Priya has S$20. She buys 4 books at S$3.75 each. How much money does she have left? Show all your working steps. Then round your final answer to 1 decimal place if asked.
+
+写出算式、答案和说明。Show working by calculating step by step. Explain any common errors (decimal point placement wrong, not converting whole ÷ whole to decimal quotient, rounding to wrong decimal place).`,
+          points: 10,
+        },
+      ],
+    },
     
     // A2 WEEKS
     {
