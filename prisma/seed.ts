@@ -6870,6 +6870,91 @@ Note: This is Part 1 Writing for Sec 1. Official paper: 2 topics, choose 1, writ
         },
       ],
     },
+    {
+      level: "SEC",
+      weekNumber: 11,
+      title: "英语 第 11 周 / English Week 11",
+      description: "AEIS-Secondary English (Sec 1 paper shape): school bookshop sample",
+      isSample: false,
+      errorFocus: "a few (countable) vs a little (uncountable) — unique keys",
+      parentBrief: "本周是中学 AEIS 英语第 11 周，对应官方 SEAB Sec 1 卷型（https://www.seab.gov.sg/aeis/test-details/ 2026年7月1日更新）。Part 1 Writing：2 个题目选写 1 篇，200–300 词。Part 2 Comprehension & Language Use：50 道 MCQ（Comprehension 15 + Comprehension cloze 15 + Vocabulary 10 + Grammar 10），共 2 小时 10 分钟。AEIS-Secondary 官方 preceding-level 规则：申请 Sec 1 入学者需熟悉 Sec 1 前一级的内容。官方举例：apply Secondary 3 → be familiar with Secondary 2. 本周针对 Sec 1 申请者，内容为 Sec 1 前一级水平。本周作业是样本，不是完整 50 题。本周化石：a few（可数）vs a little（不可数）。如果名词可数（pens, books, minutes），正确答案是 a few，a little 不出现或明显错误。如果名词不可数（money, time, paper, water），正确答案是 a little，a few 不出现或明显错误。禁止：a few money, a little pens, few of money。每个空只有一个正确选项。本周情境：Wei 在 Riverside Secondary 学校书店买文具（exercise book, a few pens, a little money left, queue, receipt, instructions a listener needs）。Cast: Wei, Aisha, Mr Lim at Riverside Secondary, bookshop uncle/auntie。金额用新加坡元 S$，不用美元。本周不是 CEQ。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: `Read the passage and answer the questions:
+
+At the School Bookshop
+
+Wei needed a few pens for his English class. At lunchtime, he walked to the school bookshop with Aisha. The bookshop was near the canteen on the ground floor.
+
+When they arrived, there was a little queue at the counter. Wei had a little time before the next lesson, so he waited. Aisha looked at the exercise books on the shelf while he stood in line.
+
+An auntie behind the counter asked Wei, "What do you need?" Wei replied, "I need a few pens, please. How much are they?" The auntie said, "Blue pens are S$1.50 each. Black pens are S$1.20 each."
+
+Wei chose a few blue pens. He also picked up an exercise book because Mr Lim had told the class to buy a little extra stationery for the next project. At the counter, the auntie said, "That's S$6.50 in total."
+
+Wei took out his wallet. He had a little money left from his allowance—only S$8. He paid the auntie and received a receipt. She said, "Here's your change—S$1.50. Keep your receipt in case you need to return anything."
+
+Wei put the change and the receipt in his wallet. Aisha asked him, "Do you have a little more money? I forgot my wallet." Wei smiled and said, "Yes, I still have a little. I can lend you a few dollars if you need it." Aisha thanked him, and they walked back to class together.
+
+Choose the correct answer:`,
+          options: JSON.stringify([
+            "Where is the school bookshop?|A. Near the library|B. Near the canteen on the ground floor|C. On the second floor|D. Next to the science lab",
+            "How much are the blue pens?|A. S$1.20 each|B. S$1.50 each|C. S$6.50 each|D. S$8.00 each",
+            "How much money did Wei have before he paid?|A. S$1.50|B. S$6.50|C. S$8.00|D. S$10.00",
+            "Who gave Wei the receipt?|A. Mr Lim|B. Aisha|C. The bookshop uncle|D. The bookshop auntie",
+            "What did Aisha ask Wei for?|A. A few pens|B. An exercise book|C. A little more money|D. A receipt",
+          ]),
+          correctAnswer: "B,B,C,D,C",
+          points: 10,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: "Choose the correct phrase to complete each sentence. Each blank has only one correct answer:",
+          options: JSON.stringify([
+            "Wei needed _____ pens for his English class. (pens = countable)|A. a few|B. a little|C. much|D. any",
+            "There was _____ queue at the counter. (queue = countable, but singular)|A. a few|B. a little|C. many|D. some",
+            "Wei had _____ time before the next lesson. (time = uncountable)|A. a few|B. a little|C. many|D. several",
+            "Mr Lim told the class to buy _____ extra stationery. (stationery = uncountable)|A. a few|B. a little|C. many|D. several",
+            "Wei had _____ money left from his allowance. (money = uncountable)|A. a few|B. a little|C. many|D. several",
+            "Wei could lend Aisha _____ dollars. (dollars = countable)|A. a few|B. a little|C. much|D. any",
+            "The auntie gave Wei _____ change. (change = uncountable when referring to money back)|A. a few|B. a little|C. many|D. several",
+            "Aisha looked at _____ exercise books on the shelf. (books = countable)|A. a few|B. a little|C. much|D. any",
+          ]),
+          correctAnswer: "A,B,B,B,B,A,B,A",
+          points: 16,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `Part 1: Writing (Choose ONE topic)
+
+Write 200–300 words on ONE of the following topics:
+
+Topic 1: Shopping at the School Bookshop
+Write about a time you went to a school bookshop or stationery shop. What did you buy? How much did it cost? Who did you go with?
+
+Topic 2: Why Students Need Good Stationery
+Write about why it is important for students to have good pens, books, and other stationery. What happens if a student doesn't have the right materials?
+
+写作提示 / Tips:
+✓ 选一个题目写 200–300 词 (Choose ONE topic and write 200–300 words)
+✓ Part 1 官方要求：complete the task, organize ideas clearly, use appropriate vocabulary and grammar
+✓ 写作格式：引言（介绍话题）+ 主体（2-3 段展开）+ 结尾（总结或建议）
+✓ 用连接词：First, Then, However, Also, Because, So
+✓ 避免化石：a few money ✗, a little pens ✗, few of money ✗. 如果名词可数（pens, books, minutes），用 a few。如果名词不可数（money, time, paper, water），用 a little。
+✓ 本周练 a few（可数）vs a little（不可数）。Wei needed a few pens. ✓ Wei had a little money left. ✓ He waited in a little queue. ✓ (queue 单数可用 a little 表示小规模) He looked at a few exercise books. ✓
+✓ 正确区分：a few books（几本书，可数）vs a little paper（一点纸，不可数）。few students（少数学生，可数）vs little time（很少时间，不可数）。
+
+Note: This is Part 1 Writing for Sec 1. Official paper: 2 topics, choose 1, write 200–300 words.`,
+          points: 20,
+        },
+      ],
+    },
     // SMATH WEEK (AEIS-Secondary Mathematics)
     {
       level: "SMATH",
