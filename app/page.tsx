@@ -6,6 +6,8 @@ import { useState } from "react";
 export default function HomePage() {
   const payNowNumber = "94594601";
   
+  const [showCurriculumMap, setShowCurriculumMap] = useState(false);
+  
   const [formData, setFormData] = useState({
     parentWechat: "",
     childBirthYear: "",
@@ -272,57 +274,49 @@ export default function HomePage() {
               家长订阅，孩子登录。每周作业 app + 家长微信跟进。先走 CEQ 英语门槛，再进 AEIS 数学与英语赛道。录取后可续订英语授课适应（不作为入学考试售卖）。
             </p>
 
-            <div className="mb-8 bg-accent/5 border border-accent/20 rounded-xl p-6">
-              <h3 className="font-serif font-semibold text-xl mb-3 text-ink">
-                月度会员
-              </h3>
-              <div className="flex items-baseline gap-3 mb-3">
-                <span className="font-serif text-3xl font-semibold text-accent">
-                  S$320
-                </span>
-                <span className="text-ink-2">/ 月</span>
-              </div>
-              <p className="text-sm text-ink-2 mb-4">
-                作业 app 解锁已上线周数（A2 试学周 + 第 1–11 周，B1 试学周 + 第 1–11 周，MATH 试学周 + 第 1–5 周）+ 家长微信进度通报。包含 CEQ 备考四项技能：阅读、写作、听读准备、口语提示。可随时取消。
-              </p>
-              <ul className="space-y-2 text-sm text-ink-2 mb-5">
-                <li className="flex items-start gap-2">
-                  <span className="text-accent mt-0.5">✓</span>
-                  <span>选择题自动批改，写作 AI 简体点评（Kaizen 一个改善焦点）</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-accent mt-0.5">✓</span>
-                  <span>家长微信进度通报，可随时取消</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-accent mt-0.5">✓</span>
-                  <span>试学一周免费</span>
-                </li>
-              </ul>
-              <p className="text-xs text-muted mb-4">
-                如需老师带练，微信咨询后再约（有教案再开 Zoom）。
-              </p>
-              <Link
-                href="#contact"
-                className="inline-flex items-center justify-center px-5 py-3 bg-accent text-accent-ink font-semibold rounded-full hover:bg-accent-hover transition-colors"
-              >
-                咨询月度订阅
-              </Link>
-            </div>
-
-            <h3 className="font-serif font-semibold text-xl mb-4 text-ink">
-              12 周预付包（CEQ 冲刺）
-            </h3>
-            <div className="grid md:grid-cols-2 gap-5">
+            <div className="grid md:grid-cols-3 gap-5 mb-8">
+              <article className="bg-card border border-line rounded-2xl p-6 shadow">
+                <div className="flex justify-between items-baseline mb-2">
+                  <h3 className="font-serif text-xl font-semibold">月度会员</h3>
+                  <div className="font-serif text-2xl font-semibold text-accent">S$320</div>
+                </div>
+                <p className="text-xs font-semibold uppercase tracking-wide text-accent mb-3">按月订阅</p>
+                <p className="text-ink-2 mb-4 text-sm">
+                  作业 app 解锁已上线周数（A2 试学周 + 第 1–11 周，B1 试学周 + 第 1–11 周，MATH 试学周 + 第 1–5 周）+ 家长微信进度通报。可随时取消。
+                </p>
+                <ul className="space-y-0 border-t border-line mb-5">
+                  <li className="border-b border-line py-3 pl-5 relative before:absolute before:left-0 before:top-5 before:w-2 before:h-2 before:rounded-full before:bg-accent text-sm text-ink-2">
+                    包含 CEQ 备考四项技能：阅读、写作、听读准备、口语提示
+                  </li>
+                  <li className="border-b border-line py-3 pl-5 relative before:absolute before:left-0 before:top-5 before:w-2 before:h-2 before:rounded-full before:bg-accent text-sm text-ink-2">
+                    选择题自动批改，写作 AI 简体点评（Kaizen 一个改善焦点）
+                  </li>
+                  <li className="border-b border-line py-3 pl-5 relative before:absolute before:left-0 before:top-5 before:w-2 before:h-2 before:rounded-full before:bg-accent text-sm text-ink-2">
+                    家长微信进度通报，可随时取消
+                  </li>
+                  <li className="py-3 pl-5 relative before:absolute before:left-0 before:top-5 before:w-2 before:h-2 before:rounded-full before:bg-accent text-sm text-ink-2">
+                    试学一周免费
+                  </li>
+                </ul>
+                <p className="text-xs text-muted mb-4">
+                  如需老师带练，微信咨询后再约（有教案再开 Zoom）。
+                </p>
+                <Link
+                  href="#contact"
+                  className="inline-flex items-center justify-center w-full px-5 py-3 bg-accent text-accent-ink font-semibold rounded-full hover:bg-accent-hover transition-colors"
+                >
+                  咨询月度订阅
+                </Link>
+              </article>
               <article className="bg-card border border-line rounded-2xl p-6 shadow">
                 <div className="flex justify-between items-baseline mb-2">
                   <h3 className="font-serif text-xl font-semibold">A2 Key for Schools</h3>
                   <div className="font-serif text-2xl font-semibold text-accent">S$2,480</div>
                 </div>
                 <p className="text-xs font-semibold uppercase tracking-wide text-accent mb-3">适合 P2–P4 CEQ 门槛</p>
-            <p className="text-ink-2 mb-4 text-sm">
-              该级别作业 app 12 周路径（试学周 + 第 1–11 周）+ 2 次模拟（写作/口语在 app 里）。12 周是三个月的作业路径，不是 12 个月。不是直播课。
-            </p>
+                <p className="text-ink-2 mb-4 text-sm">
+                  该级别作业 app 12 周路径（试学周 + 第 1–11 周）+ 2 次模拟（写作/口语在 app 里）。12 周是三个月的作业路径，不是 12 个月。不是直播课。
+                </p>
                 <ul className="space-y-0 border-t border-line mb-5">
                   <li className="border-b border-line py-3 pl-5 relative before:absolute before:left-0 before:top-5 before:w-2 before:h-2 before:rounded-full before:bg-accent text-sm text-ink-2">
                     针对 Cambridge A2 Key for Schools 四项技能：阅读、写作、听力、口语
@@ -351,9 +345,9 @@ export default function HomePage() {
                   <div className="font-serif text-2xl font-semibold text-accent">S$2,880</div>
                 </div>
                 <p className="text-xs font-semibold uppercase tracking-wide text-accent mb-3">适合 P5 CEQ 门槛</p>
-            <p className="text-ink-2 mb-4 text-sm">
-              该级别作业 app 12 周路径（试学周 + 第 1–11 周）+ 2 次模拟（写作/口语在 app 里）。12 周是三个月的作业路径，不是 12 个月。不是直播课。
-            </p>
+                <p className="text-ink-2 mb-4 text-sm">
+                  该级别作业 app 12 周路径（试学周 + 第 1–11 周）+ 2 次模拟（写作/口语在 app 里）。12 周是三个月的作业路径，不是 12 个月。不是直播课。
+                </p>
                 <ul className="space-y-0 border-t border-line mb-5">
                   <li className="border-b border-line py-3 pl-5 relative before:absolute before:left-0 before:top-5 before:w-2 before:h-2 before:rounded-full before:bg-accent text-sm text-ink-2">
                     针对 Cambridge B1 Preliminary for Schools 四项技能：阅读、写作、听力、口语
@@ -436,190 +430,211 @@ export default function HomePage() {
               </div>
             </div>
 
-            <h3 className="font-serif font-semibold text-xl mb-4 text-ink">已上线纠错地图（A2 共 11 周，B1 共 11 周）</h3>
-            <div className="overflow-x-auto">
-              <table className="w-full border border-line rounded-xl overflow-hidden text-sm">
-                <thead>
-                  <tr className="bg-paper-2 border-b border-line">
-                    <th className="px-4 py-3 text-left font-semibold text-ink">级别</th>
-                    <th className="px-4 py-3 text-left font-semibold text-ink">周</th>
-                    <th className="px-4 py-3 text-left font-semibold text-ink">主题</th>
-                    <th className="px-4 py-3 text-left font-semibold text-ink">本周只改这一个错</th>
-                    <th className="px-4 py-3 text-left font-semibold text-ink">中文干扰举例</th>
-                  </tr>
-                </thead>
-                <tbody className="bg-card">
-                  <tr className="border-b border-line">
-                    <td className="px-4 py-3 font-semibold text-accent">A2</td>
-                    <td className="px-4 py-3 text-ink-2">0</td>
-                    <td className="px-4 py-3 text-ink-2">试学周</td>
-                    <td className="px-4 py-3 text-ink">冠词 a/an/the 和零冠词</td>
-                    <td className="px-4 py-3 text-ink-2">I go to school by <span className="line-through">the</span> bus / I am <span className="text-warn-ink">✗</span> student</td>
-                  </tr>
-                  <tr className="border-b border-line">
-                    <td className="px-4 py-3 font-semibold text-accent">A2</td>
-                    <td className="px-4 py-3 text-ink-2">1</td>
-                    <td className="px-4 py-3 text-ink-2">Daily Routines</td>
-                    <td className="px-4 py-3 text-ink">第三人称单数 -s；at/in/on 时间介词</td>
-                    <td className="px-4 py-3 text-ink-2">she wake<span className="text-warn-ink">✗</span> up / in Monday</td>
-                  </tr>
-                  <tr className="border-b border-line">
-                    <td className="px-4 py-3 font-semibold text-accent">A2</td>
-                    <td className="px-4 py-3 text-ink-2">2</td>
-                    <td className="px-4 py-3 text-ink-2">School Life</td>
-                    <td className="px-4 py-3 text-ink">一般现在时 vs 现在进行时；like + -ing</td>
-                    <td className="px-4 py-3 text-ink-2">I am going to school every day</td>
-                  </tr>
-                  <tr className="border-b border-line">
-                    <td className="px-4 py-3 font-semibold text-accent">A2</td>
-                    <td className="px-4 py-3 text-ink-2">3</td>
-                    <td className="px-4 py-3 text-ink-2">Family</td>
-                    <td className="px-4 py-3 text-ink">一般过去时；used to</td>
-                    <td className="px-4 py-3 text-ink-2">yesterday I go / I use to live</td>
-                  </tr>
-                  <tr className="border-b border-line">
-                    <td className="px-4 py-3 font-semibold text-accent">A2</td>
-                    <td className="px-4 py-3 text-ink-2">4</td>
-                    <td className="px-4 py-3 text-ink-2">Shopping & Food</td>
-                    <td className="px-4 py-3 text-ink">可数/不可数名词；some/any、much/many</td>
-                    <td className="px-4 py-3 text-ink-2">two breads / how many rice? / I need some waters</td>
-                  </tr>
-                  <tr className="border-b border-line">
-                    <td className="px-4 py-3 font-semibold text-accent">A2</td>
-                    <td className="px-4 py-3 text-ink-2">5</td>
-                    <td className="px-4 py-3 text-ink-2">Sports Day</td>
-                    <td className="px-4 py-3 text-ink">比较级和最高级</td>
-                    <td className="px-4 py-3 text-ink-2">more bigger / more cheap / he is tall than me</td>
-                  </tr>
-                  <tr className="border-b border-line">
-                    <td className="px-4 py-3 font-semibold text-accent">A2</td>
-                    <td className="px-4 py-3 text-ink-2">6</td>
-                    <td className="px-4 py-3 text-ink-2">Around Singapore</td>
-                    <td className="px-4 py-3 text-ink">时间介词 at/in/on</td>
-                    <td className="px-4 py-3 text-ink-2">in Monday / on the morning / at 2026</td>
-                  </tr>
-                  <tr className="border-b border-line">
-                    <td className="px-4 py-3 font-semibold text-accent">A2</td>
-                    <td className="px-4 py-3 text-ink-2">7</td>
-                    <td className="px-4 py-3 text-ink-2">Weekend Plans</td>
-                    <td className="px-4 py-3 text-ink">be going to 将来时</td>
-                    <td className="px-4 py-3 text-ink-2">I going to / Tomorrow I go library / I go to swim</td>
-                  </tr>
-                  <tr className="border-b border-line">
-                    <td className="px-4 py-3 font-semibold text-accent">A2</td>
-                    <td className="px-4 py-3 text-ink-2">8</td>
-                    <td className="px-4 py-3 text-ink-2">School Rules</td>
-                    <td className="px-4 py-3 text-ink">can / must 情态动词</td>
-                    <td className="px-4 py-3 text-ink-2">I can to swim / I must to go / Can I to borrow</td>
-                  </tr>
-                  <tr className="border-b border-line">
-                    <td className="px-4 py-3 font-semibold text-accent">A2</td>
-                    <td className="px-4 py-3 text-ink-2">9</td>
-                    <td className="px-4 py-3 text-ink-2">Weekend Hobbies</td>
-                    <td className="px-4 py-3 text-ink">like / enjoy + -ing</td>
-                    <td className="px-4 py-3 text-ink-2">I like swim / I enjoy to read / I like to swimming</td>
-                  </tr>
-                  <tr className="border-b border-line">
-                    <td className="px-4 py-3 font-semibold text-accent">A2</td>
-                    <td className="px-4 py-3 text-ink-2">10</td>
-                    <td className="px-4 py-3 text-ink-2">Everyday Routines</td>
-                    <td className="px-4 py-3 text-ink">频率副词位置（实义动词前、be 后）</td>
-                    <td className="px-4 py-3 text-ink-2">I go always / I am always go / I never am late</td>
-                  </tr>
-                  <tr className="border-b border-line">
-                    <td className="px-4 py-3 font-semibold text-accent">A2</td>
-                    <td className="px-4 py-3 text-ink-2">11</td>
-                    <td className="px-4 py-3 text-ink-2">Where Things Are</td>
-                    <td className="px-4 py-3 text-ink">地点介词 in / on / at</td>
-                    <td className="px-4 py-3 text-ink-2">in the bus / on the classroom / at the table (for in) / in the wall</td>
-                  </tr>
-                  <tr className="border-b border-line bg-paper-2">
-                    <td className="px-4 py-3 font-semibold text-accent">B1</td>
-                    <td className="px-4 py-3 text-ink-2">0</td>
-                    <td className="px-4 py-3 text-ink-2">试学周</td>
-                    <td className="px-4 py-3 text-ink">现在完成 vs 过去时</td>
-                    <td className="px-4 py-3 text-ink-2">I have went yesterday / I am here for 6 months</td>
-                  </tr>
-                  <tr className="border-b border-line bg-paper-2">
-                    <td className="px-4 py-3 font-semibold text-accent">B1</td>
-                    <td className="px-4 py-3 text-ink-2">1</td>
-                    <td className="px-4 py-3 text-ink-2">Travel</td>
-                    <td className="px-4 py-3 text-ink">Have you ever...? 比较级 more/-er</td>
-                    <td className="px-4 py-3 text-ink-2">Have you go...? / It was impressive than...</td>
-                  </tr>
-                  <tr className="border-b border-line bg-paper-2">
-                    <td className="px-4 py-3 font-semibold text-accent">B1</td>
-                    <td className="px-4 py-3 text-ink-2">2</td>
-                    <td className="px-4 py-3 text-ink-2">Technology</td>
-                    <td className="px-4 py-3 text-ink">If + 过去, would... / suggest + -ing</td>
-                    <td className="px-4 py-3 text-ink-2">If school change... / suggest to use</td>
-                  </tr>
-                  <tr className="border-b border-line bg-paper-2">
-                    <td className="px-4 py-3 font-semibold text-accent">B1</td>
-                    <td className="px-4 py-3 text-ink-2">3</td>
-                    <td className="px-4 py-3 text-ink-2">Environment</td>
-                    <td className="px-4 py-3 text-ink">被动语态；should/ought to</td>
-                    <td className="px-4 py-3 text-ink-2">We recycle the bottles（该用被动）</td>
-                  </tr>
-                  <tr className="border-b border-line bg-paper-2">
-                    <td className="px-4 py-3 font-semibold text-accent">B1</td>
-                    <td className="px-4 py-3 text-ink-2">4</td>
-                    <td className="px-4 py-3 text-ink-2">Communication</td>
-                    <td className="px-4 py-3 text-ink">间接引语 (Reported speech)</td>
-                    <td className="px-4 py-3 text-ink-2">He said he will come / She said I am busy</td>
-                  </tr>
-                  <tr className="border-b border-line bg-paper-2">
-                    <td className="px-4 py-3 font-semibold text-accent">B1</td>
-                    <td className="px-4 py-3 text-ink-2">5</td>
-                    <td className="px-4 py-3 text-ink-2">Describing People</td>
-                    <td className="px-4 py-3 text-ink">定语从句 who/which/that</td>
-                    <td className="px-4 py-3 text-ink-2">The girl sits next to me / the book who I read</td>
-                  </tr>
-                  <tr className="bg-paper-2">
-                    <td className="px-4 py-3 font-semibold text-accent">B1</td>
-                    <td className="px-4 py-3 text-ink-2">6</td>
-                    <td className="px-4 py-3 text-ink-2">When We Were Younger</td>
-                    <td className="px-4 py-3 text-ink">used to 表过去习惯</td>
-                    <td className="px-4 py-3 text-ink-2">I use to walk / I didn't used to / I am used to swim</td>
-                  </tr>
-                  <tr className="border-b border-line bg-paper-2">
-                    <td className="px-4 py-3 font-semibold text-accent">B1</td>
-                    <td className="px-4 py-3 text-ink-2">7</td>
-                    <td className="px-4 py-3 text-ink-2">Rain or Shine</td>
-                    <td className="px-4 py-3 text-ink">although / despite 对比转折</td>
-                    <td className="px-4 py-3 text-ink-2">Although...but / Despite of / Despite + 句子</td>
-                  </tr>
-                  <tr className="border-b border-line bg-paper-2">
-                    <td className="px-4 py-3 font-semibold text-accent">B1</td>
-                    <td className="px-4 py-3 text-ink-2">8</td>
-                    <td className="px-4 py-3 text-ink-2">Such a Busy Week</td>
-                    <td className="px-4 py-3 text-ink">so / such 加强描述</td>
-                    <td className="px-4 py-3 text-ink-2">so a beautiful park / such beautiful / so + 名词</td>
-                  </tr>
-                  <tr className="border-b border-line bg-paper-2">
-                    <td className="px-4 py-3 font-semibold text-accent">B1</td>
-                    <td className="px-4 py-3 text-ink-2">9</td>
-                    <td className="px-4 py-3 text-ink-2">Too Tired to Run</td>
-                    <td className="px-4 py-3 text-ink">too...to / enough</td>
-                    <td className="px-4 py-3 text-ink-2">too much tired / enough rich / I am not enough tall</td>
-                  </tr>
-                  <tr className="border-b border-line bg-paper-2">
-                    <td className="px-4 py-3 font-semibold text-accent">B1</td>
-                    <td className="px-4 py-3 text-ink-2">10</td>
-                    <td className="px-4 py-3 text-ink-2">Checking What We Heard</td>
-                    <td className="px-4 py-3 text-ink">反意疑问句 question tags</td>
-                    <td className="px-4 py-3 text-ink-2">You like it, is it? / She's tall, is she? / You don't like English, isn't it?</td>
-                  </tr>
-                  <tr className="bg-paper-2">
-                    <td className="px-4 py-3 font-semibold text-accent">B1</td>
-                    <td className="px-4 py-3 text-ink-2">11</td>
-                    <td className="px-4 py-3 text-ink-2">What Had Already Happened</td>
-                    <td className="px-4 py-3 text-ink">过去完成时 past perfect</td>
-                    <td className="px-4 py-3 text-ink-2">When I arrived, the bus left / I have finished before she came</td>
-                  </tr>
-                </tbody>
-              </table>
+            <div className="mb-6">
+              <button
+                onClick={() => setShowCurriculumMap(!showCurriculumMap)}
+                className="inline-flex items-center gap-2 text-accent hover:text-accent-hover font-semibold transition-colors"
+              >
+                <span>{showCurriculumMap ? '收起' : '展开'}纠错地图</span>
+                <svg
+                  className={`w-5 h-5 transition-transform ${showCurriculumMap ? 'rotate-180' : ''}`}
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                </svg>
+              </button>
             </div>
+
+            {showCurriculumMap && (
+              <>
+                <h3 className="font-serif font-semibold text-xl mb-4 text-ink">已上线纠错地图（A2 共 11 周，B1 共 11 周）</h3>
+                <div className="overflow-x-auto">
+                  <table className="w-full border border-line rounded-xl overflow-hidden text-sm">
+                    <thead>
+                      <tr className="bg-paper-2 border-b border-line">
+                        <th className="px-4 py-3 text-left font-semibold text-ink">级别</th>
+                        <th className="px-4 py-3 text-left font-semibold text-ink">周</th>
+                        <th className="px-4 py-3 text-left font-semibold text-ink">主题</th>
+                        <th className="px-4 py-3 text-left font-semibold text-ink">本周只改这一个错</th>
+                        <th className="px-4 py-3 text-left font-semibold text-ink">中文干扰举例</th>
+                      </tr>
+                    </thead>
+                    <tbody className="bg-card">
+                      <tr className="border-b border-line">
+                        <td className="px-4 py-3 font-semibold text-accent">A2</td>
+                        <td className="px-4 py-3 text-ink-2">0</td>
+                        <td className="px-4 py-3 text-ink-2">试学周</td>
+                        <td className="px-4 py-3 text-ink">冠词 a/an/the 和零冠词</td>
+                        <td className="px-4 py-3 text-ink-2">I go to school by <span className="line-through">the</span> bus / I am <span className="text-warn-ink">✗</span> student</td>
+                      </tr>
+                      <tr className="border-b border-line">
+                        <td className="px-4 py-3 font-semibold text-accent">A2</td>
+                        <td className="px-4 py-3 text-ink-2">1</td>
+                        <td className="px-4 py-3 text-ink-2">Daily Routines</td>
+                        <td className="px-4 py-3 text-ink">第三人称单数 -s；at/in/on 时间介词</td>
+                        <td className="px-4 py-3 text-ink-2">she wake<span className="text-warn-ink">✗</span> up / in Monday</td>
+                      </tr>
+                      <tr className="border-b border-line">
+                        <td className="px-4 py-3 font-semibold text-accent">A2</td>
+                        <td className="px-4 py-3 text-ink-2">2</td>
+                        <td className="px-4 py-3 text-ink-2">School Life</td>
+                        <td className="px-4 py-3 text-ink">一般现在时 vs 现在进行时；like + -ing</td>
+                        <td className="px-4 py-3 text-ink-2">I am going to school every day</td>
+                      </tr>
+                      <tr className="border-b border-line">
+                        <td className="px-4 py-3 font-semibold text-accent">A2</td>
+                        <td className="px-4 py-3 text-ink-2">3</td>
+                        <td className="px-4 py-3 text-ink-2">Family</td>
+                        <td className="px-4 py-3 text-ink">一般过去时；used to</td>
+                        <td className="px-4 py-3 text-ink-2">yesterday I go / I use to live</td>
+                      </tr>
+                      <tr className="border-b border-line">
+                        <td className="px-4 py-3 font-semibold text-accent">A2</td>
+                        <td className="px-4 py-3 text-ink-2">4</td>
+                        <td className="px-4 py-3 text-ink-2">Shopping & Food</td>
+                        <td className="px-4 py-3 text-ink">可数/不可数名词；some/any、much/many</td>
+                        <td className="px-4 py-3 text-ink-2">two breads / how many rice? / I need some waters</td>
+                      </tr>
+                      <tr className="border-b border-line">
+                        <td className="px-4 py-3 font-semibold text-accent">A2</td>
+                        <td className="px-4 py-3 text-ink-2">5</td>
+                        <td className="px-4 py-3 text-ink-2">Sports Day</td>
+                        <td className="px-4 py-3 text-ink">比较级和最高级</td>
+                        <td className="px-4 py-3 text-ink-2">more bigger / more cheap / he is tall than me</td>
+                      </tr>
+                      <tr className="border-b border-line">
+                        <td className="px-4 py-3 font-semibold text-accent">A2</td>
+                        <td className="px-4 py-3 text-ink-2">6</td>
+                        <td className="px-4 py-3 text-ink-2">Around Singapore</td>
+                        <td className="px-4 py-3 text-ink">时间介词 at/in/on</td>
+                        <td className="px-4 py-3 text-ink-2">in Monday / on the morning / at 2026</td>
+                      </tr>
+                      <tr className="border-b border-line">
+                        <td className="px-4 py-3 font-semibold text-accent">A2</td>
+                        <td className="px-4 py-3 text-ink-2">7</td>
+                        <td className="px-4 py-3 text-ink-2">Weekend Plans</td>
+                        <td className="px-4 py-3 text-ink">be going to 将来时</td>
+                        <td className="px-4 py-3 text-ink-2">I going to / Tomorrow I go library / I go to swim</td>
+                      </tr>
+                      <tr className="border-b border-line">
+                        <td className="px-4 py-3 font-semibold text-accent">A2</td>
+                        <td className="px-4 py-3 text-ink-2">8</td>
+                        <td className="px-4 py-3 text-ink-2">School Rules</td>
+                        <td className="px-4 py-3 text-ink">can / must 情态动词</td>
+                        <td className="px-4 py-3 text-ink-2">I can to swim / I must to go / Can I to borrow</td>
+                      </tr>
+                      <tr className="border-b border-line">
+                        <td className="px-4 py-3 font-semibold text-accent">A2</td>
+                        <td className="px-4 py-3 text-ink-2">9</td>
+                        <td className="px-4 py-3 text-ink-2">Weekend Hobbies</td>
+                        <td className="px-4 py-3 text-ink">like / enjoy + -ing</td>
+                        <td className="px-4 py-3 text-ink-2">I like swim / I enjoy to read / I like to swimming</td>
+                      </tr>
+                      <tr className="border-b border-line">
+                        <td className="px-4 py-3 font-semibold text-accent">A2</td>
+                        <td className="px-4 py-3 text-ink-2">10</td>
+                        <td className="px-4 py-3 text-ink-2">Everyday Routines</td>
+                        <td className="px-4 py-3 text-ink">频率副词位置（实义动词前、be 后）</td>
+                        <td className="px-4 py-3 text-ink-2">I go always / I am always go / I never am late</td>
+                      </tr>
+                      <tr className="border-b border-line">
+                        <td className="px-4 py-3 font-semibold text-accent">A2</td>
+                        <td className="px-4 py-3 text-ink-2">11</td>
+                        <td className="px-4 py-3 text-ink-2">Where Things Are</td>
+                        <td className="px-4 py-3 text-ink">地点介词 in / on / at</td>
+                        <td className="px-4 py-3 text-ink-2">in the bus / on the classroom / at the table (for in) / in the wall</td>
+                      </tr>
+                      <tr className="border-b border-line bg-paper-2">
+                        <td className="px-4 py-3 font-semibold text-accent">B1</td>
+                        <td className="px-4 py-3 text-ink-2">0</td>
+                        <td className="px-4 py-3 text-ink-2">试学周</td>
+                        <td className="px-4 py-3 text-ink">现在完成 vs 过去时</td>
+                        <td className="px-4 py-3 text-ink-2">I have went yesterday / I am here for 6 months</td>
+                      </tr>
+                      <tr className="border-b border-line bg-paper-2">
+                        <td className="px-4 py-3 font-semibold text-accent">B1</td>
+                        <td className="px-4 py-3 text-ink-2">1</td>
+                        <td className="px-4 py-3 text-ink-2">Travel</td>
+                        <td className="px-4 py-3 text-ink">Have you ever...? 比较级 more/-er</td>
+                        <td className="px-4 py-3 text-ink-2">Have you go...? / It was impressive than...</td>
+                      </tr>
+                      <tr className="border-b border-line bg-paper-2">
+                        <td className="px-4 py-3 font-semibold text-accent">B1</td>
+                        <td className="px-4 py-3 text-ink-2">2</td>
+                        <td className="px-4 py-3 text-ink-2">Technology</td>
+                        <td className="px-4 py-3 text-ink">If + 过去, would... / suggest + -ing</td>
+                        <td className="px-4 py-3 text-ink-2">If school change... / suggest to use</td>
+                      </tr>
+                      <tr className="border-b border-line bg-paper-2">
+                        <td className="px-4 py-3 font-semibold text-accent">B1</td>
+                        <td className="px-4 py-3 text-ink-2">3</td>
+                        <td className="px-4 py-3 text-ink-2">Environment</td>
+                        <td className="px-4 py-3 text-ink">被动语态；should/ought to</td>
+                        <td className="px-4 py-3 text-ink-2">We recycle the bottles（该用被动）</td>
+                      </tr>
+                      <tr className="border-b border-line bg-paper-2">
+                        <td className="px-4 py-3 font-semibold text-accent">B1</td>
+                        <td className="px-4 py-3 text-ink-2">4</td>
+                        <td className="px-4 py-3 text-ink-2">Communication</td>
+                        <td className="px-4 py-3 text-ink">间接引语 (Reported speech)</td>
+                        <td className="px-4 py-3 text-ink-2">He said he will come / She said I am busy</td>
+                      </tr>
+                      <tr className="border-b border-line bg-paper-2">
+                        <td className="px-4 py-3 font-semibold text-accent">B1</td>
+                        <td className="px-4 py-3 text-ink-2">5</td>
+                        <td className="px-4 py-3 text-ink-2">Describing People</td>
+                        <td className="px-4 py-3 text-ink">定语从句 who/which/that</td>
+                        <td className="px-4 py-3 text-ink-2">The girl sits next to me / the book who I read</td>
+                      </tr>
+                      <tr className="bg-paper-2">
+                        <td className="px-4 py-3 font-semibold text-accent">B1</td>
+                        <td className="px-4 py-3 text-ink-2">6</td>
+                        <td className="px-4 py-3 text-ink-2">When We Were Younger</td>
+                        <td className="px-4 py-3 text-ink">used to 表过去习惯</td>
+                        <td className="px-4 py-3 text-ink-2">I use to walk / I didn't used to / I am used to swim</td>
+                      </tr>
+                      <tr className="border-b border-line bg-paper-2">
+                        <td className="px-4 py-3 font-semibold text-accent">B1</td>
+                        <td className="px-4 py-3 text-ink-2">7</td>
+                        <td className="px-4 py-3 text-ink-2">Rain or Shine</td>
+                        <td className="px-4 py-3 text-ink">although / despite 对比转折</td>
+                        <td className="px-4 py-3 text-ink-2">Although...but / Despite of / Despite + 句子</td>
+                      </tr>
+                      <tr className="border-b border-line bg-paper-2">
+                        <td className="px-4 py-3 font-semibold text-accent">B1</td>
+                        <td className="px-4 py-3 text-ink-2">8</td>
+                        <td className="px-4 py-3 text-ink-2">Such a Busy Week</td>
+                        <td className="px-4 py-3 text-ink">so / such 加强描述</td>
+                        <td className="px-4 py-3 text-ink-2">so a beautiful park / such beautiful / so + 名词</td>
+                      </tr>
+                      <tr className="border-b border-line bg-paper-2">
+                        <td className="px-4 py-3 font-semibold text-accent">B1</td>
+                        <td className="px-4 py-3 text-ink-2">9</td>
+                        <td className="px-4 py-3 text-ink-2">Too Tired to Run</td>
+                        <td className="px-4 py-3 text-ink">too...to / enough</td>
+                        <td className="px-4 py-3 text-ink-2">too much tired / enough rich / I am not enough tall</td>
+                      </tr>
+                      <tr className="border-b border-line bg-paper-2">
+                        <td className="px-4 py-3 font-semibold text-accent">B1</td>
+                        <td className="px-4 py-3 text-ink-2">10</td>
+                        <td className="px-4 py-3 text-ink-2">Checking What We Heard</td>
+                        <td className="px-4 py-3 text-ink">反意疑问句 question tags</td>
+                        <td className="px-4 py-3 text-ink-2">You like it, is it? / She's tall, is she? / You don't like English, isn't it?</td>
+                      </tr>
+                      <tr className="bg-paper-2">
+                        <td className="px-4 py-3 font-semibold text-accent">B1</td>
+                        <td className="px-4 py-3 text-ink-2">11</td>
+                        <td className="px-4 py-3 text-ink-2">What Had Already Happened</td>
+                        <td className="px-4 py-3 text-ink">过去完成时 past perfect</td>
+                        <td className="px-4 py-3 text-ink-2">When I arrived, the bus left / I have finished before she came</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </>
+            )}
 
             <div className="mt-6 bg-paper-2 border border-line rounded-xl p-5">
               <p className="text-sm text-ink-2">
