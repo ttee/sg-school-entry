@@ -258,6 +258,14 @@ export default function WeikeMiniLesson({ level, weekNumber }: WeikeMiniLessonPr
       ],
       gloss: "P4 学对称轴（line of symmetry / 对称轴）与对称图形（symmetric figure / 对称图形）：一个图形是对称的，如果一半是另一半在一条直线（对称轴）对面的镜像。正方形有 4 条对称轴（两条中线穿过对边，两条对角线）。非正方形长方形有 2 条对称轴（两条中线穿过对边的中点——不包括对角线）。等边三角形有 3 条。非等边的等腰三角形有 1 条。圆有很多条（不要发明数字）。不规则三角形 / 不规则四边形通常有 0 条。完成图形：如果方格纸有一条垂直/水平对称轴，一侧有一些单位格已着色，另一侧的匹配格必须距离对称轴相同的距离。常见错误：把长方形的对角线当对称轴、认为每个图形都有对称轴、在对称轴错误的一侧完成图形、数出不能让两半重合的折叠线。本周不教：rotational symmetry / order of rotational symmetry（旋转对称）、reflection in a point（点对称）、3D symmetry（立体对称）、nets（展开图，那是第 29 周）。"
     },
+    "MATH-29": {
+      examples: [
+        "A row of 6 equal squares is NOT a cube net. Faces overlap when folded.",
+        "A cross of 6 equal squares (1 center + 4 sides + 1 bottom) IS a cube net. Folds without overlapping.",
+        "A net of 1 square + 4 triangles → square pyramid. A net of 2 triangles + 3 rectangles → triangular prism."
+      ],
+      gloss: "P4 学展开图（nets / 展开图）：识别立体图形的二维表示（4.1: cube 立方体, cuboid 长方体, cone 圆锥, cylinder 圆柱, prism 棱柱, pyramid 棱锥）；识别展开图（4.3: cube, cuboid, prism, pyramid 的展开图——注意 cone 和 cylinder 不在 4.3，不能发明圆锥圆柱展开图）；从展开图判断可组成的立体图形（4.4）。Cube 有 6 个正方形面，cube net 有 6 个正方形折叠后无重叠（十字形 OK，一排 6 个不 OK 因为重叠）。Cuboid 有 6 个长方形面（对面相等）。Triangular prism 有 2 个三角形面 + 3 个长方形面（共 5 面）。Square pyramid 有 1 个正方形底 + 4 个三角形面（共 5 面）。常见错误：以为任何 6 个正方形排列都是 cube net、混淆 prism（2 triangles + 3 rectangles）和 square pyramid（1 square + 4 triangles）、发明 cone/cylinder net（cone 和 cylinder 只在 4.1 二维表示，不在 4.3 展开图中）、把 2D drawing 当 net。这是最后一个官方 P4 Geometry 主题周。"
+    },
     "A2-7": {
       fossil: "I going to the library tomorrow / I go to swim / Tomorrow I go library",
       examples: [

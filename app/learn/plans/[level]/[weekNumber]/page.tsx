@@ -2446,6 +2446,56 @@ const lessonPlans: Record<string, LessonPlan> = {
       "On a four by four square grid, a vertical line of symmetry runs down the middle. One unit square is shaded one unit to the left of the line. Where must the matching square be? (Say the property and answer.)",
     ],
   },
+  "MATH-29": {
+    title: "展开图 — Nets",
+    mathExample: "A row of 6 equal squares is NOT a cube net. Faces overlap when folded. A cross of 6 equal squares (1 center + 4 sides + 1 bottom) IS a cube net. Folds without overlapping. A net of 1 square + 4 triangles → square pyramid. A net of 2 triangles + 3 rectangles → triangular prism.",
+    sections: [
+      {
+        name: "热身",
+        duration: "3 分钟",
+        teacherNotes: "问孩子：'What is a net? What is a 2D representation?' 引导：A net (展开图) is a flat shape that folds into a 3D solid (立体图形). For example, a cube net has 6 squares that fold to a cube without overlapping faces. A 2D representation (二维表示) is a drawing of a 3D solid on paper (如正方形+两个平行四边形表示立方体), but it is not a net. 让孩子想想哪些立体图形：cube（立方体）、cuboid（长方体）、cone（圆锥）、cylinder（圆柱）、prism（棱柱）、pyramid（棱锥）。提醒：4.1 identifying 2D representations includes cone and cylinder. But 4.3 identifying nets does NOT include cone or cylinder (不能发明圆锥圆柱展开图). 这是最后一个官方 P4 Geometry 主题周。",
+      },
+      {
+        name: "本周例题",
+        duration: "8 分钟",
+        teacherNotes: "在白板上写：'A row of 6 equal squares in a straight line: NOT a cube net.' 画简单示意图：6 个正方形排成一排，标注 'Row of 6 squares'. 问孩子：'Why not a cube net?' 引导：When you fold a row of 6 squares, the faces overlap. For example, the first square and the last square both try to cover the same position on the cube. A valid cube net has 6 squares that fold to a cube without overlapping faces. 再写：'A cross of 6 equal squares (1 center + 4 sides + 1 bottom): IS a cube net.' 画简单示意图：十字形，1 个中心正方形，4 个在中心正方形的四边，1 个在底部。标注 'Cross shape: valid cube net'. 讲 pyramid vs prism：'A net of 1 square + 4 triangles → square pyramid (1 square base + 4 triangular faces = 5 faces).' 画简单示意图：1 个正方形在中心，4 个三角形在四边。'A net of 2 triangles + 3 rectangles → triangular prism (2 triangular ends + 3 rectangular sides = 5 faces).' 画简单示意图：2 个三角形，3 个长方形。讲 4.1 vs 4.3：'Cylinder 2D representation: rectangle + 2 circles (4.1 identifying 2D representations). But cylinder net is NOT in 4.3 (不能发明圆柱展开图).' 讲 cuboid net：'Cuboid net has 6 rectangles, opposite faces match in pairs. For example: 2 faces of 8×4, 2 faces of 8×3, 2 faces of 4×3 (对面成对相等).' 强调：任何 6 个正方形排列不一定是 cube net（一排会重叠），不能混淆 prism（2 triangles + 3 rectangles）和 square pyramid（1 square + 4 triangles），不能发明 cone/cylinder net（cone 和 cylinder 只在 4.1 二维表示，不在 4.3 展开图中），不能把 2D drawing 当 net。",
+      },
+      {
+        name: "孩子口头说算式",
+        duration: "10 分钟",
+        teacherNotes: "给 3 个口头题，孩子说出性质和判断。题目 1：'A net has 6 equal squares arranged in a row (a straight line). Is this a net of a cube?' 期待输出：'A cube has 6 square faces, all equal. A valid cube net has 6 squares that fold to a cube without overlapping faces. When you fold a row of 6 squares in a straight line, the faces overlap when folded. For example, the first square and the last square both try to cover the same position on the cube. So a row of 6 squares is NOT a cube net because faces overlap when folded.' 题目 2：'A net has 1 square and 4 triangles. The square is in the center, and one triangle is attached to each side of the square. Which solid can be formed by this net?' 期待输出：'A square pyramid has 1 square base and 4 triangular faces. In total: 1 + 4 = 5 faces. This net has 1 square + 4 triangles. When you fold this net, the square becomes the base, and the 4 triangles fold up to meet at the top vertex (顶点). This forms a square pyramid. A triangular prism has 2 triangles + 3 rectangles, not 1 square + 4 triangles. So this net forms a square pyramid.' 题目 3：'A net has 2 triangles and 3 rectangles. Which solid can be formed by this net?' 期待输出：'A triangular prism has 2 triangular faces and 3 rectangular faces. In total: 2 + 3 = 5 faces. This net has 2 triangles + 3 rectangles. When you fold this net, the 2 triangles become the two ends of the prism, and the 3 rectangles wrap around to connect the two triangular ends. This forms a triangular prism. A square pyramid has 1 square + 4 triangles, not 2 triangles + 3 rectangles. So this net forms a triangular prism.' 引导孩子用完整句子说出性质、区分 prism vs pyramid，强调 cube net 必须折叠后无重叠。",
+      },
+      {
+        name: "开口",
+        duration: "12 分钟",
+        teacherNotes: "让孩子读出展开图的性质并判断立体图形。比如 'A solid has 6 faces. All 6 faces are squares, and all the squares are equal in size. Which solid is this?'，孩子要说 'A cube has 6 square faces, all equal. A cuboid has 6 rectangular faces. A cone has 1 circular face and a curved surface. A pyramid with a square base has 1 square and 4 triangles. So the answer is cube.' 或 'A 2D representation shows a rectangle and two circles (one circle at each end of the rectangle). Which solid does this represent?'，孩子要说 'This is the 2D representation of a cylinder. A cylinder has two circular faces and one curved surface. When drawn on paper, it looks like a rectangle with two circles. Note: 4.1 identifying 2D representations includes cone and cylinder. But 4.3 identifying nets does NOT include cone or cylinder.' 或 'A net has 6 rectangles. The rectangles have dimensions: 2 faces are 8 cm by 4 cm, 2 faces are 8 cm by 3 cm, and 2 faces are 4 cm by 3 cm (opposite faces match in pairs). Which solid can be formed by this net?'，孩子要说 'A cuboid has 6 rectangular faces, and opposite faces are equal. The net has 6 rectangles with opposite faces matching in pairs: 2 of 8×4, 2 of 8×3, 2 of 4×3. So the answer is cuboid.' 提醒：不能混淆 prism（2 triangles + 3 rectangles）和 square pyramid（1 square + 4 triangles），不能发明 cone/cylinder net，不能把 2D drawing 当 net（2D drawing 如正方形+两个平行四边形表示立方体，不是 net）。",
+      },
+      {
+        name: "收口",
+        duration: "5 分钟",
+        teacherNotes: "提醒本周作业有 P4 数学题目，包括 identifying 2D representations（识别二维表示 4.1: cube, cuboid, cone, cylinder, prism, pyramid）、drawing 2D representations（画二维表示 4.2: cube, cuboid, prism, pyramid——不包括 cone, cylinder）、identifying the nets of 3D solids（识别展开图 4.3: cube, cuboid, prism, pyramid——不包括 cone, cylinder）、identifying the solid which can be formed by a given net（从展开图判断立体图形 4.4）。对应申请 P5 的孩子需要掌握的 P4 内容（preceding level 规则，Geometry → Nets 4.1–4.4）。题目使用新加坡学校情境（Raffles Girls' Primary School, Jun Wei, Mei, Priya 等）。本周不教：nets of cone, cylinder, sphere（cone 和 cylinder 只在 4.1 二维表示，不在 4.3 展开图；sphere 不在 P4 nets 列表）、surface area / volume formulas（表面积体积公式）、Euler's formula（欧拉公式）、line symmetry / rotational symmetry（对称，已在第 28 周教过）。常见错误：以为任何 6 个正方形排列都是 cube net（一排 6 个正方形折叠时面会重叠，不是 cube net）、混淆 prism（2 triangles + 3 rectangles）和 square pyramid（1 square + 4 triangles）、发明 cone/cylinder net、把 2D drawing 当 net。这是最后一个官方 P4 Geometry 主题周。",
+      },
+    ],
+    spokenLines: [
+      "Cube net: 6 squares that fold without overlapping.",
+      "Row of 6 squares: NOT a cube net (faces overlap).",
+      "Cross of 6 squares: IS a cube net.",
+      "Square pyramid net: 1 square + 4 triangles (5 faces).",
+      "Triangular prism net: 2 triangles + 3 rectangles (5 faces).",
+      "Cuboid net: 6 rectangles, opposite faces match in pairs.",
+      "4.1 includes cone and cylinder. 4.3 nets do NOT include cone or cylinder.",
+      "Cylinder 2D representation: rectangle + 2 circles (4.1 only, NOT 4.3 net).",
+      "Cone 2D representation: circle + triangle (4.1 only, NOT 4.3 net).",
+      "2D drawing (square + 2 parallelograms) is NOT a net.",
+      "Not teaching: cone/cylinder nets, surface area, volume, Euler's formula.",
+      "This is the last official P4 Geometry week.",
+    ],
+    childPrompts: [
+      "A net has 6 equal squares arranged in a row (a straight line). Is this a net of a cube? (Say the property and answer.)",
+      "A net has 1 square and 4 triangles. The square is in the center, and one triangle is attached to each side of the square. Which solid can be formed by this net? (Say the property and answer.)",
+      "A net has 2 triangles and 3 rectangles. Which solid can be formed by this net? (Say the property and answer.)",
+    ],
+  },
 };
 
 export default async function LessonPlanPage({
