@@ -1990,7 +1990,7 @@ Question 10:
 Visitors to East Coast Park: Saturday 245, Sunday 320. How many more visitors on Sunday than Saturday?
 
 Question 11:
-The line graph shows Mei's savings each month. January: $45, February: $52, March: $48, April: $55, May: $60. Between which two consecutive months did her savings increase the most?
+The line graph shows Mei's savings each month. January: $45, February: $52, March: $48, April: $58, May: $60. Between which two consecutive months did her savings increase the most?
 
 Question 12:
 The table shows the temperature at different times. 6 a.m.: 24°C, 9 a.m.: 28°C, 12 noon: 32°C, 3 p.m.: 30°C, 6 p.m.: 26°C. What is the temperature at 12 noon?
@@ -2003,7 +2003,7 @@ The canteen sold drinks each day: Monday 85, Tuesday 92, Wednesday 88, Thursday 
             "Book sales: Mon 24, Tue 30, Wed 27, Thu 33, Fri 36. Which day went down?|A. Tuesday|B. Wednesday|C. Thursday|D. Friday",
             "Buses: 7am 18, 8am 25, 9am 32, 10am 28, 11am 22. Most buses at?|A. 7 a.m.|B. 8 a.m.|C. 9 a.m.|D. 10 a.m.",
             "East Coast Park: Sat 245, Sun 320. How much more on Sunday?|A. 65|B. 70|C. 75|D. 80",
-            "Savings: Jan $45, Feb $52, Mar $48, Apr $55, May $60. Biggest increase between?|A. Jan-Feb|B. Feb-Mar|C. Mar-Apr|D. Apr-May",
+            "Savings: Jan $45, Feb $52, Mar $48, Apr $58, May $60. Biggest increase between?|A. Jan-Feb|B. Feb-Mar|C. Mar-Apr|D. Apr-May",
             "Temperature: 6am 24°C, 9am 28°C, 12noon 32°C, 3pm 30°C, 6pm 26°C. At noon?|A. 28°C|B. 30°C|C. 32°C|D. 34°C",
             "Drinks sold: Mon 85, Tue 92, Wed 88, Thu 95, Fri 90. Tuesday?|A. 88|B. 90|C. 92|D. 95",
           ]),

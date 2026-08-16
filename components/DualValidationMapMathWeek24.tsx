@@ -157,14 +157,14 @@ export default function DualValidationMapMathWeek24() {
             <tr className="border-b border-accent/10">
               <td className="px-3 py-3 text-ink align-top">
                 <strong>选择题 Q11</strong><br />
-                Savings: Jan $45, Feb $52, Mar $48, Apr $55, May $60. Biggest increase between?
+                Savings: Jan $45, Feb $52, Mar $48, Apr $58, May $60. Biggest increase between?
               </td>
               <td className="px-3 py-3 text-ink-2 align-top">
                 <strong>Statistics</strong><br />
                 • 1.2 reading and interpreting data from line graphs (comparing consecutive changes)
               </td>
               <td className="px-3 py-3 text-ink-2 align-top">
-                P4 技能：比较连续月份增量。Jan→Feb: +7, Feb→Mar: −4, Mar→Apr: +7, Apr→May: +5。最大是 Mar→Apr = 7 (also Jan→Feb = 7, but Mar→Apr is the answer given the context)
+                P4 技能：比较连续月份增量。Jan→Feb: +7 (52−45), Feb→Mar: −4 (48−52), Mar→Apr: +10 (58−48), Apr→May: +2 (60−58)。最大是 Mar→Apr = 10，唯一最大增量
               </td>
             </tr>
             <tr className="border-b border-accent/10">
