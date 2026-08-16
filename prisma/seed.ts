@@ -8351,9 +8351,9 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
             "Express 15 as a percentage of 60.|A. 15%|B. 25%|C. 40%|D. 75%",
             "Wei has S$32. He spends S$8. Express the amount he spends as a percentage of the original amount.|A. 8%|B. 20%|C. 25%|D. 32%",
             "Express 9 as a percentage of 24.|A. 27.5%|B. 37.5%|C. 42.5%|D. 62.5%",
-            "Which of the following is 20 as a percentage of 50?|A. 20 as a percentage of 50|B. 50 as a percentage of 20|C. 2.5%|D. 250%",
+            "Express 20 as a percentage of 50.|A. 20%|B. 40%|C. 50%|D. 250%",
           ]),
-          correctAnswer: "C,B,C,B,A",
+          correctAnswer: "C,B,C,B,B",
           points: 10,
         },
         {
