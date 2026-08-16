@@ -501,6 +501,14 @@ export default function WeikeMiniLesson({ level, weekNumber }: WeikeMiniLessonPr
       ],
       gloss: "AEIS 中学数学第 25 周 / SMATH Week 25. 本周例题：Sec 1 速率和速度应用题（Sec 1 NUMBER AND ALGEBRA: N4.3 problems involving rate and speed）。混合使用已学技能 mix skills 4.1–4.2：Average rate = total quantity ÷ total time。Speed = distance ÷ time; time = distance ÷ speed; distance = speed × time。Average speed = total distance ÷ total time（不是两个速度的平均数；例：60 km at 60 km/h 用时 1 h，60 km at 30 km/h 用时 2 h，total 120 km in 3 h，average speed = 120 ÷ 3 = 40 km/h，不是 (60+30)÷2 = 45）。Convert km/h ↔ m/s when needed（当应用题需要统一单位时，先换算再解题：km/h → m/s multiply by 5/18；例：18 km/h = 5 m/s，in 10 s, distance = 5 × 10 = 50 m，不是 18 × 10 = 180 m）。本周化石：taking the mean of two speeds（把两个速度求平均数而不是用总路程 ÷ 总时间）；converting the wrong direction then solving（换算方向错误然后解题：18 km/h 问 10 秒走多远，错误地用 18 × 18/5 = 64.8 m/s 然后 64.8 × 10 = 648 m，正确应该是 18 × 5/18 = 5 m/s 然后 5 × 10 = 50 m）；using one part of journey as whole（把旅程一段当全程）；mixing units without converting（单位混用不换算）。本周完成 N4（4.1–4.3）。不用计算器，写出算式步骤。"
     },
+    "SMATH-26": {
+      examples: [
+        "A number is n. 3 more than n is n + 3 (not 3n).",
+        "A number is n. Twice n is 2n or 2 × n (not n + 2).",
+        "Wei has n dollars. He spends S$5. Amount left = n − 5 (not 5 − n)."
+      ],
+      gloss: "AEIS 中学数学第 26 周 / SMATH Week 26. 本周例题：Sec 1 用字母表示数（Sec 1 NUMBER AND ALGEBRA: N5.1 using letters to represent numbers）。A letter stands for a number（字母代表一个数）。3 more than n is n + 3（不是 3n）。5 less than n is n − 5（不是 5 − n）。Twice n is 2n or 2 × n（不是 n + 2）。Half of n is n ÷ 2 or n/2（不是 n − 2）。Short \"let the number be n\" phrases are 5.1（短的"设这个数为 n"属于 5.1）。本周不用 ab, a², a³ 或括号展开（那些是 5.2 interpreting notations）。本周化石：writing 3n when the story is \"3 more than n\"（当应用题说"n 多 3"时错误地写 3n，正确应该是 n + 3）；writing n + 3 when the story is \"3 times n\"（当应用题说"n 的 3 倍"时错误地写 n + 3，正确应该是 3n）；writing 3 − n when the story is \"n minus 3\"（当应用题说"n 减 3"时错误地写 3 − n，正确应该是 n − 3）；treating the letter as a unit, not a number（把字母当单位而不是数）。本周只教写出表达式 write the expression，本周不教代入数值求值 substitute a value（那是 5.3 evaluation，后续周次内容）。第 23–25 周已完成 N4，本周开始 N5，只教 5.1 using letters to represent numbers。本周不教 5.2 notations（下周内容）。不用计算器，写出算式步骤。"
+    },
     "SEC-0": {
       fossil: "Although I was nervous, but I tried. ✗ (中文「虽然…但是…」迁移) / I go yesterday ✗ (叙事体过去时掉落)",
       examples: [

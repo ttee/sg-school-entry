@@ -9120,6 +9120,95 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
         },
       ],
     },
+    {
+      level: "SMATH",
+      weekNumber: 26,
+      title: "数学 第 26 周 / Maths Week 26",
+      description: "AEIS-Secondary Mathematics: Sec 1 using letters to represent numbers",
+      isSample: false,
+      errorFocus: "writing 3n when the story is \"3 more than n\" (n + 3); writing n + 3 when the story is \"3 times n\" (3n); writing 3 − n when the story is \"n minus 3\" (n − 3); treating the letter as a unit, not a number",
+      parentBrief: "本周是中学 AEIS 数学第 26 周，对应官方 SEAB Sec 1 卷型（https://www.seab.gov.sg/aeis/test-details/ 2026年7月1日更新）。Part 1 Multiple-choice questions：34 道 MCQ，30 分钟。Part 2 Short-answer questions (20 items) and open-ended questions (10 to 15 items)：1 小时 45 分钟。Calculators are not allowed（不允许使用计算器）。Short-answer and open-ended questions：candidates are required to show the method of solution clearly by writing working steps in the spaces provided, plus the final answer（需写出算式步骤和最终答案）。AEIS-Secondary 官方 preceding-level 规则：申请 Sec 2 入学者需熟悉 Sec 2 前一级的内容。官方举例：apply Secondary 3 → be familiar with Secondary 2 content. 本周针对 Sec 2 申请者，内容为 Sec 2 前一级（Sec 1）的官方 MOE 2020 G3 Mathematics Syllabuses, Secondary One, NUMBER AND ALGEBRA, N5. Algebraic expressions and formulae: 5.1 using letters to represent numbers（用字母表示数）。第 23–25 周已完成 N4（Rate and Speed），本周开始 N5，只教 5.1 using letters to represent numbers（用字母表示数）。本周不教 5.2 interpreting notations（解读符号，如 ab, a², 3(x+y)），5.3 evaluation of algebraic expressions and formulae（代数式求值），5.4 translation of simple real-world situations（实际问题翻译为代数式），5.5 finding the value of an unknown in a given formula（公式中求未知数），5.6–5.8 simplifying algebraic expressions（化简代数式）。这些是后续周次内容。本周方法：A letter stands for a number（字母代表一个数）。If a number is n: 3 more than n is n + 3（n 多 3 是 n + 3）。5 less than n is n − 5（n 少 5 是 n − 5）。Twice n is 2n or 2 × n（n 的两倍是 2n 或 2 × n）。Half of n is n ÷ 2 or n/2（n 的一半是 n ÷ 2 或 n/2）。本周只教写出表达式 write the expression，本周不教代入数值求值 substitute a value（那是 5.3 evaluation）。用友好的整数 friendly whole numbers（如 n, x, k）。不用计算器 no calculator。金额如涉及用新加坡元 S$（money in Singapore dollars S$），never 美元。本周作业是样本，不是完整 34 + 20 + 10–15 题。本周化石 fossil errors：writing 3n when the story is \"3 more than n\"（当应用题说"n 多 3"时错误地写 3n，正确应该是 n + 3）；writing n + 3 when the story is \"3 times n\"（当应用题说"n 的 3 倍"时错误地写 n + 3，正确应该是 3n）；writing 3 − n when the story is \"n minus 3\"（当应用题说"n 减 3"时错误地写 3 − n，正确应该是 n − 3）；treating the letter as a unit not a number（把字母当单位而不是数：如把 n 当作"个"，把 n + 3 读成"n 个加 3 个"）。唯一性 unique keys：两个选项不能是同一个表达式或同一个意思。n + 3 和 3 + n 是同一个表达式（交换律）。2n 和 2 × n 是同一个意思。不要同时提供 n + 3 和 3n 作为正确答案（这是两个不同的表达式）。The fossil (3n when the story is n + 3, or n + 3 when the story is 3n) must be a WRONG option（化石错误值必须作为错误选项）。非官方机构运营（affiliation 非官方机构 is OK）。不发明官方未提及的内容（do not invent official facts）。不声称 AEIS 是 G3 paper（G3 只是官方 preceding-level 内容来源）。不发明官方 cut-scores 或 extra official names。第 23–25 周已完成 N4，本周开始 N5，只教 5.1 using letters to represent numbers。本周不教 5.2 notations（下周内容）。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "A number is n. What is 3 more than n?|A. 3n|B. n + 3|C. n − 3|D. 3 − n",
+            "A number is x. What is twice x?|A. x + 2|B. x × 2|C. x − 2|D. x ÷ 2",
+            "A number is k. What is 5 less than k?|A. k + 5|B. 5k|C. k − 5|D. 5 − k",
+            "A number is n. What is half of n?|A. n + 2|B. 2n|C. n − 2|D. n ÷ 2",
+            "Which expression matches the statement \"3 more than n\"?|A. 3n|B. n + 3|C. n − 3|D. n × 3",
+          ]),
+          correctAnswer: "B,B,C,D,B",
+          points: 10,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "A number is n. What is 4 more than n?|A. 4n|B. n + 4|C. n − 4|D. 4 − n",
+            "A number is x. What is 3 times x?|A. x + 3|B. 3x|C. x − 3|D. x ÷ 3",
+            "A number is k. What is 7 less than k?|A. k + 7|B. 7k|C. k − 7|D. 7 − k",
+            "Wei has n dollars. He spends S$4. How much does he have left?|A. n + 4|B. 4n|C. n − 4|D. 4 − n",
+            "There are k students in a class. Mr Lim adds 5 more students. How many students are there now?|A. k + 5|B. 5k|C. k − 5|D. 5 − k",
+            "A number is n. What is 6 more than n?|A. 6n|B. n × 6|C. n + 6|D. n − 6",
+            "Which is NOT \"3 more than n\"?|A. n + 3|B. 3 + n|C. 3n|D. All are correct",
+            "Which working shows the correct expression for \"twice n\"?|A. n + 2|B. 2 × n|C. n ÷ 2|D. n − 2",
+          ]),
+          correctAnswer: "B,B,C,C,A,C,C,B",
+          points: 16,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `Part 2: Show Your Working (写出算式步骤)
+
+Riverside Secondary School has algebra problems. Answer the questions below. Write the algebraic expression and explain what the letter stands for.
+
+Question (a)
+Wei thinks of a number n. Write an expression for \"3 more than n\". Show your working and write what n stands for.
+
+Question (b)
+Aisha has x sweets. Write an expression for \"twice x\" (the number of sweets if doubled). Show your working and write what x stands for.
+
+Question (c)
+Mr Lim has n dollars in his wallet. He spends S$5 on lunch.
+(i) Write an expression for the amount of money Mr Lim has left. Show your working.
+(ii) Write what n stands for.
+
+写作提示 / Tips:
+✓ 每题分步骤写出推理 (Show working steps for each question)
+✓ Part 2 官方要求：clearly show the method of solution by writing working steps, plus the final answer
+✓ 不用计算器 (No calculators allowed)
+✓ 用字母表示数步骤示范 (using letters to represent numbers examples)：
+  • 3 more than n (n 多 3)：
+    Wei thinks of a number n. Write an expression for \"3 more than n\". Show your working.
+    Solution: ① Let the number be n. ② 3 more than n means n + 3. Answer: n + 3. (Note: n stands for the number Wei thinks of.)
+  • Twice n (n 的两倍)：
+    Aisha has x sweets. Write an expression for \"twice x\". Show your working.
+    Solution: ① Let the number of sweets be x. ② Twice x means 2 × x or 2x. Answer: 2x. (Note: x stands for the number of sweets Aisha has.)
+  • n minus 5 (n 减 5)：
+    Wei has n dollars. He spends S$5. Write an expression for the amount Wei has left. Show your working.
+    Solution: ① Let Wei's money be n dollars. ② Wei spends S$5. ③ Amount left = n − 5. Answer: n − 5. (Note: n stands for the number of dollars Wei has.)
+✓ 金额用新加坡元 S$ (money in Singapore dollars S$)
+✓ 关键词：using letters to represent numbers 用字母表示数，algebraic expression 代数式，let the number be n 设这个数为 n
+✓ 关键步骤：Step 1: Read the statement carefully and identify the number (仔细读题，确定哪个是要用字母表示的数). Step 2: Let the number be a letter (n, x, k, etc.) (设这个数为某个字母，如 n, x, k). Step 3: Write the expression (写出表达式：3 more than n is n + 3; 5 less than n is n − 5; twice n is 2n or 2 × n; half of n is n ÷ 2 or n/2). Step 4: State what the letter stands for (陈述字母代表什么：n stands for the number Wei thinks of; x stands for the number of sweets). Step 5: Check the expression matches the words (检验表达式是否匹配题意：\"3 more than n\" means n + 3, not 3n).
+✓ 化石 (fossil errors)：
+  • Writing 3n when the story is \"3 more than n\"（当应用题说"n 多 3"时错误地写 3n，正确应该是 n + 3）
+  • Writing n + 3 when the story is \"3 times n\"（当应用题说"n 的 3 倍"时错误地写 n + 3，正确应该是 3n）
+  • Writing 3 − n when the story is \"n minus 3\"（当应用题说"n 减 3"时错误地写 3 − n，正确应该是 n − 3）
+  • Treating the letter as a unit, not a number（把字母当单位而不是数：如把 n 读成"n 个"，把 n + 3 读成"n 个加 3 个"；正确是：n 是一个数，n + 3 是这个数加 3）
+  • 本周教 N5 的 5.1（using letters to represent numbers，用字母表示数）。本周只教写出表达式 write the expression，本周不教代入数值求值 substitute a value（那是 5.3 evaluation，后续周次内容）。本周不教 5.2 interpreting notations（解读符号，如 ab, a², 3(x+y)），5.3 evaluation，5.4 translation of real-world situations as a named 5.4 week，5.5 nth term，5.6–5.8 simplifying（那些是后续周次内容）。
+
+Note: This is a sample of Part 2 short-answer/open-ended questions. The official paper has 20 short-answer + 10–15 open-ended items in 1 hour 45 minutes.`,
+          points: 20,
+        },
+      ],
+    },
   ];
 
   // =================================================================
