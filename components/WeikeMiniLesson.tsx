@@ -127,6 +127,14 @@ export default function WeikeMiniLesson({ level, weekNumber }: WeikeMiniLessonPr
       ],
       gloss: "P3 学角与直线新技能：直角（right angle = 90°）、垂直线（perpendicular lines，两条线相交成直角）、平行线（parallel lines，永不相交，距离始终相等）。关键词：right angle（直角）、perpendicular（垂直）、parallel（平行）、opposite sides（对边）。注意：本周只教直角 = 90°，不教 P4 的量角器（protractor）和非直角的度数，也不教 P5 的三角形性质。正方形和长方形都有 4 个直角，对边都是平行的。"
     },
+    "MATH-13": {
+      examples: [
+        "Favourite fruit (each bar = number of children): Apple 8, Orange 5, Mango 12, Banana 7.",
+        "Most popular = Mango (12 is the tallest bar). Least popular = Orange (5 is the shortest bar).",
+        "Difference: Apple − Orange = 8 − 5 = 3. Total: 8 + 5 + 12 + 7 = 32 children."
+      ],
+      gloss: "P3 学条形统计图（bar graph）：读条的高度 = 数值，找最高的条 = most popular，找最短的条 = least popular，计算差值用减法（difference = 高的 − 低的），求总数把所有条相加（total = 所有数相加）。关键词：bar graph（条形图）、tallest bar（最高的条）、shortest bar（最短的条）、most popular（最多）、least popular（最少）、difference（差值）、total（总数）。注意：本周只教条形图，不教 P4 的折线图（line graph）或 P5 的饼图（pie chart）。题目用文字描述条形图，数字简单，条的高度差别明显。P2 第 5 周学过象形统计图（picture graph），本周升级到条形图。"
+    },
     "A2-7": {
       fossil: "I going to the library tomorrow / I go to swim / Tomorrow I go library",
       examples: [
