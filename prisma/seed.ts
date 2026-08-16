@@ -6111,6 +6111,78 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
         },
       ],
     },
+    {
+      level: "SMATH",
+      weekNumber: 2,
+      title: "数学 第 2 周 / Maths Week 2",
+      description: "AEIS-Secondary Mathematics: P6 algebra",
+      isSample: false,
+      errorFocus: "3a means 3×a not 3+a / forgetting to simplify like terms",
+      parentBrief: "本周是中学 AEIS 数学第 2 周，对应官方 SEAB Sec 1 卷型（https://www.seab.gov.sg/aeis/test-details/ 2026年7月1日更新）。Part 1 Multiple-choice questions：34 道 MCQ，30 分钟。Part 2 Short-answer questions (20 items) and open-ended questions (10 to 15 items)：1 小时 45 分钟。Calculators are not allowed（不允许使用计算器）。Short-answer and open-ended questions：candidates are required to show the method of solution clearly by writing working steps in the spaces provided, plus the final answer（需写出算式步骤和最终答案）。AEIS-Secondary 官方 preceding-level 规则：申请 Sec 1 入学者需熟悉 Sec 1 前一级的内容。官方举例：apply Secondary 3 → be familiar with Secondary 2. 本周针对 Sec 1 申请者，内容为 Sec 1 前一级（P6）的官方 2021 Primary Mathematics Syllabus - P6 Algebra 1.1 (using a letter to represent an unknown number), 1.2 (notation, representations and interpretation of simple algebraic expressions such as a ± 3, a × 3 or 3a, a ÷ 3 or a/3), 1.3 (simplifying simple linear expressions excluding brackets), 1.4 (evaluating simple linear expressions by substitution), 1.5 (simple linear equations involving whole number coefficient only)。本周作业是样本，不是完整 34 + 20 + 10–15 题。本周化石：3a means 3×a not 3+a（未理解代数乘法记号）、forgetting to simplify like terms（忘记合并同类项，如 2x+3x 写成答案而不是 5x）。用新加坡元 S$，不用美元。不教：brackets（括号）、negative coefficients（负系数）、simultaneous equations（联立方程）、inequalities（不等式）、quadratic（二次方程）、formulae of circles/volume（圆与体积公式，不在 Algebra 主题）、ratio（已在第 1 周）、percentage（已在试学周）、calculators、invented official facts。题目选项必须唯一，不能有 3n 和 n×3 同时作为两个正确选项，也不能有 n+n+n 和 3n 同时作为选项（unless stem explicitly asks for different forms）。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "n stands for a number. What does 3n mean?|A. 3 + n|B. 3 − n|C. 3 × n|D. n ÷ 3",
+            "Simplify 2x + 5x.|A. 7x|B. 10x|C. 2x + 5x|D. 7x²",
+            "If a = 4, find the value of 3a + 2.|A. 9|B. 11|C. 14|D. 18",
+            "Solve 5x = 20.|A. x = 4|B. x = 15|C. x = 25|D. x = 100",
+            "Which expression means 'a number divided by 3'?|A. 3a|B. a + 3|C. a − 3|D. a/3",
+          ]),
+          correctAnswer: "C,A,C,A,D",
+          points: 10,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "Simplify 8y − 3y.|A. 5y|B. 11y|C. 5|D. 8y − 3y",
+            "If m = 6, find 2m − 5.|A. 3|B. 7|C. 9|D. 17",
+            "Solve x + 9 = 15.|A. x = 4|B. x = 6|C. x = 24|D. x = 9",
+            "4n means:|A. 4 + n|B. 4 × n|C. n − 4|D. n ÷ 4",
+            "Simplify 3a + a + 2a.|A. 5a|B. 6a|C. 3a + a + 2a|D. 6a²",
+            "If k = 5, find k/5 + 3.|A. 2|B. 4|C. 8|D. 10",
+            "Solve 3x + 1 = 13.|A. x = 3|B. x = 4|C. x = 5|D. x = 12",
+            "Which is a simple linear expression for 'five more than twice a number n'?|A. 5n + 2|B. 2 + n + 5|C. 2n + 5|D. 5 + n + 2",
+          ]),
+          correctAnswer: "A,B,B,B,B,B,B,C",
+          points: 16,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `Part 2: Show Your Working (写出算式步骤)
+
+Riverside Secondary School has a maths club. Answer the questions below. Show all your working clearly.
+
+Question (a)
+Simplify the expression: 4x + 7 + 3x − 2
+
+Question (b)
+If a = 5, find the value of 2a + 8.
+
+Question (c)
+Solve the equation: 2x + 3 = 11
+(State that 3a = 3 × a when explaining algebraic expressions)
+
+写作提示 / Tips:
+✓ 每题分步骤写出算式 (Show working steps for each question)
+✓ Part 2 官方要求：clearly show the method of solution by writing working steps, plus the final answer
+✓ Algebra 计算不用计算器 (No calculators allowed: do algebra calculations by hand)
+✓ 写出代数步骤，如「3a = 3 × a」「Combine like terms: 4x + 3x = 7x, 7 − 2 = 5」「Substitute a = 5: 2 × 5 + 8 = 10 + 8 = 18」
+✓ 解方程要写步骤，如「2x + 3 = 11 → 2x = 11 − 3 → 2x = 8 → x = 8 ÷ 2 → x = 4」
+✓ 最终答案标注清晰（如 7x + 5, 18, x = 4）
+
+Note: This is a sample of Part 2 short-answer/open-ended questions. The official paper has 20 short-answer + 10–15 open-ended items in 1 hour 45 minutes.`,
+          points: 20,
+        },
+      ],
+    },
   ];
 
   // =================================================================
