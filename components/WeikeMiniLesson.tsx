@@ -494,6 +494,13 @@ export default function WeikeMiniLesson({ level, weekNumber }: WeikeMiniLessonPr
       ],
       gloss: "AEIS 中学数学第 24 周 / SMATH Week 24. 本周例题：Sec 1 速率单位换算（Sec 1 NUMBER AND ALGEBRA: N4.2 conversion of units, e.g. km/h to m/s）。1 km = 1000 m, 1 h = 3600 s。km/h → m/s: multiply by 1000/3600 = 5/18（如 18 km/h = 18 × 5/18 = 5 m/s，36 km/h = 10 m/s，72 km/h = 20 m/s，54 km/h = 15 m/s）。m/s → km/h: multiply by 3600/1000 = 18/5（如 10 m/s = 10 × 18/5 = 36 km/h，5 m/s = 18 km/h）。本周化石：multiplying by 18/5 when converting km/h → m/s（方向错误，应该是 × 5/18）；multiplying by 5/18 when converting m/s → km/h（方向错误，应该是 × 18/5）；treating 1 hour as 60 seconds（把 1 小时当 60 秒，应该是 3600 秒）；forgetting the 1000（忘记 1 km = 1000 m）。第 23 周已完成 4.1（concepts of average rate, speed, constant speed and average speed），本周只教 4.2（conversion of units），第 25 周教 4.3（problems involving rate and speed）。不用计算器，写出算式步骤。"
     },
+    "SMATH-25": {
+      examples: [
+        "60 km at 60 km/h (time 1 h), then 60 km at 30 km/h (time 2 h). Total 120 km in 3 h. Average speed = 120 ÷ 3 = 40 km/h (not 45 km/h, which is the mean of 60 and 30)",
+        "18 km/h = 5 m/s. In 10 seconds: distance = 5 × 10 = 50 m (not 18 × 10 = 180 m, and not 18 × 18/5 × 10 = 648 m)"
+      ],
+      gloss: "AEIS 中学数学第 25 周 / SMATH Week 25. 本周例题：Sec 1 速率和速度应用题（Sec 1 NUMBER AND ALGEBRA: N4.3 problems involving rate and speed）。混合使用已学技能 mix skills 4.1–4.2：Average rate = total quantity ÷ total time。Speed = distance ÷ time; time = distance ÷ speed; distance = speed × time。Average speed = total distance ÷ total time（不是两个速度的平均数；例：60 km at 60 km/h 用时 1 h，60 km at 30 km/h 用时 2 h，total 120 km in 3 h，average speed = 120 ÷ 3 = 40 km/h，不是 (60+30)÷2 = 45）。Convert km/h ↔ m/s when needed（当应用题需要统一单位时，先换算再解题：km/h → m/s multiply by 5/18；例：18 km/h = 5 m/s，in 10 s, distance = 5 × 10 = 50 m，不是 18 × 10 = 180 m）。本周化石：taking the mean of two speeds（把两个速度求平均数而不是用总路程 ÷ 总时间）；converting the wrong direction then solving（换算方向错误然后解题：18 km/h 问 10 秒走多远，错误地用 18 × 18/5 = 64.8 m/s 然后 64.8 × 10 = 648 m，正确应该是 18 × 5/18 = 5 m/s 然后 5 × 10 = 50 m）；using one part of journey as whole（把旅程一段当全程）；mixing units without converting（单位混用不换算）。本周完成 N4（4.1–4.3）。不用计算器，写出算式步骤。"
+    },
     "SEC-0": {
       fossil: "Although I was nervous, but I tried. ✗ (中文「虽然…但是…」迁移) / I go yesterday ✗ (叙事体过去时掉落)",
       examples: [

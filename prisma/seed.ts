@@ -9030,6 +9030,96 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
         },
       ],
     },
+    {
+      level: "SMATH",
+      weekNumber: 25,
+      title: "数学 第 25 周 / Maths Week 25",
+      description: "AEIS-Secondary Mathematics: Sec 1 problems involving rate and speed",
+      isSample: false,
+      errorFocus: "taking the mean of two speeds (e.g. average of 40 km/h and 60 km/h as 50 km/h) instead of total distance ÷ total time; converting the wrong direction then solving (18 km/h in 10 s wrongly using × 18/5 instead of × 5/18); using one part of the journey as the whole; mixing units (km with m/s without converting)",
+      parentBrief: "本周是中学 AEIS 数学第 25 周，对应官方 SEAB Sec 1 卷型（https://www.seab.gov.sg/aeis/test-details/ 2026年7月1日更新）。Part 1 Multiple-choice questions：34 道 MCQ，30 分钟。Part 2 Short-answer questions (20 items) and open-ended questions (10 to 15 items)：1 小时 45 分钟。Calculators are not allowed（不允许使用计算器）。Short-answer and open-ended questions：candidates are required to show the method of solution clearly by writing working steps in the spaces provided, plus the final answer（需写出算式步骤和最终答案）。AEIS-Secondary 官方 preceding-level 规则：申请 Sec 2 入学者需熟悉 Sec 2 前一级的内容。官方举例：apply Secondary 3 → be familiar with Secondary 2 content. 本周针对 Sec 2 申请者，内容为 Sec 2 前一级（Sec 1）的官方 MOE 2020 G3 Mathematics Syllabuses, Secondary One, NUMBER AND ALGEBRA, N4. Rate and Speed: 4.3 problems involving rate and speed（速率和速度应用题）。第 23 周已教 4.1（concepts of average rate, speed, constant speed and average speed），第 24 周已教 4.2（conversion of units，如 km/h ↔ m/s），本周只教 4.3（problems involving rate and speed，速率和速度应用题，在应用题中混合使用 4.1–4.2 技能）。本周完成 N4。本周不教 N5 algebra（下周内容）。官方大纲 4.3 wording（官方术语）：'problems involving rate and speed'（速率和速度应用题）。本周方法：混合使用已学技能 mix the already-taught skills：Average rate = total quantity ÷ total time（平均速率 = 总量 ÷ 总时间）。Speed = distance ÷ time; time = distance ÷ speed; distance = speed × time（速度 = 路程 ÷ 时间；时间 = 路程 ÷ 速度；路程 = 速度 × 时间）。Average speed = total distance ÷ total time（平均速度 = 总路程 ÷ 总时间，不是两个速度的平均数；例：60 km at 60 km/h 用时 1 h，60 km at 30 km/h 用时 2 h，total 120 km in 3 h，average speed = 120 ÷ 3 = 40 km/h，不是 (60+30)÷2 = 45）。Convert km/h ↔ m/s when the story needs matching units（当应用题需要统一单位时，换算 km/h ↔ m/s，然后解题：km/h → m/s multiply by 5/18；m/s → km/h multiply by 18/5）。用友好的整数 friendly numbers，答案是整数。不用计算器 no calculator。金额如涉及用新加坡元 S$（money in Singapore dollars S$），never 美元。Distances 用 km 或 m；times 用 h, min 或 s（保持单位一致）。本周作业是样本，不是完整 34 + 20 + 10–15 题。本周化石 fossil errors：taking the mean of two speeds（把两个速度求平均数而不是用总路程 ÷ 总时间：60 km/h and 30 km/h 错误地算 (60+30)÷2 = 45 km/h；正确算法：如果两段距离相等，先求每段时间，再用总路程 ÷ 总时间）；converting the wrong direction then solving（换算方向错误然后解题：18 km/h 问 10 秒走多远，错误地用 18 × 18/5 = 64.8 m/s 然后 64.8 × 10 = 648 m，正确应该是 18 × 5/18 = 5 m/s 然后 5 × 10 = 50 m）；using one part of the journey as the whole（把旅程的一段当作全程：如只用第一段的速度作为全程平均速度）；mixing units (km with m/s without converting)（单位混用不换算：如 km 和 m/s 直接算）。唯一性 unique keys：两个选项不能是同一个数值。If a two-speed journey has average 40 km/h, do not also offer 45 (the mean of the two speeds) as a second correct option（如果一个双速度旅程平均速度是 40 km/h，不要同时提供 45（两个速度的平均数）作为第二个正确选项；45 必须是错误选项）。If a conversion is needed, the wrong-direction result must be a WRONG option（如果需要换算，方向错误的结果必须是错误选项）。本周完成 N4（4.1–4.3）。下周开始 N5 algebra。非官方机构运营（affiliation 非官方机构 is OK）。不发明官方未提及的内容（do not invent official facts）。不声称 AEIS 是 G3 paper（G3 只是官方 preceding-level 内容来源）。不发明官方 cut-scores 或 extra official names（4.3 problems involving rate and speed 是官方大纲术语）。Speed 是官方 Sec 1 内容，不是 P6-only（不要声称速度是 P6 专属或发明禁令）。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "Wei cycles 24 km at constant speed in 3 hours. What is his speed?|A. 6 km/h|B. 7 km/h|C. 8 km/h|D. 21 km/h",
+            "Wei cycles 60 km at 60 km/h, then 60 km at 30 km/h. What is his average speed for the whole journey?|A. 35 km/h|B. 40 km/h|C. 45 km/h|D. 50 km/h",
+            "A printer prints 180 pages in 6 hours. What is the average printing rate?|A. 20 pages/h|B. 30 pages/h|C. 40 pages/h|D. 174 pages/h",
+            "18 km/h = ? m/s. How many metres does Wei travel in 10 seconds at 18 km/h?|A. 18 m|B. 32.4 m|C. 50 m|D. 180 m",
+            "Which working correctly finds average speed for a journey of 120 km in 3 hours?|A. Add the two speeds and divide by 2|B. Divide total distance by total time: 120 ÷ 3 = 40 km/h|C. Use the speed of the longer part only|D. Multiply each speed by its time",
+          ]),
+          correctAnswer: "C,B,B,C,B",
+          points: 10,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "Aisha cycles 30 km at 30 km/h, then 30 km at 20 km/h. What is the total time?|A. 2 h|B. 2.5 h|C. 3 h|D. 5 h",
+            "For the journey in the previous question, what is Aisha's average speed?|A. 20 km/h|B. 24 km/h|C. 25 km/h|D. 30 km/h",
+            "A car travels 12 km at constant speed in 20 minutes. What is its speed in km/h?|A. 12 km/h|B. 20 km/h|C. 36 km/h|D. 60 km/h",
+            "Wei runs at 18 km/h. Convert this to m/s.|A. 3 m/s|B. 5 m/s|C. 10 m/s|D. 64.8 m/s",
+            "At 18 km/h (= 5 m/s), how many metres does Wei travel in 12 seconds?|A. 18 m|B. 50 m|C. 60 m|D. 216 m",
+            "Which is NOT the correct way to calculate average speed?|A. Total distance ÷ total time|B. Add all speeds and divide by the number of speeds|C. Sum of all distances ÷ sum of all times|D. (Distance 1 + Distance 2) ÷ (Time 1 + Time 2)",
+            "Wei drives 80 km at 40 km/h, then 80 km at 80 km/h. What is his average speed?|A. 48 km/h|B. 53.3 km/h|C. 60 km/h|D. 64 km/h",
+            "36 km/h = ? m/s|A. 5 m/s|B. 10 m/s|C. 20 m/s|D. 129.6 m/s",
+          ]),
+          correctAnswer: "B,B,C,B,C,B,B,B",
+          points: 16,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `Part 2: Show Your Working (写出算式步骤)
+
+Riverside Secondary School has rate and speed problems. Answer the questions below. Show all your working clearly.
+
+Question (a)
+Wei cycles from home to school, a distance of 20 km, at constant speed in 2 hours. What is his speed in km/h? Show your working steps.
+
+Question (b)
+Mr Lim drives from Riverside Secondary to Marina Bay. He drives the first 40 km at 40 km/h, then the next 40 km at 20 km/h.
+(i) What is the total distance? Show your working.
+(ii) What is the total time? Show your working clearly for each part of the journey.
+(iii) What is Mr Lim's average speed for the whole journey? Show your working.
+
+Question (c)
+Aisha runs at 18 km/h. Convert this speed to m/s. Then find how many metres Aisha travels in 10 seconds. Show your working steps clearly.
+
+写作提示 / Tips:
+✓ 每题分步骤写出推理 (Show working steps for each question)
+✓ Part 2 官方要求：clearly show the method of solution by writing working steps, plus the final answer
+✓ 不用计算器 (No calculators allowed)
+✓ 速率和速度应用题步骤示范 (problems involving rate and speed examples, mixing skills 4.1–4.2)：
+  • Speed = distance ÷ time (skill 4.1)：
+    Wei cycles 20 km in 2 hours at constant speed. What is his speed? Show your working steps.
+    Solution: ① Distance = 20 km. Time = 2 hours. ② Speed = distance ÷ time = 20 ÷ 2 = 10. Answer: 10 km/h.
+  • Average speed = total distance ÷ total time (skill 4.1, NOT the mean of two speeds)：
+    Wei cycles 60 km at 60 km/h, then 60 km at 30 km/h. What is his average speed for the whole journey? Show your working steps.
+    Solution: ① Part 1: distance = 60 km, speed = 60 km/h. Time = distance ÷ speed = 60 ÷ 60 = 1 hour. ② Part 2: distance = 60 km, speed = 30 km/h. Time = 60 ÷ 30 = 2 hours. ③ Total distance = 60 + 60 = 120 km. Total time = 1 + 2 = 3 hours. ④ Average speed = total distance ÷ total time = 120 ÷ 3 = 40. Answer: 40 km/h. (Note: The mean of the two speeds (60+30)÷2 = 45 is WRONG. We must use total distance ÷ total time = 40 km/h.)
+  • Convert then solve (mixing skills 4.1 + 4.2)：
+    Wei runs at 18 km/h. Convert this to m/s. Then find how many metres Wei travels in 10 seconds. Show your working steps clearly.
+    Solution: ① Wei's speed = 18 km/h. ② Convert km/h to m/s: 1 km = 1000 m, 1 h = 3600 s. km/h → m/s: multiply by 1000/3600 = 5/18. ③ 18 km/h = 18 × 5/18 = 5 m/s. ④ In 10 seconds, Wei travels: distance = speed × time = 5 × 10 = 50 m. Answer: 18 km/h = 5 m/s. Wei travels 50 m in 10 seconds.
+✓ 金额用新加坡元 S$ (money in Singapore dollars S$, if money appears)
+✓ 关键词：average rate 平均速率，speed 速度，constant speed 匀速，average speed 平均速度，total distance ÷ total time 总路程 ÷ 总时间，conversion of units 单位换算，km/h 千米每小时，m/s 米每秒
+✓ 关键步骤：Step 1: Read the question carefully and identify what is given and what is asked (仔细读题，确定已知和所求). Step 2: For constant speed: speed = distance ÷ time (匀速：速度 = 路程 ÷ 时间). Step 3: For average speed with two parts: calculate time for each part (time = distance ÷ speed), then total distance ÷ total time (对于分两段的平均速度：先算每段时间，再用总路程 ÷ 总时间；不是两个速度的平均数). Step 4: If units don't match (e.g. km/h and seconds), convert first (如果单位不匹配，如 km/h 和秒，先换算：km/h → m/s multiply by 5/18). Step 5: State the answer with units (陈述答案并加单位，如 km/h, m/s, m, km, h, s). Step 6: Check your answer (检验答案：如 40 km/h average for 120 km in 3 h? 40 × 3 = 120 ✓).
+✓ 化石 (fossil errors)：
+  • Taking the mean of two speeds instead of total distance ÷ total time（把两个速度求平均数而不是用总路程 ÷ 总时间：60 km/h and 30 km/h 错误地算 (60+30)÷2 = 45 km/h；正确算法：60 km at 60 km/h 用时 1 h，60 km at 30 km/h 用时 2 h，total 120 km in 3 h，average speed = 120 ÷ 3 = 40 km/h，不是 45）
+  • Converting the wrong direction then solving（换算方向错误然后解题：18 km/h 问 10 秒走多远，错误地用 18 × 18/5 = 64.8 m/s 然后 64.8 × 10 = 648 m，正确应该是 18 × 5/18 = 5 m/s 然后 5 × 10 = 50 m）
+  • Using one part of the journey as the whole（把旅程的一段当作全程：如只用 60 km/h 作为全程平均速度，忽略第二段 30 km/h）
+  • Mixing units (km with m/s without converting)（单位混用不换算：如 km 和 m/s 直接算）
+  • 本周教 N4 的 4.3（problems involving rate and speed，速率和速度应用题，mixing skills 4.1–4.2）。本周完成 N4（4.1–4.3）。下周开始 N5 algebra。
+
+Note: This is a sample of Part 2 short-answer/open-ended questions. The official paper has 20 short-answer + 10–15 open-ended items in 1 hour 45 minutes.`,
+          points: 20,
+        },
+      ],
+    },
   ];
 
   // =================================================================
