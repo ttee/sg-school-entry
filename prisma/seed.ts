@@ -6066,7 +6066,7 @@ Note: This is a Sec 1 writing sample (2 topics, 200–300 words), not Sec 2 or S
       description: "AEIS-Secondary English (Sec 1 paper shape): morning assembly sample",
       isSample: false,
       errorFocus: "prepositions of time (at / on / in)",
-      parentBrief: "中学 AEIS 英语第 2 周。对应官方 SEAB Sec 1 卷型（https://www.seab.gov.sg/aeis/test-details/ 2026年7月1日更新）：Part 1 Writing 提供 2 个作文题目，选写 1 篇，200–300 词；Part 2 Comprehension & Language Use 共 50 道 MCQ（理解 15 + 完形 15 + 词汇 10 + 语法 10）。本周作业是样本，不是完整 50 题，不是 2 小时 10 分钟正式试卷。AEIS-Secondary 官方 preceding-level 规则：申请者需熟悉所申请级别前一级（preceding level）的内容。官方举例：apply Sec 3 → 熟悉 Sec 2。本周针对 Sec 1 申请者，对应 Sec 1 前一级内容水平。本周纠错化石：时间介词（at 7:30 / on Monday / in the morning）。中文用一个「在」表达时间（在星期一早上 7:30），英语要区分 at（具体时刻）、on（星期/日期）、in（时段）。情境：Wei 在 Riverside Secondary 听 morning assembly 的 Mr Lim 指令、flag-raising、form-class line-up。本周不是 CEQ。不承诺包过。",
+      parentBrief: "中学 AEIS 英语第 2 周。对应官方 SEAB Sec 1 卷型（https://www.seab.gov.sg/aeis/test-details/ 2026年7月1日更新）：Part 1 Writing 提供 2 个作文题目，选写 1 篇，200–300 词；Part 2 Comprehension & Language Use 共 50 道 MCQ（理解 15 + 完形 15 + 词汇 10 + 语法 10）。本周作业是样本，不是完整 50 题，不是 2 小时 10 分钟正式试卷。AEIS-Secondary 官方 preceding-level 规则：申请者需熟悉所申请级别前一级（preceding level）的内容。官方举例：apply Sec 3 → 熟悉 Sec 2。本周针对 Sec 1 申请者，对应 Sec 1 前一级内容水平。本周纠错化石：时间介词（at 7:30 / on Monday / in the morning）。中文用一个「在」表达时间（在星期一早上 7:30），英语要区分 at（具体时刻）、on（星期/日期）、in（时段）。情境：Wei 在 Riverside Secondary 听 morning assembly 的 Mr Lim 指令、flag-raising、form-class line-up。本周不是 CEQ。",
       videoUrl: null,
       kaizenFocus: "classroom English a listener needs at morning assembly (time, place, instruction)",
       questions: [
