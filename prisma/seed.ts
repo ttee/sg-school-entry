@@ -764,6 +764,64 @@ Art 📖📖📖📖📖
         },
       ],
     },
+    {
+      level: "MATH",
+      weekNumber: 12,
+      title: "数学 第 12 周 / Maths Week 12",
+      description: "AEIS-Primary P3 Mathematics: Angles and lines (right angles, perpendicular, parallel)",
+      isSample: false,
+      errorFocus: null,
+      parentBrief: "本周主题：角与直线（对应 MOE 小学 P3 数学大纲）。P3 新知识点：直角（right angle = 90°）、垂直线（perpendicular lines，两条线相交成直角）、平行线（parallel lines，永不相交，距离始终相等）。申请 P4 入学的孩子需掌握 P3 内容（MOE AEIS preceding level 规则）。常见错误：不知道直角 = 90°、混淆垂直和平行的定义（垂直是相交成直角，平行是永不相交）、不记得正方形和长方形都有 4 个直角。题目是简体中文家长说明 + 英文题干。本周配有双向对照表，显示题目对应的官方 2021 Primary Mathematics Syllabus P3 内容点（Geometry: Identifying and comparing right angles; Identifying perpendicular lines; Identifying parallel lines），以及 MOE AEIS 的「preceding level」规则（申请 P4 → 掌握 P3 内容）。注意：P3 只教直角 = 90°，不教 P4 的量角器（protractor）和非直角的度数，也不教 P5 的三角形性质。题目使用学校日常物品（门框、书本、教室瓷砖、窗户）作为情境，不需要图表。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: `Read each question and choose the correct answer.`,
+          options: JSON.stringify([
+            "How many right angles does a square have?|A. 1 right angle|B. 2 right angles|C. 3 right angles|D. 4 right angles",
+            "Look at a door frame. The sides of the door frame meet at right angles. How many right angles are there at the four corners?|A. 2 right angles|B. 3 right angles|C. 4 right angles|D. 5 right angles",
+            "A rectangle has two pairs of opposite sides. Which pair of opposite sides is parallel?|A. Only the longer sides|B. Only the shorter sides|C. Both pairs|D. No sides are parallel",
+            "Look at the letter T. The top line is perpendicular to the vertical line. What does perpendicular mean?|A. The lines are the same length|B. The lines never meet|C. The lines meet at a right angle|D. The lines are parallel",
+            "How many right angles does a rectangle have?|A. 2 right angles|B. 3 right angles|C. 4 right angles|D. 6 right angles",
+          ]),
+          correctAnswer: "D,C,C,C,C",
+          points: 5,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: `Choose the correct answer for each question.`,
+          options: JSON.stringify([
+            "What is a right angle?|A. 45°|B. 60°|C. 90°|D. 180°",
+            "Which shape has 4 right angles and 4 equal sides?|A. Rectangle|B. Triangle|C. Square|D. Circle",
+            "Which two lines meet at a right angle?|A. Parallel lines|B. Perpendicular lines|C. Curved lines|D. Diagonal lines",
+            "Which two lines never meet and are always the same distance apart?|A. Perpendicular lines|B. Intersecting lines|C. Parallel lines|D. Curved lines",
+            "The opposite sides of a rectangle are parallel. How many pairs of parallel sides are there?|A. 1 pair|B. 2 pairs|C. 3 pairs|D. 4 pairs",
+            "Look at the classroom floor. The tiles are laid in rows. The lines between the tiles are parallel. How many pairs of parallel lines can you see if there are 3 rows?|A. 1 pair|B. 2 pairs|C. 3 pairs|D. 4 pairs",
+            "The corner of a book makes a right angle. If you place two books together at their corners, how many right angles are there in total?|A. 1 right angle|B. 2 right angles|C. 3 right angles|D. 4 right angles",
+            "The opposite sides of a square are parallel. Is this statement true or false?|A. True|B. False|C. Sometimes true|D. Cannot tell",
+          ]),
+          correctAnswer: "C,C,B,C,B,B,B,A",
+          points: 8,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `At Tampines Primary School, the students are learning about shapes and lines in their classroom.
+
+(a) A classroom door is a rectangle. How many right angles does the door have? Show your working.
+
+(b) Draw two lines that are perpendicular to each other. What angle do they make?
+
+(c) Look at the classroom window. It has two pairs of opposite sides that are parallel. How many pairs of parallel sides are there in total? Show your working.
+
+写出答案和说明。`,
+          points: 10,
+        },
+      ],
+    },
     
     // A2 WEEKS
     {
