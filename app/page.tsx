@@ -185,7 +185,7 @@ export default function HomePage() {
 
               <article className="bg-card border border-line rounded-2xl p-6 shadow">
                 <h3 className="font-serif text-xl font-semibold mb-2">AEIS 数学</h3>
-                <p className="text-sm text-ink-2 mb-2">试学周 + 第 1–29 周 · P2 + P3 + P4 十万以内整数 + 因数倍数 + 乘除算法 + 带分数假分数 + 一组的几分之几 + 分数加减 + P4 小数位值比较转换四舍五入 + P4 小数加减 + P4 小数乘除一位整数 + P4 面积周长求缺失边与组合图形 + P4 表格和折线图 + P4 饼图 + P4 角 + P4 长方形正方形 + P4 对称轴 + P4 展开图。中学英语有试学周 + 第 1–6 周（Sec 1 卷型样本）。中学数学有试学周 + 第 1–7 周（Sec 1 卷型样本，内容为 P6 百分数 + 比 + 代数 + 分数除法 + 圆 + 体积 + 平均数 + 特殊四边形）。</p>
+                <p className="text-sm text-ink-2 mb-2">试学周 + 第 1–29 周 · P2 + P3 + P4 十万以内整数 + 因数倍数 + 乘除算法 + 带分数假分数 + 一组的几分之几 + 分数加减 + P4 小数位值比较转换四舍五入 + P4 小数加减 + P4 小数乘除一位整数 + P4 面积周长求缺失边与组合图形 + P4 表格和折线图 + P4 饼图 + P4 角 + P4 长方形正方形 + P4 对称轴 + P4 展开图。</p>
                 <p className="text-xs text-muted">试学周免费</p>
               </article>
             </div>
