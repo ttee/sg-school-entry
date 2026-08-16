@@ -598,6 +598,15 @@ export default function WeekHomework({
               </div>
             )}
 
+            {question.type === "listening" && !question.audioUrl && (
+              <div className="mb-6 bg-paper border border-line rounded-lg p-4">
+                <p className="text-sm font-semibold text-ink mb-3">听读课文 / Reading Text</p>
+                <div className="whitespace-pre-wrap text-sm text-ink-2">
+                  {question.content}
+                </div>
+              </div>
+            )}
+
             {question.type !== "listening" && (
               <div className="whitespace-pre-wrap text-ink-2 mb-4">
                 {question.content}
