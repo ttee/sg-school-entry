@@ -648,6 +648,64 @@ Art 📖📖📖📖📖
         },
       ],
     },
+    {
+      level: "MATH",
+      weekNumber: 10,
+      title: "数学 第 10 周 / Maths Week 10",
+      description: "AEIS-Primary P3 Mathematics: Area and perimeter",
+      isSample: false,
+      errorFocus: null,
+      parentBrief: "本周主题：面积与周长（对应 MOE 小学 P3 数学大纲）。P3 新知识点：面积的概念（area in square units: cm², m²）、长方形/正方形面积公式（area of rectangle/square）、直线图形周长（perimeter of rectilinear figures）、面积与周长的应用题（word problems on area/perimeter of squares and rectangles）。申请 P4 入学的孩子需掌握 P3 内容（MOE AEIS preceding level 规则）。常见错误：面积和周长单位混淆（面积是 cm² 或 m²，周长是 cm 或 m）、长方形面积公式记错（应是长 × 宽，不是长 + 宽）、正方形周长算错（应是 4 × 边长）。题目是简体中文家长说明 + 英文题干。本周配有双向对照表，显示题目对应的官方 2021 Primary Mathematics Syllabus P3 内容点（Geometry: Concepts of area and perimeter; Area in square units cm², m²; Formula for area of a rectangle/square; Perimeter of rectilinear figures, rectangles, squares; Word problems on area/perimeter），以及 MOE AEIS 的「preceding level」规则（申请 P4 → 掌握 P3 内容）。注意：本周不教 P4 圆形面积、三角形面积、P3 角度（angles），答案用整数 cm 或 m，不用小数。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: `Read each question and choose the correct answer.`,
+          options: JSON.stringify([
+            "A rectangular field at East Coast Park is 12 metres long and 8 metres wide. What is the area of the field?|A. 20 m²|B. 40 m²|C. 96 m²|D. 192 m²",
+            "A square garden has sides of 6 metres. What is its area?|A. 12 m²|B. 24 m²|C. 30 m²|D. 36 m²",
+            "A rectangular classroom at Tampines Primary is 9 metres long and 5 metres wide. What is the perimeter of the classroom?|A. 14 m|B. 28 m|C. 45 m|D. 90 m",
+            "Ali draws a square on paper. Each side is 4 centimetres long. Which measurement shows the area of this square?|A. 8 cm|B. 16 cm|C. 8 cm²|D. 16 cm²",
+            "A rectangle is 15 cm long. Its area is 75 cm². What is the width of the rectangle?|A. 5 cm|B. 60 cm|C. 90 cm|D. 1125 cm",
+          ]),
+          correctAnswer: "C,D,B,D,A",
+          points: 5,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: `Choose the correct answer for each question.`,
+          options: JSON.stringify([
+            "What is the area of a rectangle with length 10 cm and width 4 cm?|A. 14 cm²|B. 28 cm²|C. 40 cm²|D. 40 cm",
+            "What is the area of a square with sides of 7 cm?|A. 14 cm²|B. 28 cm²|C. 49 cm²|D. 49 cm",
+            "What is the perimeter of a rectangle that is 8 metres long and 3 metres wide?|A. 11 m|B. 22 m|C. 24 m|D. 88 m",
+            "What is the perimeter of a square with sides of 5 cm?|A. 10 cm|B. 20 cm|C. 25 cm|D. 25 cm²",
+            "A rectangle has length 12 cm and width 9 cm. What is its area?|A. 21 cm²|B. 42 cm²|C. 108 cm²|D. 108 cm",
+            "Which unit is used to measure area?|A. cm|B. m|C. cm²|D. km",
+            "A square garden has area 64 m². What is the length of one side?|A. 4 m|B. 8 m|C. 16 m|D. 32 m",
+            "A rectangle is 20 m long and 10 m wide. What is its perimeter?|A. 30 m|B. 40 m|C. 60 m|D. 200 m",
+          ]),
+          correctAnswer: "C,C,B,B,C,C,B,C",
+          points: 8,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `At Bedok Primary School, the PE teacher is marking out areas on the field.
+
+(a) A rectangular playground is 18 metres long and 12 metres wide. What is the area of the playground? Show your working.
+
+(b) A square table in the canteen has sides of 4 metres. What is the perimeter of the table? Show your working.
+
+(c) A rectangular room has an area of 48 m². The length of the room is 8 m. What is the width of the room? Show your working.
+
+写出算式和答案，标注单位。`,
+          points: 10,
+        },
+      ],
+    },
     
     // A2 WEEKS
     {
