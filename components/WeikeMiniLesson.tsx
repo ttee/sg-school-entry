@@ -415,6 +415,15 @@ export default function WeikeMiniLesson({ level, weekNumber }: WeikeMiniLessonPr
       ],
       gloss: "AEIS 中学数学第 15 周 / SMATH Week 15. 本周例题：Sec 1 有理数比与化简（Sec 1 NUMBER AND ALGEBRA: N2.1 ratios involving rational numbers, N2.2 writing a ratio in its simplest form）。比 ratio 可以涉及分数或小数 involving rational numbers：1/2 : 1/3, 0.4 : 0.6, 2/3 : 4。化简 writing in its simplest form：转换为相同形式（全是整数，或全是相同分母），然后除以 HCF。1/2 : 1/3 = 3 : 2（乘以 6）；0.4 : 0.6 = 4 : 6 = 2 : 3（先转整数，再除以 HCF 2）；2/3 : 4 = 2 : 12 = 1 : 6（4 = 12/3，然后 2/3 : 12/3 = 2 : 12，除以 HCF 2）。顺序 order matters：a : b 不是 b : a。本周化石：1/2 : 1/3 留为最终答案（错！应是 3 : 2）；3 : 2 写成 2 : 3（错！顺序颠倒）；2/3 : 4 写成 2 : 4（错！应是 1 : 6）。金额用新加坡元 S$。不用计算器。本周开始 N2，只教 2.1–2.2（有理数比与化简），不教 2.3 应用题（下一周）。"
     },
+    "SMATH-16": {
+      examples: [
+        "Wei and Aisha share S$60 in the ratio 2 : 3.",
+        "Total parts = 2 + 3 = 5",
+        "One part = S$60 ÷ 5 = S$12",
+        "Wei gets 2 parts = 2 × S$12 = S$24. Aisha gets 3 parts = 3 × S$12 = S$36"
+      ],
+      gloss: "AEIS 中学数学第 16 周 / SMATH Week 16. 本周例题：Sec 1 比的应用题（Sec 1 NUMBER AND ALGEBRA: N2.3 problems involving ratio）。按比分配 share a quantity in a given ratio：先算总份数 total parts，再算一份 one part，最后算各部分。S$60 in 2 : 3 → total parts = 2+3=5, one part = S$60÷5 = S$12, Wei's 2 parts = 2×S$12 = S$24, Aisha's 3 parts = 3×S$12 = S$36。已知一个量求另一个 given one quantity and the ratio, find the other：Wei has S$24, Wei : Aisha = 2 : 3 → Wei's 2 parts = S$24, one part = S$24÷2 = S$12, Aisha's 3 parts = 3×S$12 = S$36。已知差求数量 given the difference and the ratio, find a quantity：Aisha has S$12 more than Wei, ratio 2 : 3 → difference = 3−2 = 1 part = S$12, Wei's 2 parts = 2×S$12 = S$24, Aisha's 3 parts = 3×S$12 = S$36。本周化石：比 2 : 3 时，用 2/3 of total 来算 Wei 的份数 ✗（应该是 2/5 of total，因为总份数是 2+3=5）；比 Wei : Aisha = 2 : 3 时，把 Wei 的份数错给成 3 parts ✗（应该是 2 parts）。金额用新加坡元 S$。不用计算器。本周完成 N2。"
+    },
     "SEC-0": {
       fossil: "Although I was nervous, but I tried. ✗ (中文「虽然…但是…」迁移) / I go yesterday ✗ (叙事体过去时掉落)",
       examples: [
