@@ -127,7 +127,7 @@ export default function HomePage() {
               CEQ 英语门槛 → AEIS 数学与英语，以及录取后的英语授课适应。
             </p>
             <p className="text-base text-ink-2 mb-2 max-w-2xl">
-              小班直播课（最多 8 人）+ 每周作业 app。家长订阅，孩子登录做题。
+              每周作业 app + 家长微信跟进。家长订阅，孩子登录做题。
             </p>
             <p className="text-sm text-accent mb-8 max-w-2xl">
               新增：<strong>B1 Preliminary 第 11 周（过去完成时 past perfect）</strong>已上线；<strong>A2 Key 第 11 周（地点介词 in/on/at）</strong>已上线；<strong>AEIS 数学 试学周 + 第 1–5 周</strong>现已上线（Week 0 整数与钱币，Week 1 乘法与除法，Week 2 分数，Week 3 长度、质量、容积与时间，Week 4 平面图形规律与立体图形，Week 5 带单位的象形统计图，均对应 MOE P2 大纲）。
@@ -159,7 +159,7 @@ export default function HomePage() {
               </Link>
             </div>
             <p className="text-sm text-muted max-w-2xl">
-              非 MOE、SEAB、Cambridge 官方机构 · 月度会员 S$320 或 12 周直播课预付包 · PayNow {payNowNumber} / 微信转账
+              非 MOE、SEAB、Cambridge 官方机构 · 月度会员 S$320 或 12 周预付包 · PayNow {payNowNumber} / 微信转账
             </p>
             <p className="text-sm text-ink-2 mt-3 max-w-2xl">
               <strong>AEIS 申请：</strong>
@@ -238,7 +238,7 @@ export default function HomePage() {
               会员与课程
             </h2>
             <p className="text-ink-2 mb-6 max-w-2xl">
-              家长订阅，孩子登录。小班直播课（最多 8 人）+ 每周作业 app。先走 CEQ 英语门槛，再进 AEIS 数学与英语赛道。录取后可续订英语授课适应（不作为入学考试售卖）。
+              家长订阅，孩子登录。每周作业 app + 家长微信跟进。先走 CEQ 英语门槛，再进 AEIS 数学与英语赛道。录取后可续订英语授课适应（不作为入学考试售卖）。
             </p>
 
             <div className="mb-8 bg-accent/5 border border-accent/20 rounded-xl p-6">
@@ -252,16 +252,12 @@ export default function HomePage() {
                 <span className="text-ink-2">/ 月</span>
               </div>
               <p className="text-sm text-ink-2 mb-4">
-                小班直播课（每周 2 次，每次 1.5 小时）+ 每周作业 app 解锁当前级别已上线周数（A2 试学周 + 第 1–11 周，B1 试学周 + 第 1–11 周）。包含 CEQ 备考四项技能：阅读、写作、听读准备、口语提示。
+                作业 app 解锁已上线周数（A2 试学周 + 第 1–11 周，B1 试学周 + 第 1–11 周）+ 家长微信进度通报。包含 CEQ 备考四项技能：阅读、写作、听读准备、口语提示。可随时取消。
               </p>
               <ul className="space-y-2 text-sm text-ink-2 mb-5">
                 <li className="flex items-start gap-2">
                   <span className="text-accent mt-0.5">✓</span>
-                  <span>每周 2 次小班直播课（1.5 小时/次）</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-accent mt-0.5">✓</span>
-                  <span>每周作业 app 解锁已上线周数（A2: 试学周 + 第 1–11 周；B1: 试学周 + 第 1–11 周）</span>
+                  <span>作业 app 解锁已上线周数（A2: 试学周 + 第 1–11 周；B1: 试学周 + 第 1–11 周）</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-accent mt-0.5">✓</span>
@@ -269,9 +265,16 @@ export default function HomePage() {
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-accent mt-0.5">✓</span>
-                  <span>家长微信通报进度，可随时取消</span>
+                  <span>家长微信进度通报，可随时取消</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-accent mt-0.5">✓</span>
+                  <span>试学一周免费</span>
                 </li>
               </ul>
+              <p className="text-xs text-muted mb-4">
+                如需老师带练，微信咨询后再约（有教案再开 Zoom）。
+              </p>
               <Link
                 href="#contact"
                 className="inline-flex items-center justify-center px-5 py-3 bg-accent text-accent-ink font-semibold rounded-full hover:bg-accent-hover transition-colors"
@@ -281,7 +284,7 @@ export default function HomePage() {
             </div>
 
             <h3 className="font-serif font-semibold text-xl mb-4 text-ink">
-              12 周直播课预付包（CEQ 冲刺）
+              12 周预付包（CEQ 冲刺）
             </h3>
             <div className="grid md:grid-cols-2 gap-5">
               <article className="bg-card border border-line rounded-2xl p-6 shadow">
@@ -291,23 +294,17 @@ export default function HomePage() {
                 </div>
                 <p className="text-xs font-semibold uppercase tracking-wide text-accent mb-3">适合 P2–P4 CEQ 门槛</p>
             <p className="text-ink-2 mb-4 text-sm">
-              12 周直播课冲刺剑桥 A2 Key for Schools 水平，配合当前 app 已上线周数（试学周 + 第 1–11 周，共 12 周），帮孩子在 CEQ 考试前准备好听、说、读、写四项。
+              该级别作业 app 12 周路径（试学周 + 第 1–11 周）+ 2 次模拟（写作/口语在 app 里）。12 周是三个月的作业路径，不是 12 个月。不是直播课。
             </p>
                 <ul className="space-y-0 border-t border-line mb-5">
-                  <li className="border-b border-line py-3 pl-5 relative before:absolute before:left-0 before:top-5 before:w-2 before:h-2 before:rounded-full before:bg-accent text-sm text-ink-2">
-                    12 周直播课，每周 2 次，每次 1.5 小时（共 24 节课）
-                  </li>
-                  <li className="border-b border-line py-3 pl-5 relative before:absolute before:left-0 before:top-5 before:w-2 before:h-2 before:rounded-full before:bg-accent text-sm text-ink-2">
-                    小班授课，每班最多 8 人
-                  </li>
                   <li className="border-b border-line py-3 pl-5 relative before:absolute before:left-0 before:top-5 before:w-2 before:h-2 before:rounded-full before:bg-accent text-sm text-ink-2">
                     针对 Cambridge A2 Key for Schools 四项技能：阅读、写作、听力、口语
                   </li>
                   <li className="border-b border-line py-3 pl-5 relative before:absolute before:left-0 before:top-5 before:w-2 before:h-2 before:rounded-full before:bg-accent text-sm text-ink-2">
-                    作业 app 当前已上线 A2 试学周 + 第 1–11 周（共 12 周）
+                    作业 app A2 试学周 + 第 1–11 周（共 12 周）
                   </li>
                   <li className="border-b border-line py-3 pl-5 relative before:absolute before:left-0 before:top-5 before:w-2 before:h-2 before:rounded-full before:bg-accent text-sm text-ink-2">
-                    包含 2 次模拟考，家长微信通报进度
+                    2 次模拟考（写作、口语在 app），家长微信进度通报
                   </li>
                   <li className="py-3 pl-5 relative before:absolute before:left-0 before:top-5 before:w-2 before:h-2 before:rounded-full before:bg-accent text-sm text-ink-2">
                     帮孩子在提交 AEIS / S-AEIS 申请前 12 个月内考出 CEQ
@@ -328,23 +325,17 @@ export default function HomePage() {
                 </div>
                 <p className="text-xs font-semibold uppercase tracking-wide text-accent mb-3">适合 P5 CEQ 门槛</p>
             <p className="text-ink-2 mb-4 text-sm">
-              12 周直播课冲刺剑桥 B1 Preliminary for Schools 水平，配合当前 app 已上线周数（试学周 + 第 1–11 周，共 12 周），帮孩子在 CEQ 考试前准备好听、说、读、写四项。
+              该级别作业 app 12 周路径（试学周 + 第 1–11 周）+ 2 次模拟（写作/口语在 app 里）。12 周是三个月的作业路径，不是 12 个月。不是直播课。
             </p>
                 <ul className="space-y-0 border-t border-line mb-5">
-                  <li className="border-b border-line py-3 pl-5 relative before:absolute before:left-0 before:top-5 before:w-2 before:h-2 before:rounded-full before:bg-accent text-sm text-ink-2">
-                    12 周直播课，每周 2 次，每次 1.5 小时（共 24 节课）
-                  </li>
-                  <li className="border-b border-line py-3 pl-5 relative before:absolute before:left-0 before:top-5 before:w-2 before:h-2 before:rounded-full before:bg-accent text-sm text-ink-2">
-                    小班授课，每班最多 8 人
-                  </li>
                   <li className="border-b border-line py-3 pl-5 relative before:absolute before:left-0 before:top-5 before:w-2 before:h-2 before:rounded-full before:bg-accent text-sm text-ink-2">
                     针对 Cambridge B1 Preliminary for Schools 四项技能：阅读、写作、听力、口语
                   </li>
                   <li className="border-b border-line py-3 pl-5 relative before:absolute before:left-0 before:top-5 before:w-2 before:h-2 before:rounded-full before:bg-accent text-sm text-ink-2">
-                    作业 app 当前已上线 B1 试学周 + 第 1–11 周（共 12 周）
+                    作业 app B1 试学周 + 第 1–11 周（共 12 周）
                   </li>
                   <li className="border-b border-line py-3 pl-5 relative before:absolute before:left-0 before:top-5 before:w-2 before:h-2 before:rounded-full before:bg-accent text-sm text-ink-2">
-                    包含 2 次模拟考，家长微信通报进度
+                    2 次模拟考（写作、口语在 app），家长微信进度通报
                   </li>
                   <li className="py-3 pl-5 relative before:absolute before:left-0 before:top-5 before:w-2 before:h-2 before:rounded-full before:bg-accent text-sm text-ink-2">
                     帮孩子在提交 AEIS / S-AEIS 申请前 12 个月内考出 CEQ
@@ -360,7 +351,7 @@ export default function HomePage() {
             </div>
 
             <p className="text-sm text-muted mt-5 max-w-3xl">
-              <strong className="text-ink-2">付款方式：</strong>PayNow 或微信转账，报名以咨询确认为准。无 Stripe。月度会员可随时取消，12 周直播课预付包不退费。
+              <strong className="text-ink-2">付款方式：</strong>PayNow 或微信转账，报名以咨询确认为准。无 Stripe。月度会员可随时取消，12 周预付包不退费。
               <br />
               <strong className="text-ink-2 mt-2 inline-block">考试单独报名：</strong>CEQ 考试本身在剑桥授权考点报名，不含在课程学费内。
             </p>
