@@ -6215,7 +6215,7 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
           options: JSON.stringify([
             "What is 5/6 ÷ 2? (Give answer in simplest form)|A. 5/12|B. 10/6|C. 5/8|D. 2/6",
             "What is 8 ÷ 2/3?|A. 16/3|B. 12|C. 8/6|D. 6",
-            "What is 1/3 ÷ 1/6?|A. 1/18|B. 1/2|C. 2|D. 6/3",
+            "What is 1/3 ÷ 1/6?|A. 1/18|B. 1/2|C. 2|D. 3",
             "What is 5 ÷ 1/5?|A. 1|B. 5/5|C. 25|D. 5/25",
             "What is 4/5 ÷ 2? (Give answer in simplest form)|A. 4/10|B. 2/5|C. 8/5|D. 4/7",
             "What is 2/5 ÷ 1/10?|A. 2/50|B. 2/15|C. 4|D. 20/50",
@@ -6239,13 +6239,13 @@ Question (b)
 Jun Wei has 6 kilograms of flour. Each batch of cookies needs 1/2 kilogram of flour. How many batches can he make?
 
 Question (c)
-Mei has 2/5 of a pizza. She wants to share it equally with her friend, so she divides 2/5 by 1/2. What fraction of the whole pizza does each person get?
+Mei has 2/5 of a pizza. Each serving is 1/2 of the whole pizza. How many servings can she make from 2/5 of the pizza?
 
 写作提示 / Tips:
 ✓ 每题分步骤写出算式 (Show working steps for each question)
 ✓ Part 2 官方要求：clearly show the method of solution by writing working steps, plus the final answer
 ✓ Fraction division 不用计算器 (No calculators allowed: do fraction division by hand)
-✓ 写出分数除法步骤，用 invert-and-multiply：如「3/4 ÷ 3 = 3/4 × 1/3 = 3/12 = 1/4」「6 ÷ 1/2 = 6 × 2/1 = 12」「2/5 ÷ 1/2 = 2/5 × 2/1 = 4/5」
+✓ 写出分数除法步骤，用 invert-and-multiply：如「3/4 ÷ 3 = 3/4 × 1/3 = 3/12 = 1/4」「6 ÷ 1/2 = 6 × 2/1 = 12」「2/5 ÷ 1/2 = 2/5 × 2/1 = 4/5 (This means 4/5 of a serving, or she can make 0.8 servings)」
 ✓ 用文字说明：「To divide by a whole number, multiply by 1 over that number」或「To divide by a fraction, multiply by its reciprocal (invert and multiply)」
 ✓ 最终答案化简到最简分数（如 3/12 = 1/4）
 ✓ 如果题目有钱币，用新加坡元 S$（本周题目无钱币情境）
