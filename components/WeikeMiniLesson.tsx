@@ -307,6 +307,14 @@ export default function WeikeMiniLesson({ level, weekNumber }: WeikeMiniLessonPr
       ],
       gloss: "AEIS 中学数学第 4 周 / SMATH Week 4. 本周例题：P6 圆的面积和周长（P6 Area and Circumference of Circle 1.1–1.3）。圆周长 Circumference = 2πr 或 πd。圆面积 Area = πr²。半圆周长 = 弧长 + 直径（πr + 2r，不是只有 πr）。四分之一圆周长 = 弧长 + 两边（(1/2)πr + 2r）。π 的值每道题明确给出（本周全用 π = 22/7）。不教体积、球体/圆锥/圆柱公式。不用计算器，写出算式步骤。"
     },
+    "SMATH-5": {
+      examples: [
+        "A cube has volume 64 cm³. What is the length of one edge?",
+        "Volume of cube = edge³",
+        "edge³ = 64, so edge = ³√64 = 4 cm (because 4 × 4 × 4 = 64)"
+      ],
+      gloss: "AEIS 中学数学第 5 周 / SMATH Week 5. 本周例题：P6 正方体和长方体体积（P6 Volume of Cube and Cuboid 2.1–2.5）。Volume of a cube = edge³（正方体体积 = 边³）。Volume of a cuboid = length × width × height（长方体体积 = 长 × 宽 × 高）。单位 cm³ / m³。已知体积求正方体边长：edge = ³√volume（如 V=64 cm³ → edge=³√64=4 cm）。已知体积和两边求第三边：如 V=120 cm³, l=10 cm, w=4 cm → h=120÷10÷4=3 cm。已知体积和底面积求高：h = V ÷ base area（如 V=96 cm³, base=16 cm² → h=96÷16=6 cm）。不教 cm³↔m³ 转换、球体/圆锥/圆柱。不用计算器，写出算式步骤。"
+    },
     "SEC-0": {
       fossil: "Although I was nervous, but I tried. ✗ (中文「虽然…但是…」迁移) / I go yesterday ✗ (叙事体过去时掉落)",
       examples: [

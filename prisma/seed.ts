@@ -6331,6 +6331,84 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
         },
       ],
     },
+    {
+      level: "SMATH",
+      weekNumber: 5,
+      title: "数学 第 5 周 / Maths Week 5",
+      description: "AEIS-Secondary Mathematics: P6 volume of cube and cuboid",
+      isSample: false,
+      errorFocus: "volume vs edge / forgetting V = l × w × h",
+      parentBrief: "本周是中学 AEIS 数学第 5 周，对应官方 SEAB Sec 1 卷型（https://www.seab.gov.sg/aeis/test-details/ 2026年7月1日更新）。Part 1 Multiple-choice questions：34 道 MCQ，30 分钟。Part 2 Short-answer questions (20 items) and open-ended questions (10 to 15 items)：1 小时 45 分钟。Calculators are not allowed（不允许使用计算器）。Short-answer and open-ended questions：candidates are required to show the method of solution clearly by writing working steps in the spaces provided, plus the final answer（需写出算式步骤和最终答案）。AEIS-Secondary 官方 preceding-level 规则：申请 Sec 1 入学者需熟悉 Sec 1 前一级的内容。官方举例：apply Secondary 3 → be familiar with Secondary 2. 本周针对 Sec 1 申请者，内容为 Sec 1 前一级（P6）的官方 2021 Primary Mathematics Syllabus - P6 Volume of Cube and Cuboid 2.1 (finding one dimension of a cuboid given its volume and the other dimensions), 2.2 (finding the length of one edge of a cube given its volume), 2.3 (finding the height of a cuboid given its volume and base area), 2.4 (finding the area of a face of a cuboid given its volume and one dimension), 2.5 (use of √ and ³√ as needed to find an edge from a volume or a square face)。本周作业是样本，不是完整 34 + 20 + 10–15 题。本周化石：volume vs edge 混淆（体积和边长混淆）、forgetting V = l × w × h（忘记 V = 长 × 宽 × 高）。官方大纲明确：Volume of a cube = edge³（正方体体积 = 边³）、Volume of a cuboid = length × width × height（长方体体积 = 长 × 宽 × 高）、单位 cm³ / m³。官方注意：本主题历史上在较早级别排除 cm³ 和 m³ 之间的转换，不要发明转换题。用新加坡元 S$，不用美元（如果题目涉及钱币，例如长方体水箱的价格，用 S$；本周题目优先不涉及钱币情境）。不教：circles（圆，已在第 4 周）、algebra（代数）、ratio（比）、percentage（百分数）、fraction division（分数除法）、speed（速度）、nets（展开图）、sphere/cone/cylinder（球体/圆锥/圆柱，不在官方 P6 Volume 2.1–2.5）、liquid capacity formulae beyond a cuboid tank as L×W×H in cm³（液体容量公式，除了长方体水箱用 L×W×H 算 cm³ 以外）、invented official facts。题目选项必须唯一：不能有两道题的正确答案数值相同（如两道题都是 4 cm，或一道是 4 cm 另一道是 4 cm²，数字必须不同）；不能有 cube edge 4 和 volume 64 作为同一道题的两个选项（都是基于 4³=64 的正确值）；不能有两个长方体体积都是 120 cm³；不能有 ³√8 = 2 和 8÷4 = 2 作为同一道题的两个正确选项（即使公式不同，数值相同会混淆）；不能有 5 cm 和 5 cm² 同时作为同一个数量的两个选项（单位必须匹配题目要求）。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "A cube has edge 3 cm. What is the volume?|A. 9 cm³|B. 12 cm³|C. 27 cm³|D. 30 cm³",
+            "A cube has volume 64 cm³. What is the length of one edge?|A. 2 cm|B. 4 cm|C. 8 cm|D. 16 cm",
+            "A cuboid is 5 cm long, 4 cm wide, and 3 cm high. What is the volume?|A. 12 cm³|B. 20 cm³|C. 60 cm³|D. 120 cm³",
+            "A cuboid has volume 120 cm³. The length is 10 cm and the width is 4 cm. What is the height?|A. 2 cm|B. 3 cm|C. 5 cm|D. 6 cm",
+            "A cuboid has volume 96 cm³ and base area 16 cm². What is the height?|A. 4 cm|B. 6 cm|C. 8 cm|D. 12 cm",
+          ]),
+          correctAnswer: "C,B,C,B,B",
+          points: 10,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "A cube has volume 125 cm³. What is the length of one edge?|A. 5 cm|B. 10 cm|C. 15 cm|D. 25 cm",
+            "A cuboid is 8 cm long, 5 cm wide, and 2 cm high. What is the volume?|A. 15 cm³|B. 40 cm³|C. 80 cm³|D. 160 cm³",
+            "A cuboid has volume 144 cm³. The length is 8 cm and the height is 2 cm. What is the width?|A. 6 cm|B. 9 cm|C. 12 cm|D. 18 cm",
+            "A cube has edge 2 cm. What is the volume?|A. 4 cm³|B. 6 cm³|C. 8 cm³|D. 12 cm³",
+            "A cuboid has volume 100 cm³ and height 5 cm. What is the area of the base?|A. 10 cm²|B. 20 cm²|C. 25 cm²|D. 50 cm²",
+            "A cuboid has volume 168 cm³. One edge is 8 cm and another edge is 3 cm. What is the third edge?|A. 5 cm|B. 6 cm|C. 7 cm|D. 8 cm",
+            "A cube has volume 1000 cm³. What is the length of one edge?|A. 5 cm|B. 10 cm|C. 20 cm|D. 100 cm",
+            "A cuboid has volume 60 cm³ and height 5 cm. What is the area of the base?|A. 10 cm²|B. 12 cm²|C. 15 cm²|D. 20 cm²",
+          ]),
+          correctAnswer: "A,C,B,C,B,C,B,B",
+          points: 16,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `Part 2: Show Your Working (写出算式步骤)
+
+Riverside Secondary School has storage boxes. Answer the questions below. Show all your working clearly.
+
+Question (a)
+A cubic storage box has edge 4 cm. Find the volume.
+
+Question (b)
+Another storage box is a cube with volume 64 cm³. Find the length of one edge. (Use ³√ if needed: ³√64 = 4 because 4 × 4 × 4 = 64.)
+
+Question (c)
+A rectangular (cuboid) storage box has volume 120 cm³. The length is 10 cm and the width is 4 cm. Find the height.
+
+写作提示 / Tips:
+✓ 每题分步骤写出算式 (Show working steps for each question)
+✓ Part 2 官方要求：clearly show the method of solution by writing working steps, plus the final answer
+✓ Volume 计算不用计算器 (No calculators allowed: do volume calculations by hand)
+✓ 写出体积公式步骤：
+  • Cube: Volume = edge³ = edge × edge × edge. Example: V = 4³ = 4 × 4 × 4 = 64 cm³
+  • Cuboid: Volume = length × width × height. Example: V = 10 × 4 × 3 = 120 cm³
+✓ 求边长或高度时要写出除法步骤：
+  • 已知体积和两个边，求第三边：height = volume ÷ length ÷ width. Example: h = 120 ÷ 10 ÷ 4 = 3 cm
+  • 已知正方体体积，求边长：edge = ³√volume. Example: edge = ³√64 = 4 cm (because 4 × 4 × 4 = 64)
+  • 已知体积和底面积，求高：height = volume ÷ base area. Example: h = 96 ÷ 16 = 6 cm
+✓ 单位标注清晰（体积用 cm³ 或 m³，长度/边长/高度用 cm 或 m，面积用 cm² 或 m²）
+✓ 官方大纲明确不教 cm³ 和 m³ 之间的转换，不要发明转换题
+✓ 如果题目有钱币，用新加坡元 S$（本周题目无钱币情境）
+
+Note: This is a sample of Part 2 short-answer/open-ended questions. The official paper has 20 short-answer + 10–15 open-ended items in 1 hour 45 minutes.`,
+          points: 20,
+        },
+      ],
+    },
   ];
 
   // =================================================================
