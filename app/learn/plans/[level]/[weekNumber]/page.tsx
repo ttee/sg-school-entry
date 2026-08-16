@@ -3916,6 +3916,43 @@ const lessonPlans: Record<string, LessonPlan> = {
     ],
     speakingPrompts: null,
   },
+  "SMATH-26": {
+    title: "用字母表示数 — Using Letters to Represent Numbers",
+    mathExample: "A number is n. 3 more than n is n + 3 (not 3n). Twice n is 2n or 2 × n (not n + 2). Wei has n dollars, spends S$5, amount left = n − 5 (not 5 − n).",
+    sections: [
+      {
+        name: "课前",
+        duration: "2 分钟",
+        teacherNotes: "确认 Zoom 设置正常。孩子和家长都在镜头前。对家长说：「今天教中学 AEIS 数学第 26 周，用字母表示数（using letters to represent numbers）。本周是 Sec 1 数学卷型样本，内容对应前一级 Sec 1 NUMBER AND ALGEBRA, N5. Algebraic expressions and formulae: 5.1 using letters to represent numbers。官方 MOE 2020 G3 Mathematics Syllabuses, Secondary One, NUMBER AND ALGEBRA。SEAB 官方规则：申请 Sec 2 入学的孩子需熟悉 Sec 2 前一级（Sec 1）的内容。第 23–25 周已完成 N4（Rate and Speed），本周开始 N5，只教 5.1 using letters to represent numbers（用字母表示数）。本周不教 5.2 interpreting notations（解读符号，如 ab, a², 3(x+y)），5.3 evaluation（代数式求值），5.4 translation（实际问题翻译），5.5 nth term，5.6–5.8 simplifying（化简代数式）。这些是后续周次内容。不用计算器，要写出推理步骤。」",
+      },
+      {
+        name: "热身",
+        duration: "5 分钟",
+        teacherNotes: "在白板上写：A number is n. What is 3 more than n?  问孩子：'What do you think?' 等孩子思考后，解释：'A letter stands for a number. n is a number. 3 more than n means we add 3 to n. So it's n + 3.' 再写：'What if the story says \"3 times n\"? That's 3 × n, or we can write 2n for \"twice n\". But 3 more than n is NOT 3n. 3 more than n is n + 3.' 让孩子看到今天的目标：学会用字母代表数（letters stand for numbers），写出简单的代数式（write simple algebraic expressions from statements like \"3 more than n\", \"5 less than n\", \"twice n\", \"half of n\"）。",
+      },
+      {
+        name: "化石",
+        duration: "8 分钟",
+        teacherNotes: "在屏幕上或白板上写下常见混淆：'Fossil 1: Writing 3n when the story is \"3 more than n\". ✗ Example: A number is n. What is 3 more than n? Wrong: 3n. Correct: n + 3. Rule: 3 more than n means add 3 to n, so n + 3. 3n means 3 times n (multiply), not 3 more than n.' 再写：'Fossil 2: Writing n + 3 when the story is \"3 times n\". ✗ Example: A number is n. What is 3 times n? Wrong: n + 3. Correct: 3n or 3 × n. Rule: 3 times n means multiply n by 3, so 3n or 3 × n. n + 3 means 3 more than n (add), not 3 times n.' 再写：'Fossil 3: Writing 3 − n when the story is \"n minus 3\". ✗ Example: A number is n. What is n minus 3? Wrong: 3 − n. Correct: n − 3. Rule: n minus 3 means subtract 3 from n, so n − 3. The order matters: n − 3 is not the same as 3 − n.' 再写：'Fossil 4: Treating the letter as a unit, not a number. ✗ Example: Reading n + 3 as \"n 个加 3 个\" (n units plus 3 units). Correct: n is a number (not a unit). n + 3 means the number n plus 3.' 让孩子跟读改正后的表达式 2 次。",
+      },
+      {
+        name: "例题",
+        duration: "10 分钟",
+        teacherNotes: "教师示范三道完整例题（写出推理步骤）。例题 1（3 more than n）：Wei thinks of a number n. Write an expression for \"3 more than n\". Show your working. 步骤：① Let the number be n. ② 3 more than n means n + 3. Answer: n + 3. (Note: n stands for the number Wei thinks of.) 例题 2（twice x）：Aisha has x sweets. Write an expression for \"twice x\". Show your working. 步骤：① Let the number of sweets be x. ② Twice x means 2 × x or 2x. Answer: 2x. (Note: x stands for the number of sweets Aisha has.) 例题 3（n minus 5）：Wei has n dollars. He spends S$5. Write an expression for the amount Wei has left. Show your working. 步骤：① Let Wei's money be n dollars. ② Wei spends S$5. ③ Amount left = n − 5. Answer: n − 5. (Note: n stands for the number of dollars Wei has.) 让孩子理解共同点：字母代表一个数 letter stands for a number；从文字写出代数式 write the expression from words；本周只写表达式不代入数值 write the expression only, do not substitute a value this week (that's 5.3 evaluation)。",
+      },
+      {
+        name: "练习",
+        duration: "12 分钟",
+        teacherNotes: "给孩子 3 道练习题，让孩子独立做，写出推理步骤。家长可以用手机拍照孩子的推理。题 1：A number is k. Write an expression for \"5 less than k\". Show your working steps. 答案：① Let the number be k. ② 5 less than k means k − 5. Answer: k − 5. (Note: k stands for the number.) 题 2：Mr Lim has n students in his class. Write an expression for \"twice n\". Show your working steps. 答案：① Let the number of students be n. ② Twice n means 2 × n or 2n. Answer: 2n. (Note: n stands for the number of students.) 题 3：Aisha has x dollars. She spends S$4 on lunch. Write an expression for the amount Aisha has left. Show your working steps. 答案：① Let Aisha's money be x dollars. ② Aisha spends S$4. ③ Amount left = x − 4. Answer: x − 4. (Note: x stands for the number of dollars Aisha has.) 教师巡看孩子的推理，纠正格式（如果孩子只写答案不写步骤，提醒 'AEIS 官方要求写出 working steps'）。如果孩子写 3n 当题目是 \"3 more than n\"，指出：'3 more than n means add 3 to n, so n + 3 (not 3n). 3n means 3 times n.' 如果孩子写 5 − k 当题目是 \"5 less than k\"，指出：'5 less than k means subtract 5 from k, so k − 5 (not 5 − k). The order matters.'",
+      },
+      {
+        name: "收口",
+        duration: "3 分钟",
+        teacherNotes: "总结本周重点：(1) 官方 Sec 1 AEIS 数学卷型：Part 1 MCQ 34 题 30 分钟 + Part 2 show working 20+10–15 题 1 小时 45 分钟，不用计算器。(2) 本周内容：Sec 1 NUMBER AND ALGEBRA, N5. Algebraic expressions and formulae: 5.1 using letters to represent numbers（用字母表示数），对应 preceding level 规则。第 23–25 周已完成 N4，本周开始 N5，只教 5.1。(3) 本周化石：writing 3n when the story is \"3 more than n\"（当应用题说"n 多 3"时错误地写 3n，正确应该是 n + 3）；writing n + 3 when the story is \"3 times n\"（当应用题说"n 的 3 倍"时错误地写 n + 3，正确应该是 3n）；writing 3 − n when the story is \"n minus 3\"（当应用题说"n 减 3"时错误地写 3 − n，正确应该是 n − 3）；treating the letter as a unit, not a number（把字母当单位而不是数）。(4) A letter stands for a number（字母代表一个数）。3 more than n is n + 3（不是 3n）。5 less than n is n − 5（不是 5 − n）。Twice n is 2n or 2 × n（不是 n + 2）。Half of n is n ÷ 2 or n/2（不是 n − 2）。(5) 本周只教写出表达式 write the expression，本周不教代入数值求值 substitute a value（那是 5.3 evaluation，后续周次内容）。本周不教 5.2 interpreting notations（解读符号，如 ab, a², 3(x+y)），5.3 evaluation，5.4 translation of real-world situations as a named 5.4 week，5.5 nth term，5.6–5.8 simplifying（那些是后续周次内容）。(6) 用友好的整数字母（friendly whole-number letters，如 n, x, k）。不用计算器（calculators are not allowed）。金额用新加坡元 S$（money in Singapore dollars S$）。(7) 唯一性 unique keys：两个选项不能是同一个表达式或同一个意思。n + 3 和 3n 是不同的表达式。2n 和 2 × n 是同一个意思。The fossil (3n when the story is n + 3, or n + 3 when the story is 3n) must be a WRONG option。(8) 打开 /learn 页面，告诉孩子：「这周的作业在这里，完成后系统会自动批改选择题，写算式部分要写出推理步骤（show working steps），模拟 AEIS Part 2 格式。我们会在微信群里同步进度。」",
+      },
+    ],
+    speakingPrompts: null,
+  },
 };
 
 export default async function LessonPlanPage({
