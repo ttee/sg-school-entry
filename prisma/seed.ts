@@ -6335,6 +6335,96 @@ Note: This is a Sec 1 writing sample (2 topics, 200–300 words), not Sec 2 or S
         },
       ],
     },
+    {
+      level: "SEC",
+      weekNumber: 5,
+      title: "英语 第 5 周 / English Week 5",
+      description: "AEIS-Secondary English (Sec 1 paper shape): PE lesson sample",
+      isSample: false,
+      errorFocus: "should (advice) vs must (school rule) — unique keys",
+      parentBrief: "中学 AEIS 英语第 5 周。对应官方 SEAB Sec 1 卷型（https://www.seab.gov.sg/aeis/test-details/ 2026年7月1日更新）：Part 1 Writing 提供 2 个作文题目，选写 1 篇，200–300 词；Part 2 Comprehension & Language Use 共 50 道 MCQ（理解 15 + 完形 15 + 词汇 10 + 语法 10）。本周作业是样本，不是完整 50 题，不是 2 小时 10 分钟正式试卷。AEIS-Secondary 官方 preceding-level 规则：申请者需熟悉所申请级别前一级（preceding level）的内容。官方举例：apply Sec 3 → 熟悉 Sec 2。本周针对 Sec 1 申请者，对应 Sec 1 前一级内容水平。本周纠错化石：should（建议/advice）vs must（学校规则/school rule）。如果句子是规则（rule），正确答案是 must，should 不出现或明显错误。如果句子是建议（advice），正确答案是 should，must 不出现或明显错误。每个空只有一个正确选项，不能两个选项都对。情境：Wei 第一次上 PE 课（更衣室 / PE 服装 / 水壶 / 热身 / 身体不适要坐旁边）。Aisha / Coach Ng（或 Mr Lim）给出听者需要的指令。本周不是 CEQ。",
+      videoUrl: null,
+      kaizenFocus: "classroom English a listener needs at PE lesson (changing room, PE attire, water bottle, warm-up, sit out if unwell)",
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: `Read this passage about Wei's first PE lesson:
+
+First PE Lesson at Riverside Secondary
+
+On Tuesday afternoon, Wei had his first PE lesson at Riverside Secondary. The timetable showed "PE" from 2:00 p.m. to 3:00 p.m. Wei was excited but also a little nervous. He had never been to a PE lesson at a secondary school before.
+
+Before the lesson, Mr Lim told the class, "Please go to the changing room and put on your PE attire. Boys use the changing room on the left, girls use the one on the right. You must change into your PE shirt and shorts—you cannot attend PE in your school uniform."
+
+Wei went to the boys' changing room with his classmate Ravi. He opened his bag and took out his PE shirt and shorts. Aisha had told him earlier, "You should bring a water bottle to PE. It's hot outside, and you'll need to drink water during breaks."
+
+At 2:10 p.m., all the students were ready. Coach Ng, the PE teacher, stood at the field. "Good afternoon, everyone. Before we start, you must do a warm-up. This is important to prevent injuries. Stretch your arms, legs, and back for five minutes."
+
+The students followed Coach Ng's instructions. After the warm-up, Coach Ng said, "Today we're going to practice relay running. If you feel unwell or dizzy, you should sit at the side and rest. Don't push yourself too hard—your health is more important than any game."
+
+Wei enjoyed the lesson. At the end, Coach Ng reminded them, "You must return to the changing room and change back into your school uniform before you leave. Don't forget to bring your water bottle next week. Well done, everyone!"`,
+          options: JSON.stringify([
+            "What time did the PE lesson start?|A. 1:00 p.m.|B. 2:00 p.m.|C. 2:10 p.m.|D. 3:00 p.m.",
+            "What must students wear for PE?|A. School uniform|B. PE shirt and shorts|C. Sports shoes only|D. Any comfortable clothes",
+            "Who told Wei to bring a water bottle?|A. Mr Lim|B. Coach Ng|C. Aisha|D. Ravi",
+            "What must students do before starting PE?|A. Run around the field|B. Sit and rest|C. Do a warm-up|D. Drink water",
+            "What should students do if they feel unwell during PE?|A. Keep running|B. Sit at the side and rest|C. Go to the canteen|D. Leave the lesson",
+          ]),
+          correctAnswer: "B,B,C,C,B",
+          points: 10,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: "Choose the correct word to complete each sentence:",
+          options: JSON.stringify([
+            "You ____ change into your PE attire before the lesson. (school rule)|A. should|B. must|C. can|D. might",
+            "You ____ bring a water bottle to PE—it's helpful but not required. (advice)|A. must|B. have to|C. should|D. need",
+            "Students ____ do a warm-up before PE to prevent injuries. (school rule)|A. should|B. could|C. must|D. might",
+            "If you feel tired during PE, you ____ take a short break. (advice)|A. must|B. have to|C. should|D. need to",
+            "You ____ wear your school uniform during PE—it's not allowed. (school rule / prohibition)|A. should not|B. must not|C. could not|D. need not",
+            "You ____ drink water after running—it's good for your health. (advice)|A. must|B. have to|C. should|D. need to",
+            "All students ____ return to the changing room after PE. (school rule)|A. should|B. could|C. might|D. must",
+            "You ____ stretch your legs before running—it helps prevent injuries. (advice)|A. must|B. have to|C. should|D. need to",
+          ]),
+          correctAnswer: "B,C,C,C,B,C,D,C",
+          points: 16,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `Part 1: Writing (Sec 1 format)
+
+Choose ONE topic and write 200–300 words.
+
+Topic 1: My First PE Lesson
+Write about your first PE lesson at secondary school (or imagine it if you haven't had one yet). Describe:
+• What time was the PE lesson, and where did it take place?
+• What did you have to change into, and where did you change?
+• What activities did you do during PE?
+• How did you feel about the lesson?
+
+Topic 2: Rules and Advice at School
+Write about the difference between school rules and good advice. Describe:
+• One school rule you must follow (e.g., must wear PE attire, must do warm-up)
+• One piece of advice that helps you at school (e.g., you should bring water, you should rest if tired)
+• Why are rules and advice both important?
+• How do you follow them?
+
+写作提示 / Writing Tips:
+✓ 写出提纲（3-4 个要点）再写正文 (Plan first: 3-4 bullet points, then write)
+✓ 叙事用过去时态 (Narrative → past tense: I went to PE. I changed into my PE shirt.)
+✓ 注意 must（规则）vs should（建议）(must = rule, should = advice)
+✓ 分段：开头 + 2-3 段正文 + 结尾 (Paragraphs: intro + 2-3 body + conclusion)
+✓ 字数 200–300 词 (Word count: 200–300 words)
+
+注：这是 Sec 1 写作样本，不是 Sec 2（4 题 250–350 词）或 Sec 3（4 题 300–400 词）格式。这是本周题目，不是官方题目。
+Note: This is a Sec 1 writing sample (2 topics, 200–300 words), not Sec 2 or Sec 3 format. These are this week's topics, not official examination topics.`,
+          points: 20,
+        },
+      ],
+    },
     // SMATH WEEK (AEIS-Secondary Mathematics)
     {
       level: "SMATH",
