@@ -6039,6 +6039,78 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
         },
       ],
     },
+    {
+      level: "SMATH",
+      weekNumber: 1,
+      title: "数学 第 1 周 / Maths Week 1",
+      description: "AEIS-Secondary Mathematics: P6 ratio",
+      isSample: false,
+      errorFocus: "ratio not in simplest form / mixing part:part with part:whole",
+      parentBrief: "本周是中学 AEIS 数学第 1 周，对应官方 SEAB Sec 1 卷型（https://www.seab.gov.sg/aeis/test-details/ 2026年7月1日更新）。Part 1 Multiple-choice questions：34 道 MCQ，30 分钟。Part 2 Short-answer questions (20 items) and open-ended questions (10 to 15 items)：1 小时 45 分钟。Calculators are not allowed（不允许使用计算器）。Short-answer and open-ended questions：candidates are required to show the method of solution clearly by writing working steps in the spaces provided, plus the final answer（需写出算式步骤和最终答案）。AEIS-Secondary 官方 preceding-level 规则：申请 Sec 1 入学者需熟悉 Sec 1 前一级的内容。官方举例：apply Secondary 3 → be familiar with Secondary 2. 本周针对 Sec 1 申请者，内容为 Sec 1 前一级（P6）的官方 2021 Primary Mathematics Syllabus - P6 Ratio 1.1 (notation, representations and interpretation of a:b and a:b:c, where a, b and c are whole numbers, excluding ratios involving fractions and decimals), 1.2 (equivalent ratios), 1.3 (dividing a quantity in a given ratio), 1.4 (expressing a ratio in its simplest form), 1.5 (finding the ratio of two or three given quantities), 1.6 (finding the missing term in a pair of equivalent ratios), 1.7 (relationship between fraction and ratio)。本周作业是样本，不是完整 34 + 20 + 10–15 题。本周化石：ratio not in simplest form（未约简到最简比）、mixing part:part with part:whole（把部分与部分的比当作部分与整体的比）。用新加坡元 S$，不用美元。不教：ratios involving fractions or decimals（官方明确排除的内容）、percentage（已在试学周）、algebra、circles、volume、speed、calculators、invented official facts。题目要求 simplest form 时必须说明 'simplest form'，否则答案键必须唯一，不能有两个等价比同时作为正确选项（例如 2:3 和 4:6 不能同时存在于选项中）。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "Write 8:12 in its simplest form.|A. 8:12|B. 2:3|C. 4:6|D. 16:24",
+            "The ratio 2:3 is equivalent to 8:□. What is the missing number?|A. 10|B. 12|C. 14|D. 16",
+            "Divide 40 in the ratio 1:3. What is the smaller share?|A. 8|B. 10|C. 20|D. 30",
+            "Find the ratio of 12 to 18 in its simplest form.|A. 12:18|B. 2:3|C. 6:9|D. 1:2",
+            "The ratio a:b:c = 2:3:5. If a+b+c = 20, what is the value of b?|A. 4|B. 6|C. 10|D. 12",
+          ]),
+          correctAnswer: "B,B,B,B,B",
+          points: 10,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "The ratio 3:5 is equivalent to:|A. 3:5|B. 6:10|C. 9:12|D. 12:15",
+            "Write 15:25 in its simplest form.|A. 15:25|B. 5:10|C. 3:5|D. 30:50",
+            "Divide S$80 in the ratio 3:5. What is the larger share?|A. S$30|B. S$40|C. S$50|D. S$60",
+            "Find the missing term: 4:7 = 12:□|A. 15|B. 18|C. 21|D. 28",
+            "The ratio 2:3 can be expressed as a fraction of the first quantity to the total. What fraction?|A. 2/3|B. 2/5|C. 3/5|D. 1/2",
+            "Write the ratio 9:12:15 in its simplest form.|A. 9:12:15|B. 3:4:5|C. 18:24:30|D. 1:2:3",
+            "The ratio of two quantities is 3:4 in simplest form. The two quantities are 18 and:|A. 20|B. 22|C. 24|D. 27",
+            "Find the missing term: 1:4 = □:20|A. 4|B. 5|C. 10|D. 16",
+          ]),
+          correctAnswer: "B,C,C,C,B,B,C,B",
+          points: 16,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `Part 2: Show Your Working (写出算式步骤)
+
+Riverside Secondary School has 120 students in the sports club. Answer the questions below. Show all your working clearly.
+
+Question (a)
+The ratio of boys to girls in the sports club is 3:5. How many boys are there?
+
+Question (b)
+The club has football, basketball and tennis players in the ratio 2:3:1. How many tennis players are there?
+
+Question (c)
+Last year, there were 90 students in the club. The ratio of the number of students this year to last year is written as m:n in simplest form, where m and n are whole numbers. What are the values of m and n?
+
+写作提示 / Tips:
+✓ 每题分步骤写出算式 (Show working steps for each question)
+✓ Part 2 官方要求：clearly show the method of solution by writing working steps, plus the final answer
+✓ Ratio 计算不用计算器 (No calculators allowed: do ratio calculations by hand)
+✓ 写出比的计算步骤，如「Total parts = 3 + 5 = 8, 1 part = 120 ÷ 8 = 15, Boys = 3 × 15 = 45」
+✓ 题目要求 simplest form 时，必须约简到最简比（如 120:90 = 4:3）
+✓ 区分 part:part 和 part:whole（boys:girls 是 part:part，boys:total 是 part:whole）
+✓ 最终答案标注清晰（如 45 boys, 20 tennis players, m = 4 and n = 3）
+
+Note: This is a sample of Part 2 short-answer/open-ended questions. The official paper has 20 short-answer + 10–15 open-ended items in 1 hour 45 minutes.`,
+          points: 20,
+        },
+      ],
+    },
   ];
 
   // =================================================================

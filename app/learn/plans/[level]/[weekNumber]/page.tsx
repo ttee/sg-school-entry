@@ -2584,6 +2584,43 @@ const lessonPlans: Record<string, LessonPlan> = {
     ],
     speakingPrompts: null,
   },
+  "SMATH-1": {
+    title: "比 — Ratio",
+    fossil: "ratio not in simplest form / mixing part:part with part:whole",
+    sections: [
+      {
+        name: "课前",
+        duration: "2 分钟",
+        teacherNotes: "确认 Zoom 设置正常。孩子和家长都在镜头前。对家长说：「今天教中学 AEIS 数学第 1 周，比（ratio）。本周是 Sec 1 数学卷型样本，内容对应前一级 P6 Ratio 1.1–1.7。SEAB 官方规则：申请 Sec 1 入学的孩子需熟悉 Sec 1 前一级的内容。不用计算器，要写出算式步骤。本周不教涉及分数或小数的比（官方明确排除）。」",
+      },
+      {
+        name: "热身",
+        duration: "5 分钟",
+        teacherNotes: "问孩子：'Do you know what a ratio is?' 等孩子回答。然后说：'A ratio compares two or more quantities. For example, boys to girls = 3:5 means for every 3 boys, there are 5 girls.' 在白板上写 3:5，解释：'This is a ratio, read as three to five.' 问孩子：'If there are 3 boys and 5 girls, how many students in total?' 等孩子说 '8.' 强调：'3 + 5 = 8 total parts.' 不立刻讲分配，只练读比和算总份数。",
+      },
+      {
+        name: "化石",
+        duration: "8 分钟",
+        teacherNotes: "在屏幕上或白板上写下常见混淆：'Simplest form: 8:12 = 2:3 (divide by 4).' 解释：最简比是用最小的整数表示比，8:12 可以同时除以 4，得 2:3。不要写 8:12 当答案如果题目要求 simplest form。再写：'Part:part vs part:whole. Boys:girls = 3:5 (part:part). Boys:total = 3:8 (part:whole).' 强调：boys to girls 是两个部分的比，boys to total 是部分与整体的比。让孩子跟读：'Part to part. Part to whole.' 2 次。",
+      },
+      {
+        name: "例题",
+        duration: "10 分钟",
+        teacherNotes: "教师示范一道完整例题（写出算式步骤）。例题：The sports club has 120 students. Boys to girls = 3:5. How many boys are there? 步骤：① Total parts = 3 + 5 = 8. ② 1 part = 120 ÷ 8 = 15. ③ Boys = 3 × 15 = 45. Answer: 45 boys. 强调：算式要分步骤写，不能只写答案。再做一道最简比：Write 12:18 in simplest form. 步骤：① Find the HCF of 12 and 18 = 6. ② 12 ÷ 6 = 2, 18 ÷ 6 = 3. ③ Simplest form = 2:3. 孩子在纸上抄一遍例题步骤。",
+      },
+      {
+        name: "练习",
+        duration: "12 分钟",
+        teacherNotes: "给孩子 3 道练习题，让孩子独立做，写出算式步骤。家长可以用手机拍照孩子的算式。题 1：Divide S$80 in the ratio 3:5. What is the larger share? 答案：Total parts = 3+5 = 8, 1 part = S$80 ÷ 8 = S$10, Larger share = 5 × S$10 = S$50. 题 2：Write 15:25 in simplest form. 答案：HCF = 5, 15÷5 = 3, 25÷5 = 5, Simplest form = 3:5. 题 3：Find the missing term: 4:7 = 12:□. 答案：4 × 3 = 12, so 7 × 3 = 21, □ = 21. 教师巡看孩子的算式，纠正格式（如果孩子只写答案不写步骤，提醒 'AEIS 官方要求写出 working steps'）。",
+      },
+      {
+        name: "收口",
+        duration: "3 分钟",
+        teacherNotes: "总结本周重点：(1) 官方 Sec 1 AEIS 数学卷型：Part 1 MCQ 34 题 30 分钟 + Part 2 show working 20+10–15 题 1 小时 45 分钟，不用计算器。(2) 本周内容：P6 Ratio 1.1–1.7（notation, equivalent ratios, dividing a quantity, simplest form, finding ratio, missing term, relationship with fraction），对应 preceding level 规则。(3) 本周化石：ratio not in simplest form（未约简）、mixing part:part with part:whole（混淆部分与部分、部分与整体）。对家长说：「本周作业有 5+8+3 道题，模拟官方题型，不是完整 34+20+10–15 题。孩子做完后上传到作业 app，选择题自动批改，写算式题家长拍照上传。」",
+      },
+    ],
+    speakingPrompts: null,
+  },
 };
 
 export default async function LessonPlanPage({
