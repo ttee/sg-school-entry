@@ -242,6 +242,14 @@ export default function WeikeMiniLesson({ level, weekNumber }: WeikeMiniLessonPr
       ],
       gloss: "P4 学角（angles）：角的名称（∠ABC 中间字母 B 是顶点 vertex）、度数（degrees）、quarter turn = 90°（1/4 圈 = 90°）、half turn = 180°（1/2 圈 = 180°）、complete turn = 360°（一整圈 = 360°）、比较角度大小（comparing angles: 75° < 90°）、锐角 acute < 90°、直角 right = 90°、钝角 obtuse between 90° and 180°。常见错误：把 quarter turn 当 45°（thinking quarter turn is 45° instead of 90°）、锐角钝角混淆（confusing acute and obtuse: acute < 90°, obtuse > 90° but < 180°）、∠ABC 时把 A 或 C 当顶点（vertex should be the middle letter B, not A or C）、把 half turn 当 90°（thinking half turn is 90° instead of 180°）。关键词：angle（角）、vertex（顶点）、degrees（度数）、quarter turn（1/4 圈）、half turn（1/2 圈）、complete turn（一整圈）、acute angle（锐角）、right angle（直角）、obtuse angle（钝角）。本周不教：triangle angle sum（三角形内角和，不在 P4 Angles 1.1–1.3 官方列表中）、reflex angle（优角）、angles on a straight line（平角的性质）。长方形和正方形都有四个 right angles = 90°。"
     },
+    "MATH-27": {
+      examples: [
+        "Rectangle: 4 right angles = 90°, opposite sides equal. Long side 8 cm, short side 5 cm → opposite sides: 8 cm, 5 cm, 8 cm, 5 cm.",
+        "Square: 4 right angles = 90°, 4 equal sides. Each side 6 cm → all four sides 6 cm.",
+        "Draw on grid: rectangle 4 units by 3 units. Long side 4 units, short side 3 units. Two sides 4 units, two sides 3 units."
+      ],
+      gloss: "P4 学长方形和正方形（rectangle and square）：rectangle 有 4 right angles = 90° 和 opposite sides equal（对边相等）；square 有 4 right angles = 90° 和 4 equal sides（四边相等）；both have opposite sides parallel（对边平行，如果 P3 第 12 周已教平行和垂直，可以回顾）；在方格纸上画长方形和正方形（draw on a square grid: 'draw a rectangle 4 units by 3 units'，用文字描述尺寸，不需要图片文件）。常见错误：把 rectangle 当成四边相等（thinking rectangle has all sides equal instead of only opposite sides equal）、用对角线性质（using diagonal properties，官方明确 excluding diagonal properties）、混淆 rectangle 和 square 的定义（confusing rectangle and square: rectangle has opposite sides equal, square has all four sides equal）、忘记两个形状都有 4 个直角 = 90°（forgetting both shapes have four right angles = 90°）。关键词：rectangle（长方形）、square（正方形）、right angle（直角 = 90°）、opposite sides（对边）、equal sides（相等的边）、parallel（平行）、square grid（方格纸）。本周不教：diagonal properties（对角线性质，官方明确 excluding diagonal properties）、line symmetry / nets（对称/展开图）、triangle angle sum（三角形内角和）、quadrilateral interior angle sum（四边形内角和，不在官方 P4 2.1 列表中）。"
+    },
     "A2-7": {
       fossil: "I going to the library tomorrow / I go to swim / Tomorrow I go library",
       examples: [

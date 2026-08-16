@@ -2222,6 +2222,105 @@ The angle ∠XYZ has its vertex at Y. The two lines forming the angle are YX and
         },
       ],
     },
+
+    // MATH WEEK 27
+    {
+      level: "MATH",
+      weekNumber: 27,
+      title: "数学 第 27 周 / Maths Week 27",
+      description: "AEIS-Primary P4 Mathematics: Rectangle and square",
+      isSample: false,
+      errorFocus: null,
+      parentBrief: "本周主题：长方形和正方形的性质（不含对角线），对应官方 2021 P4 Geometry → 2D Shapes 2.1–2.2（properties of rectangle and square excluding diagonal properties, drawing rectangles and squares on a square grid）。申请 P5 入学的孩子需掌握 P4 内容（MOE AEIS 的 preceding level 规则）。关键技能：rectangle 有 4 个 right angles（直角 = 90°）和 opposite sides equal（对边相等）；square 有 4 个 right angles 和 4 equal sides（四边相等）；both have opposite sides parallel（如果 P3 第 12 周已教平行和垂直，可以回顾）；在方格纸上画长方形和正方形（describe in words: 'draw a rectangle 4 units by 3 units on a square grid'，不需要图片文件）。算法：识别长方形和正方形的性质、画指定尺寸的长方形和正方形。常见错误：把长方形当成四边相等（thinking rectangle has all sides equal instead of only opposite sides equal）、用对角线性质（using diagonal properties，官方明确排除）、混淆长方形和正方形的定义（confusing rectangle and square: rectangle has opposite sides equal, square has all four sides equal）、忘记长方形和正方形都有 4 个直角（forgetting both shapes have four right angles = 90°）。题目配有双向对照表，显示对应官方 2021 Primary Mathematics Syllabus P4 Geometry → 2D Shapes 2.1–2.2，以及申请 P5 → 掌握 P4 的规则。本周明确不教：diagonal properties（对角线性质，官方明确 excluding diagonal properties）、line symmetry / nets（对称/展开图，后续单元）、triangle angle sum（三角形内角和）、quadrilateral interior angle sum（四边形内角和，不在官方 P4 2.1 列表中，不要发明）。本周只教：rectangle properties（长方形性质：4 right angles, opposite sides equal）、square properties（正方形性质：4 right angles, 4 equal sides）、drawing rectangles and squares on a square grid（在方格纸上画长方形和正方形，用文字描述）。每个题目用文字描述图形，给足信息让孩子能唯一确定答案。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: `Read the information and choose the correct answer.
+
+Question 1:
+A square has four sides. Are all four sides equal? (Hint: A square has 4 equal sides. All four sides are the same length.)
+
+Question 2:
+A rectangle has two long sides and two short sides. The two long sides are both 8 cm. The two short sides are both 5 cm. Are the opposite sides equal? (Hint: Opposite sides of a rectangle are equal. The two long sides are opposite to each other, and they are both 8 cm. The two short sides are opposite to each other, and they are both 5 cm.)
+
+Question 3:
+How many right angles does a rectangle have? (Hint: A rectangle has 4 corners, and each corner is a right angle = 90°. So a rectangle has 4 right angles.)
+
+Question 4:
+A square has sides that are each 6 cm long. How long are all four sides? (Hint: A square has 4 equal sides. If each side is 6 cm, then all four sides are 6 cm.)
+
+Question 5:
+On a square grid, you want to draw a rectangle that is 4 units long and 3 units wide. How many units is the long side? How many units is the short side? (Hint: The long side is 4 units. The short side is 3 units. The rectangle has two sides of 4 units and two sides of 3 units.)`,
+          options: JSON.stringify([
+            "Square: all four sides equal?|A. Yes, all equal|B. No, only opposite sides equal|C. No, all different|D. Cannot tell",
+            "Rectangle: 8 cm, 5 cm. Opposite sides equal?|A. Yes|B. No|C. Only one pair|D. Cannot tell",
+            "Rectangle: how many right angles?|A. 2|B. 3|C. 4|D. 5",
+            "Square side 6 cm. All four sides?|A. 3 cm|B. 6 cm|C. 12 cm|D. 24 cm",
+            "Draw rectangle 4 by 3. Long side?|A. 2 units|B. 3 units|C. 4 units|D. 7 units",
+          ]),
+          correctAnswer: "A,A,C,B,C",
+          points: 5,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: `Choose the correct answer for each question.
+
+Question 6:
+Which shape has all four sides equal? (Hint: A square has 4 equal sides. A rectangle has opposite sides equal, but not all four sides equal.)
+
+Question 7:
+A rectangle has one side that is 10 cm long. The opposite side is also 10 cm long. Another side is 4 cm long. How long is the side opposite to the 4 cm side? (Hint: Opposite sides of a rectangle are equal. If one side is 4 cm, the opposite side is also 4 cm.)
+
+Question 8:
+Both a rectangle and a square have four right angles. How many degrees is a right angle? (Hint: A right angle is exactly 90°. Both shapes have 4 right angles = 90°.)
+
+Question 9:
+A square has one side that is 9 cm long. How long is each of the other three sides? (Hint: A square has 4 equal sides. If one side is 9 cm, then all four sides are 9 cm.)
+
+Question 10:
+On a square grid, Priya draws a rectangle with a long side of 5 units and a short side of 2 units. How many sides does the rectangle have that are 5 units long? (Hint: A rectangle has two long sides and two short sides. The two long sides are opposite to each other and are both 5 units.)
+
+Question 11:
+Jun Wei says "A rectangle always has four right angles and opposite sides parallel." Is this correct? (Hint: Yes. A rectangle has 4 right angles = 90°. The opposite sides are parallel to each other.)
+
+Question 12:
+Which shape has 4 right angles and 4 equal sides? (Hint: A square has 4 right angles and 4 equal sides. A rectangle has 4 right angles but only opposite sides are equal, not all four sides equal.)
+
+Question 13:
+On a square grid, you draw a square with each side 3 units long. How many units long is the opposite side? (Hint: A square has 4 equal sides. If one side is 3 units, then the opposite side is also 3 units. In fact, all four sides are 3 units.)`,
+          options: JSON.stringify([
+            "Which shape: all four sides equal?|A. Rectangle|B. Square|C. Both|D. Neither",
+            "Rectangle: one side 10 cm, opposite 10 cm. Another side 4 cm. Opposite to 4 cm?|A. 2 cm|B. 4 cm|C. 6 cm|D. 10 cm",
+            "Rectangle and square: how many degrees is a right angle?|A. 45°|B. 60°|C. 90°|D. 180°",
+            "Square: one side 9 cm. Other three sides?|A. 3 cm each|B. 9 cm each|C. 12 cm each|D. Different lengths",
+            "Rectangle: long side 5 units, short side 2 units. How many 5-unit sides?|A. 1|B. 2|C. 3|D. 4",
+            "Rectangle: 4 right angles and opposite sides parallel?|A. Yes|B. No|C. Only sometimes|D. Cannot tell",
+            "Which: 4 right angles and 4 equal sides?|A. Rectangle|B. Square|C. Both|D. Neither",
+            "Square: side 3 units. Opposite side?|A. 1.5 units|B. 3 units|C. 6 units|D. 9 units",
+          ]),
+          correctAnswer: "B,B,C,B,B,A,B,B",
+          points: 8,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `At Tampines Primary School, the students are learning about rectangles and squares.
+
+(a) Mei draws a rectangle. The rectangle has four corners. Each corner is a right angle. How many right angles does Mei's rectangle have? Show your working by stating the property: A rectangle has 4 right angles. Each corner is a right angle = 90°. So Mei's rectangle has 4 right angles.
+
+(b) Jun Wei draws a square. Each side of the square is 7 cm long. How long are all four sides? Show your working: A square has 4 equal sides. If each side is 7 cm, then all four sides are 7 cm. Check: The property of a square is that all four sides are equal. 7 cm = 7 cm = 7 cm = 7 cm. Correct.
+
+(c) Priya draws a rectangle on a square grid. The long side is 6 units. The short side is 4 units. How many sides are 6 units long? How many sides are 4 units long? Show your working: A rectangle has opposite sides equal. The two long sides are opposite to each other, so both long sides are 6 units. The two short sides are opposite to each other, so both short sides are 4 units. So 2 sides are 6 units long, and 2 sides are 4 units long. Check: 6 + 4 + 6 + 4 = 20 units (perimeter). Both a rectangle and a square have 4 right angles = 90°.
+
+写出说明、算式和答案。Show working step by step. For rectangles and squares, state the properties (e.g., "A rectangle has 4 right angles = 90° and opposite sides equal", "A square has 4 right angles = 90° and 4 equal sides"). For drawing on a grid, describe the dimensions (e.g., "long side 6 units, short side 4 units"). Explain common errors (e.g., thinking a rectangle has all sides equal instead of only opposite sides equal, forgetting that both rectangle and square have four right angles = 90°, using diagonal properties which are excluded from P4 2.1-2.2).`,
+          points: 10,
+        },
+      ],
+    },
     
     // A2 WEEKS
     {
