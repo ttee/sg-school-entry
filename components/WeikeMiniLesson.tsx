@@ -234,6 +234,14 @@ export default function WeikeMiniLesson({ level, weekNumber }: WeikeMiniLessonPr
       ],
       gloss: "P4 学饼图（pie charts）：reading and interpreting data from pie charts。关键技能：识别哪一块最大/最小（which slice is the largest / smallest by comparing fractions），理解每一块是整体的几分之几（each slice is a fraction of the whole），用分数乘总数求人数（calculate the number by multiplying the total by the fraction: divide by denominator first, then multiply by numerator，如 1/2 of 40 = 40 ÷ 2 = 20，2/5 of 60 = 60 ÷ 5 × 2 = 12 × 2 = 24），验证所有分数块之和是 1（check that all fractions add up to 1: 如 1/2 + 1/4 + 1/8 + 1/8 = 4/8 + 2/8 + 1/8 + 1/8 = 8/8 = 1 ✓）。常见错误：把最大块当作全部（treating the largest slice as the whole instead of a part: 如果 Football 是 1/2，不是说 Football = 40，而是 Football = 40 ÷ 2 = 20）、分数块加起来不是 1（fractions do not sum to 1: 必须检查）、先乘分子再除分母（incorrect order: should divide by denominator first: 40 ÷ 2, not 40 × 1 ÷ 2）、比较分数时不通分（not converting to common denominator when comparing unlike fractions: 如 1/3 vs 1/4，convert to 4/12 vs 3/12，所以 1/3 > 1/4）。关键词：pie chart（饼图）、slice（一块）、fraction of the whole（整体的几分之几）、largest slice（最大块）、smallest slice（最小块）、of（的，用于分数乘法，如 1/2 of 40）、divide by denominator（除以分母）、multiply by numerator（乘以分子）。本周只用分数（fractions: 1/2, 1/4, 1/8, 1/5, 3/8 等），不用百分数（percentages）。本周不教：百分数（percentages，P5）、平均数/均值（mean / average）、360° 扇形角度计算（sector angles in degrees，除非用简单分数 1/4 = 90°，但重点是分数 of a set）。"
     },
+    "MATH-26": {
+      examples: [
+        "Quarter turn = 1/4 of 360° = 360° ÷ 4 = 90° = right angle.",
+        "∠ABC is named at B. The middle letter B is the vertex (where the two lines meet).",
+        "Acute < 90°. Right = 90°. Obtuse between 90° and 180°. 35° is acute, 90° is right, 120° is obtuse."
+      ],
+      gloss: "P4 学角（angles）：角的名称（∠ABC 中间字母 B 是顶点 vertex）、度数（degrees）、quarter turn = 90°（1/4 圈 = 90°）、half turn = 180°（1/2 圈 = 180°）、complete turn = 360°（一整圈 = 360°）、比较角度大小（comparing angles: 75° < 90°）、锐角 acute < 90°、直角 right = 90°、钝角 obtuse between 90° and 180°。常见错误：把 quarter turn 当 45°（thinking quarter turn is 45° instead of 90°）、锐角钝角混淆（confusing acute and obtuse: acute < 90°, obtuse > 90° but < 180°）、∠ABC 时把 A 或 C 当顶点（vertex should be the middle letter B, not A or C）、把 half turn 当 90°（thinking half turn is 90° instead of 180°）。关键词：angle（角）、vertex（顶点）、degrees（度数）、quarter turn（1/4 圈）、half turn（1/2 圈）、complete turn（一整圈）、acute angle（锐角）、right angle（直角）、obtuse angle（钝角）。本周不教：triangle angle sum（三角形内角和，不在 P4 Angles 1.1–1.3 官方列表中）、reflex angle（优角）、angles on a straight line（平角的性质）。长方形和正方形都有四个 right angles = 90°。"
+    },
     "A2-7": {
       fossil: "I going to the library tomorrow / I go to swim / Tomorrow I go library",
       examples: [

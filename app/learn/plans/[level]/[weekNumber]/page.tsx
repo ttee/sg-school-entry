@@ -2302,6 +2302,54 @@ const lessonPlans: Record<string, LessonPlan> = {
       "60 students. Pie: Water 2/5, Juice 1/5, Milk 1/5, Milo 1/5. How many bought water? (Say the calculation.)",
     ],
   },
+  "MATH-26": {
+    title: "角 — Angles",
+    mathExample: "Quarter turn = 1/4 of 360° = 360° ÷ 4 = 90° = right angle. ∠ABC is named at B. The middle letter B is the vertex. Acute < 90°. Right = 90°. Obtuse between 90° and 180°. 35° is acute, 90° is right, 120° is obtuse.",
+    sections: [
+      {
+        name: "热身",
+        duration: "3 分钟",
+        teacherNotes: "问孩子：'If you turn a quarter of the way around (1/4 turn), how many degrees is that?' 引导：A complete turn is 360°. A quarter turn is 1/4 of 360°. So quarter turn = 360° ÷ 4 = 90°. 让孩子注意：quarter turn = 90° = right angle（直角）。也可以问：'What is a right angle?' 答案：A right angle is exactly 90°. 让孩子想想哪里见过直角：rectangle corners（长方形的角）、square corners（正方形的角）、book corners（书本的角）。",
+      },
+      {
+        name: "本周例题",
+        duration: "8 分钟",
+        teacherNotes: "在白板上写：'Quarter turn = 1/4 of 360° = 360° ÷ 4 = 90°.' 画简单示意图：一个圆圈，标出 1/4 圈 = 90°，1/2 圈 = 180°，一整圈 = 360°。问孩子：'What is a half turn?' 引导：half turn = 1/2 of 360° = 360° ÷ 2 = 180°. 再讲角的名称：写 ∠ABC，问孩子：'Which letter is the vertex (the point where the two lines meet)?' 引导：The middle letter B is the vertex. The two lines are BA and BC, and they meet at B. 讲角的类型：acute angle < 90°（锐角 < 90°），right angle = 90°（直角 = 90°），obtuse angle between 90° and 180°（钝角在 90° 和 180° 之间）。例：35° < 90° → acute，90° = 90° → right，120° > 90° and < 180° → obtuse. 强调：长方形和正方形都有四个直角 = 90°（rectangles and squares have four right angles = 90°）。关键词：angle（角）、vertex（顶点）、degrees（度数）、quarter turn（1/4 圈）、half turn（1/2 圈）、complete turn（一整圈）、acute angle（锐角）、right angle（直角）、obtuse angle（钝角）。本周不教：triangle angle sum（三角形内角和）、reflex angle（优角）、angles on a straight line（平角的性质）。",
+      },
+      {
+        name: "孩子口头说算式",
+        duration: "10 分钟",
+        teacherNotes: "给 3 个口头题，孩子说出定义和计算。题目 1：'A quarter turn is how many degrees? Calculate: one quarter of three hundred sixty degrees.' 期待输出：'A complete turn is three hundred sixty degrees. A quarter turn is one quarter of three hundred sixty degrees. Three hundred sixty divided by four equals ninety degrees. So a quarter turn is ninety degrees. Ninety degrees is a right angle.' 题目 2：'Look at angle ABC. The middle letter is B. What is the vertex?' 期待输出：'The vertex is the point where the two lines meet. In angle ABC, the middle letter is B. So the vertex is at B. The two lines are BA and BC.' 题目 3：'Which is acute: sixty degrees or one hundred twenty degrees? Which is obtuse?' 期待输出：'Acute angle is less than ninety degrees. Sixty degrees is less than ninety degrees, so sixty degrees is acute. Obtuse angle is more than ninety degrees but less than one hundred eighty degrees. One hundred twenty degrees is more than ninety degrees and less than one hundred eighty degrees, so one hundred twenty degrees is obtuse.' 纠正常见错误：把 quarter turn 当 45°（应该是 90°）、把 ∠ABC 的顶点当成 A 或 C（应该是中间字母 B）、锐角钝角混淆（acute < 90°, obtuse > 90°）。",
+      },
+      {
+        name: "开口",
+        duration: "12 分钟",
+        teacherNotes: "让孩子读出角的信息并说出类型和计算。比如 'If you turn a half turn, how many degrees is that?'，孩子要说 'A half turn is one half of a complete turn. A complete turn is three hundred sixty degrees. One half of three hundred sixty degrees equals three hundred sixty divided by two equals one hundred eighty degrees. So a half turn is one hundred eighty degrees. One hundred eighty degrees is a straight angle.' 或 'Look at angle XYZ. The letters are X, Y, and Z. Which letter is the vertex?'，孩子要说 'In angle XYZ, the middle letter is Y. The vertex is always the middle letter. So the vertex is at Y. The two lines forming the angle are YX and YZ. They meet at Y.' 或 'Angle a equals eighty degrees. Is this angle acute, right, or obtuse?'，孩子要说 'Acute angle is less than ninety degrees. Eighty degrees is less than ninety degrees. So angle a is acute.' 或 'A rectangle has four corners. Each corner is a right angle. How many degrees is each corner?'，孩子要说 'A right angle is exactly ninety degrees. Each corner of a rectangle is a right angle. So each corner is ninety degrees.' 提醒孩子：quarter turn = 90°（1/4 圈 = 90°），half turn = 180°（1/2 圈 = 180°），complete turn = 360°（一整圈 = 360°），acute < 90°（锐角 < 90°），right = 90°（直角 = 90°），obtuse between 90° and 180°（钝角在 90° 和 180° 之间），vertex is the middle letter in ∠ABC（顶点是中间字母 B）。",
+      },
+      {
+        name: "收口",
+        duration: "5 分钟",
+        teacherNotes: "提醒本周作业有 P4 数学题目，包括角的名称（using notation ∠ABC, middle letter is vertex）、度数（measuring angles in degrees）、quarter turn = 90°、half turn = 180°、complete turn = 360°、比较角度大小（comparing two given degree measures）、识别锐角直角钝角（identifying acute < 90°, right = 90°, obtuse between 90° and 180°）。对应申请 P5 的孩子需要掌握的 P4 内容（preceding level 规则，Geometry → Angles 1.1–1.3）。题目使用新加坡学校情境（Tampines Primary School, Jun Wei, Mei, Priya 等）。本周不教：triangle angle sum（三角形内角和，不在 P4 Angles 1.1–1.3 官方列表中）、reflex angle（优角）、angles on a straight line add up to 180°（平角的性质，P5）、protractor construction that needs a diagram（需要图示的量角器使用）。常见错误：把 quarter turn 当 45°（应该是 90°）、锐角钝角混淆（acute < 90°, obtuse > 90° but < 180°）、∠ABC 时把 A 或 C 当顶点（应该是中间字母 B）、把 half turn 当 90°（应该是 180°）。长方形和正方形都有四个 right angles = 90°。",
+      },
+    ],
+    spokenLines: [
+      "Quarter turn = 1/4 of 360° = 360° ÷ 4 = 90° = right angle.",
+      "Half turn = 1/2 of 360° = 360° ÷ 2 = 180° = straight angle.",
+      "Complete turn = 360°.",
+      "∠ABC. Middle letter B is the vertex.",
+      "Vertex is where the two lines meet.",
+      "Acute angle < 90°. 35° is acute.",
+      "Right angle = 90°. 90° is right.",
+      "Obtuse angle between 90° and 180°. 120° is obtuse.",
+      "Rectangle has four right angles. Each corner = 90°.",
+      "Compare: 75° < 90°, so 75° is smaller.",
+    ],
+    childPrompts: [
+      "If you turn 1/4 of the way around, how many degrees? (Say the calculation.)",
+      "∠ABC. Which letter is the vertex? (Say the definition.)",
+      "Angle a = 80°. Is this acute, right, or obtuse? (Say the definition and compare.)",
+    ],
+  },
 };
 
 export default async function LessonPlanPage({
