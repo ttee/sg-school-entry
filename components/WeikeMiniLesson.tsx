@@ -377,6 +377,17 @@ export default function WeikeMiniLesson({ level, weekNumber }: WeikeMiniLessonPr
       ],
       gloss: "AEIS 中学数学第 11 周 / SMATH Week 11. 本周例题：Sec 1 负数、整数、有理数、实数及其四则运算（Sec 1 NUMBER AND ALGEBRA: N1.3 negative numbers, integers, rational numbers, real numbers and their four operations）。加减法：3 + (−5) = −2（加负数等于减正数），−4 − (−6) = 2（减负数等于加正数）。乘除法：(−3) × (−4) = 12（负负得正），(−12) ÷ 4 = −3（负正得负）。区分 (−3)² = 9（括号内先负后平方）和 −3² = −9（先平方后负）。简单分数：−2/3 + 1/6 = −1/2。不用计算器，写出算式步骤。"
     },
+    "SMATH-12": {
+      examples: [
+        "Arrange −5, −1, 0, 2 from smallest to largest.",
+        "On a number line, numbers increase from left to right.",
+        "−5 is furthest left, then −1, then 0, then 2.",
+        "Answer: −5, −1, 0, 2",
+        "Which is smaller, −8 or −3?",
+        "−8 is to the left of −3 on the number line, so −8 is smaller than −3."
+      ],
+      gloss: "AEIS 中学数学第 12 周 / SMATH Week 12. 本周例题：Sec 1 数轴上的数的表示和排序（Sec 1 NUMBER AND ALGEBRA: N1.5 representation and ordering of numbers on the number line）。数轴 number line：0 右边是正数，0 左边是负数。从左到右 = 从小到大（left to right = smallest to largest）。越靠左越小（further left = smaller）。负数比较：−8 在 −3 左边，所以 −8 小于 −3（common fossil: 以为 −8 > −3 因为 8 > 3，错！正确是 −8 < −3）。排序：−5, −1, 0, 2 从小到大（按数轴从左到右顺序）。简单分数：−1/2 在 −1 和 0 中间，3/2 在 1 和 2 中间。应用：温度（−8°C 比 −3°C 更冷）、楼层（地下 = 负数）。不用计算器。"
+    },
     "SEC-0": {
       fossil: "Although I was nervous, but I tried. ✗ (中文「虽然…但是…」迁移) / I go yesterday ✗ (叙事体过去时掉落)",
       examples: [

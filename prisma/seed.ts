@@ -7879,6 +7879,96 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
         },
       ],
     },
+    {
+      level: "SMATH",
+      weekNumber: 12,
+      title: "数学 第 12 周 / Maths Week 12",
+      description: "AEIS-Secondary Mathematics: Sec 1 representation and ordering of numbers on the number line",
+      isSample: false,
+      errorFocus: "placing a negative on the positive side / thinking −8 > −3 because 8 > 3",
+      parentBrief: "本周是中学 AEIS 数学第 12 周，对应官方 SEAB Sec 1 卷型（https://www.seab.gov.sg/aeis/test-details/ 2026年7月1日更新）。Part 1 Multiple-choice questions：34 道 MCQ，30 分钟。Part 2 Short-answer questions (20 items) and open-ended questions (10 to 15 items)：1 小时 45 分钟。Calculators are not allowed（不允许使用计算器）。Short-answer and open-ended questions：candidates are required to show the method of solution clearly by writing working steps in the spaces provided, plus the final answer（需写出算式步骤和最终答案）。AEIS-Secondary 官方 preceding-level 规则：申请 Sec 2 入学者需熟悉 Sec 2 前一级的内容。官方举例：apply Secondary 3 → be familiar with Secondary 2 content. 本周针对 Sec 2 申请者，内容为 Sec 2 前一级（Sec 1）的官方 MOE 2020 G3 Mathematics Syllabuses, Secondary One, NUMBER AND ALGEBRA, N1. Numbers and their operations: 1.5 representation and ordering of numbers on the number line（数轴上的数的表示和排序）。本周作业是样本，不是完整 34 + 20 + 10–15 题。第 8–11 周已教 1.1 质数分解、1.2 HCF/LCM/平方立方和根、1.3 负数四则，跳过 1.4 计算器运算（AEIS 禁用计算器），本周是 1.5 数轴，下一周教 1.6 不等号。本周可以说「further left = smaller」或「−8 is smaller than −3」，但不把不等号符号（<, >, ≤, ≥）作为本周主要教学目标（不等号是下一周的内容）。本周化石：placing a negative on the positive side（把负数标在正数一侧，例如把 −2 标在 0 右边）、thinking a more-negative number is larger because its absolute value is larger（以为更负的数更大，例如以为 −8 > −3 因为 8 > 3）。记住：数轴上越靠左的数越小（further left = smaller）。本周内容：数轴 number line（0 右边是正数 positive numbers，0 左边是负数 negative numbers）。表示 representation：在数轴上标出整数（如 −3, 0, 2）和简单有理数（如 −1/2 在 −1 和 0 中间，3/2 在 1 和 2 中间，−2.5 在 −3 和 −2 中间）。排序 ordering：从左到右 = 从小到大（left to right = smallest to largest）。越靠左越小（further left = smaller）。负数比较：−8 在 −3 左边，所以 −8 小于 −3（注意：不是 −8 > −3）。两数之间 between：例如 −3 和 1 之间可以是 −2, −1, 0（这些数在数轴上都在 −3 右边且在 1 左边）。不用计算器（calculators are not allowed）。应用：温度读数（−8°C 比 −3°C 更冷，因为 −8 < −3），楼层标记（地下楼层用负数，地面 ground level = 0，地上楼层用正数），账户余额（负数 = 欠款）。金额用新加坡元 S$（如涉及钱币）。题目选项必须唯一（unique keys only）：不能有两个选项是相同排序或相同点。如果正确排序是 −5, −1, 0, 2，则不能再提供另一个等价的排序作为选项。−8 > −3 这个化石误区应作为错误选项（wrong option），不是第二个正确答案。非官方机构运营（affiliation 非官方机构 is OK）。不发明官方未提及的内容（do not invent official facts）。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "Which point is furthest left among −2, 0, 3, −5?|A. −5|B. −2|C. 0|D. 3",
+            "Arrange −4, 1, −1, 0 from smallest to largest.|A. −4, −1, 0, 1|B. −4, −1, 1, 0|C. 0, −1, −4, 1|D. 1, 0, −1, −4",
+            "Where is −1/2 on the number line?|A. To the right of 0|B. Between 0 and 1|C. Between −1 and 0|D. To the left of −1",
+            "Which number lies between −3 and 1?|A. −5|B. −2|C. 2|D. 3",
+            "Which is smaller, −8 or −3?|A. −8|B. −3|C. They are equal|D. Cannot be determined",
+          ]),
+          correctAnswer: "A,A,C,B,A",
+          points: 10,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "Arrange −6, 2, −1, 0 from smallest to largest.|A. −6, −1, 0, 2|B. −6, 0, −1, 2|C. 2, 0, −1, −6|D. −1, −6, 0, 2",
+            "Which number is furthest right on the number line?|A. −10|B. −3|C. 0|D. 5",
+            "Which is larger, −5 or −9?|A. −9|B. −5|C. They are equal|D. Cannot be determined",
+            "Where is 3/2 on the number line?|A. Between 0 and 1|B. Between 1 and 2|C. Between 2 and 3|D. To the left of 0",
+            "Which number lies between −2 and 0?|A. −3|B. −1|C. 1|D. 2",
+            "Where is −2.5 on the number line?|A. Between −2 and −1|B. Between −3 and −2|C. Between −4 and −3|D. To the right of 0",
+            "Arrange 4, −7, 0, −2 from largest to smallest.|A. 4, 0, −2, −7|B. −7, −2, 0, 4|C. 4, −2, 0, −7|D. −2, −7, 4, 0",
+            "Wei is at floor −4 (basement). Aisha is at floor 3 (classroom). Mr Lim is at floor 0 (ground). Which floor is NOT on the positive side?|A. Floor 3 only|B. Floor 0 and floor −4|C. Floor −4 only|D. All three floors",
+          ]),
+          correctAnswer: "A,D,B,B,B,B,A,B",
+          points: 16,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `Part 2: Show Your Working (写出算式步骤)
+
+Riverside Secondary School has number line problems. Answer the questions below. Show all your working clearly.
+
+Question (a)
+Arrange −7, 3, −2, 0 from smallest to largest. Explain using the number line.
+
+Question (b)
+Mark the position of −3/2 on the number line. Describe where it lies.
+
+Question (c)
+On Monday the temperature was −8°C. On Tuesday it was −3°C. On Wednesday it was 0°C. Arrange the temperatures from coldest to warmest. Show your working.
+
+写作提示 / Tips:
+✓ 每题分步骤写出推理 (Show working steps for each question)
+✓ Part 2 官方要求：clearly show the method of solution by writing working steps, plus the final answer
+✓ 不用计算器 (No calculators allowed)
+✓ 数轴排序步骤示范：
+  • 排序 (ordering)：
+    Arrange −5, 2, −1, 0 from smallest to largest.
+    Solution: On a number line, numbers increase from left to right. −5 is furthest left, then −1, then 0, then 2.
+    Answer: −5, −1, 0, 2
+  • 标点 (marking position)：
+    Where is −1/2 on the number line?
+    Solution: −1/2 is negative, so it is to the left of 0. −1/2 is halfway between −1 and 0.
+    Answer: −1/2 lies between −1 and 0 on the negative side.
+  • 比较大小 (comparing)：
+    Which is smaller, −8 or −3?
+    Solution: On a number line, −8 is to the left of −3. Further left = smaller.
+    Answer: −8 is smaller than −3.
+✓ 应用题 (word problems)：
+  • 温度 temperature: −8°C, −3°C, 0°C 从冷到暖（coldest to warmest）= 从小到大（smallest to largest）= 从左到右（left to right on the number line）。−8°C 比 −3°C 更冷，因为 −8 在 −3 左边（−8 is to the left of −3, so −8 < −3, so −8°C is colder）。
+  • 楼层 floors: 地下楼层用负数（basement floors = negative numbers，如 floor −3），地面 ground level = 0，地上楼层用正数（above ground = positive numbers，如 floor 5）。从低到高 = 从小到大 = 从左到右（lowest to highest = smallest to largest = left to right）。
+  • 账户余额 account balance: 负数 = 欠款（negative = debt）。−S$50 比 −S$20 更小（−S$50 < −S$20，因为 −50 在 −20 左边）。
+✓ 金额用新加坡元 S$ (money in Singapore dollars S$)
+✓ 分数标点：−1/2 在 −1 和 0 中间（between −1 and 0），3/2 在 1 和 2 中间（between 1 and 2），−3/2 在 −2 和 −1 中间（between −2 and −1）
+✓ 小数标点：−2.5 在 −3 和 −2 中间（between −3 and −2）
+✓ 关键规则：越靠左越小（further left = smaller），从左到右 = 从小到大（left to right = smallest to largest）
+✓ 负数比较：−8 在 −3 左边，所以 −8 < −3（−8 is to the left of −3, so −8 is smaller than −3）。记住：不是 −8 > −3（this is the common fossil: thinking −8 > −3 because 8 > 3）
+
+Note: This is a sample of Part 2 short-answer/open-ended questions. The official paper has 20 short-answer + 10–15 open-ended items in 1 hour 45 minutes.`,
+          points: 20,
+        },
+      ],
+    },
   ];
 
   // =================================================================
