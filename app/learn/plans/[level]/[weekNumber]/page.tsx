@@ -3250,6 +3250,43 @@ const lessonPlans: Record<string, LessonPlan> = {
     ],
     speakingPrompts: null,
   },
+  "SMATH-8": {
+    title: "质数与质数分解 — Primes and Prime Factorisation",
+    fossil: "treating 1 as a prime / writing a factorisation that still has a composite (e.g. 2 × 15 instead of 2 × 3 × 5)",
+    sections: [
+      {
+        name: "课前",
+        duration: "2 分钟",
+        teacherNotes: "确认 Zoom 设置正常。孩子和家长都在镜头前。对家长说：「今天教中学 AEIS 数学第 8 周，质数与质数分解（primes and prime factorisation）。本周是 Sec 1 数学卷型样本，内容对应前一级 Sec 1 NUMBER AND ALGEBRA, N1. Numbers and their operations: 1.1 primes and prime factorisation。官方 MOE 2020 G3 Mathematics Syllabuses, Secondary One, NUMBER AND ALGEBRA。SEAB 官方规则：申请 Sec 2 入学的孩子需熟悉 Sec 2 前一级（Sec 1）的内容。不用计算器，要写出分解步骤。」",
+      },
+      {
+        name: "热身",
+        duration: "5 分钟",
+        teacherNotes: "问孩子：'Do you know what a prime number is?' 等孩子回答。然后说：'A prime number is a whole number greater than 1 that has exactly two factors: 1 and itself. For example, 2, 3, 5, 7, 11, 13 are prime numbers. 2 is the only even prime number.' 在白板上写质数列表：2, 3, 5, 7, 11, 13, 17, 19, 23, 29, ...。强调：'1 is NOT a prime number. 1 is neither prime nor composite.' 再说：'A composite number is a whole number greater than 1 that has more than two factors. For example, 4, 6, 8, 9, 10, 12 are composite numbers.' 举例：'4 has factors 1, 2, 4 (three factors), so 4 is composite. 6 has factors 1, 2, 3, 6 (four factors), so 6 is composite.'",
+      },
+      {
+        name: "化石",
+        duration: "8 分钟",
+        teacherNotes: "在屏幕上或白板上写下常见混淆：'Fossil 1: Treating 1 as a prime. ✗ 1 is NOT a prime number. A prime must have exactly two factors: 1 and itself. 1 has only one factor (itself), so it is neither prime nor composite.' 再写：'Fossil 2: Writing a factorisation that still has a composite. ✗ For example, 30 = 2 × 15 is NOT complete prime factorisation, because 15 is still composite (15 = 3 × 5). The correct prime factorisation is 30 = 2 × 3 × 5. All factors must be prime.' 举例：'Express 24 as a product of its prime factors. ✗ Wrong: 24 = 3 × 8 (8 is composite). ✗ Wrong: 24 = 4 × 6 (both composite). ✓ Correct: 24 = 2 × 2 × 2 × 3 (all prime).' 再举例：'Is 1 a prime number? ✗ No. 1 is neither prime nor composite. Prime numbers start from 2.'",
+      },
+      {
+        name: "例题",
+        duration: "10 分钟",
+        teacherNotes: "教师示范一道完整例题（写出分解步骤）。例题 1：Find the prime factorisation of 60. 步骤：① Start with the smallest prime 2. 60 ÷ 2 = 30. So 60 = 2 × 30. ② 30 is still composite. 30 ÷ 2 = 15. So 60 = 2 × 2 × 15. ③ 15 is still composite. 15 ÷ 3 = 5. So 60 = 2 × 2 × 3 × 5. ④ All factors are now prime (2, 2, 3, 5). Answer: 60 = 2 × 2 × 3 × 5. 再做一道：Express 72 as a product of its prime factors. 步骤：① 72 ÷ 2 = 36. So 72 = 2 × 36. ② 36 ÷ 2 = 18. So 72 = 2 × 2 × 18. ③ 18 ÷ 2 = 9. So 72 = 2 × 2 × 2 × 9. ④ 9 ÷ 3 = 3. So 72 = 2 × 2 × 2 × 3 × 3. ⑤ All factors are prime. Answer: 72 = 2 × 2 × 2 × 3 × 3. 再做一道识别题：Which of the following is a prime number: 1, 9, 13, 15? 步骤：① 1 is not prime (neither prime nor composite). ② 9 = 3 × 3 (composite). ③ 13 has only factors 1 and 13 (prime). ④ 15 = 3 × 5 (composite). Answer: 13. 孩子在纸上抄一遍例题步骤。",
+      },
+      {
+        name: "练习",
+        duration: "12 分钟",
+        teacherNotes: "给孩子 3 道练习题，让孩子独立做，写出分解步骤。家长可以用手机拍照孩子的推理。题 1：Express 45 as a product of its prime factors. 答案：45 ÷ 3 = 15. So 45 = 3 × 15. 15 ÷ 3 = 5. So 45 = 3 × 3 × 5. All factors are prime. Answer: 45 = 3 × 3 × 5. 题 2：List all the prime numbers between 10 and 20. 答案：Check each number: 11 (prime), 12 = 2 × 6 (composite), 13 (prime), 14 = 2 × 7 (composite), 15 = 3 × 5 (composite), 16 = 2 × 8 (composite), 17 (prime), 18 = 2 × 9 (composite), 19 (prime). Answer: 11, 13, 17, 19. 题 3：A number has the prime factorisation 2 × 3 × 5. What is the number? 答案：2 × 3 = 6. 6 × 5 = 30. Answer: 30. 教师巡看孩子的推理，纠正格式（如果孩子只写答案不写步骤，提醒 'AEIS 官方要求写出 working steps'）。如果孩子写 2 × 15，提醒 '15 is still composite. You must continue: 15 = 3 × 5. So the answer is 2 × 3 × 5.' 如果孩子把 1 当成质数，提醒 '1 is NOT a prime number. 1 is neither prime nor composite.'",
+      },
+      {
+        name: "收口",
+        duration: "3 分钟",
+        teacherNotes: "总结本周重点：(1) 官方 Sec 1 AEIS 数学卷型：Part 1 MCQ 34 题 30 分钟 + Part 2 show working 20+10–15 题 1 小时 45 分钟，不用计算器。(2) 本周内容：Sec 1 NUMBER AND ALGEBRA, N1. Numbers and their operations: 1.1 primes and prime factorisation，对应 preceding level 规则。(3) 本周化石：treating 1 as a prime（把 1 当成质数，实际上 1 既不是质数也不是合数）、writing a factorisation that still has a composite（质数分解还有合数，例如写 2 × 15 而不是 2 × 3 × 5）。(4) 质数定义：a whole number greater than 1 that has exactly two factors: 1 and itself（大于 1 且只有两个因数的整数）。例子：2, 3, 5, 7, 11, 13, ...（2 是唯一的偶质数）。1 不是质数（1 is neither prime nor composite）。(5) 质数分解方法：从最小的质数 2 开始除，每次除后检查商是否还能继续分解，直到所有因数都是质数。例如 60 = 2 × 2 × 3 × 5。对家长说：「本周作业有 5+8+3 道题，模拟官方题型，不是完整 34+20+10–15 题。孩子做完后上传到作业 app，选择题自动批改，写推理题家长拍照上传。」",
+      },
+    ],
+    speakingPrompts: null,
+  },
 };
 
 export default async function LessonPlanPage({

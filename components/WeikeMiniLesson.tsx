@@ -337,6 +337,15 @@ export default function WeikeMiniLesson({ level, weekNumber }: WeikeMiniLessonPr
       ],
       gloss: "AEIS 中学数学第 7 周 / SMATH Week 7. 本周例题：P6 几何 - 特殊四边形求未知角（P6 GEOMETRY: Special Quadrilaterals 1.1）。Finding unknown angles without additional construction of lines（不加辅助线求未知角）。平行四边形 parallelogram：adjacent angles add to 180°（邻角和 180°）。梯形 trapezium (SG)：the two angles between the same pair of parallel sides add to 180°（同一组平行边之间的两个角和 180°）。菱形 rhombus：adjacent angles add to 180°。正方形 square / 长方形 rectangle：all angles 90°。三角形 triangle：angles sum 180°。不用计算器，写出推理步骤。"
     },
+    "SMATH-8": {
+      examples: [
+        "Find the prime factorisation of 60.",
+        "60 = 2 × 30",
+        "60 = 2 × 2 × 15",
+        "60 = 2 × 2 × 3 × 5"
+      ],
+      gloss: "AEIS 中学数学第 8 周 / SMATH Week 8. 本周例题：Sec 1 质数与质数分解（Sec 1 NUMBER AND ALGEBRA: N1.1 primes and prime factorisation）。质数 prime：只能被 1 和它自己整除的大于 1 的整数（2, 3, 5, 7, 11, 13, ...）。1 不是质数（1 is not a prime）。质数分解 prime factorisation：把合数分解成质数相乘（60 = 2 × 2 × 3 × 5）。分解方法：从最小的质数开始除，直到全部都是质数。不用计算器，写出分解步骤。"
+    },
     "SEC-0": {
       fossil: "Although I was nervous, but I tried. ✗ (中文「虽然…但是…」迁移) / I go yesterday ✗ (叙事体过去时掉落)",
       examples: [
