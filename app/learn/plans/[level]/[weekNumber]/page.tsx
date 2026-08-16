@@ -2732,6 +2732,43 @@ const lessonPlans: Record<string, LessonPlan> = {
     ],
     speakingPrompts: null,
   },
+  "SMATH-5": {
+    title: "正方体和长方体体积 — Volume of Cube and Cuboid",
+    fossil: "volume vs edge / forgetting V = l × w × h",
+    sections: [
+      {
+        name: "课前",
+        duration: "2 分钟",
+        teacherNotes: "确认 Zoom 设置正常。孩子和家长都在镜头前。对家长说：「今天教中学 AEIS 数学第 5 周，正方体和长方体体积（volume of cube and cuboid）。本周是 Sec 1 数学卷型样本，内容对应前一级 P6 Volume of Cube and Cuboid 2.1–2.5。SEAB 官方规则：申请 Sec 1 入学的孩子需熟悉 Sec 1 前一级的内容。不用计算器，要写出算式步骤。本周不教 cm³ 和 m³ 之间的转换（官方明确排除），也不教球体/圆锥/圆柱。」",
+      },
+      {
+        name: "热身",
+        duration: "5 分钟",
+        teacherNotes: "问孩子：'Do you know the formula for the volume of a cube?' 等孩子回答。然后说：'Volume of a cube = edge³. That means edge × edge × edge. For example, if the edge is 4 cm, volume = 4³ = 4 × 4 × 4 = 64 cm³.' 在白板上写 V = edge³，计算 4³ = 4 × 4 × 4 = 64。再问：'What is the formula for the volume of a cuboid?' 等孩子说 'length × width × height.' 强调：'Volume of a cuboid = length × width × height. For example, if l = 10 cm, w = 4 cm, h = 3 cm, volume = 10 × 4 × 3 = 120 cm³.' 在白板上写 V = l × w × h，计算 10 × 4 × 3 = 120。",
+      },
+      {
+        name: "化石",
+        duration: "8 分钟",
+        teacherNotes: "在屏幕上或白板上写下常见混淆：'Volume vs edge: 64 cm³ is the volume, NOT the edge. The edge is 4 cm.' 解释：体积和边长是不同的东西，单位也不同（cm³ vs cm）。举例：'A cube has volume 64 cm³. What is the edge? Edge = ³√64 = 4 cm, because 4 × 4 × 4 = 64.' 再写：'Cuboid volume = length × width × height. Don't forget to multiply all three!' 让孩子跟读：'Volume of cube equals edge cubed. Volume of cuboid equals length times width times height. Volume uses cm³ or m³, edge uses cm or m.' 2 次。",
+      },
+      {
+        name: "例题",
+        duration: "10 分钟",
+        teacherNotes: "教师示范一道完整例题（写出算式步骤）。例题 1：A cube has volume 64 cm³. Find the length of one edge. 步骤：① Volume of cube = edge³. ② edge³ = 64. ③ edge = ³√64 = 4 cm (because 4 × 4 × 4 = 64). Answer: 4 cm. 强调：³√64 means cube root of 64, the number that gives 64 when multiplied by itself three times. 再做一道长方体：A cuboid has volume 120 cm³. The length is 10 cm and the width is 4 cm. Find the height. 步骤：① Volume = l × w × h. ② 120 = 10 × 4 × h. ③ 120 = 40 × h. ④ h = 120 ÷ 40 = 3 cm. Answer: 3 cm. 再做一道已知体积和底面积求高：A cuboid has volume 96 cm³ and base area 16 cm². Find the height. 步骤：① Volume = base area × height. ② 96 = 16 × h. ③ h = 96 ÷ 16 = 6 cm. Answer: 6 cm. 孩子在纸上抄一遍例题步骤。",
+      },
+      {
+        name: "练习",
+        duration: "12 分钟",
+        teacherNotes: "给孩子 3 道练习题，让孩子独立做，写出算式步骤。家长可以用手机拍照孩子的算式。题 1：A cube has edge 3 cm. Find the volume. 答案：V = edge³ = 3³ = 3 × 3 × 3 = 27 cm³. 题 2：A cuboid is 5 cm long, 4 cm wide, and 3 cm high. Find the volume. 答案：V = l × w × h = 5 × 4 × 3 = 60 cm³. 题 3：A cube has volume 125 cm³. Find the length of one edge. 答案：edge³ = 125, edge = ³√125 = 5 cm (because 5 × 5 × 5 = 125). 教师巡看孩子的算式，纠正格式（如果孩子只写答案不写步骤，提醒 'AEIS 官方要求写出 working steps'）。如果孩子把体积和边长混淆，提醒 'Volume uses cm³, edge uses cm'。",
+      },
+      {
+        name: "收口",
+        duration: "3 分钟",
+        teacherNotes: "总结本周重点：(1) 官方 Sec 1 AEIS 数学卷型：Part 1 MCQ 34 题 30 分钟 + Part 2 show working 20+10–15 题 1 小时 45 分钟，不用计算器。(2) 本周内容：P6 Volume of Cube and Cuboid 2.1 (finding one dimension of a cuboid given its volume and the other dimensions), 2.2 (finding the length of one edge of a cube given its volume), 2.3 (finding the height of a cuboid given its volume and base area), 2.4 (finding the area of a face of a cuboid given its volume and one dimension), 2.5 (use of √ and ³√ as needed)，对应 preceding level 规则。(3) 本周化石：体积和边长混淆（volume vs edge: 64 cm³ is the volume, 4 cm is the edge）、忘记长方体体积公式 V = l × w × h（要把三个边都乘起来）。(4) 单位：体积用 cm³ 或 m³，长度/边/高用 cm 或 m。官方大纲明确不教 cm³ 和 m³ 之间的转换。对家长说：「本周作业有 5+8+3 道题，模拟官方题型，不是完整 34+20+10–15 题。孩子做完后上传到作业 app，选择题自动批改，写算式题家长拍照上传。」",
+      },
+    ],
+    speakingPrompts: null,
+  },
 };
 
 export default async function LessonPlanPage({
