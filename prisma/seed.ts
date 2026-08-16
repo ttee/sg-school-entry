@@ -2026,6 +2026,103 @@ The canteen sold drinks each day: Monday 85, Tuesday 92, Wednesday 88, Thursday 
         },
       ],
     },
+    {
+      level: "MATH",
+      weekNumber: 25,
+      title: "数学 第 25 周 / Maths Week 25",
+      description: "AEIS-Primary P4 Mathematics: Pie charts",
+      isSample: false,
+      errorFocus: null,
+      parentBrief: "本周主题：读饼图（哪一块最大/最小、一块是总数的几分之几、已知总数求人数），对应官方 2021 P4 Statistics 1.2 pie charts（reading and interpreting data from pie charts）。申请 P5 入学的孩子需掌握 P4 内容（MOE AEIS 的 preceding level 规则）。关键技能：读饼图（pie chart）识别哪一块最大/最小（which slice is the largest / smallest）、理解每一块是整体的几分之几（each slice is a fraction of the whole）、用分数乘总数求人数（multiply the total by the fraction to find the number）、验证所有分数块之和是 1（check that all fractions add up to 1）。算法：1/2 of 40 = 40 ÷ 2 = 20（已知总数 40，一块是 1/2，求这块的人数 = 40 ÷ 2 = 20）。常见错误：把最大块当作全部（treating the largest slice as the whole）、分数块加起来不是 1（fractions do not sum to 1）、先乘分子再除分母（multiplying by numerator first instead of dividing by denominator first: should be 40 ÷ 2, not 40 × 1 ÷ 2）、混淆哪一块最大（identifying the wrong slice as largest because not comparing all fractions correctly）。题目配有双向对照表，显示对应官方 2021 Primary Mathematics Syllabus P4 Statistics 1.2 pie charts，以及申请 P5 → 掌握 P4 的规则。本周明确不教：百分数（percentages，P5）、平均数/均值（mean / average）、360° 扇形角度计算（sector angles in degrees，除非用简单分数 1/4 = 90°，但重点是分数 of a set）。本周只用分数（fractions: 1/2, 1/4, 1/8, 1/5, 3/8），不用百分数。每个饼图给出总数（e.g., 40 children），所有分数块之和必须是 1。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: `Read the information and choose the correct answer.
+
+Question 1:
+At Tampines Primary School, 40 children were asked about their favourite sport. The pie chart shows: Football 1/2, Swimming 1/4, Basketball 1/8, Running 1/8. Which sport is the most popular?
+
+Question 2:
+The pie chart shows how 48 students travel to school. Bus 1/2, Walk 1/4, Car 1/6, Cycle 1/12. How many students travel by bus? (Calculate: 1/2 of 48 means 48 ÷ 2.)
+
+Question 3:
+A class of 24 students chose their favourite fruit. The pie chart shows: Apple 1/3, Orange 1/4, Mango 1/6, Banana 1/4. Which fruit is the least popular?
+
+Question 4:
+The library recorded 80 books borrowed. The pie chart shows the types: Fiction 1/2, Non-fiction 1/4, Comics 1/8, Magazines 1/8. How many fiction books were borrowed? (Calculate: 1/2 of 80 = 80 ÷ 2.)
+
+Question 5:
+At the canteen, 60 students bought drinks. The pie chart shows: Water 2/5, Juice 1/5, Milk 1/5, Milo 1/5. How many students bought water? (Calculate: 2/5 of 60 = 60 ÷ 5 × 2.)`,
+          options: JSON.stringify([
+            "40 children. Pie: Football 1/2, Swimming 1/4, Basketball 1/8, Running 1/8. Most popular?|A. Football|B. Swimming|C. Basketball|D. Running",
+            "48 students. Pie: Bus 1/2, Walk 1/4, Car 1/6, Cycle 1/12. How many by bus?|A. 12|B. 18|C. 24|D. 30",
+            "24 students. Pie: Apple 1/3, Orange 1/4, Mango 1/6, Banana 1/4. Least popular?|A. Apple|B. Orange|C. Mango|D. Banana",
+            "80 books. Pie: Fiction 1/2, Non-fiction 1/4, Comics 1/8, Magazines 1/8. Fiction books?|A. 20|B. 30|C. 40|D. 50",
+            "60 students. Pie: Water 2/5, Juice 1/5, Milk 1/5, Milo 1/5. How many bought water?|A. 12|B. 18|C. 20|D. 24",
+          ]),
+          correctAnswer: "A,C,C,C,D",
+          points: 5,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: `Choose the correct answer for each question.
+
+Question 6:
+A survey of 50 students showed their favourite subjects. The pie chart shows: English 1/5, Maths 2/5, Science 1/5, Art 1/5. Which subject is the most popular?
+
+Question 7:
+At East Coast Park, 36 families were doing activities. The pie chart shows: Cycling 1/3, Jogging 1/6, Picnic 1/3, Swimming 1/6. How many families were cycling?
+
+Question 8:
+The canteen sold 72 meals. The pie chart shows: Rice 1/2, Noodles 1/4, Bread 1/8, Sandwich 1/8. Which two meal types had the same number sold?
+
+Question 9:
+A class of 30 students chose pets. The pie chart shows: Dog 1/2, Cat 1/5, Rabbit 1/10, Hamster 1/5. How many students chose dogs?
+
+Question 10:
+At the library, 45 children borrowed books. The pie chart shows: Storybooks 1/3, Comics 1/3, Science 1/6, Art 1/6. How many borrowed storybooks?
+
+Question 11:
+The school recorded 64 students in CCA. The pie chart shows: Sports 1/2, Music 1/4, Art 1/8, Drama 1/8. Which CCA had exactly 16 students? (Calculate: 1/4 of 64 = 64 ÷ 4 = 16.)
+
+Question 12:
+At Changi Airport, 100 passengers were from different countries. The pie chart shows: Singapore 1/2, Malaysia 1/5, China 1/10, India 1/5. How many passengers were from Singapore?
+
+Question 13:
+The pie chart shows 56 students' favourite games. Soccer 3/8, Basketball 1/4, Badminton 1/4, Tennis 1/8. How many students chose soccer? (Calculate: 3/8 of 56 = 56 ÷ 8 × 3.)`,
+          options: JSON.stringify([
+            "50 students. Pie: English 1/5, Maths 2/5, Science 1/5, Art 1/5. Most popular?|A. English|B. Maths|C. Science|D. Art",
+            "36 families. Pie: Cycling 1/3, Jogging 1/6, Picnic 1/3, Swimming 1/6. Cycling?|A. 6|B. 9|C. 12|D. 18",
+            "72 meals. Pie: Rice 1/2, Noodles 1/4, Bread 1/8, Sandwich 1/8. Same number?|A. Rice and Noodles|B. Noodles and Bread|C. Bread and Sandwich|D. Rice and Sandwich",
+            "30 students. Pie: Dog 1/2, Cat 1/5, Rabbit 1/10, Hamster 1/5. Dogs?|A. 6|B. 10|C. 15|D. 20",
+            "45 children. Pie: Storybooks 1/3, Comics 1/3, Science 1/6, Art 1/6. Storybooks?|A. 9|B. 10|C. 12|D. 15",
+            "64 students. Pie: Sports 1/2, Music 1/4, Art 1/8, Drama 1/8. Which CCA = 16?|A. Sports|B. Music|C. Art|D. Drama",
+            "100 passengers. Pie: Singapore 1/2, Malaysia 1/5, China 1/10, India 1/5. Singapore?|A. 20|B. 30|C. 40|D. 50",
+            "56 students. Pie: Soccer 3/8, Basketball 1/4, Badminton 1/4, Tennis 1/8. Soccer?|A. 14|B. 18|C. 21|D. 24",
+          ]),
+          correctAnswer: "B,C,C,C,D,B,D,C",
+          points: 8,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `At Marina Bay Primary School, the students recorded their activities.
+
+(a) A survey of 32 students asked about their favourite fruits. The pie chart shows: Apple 1/4, Orange 1/2, Mango 1/8, Banana 1/8. Which fruit is the most popular? Show your working by comparing the fractions: 1/4, 1/2, 1/8, 1/8. The largest fraction is 1/2. So Orange is the most popular.
+
+(b) The canteen sold 40 drinks. The pie chart shows: Water 1/2, Juice 1/4, Milk 1/8, Milo 1/8. How many students bought water? How many bought juice? Show your working: Water = 1/2 of 40 = 40 ÷ 2 = 20 students. Juice = 1/4 of 40 = 40 ÷ 4 = 10 students.
+
+(c) At Sports Day, 48 children signed up for events. The pie chart shows: Running 1/3, Swimming 1/6, Football 1/3, Basketball 1/6. How many children signed up for running? Show your working: Running = 1/3 of 48 = 48 ÷ 3 = 16 children. Check: All fractions must add to 1. Check: 1/3 + 1/6 + 1/3 + 1/6 = 2/6 + 1/6 + 2/6 + 1/6 = 6/6 = 1. Correct.
+
+写出算式、答案和说明。Show working step by step. For pie charts, write out the calculation (e.g., "1/2 of 40 = 40 ÷ 2 = 20"). Compare fractions to find the largest or smallest slice (e.g., "1/2 > 1/4 > 1/8, so the 1/2 slice is the largest"). Verify that all fractions add up to 1 (e.g., "1/2 + 1/4 + 1/8 + 1/8 = 4/8 + 2/8 + 1/8 + 1/8 = 8/8 = 1"). Explain common errors (e.g., treating the largest slice as the whole instead of a part of the whole, forgetting to divide by the denominator first, adding fractions incorrectly when checking the total).`,
+          points: 10,
+        },
+      ],
+    },
     
     // A2 WEEKS
     {
