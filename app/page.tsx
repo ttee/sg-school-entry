@@ -127,7 +127,7 @@ export default function HomePage() {
               小班直播课（最多 8 人）+ 每周作业 app。家长订阅，孩子登录做题。
             </p>
             <p className="text-sm text-accent mb-8 max-w-2xl">
-              新增：<strong>B1 Preliminary 第 11 周（过去完成时 past perfect）</strong>已上线；<strong>A2 Key 第 11 周（地点介词 in/on/at）</strong>已上线；<strong>AEIS 数学 试学周 + 第 1–5 周</strong>现已上线（Week 0 整数与钱币，Week 1 乘法与除法，Week 2 分数，Week 3 长度、质量、容积与时间，Week 4 平面图形规律与立体图形，Week 5 带单位的象形统计图，均对应 MOE P2 大纲），后续周次陆续更新。
+              新增：<strong>B1 Preliminary 第 11 周（过去完成时 past perfect）</strong>已上线；<strong>A2 Key 第 11 周（地点介词 in/on/at）</strong>已上线；<strong>AEIS 数学 试学周 + 第 1–5 周</strong>现已上线（Week 0 整数与钱币，Week 1 乘法与除法，Week 2 分数，Week 3 长度、质量、容积与时间，Week 4 平面图形规律与立体图形，Week 5 带单位的象形统计图，均对应 MOE P2 大纲）。
             </p>
             <div className="flex flex-wrap gap-3 mb-6">
               <Link
@@ -243,7 +243,7 @@ export default function HomePage() {
                 <span className="text-ink-2">/ 月</span>
               </div>
               <p className="text-sm text-ink-2 mb-4">
-                小班直播课（每周 2 次，每次 1.5 小时）+ 每周作业 app 解锁当前级别已上线周数（A2 试学周 + 第 1–11 周，B1 试学周 + 第 1–11 周，后续周次陆续更新）。包含 CEQ 备考四项技能：阅读、写作、听读准备、口语提示。
+                小班直播课（每周 2 次，每次 1.5 小时）+ 每周作业 app 解锁当前级别已上线周数（A2 试学周 + 第 1–11 周，B1 试学周 + 第 1–11 周）。包含 CEQ 备考四项技能：阅读、写作、听读准备、口语提示。
               </p>
               <ul className="space-y-2 text-sm text-ink-2 mb-5">
                 <li className="flex items-start gap-2">
@@ -252,7 +252,7 @@ export default function HomePage() {
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-accent mt-0.5">✓</span>
-                  <span>每周作业 app 解锁已上线周数（A2: 试学周 + 第 1–11 周；B1: 试学周 + 第 1–11 周；后续周次陆续更新）</span>
+                  <span>每周作业 app 解锁已上线周数（A2: 试学周 + 第 1–11 周；B1: 试学周 + 第 1–11 周）</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-accent mt-0.5">✓</span>
