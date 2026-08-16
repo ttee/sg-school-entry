@@ -365,6 +365,16 @@ export default function WeikeMiniLesson({ level, weekNumber }: WeikeMiniLessonPr
       ],
       gloss: "中学 AEIS 英语本周例题：must / have to 表示学校规则。must 和 have to 后面直接加动词原形，不能加 to（中文「必须要」迁移）。You must queue. ✓ 不是 You must to queue. ✗。must not 表示禁止（You must not cut the queue.），have to 也表示必须（You have to return your tray.）。"
     },
+    "SEC-5": {
+      fossil: "should (advice) vs must (school rule) — unique keys",
+      examples: [
+        "You must change into your PE attire before the lesson. ✓ (学校规则用 must)",
+        "You should bring a water bottle to PE—it's helpful. ✓ (建议用 should)",
+        "Students must do a warm-up before PE. ✓ (规则用 must，不是 should)",
+        "If you feel tired, you should take a break. ✓ (建议用 should，不是 must)"
+      ],
+      gloss: "中学 AEIS 英语本周例题：should（建议/advice）vs must（规则/school rule）。如果是学校规则（You ___ change into PE attire），用 must。如果是建议（You ___ bring water—it's helpful），用 should。每个句子只有一个正确答案。情境：Wei 第一次上 PE 课，Coach Ng 和 Aisha 给出指令。"
+    },
     "A2-7": {
       fossil: "I going to the library tomorrow / I go to swim / Tomorrow I go library",
       examples: [
