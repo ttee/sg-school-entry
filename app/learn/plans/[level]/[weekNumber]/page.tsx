@@ -3546,6 +3546,43 @@ const lessonPlans: Record<string, LessonPlan> = {
     ],
     speakingPrompts: null,
   },
+  "SMATH-17": {
+    title: "百分数 — Expressing One Quantity as a Percentage of Another",
+    fossil: "dividing the wrong way (B as a percentage of A) / forgetting to multiply by 100",
+    sections: [
+      {
+        name: "课前",
+        duration: "2 分钟",
+        teacherNotes: "确认 Zoom 设置正常。孩子和家长都在镜头前。对家长说：「今天教中学 AEIS 数学第 17 周，将一个数表示为另一个数的百分比（expressing one quantity as a percentage of another）。本周是 Sec 1 数学卷型样本，内容对应前一级 Sec 1 NUMBER AND ALGEBRA, N3. Percentage: 3.1 expressing one quantity as a percentage of another。官方 MOE 2020 G3 Mathematics Syllabuses, Secondary One, NUMBER AND ALGEBRA。SEAB 官方规则：申请 Sec 2 入学的孩子需熟悉 Sec 2 前一级（Sec 1）的内容。第 15–16 周已完成 N2（ratios involving rational numbers, writing a ratio in its simplest form, problems involving ratio），本周开始 N3，只教 3.1（expressing one quantity as a percentage of another）。本周不教 3.2 comparing two quantities by percentage，3.3 percentages greater than 100%，3.4 percentage increase/decrease，3.5 reverse percentages，3.6 solving problems involving percentage（3.2–3.6 是后续内容）。SMATH 试学周已教 P6 percentage，本周是 Sec 1 的 3.1（express A as a percentage of B），不是 P6 的重复。不用计算器，要写出推理步骤。」",
+      },
+      {
+        name: "热身",
+        duration: "5 分钟",
+        teacherNotes: "在白板上写：Express 12 as a percentage of 40.  问孩子：'What's the first step?' 等孩子思考后，解释：'A as a percentage of B means we divide A by B, then multiply by 100 to get the percentage. Step 1: A = 12, B = 40. Step 2: Divide A by B. 12 ÷ 40 = 0.3. Step 3: Multiply by 100 to get the percentage. 0.3 × 100 = 30. So 12 as a percentage of 40 is 30%.' 再问：'What if we divide the wrong way? 40 ÷ 12 = 3.333..., then × 100 = 333.33%. That's wrong! The question asks for 12 as a percentage of 40 (12 is the part, 40 is the whole). So we divide 12 by 40, not 40 by 12. The order matters: A as a percentage of B = (A ÷ B) × 100%.' 再问：'What if we forget to multiply by 100? 12 ÷ 40 = 0.3. If we stop here, the answer is 0.3. But the question asks for a percentage, not a decimal. We must multiply by 100 to get 30%. Don't forget the × 100 step!' 让孩子看到今天的目标：express one quantity as a percentage of another（将一个数表示为另一个数的百分比），using the formula (A ÷ B) × 100%。",
+      },
+      {
+        name: "化石",
+        duration: "8 分钟",
+        teacherNotes: "在屏幕上或白板上写下常见混淆：'Fossil 1: Dividing the wrong way (B as a percentage of A). ✗ Example: Express 12 as a percentage of 40. Wrong: 40 ÷ 12 × 100 = 333.33%. Correct: 12 ÷ 40 × 100 = 30%. Rule: A as a percentage of B means (A ÷ B) × 100%. A is the numerator (part), B is the denominator (whole). If the question says 12 as a percentage of 40, then A = 12, B = 40, so divide 12 by 40 (not 40 by 12). The order matters.' 再写：'Fossil 2: Forgetting to multiply by 100 (leaving the decimal as the answer). ✗ Example: Express 12 as a percentage of 40. Wrong: 12 ÷ 40 = 0.3 (stop here). Correct: 12 ÷ 40 = 0.3, then 0.3 × 100 = 30%. Rule: after dividing A by B, you must multiply by 100 to convert the decimal to a percentage. 0.3 is a decimal. 30% is a percentage. The question asks for a percentage, so the final answer must be 30% (not 0.3). Don't forget the × 100 step!' 让孩子跟读改正后的推理步骤 2 次。",
+      },
+      {
+        name: "例题",
+        duration: "10 分钟",
+        teacherNotes: "教师示范三道完整例题（写出推理步骤）。例题 1（express A as percentage of B）：Express 12 as a percentage of 40. 步骤：① A = 12, B = 40. ② (A ÷ B) × 100% = (12 ÷ 40) × 100%. ③ 12 ÷ 40 = 0.3. ④ 0.3 × 100 = 30. Answer: 30%. 例题 2（应用题 word problem）：Wei has S$32. He spends S$8 on lunch. Express the amount he spends as a percentage of the total amount he has. 步骤：① Amount spent = S$8 (this is A, the part). ② Total amount = S$32 (this is B, the whole). ③ (A ÷ B) × 100% = (8 ÷ 32) × 100%. ④ 8 ÷ 32 = 0.25. ⑤ 0.25 × 100 = 25. Answer: 25%. 例题 3（已知分数和整体，求百分比）：A class has 40 students. 6 students are absent today. Express the number of absent students as a percentage of the class. 步骤：① Absent students = 6 (this is A, the part). ② Total students = 40 (this is B, the whole). ③ (A ÷ B) × 100% = (6 ÷ 40) × 100%. ④ 6 ÷ 40 = 0.15. ⑤ 0.15 × 100 = 15. Answer: 15%. 让孩子理解三道题的共同点：都是先除（A ÷ B），再乘 100。A 是部分（part），B 是整体（whole）。",
+      },
+      {
+        name: "练习",
+        duration: "12 分钟",
+        teacherNotes: "给孩子 3 道练习题，让孩子独立做，写出推理步骤。家长可以用手机拍照孩子的推理。题 1：Express 18 as a percentage of 60. Show your working steps. 答案：① A = 18, B = 60. ② (A ÷ B) × 100% = (18 ÷ 60) × 100%. ③ 18 ÷ 60 = 0.3. ④ 0.3 × 100 = 30. Answer: 30%. 题 2：Wei has S$80. He spends S$20 on lunch. Express the amount he spends as a percentage of the total amount he has. Show your working steps. 答案：① Amount spent = S$20. Total amount = S$80. ② (A ÷ B) × 100% = (20 ÷ 80) × 100%. ③ 20 ÷ 80 = 0.25. ④ 0.25 × 100 = 25. Answer: 25%. 题 3：The canteen has 120 seats. 30 seats are occupied during recess. Express the number of occupied seats as a percentage of the total number of seats. Show your working steps. 答案：① Occupied seats = 30. Total seats = 120. ② (A ÷ B) × 100% = (30 ÷ 120) × 100%. ③ 30 ÷ 120 = 0.25. ④ 0.25 × 100 = 25. Answer: 25%. 教师巡看孩子的推理，纠正格式（如果孩子只写答案不写步骤，提醒 'AEIS 官方要求写出 working steps'）。如果孩子除错方向（如题 1 算 60 ÷ 18），指出：'The question asks for 18 as a percentage of 60. That means 18 is the part (A), 60 is the whole (B). So we divide 18 by 60 (not 60 by 18). Check the order: A as a percentage of B = (A ÷ B) × 100%.' 如果孩子忘记 × 100（如题 1 写 0.3 作为最终答案），指出：'You divided 18 by 60 and got 0.3. Good! But the question asks for a percentage. 0.3 is a decimal. We need to multiply by 100 to convert it to a percentage: 0.3 × 100 = 30%. The final answer is 30% (not 0.3).'",
+      },
+      {
+        name: "收口",
+        duration: "3 分钟",
+        teacherNotes: "总结本周重点：(1) 官方 Sec 1 AEIS 数学卷型：Part 1 MCQ 34 题 30 分钟 + Part 2 show working 20+10–15 题 1 小时 45 分钟，不用计算器。(2) 本周内容：Sec 1 NUMBER AND ALGEBRA, N3. Percentage: 3.1 expressing one quantity as a percentage of another（将一个数表示为另一个数的百分比），对应 preceding level 规则。本周开始 N3。(3) 本周化石：dividing the wrong way（B as a percentage of A，如果题目是 12 as a percentage of 40，错误地算 40 as a percentage of 12，错！应该是 12 ÷ 40，不是 40 ÷ 12）；forgetting to multiply by 100（leaving 12/40 = 0.3 as the answer，忘记 × 100% 得 30%，错！必须 × 100%）。(4) A as a percentage of B = (A ÷ B) × 100%。例：12 as a percentage of 40 = (12 ÷ 40) × 100% = 0.3 × 100% = 30%。(5) 应用题 word problem：Wei has S$32, he spends S$8. Express S$8 as a percentage of S$32. Solution: (8 ÷ 32) × 100% = 0.25 × 100% = 25%。(6) 已知分数和整体，求百分比 given part and whole, find percentage：A class has 40 students, 6 are absent. Express 6 as a percentage of 40. Solution: (6 ÷ 40) × 100% = 0.15 × 100% = 15%。(7) 关键步骤：Step 1: Identify A (the part) and B (the whole). Step 2: Divide A by B (A ÷ B). Step 3: Multiply by 100 to get the percentage ((A ÷ B) × 100%). (8) 金额用新加坡元 S$（money in Singapore dollars S$）。(9) 唯一性 unique keys：两个选项不能是同一个金额的不同写法。如果一个选项是 30%，不能同时提供 30% 和 3/10 作为两个选项。The inverted (B of A) value 必须作为错误选项（wrong option），不是第二个正确答案。(10) 本周开始 N3（第 15–16 周完成 N2 ratios）。SMATH 试学周已教 P6 percentage，本周是 Sec 1 的 3.1（express A as a percentage of B），不是 P6 的重复。本周不教 3.2 comparing by percentage，3.3 percentages > 100%，3.4 increase/decrease，3.5 reverse percentages，3.6 problems（later weeks）。课后引导家长和孩子完成 /learn 页面的第 17 周作业（5 道应用题选择题 + 8 道选择题 + 3 道 show-working 题），系统会自动批改。下周第 18 周会继续 N3 的 3.2–3.6（comparing by percentage, percentages > 100%, increase/decrease, reverse percentages, problems involving percentage）。",
+      },
+    ],
+    speakingPrompts: null,
+  },
   "SMATH-16": {
     title: "比的应用题 — Problems Involving Ratio",
     fossil: "using 2/3 of the total when the ratio is 2 : 3 (should be 2/5) / swapping who gets which part",

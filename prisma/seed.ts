@@ -8331,6 +8331,94 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
         },
       ],
     },
+    {
+      level: "SMATH",
+      weekNumber: 17,
+      title: "数学 第 17 周 / Maths Week 17",
+      description: "AEIS-Secondary Mathematics: Sec 1 expressing one quantity as a percentage of another",
+      isSample: false,
+      errorFocus: "dividing the wrong way (B as a percentage of A) / forgetting to multiply by 100",
+      parentBrief: "本周是中学 AEIS 数学第 17 周，对应官方 SEAB Sec 1 卷型（https://www.seab.gov.sg/aeis/test-details/ 2026年7月1日更新）。Part 1 Multiple-choice questions：34 道 MCQ，30 分钟。Part 2 Short-answer questions (20 items) and open-ended questions (10 to 15 items)：1 小时 45 分钟。Calculators are not allowed（不允许使用计算器）。Short-answer and open-ended questions：candidates are required to show the method of solution clearly by writing working steps in the spaces provided, plus the final answer（需写出算式步骤和最终答案）。AEIS-Secondary 官方 preceding-level 规则：申请 Sec 2 入学者需熟悉 Sec 2 前一级的内容。官方举例：apply Secondary 3 → be familiar with Secondary 2 content. 本周针对 Sec 2 申请者，内容为 Sec 2 前一级（Sec 1）的官方 MOE 2020 G3 Mathematics Syllabuses, Secondary One, NUMBER AND ALGEBRA, N3. Percentage: 3.1 expressing one quantity as a percentage of another（将一个数表示为另一个数的百分比）。第 15–16 周已完成 N2（ratios, ratio problems），本周只教 N3 的 3.1（expressing one quantity as a percentage of another），本周不教 3.2 comparing two quantities by percentage，3.3 percentages greater than 100%，3.4 percentage increase/decrease，3.5 reverse percentages，3.6 solving problems involving percentage（3.2–3.6 是后续内容）。SMATH 试学周已教 P6 percentage（已知百分比求部分、已知部分和百分比求整体、百分比增加/减少），本周是 Sec 1 的 3.1（express A as a percentage of B），不是 P6 的重复。官方技能是：express A as a percentage of B，即 (A/B) × 100%。本周作业是样本，不是完整 34 + 20 + 10–15 题。本周化石：dividing the wrong way（B as a percentage of A，如果题目是 12 as a percentage of 40，错误地算 40 as a percentage of 12）；forgetting to multiply by 100（leaving 12/40 = 0.3 as the answer，忘记 × 100% 得 30%）。本周方法：A as a percentage of B = (A ÷ B) × 100%。例：12 as a percentage of 40 = (12/40) × 100% = 0.3 × 100% = 30%。用友好的整数（friendly numbers），答案是整数百分比或简单一位小数（如 12.5%）。不用计算器 no calculator。金额用新加坡元 S$（money in Singapore dollars S$），never 美元。唯一性 unique keys：两个选项不能是同一个金额的不同写法。如果一个选项是 30%，不能同时提供 30% 和 3/10 作为两个选项（那是同一个值）。The inverted (B of A) value 必须作为错误选项（wrong option），不是第二个正确答案。非官方机构运营（affiliation 非官方机构 is OK）。不发明官方未提及的内容（do not invent official facts）。不声称 AEIS 是 G3 paper（G3 只是官方 preceding-level 内容来源）。不发明官方 cut-scores 或 extra official names。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "Express 12 as a percentage of 40.|A. 3%|B. 12%|C. 30%|D. 40%",
+            "Express 15 as a percentage of 60.|A. 15%|B. 25%|C. 40%|D. 75%",
+            "Wei has S$32. He spends S$8. Express the amount he spends as a percentage of the original amount.|A. 8%|B. 20%|C. 25%|D. 32%",
+            "Express 9 as a percentage of 24.|A. 27.5%|B. 37.5%|C. 42.5%|D. 62.5%",
+            "Express 20 as a percentage of 50.|A. 20%|B. 40%|C. 50%|D. 250%",
+          ]),
+          correctAnswer: "C,B,C,B,B",
+          points: 10,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "A class has 40 students. 6 students are absent today. Express the number of absent students as a percentage of the class.|A. 6%|B. 10%|C. 15%|D. 40%",
+            "Aisha has S$50. She saves S$10. Express her savings as a percentage of the total amount.|A. 10%|B. 20%|C. 40%|D. 50%",
+            "Wei scored 18 marks out of 25 in a test. Express his score as a percentage.|A. 18%|B. 25%|C. 60%|D. 72%",
+            "The canteen has 80 seats. 20 seats are occupied. Express the number of occupied seats as a percentage of the total.|A. 20%|B. 25%|C. 40%|D. 60%",
+            "Which working is correct for expressing 16 as a percentage of 64?|A. 64 ÷ 16 = 4, so 4%|B. (16 ÷ 64) × 100 = 25%|C. 16 × 100 = 1600%|D. 64 ÷ 16 × 100 = 400%",
+            "Mr Lim has S$120. He spends S$30 on books. Express the amount spent as a percentage of the total.|A. 20%|B. 25%|C. 30%|D. 40%",
+            "Riverside Secondary has 200 students. 50 students joined the debate club. Express the number of students in the debate club as a percentage of the total.|A. 20%|B. 25%|C. 40%|D. 50%",
+            "Wei has 32 marbles. He gives 8 marbles to Aisha. Express the number he gives away as a percentage of his original amount.|A. 8%|B. 20%|C. 25%|D. 32%",
+          ]),
+          correctAnswer: "C,B,D,B,B,B,B,C",
+          points: 16,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `Part 2: Show Your Working (写出算式步骤)
+
+Riverside Secondary School has percentage problems. Answer the questions below. Show all your working clearly.
+
+Question (a)
+Express 18 as a percentage of 60. Show your working steps.
+
+Question (b)
+Wei has S$80. He spends S$20 on lunch. Express the amount he spends as a percentage of the total amount he has. Show your working steps.
+
+Question (c)
+The canteen has 120 seats. 30 seats are occupied during recess. Express the number of occupied seats as a percentage of the total number of seats. Show your working steps.
+
+写作提示 / Tips:
+✓ 每题分步骤写出推理 (Show working steps for each question)
+✓ Part 2 官方要求：clearly show the method of solution by writing working steps, plus the final answer
+✓ 不用计算器 (No calculators allowed)
+✓ 百分数步骤示范 (expressing one quantity as a percentage of another examples)：
+  • Express A as a percentage of B = (A ÷ B) × 100%：
+    Express 12 as a percentage of 40.
+    Solution: A = 12, B = 40. (12 ÷ 40) × 100% = 0.3 × 100% = 30%.
+    Answer: 30%.
+  • 应用题 word problem：
+    Wei has S$32. He spends S$8. Express the amount he spends as a percentage of the original amount.
+    Solution: Amount spent = S$8. Original amount = S$32. (8 ÷ 32) × 100% = 0.25 × 100% = 25%.
+    Answer: 25%.
+  • 已知分数和整体，求百分比 given part and whole, find percentage：
+    A class has 40 students. 6 students are absent. Express the number of absent students as a percentage of the class.
+    Solution: Absent = 6. Total = 40. (6 ÷ 40) × 100% = 0.15 × 100% = 15%.
+    Answer: 15%.
+✓ 金额用新加坡元 S$ (money in Singapore dollars S$)
+✓ 关键词：percentage 百分比，express 表示，as a percentage of 作为…的百分比，original amount 原始金额，total 总数
+✓ 关键步骤：Step 1: Identify A (the part) and B (the whole). Step 2: Divide A by B (A ÷ B). Step 3: Multiply by 100 to get the percentage ((A ÷ B) × 100%).
+✓ 化石 (fossil errors)：
+  • Dividing the wrong way（如果题目是 12 as a percentage of 40，错误地算 40 ÷ 12，正确应该是 12 ÷ 40）
+  • Forgetting to multiply by 100（只算到 12 ÷ 40 = 0.3 就停了，忘记 × 100% 得 30%）
+  • Mixing up A and B（如果题目是 A as a percentage of B，错误地算 B as a percentage of A）
+
+Note: This is a sample of Part 2 short-answer/open-ended questions. The official paper has 20 short-answer + 10–15 open-ended items in 1 hour 45 minutes.`,
+          points: 20,
+        },
+      ],
+    },
   ];
 
   // =================================================================
