@@ -859,21 +859,45 @@ export default function GuidePage() {
               </div>
             </div>
 
-            {/* 官方影片 */}
+            {/* 先看影片 */}
             <div className="bg-card border border-line rounded-2xl p-6 shadow">
               <h3 className="font-serif font-semibold text-lg text-ink mb-3">
-                🎬 了解新加坡（官方影片）
+                🎬 先看影片，了解真实校园
               </h3>
               <p className="text-sm text-ink-2 mb-4">
-                这是新加坡官方旅游宣传片，帮助家长了解新加坡的生活与自然环境。不是 AEIS/CEQ 考题，也不是本工作室微课。
+                以下影片帮助家长了解新加坡政府小学的真实环境与期望。均非 AEIS/CEQ 考题，也非本工作室微课。
               </p>
               
-              <OfficialClip
-                videoId="Lwkn3WWGhUg"
-                credit="VisitSingapore 官方频道（新加坡旅游局）。这是新加坡生活与自然的官方宣传片，不是 AEIS / CEQ 考题，也不是本校微课。"
-              />
+              <div className="space-y-6">
+                {/* 1. 动机影片 - CNA 国际学生真实故事 */}
+                <div>
+                  <p className="text-sm font-semibold text-ink mb-3">1. 真实案例：一名来自浙江的国际学生</p>
+                  <OfficialClip
+                    videoId="Knyh8cm4kJU"
+                    credit="片源说明：CNA Insider / Mediacorp《Life As An International Student At A Singapore Primary School》（2019）。华苑小学真实校园，一名从浙江来的孩子。非 MOE 官方，不是 AEIS / CEQ 考题。日期与学费以官网为准。"
+                  />
+                </div>
 
-              <div className="mt-4 bg-paper-2 border border-line rounded-lg p-3">
+                {/* 2. 期望管理 - 邻里小学 vs 名校 */}
+                <div>
+                  <p className="text-sm font-semibold text-ink mb-3">2. 期望管理：AEIS 多数派位到邻里小学</p>
+                  <OfficialClip
+                    videoId="kMUsrkuVk7k"
+                    credit="片源说明：联合早报 zaobaosg《名校 vs 邻里小学》（2025）。新加坡主流媒体，非教育部。AEIS 派位看空位和住址，多数是邻里小学。"
+                  />
+                </div>
+
+                {/* 3. 日常生活 - 政府小学的一天 */}
+                <div>
+                  <p className="text-sm font-semibold text-ink mb-3">3. 政府小学的一天（小一学生）</p>
+                  <OfficialClip
+                    videoId="Mqf8E8vwEg0"
+                    credit="片源说明：Kranji Primary School 官方频道《A Day In a Life of A P1 Student》。一所政府小学的一天，不是 AEIS 教程。"
+                  />
+                </div>
+              </div>
+
+              <div className="mt-6 bg-paper-2 border border-line rounded-lg p-3">
                 <p className="text-xs text-ink-2">
                   <strong className="text-ink">更多官方内容：</strong>
                   新加坡教育部 YouTube 频道
