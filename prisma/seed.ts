@@ -1645,7 +1645,7 @@ What is 0.75 written as a fraction in simplest form?`,
       description: "AEIS-Primary P4 Mathematics: Adding and subtracting decimals",
       isSample: false,
       errorFocus: null,
-      parentBrief: "本周主题：小数加减（最多两位小数，up to 2 decimal places），对应官方 2021 Primary Mathematics Syllabus P4 Decimals 2.1 adding and subtracting decimals (up to 2 decimal places)。申请 P5 入学的孩子需掌握 P4 内容（MOE AEIS preceding level 规则）。关键技能：对齐小数点，补零补位，竖式计算。金额美元和分（dollars and cents）是 2 位小数可以练。常见错误：不对齐小数点（把 3.45 和 2.7 的个位对齐而不是小数点对齐）、从左边开始减（应该从右边个位或小数部分开始）、借位时漏了某一位。题目是简体中文家长说明 + 英文题干。本周配有双向对照表，显示题目对应的官方 2021 Primary Mathematics Syllabus P4 Decimals 2.1，以及申请 P5 → 掌握 P4 的规则。本周不教：三位小数的加减（那超出 P4 Decimals 2.1 范围）、小数乘除（Decimals 3.1–3.3 是 P4 后续内容）、乘除 10/100/1000（P5）、百分数（percentages）。",
+      parentBrief: "本周主题：小数加减（最多两位小数，up to 2 decimal places），对应官方 2021 Primary Mathematics Syllabus P4 Decimals 2.1 adding and subtracting decimals (up to 2 decimal places)。申请 P5 入学的孩子需掌握 P4 内容（MOE AEIS preceding level 规则）。关键技能：对齐小数点，补零补位，竖式计算。金额新元和分（dollars and cents）是 2 位小数可以练。常见错误：不对齐小数点（把 3.45 和 2.7 的个位对齐而不是小数点对齐）、从左边开始减（应该从右边个位或小数部分开始）、借位时漏了某一位。题目是简体中文家长说明 + 英文题干。本周配有双向对照表，显示题目对应的官方 2021 Primary Mathematics Syllabus P4 Decimals 2.1，以及申请 P5 → 掌握 P4 的规则。本周不教：三位小数的加减（那超出 P4 Decimals 2.1 范围）、小数乘除（Decimals 3.1–3.3 是 P4 后续内容）、乘除 10/100/1000（P5）、百分数（percentages）。",
       videoUrl: null,
       kaizenFocus: null,
       questions: [
