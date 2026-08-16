@@ -3546,6 +3546,43 @@ const lessonPlans: Record<string, LessonPlan> = {
     ],
     speakingPrompts: null,
   },
+  "SMATH-18": {
+    title: "用百分数比较 — Comparing Two Quantities by Percentage",
+    fossil: "comparing the wrong way (saying 20 is 75% of 15) / treating 'A is 75% of B' as A being larger",
+    sections: [
+      {
+        name: "课前",
+        duration: "2 分钟",
+        teacherNotes: "确认 Zoom 设置正常。孩子和家长都在镜头前。对家长说：「今天教中学 AEIS 数学第 18 周，用百分数比较两个量（comparing two quantities by percentage）。本周是 Sec 1 数学卷型样本，内容对应前一级 Sec 1 NUMBER AND ALGEBRA, N3. Percentage: 3.2 comparing two quantities by percentage。官方 MOE 2020 G3 Mathematics Syllabuses, Secondary One, NUMBER AND ALGEBRA。SEAB 官方规则：申请 Sec 2 入学的孩子需熟悉 Sec 2 前一级（Sec 1）的内容。第 17 周已教 N3 的 3.1（expressing one quantity as a percentage of another），本周只教 3.2（comparing two quantities by percentage）。本周不教 3.3 percentages greater than 100%，3.4 percentage increase/decrease，3.5 reverse percentages，3.6 solving problems involving percentage（3.3–3.6 是后续内容）。本周比较方法：将较小的数表示为较大的数的百分比（express the smaller as a percentage of the larger），这样百分比保持 ≤ 100%（留待下周教 >100% 的情况）。不用计算器，要写出推理步骤。」",
+      },
+      {
+        name: "热身",
+        duration: "5 分钟",
+        teacherNotes: "在白板上写：Compare 15 and 20 by percentage.  问孩子：'Which is smaller?' 等孩子回答 15 后，解释：'Step 1: Identify which is smaller and which is larger. 15 < 20, so 15 is smaller and 20 is larger. Step 2: Express the smaller as a percentage of the larger. (15 ÷ 20) × 100% = 0.75 × 100% = 75%. Step 3: State the comparison. 15 is 75% of 20. This means 15 is smaller than 20.' 再问：'What does \"A is 75% of B\" mean? Does A have more or less than B?' 等孩子思考后，解释：'If A is 75% of B, that means A is smaller than B. Why? Because 75% < 100%. If A were equal to B, A would be 100% of B. If A is only 75% of B, A is smaller. So 15 is 75% of 20 means 15 is smaller and 20 is larger.' 再问：'What if we compare the wrong way? 20 ÷ 15 = 1.333..., then × 100 = 133%. We could say 20 is 133% of 15. But the question asks to express the smaller as a percentage of the larger, so we should say 15 is 75% of 20 (not 20 is 133% of 15). This week we only teach ≤ 100% comparisons (smaller ÷ larger). Next week we'll teach >100% percentages.' 让孩子看到今天的目标：comparing two quantities by percentage（用百分数比较两个量），express the smaller as a % of the larger（将较小的表示为较大的的百分比）。",
+      },
+      {
+        name: "化石",
+        duration: "8 分钟",
+        teacherNotes: "在屏幕上或白板上写下常见混淆：'Fossil 1: Comparing the wrong way (saying 20 is 75% of 15). ✗ Example: Compare 15 and 20 by percentage. Wrong: 20 is 75% of 15. Correct: 15 is 75% of 20. Rule: express the smaller as a percentage of the larger. 15 < 20, so 15 is smaller. We express 15 as a percentage of 20 (not 20 as a percentage of 15). (15 ÷ 20) × 100% = 75%. So 15 is 75% of 20 (not 20 is 75% of 15).' 再写：'Fossil 2: Treating \"A is 75% of B\" as A being larger. ✗ Example: If A is 75% of B, which is larger? Wrong: A is larger. Correct: B is larger. Rule: if A is 75% of B, that means A is smaller than B. Why? Because 75% < 100%. If A were equal to B, A would be 100% of B. If A is only 75% of B, A is smaller. So \"15 is 75% of 20\" means 15 is smaller and 20 is larger (not 15 is larger).' 让孩子跟读改正后的推理步骤 2 次。",
+      },
+      {
+        name: "例题",
+        duration: "10 分钟",
+        teacherNotes: "教师示范三道完整例题（写出推理步骤）。例题 1（compare A and B by percentage, express the smaller as a % of the larger）：Compare 15 and 20 by percentage. 步骤：① First identify which is smaller. 15 < 20, so 15 is smaller and 20 is larger. ② Express the smaller as a percentage of the larger. (15 ÷ 20) × 100% = 0.75 × 100% = 75%. ③ State the comparison. 15 is 75% of 20. Answer: 15 is 75% of 20 (or: 15 is smaller, 20 is larger; 15 is 75% of 20). 例题 2（应用题 word problem with money）：Wei has S$18. Aisha has S$24. Compare their amounts by percentage. Express the smaller amount as a percentage of the larger amount. 步骤：① Compare S$18 and S$24. S$18 < S$24, so S$18 is smaller. ② (18 ÷ 24) × 100% = 0.75 × 100% = 75%. ③ So S$18 is 75% of S$24. Answer: S$18 is 75% of S$24 (or: Wei has less; his amount is 75% of Aisha's). 例题 3（应用题 word problem with test scores）：Wei scored 12 marks. Aisha scored 16 marks. Who scored higher? Compare by percentage. 步骤：① 12 < 16, so Wei scored lower and Aisha scored higher. ② Express Wei's score as a percentage of Aisha's. (12 ÷ 16) × 100% = 0.75 × 100% = 75%. ③ So Wei's score is 75% of Aisha's score. Answer: Aisha scored higher. Wei's score is 75% of Aisha's score. 让孩子理解三道题的共同点：都是先确定哪个较小，哪个较大，然后 smaller ÷ larger × 100%，最后陈述比较结果。",
+      },
+      {
+        name: "练习",
+        duration: "12 分钟",
+        teacherNotes: "给孩子 3 道练习题，让孩子独立做，写出推理步骤。家长可以用手机拍照孩子的推理。题 1：Compare 24 and 32 by percentage. Express the smaller as a percentage of the larger. Show your working steps. 答案：① 24 < 32, so 24 is smaller and 32 is larger. ② (24 ÷ 32) × 100% = 0.75 × 100% = 75%. ③ So 24 is 75% of 32. Answer: 24 is 75% of 32. 题 2：Wei has S$45. Aisha has S$60. Compare their amounts by percentage. Express the smaller amount as a percentage of the larger amount. Show your working steps. 答案：① S$45 < S$60, so S$45 is smaller. ② (45 ÷ 60) × 100% = 0.75 × 100% = 75%. ③ So S$45 is 75% of S$60. Answer: S$45 is 75% of S$60 (or: Wei has less; his amount is 75% of Aisha's). 题 3：In a test, Wei scored 18 marks and Aisha scored 24 marks. Compare their scores by percentage. Who scored higher? Express Wei's score as a percentage of Aisha's score. Show your working steps. 答案：① 18 < 24, so Wei scored lower and Aisha scored higher. ② (18 ÷ 24) × 100% = 0.75 × 100% = 75%. ③ So Wei's score is 75% of Aisha's score. Answer: Aisha scored higher. Wei's score is 75% of Aisha's score. 教师巡看孩子的推理，纠正格式（如果孩子只写答案不写步骤，提醒 'AEIS 官方要求写出 working steps'）。如果孩子比较错方向（如题 1 说 32 is 75% of 24），指出：'The question asks to express the smaller as a percentage of the larger. 24 < 32, so 24 is smaller and 32 is larger. We express 24 as a percentage of 32 (not 32 as a percentage of 24). (24 ÷ 32) × 100% = 75%. So 24 is 75% of 32 (not 32 is 75% of 24).' 如果孩子认为 'A is 75% of B' 意味着 A 较大，指出：'If A is 75% of B, that means A is smaller than B. Why? Because 75% < 100%. If A were equal to B, A would be 100% of B. If A is only 75% of B, A is smaller. So 24 is 75% of 32 means 24 is smaller and 32 is larger (not 24 is larger).'",
+      },
+      {
+        name: "收口",
+        duration: "3 分钟",
+        teacherNotes: "总结本周重点：(1) 官方 Sec 1 AEIS 数学卷型：Part 1 MCQ 34 题 30 分钟 + Part 2 show working 20+10–15 题 1 小时 45 分钟，不用计算器。(2) 本周内容：Sec 1 NUMBER AND ALGEBRA, N3. Percentage: 3.2 comparing two quantities by percentage（用百分数比较两个量），对应 preceding level 规则。(3) 本周化石：comparing the wrong way（错误地说 20 is 75% of 15，应该是 15 is 75% of 20；正确顺序是 smaller ÷ larger）；treating 'A is 75% of B' as A being larger（如果 A is 75% of B，则 A 较小，B 较大，不是 A 较大；75% < 100% 意味着 A < B）。(4) To compare A and B by percentage: express the smaller as a % of the larger（将较小的表示为较大的的百分比）。例：比较 15 和 20。15 < 20，所以 15 is (15 ÷ 20) × 100% = 75% of 20。15 is smaller, 20 is larger。(5) 'A is 75% of B' means A is smaller than B（A 是 B 的 75%，意味着 A < B，因为 75% < 100%）。(6) 应用题 word problem with money：Wei has S$18, Aisha has S$24. Compare by percentage. Solution: S$18 < S$24. (18 ÷ 24) × 100% = 75%. So S$18 is 75% of S$24 (Wei has less)。(7) 应用题 word problem with test scores：Wei scored 12, Aisha scored 16. Who scored higher? Solution: 12 < 16, Aisha scored higher. (12 ÷ 16) × 100% = 75%. Wei's score is 75% of Aisha's score。(8) 关键步骤：Step 1: Identify which is smaller and which is larger (确定哪个较小，哪个较大). Step 2: Express the smaller as a percentage of the larger: (smaller ÷ larger) × 100% (将较小的除以较大的，再乘 100%). Step 3: State the comparison (陈述比较结果：A is X% of B, so A is smaller and B is larger)。(9) 金额用新加坡元 S$（money in Singapore dollars S$）。(10) 唯一性 unique keys：两个选项不能是同一个金额。不要同时提供 75% 和 3/4 作为两个选项（那是同一个值）。不要在同一题中同时提供「15 is 75% of 20」和「20 is 133% of 15」作为两个正确选项（一题只有一个正确答案）。The inverted comparison（反向比较，如 20 is 133% of 15）必须作为错误选项（wrong option），不是第二个正确答案。(11) 本周只教 ≤ 100% 的情况（express the smaller as a % of the larger），不教 >100%（那是下周 3.3 percentages greater than 100%）。第 17 周已教 3.1（expressing one quantity as a percentage of another），本周教 3.2（comparing two quantities by percentage）。打开 /learn 页面，告诉孩子：「这周的作业在这里，完成后系统会自动批改选择题，写算式部分要写出推理步骤（show working steps），模拟 AEIS Part 2 格式。我们会在微信群里同步进度。」",
+      },
+    ],
+    speakingPrompts: null,
+  },
   "SMATH-17": {
     title: "百分数 — Expressing One Quantity as a Percentage of Another",
     fossil: "dividing the wrong way (B as a percentage of A) / forgetting to multiply by 100",

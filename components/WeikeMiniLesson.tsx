@@ -433,6 +433,15 @@ export default function WeikeMiniLesson({ level, weekNumber }: WeikeMiniLessonPr
       ],
       gloss: "AEIS 中学数学第 17 周 / SMATH Week 17. 本周例题：Sec 1 将一个数表示为另一个数的百分比（Sec 1 NUMBER AND ALGEBRA: N3.1 expressing one quantity as a percentage of another）。A as a percentage of B = (A ÷ B) × 100%。例：12 as a percentage of 40 = (12 ÷ 40) × 100% = 0.3 × 100% = 30%。应用题：Wei has S$32, he spends S$8. Express S$8 as a percentage of S$32. Solution: (8 ÷ 32) × 100% = 0.25 × 100% = 25%。本周化石：dividing the wrong way（题目是 12 as % of 40，错误地算 40 ÷ 12，正确应该是 12 ÷ 40）；forgetting to multiply by 100（只算到 12 ÷ 40 = 0.3 就停了，忘记 × 100% 得 30%）。金额用新加坡元 S$。不用计算器。本周开始 N3。"
     },
+    "SMATH-18": {
+      examples: [
+        "Compare 15 and 20 by percentage.",
+        "15 < 20, so 15 is smaller.",
+        "(15 ÷ 20) × 100% = 75%",
+        "So 15 is 75% of 20. (15 is smaller, 20 is larger.)"
+      ],
+      gloss: "AEIS 中学数学第 18 周 / SMATH Week 18. 本周例题：Sec 1 用百分数比较两个量（Sec 1 NUMBER AND ALGEBRA: N3.2 comparing two quantities by percentage）。To compare A and B by percentage: express the smaller as a % of the larger（将较小的表示为较大的的百分比）。例：比较 15 和 20。15 < 20，所以 15 is (15 ÷ 20) × 100% = 75% of 20。15 is smaller, 20 is larger。'A is 75% of B' means A is smaller than B（A 是 B 的 75%，意味着 A < B）。应用题：Wei has S$18, Aisha has S$24. Compare by percentage. Solution: S$18 < S$24. (18 ÷ 24) × 100% = 75%. So S$18 is 75% of S$24 (Wei has less)。本周化石：comparing the wrong way（错误地说 20 is 75% of 15，应该是 15 is 75% of 20；正确顺序是 smaller ÷ larger）；treating 'A is 75% of B' as A being larger（如果 A is 75% of B，则 A 较小，B 较大，不是 A 较大）。本周只教 ≤ 100% 的情况（express the smaller as a % of the larger），不教 >100%（那是下周 3.3）。金额用新加坡元 S$。不用计算器。"
+    },
     "SEC-0": {
       fossil: "Although I was nervous, but I tried. ✗ (中文「虽然…但是…」迁移) / I go yesterday ✗ (叙事体过去时掉落)",
       examples: [

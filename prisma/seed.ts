@@ -8419,6 +8419,94 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
         },
       ],
     },
+    {
+      level: "SMATH",
+      weekNumber: 18,
+      title: "数学 第 18 周 / Maths Week 18",
+      description: "AEIS-Secondary Mathematics: Sec 1 comparing two quantities by percentage",
+      isSample: false,
+      errorFocus: "comparing the wrong way (saying 20 is 75% of 15) / treating 'A is 75% of B' as A being larger",
+      parentBrief: "本周是中学 AEIS 数学第 18 周，对应官方 SEAB Sec 1 卷型（https://www.seab.gov.sg/aeis/test-details/ 2026年7月1日更新）。Part 1 Multiple-choice questions：34 道 MCQ，30 分钟。Part 2 Short-answer questions (20 items) and open-ended questions (10 to 15 items)：1 小时 45 分钟。Calculators are not allowed（不允许使用计算器）。Short-answer and open-ended questions：candidates are required to show the method of solution clearly by writing working steps in the spaces provided, plus the final answer（需写出算式步骤和最终答案）。AEIS-Secondary 官方 preceding-level 规则：申请 Sec 2 入学者需熟悉 Sec 2 前一级的内容。官方举例：apply Secondary 3 → be familiar with Secondary 2 content. 本周针对 Sec 2 申请者，内容为 Sec 2 前一级（Sec 1）的官方 MOE 2020 G3 Mathematics Syllabuses, Secondary One, NUMBER AND ALGEBRA, N3. Percentage: 3.2 comparing two quantities by percentage（用百分数比较两个量）。第 17 周已教 3.1（expressing one quantity as a percentage of another），本周只教 3.2（comparing two quantities by percentage），本周不教 3.3 percentages greater than 100%，3.4 percentage increase/decrease，3.5 reverse percentages，3.6 solving problems involving percentage（3.3–3.6 是后续内容）。本周比较方法：将较小的数表示为较大的数的百分比（express the smaller as a percentage of the larger），这样百分比保持 ≤ 100%（留待第 19 周教 >100% 的情况）。例：比较 15 和 20，15 是较小的，20 是较大的，15 is (15/20)×100% = 75% of 20，所以 15 较小，20 较大。本周作业是样本，不是完整 34 + 20 + 10–15 题。本周化石：comparing the wrong way（错误地说 20 is 75% of 15，应该是 15 is 75% of 20）；treating 'A is 75% of B' as A being larger（如果 A is 75% of B，则 A 较小，B 较大，不是 A 较大）。本周方法：to compare A and B by percentage, express the smaller as a % of the larger。If 15 compared with 20: 15 is (15/20)×100% = 75% of 20, so 15 is smaller and 20 is larger。'A is 75% of B' means A is smaller than B（A 占 B 的 75%，所以 A < B）。用友好的整数（friendly numbers），答案是整数百分比或简单值（如 12.5%, 37.5%）。不用计算器 no calculator。金额用新加坡元 S$（money in Singapore dollars S$），never 美元。唯一性 unique keys：两个选项不能是同一个金额。不要同时提供 75% 和 3/4 作为两个选项（那是同一个值）。不要在同一题中同时提供「15 is 75% of 20」和「20 is 133% of 15」作为两个正确选项（一题只有一个正确答案）。The inverted comparison（反向比较，如 20 is 133% of 15）必须作为错误选项（wrong option），不是第二个正确答案。非官方机构运营（affiliation 非官方机构 is OK）。不发明官方未提及的内容（do not invent official facts）。不声称 AEIS 是 G3 paper（G3 只是官方 preceding-level 内容来源）。不发明官方 cut-scores 或 extra official names（不发明「percentage difference」等官方术语）。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "Compare 15 and 20 by percentage. Express the smaller as a percentage of the larger.|A. 15 is 75% of 20|B. 20 is 75% of 15|C. 15 is 133% of 20|D. 20 is 25% of 15",
+            "Wei has S$18. Aisha has S$24. Express the smaller amount as a percentage of the larger amount.|A. S$18 is 50% of S$24|B. S$18 is 75% of S$24|C. S$24 is 75% of S$18|D. S$18 is 133% of S$24",
+            "Compare 12 and 16. Which statement is correct?|A. 12 is 75% of 16|B. 16 is 75% of 12|C. 12 is 133% of 16|D. 16 is 25% of 12",
+            "Which statement is true when comparing 9 and 12?|A. 9 is 75% of 12|B. 12 is 75% of 9|C. 9 is 133% of 12|D. 12 is 25% of 9",
+            "Two test scores: Wei scored 20 marks, Aisha scored 25 marks. Express Wei's score as a percentage of Aisha's score.|A. 75%|B. 80%|C. 100%|D. 125%",
+          ]),
+          correctAnswer: "A,B,A,A,B",
+          points: 10,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "Compare S$16 and S$20. Which is correct?|A. S$16 is 60% of S$20|B. S$16 is 80% of S$20|C. S$20 is 80% of S$16|D. S$16 is 125% of S$20",
+            "Mr Lim has S$30. Wei has S$40. Express the smaller amount as a percentage of the larger.|A. 70%|B. 75%|C. 80%|D. 133%",
+            "Class A has 32 students. Class B has 40 students. Compare by percentage.|A. Class A is 60% of Class B|B. Class A is 70% of Class B|C. Class A is 80% of Class B|D. Class B is 80% of Class A",
+            "Compare 21 and 28. Express the smaller as a percentage of the larger.|A. 70%|B. 75%|C. 80%|D. 133%",
+            "Which working is correct for comparing 18 and 24? (Express the smaller as a % of the larger.)|A. 24 ÷ 18 × 100 = 133%|B. 18 ÷ 24 × 100 = 75%|C. 18 × 100 = 1800%|D. 24 − 18 = 6%",
+            "The canteen has 60 seats in Section A and 80 seats in Section B. What percentage is the smaller section of the larger section?|A. 70%|B. 75%|C. 80%|D. 133%",
+            "Aisha saved S$35. Wei saved S$28. Who has more money and what percentage is the smaller amount of the larger?|A. Aisha has more; 70%|B. Wei has more; 70%|C. Aisha has more; 80%|D. Wei has more; 80%",
+            "Compare 14 and 16. Which statement is correct?|A. 14 is 87.5% of 16|B. 16 is 87.5% of 14|C. 14 is 12.5% of 16|D. 16 is 12.5% of 14",
+          ]),
+          correctAnswer: "B,B,C,B,B,B,C,A",
+          points: 16,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `Part 2: Show Your Working (写出算式步骤)
+
+Riverside Secondary School has percentage comparison problems. Answer the questions below. Show all your working clearly.
+
+Question (a)
+Compare 24 and 32 by percentage. Express the smaller as a percentage of the larger. Show your working steps.
+
+Question (b)
+Wei has S$45. Aisha has S$60. Compare their amounts by percentage. Express the smaller amount as a percentage of the larger amount. Show your working steps.
+
+Question (c)
+In a test, Wei scored 18 marks and Aisha scored 24 marks. Compare their scores by percentage. Who scored higher? Express Wei's score as a percentage of Aisha's score. Show your working steps.
+
+写作提示 / Tips:
+✓ 每题分步骤写出推理 (Show working steps for each question)
+✓ Part 2 官方要求：clearly show the method of solution by writing working steps, plus the final answer
+✓ 不用计算器 (No calculators allowed)
+✓ 用百分数比较两个量步骤示范 (comparing two quantities by percentage examples)：
+  • Compare A and B by percentage (express the smaller as a percentage of the larger)：
+    Compare 15 and 20 by percentage.
+    Solution: First identify which is smaller. 15 < 20, so 15 is smaller and 20 is larger. Express 15 as a percentage of 20. (15 ÷ 20) × 100% = 0.75 × 100% = 75%. So 15 is 75% of 20.
+    Answer: 15 is 75% of 20 (or: 15 is smaller, 20 is larger; 15 is 75% of 20).
+  • 应用题 word problem with money：
+    Wei has S$18. Aisha has S$24. Compare their amounts by percentage. Express the smaller amount as a percentage of the larger amount.
+    Solution: Compare S$18 and S$24. S$18 < S$24, so S$18 is smaller. (18 ÷ 24) × 100% = 0.75 × 100% = 75%. So S$18 is 75% of S$24.
+    Answer: S$18 is 75% of S$24 (or: Wei has less; his amount is 75% of Aisha's).
+  • 应用题 word problem with test scores：
+    Wei scored 12 marks. Aisha scored 16 marks. Who scored higher? Compare by percentage.
+    Solution: 12 < 16, so Wei scored lower and Aisha scored higher. Express Wei's score as a percentage of Aisha's. (12 ÷ 16) × 100% = 0.75 × 100% = 75%. So Wei's score is 75% of Aisha's score.
+    Answer: Aisha scored higher. Wei's score is 75% of Aisha's score.
+✓ 金额用新加坡元 S$ (money in Singapore dollars S$)
+✓ 关键词：compare 比较，express the smaller as a percentage of the larger 将较小的表示为较大的的百分比，'A is 75% of B' means A < B（A 是 B 的 75% 意味着 A 较小）
+✓ 关键步骤：Step 1: Identify which is smaller and which is larger (确定哪个较小，哪个较大). Step 2: Express the smaller as a percentage of the larger: (smaller ÷ larger) × 100% (将较小的除以较大的，再乘 100%). Step 3: State the comparison (陈述比较结果：A is X% of B, so A is smaller and B is larger).
+✓ 化石 (fossil errors)：
+  • Comparing the wrong way（错误地说 20 is 75% of 15，应该是 15 is 75% of 20；正确顺序是 smaller ÷ larger）
+  • Treating 'A is 75% of B' as A being larger（如果 A is 75% of B，则 A 较小，B 较大，不是 A 较大；75% < 100% 意味着 A < B）
+  • 本周只教 ≤ 100% 的情况（express the smaller as a % of the larger），不教 >100%（那是下周 3.3）
+
+Note: This is a sample of Part 2 short-answer/open-ended questions. The official paper has 20 short-answer + 10–15 open-ended items in 1 hour 45 minutes.`,
+          points: 20,
+        },
+      ],
+    },
   ];
 
   // =================================================================
