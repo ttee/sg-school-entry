@@ -142,14 +142,14 @@ function calculateRecommendation(answers: (number | null)[]) {
     return {
       door: "B1 当前已上线周数 + 咨询",
       doorEn: "B1 Available Weeks + Consultation",
-      reason: "基础语法掌握较好，可以开始 B1 Preliminary for Schools 水平学习。当前 app 已上线 B1 试学周 + 第 1–11 周（共 12 周）。建议咨询 12 周直播课预付包。",
+      reason: "基础语法掌握较好，可以开始 B1 Preliminary for Schools 水平学习。当前 app 已上线 B1 试学周 + 第 1–11 周（共 12 周）。建议咨询 12 周作业预付包。",
       kaizenFocus: "现在完成时与过去时的区分"
     };
   } else {
     return {
       door: "A2 当前已上线周数 + 咨询",
       doorEn: "A2 Available Weeks + Consultation",
-      reason: "基础语法已有基础，可以开始 A2 Key for Schools 水平学习。当前 app 已上线 A2 试学周 + 第 1–11 周（共 12 周）。建议咨询 12 周直播课预付包。",
+      reason: "基础语法已有基础，可以开始 A2 Key for Schools 水平学习。当前 app 已上线 A2 试学周 + 第 1–11 周（共 12 周）。建议咨询 12 周作业预付包。",
       kaizenFocus: totalCorrect < 6 ? "时态的准确使用" : "现在进行时与一般现在时的区分"
     };
   }
@@ -335,18 +335,24 @@ export default function AssessPage() {
               </div>
             )}
 
-            <div className="grid md:grid-cols-2 gap-4 mb-8">
+            <div className="grid md:grid-cols-3 gap-3 mb-8">
+              <Link
+                href="/guide"
+                className="flex items-center justify-center px-5 py-3.5 bg-accent text-accent-ink font-semibold rounded-full hover:bg-accent-hover transition-colors text-center"
+              >
+                升学向导
+              </Link>
               <Link
                 href="/#contact"
-                className="flex items-center justify-center px-6 py-3.5 bg-accent text-accent-ink font-semibold rounded-full hover:bg-accent-hover transition-colors text-center"
+                className="flex items-center justify-center px-5 py-3.5 bg-transparent text-ink border border-accent font-semibold rounded-full hover:bg-accent/10 transition-colors text-center"
               >
-                微信咨询 / 预约评估
+                微信咨询
               </Link>
               <Link
                 href="/learn"
-                className="flex items-center justify-center px-6 py-3.5 bg-transparent text-ink border border-line font-semibold rounded-full hover:border-ink-2 hover:bg-card transition-colors text-center"
+                className="flex items-center justify-center px-5 py-3.5 bg-transparent text-ink border border-line font-semibold rounded-full hover:border-ink-2 hover:bg-card transition-colors text-center"
               >
-                免费试学一周
+                免费试学
               </Link>
             </div>
 
