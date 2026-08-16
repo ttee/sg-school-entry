@@ -8507,6 +8507,91 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
         },
       ],
     },
+    {
+      level: "SMATH",
+      weekNumber: 19,
+      title: "数学 第 19 周 / Maths Week 19",
+      description: "AEIS-Secondary Mathematics: Sec 1 percentages greater than 100%",
+      isSample: false,
+      errorFocus: "thinking a percentage cannot exceed 100% / writing the inverted ≤100% value instead (e.g. 25 of 20 as 80% instead of 125%)",
+      parentBrief: "本周是中学 AEIS 数学第 19 周，对应官方 SEAB Sec 1 卷型（https://www.seab.gov.sg/aeis/test-details/ 2026年7月1日更新）。Part 1 Multiple-choice questions：34 道 MCQ，30 分钟。Part 2 Short-answer questions (20 items) and open-ended questions (10 to 15 items)：1 小时 45 分钟。Calculators are not allowed（不允许使用计算器）。Short-answer and open-ended questions：candidates are required to show the method of solution clearly by writing working steps in the spaces provided, plus the final answer（需写出算式步骤和最终答案）。AEIS-Secondary 官方 preceding-level 规则：申请 Sec 2 入学者需熟悉 Sec 2 前一级的内容。官方举例：apply Secondary 3 → be familiar with Secondary 2 content. 本周针对 Sec 2 申请者，内容为 Sec 2 前一级（Sec 1）的官方 MOE 2020 G3 Mathematics Syllabuses, Secondary One, NUMBER AND ALGEBRA, N3. Percentage: 3.3 percentages greater than 100%（大于 100% 的百分数）。第 17 周已教 3.1（expressing one quantity as a percentage of another），第 18 周已教 3.2（comparing two quantities by percentage），本周只教 3.3（percentages greater than 100%），本周不教 3.4 percentage increase/decrease（百分数增加与减少），3.5 reverse percentages（逆向百分数），3.6 solving problems involving percentage（3.4–3.6 是后续内容）。本周方法：If A > B, then A as a percentage of B is greater than 100%（如果 A > B，则 A 占 B 的百分数大于 100%）。方法：(A ÷ B) × 100% > 100%。例：25 as a percentage of 20 = (25/20) × 100% = 1.25 × 100% = 125%。50 as a percentage of 20 = 250%。36 as a percentage of 24 = 150%。A percentage can be more than 100% when the first quantity is larger than the second（当第一个数大于第二个数时，百分比可以超过 100%）。本周作业是样本，不是完整 34 + 20 + 10–15 题。本周化石：thinking a percentage cannot exceed 100%（认为百分数不能超过 100%，错！当第一个数大于第二个数时，百分数可以大于 100%）；writing the inverted ≤100% value instead（如 25 of 20 错误地写成 80%，应该是 125%；正确算法是 25 ÷ 20 = 1.25，再 × 100% = 125%，不是 20 ÷ 25 = 0.8，再 × 100% = 80%）。应用题 word problem with money：Wei has S$36, Aisha has S$24. Express Wei's amount as a percentage of Aisha's. Solution: S$36 > S$24. (36 ÷ 24) × 100% = 1.5 × 100% = 150%. So S$36 is 150% of S$24 (Wei has more)。应用题 word problem where score > paper total：Aisha scored 24 out of 20. Express 24 as a percentage of 20. Solution: 24 > 20. (24 ÷ 20) × 100% = 1.2 × 100% = 120%. This is possible because Aisha scored more than the paper total (e.g. bonus marks)（这是可能的，因为爱莎的分数超过试卷总分，例如有加分题）。用友好的整数（friendly numbers），答案是整数百分比（如 120%, 125%, 150%, 200%, 250%）。不用计算器 no calculator。金额用新加坡元 S$（money in Singapore dollars S$），never 美元。唯一性 unique keys：两个选项不能是同一个金额。不要同时提供 125% 和 5/4 作为两个选项（那是同一个值）。不要在同一题中同时提供「25 is 125% of 20」和「20 is 80% of 25」作为两个正确选项（一题只有一个正确答案）。The inverted ≤100% value（反向的 ≤100% 值，如 20 as a percentage of 25 = 80%）必须作为错误选项（wrong option），不是第二个正确答案。非官方机构运营（affiliation 非官方机构 is OK）。不发明官方未提及的内容（do not invent official facts）。不声称 AEIS 是 G3 paper（G3 只是官方 preceding-level 内容来源）。不发明官方 cut-scores 或 extra official names（不发明「percentage surplus」等官方未提及的术语）。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "Express 25 as a percentage of 20.|A. 80%|B. 125%|C. 25%|D. 20%",
+            "Express 50 as a percentage of 20.|A. 40%|B. 150%|C. 200%|D. 250%",
+            "Wei has S$36. Aisha has S$24. Express Wei's amount as a percentage of Aisha's amount.|A. 66.7%|B. 150%|C. 120%|D. 200%",
+            "Express 18 as a percentage of 12.|A. 66.7%|B. 120%|C. 150%|D. 180%",
+            "Which statement gives a percentage greater than 100%?|A. Express 30 as a percentage of 20.|B. Express 20 as a percentage of 30.|C. Express 20 as a percentage of 25.|D. Express 18 as a percentage of 24.",
+          ]),
+          correctAnswer: "B,D,B,C,A",
+          points: 10,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "Express 40 as a percentage of 20.|A. 50%|B. 100%|C. 200%|D. 150%",
+            "Express 30 as a percentage of 24.|A. 80%|B. 100%|C. 120%|D. 125%",
+            "Wei has S$50. Aisha has S$40. Express Wei's amount as a percentage of Aisha's amount.|A. 80%|B. 100%|C. 120%|D. 125%",
+            "Express 36 as a percentage of 30.|A. 83.3%|B. 100%|C. 120%|D. 150%",
+            "Which working is correct for expressing 25 as a percentage of 20?|A. 20 ÷ 25 × 100 = 80%|B. 25 ÷ 20 × 100 = 125%|C. 25 × 100 = 2500%|D. 25 − 20 = 5%",
+            "Aisha scored 24 marks in a test. The test is out of 20 marks. Express Aisha's score as a percentage of the total marks.|A. 80%|B. 100%|C. 120%|D. 150%",
+            "Can a percentage be more than 100%?|A. No, a percentage cannot exceed 100%.|B. Yes, when the first quantity is larger than the second.|C. No, 100% is the maximum.|D. Yes, but only in money problems.",
+            "Express 42 as a percentage of 35.|A. 83.3%|B. 100%|C. 120%|D. 150%",
+          ]),
+          correctAnswer: "C,D,D,C,B,C,B,C",
+          points: 16,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `Part 2: Show Your Working (写出算式步骤)
+
+Riverside Secondary School has percentage problems involving values greater than 100%. Answer the questions below. Show all your working clearly.
+
+Question (a)
+Express 30 as a percentage of 20. Show your working steps.
+
+Question (b)
+Wei has S$48. Aisha has S$40. Express Wei's amount as a percentage of Aisha's amount. Show your working steps.
+
+Question (c)
+Aisha scored 26 marks in a test. The test is out of 20 marks. Express Aisha's score as a percentage of the total marks. Show your working steps.
+
+写作提示 / Tips:
+✓ 每题分步骤写出推理 (Show working steps for each question)
+✓ Part 2 官方要求：clearly show the method of solution by writing working steps, plus the final answer
+✓ 不用计算器 (No calculators allowed)
+✓ 大于 100% 的百分数步骤示范 (percentages greater than 100% examples)：
+  • Express A as percentage of B where A > B：
+    Express 25 as a percentage of 20. Show your working steps.
+    Solution: ① A = 25, B = 20. ② Observe: 25 > 20, so the percentage will be >100%. ③ (A ÷ B) × 100% = (25 ÷ 20) × 100%. ④ 25 ÷ 20 = 1.25. ⑤ 1.25 × 100 = 125. Answer: 125%.
+  • 应用题 word problem with money where first amount > second amount：
+    Wei has S$36. Aisha has S$24. Express Wei's amount as a percentage of Aisha's amount. Show your working steps.
+    Solution: ① Wei's amount = S$36. Aisha's amount = S$24. ② Observe: S$36 > S$24, so the percentage will be >100%. ③ (36 ÷ 24) × 100%. ④ 36 ÷ 24 = 1.5. ⑤ 1.5 × 100 = 150. Answer: 150%. (Or: Wei's amount is 150% of Aisha's amount, meaning Wei has more.)
+  • 应用题 word problem where score > paper total：
+    Aisha scored 24 marks in a test. The test is out of 20 marks. Express Aisha's score as a percentage of the total marks. Show your working steps.
+    Solution: ① Aisha's score = 24 marks. Total marks = 20 marks. ② Observe: 24 > 20, so the percentage will be >100%. This is possible because Aisha scored more than the paper total (e.g. bonus marks). ③ (24 ÷ 20) × 100%. ④ 24 ÷ 20 = 1.2. ⑤ 1.2 × 100 = 120. Answer: 120%. (Aisha's score is 120% of the total marks.)
+✓ 金额用新加坡元 S$ (money in Singapore dollars S$)
+✓ 关键词：express A as a percentage of B where A > B 当 A > B 时将 A 表示为 B 的百分数，A percentage can be more than 100% when the first quantity is larger than the second 当第一个数大于第二个数时百分比可以超过 100%，'A is 125% of B' means A > B（A 是 B 的 125% 意味着 A 大于 B）
+✓ 关键步骤：Step 1: Identify A (the first quantity) and B (the second quantity) (确定 A 和 B). Step 2: Observe if A > B. If A > B, the percentage will be >100% (观察 A 是否大于 B。如果 A > B，百分数将大于 100%). Step 3: Use the formula (A ÷ B) × 100% (使用公式). Step 4: Calculate A ÷ B (this gives a decimal >1 if A > B) (计算 A ÷ B，如果 A > B 结果是大于 1 的小数). Step 5: Multiply by 100 to get the percentage (乘 100 得百分数). Step 6: State the answer with the % symbol and interpret (陈述答案并解释).
+✓ 化石 (fossil errors)：
+  • Thinking a percentage cannot exceed 100%（认为百分数不能超过 100%，错！当第一个数大于第二个数时，百分数可以大于 100%）
+  • Writing the inverted ≤100% value instead（如 25 of 20 错误地写成 80%，应该是 125%；正确算法是 25 ÷ 20 = 1.25，再 × 100% = 125%，不是 20 ÷ 25 = 0.8，再 × 100% = 80%）
+  • 第 17–18 周教 ≤100% 的情况，本周教 >100%
+
+Note: This is a sample of Part 2 short-answer/open-ended questions. The official paper has 20 short-answer + 10–15 open-ended items in 1 hour 45 minutes.`,
+          points: 20,
+        },
+      ],
+    },
   ];
 
   // =================================================================
