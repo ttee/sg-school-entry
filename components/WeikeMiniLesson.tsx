@@ -299,6 +299,14 @@ export default function WeikeMiniLesson({ level, weekNumber }: WeikeMiniLessonPr
       ],
       gloss: "AEIS 中学数学第 3 周 / SMATH Week 3. 本周例题：P6 分数除法（P6 Fractions 1.1–1.2）。真分数除以整数：1/2 ÷ 4 = 1/2 × 1/4 = 1/8。整数除以真分数：3 ÷ 1/2 = 3 × 2/1 = 6。真分数除以真分数：1/3 ÷ 1/6 = 1/3 × 6/1 = 2。Invert and multiply（倒过来乘）：除以一个分数就是乘以这个分数的倒数。答案化简到最简分数。不教带分数除法（mixed-number ÷ mixed-number，如果不在 1.1–1.2）。不用计算器，写出算式步骤。"
     },
+    "SMATH-4": {
+      examples: [
+        "A semicircle has radius 7 cm. Take π = 22/7.",
+        "Perimeter = curved part + diameter = πr + 2r",
+        "= 22/7 × 7 + 14 = 22 + 14 = 36 cm"
+      ],
+      gloss: "AEIS 中学数学第 4 周 / SMATH Week 4. 本周例题：P6 圆的面积和周长（P6 Area and Circumference of Circle 1.1–1.3）。圆周长 Circumference = 2πr 或 πd。圆面积 Area = πr²。半圆周长 = 弧长 + 直径（πr + 2r，不是只有 πr）。四分之一圆周长 = 弧长 + 两边（(1/2)πr + 2r）。π 的值每道题明确给出（本周全用 π = 22/7）。不教体积、球体/圆锥/圆柱公式。不用计算器，写出算式步骤。"
+    },
     "SEC-0": {
       fossil: "Although I was nervous, but I tried. ✗ (中文「虽然…但是…」迁移) / I go yesterday ✗ (叙事体过去时掉落)",
       examples: [
