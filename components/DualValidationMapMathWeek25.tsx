@@ -157,14 +157,14 @@ export default function DualValidationMapMathWeek25() {
             <tr className="border-b border-accent/10">
               <td className="px-3 py-3 text-ink align-top">
                 <strong>选择题 Q11</strong><br />
-                64 students. Pie: Sports 3/8 = 24, Music 1/4 = 16, Art 1/4 = 16, Drama 1/8 = 8. Which = 16?
+                64 students. Pie: Sports 1/2 = 32, Music 1/4 = 16, Art 1/8 = 8, Drama 1/8 = 8. Which = 16?
               </td>
               <td className="px-3 py-3 text-ink-2 align-top">
                 <strong>Statistics</strong><br />
                 • 1.2 reading and interpreting data from pie charts (calculating and comparing)
               </td>
               <td className="px-3 py-3 text-ink-2 align-top">
-                P4 技能：算出每块人数。Music = 1/4 of 64 = 64 ÷ 4 = 16 students (Art 也是 16，但问题问 which CCA，选第一个)
+                P4 技能：算出每块人数。Music = 1/4 of 64 = 64 ÷ 4 = 16 students (唯一答案)
               </td>
             </tr>
             <tr className="border-b border-accent/10">

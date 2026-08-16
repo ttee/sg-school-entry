@@ -2087,7 +2087,7 @@ Question 10:
 At the library, 45 children borrowed books. The pie chart shows: Storybooks 1/3, Comics 1/3, Science 1/6, Art 1/6. How many borrowed storybooks?
 
 Question 11:
-The school recorded 64 students in CCA. The pie chart shows: Sports 3/8, Music 1/4, Art 1/4, Drama 1/8. Which CCA had exactly 16 students? (Calculate: 1/4 of 64 = 64 ÷ 4 = 16.)
+The school recorded 64 students in CCA. The pie chart shows: Sports 1/2, Music 1/4, Art 1/8, Drama 1/8. Which CCA had exactly 16 students? (Calculate: 1/4 of 64 = 64 ÷ 4 = 16.)
 
 Question 12:
 At Changi Airport, 100 passengers were from different countries. The pie chart shows: Singapore 1/2, Malaysia 1/5, China 1/10, India 1/5. How many passengers were from Singapore?
@@ -2100,7 +2100,7 @@ The pie chart shows 56 students' favourite games. Soccer 3/8, Basketball 1/4, Ba
             "72 meals. Pie: Rice 1/2, Noodles 1/4, Bread 1/8, Sandwich 1/8. Same number?|A. Rice and Noodles|B. Noodles and Bread|C. Bread and Sandwich|D. Rice and Sandwich",
             "30 students. Pie: Dog 1/2, Cat 1/5, Rabbit 1/10, Hamster 1/5. Dogs?|A. 6|B. 10|C. 15|D. 20",
             "45 children. Pie: Storybooks 1/3, Comics 1/3, Science 1/6, Art 1/6. Storybooks?|A. 9|B. 10|C. 12|D. 15",
-            "64 students. Pie: Sports 3/8, Music 1/4, Art 1/4, Drama 1/8. Which CCA = 16?|A. Sports|B. Music|C. Art|D. Drama",
+            "64 students. Pie: Sports 1/2, Music 1/4, Art 1/8, Drama 1/8. Which CCA = 16?|A. Sports|B. Music|C. Art|D. Drama",
             "100 passengers. Pie: Singapore 1/2, Malaysia 1/5, China 1/10, India 1/5. Singapore?|A. 20|B. 30|C. 40|D. 50",
             "56 students. Pie: Soccer 3/8, Basketball 1/4, Badminton 1/4, Tennis 1/8. Soccer?|A. 14|B. 18|C. 21|D. 24",
           ]),
