@@ -6787,6 +6787,89 @@ Note: This is Part 1 Writing for Sec 1. Official paper: 2 topics, choose 1, writ
         },
       ],
     },
+    {
+      level: "SEC",
+      weekNumber: 10,
+      title: "英语 第 10 周 / English Week 10",
+      description: "AEIS-Secondary English (Sec 1 paper shape): fire drill sample",
+      isSample: false,
+      errorFocus: "too + adj vs adj + enough — unique keys",
+      parentBrief: "本周是中学 AEIS 英语第 10 周，对应官方 SEAB Sec 1 卷型（https://www.seab.gov.sg/aeis/test-details/ 2026年7月1日更新）。Part 1 Writing：2 个题目选写 1 篇，200–300 词。Part 2 Comprehension & Language Use：50 道 MCQ（Comprehension 15 + Comprehension cloze 15 + Vocabulary 10 + Grammar 10），共 2 小时 10 分钟。AEIS-Secondary 官方 preceding-level 规则：申请 Sec 1 入学者需熟悉 Sec 1 前一级的内容。官方举例：apply Secondary 3 → be familiar with Secondary 2. 本周针对 Sec 1 申请者，内容为 Sec 1 前一级水平。本周作业是样本，不是完整 50 题。本周化石：too + adj（太…不能）vs adj + enough（足够…可以）。如果意思是「超过需要/不可能」，正确答案是 too（too crowded / too slow），enough 不出现或明显错误。如果意思是「足够达到需要」，正确答案是 enough（quiet enough / early enough），too 不出现或明显错误。禁止：too enough, enough too, very enough。每个空只有一个正确选项。本周情境：Wei 在 Riverside Secondary 第一次消防演习（fire drill: alarm, leave bags, walk don't run, stairs, assembly point on the field, class register, instructions a listener needs）。Cast: Wei, Aisha, Mr Lim at Riverside Secondary。可添加 duty teacher。本周不是 CEQ。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: `Read the passage and answer the questions:
+
+Fire Drill at Riverside Secondary
+
+Wei and his classmates were working on their English assignment when the fire alarm went off. The loud sound made everyone stop. Mr Lim stood up immediately and said, "Everyone, this is a fire drill. Leave your bags on your desks. We need to leave the classroom now."
+
+The corridor was too crowded for them to move quickly, so they had to walk slowly. Mr Lim reminded them, "Don't run. Walk calmly and quietly." Wei noticed that the staircase was wide enough for two lines of students to go down side by side. A duty teacher stood at each floor to guide them.
+
+When they reached the field, Mr Lim told the class, "Form a line at our assembly point. It's quiet enough for me to call your names." Wei stood next to Aisha. The field was large enough for all the classes to stand together without pushing.
+
+Mr Lim checked the register. "Is everyone here?" he asked. Aisha raised her hand. "Sir, Jun Wei went to the toilet before the alarm. I think he's still inside." Mr Lim spoke to the duty teacher, who went back to check. A few minutes later, Jun Wei arrived. He looked worried, but Mr Lim told him, "It's okay. Next time, walk straight to the assembly point, even if you're in the toilet."
+
+The whole drill took about 15 minutes. The principal announced, "Well done, everyone. You were fast enough and calm enough. If this had been a real fire, everyone would have been safe." Wei felt relieved. The drill was stressful, but he now knew exactly what to do.
+
+Choose the correct answer:`,
+          options: JSON.stringify([
+            "What did Mr Lim tell the students to do with their bags?|A. Carry them outside|B. Leave them on their desks|C. Put them in the cupboard|D. Give them to the teacher",
+            "Why did the students have to walk slowly in the corridor?|A. The teacher told them to walk slowly|B. The corridor was too crowded|C. They were tired|D. The door was locked",
+            "Where did the class go during the fire drill?|A. To the canteen|B. To the library|C. To the field|D. To the hall",
+            "Who went back to check on Jun Wei?|A. Mr Lim|B. Aisha|C. The principal|D. The duty teacher",
+            "How long did the fire drill take?|A. 5 minutes|B. 10 minutes|C. 15 minutes|D. 20 minutes",
+          ]),
+          correctAnswer: "B,B,C,D,C",
+          points: 10,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: "Choose the correct word to complete each sentence. Each blank has only one correct answer:",
+          options: JSON.stringify([
+            "The corridor was _____ for them to move quickly. (meaning: more crowded than wanted)|A. too crowded|B. crowded enough|C. very crowded|D. so crowded",
+            "The staircase was _____ for two lines of students. (meaning: sufficient width)|A. too wide|B. very wide|C. wide enough|D. so wide",
+            "The field was _____ for all the classes. (meaning: sufficient size)|A. too large|B. very large|C. large enough|D. so large",
+            "It was _____ for Mr Lim to call names. (meaning: sufficient quietness)|A. too quiet|B. very quiet|C. quiet enough|D. so quiet",
+            "You were _____ . (meaning: sufficient speed, according to the principal)|A. too fast|B. very fast|C. fast enough|D. so fast",
+            "Jun Wei arrived _____ to join the class. (meaning: not as early as wanted)|A. too late|B. very late|C. late enough|D. early enough",
+            "The stairs were _____ for everyone to use safely. (meaning: sufficient width)|A. too wide|B. very wide|C. wide enough|D. so wide",
+            "The alarm was _____ to make everyone stop. (meaning: more loudness than wanted)|A. too loud|B. loud enough|C. very loud|D. so loud",
+          ]),
+          correctAnswer: "A,C,C,C,C,A,C,A",
+          points: 16,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `Part 1: Writing (Choose ONE topic)
+
+Write 200–300 words on ONE of the following topics:
+
+Topic 1: A Fire Drill at School
+Write about a fire drill at your school (or imagine one if you haven't experienced it yet). What happened? What did the teacher tell you to do? How did you feel?
+
+Topic 2: Why Fire Drills Are Important
+Write about why schools have fire drills. What should students do during a fire drill? Why is it important to follow the teacher's instructions?
+
+写作提示 / Tips:
+✓ 选一个题目写 200–300 词 (Choose ONE topic and write 200–300 words)
+✓ Part 1 官方要求：complete the task, organize ideas clearly, use appropriate vocabulary and grammar
+✓ 写作格式：引言（介绍话题）+ 主体（2-3 段展开）+ 结尾（总结或建议）
+✓ 用连接词：First, Then, However, Also, Because, So
+✓ 避免化石：too enough ✗, enough too ✗, very enough ✗. 如果意思是「太…不能」，用 too + adj（too crowded, too slow）。如果意思是「足够…可以」，用 adj + enough（wide enough, quiet enough）。
+✓ 本周练 too + adj（超过需要）vs adj + enough（达到需要）。The corridor was too crowded to move quickly. ✓ The staircase was wide enough for two lines. ✓
+✓ 正确区分：The room is too small（小到不行，不够用）vs The room is small enough（小到刚好够用，没问题）。意思相反！
+
+Note: This is Part 1 Writing for Sec 1. Official paper: 2 topics, choose 1, write 200–300 words.`,
+          points: 20,
+        },
+      ],
+    },
     // SMATH WEEK (AEIS-Secondary Mathematics)
     {
       level: "SMATH",
