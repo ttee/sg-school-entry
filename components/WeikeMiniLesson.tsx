@@ -111,6 +111,14 @@ export default function WeikeMiniLesson({ level, weekNumber }: WeikeMiniLessonPr
       ],
       gloss: "P3 学面积与周长：面积（area）用平方单位 cm² 或 m²，长方形面积 = 长 × 宽（length × width），正方形面积 = 边长 × 边长（side × side）。周长（perimeter）是所有边长之和，长方形周长 = 长 + 宽 + 长 + 宽 或 2 × (长 + 宽)，正方形周长 = 4 × 边长。关键词：area（面积）、perimeter（周长）、square units（平方单位）、length（长）、width（宽）、side（边）。注意：本周不教圆形、三角形面积（那是 P4 内容），答案用整数 cm 或 m，不用小数。"
     },
+    "MATH-11": {
+      examples: [
+        "The lesson starts at 9:30 a.m. and ends at 10:15 a.m. Duration = 45 minutes.",
+        "2:30 p.m. = 14:30 (24-hour clock: 2 + 12 = 14).",
+        "1 minute = 60 seconds. So 3 minutes = 3 × 60 = 180 seconds."
+      ],
+      gloss: "P3 学时间新技能：秒（seconds, 1 min = 60 s）、计算经过时间（duration: 结束 − 开始）、24 小时制（24-hour clock: 下午加 12，早上不变，例如 2:30 p.m. = 14:30, 8:00 a.m. = 08:00）。关键词：duration（经过时间）、starting time（开始时间）、finishing time（结束时间）、seconds（秒）、24-hour clock（24 小时制）。P2 第 3 周学过时间到 5 分钟，本周新增秒和 24 小时制。注意：本周不教跨午夜的时间计算（那是 P4 内容），题目都是同一天内的时间。"
+    },
     "A2-7": {
       fossil: "I going to the library tomorrow / I go to swim / Tomorrow I go library",
       examples: [
