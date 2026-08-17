@@ -4138,6 +4138,43 @@ const lessonPlans: Record<string, LessonPlan> = {
     ],
     speakingPrompts: null,
   },
+  "SMATH-32": {
+    title: "一次式化简 — Simplification of linear expressions",
+    mathExample: "−2(3x − 5) + 4x = −6x + 10 + 4x = −2x + 10",
+    sections: [
+      {
+        name: "课前",
+        duration: "2 分钟",
+        teacherNotes: "确认 Zoom 设置正常。孩子和家长都在镜头前。调整摄像头，让孩子的脸清晰可见。对家长说：「本周内容是 Sec 1 一次式化简：展开括号再合并同类项。官方 MOE 2020 G3 Sec 1 NUMBER AND ALGEBRA, N5.7 simplification of linear expressions such as −2(3x − 5) + 4x。本周重点是展开括号时，负数乘以负数等于正数（negative times negative is positive）。」提醒家长可以在旁边观摩，但请让孩子自己动笔写算式。",
+      },
+      {
+        name: "热身",
+        duration: "5 分钟",
+        teacherNotes: "在白板或屏幕上写一个简单的例子：2(x + 3)。问孩子：「这个式子怎么展开？」引导孩子说出：2 × x = 2x，2 × 3 = 6，所以 2(x + 3) = 2x + 6。再写一个：3(x − 2)。引导孩子说出：3 × x = 3x，3 × (−2) = −6，所以 3(x − 2) = 3x − 6。强调：括号外的数要乘以括号内的每一项（multiply the number outside by EVERY term inside）。如果孩子卡住，教师先示范一次，让孩子跟着说。",
+      },
+      {
+        name: "化石",
+        duration: "8 分钟",
+        teacherNotes: "在屏幕上或白板上写下错误例子：−2(3x − 5) = −6x − 10（标记为 ✗）。问孩子：「这个展开对吗？」等孩子思考后，圈出错误部分 −10。解释：−2 乘以 −5 应该是 +10，不是 −10。负数乘以负数等于正数（negative times negative is positive）。改正后写：−2(3x − 5) = −6x + 10（标记为 ✓）。让孩子跟读改正后的步骤 3 次：−2 × 3x = −6x，−2 × (−5) = +10，所以 −2(3x − 5) = −6x + 10。再写一个错误例子：4x − 2(3x − 5) = 4x − 6x − 10（标记为 ✗）。问孩子：「这个对吗？」引导孩子发现 −2 × (−5) 应该是 +10，不是 −10。改正：4x − 2(3x − 5) = 4x − 6x + 10 = −2x + 10（标记为 ✓）。让孩子跟读 3 次。",
+      },
+      {
+        name: "示范",
+        duration: "10 分钟",
+        teacherNotes: "教师示范三道完整例题（写出推理步骤）。例题 1（−2(3x − 5) + 4x simplification）：Simplify −2(3x − 5) + 4x. Show your working. 步骤：① Expand the bracket: −2(3x − 5) = −2 × 3x + (−2) × (−5) = −6x + 10. ② Write: −2(3x − 5) + 4x = −6x + 10 + 4x. ③ Collect like terms: −6x + 4x = −2x. ④ Answer: −2x + 10. (Note: When multiplying −2 by the bracket, multiply −2 by EVERY term inside. −2 × 3x = −6x. −2 × (−5) = +10, not −10. Negative times negative is positive. Common fossil: writing −6x − 10 instead of −6x + 10, or writing the final answer as −2x − 10 instead of −2x + 10.) 例题 2（2(3x − 5) + 4x simplification）：Simplify 2(3x − 5) + 4x. Show your working. 步骤：① Expand the bracket: 2(3x − 5) = 2 × 3x + 2 × (−5) = 6x − 10. ② Write: 2(3x − 5) + 4x = 6x − 10 + 4x. ③ Collect like terms: 6x + 4x = 10x. ④ Answer: 10x − 10. (Note: 2 × (−5) = −10, not +10.) 例题 3（3(x + 2) − 2(x − 1) simplification with two brackets）：Simplify 3(x + 2) − 2(x − 1). Show your working. 步骤：① Expand the first bracket: 3(x + 2) = 3x + 6. ② Expand the second bracket: −2(x − 1) = −2x + 2. ③ Write: 3(x + 2) − 2(x − 1) = 3x + 6 − 2x + 2. ④ Collect like terms: 3x − 2x = x, 6 + 2 = 8. ⑤ Answer: x + 8. (Note: −2 × (−1) = +2, not −2.)",
+      },
+      {
+        name: "练习",
+        duration: "12 分钟",
+        teacherNotes: "给孩子 3 道练习题，让孩子独立做，写出推理步骤。家长可以用手机拍照孩子的推理。题 1：Simplify 2(x + 3) + 4x. Show your working. 答案：① Expand the bracket: 2(x + 3) = 2x + 6. ② Write: 2(x + 3) + 4x = 2x + 6 + 4x. ③ Collect like terms: 2x + 4x = 6x. ④ Answer: 6x + 6. (Note: Expand first, then collect like terms.) 题 2：Wei simplifies −2(3x − 5) + 4x. (i) Show your working and write the simplified answer. (ii) Aisha writes −2(3x − 5) + 4x = −6x − 10 + 4x = −2x − 10. Explain why this is wrong and what the correct answer should be. 答案：(i) ① Expand the bracket: −2(3x − 5) = −2 × 3x + (−2) × (−5) = −6x + 10. ② Write: −2(3x − 5) + 4x = −6x + 10 + 4x. ③ Collect like terms: −6x + 4x = −2x. ④ Answer: −2x + 10. (ii) Aisha's answer −2x − 10 is wrong because she expanded −2(3x − 5) as −6x − 10 instead of −6x + 10. She forgot that −2 × (−5) = +10, not −10. Negative times negative is positive. The correct answer is −2x + 10, not −2x − 10. 题 3：Mr Lim gives the expression 3(x + 2) − 2(x − 1). Simplify the expression. Show your working. 答案：① Expand the first bracket: 3(x + 2) = 3x + 6. ② Expand the second bracket: −2(x − 1) = −2x + 2. ③ Write: 3(x + 2) − 2(x − 1) = 3x + 6 − 2x + 2. ④ Collect like terms: 3x − 2x = x, 6 + 2 = 8. ⑤ Answer: x + 8. (Note: −2 × (−1) = +2, not −2. Expand both brackets first, then collect like terms.)",
+      },
+      {
+        name: "收口",
+        duration: "3 分钟",
+        teacherNotes: "总结本周重点：(1) 官方 Sec 1 AEIS 数学卷型：Part 1 MCQ 34 题 30 分钟 + Part 2 show working 20+10–15 题 1 小时 45 分钟，不用计算器。(2) 本周内容：Sec 1 NUMBER AND ALGEBRA, N5. Algebraic expressions and formulae: 5.7 simplification of linear expressions such as −2(3x − 5) + 4x ; 2x/3 − 3(x − 5)/2（一次式化简：展开括号再合并同类项），对应 preceding level 规则。第 26–31 周已完成 5.1–5.6，本周只教 5.7 simplification of linear expressions（一次式化简）。(3) 本周化石：−2(3x − 5) = −6x − 5 or −6x − 10（错误：忘记负负得正 negative times negative is positive，正确是 −6x + 10，因为 −2 × (−5) = +10）；4x − 2(3x − 5) = 4x − 6x − 10（错误：忘记 −2 × (−5) = +10，写成了 −10，正确应该是 4x − 6x + 10 = −2x + 10）；dropping the sign on the second term inside the bracket（漏掉括号里第二项的符号）。(4) 本周方法：Expand the bracket, then collect like terms（展开括号，然后合并同类项）。−2(3x − 5) + 4x = −6x + 10 + 4x = −2x + 10（先展开 −2 乘以括号里的每一项：−2 × 3x = −6x，−2 × (−5) = +10；再合并 −6x + 4x = −2x）。2(3x − 5) + 4x = 6x − 10 + 4x = 10x − 10（2 × 3x = 6x，2 × (−5) = −10；6x + 4x = 10x）。3(x + 2) − 2(x − 1) = 3x + 6 − 2x + 2 = x + 8（展开两个括号：3(x + 2) = 3x + 6，−2(x − 1) = −2x + 2；合并：3x − 2x = x，6 + 2 = 8）。4x − 2(3x − 5) = 4x − 6x + 10 = −2x + 10（展开：−2 × 3x = −6x，−2 × (−5) = +10；合并：4x − 6x = −2x）。本周不教 5.8 use of brackets and extraction of common factors（括号的使用和提取公因数，下周内容）。Friendly integers。No calculator。写出算式步骤。(5) 下周课前请孩子完成第 32 周 app 作业（5 道选择 + 8 道选择 + 3 道 show working）。家长微信看每周进度通报，app 作业练对了就 OK，练错了说明题目难度合适需要本周反复练。」",
+      },
+    ],
+    speakingPrompts: null,
+  },
 };
 
 export default async function LessonPlanPage({

@@ -9650,6 +9650,97 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
         },
       ],
     },
+    {
+      level: "SMATH",
+      weekNumber: 32,
+      title: "数学 第 32 周 / Maths Week 32",
+      description: "AEIS-Secondary Mathematics: Sec 1 simplification of linear expressions",
+      isSample: false,
+      errorFocus: "−2(3x − 5) = −6x − 5 or −6x − 10 (not +10); 4x − 2(3x − 5) = 4x − 6x − 10 (not +10); dropping the sign on the second term inside the bracket",
+      parentBrief: "本周是中学 AEIS 数学第 32 周，对应官方 SEAB Sec 1 卷型（https://www.seab.gov.sg/aeis/test-details/ 2026年7月1日更新）。Part 1 Multiple-choice questions：34 道 MCQ，30 分钟。Part 2 Short-answer questions (20 items) and open-ended questions (10 to 15 items)：1 小时 45 分钟。Calculators are not allowed（不允许使用计算器）。Short-answer and open-ended questions：candidates are required to show the method of solution clearly by writing working steps in the spaces provided, plus the final answer（需写出算式步骤和最终答案）。AEIS-Secondary 官方 preceding-level 规则：申请 Sec 2 入学者需熟悉 Sec 2 前一级的内容。官方举例：apply Secondary 3 → be familiar with Secondary 2 content. 本周针对 Sec 2 申请者，内容为 Sec 2 前一级（Sec 1）的官方 MOE 2020 G3 Mathematics Syllabuses, Secondary One, NUMBER AND ALGEBRA, N5. Algebraic expressions and formulae: 5.7 simplification of linear expressions such as −2(3x − 5) + 4x（一次式化简）。第 26–31 周已完成 5.1–5.6（using letters to represent numbers、interpreting notations、evaluation of algebraic expressions、translation of simple real-world situations into algebraic expressions、recognising and representing patterns/relationships by finding an algebraic expression for the nth term、addition and subtraction of linear expressions），本周只教 5.7 simplification of linear expressions such as −2(3x − 5) + 4x（一次式化简）。本周不教 5.8 use of brackets and extraction of common factors（括号的使用和提取公因数，下周内容）。官方 5.7 wording（官方术语，逐字引用）：'simplification of linear expressions such as −2(3x − 5) + 4x ; 2x/3 − 3(x − 5)/2'。本周方法：Expand the bracket, then collect like terms（展开括号，然后合并同类项）。−2(3x − 5) + 4x = −6x + 10 + 4x = −2x + 10（先展开 −2 乘以括号里的每一项：−2 × 3x = −6x，−2 × (−5) = +10；再合并 −6x + 4x = −2x）。2(3x − 5) + 4x = 6x − 10 + 4x = 10x − 10。3(x + 2) − 2(x − 1) = 3x + 6 − 2x + 2 = x + 8（先展开两个括号，再合并）。4x − 2(3x − 5) = 4x − 6x + 10 = −2x + 10（注意 −2 × (−5) = +10，不是 −10）。Friendly integers. No calculator. 本周化石 fossil errors：−2(3x − 5) = −6x − 5 or −6x − 10（错误：忘记负负得正，正确是 −6x + 10）；4x − 2(3x − 5) = 4x − 6x − 10（错误：忘记 −2 × (−5) = +10，写成了 −10，正确应该是 4x − 6x + 10 = −2x + 10）；dropping the sign on the second term inside the bracket（漏掉括号里第二项的符号）。唯一性 unique keys：两个选项不能是同一个表达式（Two options must not be the same expression）。The fossil −2x − 10 must be WRONG when the answer is −2x + 10（化石值 −2x − 10 必须是错误选项，当正确答案是 −2x + 10 时）。Do not offer both −2x + 10 and 10 − 2x as two options（不要同时提供 −2x + 10 和 10 − 2x 作为两个选项，它们是同一个表达式）。Recheck every minus times a bracket: −2(3x − 5) = −6x + 10（检查每个负数乘以括号：−2 × 3x = −6x，−2 × (−5) = +10）。本周作业是样本，不是完整 34 + 20 + 10–15 题。非官方机构运营（affiliation 非官方机构 is OK）。不发明官方未提及的内容（do not invent official facts）。不声称 AEIS 是 G3 paper（G3 只是官方 preceding-level 内容来源，do NOT claim AEIS is a G3 paper）。不发明官方 cut-scores 或 extra official names。第 26–31 周已完成 5.1–5.6，本周只教 5.7 simplification of linear expressions（一次式化简，展开括号再合并）。本周不教 5.8 use of brackets and extraction of common factors（括号的使用和提取公因数，下周内容）。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "Simplify −2(3x − 5) + 4x.|A. −2x + 10|B. −2x − 10|C. −6x + 10|D. 2x + 10",
+            "Simplify 2(3x − 5) + 4x.|A. 10x − 10|B. 6x − 10|C. 10x + 10|D. 6x + 10",
+            "Simplify 3(x + 2) − 2(x − 1).|A. x + 8|B. x + 4|C. 5x + 8|D. x + 6",
+            "Simplify 4x − 2(3x − 5).|A. −2x + 10|B. −2x − 10|C. 2x + 10|D. 2x − 10",
+            "Which working is correct for −2(3x − 5)?|A. −2 × 3x = −6x, −2 × (−5) = +10, so −6x + 10|B. −2 × 3x = −6x, −2 × (−5) = −10, so −6x − 10|C. −2 × 3x = −6x, −2 × 5 = −10, so −6x − 5|D. −2 × 3x = 6x, −2 × (−5) = 10, so 6x + 10",
+          ]),
+          correctAnswer: "A,A,A,A,A",
+          points: 10,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "Simplify 2(x + 3) + x.|A. 3x + 6|B. 2x + 6|C. 3x + 3|D. 2x + 3",
+            "Simplify −3(x − 2) + 5x.|A. 2x + 6|B. 8x + 6|C. 2x − 6|D. −8x + 6",
+            "Simplify 5x − (2x − 4).|A. 3x + 4|B. 3x − 4|C. 7x + 4|D. 7x − 4",
+            "Simplify 3(2x + 1) − 4x.|A. 2x + 3|B. 6x + 3|C. 2x + 1|D. 10x + 3",
+            "Which is NOT equal to −2(3x − 5) + 4x?|A. −2x + 10|B. −6x + 10 + 4x|C. −2x − 10|D. 4x − 6x + 10",
+            "Wei simplifies 4x − 2(3x − 5). Which is the correct answer?|A. −2x + 10|B. −2x − 10|C. 2x + 10|D. 2x − 10",
+            "Aisha simplifies −(x − 3) + 2x. What is the answer?|A. x + 3|B. 3x + 3|C. x − 3|D. 3x − 3",
+            "Mr Lim at Riverside Secondary asks: Simplify 6x − 3(x − 2). Which expression is the answer?|A. 3x + 6|B. 3x − 6|C. 9x + 6|D. 9x − 6",
+          ]),
+          correctAnswer: "A,A,A,A,C,A,A,A",
+          points: 16,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `Part 2: Show Your Working (写出算式步骤)
+
+Riverside Secondary School has algebraic expression problems. Answer the questions below. Show your working clearly.
+
+Question (a)
+Simplify 2(x + 3) + 4x.
+Show your working.
+
+Question (b)
+Wei simplifies −2(3x − 5) + 4x.
+(i) Show your working and write the simplified answer.
+(ii) Aisha writes −2(3x − 5) + 4x = −6x − 10 + 4x = −2x − 10. Explain why this is wrong and what the correct answer should be.
+
+Question (c)
+Mr Lim gives the expression 3(x + 2) − 2(x − 1).
+Simplify the expression. Show your working.
+
+写作提示 / Tips:
+✓ 每题分步骤写出推理 (Show working steps for each question)
+✓ Part 2 官方要求：clearly show the method of solution by writing working steps, plus the final answer
+✓ 不用计算器 (No calculators allowed)
+✓ 一次式化简步骤示范 (simplification of linear expressions examples)：
+  • −2(3x − 5) + 4x = −2x + 10（展开括号再合并）：
+    Simplify −2(3x − 5) + 4x. Show your working.
+    Solution: ① Expand the bracket: −2(3x − 5) = −2 × 3x + (−2) × (−5) = −6x + 10. ② Write: −2(3x − 5) + 4x = −6x + 10 + 4x. ③ Collect like terms: −6x + 4x = −2x. ④ Answer: −2x + 10. (Note: When multiplying −2 by the bracket, multiply −2 by EVERY term inside. −2 × 3x = −6x. −2 × (−5) = +10, not −10. Negative times negative is positive. Common fossil: writing −6x − 10 instead of −6x + 10, or writing the final answer as −2x − 10 instead of −2x + 10.)
+  • 2(3x − 5) + 4x = 10x − 10（展开括号再合并）：
+    Simplify 2(3x − 5) + 4x. Show your working.
+    Solution: ① Expand the bracket: 2(3x − 5) = 2 × 3x + 2 × (−5) = 6x − 10. ② Write: 2(3x − 5) + 4x = 6x − 10 + 4x. ③ Collect like terms: 6x + 4x = 10x. ④ Answer: 10x − 10. (Note: 2 × (−5) = −10, not +10.)
+  • 3(x + 2) − 2(x − 1) = x + 8（展开两个括号再合并）：
+    Simplify 3(x + 2) − 2(x − 1). Show your working.
+    Solution: ① Expand the first bracket: 3(x + 2) = 3x + 6. ② Expand the second bracket: −2(x − 1) = −2x + 2. ③ Write: 3(x + 2) − 2(x − 1) = 3x + 6 − 2x + 2. ④ Collect like terms: 3x − 2x = x, 6 + 2 = 8. ⑤ Answer: x + 8. (Note: −2 × (−1) = +2, not −2.)
+  • 4x − 2(3x − 5) = −2x + 10（展开括号再合并）：
+    Simplify 4x − 2(3x − 5). Show your working.
+    Solution: ① Expand the bracket: −2(3x − 5) = −2 × 3x + (−2) × (−5) = −6x + 10. ② Write: 4x − 2(3x − 5) = 4x − 6x + 10. ③ Collect like terms: 4x − 6x = −2x. ④ Answer: −2x + 10. (Note: −2 × (−5) = +10, not −10. Common fossil: writing 4x − 6x − 10 = −2x − 10, which is wrong. The correct answer is −2x + 10.)
+✓ 关键步骤：Step 1: Expand the bracket by multiplying the number outside by EVERY term inside（展开括号：把括号外的数乘以括号内的每一项）. Step 2: Write the full expanded expression（写出完整的展开式）. Step 3: Collect like terms（合并同类项）. Step 4: State the final answer（陈述最终答案）. Step 5: Check the sign of each term（检查每一项的符号：负数乘以负数是正数 negative times negative is positive）.
+✓ 化石 (fossil errors)：
+  • −2(3x − 5) = −6x − 5 or −6x − 10（错误：忘记负负得正 negative times negative is positive，正确是 −6x + 10，因为 −2 × (−5) = +10）
+  • 4x − 2(3x − 5) = 4x − 6x − 10（错误：忘记 −2 × (−5) = +10，写成了 −10，正确应该是 4x − 6x + 10 = −2x + 10）
+  • Dropping the sign on the second term inside the bracket（漏掉括号里第二项的符号）：−2(3x − 5) 时忘记 −2 要乘以 −5
+  • 本周教 N5 的 5.7（simplification of linear expressions such as −2(3x − 5) + 4x，一次式化简：展开括号再合并同类项）。第 26–31 周已完成 5.1–5.6，本周只教 5.7 simplification of linear expressions（一次式化简）。本周不教 5.8 use of brackets and extraction of common factors（括号的使用和提取公因数，下周内容）。
+
+Note: This is a sample of Part 2 short-answer/open-ended questions. The official paper has 20 short-answer + 10–15 open-ended items in 1 hour 45 minutes.`,
+          points: 20,
+        },
+      ],
+    },
   ];
 
   // =================================================================
