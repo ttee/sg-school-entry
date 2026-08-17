@@ -34,7 +34,7 @@ export default function DualValidationMapMathWeek25() {
                 • 1.2 reading and interpreting data from pie charts (identifying the largest slice by comparing fractions)
               </td>
               <td className="px-3 py-3 text-ink-2 align-top">
-                申请 <strong>P5</strong> 的孩子需理解 <strong>P4</strong> 技能：比较分数大小找最大块。1/2 > 1/4 > 1/8，所以 Football (1/2) 最受欢迎
+                申请 <strong>P5</strong> 的孩子需理解 <strong>P4</strong> 技能：比较分数大小找最大块。1/2 &gt; 1/4 &gt; 1/8，所以 Football (1/2) 最受欢迎
               </td>
             </tr>
             <tr className="border-b border-accent/10">
@@ -83,10 +83,10 @@ export default function DualValidationMapMathWeek25() {
               </td>
               <td className="px-3 py-3 text-ink-2 align-top">
                 <strong>Statistics</strong><br />
-                • 1.2 reading and interpreting data from pie charts (calculating with fractions where numerator > 1)
+                • 1.2 reading and interpreting data from pie charts (calculating with fractions where numerator &gt; 1)
               </td>
               <td className="px-3 py-3 text-ink-2 align-top">
-                P4 技能：用分数（分子>1）乘总数。2/5 of 60 = 60 ÷ 5 × 2 = 12 × 2 = 24 students
+                P4 技能：用分数（分子 &gt; 1）乘总数。2/5 of 60 = 60 ÷ 5 × 2 = 12 × 2 = 24 students
               </td>
             </tr>
             <tr className="border-b border-accent/10">
@@ -99,7 +99,7 @@ export default function DualValidationMapMathWeek25() {
                 • 1.2 reading and interpreting data from pie charts (comparing fractions to find largest)
               </td>
               <td className="px-3 py-3 text-ink-2 align-top">
-                P4 技能：比较分数找最大块。2/5 > 1/5，所以 Maths 最受欢迎
+                P4 技能：比较分数找最大块。2/5 &gt; 1/5，所以 Maths 最受欢迎
               </td>
             </tr>
             <tr className="border-b border-accent/10">
@@ -187,7 +187,7 @@ export default function DualValidationMapMathWeek25() {
               </td>
               <td className="px-3 py-3 text-ink-2 align-top">
                 <strong>Statistics</strong><br />
-                • 1.2 reading and interpreting data from pie charts (fraction with numerator > 1)
+                • 1.2 reading and interpreting data from pie charts (fraction with numerator &gt; 1)
               </td>
               <td className="px-3 py-3 text-ink-2 align-top">
                 P4 技能：3/8 of 56 = 56 ÷ 8 × 3 = 7 × 3 = 21 students
@@ -196,7 +196,7 @@ export default function DualValidationMapMathWeek25() {
             <tr>
               <td className="px-3 py-3 text-ink align-top">
                 <strong>应用题（需写 working）</strong><br />
-                (a) 32 students. Pie: Apple 1/4, Orange 1/2, Mango 1/8, Banana 1/8. Most popular? Compare fractions: 1/2 > 1/4 > 1/8. Orange.<br />
+                (a) 32 students. Pie: Apple 1/4, Orange 1/2, Mango 1/8, Banana 1/8. Most popular? Compare fractions: 1/2 &gt; 1/4 &gt; 1/8. Orange.<br />
                 (b) 40 drinks. Pie: Water 1/2 = 40 ÷ 2 = 20. Juice 1/4 = 40 ÷ 4 = 10.<br />
                 (c) 48 children. Pie: Running 1/3 = 48 ÷ 3 = 16. Check sum: 1/3 + 1/6 + 1/3 + 1/6 = 1 ✓
               </td>
@@ -206,7 +206,7 @@ export default function DualValidationMapMathWeek25() {
                 • Multi-step problem requiring showing working
               </td>
               <td className="px-3 py-3 text-ink-2 align-top">
-                AEIS P4/P5 数学 Part 2 short-answer questions 要求 show working steps。本题练习：(a) 比较分数找最大块：1/2 = 4/8, 1/4 = 2/8, 1/8 = 1/8, 1/8 = 1/8. 最大是 4/8 = 1/2，所以 Orange；(b) 算两块人数：Water = 1/2 of 40 = 40 ÷ 2 = 20，Juice = 1/4 of 40 = 40 ÷ 4 = 10；(c) 算一块人数并验证：Running = 1/3 of 48 = 48 ÷ 3 = 16。验证：1/3 + 1/6 + 1/3 + 1/6 = 2/6 + 1/6 + 2/6 + 1/6 = 6/6 = 1 ✓。要求孩子写出每一步算式（如 "40 ÷ 2 = 20"）、比较分数过程（如 "1/2 = 4/8, 1/4 = 2/8, so 4/8 > 2/8, Orange is the most popular"）、验证分数之和是 1（如 "Check: 1/2 + 1/4 + 1/8 + 1/8 = 4/8 + 2/8 + 1/8 + 1/8 = 8/8 = 1. Correct."）。常见错误：把最大块当作全部（treating the largest slice as the whole: 如果 Football 是 1/2，不是说 Football = 40，而是 Football = 40 ÷ 2 = 20）、先乘分子再除分母（incorrect order: should divide by denominator first: 40 ÷ 2, not 40 × 1 ÷ 2）、分数加起来不是 1（fractions do not sum to 1: 必须检查）、比较分数时不通分（not converting to common denominator when comparing unlike fractions）
+                AEIS P4/P5 数学 Part 2 short-answer questions 要求 show working steps。本题练习：(a) 比较分数找最大块：1/2 = 4/8, 1/4 = 2/8, 1/8 = 1/8, 1/8 = 1/8. 最大是 4/8 = 1/2，所以 Orange；(b) 算两块人数：Water = 1/2 of 40 = 40 ÷ 2 = 20，Juice = 1/4 of 40 = 40 ÷ 4 = 10；(c) 算一块人数并验证：Running = 1/3 of 48 = 48 ÷ 3 = 16。验证：1/3 + 1/6 + 1/3 + 1/6 = 2/6 + 1/6 + 2/6 + 1/6 = 6/6 = 1 ✓。要求孩子写出每一步算式（如 "40 ÷ 2 = 20"）、比较分数过程（如 "1/2 = 4/8, 1/4 = 2/8, so 4/8 &gt; 2/8, Orange is the most popular"）、验证分数之和是 1（如 "Check: 1/2 + 1/4 + 1/8 + 1/8 = 4/8 + 2/8 + 1/8 + 1/8 = 8/8 = 1. Correct."）。常见错误：把最大块当作全部（treating the largest slice as the whole: 如果 Football 是 1/2，不是说 Football = 40，而是 Football = 40 ÷ 2 = 20）、先乘分子再除分母（incorrect order: should divide by denominator first: 40 ÷ 2, not 40 × 1 ÷ 2）、分数加起来不是 1（fractions do not sum to 1: 必须检查）、比较分数时不通分（not converting to common denominator when comparing unlike fractions）
               </td>
             </tr>
           </tbody>

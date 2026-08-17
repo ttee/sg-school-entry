@@ -48,7 +48,7 @@ export default function DualValidationMapMathWeek20() {
                 • 1.2 comparing and ordering decimals
               </td>
               <td className="px-3 py-3 text-ink-2 align-top">
-                P4 技能：比较小数。0.47 = 47 hundredths, 0.5 = 0.50 = 50 hundredths，所以 0.47 < 0.5
+                P4 技能：比较小数。0.47 = 47 hundredths, 0.5 = 0.50 = 50 hundredths，所以 0.47 &lt; 0.5
               </td>
             </tr>
             <tr className="border-b border-accent/10">
@@ -62,7 +62,7 @@ export default function DualValidationMapMathWeek20() {
                 • Ordering 3 decimals from smallest to greatest
               </td>
               <td className="px-3 py-3 text-ink-2 align-top">
-                P4 技能：排序小数。补零对齐：0.800, 0.750, 0.805。从小到大：0.75 < 0.8 < 0.805
+                P4 技能：排序小数。补零对齐：0.800, 0.750, 0.805。从小到大：0.75 &lt; 0.8 &lt; 0.805
               </td>
             </tr>
             <tr className="border-b border-accent/10">
@@ -141,7 +141,7 @@ export default function DualValidationMapMathWeek20() {
                 • 1.5 rounding decimals to 2 decimal places
               </td>
               <td className="px-3 py-3 text-ink-2 align-top">
-                P4 技能：四舍五入到2位小数。看第3位：2 < 5，不进位。5.852 → 5.85
+                P4 技能：四舍五入到2位小数。看第3位：2 &lt; 5，不进位。5.852 → 5.85
               </td>
             </tr>
             <tr className="border-b border-accent/10">
@@ -154,7 +154,7 @@ export default function DualValidationMapMathWeek20() {
                 • 1.2 comparing and ordering decimals
               </td>
               <td className="px-3 py-3 text-ink-2 align-top">
-                P4 技能：0.6 = 0.60 > 0.58
+                P4 技能：0.6 = 0.60 &gt; 0.58
               </td>
             </tr>
             <tr className="border-b border-accent/10">
@@ -180,7 +180,7 @@ export default function DualValidationMapMathWeek20() {
                 • 1.5 rounding decimals to nearest whole number
               </td>
               <td className="px-3 py-3 text-ink-2 align-top">
-                P4 技能：看十分位：4 < 5，不进位。3.47 → 3
+                P4 技能：看十分位：4 &lt; 5，不进位。3.47 → 3
               </td>
             </tr>
             <tr className="border-b border-accent/10">
@@ -212,7 +212,7 @@ export default function DualValidationMapMathWeek20() {
                 • 1.5 rounding decimals
               </td>
               <td className="px-3 py-3 text-ink-2 align-top">
-                AEIS P4/P5 数学 Part 2 short-answer questions 要求 show working steps。本题练习：(a) 8 在百分位 = 0.08；(b) 补零对齐 1.200, 1.150, 1.205，从小到大 1.15 < 1.2 < 1.205；(c) 0.6 = 6/10 = 3/5, 3/4 = 75/100 = 0.75, 4.68 → 4.7（看百分位 8 ≥ 5 进位）。要求孩子写出算式、答案、以及说明（位值、补零对齐、化简、分母是10或100的因数、四舍五入规则）
+                AEIS P4/P5 数学 Part 2 short-answer questions 要求 show working steps。本题练习：(a) 8 在百分位 = 0.08；(b) 补零对齐 1.200, 1.150, 1.205，从小到大 1.15 &lt; 1.2 &lt; 1.205；(c) 0.6 = 6/10 = 3/5, 3/4 = 75/100 = 0.75, 4.68 → 4.7（看百分位 8 ≥ 5 进位）。要求孩子写出算式、答案、以及说明（位值、补零对齐、化简、分母是10或100的因数、四舍五入规则）
               </td>
             </tr>
           </tbody>

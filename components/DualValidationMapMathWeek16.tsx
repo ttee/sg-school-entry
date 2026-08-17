@@ -191,7 +191,7 @@ export default function DualValidationMapMathWeek16() {
                 • Checking division answers
               </td>
               <td className="px-3 py-3 text-ink-2 align-top">
-                P4 标准技能：检查除法答案。验证：7 × 978 = 6846, 6846 + 1 = 6847 ✓。余数必须小于除数（1 < 7 ✓）
+                P4 标准技能：检查除法答案。验证：7 × 978 = 6846, 6846 + 1 = 6847 ✓。余数必须小于除数（1 &lt; 7 ✓）
               </td>
             </tr>
             <tr>
@@ -209,7 +209,7 @@ export default function DualValidationMapMathWeek16() {
                 • Showing working steps
               </td>
               <td className="px-3 py-3 text-ink-2 align-top">
-                AEIS P4/P5 数学 Part 2 short-answer questions 要求 show working steps。本题练习：(a) 1856 × 3 = 5568（4 位数 × 1 位数）；(b) 4365 ÷ 9 = 485 R0（整除，9 × 485 = 4365）；(c) 248 × 45 = 11160 markers total（3 位数 × 2 位数）。600 × 18 = 10800 needed（3 位数 × 2 位数）。11160 > 10800，所以够。要求孩子写出算式、答案、以及判断理由
+                AEIS P4/P5 数学 Part 2 short-answer questions 要求 show working steps。本题练习：(a) 1856 × 3 = 5568（4 位数 × 1 位数）；(b) 4365 ÷ 9 = 485 R0（整除，9 × 485 = 4365）；(c) 248 × 45 = 11160 markers total（3 位数 × 2 位数）。600 × 18 = 10800 needed（3 位数 × 2 位数）。11160 &gt; 10800，所以够。要求孩子写出算式、答案、以及判断理由
               </td>
             </tr>
           </tbody>

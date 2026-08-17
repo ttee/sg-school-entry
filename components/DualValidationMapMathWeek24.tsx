@@ -47,7 +47,7 @@ export default function DualValidationMapMathWeek24() {
                 • 1.2 reading and interpreting data from tables and line graphs (identifying increase/decrease and calculating difference)
               </td>
               <td className="px-3 py-3 text-ink-2 align-top">
-                P4 技能：读折线图趋势，判断升降。Tuesday 31°C → Wednesday 29°C，31 > 29，所以 down。差值 = 31 − 29 = 2°C
+                P4 技能：读折线图趋势，判断升降。Tuesday 31°C → Wednesday 29°C，31 &gt; 29，所以 down。差值 = 31 − 29 = 2°C
               </td>
             </tr>
             <tr className="border-b border-accent/10">
@@ -125,7 +125,7 @@ export default function DualValidationMapMathWeek24() {
                 • 1.2 reading and interpreting data from line graphs (identifying decrease)
               </td>
               <td className="px-3 py-3 text-ink-2 align-top">
-                P4 技能：判断哪一天下降。Tuesday 30 → Wednesday 27，30 > 27，所以 Wednesday went down
+                P4 技能：判断哪一天下降。Tuesday 30 → Wednesday 27，30 &gt; 27，所以 Wednesday went down
               </td>
             </tr>
             <tr className="border-b border-accent/10">
