@@ -5140,6 +5140,44 @@ const lessonPlans: Record<string, LessonPlan> = {
     ],
     speakingPrompts: null,
   },
+  "SMATH-59": {
+    title: "代数式的积的展开 — Expansion of the product of algebraic expressions",
+    mathExample: "(x+2)(x+3) = x² + 5x + 6. (2x+3)(x+2) = 2x² + 7x + 6. (x−1)(x+3) = x² + 2x − 3.",
+    boardWriting: "SMATH Week 59: Sec 2 N5.9 expansion of the product of algebraic expressions. (x+a)(x+b): multiply each term in first bracket by each term in second bracket (FOIL), then collect like terms.",
+    sections: [
+      {
+        name: "课前",
+        duration: "2 分钟",
+        teacherNotes: "欢迎孩子。「今天是第 59 周 AEIS 中学数学，我们学 Sec 2 N5.9 expansion of the product of algebraic expressions（代数式的积的展开）。本周是 Sec 2 N5.9 only，不教 5.10 changing the subject of a formula，不教 5.12 identities (a+b)² / (a−b)² / a²−b² as a named identities week — only expand products，不重教 N2.5 proportion。第 8–56 周我们已完成 Sec 1 内容，第 57 周已完成 Sec 2 N2.4 map scales，第 58 周已完成 Sec 2 N2.5 direct and inverse proportion，本周继续 Sec 2 内容（Sec 3 申请者的 preceding level）。」告诉孩子本周化石焦点（高频错误）：「本周化石焦点：forgetting to multiply the second term (only doing x·x and dropping the rest), or adding instead of multiplying when expanding（忘记乘第二项，只做 x·x 就完了；或者把括号相加而不是相乘，说 (x+2)(x+3) = x²+5 而不是 x²+5x+6）。我们会反复练这个点，直到改掉。」",
+      },
+      {
+        name: "热身",
+        duration: "5 分钟",
+        teacherNotes: "问孩子：「你以前学过代数式化简吗？比如 3x + 2x = 5x？」让孩子简单说一句。然后说：「今天我们学的是 expansion of the product（乘积的展开）。比如 (x+2)(x+3) 这样的两个括号相乘，要把第一个括号的每一项乘以第二个括号的每一项，然后合并同类项。英语口诀叫 FOIL: First, Outer, Inner, Last。」让孩子跟读一句：「Multiply each term in the first bracket by each term in the second bracket.」然后问：「如果 (x+2)(x+3)，x 乘 x 等于什么？」等孩子说 x²。「很好！但这只是四个乘法中的第一个，还有三个要做。接下来我们看微课例题。」",
+      },
+      {
+        name: "化石",
+        duration: "10 分钟",
+        teacherNotes: "打开屏幕共享或白板，写下本周化石错误：「Fossil 1: (x+2)(x+3) = x² + 6. ✗ (forgetting the middle term)」和「Fossil 2: (x+2)(x+3) = x² + 5. ✗ (adding 2+3=5 instead of expanding)」说明：「这两个都是化石化错误。正确做法：Each term in the first bracket must multiply each term in the second bracket（第一个括号的每一项乘以第二个括号的每一项）。(x+2)(x+3) = x·x + x·3 + 2·x + 2·3 = x² + 3x + 2x + 6. Then collect like terms（合并同类项）: 3x + 2x = 5x. Final answer: x² + 5x + 6. 如果你只做 x·x 和 2·3，忘记了 x·3 和 2·x，你就只得到 x² + 6，丢掉了中间项 5x。这是化石化错误 1：忘记乘第二项。如果你把 2+3=5 然后说答案是 x²+5，那是化石化错误 2：把括号加起来而不是乘起来。括号的意思是 MULTIPLY（相乘），不是 add（相加）。你不能直接把 2 和 3 加起来。你必须做完四个乘法：x·x, x·3, 2·x, 2·3，然后合并同类项。」让孩子跟读一句：「FOIL: First (x·x = x²), Outer (x·3 = 3x), Inner (2·x = 2x), Last (2·3 = 6). Collect like terms: 3x + 2x = 5x. Final: x² + 5x + 6.」再举一个例子：「(2x+3)(x+2) = 2x·x + 2x·2 + 3·x + 3·2 = 2x² + 4x + 3x + 6 = 2x² + 7x + 6. 注意 2x·x = 2x²（系数也要乘：2×1=2）。」让孩子看懂这个点。",
+      },
+      {
+        name: "示范",
+        duration: "15 分钟",
+        teacherNotes: "示范四道例题（在屏幕上或白板上边写边讲）：\n\n例题 1: Expand (x+2)(x+3).\nUse the distributive property (FOIL method): multiply each term in the first bracket by each term in the second bracket. First: x·x = x². Outer: x·3 = 3x. Inner: 2·x = 2x. Last: 2·3 = 6. Combine: (x+2)(x+3) = x² + 3x + 2x + 6. Collect like terms: 3x + 2x = 5x. Final answer: x² + 5x + 6. (Note: Each term in the first bracket multiplies each term in the second bracket. Do not forget any term. Then collect like terms.)\n\n例题 2: Expand (2x+3)(x+2).\nMultiply each term in the first bracket by each term in the second bracket. 2x·x = 2x². 2x·2 = 4x. 3·x = 3x. 3·2 = 6. Combine: (2x+3)(x+2) = 2x² + 4x + 3x + 6. Collect like terms: 4x + 3x = 7x. Final answer: 2x² + 7x + 6. (Note: When the first term is 2x, 2x·x = 2x², not x². Multiply the coefficients: 2×1 = 2.)\n\n例题 3: Expand (x−1)(x+3).\nMultiply each term. Treat −1 as a single term (negative). x·x = x². x·3 = 3x. (−1)·x = −x. (−1)·3 = −3. Combine: (x−1)(x+3) = x² + 3x − x − 3. Collect like terms: 3x − x = 2x. Final answer: x² + 2x − 3. (Note: When you have a negative term like −1, multiply it by each term in the second bracket. (−1)·x = −x, (−1)·3 = −3. Then collect like terms: 3x − x = 2x.)\n\n例题 4: Expand (3x+1)(x+4).\n3x·x = 3x². 3x·4 = 12x. 1·x = x. 1·4 = 4. Combine: (3x+1)(x+4) = 3x² + 12x + x + 4. Collect like terms: 12x + x = 13x. Final answer: 3x² + 13x + 4.\n\n每道例题讲完，让孩子跟读一遍最终答案，并问：「你看懂为什么是四个乘法吗？」确认孩子理解 FOIL 方法。",
+      },
+      {
+        name: "练习",
+        duration: "15 分钟",
+        teacherNotes: "给孩子 5 道题目让他/她在纸上算（教师不给完整答案，只给提示，让孩子自己写出 working steps）：\n\n练习 1: Expand (x+3)(x+5). (提示：四个乘法：x·x = ?, x·5 = ?, 3·x = ?, 3·5 = ?. 然后合并同类项.) 期待答案：x² + 5x + 3x + 15 = x² + 8x + 15.\n\n练习 2: Expand (x+4)(x+1). (提示：FOIL. Then collect like terms.) 期待答案：x² + x + 4x + 4 = x² + 5x + 4.\n\n练习 3: Expand (2x+1)(x+3). (提示：2x·x = 2x², not x². Then 2x·3, 1·x, 1·3.) 期待答案：2x² + 6x + x + 3 = 2x² + 7x + 3.\n\n练习 4: Expand (x−2)(x+5). (提示：(−2)·x = −2x. (−2)·5 = −10. Collect like terms carefully.) 期待答案：x² + 5x − 2x − 10 = x² + 3x − 10.\n\n练习 5: Expand (x+2)(x+4). Check: does (x+2)(x+4) equal x² + 6 or x² + 6x + 8? (提示：做完四个乘法，看有没有中间项.) 期待答案：x² + 4x + 2x + 8 = x² + 6x + 8. (Not x² + 6, because you must include the middle term 6x.)\n\n如果孩子卡住，教师给词提示（例如：「先做 x·x = x²，再做 x·第二个括号的第二项，然后做 第一个括号的第二项·x，最后做两个常数相乘。」或「合并同类项：3x + 5x = 8x.」）。每道题做完，问孩子：「你有没有做完四个乘法？有没有合并同类项？」鼓励孩子自己检查。",
+      },
+      {
+        name: "收口",
+        duration: "3 分钟",
+        teacherNotes: "总结本周重点：(1) 官方 Sec 2 AEIS 数学卷型：Part 1 MCQ 34 题 30 分钟 + Part 2 show working 20+10–15 题 1 小时 45 分钟，不用计算器。(2) 本周内容：Sec 2 NUMBER AND ALGEBRA, N5. Algebraic manipulation: 5.9 expansion of the product of algebraic expressions（代数式的积的展开）。本周是 N5.9 only. Expand products of algebraic expressions: (x+2)(x+3), (2x−1)(x+4), (x+a)(x+b), (ax+b)(cx+d), and a single-term times a bracket (already known from Sec 1, may appear as a warm-up only). Collect like terms after expanding. Friendly integers only. No calculator. Fossil: forgetting to multiply the second term (only doing x·x and dropping the rest), or adding instead of multiplying when expanding (saying (x+2)(x+3) = x²+5 instead of x²+5x+6). Method: multiply each term in the first bracket by each term in the second bracket (FOIL: First, Outer, Inner, Last), then collect like terms. Example: (x+2)(x+3) = x² + 3x + 2x + 6 = x² + 5x + 6. Example: (2x+3)(x+2) = 2x² + 4x + 3x + 6 = 2x² + 7x + 6. With negative: (x−1)(x+3) = x² + 3x − x − 3 = x² + 2x − 3. Cast: Wei, Aisha, Mr Lim at Riverside Secondary. 本周不教 5.10 changing the subject of a formula. 本周不教 5.12 identities (a+b)² / (a−b)² / a²−b² as a named identities week — only expand products. 本周不重教 N2.5 proportion. 第 8–56 周已完成 Sec 1 内容。第 57 周已完成 Sec 2 N2.4 map scales。第 58 周已完成 Sec 2 N2.5 direct and inverse proportion。本周继续 Sec 2 内容（Sec 3 申请者的 preceding level）。」鼓励孩子：「你已经学会了 expansion of the product of algebraic expressions。记住 FOIL 方法，做完四个乘法，合并同类项。下周继续。Keep going!」",
+      },
+    ],
+    speakingPrompts: null,
+  },
 };
 
 export default async function LessonPlanPage({

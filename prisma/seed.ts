@@ -12251,6 +12251,98 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
         },
       ],
     },
+    {
+      level: "SMATH",
+      weekNumber: 59,
+      title: "代数式的积的展开 — Expansion of the product of algebraic expressions",
+      description: "Sec 2 N5.9: expansion of the product of algebraic expressions (AEIS 中学数学第 59 周 / SMATH Week 59)",
+      isSample: false,
+      errorFocus: "forgetting to multiply the second term (only doing x·x and dropping the rest); or adding instead of multiplying when expanding",
+      parentBrief: "本周是中学 AEIS 数学第 59 周，对应官方 SEAB Sec 2 卷型（https://www.seab.gov.sg/aeis/test-details/ 2026年7月1日更新）。Part 1 Multiple-choice questions：34 道 MCQ，30 分钟。Part 2 Short-answer questions (20 items) and open-ended questions (10 to 15 items)：1 小时 45 分钟。Calculators are not allowed（不允许使用计算器）。Short-answer and open-ended questions：candidates are required to show the method of solution clearly by writing working steps in the spaces provided, plus the final answer（需写出算式步骤和最终答案）。AEIS-Secondary 官方 preceding-level 规则：申请 Sec 3 入学者需熟悉 Sec 3 前一级的内容。官方举例：apply Secondary 3 → be familiar with Secondary 2 content. 本周针对 Sec 3 申请者，内容为 Sec 3 前一级（Sec 2）的官方 MOE 2020 G3 Mathematics Syllabuses, Secondary Two, NUMBER AND ALGEBRA, N5. Algebraic manipulation: 5.9 expansion of the product of algebraic expressions（代数式的积的展开）。官方 5.9 wording（逐字引用）：「expansion of the product of algebraic expressions」。本周只教 N5.9 expansion of the product of algebraic expressions（代数式的积的展开）。Expand products of algebraic expressions: (x+2)(x+3), (2x−1)(x+4), (x+a)(x+b), (ax+b)(cx+d), and a single-term times a bracket (already known from Sec 1, may appear as a warm-up only). Collect like terms after expanding. Friendly integers only. No calculator. Fossil: forgetting to multiply the second term (only doing x·x and dropping the rest), or adding instead of multiplying (saying (x+2)(x+3) = x²+5 instead of x²+5x+6). Do not start changing the subject, identities as a topic, factorisation, or algebraic fractions. 本周不教 5.10 changing the subject of a formula（公式变换主项）。本周不教 5.12 identities (a+b)² / (a−b)² / a²−b² as a named identities week（不作为恒等式专题教学）— only expand products（只展开乘积）。本周不重教 N2.5 proportion（比例）。Cast: Wei, Aisha, Mr Lim at Riverside Secondary School. No calculator。第 8–56 周已完成 Sec 1 内容。第 57 周已完成 Sec 2 N2.4 map scales（地图比例尺，距离和面积）。第 58 周已完成 Sec 2 N2.5 direct and inverse proportion（正比和反比）。本周继续 Sec 2 内容（Sec 3 申请者的 preceding level）。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "At Riverside Secondary, Mr Lim asks Wei: 「Expand (x+2)(x+3).」 Which working is correct?|A. (x+2)(x+3) = x·x + x·3 + 2·x + 2·3 = x² + 3x + 2x + 6 = x² + 5x + 6|B. (x+2)(x+3) = x² + 5|C. (x+2)(x+3) = x² + 2x + 3|D. (x+2)(x+3) = x² + 6",
+            "Aisha at Riverside Secondary expands (x+4)(x+1). She writes: 「(x+4)(x+1) = x² + x + 4x + 4 = x² + 5x + 4」. Is Aisha correct?|A. Yes, Aisha is correct. She multiplied each term in the first bracket by each term in the second bracket: x·x = x², x·1 = x, 4·x = 4x, 4·1 = 4. Then she collected like terms: x + 4x = 5x. Final answer: x² + 5x + 4.|B. No, Aisha is wrong. (x+4)(x+1) = x² + 4.|C. No, Aisha is wrong. (x+4)(x+1) = x² + 5.|D. No, Aisha is wrong. She should add the brackets: (x+4)(x+1) = 2x + 5.",
+            "At Riverside Secondary, Mr Lim writes: 「Expand (2x+3)(x+2).」 Which is correct?|A. (2x+3)(x+2) = 2x·x + 2x·2 + 3·x + 3·2 = 2x² + 4x + 3x + 6 = 2x² + 7x + 6|B. (2x+3)(x+2) = 2x² + 5|C. (2x+3)(x+2) = 2x² + 3x + 2|D. (2x+3)(x+2) = 2x² + 6",
+            "Wei says: 「(x+5)(x+2) = x² + 7x + 10」. Aisha says: 「(x+5)(x+2) = x² + 10 + 7x」. Mr Lim asks: 「Are both answers algebraically the same?」 Which is correct?|A. Yes, both are the same. x² + 7x + 10 and x² + 10 + 7x are the same polynomial, just written in different order. Both are correct.|B. No, they are different. Wei's answer is correct, Aisha's is wrong.|C. No, they are different. Aisha's answer is correct, Wei's is wrong.|D. No, Wei and Aisha both made mistakes. The correct answer is x² + 7.",
+            "At Riverside Secondary, Mr Lim asks: 「Expand (x−1)(x+3).」 Which working is correct?|A. (x−1)(x+3) = x·x + x·3 + (−1)·x + (−1)·3 = x² + 3x − x − 3 = x² + 2x − 3|B. (x−1)(x+3) = x² + 2|C. (x−1)(x+3) = x² + 3x − 1|D. (x−1)(x+3) = x² − 3",
+          ]),
+          correctAnswer: "A,A,A,A,A",
+          points: 10,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "At Riverside Secondary, Wei expands (x+3)(x+5). What is the result?|A. (x+3)(x+5) = x² + 8x + 15|B. (x+3)(x+5) = x² + 8|C. (x+3)(x+5) = x² + 15|D. (x+3)(x+5) = x² + 3x + 5",
+            "Aisha at Riverside Secondary has (2x+1)(x+3). Which is correct?|A. (2x+1)(x+3) = 2x² + 7x + 3|B. (2x+1)(x+3) = 2x² + 4|C. (2x+1)(x+3) = 2x² + 3x + 1|D. (2x+1)(x+3) = 2x² + 3",
+            "Mr Lim asks: 「Expand (x+2)(x+4).」 Wei says: 「(x+2)(x+4) = x² + 6x + 8」. Is Wei correct?|A. Yes, Wei is correct. (x+2)(x+4) = x·x + x·4 + 2·x + 2·4 = x² + 4x + 2x + 8 = x² + 6x + 8.|B. No, Wei is wrong. (x+2)(x+4) = x² + 6.|C. No, Wei is wrong. (x+2)(x+4) = x² + 8.|D. No, Wei is wrong. (x+2)(x+4) = x² + 2x + 4.",
+            "At Riverside Secondary, Aisha expands (3x+2)(x+1). What is the answer?|A. (3x+2)(x+1) = 3x² + 5x + 2|B. (3x+2)(x+1) = 3x² + 3|C. (3x+2)(x+1) = 3x² + 2x + 1|D. (3x+2)(x+1) = 3x² + 2",
+            "Wei at Riverside Secondary writes: 「(x+1)(x+6) = x² + 7x + 6」. Mr Lim asks: 「Is this correct?」 Which statement is correct?|A. Yes, Wei is correct. (x+1)(x+6) = x·x + x·6 + 1·x + 1·6 = x² + 6x + x + 6 = x² + 7x + 6.|B. No, Wei is wrong. (x+1)(x+6) = x² + 7.|C. No, Wei is wrong. (x+1)(x+6) = x² + 6.|D. No, Wei is wrong. (x+1)(x+6) = x² + x + 6.",
+            "Aisha expands (x+2)(x−1) at Riverside Secondary. Which is correct?|A. (x+2)(x−1) = x² + x − 2|B. (x+2)(x−1) = x² + 1|C. (x+2)(x−1) = x² − 2|D. (x+2)(x−1) = x² + 2x − 1",
+            "Mr Lim at Riverside Secondary asks: 「Expand (2x+5)(x+2).」 Which working is correct?|A. (2x+5)(x+2) = 2x·x + 2x·2 + 5·x + 5·2 = 2x² + 4x + 5x + 10 = 2x² + 9x + 10|B. (2x+5)(x+2) = 2x² + 7|C. (2x+5)(x+2) = 2x² + 5x + 2|D. (2x+5)(x+2) = 2x² + 10",
+            "Wei at Riverside Secondary expands (x−2)(x+5). Aisha says: 「The answer is x² + 3x − 10」. Is Aisha correct?|A. Yes, Aisha is correct. (x−2)(x+5) = x·x + x·5 + (−2)·x + (−2)·5 = x² + 5x − 2x − 10 = x² + 3x − 10.|B. No, Aisha is wrong. (x−2)(x+5) = x² + 3.|C. No, Aisha is wrong. (x−2)(x+5) = x² − 10.|D. No, Aisha is wrong. (x−2)(x+5) = x² + 5x − 2.",
+          ]),
+          correctAnswer: "A,A,A,A,A,A,A,A",
+          points: 16,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `Part 2: Show Your Working (写出算式步骤)
+
+Riverside Secondary School has algebraic expansion exercises. Answer the questions below. Show your working clearly.
+
+Question (a)
+At Riverside Secondary, Mr Lim gives Wei the following expansions:
+(i) Expand (x+3)(x+2). Show your working.
+(ii) Expand (x+5)(x+4). Show your working.
+
+Question (b)
+Aisha at Riverside Secondary has more challenging expansions:
+(i) Expand (2x+3)(x+1). Show your working.
+(ii) Expand (3x+2)(x+4). Show your working.
+(iii) Mr Lim asks: 「Which of these two answers has a larger coefficient for the x term?」 Compare the coefficients and explain.
+
+Question (c)
+At Riverside Secondary, Wei has expansions with negative terms:
+(i) Expand (x−2)(x+3). Show your working.
+(ii) Expand (x+4)(x−1). Show your working.
+(iii) Aisha says: 「In (x−2)(x+3), when I multiply (−2) by 3, I get −6. But when I collect like terms, the middle term is +x, not −x.」 Explain step by step why the middle term is +x (positive).
+
+写作提示 / Tips:
+✓ 每题分步骤写出推理 (Show working steps for each question)
+✓ Part 2 官方要求：clearly show the method of solution by writing working steps, plus the final answer
+✓ 不用计算器 (No calculators allowed)
+✓ 代数式的积的展开步骤示范（expansion of the product of algebraic expressions examples）：
+  • Expand (x+2)(x+3):
+    Question: Expand (x+2)(x+3).
+    Solution: ① Use the distributive property (FOIL method): multiply each term in the first bracket by each term in the second bracket. ② First: x·x = x². ③ Outer: x·3 = 3x. ④ Inner: 2·x = 2x. ⑤ Last: 2·3 = 6. ⑥ Combine: (x+2)(x+3) = x² + 3x + 2x + 6. ⑦ Collect like terms: 3x + 2x = 5x. ⑧ Final answer: x² + 5x + 6. (Note: Each term in the first bracket multiplies each term in the second bracket. Do not forget any term. Then collect like terms.)
+  • Expand (2x+3)(x+2):
+    Question: Expand (2x+3)(x+2).
+    Solution: ① Multiply each term in the first bracket by each term in the second bracket. ② 2x·x = 2x². ③ 2x·2 = 4x. ④ 3·x = 3x. ⑤ 3·2 = 6. ⑥ Combine: (2x+3)(x+2) = 2x² + 4x + 3x + 6. ⑦ Collect like terms: 4x + 3x = 7x. ⑧ Final answer: 2x² + 7x + 6. (Note: When the first term is 2x, 2x·x = 2x², not x². Multiply the coefficients: 2×1 = 2.)
+  • Expand (x−1)(x+3):
+    Question: Expand (x−1)(x+3).
+    Solution: ① Multiply each term. Treat −1 as a single term (negative). ② x·x = x². ③ x·3 = 3x. ④ (−1)·x = −x. ⑤ (−1)·3 = −3. ⑥ Combine: (x−1)(x+3) = x² + 3x − x − 3. ⑦ Collect like terms: 3x − x = 2x. ⑧ Final answer: x² + 2x − 3. (Note: When you have a negative term like −1, multiply it by each term in the second bracket. (−1)·x = −x, (−1)·3 = −3. Then collect like terms: 3x − x = 2x.)
+✓ 关键步骤：Step 1: Identify the two brackets（确定两个括号：(first bracket)(second bracket)）. Step 2: Multiply each term in the first bracket by each term in the second bracket（第一个括号的每一项乘以第二个括号的每一项）. Step 3: Write out all four products（写出所有四个乘积）. Step 4: Collect like terms（合并同类项：把含 x 的项加起来）. Step 5: Write the final expanded form in standard order（按标准顺序写出最终展开式：x² term first, then x term, then constant term，例如 x² + 5x + 6）.
+✓ 化石 (fossil errors)：
+  • Forgetting to multiply the second term（忘记乘第二项）：saying 「(x+2)(x+3) = x² + 6」（错误：(x+2)(x+3) = x² + 6，只做了 x·x = x² 和 2·3 = 6，忘记了中间项。正确：Each term in the first bracket must multiply each term in the second bracket. (x+2)(x+3) = x·x + x·3 + 2·x + 2·3 = x² + 3x + 2x + 6 = x² + 5x + 6. If you only do x·x and 2·3, you miss the middle term 5x. This is a common fossil error: forgetting to multiply the first term by the second term of the other bracket, and the second term by the first term of the other bracket. You must do ALL FOUR multiplications: x·x, x·3, 2·x, 2·3.）
+  • Adding instead of multiplying（加括号而不是乘括号）：saying 「(x+2)(x+3) = x² + 5」（错误：(x+2)(x+3) = x² + 5，把 2+3=5 然后说答案是 x²+5。正确：The brackets mean MULTIPLY, not add. You do not add 2 and 3 directly. You must multiply each term in the first bracket by each term in the second bracket. (x+2)(x+3) = x² + 3x + 2x + 6 = x² + 5x + 6. The 5 in the middle is 3x+2x = 5x (coefficient of x), NOT 2+3=5. If you think (x+2)(x+3) = x²+5, you are adding the constants instead of expanding the product correctly.）
+  • Forgetting negative signs（忘记负号）：saying 「(x−1)(x+3) = x² + 3x + x + 3」instead of x² + 3x − x − 3（错误：(x−1)(x+3) = x² + 3x + x + 3。正确：When you have (x−1)(x+3), the −1 is a negative term. When you multiply (−1)·x, you get −x (not +x). When you multiply (−1)·3, you get −3 (not +3). So (x−1)(x+3) = x·x + x·3 + (−1)·x + (−1)·3 = x² + 3x − x − 3 = x² + 2x − 3. Do not drop the negative signs when multiplying.）
+  • 本周教 Sec 2 NUMBER AND ALGEBRA, N5. Algebraic manipulation: 5.9 expansion of the product of algebraic expressions（N5.9 代数式的积的展开）。本周是 N5.9 only. Expand products: (x+2)(x+3), (2x−1)(x+4), (x+a)(x+b), (ax+b)(cx+d), and a single-term times a bracket (already known from Sec 1, may appear as a warm-up only). Collect like terms after expanding. Friendly integers only. No calculator. Fossil: forgetting to multiply the second term (only doing x·x and dropping the rest), or adding instead of multiplying (saying (x+2)(x+3) = x²+5 instead of x²+5x+6). Do not start changing the subject, identities as a topic, factorisation, or algebraic fractions. 本周不教 5.10 changing the subject of a formula. 本周不教 5.12 identities (a+b)² / (a−b)² / a²−b² as a named identities week — only expand products. 本周不重教 N2.5 proportion. Cast: Wei, Aisha, Mr Lim at Riverside Secondary. 第 8–56 周已完成 Sec 1 内容。第 57 周已完成 Sec 2 N2.4 map scales. 第 58 周已完成 Sec 2 N2.5 direct and inverse proportion. 本周继续 Sec 2 内容（Sec 3 申请者的 preceding level）。
+
+Note: This is a sample of Part 2 short-answer/open-ended questions. The official paper has 20 short-answer + 10–15 open-ended items in 1 hour 45 minutes.`,
+          points: 20,
+        },
+      ],
+    },
   ];
 
   // =================================================================

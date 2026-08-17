@@ -762,6 +762,15 @@ export default function WeikeMiniLesson({ level, weekNumber }: WeikeMiniLessonPr
       ],
       gloss: "AEIS 中学数学第 58 周 / SMATH Week 58. 本周例题：Sec 2 N2.5 direct and inverse proportion（正比和反比）。官方 N2.5 wording（逐字引用）：'direct and inverse proportion'。本周是 N2.5 only. Direct proportion: y ∝ x, y = kx, y/x = k. If x doubles, y doubles. Inverse proportion: y ∝ 1/x, xy = k, y = k/x. If x doubles, y halves. Find k from one pair, then find the missing value. Distinguish 「which is direct / which is inverse」 from a table or a word situation (workers × days, speed × time for fixed distance, cost ∝ quantity). Fossil: treating inverse as direct (or vice versa); using y = kx when the situation is xy = k (saying 「4 workers 6 days → 3 workers 6×3÷4=4.5 days」using direct formula when it should be inverse: 4×6=24, 3×days=24, days=8). Friendly integers only. No calculator. Pick numbers so k is a clean integer (e.g. y=3x; xy=24; 4 workers 6 days ↔ 3 workers 8 days). Cast: Wei, Aisha, Mr Lim at Riverside Secondary. 本周不教 N5.9 expansion of the product of algebraic expressions. 第 8–56 周已完成 Sec 1 内容。第 57 周已完成 Sec 2 N2.4 map scales。本周继续 Sec 2 内容（Sec 3 申请者的 preceding level）。"
     },
+    "SMATH-59": {
+      examples: [
+        "(x+2)(x+3) = x·x + x·3 + 2·x + 2·3 = x² + 3x + 2x + 6 = x² + 5x + 6.",
+        "(2x+3)(x+2) = 2x·x + 2x·2 + 3·x + 3·2 = 2x² + 4x + 3x + 6 = 2x² + 7x + 6.",
+        "(x−1)(x+3) = x·x + x·3 + (−1)·x + (−1)·3 = x² + 3x − x − 3 = x² + 2x − 3.",
+        "(3x+1)(x+4) = 3x·x + 3x·4 + 1·x + 1·4 = 3x² + 12x + x + 4 = 3x² + 13x + 4."
+      ],
+      gloss: "AEIS 中学数学第 59 周 / SMATH Week 59. 本周例题：Sec 2 N5.9 expansion of the product of algebraic expressions（代数式的积的展开）。官方 5.9 wording（逐字引用）：'expansion of the product of algebraic expressions'。本周是 N5.9 only. Expand products of algebraic expressions: (x+2)(x+3), (2x−1)(x+4), (x+a)(x+b), (ax+b)(cx+d), and a single-term times a bracket (already known from Sec 1, may appear as a warm-up only). Collect like terms after expanding. Friendly integers only. No calculator. Fossil: forgetting to multiply the second term (only doing x·x and dropping the rest), or adding instead of multiplying when expanding (saying (x+2)(x+3) = x²+5 instead of x²+5x+6). Method: multiply each term in the first bracket by each term in the second bracket (FOIL: First, Outer, Inner, Last), then collect like terms. Example: (x+2)(x+3) = x² + 3x + 2x + 6 = x² + 5x + 6. Example: (2x+3)(x+2) = 2x² + 4x + 3x + 6 = 2x² + 7x + 6. With negative: (x−1)(x+3) = x² + 3x − x − 3 = x² + 2x − 3. Cast: Wei, Aisha, Mr Lim at Riverside Secondary. 本周不教 5.10 changing the subject of a formula. 本周不教 5.12 identities (a+b)² / (a−b)² / a²−b² as a named identities week — only expand products. 本周不重教 N2.5 proportion. 第 8–56 周已完成 Sec 1 内容。第 57 周已完成 Sec 2 N2.4 map scales。第 58 周已完成 Sec 2 N2.5 direct and inverse proportion。本周继续 Sec 2 内容（Sec 3 申请者的 preceding level）。"
+    },
     "SEC-0": {
       fossil: "Although I was nervous, but I tried. ✗ (中文「虽然…但是…」迁移) / I go yesterday ✗ (叙事体过去时掉落)",
       examples: [
