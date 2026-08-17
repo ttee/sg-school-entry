@@ -541,6 +541,14 @@ export default function WeikeMiniLesson({ level, weekNumber }: WeikeMiniLessonPr
       ],
       gloss: "AEIS 中学数学第 30 周 / SMATH Week 30. 本周例题：Sec 1 找第 n 项的代数式（Sec 1 NUMBER AND ALGEBRA: N5.5 recognising and representing patterns/relationships by finding an algebraic expression for the nth term）。官方 5.5 wording（逐字引用）：'recognising and representing patterns/relationships by finding an algebraic expression for the nth term'。本周方法：Find the nth term of a simple linear sequence（找简单线性数列的第 n 项）。Common difference d, first term a: nth term = a + (n − 1)d, then simplify to pn + q. 2, 4, 6, 8, … → nth term = 2n（公差 d = 2，第一项 a = 2，nth term = 2 + (n − 1) × 2 = 2n）。3, 5, 7, 9, … → nth term = 2n + 1（公差 d = 2，第一项 a = 3，nth term = 3 + (n − 1) × 2 = 2n + 1，不是 n + 2）。Check every formula at n=1 and n=2（在录入每个公式前检查 n=1 和 n=2）。本周化石：writing n + 2 for 3, 5, 7, 9（错误地写 n + 2，这只是公差，不是第 n 项；正确应该是 2n + 1，因为 n=1 → 3，n=2 → 5，而 n + 2 在 n=2 时给出 4 不是 5）；using the first term as the formula (always 3)（把第一项当作公式，永远是 3）；writing 2n for 3, 5, 7, 9（错误地写 2n，n=1 → 2 不是 3）；treating n as \"the next term\" not the position（把 n 当作"下一项"而不是位置）。第 26–29 周已完成 5.1–5.4，本周只教 5.5 nth term（找第 n 项）。本周不教 5.6 addition and subtraction of linear expressions，5.7 simplification，5.8 brackets and common factors。Friendly integers。No calculator。写出算式步骤和检验。"
     },
+    "SMATH-31": {
+      examples: [
+        "(3x + 4) − (x + 1) = 3x + 4 − x − 1 = 2x + 3. Fossil: 2x + 4 or 2x + 5 (只减第一项或忘记改符号).",
+        "(2x + 3) + (x + 5) = 3x + 8.",
+        "(4x + 6) − (2x − 3) = 4x + 6 − 2x + 3 = 2x + 9. Fossil: 2x + 3 (忘记 −(−3) = +3)."
+      ],
+      gloss: "AEIS 中学数学第 31 周 / SMATH Week 31. 本周例题：Sec 1 一次式加减（Sec 1 NUMBER AND ALGEBRA: N5.6 addition and subtraction of linear expressions）。官方 5.6 wording（逐字引用）：'addition and subtraction of linear expressions'。本周方法：Add or subtract two linear expressions by collecting like terms（通过合并同类项来加减两个一次式）。Change the sign of every term in the expression after a minus（减法时，改变减号后面每一项的符号）。(2x + 3) + (x + 5) = 3x + 8（加法：直接合并）。(3x + 4) − (x + 1) = 3x + 4 − x − 1 = 2x + 3（减法：改变第二个括号中每一项的符号）。(4x + 6) − (2x − 3) = 4x + 6 − 2x + 3 = 2x + 9（关键：−(−3) = +3）。本周化石：subtracting only the first term（只减第一项）：(3x + 4) − (x + 1) → 2x + 4 or 2x + 5（错误，应该是 2x + 3）；forgetting to change the sign of the second term after a minus（忘记改变第二项符号）：(4x + 6) − (2x − 3) → 2x + 3（错误，应该是 2x + 9，因为 −(−3) = +3）；adding coefficients of unlike terms（把不同类项的系数相加）：x + 3 → 4x。第 26–30 周已完成 5.1–5.5，本周只教 5.6 addition and subtraction（一次式加减）。本周不教 5.7 simplification such as −2(3x − 5) + 4x（展开括号化简），5.8 use of brackets and extraction of common factors（括号的使用和提取公因数）。Friendly integers。No calculator。写出算式步骤。"
+    },
     "SEC-0": {
       fossil: "Although I was nervous, but I tried. ✗ (中文「虽然…但是…」迁移) / I go yesterday ✗ (叙事体过去时掉落)",
       examples: [

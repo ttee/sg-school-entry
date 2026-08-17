@@ -4101,6 +4101,43 @@ const lessonPlans: Record<string, LessonPlan> = {
     ],
     speakingPrompts: null,
   },
+  "SMATH-31": {
+    title: "一次式加减 — Addition and Subtraction of Linear Expressions",
+    mathExample: "(2x + 3) + (x + 5) = 3x + 8. (3x + 4) − (x + 1) = 3x + 4 − x − 1 = 2x + 3 (not 2x + 4). Fossil: 2x + 4 (only subtracted first term). (4x + 6) − (2x − 3) = 4x + 6 − 2x + 3 = 2x + 9 (not 2x + 3). Fossil: 2x + 3 (forgot −(−3) = +3).",
+    sections: [
+      {
+        name: "课前",
+        duration: "2 分钟",
+        teacherNotes: "确认 Zoom 设置正常。孩子和家长都在镜头前。对家长说：「今天教中学 AEIS 数学第 31 周，一次式加减（addition and subtraction of linear expressions）。本周是 Sec 1 数学卷型样本，内容对应前一级 Sec 1 NUMBER AND ALGEBRA, N5. Algebraic expressions and formulae: 5.6 addition and subtraction of linear expressions。官方 MOE 2020 G3 Mathematics Syllabuses, Secondary One, NUMBER AND ALGEBRA。SEAB 官方规则：申请 Sec 2 入学的孩子需熟悉 Sec 2 前一级（Sec 1）的内容。第 26–30 周已完成 5.1–5.5（using letters to represent numbers、interpreting notations、evaluation of algebraic expressions、translation of simple real-world situations into algebraic expressions、recognising and representing patterns/relationships by finding an algebraic expression for the nth term），本周只教 5.6 addition and subtraction of linear expressions（一次式加减）。本周不教 5.7 simplification of linear algebraic expressions such as −2(3x − 5) + 4x（一次代数式化简），5.8 use of brackets and extraction of common factors（括号的使用和提取公因数）。这些是后续周次内容。不用计算器，要写出推理步骤。减法时要改变第二个括号中每一项的符号（change the sign of every term in the expression after a minus）。」",
+      },
+      {
+        name: "热身",
+        duration: "5 分钟",
+        teacherNotes: "在白板上写：(2x + 3) + (x + 5)  问孩子：'How do we add these two expressions?' 等孩子思考后，解释：'We collect like terms（合并同类项）。For the x terms: 2x + x = 3x. For the constant terms: 3 + 5 = 8. So (2x + 3) + (x + 5) = 3x + 8.' 再写：(3x + 4) − (x + 1)  解释：'When subtracting, we must change the sign of EVERY term in the bracket after the minus（减法时，改变减号后面每一项的符号）。So (3x + 4) − (x + 1) = 3x + 4 − x − 1. Now collect like terms: 3x − x = 2x, and 4 − 1 = 3. Answer: 2x + 3.' 让孩子看到今天的目标：学会通过合并同类项来加减两个一次式（add or subtract two linear expressions by collecting like terms），减法时记得改变第二个括号中每一项的符号。",
+      },
+      {
+        name: "化石",
+        duration: "3 分钟",
+        teacherNotes: "在白板上写化石错误：(3x + 4) − (x + 1) = 2x + 4 ✗  解释：'This is wrong because we only subtracted the first term（只减了第一项）。When we subtract, we must change the sign of EVERY term: −(x + 1) = −x − 1, not −x + 1. So (3x + 4) − (x + 1) = 3x + 4 − x − 1 = 2x + 3, not 2x + 4.' 再写：(4x + 6) − (2x − 3) = 2x + 3 ✗  解释：'This is wrong because we forgot to change the sign of −3. When we subtract −(2x − 3), we get −2x + 3（减号改变了 −3 变成 +3）. So (4x + 6) − (2x − 3) = 4x + 6 − 2x + 3 = 2x + 9, not 2x + 3.' 强调：'减法时，改变第二个括号中每一项的符号。−(x + 1) = −x − 1. −(2x − 3) = −2x + 3. The minus sign flips every term inside the bracket.'",
+      },
+      {
+        name: "示范",
+        duration: "10 分钟",
+        teacherNotes: "教师示范三道完整例题（写出推理步骤）。例题 1（(2x + 3) + (x + 5) addition）：Simplify (2x + 3) + (x + 5). Show your working. 步骤：① Collect the x terms: 2x + x = 3x. ② Collect the constant terms: 3 + 5 = 8. ③ Answer: 3x + 8. (Note: We add the coefficients of like terms. 2x + x = 3x. 3 + 5 = 8.) 例题 2（(3x + 4) − (x + 1) subtraction）：Simplify (3x + 4) − (x + 1). Show your working. 步骤：① Change the sign of every term in the bracket after the minus: (3x + 4) − (x + 1) = 3x + 4 − x − 1. ② Collect the x terms: 3x − x = 2x. ③ Collect the constant terms: 4 − 1 = 3. ④ Answer: 2x + 3. (Note: When subtracting, change the sign of EVERY term in the second bracket: −(x + 1) = −x − 1, not −x + 1. Common fossil: writing 2x + 4 or 2x + 5. The correct answer is 2x + 3.) 例题 3（(4x + 6) − (2x − 3) subtraction with inner minus）：Simplify (4x + 6) − (2x − 3). Show your working. 步骤：① Change the sign of every term in the bracket after the minus: (4x + 6) − (2x − 3) = 4x + 6 − 2x + 3. ② Collect the x terms: 4x − 2x = 2x. ③ Collect the constant terms: 6 + 3 = 9. ④ Answer: 2x + 9. (Note: When subtracting, −(2x − 3) = −2x + 3. The minus sign changes −3 to +3. Common fossil: writing 2x + 3 instead of 2x + 9 by forgetting to change the sign of −3.)",
+      },
+      {
+        name: "练习",
+        duration: "12 分钟",
+        teacherNotes: "给孩子 3 道练习题，让孩子独立做，写出推理步骤。家长可以用手机拍照孩子的推理。题 1：Simplify (2x + 5) + (3x + 4). Show your working. 答案：① Collect the x terms: 2x + 3x = 5x. ② Collect the constant terms: 5 + 4 = 9. ③ Answer: 5x + 9. (Note: We add the coefficients of like terms.) 题 2：Simplify (4x + 7) − (x + 2). Show your working. Aisha writes (4x + 7) − (x + 2) = 3x + 9. Explain why this is wrong and what the correct answer should be. 答案：① Change the sign of every term: (4x + 7) − (x + 2) = 4x + 7 − x − 2. ② Collect like terms: 4x − x = 3x, 7 − 2 = 5. ③ Answer: 3x + 5. ④ Aisha's answer 3x + 9 is wrong because she did not change the sign of +2 to −2 when subtracting. She wrote 4x + 7 − x + 2 instead of 4x + 7 − x − 2. The correct answer is 3x + 5, not 3x + 9. 题 3：Mr Lim gives the expression (5x + 8) − (2x − 3). (i) Simplify the expression. Show your working. (ii) Explain why the answer is NOT 3x + 5. 答案：(i) ① Change the sign of every term: (5x + 8) − (2x − 3) = 5x + 8 − 2x + 3. ② Collect like terms: 5x − 2x = 3x, 8 + 3 = 11. ③ Answer: 3x + 11. (ii) The answer is NOT 3x + 5 because when we subtract −(2x − 3), we must change the sign of EVERY term. −(−3) = +3, not −3. So we have 8 + 3 = 11, not 8 − 3 = 5. The correct answer is 3x + 11.",
+      },
+      {
+        name: "收口",
+        duration: "3 分钟",
+        teacherNotes: "总结本周重点：(1) 官方 Sec 1 AEIS 数学卷型：Part 1 MCQ 34 题 30 分钟 + Part 2 show working 20+10–15 题 1 小时 45 分钟，不用计算器。(2) 本周内容：Sec 1 NUMBER AND ALGEBRA, N5. Algebraic expressions and formulae: 5.6 addition and subtraction of linear expressions（一次式加减），对应 preceding level 规则。第 26–30 周已完成 5.1–5.5，本周只教 5.6 addition and subtraction（一次式加减）。(3) 本周化石：subtracting only the first term（只减第一项）：(3x + 4) − (x + 1) → 2x + 4 or 2x + 5（错误，应该是 2x + 3）；forgetting to change the sign of the second term after a minus（忘记改变第二项符号）：(4x + 6) − (2x − 3) → 2x + 3（错误，应该是 2x + 9，因为 −(−3) = +3）；adding coefficients of unlike terms（把不同类项的系数相加）：x + 3 → 4x。(4) 本周方法：Add or subtract two linear expressions by collecting like terms（通过合并同类项来加减两个一次式）。Change the sign of every term in the expression after a minus（减法时，改变减号后面每一项的符号）。(2x + 3) + (x + 5) = 3x + 8（加法：直接合并）。(3x + 4) − (x + 1) = 3x + 4 − x − 1 = 2x + 3（减法：改变第二个括号中每一项的符号）。(4x + 6) − (2x − 3) = 4x + 6 − 2x + 3 = 2x + 9（关键：−(−3) = +3）。本周不教 5.7 simplification such as −2(3x − 5) + 4x（展开括号化简），5.8 use of brackets and extraction of common factors（括号的使用和提取公因数）。Friendly integers。No calculator。写出算式步骤。(5) 下周课前请孩子完成第 31 周 app 作业（5 道选择 + 8 道选择 + 3 道 show working）。家长微信看每周进度通报，app 作业练对了就 OK，练错了说明题目难度合适需要本周反复练。」",
+      },
+    ],
+    speakingPrompts: null,
+  },
 };
 
 export default async function LessonPlanPage({

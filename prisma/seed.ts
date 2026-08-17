@@ -9561,6 +9561,95 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
         },
       ],
     },
+    {
+      level: "SMATH",
+      weekNumber: 31,
+      title: "数学 第 31 周 / Maths Week 31",
+      description: "AEIS-Secondary Mathematics: Sec 1 addition and subtraction of linear expressions",
+      isSample: false,
+      errorFocus: "subtracting only the first term: (3x + 4) − (x + 1) → 2x + 4 or 2x + 5; forgetting to change the sign of the second term after a minus: (4x + 6) − (2x − 3) → 2x + 3 instead of 2x + 9; adding coefficients of unlike terms (x + 3 → 4x)",
+      parentBrief: "本周是中学 AEIS 数学第 31 周，对应官方 SEAB Sec 1 卷型（https://www.seab.gov.sg/aeis/test-details/ 2026年7月1日更新）。Part 1 Multiple-choice questions：34 道 MCQ，30 分钟。Part 2 Short-answer questions (20 items) and open-ended questions (10 to 15 items)：1 小时 45 分钟。Calculators are not allowed（不允许使用计算器）。Short-answer and open-ended questions：candidates are required to show the method of solution clearly by writing working steps in the spaces provided, plus the final answer（需写出算式步骤和最终答案）。AEIS-Secondary 官方 preceding-level 规则：申请 Sec 2 入学者需熟悉 Sec 2 前一级的内容。官方举例：apply Secondary 3 → be familiar with Secondary 2 content. 本周针对 Sec 2 申请者，内容为 Sec 2 前一级（Sec 1）的官方 MOE 2020 G3 Mathematics Syllabuses, Secondary One, NUMBER AND ALGEBRA, N5. Algebraic expressions and formulae: 5.6 addition and subtraction of linear expressions（一次式加减）。第 26–30 周已完成 5.1–5.5（using letters to represent numbers、interpreting notations、evaluation of algebraic expressions、translation of simple real-world situations into algebraic expressions、recognising and representing patterns/relationships by finding an algebraic expression for the nth term），本周只教 5.6 addition and subtraction of linear expressions。本周不教 5.7 simplification of linear algebraic expressions such as −2(3x − 5) + 4x（一次代数式化简），5.8 use of brackets and extraction of common factors（括号的使用和提取公因数）（这些是后续周次内容）。官方 5.6 wording（官方术语，逐字引用）：'addition and subtraction of linear expressions'。本周方法：Add or subtract two linear expressions by collecting like terms（通过合并同类项来加减两个一次式）。Change the sign of every term in the expression after a minus（减法时，改变减号后面每一项的符号）。(2x + 3) + (x + 5) = 3x + 8（加法：直接合并同类项）。(3x + 4) − (x + 1) = 3x + 4 − x − 1 = 2x + 3（减法：改变第二个括号中每一项的符号）。(5x − 2) + (3x + 7) = 8x + 5。(4x + 6) − (2x − 3) = 4x + 6 − 2x + 3 = 2x + 9（关键：−(−3) = +3）。Friendly integers. No calculator. Do not expand a bracket times a binomial this week（本周不教括号乘以二项式）。本周化石 fossil errors：subtracting only the first term（只减第一项）：(3x + 4) − (x + 1) → 2x + 4 or 2x + 5（错误：应该是 2x + 3）；forgetting to change the sign of the second term after a minus（忘记改变第二项符号）：(4x + 6) − (2x − 3) → 2x + 3（错误：应该是 2x + 9，因为 −(−3) = +3）；adding coefficients of unlike terms（把不同类项的系数相加）：x + 3 → 4x（错误）。唯一性 unique keys：两个选项不能是同一个表达式（Two options must not be the same expression）。Fossil value must be a WRONG option（化石值必须是错误选项）：2x + 4 when the answer is 2x + 3；2x + 3 when the answer is 2x + 9。Do not offer both 3x + 8 and (2x + 3) + (x + 5) as two options（不要同时提供 3x + 8 和 (2x + 3) + (x + 5) 作为两个选项）。Check every minus: change the sign of every term after −（检查每个减号：改变减号后面每一项的符号）。本周作业是样本，不是完整 34 + 20 + 10–15 题。非官方机构运营（affiliation 非官方机构 is OK）。不发明官方未提及的内容（do not invent official facts）。不声称 AEIS 是 G3 paper（G3 只是官方 preceding-level 内容来源，do NOT claim AEIS is a G3 paper）。不发明官方 cut-scores 或 extra official names。第 26–30 周已完成 5.1–5.5，本周只教 5.6 addition and subtraction of linear expressions（一次式加减）。本周不教 5.7 simplification，5.8 brackets and common factors。这些是后续周次内容。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "Simplify (2x + 3) + (x + 5).|A. 2x + 8|B. 3x + 8|C. 3x + 15|D. 2x + 15",
+            "Simplify (3x + 4) − (x + 1).|A. 2x + 3|B. 2x + 4|C. 2x + 5|D. 4x + 3",
+            "Simplify (5x − 2) + (3x + 7).|A. 8x + 5|B. 8x − 9|C. 2x + 5|D. 8x + 9",
+            "Simplify (4x + 6) − (2x − 3).|A. 2x + 3|B. 2x + 9|C. 6x + 3|D. 2x − 3",
+            "Which working is correct for simplifying (3x + 4) − (x + 1)?|A. 3x + 4 − x + 1 = 2x + 5|B. 3x + 4 − x − 1 = 2x + 3|C. 3x − x + 4 − 1 = 2x + 4|D. 3 − 1 + 4 − 1 = 5",
+          ]),
+          correctAnswer: "B,A,A,B,B",
+          points: 10,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "Simplify (6x + 5) + (2x + 3).|A. 8x + 8|B. 8x + 2|C. 4x + 8|D. 6x + 8",
+            "Simplify (7x + 2) − (3x + 1).|A. 4x + 1|B. 4x + 3|C. 10x + 1|D. 4x − 1",
+            "Simplify 5x − (2x + 3).|A. 3x + 3|B. 3x − 3|C. 7x − 3|D. 3x + 5",
+            "Which is NOT equal to (4x + 8) − (2x + 3)?|A. 2x + 5|B. 4x + 8 − 2x − 3|C. 4x − 2x + 8 − 3|D. 2x + 3",
+            "Simplify (3x + 7) + (x − 2).|A. 4x + 5|B. 4x + 9|C. 2x + 5|D. 3x + 5",
+            "Wei simplifies (5x + 8) − (2x − 1). Which is the correct answer?|A. 3x + 7|B. 3x + 9|C. 7x + 7|D. 3x − 9",
+            "Aisha simplifies (9x − 4) + (x + 6). What is the answer?|A. 10x + 2|B. 8x + 2|C. 10x − 10|D. 10x + 10",
+            "Mr Lim at Riverside Secondary asks: Simplify (6x + 9) − (3x − 2). Which expression is the answer?|A. 3x + 7|B. 3x + 11|C. 9x + 7|D. 3x − 11",
+          ]),
+          correctAnswer: "A,A,B,D,A,B,A,B",
+          points: 16,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `Part 2: Show Your Working (写出算式步骤)
+
+Riverside Secondary School has algebraic expression problems. Answer the questions below. Show your working clearly.
+
+Question (a)
+Simplify (2x + 5) + (3x + 4).
+Show your working.
+
+Question (b)
+Wei simplifies (4x + 7) − (x + 2).
+(i) Show your working and write the simplified answer.
+(ii) Aisha writes (4x + 7) − (x + 2) = 3x + 9. Explain why this is wrong and what the correct answer should be.
+
+Question (c)
+Mr Lim gives the expression (5x + 8) − (2x − 3).
+(i) Simplify the expression. Show your working.
+(ii) Explain why the answer is NOT 3x + 5.
+
+写作提示 / Tips:
+✓ 每题分步骤写出推理 (Show working steps for each question)
+✓ Part 2 官方要求：clearly show the method of solution by writing working steps, plus the final answer
+✓ 不用计算器 (No calculators allowed)
+✓ 一次式加减步骤示范 (addition and subtraction of linear expressions examples)：
+  • (2x + 3) + (x + 5) = 3x + 8（加法）：
+    Simplify (2x + 3) + (x + 5). Show your working.
+    Solution: ① Collect the x terms: 2x + x = 3x. ② Collect the constant terms: 3 + 5 = 8. ③ Answer: 3x + 8. (Note: We add the coefficients of like terms. 2x + x = 3x. 3 + 5 = 8.)
+  • (3x + 4) − (x + 1) = 2x + 3（减法）：
+    Simplify (3x + 4) − (x + 1). Show your working.
+    Solution: ① Change the sign of every term in the bracket after the minus: (3x + 4) − (x + 1) = 3x + 4 − x − 1. ② Collect the x terms: 3x − x = 2x. ③ Collect the constant terms: 4 − 1 = 3. ④ Answer: 2x + 3. (Note: When subtracting, change the sign of EVERY term in the second bracket: −(x + 1) = −x − 1, not −x + 1. Common fossil: writing 2x + 4 or 2x + 5. The correct answer is 2x + 3.)
+  • (4x + 6) − (2x − 3) = 2x + 9（减法，第二个式子中有负号）：
+    Simplify (4x + 6) − (2x − 3). Show your working.
+    Solution: ① Change the sign of every term in the bracket after the minus: (4x + 6) − (2x − 3) = 4x + 6 − 2x + 3. ② Collect the x terms: 4x − 2x = 2x. ③ Collect the constant terms: 6 + 3 = 9. ④ Answer: 2x + 9. (Note: When subtracting, −(2x − 3) = −2x + 3. The minus sign changes −3 to +3. Common fossil: writing 2x + 3 instead of 2x + 9 by forgetting to change the sign of −3.)
+✓ 关键步骤：Step 1: When subtracting, change the sign of EVERY term in the expression after the minus（减法时，改变减号后面每一项的符号）. Step 2: Collect like terms（合并同类项）. Step 3: State the final answer（陈述最终答案）.
+✓ 化石 (fossil errors)：
+  • Subtracting only the first term（只减第一项）：(3x + 4) − (x + 1) → 2x + 4 or 2x + 5（错误，应该是 2x + 3）
+  • Forgetting to change the sign of the second term after a minus（忘记改变第二项符号）：(4x + 6) − (2x − 3) → 2x + 3（错误，应该是 2x + 9）
+  • Adding coefficients of unlike terms（把不同类项的系数相加）：x + 3 → 4x（错误）
+  • 本周教 N5 的 5.6（addition and subtraction of linear expressions，一次式加减）。第 26–30 周已完成 5.1–5.5，本周只教 5.6 一次式加减。本周不教 5.7 simplification such as −2(3x − 5) + 4x，5.8 brackets and common factors（这些是后续周次内容）。
+
+Note: This is a sample of Part 2 short-answer/open-ended questions. The official paper has 20 short-answer + 10–15 open-ended items in 1 hour 45 minutes.`,
+          points: 20,
+        },
+      ],
+    },
   ];
 
   // =================================================================
