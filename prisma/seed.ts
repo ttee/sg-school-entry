@@ -13453,6 +13453,118 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
         },
       ],
     },
+    {
+      level: "SMATH",
+      weekNumber: 71,
+      title: "直线方程图像 — Graphs of linear equations ax+by=c",
+      description: "Sec 2 N7.7: graphs of linear equations in two variables (ax + by = c) (AEIS 中学数学第 71 周 / SMATH Week 71)",
+      isSample: false,
+      errorFocus: "confusing x-intercept with y-intercept; or plotting (c, 0) instead of finding intercepts by substitution; or claiming a point lies on the line without checking",
+      parentBrief: "本周是中学 AEIS 数学第 71 周，对应官方 SEAB Sec 2 卷型（https://www.seab.gov.sg/aeis/test-details/ 2026年7月1日更新）。Part 1 Multiple-choice questions：34 道 MCQ，30 分钟。Part 2 Short-answer questions (20 items) and open-ended questions (10 to 15 items)：1 小时 45 分钟。Calculators are not allowed（不允许使用计算器）。Short-answer and open-ended questions：candidates are required to show the method of solution clearly by writing working steps in the spaces provided, plus the final answer（需写出算式步骤和最终答案）。AEIS-Secondary 官方 preceding-level 规则：申请 Sec 3 入学者需熟悉 Sec 3 前一级的内容。官方举例：apply Secondary 3 → be familiar with Secondary 2 content. 本周针对 Sec 3 申请者，内容为 Sec 3 前一级（Sec 2）的官方 MOE 2020 G3 Mathematics Syllabuses, Secondary Two, NUMBER AND ALGEBRA, N7. Equations and inequalities: 7.7 graphs of linear equations in two variables (ax + by = c)（直线方程 ax + by = c 的图像）。本周只教 N7.7 graphs of linear equations in two variables（直线方程的图像）。官方 MOE 2020 G3 Mathematics Syllabuses - Sec 2 NUMBER AND ALGEBRA, N7. Equations and inequalities: 7.7 graphs of linear equations in two variables (ax + by = c). 本周是 N7.7 only. Graphs of linear equations: (1) a linear equation ax + by = c graphs as a straight line（直线方程 ax + by = c 的图像是一条直线）; (2) find intercepts: x-intercept (set y=0), y-intercept (set x=0)（求截距：x 截距令 y=0，y 截距令 x=0）; (3) plot two points (or intercepts) and draw the line（画两个点或截距，连成直线）; (4) a third point can check（第三个点可以验证）; (5) read whether a given point lies on the line by substituting into ax+by=c（通过代入 ax+by=c 判断给定的点是否在直线上）。Friendly integers only（只用友好整数，截距都是整数）。No calculator（不允许使用计算器）。本周不教 7.8 solving a pair of simultaneous equations（不教解联立方程）。本周不教「finding intersection of two lines as the solution of the system」（不教求两条直线的交点作为方程组的解）。本周不教 quadratic graphs（不教二次函数图像）。本周不教 inequalities / number line（不教不等式或数轴）。本周不教 N6 linear functions y = mx+b（不把本周变成 N6 线性函数：已经教过了）。本周只教 N7.7: the graph of ax+by=c（官方对象是 ax+by=c 的图像）。本周只教 N7.7 graphs of linear equations in two variables (ax + by = c): a linear equation graphs as a straight line, find intercepts (x-intercept by setting y=0, y-intercept by setting x=0), plot two points and draw the line, check if a point lies on the line by substituting. Friendly integers only. No calculator. 本周不教 7.8 simultaneous（不教联立方程）。Fossil（化石化错误/高频错误）: confusing x-intercept with y-intercept（混淆 x 截距和 y 截距）; or plotting (c, 0) instead of finding intercepts by substitution（直接画 (c, 0) 而不是通过代入求截距）; or claiming a point lies on the line without checking by substitution（不代入就说点在直线上）。Cast: secondary Wei, Aisha, Mr Lim at Riverside Secondary School. No calculator. 第 70 周已完成 N7.6 solving simple inequalities and representing on the number line（解简单不等式并在数轴上表示解）。本周继续 N7 Equations and inequalities（方程和不等式），学习 7.7 graphs of linear equations in two variables (ax + by = c)（直线方程 ax + by = c 的图像）。本周不教 7.8 simultaneous（不教联立方程）。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "At Riverside Secondary, Mr Lim writes: 「The linear equation 2x + y = 6 graphs as a straight line.」 Wei asks: 「How do I find where the line crosses the x-axis?」 Mr Lim says: 「That's called the x-intercept. Set y=0 and solve for x. For 2x + y = 6, set y=0: 2x + 0 = 6, so x = 3. The x-intercept is (3, 0).」 Is this correct?|A. Yes, this is correct. The x-intercept is (3, 0) ✓.|B. No, this is wrong. The x-intercept is (0, 6).|C. No, this is wrong. The x-intercept is (6, 0).|D. No, this is wrong. Set x=0 to find the x-intercept.",
+            "Aisha at Riverside Secondary has 3x + 2y = 12. Mr Lim asks: 「Find the y-intercept.」 Aisha says: 「The y-intercept is where the line crosses the y-axis. Set x=0. For 3x + 2y = 12, set x=0: 3(0) + 2y = 12, so 2y = 12, so y = 6. The y-intercept is (0, 6).」 Is Aisha correct?|A. Yes, Aisha is correct. The y-intercept is (0, 6) ✓.|B. No, Aisha is wrong. The y-intercept is (6, 0).|C. No, Aisha is wrong. The y-intercept is (12, 0).|D. No, Aisha is wrong. Set y=0 to find the y-intercept.",
+            "At Riverside Secondary, Wei needs to draw the graph of 2x + y = 6. He finds: x-intercept (3, 0), y-intercept (0, 6). Mr Lim says: 「Good. Now plot these two points and draw a straight line through them.」 Wei asks: 「Can I check if my line is correct?」 Mr Lim says: 「Yes, find a third point. For example, set x=1: 2(1) + y = 6, so y = 4. The point (1, 4) should lie on your line.」 Which statement is correct?|A. Wei can check with a third point (1, 4) ✓.|B. Wei cannot check with a third point (only two points are needed).|C. Wei's x-intercept is wrong (it should be (0, 3)).|D. Wei should not draw a straight line (the graph is a curve).",
+            "Mr Lim at Riverside Secondary writes: 「For x + 2y = 8, check whether the point (2, 3) lies on the line.」 Aisha substitutes: x=2, y=3 into x + 2y = 8. Left side: 2 + 2(3) = 2 + 6 = 8. Right side: 8. Both sides equal 8, so the point (2, 3) lies on the line. Is Aisha correct?|A. Yes, Aisha is correct. The point (2, 3) lies on the line ✓.|B. No, Aisha is wrong. 2 + 2(3) = 2 + 6 = 8 is false.|C. No, Aisha is wrong. The point (2, 3) does not lie on the line because 8 ≠ 8.|D. No, Aisha is wrong. You cannot check by substitution.",
+            "At Riverside Secondary, Wei has 3x − y = 6. He says: 「The x-intercept: set y=0, so 3x − 0 = 6, so x = 2. The x-intercept is (2, 0). The y-intercept: set x=0, so 3(0) − y = 6, so −y = 6, so y = −6. The y-intercept is (0, −6). I plot these two points and draw a straight line.」 Which statement is correct?|A. Wei's working is correct. The intercepts are (2, 0) and (0, −6) ✓.|B. Wei's x-intercept is wrong. It should be (6, 0).|C. Wei's y-intercept is wrong. It should be (0, 6), not (0, −6).|D. Wei cannot draw a straight line because one intercept is negative.",
+          ]),
+          correctAnswer: "A,A,A,A,A",
+          points: 10,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "At Riverside Secondary, Mr Lim asks: 「For 4x + y = 8, what is the x-intercept?」 Which is the correct answer?|A. (2, 0) because setting y=0 gives 4x = 8, so x = 2 ✓.|B. (0, 8) because the y-intercept is found by setting x=0.|C. (8, 0) because c = 8.|D. (4, 0) because the coefficient of x is 4.",
+            "Aisha at Riverside Secondary has 2x + 5y = 10. What is the y-intercept?|A. (0, 2) because setting x=0 gives 5y = 10, so y = 2 ✓.|B. (2, 0) because this is the x-intercept, not the y-intercept.|C. (0, 10) because c = 10.|D. (5, 0) because the coefficient of y is 5.",
+            "Wei at Riverside Secondary has x + 3y = 9. He checks whether the point (3, 2) lies on the line. He substitutes: 3 + 3(2) = 3 + 6 = 9. Both sides equal 9. Which is the correct answer?|A. Yes, the point (3, 2) lies on the line ✓.|B. No, the point (3, 2) does not lie on the line because 9 ≠ 9.|C. No, you cannot check by substitution.|D. No, the point (3, 2) is the y-intercept, not a general point.",
+            "At Riverside Secondary, Mr Lim writes: 「For 3x + y = 6, find both intercepts.」 Which working is correct?|A. x-intercept: set y=0, so 3x = 6, x = 2, (2, 0). y-intercept: set x=0, so y = 6, (0, 6) ✓.|B. x-intercept: (0, 6). y-intercept: (2, 0) (swapped).|C. x-intercept: (6, 0) because c = 6.|D. Both intercepts are (3, 0) and (0, 1) (calculation error).",
+            "Aisha at Riverside Secondary says: 「For 2x − 3y = 6, I set y=0 to find the y-intercept.」 Is this correct?|A. No, this is wrong. Set x=0 to find the y-intercept, not y=0 ✓.|B. Yes, this is correct. Setting y=0 gives the y-intercept.|C. No, this is wrong. The y-intercept is always (0, c).|D. No, this is wrong. You cannot find intercepts for this equation.",
+            "At Riverside Secondary, Wei has 5x + 2y = 10. What is the x-intercept?|A. (2, 0) because setting y=0 gives 5x = 10, so x = 2 ✓.|B. (0, 2) because this is the y-intercept, not the x-intercept.|C. (10, 0) because c = 10.|D. (5, 0) because the coefficient of x is 5.",
+            "Mr Lim at Riverside Secondary writes: 「For x + 4y = 12, check whether the point (0, 3) lies on the line.」 Aisha substitutes: 0 + 4(3) = 12. Both sides equal 12. Which statement is correct?|A. Yes, the point (0, 3) lies on the line ✓.|B. No, the point (0, 3) does not lie on the line because 12 ≠ 12.|C. No, you must plot the graph first before checking.|D. No, (0, 3) is not a point on this line.",
+            "At Riverside Secondary, Wei has 4x + 3y = 12. What is the y-intercept?|A. (0, 4) because setting x=0 gives 3y = 12, so y = 4 ✓.|B. (4, 0) because this is the x-intercept, not the y-intercept.|C. (0, 3) because the coefficient of y is 3.|D. (0, 12) because c = 12.",
+          ]),
+          correctAnswer: "A,A,A,A,A,A,A,A",
+          points: 16,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `Part 2: Show Your Working (写出算式步骤)
+
+Riverside Secondary School has graphs of linear equations exercises. Answer the questions below. Show your working clearly.
+
+Question (a)
+At Riverside Secondary, Mr Lim gives Wei the linear equation 2x + y = 6.
+(i) Find the x-intercept by setting y=0. Show your working step by step: substitute y=0 into 2x + y = 6, solve for x, and state the x-intercept as a coordinate (x, 0).
+(ii) Find the y-intercept by setting x=0. Show your working step by step: substitute x=0 into 2x + y = 6, solve for y, and state the y-intercept as a coordinate (0, y).
+(iii) Plot the two intercepts on a coordinate plane and draw a straight line through them. (Hint: You can sketch this on paper.)
+(iv) Check your line by finding a third point. Let x=1. Substitute x=1 into 2x + y = 6 and find y. Does this point lie on your line?
+
+Question (b)
+Aisha at Riverside Secondary has the linear equation x + 2y = 8.
+(i) Find the x-intercept. Show your working. (Hint: Set y=0 and solve for x.)
+(ii) Find the y-intercept. Show your working. (Hint: Set x=0 and solve for y.)
+(iii) Mr Lim asks: 「Check whether the point (2, 3) lies on the line x + 2y = 8.」 Substitute x=2 and y=3 into the equation. Show your working. Does the left side equal the right side?
+
+Question (c)
+At Riverside Secondary, Mr Lim writes: 「For the linear equation 3x − y = 6, find the intercepts and check a point.」
+(i) Find the x-intercept and the y-intercept. Show your working step by step for both. (Hint: For x-intercept, set y=0. For y-intercept, set x=0. Be careful with the minus sign when solving −y = 6.)
+(ii) Check whether the point (1, −3) lies on the line 3x − y = 6. Substitute x=1 and y=−3 into the equation. Show your working. (Hint: Remember that 3(1) − (−3) = 3 + 3 = 6.)
+
+写作提示 / Tips:
+✓ 每题分步骤写出推理 (Show working steps for each question)
+✓ Part 2 官方要求：clearly show the method of solution by writing working steps, plus the final answer
+✓ 不用计算器 (No calculators allowed)
+✓ 直线方程图像步骤示范 (graphs of linear equations examples)：
+  • For 2x + y = 6, find the x-intercept:
+    Question: For 2x + y = 6, find the x-intercept.
+    Solution: ① The x-intercept is where the line crosses the x-axis. On the x-axis, y = 0. ② Substitute y = 0 into the equation: 2x + 0 = 6. ③ Simplify: 2x = 6. ④ Divide both sides by 2: x = 3. ⑤ The x-intercept is (3, 0). Answer: (3, 0). (Note: Fossil: confusing x-intercept with y-intercept. The x-intercept has y=0, not x=0. Don't write (0, 3) for the x-intercept. That's the y-intercept if you set x=0.)
+  • For 2x + y = 6, find the y-intercept:
+    Question: For 2x + y = 6, find the y-intercept.
+    Solution: ① The y-intercept is where the line crosses the y-axis. On the y-axis, x = 0. ② Substitute x = 0 into the equation: 2(0) + y = 6. ③ Simplify: 0 + y = 6, so y = 6. ④ The y-intercept is (0, 6). Answer: (0, 6). (Note: The y-intercept has x=0, not y=0. Don't confuse it with the x-intercept.)
+  • For 2x + y = 6, check whether (1, 4) lies on the line:
+    Question: For 2x + y = 6, check whether the point (1, 4) lies on the line.
+    Solution: ① Substitute x=1 and y=4 into the left side of the equation: 2x + y = 2(1) + 4 = 2 + 4 = 6. ② The right side of the equation is 6. ③ Left side = 6, right side = 6. Both sides are equal. ④ When both sides are equal, the point lies on the line. Answer: Yes, the point (1, 4) lies on the line. (Note: Fossil: claiming a point lies on the line without checking by substitution. You MUST substitute the coordinates and verify that both sides equal.)
+  • For x + 2y = 8, find the x-intercept:
+    Question: For x + 2y = 8, find the x-intercept.
+    Solution: ① Set y = 0: x + 2(0) = 8. ② Simplify: x + 0 = 8, so x = 8. ③ The x-intercept is (8, 0). Answer: (8, 0).
+  • For x + 2y = 8, find the y-intercept:
+    Question: For x + 2y = 8, find the y-intercept.
+    Solution: ① Set x = 0: 0 + 2y = 8. ② Simplify: 2y = 8. ③ Divide both sides by 2: y = 4. ④ The y-intercept is (0, 4). Answer: (0, 4).
+  • For x + 2y = 8, check whether (2, 3) lies on the line:
+    Question: For x + 2y = 8, check whether the point (2, 3) lies on the line.
+    Solution: ① Substitute x=2 and y=3 into the left side: x + 2y = 2 + 2(3) = 2 + 6 = 8. ② The right side is 8. ③ Left side = 8, right side = 8. Both sides are equal. ④ So the point (2, 3) lies on the line. Answer: Yes, (2, 3) lies on the line.
+  • For 3x − y = 6, find the x-intercept:
+    Question: For 3x − y = 6, find the x-intercept.
+    Solution: ① Set y = 0: 3x − 0 = 6. ② Simplify: 3x = 6. ③ Divide both sides by 3: x = 2. ④ The x-intercept is (2, 0). Answer: (2, 0).
+  • For 3x − y = 6, find the y-intercept:
+    Question: For 3x − y = 6, find the y-intercept.
+    Solution: ① Set x = 0: 3(0) − y = 6. ② Simplify: 0 − y = 6, so −y = 6. ③ Multiply both sides by −1: y = −6. ④ The y-intercept is (0, −6). Answer: (0, −6). (Note: Be careful with the minus sign. −y = 6 means y = −6, not y = 6.)
+  • For 3x − y = 6, check whether (1, −3) lies on the line:
+    Question: For 3x − y = 6, check whether the point (1, −3) lies on the line.
+    Solution: ① Substitute x=1 and y=−3 into the left side: 3x − y = 3(1) − (−3). ② Remember: subtracting a negative is the same as adding. 3(1) − (−3) = 3 + 3 = 6. ③ The right side is 6. ④ Left side = 6, right side = 6. Both sides are equal. ⑤ So the point (1, −3) lies on the line. Answer: Yes, (1, −3) lies on the line.
+✓ 关键步骤：Step 1: To find the x-intercept, set y=0 and solve for x. The x-intercept is (x, 0)（求 x 截距：令 y=0，解出 x，x 截距是 (x, 0)）. Step 2: To find the y-intercept, set x=0 and solve for y. The y-intercept is (0, y)（求 y 截距：令 x=0，解出 y，y 截距是 (0, y)）. Step 3: Plot the two intercepts on a coordinate plane and draw a straight line through them（在坐标平面上画出两个截距，连成直线）. Step 4: A third point can check your line. Pick a value for x (or y), substitute into the equation, solve for the other variable, and verify that the point lies on your line（第三个点可以验证：选一个 x 或 y 值，代入方程，解出另一个变量，验证这个点在直线上）. Step 5: To check whether a given point (a, b) lies on the line, substitute x=a and y=b into the equation. If both sides are equal, the point lies on the line. If not, it doesn't（检查点 (a, b) 是否在直线上：代入 x=a 和 y=b，如果两边相等，点在直线上；否则不在）.
+✓ 化石 (fossil errors)：
+  • Confusing x-intercept with y-intercept（混淆 x 截距和 y 截距）：writing (0, 3) as the x-intercept when it should be (3, 0)（错误：把 (0, 3) 写成 x 截距，正确：x 截距是 (3, 0)，y 截距是 (0, 3)。x 截距的 y=0，y 截距的 x=0）
+  • Plotting (c, 0) instead of finding intercepts by substitution（直接画 (c, 0) 而不是通过代入求截距）：「For 2x + y = 6, the x-intercept is (6, 0) because c=6.」✗ Correct: Set y=0, so 2x = 6, x = 3, the x-intercept is (3, 0), not (6, 0).
+  • Claiming a point lies on the line without checking by substitution（不代入就说点在直线上）：「The point (2, 3) looks like it's on the line, so it lies on the line.」✗ Correct: You MUST substitute x=2 and y=3 into the equation and verify that both sides equal. Don't guess.
+  • Setting y=0 to find the y-intercept（令 y=0 求 y 截距）：✗ Correct: Set x=0 to find the y-intercept, not y=0. y=0 gives the x-intercept.
+  • 本周教 Sec 2 NUMBER AND ALGEBRA, N7. Equations and inequalities: 7.7 graphs of linear equations in two variables (ax + by = c)（N7.7 直线方程 ax + by = c 的图像）。本周是 N7.7 only. Official content: (1) a linear equation ax + by = c graphs as a straight line. (2) find intercepts: x-intercept (set y=0), y-intercept (set x=0). (3) plot two points (or intercepts) and draw the line. (4) a third point can check. (5) read whether a given point lies on the line by substituting into ax+by=c. Friendly integers only. No calculator. This week is N7.7 only: the graph of ax+by=c is a straight line, find intercepts by setting y=0 (x-intercept) or x=0 (y-intercept), plot and draw the line, check a point by substitution. 本周不教 7.8 solving a pair of simultaneous equations（不教解联立方程）。本周不教「finding intersection of two lines」（不教求两条直线的交点）。本周不教 quadratic graphs（不教二次函数图像）。本周不教 N6 linear functions y = mx+b（不教线性函数 y = mx+b：已经教过了）。本周只教 N7.7: the graph of ax+by=c. Fossil: confusing x-intercept with y-intercept; or plotting (c, 0) instead of finding intercepts by substitution; or claiming a point lies on the line without checking. Cast: secondary Wei, Aisha, Mr Lim at Riverside Secondary. 第 70 周已完成 N7.6 solving simple inequalities。本周继续 N7 Equations and inequalities（方程和不等式），学习 7.7 graphs of linear equations（直线方程的图像）。本周不教 7.8 simultaneous（不教联立方程）。
+
+Note: This is a sample of Part 2 short-answer/open-ended questions. The official paper has 20 short-answer + 10–15 open-ended items in 1 hour 45 minutes.`,
+          points: 20,
+        },
+      ],
+    },
   ];
 
 
