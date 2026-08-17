@@ -143,6 +143,7 @@ import DualValidationMapSmathWeek70 from "./DualValidationMapSmathWeek70";
 import DualValidationMapSmathWeek71 from "./DualValidationMapSmathWeek71";
 import OfficialClip from "./OfficialClip";
 import WeikeMiniLesson from "./WeikeMiniLesson";
+import SmathFigure from "./SmathFigure";
 
 type Question = {
   id: string;
@@ -174,6 +175,76 @@ type Submission = {
   score: number | null;
   completedAt: string | null;
 } | null;
+
+function getShortPracticeDescription(week: Week): string {
+  const title = week.title.toLowerCase();
+  const description = (week.description || "").toLowerCase();
+  
+  // Extract key topics from title/description for SMATH/MATH
+  if (description.includes("angle") || title.includes("angle")) {
+    return "孩子练习角度计算与几何推理。";
+  }
+  if (description.includes("inequality") || description.includes("inequalities")) {
+    return "孩子练习不等式的图示与求解。";
+  }
+  if (description.includes("linear") || description.includes("coordinate")) {
+    return "孩子练习直线方程与坐标几何。";
+  }
+  if (description.includes("algebra") || description.includes("equation")) {
+    return "孩子练习代数运算与方程求解。";
+  }
+  if (description.includes("fraction") || description.includes("decimal")) {
+    return "孩子练习分数与小数的运算。";
+  }
+  if (description.includes("ratio") || description.includes("proportion")) {
+    return "孩子练习比例与百分比计算。";
+  }
+  if (description.includes("geometry") || description.includes("area") || description.includes("perimeter")) {
+    return "孩子练习图形的面积与周长。";
+  }
+  if (description.includes("statistic") || description.includes("data") || description.includes("mean")) {
+    return "孩子练习统计图表与数据分析。";
+  }
+  if (description.includes("number") || description.includes("整数") || description.includes("whole")) {
+    return "孩子练习整数运算与数感。";
+  }
+  
+  return "孩子练习本周数学重点。";
+}
+
+function getShortErrorFocus(errorFocus: string | null): string | null {
+  if (!errorFocus) return null;
+  
+  // Map common error patterns to short Chinese phrases
+  const focus = errorFocus.toLowerCase();
+  
+  if (focus.includes("supplementary") && focus.includes("vertically opposite")) {
+    return "对顶角不是互补角";
+  }
+  if (focus.includes("180°") && focus.includes("point")) {
+    return "周角是360°不是180°";
+  }
+  if (focus.includes("open") && focus.includes("closed")) {
+    return "空心实心圆点的区别";
+  }
+  if (focus.includes("intercept") || focus.includes("gradient")) {
+    return "截距与斜率的混淆";
+  }
+  if (focus.includes("sign") && focus.includes("inequality")) {
+    return "不等号方向的变化";
+  }
+  
+  // If too long or complex, return null to skip the line
+  if (errorFocus.length > 120) return null;
+  
+  // Try to extract a short meaningful phrase (first part before semicolon)
+  const firstPart = errorFocus.split(";")[0].split(",")[0];
+  if (firstPart.length < 80) {
+    return firstPart.trim();
+  }
+  
+  return null;
+}
 
 export default function WeekHomework({
   week,
@@ -486,17 +557,35 @@ export default function WeekHomework({
           {/* Parent brief card */}
           {week.parentBrief && (
             <div className="bg-accent/10 border border-accent/30 rounded-xl p-5">
-              <h2 className="font-serif font-semibold text-lg text-ink mb-2 flex items-center gap-2">
-                <span>📌 {(week.level === "MATH" || week.level === "SMATH") ? "本周家长说明" : "本周纠错焦点"}</span>
-                {week.errorFocus && (
-                  <span className="text-sm font-normal text-accent px-2 py-1 bg-accent/20 rounded-full">
-                    {week.errorFocus}
-                  </span>
-                )}
+              <h2 className="font-serif font-semibold text-lg text-ink mb-2">
+                📌 {(week.level === "MATH" || week.level === "SMATH") ? "本周家长说明" : "本周纠错焦点"}
               </h2>
-              <p className="text-sm text-ink-2 leading-relaxed whitespace-pre-wrap">
-                {week.parentBrief}
-              </p>
+              
+              {/* MATH/SMATH: Show concise card instead of full dump */}
+              {(week.level === "MATH" || week.level === "SMATH") ? (
+                <div className="text-sm text-ink-2 leading-relaxed space-y-1">
+                  <p className="font-semibold">{week.title}</p>
+                  <p>{getShortPracticeDescription(week)}</p>
+                  {getShortErrorFocus(week.errorFocus) && (
+                    <p><span className="font-semibold">盯住：</span>{getShortErrorFocus(week.errorFocus)}</p>
+                  )}
+                  <p className="text-muted text-xs mt-2">官方卷型与大纲在下方「本周题目」。</p>
+                </div>
+              ) : (
+                /* A2/B1/SEC: Keep existing behavior */
+                <>
+                  {week.errorFocus && (
+                    <div className="mb-2">
+                      <span className="text-sm font-normal text-accent px-2 py-1 bg-accent/20 rounded-full">
+                        {week.errorFocus}
+                      </span>
+                    </div>
+                  )}
+                  <p className="text-sm text-ink-2 leading-relaxed whitespace-pre-wrap">
+                    {week.parentBrief}
+                  </p>
+                </>
+              )}
             </div>
           )}
 
@@ -820,6 +909,11 @@ export default function WeekHomework({
       {week.level === "SMATH" && week.weekNumber === 69 && <DualValidationMapSmathWeek69 />}
       {week.level === "SMATH" && week.weekNumber === 70 && <DualValidationMapSmathWeek70 />}
       {week.level === "SMATH" && week.weekNumber === 71 && <DualValidationMapSmathWeek71 />}
+      
+      {/* SMATH Diagrams */}
+      {week.level === "SMATH" && (week.weekNumber === 44 || week.weekNumber === 70 || week.weekNumber === 71) && (
+        <SmathFigure weekNumber={week.weekNumber} />
+      )}
       
       <div className="space-y-8">
         {questions.map((question, idx) => (
