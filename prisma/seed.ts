@@ -10636,7 +10636,7 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
           options: JSON.stringify([
             "Aisha is x years old. Wei is 5 years older than Aisha. Together they are 31 years old. Which equation can be used to find Aisha's age?|A. x + (x+5) = 31|B. x + 5 = 31|C. x − 5 = 31|D. 5x = 31",
             "A pen costs S$x. A pencil costs S$3 less than the pen. If Mr Lim buys 3 pens and 2 pencils for S$24, which equation is correct?|A. 3x + 2(x−3) = 24|B. 3x + 2x + 3 = 24|C. 3x − 2(x+3) = 24|D. 3x + 2(x+3) = 24",
-            "Wei divides a group of 48 students into two teams. One team has 6 more students than the other. Let x be the number of students in the smaller team. Which equation represents this?|A. x + (x+6) = 48|B. x + 6 = 48|C. 2x + 6 = 48|D. x − 6 = 48",
+            "Wei divides a group of 48 students into two teams. One team has 6 more students than the other. Let x be the number of students in the smaller team. Which equation represents this?|A. x + (x+6) = 48|B. x + 6 = 48|C. 2x − 6 = 48|D. x − 6 = 48",
             "Solve the equation x + (x+3) = 27. What is x?|A. x = 12|B. x = 24|C. x = 27|D. x = 15",
             "A book costs S$x. A notebook costs S$5 less than the book. Wei buys 2 books and 1 notebook for S$31. The equation is 2x + (x−5) = 31. Solve for x. What is the price of the book?|A. S$12|B. S$10|C. S$7|D. S$31",
             "Wei reads: 「A notebook costs S$4 less than a book.」 Wei writes: 「notebook = x + 4」. What is wrong?|A. 「Less than」 means subtract, so notebook = x − 4, not x + 4.|B. Nothing is wrong. x + 4 is correct.|C. The notebook should be x × 4.|D. The notebook should be 4 − x.",
@@ -10668,7 +10668,7 @@ Mr Lim splits a class of 40 students into two groups. One group has 6 more stude
 (iii) Check your answer by substitution in the original story. How many students are in each group?
 
 Question (c)
-A book costs S$x. A notebook costs S$5 less than the book. Wei buys 2 books and 3 notebooks for a total of S$31.
+A book costs S$x. A notebook costs S$5 less than the book. Wei buys 2 books and 3 notebooks for a total of S$35.
 
 (i) Formulate an equation in one variable to represent this situation.
 (ii) Solve the equation. Show your working step by step.
