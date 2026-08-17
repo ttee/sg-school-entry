@@ -12931,6 +12931,106 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
         },
       ],
     },
+    {
+      level: "SMATH",
+      weekNumber: 66,
+      title: "代数分式加减 — Add and subtract algebraic fractions",
+      description: "Sec 2 N5.16: addition and subtraction of algebraic fractions with linear or quadratic denominator (AEIS 中学数学第 66 周 / SMATH Week 66)",
+      isSample: false,
+      errorFocus: "not finding common denominator; or leaving answer unsimplified; or sign errors when combining numerators",
+      parentBrief: "本周是中学 AEIS 数学第 66 周，对应官方 SEAB Sec 2 卷型（https://www.seab.gov.sg/aeis/test-details/ 2026年7月1日更新）。Part 1 Multiple-choice questions：34 道 MCQ，30 分钟。Part 2 Short-answer questions (20 items) and open-ended questions (10 to 15 items)：1 小时 45 分钟。Calculators are not allowed（不允许使用计算器）。Short-answer and open-ended questions：candidates are required to show the method of solution clearly by writing working steps in the spaces provided, plus the final answer（需写出算式步骤和最终答案）。AEIS-Secondary 官方 preceding-level 规则：申请 Sec 3 入学者需熟悉 Sec 3 前一级的内容。官方举例：apply Secondary 3 → be familiar with Secondary 2 content. 本周针对 Sec 3 申请者，内容为 Sec 3 前一级（Sec 2）的官方 MOE 2020 G3 Mathematics Syllabuses, Secondary Two, NUMBER AND ALGEBRA, N5. Algebraic manipulation: 5.16 addition and subtraction of algebraic fractions with linear or quadratic denominator（代数分式加减，线性或二次分母）。官方 N5.16 wording（逐字引用）：「addition and subtraction of algebraic fractions with linear or quadratic denominator such as」。官方 such as 例题：1/(x−2) + 2/(x−3); 1/(x²−9) + 2/(x−3); 1/(x−3) + 2/(x−3)²。本周只教 N5.16 addition and subtraction of algebraic fractions with linear or quadratic denominator（代数分式加减）。Add and subtract algebraic fractions: find common denominator（找公分母）, factorise difference of squares when needed（需要时因式分解平方差，例如 x²−9=(x−3)(x+3)）, combine the numerators（合并分子）, simplify（化简）, leave the answer as a single fraction in simplest form（以单一分数的最简形式作答）。Keep items at this level: linear or quadratic denominators, common denominator, factorise difference of squares when needed (x²−9=(x−3)(x+3)), simplify the numerator, leave the answer as a single fraction in simplest form. Integers in coefficients. No calculator. This week is ADD/SUBTRACT only（本周只教加减）. 第 65 周已完成 N5.15 multiply/divide。Fossil: not finding common denominator before adding/subtracting（加减前没找公分母：直接把 1/(x−2) + 2/(x−3) 写成 3/(x−2+x−3) 或 3/(2x−5)，错误；正确做法是找公分母 (x−2)(x−3)，分子变成 (x−3)+2(x−2)=(3x−7)，答案 (3x−7)/[(x−2)(x−3)]）；或 leaving answer unsimplified（答案没化简：分子没合并同类项或没因式分解，例如 [(x−3)+2(x−2)]/[(x−2)(x−3)] 停在这里，忘记化简分子为 (3x−7)）；或 sign errors when combining numerators（合并分子时符号错误：2(x−2)展开成 2x−2 而不是 2x−4，或 1−2(x+3)展开成 1−2x+3 而不是 1−2x−6）。本周不开始 N6（quadratic functions 二次函数）。本周不重教 5.15 multiply/divide（第 65 周已教）。本周不重教 5.14 factorisation of quadratics（第 64 周已教，但本周可以用 x²−9=(x−3)(x+3) 平方差因式分解来找公分母）。Cast: secondary Wei, Aisha, Mr Lim at Riverside Secondary. 第 8–56 周已完成 Sec 1 内容。第 57 周已完成 Sec 2 N2.4 map scales。第 58 周已完成 Sec 2 N2.5 direct and inverse proportion。第 59 周已完成 Sec 2 N5.9 expansion。第 60 周已完成 Sec 2 N5.10 changing the subject of a formula。第 61 周已完成 Sec 2 N5.11 finding the value in a formula。第 62 周已完成 Sec 2 N5.12 identities (a+b)², (a−b)², a²−b²。第 63 周已完成 Sec 2 N5.13 factorisation ax+bx+kay+kby grouping。第 64 周已完成 Sec 2 N5.14 factorisation ax²+bx+c quadratics。第 65 周已完成 Sec 2 N5.15 multiplication and division of simple algebraic fractions。本周继续 Sec 2 内容（Sec 3 申请者的 preceding level）。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "At Riverside Secondary, Mr Lim writes on the board: 「Simplify 1/(x−2) + 2/(x−3) and leave your answer as a single fraction in simplest form.」 Wei writes: Find common denominator: (x−2)(x−3). Rewrite: [1(x−3) + 2(x−2)] / [(x−2)(x−3)] = [(x−3) + (2x−4)] / [(x−2)(x−3)] = (3x−7) / [(x−2)(x−3)]. Is Wei correct?|A. Yes, Wei is correct. Common denominator: (x−2)(x−3). Numerator: (x−3)+2(x−2)=(3x−7). Answer: (3x−7)/[(x−2)(x−3)] ✓.|B. No, Wei is wrong. The answer is 3/(2x−5) because you add denominators.|C. No, Wei is wrong. The answer is (x−1)/[(x−2)(x−3)] because 2(x−2)=2x−2 not 2x−4.|D. No, Wei is wrong. The answer is (3x−7)/(x²−5x+6) which is different from Wei's answer.",
+            "Aisha at Riverside Secondary sees: 1/(x²−9) + 2/(x−3). Mr Lim says: 「First factorise x²−9.」 Aisha writes: x²−9 = (x−3)(x+3). Common denominator: (x−3)(x+3). Rewrite: [1 + 2(x+3)] / [(x−3)(x+3)] = [1 + 2x + 6] / [(x−3)(x+3)] = (2x+7) / [(x−3)(x+3)]. Is this correct?|A. Yes, Aisha is correct. Factorise: x²−9=(x−3)(x+3). Numerator: 1+2(x+3)=(2x+7). Answer: (2x+7)/[(x−3)(x+3)] ✓.|B. No, Aisha is wrong. The answer is 3/(x²−9+x−3) because you add numerators directly.|C. No, Aisha is wrong. The answer is (2x+1)/[(x−3)(x+3)] because 2(x+3)=2x+3 not 2x+6.|D. No, Aisha is wrong. You cannot add fractions with different denominators.",
+            "At Riverside Secondary, Wei has: 1/(x−3) + 2/(x−3)². Mr Lim asks: 「What is the common denominator?」 Wei says: 「The common denominator is (x−3)². Rewrite first fraction: 1/(x−3) = (x−3)/(x−3)². Add: [(x−3) + 2] / (x−3)² = (x−1) / (x−3)².」 Is Wei correct?|A. Yes, Wei is correct. Common denominator: (x−3)². Numerator: (x−3)+2=(x−1). Answer: (x−1)/(x−3)² ✓.|B. No, Wei is wrong. The answer is 3/(x−3)³ because you multiply denominators.|C. No, Wei is wrong. The answer is (x+1)/(x−3)² because (x−3)+2=x+1 not x−1.|D. No, Wei is wrong. The answer is 3/(2x−6)² because (x−3)²=(2x−6)².",
+            "Mr Lim at Riverside Secondary writes: 「Simplify 2/(x+1) − 1/(x+1)² and leave your answer in simplest form.」 Aisha writes: Common denominator: (x+1)². Rewrite: [2(x+1) − 1] / (x+1)² = [2x+2−1] / (x+1)² = (2x+1) / (x+1)². Is Aisha correct?|A. Yes, Aisha is correct. Common denominator: (x+1)². Numerator: 2(x+1)−1=(2x+1). Answer: (2x+1)/(x+1)² ✓.|B. No, Aisha is wrong. The answer is 1/(x+1)² because 2−1=1.|C. No, Aisha is wrong. The answer is (2x−1)/(x+1)² because 2(x+1)=2x not 2x+2.|D. No, Aisha is wrong. The answer is (2x+3)/(x+1)² because you add denominators.",
+            "At Riverside Secondary, Wei writes: 「From 3/(x−5) + 1/(x+2), the common denominator is (x−5)(x+2). Rewrite: [3(x+2) + 1(x−5)] / [(x−5)(x+2)] = [3x+6 + x−5] / [(x−5)(x+2)] = (4x+1) / [(x−5)(x+2)].」 Mr Lim checks and says: 「Correct.」 Is Wei's answer correct?|A. Yes, Wei is correct. Common denominator: (x−5)(x+2). Numerator: 3(x+2)+1(x−5)=(4x+1). Answer: (4x+1)/[(x−5)(x+2)] ✓.|B. No, Wei is wrong. The answer is 4/(2x−3) because you add denominators.|C. No, Wei is wrong. The answer is (4x+11)/[(x−5)(x+2)] because 3x+6+x−5=4x+11 not 4x+1.|D. No, Wei is wrong. You cannot simplify this expression.",
+          ]),
+          correctAnswer: "A,A,A,A,A",
+          points: 10,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "At Riverside Secondary, Mr Lim asks: 「Simplify 2/(x−1) + 1/(x+3) and leave your answer as a single fraction in simplest form.」 Which is the correct answer?|A. (3x+7)/[(x−1)(x+3)]|B. 3/(2x+2)|C. (3x+5)/[(x−1)(x+3)]|D. (2x+1)/[(x−1)(x+3)]",
+            "Wei at Riverside Secondary sees: 1/(x²−4) + 3/(x−2). Which statement is correct after factorising x²−4?|A. x²−4=(x−2)(x+2), so the answer is (3x+7)/[(x−2)(x+2)]|B. x²−4=(x−4)(x+1), so the answer is (3x+1)/[(x−4)(x+1)]|C. You cannot factorise x²−4|D. The answer is 4/(x²+x−6) without factorising",
+            "Mr Lim at Riverside Secondary writes: 「Simplify 3/(x+4) − 1/(x+4)² and leave your answer in simplest form.」 Aisha writes: Common denominator: (x+4)². Rewrite: [3(x+4)−1]/(x+4)² = [3x+12−1]/(x+4)² = (3x+11)/(x+4)². Is Aisha correct?|A. Yes, Aisha is correct. Numerator: 3(x+4)−1=3x+11. Answer: (3x+11)/(x+4)² ✓.|B. No, Aisha is wrong. The answer is 2/(x+4)².|C. No, Aisha is wrong. The answer is (3x−1)/(x+4)².|D. No, Aisha is wrong. The answer is (3x+13)/(x+4)².",
+            "At Riverside Secondary, Wei has: 2/(x²−25) + 1/(x−5). Which is correct after factorising x²−25 and simplifying?|A. x²−25=(x−5)(x+5), answer: (x+7)/[(x−5)(x+5)]|B. x²−25=(x−5)(x−5), answer: (x+2)/(x−5)²|C. x²−25 cannot be factorised|D. The answer is 3/(x²+x−30)",
+            "Aisha at Riverside Secondary writes: 「From 1/(x−6) + 4/(x+1), I find common denominator (x−6)(x+1). Numerator: 1(x+1)+4(x−6) = x+1+4x−24 = 5x−23. Answer: (5x−23)/[(x−6)(x+1)].」 Mr Lim says: 「Correct.」 Which is true?|A. Aisha is correct. Common denominator: (x−6)(x+1). Numerator: (x+1)+4(x−6)=(5x−23). Answer: (5x−23)/[(x−6)(x+1)] ✓.|B. Aisha is wrong. The answer is 5/(2x−5).|C. Aisha is wrong. The answer is (5x−17)/[(x−6)(x+1)].|D. Aisha is wrong. You cannot add fractions with linear denominators.",
+            "At Riverside Secondary, Mr Lim writes four simplifications on the board. Which one is correct?|A. 2/(x−7) + 3/(x−7)² = (2x−11)/(x−7)²|B. 2/(x−7) + 3/(x−7)² = 5/(x−7)³|C. 2/(x−7) + 3/(x−7)² = (2x−7)/(x−7)²|D. 2/(x−7) + 3/(x−7)² = 5/(2x−14)²",
+            "At Riverside Secondary, Wei says: 「To simplify 1/(x²−1) + 2/(x−1), I factorise: x²−1=(x−1)(x+1). Common denominator: (x−1)(x+1). Rewrite: [1 + 2(x+1)]/[(x−1)(x+1)] = [1+2x+2]/[(x−1)(x+1)] = (2x+3)/[(x−1)(x+1)].」 Is Wei correct?|A. Yes, Wei is correct. Factorise: x²−1=(x−1)(x+1). Numerator: 1+2(x+1)=(2x+3). Answer: (2x+3)/[(x−1)(x+1)] ✓.|B. No, Wei is wrong. The answer is 3/(x²+x−2).|C. No, Wei is wrong. The answer is (2x+1)/[(x−1)(x+1)].|D. No, Wei is wrong. x²−1 cannot be factorised.",
+            "Aisha at Riverside Secondary has the homework: 「Simplify 3/(x+5) − 2/(x+5)² and leave your answer in simplest form.」 Aisha writes: Common denominator: (x+5)². Rewrite: [3(x+5)−2]/(x+5)² = [3x+15−2]/(x+5)² = (3x+13)/(x+5)². Mr Lim checks and says: 「Correct.」 Which statement is true?|A. Aisha's working is correct. Common denominator: (x+5)². Numerator: 3(x+5)−2=(3x+13). Answer: (3x+13)/(x+5)² ✓.|B. Aisha's working is wrong. The answer is 1/(x+5)².|C. Aisha's working is wrong. The answer is (3x−2)/(x+5)².|D. Aisha's working is wrong. The answer is (3x+17)/(x+5)².",
+          ]),
+          correctAnswer: "A,A,A,A,A,A,A,A",
+          points: 16,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `Part 2: Show Your Working (写出算式步骤)
+
+Riverside Secondary School has algebraic fractions exercises. Answer the questions below. Show your working clearly.
+
+Question (a)
+At Riverside Secondary, Mr Lim gives Wei the expression 1/(x−4) + 3/(x−1).
+(i) Simplify 1/(x−4) + 3/(x−1) and leave your answer as a single fraction in simplest form. Show your working clearly. Write each step: find common denominator, rewrite each fraction, combine numerators, simplify.
+(ii) Aisha says: 「I think the answer is 4/(2x−5) because 1+3=4 and (x−4)+(x−1)=2x−5.」 Explain why Aisha's method is wrong. What is the correct method? Show your working.
+
+Question (b)
+Wei has the expression 1/(x²−16) + 3/(x−4) at Riverside Secondary.
+(i) Factorise x²−16. What is x²−16 as a product of two linear factors?
+(ii) Simplify 1/(x²−16) + 3/(x−4) and leave your answer as a single fraction in simplest form. Show your working clearly. Remember: factorise x²−16 first, then find common denominator.
+(iii) Mr Lim asks: 「Why can't you write 1/(x²−16) + 3/(x−4) = 4/(x²−16+x−4) = 4/(x²+x−20)?」 Explain why this method is wrong.
+
+Question (c)
+At Riverside Secondary, Aisha has the expression 2/(x+2) − 1/(x+2)².
+(i) Simplify 2/(x+2) − 1/(x+2)² and leave your answer as a single fraction in simplest form. Show your working clearly. Remember: find common denominator (which is the larger power), rewrite, then combine numerators with correct signs.
+(ii) Wei says: 「After I get [2(x+2)−1]/(x+2)², I expand the numerator: 2(x+2)−1 = 2x+2−1 = 2x+1. So the answer is (2x+1)/(x+2)².」 Check Wei's working. Is this correct? If not, what is the error?
+(iii) From the homework question 「Simplify 3/(x−2) + 1/(x+5) and leave your answer as a single fraction in simplest form」, show your working clearly. Find common denominator, combine numerators, simplify.
+
+写作提示 / Tips:
+✓ 每题分步骤写出推理 (Show working steps for each question)
+✓ Part 2 官方要求：clearly show the method of solution by writing working steps, plus the final answer
+✓ 不用计算器 (No calculators allowed)
+✓ 代数分式加减 / addition and subtraction of algebraic fractions 步骤示范：
+  • Simplify 1/(x−4) + 3/(x−1):
+    Question: Simplify 1/(x−4) + 3/(x−1) and leave your answer as a single fraction in simplest form.
+    Solution: ① Find common denominator. The two denominators are (x−4) and (x−1). Common denominator: (x−4)(x−1). ② Rewrite each fraction with common denominator. First fraction: 1/(x−4) = 1(x−1)/[(x−4)(x−1)] = (x−1)/[(x−4)(x−1)]. Second fraction: 3/(x−1) = 3(x−4)/[(x−4)(x−1)] = (3x−12)/[(x−4)(x−1)]. ③ Add numerators: [(x−1) + (3x−12)] / [(x−4)(x−1)] = [x−1+3x−12] / [(x−4)(x−1)] = (4x−13) / [(x−4)(x−1)]. ④ Answer: (4x−13) / [(x−4)(x−1)]. Check: numerator is in simplest form (4x−13 cannot be factored), no common factors with denominator ✓.
+  • Factorise x²−16 and simplify 1/(x²−16) + 3/(x−4):
+    Question: Factorise x²−16. Then simplify 1/(x²−16) + 3/(x−4).
+    Solution: ① Factorise x²−16. This is difference of squares: a²−b² = (a+b)(a−b). Here a=x, b=4. So x²−16 = x²−4² = (x+4)(x−4). ② Find common denominator. First fraction has denominator (x+4)(x−4). Second fraction has denominator (x−4). Common denominator: (x+4)(x−4). ③ Rewrite: 1/(x²−16) = 1/[(x+4)(x−4)]. 3/(x−4) = 3(x+4)/[(x+4)(x−4)] = (3x+12)/[(x+4)(x−4)]. ④ Add: [1 + (3x+12)] / [(x+4)(x−4)] = (3x+13) / [(x+4)(x−4)]. ⑤ Answer: (3x+13) / [(x+4)(x−4)]. Alternative answer form: (3x+13) / (x²−16) (both are correct, but factored form shows working better).
+  • Simplify 2/(x+2) − 1/(x+2)²:
+    Question: Simplify 2/(x+2) − 1/(x+2)² and leave your answer in simplest form.
+    Solution: ① Find common denominator. First denominator: (x+2). Second denominator: (x+2)². Common denominator: (x+2)² (the larger power). ② Rewrite first fraction: 2/(x+2) = 2(x+2)/(x+2)² = (2x+4)/(x+2)². Second fraction already has denominator (x+2)²: 1/(x+2)². ③ Subtract (note the minus sign): [2(x+2) − 1] / (x+2)² = [(2x+4) − 1] / (x+2)² = (2x+3) / (x+2)². ④ Answer: (2x+3) / (x+2)². Check: simplest form ✓. (Key point: When expanding 2(x+2)−1, be careful with signs. 2(x+2) = 2x+4. Then 2x+4−1 = 2x+3. NOT 2x+2−1=2x+1. The error 2(x+2)=2x+2 is wrong; correct is 2(x+2)=2x+4.)
+  • Simplify 3/(x−2) + 1/(x+5):
+    Question: Simplify 3/(x−2) + 1/(x+5) and leave your answer as a single fraction in simplest form.
+    Solution: ① Common denominator: (x−2)(x+5). ② Rewrite: 3/(x−2) = 3(x+5)/[(x−2)(x+5)] = (3x+15)/[(x−2)(x+5)]. 1/(x+5) = 1(x−2)/[(x−2)(x+5)] = (x−2)/[(x−2)(x+5)]. ③ Add: [(3x+15) + (x−2)] / [(x−2)(x+5)] = [3x+15+x−2] / [(x−2)(x+5)] = (4x+13) / [(x−2)(x+5)]. ④ Answer: (4x+13) / [(x−2)(x+5)].
+  • Why can't you add denominators?
+    Question: Why is 1/(x−4) + 3/(x−1) ≠ 4/(2x−5)?
+    Explanation: When adding fractions, you do NOT add denominators. The rule is: find a common denominator, rewrite each fraction with that denominator, then add only the numerators (denominators stay the same). If you write 1/(x−4) + 3/(x−1) = 4/[(x−4)+(x−1)] = 4/(2x−5), you are treating fractions like integers, which is wrong. Fractions add like this: 1/2 + 1/3 = 3/6 + 2/6 = 5/6 (NOT 2/5). Similarly, 1/(x−4) + 3/(x−1) requires common denominator (x−4)(x−1), NOT adding denominators to get 2x−5. Correct answer: (4x−13)/[(x−4)(x−1)].
+✓ 关键步骤：Step 1: Factorise denominators if needed（如果需要，因式分解分母）. For example, x²−16 = (x−4)(x+4) using difference of squares a²−b². Step 2: Find common denominator（找公分母）. If denominators are (x−4) and (x−1), common denominator is (x−4)(x−1). If denominators are (x−3) and (x−3)², common denominator is (x−3)² (the larger power). Step 3: Rewrite each fraction with common denominator（把每个分数改写成公分母）. For 1/(x−4) with common denominator (x−4)(x−1), multiply top and bottom by (x−1): 1(x−1)/[(x−4)(x−1)]. Step 4: Add or subtract numerators（加或减分子，分母不变）. Keep the common denominator. Only combine the numerators. For addition: [(x−1) + (3x−12)] / [(x−4)(x−1)]. For subtraction: [2(x+2) − 1] / (x+2)². Step 5: Simplify the numerator（化简分子）. Combine like terms: x−1+3x−12 = 4x−13. Expand brackets carefully: 2(x+2)−1 = 2x+4−1 = 2x+3. Step 6: Check simplest form（检查是否最简）. The numerator should be fully simplified (no brackets left, like terms combined). The answer is a single fraction. Step 7: State the final answer（陈述最终答案）.
+✓ 化石 (fossil errors)：
+  • Adding denominators（把分母相加）：writing 1/(x−4) + 3/(x−1) = 4/(2x−5) by adding numerators AND denominators（错误：1+3=4 和 (x−4)+(x−1)=2x−5，然后写成 4/(2x−5)。正确：When adding fractions, do NOT add denominators. Find common denominator (x−4)(x−1), rewrite each fraction, then add only numerators. The rule 1/a + 1/b ≠ 2/(a+b). Correct method: 1/(x−4) + 3/(x−1) = (x−1)/[(x−4)(x−1)] + (3x−12)/[(x−4)(x−1)] = (4x−13)/[(x−4)(x−1)].）
+  • Not factorising quadratic denominators（没因式分解二次分母）：trying to add 1/(x²−16) + 3/(x−4) without factorising x²−16 first（错误：直接用 x²−16 作分母，找不到公分母。正确：First factorise x²−16 = (x−4)(x+4). Then common denominator is (x−4)(x+4). Rewrite: 1/[(x−4)(x+4)] + 3(x+4)/[(x−4)(x+4)] = (3x+13)/[(x−4)(x+4)].）
+  • Sign errors when expanding brackets（展开括号时符号错误）：writing 2(x+2)−1 = 2x+2−1 = 2x+1 instead of 2x+4−1 = 2x+3（错误：2(x+2) 展开成 2x+2，忘记 2 要乘以括号里的每一项。正确：2(x+2) = 2×x + 2×2 = 2x+4. Then 2x+4−1 = 2x+3. The error 2(x+2)=2x+2 comes from only multiplying the first term; you must multiply both x and 2 by 2.）或 4(x−6) 展开成 4x−6 而不是 4x−24（错误：4(x−6) = 4x−6。正确：4(x−6) = 4×x − 4×6 = 4x−24. You must distribute 4 to both x and −6.）
+  • Leaving answer unsimplified（答案没化简）：stopping at [(x−3)+2(x−2)]/[(x−2)(x−3)] without simplifying numerator to (3x−7)（错误：分子停在 [(x−3)+2(x−2)]，没有展开和合并同类项。正确：Expand 2(x−2) = 2x−4. Then (x−3)+(2x−4) = x−3+2x−4 = 3x−7. Simplest form numerator is (3x−7), NOT [(x−3)+2(x−2)].）
+  • Mixing up which fraction needs which multiplier（搞混哪个分数乘以哪个因子）：for 1/(x−4) + 3/(x−1) with common denominator (x−4)(x−1), multiplying first fraction by (x−4) instead of (x−1)（错误：1/(x−4) 乘以 (x−4) 而不是 (x−1)。正确：First fraction 1/(x−4) has denominator (x−4), missing factor is (x−1), so multiply by (x−1): 1(x−1)/[(x−4)(x−1)]. Second fraction 3/(x−1) has denominator (x−1), missing factor is (x−4), so multiply by (x−4): 3(x−4)/[(x−4)(x−1)].）
+  • 本周教 Sec 2 NUMBER AND ALGEBRA, N5. Algebraic manipulation: 5.16 addition and subtraction of algebraic fractions with linear or quadratic denominator（N5.16 代数分式加减）。本周是 N5.16 only. Add/subtract: find common denominator, rewrite each fraction, combine numerators (add or subtract), simplify numerator. Factorise denominators when needed: x²−9=(x−3)(x+3), x²−16=(x−4)(x+4), x²−1=(x−1)(x+1). Leave answer as a single fraction in simplest form. Integers in coefficients. No calculator. This week is ADD/SUBTRACT only. 第 65 周已完成 N5.15 multiply/divide. Fossil: adding denominators; or not factorising quadratics; or sign errors when expanding brackets; or leaving answer unsimplified. 本周不开始 N6 (quadratic functions)。本周不重教 5.15 multiply/divide（第 65 周已教）。Cast: secondary Wei, Aisha, Mr Lim at Riverside Secondary. 第 8–56 周已完成 Sec 1 内容。第 65 周已完成 Sec 2 N5.15 multiplication and division of simple algebraic fractions。本周继续 Sec 2 内容（Sec 3 申请者的 preceding level）。
+
+Note: This is a sample of Part 2 short-answer/open-ended questions. The official paper has 20 short-answer + 10–15 open-ended items in 1 hour 45 minutes.`,
+          points: 20,
+        },
+      ],
+    },
   ];
 
   // =================================================================
