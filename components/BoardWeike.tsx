@@ -1118,7 +1118,7 @@ export default function BoardWeike({ level, weekNumber, planTitle, planFirstLine
   const key = `${level}-${weekNumber}`;
   const lesson = lessons[key];
   
-  const teacherImage = (level === "SEC" || level === "SMATH") ? "/weike/mr-lim.png" : "/weike/ms-tan.png";
+  const teacherImage = (level === "SEC" || level === "SMATH") ? "/weike/mr-lim.jpg" : "/weike/ms-tan.jpg";
   const teacherName = (level === "SEC" || level === "SMATH") ? "Mr Lim" : "Ms Tan";
 
   useEffect(() => {
@@ -1139,16 +1139,38 @@ export default function BoardWeike({ level, weekNumber, planTitle, planFirstLine
   const displayExamples = lesson ? lesson.examples : [planFirstLine || ""];
   
   // Limit gloss to max 2 short 简体 sentences (~80 chars)
+  // Cut off at first English sentence or first 「官方」
   const getShortGloss = (gloss: string): string => {
     if (!gloss) return "";
-    if (gloss.length <= 80) return gloss;
     
-    // Take only first 简体 sentence (split by 。)
-    const firstSentence = gloss.split('。')[0] + '。';
-    if (firstSentence.length <= 80) return firstSentence;
+    // Cut off at first English letter (starts bilingual section)
+    const englishMatch = gloss.match(/[A-Za-z]/);
+    if (englishMatch && englishMatch.index) {
+      gloss = gloss.substring(0, englishMatch.index).trim();
+    }
     
-    // If still too long, return empty (no gloss under still)
-    return "";
+    // Cut off at first 「官方」
+    const guanfangIndex = gloss.indexOf('官方');
+    if (guanfangIndex > 0) {
+      gloss = gloss.substring(0, guanfangIndex).trim();
+    }
+    
+    // If too long or empty after cutting, return empty
+    if (!gloss || gloss.length > 80) {
+      // Try just first 简体 sentence
+      const firstSentence = gloss.split('。')[0];
+      if (firstSentence && firstSentence.length <= 80 && firstSentence.length > 0) {
+        return firstSentence + '。';
+      }
+      return "";
+    }
+    
+    // If ends with punctuation, keep it; otherwise add period
+    if (!gloss.match(/[。！？]$/)) {
+      gloss += '。';
+    }
+    
+    return gloss;
   };
   
   const displayGloss = lesson ? getShortGloss(lesson.gloss) : (planTitle || "").substring(0, 80);
