@@ -517,6 +517,14 @@ export default function WeikeMiniLesson({ level, weekNumber }: WeikeMiniLessonPr
       ],
       gloss: "AEIS 中学数学第 27 周 / SMATH Week 27. 本周例题：Sec 1 解读代数符号（Sec 1 NUMBER AND ALGEBRA: N5.2 interpreting notations）。官方 5.2 wording（逐字引用）：'• ab as a × b • a/b as a ÷ b or a × 1/b • a² as a × a, a³ as a × a × a, a²b as a × a × b • 3y as y + y + y or 3 × y • 3(x + y) as 3 × (x + y) • (3 + y)/5 as (3 + y) ÷ 5 or 1/5 × (3 + y)'。ab means a × b（不是 a + b）。3y means 3 × y（不是 3 + y）。a² means a × a（不是 2a）。a³ means a × a × a（不是 3a）。a²b means a × a × b。3(x + y) means 3 × (x + y)（不是 3x + y；3x + y 是不同的表达式，它是 3 × x plus y，不等于 3 multiplied by the whole sum (x + y)。3x + 3y 是 expansion 5.8 后续内容，本周不教）。(3 + y)/5 means (3 + y) ÷ 5。本周化石：reading 3y as 3 + y（把 3y 读成 3 + y，正确是 3 × y）；reading ab as a + b（把 ab 读成 a + b，正确是 a × b）；reading a² as 2a（把 a² 读成 2a，正确是 a × a）；reading a³ as 3a（把 a³ 读成 3a，正确是 a × a × a）；reading 3(x + y) as 3x + y (dropping the bracket)（把 3(x + y) 读成 3x + y，丢掉括号，正确是 3 × (x + y)）。本周只教 what each notation means（本周只教每个符号代表什么），本周不教代入数值求值 substitute values（那是 5.3 evaluation，下周内容）。第 26 周已完成 5.1（using letters to represent numbers），本周只教 5.2 interpreting notations。下周 5.3 evaluation。不用计算器，写出算式步骤。"
     },
+    "SMATH-28": {
+      examples: [
+        "If a = 3: 2a = 2 × 3 = 6 (not 2 + 3 = 5). Fossil: evaluating 2a as 2 + a.",
+        "If a = 3: a² = 3 × 3 = 9 (not 2 × 3 = 6). Fossil: evaluating a² as 2a.",
+        "If a = 3: 3(a + 2) = 3 × (3 + 2) = 3 × 5 = 15 (not 3 × 3 + 2 = 11). Fossil: evaluating 3(a + 2) as 3a + 2, dropping the bracket."
+      ],
+      gloss: "AEIS 中学数学第 28 周 / SMATH Week 28. 本周例题：Sec 1 代数式求值（Sec 1 NUMBER AND ALGEBRA: N5.3 evaluation of algebraic expressions and formulae）。官方 5.3 wording（逐字引用）：'evaluation of algebraic expressions and formulae'。本周方法：Substitute a given number for the letter（代入给定数值，结合 Week 27 的 notation meanings）。If a = 3: 2a = 2 × 3 = 6（不是 2 + 3 = 5）; 2a + 1 = 2 × 3 + 1 = 7; a² = 3 × 3 = 9（不是 2 × 3 = 6）; 3(a + 2) = 3 × (3 + 2) = 3 × 5 = 15（不是 3 × 3 + 2 = 11）; a³ = 3 × 3 × 3 = 27; 5a − 2 = 5 × 3 − 2 = 13. If x = 4, y = 2: xy = 4 × 2 = 8; x + y = 4 + 2 = 6; 3(x + y) = 3 × (4 + 2) = 18; x² = 4 × 4 = 16. 本周化石：evaluating 2a as 2 + a（a=3 → 5 instead of 6）；evaluating a² as 2a（a=3 → 6 instead of 9）；evaluating 3(a + 2) as 3a + 2（a=3 → 11 instead of 15，dropping the bracket）。第 26 周已完成 5.1（using letters to represent numbers），第 27 周已完成 5.2（interpreting notations），本周只教 5.3 evaluation（代数式求值）。本周不教 5.4 translation，5.5 nth term，5.6–5.8 simplifying。用友好的整数 friendly integers。不用计算器，写出算式步骤。"
+    },
     "SEC-0": {
       fossil: "Although I was nervous, but I tried. ✗ (中文「虽然…但是…」迁移) / I go yesterday ✗ (叙事体过去时掉落)",
       examples: [
