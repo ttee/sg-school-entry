@@ -10024,6 +10024,104 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
         },
       ],
     },
+    {
+      level: "SMATH",
+      weekNumber: 36,
+      title: "数学 第 36 周 / Maths Week 36",
+      description: "AEIS-Secondary Mathematics: Sec 1 linear functions y = ax + b (N6.3 only)",
+      isSample: false,
+      errorFocus: "mixing up a and b: saying in y = 3x + 2 that a = 2 and b = 3; or writing y = 3x + 2 as 3y = x + 2",
+      parentBrief: "本周是中学 AEIS 数学第 36 周，对应官方 SEAB Sec 1 卷型（https://www.seab.gov.sg/aeis/test-details/ 2026年7月1日更新）。Part 1 Multiple-choice questions：34 道 MCQ，30 分钟。Part 2 Short-answer questions (20 items) and open-ended questions (10 to 15 items)：1 小时 45 分钟。Calculators are not allowed（不允许使用计算器）。Short-answer and open-ended questions：candidates are required to show the method of solution clearly by writing working steps in the spaces provided, plus the final answer（需写出算式步骤和最终答案）。AEIS-Secondary 官方 preceding-level 规则：申请 Sec 2 入学者需熟悉 Sec 2 前一级的内容。官方举例：apply Secondary 3 → be familiar with Secondary 2 content. 本周针对 Sec 2 申请者，内容为 Sec 2 前一级（Sec 1）的官方 MOE 2020 G3 Mathematics Syllabuses, Secondary One, N6. Functions and graphs: 6.3 linear functions y = ax + b（一次函数 y = ax + b）。第 34–35 周已完成 N6.1–6.2（Cartesian coordinates in two dimensions、graph of a set of ordered pairs）。本周只教 N6.3 linear functions y = ax + b（the form y = ax + b，a is the coefficient of x，b is the constant term，find y given x or find x given y by substitution，recognise which equation is in the form y = ax + b，may rearrange a simple one-step equation like y − 2 = 3x → y = 3x + 2）。本周不教 N6.4–6.5（graphs of linear functions、gradient 斜率）。本周不画一次函数的图像，不求斜率 gradient，不求 rise/run。本周化石：mixing up a and b（saying in y = 3x + 2 that a = 2 and b = 3，混淆 a 和 b：说 y = 3x + 2 里 a = 2 和 b = 3）；or writing y = 3x + 2 as 3y = x + 2（或把 y = 3x + 2 写成 3y = x + 2）。金额用新元 S$ 或新加坡元。不用计算器。Sec 1 content for Sec 2 AEIS applicants。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "Wei writes a linear function y = 5x + 3. In this function, what is the coefficient of x?|A. 5|B. 3|C. 5x|D. y",
+            "Which equation is in the form y = ax + b?|A. y = 2x + 7|B. y = x²|C. y = 3/x|D. xy = 4",
+            "Aisha has the function y = 4x + 1. Find y when x = 2.|A. 9|B. 7|C. 5|D. 8",
+            "Mr Lim gives the equation y − 3 = 2x. Rearrange this into the form y = ax + b.|A. y = 2x + 3|B. y = 3x + 2|C. y = 2x − 3|D. y − 3 = 2x cannot be rearranged",
+            "For the function y = 7x + 4, what is the constant term b?|A. 4|B. 7|C. 7x|D. 11",
+          ]),
+          correctAnswer: "A,A,A,A,A",
+          points: 10,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "Wei writes y = 6x + 2. What is a in this function?|A. 6|B. 2|C. 6x|D. 6x + 2",
+            "For the function y = 3x + 5, find y when x = 1.|A. 8|B. 5|C. 3|D. 9",
+            "Which of these is NOT in the form y = ax + b?|A. y = x² + 1|B. y = 2x + 3|C. y = 5x|D. y = 7",
+            "Aisha has y = 2x + 4. What is b in this function?|A. 4|B. 2|C. 2x|D. x",
+            "Mr Lim asks: for y = 8x + 1, find y when x = 0.|A. 1|B. 0|C. 8|D. 9",
+            "Wei rearranges y + 1 = 4x into the form y = ax + b. What is the result?|A. y = 4x − 1|B. y = 4x + 1|C. y = x + 4|D. y = −4x + 1",
+            "For the function y = 10x + 5, find y when x = 3.|A. 35|B. 30|C. 15|D. 25",
+            "Aisha says: in the function y = 3x + 7, the coefficient of x is 7 and the constant term is 3. Is Aisha correct?|A. No, the coefficient of x is 3 and the constant term is 7|B. Yes, Aisha is correct|C. No, the coefficient of x is 10|D. The function is not in the form y = ax + b",
+          ]),
+          correctAnswer: "A,A,A,A,A,A,A,A",
+          points: 16,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `Part 2: Show Your Working (写出算式步骤)
+
+Riverside Secondary School has questions about linear functions. Answer the questions below. Show your working.
+
+Question (a)
+Wei writes the function y = 5x + 2.
+
+(i) What is the coefficient of x in this function?
+(ii) What is the constant term b?
+(iii) Find y when x = 3.
+
+Question (b)
+Mr Lim gives the function y = 4x + 7.
+
+(i) Find y when x = 2.
+(ii) Find x when y = 15.
+(iii) Aisha says: 「In this function, a = 7 and b = 4.」 Explain why Aisha is wrong.
+
+Question (c)
+A function shows the relationship between the number of tickets x and the total cost in S$: y = 8x + 5.
+
+(i) A student buys 4 tickets. Find the total cost y.
+(ii) The total cost is S$29. How many tickets x did the student buy?
+(iii) Wei writes this function as 8y = x + 5. Explain why Wei is wrong.
+
+写作提示 / Tips:
+✓ 每题分步骤写出推理 (Show working steps for each question)
+✓ Part 2 官方要求：clearly show the method of solution by writing working steps, plus the final answer
+✓ 不用计算器 (No calculators allowed)
+✓ 一次函数步骤示范 (linear functions y = ax + b examples)：
+  • Function y = 5x + 2：
+    Question: What is the coefficient of x? What is the constant term b? Find y when x = 3.
+    Solution: The function is in the form y = ax + b. Compare y = 5x + 2 with y = ax + b. The coefficient of x is a = 5. Answer: 5. The constant term is b = 2. Answer: 2. To find y when x = 3, substitute x = 3 into the function: y = 5x + 2 = 5(3) + 2 = 15 + 2 = 17. Answer: y = 17. (Note: Common fossil: mixing up a and b, saying a = 2 and b = 5. This is wrong because in y = 5x + 2, the coefficient of x is 5 so a = 5, and the constant term is 2 so b = 2.)
+  • Function y = 4x + 7, find y when x = 2, find x when y = 15：
+    Solution: To find y when x = 2, substitute x = 2 into the function: y = 4x + 7 = 4(2) + 7 = 8 + 7 = 15. Answer: y = 15. To find x when y = 15, substitute y = 15 into the function: 15 = 4x + 7. Subtract 7 from both sides: 15 − 7 = 4x, so 8 = 4x. Divide both sides by 4: x = 8 ÷ 4 = 2. Answer: x = 2. (Note: Check: when x = 2, y = 4(2) + 7 = 15 ✓.)
+  • Aisha says in y = 4x + 7 that a = 7 and b = 4：
+    Solution: In the form y = ax + b, a is the coefficient of x and b is the constant term. In y = 4x + 7, the coefficient of x is 4, so a = 4. The constant term is 7, so b = 7. Aisha said a = 7 and b = 4, which swaps the two values. Answer: Aisha is wrong because a = 4 (not 7) and b = 7 (not 4).
+  • Function y = 8x + 5, find y when x = 4, find x when y = 29：
+    Solution: To find y when x = 4, substitute x = 4: y = 8x + 5 = 8(4) + 5 = 32 + 5 = 37. Answer: y = 37 (total cost is S$37). To find x when y = 29, substitute y = 29: 29 = 8x + 5. Subtract 5: 29 − 5 = 8x, so 24 = 8x. Divide by 8: x = 24 ÷ 8 = 3. Answer: x = 3 (3 tickets).
+  • Wei writes y = 8x + 5 as 8y = x + 5：
+    Solution: The correct function is y = 8x + 5. Wei wrote 8y = x + 5. This is wrong because the left side should be y (not 8y), and the right side should be 8x + 5 (not x + 5). The coefficient 8 is for x, not for y. Answer: Wei is wrong because the function is y = 8x + 5, not 8y = x + 5.
+✓ 关键步骤：Step 1: Identify the form y = ax + b（识别形式 y = ax + b）. Step 2: a is the coefficient of x, b is the constant term（a 是 x 的系数，b 是常数项）. Step 3: To find y when x is given, substitute the value of x into the function and calculate（要求给定 x 时的 y，将 x 的值代入函数并计算）. Step 4: To find x when y is given, substitute y, then solve for x（要求给定 y 时的 x，将 y 代入，然后解出 x）. Step 5: To rearrange a simple equation like y − 3 = 2x into y = ax + b, add 3 to both sides to get y = 2x + 3（要把简单方程如 y − 3 = 2x 改写成 y = ax + b，两边加 3 得 y = 2x + 3）. Step 6: Check that a is the coefficient of x (the number multiplying x) and b is the constant term (the number on its own)（检查 a 是 x 的系数（乘以 x 的数）而 b 是常数项（单独的数））. Step 7: State the final answer（陈述最终答案）.
+✓ 化石 (fossil errors)：
+  • Mixing up a and b: saying in y = 3x + 2 that a = 2 and b = 3（混淆 a 和 b：说 y = 3x + 2 里 a = 2 和 b = 3。正确：in y = ax + b, a is the coefficient of x and b is the constant term，所以 y = 3x + 2 里 a = 3, b = 2）
+  • Writing y = 3x + 2 as 3y = x + 2（把 y = 3x + 2 写成 3y = x + 2。正确：coefficient 3 is for x, not for y, so it is y = 3x + 2, not 3y = x + 2）
+  • Confusing the coefficient of x with the value of x（把 x 的系数与 x 的值混淆。正确：in y = 5x + 2, the coefficient of x is 5, not x）
+  •本周教 N6 的 6.3（linear functions y = ax + b，一次函数 y = ax + b）。第 34–35 周已完成 N6.1–6.2（Cartesian coordinates、graph of ordered pairs）。本周只教 6.3（the form y = ax + b，identify a and b，find y given x，find x given y，rearrange simple one-step equations），不教 N6.4–6.5（graphs of linear functions、gradient 斜率）。
+
+Note: This is a sample of Part 2 short-answer/open-ended questions. The official paper has 20 short-answer + 10–15 open-ended items in 1 hour 45 minutes.`,
+          points: 20,
+        },
+      ],
+    },
   ];
 
   // =================================================================

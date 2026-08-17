@@ -584,6 +584,15 @@ export default function WeikeMiniLesson({ level, weekNumber }: WeikeMiniLessonPr
       ],
       gloss: "AEIS 中学数学第 35 周 / SMATH Week 35. 本周例题：Sec 1 有序对的集合的图像表示两个量之间的关系（Sec 1 NUMBER AND ALGEBRA: N6.2 graph of a set of ordered pairs as a representation of a relationship between two variables）。官方 6.2 wording（逐字引用）：'graph of a set of ordered pairs as a representation of a relationship between two variables'。本周方法：A table gives a set of ordered pairs (x, y)（表格给出一组有序对）。The first variable is x, the second variable is y（第一个量是 x，第二个量是 y）。Write each pair as (x, y) with x first, then y（写出每个对 (x, y)，x 在前，y 在后）。These points can be plotted on a graph（这些点可以画在图像上）。The set of points represents a relationship between two variables（这组点表示两个量之间的关系）。Example: table hours (1, 2, 3) and distance (4, 8, 12) → ordered pairs (1, 4), (2, 8), (3, 12)（例：表格 hours (1, 2, 3) 和 distance (4, 8, 12) → 有序对 (1, 4), (2, 8), (3, 12)）。Read pairs from a graph or table（从图像或表格读出有序对）。Choose which table matches a given set of points（选择哪个表格与给定的点集匹配）。Choose which ordered pair belongs to a given relationship table（选择哪个有序对属于给定的关系表格）。本周化石：swapping the two variables when writing ordered pairs from a table (tickets, cost) → writing (cost, tickets) instead of (tickets, cost)（从表格写有序对时颠倒两个量：(tickets, cost) 写成 (cost, tickets)）；or plotting (y, x) instead of (x, y)（或画点时把 (x, y) 画成 (y, x)）。金额用新元 S$。不用计算器。第 34 周已完成 N6.1，本周只教 N6.2。本周不教 N6.3–6.5（linear functions y=ax+b、graphs of linear functions、gradient）。"
     },
+    "SMATH-36": {
+      examples: [
+        "y = 5x + 3: coefficient of x is a = 5, constant term is b = 3. NOT a = 3, b = 5 ✗.",
+        "y = 4x + 1, find y when x = 2: y = 4(2) + 1 = 8 + 1 = 9.",
+        "y = 8x + 5, find x when y = 29: 29 = 8x + 5 → 24 = 8x → x = 3.",
+        "Rearrange y − 3 = 2x: y = 2x + 3. Which is y = ax + b? y = 2x + 7 ✓. y = x² ✗."
+      ],
+      gloss: "AEIS 中学数学第 36 周 / SMATH Week 36. 本周例题：Sec 1 一次函数 y = ax + b（Sec 1 NUMBER AND ALGEBRA: N6.3 linear functions y = ax + b）。官方 6.3 wording（逐字引用）：'linear functions y = ax + b'。本周方法：Recognise the form y = ax + b（认识形式 y = ax + b）。a is the coefficient of x, b is the constant term（a 是 x 的系数，b 是常数项）。Find y when x is given by substitution（给定 x 求 y，代入）：y = 5x + 2, when x = 3, y = 5(3) + 2 = 17. Find x when y is given by solving（给定 y 求 x，解方程）：y = 4x + 7, when y = 15, substitute 15 = 4x + 7, subtract 7: 8 = 4x, divide by 4: x = 2. Rearrange a simple one-step equation（简单一步改写）：y − 3 = 2x → y = 2x + 3. Recognise which is in the form y = ax + b（识别哪个是 y = ax + b 的形式）：y = 2x + 7 ✓, y = x² ✗, y = 3/x ✗. Friendly integers. 金额用新元 S$ 或新加坡元。No calculator（calculators are not allowed）。本周不教 N6.4–6.5（graphs of linear functions 一次函数的图像、gradient 斜率）。本周不画一次函数的图像，不求斜率，不求 rise/run。化石：mixing up a and b（混淆 a 和 b）：saying in y = 3x + 2 that a = 2 and b = 3（说 y = 3x + 2 里 a = 2 和 b = 3，错误，应该是 a = 3, b = 2）；or writing y = 3x + 2 as 3y = x + 2（或把 y = 3x + 2 写成 3y = x + 2，错误，coefficient 3 is for x, not for y）。"
+    },
     "SEC-0": {
       fossil: "Although I was nervous, but I tried. ✗ (中文「虽然…但是…」迁移) / I go yesterday ✗ (叙事体过去时掉落)",
       examples: [
