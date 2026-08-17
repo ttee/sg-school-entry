@@ -10798,6 +10798,102 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
         },
       ],
     },
+    {
+      level: "SMATH",
+      weekNumber: 44,
+      title: "数学 第 44 周 / Maths Week 44",
+      description: "AEIS-Secondary Mathematics: Sec 1 vertically opposite angles, angles on a straight line, angles at a point (G1.2 only)",
+      isSample: false,
+      errorFocus: "using the wrong total: treating vertically opposite angles as supplementary (wrong, they are equal); using 180° for angles at a point (wrong, should be 360°); using 'equal' for angles on a straight line (wrong, they add to 180°)",
+      parentBrief: "本周是中学 AEIS 数学第 44 周，对应官方 SEAB Sec 1 卷型（https://www.seab.gov.sg/aeis/test-details/ 2026年7月1日更新）。Part 1 Multiple-choice questions：34 道 MCQ，30 分钟。Part 2 Short-answer questions (20 items) and open-ended questions (10 to 15 items)：1 小时 45 分钟。Calculators are not allowed（不允许使用计算器）。Short-answer and open-ended questions：candidates are required to show the method of solution clearly by writing working steps in the spaces provided, plus the final answer（需写出算式步骤和最终答案）。AEIS-Secondary 官方 preceding-level 规则：申请 Sec 2 入学者需熟悉 Sec 2 前一级的内容。官方举例：apply Secondary 3 → be familiar with Secondary 2 content. 本周针对 Sec 2 申请者，内容为 Sec 2 前一级（Sec 1）的官方 MOE 2020 G3 Mathematics Syllabuses, Secondary One, GEOMETRY AND MEASUREMENT, G1. Angles, triangles and polygons: 1.2 vertically opposite angles, angles on a straight line, angles at a point（对顶角、平角、周角）。官方 1.2 wording（逐字引用）：「vertically opposite angles, angles on a straight line, angles at a point」。本周方法：三种角的关系 three angle relationships。Vertically opposite angles are equal（对顶角相等）——两条直线相交，对顶角相等 when two lines cross, vertically opposite angles are equal。Angles on a straight line add to 180°（平角上的角之和为 180°）——一条直线上的角加起来等于 180° angles on a straight line sum to 180°。Angles at a point add to 360°（周角上的角之和为 360°）——一个点周围的角加起来等于 360° angles at a point sum to 360°。Examples: two lines cross at point O, one angle is 50°, the vertically opposite angle is also 50° (equal); straight line AB with ray OC, angle AOC = 130°, so angle BOC = 180° − 130° = 50°; four angles at point O are 80°, 100°, 90°, and x, so 80° + 100° + 90° + x = 360°, thus x = 90°。Cast: Wei, Aisha, Mr Lim at Riverside Secondary School（classroom board intersecting lines, door frame straight line, clock center point）。Friendly integers（友好整数，角度是整数）。唯一性 unique keys：每道选择题只有一个正确答案（only ONE option may be true）。本周只教 G1.2（vertically opposite angles, angles on a straight line, angles at a point：对顶角相等 equal、平角 180°、周角 360°），不教 G1.3（properties of angles related to parallel lines and transversals: corresponding / alternate / interior angles 同位角/内错角/同旁内角），不教 G1.1 分类（已在第 43 周完成）。本周化石：using the wrong total（使用错误的总数）。Wrong: two lines cross, one angle 50°, the vertically opposite is 130° because they add to 180°（错误：对顶角应该相等，是 50°，不是 130°。Vertically opposite angles are equal, not supplementary）。Wrong: angles on a straight line, one is 130°, the adjacent is 130° because vertically opposite angles are equal（错误：这是平角上的角，应该加到 180°，所以是 50°，不是 130°。Angles on a straight line add to 180°, not equal）。Wrong: angles at a point add to 180°（错误：周角上的角加到 360°，不是 180°。Angles at a point add to 360°）。Right: vertically opposite angles = equal（正确：对顶角相等 when two lines cross）; angles on a straight line = 180°（正确：平角上的角之和为 180° angles on one straight line）; angles at a point = 360°（正确：周角上的角之和为 360° angles around one point）。第 43 周已完成 G1.1 right, acute, obtuse and reflex angles。本周继续 GEOMETRY AND MEASUREMENT G1，教 1.2 vertically opposite angles, angles on a straight line, angles at a point（对顶角、平角、周角），为后续 G1 小节做准备。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "Two lines cross at point O on the board at Riverside Secondary. Mr Lim measures one angle and finds it is 50°. What is the vertically opposite angle?|A. 50° (because vertically opposite angles are equal)|B. 130° (because they add to 180°)|C. 310° (because they add to 360°)|D. 90°",
+            "Wei draws a straight line AB with a ray OC on one side at the classroom board. Angle AOC measures 130°. What is angle BOC?|A. 50° (because angles on a straight line add to 180°, so 180° − 130° = 50°)|B. 130° (because vertically opposite angles are equal)|C. 230°|D. 310°",
+            "Aisha observes four angles at point O at the clock center. Three angles are 80°, 100°, and 90°. What is the fourth angle?|A. 90° (because angles at a point add to 360°, so 360° − 80° − 100° − 90° = 90°)|B. 180° (because angles at a point add to 180°)|C. 270°|D. 10°",
+            "Mr Lim says: 「Two lines cross at point O. One angle is 65°. The vertically opposite angle is 115° because they add to 180°.」 What is wrong with Mr Lim's statement?|A. Vertically opposite angles are equal, not supplementary. The vertically opposite angle should be 65°, not 115°.|B. Nothing is wrong. The vertically opposite angle is 115°.|C. Vertically opposite angles add to 360°.|D. The vertically opposite angle should be 295°.",
+            "Wei draws a straight line with a ray at Riverside Secondary. One angle on the straight line measures 145°. Aisha says the adjacent angle is also 145° because vertically opposite angles are equal. What is wrong with Aisha's reasoning?|A. These are angles on a straight line, not vertically opposite angles. Angles on a straight line add to 180°, so the adjacent angle should be 180° − 145° = 35°, not 145°.|B. Nothing is wrong. The adjacent angle is 145°.|C. The adjacent angle should be 215°.|D. Vertically opposite angles add to 360°.",
+          ]),
+          correctAnswer: "A,A,A,A,A",
+          points: 10,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "Two lines intersect at point P on the classroom board at Riverside Secondary. One angle measures 85°. What is the measure of the vertically opposite angle?|A. 85° (because vertically opposite angles are equal)|B. 95° (because they add to 180°)|C. 275° (because they add to 360°)|D. 180°",
+            "Mr Lim draws a straight line with a ray at point Q. One angle on the straight line is 160°. What is the adjacent angle on the same straight line?|A. 20° (because angles on a straight line add to 180°, so 180° − 160° = 20°)|B. 160° (because vertically opposite angles are equal)|C. 200°|D. 340°",
+            "Three angles meet at point R at the clock center. The angles are 110°, 140°, and x. What is the value of x?|A. 110° (because angles at a point add to 360°, so x = 360° − 110° − 140° = 110°)|B. 180° (because angles at a point add to 180°)|C. 70°|D. 250°",
+            "Wei observes two intersecting lines at Riverside Secondary. One angle is 42°. Aisha says: 「The vertically opposite angle must be 138° because angles add to 180°.」 Is Aisha correct?|A. No, vertically opposite angles are equal, so the angle should be 42°, not 138°.|B. Yes, Aisha is correct. The vertically opposite angle is 138°.|C. No, the angle should be 318°.|D. No, the angle should be 90°.",
+            "A straight line has two rays on one side forming three angles: 60°, 80°, and x. What is x?|A. 40° (because angles on a straight line add to 180°, so x = 180° − 60° − 80° = 40°)|B. 60°|C. 80°|D. 220°",
+            "Five angles meet at point S. Four of them are 50°, 70°, 90°, and 100°. What is the fifth angle?|A. 50° (because angles at a point add to 360°, so the fifth angle = 360° − 50° − 70° − 90° − 100° = 50°)|B. 180°|C. 310°|D. 40°",
+            "Mr Lim teaches at Riverside Secondary: 「When two lines cross, vertically opposite angles add to 180°.」 Is this statement correct?|A. No, vertically opposite angles are equal, not supplementary. They do not add to 180°.|B. Yes, vertically opposite angles add to 180°.|C. Yes, but only when one angle is 90°.|D. No, vertically opposite angles add to 360°.",
+            "Aisha draws a straight line AB with point C on it. She places two rays at C, forming three angles on the line: 45°, 55°, and y. Wei says: 「The angles at a point add to 360°, so y = 360° − 45° − 55° = 260°.」 What is wrong with Wei's reasoning?|A. These are angles on a straight line, not angles at a point. Angles on a straight line add to 180°, so y = 180° − 45° − 55° = 80°, not 260°.|B. Nothing is wrong. Wei is correct, y = 260°.|C. Wei should use 90° instead of 360°.|D. y = 100°.",
+          ]),
+          correctAnswer: "A,A,A,A,A,A,A,A",
+          points: 16,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `Part 2: Show Your Working (写出算式步骤)
+
+Riverside Secondary School has angle relationship exercises. Answer the questions below. For each question, show your method of solution clearly by writing working steps, plus the final answer.
+
+Question (a)
+Two straight lines cross at point O on the classroom board at Riverside Secondary. Mr Lim measures one of the angles and finds it is 55°.
+
+(i) What is the measure of the vertically opposite angle? Explain your answer using the angle property.
+(ii) Mr Lim's student Wei says: 「The vertically opposite angle is 125° because two angles that are vertically opposite add to 180°.」 Explain what is wrong with Wei's reasoning and give the correct answer.
+
+Question (b)
+Aisha draws a straight line PQ with a ray OR at point O on the line. Angle POR measures 140°.
+
+(i) What is the measure of angle QOR? Show your working clearly.
+(ii) Verify your answer by checking that the sum of angles POR and QOR equals the total for angles on a straight line.
+(iii) Aisha's friend says: 「Angle QOR is 140° because vertically opposite angles are equal.」 Explain why this reasoning is incorrect for this problem.
+
+Question (c)
+At the center of a clock at Riverside Secondary, five rays meet at point C, forming five angles around the point. Four of the angles measure 60°, 80°, 100°, and 70°. The fifth angle is x.
+
+(i) Find the value of x. Show all your working steps clearly.
+(ii) Wei says: 「The five angles should add to 180° because they are on a straight line.」 Use the correct angle property to explain why Wei is wrong.
+(iii) Mr Lim asks: 「What if there were only three angles at the point: 120°, 150°, and y. What would y be?」 Find the value of y and show your working.
+
+写作提示 / Tips:
+✓ 每题分步骤写出推理 (Show working steps for each question)
+✓ Part 2 官方要求：clearly show the method of solution by writing working steps, plus the final answer
+✓ 不用计算器 (No calculators allowed)
+✓ 三种角的关系步骤示范 (three angle relationships examples)：
+  • Two lines cross, one angle 55°:
+    Question: What is the vertically opposite angle? Wei says it is 125° because they add to 180°. What is wrong?
+    Solution: ① Identify the angle relationship: Two lines cross at point O. This creates vertically opposite angles. ② Recall the property: Vertically opposite angles are equal (对顶角相等). ③ Apply the property: One angle is 55°, so the vertically opposite angle = 55° (equal). ④ Conclusion: The vertically opposite angle is 55°. ⑤ Wei's error: Wei said the vertically opposite angle is 125° because they add to 180°. This is wrong. Wei confused vertically opposite angles with angles on a straight line. Vertically opposite angles are EQUAL, not supplementary. The correct property is: vertically opposite angles are equal, so both angles = 55°. Angles that add to 180° are angles on a straight line (adjacent angles), not vertically opposite angles.
+  • Straight line PQ with ray OR, angle POR = 140°:
+    Question: Find angle QOR. Verify the sum. Friend says QOR = 140° because vertically opposite are equal. Why is this wrong?
+    Solution: ① Identify the angle relationship: Point O is on straight line PQ, with ray OR on one side. Angles POR and QOR are on a straight line. ② Recall the property: Angles on a straight line add to 180° (平角上的角之和为 180°). ③ Apply the property: angle POR + angle QOR = 180°. Given angle POR = 140°, so 140° + angle QOR = 180°. ④ Solve: angle QOR = 180° − 140° = 50°. ⑤ Verify: 140° + 50° = 190°... wait, let me recalculate: 140° + 50° = 190° ✗. This is wrong. Let me redo: angle QOR = 180° − 140° = 40°. Verify: 140° + 40° = 180° ✓. ⑥ Conclusion: angle QOR = 40°. ⑦ Friend's error: Friend said angle QOR = 140° because vertically opposite angles are equal. This reasoning is incorrect for this problem because angles POR and QOR are NOT vertically opposite angles. They are adjacent angles on a straight line. Vertically opposite angles are formed when two lines CROSS, not when a ray is on one side of a straight line. The correct property here is: angles on a straight line add to 180°, so angle QOR = 180° − 140° = 40°, not 140°.
+  • Five angles at point C: 60°, 80°, 100°, 70°, x. Also: three angles 120°, 150°, y:
+    Question: Find x. Wei says five angles should add to 180° because they are on a straight line. Why is Wei wrong? Also find y if three angles at a point are 120°, 150°, y.
+    Solution for x: ① Identify the angle relationship: Five rays meet at point C, forming five angles around the point. This is angles at a point. ② Recall the property: Angles at a point add to 360° (周角上的角之和为 360°). ③ Apply the property: 60° + 80° + 100° + 70° + x = 360°. ④ Simplify the left side: 60° + 80° = 140°; 140° + 100° = 240°; 240° + 70° = 310°. So 310° + x = 360°. ⑤ Solve: x = 360° − 310° = 50°. ⑥ Conclusion: x = 50°. ⑦ Wei's error: Wei said the five angles should add to 180° because they are on a straight line. This is wrong. Wei confused angles at a point with angles on a straight line. Angles on a straight line add to 180° (平角), but angles at a point add to 360° (周角). Since five rays meet at point C forming angles AROUND the point (not on one side of a line), the correct property is: angles at a point add to 360°, not 180°. Solution for y: ① Three angles at a point: 120°, 150°, y. ② Property: angles at a point add to 360°. ③ 120° + 150° + y = 360°. ④ 270° + y = 360°. ⑤ y = 360° − 270° = 90°. ⑥ Conclusion: y = 90°.
+✓ 关键步骤：Step 1: Identify the angle relationship（识别角的关系）——two lines crossing (vertically opposite), rays on a straight line (angles on a straight line), rays around a point (angles at a point). Step 2: Recall the correct property（回忆正确的性质）——vertically opposite angles are equal; angles on a straight line add to 180°; angles at a point add to 360°. Step 3: Apply the property to the given angles（将性质应用于给定的角）——use equal for vertically opposite, use subtraction from 180° for straight line, use subtraction from 360° for point. Step 4: Solve for the unknown angle（求解未知角）——write the equation and solve step by step. Step 5: State the final answer clearly（清楚地陈述最终答案）. Step 6: If a fossil error is present, explain what is wrong with the incorrect reasoning（如果有化石错误，解释错误推理的问题）——identify which property was confused, state the correct property, show the correct calculation.
+✓ 化石 (fossil errors)：
+  • Using the wrong total for vertically opposite angles: two lines cross, one angle 55°, the vertically opposite is 125° because they add to 180°（错误：对顶角应该相等，是 55°，不是 125°。Vertically opposite angles are equal, not supplementary. The property is: vertically opposite angles are equal, so both = 55°）
+  • Using 「equal」 for angles on a straight line: angles on a straight line, one is 140°, the adjacent is 140° because vertically opposite angles are equal（错误：这是平角上的角，不是对顶角。Angles on a straight line add to 180°, so the adjacent angle = 180° − 140° = 40°, not 140°。The property is: angles on a straight line add to 180°, not equal）
+  • Using 180° for angles at a point: five angles at a point should add to 180°（错误：周角上的角加到 360°，不是 180°。Angles at a point add to 360°. The property is: angles at a point add to 360°, so if four angles are 60° + 80° + 100° + 70° = 310°, then the fifth angle = 360° − 310° = 50°）
+  • Confusing angle relationships: calling adjacent angles on a straight line 「vertically opposite」（错误：混淆角的关系。Vertically opposite angles are formed when two lines CROSS. Adjacent angles on a straight line are NOT vertically opposite. Use the correct property for each relationship）
+  • 本周教 G1.2（vertically opposite angles, angles on a straight line, angles at a point：对顶角相等 equal, 平角 180°, 周角 360°）。本周不教 G1.3（properties of angles related to parallel lines and transversals: corresponding / alternate / interior angles 同位角/内错角/同旁内角）。第 43 周已完成 G1.1 right, acute, obtuse and reflex angles（直角锐角钝角优角）。
+
+Note: This is a sample of Part 2 short-answer/open-ended questions. The official paper has 20 short-answer + 10–15 open-ended items in 1 hour 45 minutes.`,
+          points: 20,
+        },
+      ],
+    },
   ];
 
   // =================================================================
