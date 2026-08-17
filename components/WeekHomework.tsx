@@ -234,15 +234,7 @@ function getShortErrorFocus(errorFocus: string | null): string | null {
     return "不等号方向的变化";
   }
   
-  // If too long or complex, return null to skip the line
-  if (errorFocus.length > 120) return null;
-  
-  // Try to extract a short meaningful phrase (first part before semicolon)
-  const firstPart = errorFocus.split(";")[0].split(",")[0];
-  if (firstPart.length < 80) {
-    return firstPart.trim();
-  }
-  
+  // Only return mapped 简体 phrases, never English
   return null;
 }
 

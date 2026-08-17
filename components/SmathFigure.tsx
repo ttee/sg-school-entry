@@ -2,7 +2,7 @@ export default function SmathFigure({ weekNumber }: { weekNumber: number }) {
   if (weekNumber === 44) {
     return (
       <div className="bg-paper border border-line rounded-xl p-6 mb-6">
-        <h3 className="font-semibold text-ink mb-4 text-center">📐 本周图解 / Diagrams</h3>
+        <h3 className="font-semibold text-ink mb-4 text-center">📐 本周图解</h3>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {/* Diagram 1: Vertically opposite angles */}
           <div className="flex flex-col items-center">
@@ -16,9 +16,8 @@ export default function SmathFigure({ weekNumber }: { weekNumber: number }) {
               <text x="60" y="140" fontSize="14" fill="#6b7280">130°</text>
               <text x="130" y="60" fontSize="14" fill="#6b7280">130°</text>
             </svg>
-            <p className="text-sm text-ink-2 text-center mt-2">
-              <span className="font-semibold">对顶角相等</span><br />
-              Vertically opposite angles are equal
+            <p className="text-sm text-ink-2 text-center mt-2 font-semibold">
+              对顶角相等
             </p>
           </div>
 
@@ -37,9 +36,8 @@ export default function SmathFigure({ weekNumber }: { weekNumber: number }) {
               <text x="55" y="115" fontSize="16" fill="#10b981" fontWeight="700">50°</text>
               <text x="100" y="130" fontSize="12" fill="#6b7280" textAnchor="middle">130° + 50° = 180°</text>
             </svg>
-            <p className="text-sm text-ink-2 text-center mt-2">
-              <span className="font-semibold">平角 = 180°</span><br />
-              Angles on a straight line sum to 180°
+            <p className="text-sm text-ink-2 text-center mt-2 font-semibold">
+              平角 = 180°
             </p>
           </div>
 
@@ -58,9 +56,8 @@ export default function SmathFigure({ weekNumber }: { weekNumber: number }) {
               <text x="55" y="130" fontSize="16" fill="#8b5cf6" fontWeight="700">90°</text>
               <text x="100" y="165" fontSize="11" fill="#6b7280" textAnchor="middle">80° + 100° + 90° + 90° = 360°</text>
             </svg>
-            <p className="text-sm text-ink-2 text-center mt-2">
-              <span className="font-semibold">周角 = 360°</span><br />
-              Angles at a point sum to 360°
+            <p className="text-sm text-ink-2 text-center mt-2 font-semibold">
+              周角 = 360°
             </p>
           </div>
         </div>
@@ -71,7 +68,7 @@ export default function SmathFigure({ weekNumber }: { weekNumber: number }) {
   if (weekNumber === 70) {
     return (
       <div className="bg-paper border border-line rounded-xl p-6 mb-6">
-        <h3 className="font-semibold text-ink mb-4 text-center">📊 本周图解 / Diagrams</h3>
+        <h3 className="font-semibold text-ink mb-4 text-center">📊 本周图解</h3>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-3xl mx-auto">
           {/* Diagram 1: x ≤ 4 */}
           <div className="flex flex-col items-center">
@@ -97,8 +94,7 @@ export default function SmathFigure({ weekNumber }: { weekNumber: number }) {
             </svg>
             <p className="text-sm text-ink-2 text-center mt-3">
               <span className="font-semibold text-lg">x ≤ 4</span><br />
-              <span className="text-accent font-semibold">实心圆点</span>：包含 4<br />
-              Closed circle: includes 4
+              <span className="text-accent font-semibold">实心圆点：包含 4</span>
             </p>
           </div>
 
@@ -126,8 +122,7 @@ export default function SmathFigure({ weekNumber }: { weekNumber: number }) {
             </svg>
             <p className="text-sm text-ink-2 text-center mt-3">
               <span className="font-semibold text-lg">x &lt; 4</span><br />
-              <span className="text-accent font-semibold">空心圆点</span>：不包含 4<br />
-              Open circle: does not include 4
+              <span className="text-accent font-semibold">空心圆点：不包含 4</span>
             </p>
           </div>
         </div>
@@ -138,7 +133,7 @@ export default function SmathFigure({ weekNumber }: { weekNumber: number }) {
   if (weekNumber === 71) {
     return (
       <div className="bg-paper border border-line rounded-xl p-6 mb-6">
-        <h3 className="font-semibold text-ink mb-4 text-center">📈 本周图解 / Diagram</h3>
+        <h3 className="font-semibold text-ink mb-4 text-center">📈 本周图解</h3>
         <div className="flex flex-col items-center">
           <svg viewBox="0 0 400 400" className="w-full max-w-[400px] h-auto">
             <defs>
@@ -208,9 +203,9 @@ export default function SmathFigure({ weekNumber }: { weekNumber: number }) {
             <text x="200" y="150" fontSize="16" fill="#d97706" fontWeight="700">2x + y = 6</text>
           </svg>
           <p className="text-sm text-ink-2 text-center mt-3 max-w-md">
-            <span className="font-semibold">直线方程 / Linear equation</span><br />
+            <span className="font-semibold">直线方程</span><br />
             2x + y = 6<br />
-            经过 (3, 0) 和 (0, 6) / Passes through (3, 0) and (0, 6)
+            经过 (3, 0) 和 (0, 6)
           </p>
         </div>
       </div>
