@@ -144,6 +144,7 @@ import DualValidationMapSmathWeek71 from "./DualValidationMapSmathWeek71";
 import DualValidationMapSmathWeek72 from "./DualValidationMapSmathWeek72";
 import OfficialClip from "./OfficialClip";
 import WeikeMiniLesson from "./WeikeMiniLesson";
+import BoardWeike from "./BoardWeike";
 import SmathFigure from "./SmathFigure";
 
 type Question = {
@@ -620,7 +621,7 @@ export default function WeekHomework({
               </div>
             </div>
           ) : !(week.officialClipId && week.officialClipCredit) && (
-            <WeikeMiniLesson level={week.level} weekNumber={week.weekNumber} />
+            <BoardWeike level={week.level} weekNumber={week.weekNumber} />
           )}
         </div>
       )}

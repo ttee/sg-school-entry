@@ -2,6 +2,7 @@ import { getServerSession } from "next-auth";
 import { authOptions } from "@/lib/auth";
 import { redirect } from "next/navigation";
 import Link from "next/link";
+import BoardWeike from "@/components/BoardWeike";
 
 type LessonPlan = {
   title: string;
@@ -5753,6 +5754,14 @@ export default async function LessonPlanPage({
           </div>
         </div>
       </div>
+
+      {/* BoardWeike */}
+      <BoardWeike 
+        level={level} 
+        weekNumber={parseInt(weekNumber)} 
+        planTitle={plan.title}
+        planFirstLine={plan.fossil || plan.mathExample || plan.sections[0]?.teacherNotes.split('.')[0] || ""}
+      />
 
       {/* Board Writing */}
       {plan.boardWriting && (
