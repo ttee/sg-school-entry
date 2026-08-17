@@ -11683,6 +11683,99 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
         },
       ],
     },
+    {
+      level: "SMATH",
+      weekNumber: 53,
+      title: "数学 第 53 周 / Maths Week 53",
+      description: "AEIS-Secondary Mathematics: Sec 1 problems involving perimeter and area of composite plane figures (G5.2 only)",
+      isSample: false,
+      errorFocus: "adding the perimeters of the individual pieces instead of adding only the outer edges (double-counting shared internal edges); or forgetting to subtract a cut-out area when finding the total area",
+      parentBrief: "本周是中学 AEIS 数学第 53 周，对应官方 SEAB Sec 1 卷型（https://www.seab.gov.sg/aeis/test-details/ 2026年7月1日更新）。Part 1 Multiple-choice questions：34 道 MCQ，30 分钟。Part 2 Short-answer questions (20 items) and open-ended questions (10 to 15 items)：1 小时 45 分钟。Calculators are not allowed（不允许使用计算器）。Short-answer and open-ended questions：candidates are required to show the method of solution clearly by writing working steps in the spaces provided, plus the final answer（需写出算式步骤和最终答案）。AEIS-Secondary 官方 preceding-level 规则：申请 Sec 2 入学者需熟悉 Sec 2 前一级的内容。官方举例：apply Secondary 3 → be familiar with Secondary 2 content. 本周针对 Sec 2 申请者，内容为 Sec 2 前一级（Sec 1）的官方 MOE 2020 G3 Mathematics Syllabuses, Secondary One, GEOMETRY AND MEASUREMENT, G5. Mensuration: 5.2 problems involving perimeter and area of composite plane figures（组合平面图形的周长和面积问题）。官方 5.2 wording（逐字引用）：「problems involving perimeter and area of composite plane figures」。本周只教 G5.2 problems involving perimeter and area of composite plane figures（组合平面图形的周长和面积）。Composite plane figures = 组合平面图形，由基本图形组成（rectangles, triangles, parallelograms, trapeziums）。第 52 周已完成 G5.1 parallelogram and trapezium area（平行四边形和梯形的面积）。本周方法：For area, split the composite figure into known shapes (rectangles, triangles, parallelograms, trapeziums), calculate each piece's area, then add them together; if there is a cut-out (e.g. a small rectangle removed from a corner), subtract its area（求面积：把组合图形分割成已知的基本图形，分别求出每个部分的面积，然后相加；如果有切去的部分，要减去切去部分的面积）。For perimeter, add only the outer edges of the composite figure; do NOT add the perimeters of the individual pieces, because that double-counts the shared internal edges（求周长：只加组合图形的外边缘长度；不要把各个部分的周长相加，因为这会把共享的内边重复计算）。Friendly integers so every asked length and area is an integer（友好整数，所有边长和面积都是整数）。例如：L-shape: an 8 cm by 6 cm rectangle with a 3 cm by 2 cm rectangle cut from one corner → Area = 8 × 6 − 3 × 2 = 48 − 6 = 42 cm²; Rectangle 10 cm by 6 cm with a right triangle of base 4 cm height 6 cm attached → Area = 10 × 6 + ½ × 4 × 6 = 60 + 12 = 72 cm²。Units: cm and cm²（单位：厘米和平方厘米）。No calculator（calculators are not allowed）。本周是 G5.2 only，只教 composite plane figures（组合平面图形）的 perimeter and area。本周不教 5.3 volume and surface area of prism and cylinder（棱柱和圆柱的体积和表面积），不教 5.4 conversion between cm² and m², and between cm³ and m³（平方厘米和平方米、立方厘米和立方米之间的单位换算），不教 5.5 problems involving volume and surface area of composite solids（组合立体图形的体积和表面积）。Cast: Wei, Aisha, Mr Lim at Riverside Secondary School（不要复用小学人物 Mei）。Sec 1 content for Sec 2 AEIS applicants（中学数学第 8–53 周为申请 Sec 2 的学生提供 Sec 1 前一级内容）。G5 Mensuration（第 52 周 G5.1 parallelogram/trapezium area，第 53 周 G5.2 composite plane figures perimeter/area，第 54 周及以后将教 5.3–5.5）。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "At Riverside Secondary, Mr Lim draws an L-shaped figure on the board. The L-shape is formed by an 8 cm by 6 cm rectangle with a 3 cm by 2 cm rectangle cut from one corner. He asks Wei: 「What is the area of this L-shape?」 Which working is correct?|A. Area of large rectangle = 8 × 6 = 48 cm². Area of cut-out = 3 × 2 = 6 cm². Area of L-shape = 48 − 6 = 42 cm².|B. Area = 8 × 6 = 48 cm² (just use the large rectangle, ignore the cut-out)|C. Area of L-shape = 8 + 6 + 3 + 2 = 19 cm²|D. Area = (8 + 6) × (3 + 2) = 14 × 5 = 70 cm²",
+            "Aisha studies a composite figure at Riverside Secondary. The figure is a 10 cm by 6 cm rectangle with a right triangle attached to one side. The triangle has base 4 cm and height 6 cm. Mr Lim asks: 「What is the total area?」 Which answer is correct?|A. Total area = rectangle area + triangle area = 10 × 6 + ½ × 4 × 6 = 60 + 12 = 72 cm²|B. Total area = 10 × 6 = 60 cm² (ignore the triangle)|C. Total area = 10 × 6 + 4 × 6 = 60 + 24 = 84 cm² (forgot ½ in triangle formula)|D. Total area = (10 + 4) × 6 = 84 cm²",
+            "At Riverside Secondary, Wei draws an L-shaped figure. The outer dimensions are 8 cm wide and 6 cm tall. The horizontal part of the L is 8 cm long and 2 cm wide. The vertical part is 4 cm tall and 3 cm wide. Mr Lim asks: 「What is the perimeter of this L-shape?」 Wei says: 「I add the perimeter of the horizontal part (8 + 8 + 2 + 2 = 20 cm) and the perimeter of the vertical part (4 + 4 + 3 + 3 = 14 cm), so the perimeter is 20 + 14 = 34 cm.」 Is Wei correct?|A. No, Wei is wrong. When finding the perimeter of a composite figure, we add only the outer edges, not the perimeters of the individual pieces. Adding the perimeters double-counts the shared internal edges. The correct perimeter is the sum of the outer edges only.|B. Yes, Wei is correct. The perimeter is 34 cm.|C. No, Wei is wrong. The perimeter is 8 + 6 = 14 cm.|D. Yes, Wei's method is correct because you must add all perimeters of the pieces.",
+            "Mr Lim gives Aisha a rectangular piece of cardboard measuring 12 cm by 8 cm. She cuts out a small rectangle measuring 4 cm by 3 cm from one corner. Aisha calculates: 「Area = 12 × 8 = 96 cm²」. What is wrong with Aisha's calculation?|A. Aisha forgot to subtract the cut-out area. The correct area is 12 × 8 − 4 × 3 = 96 − 12 = 84 cm².|B. Aisha is correct. The area is 96 cm².|C. Aisha should add the cut-out area. The correct area is 96 + 12 = 108 cm².|D. Nothing is wrong. Aisha's calculation is correct.",
+            "At Riverside Secondary, Mr Lim shows a composite figure formed by a parallelogram with base 10 cm and height 5 cm, plus a rectangle 6 cm by 4 cm attached to one side. He asks Wei: 「What is the total area?」 Which working is correct?|A. Parallelogram area = 10 × 5 = 50 cm². Rectangle area = 6 × 4 = 24 cm². Total area = 50 + 24 = 74 cm².|B. Total area = (10 + 6) × (5 + 4) = 16 × 9 = 144 cm²|C. Total area = 10 × 5 + 6 = 56 cm²|D. Total area = 10 × 6 = 60 cm²",
+          ]),
+          correctAnswer: "A,A,A,A,A",
+          points: 10,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "At Riverside Secondary, Wei calculates the area of a T-shaped figure. The horizontal part is a rectangle 12 cm by 3 cm. The vertical part is a rectangle 4 cm by 8 cm. Which working is correct?|A. Horizontal part area = 12 × 3 = 36 cm². Vertical part area = 4 × 8 = 32 cm². Total area = 36 + 32 = 68 cm².|B. Total area = (12 + 4) × (3 + 8) = 16 × 11 = 176 cm²|C. Total area = 12 × 8 = 96 cm²|D. Total area = 12 + 3 + 4 + 8 = 27 cm²",
+            "Aisha has a composite figure at Riverside Secondary: a trapezium with parallel sides 8 cm and 12 cm, height 5 cm, plus a rectangle 12 cm by 4 cm attached below. What is the total area?|A. Trapezium area = ½ × (8 + 12) × 5 = 50 cm². Rectangle area = 12 × 4 = 48 cm². Total area = 50 + 48 = 98 cm².|B. Total area = (8 + 12 + 12) × (5 + 4) = 32 × 9 = 288 cm²|C. Total area = ½ × (8 + 12) × 5 + 12 = 50 + 12 = 62 cm²|D. Total area = 8 × 12 × 5 × 4 = 1920 cm²",
+            "Mr Lim at Riverside Secondary shows an L-shaped figure. The large rectangle is 10 cm by 8 cm. A small rectangle 3 cm by 2 cm is cut from the top-right corner. What is the area of the remaining L-shape?|A. Large rectangle area = 10 × 8 = 80 cm². Cut-out area = 3 × 2 = 6 cm². L-shape area = 80 − 6 = 74 cm².|B. L-shape area = 10 × 8 = 80 cm² (no need to subtract)|C. L-shape area = (10 − 3) × (8 − 2) = 7 × 6 = 42 cm²|D. L-shape area = 10 + 8 − 3 − 2 = 13 cm²",
+            "Wei at Riverside Secondary has a composite figure: a rectangle 14 cm by 6 cm with a right triangle (base 6 cm, height 4 cm) attached to the right side. What is the total area?|A. Rectangle area = 14 × 6 = 84 cm². Triangle area = ½ × 6 × 4 = 12 cm². Total area = 84 + 12 = 96 cm².|B. Total area = (14 + 6) × (6 + 4) = 200 cm²|C. Total area = 14 × 6 + 6 × 4 = 84 + 24 = 108 cm² (forgot ½ for triangle)|D. Total area = 14 × 4 = 56 cm²",
+            "Aisha draws a composite figure at Riverside Secondary. The figure is made of two rectangles: Rectangle A is 8 cm by 5 cm. Rectangle B is 6 cm by 3 cm. They share a 3 cm edge. Mr Lim asks: 「What is the perimeter of the whole composite figure?」 Aisha says: 「Perimeter of A = 2(8 + 5) = 26 cm. Perimeter of B = 2(6 + 3) = 18 cm. Total perimeter = 26 + 18 = 44 cm.」 What is wrong with this method?|A. Aisha double-counted the shared 3 cm edge. The perimeter of a composite figure is the sum of only the outer edges, not the sum of the perimeters of the individual pieces.|B. Aisha is correct. The perimeter is 44 cm.|C. Aisha forgot to multiply by 2.|D. Nothing is wrong. This is the correct method.",
+            "Mr Lim at Riverside Secondary gives Wei a rectangular piece of paper 15 cm by 10 cm. Wei cuts out a small square of side 3 cm from one corner. What is the area of the remaining paper?|A. Original area = 15 × 10 = 150 cm². Cut-out area = 3 × 3 = 9 cm². Remaining area = 150 − 9 = 141 cm².|B. Remaining area = 15 × 10 = 150 cm² (no need to subtract)|C. Remaining area = (15 − 3) × (10 − 3) = 12 × 7 = 84 cm²|D. Remaining area = 15 + 10 − 3 = 22 cm²",
+            "Aisha at Riverside Secondary has a composite figure made of a parallelogram (base 12 cm, height 4 cm) and a triangle (base 8 cm, height 4 cm) attached side by side. What is the total area?|A. Parallelogram area = 12 × 4 = 48 cm². Triangle area = ½ × 8 × 4 = 16 cm². Total area = 48 + 16 = 64 cm².|B. Total area = (12 + 8) × 4 = 80 cm²|C. Total area = 12 × 4 + 8 × 4 = 48 + 32 = 80 cm² (forgot ½ for triangle)|D. Total area = ½ × (12 + 8) × 4 = 40 cm²",
+            "Mr Lim at Riverside Secondary shows a composite figure: a 10 cm by 6 cm rectangle with a trapezium on top (parallel sides 6 cm and 10 cm, height 4 cm). What is the total area?|A. Rectangle area = 10 × 6 = 60 cm². Trapezium area = ½ × (6 + 10) × 4 = 32 cm². Total area = 60 + 32 = 92 cm².|B. Total area = 10 × 6 + (6 + 10) × 4 = 60 + 64 = 124 cm² (forgot ½ for trapezium)|C. Total area = (10 + 6 + 10) × (6 + 4) = 26 × 10 = 260 cm²|D. Total area = 10 × 6 = 60 cm² (ignore the trapezium)",
+          ]),
+          correctAnswer: "A,A,A,A,A,A,A,A",
+          points: 16,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `Part 2: Show Your Working (写出算式步骤)
+
+Riverside Secondary School has mensuration exercises on composite plane figures. Answer the questions below. Show your working clearly.
+
+Question (a)
+At Riverside Secondary, Mr Lim shows an L-shaped figure. The figure is a large rectangle measuring 12 cm by 10 cm, with a small rectangle measuring 5 cm by 4 cm cut from the top-right corner.
+(i) Calculate the area of the large rectangle before the cut-out.
+(ii) Calculate the area of the cut-out rectangle.
+(iii) Calculate the area of the remaining L-shape. Show your working.
+
+Question (b)
+Aisha has a composite figure at Riverside Secondary. The figure is made of a rectangle 14 cm by 8 cm with a right triangle attached to one side. The triangle has base 8 cm and height 6 cm.
+(i) Calculate the area of the rectangle. Show your working.
+(ii) Calculate the area of the triangle. Show your working.
+(iii) Calculate the total area of the composite figure. Show your working.
+
+Question (c)
+Wei draws a T-shaped figure at Riverside Secondary. The horizontal part of the T is a rectangle 16 cm long and 4 cm wide. The vertical part of the T is a rectangle 6 cm long and 10 cm wide.
+(i) Calculate the area of the horizontal part. Show your working.
+(ii) Calculate the area of the vertical part. Show your working.
+(iii) Calculate the total area of the T-shaped figure. Show your working.
+(iv) Mr Lim asks: 「Can you find the perimeter of this T-shape by adding the perimeter of the horizontal part and the perimeter of the vertical part?」 Explain why this method is wrong. What is the correct method for finding the perimeter of a composite figure?
+
+写作提示 / Tips:
+✓ 每题分步骤写出推理 (Show working steps for each question)
+✓ Part 2 官方要求：clearly show the method of solution by writing working steps, plus the final answer
+✓ 不用计算器 (No calculators allowed)
+✓ 组合平面图形面积和周长步骤示范 (composite plane figures perimeter and area examples)：
+  • L-shape: large rectangle 8 cm by 6 cm with small rectangle 3 cm by 2 cm cut from corner → Area = 8 × 6 − 3 × 2 = 48 − 6 = 42 cm²:
+    Question: An L-shaped figure is a large rectangle 8 cm by 6 cm with a small rectangle 3 cm by 2 cm cut from one corner. Calculate the area of the L-shape.
+    Solution: ① Area of large rectangle = 8 × 6 = 48 cm². ② Area of cut-out = 3 × 2 = 6 cm². ③ Area of L-shape = 48 − 6 = 42 cm². ④ Answer: 42 cm². (Note: When a shape is cut out, subtract its area. Common fossil: forgetting to subtract the cut-out, giving 48 cm² instead of 42 cm².)
+  • Rectangle 10 cm by 6 cm with right triangle base 4 cm height 6 cm attached → Total area = 10 × 6 + ½ × 4 × 6 = 60 + 12 = 72 cm²:
+    Question: A composite figure is a 10 cm by 6 cm rectangle with a right triangle (base 4 cm, height 6 cm) attached. Calculate the total area.
+    Solution: ① Area of rectangle = 10 × 6 = 60 cm². ② Area of triangle = ½ × 4 × 6 = 12 cm². ③ Total area = 60 + 12 = 72 cm². ④ Answer: 72 cm². (Note: Split the composite figure into known shapes, calculate each area, then add them together.)
+  • Perimeter of composite figure: add only the outer edges, NOT the perimeters of individual pieces:
+    Question: A composite figure is made of two rectangles. How do you find its perimeter?
+    Solution: To find the perimeter of a composite figure, add only the lengths of the outer edges. Do NOT add the perimeters of the individual pieces, because that double-counts the shared internal edges. Perimeter = sum of outer edge lengths. (Note: Common fossil: adding the perimeters of the pieces. For example, if Rectangle A has perimeter 26 cm and Rectangle B has perimeter 18 cm and they share a 3 cm edge, the perimeter of the composite figure is NOT 26 + 18 = 44 cm. The correct perimeter is the sum of only the outer edges, because the shared 3 cm edge is counted twice in 26 + 18.)
+✓ 关键步骤：Step 1: Identify the basic shapes that make up the composite figure（识别组合图形由哪些基本图形组成）——rectangles, triangles, parallelograms, trapeziums. Step 2: For area, calculate the area of each piece separately（求面积：分别计算每个部分的面积）. Step 3: Add the areas together; if there is a cut-out, subtract its area（把面积相加；如果有切去的部分，减去它的面积）. Step 4: For perimeter, add only the outer edges of the composite figure（求周长：只加组合图形的外边缘长度）. Do NOT add the perimeters of the individual pieces（不要把各个部分的周长相加）. Step 5: State the final answer with units（陈述最终答案并带单位 cm 或 cm²）.
+✓ 化石 (fossil errors)：
+  • Adding the perimeters of the individual pieces instead of adding only the outer edges（把各个部分的周长相加，而不是只加外边缘）：saying 「Perimeter of A + Perimeter of B」（错误：周长 A + 周长 B。正确：Perimeter of a composite figure = sum of outer edge lengths only. Do NOT add the perimeters of the individual pieces, because that double-counts the shared internal edges. For example, if two rectangles share a 3 cm edge, adding their perimeters counts this 3 cm edge twice (once in each perimeter), but the shared edge is inside the composite figure, not on the outer perimeter.）
+  • Forgetting to subtract a cut-out area（忘记减去切去部分的面积）：saying 「Area = large rectangle only」（错误：面积 = 大长方形。正确：If a shape is cut out from a larger shape, the area of the remaining figure = area of large shape − area of cut-out. For example, if a 12 cm by 10 cm rectangle has a 5 cm by 4 cm rectangle cut from one corner, the remaining area = 12 × 10 − 5 × 4 = 120 − 20 = 100 cm², not 120 cm².）
+  • 本周教 Sec 1 GEOMETRY AND MEASUREMENT, G5. Mensuration: 5.2 problems involving perimeter and area of composite plane figures（G5.2 组合平面图形的周长和面积）。本周是 G5.2 only. 第 52 周已完成 G5.1 parallelogram and trapezium area（平行四边形和梯形的面积）。本周内容：Composite plane figures（组合平面图形）made from rectangles, triangles, parallelograms, trapeziums. Split into known shapes, add areas. If there is a cut-out, subtract its area. For perimeter, add only the outer edges; do NOT add the perimeters of the pieces (double-counts shared internal edges). Friendly integers: all lengths and areas are integers. Units: cm and cm². 本周是 G5.2 only，只教 composite plane figures 的 perimeter and area。本周不教 5.3 prism/cylinder、5.4 unit conversion、5.5 composite solids。
+
+Note: This is a sample of Part 2 short-answer/open-ended questions. The official paper has 20 short-answer + 10–15 open-ended items in 1 hour 45 minutes.`,
+          points: 20,
+        },
+      ],
+    },
   ];
 
   // =================================================================
