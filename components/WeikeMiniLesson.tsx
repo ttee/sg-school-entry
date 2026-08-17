@@ -753,6 +753,15 @@ export default function WeikeMiniLesson({ level, weekNumber }: WeikeMiniLessonPr
       ],
       gloss: "AEIS 中学数学第 57 周 / SMATH Week 57. 本周例题：Sec 2 N2.4 map scales (distance and area)（地图比例尺，距离和面积）。官方 N2.4 wording（逐字引用）：'map scales (distance and area)'。本周是 N2.4 only. A scale 1 : n means 1 unit on the map corresponds to n of the same units on the ground. Distance: actual length = map length × n (same units), then convert (100 cm = 1 m, 100 000 cm = 1 km). Map length = actual length ÷ n. Area: the area scale is the SQUARE of the linear scale. 1 cm² on a 1 : n map = n² cm² on the ground. Then convert: 10 000 cm² = 1 m². Friendly integers: scales 1 : 10 000, 1 : 20 000, 1 : 50 000, 1 : 100 000. Examples: 1 : 50 000, 2 cm on map → 1 km; 1 : 10 000, 1 cm² on map → 10 000 m². Fossil: using the linear scale n for area instead of n² (saying 1 cm² on a 1 : 50 000 map is 50 000 cm², correct is 50 000² = 2 500 000 000 cm²). Cast: Wei, Aisha, Mr Lim at Riverside Secondary. No calculator. 本周不教 2.5 direct and inverse proportion. 第 8–56 周已完成 Sec 1 内容。本周开始 Sec 2 内容（Sec 3 申请者的 preceding level）。"
     },
+    "SMATH-58": {
+      examples: [
+        "Direct: y ∝ x. When x = 4, y = 12, find y when x = 6. k = 12 ÷ 4 = 3. y = 3x. When x = 6, y = 18.",
+        "Inverse: y ∝ 1/x. When x = 3, y = 8, find y when x = 4. k = 3 × 8 = 24. xy = 24. When x = 4, y = 6.",
+        "4 workers take 6 days. How many days for 3 workers? Inverse: workers × days = k. 4 × 6 = 24. For 3 workers: 3 × days = 24, days = 8.",
+        "At constant speed, 60 km in 2 hours. How far in 5 hours? Direct: distance = k × time. k = 60 ÷ 2 = 30. Distance = 30 × 5 = 150 km."
+      ],
+      gloss: "AEIS 中学数学第 58 周 / SMATH Week 58. 本周例题：Sec 2 N2.5 direct and inverse proportion（正比和反比）。官方 N2.5 wording（逐字引用）：'direct and inverse proportion'。本周是 N2.5 only. Direct proportion: y ∝ x, y = kx, y/x = k. If x doubles, y doubles. Inverse proportion: y ∝ 1/x, xy = k, y = k/x. If x doubles, y halves. Find k from one pair, then find the missing value. Distinguish 「which is direct / which is inverse」 from a table or a word situation (workers × days, speed × time for fixed distance, cost ∝ quantity). Fossil: treating inverse as direct (or vice versa); using y = kx when the situation is xy = k (saying 「4 workers 6 days → 3 workers 6×3÷4=4.5 days」using direct formula when it should be inverse: 4×6=24, 3×days=24, days=8). Friendly integers only. No calculator. Pick numbers so k is a clean integer (e.g. y=3x; xy=24; 4 workers 6 days ↔ 3 workers 8 days). Cast: Wei, Aisha, Mr Lim at Riverside Secondary. 本周不教 N5.9 expansion of the product of algebraic expressions. 第 8–56 周已完成 Sec 1 内容。第 57 周已完成 Sec 2 N2.4 map scales。本周继续 Sec 2 内容（Sec 3 申请者的 preceding level）。"
+    },
     "SEC-0": {
       fossil: "Although I was nervous, but I tried. ✗ (中文「虽然…但是…」迁移) / I go yesterday ✗ (叙事体过去时掉落)",
       examples: [

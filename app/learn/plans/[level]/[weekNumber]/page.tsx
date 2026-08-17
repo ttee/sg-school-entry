@@ -5102,6 +5102,44 @@ const lessonPlans: Record<string, LessonPlan> = {
     ],
     speakingPrompts: null,
   },
+  "SMATH-58": {
+    title: "正比和反比 — Direct and inverse proportion",
+    mathExample: "Direct: y ∝ x, k = 12÷4 = 3, y = 3x. Inverse: y ∝ 1/x, k = 3×8 = 24, xy = 24. Workers × days = k.",
+    boardWriting: "SMATH Week 58: Sec 2 N2.5 direct and inverse proportion. Direct: y = kx (y/x = k). If x doubles, y doubles. Inverse: xy = k (y = k/x). If x doubles, y halves.",
+    sections: [
+      {
+        name: "课前",
+        duration: "2 分钟",
+        teacherNotes: "欢迎孩子。「今天是第 58 周 AEIS 中学数学，我们学 Sec 2 N2.5 direct and inverse proportion（正比和反比）。本周是 Sec 2 N2.5 only，不教 N5.9 expansion of the product of algebraic expressions。第 8–56 周我们已完成 Sec 1 内容，第 57 周已完成 Sec 2 N2.4 map scales，本周继续 Sec 2 内容（Sec 3 申请者的 preceding level）。」告诉孩子本周化石焦点（高频错误）：「本周化石焦点：treating inverse as direct (or vice versa); using y = kx when the situation is xy = k（把反比当成正比，或把正比当成反比；该用 xy = k 时却用 y = kx；例如 4 workers take 6 days → 3 workers take 6×3÷4=4.5 days，错误，应该用反比公式 4×6=24, 3×days=24, days=8）。我们会反复练这个点，直到改掉。」",
+      },
+      {
+        name: "热身",
+        duration: "5 分钟",
+        teacherNotes: "问孩子：「你知道 direct proportion（正比）和 inverse proportion（反比）吗？」让孩子简单说一句。然后说：「正比就是：一个量增加，另一个量也增加，比例不变（例如买的东西越多，花的钱越多）。反比就是：一个量增加，另一个量减少，乘积不变（例如工人越多，完成工作的天数越少）。今天我们学如何用公式算正比和反比。」让孩子跟读一句：「Direct proportion: y = kx. Inverse proportion: xy = k.」然后问：「如果 y 与 x 成正比，当 x = 4 时 y = 12，那么 k 是多少？」等孩子想一下（不必马上答对，下一环节会教）。如果孩子说对了，鼓励「Good!」；如果不确定，说「没关系，接下来我们一起看微课例题。」",
+      },
+      {
+        name: "化石",
+        duration: "10 分钟",
+        teacherNotes: "打开屏幕共享或白板，写下本周化石错误：「Fossil: 4 workers take 6 days → 3 workers take 6 × 3 ÷ 4 = 4.5 days using direct formula. ✗」说明：「这是化石化错误：把反比当成正比，用了正比的公式 y = kx（或相当于 days = workers × (6/4)）。正确做法：Workers and days are inversely proportional（工人数和天数是反比关系）。More workers → less time（工人越多，天数越少）。公式是 workers × days = k（反比）。4 × 6 = 24, so k = 24. For 3 workers: 3 × days = 24, days = 24 ÷ 3 = 8. 答案是 8 days，不是 4.5 days。If you use direct proportion, you get 4.5 days, which is WRONG because with fewer workers, the job should take MORE time, not less（如果用正比公式，会得到 4.5 天，这是错的，因为工人少了，天数应该增加，而不是减少）。」让孩子跟读一句：「Workers × days = k. If workers decrease, days increase.」再举一个例子：「比如 at constant speed, distance ∝ time（速度不变时，距离与时间成正比）。60 km in 2 hours → k = 60 ÷ 2 = 30. For 5 hours: distance = 30 × 5 = 150 km. 这是正比，因为时间越长，距离越远。」让孩子看懂这个点，这是本周唯一的化石焦点。",
+      },
+      {
+        name: "示范",
+        duration: "15 分钟",
+        teacherNotes: "示范四道例题（在屏幕上或白板上边写边讲）：\n\n例题 1: Direct proportion: y is directly proportional to x. When x = 4, y = 12. Find y when x = 6.\ny ∝ x means y = kx. When x = 4, y = 12. Substitute: 12 = k × 4, so k = 12 ÷ 4 = 3. The equation is y = 3x. When x = 6, y = 3 × 6 = 18. Answer: 18. (Note: Direct proportion: y = kx or y/x = k. If x doubles, y doubles. Find k from one pair, then use the equation to find the missing value.)\n\n例题 2: Inverse proportion: y is inversely proportional to x. When x = 3, y = 8. Find y when x = 4.\ny ∝ 1/x means xy = k. When x = 3, y = 8. Substitute: 3 × 8 = k, so k = 24. The equation is xy = 24 or y = 24/x. When x = 4, 4 × y = 24, so y = 24 ÷ 4 = 6. Answer: 6. (Note: Inverse proportion: xy = k or y = k/x. If x doubles, y halves. Find k from one pair, then use the equation to find the missing value.)\n\n例题 3: Workers and days: 4 workers take 6 days to complete a job. How many days will 3 workers take?\nMore workers → less time, so this is inverse proportion. Workers × days = k. For 4 workers: 4 × 6 = k, so k = 24. The equation is workers × days = 24. For 3 workers: 3 × days = 24, so days = 24 ÷ 3 = 8. Answer: 8 days. (Note: Workers and days are inversely proportional. If you have more workers, you need fewer days. Use workers × days = k.)\n\n例题 4: Distance and time at constant speed: At a constant speed, a car travels 60 km in 2 hours. How far will it travel in 5 hours?\nAt constant speed, distance is directly proportional to time. Distance = k × time. When time = 2 hours, distance = 60 km. Substitute: 60 = k × 2, so k = 60 ÷ 2 = 30. The equation is distance = 30 × time. When time = 5 hours, distance = 30 × 5 = 150 km. Answer: 150 km. (Note: At constant speed, distance ∝ time. This is direct proportion. Use distance = k × time or distance/time = k.)\n\n每道例题讲完，让孩子跟读 working steps 的关键句子（例如：「y = kx. k = 12 ÷ 4 = 3.」「xy = k. k = 3 × 8 = 24.」「Workers × days = k. k = 4 × 6 = 24.」「Distance = k × time. k = 60 ÷ 2 = 30.」）。",
+      },
+      {
+        name: "练习",
+        duration: "15 分钟",
+        teacherNotes: "给孩子 5 道题目让他/她在纸上算（教师不给完整答案，只给提示，让孩子自己写出 working steps）：\n\n练习 1: y is directly proportional to x. When x = 5, y = 15. Find k and write the equation. Then find y when x = 8. (提示：y = kx. k = 15 ÷ 5 = ?) 期待答案：k = 3. y = 3x. When x = 8, y = 24.\n\n练习 2: y is inversely proportional to x. When x = 2, y = 12. Find k and write the equation. Then find x when y = 8. (提示：xy = k. k = 2 × 12 = ?) 期待答案：k = 24. xy = 24. When y = 8, x = 3.\n\n练习 3: 6 workers take 8 days to build a wall. How many days will 4 workers take to build the same wall? (提示：是正比还是反比？Workers × days = k.) 期待答案：Inverse. 6 × 8 = 48. For 4 workers: 4 × days = 48, days = 12.\n\n练习 4: At a constant speed, a car travels 90 km in 3 hours. How far will it travel in 7 hours? (提示：Distance = k × time.) 期待答案：k = 90 ÷ 3 = 30. Distance = 30 × 7 = 210 km.\n\n练习 5: Check if this table is direct or inverse proportion: x (2, 4, 6) and y (12, 6, 4). (提示：Check xy: 2×12 = ?, 4×6 = ?, 6×4 = ?) 期待答案：xy = 24 for all pairs. Inverse proportion.\n\n如果孩子卡住，教师给词提示（例如：「用 y = kx 还是 xy = k？」或「More workers → less time, so which type?」或「Check y/x or xy?」）。孩子做完一道，教师检查 working steps 是否清楚，然后让孩子继续下一道。",
+      },
+      {
+        name: "收口",
+        duration: "3 分钟",
+        teacherNotes: "总结本周重点：(1) 官方 Sec 2 AEIS 数学卷型：Part 1 MCQ 34 题 30 分钟 + Part 2 show working 20+10–15 题 1 小时 45 分钟，不用计算器。(2) 本周内容：Sec 2 NUMBER AND ALGEBRA, N2. Ratio and proportion: 2.5 direct and inverse proportion（正比和反比）。本周是 N2.5 only. Direct proportion: y ∝ x, y = kx, y/x = k. If x doubles, y doubles. Inverse proportion: y ∝ 1/x, xy = k, y = k/x. If x doubles, y halves. Find k from one pair, then find the missing value. Distinguish 「which is direct / which is inverse」 from a table or a word situation (workers × days, speed × time for fixed distance, cost ∝ quantity). Fossil: treating inverse as direct (or vice versa); using y = kx when the situation is xy = k (saying 「4 workers 6 days → 3 workers 6×3÷4=4.5 days」using direct formula when it should be inverse: 4×6=24, 3×days=24, days=8). Friendly integers only. No calculator. Pick numbers so k is a clean integer (e.g. y=3x; xy=24; 4 workers 6 days ↔ 3 workers 8 days). Cast: Wei, Aisha, Mr Lim at Riverside Secondary. 本周不教 N5.9 expansion of the product of algebraic expressions. 第 8–56 周已完成 Sec 1 内容。第 57 周已完成 Sec 2 N2.4 map scales。本周继续 Sec 2 内容（Sec 3 申请者的 preceding level）。」鼓励孩子：「你已经学会了正比和反比的公式。下周继续。Keep going!」",
+      },
+    ],
+    speakingPrompts: null,
+  },
 };
 
 export default async function LessonPlanPage({

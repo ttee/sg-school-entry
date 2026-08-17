@@ -12155,6 +12155,102 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
         },
       ],
     },
+    {
+      level: "SMATH",
+      weekNumber: 58,
+      title: "正比和反比 — Direct and inverse proportion",
+      description: "Sec 2 N2.5: direct and inverse proportion (AEIS 中学数学第 58 周 / SMATH Week 58)",
+      isSample: false,
+      errorFocus: "treating inverse as direct (or vice versa); using y = kx when the situation is xy = k",
+      parentBrief: "本周是中学 AEIS 数学第 58 周，对应官方 SEAB Sec 2 卷型（https://www.seab.gov.sg/aeis/test-details/ 2026年7月1日更新）。Part 1 Multiple-choice questions：34 道 MCQ，30 分钟。Part 2 Short-answer questions (20 items) and open-ended questions (10 to 15 items)：1 小时 45 分钟。Calculators are not allowed（不允许使用计算器）。Short-answer and open-ended questions：candidates are required to show the method of solution clearly by writing working steps in the spaces provided, plus the final answer（需写出算式步骤和最终答案）。AEIS-Secondary 官方 preceding-level 规则：申请 Sec 3 入学者需熟悉 Sec 3 前一级的内容。官方举例：apply Secondary 3 → be familiar with Secondary 2 content. 本周针对 Sec 3 申请者，内容为 Sec 3 前一级（Sec 2）的官方 MOE 2020 G3 Mathematics Syllabuses, Secondary Two, NUMBER AND ALGEBRA, N2. Ratio and proportion: 2.5 direct and inverse proportion（正比和反比）。官方 N2.5 wording（逐字引用）：「direct and inverse proportion」。本周只教 N2.5 direct and inverse proportion（正比和反比）。Direct proportion: y ∝ x, y = kx, y/x = k. If x doubles, y doubles. Inverse proportion: y ∝ 1/x, xy = k. If x doubles, y halves. Find k from one pair, then find the missing value. Distinguish 「which is direct / which is inverse」 from a table or a word situation (workers × days, speed × time for fixed distance, cost ∝ quantity). Fossil: treating inverse as direct (or vice versa); using y = kx when the situation is xy = k. Friendly integers only. No calculator. Pick numbers so k is a clean integer (e.g. y=3x; xy=24; 4 workers 6 days ↔ 3 workers 8 days). Cast: Wei, Aisha, Mr Lim at Riverside Secondary. No calculator. 本周不教 N5.9 expansion of the product of algebraic expressions（代数式的展开）。第 8–56 周已完成 Sec 1 内容。第 57 周已完成 Sec 2 N2.4 map scales（地图比例尺，距离和面积）。本周继续 Sec 2 内容（Sec 3 申请者的 preceding level）。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "At Riverside Secondary, Mr Lim tells Wei: 「If y is directly proportional to x and y = 12 when x = 4, find y when x = 6.」 Which working is correct?|A. y ∝ x means y = kx. When x = 4, y = 12, so k = 12 ÷ 4 = 3. Then y = 3x. When x = 6, y = 3 × 6 = 18. Answer: 18.|B. y = kx. When x = 4, y = 12, so k = 4 × 12 = 48. When x = 6, y = 48 ÷ 6 = 8.|C. y = 12 ÷ 4 = 3. When x = 6, y = 6 × 4 = 24.|D. Direct proportion means xy = k. 4 × 12 = 48, so 6 × y = 48, y = 8.",
+            "Aisha at Riverside Secondary has a table: x (2, 4, 6) and y (6, 12, 18). Mr Lim asks: 「Is this direct or inverse proportion?」 Which is correct?|A. As x increases, y increases in the same ratio. y/x = 6/2 = 3, 12/4 = 3, 18/6 = 3. This is direct proportion y = 3x.|B. xy = 2 × 6 = 12, 4 × 12 = 48, 6 × 18 = 108. Since xy is constant, this is inverse proportion.|C. y increases, so this is inverse proportion.|D. y doubles when x doubles, so this is inverse proportion.",
+            "Wei says: 「y is inversely proportional to x. When x = 3, y = 8. Find y when x = 4.」 Which working is correct?|A. y ∝ 1/x means xy = k. When x = 3, y = 8, so k = 3 × 8 = 24. Then xy = 24. When x = 4, 4 × y = 24, so y = 24 ÷ 4 = 6. Answer: 6.|B. y = kx. k = 8 ÷ 3. When x = 4, y = (8/3) × 4.|C. Inverse means y = k/x. k = 3 ÷ 8. When x = 4, y = (3/8) × 4 = 1.5.|D. y = 8 when x = 3. When x = 4, y = 8 × 4 ÷ 3.",
+            "At Riverside Secondary, Mr Lim asks: 「4 workers take 6 days to complete a job. How many days will 3 workers take?」 Which is correct?|A. More workers → less time, so inverse proportion. Workers × days = k. 4 × 6 = 24. For 3 workers: 3 × days = 24, days = 24 ÷ 3 = 8. Answer: 8 days.|B. Direct proportion: 4 workers in 6 days → 1 worker in 6/4 = 1.5 days. 3 workers in 1.5 × 3 = 4.5 days.|C. 4 workers take 6 days → 3 workers take 6 × 3 ÷ 4 = 4.5 days.|D. Workers × days = k. 4 × 6 = 24. For 3 workers: 3 × days = 24, days = 24 ÷ 4 = 6.",
+            "Aisha says: 「At a constant speed, distance is directly proportional to time. A car travels 60 km in 2 hours. How far will it travel in 5 hours?」 Which is correct?|A. Distance ∝ time means distance = k × time. k = 60 ÷ 2 = 30. Distance = 30 × 5 = 150 km. Answer: 150 km.|B. Distance × time = k. 60 × 2 = 120. For 5 hours: distance × 5 = 120, distance = 24 km.|C. 2 hours → 60 km. 5 hours → 60 × 5 = 300 km.|D. Distance × time = k. 60 × 2 = 120. For 5 hours: distance = 120 ÷ 5 = 24 km.",
+          ]),
+          correctAnswer: "A,A,A,A,A",
+          points: 10,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "At Riverside Secondary, Wei has: y is directly proportional to x. When x = 5, y = 15. Find k.|A. y = kx. 15 = k × 5, so k = 15 ÷ 5 = 3. Answer: k = 3.|B. y = k/x. 15 = k/5, so k = 15 × 5 = 75.|C. k = xy = 5 × 15 = 75.|D. k = 15 + 5 = 20.",
+            "Mr Lim gives a table: x (2, 4, 8) and y (12, 6, 3). Is this direct or inverse proportion?|A. Check xy: 2 × 12 = 24, 4 × 6 = 24, 8 × 3 = 24. xy is constant, so inverse proportion.|B. Check y/x: 12/2 = 6, 6/4 = 1.5, 3/8 = 0.375. y/x is constant, so this is direct proportion.|C. As x increases, y decreases, so this is direct proportion.|D. y decreases when x increases, so it is neither.",
+            "Aisha asks: 「y ∝ 1/x. When x = 2, y = 12. Find the equation.」 Which is correct?|A. y ∝ 1/x means xy = k. 2 × 12 = 24, so xy = 24 or y = 24/x. Answer: xy = 24 or y = 24/x.|B. y = kx. k = 12 ÷ 2 = 6. Equation: y = 6x.|C. y/x = k. k = 12/2 = 6. Equation: y = 6x.|D. Inverse means y = k/x. k = 12 ÷ 2 = 6. Equation: y = 6/x.",
+            "At Riverside Secondary, Wei says: 「The cost of apples is directly proportional to the number of apples. 5 apples cost S$10. How much do 8 apples cost?」 Which working is correct?|A. Cost ∝ number. Cost = k × number. k = 10 ÷ 5 = 2. For 8 apples: Cost = 2 × 8 = 16. Answer: S$16.|B. k = 10 ÷ 5 = 2. For 8 apples: Cost = 8 ÷ 2 = 4. Answer: S$4.|C. Cost × number = k. 10 × 5 = 50. For 8 apples: Cost × 8 = 50, Cost = 6.25.|D. 5 apples S$10 → 8 apples S$10 + S$3 = S$13.",
+            "Mr Lim at Riverside Secondary: 「A car travels at a constant speed. To cover a fixed distance, speed and time are inversely proportional. At 60 km/h, it takes 3 hours. At what speed will it take 2 hours?」 Which is correct?|A. Speed × time = k. 60 × 3 = 180. For 2 hours: speed × 2 = 180, speed = 180 ÷ 2 = 90 km/h. Answer: 90 km/h.|B. Speed ∝ time. Speed = k × time. k = 60 ÷ 3 = 20. For 2 hours: speed = 20 × 2 = 40 km/h.|C. Speed × time = k. 60 × 3 = 180. For 2 hours: speed = 180 ÷ 3 = 60 km/h.|D. k = 60 ÷ 3 = 20. For 2 hours: speed = 2 ÷ 20 = 0.1 km/h.",
+            "Aisha has: y ∝ x. When x = 10, y = 25. Wei says: 「The equation is y = 2.5x.」 Is Wei correct?|A. Yes, Wei is correct. y = kx. k = 25 ÷ 10 = 2.5. So y = 2.5x.|B. No, Wei is wrong. It should be y = 10x.|C. No, Wei is wrong. The equation is xy = 250.|D. No, Wei is wrong. k = 10 ÷ 25 = 0.4. The equation is y = 0.4x.",
+            "At Riverside Secondary, Mr Lim gives a table: x (1, 2, 4) and y (24, 12, 6). Which statement is correct?|A. This is inverse proportion because xy = 1 × 24 = 24, 2 × 12 = 24, 4 × 6 = 24. xy is constant.|B. This is direct proportion because y/x = 24, 12/2 = 6, 6/4 = 1.5. y/x is constant.|C. This is direct proportion because as x increases, y decreases.|D. The equation is y = 24x because y = kx and k = 24.",
+            "Wei says: 「If y is inversely proportional to x and y = 9 when x = 2, find y when x = 3.」 Aisha says: 「The answer is 6.」 Is Aisha correct?|A. Yes, Aisha is correct. xy = k. 2 × 9 = 18. For x = 3: 3 × y = 18, y = 6.|B. No, Aisha is wrong. y = kx. k = 9 ÷ 2 = 4.5. For x = 3: y = 4.5 × 3 = 13.5.|C. No, Aisha is wrong. y = 9 when x = 2 → y = 27 when x = 3.|D. No, Aisha is wrong. xy = k. 2 × 9 = 18. For x = 3: y = 18 ÷ 2 = 9.",
+          ]),
+          correctAnswer: "A,A,A,A,A,A,A,A",
+          points: 16,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `Part 2: Show Your Working (写出算式步骤)
+
+Riverside Secondary School has proportion exercises. Answer the questions below. Show your working clearly.
+
+Question (a)
+At Riverside Secondary, Mr Lim tells Wei: 「y is directly proportional to x. When x = 4, y = 20.」
+(i) Find the constant k.
+(ii) Write the equation relating y and x.
+(iii) Find y when x = 7.
+
+Question (b)
+Aisha has a situation: 「y is inversely proportional to x. When x = 5, y = 6.」
+(i) Find the constant k.
+(ii) Write the equation relating y and x.
+(iii) Find x when y = 10.
+
+Question (c)
+At Riverside Secondary, Mr Lim asks: 「6 workers take 8 days to build a wall. How many days will 4 workers take to build the same wall?」
+(i) Is this direct or inverse proportion? Explain.
+(ii) Find how many days 4 workers will take. Show your working.
+(iii) Wei says: 「4 workers will take 12 days.」 Is Wei correct? Show your working to check.
+
+写作提示 / Tips:
+✓ 每题分步骤写出推理 (Show working steps for each question)
+✓ Part 2 官方要求：clearly show the method of solution by writing working steps, plus the final answer
+✓ 不用计算器 (No calculators allowed)
+✓ 正比和反比步骤示范（direct and inverse proportion examples）：
+  • Direct proportion: y ∝ x, y = 12 when x = 4, find y when x = 6:
+    Question: y is directly proportional to x. When x = 4, y = 12. Find y when x = 6.
+    Solution: ① y ∝ x means y = kx. ② When x = 4, y = 12. Substitute: 12 = k × 4, so k = 12 ÷ 4 = 3. ③ The equation is y = 3x. ④ When x = 6, y = 3 × 6 = 18. Answer: 18. (Note: Direct proportion: y = kx or y/x = k. If x doubles, y doubles. Find k from one pair, then use the equation to find the missing value.)
+  • Inverse proportion: y ∝ 1/x, y = 8 when x = 3, find y when x = 4:
+    Question: y is inversely proportional to x. When x = 3, y = 8. Find y when x = 4.
+    Solution: ① y ∝ 1/x means xy = k. ② When x = 3, y = 8. Substitute: 3 × 8 = k, so k = 24. ③ The equation is xy = 24 or y = 24/x. ④ When x = 4, 4 × y = 24, so y = 24 ÷ 4 = 6. Answer: 6. (Note: Inverse proportion: xy = k or y = k/x. If x doubles, y halves. Find k from one pair, then use the equation to find the missing value.)
+  • Workers and days: 4 workers take 6 days, find days for 3 workers:
+    Question: 4 workers take 6 days to complete a job. How many days will 3 workers take?
+    Solution: ① More workers → less time, so this is inverse proportion. ② Workers × days = k. ③ For 4 workers: 4 × 6 = k, so k = 24. ④ The equation is workers × days = 24. ⑤ For 3 workers: 3 × days = 24, so days = 24 ÷ 3 = 8. Answer: 8 days. (Note: Workers and days are inversely proportional. If you have more workers, you need fewer days. Use workers × days = k.)
+  • Distance and time at constant speed: 60 km in 2 hours, find distance in 5 hours:
+    Question: At a constant speed, a car travels 60 km in 2 hours. How far will it travel in 5 hours?
+    Solution: ① At constant speed, distance is directly proportional to time. ② Distance = k × time. ③ When time = 2 hours, distance = 60 km. Substitute: 60 = k × 2, so k = 60 ÷ 2 = 30. ④ The equation is distance = 30 × time. ⑤ When time = 5 hours, distance = 30 × 5 = 150 km. Answer: 150 km. (Note: At constant speed, distance ∝ time. This is direct proportion. Use distance = k × time or distance/time = k.)
+✓ 关键步骤：Step 1: Identify if the situation is direct or inverse proportion（判断是正比还是反比）. Step 2: For direct proportion, use y = kx or y/x = k（正比：y = kx 或 y/x = k）. For inverse proportion, use xy = k or y = k/x（反比：xy = k 或 y = k/x）. Step 3: Find k using the given pair of values（用已知的一对数值求 k）. Step 4: Write the equation relating the two variables（写出两个变量的关系式）. Step 5: Substitute the new value to find the unknown（代入新数值求未知数）. Step 6: State the final answer with units if needed（陈述最终答案，必要时带单位）.
+✓ 化石 (fossil errors)：
+  • Treating inverse as direct (or vice versa)（把反比当成正比，或把正比当成反比）：saying 「4 workers take 6 days → 3 workers take 6 × 3 ÷ 4 = 4.5 days」using direct proportion formula when it should be inverse（错误：4 workers take 6 days → 3 workers take 6 × 3 ÷ 4 = 4.5 days。这是用了正比的公式，但工人数和天数是反比关系。正确：More workers → less time, so inverse. Workers × days = k. 4 × 6 = 24. For 3 workers: 3 × days = 24, days = 8. If you use direct proportion, you get 4.5 days, which is WRONG because with fewer workers, the job should take MORE time, not less.）
+  • Using y = kx when the situation is xy = k（该用 xy = k 时却用 y = kx）：saying 「y is inversely proportional to x, so y = kx」instead of xy = k（错误：y 与 x 成反比，所以 y = kx。正确：y 与 x 成反比（inversely proportional）意味着 y ∝ 1/x，即 xy = k 或 y = k/x，不是 y = kx。y = kx 是正比（directly proportional）。For inverse, if x doubles, y halves. For direct, if x doubles, y doubles. Do not mix them up.）
+  • Saying 「This is direct proportion」 when y/x is not constant（y/x 不是常数时说这是正比）：Given a table x (2, 4, 6) and y (12, 6, 4), saying 「As x increases, y also increases, so this is direct」（错误：给定表格 x (2, 4, 6) 和 y (12, 6, 4)，说「x 增大时 y 也增大，所以是正比」。但实际上 y 是减小的（12 → 6 → 4），而且 xy = 2×12 = 24, 4×6 = 24, 6×4 = 24 都是常数，所以这是反比，不是正比。正确：Check xy: 2×12=24, 4×6=24, 6×4=24. xy is constant, so this is inverse proportion.）
+  • 本周教 Sec 2 NUMBER AND ALGEBRA, N2. Ratio and proportion: 2.5 direct and inverse proportion（N2.5 正比和反比）。本周是 N2.5 only. Direct: y ∝ x, y = kx, y/x = k. If x doubles, y doubles. Inverse: y ∝ 1/x, xy = k, y = k/x. If x doubles, y halves. Find k from one pair, then find the missing value. Distinguish 「which is direct / which is inverse」 from a table or a word situation (workers × days, speed × time for fixed distance, cost ∝ quantity). Fossil: treating inverse as direct (or vice versa); using y = kx when the situation is xy = k. Friendly integers only. No calculator. Pick numbers so k is a clean integer (e.g. y=3x; xy=24; 4 workers 6 days ↔ 3 workers 8 days). Cast: Wei, Aisha, Mr Lim at Riverside Secondary. 本周不教 N5.9 expansion of the product of algebraic expressions。第 8–56 周已完成 Sec 1 内容，第 57 周已完成 Sec 2 N2.4 map scales，本周继续 Sec 2（Sec 3 申请者的 preceding level）。
+
+Note: This is a sample of Part 2 short-answer/open-ended questions. The official paper has 20 short-answer + 10–15 open-ended items in 1 hour 45 minutes.`,
+          points: 20,
+        },
+      ],
+    },
   ];
 
   // =================================================================
