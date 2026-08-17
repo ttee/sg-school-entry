@@ -115,7 +115,7 @@ export default function DualValidationMapMathWeek6() {
                 • 1.4 Comparing and ordering numbers
               </td>
               <td className="px-3 py-3 text-ink-2 align-top">
-                P3 标准技能：比较四位数（千位相同看百位，百位相同看十位，4576 > 4567）
+                P3 标准技能：比较四位数（千位相同看百位，百位相同看十位，4576 &gt; 4567）
               </td>
             </tr>
             <tr className="border-b border-accent/10">

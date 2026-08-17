@@ -49,7 +49,7 @@ export default function DualValidationMapMathWeek14() {
                 • Understanding relative magnitude
               </td>
               <td className="px-3 py-3 text-ink-2 align-top">
-                P4 技能：比较五位数的大小。从万位开始比较，如果相同则比较千位、百位、十位。67 980 > 67 890
+                P4 技能：比较五位数的大小。从万位开始比较，如果相同则比较千位、百位、十位。67 980 &gt; 67 890
               </td>
             </tr>
             <tr className="border-b border-accent/10">
@@ -214,7 +214,7 @@ export default function DualValidationMapMathWeek14() {
                 • Real-world money applications
               </td>
               <td className="px-3 py-3 text-ink-2 align-top">
-                AEIS P4/P5 数学 Part 2 short-answer questions 要求 show working steps。本题练习：(a) 73 685 = Seventy-three thousand, six hundred and eighty-five；(b) 比较 84 567 < 84 657；(c) 计算差值 90 000 − 73 685 = 16 315
+                AEIS P4/P5 数学 Part 2 short-answer questions 要求 show working steps。本题练习：(a) 73 685 = Seventy-three thousand, six hundred and eighty-five；(b) 比较 84 567 &lt; 84 657；(c) 计算差值 90 000 − 73 685 = 16 315
               </td>
             </tr>
           </tbody>

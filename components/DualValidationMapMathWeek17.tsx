@@ -88,10 +88,10 @@ export default function DualValidationMapMathWeek17() {
               <td className="px-3 py-3 text-ink-2 align-top">
                 <strong>Fractions</strong><br />
                 • 1.1 mixed numbers, improper fractions and their relationship<br />
-                • Identify improper fractions (numerator > denominator)
+                • Identify improper fractions (numerator &gt; denominator)
               </td>
               <td className="px-3 py-3 text-ink-2 align-top">
-                P4 技能：识别假分数。3/2 分子 > 分母，所以是假分数（improper fraction）
+                P4 技能：识别假分数。3/2 分子 &gt; 分母，所以是假分数（improper fraction）
               </td>
             </tr>
             <tr className="border-b border-accent/10">
@@ -212,7 +212,7 @@ export default function DualValidationMapMathWeek17() {
                 • Showing working steps
               </td>
               <td className="px-3 py-3 text-ink-2 align-top">
-                AEIS P4/P5 数学 Part 2 short-answer questions 要求 show working steps。本题练习：(a) 3 2/5 = (3×5+2)/5 = 17/5；(b) 17/6 = 17 ÷ 6 = 2 R 5，所以 2 5/6；(c) 9/4 是假分数（分子 9 > 分母 4），转换成带分数：9 ÷ 4 = 2 R 1，所以 2 1/4 m。要求孩子写出算式、答案、以及识别形式的说明
+                AEIS P4/P5 数学 Part 2 short-answer questions 要求 show working steps。本题练习：(a) 3 2/5 = (3×5+2)/5 = 17/5；(b) 17/6 = 17 ÷ 6 = 2 R 5，所以 2 5/6；(c) 9/4 是假分数（分子 9 &gt; 分母 4），转换成带分数：9 ÷ 4 = 2 R 1，所以 2 1/4 m。要求孩子写出算式、答案、以及识别形式的说明
               </td>
             </tr>
           </tbody>

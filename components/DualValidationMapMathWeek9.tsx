@@ -78,7 +78,7 @@ export default function DualValidationMapMathWeek9() {
                 • 1.4 Conversion (l ↔ ml)
               </td>
               <td className="px-3 py-3 text-ink-2 align-top">
-                P3 新技能：毫升（ml）和复合单位比较（1 l 200 ml = 1200 ml > 900 ml）
+                P3 新技能：毫升（ml）和复合单位比较（1 l 200 ml = 1200 ml &gt; 900 ml）
               </td>
             </tr>
             <tr className="border-b border-accent/10">

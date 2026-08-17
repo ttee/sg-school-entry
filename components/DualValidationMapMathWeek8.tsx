@@ -60,7 +60,7 @@ export default function DualValidationMapMathWeek8() {
                 • 2.3 Compare and order unlike fractions (denominators not exceeding 12)
               </td>
               <td className="px-3 py-3 text-ink-2 align-top">
-                P3 标准技能：比较异分母分数（1/2 > 1/3，分母越大分数越小）
+                P3 标准技能：比较异分母分数（1/2 &gt; 1/3，分母越大分数越小）
               </td>
             </tr>
             <tr className="border-b border-accent/10">
@@ -125,7 +125,7 @@ export default function DualValidationMapMathWeek8() {
                 • 2.3 Compare and order unlike fractions
               </td>
               <td className="px-3 py-3 text-ink-2 align-top">
-                P3 标准技能：比较异分母分数（1/4 > 1/5）
+                P3 标准技能：比较异分母分数（1/4 &gt; 1/5）
               </td>
             </tr>
             <tr className="border-b border-accent/10">
@@ -191,7 +191,7 @@ export default function DualValidationMapMathWeek8() {
                 • 2.3 Compare and order unlike fractions (denominators not exceeding 12)
               </td>
               <td className="px-3 py-3 text-ink-2 align-top">
-                P3 标准技能：比较异分母分数（2/3 = 8/12, 3/4 = 9/12，3/4 > 2/3）
+                P3 标准技能：比较异分母分数（2/3 = 8/12, 3/4 = 9/12，3/4 &gt; 2/3）
               </td>
             </tr>
             <tr>

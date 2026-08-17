@@ -73,7 +73,7 @@ export default function DualValidationMapMathWeek26() {
                 • 1.2 measuring angles in degrees (comparing two given degree measures)
               </td>
               <td className="px-3 py-3 text-ink-2 align-top">
-                P4 技能：比较两个角度的大小。90° > 75°，所以 90° 更大
+                P4 技能：比较两个角度的大小。90° &gt; 75°，所以 90° 更大
               </td>
             </tr>
             <tr className="border-b border-accent/10">
@@ -109,10 +109,10 @@ export default function DualValidationMapMathWeek26() {
               </td>
               <td className="px-3 py-3 text-ink-2 align-top">
                 <strong>Geometry → Angles</strong><br />
-                • 1.2 measuring angles in degrees (identifying acute angle < 90°)
+                • 1.2 measuring angles in degrees (identifying acute angle &lt; 90°)
               </td>
               <td className="px-3 py-3 text-ink-2 align-top">
-                P4 技能：acute angle（锐角）< 90°。35° < 90°，所以 Angle P 是锐角
+                P4 技能：acute angle（锐角） &lt; 90°。35° &lt; 90°，所以 Angle P 是锐角
               </td>
             </tr>
             <tr className="border-b border-accent/10">
@@ -135,10 +135,10 @@ export default function DualValidationMapMathWeek26() {
               </td>
               <td className="px-3 py-3 text-ink-2 align-top">
                 <strong>Geometry → Angles</strong><br />
-                • 1.2 measuring angles in degrees (classifying acute < 90°)
+                • 1.2 measuring angles in degrees (classifying acute &lt; 90°)
               </td>
               <td className="px-3 py-3 text-ink-2 align-top">
-                P4 技能：80° < 90°，所以 ∠a 是 acute angle（锐角）
+                P4 技能：80° &lt; 90°，所以 ∠a 是 acute angle（锐角）
               </td>
             </tr>
             <tr className="border-b border-accent/10">
@@ -177,7 +177,7 @@ export default function DualValidationMapMathWeek26() {
                 • 1.2 measuring angles in degrees (comparing two given degree measures)
               </td>
               <td className="px-3 py-3 text-ink-2 align-top">
-                P4 技能：比较两个角度的大小。85° < 100°，所以 85° 更小
+                P4 技能：比较两个角度的大小。85° &lt; 100°，所以 85° 更小
               </td>
             </tr>
             <tr className="border-b border-accent/10">
@@ -198,7 +198,7 @@ export default function DualValidationMapMathWeek26() {
                 <strong>应用题（需写 working）</strong><br />
                 (a) 90° angle is a right angle.<br />
                 (b) 1/4 turn = 1/4 of 360° = 360° ÷ 4 = 90°.<br />
-                (c) 60° < 90° (acute), 95° between 90° and 180° (obtuse), 90° = 90° (right).
+                (c) 60° &lt; 90° (acute), 95° between 90° and 180° (obtuse), 90° = 90° (right).
               </td>
               <td className="px-3 py-3 text-ink-2 align-top">
                 <strong>Geometry → Angles → Comprehensive Application</strong><br />
@@ -208,7 +208,7 @@ export default function DualValidationMapMathWeek26() {
                 • Multi-step problem requiring showing working
               </td>
               <td className="px-3 py-3 text-ink-2 align-top">
-                AEIS P4/P5 数学 Part 2 short-answer questions 要求 show working steps。本题练习：(a) 识别角的类型：90° = right angle；(b) 计算转圈的度数：1/4 turn = 1/4 of 360° = 360° ÷ 4 = 90°；(c) 分类三个角：60° < 90° → acute，95° between 90° and 180° → obtuse，90° = 90° → right。要求孩子写出每一步说明（如 "A right angle is exactly 90°"）、计算（如 "360° ÷ 4 = 90°"）、分类定义（如 "Acute < 90°, Right = 90°, Obtuse between 90° and 180°"）。常见错误：把 quarter turn 当 45°（thinking quarter turn is 45° instead of 90°）、锐角钝角混淆（confusing acute and obtuse: acute < 90°, obtuse > 90°）、∠ABC 时把 A 或 C 当顶点（vertex should be the middle letter B, not A or C）、把 half turn 当 90°（thinking half turn is 90° instead of 180°）
+                AEIS P4/P5 数学 Part 2 short-answer questions 要求 show working steps。本题练习：(a) 识别角的类型：90° = right angle；(b) 计算转圈的度数：1/4 turn = 1/4 of 360° = 360° ÷ 4 = 90°；(c) 分类三个角：60° &lt; 90° → acute，95° between 90° and 180° → obtuse，90° = 90° → right。要求孩子写出每一步说明（如 "A right angle is exactly 90°"）、计算（如 "360° ÷ 4 = 90°"）、分类定义（如 "Acute &lt; 90°, Right = 90°, Obtuse between 90° and 180°"）。常见错误：把 quarter turn 当 45°（thinking quarter turn is 45° instead of 90°）、锐角钝角混淆（confusing acute and obtuse: acute &lt; 90°, obtuse &gt; 90°）、∠ABC 时把 A 或 C 当顶点（vertex should be the middle letter B, not A or C）、把 half turn 当 90°（thinking half turn is 90° instead of 180°）
               </td>
             </tr>
           </tbody>
@@ -251,7 +251,7 @@ export default function DualValidationMapMathWeek26() {
           </a>
         </p>
         <p className="text-xs text-ink-2 mt-3 pt-2 border-t border-accent/10">
-          本周只教：angle notation（角的名称 ∠ABC, ∠a，中间字母是顶点）、angle in degrees（度数）、quarter turn = 90°（1/4 圈 = 90°）、half turn = 180°（1/2 圈 = 180°）、complete turn = 360°（一整圈 = 360°）、comparing angles（比较角度大小）、acute angle < 90°（锐角 < 90°）、right angle = 90°（直角 = 90°）、obtuse angle between 90° and 180°（钝角在 90° 和 180° 之间）。本周不教：properties of rectangles/squares beyond "four right angles" as a fact（长方形正方形性质仅限「四个直角」）、line symmetry / nets（对称/展开图）、protractor construction that needs a diagram（需要图示的量角器使用）、triangle angle sum（三角形内角和，不在 P4 Angles 1.1–1.3 官方列表中）、angles beyond obtuse（优角 reflex angle、angles on a straight line add up to 180°，P5）。
+          本周只教：angle notation（角的名称 ∠ABC, ∠a，中间字母是顶点）、angle in degrees（度数）、quarter turn = 90°（1/4 圈 = 90°）、half turn = 180°（1/2 圈 = 180°）、complete turn = 360°（一整圈 = 360°）、comparing angles（比较角度大小）、acute angle &lt; 90°（锐角 &lt; 90°）、right angle = 90°（直角 = 90°）、obtuse angle between 90° and 180°（钝角在 90° 和 180° 之间）。本周不教：properties of rectangles/squares beyond "four right angles" as a fact（长方形正方形性质仅限「四个直角」）、line symmetry / nets（对称/展开图）、protractor construction that needs a diagram（需要图示的量角器使用）、triangle angle sum（三角形内角和，不在 P4 Angles 1.1–1.3 官方列表中）、angles beyond obtuse（优角 reflex angle、angles on a straight line add up to 180°，P5）。
         </p>
         <p className="text-xs text-muted mt-3 pt-2 border-t border-accent/10">
           所有情境、人名、地点均为虚构。
