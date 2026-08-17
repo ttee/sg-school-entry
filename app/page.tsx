@@ -230,7 +230,7 @@ export default function HomePage() {
                   AEIS 英语与 AEIS 数学两科都要考。中学路径不要求 CEQ。
                 </p>
                 <p className="text-sm text-ink-2 mb-4">
-                  中学英语有试学周 + 第 1–11 周已上线（Sec 1 卷型样本：写作 + 理解/语言运用）。中学数学有试学周 + 第 1–45 周已上线（Sec 1 卷型样本：选择题 + 写算式；内容为申请 Sec 1 的前一级 P6 百分数、比、代数、分数除法、圆的面积和周长、正方体和长方体体积、平均数、特殊四边形求未知角，第 8–45 周为申请 Sec 2 的前一级 Sec 1 质数分解、HCF/LCM、平方立方和根、负数四则、数轴、不等号、近似估算、有理数比、比的应用、百分数、用百分数比较、大于100%的百分数、百分数增减和百分点、逆向百分数、百分数综合应用、平均速率速度匀速和平均速度、速率单位换算、速率和速度应用题、用字母表示数、解读代数符号、代数式求值、生活情境写成代数式、第n项、一次式加减、去括号化简、提取公因式、平面直角坐标 / 坐标、有序对 / 两个量的关系、一次函数 / y = ax + b、一次函数的图像、斜率 / 升降比、方程的概念、解一元一次方程、解简单分式方程 / 可化成一元一次方程的分式方程、列一元一次方程解应用题，第 43–45 周为申请 Sec 2 的前一级 Sec 1 直角锐角钝角优角 / 角的分类 + 对顶角平角周角 + 平行线截线：同位角内错角同旁内角）。
+                  中学英语有试学周 + 第 1–11 周已上线（Sec 1 卷型样本：写作 + 理解/语言运用）。中学数学有试学周 + 第 1–46 周已上线（Sec 1 卷型样本：选择题 + 写算式；内容为申请 Sec 1 的前一级 P6 百分数、比、代数、分数除法、圆的面积和周长、正方体和长方体体积、平均数、特殊四边形求未知角，第 8–46 周为申请 Sec 2 的前一级 Sec 1 质数分解、HCF/LCM、平方立方和根、负数四则、数轴、不等号、近似估算、有理数比、比的应用、百分数、用百分数比较、大于100%的百分数、百分数增减和百分点、逆向百分数、百分数综合应用、平均速率速度匀速和平均速度、速率单位换算、速率和速度应用题、用字母表示数、解读代数符号、代数式求值、生活情境写成代数式、第n项、一次式加减、去括号化简、提取公因式、平面直角坐标 / 坐标、有序对 / 两个量的关系、一次函数 / y = ax + b、一次函数的图像、斜率 / 升降比、方程的概念、解一元一次方程、解简单分式方程 / 可化成一元一次方程的分式方程、列一元一次方程解应用题，第 43–46 周为申请 Sec 2 的前一级 Sec 1 直角锐角钝角优角 / 角的分类 + 对顶角平角周角 + 平行线截线：同位角内错角同旁内角 + 三角形内角和 / 外角 / 等腰等边）。
                 </p>
                 <ul className="space-y-0 border-t border-line">
                   <li className="border-b border-line py-3 pl-5 relative before:absolute before:left-0 before:top-5 before:w-2 before:h-2 before:rounded-full before:bg-accent text-sm text-ink-2">
@@ -285,7 +285,7 @@ export default function HomePage() {
                 </div>
                 <p className="text-xs font-semibold uppercase tracking-wide text-accent mb-3">按月订阅</p>
                 <p className="text-ink-2 mb-4 text-sm">
-                  作业 app 解锁已上线周数（A2 试学周 + 第 1–11 周，B1 试学周 + 第 1–11 周，MATH 试学周 + 第 1–29 周，SEC 试学周 + 第 1–11 周，SMATH 试学周 + 第 1–45 周）+ 家长微信进度通报。可随时取消。
+                  作业 app 解锁已上线周数（A2 试学周 + 第 1–11 周，B1 试学周 + 第 1–11 周，MATH 试学周 + 第 1–29 周，SEC 试学周 + 第 1–11 周，SMATH 试学周 + 第 1–46 周）+ 家长微信进度通报。可随时取消。
                 </p>
                 <ul className="space-y-0 border-t border-line mb-5">
                   <li className="border-b border-line py-3 pl-5 relative before:absolute before:left-0 before:top-5 before:w-2 before:h-2 before:rounded-full before:bg-accent text-sm text-ink-2">
