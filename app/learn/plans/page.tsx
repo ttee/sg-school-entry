@@ -14,7 +14,7 @@ export default async function LessonPlansIndex() {
   const b1Weeks = Array.from({ length: 12 }, (_, i) => i);
   const mathWeeks = Array.from({ length: 30 }, (_, i) => i);
   const secWeeks = Array.from({ length: 12 }, (_, i) => i);
-  const smathWeeks = Array.from({ length: 31 }, (_, i) => i);
+  const smathWeeks = Array.from({ length: 32 }, (_, i) => i);
 
   return (
     <div>
@@ -128,7 +128,7 @@ export default async function LessonPlansIndex() {
         {/* SMATH Level */}
         <div>
           <h2 className="font-serif font-semibold text-2xl text-accent mb-4">
-            SMATH 中学数学 (31 周)
+            SMATH 中学数学 (32 周)
           </h2>
           <div className="grid md:grid-cols-4 gap-3">
             {smathWeeks.map((week) => (
