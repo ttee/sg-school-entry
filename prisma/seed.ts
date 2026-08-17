@@ -10894,6 +10894,102 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
         },
       ],
     },
+    {
+      level: "SMATH",
+      weekNumber: 45,
+      title: "数学 第 45 周 / Maths Week 45",
+      description: "AEIS-Secondary Mathematics: Sec 1 angles formed by two parallel lines and a transversal: corresponding angles, alternate angles, interior angles (G1.3 only)",
+      isSample: false,
+      errorFocus: "mixing the three angle names or using the wrong relation: treating corresponding angles as adding to 180° (wrong, they are equal); treating interior angles as equal (wrong, they add to 180°); calling an alternate pair 'corresponding'",
+      parentBrief: "本周是中学 AEIS 数学第 45 周，对应官方 SEAB Sec 1 卷型（https://www.seab.gov.sg/aeis/test-details/ 2026年7月1日更新）。Part 1 Multiple-choice questions：34 道 MCQ，30 分钟。Part 2 Short-answer questions (20 items) and open-ended questions (10 to 15 items)：1 小时 45 分钟。Calculators are not allowed（不允许使用计算器）。Short-answer and open-ended questions：candidates are required to show the method of solution clearly by writing working steps in the spaces provided, plus the final answer（需写出算式步骤和最终答案）。AEIS-Secondary 官方 preceding-level 规则：申请 Sec 2 入学者需熟悉 Sec 2 前一级的内容。官方举例：apply Secondary 3 → be familiar with Secondary 2 content. 本周针对 Sec 2 申请者，内容为 Sec 2 前一级（Sec 1）的官方 MOE 2020 G3 Mathematics Syllabuses, Secondary One, GEOMETRY AND MEASUREMENT, G1. Angles, triangles and polygons: 1.3 angles formed by two parallel lines and a transversal: corresponding angles, alternate angles, interior angles（平行线与横截线形成的角：同位角、内错角、同旁内角）。官方 1.3 wording（逐字引用）：「angles formed by two parallel lines and a transversal: corresponding angles, alternate angles, interior angles」。本周方法：三种平行线截线的角的关系 three angle relationships when two parallel lines are cut by a transversal。Corresponding angles are equal（同位角相等）——当两条平行线被横截线所截时，同位角相等 when two lines are parallel and a transversal cuts them, corresponding angles are equal。Alternate angles are equal（内错角相等）——当两条平行线被横截线所截时，内错角相等 when two lines are parallel and a transversal cuts them, alternate angles are equal（treat as alternate interior unless a stem clearly says otherwise）。Interior angles add to 180°（同旁内角互补）——当两条平行线被横截线所截时，同旁内角（co-interior / same-side interior）之和为 180° when two lines are parallel and a transversal cuts them, interior angles (co-interior / same-side interior) add to 180°。Examples: AB ∥ CD, transversal EF crosses at P and Q, angle APE = 70°, then corresponding angle CQF = 70°（同位角相等）; AB ∥ CD, angle APE = 70°, then alternate angle DQF = 70°（内错角相等）; AB ∥ CD, angle APE = 70°, then interior angle PQC = 180° − 70° = 110°（同旁内角之和为 180°）。Cast: Wei, Aisha, Mr Lim at Riverside Secondary School（描述图形：AB ∥ CD with transversal cutting at two points, marked angles）。Friendly integers（友好整数，角度是整数）。唯一性 unique keys：每道选择题只有一个正确答案（only ONE option may be true）。本周只教 G1.3（angles formed by two parallel lines and a transversal: corresponding angles, alternate angles, interior angles：同位角相等 equal、内错角相等 equal、同旁内角互补 180°），不教 G1.4（properties of triangles and special quadrilaterals 三角形及特殊四边形的性质），不重教 G1.2（第 44 周已完成）除非作为一句话提醒。本周化石：mixing the three angle names or using the wrong relation（混淆三种角的名称，或使用错误的关系：相等与互补）。Wrong: corresponding angles add to 180°（错误：同位角应该相等，不是互补。Corresponding angles are equal, not supplementary）。Wrong: interior (same-side) angles are equal（错误：同旁内角应该互补，即加到 180°，不是相等。Interior angles add to 180°, not equal）。Wrong: calling an alternate pair 'corresponding'（错误：把内错角叫成同位角。Alternate angles and corresponding angles are different angle pairs）。Right: corresponding = equal（正确：同位角相等 when AB ∥ CD and transversal cuts them）; alternate = equal（正确：内错角相等 when AB ∥ CD and transversal cuts them）; interior (same-side) = 180°（正确：同旁内角之和为 180° when AB ∥ CD and transversal cuts them）。第 44 周已完成 G1.2 vertically opposite angles, angles on a straight line, angles at a point。本周继续 GEOMETRY AND MEASUREMENT G1，教 1.3 angles formed by two parallel lines and a transversal: corresponding angles, alternate angles, interior angles（平行线与横截线形成的角），为后续 G1 小节做准备。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "At Riverside Secondary, Mr Lim draws two parallel lines AB and CD on the board. A transversal EF crosses AB at point P and CD at point Q. Angle APE measures 70°. What is the corresponding angle CQF?|A. 70° (because when two parallel lines are cut by a transversal, corresponding angles are equal)|B. 110° (because corresponding angles add to 180°)|C. 290° (because they add to 360°)|D. 90°",
+            "Wei draws AB ∥ CD with a transversal cutting at P and Q. Angle APQ is 80°. What is the alternate angle DQP?|A. 80° (because when two parallel lines are cut by a transversal, alternate angles are equal)|B. 100° (because alternate angles add to 180°)|C. 280°|D. 90°",
+            "Aisha observes AB ∥ CD at the classroom board at Riverside Secondary. A transversal cuts the parallel lines. One interior angle on the same side is 110°. What is the other interior angle on the same side?|A. 70° (because when two parallel lines are cut by a transversal, interior angles on the same side add to 180°, so 180° − 110° = 70°)|B. 110° (because interior angles are equal)|C. 250°|D. 90°",
+            "Mr Lim says: 「AB ∥ CD, and a transversal cuts them. One angle is 65°. The corresponding angle is 115° because corresponding angles add to 180°.」 What is wrong with Mr Lim's statement?|A. Corresponding angles are equal, not supplementary. When two parallel lines are cut by a transversal, corresponding angles are equal. The corresponding angle should be 65°, not 115°.|B. Nothing is wrong. The corresponding angle is 115°.|C. Corresponding angles add to 360°.|D. The corresponding angle should be 295°.",
+            "Wei draws AB ∥ CD with a transversal at Riverside Secondary. One interior angle is 125°. Aisha says the other interior angle on the same side is also 125° because alternate angles are equal. What is wrong with Aisha's reasoning?|A. These are interior angles on the same side, not alternate angles. When two parallel lines are cut by a transversal, interior angles on the same side add to 180°, so the other interior angle should be 180° − 125° = 55°, not 125°.|B. Nothing is wrong. The other interior angle is 125°.|C. The other interior angle should be 235°.|D. Interior angles add to 360°.",
+          ]),
+          correctAnswer: "A,A,A,A,A",
+          points: 10,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "Two parallel lines AB and CD are cut by a transversal at points P and Q at Riverside Secondary. One angle measures 65°. What is the measure of the corresponding angle?|A. 65° (because when two parallel lines are cut by a transversal, corresponding angles are equal)|B. 115° (because corresponding angles add to 180°)|C. 295° (because they add to 360°)|D. 90°",
+            "Mr Lim draws AB ∥ CD with a transversal at point M and N. One angle at M is 75°. What is the alternate angle at N?|A. 75° (because when two parallel lines are cut by a transversal, alternate angles are equal)|B. 105° (because alternate angles add to 180°)|C. 285°|D. 90°",
+            "AB ∥ CD with a transversal. One interior angle on the same side is 120°. What is the other interior angle on the same side?|A. 60° (because when two parallel lines are cut by a transversal, interior angles on the same side add to 180°, so 180° − 120° = 60°)|B. 120° (because interior angles are equal)|C. 240°|D. 90°",
+            "Wei observes AB ∥ CD at Riverside Secondary. A transversal cuts the parallel lines. One angle is 85°. Aisha says: 「The corresponding angle must be 95° because corresponding angles add to 180°.」 Is Aisha correct?|A. No, when two parallel lines are cut by a transversal, corresponding angles are equal, so the corresponding angle should be 85°, not 95°.|B. Yes, Aisha is correct. The corresponding angle is 95°.|C. No, the corresponding angle should be 275°.|D. No, the corresponding angle should be 90°.",
+            "AB ∥ CD with a transversal. One angle is 130°. Which property helps find the interior angle on the same side?|A. Interior angles on the same side add to 180°, so the other interior angle = 180° − 130° = 50°|B. Interior angles are equal, so the other interior angle = 130°|C. Corresponding angles add to 180°|D. Alternate angles add to 180°",
+            "Mr Lim teaches at Riverside Secondary: 「When AB ∥ CD and a transversal cuts them, alternate angles are equal.」 Wei asks: 「What about interior angles on the same side?」 What is the correct answer?|A. Interior angles on the same side add to 180° (they are supplementary, not equal)|B. Interior angles on the same side are equal|C. Interior angles on the same side add to 360°|D. Interior angles on the same side are corresponding angles",
+            "Aisha draws AB ∥ CD with a transversal cutting at P and Q. Angle APQ = 70°. She says: 「The interior angle PQC on the same side is 70° because alternate angles are equal.」 What is wrong with Aisha's reasoning?|A. Angles APQ and PQC are interior angles on the same side, not alternate angles. Interior angles on the same side add to 180°, so angle PQC = 180° − 70° = 110°, not 70°.|B. Nothing is wrong. Aisha is correct, angle PQC = 70°.|C. Angle PQC should be 290°.|D. Aisha should use 360° instead of 180°.",
+            "Mr Lim asks: 「AB ∥ CD, transversal cuts at M and N. Angle at M is 55°. The angle at N that is in the corresponding position is x. The interior angle at N on the same side is y. Find x and y.」 Which is correct?|A. x = 55° (corresponding angles are equal), y = 125° (interior angles on the same side add to 180°, so y = 180° − 55° = 125°)|B. x = 125° (corresponding angles add to 180°), y = 55° (interior angles are equal)|C. x = 55°, y = 55° (both equal)|D. x = 125°, y = 125° (both add to 180° from the original angle)",
+          ]),
+          correctAnswer: "A,A,A,A,A,A,A,A",
+          points: 16,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `Part 2: Show Your Working (写出算式步骤)
+
+Riverside Secondary School has parallel lines and transversal exercises. Answer the questions below. For each question, show your method of solution clearly by writing working steps, plus the final answer.
+
+Question (a)
+At Riverside Secondary, Mr Lim draws two parallel lines AB and CD on the classroom board with a transversal EF. The transversal crosses AB at point P and CD at point Q. Mr Lim measures angle APE and finds it is 70°.
+
+(i) What is the measure of the corresponding angle CQF? Explain your answer using the angle property for parallel lines and a transversal.
+(ii) Mr Lim's student Wei says: 「The corresponding angle CQF is 110° because corresponding angles add to 180°.」 Explain what is wrong with Wei's reasoning and give the correct answer.
+
+Question (b)
+Aisha draws two parallel lines AB and CD with a transversal cutting at points P and Q. Angle BPQ measures 100°.
+
+(i) What is the measure of the alternate angle DQP? Show your working clearly.
+(ii) What is the measure of the interior angle on the same side, angle PQC? Show your working and state the property you use.
+(iii) Verify your answers by checking: angle BPQ (given) = 100°, alternate angle DQP = ?, interior angle PQC = ?. Confirm alternate = equal and interior on same side + original = 180°.
+
+Question (c)
+At the Riverside Secondary classroom board, Wei draws AB ∥ CD with a transversal. One angle measures 125°. Wei labels this angle as x.
+
+(i) Find the corresponding angle. Show all your working steps clearly.
+(ii) Find the interior angle on the same side. Show your working.
+(iii) Aisha says: 「The interior angle on the same side is 125° because when AB ∥ CD, angles are equal.」 Use the correct angle property to explain why Aisha is wrong and give the correct interior angle.
+
+写作提示 / Tips:
+✓ 每题分步骤写出推理 (Show working steps for each question)
+✓ Part 2 官方要求：clearly show the method of solution by writing working steps, plus the final answer
+✓ 不用计算器 (No calculators allowed)
+✓ 平行线截线三种角的关系步骤示范 (three angle relationships for parallel lines and transversal examples)：
+  • AB ∥ CD, transversal EF, angle APE = 70°:
+    Question: What is the corresponding angle CQF? Wei says it is 110° because corresponding angles add to 180°. What is wrong?
+    Solution: ① Identify the angle relationship: Two parallel lines AB and CD are cut by transversal EF at points P and Q. Angle APE at P and angle CQF at Q are in corresponding positions. ② Recall the property: When two parallel lines are cut by a transversal, corresponding angles are equal（同位角相等）. ③ Apply the property: Angle APE = 70°, so the corresponding angle CQF = 70° (equal). ④ Conclusion: The corresponding angle CQF is 70°. ⑤ Wei's error: Wei said the corresponding angle is 110° because corresponding angles add to 180°. This is wrong. Wei confused corresponding angles with interior angles on the same side. Corresponding angles are EQUAL, not supplementary. The correct property is: when two parallel lines are cut by a transversal, corresponding angles are equal, so both angles = 70°. Angles that add to 180° are interior angles on the same side, not corresponding angles.
+  • AB ∥ CD, transversal, angle BPQ = 100°:
+    Question: Find the alternate angle DQP. Find the interior angle PQC on the same side. Verify.
+    Solution: ① Identify the angle relationships: AB ∥ CD with transversal cutting at P and Q. Angle BPQ at P and angle DQP at Q are alternate angles (内错角). Angle BPQ at P and angle PQC at Q are interior angles on the same side (同旁内角). ② Recall the properties: When two parallel lines are cut by a transversal, alternate angles are equal（内错角相等）, and interior angles on the same side add to 180°（同旁内角互补，之和为 180°）. ③ Apply the properties: For alternate angles: angle BPQ = 100°, so alternate angle DQP = 100° (equal). For interior angles on the same side: angle BPQ + angle PQC = 180°. Given angle BPQ = 100°, so 100° + angle PQC = 180°. ④ Solve: angle PQC = 180° − 100° = 80°. ⑤ Verify: Alternate angle DQP = 100° (equal to angle BPQ ✓). Interior angles: 100° + 80° = 180° ✓. ⑥ Conclusion: Alternate angle DQP = 100°, interior angle PQC = 80°.
+  • AB ∥ CD, transversal, one angle x = 125°:
+    Question: Find the corresponding angle. Find the interior angle on the same side. Aisha says the interior angle is 125° because angles are equal. Why is Aisha wrong?
+    Solution for corresponding angle: ① Identify the angle relationship: AB ∥ CD with transversal. Given angle x = 125°. The corresponding angle is in the matching position on the other parallel line. ② Recall the property: When two parallel lines are cut by a transversal, corresponding angles are equal（同位角相等）. ③ Apply the property: x = 125°, so the corresponding angle = 125° (equal). ④ Conclusion: The corresponding angle is 125°. Solution for interior angle on the same side: ① Identify the angle relationship: The interior angle on the same side is the angle on the other parallel line that is on the SAME SIDE of the transversal (not in the corresponding position). ② Recall the property: When two parallel lines are cut by a transversal, interior angles on the same side add to 180°（同旁内角互补，之和为 180°）. ③ Apply the property: x + interior angle on same side = 180°. Given x = 125°, so 125° + interior angle = 180°. ④ Solve: interior angle = 180° − 125° = 55°. ⑤ Conclusion: The interior angle on the same side is 55°. ⑥ Aisha's error: Aisha said the interior angle on the same side is 125° because angles are equal. This is wrong. Aisha confused interior angles on the same side with corresponding angles or alternate angles. Interior angles on the same side are NOT equal; they are supplementary (add to 180°). The correct property is: when two parallel lines are cut by a transversal, interior angles on the same side add to 180°, so interior angle = 180° − 125° = 55°, not 125°. Corresponding angles and alternate angles are equal, but interior angles on the same side add to 180°.
+✓ 关键步骤：Step 1: Identify the angle relationship（识别角的关系）——corresponding angles (同位角, in matching positions on the two parallel lines), alternate angles (内错角, on opposite sides of the transversal, between the parallel lines), interior angles on the same side (同旁内角, on the same side of the transversal, between the parallel lines). Step 2: Recall the correct property（回忆正确的性质）——corresponding angles are equal; alternate angles are equal; interior angles on the same side add to 180°. Step 3: Apply the property to the given angles（将性质应用于给定的角）——use equal for corresponding and alternate, use subtraction from 180° for interior on same side. Step 4: Solve for the unknown angle（求解未知角）——write the equation and solve step by step. Step 5: State the final answer clearly（清楚地陈述最终答案）. Step 6: If a fossil error is present, explain what is wrong with the incorrect reasoning（如果有化石错误，解释错误推理的问题）——identify which property was confused, state the correct property, show the correct calculation.
+✓ 化石 (fossil errors)：
+  • Using 「add to 180°」 for corresponding angles: AB ∥ CD, transversal, one angle 70°, the corresponding angle is 110° because corresponding angles add to 180°（错误：同位角应该相等，是 70°，不是 110°。Corresponding angles are equal, not supplementary. The property is: corresponding angles are equal, so both = 70°）
+  • Using 「equal」 for interior angles on the same side: AB ∥ CD, transversal, one angle 100°, the interior angle on the same side is 100° because angles are equal（错误：同旁内角应该互补，即加到 180°，不是相等。Interior angles on the same side add to 180°, so the interior angle = 180° − 100° = 80°, not 100°。The property is: interior angles on the same side add to 180°, not equal）
+  • Calling an alternate angle pair 「corresponding」: mixing the three angle names（错误：混淆三种角的名称。Corresponding angles are in matching positions on the two parallel lines. Alternate angles are on opposite sides of the transversal, between the parallel lines. Interior angles on the same side are on the same side of the transversal, between the parallel lines. Use the correct name for each angle pair）
+  • Confusing angle properties: saying alternate angles add to 180° or corresponding angles add to 180°（错误：内错角和同位角都是相等的，不是互补的。只有同旁内角是互补的，加到 180°。Alternate angles are equal. Corresponding angles are equal. Interior angles on the same side add to 180°）
+  • 本周教 G1.3（angles formed by two parallel lines and a transversal: corresponding angles, alternate angles, interior angles：同位角相等 equal, 内错角相等 equal, 同旁内角互补 180°）。本周不教 G1.4（properties of triangles and special quadrilaterals）。第 44 周已完成 G1.2 vertically opposite angles, angles on a straight line, angles at a point（对顶角、平角、周角）。
+
+Note: This is a sample of Part 2 short-answer/open-ended questions. The official paper has 20 short-answer + 10–15 open-ended items in 1 hour 45 minutes.`,
+          points: 20,
+        },
+      ],
+    },
   ];
 
   // =================================================================
