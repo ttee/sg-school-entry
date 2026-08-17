@@ -5254,6 +5254,44 @@ const lessonPlans: Record<string, LessonPlan> = {
     ],
     speakingPrompts: null,
   },
+  "SMATH-62": {
+    title: "恒等式 — Identities: (a+b)², (a−b)², a²−b²",
+    mathExample: "(x+3)² = x² + 6x + 9. (y−5)² = y² − 10y + 25. 7² − 2² = (7+2)(7−2) = 45. (2a+b)² = 4a² + 4ab + b².",
+    boardWriting: "SMATH Week 62: Sec 2 N5.12 identities: (a+b)² = a² + 2ab + b², (a−b)² = a² − 2ab + b², a² − b² = (a+b)(a−b). Expand and recognise. Friendly integers. No calculator. Fossil: (a+b)² = a² + b² (drops 2ab).",
+    sections: [
+      {
+        name: "课前",
+        duration: "2 分钟",
+        teacherNotes: "欢迎孩子。「今天是第 62 周 AEIS 中学数学，我们学 Sec 2 N5.12 identities: (a+b)², (a−b)², a²−b²（恒等式）。本周是 Sec 2 N5.12 only，只教三个恒等式：(a+b)² = a² + 2ab + b², (a−b)² = a² − 2ab + b², a² − b² = (a+b)(a−b)。本周不教 5.13 factorisation of linear expressions ax+bx+kay+kby by grouping（分组提取）。本周不教 5.14 quadratic factorisation（二次因式分解）。本周不重教 5.9 expansion as the whole week（第 59 周已教；本周是恒等式的特殊形式）。第 8–56 周我们已完成 Sec 1 内容，第 57 周已完成 Sec 2 N2.4 map scales，第 58 周已完成 Sec 2 N2.5 direct and inverse proportion，第 59 周已完成 Sec 2 N5.9 expansion of the product of algebraic expressions，第 60 周已完成 Sec 2 N5.10 changing the subject of a formula，第 61 周已完成 Sec 2 N5.11 finding the value of an unknown quantity in a given formula，本周继续 Sec 2 内容（Sec 3 申请者的 preceding level）。」告诉孩子本周化石焦点（高频错误）：「本周化石焦点：(a+b)² = a² + b² (dropping the middle term 2ab)（丢掉中间项 2ab；例如 (x+3)² 写成 x² + 9，忘记了 +6x）。我们会反复练这个点，直到改掉。」",
+      },
+      {
+        name: "热身",
+        duration: "5 分钟",
+        teacherNotes: "问孩子：「你学过 (a+b)² 吗？它等于 a² + b² 吗？」让孩子简单说一句。然后说：「今天我们学 identities: (a+b)², (a−b)², a²−b²（恒等式）。Three identities: (a+b)² = a² + 2ab + b² (注意有三项，不是两项), (a−b)² = a² − 2ab + b² (中间项是负号，最后一项是正号), a² − b² = (a+b)(a−b) (平方差公式). Expand and recognise the identities（展开和识别恒等式）. Friendly integers only. No calculator.」让孩子跟读一句：「(a+b)² = a² + 2ab + b². NOT a² + b².」然后问：「如果 (x+3)²，你能展开吗？」等孩子想一下（不必马上答对，下一环节会教）。如果孩子说对了 x² + 6x + 9，鼓励「Good!」；如果不确定或说 x² + 9，说「Almost, but we need the middle term. 接下来我们一起看微课例题。」",
+      },
+      {
+        name: "化石",
+        duration: "10 分钟",
+        teacherNotes: "打开屏幕共享或白板，写下本周化石错误：「Fossil 1: (x+3)² = x² + 9. ✗」说明：「这是化石化错误：(a+b)² = a² + b² (dropping the middle term 2ab)（丢掉中间项 2ab）。正确做法：(a+b)² = a² + 2ab + b²（有三项，不是两项）. So (x+3)² = x² + 2(x)(3) + 3² = x² + 6x + 9. The middle term is 2ab = 2 × x × 3 = 6x. Do NOT write x² + 9（不要写 x² + 9）. You are missing the middle term 6x（你丢掉了中间项 6x）。」让孩子跟读一句：「(x+3)² = x² + 6x + 9. NOT x² + 9.」再写第二个化石错误：「Fossil 2: (y−5)² = y² − 25. ✗」说明：「这是化石化错误：(a−b)² = a² − b² (dropping the middle term −2ab)（丢掉中间项 −2ab）。正确做法：(a−b)² = a² − 2ab + b²（有三项，中间项是负号 −2ab，最后一项是正号 +b²）. So (y−5)² = y² − 2(y)(5) + 5² = y² − 10y + 25. The middle term is −2ab = −2 × y × 5 = −10y. Do NOT write y² − 25（不要写 y² − 25）. You are missing the middle term −10y（你丢掉了中间项 −10y）。」让孩子跟读一句：「(y−5)² = y² − 10y + 25. NOT y² − 25.」写第三个化石错误：「Fossil 3: (x+4)² = x² − 8x + 16. ✗」说明：「这是化石化错误：mixing the sign of 2ab（符号弄混了）。正确做法：For (a+b)², the middle term is +2ab (positive)（对于 (a+b)²，中间项是正号 +2ab）. So (x+4)² = x² + 2(x)(4) + 4² = x² + 8x + 16 (NOT x² − 8x + 16). If the middle term is −8x, that would be (x−4)²（如果中间项是 −8x，那是 (x−4)²）。」让孩子跟读：「(x+4)² = x² + 8x + 16. (x−4)² = x² − 8x + 16.」",
+      },
+      {
+        name: "示范",
+        duration: "15 分钟",
+        teacherNotes: "示范四道例题（在屏幕上或白板上边写边讲）：\n\n例题 1: Expand (x+3)² using the identity (a+b)² = a² + 2ab + b².\n① Start with the identity (a+b)² = a² + 2ab + b². ② Identify a and b: Here a = x, b = 3. ③ Substitute into the identity: (x+3)² = x² + 2(x)(3) + 3². ④ Calculate each term: x² stays as x², 2(x)(3) = 2 × x × 3 = 6x, 3² = 9. ⑤ Add them: (x+3)² = x² + 6x + 9. Answer: x² + 6x + 9. (Key point: The middle term is 2ab. Do NOT write (x+3)² = x² + 9, because that drops the middle term 2ab = 6x. The identity has THREE terms: a², 2ab, b².)\n\n例题 2: Expand (y−5)² using the identity (a−b)² = a² − 2ab + b².\n① Start with the identity (a−b)² = a² − 2ab + b². ② Identify a and b: Here a = y, b = 5. ③ Substitute into the identity: (y−5)² = y² − 2(y)(5) + 5². ④ Calculate each term: y² stays as y², 2(y)(5) = 2 × y × 5 = 10y, 5² = 25. ⑤ Add them (note the middle term has a minus sign): (y−5)² = y² − 10y + 25. Answer: y² − 10y + 25. (Key point: For (a−b)², the middle term is −2ab, NOT +2ab. And the last term is +b², NOT −b². So (y−5)² = y² − 10y + 25, NOT y² − 25 or y² + 10y + 25.)\n\n例题 3: Calculate 7² − 2² using the identity a² − b² = (a+b)(a−b).\n① Start with the identity a² − b² = (a+b)(a−b). ② Identify a and b: Here a = 7, b = 2. ③ Substitute into the identity: 7² − 2² = (7+2)(7−2). ④ Calculate: (7+2) = 9, (7−2) = 5. ⑤ Multiply: 9 × 5 = 45. Answer: 45. (Alternative method: Calculate directly: 7² = 49, 2² = 4, 49 − 4 = 45. Both methods give the same answer. The identity is faster for some cases.)\n\n例题 4: Expand (2a+b)² using the identity (a+b)² = a² + 2ab + b².\n① Start with the identity (a+b)² = a² + 2ab + b². ② Identify a and b: Here the first term is 2a (the whole first term is 2a, not just a), b = b. ③ Substitute: (2a+b)² = (2a)² + 2(2a)(b) + b². ④ Calculate: (2a)² = 4a² (square both 2 and a), 2(2a)(b) = 2 × 2a × b = 4ab, b² stays as b². ⑤ Add: (2a+b)² = 4a² + 4ab + b². Answer: 4a² + 4ab + b². (Key point: When the first term is 2a, NOT just a, you must square the 2 as well: (2a)² = 2² × a² = 4a².)\n\n每个例题讲完后，让孩子跟读最后一行 Answer，然后问「这个步骤清楚吗？」如果孩子不清楚，再重复一遍关键步骤。",
+      },
+      {
+        name: "练习",
+        duration: "15 分钟",
+        teacherNotes: "给孩子 5 道题目让他/她在纸上算（教师不给完整答案，只给提示，让孩子自己写出 working steps）：\n\n练习 1: Expand (x+4)² using (a+b)² = a² + 2ab + b². (提示：a = x, b = 4. 计算 a², 2ab, b².) 期待答案：(x+4)² = x² + 2(x)(4) + 4² = x² + 8x + 16.\n\n练习 2: Expand (y−6)² using (a−b)² = a² − 2ab + b². (提示：a = y, b = 6. 注意中间项是负号.) 期待答案：(y−6)² = y² − 2(y)(6) + 6² = y² − 12y + 36.\n\n练习 3: Factorise 81 − m² using a² − b² = (a+b)(a−b). (提示：81 = 9². a = 9, b = m.) 期待答案：81 − m² = 9² − m² = (9+m)(9−m).\n\n练习 4: Expand (3n+5)² using (a+b)² = a² + 2ab + b². (提示：a = 3n (整个第一项是 3n), b = 5. 计算 (3n)².) 期待答案：(3n+5)² = (3n)² + 2(3n)(5) + 5² = 9n² + 30n + 25.\n\n练习 5: Expand (2p−q)² using (a−b)² = a² − 2ab + b². (提示：a = 2p (整个第一项是 2p), b = q. 计算 (2p)².) 期待答案：(2p−q)² = (2p)² − 2(2p)(q) + q² = 4p² − 4pq + q².\n\n如果孩子卡住，教师给词提示（例如：「(a+b)² has THREE terms: a², 2ab, b². Do NOT drop the middle term.」或「For (a−b)², the middle term is −2ab, negative sign.」或「When the first term is 3n, (3n)² = 9n², NOT 3n². Square BOTH the 3 and the n.」）。孩子做完一道，教师检查 working steps 是否清楚（每一步都写出来），然后让孩子继续下一道。",
+      },
+      {
+        name: "收口",
+        duration: "3 分钟",
+        teacherNotes: "总结本周重点：(1) 官方 Sec 2 AEIS 数学卷型：Part 1 MCQ 34 题 30 分钟 + Part 2 show working 20+10–15 题 1 小时 45 分钟，不用计算器。(2) 本周内容：Sec 2 NUMBER AND ALGEBRA, N5. Algebraic manipulation: 5.12 identities: (a+b)², (a−b)², a²−b²（恒等式）。本周是 N5.12 only. Three identities: (a+b)² = a² + 2ab + b², (a−b)² = a² − 2ab + b², a² − b² = (a+b)(a−b). Expand and recognise the identities. Friendly integers only. No calculator. Fossil: (a+b)² = a² + b² (dropping the middle term 2ab), (a−b)² = a² − b² (dropping the middle term −2ab), mixing the sign of 2ab. 本周不教 5.13 factorisation of linear expressions ax+bx+kay+kby by grouping（分组提取公因式）。本周不教 5.14 quadratic factorisation（二次因式分解 x² + bx + c）。本周不重教 5.9 expansion as the whole week（第 59 周已教；本周是恒等式的特殊形式）。Cast: secondary Wei, Aisha, Mr Lim at Riverside Secondary. 第 8–56 周已完成 Sec 1 内容。第 57 周已完成 Sec 2 N2.4 map scales。第 58 周已完成 Sec 2 N2.5 direct and inverse proportion。第 59 周已完成 Sec 2 N5.9 expansion of the product of algebraic expressions。第 60 周已完成 Sec 2 N5.10 changing the subject of a formula。第 61 周已完成 Sec 2 N5.11 finding the value of an unknown quantity in a given formula。本周继续 Sec 2 内容（Sec 3 申请者的 preceding level）。」对家长说：「本周化石焦点：(a+b)² = a² + b² (dropping the middle term 2ab)（丢掉中间项 2ab；例如 (x+3)² 写成 x² + 9，忘记了 +6x。正确做法：(x+3)² = x² + 6x + 9, with the middle term 6x.）。请在家长端查看孩子的作业提交，关注这个化石错误。」对孩子说：「Great work today! Remember: (a+b)² = a² + 2ab + b², NOT a² + b². Always include the middle term 2ab.」鼓励孩子并结束课程。",
+      },
+    ],
+    speakingPrompts: null,
+  },
 };
 
 export default async function LessonPlanPage({
