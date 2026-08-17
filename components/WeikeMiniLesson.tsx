@@ -549,6 +549,14 @@ export default function WeikeMiniLesson({ level, weekNumber }: WeikeMiniLessonPr
       ],
       gloss: "AEIS 中学数学第 31 周 / SMATH Week 31. 本周例题：Sec 1 一次式加减（Sec 1 NUMBER AND ALGEBRA: N5.6 addition and subtraction of linear expressions）。官方 5.6 wording（逐字引用）：'addition and subtraction of linear expressions'。本周方法：Add or subtract two linear expressions by collecting like terms（通过合并同类项来加减两个一次式）。Change the sign of every term in the expression after a minus（减法时，改变减号后面每一项的符号）。(2x + 3) + (x + 5) = 3x + 8（加法：直接合并）。(3x + 4) − (x + 1) = 3x + 4 − x − 1 = 2x + 3（减法：改变第二个括号中每一项的符号）。(4x + 6) − (2x − 3) = 4x + 6 − 2x + 3 = 2x + 9（关键：−(−3) = +3）。本周化石：subtracting only the first term（只减第一项）：(3x + 4) − (x + 1) → 2x + 4 or 2x + 5（错误，应该是 2x + 3）；forgetting to change the sign of the second term after a minus（忘记改变第二项符号）：(4x + 6) − (2x − 3) → 2x + 3（错误，应该是 2x + 9，因为 −(−3) = +3）；adding coefficients of unlike terms（把不同类项的系数相加）：x + 3 → 4x。第 26–30 周已完成 5.1–5.5，本周只教 5.6 addition and subtraction（一次式加减）。本周不教 5.7 simplification such as −2(3x − 5) + 4x（展开括号化简），5.8 use of brackets and extraction of common factors（括号的使用和提取公因数）。Friendly integers。No calculator。写出算式步骤。"
     },
+    "SMATH-32": {
+      examples: [
+        "−2(3x − 5) + 4x = −6x + 10 + 4x = −2x + 10. Fossil: −6x − 10 or −2x − 10 (忘记 −2 × (−5) = +10).",
+        "2(3x − 5) + 4x = 6x − 10 + 4x = 10x − 10.",
+        "3(x + 2) − 2(x − 1) = 3x + 6 − 2x + 2 = x + 8. 先展开两个括号，再合并。"
+      ],
+      gloss: "AEIS 中学数学第 32 周 / SMATH Week 32. 本周例题：Sec 1 一次式化简（Sec 1 NUMBER AND ALGEBRA: N5.7 simplification of linear expressions such as −2(3x − 5) + 4x）。官方 5.7 wording（逐字引用）：'simplification of linear expressions such as −2(3x − 5) + 4x ; 2x/3 − 3(x − 5)/2'。本周方法：Expand the bracket, then collect like terms（展开括号，然后合并同类项）。−2(3x − 5) + 4x = −6x + 10 + 4x = −2x + 10（先展开 −2 乘以括号里的每一项：−2 × 3x = −6x，−2 × (−5) = +10；再合并 −6x + 4x = −2x）。2(3x − 5) + 4x = 6x − 10 + 4x = 10x − 10（2 × 3x = 6x，2 × (−5) = −10；6x + 4x = 10x）。3(x + 2) − 2(x − 1) = 3x + 6 − 2x + 2 = x + 8（展开两个括号：3(x + 2) = 3x + 6，−2(x − 1) = −2x + 2；合并：3x − 2x = x，6 + 2 = 8）。4x − 2(3x − 5) = 4x − 6x + 10 = −2x + 10（展开：−2 × 3x = −6x，−2 × (−5) = +10；合并：4x − 6x = −2x）。本周化石：−2(3x − 5) = −6x − 5 or −6x − 10（错误：忘记负负得正 negative times negative is positive，正确是 −6x + 10，因为 −2 × (−5) = +10）；4x − 2(3x − 5) = 4x − 6x − 10（错误：忘记 −2 × (−5) = +10，写成了 −10，正确应该是 4x − 6x + 10 = −2x + 10）；dropping the sign on the second term inside the bracket（漏掉括号里第二项的符号）。第 26–31 周已完成 5.1–5.6，本周只教 5.7 simplification（一次式化简：展开括号再合并）。本周不教 5.8 use of brackets and extraction of common factors（括号的使用和提取公因数，下周内容）。Friendly integers。No calculator。写出算式步骤。"
+    },
     "SEC-0": {
       fossil: "Although I was nervous, but I tried. ✗ (中文「虽然…但是…」迁移) / I go yesterday ✗ (叙事体过去时掉落)",
       examples: [
