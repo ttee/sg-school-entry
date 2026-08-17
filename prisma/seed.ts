@@ -12641,6 +12641,99 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
         },
       ],
     },
+    {
+      level: "SMATH",
+      weekNumber: 63,
+      title: "一次式因式分解 — Factorisation ax+bx+kay+kby",
+      description: "Sec 2 N5.13: factorisation of linear expressions ax+bx+kay+kby (AEIS 中学数学第 63 周 / SMATH Week 63)",
+      isSample: false,
+      errorFocus: "taking out only one pair and stopping; or writing (a+b)(x+y) when the second pair needs ky",
+      parentBrief: "本周是中学 AEIS 数学第 63 周，对应官方 SEAB Sec 2 卷型（https://www.seab.gov.sg/aeis/test-details/ 2026年7月1日更新）。Part 1 Multiple-choice questions：34 道 MCQ，30 分钟。Part 2 Short-answer questions (20 items) and open-ended questions (10 to 15 items)：1 小时 45 分钟。Calculators are not allowed（不允许使用计算器）。Short-answer and open-ended questions：candidates are required to show the method of solution clearly by writing working steps in the spaces provided, plus the final answer（需写出算式步骤和最终答案）。AEIS-Secondary 官方 preceding-level 规则：申请 Sec 3 入学者需熟悉 Sec 3 前一级的内容。官方举例：apply Secondary 3 → be familiar with Secondary 2 content. 本周针对 Sec 3 申请者，内容为 Sec 3 前一级（Sec 2）的官方 MOE 2020 G3 Mathematics Syllabuses, Secondary Two, NUMBER AND ALGEBRA, N5. Algebraic manipulation: 5.13 factorisation of linear expressions ax+bx+kay+kby（一次式因式分解 / 分组提取）。官方 N5.13 wording（逐字引用）：「factorisation of linear expressions ax+bx+kay+kby」。本周只教 N5.13 factorisation of linear expressions ax+bx+kay+kby（一次式因式分解 / 分组提取公因式）。Group four-term linear expressions: ax + bx + kay + kby = x(a+b) + ky(a+b) = (a+b)(x+ky). Example: 2x + 6x + 4y + 12y. Step 1: Group the first two terms and factor: 2x + 6x = x(2+6) = 8x. Step 2: Group the last two terms and factor: 4y + 12y = y(4+12) = 16y. Step 3: Now we have 8x + 16y = 8(x + 2y). Friendly integers only. No calculator. No quadratics (no x² terms to factor). Fossil: taking out only one pair and stopping (example: from 2x + 6x + 4y + 12y, getting 8x + 16y and stopping there, instead of factoring 8(x+2y)); or writing (a+b)(x+y) when the second pair needs ky (example: the expression factors to (a+b)(x+2y) but the learner writes (a+b)(x+y) with wrong coefficient). 本周不教 5.14 factorisation of quadratic expressions ax²+bx+c（二次因式分解）。本周不重教 5.12 identities（第 62 周已教）。本周不重教 Sec 1 N5.8 common-factor extraction as the whole week（第 56 周已教；本周是分组：ax + bx + kay + kby）。Cast: secondary Wei, Aisha, Mr Lim at Riverside Secondary. 第 8–56 周已完成 Sec 1 内容。第 57 周已完成 Sec 2 N2.4 map scales。第 58 周已完成 Sec 2 N2.5 direct and inverse proportion。第 59 周已完成 Sec 2 N5.9 expansion of the product of algebraic expressions。第 60 周已完成 Sec 2 N5.10 changing the subject of a formula。第 61 周已完成 Sec 2 N5.11 finding the value of an unknown quantity in a given formula。第 62 周已完成 Sec 2 N5.12 identities: (a+b)², (a−b)², a²−b²。本周继续 Sec 2 内容（Sec 3 申请者的 preceding level）。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "At Riverside Secondary, Mr Lim writes on the board: 「Factorise 2x + 4y + 6x + 12y」. He asks Wei to work it out. Wei writes: Step 1: Group first two: 2x + 4y = 2(x + 2y). Step 2: Group last two: 6x + 12y = 6(x + 2y). Step 3: Both groups have (x + 2y), so 2(x + 2y) + 6(x + 2y) = (2 + 6)(x + 2y) = 8(x + 2y). Is Wei correct?|A. Yes, Wei is correct. Group: 2x + 4y = 2(x + 2y), 6x + 12y = 6(x + 2y). Both have (x + 2y), so (2 + 6)(x + 2y) = 8(x + 2y).|B. No, Wei is wrong. The answer is 8x + 16y. We cannot factor further.|C. No, Wei is wrong. The answer is (2 + 6)x + (4 + 12)y = 8x + 16y.|D. No, Wei is wrong. The answer is 2(x + 2y + 3x + 6y).",
+            "Aisha at Riverside Secondary sees the expression: 3a + 5b + 9a + 15b. Mr Lim asks: 「What is the fully factorised form?」 Aisha writes: Group: 3a + 5b = a(3 + 5) — no, that is wrong. Let me try: 3a + 5b = cannot factor. But 9a + 15b = 3(3a + 5b). So 3a + 5b + 3(3a + 5b) = (1 + 3)(3a + 5b) = 4(3a + 5b). Is this correct?|A. Yes, Aisha is correct. The first pair 3a + 5b cannot factor, so write it as 1(3a + 5b). The second pair 9a + 15b = 3(3a + 5b). So (1 + 3)(3a + 5b) = 4(3a + 5b).|B. No, Aisha is wrong. The answer is 12a + 20b. We cannot factor further.|C. No, Aisha is wrong. The answer is (3 + 9)a + (5 + 15)b = 12a + 20b.|D. No, Aisha is wrong. The answer is 3(a + 3a) + 5(b + 3b).",
+            "At Riverside Secondary, Wei has the expression: 5m + 7n + 10m + 14n. Mr Lim says: 「Factorise this.」 Wei writes: Group: 5m + 7n = cannot factor. 10m + 14n = 2(5m + 7n). So 5m + 7n + 2(5m + 7n) = (1 + 2)(5m + 7n) = 3(5m + 7n). Is Wei correct?|A. Yes, Wei is correct. First pair: 5m + 7n = 1(5m + 7n). Second pair: 10m + 14n = 2(5m + 7n). So (1 + 2)(5m + 7n) = 3(5m + 7n).|B. No, Wei is wrong. The answer is 15m + 21n.|C. No, Wei is wrong. The answer is (5 + 10)m + (7 + 14)n.|D. No, Wei is wrong. The answer is 5(m + 2m) + 7(n + 2n).",
+            "Mr Lim at Riverside Secondary writes: 「Factorise 4p + 6q + 8p + 12q」. Aisha says: 「Group: 4p + 6q = 2(2p + 3q), 8p + 12q = 4(2p + 3q). Both have (2p + 3q), so 2(2p + 3q) + 4(2p + 3q) = (2 + 4)(2p + 3q) = 6(2p + 3q).」 Is Aisha correct?|A. Yes, Aisha is correct. Group: 4p + 6q = 2(2p + 3q), 8p + 12q = 4(2p + 3q). Both have (2p + 3q), so (2 + 4)(2p + 3q) = 6(2p + 3q).|B. No, Aisha is wrong. The answer is 12p + 18q. We stop here.|C. No, Aisha is wrong. The answer is (4 + 8)p + (6 + 12)q.|D. No, Aisha is wrong. The answer is 4(p + 2p) + 6(q + 2q).",
+            "At Riverside Secondary, Wei writes: 「From 7x + 9y + 14x + 18y, I group: 7x + 9y = cannot factor. 14x + 18y = 2(7x + 9y). So (1 + 2)(7x + 9y) = 3(7x + 9y).」 Is Wei's answer correct?|A. Yes, Wei is correct. First pair: 7x + 9y = 1(7x + 9y). Second pair: 14x + 18y = 2(7x + 9y). So (1 + 2)(7x + 9y) = 3(7x + 9y).|B. No, Wei is wrong. The answer is 21x + 27y. We cannot factor.|C. No, Wei is wrong. The answer is (7 + 14)x + (9 + 18)y.|D. No, Wei is wrong. The answer is 7(x + 2x) + 9(y + 2y).",
+          ]),
+          correctAnswer: "A,A,A,A,A",
+          points: 10,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "At Riverside Secondary, Mr Lim writes: 「Factorise 3x + 5y + 12x + 20y」. Which is the correct fully factorised form?|A. 5(3x + 5y)|B. 15x + 25y|C. (3 + 12)x + (5 + 20)y|D. 3(x + 4x) + 5(y + 4y)",
+            "Wei at Riverside Secondary sees: 6a + 8b + 18a + 24b. Which statement is correct?|A. The fully factorised form is 8(3a + 4b)|B. The fully factorised form is 24a + 32b|C. The fully factorised form is (6 + 18)a + (8 + 24)b|D. The fully factorised form is 6(a + 3a) + 8(b + 3b)",
+            "Mr Lim at Riverside Secondary asks: 「Factorise 4m + 7n + 12m + 21n」. Aisha writes: Group: 4m + 7n = 1(4m + 7n), 12m + 21n = 3(4m + 7n). So (1 + 3)(4m + 7n) = 4(4m + 7n). Is Aisha correct?|A. Yes, Aisha is correct. Group: 4m + 7n = 1(4m + 7n), 12m + 21n = 3(4m + 7n). Both have (4m + 7n), so (1 + 3)(4m + 7n) = 4(4m + 7n).|B. No, Aisha is wrong. The answer is 16m + 28n. We stop here.|C. No, Aisha is wrong. The answer is (4 + 12)m + (7 + 21)n = 16m + 28n.|D. No, Aisha is wrong. The answer is 4(m + 3m) + 7(n + 3n).",
+            "At Riverside Secondary, Wei has: 2p + 3q + 10p + 15q. Which is correct?|A. The fully factorised form is 6(2p + 3q)|B. The fully factorised form is 12p + 18q|C. The fully factorised form is (2 + 10)p + (3 + 15)q|D. The fully factorised form is 2(p + 5p) + 3(q + 5q)",
+            "Aisha at Riverside Secondary writes: 「From 5x + 6y + 15x + 18y, I group: 5x + 6y = 1(5x + 6y), 15x + 18y = 3(5x + 6y). So (1 + 3)(5x + 6y) = 4(5x + 6y).」 Mr Lim says: 「Correct.」 Which is true?|A. Aisha is correct. Group: 5x + 6y = 1(5x + 6y), 15x + 18y = 3(5x + 6y). Both have (5x + 6y), so (1 + 3)(5x + 6y) = 4(5x + 6y).|B. Aisha is wrong. The answer is 20x + 24y. We cannot factor further.|C. Aisha is wrong. The grouping step is incorrect.|D. Aisha is wrong. The final answer should be 4(5x + 6y), not factored.",
+            "At Riverside Secondary, Mr Lim writes four factorisations on the board. Which one is correct?|A. 8a + 10b + 16a + 20b = 6(4a + 5b)|B. 8a + 10b + 16a + 20b = 24a + 30b|C. 8a + 10b + 16a + 20b = (8 + 16)a + (10 + 20)b|D. 8a + 10b + 16a + 20b = 8(a + 2a) + 10(b + 2b)",
+            "At Riverside Secondary, Aisha says: 「To factorise 3m + 4n + 9m + 12n, I can group: 3m + 4n = 1(3m + 4n), 9m + 12n = 3(3m + 4n). So (1 + 3)(3m + 4n) = 4(3m + 4n). OR I can combine first: 3m + 9m = 12m, 4n + 12n = 16n, then 12m + 16n = 4(3m + 4n). Both methods give the same answer.」 Is Aisha correct?|A. Yes, Aisha is correct. Both methods work and give 4(3m + 4n). Grouping shows the structure better.|B. No, Aisha is wrong. Only combining like terms works.|C. No, Aisha is wrong. Only grouping works.|D. No, Aisha is wrong. The correct answer is 12m + 16n, not 4(3m + 4n).",
+            "Wei at Riverside Secondary has the homework: 「Factorise 7p + 9q + 21p + 27q」. Wei writes: Group: 7p + 9q = 1(7p + 9q), 21p + 27q = 3(7p + 9q). So (1 + 3)(7p + 9q) = 4(7p + 9q). Mr Lim checks and says: 「Correct.」 Which statement is true?|A. Wei's working is correct. Group: 7p + 9q = 1(7p + 9q), 21p + 27q = 3(7p + 9q). Both have (7p + 9q), so (1 + 3)(7p + 9q) = 4(7p + 9q).|B. Wei's working is wrong. The answer is 28p + 36q. We cannot factor further.|C. Wei's working is wrong. The grouping step is incorrect.|D. Wei's working is wrong. The factoring step is incorrect.",
+          ]),
+          correctAnswer: "A,A,A,A,A,A,A,A",
+          points: 16,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `Part 2: Show Your Working (写出算式步骤)
+
+Riverside Secondary School has algebraic factorisation exercises. Answer the questions below. Show your working clearly.
+
+Question (a)
+At Riverside Secondary, Mr Lim gives Wei the expression 2x + 4y + 6x + 12y.
+(i) Factorise 2x + 4y + 6x + 12y completely using grouping. Show your working clearly. Write each step.
+(ii) Aisha says: 「I combine like terms: 2x + 6x = 8x and 4y + 12y = 16y. So the answer is 8x + 16y.」 Explain step by step why Aisha has not finished. What is the fully factorised form?
+
+Question (b)
+Wei has the expression 5a + 7b + 20a + 28b at Riverside Secondary.
+(i) Factorise 5a + 7b + 20a + 28b completely using grouping. Show your working clearly.
+(ii) Mr Lim says: 「From 5a + 7b + 20a + 28b, I can write the answer as 25a + 35b.」 Explain why Mr Lim has not finished. What is the fully factorised form? Show your working.
+
+Question (c)
+At Riverside Secondary, Aisha has the expression 6m + 8n + 18m + 24n.
+(i) Factorise 6m + 8n + 18m + 24n completely using grouping. Show your working clearly.
+(ii) Wei says: 「I can also factorise 3p + 4q + 15p + 20q using the same method. Let me show: Group: 3p + 4q = 1(3p + 4q), 15p + 20q = 5(3p + 4q). So (1 + 5)(3p + 4q) = 6(3p + 4q).」 Is Wei correct? Explain your answer and show the working.
+(iii) From the homework question 「Factorise 9x + 11y + 27x + 33y」, show your working clearly using grouping.
+
+写作提示 / Tips:
+✓ 每题分步骤写出推理 (Show working steps for each question)
+✓ Part 2 官方要求：clearly show the method of solution by writing working steps, plus the final answer
+✓ 不用计算器 (No calculators allowed)
+✓ 一次式因式分解 / factorisation of linear expressions ax+bx+kay+kby 步骤示范：
+  • Factorise 2x + 4y + 6x + 12y using grouping:
+    Question: Factorise 2x + 4y + 6x + 12y completely.
+    Solution: ① Start with 2x + 4y + 6x + 12y. ② Group first two terms and factor: 2x + 4y = 2(x + 2y). ③ Group last two terms and factor: 6x + 12y = 6(x + 2y). ④ Now both groups have the common bracket (x + 2y): 2(x + 2y) + 6(x + 2y). ⑤ Factor out the common bracket: 2(x + 2y) + 6(x + 2y) = (2 + 6)(x + 2y) = 8(x + 2y). Answer: 8(x + 2y). (Key point: This is official 5.13 grouping: ax + bx + kay + kby = x(a+b) + ky(a+b) = (a+b)(x+ky). Here: 2x + 4y + 6x + 12y = 2(x+2y) + 6(x+2y) = (2+6)(x+2y).)
+  • Factorise 3a + 5b + 9a + 15b using grouping:
+    Question: Factorise 3a + 5b + 9a + 15b completely.
+    Solution: ① Start with 3a + 5b + 9a + 15b. ② Group first two: 3a + 5b = 1(3a + 5b) (cannot factor, so coefficient is 1). ③ Group last two: 9a + 15b = 3(3a + 5b). ④ Both groups have (3a + 5b): 1(3a + 5b) + 3(3a + 5b). ⑤ Factor: (1 + 3)(3a + 5b) = 4(3a + 5b). Answer: 4(3a + 5b). (Note: When first pair cannot factor, write it as 1(3a + 5b). Then factor the second pair. Then combine the coefficients 1 + 3 = 4.)
+  • Factorise 4m + 7n + 12m + 21n using grouping:
+    Question: Factorise 4m + 7n + 12m + 21n completely.
+    Solution: ① Start with 4m + 7n + 12m + 21n. ② Group first two: 4m + 7n = 1(4m + 7n). ③ Group last two: 12m + 21n = 3(4m + 7n). ④ Both have (4m + 7n): 1(4m + 7n) + 3(4m + 7n). ⑤ Factor: (1 + 3)(4m + 7n) = 4(4m + 7n). Answer: 4(4m + 7n). (Key steps: Group each pair. Factor out common bracket. This is the official 5.13 method.)
+  • Check the factorisation by expanding:
+    To check 8(x + 2y): Expand: 8(x + 2y) = 8 × x + 8 × 2y = 8x + 16y. Now check if this equals the original: 2x + 4y + 6x + 12y = (2x + 6x) + (4y + 12y) = 8x + 16y ✓. Correct!
+✓ 关键步骤：Step 1: Write down the expression（写出代数式）. Step 2: Combine like terms in the first pair (ax + bx)（合并第一对同类项）. Step 3: Combine like terms in the second pair (kay + kby)（合并第二对同类项）. Step 4: Now you have a two-term expression（现在你有了一个两项式）. Step 5: Find the greatest common factor (GCF) of the two terms（找出两项的最大公因数）. Step 6: Factor out the GCF（提取最大公因数）. Step 7: Write the final answer in factorised form（写出最终的因式分解形式）. Step 8: Check by expanding the factorised form back to the original expression（通过展开因式分解形式来检查，看是否能回到原式）.
+✓ 化石 (fossil errors)：
+  • Taking out only one pair and stopping（只提取一对然后就停下来）：saying 「from 2x + 6x + 4y + 12y, I combine to get 8x + 16y, so the answer is 8x + 16y」 and stopping there（错误：从 2x + 6x + 4y + 12y 合并得到 8x + 16y，然后停在这里。正确：After combining to get 8x + 16y, you MUST factor further. 8x + 16y = 8(x + 2y). The question asks to 「factorise completely」, which means you must take out all common factors. If you stop at 8x + 16y, you have only combined like terms, but you have NOT factorised.）
+  • Writing (a+b)(x+y) when the second pair needs ky（当第二对需要 ky 时，却写成 (a+b)(x+y)）：saying 「from 2x + 8x + 6y + 24y, I get 10x + 30y = 10(x + y)」（错误：从 2x + 8x + 6y + 24y 得到 10x + 30y = 10(x + y)。正确：Check the coefficients. 10x means the coefficient of x is 10. 30y means the coefficient of y is 30. If we factor out 10, we get 10x = 10 × x (correct) and 30y = 10 × 3y (NOT 10 × y). So the correct factorisation is 10x + 30y = 10(x + 3y). Do NOT write 10(x + y). The coefficient of y inside the bracket is 3, not 1.)
+  • Not factoring out the correct GCF（没有提取正确的最大公因数）：saying 「from 12a + 20b, I factor to get 2(6a + 10b)」 and stopping there（错误：从 12a + 20b 提取得到 2(6a + 10b) 然后停下。正确：Yes, 2 is a common factor, but it is NOT the greatest common factor. The GCF of 12 and 20 is 4. So the correct factorisation is 12a + 20b = 4(3a + 5b). If you write 2(6a + 10b), you can still factor further: 2(6a + 10b) = 2 × 2(3a + 5b) = 4(3a + 5b). Always factor out the GREATEST common factor in one step.）
+  • 本周教 Sec 2 NUMBER AND ALGEBRA, N5. Algebraic manipulation: 5.13 factorisation of linear expressions ax+bx+kay+kby（N5.13 一次式因式分解 / 分组提取）。本周是 N5.13 only. Group four-term linear expressions: ax + bx + kay + kby. Step 1: Combine ax + bx. Step 2: Combine kay + kby. Step 3: Factor the resulting two-term expression. Friendly integers only. No calculator. No quadratics (no x² terms to factor). Fossil: taking out only one pair and stopping (stopping at the combined form without factoring); or writing (a+b)(x+y) when the coefficient of y is not 1 (check the coefficients carefully). 本周不教 5.14 factorisation of quadratic expressions ax²+bx+c（二次因式分解）。本周不重教 5.12 identities（第 62 周已教）。本周不重教 Sec 1 N5.8 common-factor extraction as the whole week（第 56 周已教；本周是分组：ax + bx + kay + kby）。Cast: secondary Wei, Aisha, Mr Lim at Riverside Secondary. 第 8–56 周已完成 Sec 1 内容。第 57 周已完成 Sec 2 N2.4 map scales。第 58 周已完成 Sec 2 N2.5 direct and inverse proportion。第 59 周已完成 Sec 2 N5.9 expansion of the product of algebraic expressions。第 60 周已完成 Sec 2 N5.10 changing the subject of a formula。第 61 周已完成 Sec 2 N5.11 finding the value of an unknown quantity in a given formula。第 62 周已完成 Sec 2 N5.12 identities: (a+b)², (a−b)², a²−b²。本周继续 Sec 2 内容（Sec 3 申请者的 preceding level）。
+
+Note: This is a sample of Part 2 short-answer/open-ended questions. The official paper has 20 short-answer + 10–15 open-ended items in 1 hour 45 minutes.`,
+          points: 20,
+        },
+      ],
+    },
   ];
 
   // =================================================================
