@@ -11286,6 +11286,119 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
         },
       ],
     },
+    {
+      level: "SMATH",
+      weekNumber: 49,
+      title: "数学 第 49 周 / Maths Week 49",
+      description: "AEIS-Secondary Mathematics: Sec 1 classifying special quadrilaterals on the basis of their properties (G1.5 classification only)",
+      isSample: false,
+      errorFocus: "stopping at the less specific name (e.g. four right angles + four equal sides → saying 「it is a rectangle」instead of「square」); or reversing the hierarchy (e.g. saying「every rectangle is a square」); or confusing parallelogram and trapezium (e.g. two pairs of parallel sides → trapezium, but should say parallelogram; Singapore trapezium = exactly one pair)",
+      parentBrief: "本周是中学 AEIS 数学第 49 周，对应官方 SEAB Sec 1 卷型（https://www.seab.gov.sg/aeis/test-details/ 2026年7月1日更新）。Part 1 Multiple-choice questions：34 道 MCQ，30 分钟。Part 2 Short-answer questions (20 items) and open-ended questions (10 to 15 items)：1 小时 45 分钟。Calculators are not allowed（不允许使用计算器）。Short-answer and open-ended questions：candidates are required to show the method of solution clearly by writing working steps in the spaces provided, plus the final answer（需写出算式步骤和最终答案）。AEIS-Secondary 官方 preceding-level 规则：申请 Sec 2 入学者需熟悉 Sec 2 前一级的内容。官方举例：apply Secondary 3 → be familiar with Secondary 2 content. 本周针对 Sec 2 申请者，内容为 Sec 2 前一级（Sec 1）的官方 MOE 2020 G3 Mathematics Syllabuses, Secondary One, GEOMETRY AND MEASUREMENT, G1. Angles, triangles and polygons: 1.5 classifying special quadrilaterals on the basis of their properties（根据性质给特殊四边形分类）。官方 1.5 wording（逐字引用）：「classifying special quadrilaterals on the basis of their properties」。本周是 G1.5 classification only. Given a list of properties → name the most specific special quadrilateral that must be true（给定一组性质，说出必须符合的最具体的特殊四边形）。Hierarchy（包含关系）: square ⊂ rectangle and square ⊂ rhombus ⊂ parallelogram; trapezium is not a parallelogram（正方形 ⊂ 矩形，正方形 ⊂ 菱形 ⊂ 平行四边形；梯形不是平行四边形）。Singapore definition: trapezium = exactly one pair of parallel sides（新加坡定义：梯形 = 恰好一对对边平行）。「A square is a rectangle」is TRUE. 「A rectangle is a square」is FALSE unless extra properties are given. 第 47 周已教 G1.4 properties of special quadrilaterals。本周化石：stopping at the less specific name（错误：停在不够具体的名称，例如四个直角+四条边相等 → 只说「it is a rectangle」虽然对但不够具体，应该说「square」）；reversing the hierarchy（错误：颠倒包含关系，例如说「every rectangle is a square」，正确是「every square is a rectangle」）；confusing parallelogram and trapezium（错误：two pairs of parallel sides → trapezium，正确是 parallelogram; Singapore trapezium = exactly one pair）。本周不教 G1.6 interior and exterior angle sum of any convex polygon（任意凸多边形的内角和与外角和）。本周不教 G1.7 construction。Cast: Wei, Aisha, Mr Lim at Riverside Secondary School（描述图形：quadrilateral ABCD with vertices labeled, describe given properties in words）。Friendly integers（友好整数，边长和角度是整数）。No calculator。本周完成 G1.5 classification of special quadrilaterals on the basis of their properties。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "At Riverside Secondary, Mr Lim describes a quadrilateral ABCD: opposite sides AB and CD are parallel and equal; opposite sides BC and AD are parallel and equal; consecutive angles add to 180°; diagonals bisect each other. Based on these properties, what is the most specific name for quadrilateral ABCD?|A. Parallelogram (because the given properties match a parallelogram with no extra properties such as four right angles or four equal sides)|B. Rectangle (because it has opposite sides parallel)|C. Rhombus (because it has diagonals that bisect each other)|D. Trapezium (because it has parallel sides)",
+            "Wei observes a quadrilateral PQRS at Riverside Secondary: all four sides are equal (PQ = QR = RS = SP = 10 cm), all four angles are right angles (∠P = ∠Q = ∠R = ∠S = 90°), diagonals are equal and bisect each other at right angles. What is the most specific name for quadrilateral PQRS?|A. Square (because it has four right angles AND four equal sides, which is the most specific name)|B. Rectangle (because it has four right angles)|C. Rhombus (because it has four equal sides)|D. Parallelogram (because it has opposite sides parallel)",
+            "At Riverside Secondary, Aisha describes a quadrilateral WXYZ: side WX is parallel to side YZ; side WZ is NOT parallel to side XY. Based on these properties, what is the most specific name for quadrilateral WXYZ?|A. Trapezium (because it has exactly one pair of parallel sides, which is the Singapore definition of trapezium)|B. Parallelogram (because it has one pair of parallel sides)|C. Rectangle (because it has parallel sides)|D. Rhombus (because of its shape)",
+            "Mr Lim describes a quadrilateral at Riverside Secondary: all four sides are equal (each = 12 cm), diagonals bisect each other at right angles, but the angles are NOT all 90°. What is the most specific name for this quadrilateral?|A. Rhombus (because it has four equal sides and diagonals at right angles, but angles are not all 90°, so it is NOT a square)|B. Square (because it has four equal sides)|C. Rectangle (because it has equal sides)|D. Parallelogram (because it has diagonals that bisect each other)",
+            "Wei says: 「A quadrilateral has opposite sides parallel and equal, so it must be a rectangle.」 Aisha checks his reasoning. Which statement is correct?|A. No, Wei is wrong. Opposite sides parallel and equal describe a parallelogram. To be a rectangle, the quadrilateral must also have four right angles. Wei confused parallelogram with rectangle.|B. Yes, Wei is correct. Opposite sides parallel and equal mean it is a rectangle.|C. No, Wei is wrong. Opposite sides parallel and equal describe a trapezium.|D. Yes, Wei is correct because parallelogram and rectangle are the same thing.",
+          ]),
+          correctAnswer: "A,A,A,A,A",
+          points: 10,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "At Riverside Secondary, Mr Lim describes a quadrilateral ABCD: it has four right angles (∠A = ∠B = ∠C = ∠D = 90°), but the four sides are NOT all equal. What is the most specific name for quadrilateral ABCD?|A. Rectangle (because it has four right angles, and we are NOT told all four sides are equal, so it is NOT a square)|B. Square (because it has four right angles)|C. Parallelogram (because it has right angles)|D. Trapezium (because it has four angles)",
+            "Wei observes a quadrilateral PQRS at Riverside Secondary: opposite sides are parallel, consecutive angles add to 180°, diagonals bisect each other. Aisha says: 「It is a trapezium because it has parallel sides.」 Which statement is correct?|A. No, Aisha is wrong. The quadrilateral has TWO pairs of parallel sides (opposite sides parallel), so it is a parallelogram. Singapore trapezium = exactly one pair of parallel sides, not two pairs.|B. Yes, Aisha is correct. It is a trapezium because it has parallel sides.|C. No, Aisha is wrong. It is a rectangle because of the angles.|D. Yes, Aisha is correct because trapezium and parallelogram are the same.",
+            "At Riverside Secondary, Mr Lim asks: 「A quadrilateral has four equal sides and four right angles. Wei says it is a rectangle. Aisha says it is a square. Who gives the MOST SPECIFIC name?」|A. Aisha gives the most specific name「square」. Wei's answer「rectangle」is true but not specific enough. A square is more specific than rectangle.|B. Wei gives the most specific name「rectangle」. Aisha's answer「square」is wrong.|C. Both are equally specific because rectangle and square are the same.|D. Neither is correct because it should be called a parallelogram.",
+            "Which statement is TRUE about the hierarchy of special quadrilaterals?|A. Every square is a rectangle (because every square has four right angles, which is the definition of a rectangle)|B. Every rectangle is a square (because all rectangles have equal sides)|C. Every parallelogram is a trapezium (because parallelograms have parallel sides)|D. Every trapezium is a parallelogram (because trapeziums have parallel sides)",
+            "Aisha describes a quadrilateral at Riverside Secondary: opposite sides parallel and equal, opposite angles equal, consecutive angles add to 180°, diagonals bisect each other, but NOT told it has four right angles or four equal sides. What is the most specific name?|A. Parallelogram (because the given properties match a parallelogram with no extra properties)|B. Rectangle (because it has opposite sides parallel)|C. Rhombus (because it has diagonals that bisect each other)|D. Square (because it has all the properties)",
+            "Mr Lim says: 「A quadrilateral has exactly one pair of parallel sides.」 What is the most specific name for this quadrilateral?|A. Trapezium (because Singapore definition: trapezium = exactly one pair of parallel sides)|B. Parallelogram (because it has one pair of parallel sides)|C. Rectangle (because it has parallel sides)|D. Rhombus (because it has one pair parallel)",
+            "Wei describes a quadrilateral ABCD at Riverside Secondary: all four sides are equal (AB = BC = CD = DA = 15 cm), diagonals bisect each other at right angles, angles are NOT all 90° (for example ∠A = 110°, ∠B = 70°). What is the most specific name?|A. Rhombus (because it has four equal sides and diagonals at right angles, but angles are not all 90°, so it is NOT a square)|B. Square (because it has four equal sides)|C. Rectangle (because it has equal sides)|D. Parallelogram only (because diagonals bisect each other)",
+            "At Riverside Secondary, Aisha says: 「Every rectangle is a square.」 Wei says: 「No, every square is a rectangle, but not every rectangle is a square.」 Who is correct?|A. Wei is correct. Every square is a rectangle (because every square has four right angles). But NOT every rectangle is a square (a rectangle only needs four right angles, not four equal sides).|B. Aisha is correct. Every rectangle is a square.|C. Both are wrong. There is no relationship between rectangle and square.|D. Aisha is correct because rectangle and square are the same thing.",
+          ]),
+          correctAnswer: "A,A,A,A,A,A,A,A",
+          points: 16,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `Part 2: Show Your Working (写出算式步骤)
+
+Riverside Secondary School has special quadrilaterals classification exercises. Answer the questions below. For each question, show your method of solution clearly by writing working steps, plus the final answer.
+
+Question (a)
+At Riverside Secondary, Mr Lim describes a quadrilateral ABCD with the following properties:
+(1) Opposite sides AB and CD are parallel and equal.
+(2) Opposite sides BC and AD are parallel and equal.
+(3) Consecutive angles add to 180°: ∠A + ∠B = 180°, ∠B + ∠C = 180°.
+(4) Diagonals AC and BD bisect each other at point O.
+
+Based on these properties, what is the most specific name for quadrilateral ABCD? Show your reasoning clearly by:
+(i) Listing the given properties.
+(ii) Recalling the definitions of special quadrilaterals (parallelogram, rectangle, rhombus, square, trapezium).
+(iii) Checking which special quadrilateral matches all the given properties.
+(iv) Explaining why you cannot use a more specific name (e.g. why not rectangle, why not rhombus, why not square).
+(v) Stating the most specific name.
+
+Question (b)
+At Riverside Secondary, Wei describes a quadrilateral PQRS with the following properties:
+(1) All four sides are equal: PQ = QR = RS = SP = 10 cm.
+(2) All four angles are right angles: ∠P = ∠Q = ∠R = ∠S = 90°.
+(3) Diagonals PR and QS are equal and bisect each other at right angles.
+
+Wei says: 「Because it has four right angles, it is a rectangle.」
+
+(i) Is Wei's answer correct or not specific enough? Explain your reasoning.
+(ii) What is the MOST SPECIFIC name for quadrilateral PQRS? Show your reasoning clearly.
+(iii) Identify Wei's fossil error if any (stopping at less specific name? reversing hierarchy? confusing parallelogram and trapezium?).
+
+Question (c)
+At Riverside Secondary, Aisha describes a quadrilateral WXYZ with the following properties:
+(1) Side WX is parallel to side YZ.
+(2) Side WZ is NOT parallel to side XY.
+
+(i) Based on these properties, what is the most specific name for quadrilateral WXYZ? Show your reasoning.
+(ii) Explain why quadrilateral WXYZ is NOT a parallelogram (use the definition of parallelogram in your explanation).
+(iii) Mr Lim then describes another quadrilateral EFGH: opposite sides EF and GH are parallel and equal; opposite sides FG and EH are parallel and equal; all four sides are equal (EF = FG = GH = HE = 12 cm); diagonals bisect each other at right angles; angles are NOT all 90° (for example ∠E = 120°, ∠F = 60°). What is the most specific name for quadrilateral EFGH? Explain why it is NOT a square.
+
+写作提示 / Tips:
+✓ 每题分步骤写出推理 (Show working steps for each question)
+✓ Part 2 官方要求：clearly show the method of solution by writing working steps, plus the final answer
+✓ 不用计算器 (No calculators allowed)
+✓ 特殊四边形分类步骤示范 (classifying special quadrilaterals examples)：
+  • Quadrilateral ABCD: opposite sides parallel and equal, consecutive angles add to 180°, diagonals bisect each other. No extra properties.
+    Question: Based on these properties, what is the most specific name for quadrilateral ABCD?
+    Solution: ① List given properties: opposite sides parallel and equal; consecutive angles add to 180°; diagonals bisect each other. ② Recall definitions: Parallelogram has opposite sides parallel and equal, opposite angles equal, consecutive angles add to 180°, diagonals bisect each other. Rectangle is a parallelogram with four right angles. Rhombus is a parallelogram with four equal sides. Square is rectangle + rhombus (four right angles and four equal sides). Trapezium (Singapore definition) = exactly one pair of parallel sides. ③ Check given properties: The given properties match a parallelogram. ④ Check if extra properties are given: We are NOT told the quadrilateral has four right angles (so we cannot say it is a rectangle). We are NOT told the quadrilateral has four equal sides (so we cannot say it is a rhombus). We are NOT told it has four right angles AND four equal sides (so we cannot say it is a square). We are told TWO pairs of parallel sides, not exactly one pair (so it is NOT a trapezium). ⑤ Conclusion: The given properties match a parallelogram with no extra properties. The most specific name is parallelogram. ⑥ Answer: Quadrilateral ABCD is a parallelogram (the most specific name based on the given properties).
+  • Quadrilateral PQRS: four equal sides (each = 10 cm), four right angles (each = 90°), diagonals equal and bisect each other at right angles. Wei says「rectangle」.
+    Question: (i) Is Wei's answer correct? (ii) What is the MOST SPECIFIC name? (iii) Identify Wei's fossil error.
+    Solution: ① List given properties: four equal sides (each = 10 cm); four right angles (each = 90°); diagonals equal and bisect each other at right angles. ② Recall definitions: Rectangle = parallelogram + four right angles. Rhombus = parallelogram + four equal sides. Square = rectangle + rhombus (four right angles AND four equal sides). ③ Analyze Wei's answer: Wei said「it is a rectangle」. This is TRUE because the quadrilateral has four right angles. BUT Wei's answer is NOT the most specific name. ④ Check given properties: The quadrilateral has four right angles (so it IS a rectangle). The quadrilateral also has four equal sides (so it IS a rhombus). A quadrilateral that is BOTH rectangle AND rhombus is a SQUARE. ⑤ Identify fossil error: Wei stopped at the less specific name「rectangle」. Wei is correct that it is a rectangle, but the MOST SPECIFIC name is SQUARE. ⑥ Conclusion: (i) Wei's answer「it is a rectangle」is TRUE but NOT specific enough. (ii) The MOST SPECIFIC name is square (four right angles AND four equal sides). (iii) Wei made the fossil error of stopping at the less specific name. ⑦ Answer: (i) Wei is correct that it is a rectangle, but not specific enough. (ii) Square. (iii) Fossil error: stopping at less specific name.
+  • Quadrilateral WXYZ: side WX parallel to YZ; side WZ NOT parallel to XY.
+    Question: (i) Based on these properties, what is the most specific name? (ii) Explain why NOT a parallelogram.
+    Solution: ① List given properties: One pair of opposite sides (WX and YZ) are parallel. The other pair (WZ and XY) are NOT parallel. ② Recall definitions: Trapezium (Singapore definition) = exactly one pair of parallel sides. Parallelogram = TWO pairs of parallel sides (opposite sides parallel). ③ Check given properties: We are told exactly ONE pair of sides are parallel (WX ∥ YZ), and the other pair are NOT parallel. This matches the Singapore definition of a trapezium. ④ Explain why NOT parallelogram: A parallelogram requires TWO pairs of opposite sides to be parallel. We are told only ONE pair is parallel, so it is NOT a parallelogram. ⑤ Conclusion: The most specific name is trapezium (Singapore definition: exactly one pair of parallel sides). ⑥ Answer: (i) Trapezium. (ii) It is NOT a parallelogram because a parallelogram requires two pairs of parallel sides, but WXYZ has only one pair.
+  • Quadrilateral EFGH: opposite sides parallel and equal, all four sides equal (each = 12 cm), diagonals bisect each other at right angles, angles NOT all 90° (e.g. ∠E = 120°, ∠F = 60°).
+    Question: What is the most specific name? Explain why NOT a square.
+    Solution: ① List given properties: opposite sides parallel and equal; all four sides equal (each = 12 cm); diagonals bisect each other at right angles; angles NOT all 90° (given ∠E = 120°, ∠F = 60°). ② Recall definitions: Parallelogram has opposite sides parallel and equal. Rhombus is a parallelogram with four equal sides and diagonals at right angles. Square is a rhombus with four right angles (all angles = 90°). ③ Check given properties: The quadrilateral has opposite sides parallel and equal (parallelogram property). The quadrilateral has four equal sides and diagonals at right angles (rhombus properties). The quadrilateral does NOT have four right angles (we are told ∠E = 120°, ∠F = 60°, so angles are NOT all 90°). ④ Explain why NOT a square: A square requires four right angles (all angles = 90°). We are told the angles are NOT all 90°, so it is NOT a square. ⑤ Conclusion: The most specific name is rhombus (four equal sides and diagonals at right angles, but angles not all 90°). ⑥ Answer: Rhombus. It is NOT a square because a square requires four right angles (90°), but we are told the angles are not all 90°.
+✓ 关键步骤：Step 1: List the given properties（列出给定的性质）. Step 2: Recall the definitions of special quadrilaterals（回忆特殊四边形的定义）——parallelogram (opposite sides parallel and equal, opposite angles equal, consecutive angles add to 180°, diagonals bisect each other), rectangle (parallelogram + four right angles, diagonals equal), rhombus (parallelogram + four equal sides, diagonals bisect each other at right angles), square (rectangle + rhombus, four equal sides and four right angles), trapezium (Singapore definition: exactly one pair of parallel sides). Step 3: Check which special quadrilateral matches all the given properties（检查哪个特殊四边形符合所有给定性质）. Step 4: Name the MOST SPECIFIC figure the given properties force（说出给定性质必然确定的最具体的图形）. Step 5: Explain why you cannot use a more specific name if relevant（解释为什么不能用更具体的名称，如果相关）——if no extra properties are given, cannot say rectangle/rhombus/square; if angles not all 90°, cannot say square. Step 6: State the final answer clearly（清楚地陈述最终答案）. Step 7: If a fossil error is present, identify it（如果有化石错误，指出来）——stopping at less specific name (four right angles + four equal sides →「rectangle」not「square」); reversing hierarchy (「every rectangle is a square」); confusing parallelogram and trapezium (two pairs parallel → trapezium, but should say parallelogram).
+✓ 化石 (fossil errors)：
+  • Stopping at the less specific name: saying four right angles + four equal sides →「it is a rectangle」instead of「square」（错误：停在不够具体的名称。正确：four right angles + four equal sides → square, not just rectangle. Wrong: four right angles and four equal sides →「it is a rectangle」✗. Right: four right angles and four equal sides →「it is a square」(the most specific name) ✓）
+  • Reversing the hierarchy: saying「every rectangle is a square」（错误：颠倒包含关系。正确：every square is a rectangle, but NOT every rectangle is a square. Wrong:「every rectangle is a square」✗. Right:「every square is a rectangle」✓）
+  • Confusing parallelogram and trapezium: saying two pairs of parallel sides → trapezium（错误：混淆平行四边形和梯形。正确：two pairs of parallel sides → parallelogram; Singapore trapezium = exactly one pair of parallel sides. Wrong: two pairs parallel → trapezium ✗. Right: two pairs parallel → parallelogram; exactly one pair parallel → trapezium ✓）
+  • 本周教 Sec 1 GEOMETRY AND MEASUREMENT, G1. Angles, triangles and polygons: 1.5 classifying special quadrilaterals on the basis of their properties（G1.5 根据性质给特殊四边形分类）。本周是 G1.5 classification only. Given properties → name the most specific special quadrilateral. 第 47 周已教 G1.4 properties。本周不教 G1.6 interior and exterior angle sum of any convex polygon. 本周不教 G1.7 construction.
+
+Note: This is a sample of Part 2 short-answer/open-ended questions. The official paper has 20 short-answer + 10–15 open-ended items in 1 hour 45 minutes.`,
+          points: 20,
+        },
+      ],
+    },
   ];
 
   // =================================================================
