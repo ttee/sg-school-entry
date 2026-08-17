@@ -10515,6 +10515,95 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
         },
       ],
     },
+    {
+      level: "SMATH",
+      weekNumber: 41,
+      title: "数学 第 41 周 / Maths Week 41",
+      description: "AEIS-Secondary Mathematics: Sec 1 solving simple fractional equations that can be reduced to linear equations (N7.3 only)",
+      isSample: false,
+      errorFocus: "multiplying only one term by the LCD, or multiplying only one side, when clearing denominators: x/3 + (x−2)/4 = 3 → 4x + 3(x−2) = 3; or 3/(x−2) = 6 → 3 = 6",
+      parentBrief: "本周是中学 AEIS 数学第 41 周，对应官方 SEAB Sec 1 卷型（https://www.seab.gov.sg/aeis/test-details/ 2026年7月1日更新）。Part 1 Multiple-choice questions：34 道 MCQ，30 分钟。Part 2 Short-answer questions (20 items) and open-ended questions (10 to 15 items)：1 小时 45 分钟。Calculators are not allowed（不允许使用计算器）。Short-answer and open-ended questions：candidates are required to show the method of solution clearly by writing working steps in the spaces provided, plus the final answer（需写出算式步骤和最终答案）。AEIS-Secondary 官方 preceding-level 规则：申请 Sec 2 入学者需熟悉 Sec 2 前一级的内容。官方举例：apply Secondary 3 → be familiar with Secondary 2 content. 本周针对 Sec 2 申请者，内容为 Sec 2 前一级（Sec 1）的官方 MOE 2020 G3 Mathematics Syllabuses, Secondary One, N7. Equations and inequalities: 7.3 solving simple fractional equations that can be reduced to linear equations（解可化成一元一次方程的简单分式方程）。第 39–40 周已完成 N7.1 concept of equation、N7.2 solving linear equations in one variable。本周只教 N7.3 solving simple fractional equations that can be reduced to linear equations（解简单分式方程：clear denominators by multiplying EVERY term including the constant by the LCD 两边每一项都乘以最小公倍数 LCD 来去分母，then solve the resulting linear equation the same way as Week 40 然后用第 40 周的方法解一元一次方程；check by substitution 代入检验；exclude values that make a denominator zero 排除使分母为零的值）。官方 7.3 wording（官方术语，逐字引用）：「solving simple fractional equations that can be reduced to linear equations such as x/3 + (x−2)/4 = 3 ; 3/(x−2) = 6」。本周方法：Example 1: x/3 + (x−2)/4 = 3. LCD = 12. Multiply EVERY term by 12: 12 × (x/3) + 12 × ((x−2)/4) = 12 × 3. Simplify: 4x + 3(x−2) = 36. Expand: 4x + 3x − 6 = 36. Collect terms: 7x − 6 = 36. Add 6: 7x = 42. x = 6. Check: 6/3 + (6−2)/4 = 2 + 1 = 3 ✓. Example 2: 3/(x−2) = 6. Multiply both sides by (x−2): 3 = 6(x−2). Expand: 3 = 6x − 12. Add 12: 15 = 6x. Divide by 6: x = 15/6 = 5/2 or 2.5. Check: 3/(2.5−2) = 3/0.5 = 6 ✓. Note x ≠ 2 because x = 2 makes the denominator zero. Friendly numbers（友好整数）。No calculator（不用计算器）。本周不教 N7.4 formulating a linear equation to solve problems（用方程解应用题）。本周不教 quadratic fractional equations（二次分式方程，后续年级内容）。本周化石：multiplying only one term by the LCD（只把一项乘以 LCD）: x/3 + (x−2)/4 = 3 → 4x + 3(x−2) = 3（错误：忘记把右边的 3 也乘以 12，正确：4x + 3(x−2) = 36）；or multiplying only one side（只把一边乘以 LCD）: 3/(x−2) = 6 → 3 = 6（错误：忘记右边的 6 也要乘以 (x−2)，正确：3 = 6(x−2)）。Amounts if any 新元 S$（金额如果有的话用新元 S$，不用美元）。唯一性 unique keys：每道选择题只有一个正确答案（only ONE option may be algebraically true）。不要提供两个等价的解值作为两个选项（Do not offer x = 6 and 6 = x or x = 5/2 and x = 2.5 and x = 2 1/2 as two correct choices）。不要提供两个等价的去分母方程作为两个选项（Do not offer 4x + 3(x−2) = 36 and 4x + 3x − 6 = 36 and 7x = 42 as two correct next step options）。对于 3/(x−2) = 6，不要让「x = 5/2」和「x ≠ 2 and x = 2.5」同时都对（Do not make both x = 5/2 and x ≠ 2 and x = 2.5 two correct answers on the same item）。非官方机构运营（affiliation 非官方机构 is OK）。不发明官方未提及的内容（do not invent official facts）。不声称 AEIS 是 G3 paper（G3 只是官方 preceding-level 内容来源）。不发明官方 cut-scores 或 extra official names。第 39–40 周已完成 N7.1–7.2，本周只教 N7.3 solving simple fractional equations that can be reduced to linear equations（解简单分式方程）。本周不教 N7.4 formulating a linear equation to solve problems（用方程解应用题）。Cast: Wei, Aisha, Mr Lim at Riverside Secondary School.",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "Solve x/3 + (x−2)/4 = 3. What is the LCD (lowest common denominator)?|A. 12|B. 3|C. 4|D. 7",
+            "Wei solves x/3 + (x−2)/4 = 3. After multiplying every term by 12, which equation is correct?|A. 4x + 3(x−2) = 36|B. 4x + 3(x−2) = 3|C. x + (x−2) = 3|D. 4x + 3x − 2 = 36",
+            "Solve 3/(x−2) = 6. What is the first step?|A. Multiply both sides by (x−2) to get 3 = 6(x−2)|B. Multiply left side by (x−2) to get 3 = 6|C. Divide 3 by 6 to get x−2 = 1/2|D. Add 2 to both sides",
+            "Mr Lim says: For the equation 3/(x−2) = 6, which value must x NOT equal?|A. x ≠ 2 because x = 2 makes the denominator zero|B. x ≠ 6|C. x ≠ 3|D. x ≠ 0",
+            "Aisha solves x/3 + (x−2)/4 = 3 and gets x = 6. How should she check her answer?|A. Substitute x = 6: 6/3 + (6−2)/4 = 2 + 1 = 3 ✓|B. Substitute x = 3|C. Substitute x = 12|D. Multiply x by 3",
+          ]),
+          correctAnswer: "A,A,A,A,A",
+          points: 10,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "Solve x/3 + (x−2)/4 = 3. After clearing denominators and expanding, which equation is correct?|A. 7x − 6 = 36|B. 7x − 2 = 36|C. 4x + 3x = 36|D. 7x = 3",
+            "Wei solves x/3 + (x−2)/4 = 3. What is the value of x?|A. x = 6|B. x = 3|C. x = 12|D. x = 42",
+            "Solve 3/(x−2) = 6. After multiplying both sides by (x−2), which equation is correct?|A. 3 = 6(x−2)|B. 3 = 6|C. 3/(x−2) = 6(x−2)|D. 3x = 6",
+            "Aisha solves 3/(x−2) = 6. After expanding 3 = 6(x−2), which is the next correct step?|A. 3 = 6x − 12|B. 3 = 6x − 2|C. 3 = 6x + 12|D. 3x = 6",
+            "Solve 3/(x−2) = 6. What is the value of x?|A. x = 5/2 or x = 2.5|B. x = 2|C. x = 6|D. x = 3",
+            "Mr Lim asks: Which working is correct for x/3 + (x−2)/4 = 3?|A. Multiply every term by 12: 4x + 3(x−2) = 36 → 7x − 6 = 36 → x = 6|B. 4x + 3(x−2) = 3 → x = 6|C. x + (x−2) = 3 → x = 5/2|D. 4x + 3x − 2 = 3 → x = 5/7",
+            "Wei says: 「For 3/(x−2) = 6, I multiply the left side by (x−2) to get 3 = 6.」 What is wrong?|A. Wei forgot to multiply the right side by (x−2). The correct step is 3 = 6(x−2).|B. Wei is correct.|C. Wei should multiply by x instead.|D. Wei should divide both sides by 3.",
+            "Aisha checks x = 2.5 in the equation 3/(x−2) = 6. Which is correct?|A. 3/(2.5−2) = 3/0.5 = 6 ✓, so x = 2.5 is correct|B. x = 2.5 makes the denominator zero, so it is not a solution|C. x = 2.5 is too large|D. x = 2 is the only solution",
+          ]),
+          correctAnswer: "A,A,A,A,A,A,A,A",
+          points: 16,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `Part 2: Show Your Working (写出算式步骤)
+
+Riverside Secondary School has fractional equations to solve. Answer the questions below. Solve each equation and show your working. Check your answer by substitution.
+
+Question (a)
+Solve x/3 + (x−2)/4 = 3.
+Show your working step by step. Check your answer by substitution.
+
+Question (b)
+Wei solves 3/(x−2) = 6.
+(i) Solve 3/(x−2) = 6. Show your working step by step.
+(ii) Check your answer by substitution.
+(iii) Explain why x ≠ 2.
+
+Question (c)
+Mr Lim gives this equation: x/3 + (x−2)/4 = 3.
+(i) Find the LCD of the denominators 3 and 4.
+(ii) Multiply every term on both sides by the LCD. Write the resulting equation.
+(iii) Aisha's friend says「I multiplied the left side by 12 and got 4x + 3(x−2) = 3」. Explain what is wrong with this working and what the correct equation should be.
+
+写作提示 / Tips:
+✓ 每题分步骤写出推理 (Show working steps for each question)
+✓ Part 2 官方要求：clearly show the method of solution by writing working steps, plus the final answer
+✓ 不用计算器 (No calculators allowed)
+✓ 解简单分式方程步骤示范 (solving simple fractional equations examples)：
+  • x/3 + (x−2)/4 = 3:
+    Question: Solve x/3 + (x−2)/4 = 3. Show your working. Check by substitution.
+    Solution: ① The equation is x/3 + (x−2)/4 = 3. ② Find the LCD of 3 and 4: LCD = 12. ③ Multiply EVERY term on BOTH sides by 12: 12 × (x/3) + 12 × ((x−2)/4) = 12 × 3. ④ Simplify: 4x + 3(x−2) = 36. ⑤ Expand the bracket: 4x + 3x − 6 = 36. ⑥ Collect like terms: 7x − 6 = 36. ⑦ Add 6 to both sides: 7x = 42. ⑧ Divide by 7: x = 6. ⑨ Check by substitution: x/3 + (x−2)/4 = 6/3 + (6−2)/4 = 2 + 4/4 = 2 + 1 = 3 ✓. Answer: x = 6. (Note: Common fossil: multiplying only the left side or only some terms by 12. Wrong: 4x + 3(x−2) = 3 (forgot to multiply the right side 3 by 12). Correct: 4x + 3(x−2) = 36 (multiply EVERY term including the constant 3 on the right by 12: 12 × 3 = 36).)
+  • 3/(x−2) = 6:
+    Question: Solve 3/(x−2) = 6. Show your working. Check by substitution. Explain why x ≠ 2.
+    Solution: ① The equation is 3/(x−2) = 6. ② Multiply both sides by (x−2): 3 = 6(x−2). ③ Expand the right side: 3 = 6x − 12. ④ Add 12 to both sides: 3 + 12 = 6x → 15 = 6x. ⑤ Divide by 6: x = 15/6 = 5/2 or 2.5. ⑥ Check by substitution: 3/(x−2) = 3/(2.5−2) = 3/0.5 = 6 ✓. Answer: x = 5/2 or x = 2.5. ⑦ Explain: x ≠ 2 because if x = 2, the denominator (x−2) becomes zero, and division by zero is undefined. (Note: Common fossil: multiplying only one side. Wrong: 3/(x−2) = 6 → 3 = 6 (forgot to multiply the right side by (x−2)). Correct: 3 = 6(x−2).)
+✓ 关键步骤：Step 1: Identify the denominators and find the LCD（找出分母并求最小公倍数 LCD）. Step 2: Multiply EVERY term on BOTH sides by the LCD to clear denominators（两边每一项都乘以 LCD 来去分母，包括等号右边的常数）. Step 3: Simplify to get a linear equation（化简得到一元一次方程）. Step 4: Solve the linear equation the same way as Week 40（用第 40 周的方法解一元一次方程：对两边做同样的操作）. Step 5: Check by substituting the answer back into the original equation（代入原方程检验）. Step 6: Identify any excluded values: if a value makes a denominator zero, x cannot equal that value（找出排除值：如果某个值使分母为零，x 不能等于那个值）. Step 7: State the final answer（陈述最终答案）.
+✓ 化石 (fossil errors)：
+  • Multiplying only one term by the LCD: x/3 + (x−2)/4 = 3 → 4x + 3(x−2) = 3（错误：只把左边乘以 12，忘记右边的 3 也要乘以 12。正确：4x + 3(x−2) = 36，因为 12 × 3 = 36）
+  • Multiplying only one side: 3/(x−2) = 6 → 3 = 6（错误：只把左边乘以 (x−2)，忘记右边的 6 也要乘以 (x−2)。正确：3 = 6(x−2)）
+  • Forgetting to multiply the constant on the right: When you clear denominators, multiply EVERY term including the constant on the right side（去分母时，要乘以每一项，包括右边的常数）
+  • Not checking for excluded values: For 3/(x−2) = 6, x ≠ 2 because x = 2 makes the denominator zero（对于 3/(x−2) = 6，x ≠ 2 因为 x = 2 使分母为零）
+  • 本周教 N7 的 7.3（solving simple fractional equations that can be reduced to linear equations，解简单分式方程）。第 39–40 周已完成 N7.1–7.2。本周只教 7.3 solving simple fractional equations（解简单分式方程：clear denominators by multiplying EVERY term by the LCD，然后解一元一次方程），不教 N7.4 formulating a linear equation to solve problems（用方程解应用题）。
+
+Note: This is a sample of Part 2 short-answer/open-ended questions. The official paper has 20 short-answer + 10–15 open-ended items in 1 hour 45 minutes.`,
+          points: 20,
+        },
+      ],
+    },
   ];
 
   // =================================================================

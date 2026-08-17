@@ -4472,6 +4472,43 @@ const lessonPlans: Record<string, LessonPlan> = {
     ],
     speakingPrompts: null,
   },
+  "SMATH-41": {
+    title: "解简单分式方程 — Solving simple fractional equations that can be reduced to linear equations",
+    mathExample: "x/3 + (x−2)/4 = 3 → LCD 12 → Multiply EVERY term by 12: 4x + 3(x−2) = 36 → 4x + 3x − 6 = 36 → 7x = 42 → x = 6. Check: 6/3 + (6−2)/4 = 2 + 1 = 3 ✓. 3/(x−2) = 6 → Multiply both sides by (x−2): 3 = 6(x−2) → 3 = 6x − 12 → 15 = 6x → x = 5/2 (or 2.5). Check: 3/(2.5−2) = 3/0.5 = 6 ✓. x≠2.",
+    sections: [
+      {
+        name: "课前",
+        duration: "2 分钟",
+        teacherNotes: "确认 Zoom 设置正常。孩子和家长都在镜头前。调整摄像头，让孩子的脸清晰可见。对家长说：「本周内容是 Sec 1 解简单分式方程。官方 MOE 2020 G3 Sec 1 NUMBER AND ALGEBRA, N7. Equations and inequalities: 7.3 solving simple fractional equations that can be reduced to linear equations。官方例题：x/3 + (x−2)/4 = 3 和 3/(x−2) = 6。本周重点是 clear denominators by multiplying EVERY term (including the constant) by the LCD 两边每一项（包括常数）都乘以最小公倍数 LCD 来去分母；then solve the resulting linear equation the same way as Week 40 然后用第 40 周的方法解一元一次方程；check by substitution 代入检验；exclude values that make a denominator zero 排除使分母为零的值。本周只教 N7.3 solving simple fractional equations，不教 N7.4 formulating a linear equation to solve problems（用方程解应用题）。」提醒家长可以在旁边观摩，但请让孩子自己动笔算。",
+      },
+      {
+        name: "热身",
+        duration: "5 分钟",
+        teacherNotes: "在白板或屏幕上写 x/3 + (x−2)/4 = 3。问孩子：「这个方程有分数。怎么解？」引导孩子思考：We need to clear the denominators（我们需要去掉分母）。问：「分母是 3 和 4。我们要找什么？」答：The LCD (lowest common denominator) 最小公倍数。写：LCD of 3 and 4 = 12。问：「找到 LCD 后做什么？」答：Multiply EVERY term on BOTH sides by the LCD（两边每一项都乘以 LCD）。强调：EVERY term including the constant on the right side（每一项包括右边的常数）。写：Multiply EVERY term by 12: 12 × (x/3) + 12 × ((x−2)/4) = 12 × 3。问：「12 × (x/3) 等于多少？」引导孩子算：12 ÷ 3 = 4，所以 12 × (x/3) = 4x。写：4x。问：「12 × ((x−2)/4) 等于多少？」答：12 ÷ 4 = 3，所以 12 × ((x−2)/4) = 3(x−2)。写：3(x−2)。问：「12 × 3 等于多少？」答：36。写：4x + 3(x−2) = 36。强调：We multiplied EVERY term including the 3 on the right（我们把每一项包括右边的 3 都乘以了 12）。如果孩子卡住，教师先示范一次，让孩子跟着说。",
+      },
+      {
+        name: "化石",
+        duration: "8 分钟",
+        teacherNotes: "在屏幕上或白板上写下错误例子：Wei solves x/3 + (x−2)/4 = 3. Wei writes: Multiply by 12: 4x + 3(x−2) = 3（标记为 ✗）。问孩子：「这个对吗？」等孩子思考后，圈出错误：multiplying only the left side（只把左边乘以 12）。指出：Wei multiplied the left side by 12, but forgot to multiply the 3 on the right side by 12（Wei 把左边乘以 12，但忘记把右边的 3 也乘以 12）。强调：When you clear denominators, multiply EVERY term on BOTH sides by the LCD, including the constant on the right（去分母时，两边每一项都要乘以 LCD，包括右边的常数）。改正后写：4x + 3(x−2) = 36（标记为 ✓，因为 12 × 3 = 36）。让孩子跟读改正后的步骤：Multiply EVERY term by 12: 4x + 3(x−2) = 36。再给第二个化石例子：Aisha solves 3/(x−2) = 6. Aisha writes: 3 = 6（标记为 ✗）。问孩子：「这个对吗？」圈出错误：multiplying only one side（只把一边乘以 (x−2)）。指出：Aisha multiplied the left side by (x−2) to get 3, but forgot to multiply the right side by (x−2)（Aisha 把左边乘以 (x−2) 得到 3，但忘记把右边也乘以 (x−2)）。改正后写：3 = 6(x−2)（标记为 ✓）。让孩子跟读 3 次：Multiply BOTH sides by (x−2). 3 = 6(x−2)。",
+      },
+      {
+        name: "示范",
+        duration: "10 分钟",
+        teacherNotes: "教师示范两道完整例题（写出推理步骤）。例题 1（Solve x/3 + (x−2)/4 = 3 and check）：Solve x/3 + (x−2)/4 = 3. Show your working step by step. Check your answer by substitution. 步骤：① The equation is x/3 + (x−2)/4 = 3. ② Find the LCD of 3 and 4: LCD = 12. ③ Multiply EVERY term on BOTH sides by 12: 12 × (x/3) + 12 × ((x−2)/4) = 12 × 3. ④ Simplify: 4x + 3(x−2) = 36. ⑤ Expand the bracket: 4x + 3x − 6 = 36. ⑥ Collect like terms: 7x − 6 = 36. ⑦ Add 6 to both sides: 7x = 42. ⑧ Divide by 7: x = 6. ⑨ Check by substitution: x/3 + (x−2)/4 = 6/3 + (6−2)/4 = 2 + 4/4 = 2 + 1 = 3 ✓. Answer: x = 6. 例题 2（Solve 3/(x−2) = 6, check, explain x≠2）：Solve 3/(x−2) = 6. (i) Show your working step by step. (ii) Check your answer by substitution. (iii) Explain why x ≠ 2. 步骤：① The equation is 3/(x−2) = 6. ② Multiply both sides by (x−2): 3 = 6(x−2). ③ Expand the right side: 3 = 6x − 12. ④ Add 12 to both sides: 3 + 12 = 6x → 15 = 6x. ⑤ Divide by 6: x = 15/6 = 5/2 or 2.5. ⑥ Check by substitution: 3/(x−2) = 3/(2.5−2) = 3/0.5 = 6 ✓. Answer: x = 5/2 or x = 2.5. ⑦ Explain: x ≠ 2 because if x = 2, the denominator (x−2) becomes zero, and division by zero is undefined. 教师在白板或屏幕上写出每道题的完整步骤，孩子看着跟随。",
+      },
+      {
+        name: "练习",
+        duration: "12 分钟",
+        teacherNotes: "给孩子 2 道练习题，让孩子独立做，写出推理步骤。家长可以用手机拍照孩子的推理。题 1：Solve x/3 + (x−2)/4 = 3. Show your working step by step. Check your answer by substitution. 答案：① The equation is x/3 + (x−2)/4 = 3. ② Find the LCD of 3 and 4: LCD = 12. ③ Multiply EVERY term on BOTH sides by 12: 12 × (x/3) + 12 × ((x−2)/4) = 12 × 3. ④ Simplify: 4x + 3(x−2) = 36. ⑤ Expand the bracket: 4x + 3x − 6 = 36. ⑥ Collect like terms: 7x − 6 = 36. ⑦ Add 6 to both sides: 7x = 42. ⑧ Divide by 7: x = 6. ⑨ Check by substitution: x/3 + (x−2)/4 = 6/3 + (6−2)/4 = 2 + 4/4 = 2 + 1 = 3 ✓. Answer: x = 6. 题 2：Solve 3/(x−2) = 6. (i) Show your working step by step. (ii) Check your answer by substitution. (iii) Explain why x ≠ 2. 答案：① The equation is 3/(x−2) = 6. ② Multiply both sides by (x−2): 3 = 6(x−2). ③ Expand the right side: 3 = 6x − 12. ④ Add 12 to both sides: 3 + 12 = 6x → 15 = 6x. ⑤ Divide by 6: x = 15/6 = 5/2 or 2.5. ⑥ Check by substitution: 3/(x−2) = 3/(2.5−2) = 3/0.5 = 6 ✓. Answer: x = 5/2 or x = 2.5. ⑦ Explain: x ≠ 2 because if x = 2, the denominator (x−2) becomes zero, and division by zero is undefined. 孩子写完后，教师检查每一步推理，指出如果有步骤缺失或错误。",
+      },
+      {
+        name: "收口",
+        duration: "3 分钟",
+        teacherNotes: "总结本周重点：(1) 官方 Sec 1 AEIS 数学卷型：Part 1 MCQ 34 题 30 分钟 + Part 2 show working 20+10–15 题 1 小时 45 分钟，不用计算器。(2) 本周内容：Sec 1 NUMBER AND ALGEBRA, N7. Equations and inequalities: 7.3 solving simple fractional equations that can be reduced to linear equations（解简单分式方程），对应 preceding level 规则。官方例题：x/3 + (x−2)/4 = 3 和 3/(x−2) = 6。本周只教 N7.3 solving simple fractional equations：clear denominators by multiplying EVERY term (including the constant) by the LCD 两边每一项（包括常数）都乘以 LCD 来去分母；then solve the resulting linear equation the same way as Week 40 然后用第 40 周的方法解一元一次方程；check by substitution 代入检验；exclude values that make a denominator zero 排除使分母为零的值（for 3/(x−2) = 6, x≠2）。本周不教 N7.4 formulating a linear equation to solve problems（用方程解应用题）。(3) 本周化石：multiplying only one term by the LCD, or multiplying only one side, when clearing denominators（去分母时只把一项或只把一边乘以 LCD）。Wrong: x/3 + (x−2)/4 = 3 → 4x + 3(x−2) = 3 ✗（错误：忘记把右边的 3 也乘以 12）。Wrong: 3/(x−2) = 6 → 3 = 6 ✗（错误：只把左边乘以 (x−2)）。Right: multiply EVERY term on BOTH sides by the LCD（正确：两边每一项都乘以 LCD）。(4) 本周作业在 /learn 页面，完成后系统自动批改 MCQ，writing 部分有 AI Kaizen 反馈（一个改善焦点）。家长会在微信群收到进度同步。不提「小班课」「包过」「保证录取」等话术。Cast: Wei, Aisha, Mr Lim at Riverside Secondary School. 本周对应申请 Sec 2 入学者的 preceding level（Sec 1）内容。第 39–40 周已完成 N7.1 concept of equation、N7.2 solving linear equations in one variable。",
+      },
+    ],
+    speakingPrompts: null,
+  },
 };
 
 export default async function LessonPlanPage({
