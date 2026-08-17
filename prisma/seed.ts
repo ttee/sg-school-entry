@@ -11595,6 +11595,94 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
         },
       ],
     },
+    {
+      level: "SMATH",
+      weekNumber: 52,
+      title: "数学 第 52 周 / Maths Week 52",
+      description: "AEIS-Secondary Mathematics: Sec 1 area of parallelogram and trapezium (G5.1 only)",
+      isSample: false,
+      errorFocus: "using the slanted side as the height of a parallelogram; or forgetting the ½ in the trapezium formula (using (a+b)h instead of ½(a+b)h)",
+      parentBrief: "本周是中学 AEIS 数学第 52 周，对应官方 SEAB Sec 1 卷型（https://www.seab.gov.sg/aeis/test-details/ 2026年7月1日更新）。Part 1 Multiple-choice questions：34 道 MCQ，30 分钟。Part 2 Short-answer questions (20 items) and open-ended questions (10 to 15 items)：1 小时 45 分钟。Calculators are not allowed（不允许使用计算器）。Short-answer and open-ended questions：candidates are required to show the method of solution clearly by writing working steps in the spaces provided, plus the final answer（需写出算式步骤和最终答案）。AEIS-Secondary 官方 preceding-level 规则：申请 Sec 2 入学者需熟悉 Sec 2 前一级的内容。官方举例：apply Secondary 3 → be familiar with Secondary 2 content. 本周针对 Sec 2 申请者，内容为 Sec 2 前一级（Sec 1）的官方 MOE 2020 G3 Mathematics Syllabuses, Secondary One, GEOMETRY AND MEASUREMENT, G5. Mensuration: 5.1 area of parallelogram and trapezium（平行四边形和梯形的面积）。官方 5.1 wording（逐字引用）：「area of parallelogram and trapezium」。本周方法：Area of a parallelogram = base × corresponding perpendicular height. The slanted side is NOT the height（平行四边形面积 = 底 × 对应的垂直高。倾斜的边不是高）。Area of a trapezium = ½ × (sum of the two parallel sides) × perpendicular height（梯形面积 = ½ × (两条平行边之和) × 垂直高）。Singapore trapezium = exactly one pair of parallel sides（新加坡的梯形定义：恰好一对平行边）。Do not treat a parallelogram as a trapezium（不要把平行四边形当作梯形）。Friendly integers so every asked area is an integer（友好整数，所有求出的面积都是整数）。例如：parallelogram base 8 cm height 5 cm → 40 cm²; trapezium parallel sides 6 cm and 10 cm, height 4 cm → ½(6+10)×4 = 32 cm². Units: cm²（单位：平方厘米）。No calculator（calculators are not allowed）。本周是 G5.1 only，只教 Sec 1 area of parallelogram and trapezium。本周不教 5.2 composite figures、5.3 prism/cylinder、5.4 unit conversion、5.5 composite solids。Cast: Wei, Aisha, Mr Lim at Riverside Secondary School（不要复用小学人物 Mei）。Sec 1 content for Sec 2 AEIS applicants（中学数学第 8–52 周为申请 Sec 2 的学生提供 Sec 1 前一级内容）。本周开始官方 G5 Mensuration。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "At Riverside Secondary, Mr Lim draws a parallelogram on the board with base 8 cm and perpendicular height 5 cm. He asks Wei: 「What is the area of this parallelogram?」 Which answer is correct?|A. 40 cm² (because area of parallelogram = base × perpendicular height = 8 × 5 = 40)|B. 13 cm² (because area = base + height = 8 + 5 = 13)|C. 20 cm² (because area = ½ × base × height = ½ × 8 × 5 = 20)|D. 80 cm² (because area = 2 × base × height = 2 × 8 × 5 = 80)",
+            "Aisha studies a trapezium at Riverside Secondary. The trapezium has parallel sides of length 6 cm and 10 cm, and perpendicular height 4 cm. Mr Lim asks: 「What is the area of this trapezium?」 Which answer is correct?|A. 32 cm² (because area of trapezium = ½ × (sum of parallel sides) × height = ½ × (6 + 10) × 4 = ½ × 16 × 4 = 32)|B. 64 cm² (because area = (sum of parallel sides) × height = (6 + 10) × 4 = 64)|C. 16 cm² (because area = ½ × base × height = ½ × 6 × 4 = 12, then add 4)|D. 24 cm² (because area = ½ × 6 × 10 × 4 = 24)",
+            "At Riverside Secondary, Wei draws a parallelogram with base 12 cm. The slanted side is 7 cm, and the perpendicular height from the base is 5 cm. Wei says: 「The area is 12 × 7 = 84 cm²」. Is Wei correct?|A. No, Wei is wrong. The area of a parallelogram is base × perpendicular height, not base × slanted side. The area is 12 × 5 = 60 cm², not 84 cm².|B. Yes, Wei is correct. The area of a parallelogram is base × slanted side = 12 × 7 = 84 cm².|C. No, Wei is wrong. The area is ½ × 12 × 7 = 42 cm².|D. Yes, Wei is correct. The slanted side is the height, so the area is 12 × 7 = 84 cm².",
+            "Mr Lim gives Aisha a trapezium at Riverside Secondary. The two parallel sides are 8 cm and 12 cm, and the perpendicular height is 5 cm. Aisha writes: 「Area = (8 + 12) × 5 = 100 cm²」. What is wrong with Aisha's working?|A. Aisha forgot the ½ in the trapezium formula. The correct formula is Area = ½ × (sum of parallel sides) × height = ½ × (8 + 12) × 5 = ½ × 20 × 5 = 50 cm², not 100 cm².|B. Aisha is correct. The area of a trapezium is (sum of parallel sides) × height = 100 cm².|C. Aisha used the wrong parallel sides. The area should be (8 × 12) × 5 = 480 cm².|D. Nothing is wrong. Aisha's working is correct. The area is 100 cm².",
+            "At Riverside Secondary, Mr Lim draws a parallelogram with base 10 cm and perpendicular height 6 cm. He asks Wei: 「If I double the base to 20 cm but keep the height at 6 cm, what is the new area?」 Which answer is correct?|A. 120 cm² (because new area = new base × height = 20 × 6 = 120. The original area was 10 × 6 = 60, so the new area is double the original.)|B. 60 cm² (because the area stays the same when you double the base)|C. 180 cm² (because you multiply 20 × 6 then add 60)|D. 40 cm² (because you subtract the original base from the new base: 20 − 10 = 10, then 10 × 6 = 60, then divide by 2)",
+          ]),
+          correctAnswer: "A,A,A,A,A",
+          points: 10,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "At Riverside Secondary, Wei calculates the area of a parallelogram with base 9 cm and perpendicular height 4 cm. Which working is correct?|A. Area = base × height = 9 × 4 = 36 cm²|B. Area = ½ × base × height = ½ × 9 × 4 = 18 cm²|C. Area = base + height = 9 + 4 = 13 cm²|D. Area = 2 × base × height = 2 × 9 × 4 = 72 cm²",
+            "Aisha calculates the area of a trapezium at Riverside Secondary. The parallel sides are 5 cm and 9 cm, and the height is 6 cm. Which working is correct?|A. Area = ½ × (5 + 9) × 6 = ½ × 14 × 6 = 42 cm²|B. Area = (5 + 9) × 6 = 14 × 6 = 84 cm²|C. Area = ½ × 5 × 9 × 6 = 135 cm²|D. Area = 5 × 9 + 6 = 51 cm²",
+            "Mr Lim at Riverside Secondary gives Wei a parallelogram. The base is 15 cm, the slanted side is 10 cm, and the perpendicular height is 8 cm. Wei should use which value as the height in the formula?|A. 8 cm (because the perpendicular height is 8 cm, not the slanted side 10 cm. Area = 15 × 8 = 120 cm²)|B. 10 cm (because the slanted side is the height. Area = 15 × 10 = 150 cm²)|C. 18 cm (because height = base + perpendicular height = 15 + 8 = 23, no wait, 8 + 10 = 18)|D. 15 cm (because the base is the height)",
+            "Aisha draws a trapezium at Riverside Secondary with parallel sides 7 cm and 11 cm, and height 5 cm. Wei says: 「The area is (7 + 11) × 5 = 90 cm²」. What is wrong with Wei's statement?|A. Wei forgot the ½. The correct area is ½ × (7 + 11) × 5 = ½ × 18 × 5 = 45 cm², not 90 cm².|B. Wei is correct. The area is 90 cm².|C. Wei used the wrong formula. The area should be 7 × 11 = 77 cm².|D. Nothing is wrong. Wei's working is correct.",
+            "At Riverside Secondary, Mr Lim gives Aisha two shapes: Shape A is a parallelogram with base 10 cm and height 5 cm. Shape B is a trapezium with parallel sides 8 cm and 12 cm, and height 5 cm. Which statement is correct?|A. Shape A area = 10 × 5 = 50 cm². Shape B area = ½ × (8 + 12) × 5 = 50 cm². Both shapes have the same area.|B. Shape A area = 50 cm². Shape B area = (8 + 12) × 5 = 100 cm². Shape B has larger area.|C. Shape A area = ½ × 10 × 5 = 25 cm². Shape B area = ½ × (8 + 12) × 5 = 50 cm². Shape B has larger area.|D. Shape A area = 10 × 5 = 50 cm². Shape B area = 8 × 12 × 5 = 480 cm². Shape B has much larger area.",
+            "Wei at Riverside Secondary calculates the area of a parallelogram with base 14 cm and perpendicular height 3 cm. Aisha calculates the area of a trapezium with parallel sides 10 cm and 18 cm, and height 3 cm. Which is NOT correct?|A. Wei: Area = 14 × 3 = 42 cm². Aisha: Area = ½ × (10 + 18) × 3 = 42 cm². Both areas are 42 cm².|B. Wei: Area = ½ × 14 × 3 = 21 cm². This is wrong. Parallelogram does not use ½.|C. Aisha: Area = (10 + 18) × 3 = 84 cm². This is wrong. Trapezium needs ½.|D. Both B and C are NOT correct (both are wrong calculations).",
+            "Mr Lim at Riverside Secondary asks: 「A trapezium has parallel sides a and b, and height h. A parallelogram has base (a + b) and height h. Which area is larger?」 Which answer is correct?|A. The parallelogram area is larger. Trapezium area = ½(a + b)h. Parallelogram area = (a + b)h = 2 × trapezium area. So parallelogram is twice the trapezium area.|B. Both areas are the same. Both equal (a + b)h.|C. The trapezium area is larger because it has two parallel sides.|D. Cannot compare without actual numbers.",
+            "Aisha at Riverside Secondary has a trapezium with parallel sides 6 cm and 14 cm, and height 4 cm. Wei says: 「If you turn the trapezium upside down, the area changes.」 Is Wei correct?|A. No, Wei is wrong. Turning a trapezium upside down does not change the area. The area is still ½ × (6 + 14) × 4 = 40 cm². The two parallel sides are still 6 cm and 14 cm, and the height is still 4 cm.|B. Yes, Wei is correct. When you turn it upside down, the area becomes different.|C. No, but the area does change if you rotate it 90 degrees.|D. Yes, the area doubles when you turn it upside down.",
+          ]),
+          correctAnswer: "A,A,A,A,A,D,A,A",
+          points: 16,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `Part 2: Show Your Working (写出算式步骤)
+
+Riverside Secondary School has mensuration exercises. Answer the questions below. Show your working clearly.
+
+Question (a)
+At Riverside Secondary, Mr Lim draws a parallelogram with base 12 cm and perpendicular height 7 cm.
+Calculate the area of the parallelogram. Show your working.
+
+Question (b)
+Aisha studies a trapezium at Riverside Secondary. The trapezium has parallel sides of length 8 cm and 16 cm, and perpendicular height 6 cm.
+(i) Calculate the area of the trapezium. Show your working.
+(ii) Wei says: 「I calculated the area as (8 + 16) × 6 = 144 cm².」 Explain what is wrong with Wei's working. What should the correct answer be?
+
+Question (c)
+Mr Lim gives Wei a parallelogram with base 10 cm, slanted side 8 cm, and perpendicular height 5 cm.
+(i) Calculate the area of the parallelogram. Show your working.
+(ii) Aisha says: 「The area is 10 × 8 = 80 cm² because you multiply the base by the slanted side.」 Explain why Aisha is wrong. What is the correct method and answer?
+
+写作提示 / Tips:
+✓ 每题分步骤写出推理 (Show working steps for each question)
+✓ Part 2 官方要求：clearly show the method of solution by writing working steps, plus the final answer
+✓ 不用计算器 (No calculators allowed)
+✓ 面积计算步骤示范 (area calculation examples)：
+  • Parallelogram area = base × perpendicular height (parallelogram base 8 cm height 5 cm → 40 cm²):
+    Question: At Riverside Secondary, Mr Lim draws a parallelogram with base 8 cm and perpendicular height 5 cm. Calculate the area.
+    Solution: ① Formula: Area of parallelogram = base × perpendicular height. ② Given: base = 8 cm, perpendicular height = 5 cm. ③ Calculation: Area = 8 × 5 = 40 cm². ④ Answer: 40 cm². (Note: Use the perpendicular height, not the slanted side. The slanted side is NOT the height.)
+  • Trapezium area = ½ × (sum of parallel sides) × height (trapezium parallel sides 6 cm and 10 cm, height 4 cm → 32 cm²):
+    Question: At Riverside Secondary, Aisha studies a trapezium. The trapezium has parallel sides of length 6 cm and 10 cm, and perpendicular height 4 cm. Calculate the area.
+    Solution: ① Formula: Area of trapezium = ½ × (sum of the two parallel sides) × perpendicular height. ② Given: parallel sides = 6 cm and 10 cm, perpendicular height = 4 cm. ③ Calculation: Area = ½ × (6 + 10) × 4 = ½ × 16 × 4 = ½ × 64 = 32 cm². ④ Answer: 32 cm². (Note: Do not forget the ½ in the trapezium formula. Common fossil: using (a + b)h instead of ½(a + b)h, which gives 64 cm² instead of the correct 32 cm².)
+  • Parallelogram with slanted side given (base 12 cm, slanted side 7 cm, perpendicular height 5 cm → 60 cm²):
+    Question: At Riverside Secondary, Wei draws a parallelogram with base 12 cm. The slanted side is 7 cm, and the perpendicular height from the base is 5 cm. Calculate the area.
+    Solution: ① Formula: Area of parallelogram = base × perpendicular height. ② Given: base = 12 cm, slanted side = 7 cm (not used for area calculation), perpendicular height = 5 cm. ③ Calculation: Area = base × perpendicular height = 12 × 5 = 60 cm². ④ Answer: 60 cm². (Note: The slanted side 7 cm is NOT the height. The area is base × perpendicular height = 12 × 5 = 60 cm², not 12 × 7 = 84 cm². Common fossil: using the slanted side as the height, which gives 84 cm² instead of the correct 60 cm².)
+✓ 关键步骤：Step 1: State the formula（写出公式）——Parallelogram: Area = base × perpendicular height. Trapezium: Area = ½ × (sum of parallel sides) × perpendicular height. Step 2: Identify the given values（识别已知数值）——base, height, parallel sides. Step 3: Substitute the values into the formula（代入公式）. Step 4: Calculate the area（计算面积）. Step 5: State the final answer with units（陈述最终答案并带单位 cm²）. Step 6: Check for common fossil errors（检查常见化石错误）——using slanted side as height for parallelogram; forgetting ½ in trapezium formula.
+✓ 化石 (fossil errors)：
+  • Using the slanted side as the height of a parallelogram（用平行四边形的斜边当高）：saying 「Area = base × slanted side」（错误：面积 = 底 × 斜边。正确：Area of parallelogram = base × perpendicular height, not base × slanted side. The slanted side is NOT the height. For example, if base = 12 cm, slanted side = 7 cm, and perpendicular height = 5 cm, the area is 12 × 5 = 60 cm², not 12 × 7 = 84 cm²。Wrong: Area = 12 × 7 = 84 cm² ✗. Right: Area = 12 × 5 = 60 cm² ✓）
+  • Forgetting the ½ in the trapezium formula（忘记梯形公式中的 ½）：using (a + b)h instead of ½(a + b)h（错误：用 (a + b)h 而不是 ½(a + b)h。正确：Area of trapezium = ½ × (sum of parallel sides) × height. Do not forget the ½. For example, if parallel sides are 8 cm and 12 cm, and height is 5 cm, the area is ½ × (8 + 12) × 5 = ½ × 20 × 5 = 50 cm², not (8 + 12) × 5 = 100 cm²。Wrong: Area = (8 + 12) × 5 = 100 cm² ✗. Right: Area = ½ × (8 + 12) × 5 = 50 cm² ✓）
+  • 本周教 Sec 1 GEOMETRY AND MEASUREMENT, G5. Mensuration: 5.1 area of parallelogram and trapezium（G5.1 平行四边形和梯形的面积）。本周是 G5.1 only. 本周内容：Area of a parallelogram = base × corresponding perpendicular height. The slanted side is NOT the height. Area of a trapezium = ½ × (sum of the two parallel sides) × perpendicular height. Singapore trapezium = exactly one pair of parallel sides. Do not treat a parallelogram as a trapezium（平行四边形面积 = 底 × 垂直高，斜边不是高。梯形面积 = ½ × (两平行边之和) × 垂直高。新加坡梯形 = 恰好一对平行边）。本周是 G5.1 only，只教平行四边形和梯形面积。本周不教 5.2 composite figures、5.3 prism/cylinder、5.4 unit conversion、5.5 composite solids。本周开始官方 G5 Mensuration。
+
+Note: This is a sample of Part 2 short-answer/open-ended questions. The official paper has 20 short-answer + 10–15 open-ended items in 1 hour 45 minutes.`,
+          points: 20,
+        },
+      ],
+    },
   ];
 
   // =================================================================
