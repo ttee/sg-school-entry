@@ -13031,6 +13031,106 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
         },
       ],
     },
+    {
+      level: "SMATH",
+      weekNumber: 67,
+      title: "二次函数 — Quadratic functions y = ax²+bx+c",
+      description: "Sec 2 N6.6: quadratic functions y = ax² + bx + c (AEIS 中学数学第 67 周 / SMATH Week 67)",
+      isSample: false,
+      errorFocus: "forgetting to square when substituting; or swapping coefficients a and b; or confusing (2x)² with 2x²",
+      parentBrief: "本周是中学 AEIS 数学第 67 周，对应官方 SEAB Sec 2 卷型（https://www.seab.gov.sg/aeis/test-details/ 2026年7月1日更新）。Part 1 Multiple-choice questions：34 道 MCQ，30 分钟。Part 2 Short-answer questions (20 items) and open-ended questions (10 to 15 items)：1 小时 45 分钟。Calculators are not allowed（不允许使用计算器）。Short-answer and open-ended questions：candidates are required to show the method of solution clearly by writing working steps in the spaces provided, plus the final answer（需写出算式步骤和最终答案）。AEIS-Secondary 官方 preceding-level 规则：申请 Sec 3 入学者需熟悉 Sec 3 前一级的内容。官方举例：apply Secondary 3 → be familiar with Secondary 2 content. 本周针对 Sec 3 申请者，内容为 Sec 3 前一级（Sec 2）的官方 MOE 2020 G3 Mathematics Syllabuses, Secondary Two, NUMBER AND ALGEBRA, N6. Functions and graphs: 6.6 quadratic functions y = ax² + bx + c（二次函数 y = ax² + bx + c）。本周只教 N6.6 quadratic functions y = ax² + bx + c（二次函数的函数形式 y = ax² + bx + c）。官方 MOE 2020 G3 Mathematics Syllabuses - Sec 2 NUMBER AND ALGEBRA, N6. Functions and graphs: 6.6 quadratic functions y = ax² + bx + c. 本周是 N6.6 only（本周只教函数形式 y = ax² + bx + c）。Quadratic functions of the form y = ax² + bx + c: identify the coefficients a, b, c from a given quadratic function（识别二次函数的系数 a, b, c）; recognise which expressions are quadratic functions of this form（识别哪些表达式是这种形式的二次函数）; substitute a given x to find y（代入给定的 x 求 y，friendly integers, no calculator）; find the value of y when x = 0, which gives the constant term c（当 x = 0 时 y 的值就是常数项 c）。Typical Sec 2 work at this bullet: identify a, b, c from a given quadratic; recognise which expressions are quadratic functions of this form; substitute a given x to find y (friendly integers, no calculator); find the value of y when x = 0 (the constant term c). 本周不教 6.7 graphs of quadratic functions and their properties: positive or negative coefficient of x², maximum and minimum points, symmetry（不教二次函数图像及其性质：x² 系数正负、最大最小点、对称性）。本周不教 6.8 sketching quadratic graphs（不教二次函数作图）。本周不教 N7 equations（不教方程）。Do NOT ask students to sketch, name the turning point, state the axis of symmetry, or say 「opens upwards because a &gt; 0」 — that is 6.7. Friendly integers. No calculator. Fossil: forgetting to square when substituting (writing 2(2) + 3(2) + 1 = 11 instead of 2(2)² + 3(2) + 1 = 15); or confusing (2x)² with 2x² (when x = 3, (2x)² = (6)² = 36 but 2x² = 2(9) = 18); or swapping coefficients (identifying a = 3, b = 2, c = 1 from y = 2x² + 3x + 1, which is wrong: correct is a = 2, b = 3, c = 1); or saying y when x = 0 is a or b instead of c. Cast: secondary Wei, Aisha, Mr Lim at Riverside Secondary. 第 8–56 周已完成 Sec 1 内容。第 57–66 周已完成 Sec 2 N2.4 map scales、N2.5 direct and inverse proportion、N5.9–5.16 algebraic manipulation（expansion、changing the subject、finding value in formula、identities、factorisation by grouping、factorisation of quadratics、multiply/divide algebraic fractions、add/subtract algebraic fractions）。本周开始 N6 Functions and graphs（函数和图像），从 6.6 quadratic functions y = ax² + bx + c 开始。本周继续 Sec 2 内容（Sec 3 申请者的 preceding level）。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "At Riverside Secondary, Mr Lim writes: 「For the quadratic function y = x² + 5x + 4, identify the coefficients a, b, c.」 Wei writes: a = 1 (coefficient of x²), b = 5 (coefficient of x), c = 4 (constant term). Is Wei correct?|A. Yes, Wei is correct. a = 1, b = 5, c = 4 ✓.|B. No, Wei is wrong. a = 5, b = 1, c = 4.|C. No, Wei is wrong. a = 4, b = 5, c = 1.|D. No, Wei is wrong. a = 1, b = 4, c = 5.",
+            "Aisha at Riverside Secondary has y = x² + 7x + 10. Mr Lim asks: 「What is the value of y when x = 0?」 Aisha calculates: y = (0)² + 7(0) + 10 = 0 + 0 + 10 = 10. Is this correct?|A. Yes, Aisha is correct. When x = 0, y = c = 10 ✓.|B. No, Aisha is wrong. When x = 0, y = a = 1.|C. No, Aisha is wrong. When x = 0, y = b = 7.|D. No, Aisha is wrong. When x = 0, y = 0.",
+            "At Riverside Secondary, Wei has y = x² − 6x + 8. He needs to find y when x = 2. Wei writes: y = (2)² − 6(2) + 8 = 4 − 12 + 8 = 0. Is Wei's working correct?|A. Yes, Wei is correct. (2)² = 4, 6(2) = 12, then 4 − 12 + 8 = 0 ✓.|B. No, Wei is wrong. The answer is y = −4 because 4 − 12 + 8 = −4.|C. No, Wei is wrong. The answer is y = 2 because you forgot to square.|D. No, Wei is wrong. The answer is y = 8 because when x = 2, y = c = 8.",
+            "Mr Lim at Riverside Secondary writes two functions on the board: (i) y = 3x² + 2x − 1; (ii) y = 3x + 2. He asks: 「Which one is a quadratic function?」 Aisha says: 「Function (i) is a quadratic function because it has an x² term. Function (ii) is a linear function, not quadratic, because it has no x² term.」 Is Aisha correct?|A. Yes, Aisha is correct. y = 3x² + 2x − 1 is quadratic (has x² term). y = 3x + 2 is linear (no x² term) ✓.|B. No, Aisha is wrong. Both are quadratic functions.|C. No, Aisha is wrong. y = 3x + 2 is quadratic, not y = 3x² + 2x − 1.|D. No, Aisha is wrong. Neither is a quadratic function.",
+            "At Riverside Secondary, Wei has the function y = x² + 4x + 3. Mr Lim asks: 「Find y when x = −1.」 Wei writes: y = (−1)² + 4(−1) + 3 = 1 − 4 + 3 = 0. Which statement is correct?|A. Wei's working is correct. (−1)² = 1 (positive), 4(−1) = −4, then 1 − 4 + 3 = 0 ✓.|B. Wei's working is wrong. (−1)² = −1, so y = −1 − 4 + 3 = −2.|C. Wei's working is wrong. The answer is y = 6 because (−1)² + 4 + 3 = 8.|D. Wei's working is wrong. The answer is y = 3 because when x = 0, y = 3.",
+          ]),
+          correctAnswer: "A,A,A,A,A",
+          points: 10,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "At Riverside Secondary, Mr Lim writes: 「For y = 4x² − 3x + 2, identify a, b, c.」 Which is the correct answer?|A. a = 4, b = −3, c = 2|B. a = −3, b = 4, c = 2|C. a = 2, b = −3, c = 4|D. a = 4, b = 3, c = 2",
+            "Aisha at Riverside Secondary has y = x² + 2x + 1. She needs to find y when x = 1. Which working is correct?|A. y = (1)² + 2(1) + 1 = 1 + 2 + 1 = 4|B. y = 1 + 2(1) + 1 = 1 + 2 + 1 = 4 (forgot to square)|C. y = (1)² + 2 + 1 = 1 + 2 + 1 = 4 (forgot to multiply 2 by x)|D. y = (1)² + 2(1) = 1 + 2 = 3 (forgot constant term)",
+            "Wei at Riverside Secondary has y = 2x² + x − 3. What is the value of the constant term c?|A. c = −3|B. c = 2|C. c = 1|D. c = 0",
+            "At Riverside Secondary, Mr Lim asks: 「Which of the following is NOT a quadratic function?」 Which is the correct answer?|A. y = 5x − 2 (no x² term, this is linear)|B. y = x² + 5x − 2 (has x² term)|C. y = x² − 2 (has x² term)|D. y = x² (has x² term)",
+            "Aisha at Riverside Secondary has y = x² − 2x + 1. She says: 「When x = 3, I calculate y = (3)² − 2(3) + 1 = 9 − 6 + 1 = 4.」 Is Aisha correct?|A. Yes, Aisha is correct. (3)² = 9, 2(3) = 6, then 9 − 6 + 1 = 4 ✓.|B. No, Aisha is wrong. y = 3 − 6 + 1 = −2 because she forgot to square.|C. No, Aisha is wrong. y = 9 − 2 + 1 = 8 because 2(3) = 2, not 6.|D. No, Aisha is wrong. y = 1 because when x = 0, y = c = 1.",
+            "At Riverside Secondary, Wei has y = 3x² + 5x + 2. What is y when x = 0?|A. y = 2 (the constant term c)|B. y = 3 (the coefficient a)|C. y = 5 (the coefficient b)|D. y = 0",
+            "Mr Lim at Riverside Secondary writes: 「For y = x² + 8x + 15, find y when x = −2.」 Aisha writes: y = (−2)² + 8(−2) + 15 = 4 − 16 + 15 = 3. Which statement is correct?|A. Aisha's working is correct. (−2)² = 4, 8(−2) = −16, then 4 − 16 + 15 = 3 ✓.|B. Aisha's working is wrong. (−2)² = −4, so y = −4 − 16 + 15 = −5.|C. Aisha's working is wrong. y = 15 because when x = 0, y = 15.|D. Aisha's working is wrong. y = 7 because 4 + (−2) + 15 = 17.",
+            "At Riverside Secondary, Wei says: 「For the quadratic function y = x² − x + 6, the coefficients are a = 1, b = −1, c = 6.」 Is Wei correct?|A. Yes, Wei is correct. a = 1 (coefficient of x²), b = −1 (coefficient of x, keep minus sign), c = 6 (constant) ✓.|B. No, Wei is wrong. a = −1, b = 1, c = 6.|C. No, Wei is wrong. a = 1, b = 1, c = 6 (b should be positive).|D. No, Wei is wrong. a = 6, b = −1, c = 1.",
+          ]),
+          correctAnswer: "A,A,A,A,A,A,A,A",
+          points: 16,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `Part 2: Show Your Working (写出算式步骤)
+
+Riverside Secondary School has quadratic functions exercises. Answer the questions below. Show your working clearly.
+
+Question (a)
+At Riverside Secondary, Mr Lim gives Wei the quadratic function y = 3x² − 2x + 5.
+(i) Identify the coefficients a, b, c. State which is the coefficient of x², which is the coefficient of x, and which is the constant term.
+(ii) Find the value of y when x = 2. Show your working step by step: substitute x = 2, calculate (2)², then multiply, then add.
+
+Question (b)
+Aisha at Riverside Secondary has the function y = x² + 6x + 8.
+(i) Find the value of y when x = −1. Show your working. Remember: (−1)² = 1, not −1.
+(ii) Find the value of y when x = 0. Show your working. What is y equal to when x = 0? (Hint: y = c when x = 0.)
+
+Question (c)
+At Riverside Secondary, Mr Lim writes two functions on the board: (i) y = 4x − 1; (ii) y = 2x² + x.
+(i) Which of these two functions is a quadratic function? Explain your answer. (Hint: A quadratic function must have an x² term.)
+(ii) For the quadratic function you identified in part (i), find the value of y when x = 3. Show your working step by step.
+
+写作提示 / Tips:
+✓ 每题分步骤写出推理 (Show working steps for each question)
+✓ Part 2 官方要求：clearly show the method of solution by writing working steps, plus the final answer
+✓ 不用计算器 (No calculators allowed)
+✓ 二次函数 y = ax² + bx + c 步骤示范 (quadratic functions examples)：
+  • For y = 3x² − 2x + 5, identify a, b, c:
+    Question: Identify the coefficients a, b, c from y = 3x² − 2x + 5.
+    Solution: The standard form is y = ax² + bx + c. Here a = 3 (coefficient of x²), b = −2 (coefficient of x, keep the minus sign), c = 5 (constant term). Answer: a = 3, b = −2, c = 5. (Note: Common fossil: swapping coefficients, identifying a = −2, b = 3, c = 5. This is wrong because a is ALWAYS the coefficient of x². Read the function carefully: y = 3x² − 2x + 5 means a = 3, b = −2, c = 5.)
+  • For y = 3x² − 2x + 5, find y when x = 2:
+    Question: Find y when x = 2 for y = 3x² − 2x + 5. Show your working.
+    Solution: ① Substitute x = 2: y = 3(2)² − 2(2) + 5. ② Calculate (2)² first: (2)² = 4. ③ Multiply: 3(4) = 12 and 2(2) = 4. ④ Compute: y = 12 − 4 + 5 = 13. Answer: y = 13. (Note: Fossil: forgetting to square. If you write y = 3(2) − 2(2) + 5 = 6 − 4 + 5 = 7, you forgot to square. The function is y = 3x² − 2x + 5, not y = 3x − 2x + 5. Always calculate (2)² = 4 first, then multiply by 3 to get 3(4) = 12.)
+  • For y = x² + 6x + 8, find y when x = −1:
+    Question: Find y when x = −1 for y = x² + 6x + 8. Show your working.
+    Solution: ① Substitute x = −1: y = (−1)² + 6(−1) + 8. ② Calculate (−1)²: (−1)² = (−1) × (−1) = 1 (positive, not −1). ③ Calculate 6(−1) = −6. ④ Compute: y = 1 + (−6) + 8 = 1 − 6 + 8 = 3. Answer: y = 3. (Note: Fossil: writing (−1)² = −1. This is wrong. When you square a negative number, the result is positive: (−1)² = 1.)
+  • For y = x² + 6x + 8, find y when x = 0:
+    Question: Find y when x = 0 for y = x² + 6x + 8. Show your working.
+    Solution: ① Substitute x = 0: y = (0)² + 6(0) + 8. ② Calculate: (0)² = 0 and 6(0) = 0. ③ Compute: y = 0 + 0 + 8 = 8. Answer: y = 8. Note: When x = 0, y equals the constant term c. For y = x² + 6x + 8, c = 8, so y = 8 when x = 0.
+  • Which of y = 4x − 1 and y = 2x² + x is a quadratic function?
+    Question: Which of y = 4x − 1 and y = 2x² + x is a quadratic function? Explain.
+    Solution: A quadratic function has the form y = ax² + bx + c with a ≠ 0. It must have an x² term. ① Check y = 4x − 1: This has no x² term. The highest power of x is x¹. This is a linear function, not quadratic. ② Check y = 2x² + x: This has an x² term (a = 2, b = 1, c = 0). This is a quadratic function. Answer: y = 2x² + x is a quadratic function because it has an x² term. y = 4x − 1 is not a quadratic function because it has no x² term.
+  • For y = 2x² + x, find y when x = 3:
+    Question: For y = 2x² + x, find y when x = 3. Show your working.
+    Solution: ① Substitute x = 3: y = 2(3)² + 3. ② Calculate (3)²: (3)² = 9. ③ Multiply: 2(9) = 18. ④ Add: y = 18 + 3 = 21. Answer: y = 21.
+✓ 关键步骤：Step 1: Identify the standard form y = ax² + bx + c（识别标准形式 y = ax² + bx + c）. a is the coefficient of x²（a 是 x² 的系数），b is the coefficient of x（b 是 x 的系数），c is the constant term（c 是常数项）. Step 2: To find y when x = k, substitute x = k into the function（代入 x = k）. Step 3: Calculate (k)² first（先计算 (k)²）. Square the number first before multiplying. Step 4: Multiply by the coefficients（乘以系数）. Step 5: Add or subtract all terms（加减所有项）. Step 6: State the final answer（陈述最终答案）. Step 7: When x = 0, y = c（当 x = 0 时，y = c，即常数项）. Step 8: To recognise a quadratic function, check if it has an x² term（要识别二次函数，检查是否有 x² 项）. If no x² term, it is not quadratic.
+✓ 化石 (fossil errors)：
+  • Forgetting to square when substituting（代入时忘记平方）：writing y = 3(2) − 2(2) + 5 = 7 instead of y = 3(2)² − 2(2) + 5 = 13（错误：把 3x² 当成 3x，忘记平方。正确：先计算 (2)² = 4，再乘以 3 得 12，最后 12 − 4 + 5 = 13）
+  • Swapping coefficients a and b（颠倒系数 a 和 b）：identifying a = −2, b = 3 from y = 3x² − 2x + 5（错误：把 b 和 a 颠倒了。正确：a 永远是 x² 的系数，所以 a = 3；b 永远是 x 的系数，所以 b = −2）
+  • Confusing (−1)² with −1（混淆 (−1)² 和 −1）：writing (−1)² = −1（错误：负数的平方是正数。正确：(−1)² = (−1) × (−1) = 1，不是 −1）
+  • Saying y when x = 0 is a or b instead of c（说 x = 0 时 y 是 a 或 b）：writing 「when x = 0, y = 3」 for y = 3x² − 2x + 5（错误：当 x = 0 时，y = c = 5，不是 a = 3 或 b = −2。正确：代入 x = 0 得 y = 3(0)² − 2(0) + 5 = 5）
+  • 本周教 Sec 2 NUMBER AND ALGEBRA, N6. Functions and graphs: 6.6 quadratic functions y = ax² + bx + c（N6.6 二次函数 y = ax² + bx + c）。本周是 N6.6 only. Identify a, b, c (a is coefficient of x², b is coefficient of x, c is constant). Substitute x to find y (square first, then multiply, then add; friendly integers, no calculator). When x = 0, y = c. Recognise which expressions are quadratic functions (must have x² term). 本周不教 6.7 graphs of quadratic functions and their properties: positive or negative coefficient of x², maximum and minimum points, symmetry（不教二次函数图像及其性质）。本周不教 6.8 sketching（不教作图）。本周不教 N7 equations（不教方程）。Fossil: forgetting to square when substituting; or swapping coefficients a and b; or confusing (−1)² with −1; or saying y when x = 0 is a or b instead of c. Cast: secondary Wei, Aisha, Mr Lim at Riverside Secondary. 第 8–56 周已完成 Sec 1 内容。第 57–66 周已完成 Sec 2 N2.4 map scales、N2.5 direct and inverse proportion、N5.9–5.16 algebraic manipulation。本周开始 N6 Functions and graphs（函数和图像），从 6.6 quadratic functions y = ax² + bx + c 开始。本周继续 Sec 2 内容（Sec 3 申请者的 preceding level）。
+
+Note: This is a sample of Part 2 short-answer/open-ended questions. The official paper has 20 short-answer + 10–15 open-ended items in 1 hour 45 minutes.`,
+          points: 20,
+        },
+      ],
+    },
   ];
 
   // =================================================================
