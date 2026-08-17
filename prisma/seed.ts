@@ -9862,7 +9862,7 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
           content: "Choose the correct answer:",
           options: JSON.stringify([
             "Point D is at (−2, 5). Which statement is correct?|A. x = −2 and y = 5|B. x = 5 and y = −2|C. x = 2 and y = −5|D. D is on the x-axis",
-            "Aisha reads a point on the y-axis. Which could be the coordinates?|A. (0, 7)|B. (7, 0)|C. (7, 7)|D. (0, 0) only",
+            "Aisha reads a point on the y-axis. Which could be the coordinates?|A. (0, 7)|B. (7, 0)|C. (7, 7)|D. (2, 2)",
             "Mr Lim asks: What is the x-coordinate of the point (7, 1)?|A. 7|B. 1|C. 8|D. 0",
             "Which point is NOT on the x-axis?|A. (0, 3)|B. (5, 0)|C. (−2, 0)|D. (0, 0)",
             "Wei plots point E at (4, −3). From the origin, how should he move?|A. 4 right, 3 down|B. 3 right, 4 down|C. 4 down, 3 right|D. 4 up, 3 left",
