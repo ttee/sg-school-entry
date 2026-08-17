@@ -13565,6 +13565,100 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
         },
       ],
     },
+    {
+      level: "SMATH",
+      weekNumber: 72,
+      title: "联立方程 — Simultaneous linear equations",
+      description: "Sec 2 N7.8: solving simultaneous linear equations in two variables by substitution, elimination, and graphical methods (AEIS 中学数学第 72 周 / SMATH Week 72)",
+      isSample: false,
+      errorFocus: "offering both substitution and elimination as two correct options for one pair; or offering both 「the intersection is (a,b)」 and 「x=a, y=b」 as two correct options; writing pairs that copy 微课 examples; non-integer answers; claiming a pair has two solutions",
+      parentBrief: "本周是中学 AEIS 数学第 72 周，对应官方 SEAB Sec 2 卷型（https://www.seab.gov.sg/aeis/test-details/ 2026年7月1日更新）。Part 1 Multiple-choice questions：34 道 MCQ，30 分钟。Part 2 Short-answer questions (20 items) and open-ended questions (10 to 15 items)：1 小时 45 分钟。Calculators are not allowed（不允许使用计算器）。Short-answer and open-ended questions：candidates are required to show the method of solution clearly by writing working steps in the spaces provided, plus the final answer（需写出算式步骤和最终答案）。AEIS-Secondary 官方 preceding-level 规则：申请 Sec 3 入学者需熟悉 Sec 3 前一级的内容。官方举例：apply Secondary 3 → be familiar with Secondary 2 content. 本周针对 Sec 3 申请者，内容为 Sec 3 前一级（Sec 2）的官方 MOE 2020 G3 Mathematics Syllabuses, Secondary Two, NUMBER AND ALGEBRA, N7. Equations and inequalities: 7.8 solving simultaneous linear equations in two variables by: substitution and elimination methods, graphical method（解二元一次联立方程：代入法、消元法、图解法）。本周只教 N7.8 solving simultaneous linear equations in two variables（解二元一次联立方程）。官方 MOE 2020 G3 Mathematics Syllabuses - Sec 2 NUMBER AND ALGEBRA, N7. Equations and inequalities: 7.8 solving simultaneous linear equations in two variables by: substitution and elimination methods, graphical method. 本周是 N7.8 only. Simultaneous linear equations: (1) a pair of linear equations in x and y; the solution is the pair (x, y) that satisfies both（一对关于 x 和 y 的线性方程；解是同时满足两个方程的数对 (x, y)）; (2) substitution: make one variable the subject of one equation, substitute into the other（代入法：从一个方程中解出一个变量，代入另一个方程）; (3) elimination: add or subtract equations after matching a coefficient（消元法：匹配系数后，加或减两个方程）; (4) graphical: each equation is a line; the solution is the intersection point（图解法：每个方程是一条直线；解是交点）; (5) check by substituting the solution back into both equations（检验：将解代回两个方程）。Friendly integers only（只用友好整数，x 和 y 的解都是整数）。No calculator（不允许使用计算器）。本周不教 7.9 quadratic equations by factorisation（不教因式分解解一元二次方程）。本周不教 7.10 formulating a pair of simultaneous linear equations to model a situation（不把「从应用题列方程组」作为本周主要技能；轻度的故事框架可以，但不作为本周核心）。Cast: secondary Wei, Aisha, Mr Lim at Riverside Secondary. 第 71 周已完成 N7.7 graphs of linear equations in two variables (ax + by = c)（直线方程 ax + by = c 的图像）。本周继续 N7 Equations and inequalities（方程和不等式），学习 7.8 solving simultaneous linear equations in two variables（解二元一次联立方程）。本周不教 7.9 quadratic（不教一元二次方程）。Fossil（化石化错误）: offering both substitution and elimination as two correct options for the same pair on the same item（在同一道题上，同时提供代入法和消元法作为两个「正确」选项）; or offering both 「the intersection is (a,b)」 and 「x=a, y=b」 as two keyed-correct options on one item（在同一道题上，同时提供「交点是 (a,b)」和「x=a, y=b」作为两个正确选项）; writing pairs that copy 微课 examples（照抄微课的方程组）; non-integer answers（答案不是整数）; claiming a pair of distinct lines has two solutions（声称一对不同的直线有两个解）。One item, one correct option. Substitution and elimination that both give the same (x,y) must NOT appear as two separately keyed-correct options on the SAME item.（一道题，一个正确选项。代入法和消元法得到同一个 (x,y)，不能在同一道题上作为两个分别正确的选项。）",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "At Riverside Secondary, Mr Lim writes: 「A pair of simultaneous linear equations in x and y. The solution is the pair (x, y) that satisfies both equations.」 Wei asks: 「For x + y = 8 and x − y = 2, can I use elimination?」 Mr Lim says: 「Yes. Add the two equations: (x + y) + (x − y) = 8 + 2, so 2x = 10, x = 5. Substitute x=5 into x + y = 8: 5 + y = 8, so y = 3. The solution is (5, 3).」 Is this correct?|A. Yes, this is correct. The solution is (5, 3) ✓.|B. No, this is wrong. You cannot add the two equations.|C. No, this is wrong. The solution is (3, 5).|D. No, this is wrong. The solution is x=5 only.",
+            "Aisha at Riverside Secondary has 2x + y = 10 and y = 2x + 2. Mr Lim asks: 「Use substitution.」 Aisha says: 「y = 2x + 2 is already solved for y. Substitute into 2x + y = 10: 2x + (2x + 2) = 10, so 4x + 2 = 10, 4x = 8, x = 2. Substitute x=2 into y = 2x + 2: y = 2(2) + 2 = 6. The solution is (2, 6).」 Is Aisha correct?|A. Yes, Aisha is correct. The solution is (2, 6) ✓.|B. No, Aisha is wrong. You cannot substitute y = 2x + 2 into 2x + y = 10.|C. No, Aisha is wrong. The solution is (6, 2).|D. No, Aisha is wrong. 4x + 2 = 10 gives x = 3.",
+            "At Riverside Secondary, Wei has 3x + y = 11 and x + y = 5. Mr Lim says: 「Use elimination. Subtract the second from the first.」 Wei says: 「(3x + y) − (x + y) = 11 − 5, so 2x = 6, x = 3. Substitute x=3 into x + y = 5: 3 + y = 5, y = 2. The solution is (3, 2).」 Which statement is correct?|A. Wei's working is correct. The solution is (3, 2) ✓.|B. Wei's working is wrong. (3x + y) − (x + y) = 2x + 2y, not 2x.|C. Wei's working is wrong. You cannot subtract equations.|D. Wei's working is wrong. The solution is (2, 3).",
+            "Mr Lim at Riverside Secondary writes: 「For x + y = 8 and x − y = 2, graph both lines. The x-intercept of x + y = 8 is (8, 0); the y-intercept is (0, 8). The x-intercept of x − y = 2 is (2, 0); the y-intercept is (0, −2). Plot and draw the two lines. The intersection point is the solution.」 Aisha plots and finds the intersection at (5, 3). Is this correct?|A. Yes, the solution is the intersection point (5, 3) ✓.|B. No, the graphical method cannot solve simultaneous equations.|C. No, the intersection is (8, 2).|D. No, you cannot use intercepts to draw the lines.",
+            "At Riverside Secondary, Wei solves 2x + y = 11 and x + y = 7. He gets x = 4, y = 3. Mr Lim says: 「Check by substituting back into both equations.」 Wei checks: 2(4) + 3 = 8 + 3 = 11 ✓. 4 + 3 = 7 ✓. Both equations are satisfied. Which statement is correct?|A. Wei's check is correct. The solution (4, 3) satisfies both ✓.|B. Wei's check is wrong. You only need to check one equation.|C. Wei's check is wrong. 2(4) + 3 = 11 is false.|D. Wei's check is wrong. You cannot substitute back.",
+          ]),
+          correctAnswer: "A,A,A,A,A",
+          points: 10,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "At Riverside Secondary, Mr Lim asks: 「For x + y = 9 and x − y = 3, use elimination.」 Which is the correct solution?|A. Add: 2x = 12, x = 6. Substitute: 6 + y = 9, y = 3. Solution: (6, 3) ✓.|B. Subtract: 2y = 6, y = 3. Substitute: x + 3 = 9, x = 6. Solution: (6, 3) (also correct, but only one option can be keyed A for this pair).|C. Multiply the first by 2: 2x + 2y = 18, then add. Solution: (9, 3).|D. The solution is x = 6 only (missing y).",
+            "Aisha at Riverside Secondary has y = x + 1 and 2x + y = 10. What is the solution using substitution?|A. Substitute y = x + 1 into 2x + y = 10: 2x + (x + 1) = 10, 3x = 9, x = 3. Then y = 4. Solution: (3, 4) ✓.|B. Substitute x = y + 1 into 2x + y = 10: 2(y + 1) + y = 10, 3y = 8, y = 8/3 (not integer).|C. The solution is (1, 10).|D. The solution is (4, 3) (swapped).",
+            "Wei at Riverside Secondary has x + 2y = 11 and x − y = 2. He uses elimination. Subtract the second from the first: (x + 2y) − (x − y) = 11 − 2, so 3y = 9, y = 3. Substitute y=3 into x − y = 2: x − 3 = 2, x = 5. Which is the correct answer?|A. Yes, the solution is (5, 3) ✓.|B. No, (x + 2y) − (x − y) = 2y, not 3y.|C. No, the solution is (3, 5) (swapped).|D. No, you cannot subtract equations.",
+            "At Riverside Secondary, Mr Lim writes: 「For 3x + y = 12 and x + y = 6, find the solution.」 Which method gives the correct answer?|A. Elimination: subtract to get 2x = 6, x = 3. Then y = 3. Solution: (3, 3) ✓.|B. Substitution: solve x + y = 6 for x: x = 6 − y. Substitute into 3x + y = 12: 3(6 − y) + y = 12, 18 − 3y + y = 12, −2y = −6, y = 3. Then x = 3. Solution: (3, 3) (also correct, but only one option can be keyed A for this pair).|C. The solution is (6, 12).|D. The solution is (12, 6).",
+            "Aisha at Riverside Secondary says: 「For x + y = 7 and x − y = 1, the graphical method gives the intersection at (4, 3). I check: 4 + 3 = 7 ✓. 4 − 3 = 1 ✓. Both equations are satisfied.」 Is this correct?|A. Yes, the intersection is (4, 3) and it satisfies both ✓.|B. No, the graphical method cannot find the intersection.|C. No, 4 + 3 = 7 is false.|D. No, the intersection is (7, 1).",
+            "At Riverside Secondary, Wei has 2x + y = 13 and x + y = 8. What is the solution?|A. Elimination: subtract to get x = 5. Then y = 3. Solution: (5, 3) ✓.|B. The solution is (8, 13).|C. The solution is (3, 5) (swapped).|D. The solution is x = 5 only (missing y).",
+            "Mr Lim at Riverside Secondary asks: 「For y = x + 2 and x + y = 8, use substitution.」 Aisha substitutes y = x + 2 into x + y = 8: x + (x + 2) = 8, 2x + 2 = 8, 2x = 6, x = 3. Then y = 5. What is the answer?|A. The solution is (3, 5) ✓.|B. The solution is (5, 3) (swapped).|C. The solution is (2, 8).|D. The solution is x = 3 only (missing y).",
+            "At Riverside Secondary, Wei has 3x + 2y = 16 and x − y = 1. He uses elimination. Multiply the second by 2: 2x − 2y = 2. Add to the first: (3x + 2y) + (2x − 2y) = 16 + 2, 5x = 18. Which statement is correct?|A. Wei's working is wrong. 5x = 18 gives x = 18/5, not an integer. He should check his equations or method ✓.|B. Wei's working is correct. The solution is (18/5, y).|C. The solution is (16, 1).|D. The solution is (3, 2).",
+          ]),
+          correctAnswer: "A,A,A,A,A,A,A,A",
+          points: 16,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `Part 2: Show Your Working (写出算式步骤)
+
+Riverside Secondary School has simultaneous linear equations exercises. Answer the questions below. Show your working clearly.
+
+Question (a)
+At Riverside Secondary, Mr Lim gives Wei two equations: x + y = 9 and x − y = 3.
+(i) Solve using elimination. Show your working step by step: add or subtract the two equations to eliminate one variable, find x, then substitute back to find y.
+(ii) Check your solution by substituting x and y back into both equations.
+
+Question (b)
+Aisha at Riverside Secondary has two equations: y = x + 1 and 2x + y = 10.
+(i) Solve using substitution. Show your working step by step: y is already solved in the first equation, so substitute y = x + 1 into the second equation, solve for x, then find y.
+(ii) Check your solution by substituting x and y back into both equations.
+
+Question (c)
+At Riverside Secondary, Mr Lim writes: 「For x + 2y = 11 and x − y = 2, solve using elimination.」
+(i) Show your working step by step: subtract one equation from the other to eliminate x, find y, then substitute back to find x.
+(ii) Mr Lim says: 「The graphical method can also solve this. Each equation is a line. The solution is the intersection point. For x + 2y = 11: x-intercept (11, 0), y-intercept (0, 5.5). Wait, 5.5 is not an integer. Let me recheck: set x=0, 0 + 2y = 11, 2y = 11, y = 5.5. Hmm, for this pair, let's use algebra instead.」 Is Mr Lim correct that the y-intercept of x + 2y = 11 is (0, 5.5)? Explain.
+
+写作提示 / Tips:
+✓ 每题分步骤写出推理 (Show working steps for each question)
+✓ Part 2 官方要求：clearly show the method of solution by writing working steps, plus the final answer
+✓ 不用计算器 (No calculators allowed)
+✓ 联立方程步骤示范 (simultaneous equations examples)：
+  • For x + y = 8 and x − y = 2, solve using elimination:
+    Question: For x + y = 8 and x − y = 2, solve using elimination.
+    Solution: ① Add the two equations to eliminate y: (x + y) + (x − y) = 8 + 2. ② Simplify the left side: x + y + x − y = 2x. Simplify the right side: 8 + 2 = 10. So 2x = 10. ③ Divide both sides by 2: x = 5. ④ Substitute x = 5 into the first equation x + y = 8: 5 + y = 8, so y = 3. ⑤ The solution is (5, 3). ⑥ Check: Substitute x=5 and y=3 into both equations. First equation: 5 + 3 = 8 ✓. Second equation: 5 − 3 = 2 ✓. Both are satisfied. Answer: (5, 3). (Note: Elimination: add or subtract equations to eliminate one variable. Here, adding eliminates y because +y and −y cancel.)
+  • For 2x + y = 10 and y = 2x + 2, solve using substitution:
+    Question: For 2x + y = 10 and y = 2x + 2, solve using substitution.
+    Solution: ① The second equation y = 2x + 2 is already solved for y. ② Substitute y = 2x + 2 into the first equation 2x + y = 10: 2x + (2x + 2) = 10. ③ Simplify: 2x + 2x + 2 = 10, so 4x + 2 = 10. ④ Subtract 2 from both sides: 4x = 8. ⑤ Divide both sides by 4: x = 2. ⑥ Substitute x = 2 into y = 2x + 2: y = 2(2) + 2 = 4 + 2 = 6. ⑦ The solution is (2, 6). ⑧ Check: Substitute x=2 and y=6 into both equations. First equation: 2(2) + 6 = 4 + 6 = 10 ✓. Second equation: 6 = 2(2) + 2 = 4 + 2 = 6 ✓. Both are satisfied. Answer: (2, 6). (Note: Substitution: make one variable the subject of one equation, then substitute into the other. Here, y is already the subject in the second equation.)
+  • For 3x + y = 11 and x + y = 5, solve using elimination:
+    Question: For 3x + y = 11 and x + y = 5, solve using elimination.
+    Solution: ① Subtract the second equation from the first to eliminate y: (3x + y) − (x + y) = 11 − 5. ② Simplify the left side: 3x + y − x − y = 2x. Simplify the right side: 11 − 5 = 6. So 2x = 6. ③ Divide both sides by 2: x = 3. ④ Substitute x = 3 into the second equation x + y = 5: 3 + y = 5, so y = 2. ⑤ The solution is (3, 2). ⑥ Check: Substitute x=3 and y=2 into both equations. First equation: 3(3) + 2 = 9 + 2 = 11 ✓. Second equation: 3 + 2 = 5 ✓. Both are satisfied. Answer: (3, 2). (Note: Elimination: subtract equations to eliminate y because both have +y with the same coefficient.)
+✓ 关键步骤：Step 1: Choose a method: elimination (add or subtract equations to cancel one variable) or substitution (solve for one variable, then substitute into the other equation)（选方法：消元法（加或减方程来消掉一个变量）或代入法（解出一个变量，然后代入另一个方程））. Step 2: For elimination, add or subtract equations after matching coefficients. For substitution, make one variable the subject and substitute（消元法：匹配系数后加或减方程。代入法：解出一个变量并代入）. Step 3: Solve for one variable, then substitute back to find the other（解出一个变量，然后代回求另一个）. Step 4: Write the solution as a pair (x, y)（把解写成数对 (x, y)）. Step 5: Check by substituting x and y back into BOTH original equations. Both sides must equal（检验：把 x 和 y 代回两个原方程。两边必须相等）.
+✓ 化石 (fossil errors)：
+  • Offering both substitution and elimination as two correct options for the same pair on the same item（在同一道题上，同时提供代入法和消元法作为两个「正确」选项。一道题，一个正确选项。）
+  • Offering both 「the intersection is (a,b)」 and 「x=a, y=b」 as two keyed-correct options on one item（在同一道题上，同时提供「交点是 (a,b)」和「x=a, y=b」作为两个正确选项。只能有一个正确选项。）
+  • Writing pairs that copy 微课 examples（照抄微课的方程组：微课用 x + y = 8 and x − y = 2，作业就不能再用这一对。）
+  • Non-integer answers（答案不是整数：coefficients 要挑好，让 x 和 y 都是整数。）
+  • Claiming a pair of distinct lines has two solutions（声称一对不同的直线有两个解：一对不同的直线只有一个交点，所以只有一个解 (x, y)。）
+  • Swapping x and y（交换 x 和 y：solution is (5, 3) 不是 (3, 5)。）
+  • Only writing x, forgetting y（只写 x=5，忘了 y=3。Solution 是 (x, y) 数对。）
+  • 本周教 Sec 2 NUMBER AND ALGEBRA, N7. Equations and inequalities: 7.8 solving simultaneous linear equations in two variables by: substitution and elimination methods, graphical method（N7.8 解二元一次联立方程：代入法、消元法、图解法）。本周是 N7.8 only. Simultaneous linear equations: (1) a pair of linear equations in x and y; the solution is the pair (x, y) that satisfies both. (2) substitution: make one variable the subject of one equation, substitute into the other. (3) elimination: add or subtract equations after matching a coefficient. (4) graphical: each equation is a line; the solution is the intersection point. (5) check by substituting the solution back into both equations. Friendly integers only. No calculator. 本周不教 7.9 quadratic equations（不教一元二次方程）。本周不教 7.10 formulating a pair（不把「从应用题列方程组」作为本周核心；轻度故事框架可以，但不作为本周主要技能）。Fossil: offering both methods as two correct options for the same pair on the same item; writing pairs that copy 微课; non-integer answers; claiming a pair has two solutions; swapping x and y; only writing x, forgetting y. Cast: secondary Wei, Aisha, Mr Lim at Riverside Secondary. 第 71 周已完成 N7.7 graphs of linear equations（直线方程的图像）。本周继续 N7 Equations and inequalities（方程和不等式），学习 7.8 solving simultaneous linear equations（解二元一次联立方程）。本周不教 7.9 quadratic（不教一元二次方程）。本周不教 7.10 formulating a pair from a word problem as the main skill（不把「从应用题列方程组」作为本周主要技能）。
+
+Note: This is a sample of Part 2 short-answer/open-ended questions. The official paper has 20 short-answer + 10–15 open-ended items in 1 hour 45 minutes.`,
+          points: 20,
+        },
+      ],
+    },
   ];
 
 
