@@ -11866,6 +11866,103 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
         },
       ],
     },
+    {
+      level: "SMATH",
+      weekNumber: 55,
+      title: "平方厘米与平方米换算 / 立方厘米与立方米换算 — Conversion between cm² and m², and between cm³ and m³",
+      description: "Sec 1 G5.4: conversion between cm² and m², and between cm³ and m³ (AEIS 中学数学第 55 周 / SMATH Week 55)",
+      isSample: false,
+      errorFocus: "using 100 instead of 10 000 for area (1 m² = 100 cm² is WRONG, correct is 1 m² = 10 000 cm²); using 100 or 10 000 instead of 1 000 000 for volume (1 m³ = 1 000 000 cm³)",
+      parentBrief: "本周是中学 AEIS 数学第 55 周，对应官方 SEAB Sec 1 卷型（https://www.seab.gov.sg/aeis/test-details/ 2026年7月1日更新）。Part 1 Multiple-choice questions：34 道 MCQ，30 分钟。Part 2 Short-answer questions (20 items) and open-ended questions (10 to 15 items)：1 小时 45 分钟。Calculators are not allowed（不允许使用计算器）。Short-answer and open-ended questions：candidates are required to show the method of solution clearly by writing working steps in the spaces provided, plus the final answer（需写出算式步骤和最终答案）。AEIS-Secondary 官方 preceding-level 规则：申请 Sec 2 入学者需熟悉 Sec 2 前一级的内容。官方举例：apply Secondary 3 → be familiar with Secondary 2 content. 本周针对 Sec 2 申请者，内容为 Sec 2 前一级（Sec 1）的官方 MOE 2020 G3 Mathematics Syllabuses, Secondary One, GEOMETRY AND MEASUREMENT, G5. Mensuration: 5.4 conversion between cm² and m², and between cm³ and m³（平方厘米与平方米换算 / 立方厘米与立方米换算）。官方 5.4 wording（逐字引用）：「conversion between cm² and m², and between cm³ and m³」。本周只教 G5.4 conversion between cm² and m², and between cm³ and m³（平方厘米与平方米的换算 / 立方厘米与立方米的换算）。本周不教 5.5 problems involving volume and surface area of composite solids（组合立体图形的体积和表面积）。第 52–54 周已完成 G5.1–G5.3。本周方法：1 m = 100 cm（长度换算已知，用于推导平方和立方的换算）。1 m² = 100 × 100 = 10 000 cm²（平方米 = 10 000 平方厘米）。所以 1 cm² = 1/10 000 m²。1 m³ = 100 × 100 × 100 = 1 000 000 cm³（立方米 = 1 000 000 立方厘米）。所以 1 cm³ = 1/1 000 000 m³。Friendly integers（友好整数）：2 m² → 20 000 cm²; 3 m² → 30 000 cm²; 50 000 cm² → 5 m²; 2 m³ → 2 000 000 cm³; 4 000 000 cm³ → 4 m³。可以换算一个已算出的面积或体积（例如：a 2 m by 3 m rectangle = 6 m² = 60 000 cm²）但不开始 composite solids。本周化石 fossil errors：using 100 instead of 10 000 for area（用 100 代替 10 000 换算面积，说 1 m² = 100 cm² 是错的，正确是 1 m² = 10 000 cm²）；using 100 or 10 000 instead of 1 000 000 for volume（用 100 或 10 000 代替 1 000 000 换算体积，正确是 1 m³ = 1 000 000 cm³）。唯一性 unique keys：2 m² and 20 000 cm² are the SAME area（2 m² 和 20 000 cm² 是同一个面积）。Never put both as options on one item if the stem would make both true（如果题干会让两者都对，永远不要把两者都作为选项）。2 m³ and 2 000 000 cm³ same rule（2 m³ 和 2 000 000 cm³ 同理）。「Which is NOT」or「Is X correct?」must have exactly one true option（「哪个不对」或「X 对吗」题型必须有且仅有一个真选项）。No two Yes/No+reason options that are both true（不能有两个 Yes/No+理由 选项都对）。Never write a 「Which is NOT」 item whose keyed A option is actually the correct working（永远不要写一个「哪个不对」题，其 A 选项实际上是正确算式）。No「Both A and B」or「All of A and C」meta-options（不要「A 和 B 都对」「A 和 C 都对」这样的元选项）。本周作业是样本，不是完整 34 + 20 + 10–15 题。非官方机构运营（affiliation 非官方机构 is OK）。不发明官方未提及的内容（do not invent official facts）。不声称 AEIS 是 G3 paper（G3 只是官方 preceding-level 内容来源）。不发明官方 cut-scores 或 extra official names。第 52–54 周已完成 G5.1–G5.3，本周只教 G5.4 conversion between cm² and m², and between cm³ and m³（平方厘米与平方米换算 / 立方厘米与立方米换算）。本周不教 5.5 composite solids。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "At Riverside Secondary, Mr Lim asks Wei: 「Convert 2 m² to cm².」 Which working is correct?|A. 2 m² = 2 × 10 000 cm² = 20 000 cm²|B. 2 m² = 2 × 100 cm² = 200 cm²|C. 2 m² = 2 × 1 000 cm² = 2 000 cm²|D. 2 m² = 2 ÷ 10 000 cm² = 0.0002 cm²",
+            "Aisha at Riverside Secondary has a rectangle with area 50 000 cm². Mr Lim asks: 「Convert this area to m².」 Which is correct?|A. 50 000 cm² = 50 000 ÷ 10 000 m² = 5 m²|B. 50 000 cm² = 50 000 ÷ 100 m² = 500 m²|C. 50 000 cm² = 50 000 × 10 000 m² = 500 000 000 m²|D. 50 000 cm² = 50 000 ÷ 1 000 m² = 50 m²",
+            "At Riverside Secondary, Wei says: 「1 m² = 100 cm² because 1 m = 100 cm.」 Is Wei correct?|A. No, Wei is wrong. 1 m² = 100 × 100 = 10 000 cm², not 100 cm².|B. Yes, Wei is correct. 1 m² = 100 cm² because 1 m = 100 cm.|C. Yes, Wei is correct. 1 m² = 100 cm² is the standard conversion for area.|D. No, Wei is wrong. 1 m² = 1 000 cm².",
+            "Mr Lim at Riverside Secondary gives a cube with volume 3 000 000 cm³. Aisha calculates: 「3 000 000 cm³ = 3 000 000 ÷ 1 000 000 m³ = 3 m³」. Is Aisha correct?|A. Yes, Aisha is correct. 1 m³ = 1 000 000 cm³, so 3 000 000 cm³ = 3 m³.|B. No, Aisha is wrong. 3 000 000 cm³ = 3 000 000 ÷ 10 000 m³ = 300 m³.|C. No, Aisha is wrong. 3 000 000 cm³ = 3 000 000 ÷ 100 m³ = 30 000 m³.|D. No, Aisha is wrong. 3 000 000 cm³ = 3 000 000 × 1 000 000 m³ = 3 000 000 000 000 m³.",
+            "At Riverside Secondary, Mr Lim draws a rectangle 2 m by 3 m. He asks Wei: 「What is the area in cm²?」 Which working is correct?|A. Area = 2 m × 3 m = 6 m²; 6 m² = 6 × 10 000 cm² = 60 000 cm²|B. Area = 2 m × 3 m = 6 m²; 6 m² = 6 × 100 cm² = 600 cm²|C. Area = 200 cm × 300 cm = 60 000 cm² (direct method is also correct)|D. Both A and C are correct (either convert at the end or at the beginning)",
+          ]),
+          correctAnswer: "A,A,A,A,A",
+          points: 10,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "At Riverside Secondary, Aisha needs to convert 4 m² to cm². What is the answer?|A. 4 m² = 40 000 cm²|B. 4 m² = 400 cm²|C. 4 m² = 4 000 cm²|D. 4 m² = 400 000 cm²",
+            "Wei at Riverside Secondary has a square with area 80 000 cm². What is the area in m²?|A. 80 000 cm² = 8 m²|B. 80 000 cm² = 800 m²|C. 80 000 cm² = 80 m²|D. 80 000 cm² = 0.8 m²",
+            "Mr Lim asks: 「Convert 5 m³ to cm³.」 Which is correct?|A. 5 m³ = 5 000 000 cm³|B. 5 m³ = 50 000 cm³|C. 5 m³ = 500 cm³|D. 5 m³ = 500 000 cm³",
+            "Aisha at Riverside Secondary has a cuboid with volume 7 000 000 cm³. What is the volume in m³?|A. 7 000 000 cm³ = 7 m³|B. 7 000 000 cm³ = 700 m³|C. 7 000 000 cm³ = 70 m³|D. 7 000 000 cm³ = 0.7 m³",
+            "At Riverside Secondary, Wei converts: 「3 m² = 3 × 100 = 300 cm²」. Is Wei correct?|A. No, Wei is wrong. 1 m² = 10 000 cm², so 3 m² = 30 000 cm², not 300 cm².|B. Yes, Wei is correct. 1 m² = 100 cm², so 3 m² = 300 cm².|C. No, Wei is wrong. 3 m² = 3 000 cm².|D. Yes, Wei is correct. 3 m² = 300 cm² is the standard area conversion.",
+            "Mr Lim shows a rectangle 4 m by 2 m. Aisha calculates the area in cm². Which working is correct?|A. Area = 4 m × 2 m = 8 m²; 8 m² = 8 × 10 000 cm² = 80 000 cm²|B. Area = 4 m × 2 m = 8 m²; 8 m² = 8 × 100 cm² = 800 cm²|C. Area = 4 m × 2 m = 8 m²; 8 m² = 8 × 1 000 cm² = 8 000 cm²|D. Area = 4 + 2 = 6 m²; 6 m² = 60 000 cm²",
+            "At Riverside Secondary, Wei has a cuboid 1 m by 1 m by 2 m. What is the volume in cm³?|A. Volume = 1 m × 1 m × 2 m = 2 m³; 2 m³ = 2 × 1 000 000 cm³ = 2 000 000 cm³|B. Volume = 1 m × 1 m × 2 m = 2 m³; 2 m³ = 2 × 10 000 cm³ = 20 000 cm³|C. Volume = 1 m × 1 m × 2 m = 2 m³; 2 m³ = 2 × 100 cm³ = 200 cm³|D. Volume = 1 + 1 + 2 = 4 m³; 4 m³ = 4 000 000 cm³",
+            "Mr Lim at Riverside Secondary asks: 「Convert 30 000 cm² to m².」 Aisha says: 「30 000 cm² = 30 000 ÷ 100 = 300 m²」. Is Aisha correct?|A. No, Aisha is wrong. 1 m² = 10 000 cm², so 30 000 cm² = 30 000 ÷ 10 000 = 3 m², not 300 m².|B. Yes, Aisha is correct. 30 000 cm² = 300 m².|C. No, Aisha is wrong. 30 000 cm² = 30 m².|D. Yes, Aisha is correct. 30 000 ÷ 100 = 300 is the correct working.",
+          ]),
+          correctAnswer: "A,A,A,A,A,A,A,A",
+          points: 16,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `Part 2: Show Your Working (写出算式步骤)
+
+Riverside Secondary School has unit conversion exercises on area and volume. Answer the questions below. Show your working clearly.
+
+Question (a)
+At Riverside Secondary, Mr Lim gives Wei the following area conversions:
+(i) Convert 3 m² to cm². Show your working.
+(ii) Convert 70 000 cm² to m². Show your working.
+
+Question (b)
+Aisha has a rectangle at Riverside Secondary with length 5 m and width 2 m.
+(i) Calculate the area of the rectangle in m². Show your working.
+(ii) Convert the area from part (i) to cm². Show your working.
+(iii) Mr Lim says: 「If you multiply 1 m by 1 m, you get 1 m². Since 1 m = 100 cm, then 1 m² = 100 cm².」 Explain why Mr Lim's statement is wrong. What is the correct conversion?
+
+Question (c)
+At Riverside Secondary, Wei has volume conversion exercises:
+(i) Convert 4 m³ to cm³. Show your working.
+(ii) Convert 6 000 000 cm³ to m³. Show your working.
+(iii) Aisha has a cube with edge 1 m. Calculate the volume in m³, then convert to cm³. Show your working.
+
+写作提示 / Tips:
+✓ 每题分步骤写出推理 (Show working steps for each question)
+✓ Part 2 官方要求：clearly show the method of solution by writing working steps, plus the final answer
+✓ 不用计算器 (No calculators allowed)
+✓ 平方厘米与平方米换算 / 立方厘米与立方米换算步骤示范 (conversion between cm² and m², and between cm³ and m³ examples)：
+  • Convert m² to cm²:
+    Question: Convert 2 m² to cm².
+    Solution: ① We know 1 m = 100 cm. ② For area: 1 m² = 1 m × 1 m = 100 cm × 100 cm = 10 000 cm². ③ So 2 m² = 2 × 10 000 cm² = 20 000 cm². Answer: 2 m² = 20 000 cm². (Note: 1 m² = 10 000 cm², not 100 cm².)
+  • Convert cm² to m²:
+    Question: Convert 50 000 cm² to m².
+    Solution: ① We know 1 m² = 10 000 cm². ② So 1 cm² = 1/10 000 m². ③ 50 000 cm² = 50 000 ÷ 10 000 m² = 5 m². Answer: 50 000 cm² = 5 m². (Note: Divide by 10 000, not by 100.)
+  • Convert m³ to cm³:
+    Question: Convert 3 m³ to cm³.
+    Solution: ① We know 1 m = 100 cm. ② For volume: 1 m³ = 1 m × 1 m × 1 m = 100 cm × 100 cm × 100 cm = 1 000 000 cm³. ③ So 3 m³ = 3 × 1 000 000 cm³ = 3 000 000 cm³. Answer: 3 m³ = 3 000 000 cm³. (Note: 1 m³ = 1 000 000 cm³, not 100 or 10 000.)
+  • Convert cm³ to m³:
+    Question: Convert 4 000 000 cm³ to m³.
+    Solution: ① We know 1 m³ = 1 000 000 cm³. ② So 1 cm³ = 1/1 000 000 m³. ③ 4 000 000 cm³ = 4 000 000 ÷ 1 000 000 m³ = 4 m³. Answer: 4 000 000 cm³ = 4 m³. (Note: Divide by 1 000 000, not by 100 or 10 000.)
+  • Rectangle area then convert:
+    Question: A rectangle has length 2 m and width 3 m. Find the area in m², then convert to cm².
+    Solution: ① Area = length × width = 2 m × 3 m = 6 m². ② Convert to cm²: 6 m² = 6 × 10 000 cm² = 60 000 cm². Answer: Area = 6 m² = 60 000 cm². (Note: You can also convert the dimensions first: 2 m = 200 cm, 3 m = 300 cm, so area = 200 cm × 300 cm = 60 000 cm². Both methods work.)
+✓ 关键步骤：Step 1: Identify what to convert（确定要换算什么：area cm²↔m² or volume cm³↔m³）. Step 2: Write the conversion factor（写出换算因子：1 m² = 10 000 cm² for area, 1 m³ = 1 000 000 cm³ for volume）. Step 3: Use the correct factor（用正确的因子：for area multiply or divide by 10 000; for volume multiply or divide by 1 000 000）. Step 4: Calculate step by step（逐步计算）. Step 5: State the final answer with units（陈述最终答案并带单位 cm² or m² for area, cm³ or m³ for volume）.
+✓ 化石 (fossil errors)：
+  • Using 100 instead of 10 000 for area（用 100 代替 10 000 换算面积）：saying 「1 m² = 100 cm²」（错误：1 m² = 100 cm²。正确：1 m² = 10 000 cm². Although 1 m = 100 cm for length, for area we must square: 1 m² = (1 m) × (1 m) = (100 cm) × (100 cm) = 10 000 cm². If you use 100 instead of 10 000, you get the wrong answer. For example, 2 m² = 2 × 100 = 200 cm² is WRONG; correct is 2 m² = 2 × 10 000 = 20 000 cm².）
+  • Using 100 or 10 000 instead of 1 000 000 for volume（用 100 或 10 000 代替 1 000 000 换算体积）：saying 「1 m³ = 100 cm³」or「1 m³ = 10 000 cm³」（错误：1 m³ = 100 cm³ 或 1 m³ = 10 000 cm³。正确：1 m³ = 1 000 000 cm³. For volume we must cube: 1 m³ = (1 m) × (1 m) × (1 m) = (100 cm) × (100 cm) × (100 cm) = 1 000 000 cm³. If you use 100 or 10 000, you get the wrong answer. For example, 3 m³ = 3 × 100 = 300 cm³ is WRONG; 3 m³ = 3 × 10 000 = 30 000 cm³ is WRONG; correct is 3 m³ = 3 × 1 000 000 = 3 000 000 cm³.）
+  • 本周教 Sec 1 GEOMETRY AND MEASUREMENT, G5. Mensuration: 5.4 conversion between cm² and m², and between cm³ and m³（G5.4 平方厘米与平方米换算 / 立方厘米与立方米换算）。本周是 G5.4 only. 1 m = 100 cm (length). 1 m² = 100 × 100 = 10 000 cm² (area). 1 m³ = 100 × 100 × 100 = 1 000 000 cm³ (volume). Friendly integers: 2 m² → 20 000 cm²; 50 000 cm² → 5 m²; 3 m³ → 3 000 000 cm³; 4 000 000 cm³ → 4 m³. 可以换算一个已算出的面积或体积（a 2 m by 3 m rectangle = 6 m² = 60 000 cm²）。No calculator. Units: cm², m² for area; cm³, m³ for volume. 本周不教 5.5 composite solids（组合立体图形，下周内容）。第 52–54 周已完成 G5.1–G5.3。
+
+Note: This is a sample of Part 2 short-answer/open-ended questions. The official paper has 20 short-answer + 10–15 open-ended items in 1 hour 45 minutes.`,
+          points: 20,
+        },
+      ],
+    },
   ];
 
   // =================================================================

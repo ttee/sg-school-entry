@@ -726,6 +726,15 @@ export default function WeikeMiniLesson({ level, weekNumber }: WeikeMiniLessonPr
       ],
       gloss: "AEIS 中学数学第 54 周 / SMATH Week 54. 本周例题：Sec 1 G5.3 volume and surface area of prism and cylinder（棱柱体积表面积 / 圆柱体积表面积）。官方 5.3 wording（逐字引用）：'volume and surface area of prism and cylinder'。本周是 G5.3 only. Prism（棱柱）volume = area of uniform cross-section (base) × length/height（底面积 × 高）。Cuboid is a rectangular prism: V = lwh, SA = 2(lw+lh+wh). Cylinder（圆柱）V = πr²h. Closed cylinder SA = 2πr² + 2πrh（两个圆形底面 + 侧面）。Open cylinder (one base, no lid) SA = πr² + 2πrh. For π use 22/7 with r a multiple of 7 (r = 7, 14) so answers are integers, OR leave as π form (e.g. 98π cm³). Units: cm³ for volume, cm² for surface area. No calculator. Cuboid 8×5×4 → V = 160 cm³. Closed cylinder r=7, h=10 → V = 1540 cm³, SA = 748 cm². 本周不教 5.4 unit conversion cm²↔m² / cm³↔m³（单位换算），5.5 composite solids（组合立体图形）。第 52–53 周已完成 G5.1–G5.2。"
     },
+    "SMATH-55": {
+      examples: [
+        "2 m² = 2 × 10 000 cm² = 20 000 cm².",
+        "50 000 cm² = 50 000 ÷ 10 000 m² = 5 m².",
+        "3 m³ = 3 × 1 000 000 cm³ = 3 000 000 cm³.",
+        "4 000 000 cm³ = 4 000 000 ÷ 1 000 000 m³ = 4 m³."
+      ],
+      gloss: "AEIS 中学数学第 55 周 / SMATH Week 55. 本周例题：Sec 1 G5.4 conversion between cm² and m², and between cm³ and m³（平方厘米与平方米换算 / 立方厘米与立方米换算）。官方 5.4 wording（逐字引用）：'conversion between cm² and m², and between cm³ and m³'。本周是 G5.4 only. 1 m = 100 cm（长度换算已知，用于推导）。1 m² = 100 × 100 = 10 000 cm²（平方米 = 10 000 平方厘米，不是 100）。1 m³ = 100 × 100 × 100 = 1 000 000 cm³（立方米 = 1 000 000 立方厘米，不是 100 或 10 000）。Friendly integers: 2 m² = 20 000 cm²; 50 000 cm² = 5 m²; 3 m³ = 3 000 000 cm³; 4 000 000 cm³ = 4 m³. 可以换算一个已算出的面积或体积（a 2 m by 3 m rectangle = 6 m² = 60 000 cm²）。No calculator. Units: cm² and m² for area; cm³ and m³ for volume. 本周不教 5.5 composite solids（组合立体图形）。第 52–54 周已完成 G5.1–G5.3。"
+    },
     "SEC-0": {
       fossil: "Although I was nervous, but I tried. ✗ (中文「虽然…但是…」迁移) / I go yesterday ✗ (叙事体过去时掉落)",
       examples: [
