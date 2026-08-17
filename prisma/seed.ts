@@ -9471,6 +9471,96 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
         },
       ],
     },
+    {
+      level: "SMATH",
+      weekNumber: 30,
+      title: "数学 第 30 周 / Maths Week 30",
+      description: "AEIS-Secondary Mathematics: Sec 1 algebraic expression for the nth term",
+      isSample: false,
+      errorFocus: "writing n + 2 for 3, 5, 7, 9 (the common difference, not the nth term); using the first term as the formula (always 3); writing 2n for 3, 5, 7, 9; treating n as \"the next term\" not the position",
+      parentBrief: "本周是中学 AEIS 数学第 30 周，对应官方 SEAB Sec 1 卷型（https://www.seab.gov.sg/aeis/test-details/ 2026年7月1日更新）。Part 1 Multiple-choice questions：34 道 MCQ，30 分钟。Part 2 Short-answer questions (20 items) and open-ended questions (10 to 15 items)：1 小时 45 分钟。Calculators are not allowed（不允许使用计算器）。Short-answer and open-ended questions：candidates are required to show the method of solution clearly by writing working steps in the spaces provided, plus the final answer（需写出算式步骤和最终答案）。AEIS-Secondary 官方 preceding-level 规则：申请 Sec 2 入学者需熟悉 Sec 2 前一级的内容。官方举例：apply Secondary 3 → be familiar with Secondary 2 content. 本周针对 Sec 2 申请者，内容为 Sec 2 前一级（Sec 1）的官方 MOE 2020 G3 Mathematics Syllabuses, Secondary One, NUMBER AND ALGEBRA, N5. Algebraic expressions and formulae: 5.5 recognising and representing patterns/relationships by finding an algebraic expression for the nth term（识别和表示模式/关系，找到第 n 项的代数式）。第 26–29 周已完成 5.1–5.4（using letters to represent numbers、interpreting notations、evaluation of algebraic expressions、translation of simple real-world situations into algebraic expressions），本周只教 5.5 recognising and representing patterns/relationships by finding an algebraic expression for the nth term。本周不教 5.6 addition and subtraction of linear expressions，5.7 simplification of linear algebraic expressions，5.8 use of brackets and extraction of common factors（这些是后续周次内容）。官方 5.5 wording（官方术语，逐字引用）：'recognising and representing patterns/relationships by finding an algebraic expression for the nth term'。本周方法：Find the nth term of a simple linear sequence（找简单线性数列的第 n 项）。2, 4, 6, 8, … → nth term = 2n。3, 5, 7, 9, … → nth term = 2n + 1（check: n=1 → 3; n=2 → 5）。4, 7, 10, 13, … → nth term = 3n + 1（n=1 → 4）。5, 8, 11, 14, … → nth term = 3n + 2. Common difference d, first term a: nth term = a + (n − 1)d, then simplify to pn + q. Friendly integers. No calculator. Do not use quadratic sequences（不用二次数列）。本周化石 fossil errors：writing n + 2 for 3, 5, 7, 9（错误地写 n + 2，这只是公差，不是第 n 项；正确应该是 2n + 1，因为 n=1 → 3，n=2 → 5，而 n + 2 在 n=2 时给出 4 不是 5）；using the first term as the formula (always 3)（把第一项当作公式，永远是 3）；writing 2n for 3, 5, 7, 9（错误地写 2n，n=1 → 2 不是 3）；treating n as \"the next term\" not the position（把 n 当作"下一项"而不是位置）。唯一性 unique keys：两个选项不能是同一个表达式或同一组值（Two options must not be the same expression or the same sequence of values）。For 3, 5, 7, 9 do not offer both 2n + 1 and n + 2 as two \"correct\" options（对于 3, 5, 7, 9，不要同时提供 2n + 1 和 n + 2 作为两个"正确"选项）— n + 2 is the fossil and is WRONG（n + 2 是化石错误，是错的）(n=1 would give 3, but n=2 would give 4 not 5)。Check every formula at n=1 and n=2 before keying it（在录入每个公式前检查 n=1 和 n=2）。本周作业是样本，不是完整 34 + 20 + 10–15 题。非官方机构运营（affiliation 非官方机构 is OK）。不发明官方未提及的内容（do not invent official facts）。不声称 AEIS 是 G3 paper（G3 只是官方 preceding-level 内容来源，do NOT claim AEIS is a G3 paper）。不发明官方 cut-scores 或 extra official names。第 26–29 周已完成 5.1–5.4，本周只教 5.5 recognising and representing patterns/relationships by finding an algebraic expression for the nth term（第 n 项）。本周不教 5.6 addition and subtraction of linear expressions（线性表达式加减），5.7 simplification（化简），5.8 brackets and common factors（括号和公因数）。这些是后续周次内容。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "Find the nth term of the sequence 2, 4, 6, 8, …|A. n|B. 2n|C. n + 2|D. 2n + 2",
+            "Find the nth term of the sequence 3, 5, 7, 9, …|A. n + 2|B. 2n|C. 2n + 1|D. 3n",
+            "Find the nth term of the sequence 4, 7, 10, 13, …|A. 3n|B. n + 3|C. 3n + 1|D. 3n + 4",
+            "What is the 10th term of the sequence with nth term 2n + 1?|A. 11|B. 19|C. 21|D. 23",
+            "Which working is correct for finding the nth term of 3, 5, 7, 9, …?|A. Common difference is 2, so nth term = n + 2|B. Common difference is 2, first term is 3, so nth term = 2n + 1|C. First term is 3, so nth term = 3|D. Common difference is 2, so nth term = 2n",
+          ]),
+          correctAnswer: "B,C,C,C,B",
+          points: 10,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "Find the nth term of the sequence 5, 8, 11, 14, …|A. 3n + 2|B. 3n + 5|C. n + 3|D. 5n",
+            "Find the nth term of the sequence 1, 3, 5, 7, …|A. n + 1|B. 2n − 1|C. 2n + 1|D. n + 2",
+            "What is the 5th term of the sequence with nth term 3n + 1?|A. 14|B. 15|C. 16|D. 18",
+            "Which is NOT the nth term of the sequence 2, 5, 8, 11, …?|A. 3n − 1|B. 2 + 3(n − 1)|C. 2n + 1|D. 3n + (−1)",
+            "Find the nth term of the sequence 5, 9, 13, 17, …|A. 4n + 1|B. n + 4|C. 5n|D. 4n + 5",
+            "Wei writes the sequence 6, 11, 16, 21, … What is the nth term?|A. 5n|B. 5n + 1|C. n + 5|D. 6n",
+            "Aisha is asked to find the 8th term of the sequence with nth term 4n − 3. What is the answer?|A. 26|B. 29|C. 32|D. 35",
+            "Mr Lim at Riverside Secondary writes 1, 4, 7, 10, … Which expression gives the nth term?|A. 3n + 1|B. n + 3|C. 3n − 2|D. 4n − 3",
+          ]),
+          correctAnswer: "A,B,C,C,A,B,B,C",
+          points: 16,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `Part 2: Show Your Working (写出算式步骤)
+
+Riverside Secondary School has algebraic expression problems. Answer the questions below. Find the nth term and check your answer by substituting n = 1 and n = 2.
+
+Question (a)
+Find the nth term of the sequence 2, 4, 6, 8, …
+Show your working and check your answer for n = 1 and n = 2.
+
+Question (b)
+Wei writes the sequence 3, 5, 7, 9, …
+(i) Find the nth term. Show your working.
+(ii) Check your answer by substituting n = 1 and n = 2.
+(iii) Aisha says the nth term is n + 2. Explain why this is wrong.
+
+Question (c)
+Aisha writes the sequence 4, 7, 10, 13, …
+Find the nth term. Show your working and check your answer for n = 1 and n = 2.
+
+写作提示 / Tips:
+✓ 每题分步骤写出推理 (Show working steps for each question)
+✓ Part 2 官方要求：clearly show the method of solution by writing working steps, plus the final answer
+✓ 不用计算器 (No calculators allowed)
+✓ 找第 n 项步骤示范 (finding the nth term examples)：
+  • 2, 4, 6, 8, … → nth term = 2n：
+    Find the nth term of the sequence 2, 4, 6, 8, … Show your working and check for n = 1 and n = 2.
+    Solution: ① Identify the pattern: The sequence increases by 2 each time. ② Common difference d = 2. ③ First term a = 2. ④ nth term = a + (n − 1)d = 2 + (n − 1) × 2 = 2 + 2n − 2 = 2n. ⑤ Check: When n = 1, 2n = 2 × 1 = 2 ✓. When n = 2, 2n = 2 × 2 = 4 ✓. Answer: 2n. (Note: The sequence increases by 2 each time, so the nth term is 2n. When n = 1, we get 2, the first term. When n = 2, we get 4, the second term.)
+  • 3, 5, 7, 9, … → nth term = 2n + 1（不是 n + 2）：
+    Find the nth term of the sequence 3, 5, 7, 9, … Show your working and check for n = 1 and n = 2.
+    Solution: ① Identify the pattern: The sequence increases by 2 each time. ② Common difference d = 2. ③ First term a = 3. ④ nth term = a + (n − 1)d = 3 + (n − 1) × 2 = 3 + 2n − 2 = 2n + 1. ⑤ Check: When n = 1, 2n + 1 = 2 × 1 + 1 = 3 ✓. When n = 2, 2n + 1 = 2 × 2 + 1 = 5 ✓. Answer: 2n + 1. (Note: Do NOT write n + 2. Although n + 2 gives 3 when n = 1, it gives 4 when n = 2, not 5. So n + 2 is wrong. The correct nth term is 2n + 1.)
+  • 4, 7, 10, 13, … → nth term = 3n + 1：
+    Find the nth term of the sequence 4, 7, 10, 13, … Show your working and check for n = 1 and n = 2.
+    Solution: ① Identify the pattern: The sequence increases by 3 each time. ② Common difference d = 3. ③ First term a = 4. ④ nth term = a + (n − 1)d = 4 + (n − 1) × 3 = 4 + 3n − 3 = 3n + 1. ⑤ Check: When n = 1, 3n + 1 = 3 × 1 + 1 = 4 ✓. When n = 2, 3n + 1 = 3 × 2 + 1 = 7 ✓. Answer: 3n + 1. (Note: The common difference is 3, so the coefficient of n is 3. The first term is 4, so we adjust to 3n + 1.)
+✓ 关键步骤：Step 1: Identify the pattern and find the common difference d (找出规律，确定公差 d：每次增加多少). Step 2: Identify the first term a (确定第一项 a). Step 3: Use the formula nth term = a + (n − 1)d and simplify to pn + q (使用公式 nth term = a + (n − 1)d，化简为 pn + q 的形式). Step 4: Check by substituting n = 1 and n = 2 (检验：代入 n = 1 和 n = 2，看是否得到数列的第一项和第二项). Step 5: State the final answer (陈述最终答案).
+✓ 化石 (fossil errors)：
+  • Writing n + 2 for 3, 5, 7, 9（错误地写 n + 2，这只是公差，不是第 n 项；正确应该是 2n + 1，因为 n=1 → 3，n=2 → 5，而 n + 2 在 n=2 时给出 4 不是 5）
+  • Using the first term as the formula (always 3)（把第一项当作公式，永远是 3）
+  • Writing 2n for 3, 5, 7, 9（错误地写 2n，n=1 → 2 不是 3）
+  • Treating n as "the next term" not the position（把 n 当作"下一项"而不是位置）
+  • 本周教 N5 的 5.5（recognising and representing patterns/relationships by finding an algebraic expression for the nth term，找第 n 项的代数式）。第 26–29 周已完成 5.1–5.4，本周只教 5.5 找第 n 项。本周不教 5.6 addition and subtraction of linear expressions，5.7 simplification，5.8 brackets and common factors（这些是后续周次内容）。
+
+Note: This is a sample of Part 2 short-answer/open-ended questions. The official paper has 20 short-answer + 10–15 open-ended items in 1 hour 45 minutes.`,
+          points: 20,
+        },
+      ],
+    },
   ];
 
   // =================================================================
