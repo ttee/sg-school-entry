@@ -12540,6 +12540,107 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
         },
       ],
     },
+    {
+      level: "SMATH",
+      weekNumber: 62,
+      title: "恒等式 — Identities: (a+b)², (a−b)², a²−b²",
+      description: "Sec 2 N5.12: identities: (a+b)², (a−b)², a²−b² (AEIS 中学数学第 62 周 / SMATH Week 62)",
+      isSample: false,
+      errorFocus: "(a+b)² = a² + b² (dropping the middle term 2ab), (a−b)² = a² − b² (dropping the middle term), mixing the sign of 2ab",
+      parentBrief: "本周是中学 AEIS 数学第 62 周，对应官方 SEAB Sec 2 卷型（https://www.seab.gov.sg/aeis/test-details/ 2026年7月1日更新）。Part 1 Multiple-choice questions：34 道 MCQ，30 分钟。Part 2 Short-answer questions (20 items) and open-ended questions (10 to 15 items)：1 小时 45 分钟。Calculators are not allowed（不允许使用计算器）。Short-answer and open-ended questions：candidates are required to show the method of solution clearly by writing working steps in the spaces provided, plus the final answer（需写出算式步骤和最终答案）。AEIS-Secondary 官方 preceding-level 规则：申请 Sec 3 入学者需熟悉 Sec 3 前一级的内容。官方举例：apply Secondary 3 → be familiar with Secondary 2 content. 本周针对 Sec 3 申请者，内容为 Sec 3 前一级（Sec 2）的官方 MOE 2020 G3 Mathematics Syllabuses, Secondary Two, NUMBER AND ALGEBRA, N5. Algebraic manipulation: 5.12 identities: (a+b)², (a−b)², a²−b²（恒等式）。官方 N5.12 wording（逐字引用）：「identities: (a+b)², (a−b)², a²−b²」。本周只教 N5.12 identities: (a+b)², (a−b)², a²−b²（三个恒等式）。Three identities: (a+b)² = a² + 2ab + b², (a−b)² = a² − 2ab + b², a² − b² = (a+b)(a−b). Expand and recognise the three identities. Friendly integers only. No calculator. Common fossils: (a+b)² = a² + b² (dropping the middle term 2ab), (a−b)² = a² − b² (dropping the middle term), mixing the sign of 2ab (writing a² − 2ab + b² when it should be a² + 2ab + b²). 本周不教 5.13 factorisation of linear expressions ax+bx+kay+kby by grouping（分组提取）。本周不教 5.14 quadratic factorisation（二次因式分解）。本周不重教 5.9 expansion as the whole week（第 59 周已教；本周是恒等式的特殊形式）。Cast: secondary Wei, Aisha, Mr Lim at Riverside Secondary. 第 8–56 周已完成 Sec 1 内容。第 57 周已完成 Sec 2 N2.4 map scales。第 58 周已完成 Sec 2 N2.5 direct and inverse proportion。第 59 周已完成 Sec 2 N5.9 expansion of the product of algebraic expressions。第 60 周已完成 Sec 2 N5.10 changing the subject of a formula。第 61 周已完成 Sec 2 N5.11 finding the value of an unknown quantity in a given formula。本周继续 Sec 2 内容（Sec 3 申请者的 preceding level）。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "At Riverside Secondary, Mr Lim writes on the board: 「(x+3)²」. He asks Wei to expand it. Wei writes: (x+3)² = x² + 2(x)(3) + 3² = x² + 6x + 9. Is Wei correct?|A. Yes, Wei is correct. (a+b)² = a² + 2ab + b². Here a = x, b = 3. So (x+3)² = x² + 2(x)(3) + 3² = x² + 6x + 9.|B. No, Wei is wrong. (x+3)² = x² + 3² = x² + 9.|C. No, Wei is wrong. (x+3)² = x² + 6x only.|D. No, Wei is wrong. (x+3)² = (x+3)(x+3) = x² + 3x + 3x + 9 = x² + 6x + 9, but Wei should not use the identity formula.",
+            "Aisha at Riverside Secondary writes: (y−5)² = y² − 10y + 25. Mr Lim says: 「That is correct.」 Which identity did Aisha use?|A. Aisha used the identity (a−b)² = a² − 2ab + b². Here a = y, b = 5. So (y−5)² = y² − 2(y)(5) + 5² = y² − 10y + 25.|B. Aisha used the identity (a+b)² = a² + 2ab + b². Here a = y, b = 5. So (y+5)² = y² + 10y + 25.|C. Aisha used the identity a² − b² = (a+b)(a−b). Here a = y, b = 5. So y² − 25 = (y+5)(y−5).|D. Aisha did not use any identity. She multiplied (y−5)(y−5) term by term.",
+            "At Riverside Secondary, Wei has the identity 7² − 2². Mr Lim asks: 「What is 7² − 2²?」 Wei says: 「I can use a² − b² = (a+b)(a−b). So 7² − 2² = (7+2)(7−2) = 9 × 5 = 45.」 Is Wei correct?|A. Yes, Wei is correct. The identity a² − b² = (a+b)(a−b) gives 7² − 2² = (7+2)(7−2) = 9 × 5 = 45.|B. No, Wei is wrong. 7² − 2² = 49 − 4 = 45, but the identity is (a−b)² = a² − 2ab + b², not a² − b².|C. No, Wei is wrong. 7² − 2² = (7−2)² = 5² = 25.|D. No, Wei is wrong. The identity a² − b² does not work for numbers, only for letters.",
+            "Mr Lim at Riverside Secondary writes: 「(2a+b)²」. Aisha says: 「I expand this: (2a+b)² = (2a)² + 2(2a)(b) + b² = 4a² + 4ab + b².」 Is Aisha correct?|A. Yes, Aisha is correct. Use the identity (a+b)² = a² + 2ab + b². Here the first term is 2a (not just a), so (2a+b)² = (2a)² + 2(2a)(b) + b² = 4a² + 4ab + b².|B. No, Aisha is wrong. (2a+b)² = 2a² + b².|C. No, Aisha is wrong. (2a+b)² = 4a² + 2ab + b².|D. No, Aisha is wrong. (2a+b)² = 2a² + 4ab + b².",
+            "At Riverside Secondary, Wei writes: (p−4)² = p² − 8p + 16. Mr Lim asks Aisha: 「Is Wei correct?」 What should Aisha say?|A. Yes, Wei is correct. The identity (a−b)² = a² − 2ab + b² gives (p−4)² = p² − 2(p)(4) + 4² = p² − 8p + 16.|B. No, Wei is wrong. (p−4)² = p² − 16.|C. No, Wei is wrong. (p−4)² = p² + 8p + 16.|D. No, Wei is wrong. (p−4)² = p² − 4² = p² − 16.",
+          ]),
+          correctAnswer: "A,A,A,A,A",
+          points: 10,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "At Riverside Secondary, Mr Lim writes: 「Expand (x+5)².」 Which is the correct expansion?|A. (x+5)² = x² + 10x + 25|B. (x+5)² = x² + 25|C. (x+5)² = x² + 5x + 25|D. (x+5)² = x² + 10x",
+            "Wei at Riverside Secondary sees: (m−3)². Which statement is correct?|A. (m−3)² = m² − 6m + 9|B. (m−3)² = m² − 9|C. (m−3)² = m² + 6m + 9|D. (m−3)² = m² − 3m + 9",
+            "Mr Lim at Riverside Secondary asks: 「Factorise 49 − n².」 Aisha writes: 49 − n² = (7+n)(7−n). Is Aisha correct?|A. Yes, Aisha is correct. The identity a² − b² = (a+b)(a−b) gives 49 − n² = 7² − n² = (7+n)(7−n).|B. No, Aisha is wrong. 49 − n² = (7−n)².|C. No, Aisha is wrong. 49 − n² = 7 − n.|D. No, Aisha is wrong. You cannot factorise 49 − n² using identities.",
+            "At Riverside Secondary, Wei expands: (3x+2)². Which is correct?|A. (3x+2)² = 9x² + 12x + 4|B. (3x+2)² = 9x² + 4|C. (3x+2)² = 3x² + 12x + 4|D. (3x+2)² = 9x² + 6x + 4",
+            "Aisha at Riverside Secondary writes: 「(a+b)² = a² + 2ab + b²」 and 「a² + 2ab + b² is the expanded form of (a+b)²」. Mr Lim says: 「Both statements are correct.」 Which is true?|A. Both statements are correct. (a+b)² and a² + 2ab + b² are two forms of the same identity, so both are true.|B. Only the first statement is correct. (a+b)² = a² + 2ab + b² is the identity, but a² + 2ab + b² is not related to (a+b)².|C. Only the second statement is correct. a² + 2ab + b² is the expanded form, but (a+b)² ≠ a² + 2ab + b².|D. Neither statement is correct. The identity is (a+b)² = a² + b².",
+            "Mr Lim at Riverside Secondary writes: 「Which of these is NOT correct?」|A. (y−7)² = y² − 14y + 49 (This is correct, not incorrect.)|B. (y+7)² = y² + 49 (Incorrect: drops the middle term 2ab.)|C. (y−7)² = y² − 49 (Incorrect: drops the middle term −2ab.)|D. y² − 49 = (y+7)(y+7) (Incorrect: should be (y+7)(y−7).)",
+            "At Riverside Secondary, Aisha says: 「To expand (k+6)², I can use the identity (a+b)² = a² + 2ab + b², OR I can multiply (k+6)(k+6) term by term. Both methods give the same answer: k² + 12k + 36.」 Is Aisha correct?|A. Yes, Aisha is correct. Both methods work and give k² + 12k + 36. The identity is faster, but multiplying term by term also works.|B. No, Aisha is wrong. Only the identity method works. You cannot multiply (k+6)(k+6).|C. No, Aisha is wrong. Only multiplying term by term works. The identity (a+b)² does not apply to (k+6)².|D. No, Aisha is wrong. The correct answer is k² + 36, not k² + 12k + 36.",
+            "Wei at Riverside Secondary has the homework: 「Expand (2p−q)².」 Wei writes: (2p−q)² = (2p)² − 2(2p)(q) + q² = 4p² − 4pq + q². Mr Lim checks and says: 「Correct.」 Which identity did Wei use?|A. Wei used the identity (a−b)² = a² − 2ab + b². Here a = 2p, b = q. So (2p−q)² = 4p² − 4pq + q².|B. Wei used the identity (a+b)² = a² + 2ab + b². Here a = 2p, b = q. So (2p+q)² = 4p² + 4pq + q².|C. Wei used the identity a² − b² = (a+b)(a−b). Here a = 2p, b = q. So (2p)² − q² = (2p+q)(2p−q).|D. Wei did not use any identity. He made a mistake and the answer should be 2p² − q².",
+          ]),
+          correctAnswer: "A,A,A,A,A,A,A,A",
+          points: 16,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `Part 2: Show Your Working (写出算式步骤)
+
+Riverside Secondary School has algebraic identity exercises. Answer the questions below. Show your working clearly.
+
+Question (a)
+At Riverside Secondary, Mr Lim gives Wei the expression (x+4)².
+(i) Expand (x+4)² using the identity (a+b)² = a² + 2ab + b². Show your working clearly. Write each step.
+(ii) Aisha says: 「(x+4)² = x² + 16.」 Explain step by step why Aisha is wrong. What is the correct expansion?
+
+Question (b)
+Wei has the expression (y−6)² at Riverside Secondary.
+(i) Expand (y−6)² using the identity (a−b)² = a² − 2ab + b². Show your working clearly.
+(ii) Mr Lim says: 「The identity (a−b)² gives (y−6)² = y² − 6².」 Explain why Mr Lim is wrong. What is the correct method? Show your working for the correct expansion of (y−6)².
+
+Question (c)
+At Riverside Secondary, Aisha has the expression 81 − m².
+(i) Factorise 81 − m² using the identity a² − b² = (a+b)(a−b). Show your working clearly.
+(ii) Wei says: 「I can also expand (3n+5)² using the identity. Let me show: (3n+5)² = (3n)² + 2(3n)(5) + 5² = 9n² + 30n + 25.」 Is Wei correct? Explain your answer and check by multiplying (3n+5)(3n+5) term by term.
+(iii) From the homework question 「Expand (2a−b)²」, show your working clearly using the identity (a−b)² = a² − 2ab + b².
+
+写作提示 / Tips:
+✓ 每题分步骤写出推理 (Show working steps for each question)
+✓ Part 2 官方要求：clearly show the method of solution by writing working steps, plus the final answer
+✓ 不用计算器 (No calculators allowed)
+✓ 恒等式 / identities: (a+b)², (a−b)², a²−b² 步骤示范：
+  • Expand (x+4)² using (a+b)² = a² + 2ab + b²:
+    Question: Expand (x+4)² using the identity (a+b)² = a² + 2ab + b².
+    Solution: ① Start with the identity (a+b)² = a² + 2ab + b². ② Identify a and b: Here a = x, b = 4. ③ Substitute into the identity: (x+4)² = x² + 2(x)(4) + 4². ④ Calculate each term: x² stays as x², 2(x)(4) = 2 × x × 4 = 8x, 4² = 16. ⑤ Add them: (x+4)² = x² + 8x + 16. Answer: x² + 8x + 16. (Key point: The middle term is 2ab. Do NOT write (x+4)² = x² + 16, because that drops the middle term 2ab = 8x. The identity has THREE terms: a², 2ab, b².)
+  • Expand (y−6)² using (a−b)² = a² − 2ab + b²:
+    Question: Expand (y−6)² using the identity (a−b)² = a² − 2ab + b².
+    Solution: ① Start with the identity (a−b)² = a² − 2ab + b². ② Identify a and b: Here a = y, b = 6. ③ Substitute into the identity: (y−6)² = y² − 2(y)(6) + 6². ④ Calculate each term: y² stays as y², 2(y)(6) = 2 × y × 6 = 12y, 6² = 36. ⑤ Add them (note the middle term has a minus sign): (y−6)² = y² − 12y + 36. Answer: y² − 12y + 36. (Key point: For (a−b)², the middle term is −2ab, NOT +2ab. And the last term is +b², NOT −b². So (y−6)² = y² − 12y + 36, NOT y² − 36 or y² + 12y + 36.)
+  • Factorise 81 − m² using a² − b² = (a+b)(a−b):
+    Question: Factorise 81 − m² using the identity a² − b² = (a+b)(a−b).
+    Solution: ① Start with the identity a² − b² = (a+b)(a−b). ② Recognise that 81 = 9². So 81 − m² = 9² − m². ③ Identify a and b: Here a = 9, b = m. ④ Substitute into the identity: 9² − m² = (9+m)(9−m). Answer: (9+m)(9−m) or (9−m)(9+m). (Both orders are correct because multiplication is commutative.) (Key point: First check if the two terms are perfect squares. 81 = 9². Then use the identity a² − b² = (a+b)(a−b).)
+  • Expand (3n+5)² using (a+b)² = a² + 2ab + b²:
+    Question: Expand (3n+5)² using the identity (a+b)² = a² + 2ab + b².
+    Solution: ① Start with the identity (a+b)² = a² + 2ab + b². ② Identify a and b: Here a = 3n (the whole first term is 3n, not just n), b = 5. ③ Substitute: (3n+5)² = (3n)² + 2(3n)(5) + 5². ④ Calculate: (3n)² = 9n² (square both 3 and n), 2(3n)(5) = 2 × 3n × 5 = 30n, 5² = 25. ⑤ Add: (3n+5)² = 9n² + 30n + 25. Answer: 9n² + 30n + 25. (Key point: When the first term is 3n, NOT just n, you must square the 3 as well: (3n)² = 3² × n² = 9n².)
+  • Check by multiplying (3n+5)(3n+5) term by term:
+    (3n+5)(3n+5): ① Multiply 3n by 3n: 3n × 3n = 9n². ② Multiply 3n by 5: 3n × 5 = 15n. ③ Multiply 5 by 3n: 5 × 3n = 15n. ④ Multiply 5 by 5: 5 × 5 = 25. ⑤ Add all terms: 9n² + 15n + 15n + 25 = 9n² + 30n + 25. This matches the identity result. (So both methods give the same answer.)
+  • Expand (2a−b)² using (a−b)² = a² − 2ab + b²:
+    Question: Expand (2a−b)² using the identity (a−b)² = a² − 2ab + b².
+    Solution: ① Start with the identity (a−b)² = a² − 2ab + b². ② Identify a and b: Here a = 2a (the first term is 2a, not just a), b = b. ③ Substitute: (2a−b)² = (2a)² − 2(2a)(b) + b². ④ Calculate: (2a)² = 4a² (square both 2 and a), 2(2a)(b) = 2 × 2a × b = 4ab, b² stays as b². ⑤ Add (note the middle term has a minus sign): (2a−b)² = 4a² − 4ab + b². Answer: 4a² − 4ab + b². (Key point: (2a)² = 4a², NOT 2a². And the middle term is −2(2a)(b) = −4ab, with a minus sign.)
+✓ 关键步骤：Step 1: Identify which identity to use（确定使用哪个恒等式）: (a+b)² = a² + 2ab + b² for (x+3)², (a−b)² = a² − 2ab + b² for (x−3)², a² − b² = (a+b)(a−b) for 25 − x². Step 2: Identify a and b in your expression（找出 a 和 b 是什么）: For (x+4)², a = x, b = 4. For (3n+5)², a = 3n (the whole term), b = 5. Step 3: Substitute a and b into the identity（代入恒等式）. Step 4: Calculate each term carefully（仔细计算每一项）: a² = square the first term, 2ab = 2 times a times b, b² = square the second term. Step 5: Add the terms (watch the signs)（相加各项，注意符号）: For (a+b)², all terms are positive. For (a−b)², the middle term is negative (−2ab), but the last term is still positive (+b²). For a² − b², factorise as (a+b)(a−b). Step 6: Write the final answer（写出最终答案）.
+✓ 化石 (fossil errors)：
+  • (a+b)² = a² + b² (dropping the middle term 2ab)（错误：(a+b)² = a² + b² 丢掉了中间项 2ab。正确：(a+b)² = a² + 2ab + b². The identity has THREE terms, not two. For example, (x+3)² = x² + 6x + 9, NOT x² + 9. If you write x² + 9, you are missing the middle term 6x.)
+  • (a−b)² = a² − b² (dropping the middle term −2ab)（错误：(a−b)² = a² − b² 丢掉了中间项 −2ab。正确：(a−b)² = a² − 2ab + b². For example, (y−5)² = y² − 10y + 25, NOT y² − 25. If you write y² − 25, you are missing the middle term −10y.)
+  • Mixing the sign of 2ab（错误：符号弄混了。正确：For (a+b)², the middle term is +2ab (positive). For (a−b)², the middle term is −2ab (negative). Do NOT write (y−5)² = y² + 10y + 25 (that would be (y+5)²). Do NOT write (x+4)² = x² − 8x + 16 (that would be (x−4)²).)
+  • Confusing (a−b)² with a² − b²（混淆 (a−b)² 和 a² − b²）: (a−b)² is (a−b) squared, which expands to a² − 2ab + b² (three terms). a² − b² is a difference of two squares, which factorises to (a+b)(a−b) (two brackets). They are NOT the same. For example, (x−5)² = x² − 10x + 25 (three terms), but x² − 25 = (x+5)(x−5) (two brackets). If Mr Lim writes (y−6)² = y² − 6², he is confusing these two identities. The correct expansion is (y−6)² = y² − 12y + 36.
+  • Forgetting to square the coefficient（忘记对系数平方）：For (3n+5)², the first term is 3n, not just n. So (3n)² = 9n², NOT 3n². You must square BOTH the 3 and the n. Similarly, for (2a−b)², (2a)² = 4a², NOT 2a². If you write (2a−b)² = 2a² − 4ab + b², you are only squaring a but not squaring the 2.
+  • 本周教 Sec 2 NUMBER AND ALGEBRA, N5. Algebraic manipulation: 5.12 identities: (a+b)², (a−b)², a²−b²（N5.12 恒等式）。本周是 N5.12 only. Three identities: (a+b)² = a² + 2ab + b², (a−b)² = a² − 2ab + b², a² − b² = (a+b)(a−b). Expand and recognise the identities. Friendly integers only. No calculator. Fossil: (a+b)² = a² + b² (dropping the middle term 2ab), (a−b)² = a² − b² (dropping the middle term −2ab), mixing the sign of 2ab. 本周不教 5.13 factorisation of linear expressions ax+bx+kay+kby by grouping（分组提取公因式）。本周不教 5.14 quadratic factorisation（二次因式分解 x² + bx + c）。本周不重教 5.9 expansion as the whole week（第 59 周已教；本周是恒等式的特殊形式）。Cast: secondary Wei, Aisha, Mr Lim at Riverside Secondary. 第 8–56 周已完成 Sec 1 内容。第 57 周已完成 Sec 2 N2.4 map scales。第 58 周已完成 Sec 2 N2.5 direct and inverse proportion。第 59 周已完成 Sec 2 N5.9 expansion of the product of algebraic expressions。第 60 周已完成 Sec 2 N5.10 changing the subject of a formula。第 61 周已完成 Sec 2 N5.11 finding the value of an unknown quantity in a given formula。本周继续 Sec 2 内容（Sec 3 申请者的 preceding level）。
+
+Note: This is a sample of Part 2 short-answer/open-ended questions. The official paper has 20 short-answer + 10–15 open-ended items in 1 hour 45 minutes.`,
+          points: 20,
+        },
+      ],
+    },
   ];
 
   // =================================================================
