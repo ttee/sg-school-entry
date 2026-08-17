@@ -10122,6 +10122,111 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
         },
       ],
     },
+    {
+      level: "SMATH",
+      weekNumber: 37,
+      title: "数学 第 37 周 / Maths Week 37",
+      description: "AEIS-Secondary Mathematics: Sec 1 graphs of linear functions (N6.4 only, not gradient)",
+      isSample: false,
+      errorFocus: "using (a, b) or (b, a) as a point on the graph instead of (0, b); or saying the y-intercept of y = 2x + 3 is 2",
+      parentBrief: "本周是中学 AEIS 数学第 37 周，对应官方 SEAB Sec 1 卷型（https://www.seab.gov.sg/aeis/test-details/ 2026年7月1日更新）。Part 1 Multiple-choice questions：34 道 MCQ，30 分钟。Part 2 Short-answer questions (20 items) and open-ended questions (10 to 15 items)：1 小时 45 分钟。Calculators are not allowed（不允许使用计算器）。Short-answer and open-ended questions：candidates are required to show the method of solution clearly by writing working steps in the spaces provided, plus the final answer（需写出算式步骤和最终答案）。AEIS-Secondary 官方 preceding-level 规则：申请 Sec 2 入学者需熟悉 Sec 2 前一级的内容。官方举例：apply Secondary 3 → be familiar with Secondary 2 content. 本周针对 Sec 2 申请者，内容为 Sec 2 前一级（Sec 1）的官方 MOE 2020 G3 Mathematics Syllabuses, Secondary One, N6. Functions and graphs: 6.4 graphs of linear functions（一次函数的图像）。第 34–36 周已完成 N6.1–6.3（Cartesian coordinates in two dimensions 平面直角坐标系，graph of a set of ordered pairs 有序对的集合的图像表示两个量之间的关系，linear functions y = ax + b 一次函数 y = ax + b）。本周只教 N6.4 graphs of linear functions（the graph of y = ax + b is a straight line 一次函数 y = ax + b 的图像是一条直线，find points on the graph by substituting x or y 通过代入 x 或 y 求图像上的点，y-intercept is where x = 0 (the point (0, b)) y 轴截距是 x = 0 的点即 (0, b)，x-intercept is where y = 0 x 轴截距是 y = 0 的点，decide whether a given point lies on the graph 判断给定的点是否在图像上）。本周不教 N6.5（the gradient of a linear graph as the ratio of the vertical change to the horizontal change 斜率作为竖直变化与水平变化的比）。不教斜率名称（gradient / slope），不教 rise over run 公式，不教「line goes up by a for each 1 in x」作为 gradient 的概念。可以通过代入两个点的 x 值来画直线（plot two points to draw the line），但只是为了画图，不把这个过程称为 gradient。不用计算器，写出算式步骤。本周化石：using (a, b) or (b, a) as a point on the graph instead of (0, b)（把 (a, b) 或 (b, a) 当作图像上的点而不是 (0, b)）；or saying the y-intercept of y = 2x + 3 is 2（说 y = 2x + 3 的 y-intercept 是 2，错误，应该是 (0, 3)）。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "The graph of y = 2x + 1 is a straight line. Wei wants to find one point on this graph. He substitutes x = 0. What is the y-coordinate when x = 0?|A. 1|B. 0|C. 2|D. 2x + 1",
+            "Aisha has the function y = 3x − 2. What is the y-intercept (the point where the graph crosses the y-axis)?|A. (0, −2)|B. (−2, 0)|C. (3, 0)|D. (0, 3)",
+            "Mr Lim asks: for the graph of y = 4x + 5, is the point (2, 13) on the graph? How do you check?|A. Substitute x = 2 into y = 4x + 5: y = 4(2) + 5 = 13 ✓ so (2, 13) is on the graph|B. Substitute y = 13 into y = 4x + 5: 13 = 4x + 5 so x = 2 ✗ the point is not on the graph|C. The y-intercept is (0, 5) so (2, 13) is not on the graph|D. The coefficient of x is 4 so (2, 13) is not on the graph",
+            "Wei plots the graph of y = 2x + 3. What is the x-intercept (the point where the graph crosses the x-axis)?|A. (−1.5, 0) or (−3/2, 0)|B. (0, 3)|C. (2, 0)|D. (3, 0)",
+            "The graph of y = 5x + 1 passes through the point (1, 6). Aisha says the y-intercept is (1, 6). Is Aisha correct?|A. No, the y-intercept is where x = 0, which is (0, 1), not (1, 6)|B. Yes, (1, 6) is on the graph so it is the y-intercept|C. No, the y-intercept is 5|D. Yes, because y = 6 when x = 1",
+          ]),
+          correctAnswer: "A,A,A,A,A",
+          points: 10,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "For the function y = 3x + 4, the y-intercept is:|A. (0, 4)|B. (4, 0)|C. (3, 4)|D. 3",
+            "Wei has the graph of y = 2x − 6. What is the x-intercept (where y = 0)?|A. (3, 0)|B. (0, −6)|C. (−6, 0)|D. (2, 0)",
+            "Aisha substitutes x = 3 into y = 2x + 1. What point on the graph does she find?|A. (3, 7)|B. (7, 3)|C. (2, 1)|D. (1, 3)",
+            "Mr Lim asks: is the point (0, 5) on the graph of y = 3x + 5?|A. Yes, when x = 0, y = 3(0) + 5 = 5 ✓|B. No, the y-intercept is 3 not 5|C. Yes, because 3 + 5 = 8|D. No, the point should be (5, 0)",
+            "The graph of y = 4x + 2 is a straight line. Wei says the point (1, 6) is on this line. Is Wei correct?|A. Yes, substitute x = 1: y = 4(1) + 2 = 6 ✓|B. No, the y-intercept is (0, 2) not (1, 6)|C. No, the coefficient is 4 not 6|D. Yes, because the y-intercept is 6",
+            "Aisha says the y-intercept of y = 5x + 7 is 5. Is Aisha correct?|A. No, the y-intercept is (0, 7), not 5|B. Yes, 5 is the coefficient of x|C. Yes, the y-intercept is where x = 5|D. No, the y-intercept is (5, 7)",
+            "For the function y = x − 3, Mr Lim wants to find two points on the graph. He substitutes x = 0 and x = 3. What are the two points?|A. (0, −3) and (3, 0)|B. (−3, 0) and (0, 3)|C. (0, 3) and (3, 0)|D. (1, −3) and (3, 1)",
+            "Wei plots the graph of y = 2x + 3. Aisha says the point (0, 2) is on the graph because the coefficient of x is 2. Is Aisha correct?|A. No, when x = 0, y = 2(0) + 3 = 3, so the point is (0, 3) not (0, 2)|B. Yes, the coefficient is 2 so the point is (0, 2)|C. Yes, 2 is in the equation so (0, 2) is on the graph|D. No, the point should be (2, 3)",
+          ]),
+          correctAnswer: "A,A,A,A,A,A,A,A",
+          points: 16,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `Part 2: Show Your Working (写出算式步骤)
+
+Riverside Secondary School has questions about the graphs of linear functions. Answer the questions below. Show your working.
+
+Question (a)
+Wei writes the function y = 2x + 1.
+
+(i) What is the y-intercept of this graph (the point where the graph crosses the y-axis)?
+(ii) Find one other point on this graph by substituting x = 2.
+(iii) Aisha says the point (2, 1) is on the graph. Show that Aisha is wrong.
+
+Question (b)
+Mr Lim gives the function y = 3x − 6.
+
+(i) What is the y-intercept?
+(ii) What is the x-intercept (the point where the graph crosses the x-axis)?
+(iii) Wei says the y-intercept is −6. Explain why Wei is wrong.
+
+Question (c)
+The cost of tickets (in S$) is given by the function y = 8x + 5, where x is the number of tickets.
+
+(i) A student buys 0 tickets (x = 0). What is the cost y? What does this tell you about the y-intercept?
+(ii) Is the point (3, 29) on the graph of this function? Show your working.
+(iii) Aisha says the point (8, 5) is on the graph because a = 8 and b = 5. Explain why Aisha is wrong.
+
+写作提示 / Tips:
+✓ 每题分步骤写出推理 (Show working steps for each question)
+✓ Part 2 官方要求：clearly show the method of solution by writing working steps, plus the final answer
+✓ 不用计算器 (No calculators allowed)
+✓ 一次函数的图像步骤示范 (graphs of linear functions y = ax + b examples)：
+  • Function y = 2x + 1, find the y-intercept:
+    Solution: The y-intercept is where the graph crosses the y-axis, which means x = 0. Substitute x = 0 into y = 2x + 1: y = 2(0) + 1 = 0 + 1 = 1. The y-intercept is the point (0, 1). Answer: (0, 1). (Note: Common fossil: saying the y-intercept is 2 or (2, 1). This is wrong because the y-intercept is where x = 0, which gives y = 1, so the point is (0, 1), not (2, 1) or 2.)
+  • Function y = 2x + 1, find a point on the graph when x = 2:
+    Solution: Substitute x = 2 into y = 2x + 1: y = 2(2) + 1 = 4 + 1 = 5. The point is (2, 5). Answer: (2, 5).
+  • Function y = 2x + 1, is the point (2, 1) on the graph?
+    Solution: Substitute x = 2 into y = 2x + 1: y = 2(2) + 1 = 4 + 1 = 5. When x = 2, y = 5, not y = 1. So the point (2, 1) is NOT on the graph. Answer: No, (2, 1) is not on the graph because when x = 2, y = 5 (not 1).
+  • Function y = 3x − 6, find the y-intercept:
+    Solution: The y-intercept is where x = 0. Substitute x = 0: y = 3(0) − 6 = 0 − 6 = −6. The y-intercept is (0, −6). Answer: (0, −6).
+  • Function y = 3x − 6, find the x-intercept:
+    Solution: The x-intercept is where y = 0 (where the graph crosses the x-axis). Substitute y = 0: 0 = 3x − 6. Add 6 to both sides: 6 = 3x. Divide by 3: x = 2. The x-intercept is (2, 0). Answer: (2, 0).
+  • Wei says the y-intercept of y = 3x − 6 is −6:
+    Solution: The y-intercept is a point, not just a number. The y-intercept is where x = 0. When x = 0, y = 3(0) − 6 = −6. The y-intercept is the point (0, −6), not the number −6. Answer: Wei is wrong because the y-intercept is the point (0, −6), not the number −6.
+  • Function y = 8x + 5, when x = 0:
+    Solution: Substitute x = 0: y = 8(0) + 5 = 0 + 5 = 5. Answer: y = 5. This is the y-intercept, the point (0, 5). Even if x = 0 (0 tickets), the cost is S$5 (this is the fixed cost or booking fee).
+  • Function y = 8x + 5, is (3, 29) on the graph?
+    Solution: Substitute x = 3: y = 8(3) + 5 = 24 + 5 = 29. When x = 3, y = 29 ✓. The point (3, 29) is on the graph. Answer: Yes.
+  • Aisha says (8, 5) is on the graph of y = 8x + 5 because a = 8 and b = 5:
+    Solution: To check if a point is on the graph, substitute the x-coordinate into the function and check if the y-coordinate matches. Substitute x = 8: y = 8(8) + 5 = 64 + 5 = 69. When x = 8, y = 69, not y = 5. So (8, 5) is NOT on the graph. Answer: Aisha is wrong because (8, 5) is not on the graph. When x = 8, y = 69 (not 5). The values a and b are from the equation, not coordinates of a point on the graph.
+✓ 关键步骤：Step 1: The y-intercept is where x = 0 (where the graph crosses the y-axis). Substitute x = 0 into the function to find the y-intercept point (0, b)（y 轴截距是 x = 0 的点，代入 x = 0 求出 y-intercept point (0, b)）. Step 2: The x-intercept is where y = 0 (where the graph crosses the x-axis). Substitute y = 0 into the function and solve for x to find the x-intercept point（x 轴截距是 y = 0 的点，代入 y = 0 解出 x）. Step 3: To find a point on the graph given x, substitute x into the function and calculate y, then write the point (x, y)（给定 x 求图像上的点，代入 x 算出 y，写出点 (x, y)）. Step 4: To check if a given point (a, b) is on the graph, substitute x = a into the function and check if y = b. If yes, the point is on the graph. If not, the point is NOT on the graph（检查点 (a, b) 是否在图像上，代入 x = a，看是否 y = b）. Step 5: The y-intercept is a point (0, b), not just the number b（y-intercept 是点 (0, b)，不是数字 b）. Step 6: State the final answer（陈述最终答案）.
+✓ 化石 (fossil errors)：
+  • Using (a, b) or (b, a) as a point on the graph instead of (0, b): saying the y-intercept of y = 2x + 3 is (2, 3) or (3, 2)（错误：把 (a, b) 或 (b, a) 当作 y-intercept，正确：y-intercept 是 x = 0 时的点 (0, b)，所以 y = 2x + 3 的 y-intercept 是 (0, 3)，不是 (2, 3) 或 (3, 2)）
+  • Saying the y-intercept of y = 2x + 3 is 2 or is 3: the y-intercept is the point (0, 3), not the number 2 or 3（错误：说 y-intercept 是 2 或 3，正确：y-intercept 是点 (0, 3)，不是数字 2 或 3）
+  • Confusing the coefficient a or constant b with coordinates: (a, b) is NOT a point on the graph（错误：把 a 或 b 混淆为坐标，正确：(a, b) 不是图像上的点，必须代入 x 求 y）
+  • 本周教 N6 的 6.4（graphs of linear functions，一次函数的图像）。第 34–36 周已完成 N6.1–6.3（Cartesian coordinates、ordered pairs graph、y = ax + b）。本周只教 6.4（the graph of y = ax + b is a straight line，find points by substituting x or y，y-intercept is (0, b)，x-intercept is where y = 0，decide if a point lies on the graph），不教 N6.5（gradient 斜率 as rise over run）。
+
+Note: This is a sample of Part 2 short-answer/open-ended questions. The official paper has 20 short-answer + 10–15 open-ended items in 1 hour 45 minutes.`,
+          points: 20,
+        },
+      ],
+    },
   ];
 
   // =================================================================
