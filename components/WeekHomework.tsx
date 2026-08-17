@@ -905,7 +905,7 @@ export default function WeekHomework({
       {week.level === "SMATH" && week.weekNumber === 72 && <DualValidationMapSmathWeek72 />}
       
       {/* SMATH Diagrams */}
-      {week.level === "SMATH" && (week.weekNumber === 44 || week.weekNumber === 70 || week.weekNumber === 71) && (
+      {week.level === "SMATH" && (week.weekNumber === 44 || week.weekNumber === 70 || week.weekNumber === 71 || week.weekNumber === 72) && (
         <SmathFigure weekNumber={week.weekNumber} />
       )}
       
