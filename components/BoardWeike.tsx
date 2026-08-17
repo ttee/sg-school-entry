@@ -1149,19 +1149,19 @@ export default function BoardWeike({ level, weekNumber, planTitle, planFirstLine
           className="absolute inset-0 w-full h-full object-cover"
         />
         
-        <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
-          <div className="bg-white/95 rounded-lg p-6 max-w-2xl w-11/12 shadow-lg" style={{ marginTop: "8%" }}>
-            <h3 className="font-serif font-semibold text-lg text-ink mb-3 text-center border-b border-line pb-2">
+        <div className="absolute inset-0 flex items-center justify-end pointer-events-none" style={{ paddingRight: "5%" }}>
+          <div className="bg-white/95 rounded-lg p-4 shadow-lg" style={{ width: "45%", maxWidth: "500px" }}>
+            <h3 className="font-serif font-semibold text-base text-ink mb-2 text-center border-b border-line pb-2">
               本周例题
             </h3>
             
             {!lesson && displayTitle && (
-              <div className="mb-3 text-center">
-                <p className="text-sm font-semibold text-ink-2">{displayTitle}</p>
+              <div className="mb-2 text-center">
+                <p className="text-xs font-semibold text-ink-2">{displayTitle}</p>
               </div>
             )}
             
-            <div className="space-y-2">
+            <div className="space-y-1.5">
               {displayExamples.map((example, i) => (
                 <div
                   key={i}
@@ -1171,8 +1171,8 @@ export default function BoardWeike({ level, weekNumber, planTitle, planFirstLine
                     transform: i < visibleExamples ? "translateY(0)" : "translateY(10px)"
                   }}
                 >
-                  <p className="text-sm text-ink leading-relaxed">
-                    <span className="text-accent font-semibold mr-2">•</span>
+                  <p className="text-xs text-ink leading-snug">
+                    <span className="text-accent font-semibold mr-1.5">•</span>
                     {example}
                   </p>
                 </div>
