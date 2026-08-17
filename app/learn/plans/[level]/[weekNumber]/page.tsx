@@ -3,6 +3,7 @@ import { authOptions } from "@/lib/auth";
 import { redirect } from "next/navigation";
 import Link from "next/link";
 import BoardWeike from "@/components/BoardWeike";
+import LessonPlanSTP from "@/components/LessonPlanSTP";
 
 type LessonPlan = {
   title: string;
