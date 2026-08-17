@@ -2,6 +2,8 @@ import { getServerSession } from "next-auth";
 import { authOptions } from "@/lib/auth";
 import { redirect } from "next/navigation";
 import Link from "next/link";
+import BoardWeike from "@/components/BoardWeike";
+import LessonPlanSTP from "@/components/LessonPlanSTP";
 
 type LessonPlan = {
   title: string;
@@ -5753,6 +5755,27 @@ export default async function LessonPlanPage({
           </div>
         </div>
       </div>
+
+      {/* Singapore Teaching Practice Framework */}
+      <LessonPlanSTP
+        level={level}
+        weekNumber={parseInt(weekNumber)}
+        title={plan.title}
+        fossil={plan.fossil}
+        boardWriting={plan.boardWriting}
+        mathExample={plan.mathExample}
+        sections={plan.sections}
+        spokenLines={plan.spokenLines}
+        childPrompts={plan.childPrompts}
+      />
+
+      {/* BoardWeike */}
+      <BoardWeike 
+        level={level} 
+        weekNumber={parseInt(weekNumber)} 
+        planTitle={plan.title}
+        planFirstLine={plan.fossil || plan.mathExample || plan.sections[0]?.teacherNotes.split('.')[0] || ""}
+      />
 
       {/* Board Writing */}
       {plan.boardWriting && (

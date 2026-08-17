@@ -144,6 +144,7 @@ import DualValidationMapSmathWeek71 from "./DualValidationMapSmathWeek71";
 import DualValidationMapSmathWeek72 from "./DualValidationMapSmathWeek72";
 import OfficialClip from "./OfficialClip";
 import WeikeMiniLesson from "./WeikeMiniLesson";
+import BoardWeike from "./BoardWeike";
 import SmathFigure from "./SmathFigure";
 
 type Question = {
@@ -590,8 +591,8 @@ export default function WeekHomework({
             />
           )}
 
-          {/* Video player or mini-lesson */}
-          {week.videoUrl ? (
+          {/* Video player (if exists) */}
+          {week.videoUrl && (
             <div className="bg-card border border-line rounded-xl p-5">
               <h3 className="font-semibold text-ink mb-3">🎬 播放本周微课 / Watch this week's micro-lesson</h3>
               <video
@@ -619,9 +620,15 @@ export default function WeekHomework({
                 </ol>
               </div>
             </div>
-          ) : !(week.officialClipId && week.officialClipCredit) && (
-            <WeikeMiniLesson level={week.level} weekNumber={week.weekNumber} />
           )}
+
+          {/* BoardWeike - always show */}
+          <BoardWeike 
+            level={week.level} 
+            weekNumber={week.weekNumber}
+            planTitle={week.title}
+            planFirstLine={week.errorFocus || week.parentBrief?.split('。')[0] || week.parentBrief?.split('.')[0] || ""}
+          />
         </div>
       )}
 
