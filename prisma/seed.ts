@@ -10424,6 +10424,97 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
         },
       ],
     },
+    {
+      level: "SMATH",
+      weekNumber: 40,
+      title: "数学 第 40 周 / Maths Week 40",
+      description: "AEIS-Secondary Mathematics: Sec 1 solving linear equations in one variable (N7.2 only)",
+      isSample: false,
+      errorFocus: "changing only one side: 2x + 1 = 7 → 2x = 7; or subtracting 1 from the left but not the right",
+      parentBrief: "本周是中学 AEIS 数学第 40 周，对应官方 SEAB Sec 1 卷型（https://www.seab.gov.sg/aeis/test-details/ 2026年7月1日更新）。Part 1 Multiple-choice questions：34 道 MCQ，30 分钟。Part 2 Short-answer questions (20 items) and open-ended questions (10 to 15 items)：1 小时 45 分钟。Calculators are not allowed（不允许使用计算器）。Short-answer and open-ended questions：candidates are required to show the method of solution clearly by writing working steps in the spaces provided, plus the final answer（需写出算式步骤和最终答案）。AEIS-Secondary 官方 preceding-level 规则：申请 Sec 2 入学者需熟悉 Sec 2 前一级的内容。官方举例：apply Secondary 3 → be familiar with Secondary 2 content. 本周针对 Sec 2 申请者，内容为 Sec 2 前一级（Sec 1）的官方 MOE 2020 G3 Mathematics Syllabuses, Secondary One, N7. Equations and inequalities: 7.2 solving linear equations in one variable（解一元一次方程）。第 39 周已完成 N7.1 concept of equation（方程的概念）。本周只教 N7.2 solving linear equations in one variable（用逆运算两边同时做同样的操作来解方程 ax + b = c 和 ax + b = cx + d，直到 x 单独在一边）。Solve ax + b = c and ax + b = cx + d by doing the same operation to both sides (add/subtract/multiply/divide) until x is alone（解 ax + b = c 和 ax + b = cx + d 型方程，通过对两边同时做同样的操作（加减乘除）直到 x 单独在一边）。Friendly integers so x is an integer（友好整数，x 的解是整数）。Check by substitution after solving（解出来后用代入的办法检验）。Example: 2x + 1 = 7 → 2x + 1 − 1 = 7 − 1 → 2x = 6 → x = 3. Check: 2(3) + 1 = 7 ✓。Example: 3x − 2 = x + 6 → 3x − 2 − x = x + 6 − x → 2x − 2 = 6 → 2x − 2 + 2 = 6 + 2 → 2x = 8 → x = 4. Check: 3(4) − 2 = 4 + 6 → 10 = 10 ✓。本周不教 N7.3 fractional equations（分式方程，例如 x/3 + (x−2)/4 = 3 或 3/(x−2) = 6），不教 N7.4 formulating a linear equation to solve problems（用方程解应用题，把文字题变成方程）。本周化石：changing only one side（只改一边）: 2x + 1 = 7 → 2x = 7（错误：只把左边的 +1 去掉了，右边没有减 1，正确：两边同时减 1，2x + 1 − 1 = 7 − 1 → 2x = 6）；or subtracting 1 from the left but not the right（或只从左边减 1 但右边没有减）。金额用新元 S$ 或新加坡元。不用计算器。Sec 1 content for Sec 2 AEIS applicants。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "Solve 2x + 1 = 7. What is the value of x?|A. x = 3|B. x = 4|C. x = 8|D. x = 6",
+            "Wei solves 3x − 2 = x + 6. Which step is correct?|A. 3x − 2 − x = x + 6 − x → 2x − 2 = 6|B. 3x − 2 = x + 6 → 2x = 8 (skip steps)|C. 3x = x + 8 → 2x = 8|D. 3x − x = 6 + 2 → 2x = 8 (wrong signs)",
+            "Solve 4x + 3 = 15. What is the value of x?|A. x = 3|B. x = 4|C. x = 12|D. x = 18",
+            "Aisha solves 5x − 1 = 14. Which first step is correct?|A. 5x − 1 + 1 = 14 + 1 → 5x = 15|B. 5x = 14 + 1 → 5x = 15 (only changed one side)|C. 5x = 14 − 1 → 5x = 13 (wrong operation)|D. 5x − 1 = 15 → x = 3",
+            "Mr Lim says: After solving an equation, you should check the answer by substitution. Wei solved 2x + 1 = 7 and got x = 3. How should Wei check?|A. Substitute x = 3 into 2x + 1: 2(3) + 1 = 7 ✓|B. Substitute x = 7 into the equation|C. Substitute x = 2 into the equation|D. Add 2 and 3",
+          ]),
+          correctAnswer: "A,A,A,A,A",
+          points: 10,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "Solve 3x + 2 = 11. What is the value of x?|A. x = 3|B. x = 4|C. x = 9|D. x = 13",
+            "Wei solves 2x − 5 = 3. Which working is correct?|A. 2x − 5 + 5 = 3 + 5 → 2x = 8 → x = 4|B. 2x = 3 + 5 → 2x = 8 (only changed one side)|C. 2x − 5 = 3 → x = 4 (no steps)|D. 2x = 3 − 5 → 2x = −2",
+            "Solve 6x − 4 = 2x + 12. What is the value of x?|A. x = 4|B. x = 2|C. x = 8|D. x = 16",
+            "Aisha solved 4x + 5 = 21 and got x = 4. She checks by substitution: 4(4) + 5 = 16 + 5 = 21 ✓. What does this mean?|A. x = 4 is the correct solution because when x = 4, both sides of the equation are equal|B. x = 4 is not a solution|C. The equation is wrong|D. x = 5 is the solution",
+            "Mr Lim asks: Solve 7x + 3 = 24. Which first step is correct?|A. 7x + 3 − 3 = 24 − 3 → 7x = 21|B. 7x = 24 + 3 → 7x = 27 (wrong operation)|C. 7x = 24 − 3 (only changed one side)|D. 7x + 3 = 21 → x = 3",
+            "Wei solves x + 8 = 12. What is the value of x?|A. x = 4|B. x = 8|C. x = 20|D. x = 12",
+            "Solve 5x = 3x + 10. What is the value of x?|A. x = 5|B. x = 2|C. x = 10|D. x = 8",
+            "Aisha says: 「To solve 2x + 1 = 7, subtract 1 from both sides, then divide both sides by 2」. Is Aisha correct?|A. Yes, to keep the equation balanced, you must do the same operation to both sides|B. No, you should only subtract 1 from the left side|C. No, you should add 1 to both sides|D. No, you should divide first",
+          ]),
+          correctAnswer: "A,A,A,A,A,A,A,A",
+          points: 16,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `Part 2: Show Your Working (写出算式步骤)
+
+Riverside Secondary School has linear equations to solve. Answer the questions below. Solve each equation and show your working. Check your answer by substitution.
+
+Question (a)
+Solve 2x + 1 = 7.
+Show your working. Check your answer by substitution.
+
+Question (b)
+Wei solves 3x − 2 = x + 6 and gets x = 4.
+(i) Solve 3x − 2 = x + 6. Show your working step by step.
+(ii) Check by substituting x = 4 into both sides of the equation.
+
+Question (c)
+Aisha solves 4x + 5 = 21.
+(i) Solve 4x + 5 = 21. Show your working.
+(ii) Check your answer by substitution.
+(iii) Aisha's friend says「I solved 4x + 5 = 21 by writing 4x = 21」. Explain what is wrong with this working.
+
+写作提示 / Tips:
+✓ 每题分步骤写出推理 (Show working steps for each question)
+✓ Part 2 官方要求：clearly show the method of solution by writing working steps, plus the final answer
+✓ 不用计算器 (No calculators allowed)
+✓ 解一元一次方程步骤示范 (solving linear equations in one variable examples)：
+  • 2x + 1 = 7:
+    Question: Solve 2x + 1 = 7. Show your working. Check by substitution.
+    Solution: ① The equation is 2x + 1 = 7. ② Subtract 1 from both sides: 2x + 1 − 1 = 7 − 1. ③ Simplify: 2x = 6. ④ Divide both sides by 2: 2x ÷ 2 = 6 ÷ 2. ⑤ x = 3. ⑥ Check by substitution: 2(3) + 1 = 6 + 1 = 7 ✓. Answer: x = 3. (Note: Common fossil: changing only one side. 2x + 1 = 7 → 2x = 7 ✗. This is wrong because if you subtract 1 from the left side, you must also subtract 1 from the right side to keep the equation balanced. Correct: 2x + 1 − 1 = 7 − 1 → 2x = 6.)
+  • 3x − 2 = x + 6:
+    Question: Solve 3x − 2 = x + 6. Show your working. Check by substitution.
+    Solution: ① The equation is 3x − 2 = x + 6. ② Subtract x from both sides: 3x − 2 − x = x + 6 − x. ③ Simplify: 2x − 2 = 6. ④ Add 2 to both sides: 2x − 2 + 2 = 6 + 2. ⑤ Simplify: 2x = 8. ⑥ Divide both sides by 2: 2x ÷ 2 = 8 ÷ 2. ⑦ x = 4. ⑧ Check by substitution: Left side: 3(4) − 2 = 12 − 2 = 10. Right side: 4 + 6 = 10. 10 = 10 ✓. Answer: x = 4.
+  • 4x + 5 = 21:
+    Question: Solve 4x + 5 = 21. Show your working. Check by substitution.
+    Solution: ① The equation is 4x + 5 = 21. ② Subtract 5 from both sides: 4x + 5 − 5 = 21 − 5. ③ Simplify: 4x = 16. ④ Divide both sides by 4: 4x ÷ 4 = 16 ÷ 4. ⑤ x = 4. ⑥ Check by substitution: 4(4) + 5 = 16 + 5 = 21 ✓. Answer: x = 4.
+✓ 关键步骤：Step 1: Write the equation（写出方程）. Step 2: Use inverse operations to isolate x: if there is +b, subtract b from both sides; if there is −b, add b to both sides; if there is ax, divide both sides by a（用逆运算把 x 分离出来：如果有 +b，两边同时减 b；如果有 −b，两边同时加 b；如果有 ax，两边同时除以 a）. Step 3: Simplify step by step（逐步化简）. Step 4: Write x = ...（写出 x = ...）. Step 5: Check by substituting the value of x into both sides of the original equation（检验：把 x 的值代入原方程的两边）. Step 6: If the left side equals the right side, the solution is correct（如果左边等于右边，解就是对的）. Step 7: State the final answer（陈述最终答案）.
+✓ 化石 (fossil errors)：
+  • Changing only one side: 2x + 1 = 7 → 2x = 7（错误：只改了一边。正确：两边同时做同样的操作，2x + 1 − 1 = 7 − 1 → 2x = 6）
+  • Subtracting from the left but not the right: 3x − 2 = x + 6 → 2x = x + 6（错误：只从左边减了 x，右边没有减。正确：两边同时减 x，3x − 2 − x = x + 6 − x → 2x − 2 = 6）
+  • Wrong operation: 4x + 5 = 21 → 4x = 21 + 5（错误：应该减 5 不是加 5。正确：4x + 5 − 5 = 21 − 5 → 4x = 16）
+  • Not checking: forgetting to substitute the answer back into the equation to check（错误：忘记代入检验。正确：解出 x 后，把 x 代入原方程检验左边是否等于右边）
+  • 本周教 N7 的 7.2（solving linear equations in one variable，解一元一次方程）。第 39 周已完成 N7.1（concept of equation）。本周只教 7.2 solving linear equations in one variable（解 ax + b = c 和 ax + b = cx + d，两边同时做同样的操作），不教 N7.3 fractional equations（分式方程），不教 N7.4 formulating a linear equation to solve problems（用方程解应用题）。
+
+Note: This is a sample of Part 2 short-answer/open-ended questions. The official paper has 20 short-answer + 10–15 open-ended items in 1 hour 45 minutes.`,
+          points: 20,
+        },
+      ],
+    },
   ];
 
   // =================================================================
