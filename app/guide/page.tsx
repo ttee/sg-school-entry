@@ -183,19 +183,15 @@ export default function GuidePage() {
         recommendation.notes.push("P2–P4 申请一般对应 A2 Key for Schools（常见对应，以官网年龄核对为准）");
       }
       
-      recommendation.mathCourse = "建议：AEIS 数学 试学周 + 已上线周数 / 作业 app";
-      recommendation.notes.push("诚实告知：当前数学周数为 P2 内容（前置级别练习）");
-      
-      if (intendedLevel === "P4" || intendedLevel === "P5") {
-        recommendation.notes.push(`申请 ${intendedLevel} 的数学按官网是前一年大纲。我们现在的数学课是 P2。请先微信咨询。`);
-      }
+      recommendation.mathCourse = "建议：AEIS 数学 试学周 + 第 1–29 周 / 作业 app";
+      recommendation.notes.push("当前已上线 MATH 试学周 + 第 1–29 周（P2–P4 AEIS 数学）");
       
     } else if (isSecondary) {
       // 中学路径：AEIS 英语 + 数学（两科都考）
       recommendation.pathway = "中学 AEIS 路径（Sec 1–3）";
-      recommendation.englishCourse = "需要：AEIS 中学英语（含写作、理解、语法）";
-      recommendation.mathCourse = "需要：AEIS 中学数学";
-      recommendation.notes.push("中学要考 AEIS 英语 + 数学，不要求 CEQ。我们目前的作业周是小学 CEQ 和 P2 数学。中学路径请先微信咨询。");
+      recommendation.englishCourse = "建议：AEIS 中学英语 试学周 + 第 1–11 周 / 作业 app";
+      recommendation.mathCourse = "建议：AEIS 中学数学 试学周 + 第 1–69 周 / 作业 app";
+      recommendation.notes.push("中学要考 AEIS 英语 + 数学，不要求 CEQ。当前已上线 SEC 试学周 + 第 1–11 周（中学英语）、SMATH 试学周 + 第 1–69 周（中学数学）。");
     }
 
     return recommendation;
@@ -335,7 +331,7 @@ export default function GuidePage() {
                     </optgroup>
                   </select>
                   <p className="text-xs text-muted mt-1">
-                    小学与中学考试科目组合不同，请根据孩子年龄与MOE年龄标准选择
+                    小学与中学考试科目组合不同，请根据孩子年龄与 MOE 年龄标准选择
                   </p>
                 </div>
               </div>

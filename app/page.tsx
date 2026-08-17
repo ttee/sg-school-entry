@@ -185,7 +185,7 @@ export default function HomePage() {
 
               <article className="bg-card border border-line rounded-2xl p-6 shadow">
                 <h3 className="font-serif text-xl font-semibold mb-2">AEIS 数学</h3>
-                <p className="text-sm text-ink-2 mb-2">试学周 + 第 1–29 周 · P2 + P3 + P4 十万以内整数 + 因数倍数 + 乘除算法 + 带分数假分数 + 一组的几分之几 + 分数加减 + P4 小数位值比较转换四舍五入 + P4 小数加减 + P4 小数乘除一位整数 + P4 面积周长求缺失边与组合图形 + P4 表格和折线图 + P4 饼图 + P4 角 + P4 长方形正方形 + P4 对称轴 + P4 展开图。</p>
+                <p className="text-sm text-ink-2 mb-2">试学周 + 第 1–29 周 · P2–P4 AEIS 数学</p>
                 <p className="text-xs text-muted">试学周免费</p>
               </article>
             </div>
@@ -230,7 +230,7 @@ export default function HomePage() {
                   AEIS 英语与 AEIS 数学两科都要考。中学路径不要求 CEQ。
                 </p>
                 <p className="text-sm text-ink-2 mb-4">
-                  中学英语有试学周 + 第 1–11 周已上线（Sec 1 卷型样本：写作 + 理解/语言运用）。中学数学有试学周 + 第 1–69 周已上线（Sec 1 卷型样本：选择题 + 写算式；内容为申请 Sec 1 的前一级 P6 百分数、比、代数、分数除法、圆的面积和周长、正方体和长方体体积、平均数、特殊四边形求未知角，「第 8–56 周」为申请 Sec 2 的前一级 Sec 1 质数分解、HCF/LCM、平方立方和根、负数四则、数轴、不等号、近似估算、有理数比、比的应用、百分数、用百分数比较、大于100%的百分数、百分数增减和百分点、逆向百分数、百分数综合应用、平均速率速度匀速和平均速度、速率单位换算、速率和速度应用题、用字母表示数、解读代数符号、代数式求值、生活情境写成代数式、第n项、一次式加减、去括号化简、提取公因式、平面直角坐标 / 坐标、有序对 / 两个量的关系、一次函数 / y = ax + b、一次函数的图像、斜率 / 升降比、方程的概念、解一元一次方程、解简单分式方程 / 可化成一元一次方程的分式方程、列一元一次方程解应用题、直角锐角钝角优角 / 角的分类 + 对顶角平角周角 + 平行线截线：同位角内错角同旁内角 + 三角形内角和 / 外角 / 等腰等边 + 特殊四边形：平行四边形 / 矩形 / 菱形 / 正方形 / 梯形 + 正多边形：正五边形 / 正六边形 / 正八边形 / 正十边形及对称性 + 按性质给特殊四边形分类 + 凸多边形内角和 / 外角和 + 尺规作图 / 按已知数据作简单图形 + 平行四边形面积 / 梯形面积 + 组合平面图形周长 / 面积 + 棱柱体积表面积 / 圆柱体积表面积 + 平方厘米与平方米换算 / 立方厘米与立方米换算 + 组合立体体积 / 表面积，「第 57 周」为申请 Sec 3 的前一级 Sec 2 地图比例尺（距离和面积），「第 58 周」为申请 Sec 3 的前一级 Sec 2 正比和反比 (direct and inverse proportion)，「第 59 周」为申请 Sec 3 的前一级 Sec 2 代数式的积的展开 (expansion of the product of algebraic expressions)，「第 60 周」为申请 Sec 3 的前一级 Sec 2 公式变形 / 变换公式的主体 (changing the subject of a formula)，「第 61 周」为申请 Sec 3 的前一级 Sec 2 代入公式求未知量 (finding the value of an unknown quantity in a given formula)，「第 62 周」为申请 Sec 3 的前一级 Sec 2 恒等式 (a+b)² / (a−b)² / a²−b²，「第 63 周」为申请 Sec 3 的前一级 Sec 2 一次式因式分解 ax+bx+kay+kby，「第 64 周」为申请 Sec 3 的前一级 Sec 2 二次式因式分解 ax²+bx+c，「第 65 周」为申请 Sec 3 的前一级 Sec 2 代数分式乘除 (multiplication and division of simple algebraic fractions)，「第 66 周」为申请 Sec 3 的前一级 Sec 2 代数分式加减 (addition and subtraction of algebraic fractions with linear or quadratic denominator)，「第 67 周」为申请 Sec 3 的前一级 Sec 2 二次函数 y = ax²+bx+c，「第 68 周」为申请 Sec 3 的前一级 Sec 2 二次函数图像性质 (positive or negative coefficient of x² / maximum and minimum points / symmetry)，「第 69 周」为申请 Sec 3 的前一级 Sec 2 方程和不等式的概念 (concept of equation and inequality)）。
+                  中学英语有试学周 + 第 1–11 周。中学数学有试学周 + 第 1–69 周。申请 Sec 1 用前一级 P6；申请 Sec 2 用前一级 Sec 1；申请 Sec 3 用前一级 Sec 2。卷型：英语是写作 + 理解/语言运用；数学是选择题 + 写算式。
                 </p>
                 <ul className="space-y-0 border-t border-line">
                   <li className="border-b border-line py-3 pl-5 relative before:absolute before:left-0 before:top-5 before:w-2 before:h-2 before:rounded-full before:bg-accent text-sm text-ink-2">
@@ -285,7 +285,7 @@ export default function HomePage() {
                 </div>
                 <p className="text-xs font-semibold uppercase tracking-wide text-accent mb-3">按月订阅</p>
                 <p className="text-ink-2 mb-4 text-sm">
-                  作业 app 解锁已上线周数（A2 试学周 + 第 1–11 周，B1 试学周 + 第 1–11 周，MATH 试学周 + 第 1–29 周，SEC 试学周 + 第 1–11 周，SMATH 试学周 + 第 1–69 周）+ 家长微信进度通报。可随时取消。
+                  作业 app 解锁已上线周数：A2 / B1 / SEC 各试学周 + 第 1–11 周，MATH 试学周 + 第 1–29 周，SMATH 试学周 + 第 1–69 周。家长微信进度通报。可随时取消。
                 </p>
                 <ul className="space-y-0 border-t border-line mb-5">
                   <li className="border-b border-line py-3 pl-5 relative before:absolute before:left-0 before:top-5 before:w-2 before:h-2 before:rounded-full before:bg-accent text-sm text-ink-2">
@@ -375,7 +375,7 @@ export default function HomePage() {
             </div>
 
             <p className="text-sm text-muted mt-5 max-w-3xl">
-              <strong className="text-ink-2">付款方式：</strong>PayNow 或微信转账，报名以咨询确认为准。无 Stripe。月度会员可随时取消，12 周预付包不退费。
+              <strong className="text-ink-2">付款方式：</strong>PayNow 或微信转账，报名以咨询确认为准。月度会员可随时取消，12 周预付包不退费。
               <br />
               <strong className="text-ink-2 mt-2 inline-block">考试单独报名：</strong>CEQ 考试本身在剑桥授权考点报名，不含在课程学费内。
             </p>
@@ -651,7 +651,7 @@ export default function HomePage() {
           <div className="max-w-2xl mx-auto px-4">
             <h2 className="font-serif font-semibold text-2xl md:text-3xl mb-3">报名咨询</h2>
             <p className="text-ink-2 mb-6">
-              提交后老师会在 1-2 个工作日内添加您的微信。咨询月度会员、12 周预付包或试学账号。
+              提交后老师会在 1–2 个工作日内添加您的微信。咨询月度会员、12 周预付包或试学账号。
             </p>
 
             <form onSubmit={handleSubmit} className="bg-card border border-line rounded-2xl p-6 shadow mb-6">
@@ -773,7 +773,7 @@ export default function HomePage() {
               <div className="bg-paper-2 border border-line rounded-xl p-5">
                 <h3 className="font-serif font-semibold text-base mb-2 text-ink">免费试学</h3>
                 <p className="text-sm text-ink-2">
-                  提交表单时选择「免费试学账号」，老师会为您开通 Week 0 试学周权限。
+                  提交表单时选择「免费试学账号」，老师会为您开通试学周权限。
                 </p>
               </div>
             </div>
