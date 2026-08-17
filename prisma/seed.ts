@@ -13385,7 +13385,7 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
           options: JSON.stringify([
             "At Riverside Secondary, Mr Lim asks: 「Solve 5x + 1 ≤ 16.」 Aisha solves: subtract 1 from both sides: 5x ≤ 15. Divide both sides by 5: x ≤ 3. Which is the correct answer?|A. x ≤ 3 ✓.|B. x ≥ 3 (you must reverse the sign when dividing by 5).|C. x ≤ 15 (the solution is 5x ≤ 15, not x ≤ 3).|D. x < 3 (because ≤ becomes < after dividing).",
             "Wei at Riverside Secondary solves 2x − 5 < 9. He adds 5 to both sides: 2x < 14. He divides both sides by 2: x < 7. On the number line, which is correct?|A. Open circle at 7, arrow to the left ✓.|B. Closed circle at 7, arrow to the left (because < includes =).|C. Open circle at 7, arrow to the right (because x < 7 means x is to the right).|D. Open circle at 14, arrow to the left.",
-            "At Riverside Secondary, Aisha solves −3x + 5 < 2. She subtracts 5 from both sides: −3x < −3. She divides both sides by −3 and reverses the sign: x > 1. Mr Lim checks: 「Correct. When you divide by a negative number, reverse the sign. So −3x < −3 becomes x > 1.」 Which is the correct solution?|A. x > 1 ✓.|B. x < 1 (no need to reverse the sign).|C. x > −1.|D. x < −1.",
+            "At Riverside Secondary, Aisha solves −5x + 8 < 3. She subtracts 8 from both sides: −5x < −5. She divides both sides by −5 and reverses the sign: x > 1. Mr Lim checks: 「Correct. When you divide by a negative number, reverse the sign. So −5x < −5 becomes x > 1.」 Which is the correct solution?|A. x > 1 ✓.|B. x < 1 (no need to reverse the sign).|C. x > −1.|D. x < −1.",
             "At Riverside Secondary, Mr Lim asks: 「Solve 6x ≤ 18.」 Wei divides both sides by 6: x ≤ 3. Which working is correct?|A. 6x ≤ 18. Divide both sides by 6: x ≤ 3 ✓.|B. 6x ≤ 18. Divide both sides by 6 and reverse the sign: x ≥ 3.|C. 6x ≤ 18. Divide both sides by 6: x < 3 (because ≤ becomes <).|D. 6x ≤ 18. Subtract 6 from both sides: x ≤ 12.",
             "Aisha at Riverside Secondary has x < 2 as the solution. On the number line, which is correct?|A. Open circle at 2, arrow to the left ✓.|B. Closed circle at 2, arrow to the left (because 2 < 2 is true).|C. Open circle at 2, arrow to the right (because x is to the right of 2).|D. Closed circle at 2, arrow to the right.",
             "At Riverside Secondary, Wei solves 3x + 7 ≤ 19. He subtracts 7 from both sides: 3x ≤ 12. He divides both sides by 3: x ≤ 4. Which is the correct solution?|A. x ≤ 4 ✓.|B. x ≥ 4 (you must reverse the sign when dividing by 3).|C. x ≤ 12 (the answer is 3x ≤ 12, not x ≤ 4).|D. x < 4 (because ≤ becomes < after dividing).",
@@ -13409,15 +13409,15 @@ At Riverside Secondary, Mr Lim gives Wei the inequality 3x + 4 ≤ 19.
 (iii) Draw a number line from 0 to 10 and show the solution. (Hint: Put the circle at the correct value. Use a closed circle if the solution includes = (≤ or ≥), or an open circle if it does not (< or >). Draw an arrow to the left if x is less than the value, or to the right if x is greater than the value.)
 
 Question (b)
-Aisha at Riverside Secondary has the inequality 2x − 5 < 9.
-(i) Solve for x. Show your working step by step: add 5 to both sides, then divide both sides by 2. Write the solution in the form x < ... or x > ... or x ≤ ... or x ≥ ...
+Aisha at Riverside Secondary has the inequality 5x − 2 < 18.
+(i) Solve for x. Show your working step by step: add 2 to both sides, then divide both sides by 5. Write the solution in the form x < ... or x > ... or x ≤ ... or x ≥ ...
 (ii) On the number line, is it an open circle or a closed circle? Explain why. (Hint: Does < include = or not?)
 (iii) Draw a number line from 0 to 10 and show the solution.
 
 Question (c)
-At Riverside Secondary, Mr Lim writes: 「Solve −2x + 7 ≤ 1. Remember: when you multiply or divide both sides by a negative number, you must reverse the inequality sign.」
-(i) Solve for x. Show your working step by step: subtract 7 from both sides (you get −2x ≤ ...), then divide both sides by −2 and reverse the sign (≤ becomes ≥). Write the solution in the form x ≥ ... or x ≤ ... or x > ... or x < ...
-(ii) Explain why you reversed the inequality sign. (Hint: You divided both sides by a negative number, −2.)
+At Riverside Secondary, Mr Lim writes: 「Solve −4x + 9 ≤ 1. Remember: when you multiply or divide both sides by a negative number, you must reverse the inequality sign.」
+(i) Solve for x. Show your working step by step: subtract 9 from both sides (you get −4x ≤ ...), then divide both sides by −4 and reverse the sign (≤ becomes ≥). Write the solution in the form x ≥ ... or x ≤ ... or x > ... or x < ...
+(ii) Explain why you reversed the inequality sign. (Hint: You divided both sides by a negative number, −4.)
 (iii) Draw a number line from 0 to 10 and show the solution. Is it an open circle or a closed circle at the value? Which direction is the arrow?
 
 写作提示 / Tips:
@@ -13428,21 +13428,21 @@ At Riverside Secondary, Mr Lim writes: 「Solve −2x + 7 ≤ 1. Remember: when 
   • Solve 3x + 4 ≤ 19:
     Question: Solve 3x + 4 ≤ 19.
     Solution: ① Subtract 4 from both sides: 3x + 4 − 4 ≤ 19 − 4, so 3x ≤ 15. ② Divide both sides by 3: (3x)/3 ≤ 15/3, so x ≤ 5. ③ The solution is x ≤ 5. Answer: x ≤ 5. (Note: On the number line, put a closed circle at 5 (because x can equal 5, ≤ includes =) and draw an arrow to the left (because x is less than or equal to 5).)
-  • Solve 2x − 5 < 9:
-    Question: Solve 2x − 5 < 9.
-    Solution: ① Add 5 to both sides: 2x − 5 + 5 < 9 + 5, so 2x < 14. ② Divide both sides by 2: (2x)/2 < 14/2, so x < 7. ③ The solution is x < 7. Answer: x < 7. (Note: On the number line, put an open circle at 7 (because x cannot equal 7, < does not include =) and draw an arrow to the left (because x is less than 7).)
-  • Solve −2x + 7 ≤ 1:
-    Question: Solve −2x + 7 ≤ 1.
-    Solution: ① Subtract 7 from both sides: −2x + 7 − 7 ≤ 1 − 7, so −2x ≤ −6. ② Divide both sides by −2. When you divide by a negative number, reverse the inequality sign. (−2x)/−2 ≥ −6/−2 (≤ becomes ≥), so x ≥ 3. ③ The solution is x ≥ 3. Answer: x ≥ 3. (Note: We reversed the sign because we divided by a negative number. On the number line, put a closed circle at 3 (because x can equal 3, ≥ includes =) and draw an arrow to the right (because x is greater than or equal to 3).)
+  • Solve 5x − 2 < 18:
+    Question: Solve 5x − 2 < 18.
+    Solution: ① Add 2 to both sides: 5x − 2 + 2 < 18 + 2, so 5x < 20. ② Divide both sides by 5: (5x)/5 < 20/5, so x < 4. ③ The solution is x < 4. Answer: x < 4. (Note: On the number line, put an open circle at 4 (because x cannot equal 4, < does not include =) and draw an arrow to the left (because x is less than 4).)
+  • Solve −4x + 9 ≤ 1:
+    Question: Solve −4x + 9 ≤ 1.
+    Solution: ① Subtract 9 from both sides: −4x + 9 − 9 ≤ 1 − 9, so −4x ≤ −8. ② Divide both sides by −4. When you divide by a negative number, reverse the inequality sign. (−4x)/−4 ≥ −8/−4 (≤ becomes ≥), so x ≥ 2. ③ The solution is x ≥ 2. Answer: x ≥ 2. (Note: We reversed the sign because we divided by a negative number. On the number line, put a closed circle at 2 (because x can equal 2, ≥ includes =) and draw an arrow to the right (because x is greater than or equal to 2).)
   • Why reverse the sign when dividing by a negative number?
     Question: Why do you reverse the inequality sign when you multiply or divide both sides by a negative number?
-    Solution: Consider −2x ≤ −6. Let's check x=3: −2(3) = −6, and −6 ≤ −6 is true. Let's check x=4: −2(4) = −8, and −8 ≤ −6 is true (because −8 is less than −6 on the number line). So the solution includes x=3, x=4, and larger values. That means x ≥ 3. When we divide both sides of −2x ≤ −6 by −2 (a negative number), we get x on the left side. But the direction of the inequality must flip to match the original meaning: x ≥ 3 (not x ≤ 3). Rule: when you multiply or divide both sides by a negative number, reverse the inequality sign (< becomes >, ≤ becomes ≥, > becomes <, ≥ becomes ≤). Answer: You reverse the sign when multiplying or dividing by a negative number so that the solution remains correct. For example, −2x ≤ −6 becomes x ≥ 3 (not x ≤ 3).
+    Solution: Consider −4x ≤ −8. Let's check x=2: −4(2) = −8, and −8 ≤ −8 is true. Let's check x=3: −4(3) = −12, and −12 ≤ −8 is true (because −12 is less than −8 on the number line). So the solution includes x=2, x=3, and larger values. That means x ≥ 2. When we divide both sides of −4x ≤ −8 by −4 (a negative number), we get x on the left side. But the direction of the inequality must flip to match the original meaning: x ≥ 2 (not x ≤ 2). Rule: when you multiply or divide both sides by a negative number, reverse the inequality sign (< becomes >, ≤ becomes ≥, > becomes <, ≥ becomes ≤). Answer: You reverse the sign when multiplying or dividing by a negative number so that the solution remains correct. For example, −4x ≤ −8 becomes x ≥ 2 (not x ≤ 2).
   • Distinguish open circle from closed circle on the number line:
     Question: For the solution x ≤ 5, is it an open circle or a closed circle at 5? For the solution x < 5, is it an open circle or a closed circle at 5?
     Solution: ① For x ≤ 5, the symbol is ≤ (less than or equal to). The solution includes x=5 (because 5 ≤ 5 is true, 5 equals 5). On the number line, use a closed circle at 5 (also called a filled circle or solid circle). ② For x < 5, the symbol is < (less than). The solution does not include x=5 (because 5 < 5 is false, 5 is not less than 5). On the number line, use an open circle at 5 (also called a hollow circle or empty circle). ③ Rule: closed circle for ≤ or ≥ (includes =); open circle for < or > (does not include =). Answer: x ≤ 5 → closed circle at 5. x < 5 → open circle at 5. This week's fossil: confusing open circle with closed circle on the number line.
 ✓ 关键步骤：Step 1: To solve ax + b ≤ c (or ax + b < c), isolate x by using inverse operations: subtract b from both sides, then divide by a（解不等式 ax + b ≤ c 或 ax + b < c：两边减 b，然后两边除以 a）. Step 2: If you divide by a negative number, reverse the inequality sign (< becomes >, ≤ becomes ≥, > becomes <, ≥ becomes ≤)（如果除以负数，不等号方向改变）. Step 3: To represent the solution on the number line, put a circle at the value. Use a closed circle for ≤ or ≥ (includes =), or an open circle for < or > (does not include =). Draw an arrow to the left if x is less than the value, or to the right if x is greater than the value（在数轴上表示解：在对应的值上画一个圆点。≤ 或 ≥ 用实心圆点（包括等于），< 或 > 用空心圆点（不包括等于）。如果 x 小于这个值，箭头向左；如果 x 大于这个值，箭头向右）. Step 4: Distinguish < from ≤ on the number line: < uses an open circle, ≤ uses a closed circle（区分 < 和 ≤：< 用空心圆点，≤ 用实心圆点）. Step 5: Check your solution by substituting a value into the original inequality（检查答案：把一个值代入原不等式）.
 ✓ 化石 (fossil errors)：
-  • Forgetting to reverse the inequality sign when dividing by a negative number（除以负数时忘记改变不等号方向）：solving −2x + 7 ≤ 1 → −2x ≤ −6 → x ≤ 3 ✗. Correct: x ≥ 3 (reverse the sign when dividing by −2).
+  • Forgetting to reverse the inequality sign when dividing by a negative number（除以负数时忘记改变不等号方向）：solving −4x + 9 ≤ 1 → −4x ≤ −8 → x ≤ 2 ✗. Correct: x ≥ 2 (reverse the sign when dividing by −4).
   • Confusing open circle with closed circle on the number line（在数轴上混淆空心圆点和实心圆点）：for x < 5, using a closed circle ✗. Correct: open circle (because < does not include =). For x ≤ 5, using an open circle ✗. Correct: closed circle (because ≤ includes =).
   • Putting the circle at the wrong value（把圆点画在错误的位置）：solving 3x ≤ 15, then putting the circle at 15 instead of at 5 ✗. Correct: divide both sides by 3 to get x ≤ 5, then put the circle at 5.
   • Drawing the arrow in the wrong direction（箭头方向画错）：for x ≤ 5, drawing the arrow to the right ✗. Correct: arrow to the left (because x is less than or equal to 5, which is to the left of 5 on the number line).
