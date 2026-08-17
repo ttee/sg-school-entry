@@ -11184,6 +11184,108 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
         },
       ],
     },
+    {
+      level: "SMATH",
+      weekNumber: 48,
+      title: "数学 第 48 周 / Maths Week 48",
+      description: "AEIS-Secondary Mathematics: Sec 1 properties of regular polygons (G1.4 regular polygons only)",
+      isSample: false,
+      errorFocus: "mixing up the number of sides and the number of lines of symmetry; or using 360° ÷ n as the interior angle of a regular n-gon (that is the exterior angle or centre angle, not the interior angle)",
+      parentBrief: "本周是中学 AEIS 数学第 48 周，对应官方 SEAB Sec 1 卷型（https://www.seab.gov.sg/aeis/test-details/ 2026年7月1日更新）。Part 1 Multiple-choice questions：34 道 MCQ，30 分钟。Part 2 Short-answer questions (20 items) and open-ended questions (10 to 15 items)：1 小时 45 分钟。Calculators are not allowed（不允许使用计算器）。Short-answer and open-ended questions：candidates are required to show the method of solution clearly by writing working steps in the spaces provided, plus the final answer（需写出算式步骤和最终答案）。AEIS-Secondary 官方 preceding-level 规则：申请 Sec 2 入学者需熟悉 Sec 2 前一级的内容。官方举例：apply Secondary 3 → be familiar with Secondary 2 content. 本周针对 Sec 2 申请者，内容为 Sec 2 前一级（Sec 1）的官方 MOE 2020 G3 Mathematics Syllabuses, Secondary One, GEOMETRY AND MEASUREMENT, G1. Angles, triangles and polygons: 1.4 properties of triangles, special quadrilaterals and regular polygons (pentagon, hexagon, octagon and decagon), including symmetry properties。官方 1.4 wording（逐字引用）：「properties of triangles, special quadrilaterals and regular polygons (pentagon, hexagon, octagon and decagon), including symmetry properties」。第 46 周已教 G1.4 的三角形部分，第 47 周已教 G1.4 的特殊四边形部分，本周只教 G1.4 的正多边形部分 regular polygons only（pentagon 正五边形、hexagon 正六边形、octagon 正八边形、decagon 正十边形）；本周完成 G1.4。本周方法：a regular polygon has all sides equal and all interior angles equal（正多边形所有边相等、所有内角相等）；official named ones: regular pentagon (5 sides), hexagon (6 sides), octagon (8 sides), decagon (10 sides)；number of lines of symmetry equals the number of sides（对称轴的数量等于边数）；rotational symmetry of order n for a regular n-gon（正 n 边形的旋转对称阶数为 n）；interior angle formula: (n − 2) × 180° ÷ n for a regular n-gon（正 n 边形的内角公式：(n − 2) × 180° ÷ n）。Examples: regular hexagon (6 sides) has 6 lines of symmetry, rotational symmetry of order 6, each interior angle = (6 − 2) × 180° ÷ 6 = 4 × 180° ÷ 6 = 720° ÷ 6 = 120°. Regular pentagon (5 sides) has 5 lines of symmetry, each interior angle = (5 − 2) × 180° ÷ 5 = 3 × 180° ÷ 5 = 540° ÷ 5 = 108°. Cast: Wei, Aisha, Mr Lim at Riverside Secondary School（描述图形：regular polygon with vertices labeled with capital letters, describe equal sides and equal angles）。Friendly integers（友好整数）。No calculator（calculators are not allowed）。唯一性 unique keys：每道选择题只有一个正确答案（only ONE option may be true）。不要提供两个正确答案作为两个选项（如「6 sides」和「6 lines of symmetry」不能同时作为两个正确选项在同一道「which is correct?」题目中，只能选其中一个作为答案）。不要写一道「which is NOT / is this correct?」的题目，其中两个 Yes/No+reason 选项都是对的。本周只教 G1.4 的正多边形部分（properties of regular polygons: pentagon, hexagon, octagon, decagon, including symmetry properties），第 46 周已教 G1.4 的三角形部分，第 47 周已教 G1.4 的特殊四边形部分，本周完成 G1.4。本周不教 G1.5 classification（分类学）。本周不教 G1.6 interior and exterior angle sum of any convex polygon（任意凸多边形的内角和与外角和）as the main topic。本周不教 G1.7 construction（尺规作图）。本周化石：mixing up the number of sides and the number of lines of symmetry（错误：混淆边数和对称轴数量。Wrong: regular hexagon has 5 lines of symmetry ✗. Right: regular hexagon has 6 sides and 6 lines of symmetry ✓）；using 360° ÷ n as the interior angle of a regular n-gon（错误：用 360° ÷ n 当作正 n 边形的内角。那是外角或中心角，不是内角。Wrong: each interior angle of a regular pentagon = 360° ÷ 5 = 72° ✗. Right: each interior angle of a regular pentagon = (5 − 2) × 180° ÷ 5 = 108°; 72° is the exterior angle or centre angle ✓）。第 46 周已完成 G1.4 triangles，第 47 周已完成 G1.4 special quadrilaterals，本周完成 G1.4 regular polygons。官方 1.4 现已完成。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "At Riverside Secondary, Mr Lim draws a regular hexagon ABCDEF on the board. How many sides does this regular hexagon have?|A. 6 sides (because a hexagon has 6 sides)|B. 5 sides (because pentagon has 5, hexagon has 5)|C. 8 sides (because octagon has 8, hexagon sounds similar)|D. 10 sides (because decagon has 10)",
+            "Wei observes a regular pentagon at Riverside Secondary. He counts the lines of symmetry. How many lines of symmetry does a regular pentagon have?|A. 5 (because the number of lines of symmetry equals the number of sides for a regular polygon)|B. 4 (because 5 − 1 = 4)|C. 10 (because 5 × 2 = 10)|D. 1 (because all regular polygons have 1 line of symmetry)",
+            "Aisha studies a regular octagon at Riverside Secondary. What is the order of rotational symmetry for this regular octagon?|A. 8 (because a regular n-gon has rotational symmetry of order n)|B. 4 (because 8 ÷ 2 = 4)|C. 16 (because 8 × 2 = 16)|D. 1 (because all polygons have rotational symmetry of order 1)",
+            "Mr Lim asks the class: A regular hexagon has 6 equal sides and 6 equal angles. What is the measure of each interior angle of a regular hexagon?|A. 120° (because each interior angle = (6 − 2) × 180° ÷ 6 = 720° ÷ 6 = 120°)|B. 60° (because 360° ÷ 6 = 60°)|C. 90° (because hexagons have right angles)|D. 180° (because that's the angle sum)",
+            "Wei says: 「A regular pentagon has 5 sides. Each interior angle is 360° ÷ 5 = 72°.」 What is wrong with Wei's reasoning?|A. Wei used 360° ÷ 5 = 72° for the interior angle, but 72° is the exterior angle or centre angle. The correct interior angle is (5 − 2) × 180° ÷ 5 = 108°.|B. Nothing is wrong. Wei's answer is correct. Each interior angle is 72°.|C. The error is that a pentagon has 6 sides, not 5.|D. The error is that 360° ÷ 5 = 70°, not 72°.",
+          ]),
+          correctAnswer: "A,A,A,A,A",
+          points: 10,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "A regular decagon at Riverside Secondary has how many sides?|A. 10 sides (because a decagon has 10 sides)|B. 5 sides (because decagon sounds like pentagon)|C. 8 sides (because octagon has 8)|D. 6 sides (because hexagon has 6)",
+            "Wei observes a regular hexagon. How many lines of symmetry does this regular hexagon have?|A. 6 (because the number of lines of symmetry equals the number of sides for a regular polygon, and a hexagon has 6 sides)|B. 5 (because 6 − 1 = 5)|C. 3 (because 6 ÷ 2 = 3)|D. 12 (because 6 × 2 = 12)",
+            "Aisha draws a regular octagon at Riverside Secondary. She says: 「A regular octagon has 8 sides, so it has 8 lines of symmetry.」 Mr Lim asks the class: Is Aisha correct?|A. Yes, Aisha is correct. A regular polygon has the number of lines of symmetry equal to the number of sides. A regular octagon has 8 sides, so it has 8 lines of symmetry.|B. No, Aisha is wrong. A regular octagon has 4 lines of symmetry, not 8.|C. No, Aisha is wrong. A regular octagon has 16 lines of symmetry, not 8.|D. No, Aisha is wrong. The number of lines of symmetry is always 1 for any regular polygon.",
+            "Mr Lim draws a regular pentagon with 5 equal sides and 5 equal angles. Each interior angle measures:|A. 108° (because each interior angle = (5 − 2) × 180° ÷ 5 = 540° ÷ 5 = 108°)|B. 72° (because 360° ÷ 5 = 72°)|C. 90° (because all polygons have right angles)|D. 180° (because that's the angle sum)",
+            "Which property is correct for a regular polygon?|A. All sides are equal and all interior angles are equal|B. All sides are equal but angles can be different|C. All angles are equal but sides can be different|D. At least one pair of sides must be parallel",
+            "Aisha says: 「A regular hexagon has 5 lines of symmetry.」 Wei responds: 「Actually, a regular hexagon has 6 lines of symmetry because the number of lines of symmetry equals the number of sides.」 Who is correct?|A. Wei is correct. A regular polygon has the number of lines of symmetry equal to the number of sides. A regular hexagon has 6 sides, so it has 6 lines of symmetry.|B. Aisha is correct. A regular hexagon has 5 lines of symmetry.|C. Both are wrong. A regular hexagon has 3 lines of symmetry.|D. Both are correct. It depends on the hexagon.",
+            "What is the measure of each interior angle of a regular octagon?|A. 135° (because each interior angle = (8 − 2) × 180° ÷ 8 = 1080° ÷ 8 = 135°)|B. 45° (because 360° ÷ 8 = 45°)|C. 90° (because octagons have right angles)|D. 180° (because that's the angle on a straight line)",
+            "Wei calculates the interior angle of a regular decagon. He says: 「Each interior angle = 360° ÷ 10 = 36°.」 Aisha checks his working. Which statement is correct?|A. No, Wei is wrong. Wei used 360° ÷ 10 = 36°, but that is the exterior angle or centre angle. The correct interior angle is (10 − 2) × 180° ÷ 10 = 144°.|B. Yes, Wei is correct. Each interior angle is 36°.|C. No, Wei is wrong. Each interior angle is 180°.|D. Yes, because 360° ÷ 10 = 36°, Wei's answer is correct for the interior angle.",
+          ]),
+          correctAnswer: "A,A,A,A,A,A,A,A",
+          points: 16,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `Part 2: Show Your Working (写出算式步骤)
+
+Riverside Secondary School has regular polygons geometry exercises. Answer the questions below. For each question, show your method of solution clearly by writing working steps, plus the final answer.
+
+Question (a)
+At Riverside Secondary, Mr Lim draws a regular hexagon ABCDEF on the classroom board. He tells the class that a regular hexagon has 6 equal sides and 6 equal interior angles.
+
+(i) How many lines of symmetry does this regular hexagon have? Show your working clearly using the symmetry property of regular polygons.
+(ii) What is the order of rotational symmetry for this regular hexagon? Show your working.
+(iii) Calculate the measure of each interior angle of this regular hexagon using the interior angle formula. Show all working steps clearly.
+
+Question (b)
+Wei draws a regular pentagon PQRST at Riverside Secondary with 5 equal sides and 5 equal angles.
+
+(i) How many lines of symmetry does this regular pentagon have? Show your working.
+(ii) Calculate the measure of each interior angle of this regular pentagon using the formula (n − 2) × 180° ÷ n. Show all working steps clearly.
+(iii) Wei says: 「Each interior angle of a regular pentagon is 360° ÷ 5 = 72°.」 Explain what is wrong with Wei's calculation and give the correct interior angle.
+
+Question (c)
+Aisha observes a regular octagon at Riverside Secondary. She knows that a regular octagon has 8 equal sides and 8 equal angles.
+
+(i) How many lines of symmetry does this regular octagon have? Show your working using the regular polygon property.
+(ii) Calculate the measure of each interior angle of this regular octagon. Show all working steps clearly.
+(iii) Mr Lim asks: 「How is the interior angle formula (n − 2) × 180° ÷ n different from 360° ÷ n?」 Explain clearly what each formula calculates.
+
+写作提示 / Tips:
+✓ 每题分步骤写出推理 (Show working steps for each question)
+✓ Part 2 官方要求：clearly show the method of solution by writing working steps, plus the final answer
+✓ 不用计算器 (No calculators allowed)
+✓ 正多边形性质步骤示范 (regular polygons properties examples)：
+  • Regular hexagon with 6 sides:
+    Question: How many lines of symmetry? What is the order of rotational symmetry? Calculate each interior angle.
+    Solution for lines of symmetry: ① Recall the property: In a regular polygon, the number of lines of symmetry equals the number of sides（正多边形的对称轴数量等于边数）. ② Identify the given: regular hexagon has 6 sides. ③ Apply the property: number of lines of symmetry = number of sides = 6. ④ Conclusion: A regular hexagon has 6 lines of symmetry.
+    Solution for rotational symmetry: ① Recall the property: A regular n-gon has rotational symmetry of order n（正 n 边形的旋转对称阶数为 n）. ② Identify the given: regular hexagon has 6 sides (n = 6). ③ Apply the property: order of rotational symmetry = n = 6. ④ Conclusion: A regular hexagon has rotational symmetry of order 6.
+    Solution for interior angle: ① Recall the formula: Each interior angle of a regular n-gon = (n − 2) × 180° ÷ n（正 n 边形的每个内角 = (n − 2) × 180° ÷ n）. ② Identify the given: n = 6 (hexagon has 6 sides). ③ Apply the formula: interior angle = (6 − 2) × 180° ÷ 6. ④ Calculate step by step: = 4 × 180° ÷ 6 = 720° ÷ 6 = 120°. ⑤ Conclusion: Each interior angle of a regular hexagon is 120°.
+  • Regular pentagon with 5 sides:
+    Question: How many lines of symmetry? Calculate each interior angle. Wei says each interior angle = 360° ÷ 5 = 72°. What is wrong?
+    Solution for lines of symmetry: ① Property: number of lines of symmetry = number of sides. ② Given: pentagon has 5 sides. ③ Apply: lines of symmetry = 5. ④ Conclusion: A regular pentagon has 5 lines of symmetry.
+    Solution for interior angle: ① Formula: interior angle = (n − 2) × 180° ÷ n. ② Given: n = 5. ③ Apply: interior angle = (5 − 2) × 180° ÷ 5. ④ Calculate: = 3 × 180° ÷ 5 = 540° ÷ 5 = 108°. ⑤ Conclusion: Each interior angle of a regular pentagon is 108°.
+    Wei's error: ① Wei said each interior angle = 360° ÷ 5 = 72°. ② This is wrong. Wei used the formula 360° ÷ n, but this gives the EXTERIOR angle or the centre angle from the centre of the polygon, not the interior angle. ③ The correct formula for the interior angle is (n − 2) × 180° ÷ n. ④ For a regular pentagon (n = 5): interior angle = (5 − 2) × 180° ÷ 5 = 108°. ⑤ The value 72° is the exterior angle or centre angle, not the interior angle. ⑥ Conclusion: Wei is wrong. Each interior angle is 108°, not 72°.
+  • Regular octagon with 8 sides:
+    Question: How many lines of symmetry? Calculate each interior angle. Explain the difference between (n − 2) × 180° ÷ n and 360° ÷ n.
+    Solution for lines of symmetry: ① Property: lines of symmetry = number of sides for a regular polygon. ② Given: octagon has 8 sides. ③ Apply: lines of symmetry = 8. ④ Conclusion: A regular octagon has 8 lines of symmetry.
+    Solution for interior angle: ① Formula: interior angle = (n − 2) × 180° ÷ n. ② Given: n = 8. ③ Apply: interior angle = (8 − 2) × 180° ÷ 8. ④ Calculate: = 6 × 180° ÷ 8 = 1080° ÷ 8 = 135°. ⑤ Conclusion: Each interior angle of a regular octagon is 135°.
+    Difference between the two formulas: ① The formula (n − 2) × 180° ÷ n gives the INTERIOR angle of a regular n-gon（正 n 边形的内角）. ② The formula 360° ÷ n gives the EXTERIOR angle or the centre angle from the centre of the polygon（正 n 边形的外角或从中心到顶点的中心角）. ③ These are different values. For example, for a regular octagon (n = 8): interior angle = (8 − 2) × 180° ÷ 8 = 135°; exterior angle = 360° ÷ 8 = 45°. ④ Interior angle ≠ exterior angle. ⑤ Conclusion: Use (n − 2) × 180° ÷ n for the interior angle, and 360° ÷ n for the exterior angle. Do not confuse the two.
+✓ 关键步骤：Step 1: Identify which regular polygon and how many sides n（识别是哪个正多边形，边数 n）——pentagon (5), hexagon (6), octagon (8), decagon (10). Step 2: Recall the properties of regular polygons（回忆正多边形的性质）——all sides equal, all interior angles equal, number of lines of symmetry = n, rotational symmetry of order n. Step 3: For lines of symmetry: number of lines = n（对称轴数量 = n）. Step 4: For rotational symmetry: order = n（旋转对称阶数 = n）. Step 5: For interior angle: use the formula (n − 2) × 180° ÷ n（内角公式：(n − 2) × 180° ÷ n）. Step 6: Calculate step by step: first calculate (n − 2) × 180°, then divide by n（逐步计算：先算 (n − 2) × 180°，再除以 n）. Step 7: State the final answer clearly（清楚地陈述最终答案）. Step 8: If a fossil error is present, explain what is wrong（如果有化石错误，解释错误之处）——identify if 360° ÷ n was used instead of (n − 2) × 180° ÷ n, state that 360° ÷ n gives the exterior angle not the interior angle, show the correct calculation.
+✓ 化石 (fossil errors)：
+  • Mixing up the number of sides and the number of lines of symmetry: saying a regular hexagon has 5 lines of symmetry（错误：混淆边数和对称轴数量。正确：正六边形有 6 条边和 6 条对称轴。Wrong: regular hexagon has 5 lines of symmetry ✗. Right: regular hexagon has 6 sides and 6 lines of symmetry ✓）
+  • Using 360° ÷ n as the interior angle: saying each interior angle of a regular pentagon = 360° ÷ 5 = 72°（错误：用 360° ÷ n 当作内角。那是外角或中心角。正确：每个内角 = (5 − 2) × 180° ÷ 5 = 108°；72° 是外角或中心角。Wrong: interior angle = 360° ÷ 5 = 72° ✗. Right: interior angle = (5 − 2) × 180° ÷ 5 = 108°; 72° is the exterior or centre angle ✓）
+  • Confusing the interior angle formula with the exterior angle formula（混淆内角公式和外角公式。正确：interior angle = (n − 2) × 180° ÷ n; exterior angle = 360° ÷ n）
+  • 本周教 Sec 1 GEOMETRY AND MEASUREMENT, G1. Angles, triangles and polygons: 1.4 properties of regular polygons (pentagon, hexagon, octagon and decagon), including symmetry properties（G1.4 正多边形的性质，本周只教正多边形）。第 46 周已完成 G1.4 triangles（三角形的性质），第 47 周已完成 G1.4 special quadrilaterals（特殊四边形的性质），本周完成 G1.4 regular polygons（正多边形的性质），官方 1.4 现已完成。本周不教 G1.5 classification 和 G1.6 interior and exterior angle sum of any convex polygon（任意凸多边形的内角和与外角和）。
+
+Note: This is a sample of Part 2 short-answer/open-ended questions. The official paper has 20 short-answer + 10–15 open-ended items in 1 hour 45 minutes.`,
+          points: 20,
+        },
+      ],
+    },
   ];
 
   // =================================================================
