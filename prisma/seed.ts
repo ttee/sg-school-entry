@@ -13503,55 +13503,55 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
 Riverside Secondary School has graphs of linear equations exercises. Answer the questions below. Show your working clearly.
 
 Question (a)
-At Riverside Secondary, Mr Lim gives Wei the linear equation 2x + y = 6.
-(i) Find the x-intercept by setting y=0. Show your working step by step: substitute y=0 into 2x + y = 6, solve for x, and state the x-intercept as a coordinate (x, 0).
-(ii) Find the y-intercept by setting x=0. Show your working step by step: substitute x=0 into 2x + y = 6, solve for y, and state the y-intercept as a coordinate (0, y).
+At Riverside Secondary, Mr Lim gives Wei the linear equation 5x + y = 10.
+(i) Find the x-intercept by setting y=0. Show your working step by step: substitute y=0 into 5x + y = 10, solve for x, and state the x-intercept as a coordinate (x, 0).
+(ii) Find the y-intercept by setting x=0. Show your working step by step: substitute x=0 into 5x + y = 10, solve for y, and state the y-intercept as a coordinate (0, y).
 (iii) Plot the two intercepts on a coordinate plane and draw a straight line through them. (Hint: You can sketch this on paper.)
-(iv) Check your line by finding a third point. Let x=1. Substitute x=1 into 2x + y = 6 and find y. Does this point lie on your line?
+(iv) Check your line by finding a third point. Let x=1. Substitute x=1 into 5x + y = 10 and find y. Does this point lie on your line?
 
 Question (b)
-Aisha at Riverside Secondary has the linear equation x + 2y = 8.
+Aisha at Riverside Secondary has the linear equation 2x + 3y = 12.
 (i) Find the x-intercept. Show your working. (Hint: Set y=0 and solve for x.)
 (ii) Find the y-intercept. Show your working. (Hint: Set x=0 and solve for y.)
-(iii) Mr Lim asks: 「Check whether the point (2, 3) lies on the line x + 2y = 8.」 Substitute x=2 and y=3 into the equation. Show your working. Does the left side equal the right side?
+(iii) Mr Lim asks: 「Check whether the point (3, 2) lies on the line 2x + 3y = 12.」 Substitute x=3 and y=2 into the equation. Show your working. Does the left side equal the right side?
 
 Question (c)
-At Riverside Secondary, Mr Lim writes: 「For the linear equation 3x − y = 6, find the intercepts and check a point.」
-(i) Find the x-intercept and the y-intercept. Show your working step by step for both. (Hint: For x-intercept, set y=0. For y-intercept, set x=0. Be careful with the minus sign when solving −y = 6.)
-(ii) Check whether the point (1, −3) lies on the line 3x − y = 6. Substitute x=1 and y=−3 into the equation. Show your working. (Hint: Remember that 3(1) − (−3) = 3 + 3 = 6.)
+At Riverside Secondary, Mr Lim writes: 「For the linear equation 4x − y = 8, find the intercepts and check a point.」
+(i) Find the x-intercept and the y-intercept. Show your working step by step for both. (Hint: For x-intercept, set y=0. For y-intercept, set x=0. Be careful with the minus sign when solving −y = 8.)
+(ii) Check whether the point (1, −4) lies on the line 4x − y = 8. Substitute x=1 and y=−4 into the equation. Show your working. (Hint: Remember that 4(1) − (−4) = 4 + 4 = 8.)
 
 写作提示 / Tips:
 ✓ 每题分步骤写出推理 (Show working steps for each question)
 ✓ Part 2 官方要求：clearly show the method of solution by writing working steps, plus the final answer
 ✓ 不用计算器 (No calculators allowed)
 ✓ 直线方程图像步骤示范 (graphs of linear equations examples)：
-  • For 2x + y = 6, find the x-intercept:
-    Question: For 2x + y = 6, find the x-intercept.
-    Solution: ① The x-intercept is where the line crosses the x-axis. On the x-axis, y = 0. ② Substitute y = 0 into the equation: 2x + 0 = 6. ③ Simplify: 2x = 6. ④ Divide both sides by 2: x = 3. ⑤ The x-intercept is (3, 0). Answer: (3, 0). (Note: Fossil: confusing x-intercept with y-intercept. The x-intercept has y=0, not x=0. Don't write (0, 3) for the x-intercept. That's the y-intercept if you set x=0.)
-  • For 2x + y = 6, find the y-intercept:
-    Question: For 2x + y = 6, find the y-intercept.
-    Solution: ① The y-intercept is where the line crosses the y-axis. On the y-axis, x = 0. ② Substitute x = 0 into the equation: 2(0) + y = 6. ③ Simplify: 0 + y = 6, so y = 6. ④ The y-intercept is (0, 6). Answer: (0, 6). (Note: The y-intercept has x=0, not y=0. Don't confuse it with the x-intercept.)
-  • For 2x + y = 6, check whether (1, 4) lies on the line:
-    Question: For 2x + y = 6, check whether the point (1, 4) lies on the line.
-    Solution: ① Substitute x=1 and y=4 into the left side of the equation: 2x + y = 2(1) + 4 = 2 + 4 = 6. ② The right side of the equation is 6. ③ Left side = 6, right side = 6. Both sides are equal. ④ When both sides are equal, the point lies on the line. Answer: Yes, the point (1, 4) lies on the line. (Note: Fossil: claiming a point lies on the line without checking by substitution. You MUST substitute the coordinates and verify that both sides equal.)
-  • For x + 2y = 8, find the x-intercept:
-    Question: For x + 2y = 8, find the x-intercept.
-    Solution: ① Set y = 0: x + 2(0) = 8. ② Simplify: x + 0 = 8, so x = 8. ③ The x-intercept is (8, 0). Answer: (8, 0).
-  • For x + 2y = 8, find the y-intercept:
-    Question: For x + 2y = 8, find the y-intercept.
-    Solution: ① Set x = 0: 0 + 2y = 8. ② Simplify: 2y = 8. ③ Divide both sides by 2: y = 4. ④ The y-intercept is (0, 4). Answer: (0, 4).
-  • For x + 2y = 8, check whether (2, 3) lies on the line:
-    Question: For x + 2y = 8, check whether the point (2, 3) lies on the line.
-    Solution: ① Substitute x=2 and y=3 into the left side: x + 2y = 2 + 2(3) = 2 + 6 = 8. ② The right side is 8. ③ Left side = 8, right side = 8. Both sides are equal. ④ So the point (2, 3) lies on the line. Answer: Yes, (2, 3) lies on the line.
-  • For 3x − y = 6, find the x-intercept:
-    Question: For 3x − y = 6, find the x-intercept.
-    Solution: ① Set y = 0: 3x − 0 = 6. ② Simplify: 3x = 6. ③ Divide both sides by 3: x = 2. ④ The x-intercept is (2, 0). Answer: (2, 0).
-  • For 3x − y = 6, find the y-intercept:
-    Question: For 3x − y = 6, find the y-intercept.
-    Solution: ① Set x = 0: 3(0) − y = 6. ② Simplify: 0 − y = 6, so −y = 6. ③ Multiply both sides by −1: y = −6. ④ The y-intercept is (0, −6). Answer: (0, −6). (Note: Be careful with the minus sign. −y = 6 means y = −6, not y = 6.)
-  • For 3x − y = 6, check whether (1, −3) lies on the line:
-    Question: For 3x − y = 6, check whether the point (1, −3) lies on the line.
-    Solution: ① Substitute x=1 and y=−3 into the left side: 3x − y = 3(1) − (−3). ② Remember: subtracting a negative is the same as adding. 3(1) − (−3) = 3 + 3 = 6. ③ The right side is 6. ④ Left side = 6, right side = 6. Both sides are equal. ⑤ So the point (1, −3) lies on the line. Answer: Yes, (1, −3) lies on the line.
+  • For 5x + y = 10, find the x-intercept:
+    Question: For 5x + y = 10, find the x-intercept.
+    Solution: ① The x-intercept is where the line crosses the x-axis. On the x-axis, y = 0. ② Substitute y = 0 into the equation: 5x + 0 = 10. ③ Simplify: 5x = 10. ④ Divide both sides by 5: x = 2. ⑤ The x-intercept is (2, 0). Answer: (2, 0). (Note: Fossil: confusing x-intercept with y-intercept. The x-intercept has y=0, not x=0. Don't write (0, 2) for the x-intercept. That's the y-intercept if you set x=0.)
+  • For 5x + y = 10, find the y-intercept:
+    Question: For 5x + y = 10, find the y-intercept.
+    Solution: ① The y-intercept is where the line crosses the y-axis. On the y-axis, x = 0. ② Substitute x = 0 into the equation: 5(0) + y = 10. ③ Simplify: 0 + y = 10, so y = 10. ④ The y-intercept is (0, 10). Answer: (0, 10). (Note: The y-intercept has x=0, not y=0. Don't confuse it with the x-intercept.)
+  • For 5x + y = 10, check whether (1, 5) lies on the line:
+    Question: For 5x + y = 10, check whether the point (1, 5) lies on the line.
+    Solution: ① Substitute x=1 and y=5 into the left side of the equation: 5x + y = 5(1) + 5 = 5 + 5 = 10. ② The right side of the equation is 10. ③ Left side = 10, right side = 10. Both sides are equal. ④ When both sides are equal, the point lies on the line. Answer: Yes, the point (1, 5) lies on the line. (Note: Fossil: claiming a point lies on the line without checking by substitution. You MUST substitute the coordinates and verify that both sides equal.)
+  • For 2x + 3y = 12, find the x-intercept:
+    Question: For 2x + 3y = 12, find the x-intercept.
+    Solution: ① Set y = 0: 2x + 3(0) = 12. ② Simplify: 2x + 0 = 12, so 2x = 12. ③ Divide both sides by 2: x = 6. ④ The x-intercept is (6, 0). Answer: (6, 0).
+  • For 2x + 3y = 12, find the y-intercept:
+    Question: For 2x + 3y = 12, find the y-intercept.
+    Solution: ① Set x = 0: 2(0) + 3y = 12. ② Simplify: 0 + 3y = 12, so 3y = 12. ③ Divide both sides by 3: y = 4. ④ The y-intercept is (0, 4). Answer: (0, 4).
+  • For 2x + 3y = 12, check whether (3, 2) lies on the line:
+    Question: For 2x + 3y = 12, check whether the point (3, 2) lies on the line.
+    Solution: ① Substitute x=3 and y=2 into the left side: 2x + 3y = 2(3) + 3(2) = 6 + 6 = 12. ② The right side is 12. ③ Left side = 12, right side = 12. Both sides are equal. ④ So the point (3, 2) lies on the line. Answer: Yes, (3, 2) lies on the line.
+  • For 4x − y = 8, find the x-intercept:
+    Question: For 4x − y = 8, find the x-intercept.
+    Solution: ① Set y = 0: 4x − 0 = 8. ② Simplify: 4x = 8. ③ Divide both sides by 4: x = 2. ④ The x-intercept is (2, 0). Answer: (2, 0).
+  • For 4x − y = 8, find the y-intercept:
+    Question: For 4x − y = 8, find the y-intercept.
+    Solution: ① Set x = 0: 4(0) − y = 8. ② Simplify: 0 − y = 8, so −y = 8. ③ Multiply both sides by −1: y = −8. ④ The y-intercept is (0, −8). Answer: (0, −8). (Note: Be careful with the minus sign. −y = 8 means y = −8, not y = 8.)
+  • For 4x − y = 8, check whether (1, −4) lies on the line:
+    Question: For 4x − y = 8, check whether the point (1, −4) lies on the line.
+    Solution: ① Substitute x=1 and y=−4 into the left side: 4x − y = 4(1) − (−4). ② Remember: subtracting a negative is the same as adding. 4(1) − (−4) = 4 + 4 = 8. ③ The right side is 8. ④ Left side = 8, right side = 8. Both sides are equal. ⑤ So the point (1, −4) lies on the line. Answer: Yes, (1, −4) lies on the line.
 ✓ 关键步骤：Step 1: To find the x-intercept, set y=0 and solve for x. The x-intercept is (x, 0)（求 x 截距：令 y=0，解出 x，x 截距是 (x, 0)）. Step 2: To find the y-intercept, set x=0 and solve for y. The y-intercept is (0, y)（求 y 截距：令 x=0，解出 y，y 截距是 (0, y)）. Step 3: Plot the two intercepts on a coordinate plane and draw a straight line through them（在坐标平面上画出两个截距，连成直线）. Step 4: A third point can check your line. Pick a value for x (or y), substitute into the equation, solve for the other variable, and verify that the point lies on your line（第三个点可以验证：选一个 x 或 y 值，代入方程，解出另一个变量，验证这个点在直线上）. Step 5: To check whether a given point (a, b) lies on the line, substitute x=a and y=b into the equation. If both sides are equal, the point lies on the line. If not, it doesn't（检查点 (a, b) 是否在直线上：代入 x=a 和 y=b，如果两边相等，点在直线上；否则不在）.
 ✓ 化石 (fossil errors)：
   • Confusing x-intercept with y-intercept（混淆 x 截距和 y 截距）：writing (0, 3) as the x-intercept when it should be (3, 0)（错误：把 (0, 3) 写成 x 截距，正确：x 截距是 (3, 0)，y 截距是 (0, 3)。x 截距的 y=0，y 截距的 x=0）
