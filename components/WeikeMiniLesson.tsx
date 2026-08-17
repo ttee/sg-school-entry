@@ -710,6 +710,14 @@ export default function WeikeMiniLesson({ level, weekNumber }: WeikeMiniLessonPr
       ],
       gloss: "AEIS 中学数学第 52 周 / SMATH Week 52. 本周例题：Sec 1 G5.1 area of parallelogram and trapezium（平行四边形和梯形的面积）。官方 5.1 wording（逐字引用）：'area of parallelogram and trapezium'。本周是 G5.1 only. Area of a parallelogram = base × corresponding perpendicular height. The slanted side is NOT the height（平行四边形面积 = 底 × 对应的垂直高。倾斜的边不是高）。Area of a trapezium = ½ × (sum of the two parallel sides) × perpendicular height（梯形面积 = ½ × (两条平行边之和) × 垂直高）。Singapore trapezium = exactly one pair of parallel sides（新加坡梯形定义：恰好一对平行边）。Do not treat a parallelogram as a trapezium（不要把平行四边形当作梯形）。Friendly integers: parallelogram base 8 cm height 5 cm → 40 cm²; trapezium parallel sides 6 cm and 10 cm, height 4 cm → ½(6+10)×4 = 32 cm². Units: cm². No calculator. 本周开始官方 G5 Mensuration。本周不教 5.2 composite figures、5.3 prism/cylinder、5.4 unit conversion、5.5 composite solids。"
     },
+    "SMATH-53": {
+      examples: [
+        "L-shape: 8 cm by 6 cm rectangle with 3 cm by 2 cm rectangle cut from corner → Area = 8 × 6 − 3 × 2 = 48 − 6 = 42 cm².",
+        "Rectangle 10 cm by 6 cm with right triangle (base 4 cm, height 6 cm) attached → Area = 10 × 6 + ½ × 4 × 6 = 60 + 12 = 72 cm².",
+        "Perimeter of composite figure: add only the outer edges, NOT the perimeters of the individual pieces (that double-counts shared internal edges)."
+      ],
+      gloss: "AEIS 中学数学第 53 周 / SMATH Week 53. 本周例题：Sec 1 G5.2 problems involving perimeter and area of composite plane figures（组合平面图形的周长和面积问题）。官方 5.2 wording（逐字引用）：'problems involving perimeter and area of composite plane figures'。本周是 G5.2 only. Composite plane figures（组合平面图形）由 rectangles, triangles, parallelograms, trapeziums 组成。For area: split the composite figure into known shapes, calculate each piece's area, then add them together; if there is a cut-out (a shape removed from a corner), subtract its area（求面积：把组合图形分割成已知的基本图形，分别求面积，然后相加；如果有切去的部分，减去它的面积）。For perimeter: add only the outer edges of the composite figure; do NOT add the perimeters of the individual pieces, because that double-counts the shared internal edges（求周长：只加组合图形的外边缘；不要把各个部分的周长相加，因为这会把共享的内边重复计算）。Friendly integers: all lengths and areas are integers. L-shape: 8×6 rectangle minus 3×2 cut-out → 48 − 6 = 42 cm². Rectangle 10×6 plus triangle ½×4×6 → 60 + 12 = 72 cm². Units: cm and cm². No calculator. 第 52 周已完成 G5.1 parallelogram/trapezium area。本周继续 G5 Mensuration。本周不教 5.3 prism/cylinder、5.4 unit conversion、5.5 composite solids。"
+    },
     "SEC-0": {
       fossil: "Although I was nervous, but I tried. ✗ (中文「虽然…但是…」迁移) / I go yesterday ✗ (叙事体过去时掉落)",
       examples: [
