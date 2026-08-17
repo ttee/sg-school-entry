@@ -9831,6 +9831,100 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
         },
       ],
     },
+    {
+      level: "SMATH",
+      weekNumber: 34,
+      title: "数学 第 34 周 / Maths Week 34",
+      description: "AEIS-Secondary Mathematics: Sec 1 Cartesian coordinates in two dimensions (N6.1 only)",
+      isSample: false,
+      errorFocus: "swapping x and y: reading (3, 2) as (2, 3); placing (4, 0) on the y-axis instead of the x-axis",
+      parentBrief: "本周是中学 AEIS 数学第 34 周，对应官方 SEAB Sec 1 卷型（https://www.seab.gov.sg/aeis/test-details/ 2026年7月1日更新）。Part 1 Multiple-choice questions：34 道 MCQ，30 分钟。Part 2 Short-answer questions (20 items) and open-ended questions (10 to 15 items)：1 小时 45 分钟。Calculators are not allowed（不允许使用计算器）。Short-answer and open-ended questions：candidates are required to show the method of solution clearly by writing working steps in the spaces provided, plus the final answer（需写出算式步骤和最终答案）。AEIS-Secondary 官方 preceding-level 规则：申请 Sec 2 入学者需熟悉 Sec 2 前一级的内容。官方举例：apply Secondary 3 → be familiar with Secondary 2 content. 本周针对 Sec 2 申请者，内容为 Sec 2 前一级（Sec 1）的官方 MOE 2020 G3 Mathematics Syllabuses, Secondary One, N6. Functions and graphs: 6.1 Cartesian coordinates in two dimensions（平面直角坐标系）。本周只教 6.1 Cartesian coordinates in two dimensions（x-axis 横轴、y-axis 纵轴、origin 原点 (0, 0)、ordered pair (x, y) with x first (horizontal) then y (vertical)、reading a plotted point、plotting a given point）。本周不教 6.2–6.5（ordered-pair graphs as a relationship、y=ax+b、graphs of linear functions、gradient 斜率）。第 26–33 周已完成 N5（5.1–5.8 代数式和提取公因式），本周开始 N6 Functions and graphs 的第一小节 6.1 Cartesian coordinates in two dimensions（平面直角坐标系）。官方 6.1 wording（官方术语，逐字引用）：'Cartesian coordinates in two dimensions'。本周方法：x-axis is horizontal（横轴），y-axis is vertical（纵轴），origin is (0, 0)（原点在 (0, 0)），ordered pair (x, y) with x first then y（有序对：先 x 后 y，x 是横坐标 horizontal coordinate，y 是纵坐标 vertical coordinate）。Read a plotted point: look at the x value first (horizontal), then the y value (vertical)（读点的坐标：先看横坐标 x，再看纵坐标 y）。Plot a given point: from the origin, move x units horizontally first, then y units vertically（画点：从原点开始，先横移 x 单位，再竖移 y 单位）。Positive x is to the right, negative x is to the left（正 x 向右，负 x 向左）。Positive y is up, negative y is down（正 y 向上，负 y 向下）。On the x-axis means y = 0（在 x 轴上意味着 y = 0，例如 (5, 0) not (0, 5)）。On the y-axis means x = 0（在 y 轴上意味着 x = 0，例如 (0, 4) not (4, 0)）。Friendly integers. No calculator. 本周化石 fossil errors：swapping x and y: reading (3, 2) as (2, 3)（错误：颠倒 x 和 y，把 (3, 2) 读成 (2, 3)。正确：ordered pair (x, y) with x first then y，所以 (3, 2) 是 x = 3, y = 2，不是 x = 2, y = 3）；placing (4, 0) on the y-axis（错误：把 (4, 0) 画在 y 轴上，正确：on the x-axis means y = 0, so (4, 0) is on the x-axis, not the y-axis）；placing (0, 5) on the x-axis（错误：把 (0, 5) 画在 x 轴上，正确：on the y-axis means x = 0, so (0, 5) is on the y-axis, not the x-axis）。唯一性 unique keys：只有一个选项是正确的（only ONE option may be true）。(3, 2) and (2, 3) are different points（(3, 2) 和 (2, 3) 是不同的点，不能同时都对）。On the x-axis means y = 0, e.g. (5, 0) not (0, 5)（在 x 轴上意味着 y = 0，例如 (5, 0) 不是 (0, 5)）。On the y-axis means x = 0, e.g. (0, 4) not (4, 0)（在 y 轴上意味着 x = 0，例如 (0, 4) 不是 (4, 0)）。Origin is only (0, 0)（原点只有 (0, 0) 一个）。Do not include two equivalent descriptions of the same point as two options if both are correct（不要把同一个点的两个等价描述都写成选项，如果两个都对的话）。"Which is NOT" must have exactly one false statement（"Which is NOT" 题必须有且仅有一个错误陈述）。本周作业是样本，不是完整 34 + 20 + 10–15 题。非官方机构运营（affiliation 非官方机构 is OK）。不发明官方未提及的内容（do not invent official facts）。不声称 AEIS 是 G3 paper（G3 只是官方 preceding-level 内容来源）。不发明官方 cut-scores 或 extra official names。第 26–33 周已完成 N5（5.1–5.8），本周只教 N6.1 Cartesian coordinates in two dimensions（平面直角坐标系）。本周不教 N6.2–6.5（ordered-pair graphs as a relationship、y=ax+b、graphs of linear functions、gradient）。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "Point A is at (3, 2). Which statement is correct?|A. x = 3 and y = 2|B. x = 2 and y = 3|C. A is on the x-axis|D. A is on the y-axis",
+            "Which point is the origin?|A. (0, 0)|B. (1, 0)|C. (0, 1)|D. (1, 1)",
+            "Point B is at (5, 0). Which statement is correct?|A. B is on the x-axis|B. B is on the y-axis|C. B is the origin|D. x = 0 and y = 5",
+            "Point C is at (0, 4). Which statement is correct?|A. C is on the y-axis|B. C is on the x-axis|C. C is the origin|D. x = 4 and y = 0",
+            "Wei plots the point (3, −2). Which description is correct?|A. 3 units right, 2 units down|B. 2 units right, 3 units down|C. 3 units down, 2 units right|D. 3 units up, 2 units left",
+          ]),
+          correctAnswer: "A,A,A,A,A",
+          points: 10,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "Point D is at (−2, 5). Which statement is correct?|A. x = −2 and y = 5|B. x = 5 and y = −2|C. x = 2 and y = −5|D. D is on the x-axis",
+            "Aisha reads a point on the y-axis. Which could be the coordinates?|A. (0, 7)|B. (7, 0)|C. (7, 7)|D. (2, 2)",
+            "Mr Lim asks: What is the x-coordinate of the point (7, 1)?|A. 7|B. 1|C. 8|D. 0",
+            "Which point is NOT on the x-axis?|A. (0, 3)|B. (5, 0)|C. (−2, 0)|D. (0, 0)",
+            "Wei plots point E at (4, −3). From the origin, how should he move?|A. 4 right, 3 down|B. 3 right, 4 down|C. 4 down, 3 right|D. 4 up, 3 left",
+            "Point F has coordinates (−1, 0). Where is F located?|A. On the x-axis|B. On the y-axis|C. At the origin|D. In the first quadrant",
+            "Aisha says point G is at (2, 6). What is the y-coordinate of G?|A. 6|B. 2|C. 8|D. 0",
+            "Which statement is correct about the origin?|A. The origin has coordinates (0, 0)|B. The origin is on the x-axis only|C. The origin is on the y-axis only|D. The origin has x = 1 and y = 1",
+          ]),
+          correctAnswer: "A,A,A,A,A,A,A,A",
+          points: 16,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `Part 2: Show Your Working (写出算式步骤)
+
+Riverside Secondary School has coordinate geometry questions. Answer the questions below. Show your working.
+
+Question (a)
+A grid shows point P at (3, 5).
+(i) What is the x-coordinate of P?
+(ii) What is the y-coordinate of P?
+(iii) Wei says P is on the x-axis. Explain why Wei is wrong.
+
+Question (b)
+Aisha plots point Q at (0, −4).
+(i) State the coordinates of Q.
+(ii) Is Q on the x-axis or the y-axis? Explain your answer.
+(iii) From the origin, describe how to reach Q (direction and number of units).
+
+Question (c)
+Mr Lim gives three points: R (2, 3), S (3, 2), T (0, 0).
+(i) Which point is the origin?
+(ii) Explain why R and S are different points.
+(iii) Plot R and S on a coordinate grid and label them (you may draw a simple grid on your answer sheet).
+
+写作提示 / Tips:
+✓ 每题分步骤写出推理 (Show working steps for each question)
+✓ Part 2 官方要求：clearly show the method of solution by writing working steps, plus the final answer
+✓ 不用计算器 (No calculators allowed)
+✓ 平面直角坐标系步骤示范 (Cartesian coordinates examples)：
+  • Point P at (3, 5)：
+    Question: What is the x-coordinate of P? What is the y-coordinate of P?
+    Solution: The ordered pair is (x, y) with x first, then y. Point P is at (3, 5), so x-coordinate = 3 and y-coordinate = 5. Answer: x-coordinate is 3, y-coordinate is 5. (Note: Common fossil: swapping x and y, reading (3, 5) as x = 5 and y = 3. This is wrong because in the ordered pair (x, y), the first number is always x and the second number is always y.)
+  • Point Q at (0, −4)：
+    Question: State the coordinates of Q. Is Q on the x-axis or the y-axis? Explain.
+    Solution: The coordinates of Q are (0, −4). The x-coordinate is 0 and the y-coordinate is −4. On the y-axis means x = 0. Since Q has x = 0, Q is on the y-axis. Answer: Q is on the y-axis because x = 0. (Note: Fossil: saying Q is on the x-axis. This is wrong because on the x-axis means y = 0, but Q has y = −4, so Q is NOT on the x-axis.)
+  • Point R (2, 3) and S (3, 2)：
+    Question: Explain why R and S are different points.
+    Solution: Point R is at (2, 3), so x = 2 and y = 3. Point S is at (3, 2), so x = 3 and y = 2. The x-coordinate and y-coordinate are swapped. R is 2 units right and 3 units up from the origin. S is 3 units right and 2 units up from the origin. They are at different positions, so R and S are different points. Answer: R and S are different points because (2, 3) ≠ (3, 2). The order of x and y matters.
+✓ 关键步骤：Step 1: Identify the ordered pair (x, y) with x first, then y（识别有序对 (x, y)，x 在前，y 在后）. Step 2: State the x-coordinate (horizontal) and y-coordinate (vertical)（陈述 x 坐标（横坐标）和 y 坐标（纵坐标））. Step 3: Check if the point is on an axis: x-axis means y = 0, y-axis means x = 0（检查点是否在坐标轴上：x 轴意味着 y = 0，y 轴意味着 x = 0）. Step 4: Plot or describe the point: from the origin, move x units horizontally first, then y units vertically（画点或描述点：从原点开始，先横移 x 单位，再竖移 y 单位）. Step 5: State the final answer（陈述最终答案）.
+✓ 化石 (fossil errors)：
+  • Swapping x and y: reading (3, 2) as (2, 3)（错误：颠倒 x 和 y，把 (3, 2) 读成 (2, 3)。正确：(x, y) with x first then y，所以 (3, 2) 是 x = 3, y = 2）
+  • Placing (4, 0) on the y-axis（错误：把 (4, 0) 画在 y 轴上。正确：on the x-axis means y = 0, so (4, 0) is on the x-axis）
+  • Placing (0, 5) on the x-axis（错误：把 (0, 5) 画在 x 轴上。正确：on the y-axis means x = 0, so (0, 5) is on the y-axis）
+  • Saying (0, 0) is on the x-axis only（错误：说 (0, 0) 只在 x 轴上。正确：(0, 0) is the origin, which is on both axes）
+  • 本周教 N6 的 6.1（Cartesian coordinates in two dimensions，平面直角坐标系）。第 26–33 周已完成 N5（5.1–5.8），本周只教 6.1 Cartesian coordinates in two dimensions。本周不教 6.2–6.5（ordered-pair graphs as a relationship、y=ax+b、graphs of linear functions、gradient）。
+
+Note: This is a sample of Part 2 short-answer/open-ended questions. The official paper has 20 short-answer + 10–15 open-ended items in 1 hour 45 minutes.`,
+          points: 20,
+        },
+      ],
+    },
   ];
 
   // =================================================================
