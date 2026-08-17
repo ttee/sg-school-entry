@@ -1137,7 +1137,21 @@ export default function BoardWeike({ level, weekNumber, planTitle, planFirstLine
   }
 
   const displayExamples = lesson ? lesson.examples : [planFirstLine || ""];
-  const displayGloss = lesson ? lesson.gloss : planTitle || "";
+  
+  // Limit gloss to max 2 short 简体 sentences (~80 chars)
+  const getShortGloss = (gloss: string): string => {
+    if (!gloss) return "";
+    if (gloss.length <= 80) return gloss;
+    
+    // Take only first 简体 sentence (split by 。)
+    const firstSentence = gloss.split('。')[0] + '。';
+    if (firstSentence.length <= 80) return firstSentence;
+    
+    // If still too long, return empty (no gloss under still)
+    return "";
+  };
+  
+  const displayGloss = lesson ? getShortGloss(lesson.gloss) : (planTitle || "").substring(0, 80);
   const displayTitle = planTitle || "";
 
   return (

@@ -40,83 +40,119 @@ export default function LessonPlanSTP({
 
   const getSuccessCriteria = (): string[] => {
     if (isMath && mathExample) {
-      const firstExample = mathExample.split('.')[0] || mathExample.substring(0, 50);
       return [
-        "I can write the formula and show working",
-        `I can solve problems like: ${firstExample}...`
-      ];
-    }
-    
-    if (spokenLines && spokenLines.length >= 2) {
-      return [
-        `I can say: "${spokenLines[0]}"`,
-        `I can say: "${spokenLines[1]}"`
+        "能写出算式并代回检查",
+        "能解释每一步的意义"
       ];
     }
     
     if (boardWriting) {
       return [
-        `I can use ${boardWriting} correctly`,
-        "I can apply this in my own sentences"
+        `能改正这一句：${fossil?.split('/')[0]?.trim() || '化石错误'}`,
+        "能在自己的句子中应用"
       ];
     }
     
     return [
-      "I can recognize the error pattern",
-      "I can produce correct sentences"
+      "能识别化石错误模式",
+      "能说出改正后的句子"
     ];
   };
 
   const getLearnerContext = (): string => {
     if (fossil) {
-      return `常见化石：${fossil}`;
+      return fossil;
     }
-    return "新加坡学生通过板书例题掌握本周重点";
+    return "";
   };
 
   const getKeyQuestions = (): string[] => {
+    // Use childPrompts only if they're already 简体 or very short English
     if (childPrompts && childPrompts.length >= 2) {
-      return [
-        childPrompts[0],
-        childPrompts[1]
-      ];
+      const firstPrompt = childPrompts[0];
+      const secondPrompt = childPrompts[1];
+      
+      // Check if prompts are short enough (< 50 chars suggests they might be usable)
+      if (firstPrompt.length < 50 && secondPrompt.length < 50) {
+        return [firstPrompt, secondPrompt];
+      }
     }
     
+    // Generate 简体 questions
     if (isMath) {
       return [
-        "What formula do we use?",
-        "How do we show the working?"
+        "这一步为什么可以这样算？",
+        "答案的单位是什么？"
       ];
     }
     
     return [
-      "What is wrong with this sentence?",
-      "How can we fix it?"
+      "哪一个词错了，为什么？",
+      "改正后怎么说？"
     ];
   };
 
   const getLessonStructure = (): { phase: string; steps: string[] }[] => {
     const structure: { phase: string; steps: string[] }[] = [];
     
+    // Standard section names
+    const readinessNames = ["课前", "热身"];
+    const engagementNames = ["化石", "示范", "跟读"];
+    const masteryNames = ["开口", "练习", "收口"];
+    
     const readinessSteps = sections
-      .filter(s => s.name === "课前" || s.name === "热身")
+      .filter(s => readinessNames.includes(s.name))
       .map(s => s.name);
-    if (readinessSteps.length > 0) {
-      structure.push({ phase: "准备 Readiness", steps: readinessSteps });
-    }
     
     const engagementSteps = sections
-      .filter(s => s.name === "化石" || s.name === "示范" || s.name === "跟读")
+      .filter(s => engagementNames.includes(s.name))
       .map(s => s.name);
-    if (engagementSteps.length > 0) {
-      structure.push({ phase: "参与 Engagement", steps: engagementSteps });
-    }
     
     const masterySteps = sections
-      .filter(s => s.name === "开口" || s.name === "练习" || s.name === "收口")
+      .filter(s => masteryNames.includes(s.name))
       .map(s => s.name);
-    if (masterySteps.length > 0) {
-      structure.push({ phase: "掌握 Mastery", steps: masterySteps });
+    
+    // If no matches (SMATH plans often differ), map by order
+    if (readinessSteps.length === 0 && engagementSteps.length === 0 && masterySteps.length === 0) {
+      const totalSteps = sections.length;
+      if (totalSteps >= 3) {
+        // First step → Readiness
+        structure.push({ 
+          phase: "准备", 
+          steps: [sections[0].name] 
+        });
+        
+        // Middle steps → Engagement
+        const middleSteps = sections.slice(1, -1).map(s => s.name);
+        if (middleSteps.length > 0) {
+          structure.push({ 
+            phase: "参与", 
+            steps: middleSteps 
+          });
+        }
+        
+        // Last step → Mastery
+        structure.push({ 
+          phase: "掌握", 
+          steps: [sections[totalSteps - 1].name] 
+        });
+      } else if (totalSteps === 2) {
+        structure.push({ phase: "准备", steps: [sections[0].name] });
+        structure.push({ phase: "掌握", steps: [sections[1].name] });
+      } else if (totalSteps === 1) {
+        structure.push({ phase: "参与", steps: [sections[0].name] });
+      }
+    } else {
+      // Use matched sections
+      if (readinessSteps.length > 0) {
+        structure.push({ phase: "准备", steps: readinessSteps });
+      }
+      if (engagementSteps.length > 0) {
+        structure.push({ phase: "参与", steps: engagementSteps });
+      }
+      if (masterySteps.length > 0) {
+        structure.push({ phase: "掌握", steps: masterySteps });
+      }
     }
     
     return structure;
@@ -143,7 +179,7 @@ export default function LessonPlanSTP({
   };
 
   const getTeachingResources = (): string[] => {
-    const resources = ["板书例题微课 (BoardWeike)"];
+    const resources = ["板书例题微课"];
     
     if (boardWriting) {
       resources.push(`板书要点：${boardWriting}`);
@@ -161,27 +197,21 @@ export default function LessonPlanSTP({
     return resources;
   };
 
+  const learnerContext = getLearnerContext();
+  const lessonStructure = getLessonStructure();
+
   return (
     <div className="mb-8 bg-gradient-to-br from-blue-50 to-indigo-50 border-2 border-blue-200 rounded-xl p-6 shadow-sm">
-      <div className="flex items-center gap-2 mb-4">
-        <h2 className="font-serif font-bold text-xl text-blue-900">
-          📋 Singapore Teaching Practice 教案框架
-        </h2>
-        <span className="text-xs text-blue-600 px-2 py-1 bg-blue-100 rounded-full">
-          {level} 第 {weekNumber} 周
-        </span>
-      </div>
-
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         {/* Learning Objective */}
         <div className="bg-white/80 rounded-lg p-4 border border-blue-200">
-          <h3 className="font-semibold text-sm text-blue-900 mb-2">📌 学习目标 Learning Objective</h3>
+          <h3 className="font-semibold text-sm text-blue-900 mb-2">学习目标</h3>
           <p className="text-sm text-gray-800">{getLearningObjective()}</p>
         </div>
 
         {/* Success Criteria */}
         <div className="bg-white/80 rounded-lg p-4 border border-blue-200">
-          <h3 className="font-semibold text-sm text-blue-900 mb-2">✅ 成功标准 Success Criteria</h3>
+          <h3 className="font-semibold text-sm text-blue-900 mb-2">成功标准</h3>
           <ul className="text-sm text-gray-800 space-y-1">
             {getSuccessCriteria().map((criterion, i) => (
               <li key={i} className="flex items-start gap-1">
@@ -193,14 +223,16 @@ export default function LessonPlanSTP({
         </div>
 
         {/* Learner Context */}
-        <div className="bg-white/80 rounded-lg p-4 border border-blue-200">
-          <h3 className="font-semibold text-sm text-blue-900 mb-2">👤 学习者 Learner Context</h3>
-          <p className="text-sm text-gray-800">{getLearnerContext()}</p>
-        </div>
+        {learnerContext && (
+          <div className="bg-white/80 rounded-lg p-4 border border-blue-200">
+            <h3 className="font-semibold text-sm text-blue-900 mb-2">学习者</h3>
+            <p className="text-sm text-gray-800">{learnerContext}</p>
+          </div>
+        )}
 
         {/* Key Questions */}
         <div className="bg-white/80 rounded-lg p-4 border border-blue-200">
-          <h3 className="font-semibold text-sm text-blue-900 mb-2">❓ 关键问题 Key Questions</h3>
+          <h3 className="font-semibold text-sm text-blue-900 mb-2">关键问题</h3>
           <ul className="text-sm text-gray-800 space-y-1">
             {getKeyQuestions().map((question, i) => (
               <li key={i} className="flex items-start gap-1">
@@ -212,27 +244,29 @@ export default function LessonPlanSTP({
         </div>
 
         {/* Lesson Structure */}
-        <div className="bg-white/80 rounded-lg p-4 border border-blue-200">
-          <h3 className="font-semibold text-sm text-blue-900 mb-2">📚 课堂结构 Lesson Structure</h3>
-          <div className="text-sm text-gray-800 space-y-1.5">
-            {getLessonStructure().map((phaseGroup, i) => (
-              <div key={i}>
-                <span className="font-semibold text-blue-700">{phaseGroup.phase}:</span>{" "}
-                <span>{phaseGroup.steps.join(" → ")}</span>
-              </div>
-            ))}
+        {lessonStructure.length > 0 && (
+          <div className="bg-white/80 rounded-lg p-4 border border-blue-200">
+            <h3 className="font-semibold text-sm text-blue-900 mb-2">课堂结构</h3>
+            <div className="text-sm text-gray-800 space-y-1.5">
+              {lessonStructure.map((phaseGroup, i) => (
+                <div key={i}>
+                  <span className="font-semibold text-blue-700">{phaseGroup.phase}:</span>{" "}
+                  <span>{phaseGroup.steps.join(" → ")}</span>
+                </div>
+              ))}
+            </div>
           </div>
-        </div>
+        )}
 
         {/* Assessment for Learning */}
         <div className="bg-white/80 rounded-lg p-4 border border-blue-200">
-          <h3 className="font-semibold text-sm text-blue-900 mb-2">🔍 检测理解 Assessment for Learning</h3>
+          <h3 className="font-semibold text-sm text-blue-900 mb-2">检测理解</h3>
           <p className="text-sm text-gray-800">{getAfLMove()}</p>
         </div>
 
         {/* Teaching Resources */}
         <div className="bg-white/80 rounded-lg p-4 border border-blue-200 md:col-span-2">
-          <h3 className="font-semibold text-sm text-blue-900 mb-2">🎯 教学资源 Teaching Resources</h3>
+          <h3 className="font-semibold text-sm text-blue-900 mb-2">教学资源</h3>
           <ul className="text-sm text-gray-800 space-y-1">
             {getTeachingResources().map((resource, i) => (
               <li key={i} className="flex items-start gap-1">
@@ -246,8 +280,8 @@ export default function LessonPlanSTP({
 
       <div className="mt-4 pt-3 border-t border-blue-200">
         <p className="text-xs text-blue-700">
-          <strong>框架依据：</strong>Singapore Teaching Practice (STP) — Lesson Preparation, Enactment, Assessment & Feedback, Positive Classroom Culture
-          {isMath && " | Maths Readiness-Engagement-Mastery phases"}
+          依据新加坡教学实践框架：课前准备、课堂实施、评估与反馈、积极课堂文化
+          {isMath && "｜数学课堂：准备、参与、掌握"}
         </p>
       </div>
     </div>

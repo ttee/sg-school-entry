@@ -5756,6 +5756,19 @@ export default async function LessonPlanPage({
         </div>
       </div>
 
+      {/* Singapore Teaching Practice Framework */}
+      <LessonPlanSTP
+        level={level}
+        weekNumber={parseInt(weekNumber)}
+        title={plan.title}
+        fossil={plan.fossil}
+        boardWriting={plan.boardWriting}
+        mathExample={plan.mathExample}
+        sections={plan.sections}
+        spokenLines={plan.spokenLines}
+        childPrompts={plan.childPrompts}
+      />
+
       {/* BoardWeike */}
       <BoardWeike 
         level={level} 
