@@ -10604,6 +10604,104 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
         },
       ],
     },
+    {
+      level: "SMATH",
+      weekNumber: 42,
+      title: "数学 第 42 周 / Maths Week 42",
+      description: "AEIS-Secondary Mathematics: Sec 1 formulating a linear equation in one variable to solve problems (N7.4 only)",
+      isSample: false,
+      errorFocus: "writing an expression instead of an equation: Wei is x, Aisha is 3 older, together 27 → write x + 3 (no =); or translating 「少 / 比…少」 backwards: notebook is S$4 less than a book → x + 4 instead of x − 4",
+      parentBrief: "本周是中学 AEIS 数学第 42 周，对应官方 SEAB Sec 1 卷型（https://www.seab.gov.sg/aeis/test-details/ 2026年7月1日更新）。Part 1 Multiple-choice questions：34 道 MCQ，30 分钟。Part 2 Short-answer questions (20 items) and open-ended questions (10 to 15 items)：1 小时 45 分钟。Calculators are not allowed（不允许使用计算器）。Short-answer and open-ended questions：candidates are required to show the method of solution clearly by writing working steps in the spaces provided, plus the final answer（需写出算式步骤和最终答案）。AEIS-Secondary 官方 preceding-level 规则：申请 Sec 2 入学者需熟悉 Sec 2 前一级的内容。官方举例：apply Secondary 3 → be familiar with Secondary 2 content. 本周针对 Sec 2 申请者，内容为 Sec 2 前一级（Sec 1）的官方 MOE 2020 G3 Mathematics Syllabuses, Secondary One, N7. Equations and inequalities: 7.4 formulating a linear equation in one variable to solve problems（列一元一次方程解应用题）。第 39–41 周已完成 N7.1 concept of equation、N7.2 solving linear equations in one variable、N7.3 solving simple fractional equations。本周只教 N7.4 formulating a linear equation in one variable to solve problems（列一元一次方程解应用题：Read a short school-life word problem 读一段学校生活小故事，write ONE linear equation in one unknown 写一个一元一次方程，solve it the same way as Week 40 用第 40 周方法解，check by substitution in the original story 在原故事中验算）。官方 7.4 wording（官方术语，逐字引用）：「formulating a linear equation in one variable to solve problems」。本周方法：Typical stories: ages 年龄（Wei is x years old, Aisha is 3 years older, together they are 27 → Let Wei's age = x → Aisha's age = x + 3 → Equation: x + (x+3) = 27 → 2x + 3 = 27 → 2x = 24 → x = 12. Check: Wei 12, Aisha 15, 12+15 = 27 ✓）、prices 物价（book costs S$x, notebook costs S$4 less, 2 books + 1 notebook = S$26 → Equation: 2x + (x−4) = 26 → 3x − 4 = 26 → 3x = 30 → x = 10. Check: book S$10, notebook S$6, 2(10)+6 = 26 ✓）、groups 人数分组（class of 36, one group x, the other x+4 → Equation: x + (x+4) = 36 → 2x + 4 = 36 → 2x = 32 → x = 16. Check: 16+20 = 36 ✓）。Friendly integers 友好整数。Amounts in S$ 新元 only（只用新元，不用美元）。No calculator（不用计算器）。本周不教 fractional equations（that was Week 41 / N7.3）。本周不教 simultaneous equations（两个未知数两个方程，不是 Sec 1）、quadratic equations（二次方程，不是 Sec 1）、inequalities as the unknown（不等式，不是 N7.4）。本周化石：writing an expression instead of an equation when translating a word problem（把应用题翻译成代数时，写成代数式而不是方程）。Wrong: Wei is x, Aisha is 3 years older, together 27 → write x + 3（错误：这是一个代数式 expression，没有「=」，不是方程 equation）。Wrong: A notebook is S$4 less than a book → x + 4 instead of x − 4（错误：中文「少」的语序翻译错误，「比书少 S$4」应该是 x − 4，不是 x + 4）。Right: write one equation that uses「=」and the given total, then solve（正确：写一个包含「=」和已知总数的方程，然后解方程）。Example: Wei is x, Aisha is 3 years older, together 27 → equation is x + (x+3) = 27（正确：这是一个方程，有「=」号）。第 42 周完成 N7（7.1 concept of equation, 7.2 solving linear equations, 7.3 solving simple fractional equations, 7.4 formulating a linear equation to solve problems）。第 39–42 周完成 Sec 1 NUMBER AND ALGEBRA N1–N7（质数分解、HCF/LCM、平方立方和根、负数四则、数轴、不等号、近似估算、有理数比、比的应用、百分数、速率速度、用字母表示数、代数、坐标、一次函数、方程）。本周不开始 GEOMETRY AND MEASUREMENT G1 angles（角）。唯一性 unique keys：每道选择题只有一个正确答案（only ONE option may be algebraically true）。不要提供两个等价的方程作为两个选项（x+(x+3)=27 and 2x+3=27 是等价的，只能有一个是选项）。不要提供两个等价的解值（x=12 and 12=x 是等价的，只能有一个是选项）。非官方机构运营（affiliation 非官方机构 is OK）。不发明官方未提及的内容（do not invent official facts）。不声称 AEIS 是 G3 paper（G3 只是官方 preceding-level 内容来源）。不发明官方 cut-scores 或 extra official names。Cast: Wei, Aisha, Mr Lim at Riverside Secondary School。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "Wei is x years old. Aisha is 3 years older than Wei. Together, they are 27 years old. Which equation can be used to find Wei's age?|A. x + (x+3) = 27|B. x + 3 = 27|C. x − 3 = 27|D. 2x = 27",
+            "A book costs S$x. A notebook costs S$4 less than the book. If Wei buys 2 books and 1 notebook for a total of S$26, which equation represents this situation?|A. 2x + (x−4) = 26|B. 2x + 4 = 26|C. x + (x−4) = 26|D. 2x − (x+4) = 26",
+            "Mr Lim splits a class of 36 students into two groups. One group has 4 more students than the other. Let x be the number of students in the smaller group. Which equation is correct?|A. x + (x+4) = 36|B. x + 4 = 36|C. 2x − 4 = 36|D. x − 4 = 36",
+            "Wei solves the equation x + (x+3) = 27 and gets x = 12. How should he check his answer in the original story?|A. Wei is 12 years old, Aisha is 15 years old, and 12 + 15 = 27 ✓|B. 12 + 3 = 15|C. 12 + 12 = 24|D. x = 12 is always correct",
+            "Aisha reads: 「Wei is x years old. Aisha is 3 years older. Together they are 27.」 Aisha writes x + 3. What is wrong with Aisha's working?|A. x + 3 is an expression, not an equation. The correct equation is x + (x+3) = 27.|B. x + 3 is correct because Aisha is 3 years older.|C. x + 3 = 27 is the correct equation.|D. Nothing is wrong. x + 3 is the answer.",
+          ]),
+          correctAnswer: "A,A,A,A,A",
+          points: 10,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "Aisha is x years old. Wei is 5 years older than Aisha. Together they are 31 years old. Which equation can be used to find Aisha's age?|A. x + (x+5) = 31|B. x + 5 = 31|C. x − 5 = 31|D. 5x = 31",
+            "A pen costs S$x. A pencil costs S$3 less than the pen. If Mr Lim buys 3 pens and 2 pencils for S$24, which equation is correct?|A. 3x + 2(x−3) = 24|B. 3x + 2x + 3 = 24|C. 3x − 2(x+3) = 24|D. 3x + 2(x+3) = 24",
+            "Wei divides a group of 48 students into two teams. One team has 6 more students than the other. Let x be the number of students in the smaller team. Which equation represents this?|A. x + (x+6) = 48|B. x + 6 = 48|C. 2x + 6 = 48|D. x − 6 = 48",
+            "Solve the equation x + (x+3) = 27. What is x?|A. x = 12|B. x = 24|C. x = 27|D. x = 15",
+            "A book costs S$x. A notebook costs S$5 less than the book. Wei buys 2 books and 1 notebook for S$31. The equation is 2x + (x−5) = 31. Solve for x. What is the price of the book?|A. S$12|B. S$10|C. S$7|D. S$31",
+            "Wei reads: 「A notebook costs S$4 less than a book.」 Wei writes: 「notebook = x + 4」. What is wrong?|A. 「Less than」 means subtract, so notebook = x − 4, not x + 4.|B. Nothing is wrong. x + 4 is correct.|C. The notebook should be x × 4.|D. The notebook should be 4 − x.",
+            "Mr Lim gives this word problem: 「Wei is x years old. Aisha is 2 years older. Together they are 24.」 Aisha's friend writes x + 2 = 24. What is wrong?|A. This equation only accounts for Wei and the 2 years, not Aisha's full age. The correct equation is x + (x+2) = 24.|B. Nothing is wrong. x + 2 = 24 is correct.|C. The correct equation is x − 2 = 24.|D. The correct equation is 2x = 24.",
+            "Wei formulates an equation for this problem: 「Class of 36 students, one group has 4 more than the other.」 Which story matches the equation x + (x+4) = 36?|A. One group has x students, the other has x+4 students, total is 36.|B. One group has 36 students, the other has 4.|C. One group has x students, the other has 4 students.|D. One group has 4 students, the other has 36.",
+          ]),
+          correctAnswer: "A,A,A,A,A,A,A,A",
+          points: 16,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `Part 2: Show Your Working (写出算式步骤)
+
+Riverside Secondary School has word problems to solve. Answer the questions below. For each problem, formulate a linear equation in one variable, solve it, and check your answer by substitution in the original story.
+
+Question (a)
+Wei is x years old. Aisha is 4 years older than Wei. Together, Wei and Aisha are 28 years old.
+
+(i) Formulate an equation in one variable to represent this situation.
+(ii) Solve the equation. Show your working step by step.
+(iii) Check your answer by substitution in the original story.
+
+Question (b)
+Mr Lim splits a class of 40 students into two groups. One group has 6 more students than the other.
+
+(i) Let x be the number of students in the smaller group. Formulate an equation to represent this situation.
+(ii) Solve the equation. Show your working step by step.
+(iii) Check your answer by substitution in the original story. How many students are in each group?
+
+Question (c)
+A book costs S$x. A notebook costs S$5 less than the book. Wei buys 2 books and 3 notebooks for a total of S$31.
+
+(i) Formulate an equation in one variable to represent this situation.
+(ii) Solve the equation. Show your working step by step.
+(iii) Check your answer by substitution in the original story. What is the price of the book? What is the price of the notebook?
+(iv) Wei's friend says:「A notebook costs S$5 less than a book, so notebook = x + 5.」Explain what is wrong with this statement.
+
+写作提示 / Tips:
+✓ 每题分步骤写出推理 (Show working steps for each question)
+✓ Part 2 官方要求：clearly show the method of solution by writing working steps, plus the final answer
+✓ 不用计算器 (No calculators allowed)
+✓ 列一元一次方程解应用题步骤示范 (formulating a linear equation in one variable to solve problems examples)：
+  • Wei is x years old, Aisha is 3 years older, together 27：
+    Question: Formulate an equation. Solve it. Check by substitution in the original story.
+    Solution: ① Read the problem: Wei is x years old. Aisha is 3 years older than Wei. Together they are 27 years old. ② Identify the unknown: Let Wei's age = x. ③ Translate the story into algebraic expressions: Aisha's age = x + 3. ④ Formulate the equation using the total: Wei's age + Aisha's age = 27 → x + (x+3) = 27. ⑤ Solve the equation: x + x + 3 = 27 → 2x + 3 = 27 → 2x = 27 − 3 → 2x = 24 → x = 12. ⑥ Check by substitution in the original story: Wei is 12 years old. Aisha is 12 + 3 = 15 years old. Together: 12 + 15 = 27 ✓. Answer: Wei is 12 years old, Aisha is 15 years old. (Note: Common fossil: writing an expression instead of an equation. Wrong: Wei is x, Aisha is 3 older → write x + 3 (this is only an expression for Aisha's age, not an equation). Correct: x + (x+3) = 27 (this is an equation with「=」that uses the total).)
+  • Book S$x, notebook S$4 less, 2 books + 1 notebook = S$26：
+    Question: Formulate an equation. Solve it. Check by substitution.
+    Solution: ① Read the problem: A book costs S$x. A notebook costs S$4 less than the book. Wei buys 2 books and 1 notebook for S$26. ② Identify the unknown: Let the price of a book = S$x. ③ Translate: The price of a notebook = S$(x − 4) because it is S$4 less than the book. ④ Formulate the equation: 2 books + 1 notebook = S$26 → 2x + (x−4) = 26. ⑤ Solve: 2x + x − 4 = 26 → 3x − 4 = 26 → 3x = 30 → x = 10. ⑥ Check: Book = S$10. Notebook = S$(10−4) = S$6. Total: 2(10) + 6 = 20 + 6 = 26 ✓. Answer: The book costs S$10, the notebook costs S$6. (Note: Common fossil: translating「少 / less than」 backwards. Wrong:「notebook costs S$4 less than the book」→ x + 4 (wrong because「less than」 means subtract, not add). Correct: x − 4 (「S$4 less than x」 means x − 4).)
+  • Class of 36, one group x, the other x+4：
+    Question: Mr Lim splits a class of 36 students into two groups. One group has 4 more students than the other. Let x be the number of students in the smaller group. Formulate an equation. Solve it. Check.
+    Solution: ① Read the problem: Class of 36, one group has 4 more than the other. ② Let x = number of students in the smaller group. ③ Translate: The larger group has x + 4 students. ④ Formulate the equation: smaller group + larger group = 36 → x + (x+4) = 36. ⑤ Solve: x + x + 4 = 36 → 2x + 4 = 36 → 2x = 32 → x = 16. ⑥ Check: Smaller group = 16. Larger group = 16 + 4 = 20. Total: 16 + 20 = 36 ✓. Answer: The smaller group has 16 students, the larger group has 20 students.
+✓ 关键步骤：Step 1: Read the word problem carefully and identify the given information（仔细读应用题，找出已知信息）. Step 2: Identify the unknown and let it be x（确定未知数，设为 x）. Step 3: Translate the story into algebraic expressions for each quantity（把故事翻译成每个量的代数式）. Step 4: Formulate ONE linear equation in one variable using the total or constraint（列一元一次方程，用总数或条件）. Step 5: Solve the equation the same way as Week 40（用第 40 周的方法解方程：对两边做同样的操作）. Step 6: Check by substitution in the original story（回到原故事检验：代入 x 的值，看看是否符合故事）. Step 7: State the final answer in the context of the story（用故事的语境陈述最终答案）.
+✓ 化石 (fossil errors)：
+  • Writing an expression instead of an equation: Wei is x, Aisha is 3 older, together 27 → write x + 3（错误：这只是 Aisha 年龄的代数式 expression，不是方程 equation。正确：x + (x+3) = 27，这是一个方程，有「=」号和总数 27）
+  • Translating「少 / less than」 backwards: A notebook is S$4 less than a book → x + 4 instead of x − 4（错误：中文「少」的语序翻译错误，「比书少 S$4」应该是 x − 4，不是 x + 4。正确：「less than」 means subtract，所以是 x − 4）
+  • Not writing an equation: forgetting the「=」sign and the total（忘记写「=」号和总数）
+  • Confusing which quantity is x: sometimes students mix up which quantity they set as x（有时学生会混淆哪个量是 x）
+  • 本周教 N7 的 7.4（formulating a linear equation in one variable to solve problems，列一元一次方程解应用题）。第 39–41 周已完成 N7.1–7.3。本周只教 7.4 formulating a linear equation in one variable to solve problems（列方程解应用题：读应用题、写方程、解方程、检验），不教 fractional equations（Week 41）、不教 simultaneous equations / quadratic / inequalities（不是 Sec 1）。第 42 周完成 N7（7.1–7.4）。第 39–42 周完成 Sec 1 NUMBER AND ALGEBRA N1–N7。本周不开始 GEOMETRY AND MEASUREMENT G1 angles（角）。
+
+Note: This is a sample of Part 2 short-answer/open-ended questions. The official paper has 20 short-answer + 10–15 open-ended items in 1 hour 45 minutes.`,
+          points: 20,
+        },
+      ],
+    },
   ];
 
   // =================================================================
