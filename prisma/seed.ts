@@ -11086,6 +11086,104 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
         },
       ],
     },
+    {
+      level: "SMATH",
+      weekNumber: 47,
+      title: "数学 第 47 周 / Maths Week 47",
+      description: "AEIS-Secondary Mathematics: Sec 1 properties of special quadrilaterals (G1.4 special quadrilaterals only)",
+      isSample: false,
+      errorFocus: "treating every parallelogram as a rectangle (thinking all parallelogram diagonals are equal); or giving a trapezium two pairs of parallel sides; or using 360° wrongly for consecutive angles of a parallelogram (saying opposite angles are supplementary instead of equal)",
+      parentBrief: "本周是中学 AEIS 数学第 47 周，对应官方 SEAB Sec 1 卷型（https://www.seab.gov.sg/aeis/test-details/ 2026年7月1日更新）。Part 1 Multiple-choice questions：34 道 MCQ，30 分钟。Part 2 Short-answer questions (20 items) and open-ended questions (10 to 15 items)：1 小时 45 分钟。Calculators are not allowed（不允许使用计算器）。Short-answer and open-ended questions：candidates are required to show the method of solution clearly by writing working steps in the spaces provided, plus the final answer（需写出算式步骤和最终答案）。AEIS-Secondary 官方 preceding-level 规则：申请 Sec 2 入学者需熟悉 Sec 2 前一级的内容。官方举例：apply Secondary 3 → be familiar with Secondary 2 content. 本周针对 Sec 2 申请者，内容为 Sec 2 前一级（Sec 1）的官方 MOE 2020 G3 Mathematics Syllabuses, Secondary One, GEOMETRY AND MEASUREMENT, G1. Angles, triangles and polygons: 1.4 properties of triangles, special quadrilaterals and regular polygons (pentagon, hexagon, octagon and decagon), including symmetry properties。官方 1.4 wording（逐字引用）：「properties of triangles, special quadrilaterals and regular polygons (pentagon, hexagon, octagon and decagon), including symmetry properties」。第 46 周已教 G1.4 的三角形部分，本周只教 G1.4 的特殊四边形部分 special quadrilaterals only；regular polygons（正多边形，如五边形、六边形、八边形、十边形及其对称性）wait for a later week. 本周方法：parallelogram（平行四边形）：opposite sides equal and parallel（对边相等且平行）、opposite angles equal（对角相等）、consecutive angles add to 180°（相邻角互补）、diagonals bisect each other（对角线互相平分）；rectangle（矩形）：a parallelogram with four right angles（平行四边形的特例，四个直角）、diagonals equal（对角线相等）；rhombus（菱形）：a parallelogram with four equal sides（平行四边形的特例，四边相等）、diagonals bisect each other at right angles（对角线互相垂直平分）；square（正方形）：rectangle + rhombus（矩形 + 菱形），four equal sides and four right angles（四边相等且四角为直角）；trapezium（梯形）：exactly one pair of parallel sides（恰好一对平行边，新加坡用法）。Examples: Parallelogram ABCD with angle A = 70°, opposite angle C = 70°（对角相等）, consecutive angle B = 180° − 70° = 110°（相邻角互补）. Rectangle PQRS with diagonal PR = 12 cm, diagonal QS = 12 cm（矩形对角线相等）. Rhombus ABCD with side AB = 8 cm, all sides = 8 cm（菱形四边相等）, diagonals bisect at right angles. Square EFGH with side = 6 cm, all sides = 6 cm and all angles = 90°. Trapezium has exactly one pair of parallel sides（梯形恰好一对平行边）. Cast: Wei, Aisha, Mr Lim at Riverside Secondary School（描述图形：quadrilateral with four vertices labeled with capital letters, mark angles at each vertex, describe sides and parallel marks）。Friendly integers（友好整数，角度和长度是整数）。No calculator（calculators are not allowed）。唯一性 unique keys：每道选择题只有一个正确答案（only ONE option may be true）。不要提供两个正确答案作为两个选项（如「angle C = 70°」和「opposite angles are equal」不能同时作为两个正确选项在同一道「which is correct?」题目中，只能选其中一个作为答案）。不要写一道「which is NOT / is this correct?」的题目，其中两个 Yes/No+reason 选项都是对的。本周只教 G1.4 的特殊四边形部分（properties of special quadrilaterals: parallelogram, rectangle, rhombus, square, trapezium），第 46 周已教 G1.4 的三角形部分，regular polygons（正多边形及其对称性）留待后续周次。本周不教 G1.5 classification of special quadrilaterals 作为完整分类学周（"矩形也是平行四边形"这样一句话可以）。本周不教 G1.6 interior and exterior angle sum of any convex polygon（任意凸多边形的内角和与外角和）。本周不重教 G1.2 vertically opposite angles, angles on a straight line, angles at a point（第 44 周已完成）和 G1.3 parallel lines and transversal（第 45 周已完成）和 G1.4 triangles（第 46 周已完成），除非作为一句话提醒。本周化石：treating every parallelogram as a rectangle（错误：把平行四边形当成矩形，认为所有平行四边形的对角线都相等。正确：只有矩形的对角线相等，一般平行四边形的对角线不一定相等。Wrong: parallelogram ABCD has diagonals AC = BD ✗. Right: rectangle has diagonals equal; parallelogram diagonals bisect each other but are not necessarily equal ✓）；giving a trapezium two pairs of parallel sides（错误：说梯形有两对平行边。正确：梯形恰好一对平行边，新加坡用法。Wrong: trapezium has two pairs of parallel sides ✗. Right: trapezium has exactly one pair of parallel sides (Singapore usage) ✓）；using 360° wrongly for consecutive angles of a parallelogram（错误：平行四边形 ABCD，角 A = 70°，对角 C = 110°，因为相邻角互补。正确：对角相等，所以角 C = 70°；相邻角互补，所以 B = 110°。Wrong: parallelogram ABCD, angle A = 70°, opposite angle C = 110° because consecutive angles add to 180° ✗. Right: opposite angles are equal, so angle C = 70°; consecutive angles add to 180°, so angle B = 110° ✓）。第 46 周已完成 G1.4 triangles（三角形的性质）。本周继续 GEOMETRY AND MEASUREMENT G1，教 1.4 properties of special quadrilaterals（特殊四边形的性质，本周只教特殊四边形）。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "At Riverside Secondary, Mr Lim draws parallelogram ABCD on the board. Angle A measures 80°. What is the measure of the opposite angle C?|A. 80° (because in a parallelogram, opposite angles are equal)|B. 100° (because consecutive angles add to 180°, so 180° − 80° = 100°)|C. 160° (because 80° × 2 = 160°)|D. 280° (because 360° − 80° = 280°)",
+            "Wei draws rectangle PQRS at Riverside Secondary. Diagonal PR measures 14 cm. What is the measure of diagonal QS?|A. 14 cm (because in a rectangle, the diagonals are equal)|B. 7 cm (because the diagonals bisect each other, so each half is 14 ÷ 2 = 7 cm)|C. 28 cm (because 14 × 2 = 28)|D. Cannot be determined without more information",
+            "Aisha observes a rhombus ABCD at Riverside Secondary where side AB measures 9 cm. What is the measure of side BC?|A. 9 cm (because in a rhombus, all four sides are equal)|B. 18 cm (because opposite sides are double)|C. 4.5 cm (because adjacent sides are half)|D. Cannot be determined without diagonal lengths",
+            "Mr Lim shows the class a square EFGH at Riverside Secondary. Side EF measures 7 cm. What is the measure of angle F?|A. 90° (because in a square, all four angles are right angles)|B. 45° (because 360° ÷ 8 sides = 45°)|C. 60° (because squares have equal angles like equilateral triangles)|D. 180° (because that's the angle sum)",
+            "Aisha says: 「Parallelogram ABCD has angle A = 80°. Since it's a parallelogram, all parallelograms have equal diagonals just like rectangles, so AC = BD.」 What is wrong with Aisha's statement?|A. Only rectangles have equal diagonals; general parallelograms have diagonals that bisect each other but are not necessarily equal. Aisha confused parallelogram with rectangle.|B. Nothing is wrong. Aisha's answer is correct, all parallelograms have equal diagonals.|C. Parallelograms don't have diagonals.|D. The error is that angle A should be 90°, not 80°.",
+          ]),
+          correctAnswer: "A,A,A,A,A",
+          points: 10,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "Parallelogram PQRS at Riverside Secondary has angle P measuring 75°. What is the measure of consecutive angle Q?|A. 105° (because in a parallelogram, consecutive angles add to 180°, so 180° − 75° = 105°)|B. 75° (because consecutive angles are equal)|C. 150° (because 75° × 2 = 150°)|D. 285° (because 360° − 75° = 285°)",
+            "Wei draws parallelogram ABCD with angle A = 65°. He says: 「The opposite angle C is 115° because consecutive angles in a parallelogram add to 180°.」 Mr Lim asks the class to check. Which statement is correct?|A. No, Wei is wrong. In a parallelogram, OPPOSITE angles are equal, not supplementary. So angle C = angle A = 65°. CONSECUTIVE angles add to 180°, so angle B = 180° − 65° = 115°.|B. Yes, Wei is correct. Opposite angle C = 115°.|C. No, the opposite angle C should be 360° − 65° = 295°.|D. Yes, because 65° + 115° = 180°, Wei's answer is correct.",
+            "Aisha says: 「A trapezium has two pairs of parallel sides.」 Wei responds: 「Actually, in Singapore usage, a trapezium has exactly one pair of parallel sides. If it had two pairs, it would be a parallelogram.」 Who is correct?|A. Wei is correct. In Singapore usage, a trapezium has exactly one pair of parallel sides. Two pairs would make it a parallelogram.|B. Aisha is correct. A trapezium has two pairs of parallel sides.|C. Both are wrong. A trapezium has no parallel sides.|D. Both are correct. It depends on the country.",
+            "Which statement about a rectangle is correct?|A. A rectangle is a parallelogram with four right angles and equal diagonals|B. A rectangle has all sides equal|C. A rectangle has diagonals that are perpendicular|D. A rectangle is not a parallelogram",
+            "Which statement about a rhombus is correct?|A. A rhombus has four equal sides and diagonals that bisect each other at right angles|B. A rhombus has four right angles|C. A rhombus has equal diagonals|D. A rhombus has exactly one pair of parallel sides",
+            "Mr Lim draws square WXYZ at Riverside Secondary with side WX = 8 cm. What is the measure of side XY?|A. 8 cm (because in a square, all four sides are equal)|B. 16 cm (because 8 × 2 = 16)|C. 4 cm (because opposite sides are half)|D. Cannot be determined without the diagonal",
+            "Wei observes parallelogram ABCD at Riverside Secondary. Angle A measures 85°. What are the measures of opposite angle C and consecutive angle B?|A. Opposite angle C = 85° (opposite angles equal), consecutive angle B = 95° (because 180° − 85° = 95°)|B. Opposite angle C = 95°, consecutive angle B = 85°|C. Opposite angle C = 180°, consecutive angle B = 180°|D. Opposite angle C = 275°, consecutive angle B = 275°",
+            "Aisha draws rhombus PQRS at Riverside Secondary with side PQ = 11 cm. What is the measure of side RS (the opposite side)?|A. 11 cm (because in a rhombus, all four sides are equal, so RS = PQ = 11 cm)|B. 22 cm (because opposite sides are double)|C. 5.5 cm (because opposite sides are half)|D. Cannot be determined without the diagonal measurements",
+          ]),
+          correctAnswer: "A,A,A,A,A,A,A,A",
+          points: 16,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `Part 2: Show Your Working (写出算式步骤)
+
+Riverside Secondary School has special quadrilaterals geometry exercises. Answer the questions below. For each question, show your method of solution clearly by writing working steps, plus the final answer.
+
+Question (a)
+At Riverside Secondary, Mr Lim draws parallelogram ABCD on the classroom board. He measures angle A and finds it is 80°.
+
+(i) What is the measure of the opposite angle C? Show your working clearly using the parallelogram property.
+(ii) What is the measure of the consecutive angle B? Show your working clearly.
+(iii) Wei says: 「Angle C is 100° because consecutive angles in a parallelogram add to 180°, so 180° − 80° = 100°.」 Explain what is wrong with Wei's reasoning and give the correct angle C.
+
+Question (b)
+Aisha draws rectangle PQRS with diagonal PR measuring 16 cm.
+
+(i) What is the measure of diagonal QS? Show your working clearly using the rectangle property.
+(ii) Wei says: 「Since a rectangle is a parallelogram, its diagonals bisect each other but are not necessarily equal, so QS might not be 16 cm.」 Explain why Wei's reasoning is incomplete and give the correct measure of diagonal QS.
+(iii) Mr Lim asks: 「How are a rectangle's diagonals different from a general parallelogram's diagonals?」 Explain clearly using the rectangle property.
+
+Question (c)
+Wei draws rhombus ABCD at Riverside Secondary where side AB equals 10 cm.
+
+(i) What are the measures of sides BC, CD, and DA? Show all your working steps clearly.
+(ii) Aisha says: 「A rhombus looks like a square, so all its angles must be 90°.」 Use the correct rhombus and square properties to explain why Aisha is wrong about the angles.
+(iii) Mr Lim says: 「A square is both a rectangle and a rhombus.」 Explain why this statement is correct by comparing the properties of squares, rectangles, and rhombi.
+
+写作提示 / Tips:
+✓ 每题分步骤写出推理 (Show working steps for each question)
+✓ Part 2 官方要求：clearly show the method of solution by writing working steps, plus the final answer
+✓ 不用计算器 (No calculators allowed)
+✓ 特殊四边形性质步骤示范 (special quadrilaterals properties examples)：
+  • Parallelogram ABCD with angle A = 80°:
+    Question: Find opposite angle C and consecutive angle B. Wei says angle C = 100° because consecutive angles add to 180°. What is wrong?
+    Solution for angle C: ① Recall the property: In a parallelogram, opposite angles are equal（平行四边形对角相等）. ② Identify the given: angle A = 80°. ③ Apply the opposite angle property: angle C = angle A (opposite angles equal). ④ Substitute: angle C = 80°. ⑤ Conclusion: Opposite angle C = 80°. ⑥ Wei's error: Wei said angle C = 100° because consecutive angles add to 180°. This is wrong. Wei confused OPPOSITE angles with CONSECUTIVE angles. The property 「consecutive angles add to 180°」 applies to adjacent angles (like A and B), not opposite angles (like A and C). Opposite angles are EQUAL, not supplementary. The correct reasoning: opposite angle C = angle A = 80° (opposite angles equal).
+    Solution for angle B: ① Recall the property: In a parallelogram, consecutive angles add to 180°（平行四边形相邻角互补）. ② Identify: angle A and angle B are consecutive (adjacent). ③ Apply the property: angle A + angle B = 180°. ④ Substitute: 80° + angle B = 180°. ⑤ Solve: angle B = 180° − 80° = 100°. ⑥ Conclusion: Consecutive angle B = 100°.
+  • Rectangle PQRS with diagonal PR = 16 cm:
+    Question: Find diagonal QS. Wei says since it's a parallelogram, diagonals bisect but are not necessarily equal, so QS might not be 16 cm. Why is Wei incomplete?
+    Solution: ① Recall the property: In a rectangle, the diagonals are equal（矩形对角线相等）. ② Identify the given: diagonal PR = 16 cm. ③ Apply the property: diagonal QS = diagonal PR (rectangle diagonals equal). ④ Substitute: diagonal QS = 16 cm. ⑤ Conclusion: Diagonal QS = 16 cm. ⑥ Wei's incomplete reasoning: Wei is correct that in a GENERAL parallelogram, diagonals bisect each other but are not necessarily equal. However, a rectangle is a SPECIAL parallelogram with four right angles, and rectangles have the additional property that their diagonals are equal. So diagonal QS = PR = 16 cm. ⑦ Difference: General parallelogram diagonals bisect each other but are not necessarily equal; rectangle diagonals bisect each other AND are equal.
+  • Rhombus ABCD with side AB = 10 cm:
+    Question: Find sides BC, CD, DA. Aisha says a rhombus looks like a square, so all angles are 90°. Why is Aisha wrong?
+    Solution for sides: ① Recall the property: In a rhombus, all four sides are equal（菱形四边相等）. ② Identify the given: side AB = 10 cm. ③ Apply the property: all sides are equal, so BC = CD = DA = AB. ④ Substitute: BC = CD = DA = 10 cm. ⑤ Conclusion: All four sides equal 10 cm. ⑥ Aisha's error about angles: Aisha said a rhombus has all angles 90° because it looks like a square. This is wrong. A rhombus has four EQUAL sides, but its angles are not necessarily 90°. A SQUARE is a special rhombus with four equal sides AND four right angles (90°). A general rhombus has four equal sides but angles that are not necessarily 90°. The correct properties: Rhombus = four equal sides (angles not necessarily 90°). Square = four equal sides + four right angles (90°). So a square is both a rectangle (four right angles) and a rhombus (four equal sides). A general rhombus is not a square unless all angles are also 90°.
+✓ 关键步骤：Step 1: Identify which special quadrilateral property applies（识别适用哪个特殊四边形性质）——parallelogram (opposite angles equal, consecutive angles add to 180°, diagonals bisect each other), rectangle (parallelogram + four right angles + diagonals equal), rhombus (parallelogram + four equal sides + diagonals bisect at right angles), square (rectangle + rhombus: four equal sides + four right angles), trapezium (exactly one pair of parallel sides). Step 2: Recall the correct property statement（回忆正确的性质陈述）. Step 3: Identify the given information（识别给定信息）——which angles, sides, or diagonals are given. Step 4: Apply the property to the given information（将性质应用于给定信息）. Step 5: Write the equation and solve step by step（写出等式并逐步求解）. Step 6: State the final answer clearly（清楚地陈述最终答案）. Step 7: If a fossil error is present, explain what is wrong with the incorrect reasoning（如果有化石错误，解释错误推理的问题）——identify which property was confused, state the correct property, show the correct calculation.
+✓ 化石 (fossil errors)：
+  • Treating every parallelogram as a rectangle: saying parallelogram ABCD has diagonals AC = BD（错误：平行四边形对角线不一定相等。正确：只有矩形的对角线相等；一般平行四边形对角线互相平分但不一定相等。Wrong: parallelogram diagonals are equal. Right: only rectangle diagonals are equal; parallelogram diagonals bisect each other but are not necessarily equal）
+  • Giving a trapezium two pairs of parallel sides: saying a trapezium has two pairs of parallel sides（错误：梯形恰好一对平行边，新加坡用法。如果有两对平行边，那就是平行四边形，不是梯形。正确：trapezium has exactly one pair of parallel sides (Singapore usage)）
+  • Using 360° wrongly for consecutive angles of a parallelogram: saying parallelogram ABCD with angle A = 80°, opposite angle C = 100° because consecutive angles add to 180°（错误：对角相等，不是互补。相邻角才互补。正确：opposite angles are equal, so C = 80°; consecutive angles add to 180°, so B = 100°）
+  • Confusing rhombus and square: saying a rhombus has all angles 90° like a square（错误：菱形四边相等，但角不一定是 90°。只有正方形（特殊的菱形）四角都是 90°。正确：rhombus has four equal sides but angles not necessarily 90°; square is a special rhombus with four equal sides AND four right angles 90°）
+  • 本周教 G1.4 的特殊四边形部分（properties of special quadrilaterals: parallelogram opposite angles equal and consecutive angles add to 180°, rectangle four right angles and diagonals equal, rhombus four equal sides and diagonals bisect at right angles, square four equal sides and four right angles, trapezium exactly one pair of parallel sides）。第 46 周已教 G1.4 的三角形部分。Regular polygons（正多边形及其对称性）留待后续周次。
+
+Note: This is a sample of Part 2 short-answer/open-ended questions. The official paper has 20 short-answer + 10–15 open-ended items in 1 hour 45 minutes.`,
+          points: 20,
+        },
+      ],
+    },
   ];
 
   // =================================================================
