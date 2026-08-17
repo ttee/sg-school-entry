@@ -744,6 +744,15 @@ export default function WeikeMiniLesson({ level, weekNumber }: WeikeMiniLessonPr
       ],
       gloss: "AEIS 中学数学第 56 周 / SMATH Week 56. 本周例题：Sec 1 G5.5 problems involving volume and surface area of composite solids（组合立体的体积与表面积）。官方 5.5 wording（逐字引用）：'problems involving volume and surface area of composite solids'。本周是 G5.5 only. Composite solids: cuboids / rectangular prisms and cylinders (G5.3 已完成)。Volume: add the pieces, or subtract a cut-out (a smaller cuboid or cylinder removed from a larger one). Surface area: add the OUTER faces only. When two solids are joined, do NOT count the hidden joined face twice (subtract 2× the joined face area from the sum of the separate surface areas). When a piece is cut out of a face, the hole's walls are new surface; the removed face patch is gone. Friendly integers. For π use 22/7 (r multiple of 7) OR leave in π terms — ONE convention per item. Examples: L-shaped solid of two cuboids (8×5×4 joined to 6×5×3 along 5×3 face, volume = 200+90=290 cm³); cuboid 10×8×6 with 4×3×2 cut from corner (volume = 576-24=552 cm³); cylinder r=7 h=10 on cuboid 20×14×5 (volume = 1400+1540=2940 cm³). Units: cm³, cm². Cast: Wei, Aisha, Mr Lim at Riverside Secondary. No calculator. 第 52–55 周已完成 G5.1–G5.4。本周完成 G5.5，官方 G5 Mensuration 至此全部完成。本周是 Sec 1 最后一周 Mensuration 内容。本周不教 Sec 2 内容。"
     },
+    "SMATH-57": {
+      examples: [
+        "1 : 50 000, 2 cm on map → 2 × 50 000 = 100 000 cm = 1 km.",
+        "1 : 20 000, actual distance 4 km = 400 000 cm → map length = 400 000 ÷ 20 000 = 20 cm.",
+        "1 : 10 000, 1 cm² on map → 10 000² = 100 000 000 cm² = 10 000 m².",
+        "1 : 50 000, 2 cm² on map → 2 × 50 000² = 2 × 2 500 000 000 = 5 000 000 000 cm²."
+      ],
+      gloss: "AEIS 中学数学第 57 周 / SMATH Week 57. 本周例题：Sec 2 N2.4 map scales (distance and area)（地图比例尺，距离和面积）。官方 N2.4 wording（逐字引用）：'map scales (distance and area)'。本周是 N2.4 only. A scale 1 : n means 1 unit on the map corresponds to n of the same units on the ground. Distance: actual length = map length × n (same units), then convert (100 cm = 1 m, 100 000 cm = 1 km). Map length = actual length ÷ n. Area: the area scale is the SQUARE of the linear scale. 1 cm² on a 1 : n map = n² cm² on the ground. Then convert: 10 000 cm² = 1 m². Friendly integers: scales 1 : 10 000, 1 : 20 000, 1 : 50 000, 1 : 100 000. Examples: 1 : 50 000, 2 cm on map → 1 km; 1 : 10 000, 1 cm² on map → 10 000 m². Fossil: using the linear scale n for area instead of n² (saying 1 cm² on a 1 : 50 000 map is 50 000 cm², correct is 50 000² = 2 500 000 000 cm²). Cast: Wei, Aisha, Mr Lim at Riverside Secondary. No calculator. 本周不教 2.5 direct and inverse proportion. 第 8–56 周已完成 Sec 1 内容。本周开始 Sec 2 内容（Sec 3 申请者的 preceding level）。"
+    },
     "SEC-0": {
       fossil: "Although I was nervous, but I tried. ✗ (中文「虽然…但是…」迁移) / I go yesterday ✗ (叙事体过去时掉落)",
       examples: [
