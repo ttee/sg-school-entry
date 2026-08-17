@@ -242,7 +242,7 @@ export default function SmathFigure({ weekNumber }: { weekNumber: number }) {
             <text x="320" y="80" fontSize="14" fill="#d97706" fontWeight="600">x + y = 10</text>
             
             {/* Line 2: x - y = 4 passing through (4,0) and (7,3) */}
-            <line x1="170" y1="350" x2="350" y2="260" stroke="#3b82f6" strokeWidth="3" />
+            <line x1="170" y1="350" x2="350" y2="170" stroke="#3b82f6" strokeWidth="3" />
             <text x="280" y="280" fontSize="14" fill="#3b82f6" fontWeight="600">x − y = 4</text>
             
             {/* Intersection point (7, 3) */}
