@@ -4546,6 +4546,43 @@ const lessonPlans: Record<string, LessonPlan> = {
     ],
     speakingPrompts: null,
   },
+  "SMATH-43": {
+    title: "识别和分类四种角 — Right, acute, obtuse and reflex angles",
+    mathExample: "90° is right. 35° is acute (0° < 35° < 90°). 95° is obtuse (90° < 95° < 180°). 200° is reflex (180° < 200° < 360°). 270° is reflex (180° < 270° < 360°). 180° is NOT one of the four 1.1 types.",
+    sections: [
+      {
+        name: "课前",
+        duration: "2 分钟",
+        teacherNotes: "确认 Zoom 设置正常。孩子和家长都在镜头前。调整摄像头，让孩子的脸清晰可见。对家长说：「本周内容是 Sec 1 识别和分类四种角。官方 MOE 2020 G3 Sec 1 GEOMETRY AND MEASUREMENT, G1. Angles, triangles and polygons: 1.1 right, acute, obtuse and reflex angles。本周重点是 classify four types of angles（分类四种角）。Right angle = 90°（直角 = 90°）。Acute angle: greater than 0° and less than 90°（锐角：大于 0° 小于 90°）。Obtuse angle: greater than 90° and less than 180°（钝角：大于 90° 小于 180°）。Reflex angle: greater than 180° and less than 360°（优角：大于 180° 小于 360°）。Examples: 35° is acute; 95° is obtuse; 200° is reflex; 90° is right。180° is NOT one of the four 1.1 types（180° 不是这四种角之一）。本周只教 G1.1（four types of angles），不教 G1.2（vertically opposite angles / angles on a straight line / angles at a point）。」提醒家长可以在旁边观摩，但请让孩子自己动笔算。",
+      },
+      {
+        name: "热身",
+        duration: "5 分钟",
+        teacherNotes: "在白板或屏幕上画一个直角标记（小正方形）。问孩子：「这个角叫什么？」引导孩子说出：Right angle（直角）。强调：A right angle equals 90°（直角 = 90°）。写：90° = right angle。再画一个小角（明显小于 90°）。问：「这个角小于 90° 还是大于 90°？」答：Less than 90°（小于 90°）。说：This is an acute angle（这是锐角）。强调：Acute angle is greater than 0° and less than 90°（锐角大于 0° 小于 90°）。写：0° < acute < 90°。再画一个大角（明显大于 90° 但小于 180°）。问：「这个角大于 90° 还是小于 90°？」答：Greater than 90°。说：This is an obtuse angle（这是钝角）。强调：Obtuse angle is greater than 90° and less than 180°（钝角大于 90° 小于 180°）。写：90° < obtuse < 180°。最后画一个更大的角（明显大于 180° 但小于 360°）。问：「这个角大于 180° 还是小于 180°？」答：Greater than 180°。说：This is a reflex angle（这是优角）。强调：Reflex angle is greater than 180° and less than 360°（优角大于 180° 小于 360°）。写：180° < reflex < 360°。如果孩子卡住，教师先示范一次，让孩子跟着说。",
+      },
+      {
+        name: "化石",
+        duration: "8 分钟",
+        teacherNotes: "在屏幕上或白板上写下错误例子：Wei says: 95° is a reflex angle（标记为 ✗）。问孩子：「这个对吗？」等孩子思考后，圈出错误：mixing obtuse and reflex（混淆钝角和优角）。指出：Wei said 95° is reflex, but 95° is obtuse, not reflex（Wei 说 95° 是优角，但 95° 是钝角，不是优角）。为什么？Because 90° < 95° < 180°（因为 90° < 95° < 180°）。强调：Obtuse angle is between 90° and 180°（钝角在 90° 和 180° 之间）。Reflex angle is between 180° and 360°（优角在 180° 和 360° 之间）。改正后写：95° is obtuse（标记为 ✓，因为 90° < 95° < 180°）。让孩子跟读改正后的句子：95° is obtuse because 90° is less than 95° and 95° is less than 180°。再给第二个化石例子：Aisha says: 270° is obtuse（标记为 ✗）。问孩子：「这个对吗？」圈出错误：270° is reflex, not obtuse（270° 是优角，不是钝角）。为什么？Because 180° < 270° < 360°（因为 180° < 270° < 360°）。改正后写：270° is reflex（标记为 ✓，因为 180° < 270° < 360°）。让孩子跟读 3 次：270° is reflex because 270° is greater than 180° and less than 360°。",
+      },
+      {
+        name: "示范",
+        duration: "10 分钟",
+        teacherNotes: "教师示范四道完整例题（写出推理步骤）。例题 1（Classify 35°）：What type of angle is 35°? Explain your answer. 步骤：① 35° is less than 90°（35° 小于 90°）. ② An acute angle is greater than 0° and less than 90°（锐角大于 0° 小于 90°）. ③ Since 0° < 35° < 90°, 35° is an acute angle. Answer: 35° is acute. 例题 2（Classify 200°）：What type of angle is 200°? Explain your answer. 步骤：① 200° is greater than 180°（200° 大于 180°）. ② A reflex angle is greater than 180° and less than 360°（优角大于 180° 小于 360°）. ③ Since 180° < 200° < 360°, 200° is a reflex angle. Answer: 200° is reflex. 例题 3（Classify 90°）：Wei says: 「An angle measures 90°. What type of angle is this?」 Aisha says: 「90° is a right angle.」 Is Aisha correct? Explain. 步骤：① A right angle equals 90°（直角 = 90°）. ② The angle measures 90°. ③ Since the angle equals 90°, it is a right angle. Answer: Yes, Aisha is correct. 90° is a right angle. 例题 4（Explain fossil error）：Wei says: 「95° is a reflex angle.」 Explain what is wrong with Wei's statement. 步骤：① 95° is greater than 90° but less than 180°（95° 大于 90° 但小于 180°）. ② An obtuse angle is greater than 90° and less than 180°（钝角大于 90° 小于 180°）. ③ A reflex angle is greater than 180° and less than 360°（优角大于 180° 小于 360°）. ④ Since 90° < 95° < 180°, 95° is obtuse, not reflex. Answer: Wei is wrong because 95° is an obtuse angle, not a reflex angle. 95° is between 90° and 180°, so it is obtuse. Reflex angles are between 180° and 360°. 教师在白板或屏幕上写出每道题的完整步骤，孩子看着跟随。",
+      },
+      {
+        name: "练习",
+        duration: "12 分钟",
+        teacherNotes: "给孩子 3 道练习题，让孩子独立做，写出推理步骤。家长可以用手机拍照孩子的推理。题 1：Wei is in the classroom. He notices the corner where the door meets the wall forms an angle of 35°. What type of angle is 35°? Explain your answer. 答案：① 35° is less than 90°. ② An acute angle is greater than 0° and less than 90°. ③ Since 0° < 35° < 90°, 35° is an acute angle. Answer: 35° is acute. 题 2：Aisha looks at the clock on the sports field. The minute hand and hour hand form an angle of 200°. What type of angle is 200°? Explain your answer. 答案：① 200° is greater than 180°. ② A reflex angle is greater than 180° and less than 360°. ③ Since 180° < 200° < 360°, 200° is a reflex angle. Answer: 200° is reflex. 题 3：Mr Lim draws three angles on the whiteboard: Angle A is 90°, Angle B is 95°, and Angle C is 270°. (i) What type of angle is Angle A? (ii) What type of angle is Angle B? (iii) What type of angle is Angle C? (iv) Wei says「Angle B is a reflex angle.」Explain what is wrong with Wei's statement. 答案：(i) Angle A = 90° is a right angle. (ii) Angle B = 95°: 90° < 95° < 180°, so Angle B is obtuse. (iii) Angle C = 270°: 180° < 270° < 360°, so Angle C is reflex. (iv) Wei is wrong because Angle B (95°) is an obtuse angle, not a reflex angle. 95° is between 90° and 180°, so it is obtuse. Reflex angles are between 180° and 360°. 孩子写完后，教师检查每一步推理，指出如果有步骤缺失或错误。",
+      },
+      {
+        name: "收口",
+        duration: "3 分钟",
+        teacherNotes: "总结本周重点：(1) 官方 Sec 1 AEIS 数学卷型：Part 1 MCQ 34 题 30 分钟 + Part 2 show working 20+10–15 题 1 小时 45 分钟，不用计算器。(2) 本周内容：Sec 1 GEOMETRY AND MEASUREMENT, G1. Angles, triangles and polygons: 1.1 right, acute, obtuse and reflex angles（识别和分类四种角），对应 preceding level 规则。本周只教 G1.1：Right angle = 90°（直角 = 90°）。Acute angle: 0° < angle < 90°（锐角：大于 0° 小于 90°）。Obtuse angle: 90° < angle < 180°（钝角：大于 90° 小于 180°）。Reflex angle: 180° < angle < 360°（优角：大于 180° 小于 360°）。Examples: 35° is acute; 90° is right; 95° is obtuse; 200° is reflex; 270° is reflex。180° is NOT one of the four 1.1 types（180° 不是这四种角之一）。本周不教 G1.2（vertically opposite angles / angles on a straight line / angles at a point）。(3) 本周化石：mixing obtuse and reflex（混淆钝角和优角）。Wrong: 95° is reflex ✗（错误：95° 是 obtuse 钝角，因为 90° < 95° < 180°）。Wrong: 270° is obtuse ✗（错误：270° 是 reflex 优角，因为 180° < 270° < 360°）。Right: 90° is right; 35° is acute; 95° is obtuse; 200° is reflex。(4) 本周作业在 /learn 页面，完成后系统自动批改 MCQ，writing 部分有 AI Kaizen 反馈（一个改善焦点）。家长会在微信群收到进度同步。不提「小班课」「包过」「保证录取」等话术。Cast: Wei, Aisha, Mr Lim at Riverside Secondary School（classroom door corner, clock, sports field corner）。本周对应申请 Sec 2 入学者的 preceding level（Sec 1）内容。第 43 周开始 GEOMETRY AND MEASUREMENT G1（G1.1 only）。第 39–42 周已完成 Sec 1 NUMBER AND ALGEBRA N1–N7。",
+      },
+    ],
+    speakingPrompts: null,
+  },
 };
 
 export default async function LessonPlanPage({

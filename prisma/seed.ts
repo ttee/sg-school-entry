@@ -10702,6 +10702,102 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
         },
       ],
     },
+    {
+      level: "SMATH",
+      weekNumber: 43,
+      title: "数学 第 43 周 / Maths Week 43",
+      description: "AEIS-Secondary Mathematics: Sec 1 right, acute, obtuse and reflex angles (G1.1 only)",
+      isSample: false,
+      errorFocus: "mixing obtuse and reflex: 95° is a reflex angle (wrong, it is obtuse because 90° < 95° < 180°); 270° is obtuse (wrong, it is reflex because 180° < 270° < 360°); or calling every 「big」 angle a right angle",
+      parentBrief: "本周是中学 AEIS 数学第 43 周，对应官方 SEAB Sec 1 卷型（https://www.seab.gov.sg/aeis/test-details/ 2026年7月1日更新）。Part 1 Multiple-choice questions：34 道 MCQ，30 分钟。Part 2 Short-answer questions (20 items) and open-ended questions (10 to 15 items)：1 小时 45 分钟。Calculators are not allowed（不允许使用计算器）。Short-answer and open-ended questions：candidates are required to show the method of solution clearly by writing working steps in the spaces provided, plus the final answer（需写出算式步骤和最终答案）。AEIS-Secondary 官方 preceding-level 规则：申请 Sec 2 入学者需熟悉 Sec 2 前一级的内容。官方举例：apply Secondary 3 → be familiar with Secondary 2 content. 本周针对 Sec 2 申请者，内容为 Sec 2 前一级（Sec 1）的官方 MOE 2020 G3 Mathematics Syllabuses, Secondary One, GEOMETRY AND MEASUREMENT, G1. Angles, triangles and polygons: 1.1 right, acute, obtuse and reflex angles（直角、锐角、钝角、优角）。官方 1.1 wording（逐字引用）：「right, acute, obtuse and reflex angles」。本周方法：识别和分类四种角 classify four types of angles。Right angle = 90°（直角 = 90°）。Acute angle: greater than 0° and less than 90°（锐角：大于 0° 小于 90°）。Obtuse angle: greater than 90° and less than 180°（钝角：大于 90° 小于 180°）。Reflex angle: greater than 180° and less than 360°（优角：大于 180° 小于 360°）。Examples: 90° is right; 35° is acute (0° < 35° < 90°); 95° is obtuse (90° < 95° < 180°); 120° is obtuse (90° < 120° < 180°); 200° is reflex (180° < 200° < 360°); 270° is reflex (180° < 270° < 360°)。180° is NOT reflex and NOT obtuse（180° 不是优角也不是钝角，it is not one of the four 1.1 types）。Cast: Wei, Aisha, Mr Lim at Riverside Secondary School（classroom door corner, clock, sports field corner）。Friendly integers（友好整数，角度是整数）。唯一性 unique keys：每道选择题只有一个正确答案（only ONE option may be true）。本周只教 G1.1（four types of angles: right 90°, acute 0°–90°, obtuse 90°–180°, reflex 180°–360°），不教 G1.2（vertically opposite angles / angles on a straight line / angles at a point），不教后续 G1 小节。本周开始 GEOMETRY AND MEASUREMENT G1。第 39–42 周已完成 Sec 1 NUMBER AND ALGEBRA N1–N7（质数分解、HCF/LCM、平方立方和根、负数四则、数轴、不等号、近似估算、有理数比、比的应用、百分数、速率速度、用字母表示数、代数、坐标、一次函数、方程）。本周化石：mixing obtuse and reflex（混淆钝角和优角）。Wrong: 95° is a reflex angle（错误：95° 不是优角，是钝角，因为 90° < 95° < 180°）。Wrong: 270° is obtuse（错误：270° 不是钝角，是优角，因为 180° < 270° < 360°）。Wrong: calling every 「big」 angle a right angle（错误：把所有「大」角都叫直角）。Right: 90° is right（正确：90° 是直角）; 95° is obtuse（正确：95° 是钝角，because 90° < 95° < 180°）; 270° is reflex（正确：270° 是优角，because 180° < 270° < 360°）; 35° is acute（正确：35° 是锐角，because 0° < 35° < 90°）。Note: 180° is not one of the four 1.1 types（180° 不是 G1.1 的四种角之一）。0° and 360° are boundary values, not classified in 1.1（0° 和 360° 是边界值，不在 1.1 分类中）。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "Wei measures an angle at the classroom door corner. The angle is 90°. What type of angle is this?|A. Right angle|B. Acute angle|C. Obtuse angle|D. Reflex angle",
+            "Aisha measures an angle of 45° on her protractor. What type of angle is this?|A. Acute angle (because 0° < 45° < 90°)|B. Obtuse angle|C. Right angle|D. Reflex angle",
+            "Mr Lim draws an angle of 120° on the board at Riverside Secondary. What type of angle is this?|A. Obtuse angle (because 90° < 120° < 180°)|B. Acute angle|C. Right angle|D. Reflex angle",
+            "Wei measures an angle of 250° at the sports field corner. What type of angle is this?|A. Reflex angle (because 180° < 250° < 360°)|B. Obtuse angle|C. Acute angle|D. Right angle",
+            "Aisha says: 「An angle of 95° is a reflex angle.」 What is wrong with Aisha's statement?|A. 95° is an obtuse angle, not a reflex angle, because 90° < 95° < 180°. Reflex angles are greater than 180°.|B. 95° is a right angle.|C. Nothing is wrong. 95° is a reflex angle.|D. 95° is an acute angle.",
+          ]),
+          correctAnswer: "A,A,A,A,A",
+          points: 10,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "Which of the following angles is obtuse?|A. 135° (because 90° < 135° < 180°)|B. 45°|C. 90°|D. 270°",
+            "Mr Lim shows a clock at Riverside Secondary. The hands form an angle of 210°. What type of angle is this?|A. Reflex angle (because 180° < 210° < 360°)|B. Obtuse angle|C. Acute angle|D. Right angle",
+            "Wei classifies an angle of 30° at the classroom door. What type of angle is this?|A. Acute angle (because 0° < 30° < 90°)|B. Right angle|C. Obtuse angle|D. Reflex angle",
+            "Aisha says: 「An angle of 270° is an obtuse angle.」 What is wrong with this statement?|A. 270° is a reflex angle, not obtuse, because 180° < 270° < 360°. Obtuse angles are between 90° and 180°.|B. 270° is a right angle.|C. Nothing is wrong. 270° is obtuse.|D. 270° is an acute angle.",
+            "Which of the following is the correct definition of an acute angle?|A. An angle greater than 0° and less than 90°|B. An angle equal to 90°|C. An angle greater than 90° and less than 180°|D. An angle greater than 180° and less than 360°",
+            "Mr Lim draws an angle of 180° on the board. Is this angle one of the four types taught in G1.1 (right, acute, obtuse, reflex)?|A. No, 180° is not one of the four types in G1.1|B. Yes, it is an obtuse angle|C. Yes, it is a reflex angle|D. Yes, it is a right angle",
+            "Wei measures an angle at the sports field corner and finds it is 100°. What type of angle is this?|A. Obtuse angle (because 90° < 100° < 180°)|B. Acute angle|C. Right angle|D. Reflex angle",
+            "Which of the following angles is acute?|A. 60° (because 0° < 60° < 90°)|B. 90°|C. 150°|D. 300°",
+          ]),
+          correctAnswer: "A,A,A,A,A,A,A,A",
+          points: 16,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `Part 2: Show Your Working (写出算式步骤)
+
+Riverside Secondary School has angle classification exercises. Answer the questions below. For each angle, identify its type (right, acute, obtuse, or reflex) and explain your reasoning using the definitions.
+
+Question (a)
+Wei measures an angle at the classroom door corner at Riverside Secondary. The angle measures 90°.
+
+(i) What type of angle is this? Explain your answer using the definition.
+(ii) Wei's friend says: 「Any angle at a corner is a right angle.」 Is this statement always true? Explain why or why not.
+
+Question (b)
+Aisha observes a clock at Riverside Secondary. The hands form an angle of 200°.
+
+(i) What type of angle is this? Explain your answer using the definition.
+(ii) Show that 200° satisfies the definition of the angle type you identified in (i).
+(iii) Wei says: 「200° is an obtuse angle because it is bigger than 90°.」 Explain what is wrong with Wei's reasoning.
+
+Question (c)
+Mr Lim draws several angles on the board at Riverside Secondary and asks students to classify them. The angles are: 90°, 60°, 150°, and 280°.
+
+(i) Classify each angle as right, acute, obtuse, or reflex. For each angle, write the definition that applies.
+(ii) Aisha says: 「All angles bigger than 90° are obtuse angles.」 Use the angles in this question to explain why Aisha's statement is incorrect.
+
+写作提示 / Tips:
+✓ 每题分步骤写出推理 (Show working steps for each question)
+✓ Part 2 官方要求：clearly show the method of solution by writing working steps, plus the final answer
+✓ 不用计算器 (No calculators allowed)
+✓ 识别和分类四种角步骤示范 (classifying four types of angles examples)：
+  • 90° at classroom door:
+    Question: What type of angle is 90°? Explain using the definition.
+    Solution: ① Read the measurement: The angle is 90°. ② Recall the four definitions: Right angle = 90°; Acute angle: greater than 0° and less than 90°; Obtuse angle: greater than 90° and less than 180°; Reflex angle: greater than 180° and less than 360°. ③ Compare the measurement to the definitions: 90° equals 90°, so it matches the definition of a right angle. ④ Conclusion: 90° is a right angle. (Note: 90° is NOT acute and NOT obtuse. It is exactly 90°, which is the definition of right.)
+  • 200° at sports field clock:
+    Question: What type of angle is 200°? Explain using the definition. Wei says 200° is obtuse. What is wrong?
+    Solution: ① Read the measurement: The angle is 200°. ② Recall the definitions: Obtuse angle: greater than 90° and less than 180°; Reflex angle: greater than 180° and less than 360°. ③ Check if 200° is obtuse: Is 90° < 200° < 180°? No, because 200° > 180°, so 200° is NOT obtuse. ④ Check if 200° is reflex: Is 180° < 200° < 360°? Yes, 180° < 200° < 360° ✓. ⑤ Conclusion: 200° is a reflex angle. ⑥ Wei's error: Wei said 200° is obtuse because it is bigger than 90°. This is wrong because Wei forgot that obtuse angles must be LESS than 180°. The correct definition of obtuse is: greater than 90° AND less than 180°. Since 200° > 180°, it is not obtuse; it is reflex.
+  • Classify 60°, 150°, 280°:
+    Question: Classify each angle. For each, write the definition.
+    Solution: ① 60°: Check each definition. Is 60° = 90°? No. Is 0° < 60° < 90°? Yes ✓. So 60° is acute. Definition: An acute angle is greater than 0° and less than 90°. ② 150°: Is 150° = 90°? No. Is 0° < 150° < 90°? No. Is 90° < 150° < 180°? Yes ✓. So 150° is obtuse. Definition: An obtuse angle is greater than 90° and less than 180°. ③ 280°: Is 280° = 90°? No. Is 0° < 280° < 90°? No. Is 90° < 280° < 180°? No. Is 180° < 280° < 360°? Yes ✓. So 280° is reflex. Definition: A reflex angle is greater than 180° and less than 360°.
+✓ 关键步骤：Step 1: Read the angle measurement carefully（仔细读角度测量值）. Step 2: Recall the four definitions: right = 90°, acute: 0° < angle < 90°, obtuse: 90° < angle < 180°, reflex: 180° < angle < 360°（回忆四个定义）. Step 3: Compare the measurement to each definition one by one（逐一比较测量值和每个定义）. Step 4: Identify which definition the angle satisfies（确定角度符合哪个定义）. Step 5: State the type and write the definition as justification（陈述角的类型并写出定义作为理由）. Step 6: If a fossil error is present, explain what is wrong with the incorrect reasoning（如果有化石错误，解释错误推理的问题）.
+✓ 化石 (fossil errors)：
+  • Mixing obtuse and reflex: 95° is a reflex angle（错误：95° 不是优角，是钝角。因为 90° < 95° < 180°，符合钝角定义。优角的定义是 180° < angle < 360°，95° 不满足）
+  • Mixing obtuse and reflex: 270° is obtuse（错误：270° 不是钝角，是优角。因为 180° < 270° < 360°，符合优角定义。钝角的定义是 90° < angle < 180°，270° 不满足）
+  • Calling every 「big」 angle a right angle（错误：把所有「大」角都叫直角。Right angle 只有一个测量值：90°。如果角不是 90°，就不是 right angle）
+  • Forgetting the upper bound: saying 200° is obtuse because it is bigger than 90°（错误：忘记上界。说 200° 是钝角因为它大于 90°。这是错的，因为钝角定义是 90° < angle < 180°，必须同时满足大于 90° AND 小于 180°。200° 大于 180°，所以不是钝角，是优角）
+  • Confusing 180°: saying 180° is obtuse or reflex（错误：混淆 180°。180° 不是钝角也不是优角。钝角定义是 90° < angle < 180°（不包括 180°），优角定义是 180° < angle < 360°（不包括 180°）。180° is not one of the four 1.1 types）
+  • 本周教 G1 的 1.1（right, acute, obtuse and reflex angles，识别和分类四种角）。本周开始 GEOMETRY AND MEASUREMENT G1。第 39–42 周已完成 Sec 1 NUMBER AND ALGEBRA N1–N7。本周只教 1.1 right, acute, obtuse and reflex angles（四种角：直角 = 90°, 锐角 0°–90°, 钝角 90°–180°, 优角 180°–360°），不教 1.2（vertically opposite angles / angles on a straight line / angles at a point 对顶角/平角/圆周角），不教后续 G1 小节。
+
+Note: This is a sample of Part 2 short-answer/open-ended questions. The official paper has 20 short-answer + 10–15 open-ended items in 1 hour 45 minutes.`,
+          points: 20,
+        },
+      ],
+    },
   ];
 
   // =================================================================
