@@ -4435,6 +4435,43 @@ const lessonPlans: Record<string, LessonPlan> = {
     ],
     speakingPrompts: null,
   },
+  "SMATH-40": {
+    title: "解一元一次方程 — Solving linear equations in one variable",
+    mathExample: "2x + 1 = 7 → Subtract 1 from both sides: 2x + 1 − 1 = 7 − 1 → 2x = 6 → Divide by 2: x = 3. Check: 2(3) + 1 = 7 ✓. 3x − 2 = x + 6 → Subtract x from both sides: 2x − 2 = 6 → Add 2 to both sides: 2x = 8 → x = 4. Check: 10 = 10 ✓.",
+    sections: [
+      {
+        name: "课前",
+        duration: "2 分钟",
+        teacherNotes: "确认 Zoom 设置正常。孩子和家长都在镜头前。调整摄像头，让孩子的脸清晰可见。对家长说：「本周内容是 Sec 1 解一元一次方程。官方 MOE 2020 G3 Sec 1 NUMBER AND ALGEBRA, N7. Equations and inequalities: 7.2 solving linear equations in one variable。本周重点是 solve ax + b = c and ax + b = cx + d by doing the same operation to both sides (add/subtract/multiply/divide) until x is alone（解 ax + b = c 和 ax + b = cx + d，对两边同时做同样的操作，直到 x 单独在一边）。Use inverse operations: if +b, subtract b from both sides; if −b, add b to both sides; if ax, divide both sides by a（用逆运算：如果有 +b，两边同时减 b；如果有 −b，两边同时加 b；如果有 ax，两边同时除以 a）。Example: 2x + 1 = 7 → 2x + 1 − 1 = 7 − 1 → 2x = 6 → x = 3. Check: 2(3) + 1 = 7 ✓。Friendly integers so x is an integer（友好整数）。Check by substitution after solving（解出来后代入检验）。本周只教 N7.2 solving linear equations in one variable，不教 N7.3 fractional equations（分式方程，例如 x/3 + (x−2)/4 = 3），不教 N7.4 formulating a linear equation to solve problems（用方程解应用题）。」提醒家长可以在旁边观摩，但请让孩子自己动笔算。",
+      },
+      {
+        name: "热身",
+        duration: "5 分钟",
+        teacherNotes: "在白板或屏幕上写 2x + 1 = 7。问孩子：「这是什么？」引导孩子说出：This is an equation（这是方程）。强调：An equation is a statement that two expressions are equal（方程是表示两个式子相等的陈述）。问：「我们需要找到 x 的值，让左边等于右边。怎么做？」引导孩子思考：To isolate x, we need to do the same operation to both sides（要把 x 分离出来，我们需要对两边做同样的操作）。写：2x + 1 = 7。问：「左边有 +1，我们应该做什么操作？」答：Subtract 1 from both sides（两边同时减 1）。写：2x + 1 − 1 = 7 − 1 → 2x = 6。问：「现在怎么求 x？」答：Divide both sides by 2（两边同时除以 2）。写：x = 3。强调：We must do the same operation to BOTH sides to keep the equation balanced（我们必须对两边做同样的操作才能保持方程平衡）。如果孩子卡住，教师先示范一次，让孩子跟着说。",
+      },
+      {
+        name: "化石",
+        duration: "8 分钟",
+        teacherNotes: "在屏幕上或白板上写下错误例子：Wei solves 2x + 1 = 7. Wei writes: 2x + 1 = 7 → 2x = 7（标记为 ✗）。问孩子：「这个对吗？」等孩子思考后，圈出错误：changing only one side（只改了一边）。指出：Wei only removed +1 from the left side, but did not subtract 1 from the right side（Wei 只把左边的 +1 去掉了，但没有从右边减 1）。强调：To keep the equation balanced, you must do the same operation to BOTH sides（要保持方程平衡，你必须对两边做同样的操作）。改正后写：2x + 1 = 7 → 2x + 1 − 1 = 7 − 1 → 2x = 6 → x = 3（标记为 ✓）。让孩子跟读改正后的步骤：2x + 1 − 1 = 7 − 1 → 2x = 6。再问孩子：「为什么要两边同时减 1？」答：To keep the equation balanced（保持方程平衡）。让孩子跟读 3 次：Subtract 1 from both sides. 2x + 1 − 1 = 7 − 1。",
+      },
+      {
+        name: "示范",
+        duration: "10 分钟",
+        teacherNotes: "教师示范三道完整例题（写出推理步骤）。例题 1（Solve 2x + 1 = 7 and check）：Solve 2x + 1 = 7. Show your working. Check your answer by substitution. 步骤：① The equation is 2x + 1 = 7. ② Subtract 1 from both sides: 2x + 1 − 1 = 7 − 1. ③ Simplify: 2x = 6. ④ Divide both sides by 2: 2x ÷ 2 = 6 ÷ 2. ⑤ x = 3. ⑥ Check by substitution: 2(3) + 1 = 6 + 1 = 7 ✓. Answer: x = 3. 例题 2（Solve 3x − 2 = x + 6 and check）：Wei solves 3x − 2 = x + 6 and gets x = 4. (i) Solve 3x − 2 = x + 6. Show your working step by step. (ii) Check by substituting x = 4 into both sides of the equation. 步骤：① The equation is 3x − 2 = x + 6. ② Subtract x from both sides: 3x − 2 − x = x + 6 − x. ③ Simplify: 2x − 2 = 6. ④ Add 2 to both sides: 2x − 2 + 2 = 6 + 2. ⑤ Simplify: 2x = 8. ⑥ Divide both sides by 2: 2x ÷ 2 = 8 ÷ 2. ⑦ x = 4. ⑧ Check by substitution: Left side: 3(4) − 2 = 12 − 2 = 10. Right side: 4 + 6 = 10. 10 = 10 ✓. Answer: x = 4. 例题 3（Solve 4x + 5 = 21, check, explain fossil error）：Aisha solves 4x + 5 = 21. (i) Solve 4x + 5 = 21. Show your working. (ii) Check your answer by substitution. (iii) Aisha's friend says「I solved 4x + 5 = 21 by writing 4x = 21」. Explain what is wrong with this working. 步骤：① The equation is 4x + 5 = 21. ② Subtract 5 from both sides: 4x + 5 − 5 = 21 − 5. ③ Simplify: 4x = 16. ④ Divide both sides by 4: 4x ÷ 4 = 16 ÷ 4. ⑤ x = 4. ⑥ Check by substitution: 4(4) + 5 = 16 + 5 = 21 ✓. Answer: x = 4. The friend wrote 4x = 21 by only changing the left side. This is wrong because if you remove +5 from the left side, you must also subtract 5 from the right side to keep the equation balanced. The correct step is 4x + 5 − 5 = 21 − 5 → 4x = 16, not 4x = 21. 教师在白板或屏幕上写出每道题的完整步骤，孩子看着跟随。",
+      },
+      {
+        name: "练习",
+        duration: "12 分钟",
+        teacherNotes: "给孩子 3 道练习题，让孩子独立做，写出推理步骤。家长可以用手机拍照孩子的推理。题 1：Solve 2x + 1 = 7. Show your working. Check your answer by substitution. 答案：① The equation is 2x + 1 = 7. ② Subtract 1 from both sides: 2x + 1 − 1 = 7 − 1. ③ Simplify: 2x = 6. ④ Divide both sides by 2: 2x ÷ 2 = 6 ÷ 2. ⑤ x = 3. ⑥ Check by substitution: 2(3) + 1 = 6 + 1 = 7 ✓. Answer: x = 3. 题 2：Wei solves 3x − 2 = x + 6 and gets x = 4. (i) Solve 3x − 2 = x + 6. Show your working step by step. (ii) Check by substituting x = 4 into both sides of the equation. 答案：① The equation is 3x − 2 = x + 6. ② Subtract x from both sides: 3x − 2 − x = x + 6 − x. ③ Simplify: 2x − 2 = 6. ④ Add 2 to both sides: 2x − 2 + 2 = 6 + 2. ⑤ Simplify: 2x = 8. ⑥ Divide both sides by 2: 2x ÷ 2 = 8 ÷ 2. ⑦ x = 4. ⑧ Check by substitution: Left side: 3(4) − 2 = 12 − 2 = 10. Right side: 4 + 6 = 10. 10 = 10 ✓. Answer: x = 4. 题 3：Aisha solves 4x + 5 = 21. (i) Solve 4x + 5 = 21. Show your working. (ii) Check your answer by substitution. (iii) Aisha's friend says「I solved 4x + 5 = 21 by writing 4x = 21」. Explain what is wrong with this working. 答案：① The equation is 4x + 5 = 21. ② Subtract 5 from both sides: 4x + 5 − 5 = 21 − 5. ③ Simplify: 4x = 16. ④ Divide both sides by 4: 4x ÷ 4 = 16 ÷ 4. ⑤ x = 4. ⑥ Check by substitution: 4(4) + 5 = 16 + 5 = 21 ✓. Answer: x = 4. The friend wrote 4x = 21 by only changing the left side. This is wrong because if you remove +5 from the left side, you must also subtract 5 from the right side to keep the equation balanced. The correct step is 4x + 5 − 5 = 21 − 5 → 4x = 16, not 4x = 21. 孩子写完后，教师检查每一步推理，指出如果有步骤缺失或错误。",
+      },
+      {
+        name: "收口",
+        duration: "3 分钟",
+        teacherNotes: "总结本周重点：(1) 官方 Sec 1 AEIS 数学卷型：Part 1 MCQ 34 题 30 分钟 + Part 2 show working 20+10–15 题 1 小时 45 分钟，不用计算器。(2) 本周内容：Sec 1 NUMBER AND ALGEBRA, N7. Equations and inequalities: 7.2 solving linear equations in one variable（解一元一次方程），对应 preceding level 规则。本周只教 N7.2 solving linear equations in one variable（solve ax + b = c and ax + b = cx + d by doing the same operation to both sides until x is alone，对两边同时做同样的操作直到 x 单独在一边）。Use inverse operations: if +b, subtract b from both sides; if −b, add b to both sides; if ax, divide both sides by a（用逆运算）。Example: 2x + 1 = 7 → 2x + 1 − 1 = 7 − 1 → 2x = 6 → x = 3. Check: 2(3) + 1 = 7 ✓。Friendly integers so x is an integer（友好整数）。Check by substitution after solving（解出来后代入检验）。本周不教 N7.3 fractional equations（分式方程，例如 x/3 + (x−2)/4 = 3），不教 N7.4 formulating a linear equation to solve problems（用方程解应用题）。(3) 本周化石：changing only one side: 2x + 1 = 7 → 2x = 7 ✗（错误：只改了一边。正确：两边同时减 1）。(4) 本周作业在 /learn 页面，完成后系统自动批改 MCQ，writing 部分有 AI Kaizen 反馈（一个改善焦点）。家长会在微信群收到进度同步。不提「小班课」「包过」「保证录取」等话术。Cast: Wei, Aisha, Mr Lim at Riverside Secondary School. 本周对应申请 Sec 2 入学者的 preceding level（Sec 1）内容。第 39 周已完成 N7.1 concept of equation。",
+      },
+    ],
+    speakingPrompts: null,
+  },
 };
 
 export default async function LessonPlanPage({
