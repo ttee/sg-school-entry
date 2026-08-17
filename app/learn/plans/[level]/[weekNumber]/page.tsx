@@ -4027,6 +4027,43 @@ const lessonPlans: Record<string, LessonPlan> = {
     ],
     speakingPrompts: null,
   },
+  "SMATH-29": {
+    title: "生活情境写成代数式 — Translation of Real-World Situations into Algebraic Expressions",
+    mathExample: "Wei has n dollars, spends S$5 → n − 5 (not n + 5). k tickets at S$3 each → 3k (not k + 3). n books at S$4 each plus S$2 postage → 4n + 2. Rectangle length x width 3 perimeter → 2(x + 3).",
+    sections: [
+      {
+        name: "课前",
+        duration: "2 分钟",
+        teacherNotes: "确认 Zoom 设置正常。孩子和家长都在镜头前。对家长说：「今天教中学 AEIS 数学第 29 周，生活情境写成代数式（translation of simple real-world situations into algebraic expressions）。本周是 Sec 1 数学卷型样本，内容对应前一级 Sec 1 NUMBER AND ALGEBRA, N5. Algebraic expressions and formulae: 5.4 translation of simple real-world situations into algebraic expressions。官方 MOE 2020 G3 Mathematics Syllabuses, Secondary One, NUMBER AND ALGEBRA。SEAB 官方规则：申请 Sec 2 入学的孩子需熟悉 Sec 2 前一级（Sec 1）的内容。第 26–28 周已完成 5.1–5.3（using letters to represent numbers、interpreting notations、evaluation of algebraic expressions），本周只教 5.4 translation of simple real-world situations into algebraic expressions（将简单的现实情境翻译为代数式）。本周不教 5.5 finding the value of an unknown (nth term)，5.6–5.8 simplifying algebraic expressions（化简代数式）。这些是后续周次内容。不用计算器，要写出推理步骤。」",
+      },
+      {
+        name: "热身",
+        duration: "5 分钟",
+        teacherNotes: "在白板上写：Wei has n dollars and spends S$5. How much does he have left?  问孩子：'What do you think the expression is?' 等孩子思考后，解释：'We turn the real-world sentence into an algebraic expression. Wei has n dollars. He spends S$5. Spending means we subtract 5. So the amount left = n − 5.' 再写：'What if someone says the amount left is n + 5? Is that correct?' 解释：'No. Spending means subtract, not add. So n − 5, not n + 5.' 让孩子看到今天的目标：学会将现实情境句子翻译为代数式（translation of simple real-world situations into algebraic expressions），using Week 26–27 notation（用第 26–27 周学过的字母表示数和符号解读）。",
+      },
+      {
+        name: "化石",
+        duration: "8 分钟",
+        teacherNotes: "在屏幕上或白板上写下常见混淆：'Fossil 1: Writing n + 5 when he spends S$5. ✗ Example: Wei has n dollars and spends S$5. Wrong: Amount left = n + 5. Correct: Amount left = n − 5. Rule: Spending means subtract (花掉是减), not add (不是加). When Wei spends S$5, we subtract 5, so n − 5, not n + 5.' 再写：'Fossil 2: Treating \"each\" as + not ×. ✗ Example: A ticket costs S$3. Wei buys k tickets. What is the total cost? Wrong: Total cost = k + 3. Correct: Total cost = 3k. Rule: \"Each\" means multiply (\"每个\"是乘), not add (不是加). k tickets at S$3 each = 3 × k = 3k, not k + 3.' 再写：'Fossil 3: Writing 2x + 3 for perimeter instead of 2(x + 3). ✗ Example: A rectangle has length x cm and width 3 cm. What is the perimeter? Wrong: Perimeter = 2x + 3. Correct: Perimeter = 2(x + 3) or 2x + 6. Rule: Perimeter = 2 × (length + width) = 2(x + 3). We can also expand it to 2x + 6 (that's 5.8 simplifying, later content), but this week we prefer 2(x + 3) as \"twice the sum\". 2x + 3 is WRONG because it's only 2 × length plus width, not twice the sum of both.' 让孩子跟读改正后的推理步骤 2 次。",
+      },
+      {
+        name: "例题",
+        duration: "10 分钟",
+        teacherNotes: "教师示范三道完整例题（写出推理步骤）。例题 1（Wei has n dollars spends S$5 amount left）：Wei has n dollars and spends S$5. Write an expression for the amount Wei has left. Show your working. 步骤：① Let Wei's money be n dollars. ② Wei spends S$5. ③ Amount left = n − 5. Answer: n − 5. (Note: n stands for the number of dollars Wei has. When Wei spends S$5, we subtract 5, so n − 5. Not n + 5.) 例题 2（k tickets at S$3 each）：A ticket costs S$3. Aisha buys k tickets. Write an expression for the total cost. Show your working. 步骤：① Let the number of tickets be k. ② Each ticket costs S$3. ③ Total cost = 3 × k = 3k. Answer: 3k. (Note: k stands for the number of tickets. \"Each\" means multiply, so 3k. Not k + 3.) 例题 3（n books at S$4 each plus S$2 postage）：Wei buys n books at S$4 each. Postage costs S$2. Write an expression for the total cost. Show your working. 步骤：① Let the number of books be n. ② Each book costs S$4. ③ Cost of books = 4 × n = 4n. ④ Postage = S$2. ⑤ Total cost = 4n + 2. Answer: 4n + 2. (Note: n stands for the number of books. Books cost 4n, plus postage S$2, so 4n + 2.) 让孩子理解共同点：将现实情境句子转化为代数式 translate real-world sentences into expressions（using Week 26–27 notation: n, k, x; +, −, ×; spending 是减，\"each\" 是乘，plus 是加）。用友好的字母 friendly letters（如 n, k, x）。不用计算器 no calculator。金额用新加坡元 S$ (money in Singapore dollars S$)。",
+      },
+      {
+        name: "练习",
+        duration: "12 分钟",
+        teacherNotes: "给孩子 3 道练习题，让孩子独立做，写出推理步骤。家长可以用手机拍照孩子的推理。题 1：Wei has n dollars in his wallet. He spends S$5 on lunch. Write an expression for the amount of money Wei has left. Show your working and write what n stands for. 答案：① Let Wei's money be n dollars. ② Wei spends S$5. ③ Amount left = n − 5. Answer: n − 5. (Note: n stands for the number of dollars Wei has.) 题 2：Aisha goes to a shop. A pen costs S$3. She buys k pens. Write an expression for the total cost in S$. Show your working and write what k stands for. 答案：① Let the number of pens be k. ② Each pen costs S$3. ③ Total cost = 3 × k = 3k. Answer: 3k. (Note: k stands for the number of pens.) 题 3：Mr Lim buys n books at S$4 each. The postage costs S$2. (i) Write an expression for the total cost in S$. Show your working. (ii) Write what n stands for. 答案：① Let the number of books be n. ② Each book costs S$4. ③ Cost of books = 4 × n = 4n. ④ Postage = S$2. ⑤ Total cost = 4n + 2. Answer: 4n + 2. (Note: n stands for the number of books.) 教师巡看孩子的推理，纠正格式（如果孩子只写答案不写步骤，提醒 'AEIS 官方要求写出 working steps'）。如果孩子写 n + 5 when spending S$5，指出：'Spending means subtract (花掉是减), not add (不是加). So n − 5, not n + 5.' 如果孩子写 k + 3 for k tickets at S$3 each，指出：'\"Each\" means multiply (\"每个\"是乘), not add (不是加). So 3k, not k + 3.' 如果孩子写 2x + 3 for perimeter，指出：'Perimeter = 2 × (length + width) = 2(x + 3), not 2x + 3. We can also expand it to 2x + 6 (that's 5.8 simplifying, later content), but this week we prefer 2(x + 3) as \"twice the sum\".' 如果孩子混淆，提醒：'Read the sentence carefully. Wei has n dollars and spends S$5. Spending means we subtract 5, so n − 5. k tickets at S$3 each means 3 × k = 3k. n books at S$4 each plus S$2 postage means 4n + 2.'",
+      },
+      {
+        name: "收口",
+        duration: "3 分钟",
+        teacherNotes: "总结本周重点：(1) 官方 Sec 1 AEIS 数学卷型：Part 1 MCQ 34 题 30 分钟 + Part 2 show working 20+10–15 题 1 小时 45 分钟，不用计算器。(2) 本周内容：Sec 1 NUMBER AND ALGEBRA, N5. Algebraic expressions and formulae: 5.4 translation of simple real-world situations into algebraic expressions（将简单的现实情境翻译为代数式），对应 preceding level 规则。第 26–28 周已完成 5.1–5.3，本周只教 5.4 translation（生活情境写成代数式）。(3) 本周化石：writing 3k when the story is \"S$3 more than k\"（当应用题说"比 k 多 S$3"时错误地写 3k，正确应该是 k + 3）；writing n + 5 when he spends S$5（当他花掉 S$5 时错误地写 n + 5，正确应该是 n − 5）；writing 2x + 3 for perimeter instead of 2(x + 3)（周长错误地写 2x + 3，正确应该是 2(x + 3)）；treating \"each\" as + not ×（把"每个"当作加法而不是乘法）。(4) 本周方法：Turn a short real-world sentence into an expression（将现实情境句子转化为代数式），using Week 26–27 notation。Wei has n dollars and spends S$5 → n − 5（spending 是减，不是加，不是 n + 5）。k tickets at S$3 each → 3k（\"each\" 是乘，不是加，不是 k + 3）。n years old, in 4 years → n + 4。Rectangle length x width 3 perimeter → 2(x + 3) or 2x + 6，pick ONE（本周优先 2(x + 3) as \"twice the sum\"；2x+6 is 5.6/5.8 simplifying 后续内容）。n books at S$4 each plus S$2 postage → 4n + 2（books 4n，plus postage S$2，so 4n + 2）。(5) 关键步骤：Step 1: Read the sentence carefully and identify what the letter stands for (仔细读题，确定字母代表什么). Step 2: Let the letter stand for the quantity (设字母代表这个量：Let Wei's money be n dollars; let the number of tickets be k). Step 3: Translate the sentence into an expression (将句子翻译为代数式：spends S$5 → subtract 5, so n − 5; k tickets at S$3 each → multiply 3 by k, so 3k; n books at S$4 each plus S$2 postage → 4n + 2). Step 4: State what the letter stands for (陈述字母代表什么：n stands for the number of dollars Wei has; k stands for the number of tickets; n stands for the number of books). Step 5: Check the expression matches the story (检验表达式是否匹配题意：if Wei has n dollars and spends S$5, does he have n − 5 left? Yes ✓. Does he have n + 5? No, spending means subtract, not add). (6) Friendly letters（用友好的字母，如 n, k, x）。No calculator（不用计算器）。金额用新加坡元 S$（money in Singapore dollars S$，never 美元）。(7) 唯一性 unique keys：两个选项不能是同一个意思（2n and 2 × n as two options is a fail; 2(x+3) and 2x+6 as two options is a fail）。n − 5 and 5 − n must not both be marked correct（n − 5 和 5 − n 不能同时标记为正确）。The fossil is a WRONG option（化石错误值必须作为错误选项）。(8) 打开 /learn 页面，告诉孩子：「这周的作业在这里，完成后系统会自动批改选择题，写算式部分要写出推理步骤（show working steps），模拟 AEIS Part 2 格式。我们会在微信群里同步进度。」",
+      },
+    ],
+    speakingPrompts: null,
+  },
 };
 
 export default async function LessonPlanPage({

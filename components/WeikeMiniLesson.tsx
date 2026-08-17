@@ -525,6 +525,14 @@ export default function WeikeMiniLesson({ level, weekNumber }: WeikeMiniLessonPr
       ],
       gloss: "AEIS 中学数学第 28 周 / SMATH Week 28. 本周例题：Sec 1 代数式求值（Sec 1 NUMBER AND ALGEBRA: N5.3 evaluation of algebraic expressions and formulae）。官方 5.3 wording（逐字引用）：'evaluation of algebraic expressions and formulae'。本周方法：Substitute a given number for the letter（代入给定数值，结合 Week 27 的 notation meanings）。If a = 3: 2a = 2 × 3 = 6（不是 2 + 3 = 5）; 2a + 1 = 2 × 3 + 1 = 7; a² = 3 × 3 = 9（不是 2 × 3 = 6）; 3(a + 2) = 3 × (3 + 2) = 3 × 5 = 15（不是 3 × 3 + 2 = 11）; a³ = 3 × 3 × 3 = 27; 5a − 2 = 5 × 3 − 2 = 13. If x = 4, y = 2: xy = 4 × 2 = 8; x + y = 4 + 2 = 6; 3(x + y) = 3 × (4 + 2) = 18; x² = 4 × 4 = 16. 本周化石：evaluating 2a as 2 + a（a=3 → 5 instead of 6）；evaluating a² as 2a（a=3 → 6 instead of 9）；evaluating 3(a + 2) as 3a + 2（a=3 → 11 instead of 15，dropping the bracket）。第 26 周已完成 5.1（using letters to represent numbers），第 27 周已完成 5.2（interpreting notations），本周只教 5.3 evaluation（代数式求值）。本周不教 5.4 translation，5.5 nth term，5.6–5.8 simplifying。用友好的整数 friendly integers。不用计算器，写出算式步骤。"
     },
+    "SMATH-29": {
+      examples: [
+        "Wei has n dollars, spends S$5 → n − 5 (not n + 5). Fossil: writing n + 5 when spending.",
+        "k tickets at S$3 each → 3k (not k + 3). Fossil: treating \"each\" as +, not ×.",
+        "n books at S$4 each plus S$2 postage → 4n + 2. Fossil: writing 4n − 2 or 4 + n + 2."
+      ],
+      gloss: "AEIS 中学数学第 29 周 / SMATH Week 29. 本周例题：Sec 1 将现实情境翻译为代数式（Sec 1 NUMBER AND ALGEBRA: N5.4 translation of simple real-world situations into algebraic expressions）。官方 5.4 wording（逐字引用）：'translation of simple real-world situations into algebraic expressions'。本周方法：Turn a short real-world sentence into an expression（将现实情境句子转化为代数式），using Week 26–27 notation。Wei has n dollars and spends S$5 → n − 5（spending 是减，不是加，不是 n + 5）。k tickets at S$3 each → 3k（\"each\" 是乘，不是加，不是 k + 3）。n years old, in 4 years → n + 4。Rectangle length x width 3 perimeter → 2(x + 3) or 2x + 6，pick ONE（本周优先 2(x + 3) as \"twice the sum\"；2x+6 is 5.6/5.8 simplifying 后续内容）。n books at S$4 each plus S$2 postage → 4n + 2（books 4n，plus postage S$2，so 4n + 2）。本周化石：writing 3k when the story is \"S$3 more than k\"（当应用题说"比 k 多 S$3"时错误地写 3k，正确应该是 k + 3）；writing n + 5 when he spends S$5（当他花掉 S$5 时错误地写 n + 5，正确应该是 n − 5）；writing 2x + 3 for perimeter instead of 2(x + 3)（周长错误地写 2x + 3，正确应该是 2(x + 3)）；treating \"each\" as + not ×（把"每个"当作加法而不是乘法）。第 26–28 周已完成 5.1–5.3（using letters to represent numbers、interpreting notations、evaluation），本周只教 5.4 translation（生活情境写成代数式）。本周不教 5.5 nth term（第 n 项），5.6–5.8 simplifying（化简代数式）。Friendly letters。No calculator。金额：新加坡元 S$（money in Singapore dollars S$），never 美元。写出算式步骤。"
+    },
     "SEC-0": {
       fossil: "Although I was nervous, but I tried. ✗ (中文「虽然…但是…」迁移) / I go yesterday ✗ (叙事体过去时掉落)",
       examples: [
