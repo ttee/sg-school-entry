@@ -4990,6 +4990,43 @@ const lessonPlans: Record<string, LessonPlan> = {
     ],
     speakingPrompts: null,
   },
+  "SMATH-55": {
+    title: "平方厘米与平方米换算 / 立方厘米与立方米换算 — Conversion between cm² and m², and between cm³ and m³",
+    mathExample: "2 m² = 20 000 cm²; 50 000 cm² = 5 m²; 3 m³ = 3 000 000 cm³; 4 000 000 cm³ = 4 m³.",
+    sections: [
+      {
+        name: "课前",
+        duration: "2 分钟",
+        teacherNotes: "确认 Zoom 设置正常。调整摄像头。对家长说：「本周教 Sec 1 AEIS 数学：conversion between cm² and m², and between cm³ and m³（平方厘米与平方米换算 / 立方厘米与立方米换算）。不教 composite solids（组合立体图形），那是下周内容。」",
+      },
+      {
+        name: "热身",
+        duration: "3 分钟",
+        teacherNotes: "问孩子：「你知道 1 m = 100 cm 吗？」在白板上写：1 m = 100 cm。然后问：「如果是面积，1 m² 等于多少 cm²？」等孩子思考。如果孩子说 100 cm²，说：「很多人这样想，但我们今天会看看为什么不是 100。」如果孩子说 10 000 cm²，说：「非常好！今天我们就来证明这个。」让孩子跟读：square metre（平方米）, square centimetre（平方厘米）, cubic metre（立方米）, cubic centimetre（立方厘米）。",
+      },
+      {
+        name: "化石",
+        duration: "8 分钟",
+        teacherNotes: "在白板上写下两个常见错误：(1) 「1 m² = 100 cm² because 1 m = 100 cm」；(2) 「1 m³ = 100 cm³」或「1 m³ = 10 000 cm³」。问孩子：「这两个换算对吗？」等孩子思考后，圈出错误。解释：(1) 面积是 length × width. 1 m² = 1 m × 1 m = 100 cm × 100 cm = 10 000 cm²，不是 100 cm²。虽然长度 1 m = 100 cm，但面积要平方，所以 100 × 100 = 10 000. (2) 体积是 length × width × height. 1 m³ = 1 m × 1 m × 1 m = 100 cm × 100 cm × 100 cm = 1 000 000 cm³，不是 100 或 10 000. 要立方，所以 100 × 100 × 100 = 1 000 000. 改正后写：「1 m² = 10 000 cm²」和「1 m³ = 1 000 000 cm³」。让孩子跟读 2 次。",
+      },
+      {
+        name: "示范",
+        duration: "15 分钟",
+        teacherNotes: "示范四道例题（在屏幕上或白板上边写边讲）：\n\n例题 1: Convert 2 m² to cm².\n1 m² = 100 cm × 100 cm = 10 000 cm². 所以 2 m² = 2 × 10 000 cm² = 20 000 cm². Answer: 2 m² = 20 000 cm². (Note: 不是 2 × 100 = 200 cm². 面积要用 10 000, not 100.)\n\n例题 2: Convert 50 000 cm² to m².\n1 m² = 10 000 cm², 所以 1 cm² = 1/10 000 m². 50 000 cm² = 50 000 ÷ 10 000 m² = 5 m². Answer: 50 000 cm² = 5 m². (Note: 除以 10 000, not 100.)\n\n例题 3: Convert 3 m³ to cm³.\n1 m³ = 100 cm × 100 cm × 100 cm = 1 000 000 cm³. 所以 3 m³ = 3 × 1 000 000 cm³ = 3 000 000 cm³. Answer: 3 m³ = 3 000 000 cm³. (Note: 不是 3 × 100 = 300 或 3 × 10 000 = 30 000. 体积要用 1 000 000.)\n\n例题 4: Convert 4 000 000 cm³ to m³.\n1 m³ = 1 000 000 cm³, 所以 1 cm³ = 1/1 000 000 m³. 4 000 000 cm³ = 4 000 000 ÷ 1 000 000 m³ = 4 m³. Answer: 4 000 000 cm³ = 4 m³. (Note: 除以 1 000 000, not 100 or 10 000.)\n\n让孩子跟读关键换算因子：1 m² = 10 000 cm², 1 m³ = 1 000 000 cm³.",
+      },
+      {
+        name: "练习",
+        duration: "15 分钟",
+        teacherNotes: "给孩子 5 道题目让他/她在纸上算（教师不给完整答案，只给提示，让孩子自己写出 working steps）：\n\n练习 1: Convert 4 m² to cm². (提示：1 m² = 10 000 cm². 乘以 4.) 期待答案：4 m² = 4 × 10 000 cm² = 40 000 cm².\n\n练习 2: Convert 80 000 cm² to m². (提示：除以 10 000.) 期待答案：80 000 cm² = 80 000 ÷ 10 000 m² = 8 m².\n\n练习 3: Convert 5 m³ to cm³. (提示：1 m³ = 1 000 000 cm³. 乘以 5.) 期待答案：5 m³ = 5 × 1 000 000 cm³ = 5 000 000 cm³.\n\n练习 4: Convert 7 000 000 cm³ to m³. (提示：除以 1 000 000.) 期待答案：7 000 000 cm³ = 7 000 000 ÷ 1 000 000 m³ = 7 m³.\n\n练习 5: A rectangle has length 5 m and width 2 m. Find the area in m², then convert to cm². (提示：先算面积 = length × width. 然后换算.) 期待答案：Area = 5 m × 2 m = 10 m²; 10 m² = 10 × 10 000 cm² = 100 000 cm².\n\n如果孩子卡住，教师给词提示（例如：「用 10 000 不是 100」或「除以 1 000 000」），但不直接说出答案。孩子算完后，教师检查 working steps 和换算因子（10 000 for area, 1 000 000 for volume）。",
+      },
+      {
+        name: "收口",
+        duration: "3 分钟",
+        teacherNotes: "总结本周重点：(1) 官方 Sec 1 AEIS 数学卷型：Part 1 MCQ 34 题 30 分钟 + Part 2 show working 20+10–15 题 1 小时 45 分钟，不用计算器。(2) 本周内容：Sec 1 GEOMETRY AND MEASUREMENT, G5. Mensuration: 5.4 conversion between cm² and m², and between cm³ and m³（平方厘米与平方米换算 / 立方厘米与立方米换算）。本周是 G5.4 only. 1 m = 100 cm (length). 1 m² = 100 × 100 = 10 000 cm² (area). 1 m³ = 100 × 100 × 100 = 1 000 000 cm³ (volume). Friendly integers: 2 m² = 20 000 cm²; 50 000 cm² = 5 m²; 3 m³ = 3 000 000 cm³; 4 000 000 cm³ = 4 m³. 可以换算一个已算出的面积或体积（a 2 m by 3 m rectangle = 6 m² = 60 000 cm²）。No calculator. Units: cm² and m² for area; cm³ and m³ for volume. Fossil: using 100 instead of 10 000 for area (1 m² = 100 cm² is WRONG, correct is 1 m² = 10 000 cm²); using 100 or 10 000 instead of 1 000 000 for volume (correct is 1 m³ = 1 000 000 cm³). Cast: Wei, Aisha, Mr Lim at Riverside Secondary School. 本周不教 5.5 composite solids（组合立体图形）。第 52–54 周已完成 G5.1–G5.3。(3) 下周预告（如有下周课程）：继续 Sec 1 内容。(4) 作业：完成 app 上的 Week 55 题目（reading MCQ 5 题 + grammar MCQ 8 题 + writing show-working 3 题）。Show working steps clearly. 对家长说：「本周化石焦点：using 100 instead of 10 000 for area; using 100 or 10 000 instead of 1 000 000 for volume. 请在家长端查看孩子的作业提交，关注这两个化石错误。」对孩子说：「Great work today! Remember: 1 m² = 10 000 cm² (not 100), 1 m³ = 1 000 000 cm³ (not 100 or 10 000).」鼓励孩子并结束课程。",
+      },
+    ],
+    speakingPrompts: null,
+  },
 };
 
 export default async function LessonPlanPage({
