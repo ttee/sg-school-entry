@@ -3990,6 +3990,43 @@ const lessonPlans: Record<string, LessonPlan> = {
     ],
     speakingPrompts: null,
   },
+  "SMATH-28": {
+    title: "代数式求值 — Evaluation of Algebraic Expressions",
+    mathExample: "If a = 3: 2a = 2 × 3 = 6 (not 2 + 3 = 5). a² = 3 × 3 = 9 (not 2 × 3 = 6). 3(a + 2) = 3 × (3 + 2) = 3 × 5 = 15 (not 3 × 3 + 2 = 11). If x = 4, y = 2: 3(x + y) = 3 × (4 + 2) = 18 (not 3 × 4 + 2 = 14).",
+    sections: [
+      {
+        name: "课前",
+        duration: "2 分钟",
+        teacherNotes: "确认 Zoom 设置正常。孩子和家长都在镜头前。对家长说：「今天教中学 AEIS 数学第 28 周，代数式求值（evaluation of algebraic expressions and formulae）。本周是 Sec 1 数学卷型样本，内容对应前一级 Sec 1 NUMBER AND ALGEBRA, N5. Algebraic expressions and formulae: 5.3 evaluation of algebraic expressions and formulae。官方 MOE 2020 G3 Mathematics Syllabuses, Secondary One, NUMBER AND ALGEBRA。SEAB 官方规则：申请 Sec 2 入学的孩子需熟悉 Sec 2 前一级（Sec 1）的内容。第 26 周已完成 5.1（using letters to represent numbers），第 27 周已完成 5.2（interpreting notations），本周只教 5.3 evaluation of algebraic expressions and formulae（代数式求值）。本周不教 5.4 translation of real-world situations（实际问题翻译），5.5 nth term（第 n 项），5.6–5.8 simplifying（化简代数式）。这些是后续周次内容。不用计算器，要写出推理步骤。」",
+      },
+      {
+        name: "热身",
+        duration: "5 分钟",
+        teacherNotes: "在白板上写：If a = 3, what is 2a?  问孩子：'What do you think?' 等孩子思考后，解释：'We substitute the given number for the letter. a = 3 means we replace a with 3. 2a means 2 × a. So 2a = 2 × 3 = 6.' 再写：'What if someone says 2a = 2 + 3 = 5? Is that correct?' 解释：'No. 2a means 2 × a, not 2 + a. So 2a = 2 × 3 = 6, not 2 + 3 = 5.' 让孩子看到今天的目标：学会代入数值求值（substitute a given number for the letter and evaluate the expression），结合 Week 27 学过的 notation meanings（2a means 2 × a, a² means a × a, 3(a + 2) means 3 × (a + 2)）。",
+      },
+      {
+        name: "化石",
+        duration: "8 分钟",
+        teacherNotes: "在屏幕上或白板上写下常见混淆：'Fossil 1: Evaluating 2a as 2 + a. ✗ Example: If a = 3, what is 2a? Wrong: 2a = 2 + 3 = 5. Correct: 2a = 2 × 3 = 6. Rule: 2a means 2 × a (multiply), not 2 + a (add).' 再写：'Fossil 2: Evaluating a² as 2a. ✗ Example: If a = 3, what is a²? Wrong: a² = 2a = 2 × 3 = 6. Correct: a² = a × a = 3 × 3 = 9. Rule: a² means a × a (a squared), not 2a (2 times a). If a = 3, then a² = 3 × 3 = 9, not 2 × 3 = 6.' 再写：'Fossil 3: Evaluating 3(a + 2) as 3a + 2 (dropping the bracket). ✗ Example: If a = 3, what is 3(a + 2)? Wrong: 3(a + 2) = 3a + 2 = 3 × 3 + 2 = 9 + 2 = 11. Correct: 3(a + 2) = 3 × (a + 2) = 3 × (3 + 2) = 3 × 5 = 15. Rule: 3(a + 2) means 3 × (a + 2) (3 multiplied by the whole sum), not 3a + 2 (which drops the bracket). The bracket means we must add first (3 + 2 = 5), then multiply by 3 (3 × 5 = 15).' 让孩子跟读改正后的推理步骤 2 次。",
+      },
+      {
+        name: "例题",
+        duration: "10 分钟",
+        teacherNotes: "教师示范三道完整例题（写出推理步骤）。例题 1（evaluate 2a+1 when a=3）：Evaluate 2a + 1 when a = 3. Show your working. 步骤：① Given a = 3. ② 2a + 1 = 2 × 3 + 1. ③ = 6 + 1. ④ = 7. Answer: 7. (Note: 2a means 2 × a, not 2 + a. If we wrongly evaluate 2a as 2 + a, we get 2 + 3 = 5, which is WRONG. Correct: 2a = 2 × 3 = 6, then 2a + 1 = 6 + 1 = 7.) 例题 2（evaluate a² when a=3）：Evaluate a² when a = 3. Show your working. 步骤：① Given a = 3. ② a² = a × a = 3 × 3. ③ = 9. Answer: 9. (Note: a² means a × a, not 2a or 2 × a. If we wrongly evaluate a² as 2a = 2 × 3 = 6, which is WRONG. Correct: a² = 3 × 3 = 9.) 例题 3（evaluate 3(x+y) when x=4 y=2）：Evaluate 3(x + y) when x = 4 and y = 2. Show your working. 步骤：① Given x = 4 and y = 2. ② 3(x + y) = 3 × (x + y) = 3 × (4 + 2). ③ = 3 × 6. ④ = 18. Answer: 18. (Note: 3(x + y) means 3 × (x + y), not 3x + y. If we drop the bracket and evaluate 3x + y = 3 × 4 + 2 = 12 + 2 = 14, which is WRONG. Correct: 3(x + y) = 3 × (4 + 2) = 3 × 6 = 18.) 让孩子理解共同点：代入数值 substitute the given number；按运算顺序 follow order of operations BODMAS / PEMDAS（先括号，再乘除，后加减）；逐步计算 calculate step by step。",
+      },
+      {
+        name: "练习",
+        duration: "12 分钟",
+        teacherNotes: "给孩子 3 道练习题，让孩子独立做，写出推理步骤。家长可以用手机拍照孩子的推理。题 1：If a = 3, evaluate 2a + 1. Show your working steps. 答案：① Given a = 3. ② 2a + 1 = 2 × 3 + 1. ③ = 6 + 1. ④ = 7. Answer: 7. 题 2：If a = 3, evaluate a². Show your working steps. 答案：① Given a = 3. ② a² = a × a = 3 × 3. ③ = 9. Answer: 9. 题 3：If x = 4 and y = 2, evaluate 3(x + y). Show your working steps. Then explain why evaluating 3(x + y) as 3x + y would be wrong. 答案：① Given x = 4 and y = 2. ② 3(x + y) = 3 × (x + y) = 3 × (4 + 2). ③ = 3 × 6. ④ = 18. Answer: 18. Explanation: If we drop the bracket and evaluate 3x + y instead, we get 3 × 4 + 2 = 12 + 2 = 14, which is WRONG. The bracket means we must add x and y first (4 + 2 = 6), then multiply by 3 (3 × 6 = 18). 3(x + y) is NOT the same as 3x + y. 教师巡看孩子的推理，纠正格式（如果孩子只写答案不写步骤，提醒 'AEIS 官方要求写出 working steps'）。如果孩子写 2a = 2 + 3 = 5，指出：'2a means 2 × a (multiply), not 2 + a (add). So 2a = 2 × 3 = 6, not 2 + 3 = 5.' 如果孩子写 a² = 2 × 3 = 6，指出：'a² means a × a (a squared), not 2a (2 times a). So a² = 3 × 3 = 9, not 2 × 3 = 6.' 如果孩子写 3(a + 2) = 3 × 3 + 2 = 11，指出：'3(a + 2) means 3 × (a + 2) (3 multiplied by the whole sum), not 3a + 2 (which drops the bracket). We add first: 3 + 2 = 5. Then multiply: 3 × 5 = 15. Not 3 × 3 + 2 = 11.'",
+      },
+      {
+        name: "收口",
+        duration: "3 分钟",
+        teacherNotes: "总结本周重点：(1) 官方 Sec 1 AEIS 数学卷型：Part 1 MCQ 34 题 30 分钟 + Part 2 show working 20+10–15 题 1 小时 45 分钟，不用计算器。(2) 本周内容：Sec 1 NUMBER AND ALGEBRA, N5. Algebraic expressions and formulae: 5.3 evaluation of algebraic expressions and formulae（代数式求值），对应 preceding level 规则。第 26 周已完成 5.1，第 27 周已完成 5.2，本周只教 5.3 evaluation。(3) 本周化石：evaluating 2a as 2 + a（a=3 → 5 instead of 6）；evaluating a² as 2a（a=3 → 6 instead of 9）；evaluating 3(a + 2) as 3a + 2 (dropping the bracket)（a=3 → 11 instead of 15）。(4) 本周方法：Substitute a given number for the letter（代入给定数值，结合 Week 27 的 notation meanings）。If a = 3: 2a = 2 × 3 = 6（不是 2 + 3 = 5）; 2a + 1 = 2 × 3 + 1 = 7; a² = 3 × 3 = 9（不是 2 × 3 = 6）; 3(a + 2) = 3 × (3 + 2) = 3 × 5 = 15（不是 3 × 3 + 2 = 11）; a³ = 3 × 3 × 3 = 27; 5a − 2 = 5 × 3 − 2 = 13. If x = 4, y = 2: xy = 4 × 2 = 8; x + y = 4 + 2 = 6; 3(x + y) = 3 × (4 + 2) = 18; x² = 4 × 4 = 16. (5) 关键步骤：Step 1: Write \"Given a = ...\" (陈述已知：Given a = 3). Step 2: Substitute the number into the expression (代入数值：2a + 1 = 2 × 3 + 1). Step 3: Follow order of operations BODMAS / PEMDAS (遵循运算顺序：先括号 Brackets，再乘除 × ÷，后加减 + −). Step 4: Calculate step by step (逐步计算：2 × 3 = 6, then 6 + 1 = 7). Step 5: State the answer clearly (清楚陈述答案：Answer: 7). (6) 用友好的整数 friendly integers（如 a=3, x=4, y=2, n=5）。不用计算器 no calculator。金额如涉及用新加坡元 S$（money in Singapore dollars S$）。(7) 唯一性 unique keys：两个选项不能是同一个数值（除非题目是"which working"）。The fossil (2a as 2+a=5; a² as 2a=6; 3(a+2) as 3a+2=11) must be a WRONG option（化石错误值必须作为错误选项）。(8) 打开 /learn 页面，告诉孩子：「这周的作业在这里，完成后系统会自动批改选择题，写算式部分要写出推理步骤（show working steps），模拟 AEIS Part 2 格式。我们会在微信群里同步进度。」",
+      },
+    ],
+    speakingPrompts: null,
+  },
 };
 
 export default async function LessonPlanPage({

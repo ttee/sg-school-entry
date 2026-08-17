@@ -9296,6 +9296,92 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
         },
       ],
     },
+    {
+      level: "SMATH",
+      weekNumber: 28,
+      title: "数学 第 28 周 / Maths Week 28",
+      description: "AEIS-Secondary Mathematics: Sec 1 evaluation of algebraic expressions and formulae",
+      isSample: false,
+      errorFocus: "evaluating 2a as 2 + a (a=3 → 5 instead of 6); evaluating a² as 2a (a=3 → 6 instead of 9); evaluating 3(a + 2) as 3a + 2 (a=3 → 11 instead of 15); dropping the bracket",
+      parentBrief: "本周是中学 AEIS 数学第 28 周，对应官方 SEAB Sec 1 卷型（https://www.seab.gov.sg/aeis/test-details/ 2026年7月1日更新）。Part 1 Multiple-choice questions：34 道 MCQ，30 分钟。Part 2 Short-answer questions (20 items) and open-ended questions (10 to 15 items)：1 小时 45 分钟。Calculators are not allowed（不允许使用计算器）。Short-answer and open-ended questions：candidates are required to show the method of solution clearly by writing working steps in the spaces provided, plus the final answer（需写出算式步骤和最终答案）。AEIS-Secondary 官方 preceding-level 规则：申请 Sec 2 入学者需熟悉 Sec 2 前一级的内容。官方举例：apply Secondary 3 → be familiar with Secondary 2 content. 本周针对 Sec 2 申请者，内容为 Sec 2 前一级（Sec 1）的官方 MOE 2020 G3 Mathematics Syllabuses, Secondary One, NUMBER AND ALGEBRA, N5. Algebraic expressions and formulae: 5.3 evaluation of algebraic expressions and formulae（代数式求值）。官方 5.3 wording（官方术语，逐字引用）：'evaluation of algebraic expressions and formulae'。第 26 周已完成 5.1（using letters to represent numbers），第 27 周已完成 5.2（interpreting notations），本周只教 5.3 evaluation of algebraic expressions and formulae（代数式求值）。本周不教 5.4 translation of real-world situations（实际问题翻译），5.5 nth term（第 n 项），5.6–5.8 simplifying（化简代数式）。这些是后续周次内容。本周方法：Substitute a given number for the letter（代入给定数值，结合 Week 27 的 notation meanings）。If a = 3: 2a = 2 × 3 = 6（不是 2 + 3 = 5）; 2a + 1 = 2 × 3 + 1 = 7; a² = 3 × 3 = 9（不是 2 × 3 = 6）; 3(a + 2) = 3 × (3 + 2) = 3 × 5 = 15（不是 3 × 3 + 2 = 11）; a³ = 3 × 3 × 3 = 27; 5a − 2 = 5 × 3 − 2 = 13. If x = 4, y = 2: xy = 4 × 2 = 8; x + y = 4 + 2 = 6; 3(x + y) = 3 × (4 + 2) = 18; x² = 4 × 4 = 16. 用友好的整数 friendly integers（如 a=3, x=4, y=2, n=5）。不用计算器 no calculator。金额如涉及用新加坡元 S$（money in Singapore dollars S$），never 美元。本周代入数值求值 substitute and evaluate。本周作业是样本，不是完整 34 + 20 + 10–15 题。本周化石 fossil errors：evaluating 2a as 2 + a（a=3 → 5 instead of 6）；evaluating a² as 2a（a=3 → 6 instead of 9）；evaluating 3(a + 2) as 3a + 2（a=3 → 11 instead of 15，dropping the bracket）。唯一性 unique keys：两个选项不能是同一个数值。The fossil value must be a WRONG option（化石错误值必须作为错误选项：5 when 2a=6; 6 when a²=9; 11 when 3(a+2)=15）。Do not offer both the working "2 × 3 + 1" and the final answer "7" as two separate options in the same MCQ（不要同时提供算式"2 × 3 + 1"和最终答案"7"作为两个选项，除非题目是"which working"）。非官方机构运营（affiliation 非官方机构 is OK）。不发明官方未提及的内容（do not invent official facts）。不声称 AEIS 是 G3 paper（G3 只是官方 preceding-level 内容来源）。不发明官方 cut-scores 或 extra official names。第 26 周已完成 5.1，第 27 周已完成 5.2，本周只教 5.3 evaluation。下周 5.4 translation。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "If a = 3, what is the value of 2a?|A. 5|B. 6|C. 8|D. 9",
+            "If a = 3, what is the value of a²?|A. 6|B. 9|C. 12|D. 5",
+            "If a = 3, what is the value of 2a + 1?|A. 5|B. 6|C. 7|D. 8",
+            "If a = 3, what is the value of 3(a + 2)?|A. 11|B. 15|C. 9|D. 17",
+            "Which working is correct for a² when a = 3?|A. 3 × 3 = 9|B. 2 × 3 = 6|C. 3 + 3 = 6|D. 3 × 2 = 6",
+          ]),
+          correctAnswer: "B,B,C,B,A",
+          points: 10,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "If x = 2, what is the value of 5x?|A. 7|B. 10|C. 3|D. 25",
+            "If x = 5, what is the value of x²?|A. 10|B. 7|C. 25|D. 15",
+            "If x = 2, what is the value of x³?|A. 6|B. 8|C. 5|D. 12",
+            "If x = 3 and y = 4, what is the value of xy?|A. 7|B. 12|C. 34|D. 1",
+            "If x = 4 and y = 2, what is the value of 3(x + y)?|A. 14|B. 18|C. 12|D. 20",
+            "If a = 3, what is the value of 5a − 2?|A. 11|B. 13|C. 15|D. 17",
+            "Which working is correct for x² when x = 4?|A. 2 × 4 = 8|B. 4 × 4 = 16|C. 4 + 4 = 8|D. 4 × 2 = 8",
+            "The cost of n books is given by the formula cost = 3n + 2. If n = 4, what is the cost in S$?|A. 9|B. 11|C. 14|D. 18",
+          ]),
+          correctAnswer: "B,C,B,B,B,B,B,C",
+          points: 16,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `Part 2: Show Your Working (写出算式步骤)
+
+Riverside Secondary School has algebra evaluation problems. Answer the questions below. Show all your working clearly.
+
+Question (a)
+Wei thinks of a number a. If a = 3, evaluate 2a + 1. Show your working steps.
+
+Question (b)
+Aisha has a number a. If a = 3, evaluate a². Show your working steps.
+
+Question (c)
+Mr Lim has two numbers x and y. If x = 4 and y = 2, evaluate 3(x + y). Show your working steps. Then explain why evaluating 3(x + y) as 3x + y would be wrong.
+
+写作提示 / Tips:
+✓ 每题分步骤写出推理 (Show working steps for each question)
+✓ Part 2 官方要求：clearly show the method of solution by writing working steps, plus the final answer
+✓ 不用计算器 (No calculators allowed)
+✓ 代数式求值步骤示范 (evaluation of algebraic expressions examples)：
+  • Evaluate 2a + 1 when a = 3：
+    Evaluate 2a + 1 when a = 3. Show your working.
+    Solution: ① Given a = 3. ② 2a + 1 = 2 × 3 + 1. ③ = 6 + 1. ④ = 7. Answer: 7. (Note: 2a means 2 × a, not 2 + a. If we wrongly evaluate 2a as 2 + a, we get 2 + 3 = 5, which is WRONG. Correct: 2a = 2 × 3 = 6, then 2a + 1 = 6 + 1 = 7.)
+  • Evaluate a² when a = 3：
+    Evaluate a² when a = 3. Show your working.
+    Solution: ① Given a = 3. ② a² = a × a = 3 × 3. ③ = 9. Answer: 9. (Note: a² means a × a, not 2a or 2 × a. If we wrongly evaluate a² as 2a = 2 × 3 = 6, which is WRONG. Correct: a² = 3 × 3 = 9.)
+  • Evaluate 3(x + y) when x = 4 and y = 2：
+    Evaluate 3(x + y) when x = 4 and y = 2. Show your working. Explain why 3x + y would be wrong.
+    Solution: ① Given x = 4 and y = 2. ② 3(x + y) = 3 × (x + y) = 3 × (4 + 2). ③ = 3 × 6. ④ = 18. Answer: 18. Explanation: If we drop the bracket and evaluate 3x + y instead, we get 3 × 4 + 2 = 12 + 2 = 14, which is WRONG. The bracket means we must add x and y first (4 + 2 = 6), then multiply by 3 (3 × 6 = 18). 3(x + y) is NOT the same as 3x + y.
+✓ 金额用新加坡元 S$ (money in Singapore dollars S$, if money appears)
+✓ 关键词：evaluation of algebraic expressions 代数式求值，substitute 代入，given 已知
+✓ 关键步骤：Step 1: Write "Given a = ..." (陈述已知：Given a = 3). Step 2: Substitute the number into the expression (代入数值：2a + 1 = 2 × 3 + 1). Step 3: Follow order of operations BODMAS / PEMDAS (遵循运算顺序：先括号 Brackets，再乘除 × ÷，后加减 + −). Step 4: Calculate step by step (逐步计算：2 × 3 = 6, then 6 + 1 = 7). Step 5: State the answer clearly (清楚陈述答案：Answer: 7). Step 6: If the question asks "Is Wei correct?" or "explain why ... would be wrong", identify the fossil error and explain (如果题目问"Wei 正确吗？"或"解释为什么...是错的"，识别化石错误并解释：If we evaluate 3(x + y) as 3x + y, dropping the bracket, we get 14 instead of 18. This is WRONG. The bracket means we add first, then multiply: 3 × (4 + 2) = 18).
+✓ 化石 (fossil errors)：
+  • Evaluating 2a as 2 + a（a=3 → 2+3=5 instead of 2×3=6）
+  • Evaluating a² as 2a（a=3 → 2×3=6 instead of 3×3=9）
+  • Evaluating 3(a + 2) as 3a + 2 (dropping the bracket)（a=3 → 3×3+2=11 instead of 3×(3+2)=15）
+  • 本周教 N5 的 5.3（evaluation of algebraic expressions and formulae，代数式求值）。本周不教 5.4 translation of real-world situations（实际问题翻译），5.5 nth term，5.6–5.8 simplifying（化简代数式）。这些是后续周次内容。
+
+Note: This is a sample of Part 2 short-answer/open-ended questions. The official paper has 20 short-answer + 10–15 open-ended items in 1 hour 45 minutes.`,
+          points: 20,
+        },
+      ],
+    },
   ];
 
   // =================================================================
