@@ -12734,6 +12734,102 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
         },
       ],
     },
+    {
+      level: "SMATH",
+      weekNumber: 64,
+      title: "二次式因式分解 — Factorisation ax²+bx+c",
+      description: "Sec 2 N5.14: factorisation of quadratic expressions ax²+bx+c (AEIS 中学数学第 64 周 / SMATH Week 64)",
+      isSample: false,
+      errorFocus: "signs wrong ((x+2)(x+3) for a minus middle); or (x+6)(x+1) when it should be (x+2)(x+3)",
+      parentBrief: "本周是中学 AEIS 数学第 64 周，对应官方 SEAB Sec 2 卷型（https://www.seab.gov.sg/aeis/test-details/ 2026年7月1日更新）。Part 1 Multiple-choice questions：34 道 MCQ，30 分钟。Part 2 Short-answer questions (20 items) and open-ended questions (10 to 15 items)：1 小时 45 分钟。Calculators are not allowed（不允许使用计算器）。Short-answer and open-ended questions：candidates are required to show the method of solution clearly by writing working steps in the spaces provided, plus the final answer（需写出算式步骤和最终答案）。AEIS-Secondary 官方 preceding-level 规则：申请 Sec 3 入学者需熟悉 Sec 3 前一级的内容。官方举例：apply Secondary 3 → be familiar with Secondary 2 content. 本周针对 Sec 3 申请者，内容为 Sec 3 前一级（Sec 2）的官方 MOE 2020 G3 Mathematics Syllabuses, Secondary Two, NUMBER AND ALGEBRA, N5. Algebraic manipulation: 5.14 factorisation of quadratic expressions ax²+bx+c（二次式因式分解）。官方 N5.14 wording（逐字引用）：「factorisation of quadratic expressions ax²+bx+c」。本周只教 N5.14 factorisation of quadratic expressions ax²+bx+c（二次式因式分解）。Factor quadratic expressions with friendly integers: x²+5x+6=(x+2)(x+3) (find two numbers that multiply to 6 and add to 5: 2×3=6, 2+3=5); x²−5x+6=(x−2)(x−3) (both negative because product is positive 6 and sum is negative −5: (−2)×(−3)=6, (−2)+(−3)=−5); x²+x−6=(x+3)(x−2) (one positive, one negative, because product is negative −6: 3×(−2)=−6, 3+(−2)=1); 2x²+7x+3=(2x+1)(x+3) (factor ax² when a≠1: test factor pairs of 2 and 3). Friendly integers only. No calculator. Fossil: signs wrong ((x+2)(x+3) when it should have a minus middle term); or (x+6)(x+1) when correct factors are (x+2)(x+3) (wrong pair that multiplies to the same number). 本周不教 5.15 multiplication and division of simple algebraic fractions（代数分式乘除）。本周不重教 5.13 factorisation of linear expressions ax+bx+kay+kby as the whole week（第 63 周已教）。本周不重教 5.12 identities as the whole week（第 62 周已教）。Cast: secondary Wei, Aisha, Mr Lim at Riverside Secondary. 第 8–56 周已完成 Sec 1 内容。第 57 周已完成 Sec 2 N2.4 map scales。第 58 周已完成 Sec 2 N2.5 direct and inverse proportion。第 59 周已完成 Sec 2 N5.9 expansion of the product of algebraic expressions。第 60 周已完成 Sec 2 N5.10 changing the subject of a formula。第 61 周已完成 Sec 2 N5.11 finding the value of an unknown quantity in a given formula。第 62 周已完成 Sec 2 N5.12 identities: (a+b)², (a−b)², a²−b²。第 63 周已完成 Sec 2 N5.13 factorisation of linear expressions ax+bx+kay+kby。本周继续 Sec 2 内容（Sec 3 申请者的 preceding level）。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "At Riverside Secondary, Mr Lim writes on the board: 「Factorise x²+5x+6」. He asks Wei to work it out. Wei writes: I need two numbers that multiply to 6 and add to 5. Try 2 and 3: 2×3=6 ✓, 2+3=5 ✓. So x²+5x+6 = (x+2)(x+3). Check: (x+2)(x+3) = x² + 3x + 2x + 6 = x² + 5x + 6 ✓. Is Wei correct?|A. Yes, Wei is correct. Find two numbers: multiply to 6, add to 5 → 2 and 3. So x²+5x+6 = (x+2)(x+3). Check: (x+2)(x+3) = x² + 5x + 6 ✓.|B. No, Wei is wrong. The answer is (x+1)(x+6) because 1×6=6.|C. No, Wei is wrong. The answer is (x−2)(x−3).|D. No, Wei is wrong. You cannot factorise x²+5x+6.",
+            "Aisha at Riverside Secondary sees the expression: x²−5x+6. Mr Lim asks: 「What is the factorised form?」 Aisha writes: I need two numbers that multiply to 6 and add to −5. Try −2 and −3: (−2)×(−3)=6 ✓ (both negative, product is positive), (−2)+(−3)=−5 ✓. So x²−5x+6 = (x−2)(x−3). Check: (x−2)(x−3) = x² − 3x − 2x + 6 = x² − 5x + 6 ✓. Is this correct?|A. Yes, Aisha is correct. Two numbers: multiply to 6, add to −5 → −2 and −3. So x²−5x+6 = (x−2)(x−3). Check: (x−2)(x−3) = x² − 5x + 6 ✓.|B. No, Aisha is wrong. The answer is (x+2)(x+3).|C. No, Aisha is wrong. The answer is (x+2)(x−3).|D. No, Aisha is wrong. You cannot factorise x²−5x+6.",
+            "At Riverside Secondary, Wei has the expression: x²+x−6. Mr Lim says: 「Factorise this.」 Wei writes: I need two numbers that multiply to −6 (one positive, one negative) and add to 1. Try 3 and −2: 3×(−2)=−6 ✓, 3+(−2)=1 ✓. So x²+x−6 = (x+3)(x−2). Check: (x+3)(x−2) = x² − 2x + 3x − 6 = x² + x − 6 ✓. Is Wei correct?|A. Yes, Wei is correct. Two numbers: multiply to −6, add to 1 → 3 and −2. So x²+x−6 = (x+3)(x−2). Check: (x+3)(x−2) = x² + x − 6 ✓.|B. No, Wei is wrong. The answer is (x+6)(x−1).|C. No, Wei is wrong. The answer is (x+2)(x−3).|D. No, Wei is wrong. You cannot factorise x²+x−6.",
+            "Mr Lim at Riverside Secondary writes: 「Factorise x²+7x+12」. Aisha says: 「I need two numbers that multiply to 12 and add to 7. Try 3 and 4: 3×4=12 ✓, 3+4=7 ✓. So x²+7x+12 = (x+3)(x+4). Check: (x+3)(x+4) = x² + 4x + 3x + 12 = x² + 7x + 12 ✓.」 Is Aisha correct?|A. Yes, Aisha is correct. Two numbers: multiply to 12, add to 7 → 3 and 4. So x²+7x+12 = (x+3)(x+4). Check: (x+3)(x+4) = x² + 7x + 12 ✓.|B. No, Aisha is wrong. The answer is (x+2)(x+6) because 2×6=12.|C. No, Aisha is wrong. The answer is (x+1)(x+12).|D. No, Aisha is wrong. You cannot factorise x²+7x+12.",
+            "At Riverside Secondary, Wei writes: 「From x²−7x+12, I need two numbers that multiply to 12 and add to −7. Try −3 and −4: (−3)×(−4)=12 ✓, (−3)+(−4)=−7 ✓. So x²−7x+12 = (x−3)(x−4). Check: (x−3)(x−4) = x² − 4x − 3x + 12 = x² − 7x + 12 ✓.」 Is Wei's answer correct?|A. Yes, Wei is correct. Two numbers: multiply to 12, add to −7 → −3 and −4. So x²−7x+12 = (x−3)(x−4). Check: (x−3)(x−4) = x² − 7x + 12 ✓.|B. No, Wei is wrong. The answer is (x+3)(x+4).|C. No, Wei is wrong. The answer is (x−2)(x−6).|D. No, Wei is wrong. You cannot factorise x²−7x+12.",
+          ]),
+          correctAnswer: "A,A,A,A,A",
+          points: 10,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "At Riverside Secondary, Mr Lim writes: 「Factorise x²+8x+15」. Which is the correct factorised form?|A. (x+3)(x+5)|B. (x+1)(x+15)|C. (x+2)(x+7)|D. (x+4)(x+4)",
+            "Wei at Riverside Secondary sees: x²−8x+15. Which statement is correct?|A. The factorised form is (x−3)(x−5)|B. The factorised form is (x+3)(x+5)|C. The factorised form is (x−1)(x−15)|D. You cannot factorise x²−8x+15",
+            "Mr Lim at Riverside Secondary asks: 「Factorise x²+2x−8」. Aisha writes: I need two numbers: multiply to −8, add to 2. Try 4 and −2: 4×(−2)=−8 ✓, 4+(−2)=2 ✓. So x²+2x−8 = (x+4)(x−2). Check: (x+4)(x−2) = x² − 2x + 4x − 8 = x² + 2x − 8 ✓. Is Aisha correct?|A. Yes, Aisha is correct. Two numbers: multiply to −8, add to 2 → 4 and −2. So x²+2x−8 = (x+4)(x−2). Check: (x+4)(x−2) = x² + 2x − 8 ✓.|B. No, Aisha is wrong. The answer is (x+8)(x−1).|C. No, Aisha is wrong. The answer is (x−4)(x+2).|D. No, Aisha is wrong. You cannot factorise x²+2x−8.",
+            "At Riverside Secondary, Wei has: x²−2x−8. Which is correct?|A. The factorised form is (x−4)(x+2)|B. The factorised form is (x+4)(x−2)|C. The factorised form is (x−8)(x+1)|D. You cannot factorise x²−2x−8",
+            "Aisha at Riverside Secondary writes: 「From x²+9x+20, I need two numbers: multiply to 20, add to 9. Try 4 and 5: 4×5=20 ✓, 4+5=9 ✓. So x²+9x+20 = (x+4)(x+5). Check: (x+4)(x+5) = x² + 5x + 4x + 20 = x² + 9x + 20 ✓.」 Mr Lim says: 「Correct.」 Which is true?|A. Aisha is correct. Two numbers: multiply to 20, add to 9 → 4 and 5. So x²+9x+20 = (x+4)(x+5). Check: (x+4)(x+5) = x² + 9x + 20 ✓.|B. Aisha is wrong. The answer is (x+2)(x+10).|C. Aisha is wrong. The answer is (x+1)(x+20).|D. Aisha is wrong. You cannot factorise x²+9x+20.",
+            "At Riverside Secondary, Mr Lim writes four factorisations on the board. Which one is correct?|A. 2x²+7x+3 = (2x+1)(x+3)|B. 2x²+7x+3 = (2x+3)(x+1)|C. 2x²+7x+3 = (x+1)(2x+3)|D. You cannot factorise 2x²+7x+3",
+            "At Riverside Secondary, Aisha says: 「To factorise 2x²+7x+3, I test factor pairs. For 2x²: 2x and x. For 3: 1 and 3, or 3 and 1. Try (2x+1)(x+3): expand (2x+1)(x+3) = 2x² + 6x + x + 3 = 2x² + 7x + 3 ✓. So 2x²+7x+3 = (2x+1)(x+3). OR I can write it as (x+3)(2x+1) because multiplication is commutative. Both are correct.」 Is Aisha correct?|A. Yes, Aisha is correct. Test (2x+1)(x+3): expand = 2x² + 7x + 3 ✓. So 2x²+7x+3 = (2x+1)(x+3) or (x+3)(2x+1). Both orders are correct.|B. No, Aisha is wrong. Only (2x+1)(x+3) is correct, not (x+3)(2x+1).|C. No, Aisha is wrong. The answer is (2x+3)(x+1).|D. No, Aisha is wrong. You cannot factorise 2x²+7x+3.",
+            "Wei at Riverside Secondary has the homework: 「Factorise x²+6x+8」. Wei writes: I need two numbers: multiply to 8, add to 6. Try 2 and 4: 2×4=8 ✓, 2+4=6 ✓. So x²+6x+8 = (x+2)(x+4). Check: (x+2)(x+4) = x² + 4x + 2x + 8 = x² + 6x + 8 ✓. Mr Lim checks and says: 「Correct.」 Which statement is true?|A. Wei's working is correct. Two numbers: multiply to 8, add to 6 → 2 and 4. So x²+6x+8 = (x+2)(x+4). Check: (x+2)(x+4) = x² + 6x + 8 ✓.|B. Wei's working is wrong. The answer is (x+1)(x+8).|C. Wei's working is wrong. The factors are in the wrong order.|D. Wei's working is wrong. You cannot factorise x²+6x+8.",
+          ]),
+          correctAnswer: "A,A,A,A,A,A,A,A",
+          points: 16,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `Part 2: Show Your Working (写出算式步骤)
+
+Riverside Secondary School has quadratic factorisation exercises. Answer the questions below. Show your working clearly.
+
+Question (a)
+At Riverside Secondary, Mr Lim gives Wei the expression x²+5x+6.
+(i) Factorise x²+5x+6 completely. Show your working clearly. Write each step: find two numbers that multiply to c and add to b, then write the factors.
+(ii) Aisha says: 「I think the answer is (x+1)(x+6) because 1×6=6.」 Expand (x+1)(x+6) and explain why Aisha's answer is wrong. What is the correct factorisation?
+
+Question (b)
+Wei has the expression x²−5x+6 at Riverside Secondary.
+(i) Factorise x²−5x+6 completely. Show your working clearly. Remember: the middle term is negative, so find two negative numbers that multiply to positive 6 and add to −5.
+(ii) Mr Lim says: 「From x²−5x+6, I think the answer is (x+2)(x+3) because 2×3=6 and 2+3=5.」 Expand (x+2)(x+3) and explain why Mr Lim has the wrong signs. What is the correct factorisation? Show your working.
+
+Question (c)
+At Riverside Secondary, Aisha has the expression x²+x−6.
+(i) Factorise x²+x−6 completely. Show your working clearly. Remember: the constant term is negative, so find one positive and one negative number that multiply to −6 and add to 1.
+(ii) Wei says: 「I can also factorise 2x²+7x+3 using the same method. Let me show: For 2x², I write 2x and x. For 3, I write 1 and 3. Try (2x+1)(x+3): expand (2x+1)(x+3) = 2x² + 6x + x + 3 = 2x² + 7x + 3 ✓. So 2x²+7x+3 = (2x+1)(x+3).」 Is Wei correct? Explain your answer and check by expanding (2x+1)(x+3) term by term.
+(iii) From the homework question 「Factorise x²+6x+8」, show your working clearly. Find two numbers that multiply to 8 and add to 6, then write the factors.
+
+写作提示 / Tips:
+✓ 每题分步骤写出推理 (Show working steps for each question)
+✓ Part 2 官方要求：clearly show the method of solution by writing working steps, plus the final answer
+✓ 不用计算器 (No calculators allowed)
+✓ 二次式因式分解 / factorisation of quadratic expressions ax²+bx+c 步骤示范：
+  • Factorise x²+5x+6:
+    Question: Factorise x²+5x+6 completely.
+    Solution: ① Write x²+5x+6 in the form x²+bx+c, where b=5, c=6. ② Find two numbers that multiply to c=6 and add to b=5. ③ Try factor pairs of 6: 1 and 6 (1×6=6, 1+6=7 ✗), 2 and 3 (2×3=6 ✓, 2+3=5 ✓). ④ The two numbers are 2 and 3. ⑤ Write the factors: x²+5x+6 = (x+2)(x+3). ⑥ Check by expanding: (x+2)(x+3) = x² + 3x + 2x + 6 = x² + 5x + 6 ✓. Answer: (x+2)(x+3). (Key point: Find two numbers that multiply to 6 and add to 5. NOT (x+1)(x+6), because expand (x+1)(x+6) = x² + 7x + 6, which has middle term 7x, NOT 5x.)
+  • Factorise x²−5x+6:
+    Question: Factorise x²−5x+6 completely.
+    Solution: ① Write x²−5x+6, where b=−5, c=6. ② The middle term is negative (−5x), but the constant term is positive (+6). This means both numbers must be negative (because (−2)×(−3)=+6, and (−2)+(−3)=−5). ③ Find two negative numbers that multiply to 6 and add to −5. Try −1 and −6 ((−1)×(−6)=6 ✓, (−1)+(−6)=−7 ✗), −2 and −3 ((−2)×(−3)=6 ✓, (−2)+(−3)=−5 ✓). ④ The two numbers are −2 and −3. ⑤ Write the factors: x²−5x+6 = (x−2)(x−3). ⑥ Check by expanding: (x−2)(x−3) = x² − 3x − 2x + 6 = x² − 5x + 6 ✓. Answer: (x−2)(x−3). (Key point: Both numbers are negative because the product is positive and the sum is negative. Do NOT write (x+2)(x+3), because expand (x+2)(x+3) = x² + 5x + 6, which has middle term +5x, NOT −5x.)
+  • Factorise x²+x−6:
+    Question: Factorise x²+x−6 completely.
+    Solution: ① Write x²+x−6, where b=1, c=−6. ② The constant term is negative (−6). This means one number is positive and one is negative (because 3×(−2)=−6). ③ Find two numbers that multiply to −6 and add to 1. Try 1 and −6 (1×(−6)=−6 ✓, 1+(−6)=−5 ✗), 2 and −3 (2×(−3)=−6 ✓, 2+(−3)=−1 ✗), 3 and −2 (3×(−2)=−6 ✓, 3+(−2)=1 ✓), −1 and 6 ((−1)×6=−6 ✓, (−1)+6=5 ✗). ④ The two numbers are 3 and −2. ⑤ Write the factors: x²+x−6 = (x+3)(x−2). ⑥ Check by expanding: (x+3)(x−2) = x² − 2x + 3x − 6 = x² + x − 6 ✓. Answer: (x+3)(x−2). (Key point: When the constant term is negative, one factor has + and one has −. Test all pairs until the sum matches the middle term coefficient.)
+  • Factorise 2x²+7x+3:
+    Question: Factorise 2x²+7x+3 completely.
+    Solution: ① Write 2x²+7x+3, where a=2, b=7, c=3. ② For ax² when a≠1, test factor pairs of a and c. For 2x²: 2x and x. For 3: 1 and 3, or 3 and 1. ③ Try (2x+1)(x+3): expand (2x+1)(x+3) = 2x×x + 2x×3 + 1×x + 1×3 = 2x² + 6x + x + 3 = 2x² + 7x + 3 ✓. ④ This works! So 2x²+7x+3 = (2x+1)(x+3). ⑤ You can also write it as (x+3)(2x+1) because multiplication is commutative. Answer: (2x+1)(x+3) or (x+3)(2x+1). (Key point: When a≠1, test different combinations of factor pairs until you find the one that expands back to the original. For 2x²+7x+3, (2x+1)(x+3) works, but (2x+3)(x+1) = 2x² + 5x + 3, which is wrong.)
+  • Check the factorisation by expanding:
+    To check (x+2)(x+3): Expand: (x+2)(x+3) = x² + 3x + 2x + 6 = x² + 5x + 6 ✓. This matches the original x²+5x+6. Correct!
+✓ 关键步骤：Step 1: Write down the quadratic expression x²+bx+c（写出二次式）. Step 2: Identify b (coefficient of x) and c (constant term)（找出 b 和 c）. Step 3: Find two numbers that multiply to c and add to b（找两个数，乘积是 c，和是 b）. Step 4: Consider the signs（注意符号）: If c is positive and b is positive, both numbers are positive. If c is positive and b is negative, both numbers are negative. If c is negative, one number is positive and one is negative. Step 5: Test factor pairs of c（测试 c 的因数对）: Try each pair, check if the sum equals b. Step 6: Write the factors as (x + first number)(x + second number)（写成 (x+第一个数)(x+第二个数) 的形式）. If the number is negative, write (x−number). Step 7: Check by expanding（通过展开来检查）: Multiply the factors back out and make sure you get the original quadratic. Step 8: For 2x²+bx+c when a≠1（当 a≠1 时）: Test combinations of factor pairs of a and c. Expand each combination until you find the one that matches.
+✓ 化石 (fossil errors)：
+  • Signs wrong（符号错误）：writing (x+2)(x+3) when the original has a negative middle term x²−5x+6（错误：原式是 x²−5x+6 中间项是负的 −5x，但写成 (x+2)(x+3)。正确：x²−5x+6 = (x−2)(x−3). Check: (x−2)(x−3) = x² − 5x + 6 ✓, but (x+2)(x+3) = x² + 5x + 6 ✗. The signs must match the middle term. If the middle term is −5x, both factors need minus signs: (x−2)(x−3). If the middle term is +5x, both factors need plus signs: (x+2)(x+3).）
+  • Wrong factor pair（因数对错误）：writing (x+6)(x+1) instead of (x+2)(x+3) when factorising x²+5x+6（错误：把 x²+5x+6 因式分解成 (x+6)(x+1)。正确：Check by expanding: (x+6)(x+1) = x² + 1x + 6x + 6 = x² + 7x + 6 ✗. The middle term is 7x, NOT 5x. The correct factorisation is (x+2)(x+3) because 2+3=5. Always check that the sum of the two numbers equals the middle term coefficient. For x²+5x+6, the two numbers must add to 5, so (x+2)(x+3) ✓, NOT (x+6)(x+1) ✗.）
+  • Not checking the answer（不检查答案）：writing the factors but not expanding to verify（错误：写出因式分解但不展开检查。正确：Always check your answer by expanding. If you write x²+5x+6 = (x+2)(x+3), expand: (x+2)(x+3) = x² + 3x + 2x + 6 = x² + 5x + 6 ✓. If the expansion matches the original, your factorisation is correct. If it does not match, try another factor pair.）
+  • 本周教 Sec 2 NUMBER AND ALGEBRA, N5. Algebraic manipulation: 5.14 factorisation of quadratic expressions ax²+bx+c（N5.14 二次式因式分解）。本周是 N5.14 only. Factor quadratic expressions with friendly integers: x²+5x+6=(x+2)(x+3), x²−5x+6=(x−2)(x−3), x²+x−6=(x+3)(x−2), 2x²+7x+3=(2x+1)(x+3). Find two numbers that multiply to c and add to b. For ax² when a≠1, test factor pairs. Friendly integers only. No calculator. Fossil: signs wrong ((x+2)(x+3) when it should be (x−2)(x−3)); or (x+6)(x+1) when correct is (x+2)(x+3) (wrong pair). 本周不教 5.15 multiplication and division of simple algebraic fractions（代数分式乘除）。本周不重教 5.13 grouping（第 63 周已教）。本周不重教 5.12 identities（第 62 周已教）。Cast: secondary Wei, Aisha, Mr Lim at Riverside Secondary. 第 8–56 周已完成 Sec 1 内容。第 57 周已完成 Sec 2 N2.4 map scales。第 58 周已完成 Sec 2 N2.5 direct and inverse proportion。第 59 周已完成 Sec 2 N5.9 expansion of the product of algebraic expressions。第 60 周已完成 Sec 2 N5.10 changing the subject of a formula。第 61 周已完成 Sec 2 N5.11 finding the value of an unknown quantity in a given formula。第 62 周已完成 Sec 2 N5.12 identities: (a+b)², (a−b)², a²−b²。第 63 周已完成 Sec 2 N5.13 factorisation of linear expressions ax+bx+kay+kby。本周继续 Sec 2 内容（Sec 3 申请者的 preceding level）。
+
+Note: This is a sample of Part 2 short-answer/open-ended questions. The official paper has 20 short-answer + 10–15 open-ended items in 1 hour 45 minutes.`,
+          points: 20,
+        },
+      ],
+    },
   ];
 
   // =================================================================
