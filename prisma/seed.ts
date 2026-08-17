@@ -9382,6 +9382,95 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
         },
       ],
     },
+    {
+      level: "SMATH",
+      weekNumber: 29,
+      title: "数学 第 29 周 / Maths Week 29",
+      description: "AEIS-Secondary Mathematics: Sec 1 translation of simple real-world situations into algebraic expressions",
+      isSample: false,
+      errorFocus: "writing 3k when the story is \"S$3 more than k\"; writing n + 5 when he spends S$5; writing 2x + 3 for perimeter instead of 2(x + 3); treating \"each\" as + not ×",
+      parentBrief: "本周是中学 AEIS 数学第 29 周，对应官方 SEAB Sec 1 卷型（https://www.seab.gov.sg/aeis/test-details/ 2026年7月1日更新）。Part 1 Multiple-choice questions：34 道 MCQ，30 分钟。Part 2 Short-answer questions (20 items) and open-ended questions (10 to 15 items)：1 小时 45 分钟。Calculators are not allowed（不允许使用计算器）。Short-answer and open-ended questions：candidates are required to show the method of solution clearly by writing working steps in the spaces provided, plus the final answer（需写出算式步骤和最终答案）。AEIS-Secondary 官方 preceding-level 规则：申请 Sec 2 入学者需熟悉 Sec 2 前一级的内容。官方举例：apply Secondary 3 → be familiar with Secondary 2 content. 本周针对 Sec 2 申请者，内容为 Sec 2 前一级（Sec 1）的官方 MOE 2020 G3 Mathematics Syllabuses, Secondary One, NUMBER AND ALGEBRA, N5. Algebraic expressions and formulae: 5.4 translation of simple real-world situations into algebraic expressions（将简单的现实情境翻译为代数式）。第 26–28 周已完成 5.1–5.3（using letters to represent numbers、interpreting notations、evaluation of algebraic expressions），本周只教 5.4 translation of simple real-world situations into algebraic expressions。本周不教 5.5 finding the value of an unknown (nth term)，5.6–5.8 simplifying algebraic expressions（化简代数式）。这些是后续周次内容。官方 5.4 wording（官方术语，逐字引用）：'translation of simple real-world situations into algebraic expressions'。本周方法：Turn a short real-world sentence into an expression（将短的现实情境句子转化为代数式），using Week 26–27 notation。Wei has n dollars and spends S$5 → n − 5（不是 n + 5）。A ticket costs S$3; k tickets → 3k（不是 k + 3）。Aisha is n years old; in 4 years → n + 4。A rectangle has length x cm and width 3 cm; perimeter → 2(x + 3) or 2x + 6，pick ONE form and do not offer the other as a second option（2x+6 is 5.6/5.8 later）。Cost of n books at S$4 each plus S$2 postage → 4n + 2。Friendly letters. No calculator. Money: 新加坡元 S$（never 美元）。本周作业是样本，不是完整 34 + 20 + 10–15 题。本周化石 fossil errors：writing 3k when the story is \"S$3 more than k\"（当应用题说"比 k 多 S$3"时错误地写 3k，正确应该是 k + 3）；writing n + 5 when he spends S$5（当他花掉 S$5 时错误地写 n + 5，正确应该是 n − 5）；writing 2x + 3 for perimeter instead of 2(x + 3)（周长错误地写 2x + 3，正确应该是 2(x + 3)）；treating \"each\" as + not ×（把"每个"当作加法而不是乘法）。唯一性 unique keys：两个选项不能是同一个意思（2n and 2 × n as two options is a fail; 2(x+3) and 2x+6 as two options is a fail）。n − 5 and 5 − n must not both be marked correct（n − 5 和 5 − n 不能同时标记为正确）。The fossil is a WRONG option（化石错误值必须作为错误选项）。非官方机构运营（affiliation 非官方机构 is OK）。不发明官方未提及的内容（do not invent official facts）。不声称 AEIS 是 G3 paper（G3 只是官方 preceding-level 内容来源，do NOT claim AEIS is a G3 paper）。不发明官方 cut-scores 或 extra official names。第 26–28 周已完成 5.1–5.3，本周只教 5.4 translation（生活情境写成代数式）。本周不教 5.5 nth term（下周内容）。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "Wei has n dollars and spends S$5. How much does he have left?|A. n + 5|B. n − 5|C. 5 − n|D. 5n",
+            "A ticket costs S$3. Wei buys k tickets. What is the total cost in S$?|A. k + 3|B. k − 3|C. 3k|D. k ÷ 3",
+            "Aisha is n years old now. How old will she be in 4 years?|A. n − 4|B. n + 4|C. 4n|D. 4 − n",
+            "Wei buys n books at S$4 each. The postage costs S$2. What is the total cost in S$?|A. 4n + 2|B. n + 6|C. 4n − 2|D. 2n + 4",
+            "Wei has n dollars and spends S$5. Which expression shows the amount he has left?|A. n + 5|B. n − 5|C. Both A and B|D. 5 − n",
+          ]),
+          correctAnswer: "B,C,B,A,B",
+          points: 10,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "Aisha has n sweets. She buys 3 more. How many sweets does she have now?|A. n − 3|B. n + 3|C. 3n|D. 3 − n",
+            "Mr Lim buys k apples at S$2 each. What is the total cost in S$?|A. k + 2|B. k − 2|C. 2k|D. 2 − k",
+            "Wei is n years old. His sister is 5 years younger. How old is his sister?|A. n + 5|B. n − 5|C. 5n|D. 5 − n",
+            "A shop sells tickets at S$3 each. If k people buy tickets, what is the total revenue in S$?|A. k + 3|B. 3 + k|C. 3k|D. k ÷ 3",
+            "A class has n students. Mr Lim adds 4 more students. How many students are there now?|A. n + 4|B. n − 4|C. 4n|D. 4 − n",
+            "A rectangle has length x cm and width 3 cm. What is the perimeter in cm?|A. x + 3|B. x + 6|C. 2(x + 3)|D. 2x + 3",
+            "Which is NOT correct? Wei has n dollars and spends S$5.|A. Amount left = n − 5|B. Amount left = n + 5|C. He spent S$5|D. All are correct",
+            "Which working correctly shows the total cost of n books at S$4 each plus S$2 postage?|A. n + 4 + 2 = n + 6|B. 4n + 2|C. 4 + n + 2|D. (4 + 2)n",
+          ]),
+          correctAnswer: "B,C,B,C,A,C,B,B",
+          points: 16,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `Part 2: Show Your Working (写出算式步骤)
+
+Riverside Secondary School has algebraic expression problems. Answer the questions below. Write the algebraic expression and explain what the letter stands for.
+
+Question (a)
+Wei has n dollars in his wallet. He spends S$5 on lunch. Write an expression for the amount of money Wei has left. Show your working and write what n stands for.
+
+Question (b)
+Aisha goes to a shop. A pen costs S$3. She buys k pens. Write an expression for the total cost in S$. Show your working and write what k stands for.
+
+Question (c)
+Mr Lim buys n books at S$4 each. The postage costs S$2.
+(i) Write an expression for the total cost in S$. Show your working.
+(ii) Write what n stands for.
+
+写作提示 / Tips:
+✓ 每题分步骤写出推理 (Show working steps for each question)
+✓ Part 2 官方要求：clearly show the method of solution by writing working steps, plus the final answer
+✓ 不用计算器 (No calculators allowed)
+✓ 生活情境写成代数式步骤示范 (translation of simple real-world situations into algebraic expressions examples)：
+  • Wei has n dollars and spends S$5 → n − 5（不是 n + 5）：
+    Wei has n dollars and spends S$5. Write an expression for the amount Wei has left. Show your working.
+    Solution: ① Let Wei's money be n dollars. ② Wei spends S$5. ③ Amount left = n − 5. Answer: n − 5. (Note: n stands for the number of dollars Wei has. When Wei spends S$5, we subtract 5, so n − 5. Not n + 5.)
+  • k tickets at S$3 each → 3k（不是 k + 3）：
+    A ticket costs S$3. Aisha buys k tickets. Write an expression for the total cost. Show your working.
+    Solution: ① Let the number of tickets be k. ② Each ticket costs S$3. ③ Total cost = 3 × k = 3k. Answer: 3k. (Note: k stands for the number of tickets. \"Each\" means multiply, so 3k. Not k + 3.)
+  • n books at S$4 each plus S$2 postage → 4n + 2：
+    Wei buys n books at S$4 each. Postage costs S$2. Write an expression for the total cost. Show your working.
+    Solution: ① Let the number of books be n. ② Each book costs S$4. ③ Cost of books = 4 × n = 4n. ④ Postage = S$2. ⑤ Total cost = 4n + 2. Answer: 4n + 2. (Note: n stands for the number of books. Books cost 4n, plus postage S$2, so 4n + 2.)
+✓ 金额用新加坡元 S$ (money in Singapore dollars S$)
+✓ 关键词：translation of simple real-world situations into algebraic expressions 将简单现实情境翻译为代数式，real-world sentence 现实情境句子
+✓ 关键步骤：Step 1: Read the sentence carefully and identify what the letter stands for (仔细读题，确定字母代表什么). Step 2: Let the letter stand for the quantity (设字母代表这个量：Let Wei's money be n dollars; let the number of tickets be k). Step 3: Translate the sentence into an expression (将句子翻译为代数式：spends S$5 → subtract 5, so n − 5; k tickets at S$3 each → multiply 3 by k, so 3k; n books at S$4 each plus S$2 postage → 4n + 2). Step 4: State what the letter stands for (陈述字母代表什么：n stands for the number of dollars Wei has; k stands for the number of tickets; n stands for the number of books). Step 5: Check the expression matches the story (检验表达式是否匹配题意：if Wei has n dollars and spends S$5, does he have n − 5 left? Yes ✓. Does he have n + 5? No, spending means subtract, not add).
+✓ 化石 (fossil errors)：
+  • Writing 3k when the story is \"S$3 more than k\"（当应用题说"比 k 多 S$3"时错误地写 3k，正确应该是 k + 3）
+  • Writing n + 5 when he spends S$5（当他花掉 S$5 时错误地写 n + 5，正确应该是 n − 5；spending 是减，不是加）
+  • Writing 2x + 3 for perimeter instead of 2(x + 3)（周长错误地写 2x + 3，正确应该是 2(x + 3) or 2x + 6，but本周优先 2(x + 3) as "twice the sum"）
+  • Treating \"each\" as + not ×（把"每个"当作加法而不是乘法：k tickets at S$3 each 是 3k，不是 k + 3；\"each\" 是乘，不是加）
+  • 本周教 N5 的 5.4（translation of simple real-world situations into algebraic expressions，生活情境写成代数式）。本周只教 5.4，不教 5.5 nth term（第 n 项），5.6–5.8 simplifying（化简代数式）。这些是后续周次内容。
+
+Note: This is a sample of Part 2 short-answer/open-ended questions. The official paper has 20 short-answer + 10–15 open-ended items in 1 hour 45 minutes.`,
+          points: 20,
+        },
+      ],
+    },
   ];
 
   // =================================================================
