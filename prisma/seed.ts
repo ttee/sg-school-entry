@@ -13241,6 +13241,118 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
         },
       ],
     },
+    {
+      level: "SMATH",
+      weekNumber: 69,
+      title: "方程和不等式的概念 — Concept of equation and inequality",
+      description: "Sec 2 N7.5: concept of equation and inequality (AEIS 中学数学第 69 周 / SMATH Week 69)",
+      isSample: false,
+      errorFocus: "confusing 5>5 (false) with 5≥5 (true); or treating x=3 as the only solution of an inequality when there are many solutions; or saying 「the solution」 instead of 「a solution」 for an inequality",
+      parentBrief: "本周是中学 AEIS 数学第 69 周，对应官方 SEAB Sec 2 卷型（https://www.seab.gov.sg/aeis/test-details/ 2026年7月1日更新）。Part 1 Multiple-choice questions：34 道 MCQ，30 分钟。Part 2 Short-answer questions (20 items) and open-ended questions (10 to 15 items)：1 小时 45 分钟。Calculators are not allowed（不允许使用计算器）。Short-answer and open-ended questions：candidates are required to show the method of solution clearly by writing working steps in the spaces provided, plus the final answer（需写出算式步骤和最终答案）。AEIS-Secondary 官方 preceding-level 规则：申请 Sec 3 入学者需熟悉 Sec 3 前一级的内容。官方举例：apply Secondary 3 → be familiar with Secondary 2 content. 本周针对 Sec 3 申请者，内容为 Sec 3 前一级（Sec 2）的官方 MOE 2020 G3 Mathematics Syllabuses, Secondary Two, NUMBER AND ALGEBRA, N7. Equations and inequalities: 7.5 concept of equation and inequality（方程和不等式的概念）。本周只教 N7.5 concept of equation and inequality（方程和不等式的概念）。官方 MOE 2020 G3 Mathematics Syllabuses - Sec 2 NUMBER AND ALGEBRA, N7. Equations and inequalities: 7.5 concept of equation and inequality. 本周是 N7.5 only. Concept of equation and inequality: (1) an equation uses = (both sides are equal); an inequality uses 「小于」「大于」「小于或等于」「大于或等于」(one side is greater/less, or greater/less or equal)（方程用 =；不等式用 < > ≤ ≥）; (2) a number is a solution of an equation if substituting it makes both sides equal（数是方程的解当且仅当代入后两边相等）; (3) a number is a solution of an inequality if substituting it makes the inequality true（数是不等式的一个解当且仅当代入后不等式成立）; (4) distinguish 「x = 3 is the solution of an equation」 from 「x=3 is a solution of an inequality」 (many values can satisfy an inequality)（方程的解唯一，不等式的解可以有很多个）; (5) check given values (friendly integers) by substitution（通过代入检查给定的值是否为解，友好整数，不用计算器）. No calculator（不允许使用计算器）。Friendly integers（友好整数，易于手算）。本周不教 7.6 solving simple inequalities in the form ax + b ≤ c and ax + b 「小于」 c and representing the solutions on the number line（不教解不等式和在数轴上表示解集）。本周不教 7.7–7.9 simultaneous equations / quadratic equations（不教联立方程或二次方程）。本周只教 N7.5 concept: distinguish equation (uses =) from inequality (uses 「小于」「大于」「小于或等于」「大于或等于」), check whether a given value is a solution by substitution, understand that an equation has one solution but an inequality can have many solutions. Fossil（化石化错误/高频错误）: confusing 5「大于」5 (false) with 5「大于或等于」5 (true)（混淆「大于」和「大于或等于」）; or treating x=3 as the only solution of an inequality when there are many solutions（把 x=3 当作不等式的唯一解，忘记不等式可以有很多个解）; or saying 「the solution」 instead of 「a solution」 for an inequality（对不等式用 the solution 而不是 a solution）。Cast: secondary Wei, Aisha, Mr Lim at Riverside Secondary School. No calculator. 第 8–56 周已完成 Sec 1 内容。第 57–67 周已完成 Sec 2 N2.4–N6.6。第 68 周已完成 N6.7 graphs of quadratic functions and their properties。本周开始 N7 Equations and inequalities（方程和不等式），学习 7.5 concept of equation and inequality（方程和不等式的概念）。本周不教 7.6 solving inequalities（不教解不等式）。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "At Riverside Secondary, Mr Lim writes: 「x + 5 = 12 is an equation. 3x > 15 is an inequality.」 Wei asks: 「What is the difference?」 Mr Lim says: 「An equation uses =. An inequality uses < or > or ≤ or ≥.」 Is Mr Lim correct?|A. Yes, Mr Lim is correct. An equation uses =, and an inequality uses < > ≤ or ≥ ✓.|B. No, Mr Lim is wrong. An equation uses < or >.|C. No, Mr Lim is wrong. Both equations and inequalities use =.|D. No, Mr Lim is wrong. An inequality uses = only.",
+            "Aisha at Riverside Secondary has x + 3 = 10. She substitutes x=7: 7+3=10. Both sides are equal. Mr Lim says: 「So x=7 is the solution of x+3=10.」 Is this correct?|A. Yes, this is correct. When both sides are equal after substitution, x=7 is the solution ✓.|B. No, this is wrong. x=7 is not a solution because 7+3=10 is false.|C. No, this is wrong. x=7 is a solution only if 7+3>10.|D. No, this is wrong. x=7 is not the solution; the solution is x=10.",
+            "At Riverside Secondary, Wei has the inequality x − 2 > 5. He checks x=8: 8−2=6, and 6>5 is true. Mr Lim says: 「So x=8 is a solution of x−2>5.」 Wei asks: 「Is x=8 the only solution?」 Mr Lim says: 「No. x=9 is also a solution, x=10 is also a solution. An inequality can have many solutions.」 Which statement is correct?|A. Mr Lim is correct. An inequality can have many solutions ✓.|B. Mr Lim is wrong. x=8 is the only solution.|C. Mr Lim is wrong. An inequality has no solutions.|D. Mr Lim is wrong. Only equations can have many solutions.",
+            "Aisha at Riverside Secondary has 2x ≥ 8. She substitutes x=4: 2(4)=8, and she checks: is 8≥8 true or false? She says: 「8≥8 is true, because 8=8 (8 is greater than or equal to 8, since 8 equals 8).」 Is Aisha correct?|A. Yes, Aisha is correct. 8≥8 is true because ≥ includes = ✓.|B. No, Aisha is wrong. 8≥8 is false because 8 is not greater than 8.|C. No, Aisha is wrong. 8≥8 is true only if 8>8.|D. No, Aisha is wrong. 8≥8 is the same as 8>8, which is false.",
+            "At Riverside Secondary, Mr Lim writes: 「For the equation 3x = 15, check whether x=5 is the solution.」 Wei substitutes x=5: 3(5)=15. Both sides equal 15. Wei says: 「x=5 is the solution of 3x=15.」 Mr Lim writes: 「For the inequality 3x > 12, check whether x=5 is a solution.」 Wei substitutes x=5: 3(5)=15, and 15>12 is true. Wei says: 「x=5 is a solution of 3x>12.」 Which statement is correct?|A. Wei's statements are both correct ✓.|B. Wei's first statement is wrong. x=5 is not the solution of 3x=15.|C. Wei's second statement is wrong. x=5 is not a solution of 3x>12.|D. Wei's statements are both wrong. Neither x=5 works.",
+          ]),
+          correctAnswer: "A,A,A,A,A",
+          points: 10,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "At Riverside Secondary, Mr Lim asks: 「For x + 8 = 13, is x=5 a solution?」 Aisha substitutes x=5: 5+8=13. Both sides equal 13. Which is the correct answer?|A. Yes, x=5 is the solution of x+8=13 ✓.|B. No, x=5 is not a solution because 5+8=13 is false.|C. No, x=5 is a solution only if 5+8>13.|D. No, x=5 is the solution of x+8>13, not x+8=13.",
+            "Aisha at Riverside Secondary has 4x < 20. She checks x=5: 4(5)=20, and 20<20 is false (20 is not less than 20). Which is the correct answer?|A. x=5 is not a solution of 4x<20 ✓.|B. x=5 is a solution of 4x<20 because 20<20 is true.|C. x=5 is the solution of 4x<20.|D. x=5 is not a solution because 4(5)=20 is false.",
+            "Wei at Riverside Secondary has x − 1 ≤ 6. He checks x=7: 7−1=6, and 6≤6 is true (because 6=6). Which is the correct answer?|A. x=7 is a solution of x−1≤6 ✓.|B. x=7 is not a solution because 6≤6 is false.|C. x=7 is a solution only if 6<6.|D. x=7 is the only solution of x−1≤6.",
+            "At Riverside Secondary, Mr Lim writes: 「For 5x = 25, what is the solution?」 Which working is correct?|A. Substitute x=5: 5(5)=25. Both sides equal 25, so x=5 is the solution ✓.|B. Substitute x=25: 5(25)=125. Both sides equal 125, so x=25 is the solution.|C. Substitute x=5: 5(5)=25, and 25>25 is true, so x=5 is the solution.|D. Substitute x=0: 5(0)=0. Both sides equal 0, so x=0 is the solution.",
+            "Aisha at Riverside Secondary has 2x + 3 > 11. She checks x=4: 2(4)+3=11, and 11>11 is false. She says: 「x=4 is not a solution.」 Is this correct?|A. Yes, Aisha is correct. 11>11 is false, so x=4 is not a solution ✓.|B. No, Aisha is wrong. 11>11 is true, so x=4 is a solution.|C. No, Aisha is wrong. x=4 is the solution because 11=11.|D. No, Aisha is wrong. x=4 is a solution because 2(4)+3=11.",
+            "At Riverside Secondary, Wei has x + 6 < 10. He checks x=3: 3+6=9, and 9<10 is true. Mr Lim asks: 「Is x=3 the only solution?」 Which answer is correct?|A. No, x=3 is not the only solution. x=2 is also a solution (2+6=8, and 8<10 is true) ✓.|B. Yes, x=3 is the only solution. No other value works.|C. No, x=3 is not a solution at all.|D. Yes, x=3 is the solution, and equations can have many solutions.",
+            "Mr Lim at Riverside Secondary writes: 「For 3x ≥ 12, check whether x=4 is a solution.」 Aisha substitutes x=4: 3(4)=12, and 12≥12 is true (because 12=12). Which statement is correct?|A. x=4 is a solution of 3x≥12 ✓.|B. x=4 is not a solution because 12≥12 is false.|C. x=4 is a solution only if 12>12.|D. x=4 is not a solution because 3(4)=12 is wrong.",
+            "At Riverside Secondary, Wei has 6x = 30. What is the solution?|A. x=5 (because 6(5)=30, both sides equal 30) ✓.|B. x=6 (because 6(6)=36, both sides equal 36).|C. x=30 (because the right side is 30).|D. x=0 (because 6(0)=0, both sides equal 0).",
+          ]),
+          correctAnswer: "A,A,A,A,A,A,A,A",
+          points: 16,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `Part 2: Show Your Working (写出算式步骤)
+
+Riverside Secondary School has equations and inequalities exercises. Answer the questions below. Show your working clearly.
+
+Question (a)
+At Riverside Secondary, Mr Lim gives Wei the statement 4x − 1 = 11.
+(i) Is 4x − 1 = 11 an equation or an inequality? Explain how you know.
+(ii) Check whether x=3 is a solution by substituting x=3 into 4x − 1 = 11. Show your working step by step.
+(iii) If both sides are equal after substitution, what does this mean? Is x=3 the solution or a solution?
+
+Question (b)
+Aisha at Riverside Secondary has the statement 5x + 2 > 12.
+(i) Is 5x + 2 > 12 an equation or an inequality? Explain how you know.
+(ii) Check whether x=2 is a solution by substituting x=2 into 5x + 2 > 12. Show your working. Is 12>12 true or false?
+(iii) Check whether x=3 is a solution by substituting x=3 into 5x + 2 > 12. Show your working. Is 17>12 true or false?
+(iv) Mr Lim asks: 「Can an inequality have more than one solution?」 Answer this question based on your results in (ii) and (iii).
+
+Question (c)
+At Riverside Secondary, Mr Lim writes: 「For the inequality 3x + 1 ≤ 13, check whether x=4 and x=5 are solutions.」
+(i) Check whether x=4 is a solution. Substitute x=4 into 3x + 1 ≤ 13. Calculate the left side. Is the result ≤ 13? (Hint: Remember that ≤ means 「less than OR equal to」, so if the left side equals 13, the inequality is still true.)
+(ii) Check whether x=5 is a solution. Substitute x=5 into 3x + 1 ≤ 13. Calculate the left side. Is the result ≤ 13?
+(iii) Explain why an inequality like 3x + 1 ≤ 13 can have more than one solution, but an equation like 3x + 1 = 13 has only one solution. (Hint: Think about the difference between = and ≤.)
+
+写作提示 / Tips:
+✓ 每题分步骤写出推理 (Show working steps for each question)
+✓ Part 2 官方要求：clearly show the method of solution by writing working steps, plus the final answer
+✓ 不用计算器 (No calculators allowed)
+✓ 方程和不等式的概念步骤示范 (concept of equation and inequality examples)：
+  • For 4x − 1 = 11, is this an equation or an inequality?
+    Question: Is 4x − 1 = 11 an equation or an inequality? How do you know?
+    Solution: ① Look at the symbol between the two sides. The symbol is = (equals). ② An equation uses = (both sides are equal). An inequality uses <, >, ≤ or ≥ (one side is greater or less). ③ Since the symbol is =, this is an equation. Answer: 4x − 1 = 11 is an equation, because it uses the equals sign =. (Note: Fossil: saying 「This is an inequality because it has x」. This is WRONG. You must look at the symbol. If the symbol is =, it is an equation. If the symbol is < > ≤ ≥, it is an inequality.)
+  • For 4x − 1 = 11, check whether x=3 is a solution:
+    Question: For 4x − 1 = 11, check whether x=3 is a solution.
+    Solution: ① Substitute x=3 into the left side: 4x − 1 = 4(3) − 1 = 12 − 1 = 11. ② The right side is 11. ③ Left side = 11, right side = 11. Both sides are equal. ④ For an equation, a number is a solution if substituting it makes both sides equal. Since both sides equal 11, x=3 is the solution. Answer: Yes, x=3 is the solution of 4x − 1 = 11. (Note: For an equation, we say 「the solution」 (the only one), not 「a solution」.)
+  • For 5x + 2 > 12, is this an equation or an inequality?
+    Question: Is 5x + 2 > 12 an equation or an inequality? How do you know?
+    Solution: ① Look at the symbol between the two sides. The symbol is > (greater than). ② An equation uses =. An inequality uses <, >, ≤ or ≥. ③ Since the symbol is >, this is an inequality. Answer: 5x + 2 > 12 is an inequality, because it uses the greater than sign >.
+  • For 5x + 2 > 12, check whether x=2 is a solution:
+    Question: For 5x + 2 > 12, check whether x=2 is a solution.
+    Solution: ① Substitute x=2 into the left side: 5x + 2 = 5(2) + 2 = 10 + 2 = 12. ② The right side is 12. ③ Check the inequality: is 12 > 12 true? No, 12 is not greater than 12 (12 equals 12, not greater). ④ Since 12>12 is false, x=2 is not a solution. Answer: No, x=2 is not a solution of 5x + 2 > 12, because 12>12 is false. (Note: Fossil: confusing > (greater than) with ≥ (greater than or equal to). If the symbol were ≥, then 12≥12 would be true. But the symbol is >, so 12>12 is false.)
+  • For 5x + 2 > 12, check whether x=3 is a solution:
+    Question: For 5x + 2 > 12, check whether x=3 is a solution.
+    Solution: ① Substitute x=3 into the left side: 5x + 2 = 5(3) + 2 = 15 + 2 = 17. ② The right side is 12. ③ Check the inequality: is 17 > 12 true? Yes, 17 is greater than 12. ④ Since 17>12 is true, x=3 is a solution. Answer: Yes, x=3 is a solution of 5x + 2 > 12, because 17>12 is true. (Note: For an inequality, we say 「a solution」 (one of many), not 「the solution」. x=4, x=5, ... are also solutions.)
+  • Can an inequality have more than one solution?
+    Question: Can an inequality have more than one solution?
+    Solution: ① For 5x + 2 > 12, we found that x=2 is not a solution (12>12 is false), but x=3 is a solution (17>12 is true). ② Let's check x=4: 5(4)+2 = 22, and 22>12 is true, so x=4 is also a solution. ③ Let's check x=5: 5(5)+2 = 27, and 27>12 is true, so x=5 is also a solution. ④ An inequality uses > or < or ≤ or ≥, not =. Many values can make the inequality true. For an equation, only one value makes both sides equal. Answer: Yes, an inequality can have more than one solution. For 5x + 2 > 12, x=3, x=4, x=5, ... are all solutions.
+  • For 3x + 1 ≤ 13, check whether x=4 is a solution:
+    Question: For 3x + 1 ≤ 13, check whether x=4 is a solution.
+    Solution: ① Substitute x=4 into the left side: 3x + 1 = 3(4) + 1 = 12 + 1 = 13. ② The right side is 13. ③ Check the inequality: is 13 ≤ 13 true? Yes, 13 is less than or equal to 13 (because 13 = 13). ④ The symbol ≤ means 「less than OR equal to」. Since 13 = 13, the inequality 13≤13 is true. ⑤ Since 13≤13 is true, x=4 is a solution. Answer: Yes, x=4 is a solution of 3x + 1 ≤ 13, because 13≤13 is true (13 equals 13, so it is less than or equal to 13). (Note: Fossil: confusing < (less than) with ≤ (less than or equal to). If the symbol were <, then 13<13 would be false. But the symbol is ≤, so 13≤13 is true.)
+  • For 3x + 1 ≤ 13, check whether x=5 is a solution:
+    Question: For 3x + 1 ≤ 13, check whether x=5 is a solution.
+    Solution: ① Substitute x=5 into the left side: 3x + 1 = 3(5) + 1 = 15 + 1 = 16. ② The right side is 13. ③ Check the inequality: is 16 ≤ 13 true? No, 16 is not less than or equal to 13 (16 > 13). ④ Since 16≤13 is false, x=5 is not a solution. Answer: No, x=5 is not a solution of 3x + 1 ≤ 13, because 16≤13 is false.
+  • Explain why an inequality can have more than one solution:
+    Question: Explain why an inequality like 3x + 1 ≤ 13 can have more than one solution, but an equation like 3x + 1 = 13 has only one solution.
+    Solution: ① For the equation 3x + 1 = 13, we need both sides to be equal. Substitute x=4: 3(4)+1 = 13. Both sides equal 13, so x=4 is the solution. Substitute x=3: 3(3)+1 = 10, and 10≠13, so x=3 is not a solution. Only x=4 makes both sides equal, so x=4 is the only solution. ② For the inequality 3x + 1 ≤ 13, we need the left side to be less than or equal to 13. Substitute x=4: 3(4)+1 = 13, and 13≤13 is true, so x=4 is a solution. Substitute x=3: 3(3)+1 = 10, and 10≤13 is true (10 < 13), so x=3 is also a solution. Substitute x=2: 3(2)+1 = 7, and 7≤13 is true, so x=2 is also a solution. Many values can make the left side ≤ 13. ③ The difference is: an equation uses = (only one value makes both sides equal), but an inequality uses < > ≤ ≥ (many values can make the inequality true). Answer: An equation has only one solution because only one value makes both sides equal. An inequality can have many solutions because many values can make the inequality true (for example, for 3x + 1 ≤ 13, x=2, x=3, x=4 all work).
+✓ 关键步骤：Step 1: Identify whether the statement is an equation or an inequality by looking at the symbol (= for equation, < > ≤ ≥ for inequality)（识别方程或不等式：看符号 = 是方程，< > ≤ ≥ 是不等式）. Step 2: To check whether a value is a solution, substitute the value into the statement（检查一个值是否为解：代入这个值）. Step 3: For an equation, check whether both sides are equal; for an inequality, check whether the inequality is true（方程检查两边是否相等；不等式检查不等式是否成立）. Step 4: Remember that an equation has one solution (「the solution」), but an inequality can have many solutions (「a solution」)（方程有唯一解 the solution；不等式可以有多个解 a solution）. Step 5: Remember the difference between < (less than) and ≤ (less than or equal to), and between > (greater than) and ≥ (greater than or equal to)（记住 < 和 ≤ 的区别，> 和 ≥ 的区别）.
+✓ 化石 (fossil errors)：
+  • Confusing > (greater than) with ≥ (greater than or equal to)（混淆 > 和 ≥）：saying 「5>5 is true」 instead of 「5>5 is false, but 5≥5 is true」（错误：说「5>5 为真」。正确：5>5 为假，但 5≥5 为真。5 不大于 5，但 5 大于或等于 5）
+  • Treating x=3 as the only solution of an inequality（把 x=3 当作不等式的唯一解）：saying 「x=3 is the solution of 2x+1>5」 instead of 「x=3 is a solution of 2x+1>5, and there are many other solutions」（错误：说「x=3 是 2x+1>5 的解」用单数 the solution。正确：x=3 是 2x+1>5 的一个解 a solution，还有很多其他解）
+  • Identifying an inequality as an equation by looking at the variable（把不等式识别为方程：看到有变量 x 就说是方程）：saying 「4x − 1 > 11 is an equation because it has x」✗（错误：说「4x − 1 > 11 是方程因为有 x」。正确：看符号。符号是 >，所以是不等式）
+  • 本周教 Sec 2 NUMBER AND ALGEBRA, N7. Equations and inequalities: 7.5 concept of equation and inequality（N7.5 方程和不等式的概念）。本周是 N7.5 only. Official content: (1) an equation uses = (both sides are equal); an inequality uses <, >, ≤ or ≥. (2) a number is a solution of an equation if substituting it makes both sides equal. (3) a number is a solution of an inequality if substituting it makes the inequality true. (4) distinguish 「the solution of an equation」 from 「a solution of an inequality」 (many values can satisfy an inequality). (5) check given values by substitution. Friendly integers. No calculator. This week is N7.5 only: understand the concept, distinguish equation from inequality, check solutions by substitution, understand that an equation has one solution but an inequality can have many solutions. 本周不教 7.6 solving simple inequalities in the form ax + b ≤ c and ax + b < c and representing the solutions on the number line（不教解不等式和在数轴上表示解集）。本周不教 7.7–7.9 simultaneous equations / quadratic equations（不教联立方程或二次方程）。Fossil: confusing 5>5 (false) with 5≥5 (true); or treating x=3 as the only solution of an inequality when there are many solutions; or saying 「the solution」 instead of 「a solution」 for an inequality; or identifying an inequality as an equation by looking at the variable instead of the symbol. Cast: secondary Wei, Aisha, Mr Lim at Riverside Secondary. 第 68 周已完成 N6.7 graphs of quadratic functions and their properties。本周开始 N7 Equations and inequalities（方程和不等式），学习 7.5 concept of equation and inequality（方程和不等式的概念）。本周继续 Sec 2 内容（Sec 3 申请者的 preceding level）。
+
+Note: This is a sample of Part 2 short-answer/open-ended questions. The official paper has 20 short-answer + 10–15 open-ended items in 1 hour 45 minutes.`,
+          points: 20,
+        },
+      ],
+    },
   ];
 
 
