@@ -397,7 +397,7 @@ export default function HomePage() {
                 <div className="space-y-2">
                   <p className="font-semibold text-ink flex items-start gap-2">
                     <span className="text-accent mt-0.5">✓</span>
-                    <span>母语迁移 / L1 Transfer</span>
+                    <span>母语迁移</span>
                   </p>
                   <p className="text-ink-2 ml-6">
                     中文没有冠词、动词不变形、靠时间词表示过去。孩子说 "I go to school by the bus" 或 "she wake up" 不是粗心，是中文习惯在干扰。
@@ -406,7 +406,7 @@ export default function HomePage() {
                 <div className="space-y-2">
                   <p className="font-semibold text-ink flex items-start gap-2">
                     <span className="text-accent mt-0.5">✓</span>
-                    <span>防化石化 / Prevent Fossilization</span>
+                    <span>防化石化</span>
                   </p>
                   <p className="text-ink-2 ml-6">
                     错误说多了会固化。一次改太多点，孩子顾不过来，还是会重复旧错。我们让 AI 盯住<strong>一个焦点</strong>，直到孩子真的改掉。
@@ -415,7 +415,7 @@ export default function HomePage() {
                 <div className="space-y-2">
                   <p className="font-semibold text-ink flex items-start gap-2">
                     <span className="text-accent mt-0.5">✓</span>
-                    <span>聚焦形式 / Focus on Form</span>
+                    <span>聚焦形式</span>
                   </p>
                   <p className="text-ink-2 ml-6">
                     阅读、写作、口语任务还是真实话题（学校、家庭、环境），但本周的微课、语法题、AI 批改都指向<strong>同一个语法点</strong>。
@@ -424,7 +424,7 @@ export default function HomePage() {
                 <div className="space-y-2">
                   <p className="font-semibold text-ink flex items-start gap-2">
                     <span className="text-accent mt-0.5">✓</span>
-                    <span>注意 + 输出 / Noticing + Output</span>
+                    <span>注意 + 输出</span>
                   </p>
                   <p className="text-ink-2 ml-6">
                     微课先让孩子看到错的句子和对的句子对比，然后跟读一句。写作和口语时，AI 会再次提醒这个焦点，等孩子真正用对了，再换下一个。
@@ -781,8 +781,7 @@ export default function HomePage() {
             <div className="bg-accent/5 border border-accent/20 rounded-xl p-5">
               <p className="text-xs text-ink-2">
                 <strong className="text-ink">隐私说明：</strong>
-                我们仅收集您的微信号用于咨询回复，不会公开或出售给第三方。您可随时要求删除。详见
-                <Link href="/privacy" className="text-accent hover:underline ml-1">隐私政策</Link>。
+                我们仅收集您的微信号用于咨询回复，不会公开或出售给第三方。您可随时要求删除。详见<Link href="/privacy" className="text-accent hover:underline whitespace-nowrap">隐私政策</Link>。
               </p>
             </div>
           </div>
@@ -821,7 +820,7 @@ export default function HomePage() {
               rel="noopener noreferrer"
               className="hover:text-ink transition-colors"
             >
-              assessment.sg
+              Cambridge 考点
             </a>
           </div>
         </div>
