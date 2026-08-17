@@ -5178,6 +5178,44 @@ const lessonPlans: Record<string, LessonPlan> = {
     ],
     speakingPrompts: null,
   },
+  "SMATH-60": {
+    title: "公式变形 — Changing the subject of a formula",
+    mathExample: "From v = u + at, make t the subject: t = (v − u)/a. From A = πr², make r the subject: r = √(A/π). From y = mx + c, make x the subject: x = (y − c)/m.",
+    boardWriting: "SMATH Week 60: Sec 2 N5.10 changing the subject of a formula. Use inverse operations in reverse order. Example: v = u + at → subtract u → divide by a → t = (v − u)/a.",
+    sections: [
+      {
+        name: "课前",
+        duration: "2 分钟",
+        teacherNotes: "欢迎孩子。「今天是第 60 周 AEIS 中学数学，我们学 Sec 2 N5.10 changing the subject of a formula（公式变形 / 变换公式的主体）。本周是 Sec 2 N5.10 only，不教 5.11 finding the value of an unknown quantity in a given formula（把数值代入公式求未知量），不重教 5.9 expansion（展开乘积），不教 5.12 identities（恒等式）。第 8–56 周我们已完成 Sec 1 内容，第 57 周已完成 Sec 2 N2.4 map scales，第 58 周已完成 Sec 2 N2.5 direct and inverse proportion，第 59 周已完成 Sec 2 N5.9 expansion of the product of algebraic expressions，本周继续 Sec 2 内容（Sec 3 申请者的 preceding level）。」告诉孩子本周化石焦点（高频错误）：「本周化石焦点：doing operations in the wrong order, or subtracting a term that is multiplied（运算顺序错误，或者减去一个被乘的项；例如从 v = u + at 变形 t 时，写成 t = v − u − a，忘记 at 是一个乘积项，不能直接减 a）。我们会反复练这个点，直到改掉。」",
+      },
+      {
+        name: "热身",
+        duration: "5 分钟",
+        teacherNotes: "问孩子：「你学过逆运算吗？比如加法的逆运算是减法，乘法的逆运算是除法？」让孩子简单说一句。然后说：「今天我们学 changing the subject of a formula（公式变形）。比如 v = u + at，如果我们想让 t 变成主项（subject），就要把 t 分离出来，其他字母移到另一边。方法是：用逆运算（inverse operations），按相反顺序操作（in reverse order）。公式右边是 u + at，先加 u，所以我们先减 u（undo +u），然后 t 被 a 乘，所以我们再除以 a（undo ×a）。」让孩子跟读一句：「Use inverse operations in reverse order.」然后问：「如果 v = u + at，我们先减 u，得到什么？」等孩子想一下（不必马上答对，下一环节会教）。如果孩子说对了 v − u = at，鼓励「Good!」；如果不确定，说「没关系，接下来我们一起看微课例题。」",
+      },
+      {
+        name: "化石",
+        duration: "10 分钟",
+        teacherNotes: "打开屏幕共享或白板，写下本周化石错误：「Fossil: From v = u + at, make t the subject → t = v − u − a. ✗」说明：「这是化石化错误：减去一个被乘的项（subtracting a term that is multiplied）。正确做法：at is ONE term, meaning a × t, NOT a + t（at 是一个项，意思是 a × t，不是 a + t）。You cannot subtract a from v − u to get t（你不能从 v − u 减去 a 来得到 t）。After subtracting u, you have v − u = at, which means a × t = v − u. To isolate t, DIVIDE by a, NOT subtract a（要分离 t，除以 a，不是减 a）。The correct answer is t = (v − u)/a. If you write t = v − u − a, you are treating a as if it's added, but it's multiplied（如果你写 t = v − u − a，你是把 a 当作加的，但它是乘的）。」让孩子跟读一句：「at is ONE term. v − u = at. Divide by a: t = (v − u)/a.」再举一个例子：「From y = mx + c, make x the subject. ① Subtract c: y − c = mx. ② Divide by m: x = (y − c)/m. 不能写 x = y − m − c，因为 mx 是一个乘积项，不是 m + x。」让孩子看懂这个点，这是本周主要化石焦点。",
+      },
+      {
+        name: "示范",
+        duration: "15 分钟",
+        teacherNotes: "示范四道例题（在屏幕上或白板上边写边讲）：\n\n例题 1: Make t the subject from v = u + at.\n① Start with v = u + at. ② We want t on its own (the subject). ③ First, remove the u from the right side. Subtract u from both sides: v − u = at. ④ Now t is multiplied by a. To isolate t, divide both sides by a: (v − u)/a = t. ⑤ Rewrite: t = (v − u)/a. Answer: t = (v − u)/a. (Note: Use inverse operations in reverse order. The formula is u + at, so last operation is +u. Undo that first by subtracting u. Then undo ×a by dividing by a. Do NOT subtract u and a separately from v; at is ONE term.)\n\n例题 2: Make r the subject from A = πr². Leave your answer in terms of √.\n① Start with A = πr². ② We want r on its own. ③ First, remove the π. Divide both sides by π: A/π = r². ④ Now r is squared. To isolate r, take the square root of both sides: √(A/π) = r. ⑤ Rewrite: r = √(A/π). Answer: r = √(A/π). (Note: The formula is πr², so r is squared AND multiplied by π. Undo ×π first by dividing by π, then undo the square by taking the square root. Do NOT subtract π from A.)\n\n例题 3: Make x the subject from y = mx + c.\n① Start with y = mx + c. ② We want x on its own. ③ First, remove the c. Subtract c from both sides: y − c = mx. ④ Now x is multiplied by m. Divide both sides by m: (y − c)/m = x. ⑤ Rewrite: x = (y − c)/m. Answer: x = (y − c)/m. (Note: The right side is mx + c, so the last operation is +c. Undo that first by subtracting c, then undo ×m by dividing by m. Do NOT subtract m and c separately from y; mx is ONE term.)\n\n例题 4: Make h the subject from V = lwh.\n① Start with V = lwh. ② We want h on its own. ③ h is multiplied by l and by w. To isolate h, divide both sides by lw: V/(lw) = h. ④ Rewrite: h = V/(lw). Answer: h = V/(lw). (Note: The right side is lwh, which means l × w × h. To undo this, divide by lw. Do NOT subtract l and w from V; lwh is ONE term. When you divide by lw, you are undoing the multiplication by l and w at the same time.)\n\n每道例题讲完，让孩子跟读 working steps 的关键句子（例如：「v − u = at. Divide by a: t = (v − u)/a.」「A/π = r². Take square root: r = √(A/π).」「y − c = mx. Divide by m: x = (y − c)/m.」「V/(lw) = h.」）。",
+      },
+      {
+        name: "练习",
+        duration: "15 分钟",
+        teacherNotes: "给孩子 5 道题目让他/她在纸上算（教师不给完整答案，只给提示，让孩子自己写出 working steps）：\n\n练习 1: From v = u + at, make t the subject. (提示：先减 u，然后除以 a.) 期待答案：v − u = at. t = (v − u)/a.\n\n练习 2: From A = πr², make r the subject. Leave answer in terms of √. (提示：先除以 π，然后开平方根.) 期待答案：A/π = r². r = √(A/π).\n\n练习 3: From y = 3x + 5, make x the subject. (提示：先减 5，然后除以 3.) 期待答案：y − 5 = 3x. x = (y − 5)/3.\n\n练习 4: From I = PRT/100, make T the subject. (提示：先乘以 100，然后除以 PR.) 期待答案：100I = PRT. T = 100I/(PR).\n\n练习 5: From V = lwh, make h the subject. (提示：h 被 l 和 w 乘，所以除以 lw.) 期待答案：h = V/(lw).\n\n如果孩子卡住，教师给词提示（例如：「at 是一个乘积项，不能直接减 a，要除以 a。」或「先用逆运算，按相反顺序：先 undo +u by subtracting u, then undo ×a by dividing by a.」或「r² 的逆运算是开平方根 √.」）。孩子做完一道，教师检查 working steps 是否清楚（每一步都写出来），然后让孩子继续下一道。",
+      },
+      {
+        name: "收口",
+        duration: "3 分钟",
+        teacherNotes: "总结本周重点：(1) 官方 Sec 2 AEIS 数学卷型：Part 1 MCQ 34 题 30 分钟 + Part 2 show working 20+10–15 题 1 小时 45 分钟，不用计算器。(2) 本周内容：Sec 2 NUMBER AND ALGEBRA, N5. Algebraic manipulation: 5.10 changing the subject of a formula（公式变形 / 变换公式的主体）。本周是 N5.10 only. Make a different letter the subject: from v = u + at make t the subject; from A = πr² make r the subject (leave √); from I = PRT/100 make T the subject; from y = mx + c make x the subject; from V = lwh make h the subject. Inverse operations in reverse order. Friendly integers. No calculator. Avoid π numerical values — leave in terms of π or use a simple square (A = 49π → r = 7). Fossil: doing operations in the wrong order, or subtracting a term that is multiplied (saying 「from v = u + at, make t the subject」 by writing 「t = v − u − a」forgetting that at is ONE term with multiplication). Method: use inverse operations in reverse order. From v = u + at, make t the subject: ① Subtract u (undo +u): v − u = at. ② Divide by a (undo ×a): t = (v − u)/a. From A = πr², make r the subject: ① Divide by π (undo ×π): A/π = r². ② Take square root (undo square): r = √(A/π). From y = mx + c, make x the subject: ① Subtract c: y − c = mx. ② Divide by m: x = (y − c)/m. Cast: Wei, Aisha, Mr Lim at Riverside Secondary. 本周不教 5.11 finding the value of an unknown quantity in a given formula. 本周不重教 5.9 expansion. 本周不教 5.12 identities. 第 8–56 周已完成 Sec 1 内容。第 57 周已完成 Sec 2 N2.4 map scales。第 58 周已完成 Sec 2 N2.5 direct and inverse proportion。第 59 周已完成 Sec 2 N5.9 expansion of the product of algebraic expressions。本周继续 Sec 2 内容（Sec 3 申请者的 preceding level）。」对家长说：「本周化石焦点：doing operations in the wrong order, or subtracting a term that is multiplied（运算顺序错误，或者减去一个被乘的项；at 是一个乘积项 a × t，不能直接减 a，要除以 a）。请在家长端查看孩子的作业提交，关注这个化石错误。」对孩子说：「Great work today! Remember: Use inverse operations in reverse order. at is ONE term — divide by a, don't subtract a.」鼓励孩子并结束课程。",
+      },
+    ],
+    speakingPrompts: null,
+  },
 };
 
 export default async function LessonPlanPage({

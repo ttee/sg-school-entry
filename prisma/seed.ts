@@ -12343,6 +12343,101 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
         },
       ],
     },
+    {
+      level: "SMATH",
+      weekNumber: 60,
+      title: "公式变形 — Changing the subject of a formula",
+      description: "Sec 2 N5.10: changing the subject of a formula (AEIS 中学数学第 60 周 / SMATH Week 60)",
+      isSample: false,
+      errorFocus: "doing operations in the wrong order, or subtracting a term that is multiplied",
+      parentBrief: "本周是中学 AEIS 数学第 60 周，对应官方 SEAB Sec 2 卷型（https://www.seab.gov.sg/aeis/test-details/ 2026年7月1日更新）。Part 1 Multiple-choice questions：34 道 MCQ，30 分钟。Part 2 Short-answer questions (20 items) and open-ended questions (10 to 15 items)：1 小时 45 分钟。Calculators are not allowed（不允许使用计算器）。Short-answer and open-ended questions：candidates are required to show the method of solution clearly by writing working steps in the spaces provided, plus the final answer（需写出算式步骤和最终答案）。AEIS-Secondary 官方 preceding-level 规则：申请 Sec 3 入学者需熟悉 Sec 3 前一级的内容。官方举例：apply Secondary 3 → be familiar with Secondary 2 content. 本周针对 Sec 3 申请者，内容为 Sec 3 前一级（Sec 2）的官方 MOE 2020 G3 Mathematics Syllabuses, Secondary Two, NUMBER AND ALGEBRA, N5. Algebraic manipulation: 5.10 changing the subject of a formula（公式变形 / 变换公式的主体）。官方 N5.10 wording（逐字引用）：「changing the subject of a formula」。本周只教 N5.10 changing the subject of a formula（公式变形）。Make a different letter the subject: from v = u + at make t the subject; from A = πr² make r the subject (leave √); from I = PRT/100 make T the subject; from y = mx + c make x the subject; from V = lwh make h the subject. Inverse operations in reverse order. Friendly integers. No calculator. Avoid π numerical values — leave in terms of π or use a simple square (A = 49π → r = 7). Fossil: doing operations in the wrong order, or subtracting a term that is multiplied (saying 「from v = u + at, make t the subject」 by writing 「t = v − u + a」or「t = (v − u) ÷ a」forgetting that at is ONE term with multiplication). Do not start 5.11 (plug in numbers to find an unknown), identities, or factorisation. 本周不教 5.11 finding the value of an unknown quantity in a given formula（把数值代入公式求未知量）。本周不重教 5.9 expansion（展开乘积）。本周不教 5.12 identities（恒等式）。Cast: Wei, Aisha, Mr Lim at Riverside Secondary School. No calculator。第 8–56 周已完成 Sec 1 内容。第 57 周已完成 Sec 2 N2.4 map scales（地图比例尺，距离和面积）。第 58 周已完成 Sec 2 N2.5 direct and inverse proportion（正比和反比）。第 59 周已完成 Sec 2 N5.9 expansion of the product of algebraic expressions（代数式的积的展开）。本周继续 Sec 2 内容（Sec 3 申请者的 preceding level）。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "At Riverside Secondary, Mr Lim gives Wei the formula v = u + at. He asks: 「Make t the subject.」 Which working is correct?|A. v = u + at. Subtract u from both sides: v − u = at. Divide both sides by a: t = (v − u)/a. Answer: t = (v − u)/a.|B. v = u + at. Subtract u: v − u = at. Then t = v − u − a.|C. v = u + at. Make t the subject: t = v − u + a.|D. v = u + at. Subtract u: t = v − u.",
+            "Aisha at Riverside Secondary has the formula A = πr². Mr Lim asks: 「Make r the subject. Leave your answer in terms of √ (square root).」 Which is correct?|A. A = πr². Divide both sides by π: A/π = r². Take the square root of both sides: r = √(A/π). Answer: r = √(A/π).|B. A = πr². Subtract π: A − π = r². r = √(A − π).|C. A = πr². Divide by π: r² = A/π. Then r = A/π (no square root needed).|D. A = πr². Make r the subject: r = A − π.",
+            "At Riverside Secondary, Wei has the formula I = PRT/100. Mr Lim asks: 「Make T the subject.」 Which working is correct?|A. I = PRT/100. Multiply both sides by 100: 100I = PRT. Divide both sides by PR: T = 100I/(PR). Answer: T = 100I/(PR).|B. I = PRT/100. Subtract 100: I − 100 = PRT. Then T = I − 100 − P − R.|C. I = PRT/100. Multiply by 100: 100I = PRT. Then T = 100I − PR.|D. I = PRT/100. Make T the subject: T = I − PRT.",
+            "Mr Lim at Riverside Secondary writes: 「From y = mx + c, make x the subject.」 Wei says: 「x = (y − c)/m」. Is Wei correct?|A. Yes, Wei is correct. y = mx + c. Subtract c from both sides: y − c = mx. Divide both sides by m: x = (y − c)/m.|B. No, Wei is wrong. x = y − c − m.|C. No, Wei is wrong. x = y − mx − c.|D. No, Wei is wrong. x = (y + c)/m.",
+            "Aisha has the formula V = lwh at Riverside Secondary. She wants to make h the subject. Which is correct?|A. V = lwh. Divide both sides by lw: h = V/(lw). Answer: h = V/(lw).|B. V = lwh. Subtract lw: h = V − lw.|C. V = lwh. Divide by l and w separately: h = V/l/w.|D. V = lwh. Make h the subject: h = V − l − w.",
+          ]),
+          correctAnswer: "A,A,A,A,A",
+          points: 10,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "At Riverside Secondary, Wei has the formula s = (u + v)t/2. He wants to make v the subject. Which working is correct?|A. s = (u + v)t/2. Multiply both sides by 2: 2s = (u + v)t. Divide both sides by t: 2s/t = u + v. Subtract u from both sides: v = 2s/t − u. Answer: v = 2s/t − u.|B. s = (u + v)t/2. Make v the subject: v = 2s − u − t.|C. s = (u + v)t/2. Multiply by 2: 2s = (u + v)t. Then v = 2s − u.|D. s = (u + v)t/2. Subtract u: s − u = vt/2. Then v = 2(s − u).",
+            "Mr Lim gives Aisha the formula P = 2(l + w). He asks: 「Make l the subject.」 Which is correct?|A. P = 2(l + w). Divide both sides by 2: P/2 = l + w. Subtract w from both sides: l = P/2 − w. Answer: l = P/2 − w.|B. P = 2(l + w). Subtract 2: P − 2 = l + w. l = P − 2 − w.|C. P = 2(l + w). Make l the subject: l = P − 2 − w.|D. P = 2(l + w). Divide by 2: P/2 = l + w. Then l = P/2.",
+            "At Riverside Secondary, Wei has A = 49π. Mr Lim asks: 「If this is a circle area A = πr², find r.」 Which is correct?|A. A = πr². Here A = 49π. So 49π = πr². Divide by π: 49 = r². Take square root: r = √49 = 7. Answer: r = 7.|B. A = 49π = πr². Divide by π: r² = 49 − π. Then r = √(49 − π).|C. A = 49π. r = 49.|D. A = πr² = 49π. Then r² = 49π, so r = 49.",
+            "Aisha at Riverside Secondary writes: 「From the formula C = 2πr, make r the subject.」 Which working is correct?|A. C = 2πr. Divide both sides by 2π: r = C/(2π). Answer: r = C/(2π).|B. C = 2πr. Subtract 2π: r = C − 2π.|C. C = 2πr. Divide by 2: C/2 = πr. Then r = C/2 − π.|D. C = 2πr. Make r the subject: r = C − 2 − π.",
+            "At Riverside Secondary, Mr Lim asks: 「From v² = u² + 2as, make s the subject.」 Which is correct?|A. v² = u² + 2as. Subtract u² from both sides: v² − u² = 2as. Divide both sides by 2a: s = (v² − u²)/(2a). Answer: s = (v² − u²)/(2a).|B. v² = u² + 2as. Subtract u²: v² − u² = 2as. Then s = v² − u² − 2a.|C. v² = u² + 2as. Make s the subject: s = v² − u² + 2a.|D. v² = u² + 2as. Subtract u²: s = (v² − u²)/2a.",
+            "Wei at Riverside Secondary has the formula y = 3x + 5. He wants to make x the subject. Aisha says: 「x = (y − 5)/3」. Is Aisha correct?|A. Yes, Aisha is correct. y = 3x + 5. Subtract 5: y − 5 = 3x. Divide by 3: x = (y − 5)/3.|B. No, Aisha is wrong. x = y − 5 − 3.|C. No, Aisha is wrong. x = (y + 5)/3.|D. No, Aisha is wrong. x = y − 3x − 5.",
+            "Mr Lim at Riverside Secondary writes: 「From T = (a + b)h/2, make h the subject.」 Which working is correct?|A. T = (a + b)h/2. Multiply both sides by 2: 2T = (a + b)h. Divide both sides by (a + b): h = 2T/(a + b). Answer: h = 2T/(a + b).|B. T = (a + b)h/2. Subtract a + b: T − a − b = h/2. Then h = 2(T − a − b).|C. T = (a + b)h/2. Multiply by 2: 2T = (a + b)h. Then h = 2T − a − b.|D. T = (a + b)h/2. Make h the subject: h = T − (a + b).",
+            "Aisha has the formula F = 9C/5 + 32 at Riverside Secondary. She wants to make C the subject. Which is correct?|A. F = 9C/5 + 32. Subtract 32: F − 32 = 9C/5. Multiply by 5: 5(F − 32) = 9C. Divide by 9: C = 5(F − 32)/9. Answer: C = 5(F − 32)/9.|B. F = 9C/5 + 32. Subtract 32: F − 32 = 9C/5. Then C = (F − 32) − 9/5.|C. F = 9C/5 + 32. Make C the subject: C = F − 32 − 9/5.|D. F = 9C/5 + 32. Subtract 32: F − 32 = 9C/5. Multiply by 5: C = 5(F − 32).",
+          ]),
+          correctAnswer: "A,A,A,A,A,A,A,A",
+          points: 16,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `Part 2: Show Your Working (写出算式步骤)
+
+Riverside Secondary School has formula exercises on changing the subject. Answer the questions below. Show your working clearly.
+
+Question (a)
+At Riverside Secondary, Mr Lim gives Wei the formula v = u + at.
+(i) Make t the subject. Show your working clearly. Write each step.
+(ii) If v = 30, u = 10, and a = 5, use your formula from part (i) to find the value of t. Show your working.
+
+Question (b)
+Aisha has the formula A = πr² at Riverside Secondary.
+(i) Make r the subject. Leave your answer in terms of √ (square root). Show your working.
+(ii) If A = 64π, use your formula from part (i) to find the value of r. Show your working. (Hint: √64 = 8.)
+(iii) Wei says: 「To make r the subject from A = πr², I can just divide by π and get r = A/π.」 Explain why Wei is wrong. What is the correct method?
+
+Question (c)
+At Riverside Secondary, Mr Lim writes the formula y = mx + c on the board.
+(i) Make x the subject. Show your working clearly.
+(ii) If y = 17, m = 3, and c = 2, use your formula from part (i) to find the value of x. Show your working.
+(iii) Aisha says: 「From y = mx + c, I can make x the subject by writing x = y − m − c.」 Explain step by step why Aisha is wrong. What is the correct working?
+
+写作提示 / Tips:
+✓ 每题分步骤写出推理 (Show working steps for each question)
+✓ Part 2 官方要求：clearly show the method of solution by writing working steps, plus the final answer
+✓ 不用计算器 (No calculators allowed)
+✓ 公式变形 / changing the subject 步骤示范（changing the subject of a formula examples）：
+  • Make t the subject from v = u + at:
+    Question: From the formula v = u + at, make t the subject.
+    Solution: ① Start with v = u + at. ② We want t on its own (the subject). ③ First, remove the u from the right side. Subtract u from both sides: v − u = at. ④ Now t is multiplied by a. To isolate t, divide both sides by a: (v − u)/a = t. ⑤ Rewrite: t = (v − u)/a. Answer: t = (v − u)/a. (Note: Use inverse operations in reverse order. The formula is u + at, so last operation is +u. Undo that first by subtracting u. Then undo ×a by dividing by a. Do NOT subtract u and a separately from v; at is ONE term.)
+  • Make r the subject from A = πr²:
+    Question: From the formula A = πr², make r the subject. Leave your answer in terms of √.
+    Solution: ① Start with A = πr². ② We want r on its own. ③ First, remove the π. Divide both sides by π: A/π = r². ④ Now r is squared. To isolate r, take the square root of both sides: √(A/π) = r. ⑤ Rewrite: r = √(A/π). Answer: r = √(A/π). (Note: The formula is πr², so r is squared AND multiplied by π. Undo ×π first by dividing by π, then undo the square by taking the square root. Do NOT subtract π from A.)
+  • Make x the subject from y = mx + c:
+    Question: From the formula y = mx + c, make x the subject.
+    Solution: ① Start with y = mx + c. ② We want x on its own. ③ First, remove the c. Subtract c from both sides: y − c = mx. ④ Now x is multiplied by m. Divide both sides by m: (y − c)/m = x. ⑤ Rewrite: x = (y − c)/m. Answer: x = (y − c)/m. (Note: The right side is mx + c, so the last operation is +c. Undo that first by subtracting c, then undo ×m by dividing by m. Do NOT subtract m and c separately from y; mx is ONE term.)
+  • Make h the subject from V = lwh:
+    Question: From the formula V = lwh, make h the subject.
+    Solution: ① Start with V = lwh. ② We want h on its own. ③ h is multiplied by l and by w. To isolate h, divide both sides by lw: V/(lw) = h. ④ Rewrite: h = V/(lw). Answer: h = V/(lw). (Note: The right side is lwh, which means l × w × h. To undo this, divide by lw. Do NOT subtract l and w from V; lwh is ONE term. When you divide by lw, you are undoing the multiplication by l and w at the same time.)
+✓ 关键步骤：Step 1: Identify which variable you want to make the subject（确定要变成主项的字母）. Step 2: Use inverse operations in reverse order to isolate that variable（用逆运算按相反顺序分离这个变量）. Step 3: If the variable is added or subtracted, use the opposite operation (undo + with −, undo − with +)（如果变量是加或减的，用相反运算）. Step 4: If the variable is multiplied or divided, use the opposite operation (undo × with ÷, undo ÷ with ×)（如果变量是乘或除的，用相反运算）. Step 5: If the variable is squared, take the square root; if it's square-rooted, square it（如果变量是平方的，开平方根；如果是平方根的，平方）. Step 6: Work in reverse order of the original formula's operations（按原公式运算的相反顺序操作）. Step 7: Write the final formula with the new subject on the left side（最终公式把新主项写在左边）.
+✓ 化石 (fossil errors)：
+  • Doing operations in the wrong order（运算顺序错误）：saying 「from v = u + at, make t the subject」 by subtracting a first instead of subtracting u first（错误：从 v = u + at 变形 t 时，先减 a 而不是先减 u。正确：The right side is u + at, so the operations are: take t, multiply by a, then add u. To undo, work in REVERSE order: subtract u first (undo +u), then divide by a (undo ×a). If you try to subtract a first, you get v − a = u + at − a, which does NOT help isolate t. The correct order is: v − u = at, then (v − u)/a = t.）
+  • Subtracting a term that is multiplied（减去一个被乘的项）：saying 「from v = u + at, make t the subject」 by writing 「t = v − u − a」（错误：从 v = u + at 变形 t 时，写成 t = v − u − a。正确：at is ONE term, meaning a × t, NOT a + t. You cannot subtract a from v − u to get t. After subtracting u, you have v − u = at, which means a × t = v − u. To isolate t, DIVIDE by a, NOT subtract a. The correct answer is t = (v − u)/a. If you write t = v − u − a, you are treating a as if it's added, but it's multiplied.）
+  • Forgetting to take the square root（忘记开平方根）：saying 「from A = πr², make r the subject」 by writing 「r = A/π」（错误：从 A = πr² 变形 r 时，写成 r = A/π。正确：After dividing by π, you get A/π = r², which means r squared = A/π. But we want r, not r². To isolate r, you must take the square root of both sides: r = √(A/π). If you write r = A/π, you are saying r = r², which is wrong. The formula is πr², so you must undo BOTH the ×π (by dividing by π) AND the squaring (by taking the square root).）
+  • 本周教 Sec 2 NUMBER AND ALGEBRA, N5. Algebraic manipulation: 5.10 changing the subject of a formula（N5.10 公式变形 / 变换公式的主体）。本周是 N5.10 only. Make a different letter the subject: from v = u + at make t the subject; from A = πr² make r the subject (leave √); from I = PRT/100 make T the subject; from y = mx + c make x the subject; from V = lwh make h the subject. Inverse operations in reverse order. Friendly integers. No calculator. Avoid π numerical values — leave in terms of π or use a simple square (A = 49π → r = 7). Fossil: doing operations in the wrong order, or subtracting a term that is multiplied (saying 「from v = u + at, make t the subject」 by writing 「t = v − u − a」or「t = (v − u) ÷ a」forgetting that at is ONE term with multiplication). Do not start 5.11 (plug in numbers to find an unknown), identities, or factorisation. Cast: Wei, Aisha, Mr Lim at Riverside Secondary. 本周不教 5.11 finding the value of an unknown quantity in a given formula. 本周不重教 5.9 expansion. 本周不教 5.12 identities. 第 8–56 周已完成 Sec 1 内容。第 57 周已完成 Sec 2 N2.4 map scales. 第 58 周已完成 Sec 2 N2.5 direct and inverse proportion. 第 59 周已完成 Sec 2 N5.9 expansion of the product of algebraic expressions. 本周继续 Sec 2 内容（Sec 3 申请者的 preceding level）。
+
+Note: This is a sample of Part 2 short-answer/open-ended questions. The official paper has 20 short-answer + 10–15 open-ended items in 1 hour 45 minutes.`,
+          points: 20,
+        },
+      ],
+    },
   ];
 
   // =================================================================
