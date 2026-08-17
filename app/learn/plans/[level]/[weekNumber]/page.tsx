@@ -5064,6 +5064,44 @@ const lessonPlans: Record<string, LessonPlan> = {
     ],
     speakingPrompts: null,
   },
+  "SMATH-57": {
+    title: "地图比例尺（距离和面积）— Map scales (distance and area)",
+    mathExample: "1 : 50 000, 2 cm on map → 1 km; 1 : 10 000, 1 cm² on map → 10 000 m²",
+    boardWriting: "SMATH Week 57: Sec 2 N2.4 map scales (distance and area). Scale 1 : n means 1 unit on map = n units on ground. Distance: actual = map × n. Area: 1 cm² on map = n² cm² on ground.",
+    sections: [
+      {
+        name: "课前",
+        duration: "2 分钟",
+        teacherNotes: "欢迎孩子。「今天是第 57 周 AEIS 中学数学，我们学 Sec 2 N2.4 map scales（地图比例尺）。内容是 distance and area（距离和面积）。本周是 Sec 2 N2.4 only，不教 2.5 direct and inverse proportion。第 8–56 周我们已完成 Sec 1 内容，本周开始 Sec 2 内容（Sec 3 申请者的 preceding level）。」告诉孩子本周化石焦点（高频错误）：「本周化石焦点：using the linear scale n for area instead of n²（用线性比例尺 n 当作面积比例尺，而不是用 n²；例如说 1 cm² on a 1 : 50 000 map is 50 000 cm²，错误，正确是 50 000² = 2 500 000 000 cm²）。我们会反复练这个点，直到改掉。」",
+      },
+      {
+        name: "热身",
+        duration: "5 分钟",
+        teacherNotes: "问孩子：「你见过地图吗？地图上有没有看到 1 : 50 000 这样的比例尺？」让孩子简单说一句。然后说：「比例尺 1 : n 的意思是：地图上 1 单位对应实际 n 单位（相同单位）。比如 1 : 50 000 表示地图上 1 cm 对应实际 50 000 cm。今天我们学如何用比例尺算距离和面积。」让孩子跟读一句：「Scale 1 : n means 1 unit on the map corresponds to n of the same units on the ground.」然后问：「如果地图上一条路是 2 cm，比例尺 1 : 50 000，实际长度是多少？」等孩子想一下（不必马上答对，下一环节会教）。如果孩子说对了，鼓励「Good!」；如果不确定，说「没关系，接下来我们一起看微课例题。」",
+      },
+      {
+        name: "化石",
+        duration: "10 分钟",
+        teacherNotes: "打开屏幕共享或白板，写下本周化石错误：「Fossil: 1 cm² on a 1 : 50 000 map is 50 000 cm² on the ground. ✗」说明：「这是化石化错误：用线性比例尺 n 当作面积比例尺。正确做法：For area, the scale is the SQUARE of the linear scale（面积比例尺是线性比例尺的平方）。1 cm² on a 1 : n map = n² cm² on the ground. 比如 1 cm² on a 1 : 50 000 map = 50 000² cm² = 2 500 000 000 cm² on the ground，不是 50 000 cm²。线性比例尺 1 : 50 000 只用于距离（distance）：1 cm on the map = 50 000 cm on the ground. 对于面积（area），我们必须平方（square the scale）：1 cm² on the map = 50 000² cm² on the ground. 如果你用 50 000 而不是 50 000²，面积就会算错很多倍。」让孩子跟读一句：「For distance, actual = map × n. For area, actual = map × n².」再举一个例子：「比如 1 : 10 000 地图，1 cm² on the map 不是 10 000 cm² on the ground，而是 10 000² = 100 000 000 cm² on the ground。」让孩子看懂这个点，这是本周唯一的化石焦点。",
+      },
+      {
+        name: "示范",
+        duration: "15 分钟",
+        teacherNotes: "示范四道例题（在屏幕上或白板上边写边讲）：\n\n例题 1: Distance (map → actual in km): On a 1 : 50 000 map, a river is 2 cm long. Find the actual length in km.\nMap length = 2 cm. Scale 1 : 50 000 means 1 cm on map = 50 000 cm on ground. Actual length = 2 × 50 000 = 100 000 cm. Convert to km: 100 000 cm = 1 km. Answer: 1 km. (Note: Use the linear scale for distance. Multiply map length by the scale factor.)\n\n例题 2: Distance (actual → map): On a 1 : 20 000 map, the actual distance is 4 km. Find the map length in cm.\nActual distance = 4 km. Convert to cm: 4 km = 4 × 100 000 = 400 000 cm. Scale 1 : 20 000 means 1 cm on map = 20 000 cm on ground, so map length = actual length ÷ 20 000. Map length = 400 000 ÷ 20 000 = 20 cm. Answer: 20 cm. (Note: To find map length, divide actual length by the scale factor.)\n\n例题 3: Area (map → actual in m²): On a 1 : 10 000 map, a square is 1 cm². Find the actual area in m².\nMap area = 1 cm². For area, the scale is the square of the linear scale. 1 cm² on map = 10 000² cm² on ground = 100 000 000 cm². Convert to m²: 100 000 000 cm² ÷ 10 000 = 10 000 m². Answer: 10 000 m². (Note: For area, square the linear scale. 1 cm² on a 1 : n map = n² cm² on the ground, NOT n cm².)\n\n例题 4: Area (map → actual in cm²): On a 1 : 50 000 map, a region is 2 cm². Find the actual area in cm².\nMap area = 2 cm². Scale 1 : 50 000 means 1 cm² on map = 50 000² cm² on ground. 2 cm² on map = 2 × 50 000² = 2 × 2 500 000 000 = 5 000 000 000 cm². Answer: 5 000 000 000 cm². (Note: Area scale = (linear scale)². For 2 cm², multiply 2 by 50 000².)\n\n让孩子跟读关键步骤：Distance: actual = map × n（距离：实际 = 地图 × n）. Area: actual = map × n²（面积：实际 = 地图 × n²）.",
+      },
+      {
+        name: "练习",
+        duration: "15 分钟",
+        teacherNotes: "给孩子 5 道题目让他/她在纸上算（教师不给完整答案，只给提示，让孩子自己写出 working steps）：\n\n练习 1: On a 1 : 100 000 map, a road is 5 cm long. Find the actual length in km. (提示：算 actual length in cm，然后换算成 km.) 期待答案：5 × 100 000 = 500 000 cm = 5 km.\n\n练习 2: On a 1 : 20 000 map, the actual distance is 6 km. Find the map length in cm. (提示：先把 6 km 换算成 cm，然后除以 20 000.) 期待答案：6 km = 600 000 cm. Map length = 600 000 ÷ 20 000 = 30 cm.\n\n练习 3: On a 1 : 10 000 map, a park is 4 cm long on the map. Find the actual length in metres. (提示：算 actual length in cm，然后换算成 m.) 期待答案：4 × 10 000 = 40 000 cm = 400 m.\n\n练习 4: On a 1 : 10 000 map, a lake is 2 cm². Find the actual area in m². (提示：For area, use n².) 期待答案：2 × 10 000² = 2 × 100 000 000 = 200 000 000 cm². 200 000 000 ÷ 10 000 = 20 000 m².\n\n练习 5: On a 1 : 50 000 map, a field is 3 cm². Find the actual area in cm². (提示：3 × 50 000² = ?) 期待答案：3 × 50 000² = 3 × 2 500 000 000 = 7 500 000 000 cm².\n\n如果孩子卡住，教师给词提示（例如：「用 n 还是 n²？」或「100 cm = 1 m, 100 000 cm = 1 km, 10 000 cm² = 1 m²」），但不直接说出答案。孩子算完后，教师检查 working steps 和公式（distance: actual = map × n; area: actual = map × n²）。",
+      },
+      {
+        name: "收口",
+        duration: "3 分钟",
+        teacherNotes: "总结本周重点：(1) 官方 Sec 2 AEIS 数学卷型：Part 1 MCQ 34 题 30 分钟 + Part 2 show working 20+10–15 题 1 小时 45 分钟，不用计算器。(2) 本周内容：Sec 2 NUMBER AND ALGEBRA, N2. Ratio and proportion: 2.4 map scales (distance and area)（地图比例尺，距离和面积）。本周是 N2.4 only. Scale 1 : n means 1 unit on the map corresponds to n of the same units on the ground. Distance: actual length = map length × n (same units), then convert (100 cm = 1 m, 100 000 cm = 1 km). Map length = actual length ÷ n. Area: the area scale is the SQUARE of the linear scale. 1 cm² on a 1 : n map = n² cm² on the ground. Then convert: 10 000 cm² = 1 m². Friendly integers: scales 1 : 10 000, 1 : 20 000, 1 : 50 000, 1 : 100 000. Examples: 1 : 50 000, 2 cm on map → 1 km; 1 : 10 000, 1 cm² on map → 10 000 m². Fossil: using the linear scale n for area instead of n²（用 n 当面积比例尺，而不是用 n²）. Cast: Wei, Aisha, Mr Lim at Riverside Secondary. No calculator. 本周不教 2.5 direct and inverse proportion. 第 8–56 周已完成 Sec 1 内容。本周开始 Sec 2 内容（Sec 3 申请者的 preceding level）。(3) 下周预告（如有下周课程）：继续 Sec 2 或后续内容。(4) 作业：完成 app 上的 Week 57 题目（reading MCQ 5 题 + grammar MCQ 8 题 + writing show-working 3 题）。Show working steps clearly. 对家长说：「本周化石焦点：using the linear scale n for area instead of n²（用线性比例尺 n 当作面积比例尺，而不是用 n²；For area, 1 cm² on a 1 : n map = n² cm² on the ground, NOT n cm²）。请在家长端查看孩子的作业提交，关注这个化石错误。」对孩子说：「Great work today! Remember: For distance, actual = map × n. For area, actual = map × n².」鼓励孩子并结束课程。",
+      },
+    ],
+    speakingPrompts: null,
+  },
 };
 
 export default async function LessonPlanPage({

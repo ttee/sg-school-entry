@@ -12062,6 +12062,99 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
         },
       ],
     },
+    {
+      level: "SMATH",
+      weekNumber: 57,
+      title: "地图比例尺 — Map scales (distance and area)",
+      description: "Sec 2 N2.4: map scales (distance and area) (AEIS 中学数学第 57 周 / SMATH Week 57)",
+      isSample: false,
+      errorFocus: "using the linear scale n for area instead of n² (saying 1 cm² on a 1 : 50 000 map is 50 000 cm²)",
+      parentBrief: "本周是中学 AEIS 数学第 57 周，对应官方 SEAB Sec 2 卷型（https://www.seab.gov.sg/aeis/test-details/ 2026年7月1日更新）。Part 1 Multiple-choice questions：34 道 MCQ，30 分钟。Part 2 Short-answer questions (20 items) and open-ended questions (10 to 15 items)：1 小时 45 分钟。Calculators are not allowed（不允许使用计算器）。Short-answer and open-ended questions：candidates are required to show the method of solution clearly by writing working steps in the spaces provided, plus the final answer（需写出算式步骤和最终答案）。AEIS-Secondary 官方 preceding-level 规则：申请 Sec 3 入学者需熟悉 Sec 3 前一级的内容。官方举例：apply Secondary 3 → be familiar with Secondary 2 content. 本周针对 Sec 3 申请者，内容为 Sec 3 前一级（Sec 2）的官方 MOE 2020 G3 Mathematics Syllabuses, Secondary Two, NUMBER AND ALGEBRA, N2. Ratio and proportion: 2.4 map scales (distance and area)（地图比例尺，距离和面积）。官方 N2.4 wording（逐字引用）：「map scales (distance and area)」。本周只教 N2.4 map scales (distance and area)（地图比例尺，距离和面积）。本周不教 2.5 direct and inverse proportion（正比和反比）。第 8–56 周已完成 Sec 1 内容。本周开始 Sec 2 内容（Sec 3 申请者的 preceding level）。本周方法：A scale 1 : n means 1 unit on the map corresponds to n of the same units on the ground（比例尺 1 : n 表示地图上 1 个单位对应地面上 n 个相同单位）。Distance: actual length = map length × n (same units), then convert（实际长度 = 地图长度 × n，同单位，然后换算）。Map length = actual length ÷ n. For example: 1 : 50 000, 2 cm on the map → 2 × 50 000 = 100 000 cm = 1 km. Area: the area scale is the SQUARE of the linear scale（面积比例尺是线性比例尺的平方）。1 cm² on a 1 : n map = n² cm² on the ground（地图上 1 cm² = 实际 n² cm²）。Then convert（然后换算单位）：10 000 cm² = 1 m², 1 000 000 m² = 1 km² or 100 000 000 000 cm² = 1 km². For example: 1 : 50 000, 1 cm² on the map → 50 000² = 2 500 000 000 cm²; or 1 : 10 000, 1 cm² on the map → 10 000² = 100 000 000 cm² = 10 000 m². Friendly integers: scales 1 : 10 000, 1 : 20 000, 1 : 50 000, 1 : 100 000. Examples: 1 : 50 000, 2 cm on map → 1 km; 1 : 10 000, 1 cm² on map → 10 000 m². Fossil: using the linear scale n for area instead of n²（用线性比例尺 n 当作面积比例尺，而不是用 n²；例如说 1 cm² on a 1 : 50 000 map is 50 000 cm²，错误，正确是 50 000² = 2 500 000 000 cm²）。唯一性 unique keys：2 cm on 1 : 50 000 → 1 km and 100 000 cm are the SAME length（2 cm 在 1 : 50 000 地图上 → 1 km 和 100 000 cm 是同一个长度）。Never put both as options if the stem would make both true（如果题干让两者都对，永远不要同时把两者作为选项）。Ask for one unit (km or m)（问一个单位）。Linear n and area n² must not both be keyed correct（线性 n 和面积 n² 不能同时被标记为正确答案）。「Which is NOT」or「Is X correct?」must have exactly one true option（「哪个不对」或「X 对吗」题型必须有且仅有一个真选项）。No two Yes/No+reason options that are both true（不能有两个 Yes/No+理由 选项都对）。Never write a 「Which is NOT」 item whose keyed A option is actually the correct working（永远不要写一个「哪个不对」题，其 A 选项实际上是正确算式）。No「Both A and B」or「All of A and C」meta-options（不要「A 和 B 都对」「A 和 C 都对」这样的元选项）。本周作业是样本，不是完整 34 + 20 + 10–15 题。非官方机构运营（affiliation 非官方机构 is OK）。不发明官方未提及的内容（do not invent official facts）。不声称 AEIS 是 G3 paper（G3 只是官方 preceding-level 内容来源）。不发明官方 cut-scores 或 extra official names。第 8–56 周已完成 Sec 1 内容，本周开始 Sec 2（Sec 3 申请者的 preceding level）。本周只教 N2.4 map scales (distance and area)（地图比例尺，距离和面积）。本周不教 2.5 direct and inverse proportion。Cast: Wei, Aisha, Mr Lim at Riverside Secondary School。No calculator。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "At Riverside Secondary, Mr Lim shows a map with scale 1 : 50 000. He asks Wei: 「A road is 2 cm long on the map. How long is the actual road in kilometres?」 Which working is correct?|A. Map length 2 cm. Actual length = 2 × 50 000 = 100 000 cm. 100 000 cm = 1 km. Answer: 1 km.|B. Actual length = 2 × 50 000 = 100 000 km.|C. Actual length = 50 000 ÷ 2 = 25 000 cm.|D. Map scale 1 : 50 000 means 1 cm on map = 50 km on ground, so 2 cm = 100 km.",
+            "Aisha has a map with scale 1 : 10 000. A park is 3 cm long on the map. What is the actual length in metres?|A. Actual length = 3 × 10 000 = 30 000 cm = 300 m.|B. Actual length = 3 × 10 000 = 30 000 m.|C. Actual length = 10 000 ÷ 3 cm.|D. Actual length = 3 ÷ 10 000 = 0.0003 m.",
+            "At Riverside Secondary, Mr Lim asks: 「On a 1 : 20 000 map, the actual distance between two towns is 4 km. How long is this distance on the map?」 Which is correct?|A. 4 km = 4 × 100 000 = 400 000 cm. Map length = 400 000 ÷ 20 000 = 20 cm.|B. Map length = 4 × 20 000 = 80 000 cm = 80 km.|C. Map length = 4 ÷ 20 000 = 0.0002 cm.|D. Map length = 20 000 × 4 = 80 000 cm = 800 m on the map.",
+            "Wei at Riverside Secondary has a map with scale 1 : 50 000. He measures a region on the map: 1 cm². Mr Lim asks: 「What is the actual area in cm²?」 Which working is correct?|A. 1 cm² on map = 50 000² cm² on ground = 2 500 000 000 cm².|B. 1 cm² on map = 50 000 cm² on ground.|C. Actual area = 1 × 50 000 = 50 000 cm².|D. Actual area = 1 ÷ 50 000 = 0.00002 cm².",
+            "Aisha has a map with scale 1 : 10 000. A square on the map is 1 cm². Mr Lim asks: 「What is the actual area of this square in m²?」 Which is correct?|A. 1 cm² on map = 10 000² cm² on ground = 100 000 000 cm² = 10 000 m².|B. 1 cm² on map = 10 000 cm² on ground = 1 m².|C. Actual area = 10 000 cm².|D. Actual area = 1 000 m².",
+          ]),
+          correctAnswer: "A,A,A,A,A",
+          points: 10,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "At Riverside Secondary, Wei has a map with scale 1 : 100 000. A river is 5 cm long on the map. What is the actual length in kilometres?|A. Actual length = 5 × 100 000 = 500 000 cm = 5 km.|B. Actual length = 5 × 100 000 = 500 000 km.|C. Actual length = 100 000 ÷ 5 = 20 000 cm.|D. Actual length = 5 ÷ 100 000 = 0.00005 km.",
+            "Aisha has a map with scale 1 : 20 000. The actual distance between two buildings is 6 km. How long is this distance on the map?|A. 6 km = 600 000 cm. Map length = 600 000 ÷ 20 000 = 30 cm.|B. Map length = 6 × 20 000 = 120 000 cm = 120 km.|C. Map length = 6 ÷ 20 000 = 0.0003 cm.|D. Map length = 20 000 ÷ 6 cm.",
+            "At Riverside Secondary, Mr Lim asks: 「On a 1 : 10 000 map, 4 cm on the map represents how many metres on the ground?」 Which is correct?|A. 4 cm on map → 4 × 10 000 = 40 000 cm = 400 m.|B. 4 cm on map → 4 × 10 000 = 40 000 m.|C. 4 cm on map → 10 000 ÷ 4 = 2 500 m.|D. 4 cm on map → 4 ÷ 10 000 = 0.0004 m.",
+            "Wei has a map with scale 1 : 50 000. A region on the map is 2 cm². What is the actual area in cm²?|A. 2 cm² on map → 2 × 50 000² = 2 × 2 500 000 000 = 5 000 000 000 cm².|B. 2 cm² on map → 2 × 50 000 = 100 000 cm².|C. 2 cm² on map → 50 000² = 2 500 000 000 cm².|D. 2 cm² on map → 50 000 ÷ 2 = 25 000 cm².",
+            "Aisha at Riverside Secondary has a map with scale 1 : 20 000. A field on the map is 3 cm². Mr Lim asks: 「What is the actual area of this field in m²?」 Which working is correct?|A. 3 cm² on map → 3 × 20 000² cm² on ground → 3 × 400 000 000 cm² → 1 200 000 000 cm². 1 200 000 000 cm² ÷ 10 000 = 120 000 m².|B. 3 cm² on map → 3 × 20 000 = 60 000 cm² = 6 m².|C. 3 cm² on map → 20 000² = 400 000 000 m².|D. 3 cm² on map → 3 × 20 000 = 60 000 m².",
+            "At Riverside Secondary, Wei says: 「On a 1 : 50 000 map, 1 cm² on the map is 50 000 cm² on the ground.」 Is Wei correct?|A. No, Wei is wrong. For area, we use the square of the linear scale. 1 cm² on a 1 : 50 000 map = 50 000² cm² on the ground = 2 500 000 000 cm², not 50 000 cm². The linear scale applies to distance, but for area we must square it.|B. Yes, Wei is correct. 1 cm² on the map = 50 000 cm² on the ground.|C. No, Wei is wrong. 1 cm² on the map = 50 000 m² on the ground.|D. Yes, Wei is correct. The scale 1 : 50 000 means 1 cm² on the map is 50 000 cm² on the ground.",
+            "Mr Lim at Riverside Secondary shows a map with scale 1 : 10 000. He asks Aisha: 「A lake on the map is 4 cm². What is the actual area of the lake in m²?」 Which is correct?|A. 4 cm² on map → 4 × 10 000² cm² on ground → 4 × 100 000 000 cm² → 400 000 000 cm². 400 000 000 cm² ÷ 10 000 = 40 000 m².|B. 4 cm² on map → 4 × 10 000 = 40 000 cm² = 4 m².|C. 4 cm² on map → 10 000² = 100 000 000 m².|D. 4 cm² on map → 4 × 10 000 = 40 000 cm².",
+            "Wei has a map with scale 1 : 50 000. The actual distance is 8 km. What is the map length in cm?|A. 8 km = 800 000 cm. Map length = 800 000 ÷ 50 000 = 16 cm.|B. Map length = 8 × 50 000 = 400 000 cm.|C. Map length = 50 000 ÷ 8 = 6 250 cm.|D. Map length = 8 km = 8 cm on the map.",
+          ]),
+          correctAnswer: "A,A,A,A,A,A,A,A",
+          points: 16,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `Part 2: Show Your Working (写出算式步骤)
+
+Riverside Secondary School has map scale exercises on distance and area. Answer the questions below. Show your working clearly.
+
+Question (a)
+At Riverside Secondary, Mr Lim gives Wei a map with scale 1 : 50 000. On the map, a road is 3 cm long.
+(i) Calculate the actual length of the road in cm. Show your working.
+(ii) Convert the actual length from part (i) to kilometres. Show your working.
+
+Question (b)
+Aisha has a map with scale 1 : 20 000. The actual distance between two schools is 5 km.
+(i) Convert 5 km to cm. Show your working.
+(ii) Calculate the map length in cm. Show your working.
+
+Question (c)
+At Riverside Secondary, Wei has a map with scale 1 : 10 000. On the map, a park is 2 cm².
+(i) Calculate the actual area of the park in cm². Show your working. (Hint: For area, use the square of the linear scale.)
+(ii) Convert the actual area from part (i) to m². Show your working. (1 m² = 10 000 cm².)
+(iii) Aisha says: 「On a 1 : 10 000 map, 2 cm² on the map is 2 × 10 000 = 20 000 cm² on the ground.」 Explain why Aisha is wrong. What is the correct method for finding the actual area?
+
+写作提示 / Tips:
+✓ 每题分步骤写出推理 (Show working steps for each question)
+✓ Part 2 官方要求：clearly show the method of solution by writing working steps, plus the final answer
+✓ 不用计算器 (No calculators allowed)
+✓ 地图比例尺 distance and area 步骤示范（map scales distance and area examples）：
+  • Distance: 1 : 50 000, 2 cm on map → actual length:
+    Question: On a 1 : 50 000 map, a river is 2 cm long. Find the actual length in km.
+    Solution: ① Map length = 2 cm. ② Scale 1 : 50 000 means 1 cm on map = 50 000 cm on ground. ③ Actual length = 2 × 50 000 = 100 000 cm. ④ Convert to km: 100 000 cm = 1 km. Answer: 1 km. (Note: Use the linear scale for distance. Multiply map length by the scale factor.)
+  • Distance: actual → map length:
+    Question: On a 1 : 20 000 map, the actual distance is 4 km. Find the map length in cm.
+    Solution: ① Actual distance = 4 km. ② Convert to cm: 4 km = 4 × 100 000 = 400 000 cm. ③ Scale 1 : 20 000 means 1 cm on map = 20 000 cm on ground, so map length = actual length ÷ 20 000. ④ Map length = 400 000 ÷ 20 000 = 20 cm. Answer: 20 cm. (Note: To find map length, divide actual length by the scale factor.)
+  • Area: 1 : 10 000, 1 cm² on map → actual area in m²:
+    Question: On a 1 : 10 000 map, a square is 1 cm². Find the actual area in m².
+    Solution: ① Map area = 1 cm². ② For area, the scale is the square of the linear scale. ③ 1 cm² on map = 10 000² cm² on ground = 100 000 000 cm². ④ Convert to m²: 100 000 000 cm² ÷ 10 000 = 10 000 m². Answer: 10 000 m². (Note: For area, square the linear scale. 1 cm² on a 1 : n map = n² cm² on the ground, NOT n cm².)
+  • Area: 1 : 50 000, 2 cm² on map → actual area in cm²:
+    Question: On a 1 : 50 000 map, a region is 2 cm². Find the actual area in cm².
+    Solution: ① Map area = 2 cm². ② Scale 1 : 50 000 means 1 cm² on map = 50 000² cm² on ground. ③ 2 cm² on map = 2 × 50 000² = 2 × 2 500 000 000 = 5 000 000 000 cm². Answer: 5 000 000 000 cm². (Note: Area scale = (linear scale)². For 2 cm², multiply 2 by 50 000².)
+✓ 关键步骤：Step 1: Identify the scale（确定比例尺：1 : n）. Step 2: For distance, actual length = map length × n（对于距离：实际长度 = 地图长度 × n）; map length = actual length ÷ n（地图长度 = 实际长度 ÷ n）. Step 3: For area, actual area = map area × n²（对于面积：实际面积 = 地图面积 × n²）. The area scale is the SQUARE of the linear scale（面积比例尺是线性比例尺的平方）. Step 4: Convert units if needed（如果需要，换算单位：100 cm = 1 m, 100 000 cm = 1 km, 10 000 cm² = 1 m²）. Step 5: State the final answer with units（陈述最终答案并带单位 cm, m, km for distance; cm², m² for area）.
+✓ 化石 (fossil errors)：
+  • Using the linear scale n for area instead of n²（用线性比例尺 n 当作面积比例尺，而不是用 n²）：saying 「1 cm² on a 1 : 50 000 map is 50 000 cm² on the ground」（错误：1 cm² on a 1 : 50 000 map is 50 000 cm² on the ground。正确：For area, the scale is the SQUARE of the linear scale. 1 cm² on a 1 : 50 000 map = 50 000² cm² on the ground = 2 500 000 000 cm². The linear scale 1 : 50 000 means 1 cm on the map = 50 000 cm on the ground (for distance). But for area, we must square the scale: 1 cm² on the map = 50 000² cm² on the ground. If you use 50 000 instead of 50 000², you get the wrong area. For example, 1 cm² on a 1 : 10 000 map is NOT 10 000 cm² on the ground; it is 10 000² = 100 000 000 cm² on the ground.）
+  • Forgetting to convert units（忘记换算单位）：saying 「Actual length = 2 × 50 000 = 100 000 km」instead of 100 000 cm = 1 km（错误：直接说 Actual length = 100 000 km。正确：Actual length = 2 × 50 000 = 100 000 cm. Then convert to km: 100 000 cm ÷ 100 000 = 1 km. When you multiply by the scale, you get the same units (cm × 50 000 = 100 000 cm, NOT km). You must convert separately: 100 cm = 1 m, 100 000 cm = 1 km, 10 000 cm² = 1 m².）
+  • 本周教 Sec 2 NUMBER AND ALGEBRA, N2. Ratio and proportion: 2.4 map scales (distance and area)（N2.4 地图比例尺，距离和面积）。本周是 N2.4 only. Scale 1 : n means 1 unit on the map = n of the same units on the ground（比例尺 1 : n 表示地图上 1 单位 = 实际 n 单位）。Distance: actual length = map length × n (same units), then convert. Map length = actual length ÷ n. Area: the area scale is the SQUARE of the linear scale（面积比例尺是线性比例尺的平方）。1 cm² on a 1 : n map = n² cm² on the ground. Then convert: 10 000 cm² = 1 m², 1 000 000 m² = 1 km². Friendly integers: scales 1 : 10 000, 1 : 20 000, 1 : 50 000, 1 : 100 000. Examples: 1 : 50 000, 2 cm on map → 1 km; 1 : 10 000, 1 cm² on map → 10 000 m². Fossil: using n for area instead of n²（用 n 当面积比例尺，而不是用 n²）。No calculator. Units: cm, m, km for distance; cm², m² for area. Cast: Wei, Aisha, Mr Lim at Riverside Secondary. 本周不教 2.5 direct and inverse proportion。第 8–56 周已完成 Sec 1 内容，本周开始 Sec 2（Sec 3 申请者的 preceding level）。
+
+Note: This is a sample of Part 2 short-answer/open-ended questions. The official paper has 20 short-answer + 10–15 open-ended items in 1 hour 45 minutes.`,
+          points: 20,
+        },
+      ],
+    },
   ];
 
   // =================================================================
