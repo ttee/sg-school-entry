@@ -11776,6 +11776,96 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
         },
       ],
     },
+    {
+      level: "SMATH",
+      weekNumber: 54,
+      title: "数学 第 54 周 / Maths Week 54",
+      description: "AEIS-Secondary Mathematics: Sec 1 volume and surface area of prism and cylinder (G5.3 only)",
+      isSample: false,
+      errorFocus: "using 2πr or πr² as the volume of a cylinder (not πr²h); forgetting the two circular bases when finding the surface area of a closed cylinder (using only 2πrh instead of 2πr² + 2πrh)",
+      parentBrief: "本周是中学 AEIS 数学第 54 周，对应官方 SEAB Sec 1 卷型（https://www.seab.gov.sg/aeis/test-details/ 2026年7月1日更新）。Part 1 Multiple-choice questions：34 道 MCQ，30 分钟。Part 2 Short-answer questions (20 items) and open-ended questions (10 to 15 items)：1 小时 45 分钟。Calculators are not allowed（不允许使用计算器）。Short-answer and open-ended questions：candidates are required to show the method of solution clearly by writing working steps in the spaces provided, plus the final answer（需写出算式步骤和最终答案）。AEIS-Secondary 官方 preceding-level 规则：申请 Sec 2 入学者需熟悉 Sec 2 前一级的内容。官方举例：apply Secondary 3 → be familiar with Secondary 2 content. 本周针对 Sec 2 申请者，内容为 Sec 2 前一级（Sec 1）的官方 MOE 2020 G3 Mathematics Syllabuses, Secondary One, GEOMETRY AND MEASUREMENT, G5. Mensuration: 5.3 volume and surface area of prism and cylinder（棱柱体积表面积 / 圆柱体积表面积）。官方 5.3 wording（逐字引用）：「volume and surface area of prism and cylinder」。本周只教 G5.3 volume and surface area of prism and cylinder（棱柱和圆柱的体积和表面积）。本周不教 5.4 conversion between cm² and m², and between cm³ and m³（单位换算 cm²↔m²、cm³↔m³），不教 5.5 problems involving volume and surface area of composite solids（组合立体图形的体积和表面积）。第 52–53 周已完成 G5.1–G5.2。本周方法：Prism（棱柱）volume = area of uniform cross-section (base) × length/height（底面积 × 高）。Cuboid is a rectangular prism: V = lwh，SA = 2(lw+lh+wh). Surface area of a prism = 2 × base area + (perimeter of base) × length. Cylinder（圆柱）volume = πr²h. Surface area of a closed cylinder = 2πr² + 2πrh（两个圆形底面 + 侧面）。If the stem says open (no lid), use πr² + 2πrh. Friendly integers: for π use 22/7 with r a multiple of 7 (r = 7, 14) so answers are integers, OR leave answers in terms of π (e.g. 98π cm³) — pick ONE convention per item. Units: cm³ for volume, cm² for surface area. No cm³↔m³ conversion (that is 5.4). No L-shaped prism / composite solid (that is 5.5). 本周化石 fossil errors：using 2πr or πr² as the volume of a cylinder（用 2πr 或 πr² 当作圆柱体积，正确是 πr²h）；forgetting the two circular bases when finding the surface area of a closed cylinder（忘记两个圆形底面，只用侧面积 2πrh，正确是 2πr² + 2πrh）。唯一性 unique keys：Volume and surface area of the same solid are different numbers — do not offer both as if they answer the same stem（同一个立体的体积和表面积是不同的数值 — 不要把两者都作为选项，如果题目只问一个）。2πr²+2πrh and 2πr(r+h) are the SAME closed-cylinder SA. Never both as options（2πr²+2πrh 和 2πr(r+h) 是同一个闭合圆柱表面积，不要同时出现为两个选项）。πr²h with π=22/7 and the equivalent integer must not both appear as options（πr²h 用 π=22/7 的形式和等价整数不能同时作为选项）。本周作业是样本，不是完整 34 + 20 + 10–15 题。非官方机构运营（affiliation 非官方机构 is OK）。不发明官方未提及的内容（do not invent official facts）。不声称 AEIS 是 G3 paper（G3 只是官方 preceding-level 内容来源）。不发明官方 cut-scores 或 extra official names。第 52–53 周已完成 G5.1–G5.2，本周只教 G5.3 volume and surface area of prism and cylinder（棱柱和圆柱的体积和表面积）。本周不教 5.4 unit conversion，不教 5.5 composite solids。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "At Riverside Secondary, Mr Lim shows a cuboid with length 8 cm, width 5 cm, and height 4 cm. He asks Wei: 「What is the volume of this cuboid?」 Which working is correct?|A. Volume = 8 × 5 × 4 = 160 cm³|B. Volume = 2(8 + 5 + 4) = 34 cm³|C. Volume = 8 + 5 + 4 = 17 cm³|D. Volume = 2(8×5 + 8×4 + 5×4) = 184 cm³",
+            "Aisha has a cylinder at Riverside Secondary. The radius is 7 cm and the height is 10 cm. Mr Lim asks: 「What is the volume of this cylinder? Use π = 22/7.」 Which working is correct?|A. Volume = πr²h = 22/7 × 7 × 7 × 10 = 1540 cm³|B. Volume = 2πr = 2 × 22/7 × 7 = 44 cm³|C. Volume = πr² = 22/7 × 7 × 7 = 154 cm³|D. Volume = 2πrh = 2 × 22/7 × 7 × 10 = 440 cm³",
+            "At Riverside Secondary, Wei has a closed cylinder with radius 7 cm and height 6 cm. He wants to find the surface area. Use π = 22/7. Which working is correct?|A. Surface area = 2πr² + 2πrh = 2 × 22/7 × 49 + 2 × 22/7 × 7 × 6 = 308 + 264 = 572 cm²|B. Surface area = 2πrh = 2 × 22/7 × 7 × 6 = 264 cm²|C. Surface area = πr² = 22/7 × 49 = 154 cm²|D. Surface area = 2πr = 2 × 22/7 × 7 = 44 cm²",
+            "Mr Lim at Riverside Secondary gives a cuboid with length 10 cm, width 6 cm, and height 5 cm. Aisha calculates: 「Surface area = 2(10×6 + 10×5 + 6×5) = 2(60 + 50 + 30) = 280 cm²」. Is Aisha correct?|A. Yes, Aisha is correct. The surface area formula for a cuboid is SA = 2(lw + lh + wh).|B. No, Aisha is wrong. The surface area is 10 + 6 + 5 = 21 cm².|C. No, Aisha is wrong. The surface area is 10 × 6 × 5 = 300 cm².|D. No, Aisha is wrong. The formula should be 10 + 10 + 6 + 6 + 5 + 5 = 42 cm².",
+            "At Riverside Secondary, Wei has a rectangular prism with a rectangular base of 12 cm by 4 cm, and height 5 cm. Mr Lim asks: 「What is the volume of this prism?」 Which is correct?|A. Volume = area of base × height = (12 × 4) × 5 = 48 × 5 = 240 cm³|B. Volume = 12 + 4 + 5 = 21 cm³|C. Volume = 12 × 5 = 60 cm³|D. Volume = 2(12 × 4) + 2(12 × 5) + 2(4 × 5) = 256 cm³",
+          ]),
+          correctAnswer: "A,A,A,A,A",
+          points: 10,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "At Riverside Secondary, Aisha has a cylinder with radius 14 cm and height 8 cm. What is the volume? Use π = 22/7.|A. Volume = πr²h = 22/7 × 14 × 14 × 8 = 4928 cm³|B. Volume = 2πr = 2 × 22/7 × 14 = 88 cm³|C. Volume = πr² = 22/7 × 14 × 14 = 616 cm³|D. Volume = 2πrh = 2 × 22/7 × 14 × 8 = 704 cm³",
+            "Wei at Riverside Secondary has a closed cylinder with radius 7 cm and height 12 cm. What is the surface area? Use π = 22/7.|A. Surface area = 2πr² + 2πrh = 2 × 22/7 × 49 + 2 × 22/7 × 7 × 12 = 308 + 528 = 836 cm²|B. Surface area = 2πrh = 2 × 22/7 × 7 × 12 = 528 cm²|C. Surface area = πr²h = 22/7 × 49 × 12 = 1848 cm²|D. Surface area = 2πr² = 2 × 22/7 × 49 = 308 cm²",
+            "Mr Lim at Riverside Secondary shows a cuboid with length 12 cm, width 8 cm, and height 5 cm. What is the volume?|A. Volume = 12 × 8 × 5 = 480 cm³|B. Volume = 2(12 + 8 + 5) = 50 cm³|C. Volume = 2(12×8 + 12×5 + 8×5) = 392 cm³|D. Volume = 12 + 8 + 5 = 25 cm³",
+            "Aisha has a rectangular prism at Riverside Secondary. The base is a rectangle 15 cm by 6 cm. The height is 4 cm. What is the volume?|A. Volume = (15 × 6) × 4 = 90 × 4 = 360 cm³|B. Volume = 15 + 6 + 4 = 25 cm³|C. Volume = 15 × 4 = 60 cm³|D. Volume = 2(15 × 6) + 4 = 184 cm³",
+            "Wei at Riverside Secondary has a cylinder with radius 7 cm and height 9 cm. He wants to find the volume. Use π = 22/7. Which is NOT the correct working?|A. Volume = πr²h = 22/7 × 7 × 7 × 9 = 1386 cm³|B. Volume = 2πr = 2 × 22/7 × 7 = 44 cm³|C. Volume = 22/7 × 49 × 9 = 1386 cm³|D. All of A and C are correct",
+            "Mr Lim at Riverside Secondary shows an open cylindrical container (no lid) with radius 7 cm and height 5 cm. He asks: 「What is the surface area of this open cylinder? It has one circular base and the curved surface.」 Use π = 22/7. Which is correct?|A. Surface area = πr² + 2πrh = 22/7 × 49 + 2 × 22/7 × 7 × 5 = 154 + 220 = 374 cm²|B. Surface area = 2πr² + 2πrh = 2 × 22/7 × 49 + 2 × 22/7 × 7 × 5 = 528 cm²|C. Surface area = 2πrh = 2 × 22/7 × 7 × 5 = 220 cm²|D. Surface area = πr²h = 22/7 × 49 × 5 = 770 cm²",
+            "Aisha at Riverside Secondary has a cuboid with dimensions 9 cm, 6 cm, and 4 cm. What is the surface area?|A. Surface area = 2(9×6 + 9×4 + 6×4) = 2(54 + 36 + 24) = 228 cm²|B. Surface area = 9 × 6 × 4 = 216 cm²|C. Surface area = 9 + 6 + 4 = 19 cm²|D. Surface area = 2(9 + 6 + 4) = 38 cm²",
+            "Wei has a cylinder at Riverside Secondary with radius 14 cm and height 3 cm. Mr Lim asks: 「What is the volume? Leave your answer in terms of π.」 Which is correct?|A. Volume = πr²h = π × 14 × 14 × 3 = 588π cm³|B. Volume = 2πr = 2π × 14 = 28π cm³|C. Volume = πr² = π × 14 × 14 = 196π cm³|D. Volume = 2πrh = 2π × 14 × 3 = 84π cm³",
+          ]),
+          correctAnswer: "A,A,A,A,B,A,A,A",
+          points: 16,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `Part 2: Show Your Working (写出算式步骤)
+
+Riverside Secondary School has mensuration exercises on prisms and cylinders. Answer the questions below. Show your working clearly.
+
+Question (a)
+At Riverside Secondary, Mr Lim shows a cuboid with length 10 cm, width 6 cm, and height 8 cm.
+(i) Calculate the volume of the cuboid. Show your working.
+(ii) Calculate the surface area of the cuboid. Show your working.
+
+Question (b)
+Aisha has a closed cylinder at Riverside Secondary. The radius is 7 cm and the height is 15 cm.
+(i) Calculate the volume of the cylinder. Use π = 22/7. Show your working.
+(ii) Calculate the surface area of the cylinder. Use π = 22/7. Show your working.
+(iii) Wei says: 「The volume of a cylinder is 2πr.」 Explain why Wei is wrong. What is the correct formula for the volume of a cylinder?
+
+Question (c)
+Mr Lim gives Wei an open cylindrical container (with one circular base and no lid). The radius is 7 cm and the height is 10 cm.
+(i) Calculate the volume of the container. Use π = 22/7. Show your working.
+(ii) Calculate the surface area of the open container. The surface area includes one circular base and the curved surface. Use π = 22/7. Show your working.
+
+写作提示 / Tips:
+✓ 每题分步骤写出推理 (Show working steps for each question)
+✓ Part 2 官方要求：clearly show the method of solution by writing working steps, plus the final answer
+✓ 不用计算器 (No calculators allowed)
+✓ 棱柱和圆柱的体积和表面积步骤示范 (prism and cylinder volume and surface area examples)：
+  • Cuboid V = lwh, SA = 2(lw+lh+wh):
+    Question: A cuboid has length 8 cm, width 5 cm, and height 4 cm. Calculate the volume and surface area.
+    Solution: ① Volume = length × width × height = 8 × 5 × 4. ② = 40 × 4. ③ = 160 cm³. ④ Surface area = 2(lw + lh + wh) = 2(8×5 + 8×4 + 5×4). ⑤ = 2(40 + 32 + 20). ⑥ = 2 × 92. ⑦ = 184 cm². Answer: Volume = 160 cm³, Surface area = 184 cm². (Note: A cuboid is a rectangular prism. Volume = lwh. Surface area = 2 times the sum of the three face areas.)
+  • Closed cylinder V = πr²h, SA = 2πr² + 2πrh:
+    Question: A closed cylinder has radius 7 cm and height 10 cm. Calculate the volume and surface area. Use π = 22/7.
+    Solution: ① Volume = πr²h = 22/7 × 7 × 7 × 10. ② = 22/7 × 49 × 10. ③ = 22 × 7 × 10. ④ = 1540 cm³. ⑤ Surface area = 2πr² + 2πrh. ⑥ = 2 × 22/7 × 49 + 2 × 22/7 × 7 × 10. ⑦ = 2 × 22 × 7 + 2 × 22 × 10. ⑧ = 308 + 440. ⑨ = 748 cm². Answer: Volume = 1540 cm³, Surface area = 748 cm². (Note: A closed cylinder has two circular bases plus the curved surface. Surface area = 2πr² (two bases) + 2πrh (curved surface). Common fossil: forgetting the two bases, using only 2πrh = 440 cm² instead of 748 cm². Also, volume is πr²h, not 2πr or πr².)
+  • Open cylinder (one base, no lid) V = πr²h, SA = πr² + 2πrh:
+    Question: An open cylindrical container has one circular base and no lid. The radius is 7 cm and the height is 8 cm. Calculate the volume and surface area. Use π = 22/7.
+    Solution: ① Volume = πr²h = 22/7 × 7 × 7 × 8 = 22/7 × 49 × 8 = 22 × 7 × 8 = 1232 cm³. ② Surface area = πr² + 2πrh (one circular base + curved surface). ③ = 22/7 × 49 + 2 × 22/7 × 7 × 8. ④ = 154 + 352. ⑤ = 506 cm². Answer: Volume = 1232 cm³, Surface area = 506 cm². (Note: For an open cylinder, SA = πr² + 2πrh. For a closed cylinder, SA = 2πr² + 2πrh.)
+✓ 关键步骤：Step 1: Identify the solid（识别立体：cuboid 长方体, rectangular prism 矩形棱柱, cylinder 圆柱）. Step 2: Write the formula（写出公式：cuboid V = lwh, SA = 2(lw+lh+wh); cylinder V = πr²h, closed SA = 2πr² + 2πrh, open SA = πr² + 2πrh）. Step 3: Substitute the numbers（代入数值）. Step 4: Calculate step by step（逐步计算）. Step 5: State the final answer with units（陈述最终答案并带单位 cm³ for volume, cm² for surface area）.
+✓ 化石 (fossil errors)：
+  • Using 2πr or πr² as the volume of a cylinder（用 2πr 或 πr² 当作圆柱体积，正确是 πr²h）：saying 「Volume = 2πr」（错误：体积 = 2πr。正确：Volume of a cylinder = πr²h. 2πr is the circumference of the circular base, not the volume. πr² is the area of the circular base, not the volume. The volume is the area of the base (πr²) times the height (h), so V = πr²h.）
+  • Forgetting the two circular bases when finding the surface area of a closed cylinder（忘记两个圆形底面，只用侧面积 2πrh，正确是 2πr² + 2πrh）：saying 「Surface area = 2πrh」（错误：表面积 = 2πrh。正确：Surface area of a closed cylinder = 2πr² + 2πrh. 2πr² is the area of the two circular bases (top and bottom). 2πrh is the area of the curved surface. Total SA = 2πr² + 2πrh. If you forget the two bases and use only 2πrh, you get a smaller number. For example, if r = 7 cm and h = 10 cm, using only 2πrh = 440 cm² is WRONG. Correct SA = 308 + 440 = 748 cm².）
+  • 本周教 Sec 1 GEOMETRY AND MEASUREMENT, G5. Mensuration: 5.3 volume and surface area of prism and cylinder（G5.3 棱柱和圆柱的体积和表面积）。本周是 G5.3 only. Prism volume = area of base × height. Cuboid V = lwh, SA = 2(lw+lh+wh). Cylinder V = πr²h. Closed cylinder SA = 2πr² + 2πrh. Open cylinder SA = πr² + 2πrh. Use π = 22/7 with r = 7 or 14, or leave as π form. Units: cm³ for volume, cm² for surface area. 本周不教 5.4 unit conversion cm²↔m²、cm³↔m³（下周内容），不教 5.5 composite solids（组合立体图形，后续内容）。第 52–53 周已完成 G5.1–G5.2。
+
+Note: This is a sample of Part 2 short-answer/open-ended questions. The official paper has 20 short-answer + 10–15 open-ended items in 1 hour 45 minutes.`,
+          points: 20,
+        },
+      ],
+    },
   ];
 
   // =================================================================

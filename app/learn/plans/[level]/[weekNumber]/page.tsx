@@ -4953,6 +4953,43 @@ const lessonPlans: Record<string, LessonPlan> = {
     ],
     speakingPrompts: null,
   },
+  "SMATH-54": {
+    title: "棱柱和圆柱的体积和表面积 — Volume and Surface Area of Prism and Cylinder",
+    mathExample: "Cuboid 8 cm × 5 cm × 4 cm → V = 160 cm³. Closed cylinder r = 7 cm, h = 10 cm (π = 22/7) → V = 1540 cm³, SA = 748 cm².",
+    sections: [
+      {
+        name: "课前",
+        duration: "2 分钟",
+        teacherNotes: "确认 Zoom 设置正常。调整摄像头。对家长说：「本周教 Sec 1 AEIS 数学：prism and cylinder 的 volume and surface area（棱柱和圆柱的体积和表面积）。不教 unit conversion（单位换算）或 composite solids（组合立体图形），这些是后续内容。」",
+      },
+      {
+        name: "热身",
+        duration: "3 分钟",
+        teacherNotes: "问孩子：「你知道 cuboid（长方体）和 cylinder（圆柱）吗？」在屏幕上或白板上画一个长方体和一个圆柱。指出：cuboid 是 rectangular prism（长方形棱柱），有 6 个长方形面。Cylinder 有 2 个圆形面（top and bottom circular bases）和 1 个 curved surface（侧面）。让孩子跟读：cuboid, cylinder, prism.",
+      },
+      {
+        name: "化石",
+        duration: "8 分钟",
+        teacherNotes: "在白板上写下两个常见错误：(1) 「Volume of cylinder = 2πr」或「Volume = πr²」；(2) 「Surface area of closed cylinder = 2πrh」（只有侧面，忘记两个圆形底面）。问孩子：「这两个公式对吗？」等孩子思考后，圈出错误。解释：(1) 圆柱体积 = 底面积 × 高 = πr²h，不是 2πr（那是圆的周长）或 πr²（那是一个圆的面积）。(2) Closed cylinder 表面积 = 两个圆形底面 + 侧面 = 2πr² + 2πrh，不是只有侧面 2πrh。改正后写：「V = πr²h」和「SA = 2πr² + 2πrh」。让孩子跟读 2 次。",
+      },
+      {
+        name: "示范",
+        duration: "15 分钟",
+        teacherNotes: "示范两道例题（在屏幕上或白板上边写边讲）：\n\n例题 1: Cuboid 8 cm × 5 cm × 4 cm.\n(i) Volume = length × width × height = 8 × 5 × 4. 先算 8 × 5 = 40. 再算 40 × 4 = 160 cm³. (ii) Surface area = 2(lw + lh + wh) = 2(8×5 + 8×4 + 5×4) = 2(40 + 32 + 20) = 2 × 92 = 184 cm². 解释：Cuboid 有 6 个面（top, bottom, front, back, left, right）。Top and bottom = 2×lw. Front and back = 2×lh. Left and right = 2×wh. Total = 2(lw + lh + wh). Units: cm³ for volume, cm² for surface area.\n\n例题 2: Closed cylinder r = 7 cm, h = 10 cm, π = 22/7.\n(i) Volume = πr²h = 22/7 × 7 × 7 × 10. 先算 7 × 7 = 49. 再算 22/7 × 49 = 22 × 7 = 154. 最后 154 × 10 = 1540 cm³. (ii) Surface area = 2πr² + 2πrh. 先算 2πr² = 2 × 22/7 × 49 = 2 × 22 × 7 = 308 cm². 再算 2πrh = 2 × 22/7 × 7 × 10 = 2 × 22 × 10 = 440 cm². Total = 308 + 440 = 748 cm². 解释：Closed cylinder 有两个圆形底面（2πr²）和侧面（2πrh）。If the stem says open (no lid), use πr² + 2πrh.\n\n让孩子跟读关键公式：V = lwh, V = πr²h, SA = 2πr² + 2πrh.",
+      },
+      {
+        name: "练习",
+        duration: "15 分钟",
+        teacherNotes: "给孩子 3 道题目让他/她在纸上算（教师不给完整答案，只给提示，让孩子自己写出 working steps）：\n\n练习 1: Cuboid 10 cm × 6 cm × 8 cm. Find the volume. (提示：V = lwh. 先算 10 × 6, 再乘 8.) 期待答案：10 × 6 = 60, 60 × 8 = 480 cm³.\n\n练习 2: Closed cylinder r = 7 cm, h = 15 cm, π = 22/7. Find the volume. (提示：V = πr²h. 先算 r² = 7 × 7 = 49, 再乘 π and h.) 期待答案：πr²h = 22/7 × 49 × 15 = 22 × 7 × 15 = 2310 cm³.\n\n练习 3: Cuboid 12 cm × 8 cm × 5 cm. Find the surface area. (提示：SA = 2(lw + lh + wh). 先算三个面的面积，再乘 2.) 期待答案：2(12×8 + 12×5 + 8×5) = 2(96 + 60 + 40) = 2 × 196 = 392 cm².\n\n如果孩子卡住，教师给词提示（例如：「先算 r²」或「V = lwh」），但不直接说出答案。孩子算完后，教师检查 working steps 和单位（cm³ for volume, cm² for surface area）。",
+      },
+      {
+        name: "收口",
+        duration: "3 分钟",
+        teacherNotes: "总结本周重点：(1) 官方 Sec 1 AEIS 数学卷型：Part 1 MCQ 34 题 30 分钟 + Part 2 show working 20+10–15 题 1 小时 45 分钟，不用计算器。(2) 本周内容：Sec 1 GEOMETRY AND MEASUREMENT, G5. Mensuration: 5.3 volume and surface area of prism and cylinder（棱柱和圆柱的体积和表面积）。本周是 G5.3 only. Prism volume = area of base × height. Cuboid (rectangular prism): V = lwh, SA = 2(lw+lh+wh). Cylinder: V = πr²h. Closed cylinder SA = 2πr² + 2πrh (two circular bases + curved surface). Open cylinder SA = πr² + 2πrh. For π use 22/7 with r = 7 or 14 so answers are integers, OR leave as π form (e.g. 98π cm³). Units: cm³ for volume, cm² for surface area. No calculator. Cuboid 8×5×4 → V = 160 cm³. Closed cylinder r=7, h=10 → V = 1540 cm³, SA = 748 cm². Fossil: using 2πr or πr² as volume (not πr²h)；forgetting the two circular bases when finding SA of closed cylinder (using only 2πrh instead of 2πr² + 2πrh). Cast: Wei, Aisha, Mr Lim at Riverside Secondary School. 本周不教 5.4 unit conversion cm²↔m² / cm³↔m³（单位换算），5.5 composite solids（组合立体图形）。第 52–53 周已完成 G5.1–G5.2。(3) 下周预告（如有下周课程）：继续 Sec 1 内容。(4) 作业：完成 app 上的 Week 54 题目（reading MCQ 5 题 + grammar MCQ 8 题 + writing show-working 3 题）。Show working steps clearly. 对家长说：「本周化石焦点：using 2πr or πr² as cylinder volume; forgetting the two circular bases when finding closed cylinder SA. 请在家长端查看孩子的作业提交，关注这两个化石错误。」对孩子说：「Great work today! Remember: cylinder volume = πr²h, closed cylinder SA = 2πr² + 2πrh (two bases + curved surface).」鼓励孩子并结束课程。",
+      },
+    ],
+    speakingPrompts: null,
+  },
 };
 
 export default async function LessonPlanPage({

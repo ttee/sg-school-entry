@@ -718,6 +718,14 @@ export default function WeikeMiniLesson({ level, weekNumber }: WeikeMiniLessonPr
       ],
       gloss: "AEIS 中学数学第 53 周 / SMATH Week 53. 本周例题：Sec 1 G5.2 problems involving perimeter and area of composite plane figures（组合平面图形的周长和面积问题）。官方 5.2 wording（逐字引用）：'problems involving perimeter and area of composite plane figures'。本周是 G5.2 only. Composite plane figures（组合平面图形）由 rectangles, triangles, parallelograms, trapeziums 组成。For area: split the composite figure into known shapes, calculate each piece's area, then add them together; if there is a cut-out (a shape removed from a corner), subtract its area（求面积：把组合图形分割成已知的基本图形，分别求面积，然后相加；如果有切去的部分，减去它的面积）。For perimeter: add only the outer edges of the composite figure; do NOT add the perimeters of the individual pieces, because that double-counts the shared internal edges（求周长：只加组合图形的外边缘；不要把各个部分的周长相加，因为这会把共享的内边重复计算）。Friendly integers: all lengths and areas are integers. L-shape: 8×6 rectangle minus 3×2 cut-out → 48 − 6 = 42 cm². Rectangle 10×6 plus triangle ½×4×6 → 60 + 12 = 72 cm². Units: cm and cm². No calculator. 第 52 周已完成 G5.1 parallelogram/trapezium area。本周继续 G5 Mensuration。本周不教 5.3 prism/cylinder、5.4 unit conversion、5.5 composite solids。"
     },
+    "SMATH-54": {
+      examples: [
+        "Cuboid: length 8 cm, width 5 cm, height 4 cm → Volume = 8 × 5 × 4 = 160 cm³.",
+        "Closed cylinder: radius 7 cm, height 10 cm, π = 22/7 → Volume = πr²h = 22/7 × 7 × 7 × 10 = 1540 cm³.",
+        "Closed cylinder: r = 7 cm, h = 10 cm → Surface area = 2πr² + 2πrh = 2 × 22/7 × 49 + 2 × 22/7 × 7 × 10 = 308 + 440 = 748 cm²."
+      ],
+      gloss: "AEIS 中学数学第 54 周 / SMATH Week 54. 本周例题：Sec 1 G5.3 volume and surface area of prism and cylinder（棱柱体积表面积 / 圆柱体积表面积）。官方 5.3 wording（逐字引用）：'volume and surface area of prism and cylinder'。本周是 G5.3 only. Prism（棱柱）volume = area of uniform cross-section (base) × length/height（底面积 × 高）。Cuboid is a rectangular prism: V = lwh, SA = 2(lw+lh+wh). Cylinder（圆柱）V = πr²h. Closed cylinder SA = 2πr² + 2πrh（两个圆形底面 + 侧面）。Open cylinder (one base, no lid) SA = πr² + 2πrh. For π use 22/7 with r a multiple of 7 (r = 7, 14) so answers are integers, OR leave as π form (e.g. 98π cm³). Units: cm³ for volume, cm² for surface area. No calculator. Cuboid 8×5×4 → V = 160 cm³. Closed cylinder r=7, h=10 → V = 1540 cm³, SA = 748 cm². 本周不教 5.4 unit conversion cm²↔m² / cm³↔m³（单位换算），5.5 composite solids（组合立体图形）。第 52–53 周已完成 G5.1–G5.2。"
+    },
     "SEC-0": {
       fossil: "Although I was nervous, but I tried. ✗ (中文「虽然…但是…」迁移) / I go yesterday ✗ (叙事体过去时掉落)",
       examples: [
