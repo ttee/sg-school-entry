@@ -4175,6 +4175,43 @@ const lessonPlans: Record<string, LessonPlan> = {
     ],
     speakingPrompts: null,
   },
+  "SMATH-33": {
+    title: "提取公因式 — Use brackets and extract common factors",
+    mathExample: "3x + 6 = 3(x + 2). Check: 3(x + 2) = 3x + 6 ✓",
+    sections: [
+      {
+        name: "课前",
+        duration: "2 分钟",
+        teacherNotes: "确认 Zoom 设置正常。孩子和家长都在镜头前。调整摄像头，让孩子的脸清晰可见。对家长说：「本周内容是 Sec 1 提取公因式。官方 MOE 2020 G3 Sec 1 NUMBER AND ALGEBRA, N5.8 use of brackets and extraction of common factors。本周重点是找出最大公因数 HCF，然后每一项都除以 HCF，用括号写出来。」提醒家长可以在旁边观摩，但请让孩子自己动笔写算式。",
+      },
+      {
+        name: "热身",
+        duration: "5 分钟",
+        teacherNotes: "在白板或屏幕上写一个简单的例子：3x + 6。问孩子：「3x 和 6 的最大公因数 HCF 是多少？」引导孩子说出：3。问：「3x ÷ 3 等于多少？」答：x。问：「6 ÷ 3 等于多少？」答：2。写出：3x + 6 = 3(x + 2)。让孩子检验：展开 3(x + 2) = 3 × x + 3 × 2 = 3x + 6 ✓。再写一个：4x + 10。引导孩子说出：HCF = 2（不是 4，因为 4 不是 10 的因数）。4x ÷ 2 = 2x，10 ÷ 2 = 5。所以 4x + 10 = 2(2x + 5)。检验：2(2x + 5) = 4x + 10 ✓。强调：找 HCF，每一项都除以 HCF，用括号写出来，最后展开检验（find HCF, divide each term by HCF, write with bracket, check by expanding）。如果孩子卡住，教师先示范一次，让孩子跟着说。",
+      },
+      {
+        name: "化石",
+        duration: "8 分钟",
+        teacherNotes: "在屏幕上或白板上写下错误例子：3x + 6 = 3(x + 6)（标记为 ✗）。问孩子：「这个对吗？」等孩子思考后，展开检验：3(x + 6) = 3x + 18，不是 3x + 6。圈出错误部分：只分解了 x 项，忘记 6 也要除以 3。改正后写：3x + 6 = 3(x + 2)（标记为 ✓）。让孩子跟读改正后的步骤 3 次：HCF = 3, 3x ÷ 3 = x, 6 ÷ 3 = 2, so 3x + 6 = 3(x + 2)。再写一个错误例子：5x − 15 = 5(x + 3)（标记为 ✗）。问孩子：「这个对吗？」展开检验：5(x + 3) = 5x + 15，不是 5x − 15。圈出错误：丢掉了负号（dropping the sign）。改正：5x − 15 = 5(x − 3)（标记为 ✓）。让孩子跟读 3 次：HCF = 5, 5x ÷ 5 = x, −15 ÷ 5 = −3 (keep the minus), so 5x − 15 = 5(x − 3)。",
+      },
+      {
+        name: "示范",
+        duration: "10 分钟",
+        teacherNotes: "教师示范三道完整例题（写出推理步骤）。例题 1（3x + 6，skill 5.8 use of brackets and extraction of common factors）：Factorise 3x + 6. Show your working. Check by expanding. 步骤：① Find the HCF of 3x and 6. HCF = 3. ② 3x ÷ 3 = x, 6 ÷ 3 = 2. ③ 3x + 6 = 3(x + 2). ④ Check by expanding: 3(x + 2) = 3 × x + 3 × 2 = 3x + 6 ✓. Answer: 3(x + 2). (Note: Common fossil: writing 3(x + 6) instead of 3(x + 2). This is wrong because 3(x + 6) = 3x + 18, not 3x + 6. When factorising, divide EVERY term by the HCF.) 例题 2（5x − 15，skill 5.8 extraction of common factors with minus）：Factorise 5x − 15. Show your working. Explain why 5(x + 3) is wrong. 步骤：① Find the HCF of 5x and 15. HCF = 5. ② 5x ÷ 5 = x, −15 ÷ 5 = −3. ③ 5x − 15 = 5(x − 3). ④ Check by expanding: 5(x − 3) = 5 × x − 5 × 3 = 5x − 15 ✓. Answer: 5(x − 3). Explanation: If we write 5(x + 3), when we expand it we get 5x + 15, not 5x − 15. The sign must be kept: −15 ÷ 5 = −3, so 5(x − 3) = 5x − 15 ✓. 例题 3（2x + 2y，skill 5.8 extraction of common factors with two variables）：Factorise 2x + 2y. Show your working. Check by expanding. 步骤：① Find the HCF of 2x and 2y. HCF = 2. ② 2x ÷ 2 = x, 2y ÷ 2 = y. ③ 2x + 2y = 2(x + y). ④ Check by expanding: 2(x + y) = 2 × x + 2 × y = 2x + 2y ✓. Answer: 2(x + y). 每道例题示范后，让孩子跟读关键步骤（find HCF → divide each term → write with bracket → check by expanding）。",
+      },
+      {
+        name: "练习",
+        duration: "12 分钟",
+        teacherNotes: "给孩子 3 道练习题，让孩子独立做，写出推理步骤。家长可以用手机拍照孩子的推理。题 1：Factorise 3x + 6. Show your working. Check by expanding the bracket. 答案：① Find the HCF of 3x and 6. HCF = 3. ② 3x ÷ 3 = x, 6 ÷ 3 = 2. ③ 3x + 6 = 3(x + 2). ④ Check by expanding: 3(x + 2) = 3 × x + 3 × 2 = 3x + 6 ✓. Answer: 3(x + 2). (Note: Common fossil: writing 3(x + 6) instead of 3(x + 2). This is wrong because 3(x + 6) = 3x + 18, not 3x + 6.) 题 2：Wei factorises 5x − 15 and writes 5(x + 3). (i) Factorise 5x − 15. Show your working. (ii) Check by expanding. (iii) Explain why Wei's answer 5(x + 3) is wrong. 答案：(i) ① Find the HCF of 5x and 15. HCF = 5. ② 5x ÷ 5 = x, −15 ÷ 5 = −3. ③ 5x − 15 = 5(x − 3). Answer: 5(x − 3). (ii) Check by expanding: 5(x − 3) = 5 × x − 5 × 3 = 5x − 15 ✓. (iii) Wei's answer 5(x + 3) is wrong because when we expand 5(x + 3) we get 5x + 15, not 5x − 15. The sign must be kept: −15 ÷ 5 = −3, so the correct answer is 5(x − 3), not 5(x + 3). 题 3：Factorise 2x + 2y. Show your working. Check by expanding the bracket. 答案：① Find the HCF of 2x and 2y. HCF = 2. ② 2x ÷ 2 = x, 2y ÷ 2 = y. ③ 2x + 2y = 2(x + y). ④ Check by expanding: 2(x + y) = 2 × x + 2 × y = 2x + 2y ✓. Answer: 2(x + y). 逐一检查孩子的推理。对家长说：「每道题都要写出 HCF，然后每一项除以 HCF，最后展开检验。」如果孩子只分解了 x 项（化石错误：3x + 6 = 3(x + 6)），指出错误，让孩子改正。如果孩子丢掉负号（化石错误：5x − 15 = 5(x + 3)），指出错误，让孩子改正。",
+      },
+      {
+        name: "收口",
+        duration: "3 分钟",
+        teacherNotes: "总结本周重点：(1) 官方 Sec 1 AEIS 数学卷型：Part 1 MCQ 34 题 30 分钟 + Part 2 show working 20+10–15 题 1 小时 45 分钟，不用计算器。(2) 本周内容：Sec 1 NUMBER AND ALGEBRA, N5. Algebraic expressions and formulae: 5.8 use of brackets and extraction of common factors（提取公因式），对应 preceding level 规则。第 26–32 周已完成 5.1–5.7，本周只教 5.8 use of brackets and extraction of common factors（提取公因式）。本周完成 N5（5.1–5.8）。(3) 本周化石：factoring only the x term: 3x + 6 = 3(x + 6)（错误：只分解了 x 项，忘记 6 也要除以 3，正确是 3(x + 2)）；writing 3x + 6 = 3x(1 + 6)（错误：把 3 只放在 x 上）；taking a factor that is not common: 4x + 10 = 4(x + 10/4)（错误：4 不是 10 的因数，正确是 2(2x + 5)）；dropping the sign: 5x − 15 = 5(x + 3)（错误：丢掉负号，正确是 5(x − 3)）。(4) 本周方法：Extract the highest common factor and write with a bracket（提取最大公因数，用括号写出来）。3x + 6 = 3(x + 2)（HCF = 3: 3x ÷ 3 = x, 6 ÷ 3 = 2）。4x + 10 = 2(2x + 5)（HCF = 2: 4x ÷ 2 = 2x, 10 ÷ 2 = 5）。6x + 9 = 3(2x + 3)（HCF = 3）。5x − 15 = 5(x − 3)（HCF = 5，keep the minus sign）。2x + 2y = 2(x + y)（HCF = 2）。ax + ay = a(x + y)（HCF = a）。Check by expanding the bracket（检验：展开括号，看是否回到原式）。对家长说：「下周不教 N6 functions and graphs。本周完成了 N5 全部内容（5.1–5.8）。」对孩子说：「今天学习了提取公因式。记住：找 HCF，每一项都除以 HCF，用括号写出来，最后展开检验。」",
+      },
+    ],
+    speakingPrompts: null,
+  },
 };
 
 export default async function LessonPlanPage({
