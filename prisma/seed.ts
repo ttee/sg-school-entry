@@ -9925,6 +9925,105 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
         },
       ],
     },
+    {
+      level: "SMATH",
+      weekNumber: 35,
+      title: "数学 第 35 周 / Maths Week 35",
+      description: "AEIS-Secondary Mathematics: Sec 1 graph of a set of ordered pairs as a representation of a relationship between two variables (N6.2 only)",
+      isSample: false,
+      errorFocus: "swapping the two variables when writing ordered pairs: writing (cost, tickets) instead of (tickets, cost); or plotting (y, x) instead of (x, y)",
+      parentBrief: "本周是中学 AEIS 数学第 35 周，对应官方 SEAB Sec 1 卷型（https://www.seab.gov.sg/aeis/test-details/ 2026年7月1日更新）。Part 1 Multiple-choice questions：34 道 MCQ，30 分钟。Part 2 Short-answer questions (20 items) and open-ended questions (10 to 15 items)：1 小时 45 分钟。Calculators are not allowed（不允许使用计算器）。Short-answer and open-ended questions：candidates are required to show the method of solution clearly by writing working steps in the spaces provided, plus the final answer（需写出算式步骤和最终答案）。AEIS-Secondary 官方 preceding-level 规则：申请 Sec 2 入学者需熟悉 Sec 2 前一级的内容。官方举例：apply Secondary 3 → be familiar with Secondary 2 content. 本周针对 Sec 2 申请者，内容为 Sec 2 前一级（Sec 1）的官方 MOE 2020 G3 Mathematics Syllabuses, Secondary One, N6. Functions and graphs: 6.2 graph of a set of ordered pairs as a representation of a relationship between two variables（有序对的集合的图像表示两个量之间的关系）。第 34 周已完成 N6.1 Cartesian coordinates in two dimensions（平面直角坐标系）。本周只教 N6.2 graph of a set of ordered pairs as a representation of a relationship between two variables（表格给出一组有序对 (x, y)，这些点可以画出来，这组点的图像表示两个量之间的关系，例如 tickets 数量与 total cost 总价、hours 小时与 distance 距离；从图像或表格读出有序对；选择哪个表格与给定的点集匹配；选择哪个有序对属于给定的关系表格）。本周不教 N6.3–6.5（linear functions y=ax+b、graphs of linear functions、gradient 斜率）。本周化石：swapping the two variables when writing ordered pairs from a table (tickets, cost) → writing (cost, tickets) instead of (tickets, cost)（从表格写有序对时颠倒两个量：(tickets, cost) 写成 (cost, tickets)）；or plotting (y, x) instead of (x, y)（或画点时把 (x, y) 画成 (y, x)）。金额用新元 S$ 或新加坡元。不用计算器。Sec 1 content for Sec 2 AEIS applicants。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "A table shows: hours (1, 2, 3) and distance in km (4, 8, 12). Which ordered pairs represent this relationship?|A. (1, 4), (2, 8), (3, 12)|B. (4, 1), (8, 2), (12, 3)|C. (1, 2, 3, 4, 8, 12)|D. (4, 8, 12) only",
+            "Which ordered pair is NOT in the set {(1, 4), (2, 8), (3, 12)}?|A. (4, 2)|B. (1, 4)|C. (2, 8)|D. (3, 12)",
+            "Wei plots the set {(1, 8), (2, 16), (3, 24)}. Which description matches the point at x = 3?|A. (3, 24)|B. (24, 3)|C. 3 hours and 8 km|D. 24 units on the x-axis",
+            "Aisha's table: tickets (1, 2, 3) and cost in S$ (5, 10, 15). The ordered pair for 2 tickets is:|A. (2, 10)|B. (10, 2)|C. (2, 5)|D. (5, 2)",
+            "Mr Lim says: the graph of a set of ordered pairs represents a relationship between two variables. Which statement is correct?|A. The graph shows how one variable depends on the other|B. The graph gives the equation y = ax + b|C. The graph always shows gradient|D. The graph must be a straight line",
+          ]),
+          correctAnswer: "A,A,A,A,A",
+          points: 10,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "A table shows: number of items (2, 4, 6) and total cost in S$ (6, 12, 18). Which ordered pair belongs to this relationship?|A. (4, 12)|B. (12, 4)|C. (6, 6)|D. (2, 4)",
+            "Which point is in the set {(1, 5), (2, 10), (3, 15)}?|A. (2, 10)|B. (10, 2)|C. (5, 1)|D. (15, 5)",
+            "Wei reads a table: hours (1, 2, 3) and distance in km (3, 6, 9). Which ordered pair represents 3 hours?|A. (3, 9)|B. (9, 3)|C. (3, 3)|D. (6, 3)",
+            "Aisha plots {(1, 7), (2, 14), (3, 21)}. Which statement is correct about this set?|A. The set represents a relationship between two variables|B. The equation is y = x + 7|C. The gradient is 7x|D. The points are (7, 1), (14, 2), (21, 3)",
+            "A graph shows points (1, 3), (2, 6), (3, 9). Mr Lim asks: which table matches this graph?|A. x: 1, 2, 3 and y: 3, 6, 9|B. x: 3, 6, 9 and y: 1, 2, 3|C. x: 1, 2, 3 and y: 1, 2, 3|D. x: 3, 6, 9 and y: 3, 6, 9",
+            "Which ordered pair does NOT belong to the set {(2, 6), (4, 12), (6, 18)}?|A. (3, 9)|B. (2, 6)|C. (4, 12)|D. (6, 18)",
+            "Wei's table: tickets (1, 2, 3) and cost in S$ (8, 16, 24). The pair for 1 ticket is:|A. (1, 8)|B. (8, 1)|C. (1, 16)|D. (8, 16)",
+            "Aisha says: the graph of {(1, 2), (2, 4), (3, 6)} shows a relationship between two variables. Which statement is correct?|A. As the first variable increases, the second variable also increases|B. The gradient is found by counting squares|C. The equation must be written as y = ax + b|D. The graph is always a curve",
+          ]),
+          correctAnswer: "A,A,A,A,A,A,A,A",
+          points: 16,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `Part 2: Show Your Working (写出算式步骤)
+
+Riverside Secondary School has questions about relationships between two variables. Answer the questions below. Show your working.
+
+Question (a)
+A table shows the number of hours worked and the total pay in S$.
+Hours:  1,  2,  3
+Pay (S$):  12,  24,  36
+
+(i) Write the ordered pairs from this table as a set.
+(ii) Wei plots these points on a graph. What ordered pair represents 2 hours?
+(iii) Aisha says the ordered pair for 2 hours is (24, 2). Explain why Aisha is wrong.
+
+Question (b)
+Mr Lim gives this set of ordered pairs: {(1, 5), (2, 10), (3, 15)}.
+The first variable is the number of tickets. The second variable is the total cost in S$.
+
+(i) How much does 1 ticket cost?
+(ii) Which ordered pair represents 3 tickets?
+(iii) Wei says (10, 2) is in this set. Explain why Wei is wrong.
+
+Question (c)
+A graph shows points at (1, 4), (2, 8), (3, 12).
+
+(i) Make a table to show this relationship (x in the first row, y in the second row).
+(ii) Which ordered pair is NOT in this set: (2, 8), (4, 2), or (3, 12)?
+(iii) Does this graph represent a relationship between two variables? Explain your answer.
+
+写作提示 / Tips:
+✓ 每题分步骤写出推理 (Show working steps for each question)
+✓ Part 2 官方要求：clearly show the method of solution by writing working steps, plus the final answer
+✓ 不用计算器 (No calculators allowed)
+✓ 有序对与关系步骤示范 (ordered pairs and relationships examples)：
+  • Table: hours (1, 2, 3) and pay (12, 24, 36)：
+    Question: Write the ordered pairs from this table as a set.
+    Solution: A table gives a set of ordered pairs (x, y). The first variable is hours, the second variable is pay. For 1 hour, pay is S$12, so the ordered pair is (1, 12). For 2 hours, pay is S$24, so (2, 24). For 3 hours, pay is S$36, so (3, 36). Answer: {(1, 12), (2, 24), (3, 36)}. (Note: Common fossil: swapping the two variables, writing (12, 1), (24, 2), (36, 3). This is wrong because the ordered pair is (hours, pay), not (pay, hours). The first variable is hours, so hours comes first in the ordered pair.)
+  • Set {(1, 5), (2, 10), (3, 15)} where the first variable is tickets and the second variable is cost in S$：
+    Question: How much does 1 ticket cost? Which ordered pair represents 3 tickets?
+    Solution: The ordered pair (1, 5) means 1 ticket costs S$5. Answer: S$5. For 3 tickets, look for the ordered pair with first value 3. The pair (3, 15) means 3 tickets cost S$15. Answer: (3, 15). (Note: Fossil: saying (15, 3) represents 3 tickets. This is wrong because the first value in the ordered pair is the number of tickets, so 3 tickets is (3, 15), not (15, 3).)
+  • Graph shows points (1, 4), (2, 8), (3, 12)：
+    Question: Make a table. Which pair is NOT in this set: (2, 8), (4, 2), or (3, 12)? Does this graph represent a relationship between two variables?
+    Solution: Make a table: x: 1, 2, 3 and y: 4, 8, 12. The set is {(1, 4), (2, 8), (3, 12)}. Check each pair: (2, 8) is in the set ✓. (4, 2) is NOT in the set ✗ (x = 4 is not in the table, and also the order is swapped). (3, 12) is in the set ✓. Answer: (4, 2) is NOT in the set. The graph shows a set of ordered pairs, and this set represents a relationship between two variables: as x increases, y also increases. Answer: Yes, the graph represents a relationship between two variables.
+✓ 关键步骤：Step 1: Identify the two variables from the table or description（识别表格或描述中的两个量）. Step 2: Write each ordered pair (x, y) with the first variable first, then the second variable（写出每个有序对 (x, y)，第一个量在前，第二个量在后）. Step 3: Read the ordered pair: the first value is x, the second value is y（读有序对：第一个值是 x，第二个值是 y）. Step 4: Check if a point is in the set: both the x value and the y value must match a pair from the table（检查一个点是否在集合中：x 值和 y 值都必须与表格中的某一对匹配）. Step 5: Explain that the graph of a set of ordered pairs represents a relationship between two variables（解释有序对集合的图像表示两个量之间的关系）. Step 6: State the final answer（陈述最终答案）.
+✓ 化石 (fossil errors)：
+  • Swapping the two variables when writing ordered pairs: from a table (tickets, cost), writing (cost, tickets) instead of (tickets, cost)（从表格 (tickets, cost) 写有序对时颠倒两个量，写成 (cost, tickets) 而不是 (tickets, cost)。正确：ordered pair is (first variable, second variable)，所以 tickets 在前，cost 在后，是 (tickets, cost)）
+  • Plotting (y, x) instead of (x, y)（画点时把 (x, y) 画成 (y, x)。正确：ordered pair (x, y) with x first then y）
+  • Saying a swapped pair is in the set: if the table has (2, 8), saying (8, 2) is also in the set（说颠倒的对也在集合中：如果表格有 (2, 8)，说 (8, 2) 也在集合中。错误：(2, 8) 和 (8, 2) 是不同的有序对，只有表格中明确列出的对才在集合中）
+  •本周教 N6 的 6.2（graph of a set of ordered pairs as a representation of a relationship between two variables，有序对的集合的图像表示两个量之间的关系）。第 34 周已完成 N6.1（Cartesian coordinates in two dimensions）。本周只教 6.2，不教 6.3–6.5（linear functions y=ax+b、graphs of linear functions、gradient）。
+
+Note: This is a sample of Part 2 short-answer/open-ended questions. The official paper has 20 short-answer + 10–15 open-ended items in 1 hour 45 minutes.`,
+          points: 20,
+        },
+      ],
+    },
   ];
 
   // =================================================================
