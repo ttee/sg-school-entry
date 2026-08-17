@@ -10990,6 +10990,102 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
         },
       ],
     },
+    {
+      level: "SMATH",
+      weekNumber: 46,
+      title: "数学 第 46 周 / Maths Week 46",
+      description: "AEIS-Secondary Mathematics: Sec 1 properties of triangles (G1.4 triangles only)",
+      isSample: false,
+      errorFocus: "using 360° as the triangle angle sum (confusing angles at a point with triangle interior angles); or swapping equal sides and equal angles in isosceles triangle (saying AB = AC means ∠A = ∠C instead of ∠B = ∠C)",
+      parentBrief: "本周是中学 AEIS 数学第 46 周，对应官方 SEAB Sec 1 卷型（https://www.seab.gov.sg/aeis/test-details/ 2026年7月1日更新）。Part 1 Multiple-choice questions：34 道 MCQ，30 分钟。Part 2 Short-answer questions (20 items) and open-ended questions (10 to 15 items)：1 小时 45 分钟。Calculators are not allowed（不允许使用计算器）。Short-answer and open-ended questions：candidates are required to show the method of solution clearly by writing working steps in the spaces provided, plus the final answer（需写出算式步骤和最终答案）。AEIS-Secondary 官方 preceding-level 规则：申请 Sec 2 入学者需熟悉 Sec 2 前一级的内容。官方举例：apply Secondary 3 → be familiar with Secondary 2 content. 本周针对 Sec 2 申请者，内容为 Sec 2 前一级（Sec 1）的官方 MOE 2020 G3 Mathematics Syllabuses, Secondary One, GEOMETRY AND MEASUREMENT, G1. Angles, triangles and polygons: 1.4 properties of triangles, special quadrilaterals and regular polygons (pentagon, hexagon, octagon and decagon), including symmetry properties。官方 1.4 wording（逐字引用）：「properties of triangles, special quadrilaterals and regular polygons (pentagon, hexagon, octagon and decagon), including symmetry properties」。官方 1.4 also includes special quadrilaterals and regular polygons, but 本周只教 G1.4 的三角形部分 this week focuses only on triangles；special quadrilaterals (特殊四边形) and regular polygons (正多边形，如五边形、六边形、八边形、十边形) wait for a later week. 本周方法：sum of interior angles of a triangle is 180°（三角形内角和为 180°）——三个内角相加等于 180°，if given two angles, third angle = 180° − first angle − second angle; exterior angle of a triangle equals the sum of the two opposite interior angles（三角形的外角等于两个不相邻的内角之和）——exterior angle = sum of the two opposite interior angles（外角 = 对面两个内角之和）; isosceles triangle: two equal sides ⇒ two equal base angles（等腰三角形：两边相等则两底角相等）——if AB = AC, then ∠B = ∠C (NOT ∠A = ∠C); equilateral triangle: all sides equal, all angles 60°（等边三角形：三边相等，三角皆 60°）——三边相等的三角形，每个角都是 60°。Examples: Triangle ABC with angles 70° and 60°, third angle = 180° − 70° − 60° = 50°. Triangle DEF with exterior angle 110° and one opposite interior angle 70°, other opposite interior angle = 110° − 70° = 40°（外角 = 两个不相邻内角之和，所以另一个内角 = 110° − 70° = 40°）. Isosceles triangle PQR with PQ = PR, if ∠Q = 65°, then ∠R = 65°（两底角相等）, vertex angle ∠P = 180° − 65° − 65° = 50°. Equilateral triangle XYZ, each angle = 60°. Cast: Wei, Aisha, Mr Lim at Riverside Secondary School（描述图形：triangle with three vertices labeled with capital letters, mark angles at each vertex, describe which sides are equal）。Friendly integers（友好整数，角度是整数）。No calculator（calculators are not allowed）。唯一性 unique keys：每道选择题只有一个正确答案（only ONE option may be true）。不要提供两个正确答案作为两个选项（如 50° 和「third angle = 50°」是同一个意思，只能有一个是选项；不要提供「triangle angle sum is 180°」和「x = 50°」作为两个正确选项在同一道「which is correct?」题目中）。不要写一道「which is NOT / is this correct?」的题目，其中两个 Yes/No+reason 选项都是对的。本周只教 G1.4 的三角形部分（properties of triangles: sum of interior angles 180°, exterior angle, isosceles, equilateral），不教 G1.4 的 special quadrilaterals 和 regular polygons（四边形和正多边形留待后续周次）。本周不教 G1.5 classification of special quadrilaterals（特殊四边形的分类）和 G1.6 interior and exterior angle sum of any convex polygon（任意凸多边形的内角和与外角和）。本周不重教 G1.2 vertically opposite angles, angles on a straight line, angles at a point（第 44 周已完成）和 G1.3 parallel lines and transversal（第 45 周已完成），除非作为一句话提醒。本周化石：using 360° as the triangle angle sum（错误：把三角形内角和当成 360°，混淆了周角 angles at a point 和三角形内角和 triangle angle sum。正确：三角形内角和是 180°，不是 360°。Wrong: 70° + 60° + x = 360°, so x = 230°. Right: 70° + 60° + x = 180°, so x = 50°）；swapping equal sides and equal angles in isosceles triangle（错误：把等腰三角形的等边和等角弄反。Wrong: isosceles triangle with equal sides AB = AC has equal sides angle A = angle C. Right: isosceles triangle with equal sides AB = AC has equal base angles ∠B = ∠C, not ∠A = ∠C）。第 45 周已完成 G1.3 angles formed by two parallel lines and a transversal（平行线与横截线形成的角）。本周继续 GEOMETRY AND MEASUREMENT G1，教 1.4 properties of triangles（三角形的性质，本周只教三角形）。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "At Riverside Secondary, Mr Lim draws triangle ABC on the board. Angle A measures 70° and angle B measures 60°. What is the measure of angle C?|A. 50° (because the sum of interior angles of a triangle is 180°, so 180° − 70° − 60° = 50°)|B. 230° (because 360° − 70° − 60° = 230°)|C. 110° (because 180° − 70° = 110°)|D. 10° (because 70° − 60° = 10°)",
+            "Wei draws triangle DEF with an exterior angle at F measuring 110°. One of the two opposite interior angles (angle D) is 70°. What is the measure of the other opposite interior angle E?|A. 40° (because an exterior angle of a triangle equals the sum of the two opposite interior angles, so 110° = 70° + angle E, therefore angle E = 110° − 70° = 40°)|B. 180° (because exterior angle + interior = 180°)|C. 110° (because exterior and interior are equal)|D. 30° (because 110° − 70° − 10° = 30°)",
+            "Aisha observes an isosceles triangle PQR at Riverside Secondary where side PQ equals side PR. Angle Q measures 65°. What is the measure of angle R?|A. 65° (because in an isosceles triangle with two equal sides PQ = PR, the two base angles Q and R are equal)|B. 115° (because 180° − 65° = 115°)|C. 50° (because 180° − 65° − 65° = 50°)|D. 130° (because 65° × 2 = 130°)",
+            "Mr Lim shows the class an equilateral triangle XYZ at Riverside Secondary. All three sides are equal. What is the measure of each interior angle?|A. 60° (because in an equilateral triangle, all three sides are equal and all three angles are equal; since the sum of angles is 180°, each angle = 180° ÷ 3 = 60°)|B. 120° (because 360° ÷ 3 = 120°)|C. 180° (because that's the angle sum)|D. 90° (because equilateral means right angles)",
+            "Wei says: 「Triangle ABC has angles 70° and 60°. The sum of all angles in a triangle is 360°, so angle C = 360° − 70° − 60° = 230°.」 What is wrong with Wei's statement?|A. The sum of interior angles of a triangle is 180°, not 360°. Wei confused the angle sum of a triangle with angles at a point. The correct calculation is 180° − 70° − 60° = 50°, so angle C = 50°.|B. Nothing is wrong. Wei's answer is correct, angle C = 230°.|C. Wei should use 540° instead of 360°.|D. The error is that 70° + 60° = 130°, not 120°.",
+          ]),
+          correctAnswer: "A,A,A,A,A",
+          points: 10,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "Triangle ABC at Riverside Secondary has angles measuring 50° and 80°. What is the measure of the third angle?|A. 50° (because the sum of interior angles of a triangle is 180°, so 180° − 50° − 80° = 50°)|B. 230° (because 360° − 50° − 80° = 230°)|C. 130° (because 180° − 50° = 130°)|D. 30° (because 80° − 50° = 30°)",
+            "Aisha draws triangle DEF with an exterior angle at E measuring 125°. One opposite interior angle at D is 65°. What is the other opposite interior angle at F?|A. 60° (because an exterior angle equals the sum of the two opposite interior angles, so 125° = 65° + angle F, therefore angle F = 125° − 65° = 60°)|B. 125° (because exterior equals interior)|C. 190° (because 125° + 65° = 190°)|D. 55° (because 180° − 125° = 55°)",
+            "At Riverside Secondary, Wei draws triangle ABC. He says: 「The angles are 45°, 70°, and 85°. Is this correct?」 Mr Lim asks the class to check. Which statement is correct?|A. No, this is incorrect. The sum of angles is 45° + 70° + 85° = 200°, but the sum of interior angles of a triangle must be 180°. This cannot be a triangle.|B. Yes, this is correct. The angles add up properly.|C. No, triangles must have 360°.|D. Yes, because 200° is close to 180°.",
+            "Triangle PQR has two equal sides: PQ = PR. Aisha says: 「Since PQ = PR, angle P must equal angle R.」 Is Aisha correct?|A. No, Aisha is wrong. In an isosceles triangle with equal sides PQ = PR, the two BASE angles Q and R are equal, not angle P and angle R. The correct property is: if PQ = PR, then ∠Q = ∠R.|B. Yes, Aisha is correct. Angle P equals angle R.|C. No, all three angles are equal.|D. Yes, because PQ = PR means P = R.",
+            "Which statement about triangles is correct?|A. The sum of interior angles of a triangle is 180°|B. The sum of interior angles of a triangle is 360°|C. An exterior angle is always 90°|D. All triangles have at least one 60° angle",
+            "Mr Lim draws triangle ABC with angles 45° and 45°. What is the third angle?|A. 90° (because 180° − 45° − 45° = 90°)|B. 270° (because 360° − 45° − 45° = 270°)|C. 45° (because all angles are equal)|D. 0° (because 45° + 45° = 90°, and 90° − 90° = 0°)",
+            "Wei observes an isosceles triangle at Riverside Secondary with two equal sides AB = AC. The base angles B and C are each 50°. What is the vertex angle A?|A. 80° (because in triangle ABC, angle A + angle B + angle C = 180°, so angle A = 180° − 50° − 50° = 80°)|B. 50° (because all angles are equal)|C. 100° (because 50° × 2 = 100°)|D. 130° (because 180° − 50° = 130°)",
+            "Aisha draws an equilateral triangle DEF at Riverside Secondary. What is the measure of each interior angle?|A. 60° (because in an equilateral triangle, all sides and all angles are equal, and 180° ÷ 3 = 60°)|B. 120° (because 360° ÷ 3 = 120°)|C. 90° (because equilateral means perpendicular)|D. 180° (because that's the total sum)",
+          ]),
+          correctAnswer: "A,A,A,A,A,A,A,A",
+          points: 16,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `Part 2: Show Your Working (写出算式步骤)
+
+Riverside Secondary School has triangle geometry exercises. Answer the questions below. For each question, show your method of solution clearly by writing working steps, plus the final answer.
+
+Question (a)
+At Riverside Secondary, Mr Lim draws triangle ABC on the classroom board. He measures angle A and finds it is 70°. Angle B measures 60°.
+
+(i) What is the measure of angle C? Show your working clearly using the triangle angle sum property.
+(ii) Wei says: 「Angle C is 230° because the sum of all angles in a triangle is 360°, so 360° − 70° − 60° = 230°.」 Explain what is wrong with Wei's reasoning and give the correct angle C.
+
+Question (b)
+Aisha draws triangle DEF with an exterior angle at vertex F. The exterior angle measures 115°. One of the two opposite interior angles (angle D) measures 55°.
+
+(i) What is the measure of the other opposite interior angle E? Show your working clearly using the exterior angle property.
+(ii) Verify your answer by finding all three interior angles of triangle DEF and checking they sum to 180°.
+(iii) Mr Lim asks: 「How does the exterior angle relate to the two opposite interior angles?」 State the property clearly.
+
+Question (c)
+Wei draws an isosceles triangle PQR at Riverside Secondary where side PQ equals side PR. The two base angles Q and R each measure 50°.
+
+(i) What is the measure of the vertex angle P? Show all your working steps clearly.
+(ii) Aisha says: 「Since PQ = PR, the angles at P and R must be equal, so angle P = 50°.」 Use the correct isosceles triangle property to explain why Aisha is wrong and give the correct vertex angle P.
+(iii) Draw a simple diagram of triangle PQR, label the vertices, mark the equal sides PQ and PR, and write the angle measures at each vertex.
+
+写作提示 / Tips:
+✓ 每题分步骤写出推理 (Show working steps for each question)
+✓ Part 2 官方要求：clearly show the method of solution by writing working steps, plus the final answer
+✓ 不用计算器 (No calculators allowed)
+✓ 三角形性质步骤示范 (triangle properties examples)：
+  • Triangle ABC with angles 70° and 60°:
+    Question: Find angle C. Wei says angle C = 230° because triangle angle sum is 360°. What is wrong?
+    Solution: ① Recall the property: The sum of interior angles of a triangle is 180°（三角形内角和为 180°）. ② Identify the given angles: angle A = 70°, angle B = 60°. ③ Apply the property: angle A + angle B + angle C = 180°. ④ Substitute: 70° + 60° + angle C = 180°. ⑤ Solve: 130° + angle C = 180°, so angle C = 180° − 130° = 50°. ⑥ Conclusion: Angle C = 50°. ⑦ Wei's error: Wei said angle C = 230° because the triangle angle sum is 360°. This is wrong. Wei confused the sum of angles in a triangle with angles at a point (周角). The correct property is: the sum of interior angles of a TRIANGLE is 180°, not 360°. Angles at a point sum to 360°, but a triangle's interior angles sum to 180°. The correct calculation is 180° − 70° − 60° = 50°, so angle C = 50°, not 230°.
+  • Triangle DEF with exterior angle 115° and one opposite interior angle 55°:
+    Question: Find the other opposite interior angle E. Verify by checking all three interior angles sum to 180°.
+    Solution: ① Recall the property: An exterior angle of a triangle equals the sum of the two opposite interior angles（三角形的外角等于两个不相邻的内角之和）. ② Identify the given: exterior angle at F = 115°, one opposite interior angle D = 55°. ③ Apply the property: exterior angle at F = angle D + angle E. ④ Substitute: 115° = 55° + angle E. ⑤ Solve: angle E = 115° − 55° = 60°. ⑥ Conclusion: Angle E = 60°. ⑦ Verify: Find angle F. The exterior angle at F and the interior angle at F are supplementary (angles on a straight line), so interior angle F = 180° − 115° = 65°. Check the sum: angle D + angle E + angle F = 55° + 60° + 65° = 180° ✓. ⑧ Final answer: Angle E = 60°. Verification confirms all three interior angles sum to 180°.
+  • Isosceles triangle PQR with PQ = PR, base angles Q and R each 50°:
+    Question: Find vertex angle P. Aisha says angle P = 50° because PQ = PR means P = R. Why is Aisha wrong?
+    Solution for vertex angle P: ① Recall the property: In an isosceles triangle with two equal sides, the two BASE angles are equal（等腰三角形两边相等则两底角相等）. ② Identify the given: PQ = PR (two equal sides), angle Q = 50°, angle R = 50° (the two base angles are equal). ③ Apply the triangle angle sum property: angle P + angle Q + angle R = 180°. ④ Substitute: angle P + 50° + 50° = 180°. ⑤ Solve: angle P + 100° = 180°, so angle P = 180° − 100° = 80°. ⑥ Conclusion: Vertex angle P = 80°. ⑦ Aisha's error: Aisha said angle P = 50° because PQ = PR means P = R. This is wrong. Aisha confused which angles are equal in an isosceles triangle. The correct property is: if two SIDES are equal (PQ = PR), then the two BASE angles (the angles OPPOSITE the equal sides) are equal. Since PQ = PR, the sides opposite to these are QR (base). The angles at the base, angle Q and angle R, are the equal angles. The vertex angle P is NOT equal to the base angles. The correct statement is: if PQ = PR, then ∠Q = ∠R (the two base angles are equal), not ∠P = ∠R. The vertex angle P = 180° − 50° − 50° = 80°, not 50°.
+✓ 关键步骤：Step 1: Identify which triangle property applies（识别适用哪个三角形性质）——triangle angle sum 180°, exterior angle equals sum of two opposite interior angles, isosceles triangle equal sides ⇒ equal base angles, equilateral triangle all angles 60°. Step 2: Recall the correct property statement（回忆正确的性质陈述）. Step 3: Identify the given information（识别给定信息）——which angles or sides are given. Step 4: Apply the property to the given angles or sides（将性质应用于给定的角或边）. Step 5: Write the equation and solve step by step（写出等式并逐步求解）. Step 6: State the final answer clearly（清楚地陈述最终答案）. Step 7: If a fossil error is present, explain what is wrong with the incorrect reasoning（如果有化石错误，解释错误推理的问题）——identify which property was confused, state the correct property, show the correct calculation.
+✓ 化石 (fossil errors)：
+  • Using 360° as triangle angle sum: saying 70° + 60° + x = 360°, so x = 230°（错误：三角形内角和是 180°，不是 360°。360° 是周角 angles at a point，不是三角形内角和。正确：70° + 60° + x = 180°, so x = 50°）
+  • Swapping equal sides and equal angles in isosceles: saying isosceles with AB = AC means ∠A = ∠C（错误：等腰三角形若 AB = AC，则两底角相等 ∠B = ∠C，不是 ∠A = ∠C。正确：if AB = AC, then ∠B = ∠C, the two base angles opposite the equal sides are equal）
+  • Confusing exterior angle property: saying exterior angle + opposite interior = 180°（错误：外角不是和对面内角互补，而是等于两个对面内角之和。正确：exterior angle = sum of the two opposite interior angles）
+  • Using wrong angle sum: saying equilateral triangle has angles 120° each because 360° ÷ 3 = 120°（错误：等边三角形每个角是 60°，因为三角形内角和是 180°，180° ÷ 3 = 60°。正确：equilateral triangle angles are 60° each, because 180° ÷ 3 = 60°）
+  • 本周教 G1.4 的三角形部分（properties of triangles: sum of interior angles 180°, exterior angle equals sum of two opposite interiors, isosceles two equal sides ⇒ two equal base angles, equilateral all angles 60°）。本周只教三角形 triangles only，不教 special quadrilaterals（特殊四边形）和 regular polygons（正多边形）。第 45 周已完成 G1.3 angles formed by two parallel lines and a transversal（平行线与横截线形成的角）。
+
+Note: This is a sample of Part 2 short-answer/open-ended questions. The official paper has 20 short-answer + 10–15 open-ended items in 1 hour 45 minutes.`,
+          points: 20,
+        },
+      ],
+    },
   ];
 
   // =================================================================
