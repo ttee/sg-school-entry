@@ -93,7 +93,7 @@ export default function WeikeMiniLesson({ level, weekNumber }: WeikeMiniLessonPr
         "2/3 = 4/6 (equivalent fractions)",
         "Also: 1/2 + 1/4 = 2/4 + 1/4 = 3/4. And: 4/8 = 1/2 (simplest form)."
       ],
-      gloss: "P3 学分数新技能：等值分数（2/3 = 4/6 = 8/12）、最简分数（4/8 = 1/2）、异分母比较（1/2 &gt; 1/3，分母越大分数越小）、相关分数加减（1/2 + 1/4 = 3/4）。关键词：equivalent fractions（等值分数）、simplest form（最简）、eighths / sixths / quarters（分母读法加 -s）、compare（比较）。P2 第 2 周学过 2/8 + 3/8 = 5/8（同分母加法），本周练异分母和约分。"
+      gloss: "P3 学分数新技能：等值分数（2/3 = 4/6 = 8/12）、最简分数（4/8 = 1/2）、异分母比较（1/2 > 1/3，分母越大分数越小）、相关分数加减（1/2 + 1/4 = 3/4）。关键词：equivalent fractions（等值分数）、simplest form（最简）、eighths / sixths / quarters（分母读法加 -s）、compare（比较）。P2 第 2 周学过 2/8 + 3/8 = 5/8（同分母加法），本周练异分母和约分。"
     },
     "MATH-9": {
       examples: [
@@ -139,7 +139,7 @@ export default function WeikeMiniLesson({ level, weekNumber }: WeikeMiniLessonPr
       examples: [
         "The number 73 685 = Seventy-three thousand, six hundred and eighty-five.",
         "In 73 685: 7 is in ten thousands place = 70 000, 3 is in thousands place = 3 000, 6 is in hundreds place = 600.",
-        "Compare: 84 567 &lt; 84 657 (because 5 hundreds &lt; 6 hundreds). Add: 56 789 + 10 000 = 66 789."
+        "Compare: 84 567 < 84 657 (because 5 hundreds < 6 hundreds). Add: 56 789 + 10 000 = 66 789."
       ],
       gloss: "P4 学十万以内整数（whole numbers to 100 000）：识别位值（place value: 万位 ten thousands、千位 thousands、百位 hundreds、十位 tens、个位 ones），数字与文字互换（73 685 = seventy-three thousand, six hundred and eighty-five），比较五位数大小（从高位往低位比），加减整万（+ 10 000 只改万位）。关键词：place value（位值）、ten thousands place（万位）、compare（比较）、order（排序）、number pattern（数字规律）。注意：本周只教到 100 000，不教 P5 的小数（decimals）、百分数（percentages）。也不教 P4 下学期的因数倍数（factors/multiples）。P3 学过 10 000 以内（四位数），本周扩展到 100 000（五位数）。"
     },
@@ -185,11 +185,11 @@ export default function WeikeMiniLesson({ level, weekNumber }: WeikeMiniLessonPr
     },
     "MATH-20": {
       examples: [
-        "0.47 &lt; 0.5 because 0.47 = 47 hundredths, 0.50 = 50 hundredths.",
+        "0.47 < 0.5 because 0.47 = 47 hundredths, 0.50 = 50 hundredths.",
         "3/5 = 6/10 = 0.6. The denominator 5 is a factor of 10.",
         "2.36 to 1 d.p. = 2.4. Look at the hundredths place: 6 ≥ 5, so round up."
       ],
-      gloss: "P4 学小数到三位（decimals up to 3 decimal places）：十分位 tenths、百分位 hundredths、千分位 thousandths。位值：3.256 中的 5 在百分位 = 0.05。比较小数：补零对齐，0.47 = 0.470, 0.5 = 0.500，所以 0.47 &lt; 0.5。小数转分数：0.4 = 4/10 = 2/5（约分到最简）。分数转小数：分母是 10 或 100 的因数时，如 3/5 = 6/10 = 0.6。四舍五入：2.36 到 1 d.p.，看百分位 6 ≥ 5，进位得 2.4；5.852 到 2 d.p.，看千分位 2 &lt; 5，不进位得 5.85。关键词：tenths（十分位）、hundredths（百分位）、thousandths（千分位）、place value（位值）、compare（比较）、order（排序）、round（四舍五入）、simplest form（最简分数）。常见错误：0.35 当成 0.350 比大小只看位数、0.4 = 4/10 忘了约分、四舍五入看错位。注意：本周不教小数加减乘除（下周 2.1）、×÷10/100/1000（P5）、百分数、4 位小数。"
+      gloss: "P4 学小数到三位（decimals up to 3 decimal places）：十分位 tenths、百分位 hundredths、千分位 thousandths。位值：3.256 中的 5 在百分位 = 0.05。比较小数：补零对齐，0.47 = 0.470, 0.5 = 0.500，所以 0.47 < 0.5。小数转分数：0.4 = 4/10 = 2/5（约分到最简）。分数转小数：分母是 10 或 100 的因数时，如 3/5 = 6/10 = 0.6。四舍五入：2.36 到 1 d.p.，看百分位 6 ≥ 5，进位得 2.4；5.852 到 2 d.p.，看千分位 2 < 5，不进位得 5.85。关键词：tenths（十分位）、hundredths（百分位）、thousandths（千分位）、place value（位值）、compare（比较）、order（排序）、round（四舍五入）、simplest form（最简分数）。常见错误：0.35 当成 0.350 比大小只看位数、0.4 = 4/10 忘了约分、四舍五入看错位。注意：本周不教小数加减乘除（下周 2.1）、×÷10/100/1000（P5）、百分数、4 位小数。"
     },
     "MATH-21": {
       examples: [
@@ -206,7 +206,7 @@ export default function WeikeMiniLesson({ level, weekNumber }: WeikeMiniLessonPr
         "5 ÷ 2 = 2.5. Can't divide evenly? Add .0 to 5, divide 50 by 2 = 25, write 2.5.",
         "7 ÷ 4 = 1.75. 4 goes into 7 once (remainder 3), add .0 → 30 ÷ 4 = 7 (remainder 2), add 0 → 20 ÷ 4 = 5."
       ],
-      gloss: "P4 学小数乘除（最多两位小数）：multiplying and dividing decimals (up to 2 decimal places) by a 1-digit whole number, dividing a whole number by a whole number with quotient as a decimal, rounding。关键技能：2.45 × 3 → 先算 245 × 3 = 735，小数点往左移 2 位 = 7.35；6.4 ÷ 4 → 小数点直接上移，64 ÷ 4 = 16，答案 1.6；5 ÷ 2 → 除不尽时补零，5.0 ÷ 2 = 2.5；7 ÷ 4 = 1.75（4 goes into 7 once 余 3，补零 30，4 goes into 30 seven times 余 2，补零 20，4 goes into 20 five times）。四舍五入：3.26 × 5 = 16.30，若要求 1 d.p. 则看百分位 0 &lt; 5 不进位 = 16.3。金额写新元 S$ 不是美元 $。常见错误：小数点位置错（忘了往左移几位）、除不尽不会写成小数（如 5÷2 写成 2 余 1 而不是 2.5）、四舍五入看错位（要四舍五入到 1 d.p. 看的是百分位，不是十分位）。关键词：decimal places（小数位）、multiply（乘）、divide（除）、quotient（商）、remainder（余数）、round to（四舍五入到）、d.p.（decimal place）。注意：本周只教 P4 Decimals 3.1–3.3，不教小数×小数（multiplying two decimals，不在 3.1 范围）、除以小数（dividing by a decimal）、×÷10/100/1000（P5）、百分数（percentages）、3 位小数×一位数（prefer stay at 2 d.p. operands）。"
+      gloss: "P4 学小数乘除（最多两位小数）：multiplying and dividing decimals (up to 2 decimal places) by a 1-digit whole number, dividing a whole number by a whole number with quotient as a decimal, rounding。关键技能：2.45 × 3 → 先算 245 × 3 = 735，小数点往左移 2 位 = 7.35；6.4 ÷ 4 → 小数点直接上移，64 ÷ 4 = 16，答案 1.6；5 ÷ 2 → 除不尽时补零，5.0 ÷ 2 = 2.5；7 ÷ 4 = 1.75（4 goes into 7 once 余 3，补零 30，4 goes into 30 seven times 余 2，补零 20，4 goes into 20 five times）。四舍五入：3.26 × 5 = 16.30，若要求 1 d.p. 则看百分位 0 < 5 不进位 = 16.3。金额写新元 S$ 不是美元 $。常见错误：小数点位置错（忘了往左移几位）、除不尽不会写成小数（如 5÷2 写成 2 余 1 而不是 2.5）、四舍五入看错位（要四舍五入到 1 d.p. 看的是百分位，不是十分位）。关键词：decimal places（小数位）、multiply（乘）、divide（除）、quotient（商）、remainder（余数）、round to（四舍五入到）、d.p.（decimal place）。注意：本周只教 P4 Decimals 3.1–3.3，不教小数×小数（multiplying two decimals，不在 3.1 范围）、除以小数（dividing by a decimal）、×÷10/100/1000（P5）、百分数（percentages）、3 位小数×一位数（prefer stay at 2 d.p. operands）。"
     },
     "MATH-23": {
       examples: [
@@ -229,18 +229,18 @@ export default function WeikeMiniLesson({ level, weekNumber }: WeikeMiniLessonPr
     "MATH-25": {
       examples: [
         "40 children chose favourite sports. The pie chart shows: Football 1/2, Swimming 1/4, Basketball 1/8, Running 1/8.",
-        "Which sport is most popular? Compare: 1/2 &gt; 1/4 &gt; 1/8. Football (1/2) is the largest slice.",
+        "Which sport is most popular? Compare: 1/2 > 1/4 > 1/8. Football (1/2) is the largest slice.",
         "How many chose Football? 1/2 of 40 = 40 ÷ 2 = 20 children."
       ],
-      gloss: "P4 学饼图（pie charts）：reading and interpreting data from pie charts。关键技能：识别哪一块最大/最小（which slice is the largest / smallest by comparing fractions），理解每一块是整体的几分之几（each slice is a fraction of the whole），用分数乘总数求人数（calculate the number by multiplying the total by the fraction: divide by denominator first, then multiply by numerator，如 1/2 of 40 = 40 ÷ 2 = 20，2/5 of 60 = 60 ÷ 5 × 2 = 12 × 2 = 24），验证所有分数块之和是 1（check that all fractions add up to 1: 如 1/2 + 1/4 + 1/8 + 1/8 = 4/8 + 2/8 + 1/8 + 1/8 = 8/8 = 1 ✓）。常见错误：把最大块当作全部（treating the largest slice as the whole instead of a part: 如果 Football 是 1/2，不是说 Football = 40，而是 Football = 40 ÷ 2 = 20）、分数块加起来不是 1（fractions do not sum to 1: 必须检查）、先乘分子再除分母（incorrect order: should divide by denominator first: 40 ÷ 2, not 40 × 1 ÷ 2）、比较分数时不通分（not converting to common denominator when comparing unlike fractions: 如 1/3 vs 1/4，convert to 4/12 vs 3/12，所以 1/3 &gt; 1/4）。关键词：pie chart（饼图）、slice（一块）、fraction of the whole（整体的几分之几）、largest slice（最大块）、smallest slice（最小块）、of（的，用于分数乘法，如 1/2 of 40）、divide by denominator（除以分母）、multiply by numerator（乘以分子）。本周只用分数（fractions: 1/2, 1/4, 1/8, 1/5, 3/8 等），不用百分数（percentages）。本周不教：百分数（percentages，P5）、平均数/均值（mean / average）、360° 扇形角度计算（sector angles in degrees，除非用简单分数 1/4 = 90°，但重点是分数 of a set）。"
+      gloss: "P4 学饼图（pie charts）：reading and interpreting data from pie charts。关键技能：识别哪一块最大/最小（which slice is the largest / smallest by comparing fractions），理解每一块是整体的几分之几（each slice is a fraction of the whole），用分数乘总数求人数（calculate the number by multiplying the total by the fraction: divide by denominator first, then multiply by numerator，如 1/2 of 40 = 40 ÷ 2 = 20，2/5 of 60 = 60 ÷ 5 × 2 = 12 × 2 = 24），验证所有分数块之和是 1（check that all fractions add up to 1: 如 1/2 + 1/4 + 1/8 + 1/8 = 4/8 + 2/8 + 1/8 + 1/8 = 8/8 = 1 ✓）。常见错误：把最大块当作全部（treating the largest slice as the whole instead of a part: 如果 Football 是 1/2，不是说 Football = 40，而是 Football = 40 ÷ 2 = 20）、分数块加起来不是 1（fractions do not sum to 1: 必须检查）、先乘分子再除分母（incorrect order: should divide by denominator first: 40 ÷ 2, not 40 × 1 ÷ 2）、比较分数时不通分（not converting to common denominator when comparing unlike fractions: 如 1/3 vs 1/4，convert to 4/12 vs 3/12，所以 1/3 > 1/4）。关键词：pie chart（饼图）、slice（一块）、fraction of the whole（整体的几分之几）、largest slice（最大块）、smallest slice（最小块）、of（的，用于分数乘法，如 1/2 of 40）、divide by denominator（除以分母）、multiply by numerator（乘以分子）。本周只用分数（fractions: 1/2, 1/4, 1/8, 1/5, 3/8 等），不用百分数（percentages）。本周不教：百分数（percentages，P5）、平均数/均值（mean / average）、360° 扇形角度计算（sector angles in degrees，除非用简单分数 1/4 = 90°，但重点是分数 of a set）。"
     },
     "MATH-26": {
       examples: [
         "Quarter turn = 1/4 of 360° = 360° ÷ 4 = 90° = right angle.",
         "∠ABC is named at B. The middle letter B is the vertex (where the two lines meet).",
-        "Acute &lt; 90°. Right = 90°. Obtuse between 90° and 180°. 35° is acute, 90° is right, 120° is obtuse."
+        "Acute < 90°. Right = 90°. Obtuse between 90° and 180°. 35° is acute, 90° is right, 120° is obtuse."
       ],
-      gloss: "P4 学角（angles）：角的名称（∠ABC 中间字母 B 是顶点 vertex）、度数（degrees）、quarter turn = 90°（1/4 圈 = 90°）、half turn = 180°（1/2 圈 = 180°）、complete turn = 360°（一整圈 = 360°）、比较角度大小（comparing angles: 75° < 90°）、锐角 acute &lt; 90°、直角 right = 90°、钝角 obtuse between 90° and 180°。常见错误：把 quarter turn 当 45°（thinking quarter turn is 45° instead of 90°）、锐角钝角混淆（confusing acute and obtuse: acute &lt; 90°, obtuse &gt; 90° but &lt; 180°）、∠ABC 时把 A 或 C 当顶点（vertex should be the middle letter B, not A or C）、把 half turn 当 90°（thinking half turn is 90° instead of 180°）。关键词：angle（角）、vertex（顶点）、degrees（度数）、quarter turn（1/4 圈）、half turn（1/2 圈）、complete turn（一整圈）、acute angle（锐角）、right angle（直角）、obtuse angle（钝角）。本周不教：triangle angle sum（三角形内角和，不在 P4 Angles 1.1–1.3 官方列表中）、reflex angle（优角）、angles on a straight line（平角的性质）。长方形和正方形都有四个 right angles = 90°。"
+      gloss: "P4 学角（angles）：角的名称（∠ABC 中间字母 B 是顶点 vertex）、度数（degrees）、quarter turn = 90°（1/4 圈 = 90°）、half turn = 180°（1/2 圈 = 180°）、complete turn = 360°（一整圈 = 360°）、比较角度大小（comparing angles: 75° < 90°）、锐角 acute < 90°、直角 right = 90°、钝角 obtuse between 90° and 180°。常见错误：把 quarter turn 当 45°（thinking quarter turn is 45° instead of 90°）、锐角钝角混淆（confusing acute and obtuse: acute < 90°, obtuse > 90° but < 180°）、∠ABC 时把 A 或 C 当顶点（vertex should be the middle letter B, not A or C）、把 half turn 当 90°（thinking half turn is 90° instead of 180°）。关键词：angle（角）、vertex（顶点）、degrees（度数）、quarter turn（1/4 圈）、half turn（1/2 圈）、complete turn（一整圈）、acute angle（锐角）、right angle（直角）、obtuse angle（钝角）。本周不教：triangle angle sum（三角形内角和，不在 P4 Angles 1.1–1.3 官方列表中）、reflex angle（优角）、angles on a straight line（平角的性质）。长方形和正方形都有四个 right angles = 90°。"
     },
     "MATH-27": {
       examples: [
@@ -386,7 +386,7 @@ export default function WeikeMiniLesson({ level, weekNumber }: WeikeMiniLessonPr
         "Which is smaller, −8 or −3?",
         "−8 is to the left of −3 on the number line, so −8 is smaller than −3."
       ],
-      gloss: "AEIS 中学数学第 12 周 / SMATH Week 12. 本周例题：Sec 1 数轴上的数的表示和排序（Sec 1 NUMBER AND ALGEBRA: N1.5 representation and ordering of numbers on the number line）。数轴 number line：0 右边是正数，0 左边是负数。从左到右 = 从小到大（left to right = smallest to largest）。越靠左越小（further left = smaller）。负数比较：−8 在 −3 左边，所以 −8 小于 −3（common fossil: 以为 −8 > −3 因为 8 &gt; 3，错！正确是 −8 < −3）。排序：−5, −1, 0, 2 从小到大（按数轴从左到右顺序）。简单分数：−1/2 在 −1 和 0 中间，3/2 在 1 和 2 中间。应用：温度（−8°C 比 −3°C 更冷）、楼层（地下 = 负数）。不用计算器。"
+      gloss: "AEIS 中学数学第 12 周 / SMATH Week 12. 本周例题：Sec 1 数轴上的数的表示和排序（Sec 1 NUMBER AND ALGEBRA: N1.5 representation and ordering of numbers on the number line）。数轴 number line：0 右边是正数，0 左边是负数。从左到右 = 从小到大（left to right = smallest to largest）。越靠左越小（further left = smaller）。负数比较：−8 在 −3 左边，所以 −8 小于 −3（common fossil: 以为 −8 > −3 因为 8 > 3，错！正确是 −8 < −3）。排序：−5, −1, 0, 2 从小到大（按数轴从左到右顺序）。简单分数：−1/2 在 −1 和 0 中间，3/2 在 1 和 2 中间。应用：温度（−8°C 比 −3°C 更冷）、楼层（地下 = 负数）。不用计算器。"
     },
     "SMATH-13": {
       examples: [
@@ -395,7 +395,7 @@ export default function WeikeMiniLesson({ level, weekNumber }: WeikeMiniLessonPr
         "Is −3 ≤ −3 true or false?",
         "Solution: −3 equals −3. The symbol ≤ means 'less than or equal to'. Since −3 equals −3, the statement is true."
       ],
-      gloss: "AEIS 中学数学第 13 周 / SMATH Week 13. 本周例题：Sec 1 不等号的使用（Sec 1 NUMBER AND ALGEBRA: N1.6 use of <, >, ≤, ≥）。不等号符号：< 小于 less than，> 大于 greater than，≤ 小于或等于 less than or equal to，≥ 大于或等于 greater than or equal to。填空：−8 ___ −3 → < （因为 −8 在数轴上更靠左）。真假判断：−3 ≤ −3 是 true（−3 等于 −3，符合 less than or equal to），−3 < −3 是 false（−3 等于 −3，不符合 less than）。负数比较：−8 < −3（不是 −8 > −3，这是本周化石错误）。应用：温度（−8°C 比 −3°C 更冷，写 −8 < −3），账户余额（负数 = 欠款，−S$50 比 S$20 更小，写 −50 &lt; 20）。不用计算器。"
+      gloss: "AEIS 中学数学第 13 周 / SMATH Week 13. 本周例题：Sec 1 不等号的使用（Sec 1 NUMBER AND ALGEBRA: N1.6 use of <, >, ≤, ≥）。不等号符号：< 小于 less than，> 大于 greater than，≤ 小于或等于 less than or equal to，≥ 大于或等于 greater than or equal to。填空：−8 ___ −3 → < （因为 −8 在数轴上更靠左）。真假判断：−3 ≤ −3 是 true（−3 等于 −3，符合 less than or equal to），−3 < −3 是 false（−3 等于 −3，不符合 less than）。负数比较：−8 < −3（不是 −8 > −3，这是本周化石错误）。应用：温度（−8°C 比 −3°C 更冷，写 −8 < −3），账户余额（负数 = 欠款，−S$50 比 S$20 更小，写 −50 < 20）。不用计算器。"
     },
     "SMATH-14": {
       examples: [
@@ -436,16 +436,16 @@ export default function WeikeMiniLesson({ level, weekNumber }: WeikeMiniLessonPr
     "SMATH-18": {
       examples: [
         "Compare 15 and 20 by percentage.",
-        "15 &lt; 20, so 15 is smaller.",
+        "15 < 20, so 15 is smaller.",
         "(15 ÷ 20) × 100% = 75%",
         "So 15 is 75% of 20. (15 is smaller, 20 is larger.)"
       ],
-      gloss: "AEIS 中学数学第 18 周 / SMATH Week 18. 本周例题：Sec 1 用百分数比较两个量（Sec 1 NUMBER AND ALGEBRA: N3.2 comparing two quantities by percentage）。To compare A and B by percentage: express the smaller as a % of the larger（将较小的表示为较大的的百分比）。例：比较 15 和 20。15 &lt; 20，所以 15 is (15 ÷ 20) × 100% = 75% of 20。15 is smaller, 20 is larger。'A is 75% of B' means A is smaller than B（A 是 B 的 75%，意味着 A < B）。应用题：Wei has S$18, Aisha has S$24. Compare by percentage. Solution: S$18 < S$24. (18 ÷ 24) × 100% = 75%. So S$18 is 75% of S$24 (Wei has less)。本周化石：comparing the wrong way（错误地说 20 is 75% of 15，应该是 15 is 75% of 20；正确顺序是 smaller ÷ larger）；treating 'A is 75% of B' as A being larger（如果 A is 75% of B，则 A 较小，B 较大，不是 A 较大）。本周只教 ≤ 100% 的情况（express the smaller as a % of the larger），不教 >100%（那是下周 3.3）。金额用新加坡元 S$。不用计算器。"
+      gloss: "AEIS 中学数学第 18 周 / SMATH Week 18. 本周例题：Sec 1 用百分数比较两个量（Sec 1 NUMBER AND ALGEBRA: N3.2 comparing two quantities by percentage）。To compare A and B by percentage: express the smaller as a % of the larger（将较小的表示为较大的的百分比）。例：比较 15 和 20。15 < 20，所以 15 is (15 ÷ 20) × 100% = 75% of 20。15 is smaller, 20 is larger。'A is 75% of B' means A is smaller than B（A 是 B 的 75%，意味着 A < B）。应用题：Wei has S$18, Aisha has S$24. Compare by percentage. Solution: S$18 < S$24. (18 ÷ 24) × 100% = 75%. So S$18 is 75% of S$24 (Wei has less)。本周化石：comparing the wrong way（错误地说 20 is 75% of 15，应该是 15 is 75% of 20；正确顺序是 smaller ÷ larger）；treating 'A is 75% of B' as A being larger（如果 A is 75% of B，则 A 较小，B 较大，不是 A 较大）。本周只教 ≤ 100% 的情况（express the smaller as a % of the larger），不教 >100%（那是下周 3.3）。金额用新加坡元 S$。不用计算器。"
     },
     "SMATH-19": {
       examples: [
         "Express 25 as a percentage of 20.",
-        "25 &gt; 20, so the percentage will be >100%.",
+        "25 > 20, so the percentage will be >100%.",
         "(25 ÷ 20) × 100% = 1.25 × 100% = 125%",
         "So 25 is 125% of 20. (25 is larger, 20 is smaller. The percentage exceeds 100%.)"
       ],
@@ -476,7 +476,7 @@ export default function WeikeMiniLesson({ level, weekNumber }: WeikeMiniLessonPr
         "After 20% increase, price is S$72. Original = 72 ÷ 1.20 = S$60",
         "40% to 50% is 10 percentage points (not 25%)"
       ],
-      gloss: "AEIS 中学数学第 22 周 / SMATH Week 22. 本周例题：Sec 1 百分数综合应用（Sec 1 NUMBER AND ALGEBRA: N3.6 problems involving percentages）。混合使用 3.1–3.5 技能：3.1 express A as % of B（15 of 60 = 25%），3.2 compare by %（80 is 160% of 50），3.3 % &gt; 100（125% of 80 = 100），3.4 increase/decrease（S$80 + 10% = S$88; 40% → 50% is 10 percentage points, not 25%），3.5 reverse（72 after 20% increase, original = 72 ÷ 1.20 = 60）。本周化石：treating reverse as &quot;subtract r% of new&quot;（72 − 14.4 = 57.6 错，应该 72 ÷ 1.20 = 60）；percentage point as relative %（40% → 50% 说&quot;增加 25%&quot;错，应该说&quot;10 percentage points&quot;）；adding % as raw number（80 + 10 = 90 错，应该 80 + 10% of 80 = 88）；混淆&quot;A is 20% of B&quot;和&quot;A is 20% more than B&quot;。本周完成 N3，下周教 N4 rate and speed。不用计算器，写出算式步骤。"
+      gloss: "AEIS 中学数学第 22 周 / SMATH Week 22. 本周例题：Sec 1 百分数综合应用（Sec 1 NUMBER AND ALGEBRA: N3.6 problems involving percentages）。混合使用 3.1–3.5 技能：3.1 express A as % of B（15 of 60 = 25%），3.2 compare by %（80 is 160% of 50），3.3 % > 100（125% of 80 = 100），3.4 increase/decrease（S$80 + 10% = S$88; 40% → 50% is 10 percentage points, not 25%），3.5 reverse（72 after 20% increase, original = 72 ÷ 1.20 = 60）。本周化石：treating reverse as &quot;subtract r% of new&quot;（72 − 14.4 = 57.6 错，应该 72 ÷ 1.20 = 60）；percentage point as relative %（40% → 50% 说&quot;增加 25%&quot;错，应该说&quot;10 percentage points&quot;）；adding % as raw number（80 + 10 = 90 错，应该 80 + 10% of 80 = 88）；混淆&quot;A is 20% of B&quot;和&quot;A is 20% more than B&quot;。本周完成 N3，下周教 N4 rate and speed。不用计算器，写出算式步骤。"
     },
     "SMATH-23": {
       examples: [
