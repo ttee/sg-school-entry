@@ -10227,6 +10227,101 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
         },
       ],
     },
+    {
+      level: "SMATH",
+      weekNumber: 38,
+      title: "数学 第 38 周 / Maths Week 38",
+      description: "AEIS-Secondary Mathematics: Sec 1 gradient as vertical/horizontal change (N6.5 only)",
+      isSample: false,
+      errorFocus: "writing run/rise instead of rise/run; or dropping the negative sign when the line goes down",
+      parentBrief: "本周是中学 AEIS 数学第 38 周，对应官方 SEAB Sec 1 卷型（https://www.seab.gov.sg/aeis/test-details/ 2026年7月1日更新）。Part 1 Multiple-choice questions：34 道 MCQ，30 分钟。Part 2 Short-answer questions (20 items) and open-ended questions (10 to 15 items)：1 小时 45 分钟。Calculators are not allowed（不允许使用计算器）。Short-answer and open-ended questions：candidates are required to show the method of solution clearly by writing working steps in the spaces provided, plus the final answer（需写出算式步骤和最终答案）。AEIS-Secondary 官方 preceding-level 规则：申请 Sec 2 入学者需熟悉 Sec 2 前一级的内容。官方举例：apply Secondary 3 → be familiar with Secondary 2 content. 本周针对 Sec 2 申请者，内容为 Sec 2 前一级（Sec 1）的官方 MOE 2020 G3 Mathematics Syllabuses, Secondary One, N6. Functions and graphs: 6.5 the gradient of a linear graph as the ratio of the vertical change to the horizontal change (positive and negative gradients)（斜率 / 升降比，斜率作为竖直变化与水平变化的比，正斜率与负斜率）。第 34–37 周已完成 N6.1–6.4（Cartesian coordinates in two dimensions 平面直角坐标系，graph of a set of ordered pairs 有序对的集合的图像表示两个量之间的关系，linear functions y = ax + b 一次函数 y = ax + b，graphs of linear functions 一次函数的图像）。本周只教 N6.5 the gradient of a linear graph as the ratio of the vertical change to the horizontal change (positive and negative gradients)（斜率是竖直变化与水平变化的比，gradient = (vertical change) / (horizontal change)，也可以用两个点 (x₁, y₁) 和 (x₂, y₂) 计算 gradient = (y₂ − y₁) / (x₂ − x₁)，positive gradient 正斜率：线向右上升即 line goes up as x increases，negative gradient 负斜率：线向右下降即 line goes down as x increases）。本周不教如何从斜率求直线方程（equation of a line from gradient），不教平行线和垂直线（parallel and perpendicular lines），不教中点（midpoint）和距离（distance）。友好整数，斜率算出来是整数或简单分数只有一种形式（如 2/4 和 1/2 是相同斜率，只提供一个）。不用计算器，写出算式步骤。本周化石：writing run/rise instead of rise/run（把 run/rise 写成了 rise/run，错误，gradient 是 rise over run，即竖直变化除以水平变化）；or dropping the negative sign when the line goes down（当线向下时丢掉负号，错误，line goes down as x increases 时 gradient 是负数）。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "A line passes through the points (0, 1) and (2, 5). What is the vertical change from (0, 1) to (2, 5)?|A. 4|B. 2|C. 5|D. 3",
+            "Wei wants to find the gradient of a line that passes through (0, 1) and (2, 5). The vertical change is 4 and the horizontal change is 2. What is the gradient?|A. 2|B. 0.5|C. 4|D. 6",
+            "Aisha draws a line that passes through (0, 4) and (2, 0). The vertical change is −4 and the horizontal change is 2. What is the gradient?|A. −2|B. 2|C. −4|D. −0.5",
+            "Mr Lim says: 「A line goes up as x increases.」 What does this tell you about the gradient?|A. The gradient is positive|B. The gradient is negative|C. The gradient is zero|D. The gradient is undefined",
+            "Wei says the gradient of a line that passes through (1, 3) and (3, 7) is (horizontal change) / (vertical change) = 2 / 4 = 0.5. Is Wei correct?|A. No, the gradient is (vertical change) / (horizontal change) = 4 / 2 = 2, not 0.5|B. Yes, Wei is correct|C. No, the gradient is (x₂ − x₁) / (y₂ − y₁)|D. Yes, gradient is run over rise",
+          ]),
+          correctAnswer: "A,A,A,A,A",
+          points: 10,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "A line passes through (1, 2) and (3, 8). What is the gradient?|A. 3|B. 2|C. 1/3|D. 6",
+            "For the points (0, 5) and (2, 1), the vertical change is −4 and the horizontal change is 2. What is the gradient?|A. −2|B. 2|C. −1/2|D. 4",
+            "Wei has a line that goes through (1, 7) and (4, 1). What is the gradient?|A. −2|B. 2|C. 3|D. −3",
+            "Aisha says the gradient of a line from (0, 0) to (3, 6) is 6/3 = 2. Is Aisha correct?|A. Yes, gradient = (vertical change) / (horizontal change) = 6 / 3 = 2 ✓|B. No, gradient = (horizontal change) / (vertical change) = 3 / 6|C. No, the gradient is 3|D. Yes, but the gradient should be 3/6",
+            "A line goes down as x increases. Wei says the gradient must be negative. Is Wei correct?|A. Yes, when the line goes down as x increases, the gradient is negative|B. No, the gradient is positive|C. No, the gradient is zero|D. Yes, but only if the line is steep",
+            "Mr Lim gives the points (2, 10) and (5, 4). What is the gradient?|A. −2|B. 2|C. 3|D. −6",
+            "Wei says the gradient from (0, 8) to (4, 0) is 8/4 = 2. Is Wei correct?|A. No, the gradient is (0 − 8) / (4 − 0) = −8 / 4 = −2, not 2|B. Yes, the gradient is 2|C. No, the gradient is 4/8|D. Yes, Wei used the correct formula",
+            "Aisha has two points (1, 5) and (3, 5). What is the gradient?|A. 0|B. 1|C. 2|D. Undefined",
+          ]),
+          correctAnswer: "A,A,A,A,A,A,A,A",
+          points: 16,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `Part 2: Show Your Working (写出算式步骤)
+
+Riverside Secondary School has questions about the gradient of a linear graph. Answer the questions below. Show your working.
+
+Question (a)
+A line passes through the points (0, 2) and (3, 8).
+
+(i) What is the vertical change from (0, 2) to (3, 8)?
+(ii) What is the horizontal change from (0, 2) to (3, 8)?
+(iii) What is the gradient of this line? Show your calculation.
+
+Question (b)
+Wei draws a line that passes through (0, 10) and (5, 0).
+
+(i) What is the gradient of this line? Show your working.
+(ii) Wei says: 「The line goes down as x increases, so the gradient should be positive.」 Explain why Wei is wrong.
+
+Question (c)
+Aisha plots a line that passes through (1, 3) and (4, 12).
+
+(i) Find the gradient of this line using the formula: gradient = (y₂ − y₁) / (x₂ − x₁).
+(ii) Mr Lim says the gradient is (x₂ − x₁) / (y₂ − y₁) = 3 / 9 = 1/3. Explain why Mr Lim is wrong.
+
+写作提示 / Tips:
+✓ 每题分步骤写出推理 (Show working steps for each question)
+✓ Part 2 官方要求：clearly show the method of solution by writing working steps, plus the final answer
+✓ 不用计算器 (No calculators allowed)
+✓ 斜率步骤示范 (gradient as vertical change over horizontal change examples)：
+  • Line from (0, 2) to (3, 8), find the gradient:
+    Solution: The gradient is the ratio of the vertical change to the horizontal change. The vertical change is 8 − 2 = 6. The horizontal change is 3 − 0 = 3. Gradient = (vertical change) / (horizontal change) = 6 / 3 = 2. Answer: 2. (Note: Common fossil: writing (horizontal change) / (vertical change) = 3 / 6 = 0.5. This is wrong because the gradient is rise over run, which is (vertical change) / (horizontal change), not run over rise.)
+  • Line from (0, 10) to (5, 0), find the gradient:
+    Solution: The vertical change is 0 − 10 = −10. The horizontal change is 5 − 0 = 5. Gradient = (vertical change) / (horizontal change) = −10 / 5 = −2. Answer: −2. (Note: The line goes down as x increases, so the gradient is negative. Common fossil: dropping the negative sign and saying the gradient is 2. This is wrong because when y decreases as x increases, the gradient must be negative.)
+  • Wei says: 「The line goes down as x increases, so the gradient should be positive.」
+    Solution: When a line goes down as x increases, the vertical change is negative (y decreases). The gradient is (vertical change) / (horizontal change). If the vertical change is negative, the gradient is negative, not positive. Answer: Wei is wrong because when the line goes down as x increases, the gradient is negative, not positive.
+  • Line from (1, 3) to (4, 12), find the gradient using (y₂ − y₁) / (x₂ − x₁):
+    Solution: Let (x₁, y₁) = (1, 3) and (x₂, y₂) = (4, 12). The gradient = (y₂ − y₁) / (x₂ − x₁) = (12 − 3) / (4 − 1) = 9 / 3 = 3. Answer: 3.
+  • Mr Lim says the gradient is (x₂ − x₁) / (y₂ − y₁) = 3 / 9 = 1/3:
+    Solution: The gradient formula is (y₂ − y₁) / (x₂ − x₁), not (x₂ − x₁) / (y₂ − y₁). Mr Lim swapped the numerator and denominator. The correct gradient is (y₂ − y₁) / (x₂ − x₁) = 9 / 3 = 3, not 1/3. Answer: Mr Lim is wrong because the gradient is (y₂ − y₁) / (x₂ − x₁) = 9 / 3 = 3, not (x₂ − x₁) / (y₂ − y₁) = 3 / 9 = 1/3. He used run over rise instead of rise over run.
+✓ 关键步骤：Step 1: The gradient of a linear graph is the ratio of the vertical change to the horizontal change（斜率是竖直变化与水平变化的比）. Step 2: vertical change = y₂ − y₁ (the change in y)（竖直变化 = y₂ − y₁，y 的变化）. Step 3: horizontal change = x₂ − x₁ (the change in x)（水平变化 = x₂ − x₁，x 的变化）. Step 4: gradient = (vertical change) / (horizontal change) = (y₂ − y₁) / (x₂ − x₁)（斜率 = 竖直变化 / 水平变化 = (y₂ − y₁) / (x₂ − x₁)）。This is also called rise over run（也叫 rise over run，升降比）。Step 5: If the line goes up as x increases, the gradient is positive（如果线向右上升，斜率是正数）。If the line goes down as x increases, the gradient is negative（如果线向右下降，斜率是负数）。Step 6: Calculate the gradient by subtracting the y-coordinates and x-coordinates, then dividing（计算斜率：y 坐标相减，x 坐标相减，然后相除）. Step 7: State the final answer（陈述最终答案）.
+✓ 化石 (fossil errors)：
+  • Writing run/rise instead of rise/run: saying gradient = (horizontal change) / (vertical change) = (x₂ − x₁) / (y₂ − y₁)（错误：写 run/rise 而不是 rise/run，说 gradient = 水平变化 / 竖直变化。正确：gradient = (vertical change) / (horizontal change) = (y₂ − y₁) / (x₂ − x₁)，是 rise over run 不是 run over rise）
+  • Dropping the negative sign when the line goes down: saying the gradient from (0, 4) to (2, 0) is 4/2 = 2 instead of −4/2 = −2（错误：当线向下时丢掉负号，说 gradient 是 2。正确：竖直变化是 0 − 4 = −4，所以 gradient = −4/2 = −2，是负数不是正数）
+  • Confusing positive and negative gradients: saying a line that goes down has a positive gradient（错误：说向下的线有正斜率。正确：line goes down as x increases 时 gradient 是负数，line goes up as x increases 时 gradient 是正数）
+  • 本周教 N6 的 6.5（the gradient of a linear graph as the ratio of the vertical change to the horizontal change，斜率作为竖直变化与水平变化的比）。第 34–37 周已完成 N6.1–6.4（Cartesian coordinates、ordered pairs graph、y = ax + b、graphs of linear functions）。本周只教 6.5（gradient = (vertical change) / (horizontal change)，also (y₂ − y₁) / (x₂ − x₁)，positive gradient 正斜率，negative gradient 负斜率），不教如何从斜率求直线方程，不教平行线和垂直线，不教中点和距离。
+
+Note: This is a sample of Part 2 short-answer/open-ended questions. The official paper has 20 short-answer + 10–15 open-ended items in 1 hour 45 minutes.`,
+          points: 20,
+        },
+      ],
+    },
   ];
 
   // =================================================================
