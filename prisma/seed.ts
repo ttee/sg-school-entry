@@ -13131,7 +13131,118 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
         },
       ],
     },
+    {
+      level: "SMATH",
+      weekNumber: 68,
+      title: "二次函数图像性质 — Graphs of quadratic functions and their properties",
+      description: "Sec 2 N6.7: graphs of quadratic functions and their properties (AEIS 中学数学第 68 周 / SMATH Week 68)",
+      isSample: false,
+      errorFocus: "sign error in −b/(2a); or forgetting to substitute after finding the axis; or saying 「opens upwards」 and 「has a maximum」 when a > 0",
+      parentBrief: "本周是中学 AEIS 数学第 68 周，对应官方 SEAB Sec 2 卷型（https://www.seab.gov.sg/aeis/test-details/ 2026年7月1日更新）。Part 1 Multiple-choice questions：34 道 MCQ，30 分钟。Part 2 Short-answer questions (20 items) and open-ended questions (10 to 15 items)：1 小时 45 分钟。Calculators are not allowed（不允许使用计算器）。Short-answer and open-ended questions：candidates are required to show the method of solution clearly by writing working steps in the spaces provided, plus the final answer（需写出算式步骤和最终答案）。AEIS-Secondary 官方 preceding-level 规则：申请 Sec 3 入学者需熟悉 Sec 3 前一级的内容。官方举例：apply Secondary 3 → be familiar with Secondary 2 content. 本周针对 Sec 3 申请者，内容为 Sec 3 前一级（Sec 2）的官方 MOE 2020 G3 Mathematics Syllabuses, Secondary Two, NUMBER AND ALGEBRA, N6. Functions and graphs: 6.7 graphs of quadratic functions and their properties（二次函数图像及其性质）。本周只教 N6.7 graphs of quadratic functions and their properties（二次函数图像的三个官方性质）。官方 MOE 2020 G3 Mathematics Syllabuses - Sec 2 NUMBER AND ALGEBRA, N6. Functions and graphs: 6.7 graphs of quadratic functions and their properties. 本周是 N6.7 only（本周只教二次函数图像的三个官方性质）。Graphs of quadratic functions and their properties: (1) positive or negative coefficient of x²（x² 系数的正负：when a > 0 the graph opens upwards and has a minimum point; when a < 0 the graph opens downwards and has a maximum point）; (2) maximum and minimum points（最大点和最小点：the turning point; for y = ax² + bx + c the axis of symmetry is x = −b/(2a), and the turning-point y-value is found by substituting that x into the function; friendly integers so −b/(2a) is an integer）; (3) symmetry（对称性：the graph is symmetric about the vertical line x = −b/(2a)）. Friendly integers so −b/(2a) is always an integer. No calculator. 本周不教 6.8 sketching graphs of quadratic functions given in completed-square form (y = a(x − h)² + k) or factorised form (y = a(x − p)(x − q))（不教从配方形式或因式分解形式画二次函数图像）。本周不教 N7 quadratic equations（不教二次方程）。Do NOT ask students to sketch a full curve from a completed-square or factorised form — that is 6.8. This week is N6.7 only: identify 「opens up/down」, name 「max vs min」, find the axis x = k, and the turning point (h, k) with friendly integers. Fossil: sign error in −b/(2a) (for y = x² − 4x + 3, writing axis x = −2 instead of x = 2, because they wrote −b/(2a) = −4/2 = −2 instead of −(−4)/2 = 2); or forgetting to substitute after finding the axis (stating turning point as (2, 3) because they guessed y = c = 3 instead of substituting x = 2 to find y = −1); or saying 「opens upwards」 and 「has a maximum」 when a > 0 (wrong: when a > 0, the graph opens upwards which means it has a MINIMUM point at the bottom, not a maximum; when a < 0, the graph opens downwards which means it has a MAXIMUM point at the top). Cast: secondary Wei, Aisha, Mr Lim at Riverside Secondary. 第 67 周已完成 N6.6 quadratic functions y = ax² + bx + c。本周继续 N6 Functions and graphs（函数和图像），学习 6.7 graphs of quadratic functions and their properties（二次函数图像及其性质）。本周继续 Sec 2 内容（Sec 3 申请者的 preceding level）。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "At Riverside Secondary, Mr Lim writes: 「For the quadratic function y = x² + 2x − 3, does the graph open upwards or downwards?」 Wei says: 「The coefficient a = 1 > 0, so the graph opens upwards.」 Is Wei correct?|A. Yes, Wei is correct. When a > 0, the graph opens upwards ✓.|B. No, Wei is wrong. When a > 0, the graph opens downwards.|C. No, Wei is wrong. The graph opens upwards only when a < 0.|D. No, Wei is wrong. The coefficient a = 2, not 1.",
+            "Aisha at Riverside Secondary has y = −x² + 4x − 1. Mr Lim asks: 「Does the graph have a maximum point or a minimum point?」 Aisha says: 「The coefficient a = −1 < 0, so the graph opens downwards and has a maximum point.」 Is this correct?|A. Yes, Aisha is correct. When a < 0, the graph opens downwards and has a maximum point ✓.|B. No, Aisha is wrong. When a < 0, the graph has a minimum point.|C. No, Aisha is wrong. a = −1 < 0 means the graph opens upwards.|D. No, Aisha is wrong. The graph has no maximum or minimum.",
+            "At Riverside Secondary, Wei needs to find the axis of symmetry for y = x² − 6x + 5. He writes: x = −b/(2a) = −(−6)/(2×1) = 6/2 = 3. Which statement is correct?|A. Wei's working is correct. The axis of symmetry is x = 3 ✓.|B. Wei's working is wrong. The axis is x = −3 because −6/2 = −3.|C. Wei's working is wrong. The axis is x = 6 because −b = −(−6) = 6.|D. Wei's working is wrong. The axis is x = 5 because c = 5.",
+            "Mr Lim at Riverside Secondary writes: 「For y = x² + 4x + 3, the axis of symmetry is x = −2. Find the turning point.」 Aisha substitutes x = −2: y = (−2)² + 4(−2) + 3 = 4 − 8 + 3 = −1. She says the turning point is (−2, −1). Is Aisha correct?|A. Yes, Aisha is correct. The turning point is (−2, −1) ✓.|B. No, Aisha is wrong. The turning point is (−2, 3) because y = c = 3.|C. No, Aisha is wrong. The turning point is (4, −1).|D. No, Aisha is wrong. The turning point is (−1, −2).",
+            "At Riverside Secondary, Wei has y = 2x² − 4x + 1. He says: 「The coefficient a = 2 > 0, so the graph opens upwards and has a minimum point. The axis of symmetry is x = −b/(2a) = −(−4)/(2×2) = 4/4 = 1. The graph is symmetric about the line x = 1.」 Which statement is correct?|A. Wei's statements are all correct ✓.|B. Wei's statement about opening upwards is wrong. When a > 0, the graph opens downwards.|C. Wei's axis calculation is wrong. The axis is x = −1.|D. Wei's symmetry statement is wrong. The graph is not symmetric.",
+          ]),
+          correctAnswer: "A,A,A,A,A",
+          points: 10,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "At Riverside Secondary, Mr Lim asks: 「For y = x² − 2x − 8, what is the axis of symmetry?」 Which is the correct answer?|A. x = 1 (because x = −b/(2a) = −(−2)/2 = 1)|B. x = −1 (this is wrong: sign error)|C. x = 2 (this is wrong: forgot the minus in −b)|D. x = −8 (this is wrong: used c instead of −b/(2a))",
+            "Aisha at Riverside Secondary has y = −x² + 6x − 5. She needs to find the turning point. She calculates: axis x = −6/(2×(−1)) = 3, then at x = 3: y = −(3)² + 6(3) − 5 = −9 + 18 − 5 = 4. Which is the turning point?|A. (3, 4)|B. (6, 4)|C. (3, −5)|D. (−3, 4)",
+            "Wei at Riverside Secondary has y = x² + 8x + 15. What type of turning point does this graph have?|A. Minimum point (because a = 1 > 0, the graph opens upwards)|B. Maximum point (this is wrong: a > 0 means minimum)|C. Neither maximum nor minimum|D. Both maximum and minimum",
+            "At Riverside Secondary, Mr Lim writes: 「For y = 3x² − 12x + 10, find the axis of symmetry.」 Which working is correct?|A. x = −b/(2a) = −(−12)/(2×3) = 12/6 = 2|B. x = −b/(2a) = −12/6 = −2 (this is wrong: sign error)|C. x = −b/(2a) = −(−12)/3 = 4 (this is wrong: forgot to multiply 2×a)|D. x = 10 (this is wrong: used c)",
+            "Aisha at Riverside Secondary says: 「For y = −x² − 2x + 3, the coefficient a = −1 < 0, so the graph opens downwards.」 Is this statement correct?|A. Yes, this is correct. When a < 0, the graph opens downwards ✓.|B. No, this is wrong. When a < 0, the graph opens upwards.|C. No, this is wrong. a = −2, not −1.|D. No, this is wrong. The graph does not open upwards or downwards.",
+            "At Riverside Secondary, Wei has y = x² − 10x + 21. He says: 「The axis of symmetry is x = 5. At x = 5, y = (5)² − 10(5) + 21 = 25 − 50 + 21 = −4. The turning point is (5, −4).」 Which statement is correct?|A. Wei's working is correct. The turning point is (5, −4) ✓.|B. Wei's axis is wrong. The correct axis is x = −5.|C. Wei's y-value is wrong. The correct y is 21.|D. Wei's turning point is wrong. It should be (−4, 5).",
+            "Mr Lim at Riverside Secondary writes: 「For y = 4x² + 8x + 3, does this graph have a maximum or minimum point?」 Aisha says: 「a = 4 > 0, so the graph has a minimum point.」 Is Aisha correct?|A. Yes, Aisha is correct. When a > 0, the graph has a minimum point ✓.|B. No, Aisha is wrong. When a > 0, the graph has a maximum point.|C. No, Aisha is wrong. a = 8, not 4.|D. No, Aisha is wrong. The graph has neither.",
+            "At Riverside Secondary, Wei has y = −2x² + 8x − 6. What is the axis of symmetry?|A. x = 2 (because x = −b/(2a) = −8/(2×(−2)) = −8/(−4) = 2)|B. x = −2 (this is wrong: sign error)|C. x = 4 (this is wrong: calculation error)|D. x = −6 (this is wrong: used c)",
+          ]),
+          correctAnswer: "A,A,A,A,A,A,A,A",
+          points: 16,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `Part 2: Show Your Working (写出算式步骤)
+
+Riverside Secondary School has graphs of quadratic functions exercises. Answer the questions below. Show your working clearly.
+
+Question (a)
+At Riverside Secondary, Mr Lim gives Wei the quadratic function y = x² − 6x + 5.
+(i) What is the coefficient a? Is a > 0 or a < 0? Does the graph open upwards or downwards?
+(ii) Does the graph have a maximum point or a minimum point? Explain your answer.
+(iii) Find the axis of symmetry using the formula x = −b/(2a). Show your working step by step.
+(iv) Find the coordinates of the turning point. (Hint: After finding the axis x = k, substitute x = k into the function to find y.)
+
+Question (b)
+Aisha at Riverside Secondary has the function y = −x² + 2x + 3.
+(i) What is the coefficient a? Is a > 0 or a < 0? Does the graph open upwards or downwards?
+(ii) Does the graph have a maximum point or a minimum point? Explain your answer.
+(iii) Find the axis of symmetry. Show your working. (Hint: x = −b/(2a). Be careful with the signs when a and b are negative.)
+(iv) Find the coordinates of the turning point. Show your working step by step.
+
+Question (c)
+At Riverside Secondary, Mr Lim writes: 「For the function y = 2x² − 8x + 1, find the turning point and explain why the graph is symmetric about the axis of symmetry.」
+(i) Find the axis of symmetry x = −b/(2a). Show your working.
+(ii) Find the coordinates of the turning point by substituting the axis value into the function.
+(iii) Explain why the graph is symmetric about the vertical line x = −b/(2a). (Hint: The official property is: the graph of a quadratic function is symmetric about the vertical line x = −b/(2a).)
+
+写作提示 / Tips:
+✓ 每题分步骤写出推理 (Show working steps for each question)
+✓ Part 2 官方要求：clearly show the method of solution by writing working steps, plus the final answer
+✓ 不用计算器 (No calculators allowed)
+✓ 二次函数图像性质步骤示范 (graphs of quadratic functions and their properties examples)：
+  • For y = x² − 6x + 5, does the graph open upwards or downwards? Does it have a max or min?
+    Question: For y = x² − 6x + 5, what is a? Does the graph open upwards or downwards? Does it have a maximum or minimum point?
+    Solution: ① The coefficient a = 1 (coefficient of x²). ② Since a = 1 > 0, the graph opens upwards. ③ When a > 0, the graph opens upwards like a U shape, so the turning point is at the bottom. This means the graph has a MINIMUM point. Answer: a = 1 > 0. The graph opens upwards. The graph has a minimum point. (Note: Fossil: saying 「a > 0 so the graph has a maximum」. This is WRONG. When a > 0, opens upwards → minimum. When a < 0, opens downwards → maximum.)
+  • For y = x² − 6x + 5, find the axis of symmetry:
+    Question: For y = x² − 6x + 5, find the axis of symmetry.
+    Solution: ① Use the formula x = −b/(2a). ② Identify a and b: a = 1, b = −6 (keep the minus sign). ③ Substitute: x = −b/(2a) = −(−6)/(2×1) = 6/2 = 3. Answer: The axis of symmetry is x = 3. (Note: Fossil: sign error. Some students write x = −6/2 = −3, forgetting that −b means −(−6) = 6. Always write −b carefully when b is negative.)
+  • For y = x² − 6x + 5, find the turning point:
+    Question: For y = x² − 6x + 5, the axis is x = 3. Find the turning point.
+    Solution: ① We know the axis is x = 3. The x-coordinate of the turning point is 3. ② Substitute x = 3 into y = x² − 6x + 5 to find the y-coordinate: y = (3)² − 6(3) + 5 = 9 − 18 + 5 = −4. ③ The turning point is (3, −4). Answer: The turning point is (3, −4). This is a minimum point because a > 0. (Note: Fossil: forgetting to substitute. Some students guess y = 5 (the constant c) without calculating. You MUST substitute x = 3 to find the correct y-value.)
+  • For y = −x² + 2x + 3, does the graph open upwards or downwards? Max or min?
+    Question: For y = −x² + 2x + 3, what is a? Does the graph open upwards or downwards? Does it have a maximum or minimum point?
+    Solution: ① The coefficient a = −1 (coefficient of x²). ② Since a = −1 < 0, the graph opens downwards. ③ When a < 0, the graph opens downwards like an upside-down U shape, so the turning point is at the top. This means the graph has a MAXIMUM point. Answer: a = −1 < 0. The graph opens downwards. The graph has a maximum point.
+  • For y = −x² + 2x + 3, find the axis of symmetry:
+    Question: For y = −x² + 2x + 3, find the axis of symmetry.
+    Solution: ① Use the formula x = −b/(2a). ② Identify a and b: a = −1, b = 2. ③ Substitute: x = −b/(2a) = −2/(2×(−1)) = −2/(−2) = 1. Answer: The axis of symmetry is x = 1. (Note: Be careful with signs when a is negative. Here 2a = 2×(−1) = −2, so −2/(−2) = 1 (positive).)
+  • For y = −x² + 2x + 3, find the turning point:
+    Question: For y = −x² + 2x + 3, the axis is x = 1. Find the turning point.
+    Solution: ① The x-coordinate of the turning point is 1. ② Substitute x = 1 into y = −x² + 2x + 3 to find y: y = −(1)² + 2(1) + 3 = −1 + 2 + 3 = 4. ③ The turning point is (1, 4). Answer: The turning point is (1, 4). This is a maximum point because a < 0.
+  • For y = 2x² − 8x + 1, find the axis and turning point:
+    Question: For y = 2x² − 8x + 1, find the axis of symmetry and the turning point.
+    Solution: ① Use x = −b/(2a). a = 2, b = −8. ② x = −(−8)/(2×2) = 8/4 = 2. The axis is x = 2. ③ Substitute x = 2 into y = 2x² − 8x + 1: y = 2(2)² − 8(2) + 1 = 2(4) − 16 + 1 = 8 − 16 + 1 = −7. ④ The turning point is (2, −7). Answer: Axis x = 2, turning point (2, −7). Since a = 2 > 0, this is a minimum point.
+  • Explain symmetry:
+    Question: Explain why the graph of y = 2x² − 8x + 1 is symmetric about the line x = 2.
+    Solution: The official property of quadratic functions states: the graph of y = ax² + bx + c is symmetric about the vertical line x = −b/(2a). For y = 2x² − 8x + 1, the axis of symmetry is x = 2. This means that if you draw a vertical line at x = 2, the left side of the graph is a mirror image of the right side. For example, if a point is 1 unit to the left of the axis (at x = 1), there is a corresponding point 1 unit to the right of the axis (at x = 3) with the same y-value. Answer: The graph is symmetric about the line x = 2 because this is the axis of symmetry x = −b/(2a) for the quadratic function.
+✓ 关键步骤：Step 1: Identify a (coefficient of x²). Check if a > 0 or a < 0（识别 a 是 x² 的系数，检查 a 是正是负）. Step 2: If a > 0, the graph opens upwards and has a minimum point. If a < 0, the graph opens downwards and has a maximum point（a > 0 开口向上有最小值；a < 0 开口向下有最大值）. Step 3: Find the axis of symmetry using x = −b/(2a). Be careful with signs（用 x = −b/(2a) 找对称轴，注意符号）. Step 4: Substitute the axis value x = k into the function to find the y-coordinate of the turning point（把 x = k 代入函数求拐点的 y 坐标）. Step 5: State the turning point as (k, y)（陈述拐点坐标 (k, y)）. Step 6: Explain that the graph is symmetric about the vertical line x = −b/(2a)（说明图像关于竖直线 x = −b/(2a) 对称）.
+✓ 化石 (fossil errors)：
+  • Sign error in −b/(2a)（符号错误）：for y = x² − 6x + 5, writing x = −6/2 = −3 instead of x = −(−6)/2 = 3（错误：忘记 −b 中的负号。当 b = −6 时，−b = −(−6) = 6，所以 x = 6/2 = 3，不是 −3）
+  • Forgetting to substitute after finding the axis（找到对称轴后忘记代入）：stating turning point as (3, 5) by guessing y = c = 5, instead of substituting x = 3 to find y = −4（错误：猜测 y = c = 5。正确：必须代入 x = 3 求 y = (3)² − 6(3) + 5 = −4，拐点是 (3, −4)）
+  • Saying 「opens upwards」 and 「has a maximum」 when a > 0（说「开口向上」和「有最大值」）：「For y = x² − 6x + 5, a = 1 > 0, so the graph opens upwards and has a maximum point.」✗（错误：当 a > 0 时，图像开口向上，拐点在底部，是最小值不是最大值。正确：a > 0 → opens upwards → minimum; a < 0 → opens downwards → maximum）
+  • 本周教 Sec 2 NUMBER AND ALGEBRA, N6. Functions and graphs: 6.7 graphs of quadratic functions and their properties（N6.7 二次函数图像及其性质）。本周是 N6.7 only. Official three properties: (1) Sign of a: when a > 0 the graph opens upwards and has a minimum point; when a < 0 the graph opens downwards and has a maximum point. (2) Maximum and minimum points: the turning point. For y = ax² + bx + c, axis of symmetry is x = −b/(2a). The turning-point y-value is found by substituting that x. Friendly integers so −b/(2a) is an integer. (3) Symmetry: the graph is symmetric about the vertical line x = −b/(2a). This week is N6.7 only: identify 「opens up/down」, name 「max vs min」, find axis x = k, find turning point (h, k) with friendly integers. 本周不教 6.8 sketching graphs given in completed-square form or factorised form（不教从配方形式或因式分解形式画二次函数图像）。本周不教 N7 equations（不教方程）。Fossil: sign error in −b/(2a); forgetting to substitute after finding the axis; saying 「opens upwards」 and 「has a maximum」 when a > 0. Cast: secondary Wei, Aisha, Mr Lim at Riverside Secondary. 第 67 周已完成 N6.6 quadratic functions y = ax² + bx + c。本周继续 N6 Functions and graphs（函数和图像），学习 6.7 graphs of quadratic functions and their properties（二次函数图像及其性质）。本周继续 Sec 2 内容（Sec 3 申请者的 preceding level）。
+
+Note: This is a sample of Part 2 short-answer/open-ended questions. The official paper has 20 short-answer + 10–15 open-ended items in 1 hour 45 minutes.`,
+          points: 20,
+        },
+      ],
+    },
   ];
+
 
   // =================================================================
   // UPSERT WEEKS AND QUESTIONS
