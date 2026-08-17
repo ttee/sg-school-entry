@@ -12443,6 +12443,103 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
         },
       ],
     },
+    {
+      level: "SMATH",
+      weekNumber: 61,
+      title: "代入公式求未知量 — Finding the value of an unknown quantity in a given formula",
+      description: "Sec 2 N5.11: finding the value of an unknown quantity in a given formula (AEIS 中学数学第 61 周 / SMATH Week 61)",
+      isSample: false,
+      errorFocus: "substituting into the wrong letter, or forgetting to change the subject before substituting",
+      parentBrief: "本周是中学 AEIS 数学第 61 周，对应官方 SEAB Sec 2 卷型（https://www.seab.gov.sg/aeis/test-details/ 2026年7月1日更新）。Part 1 Multiple-choice questions：34 道 MCQ，30 分钟。Part 2 Short-answer questions (20 items) and open-ended questions (10 to 15 items)：1 小时 45 分钟。Calculators are not allowed（不允许使用计算器）。Short-answer and open-ended questions：candidates are required to show the method of solution clearly by writing working steps in the spaces provided, plus the final answer（需写出算式步骤和最终答案）。AEIS-Secondary 官方 preceding-level 规则：申请 Sec 3 入学者需熟悉 Sec 3 前一级的内容。官方举例：apply Secondary 3 → be familiar with Secondary 2 content. 本周针对 Sec 3 申请者，内容为 Sec 3 前一级（Sec 2）的官方 MOE 2020 G3 Mathematics Syllabuses, Secondary Two, NUMBER AND ALGEBRA, N5. Algebraic manipulation: 5.11 finding the value of an unknown quantity in a given formula（公式代入求未知量）。官方 N5.11 wording（逐字引用）：「finding the value of an unknown quantity in a given formula」。本周只教 N5.11 finding the value of an unknown quantity in a given formula（把数值代入公式求未知量）。Given a formula and values, find the remaining letter. Examples: v = u + at with numbers; A = πr² with A = 49π → r = 7; I = PRT/100; V = lwh; y = mx + c; C = 2πr leave in terms of π or use friendly integers. Friendly integers only. No calculator. For π use 22/7 with r a multiple of 7, OR leave in terms of π — never offer both as options on one item. Fossil: substituting into the wrong letter, or forgetting to change the subject before substituting (make letter the subject first, then plug in values — may rearrange first, then substitute; that is 5.11 using 5.10 skills). 本周不教 5.12 identities (a+b)² / (a−b)² / a²−b²。本周不重教 N5.10 changing the subject as the whole week（上周已教；本周可以先变形再代入 — that is 5.11）。Cast: secondary Wei, Aisha, Mr Lim at Riverside Secondary. 第 8–56 周已完成 Sec 1 内容。第 57 周已完成 Sec 2 N2.4 map scales。第 58 周已完成 Sec 2 N2.5 direct and inverse proportion。第 59 周已完成 Sec 2 N5.9 expansion of the product of algebraic expressions。第 60 周已完成 Sec 2 N5.10 changing the subject of a formula。本周继续 Sec 2 内容（Sec 3 申请者的 preceding level）。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "At Riverside Secondary, Mr Lim gives Wei the formula v = u + at. He says: 「Given u = 5, a = 2, t = 3, find v.」 Which working is correct?|A. v = u + at. Substitute u = 5, a = 2, t = 3: v = 5 + 2 × 3 = 5 + 6 = 11. Answer: v = 11.|B. v = u + at. Substitute: v = 5 + 2 + 3 = 10.|C. v = u + at. Substitute: v = 5 × 2 × 3 = 30.|D. v = u + at. Substitute: v = 5 + 2 − 3 = 4.",
+            "Aisha at Riverside Secondary has the formula A = πr². Mr Lim says: 「Given A = 49π, find r. Leave your answer as an integer.」 Which is correct?|A. A = πr². Here A = 49π. So 49π = πr². Divide by π: 49 = r². Take square root: r = √49 = 7. Answer: r = 7.|B. A = 49π. So r² = 49π. Take square root: r = √(49π) = 7√π.|C. A = πr² = 49π. So r = 49.|D. A = 49π. So r² = 49. Then r = 7π.",
+            "At Riverside Secondary, Wei has the formula I = PRT/100. Mr Lim asks: 「Given P = 2000, R = 5, T = 3, find I.」 Which working is correct?|A. I = PRT/100. Substitute P = 2000, R = 5, T = 3: I = (2000 × 5 × 3)/100 = 30000/100 = 300. Answer: I = 300.|B. I = PRT/100. Substitute: I = (2000 + 5 + 3)/100 = 2008/100 = 20.08.|C. I = PRT/100. Substitute: I = 2000 × 5 × 3 × 100 = 3000000.|D. I = PRT/100. Substitute: I = (2000 × 5)/100 + 3 = 100 + 3 = 103.",
+            "Mr Lim at Riverside Secondary writes: 「From y = mx + c, given m = 4, x = 5, c = 3, find y.」 Aisha says: 「y = 23」. Is Aisha correct?|A. Yes, Aisha is correct. y = mx + c. Substitute m = 4, x = 5, c = 3: y = 4 × 5 + 3 = 20 + 3 = 23.|B. No, Aisha is wrong. y = 4 + 5 + 3 = 12.|C. No, Aisha is wrong. y = 4 × 5 × 3 = 60.|D. No, Aisha is wrong. y = (4 + 5) × 3 = 27.",
+            "Aisha has the formula V = lwh at Riverside Secondary. Given l = 6, w = 4, h = 5, which is the correct value of V?|A. V = lwh. Substitute l = 6, w = 4, h = 5: V = 6 × 4 × 5 = 24 × 5 = 120. Answer: V = 120.|B. V = lwh. Substitute: V = 6 + 4 + 5 = 15.|C. V = lwh. Substitute: V = 6 × 4 + 5 = 24 + 5 = 29.|D. V = lwh. Substitute: V = (6 + 4) × 5 = 10 × 5 = 50.",
+          ]),
+          correctAnswer: "A,A,A,A,A",
+          points: 10,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "At Riverside Secondary, Wei has the formula C = 2πr. Mr Lim says: 「Given r = 7, find C. Use π = 22/7.」 Which working is correct?|A. C = 2πr. Substitute r = 7, π = 22/7: C = 2 × (22/7) × 7 = 2 × 22 = 44. Answer: C = 44.|B. C = 2πr. Substitute r = 7: C = 2 × 7 = 14. (Wrong: forgot to multiply by π.)|C. C = 2πr. Substitute: C = 2 + 22/7 + 7 = 9 + 22/7 = (63 + 22)/7 = 85/7. (Wrong: treating multiplication as addition.)|D. C = 2πr. Substitute r = 7, π = 22/7: C = 2πr = 2 × π × 7 = (22/7) × 7 = 22. (Wrong: forgot to multiply by 2 first.)",
+            "Mr Lim gives Aisha the formula v = u + at. He says: 「Given v = 20, u = 8, a = 3, find t.」 Which is correct?|A. v = u + at. Make t the subject first: v − u = at, so t = (v − u)/a. Substitute v = 20, u = 8, a = 3: t = (20 − 8)/3 = 12/3 = 4. Answer: t = 4.|B. v = u + at. Given v = 20, u = 8, a = 3, find t. Then t = (v + u)/a = (20 + 8)/3 = 28/3. (Wrong: should subtract u, not add u.)|C. v = u + at. Substitute: t = 20 − 8 − 3 = 9. (Wrong: treating 3 as added, not multiplied.)|D. v = u + at. Substitute v = 20, u = 8, a = 3: 20 = 8 + 3t. Then 20 + 8 = 3t, 28 = 3t, t = 28/3. (Wrong: should subtract 8, not add 8.)",
+            "At Riverside Secondary, Wei has the formula A = πr². Mr Lim asks: 「Given r = 14, find A. Leave your answer in terms of π.」 Which is correct?|A. A = πr². Substitute r = 14: A = π × 14² = π × 196 = 196π. Answer: A = 196π.|B. A = πr². Substitute r = 14: A = π × 14 = 14π.|C. A = πr² = π × 196. Use π = 22/7: A = (22/7) × 196 = 22 × 28 = 616.|D. A = πr². Substitute r = 14: A = 14² = 196.",
+            "Aisha at Riverside Secondary has the formula y = 3x + 7. Given y = 28, which is the correct value of x?|A. y = 3x + 7. Make x the subject first: y − 7 = 3x, so x = (y − 7)/3. Substitute y = 28: x = (28 − 7)/3 = 21/3 = 7. Answer: x = 7.|B. y = 3x + 7. Substitute y = 28: 28 = 3x + 7. Then 3x = 28 + 7 = 35, so x = 35/3.|C. y = 3x + 7. Substitute y = 28: x = 28 − 3 − 7 = 18.|D. y = 3x + 7. Substitute y = 28: x = 28/3 − 7 = (28 − 21)/3 = 7/3.",
+            "At Riverside Secondary, Mr Lim writes: 「From the formula s = (u + v)t/2, given u = 10, v = 14, t = 5, find s.」 Which is correct?|A. s = (u + v)t/2. Substitute u = 10, v = 14, t = 5: s = (10 + 14) × 5/2 = 24 × 5/2 = 120/2 = 60. Answer: s = 60.|B. s = (u + v)t/2. Substitute: s = (10 + 14 + 5)/2 = 29/2 = 14.5.|C. s = (u + v)t/2. Substitute: s = (10 + 14)/2 + 5 = 24/2 + 5 = 12 + 5 = 17.|D. s = (u + v)t/2. Substitute: s = 10 + 14 × 5/2 = 10 + 70/2 = 10 + 35 = 45.",
+            "Wei at Riverside Secondary has the formula C = 2πr. Given C = 44, which is the correct value of r? Use π = 22/7.|A. C = 2πr. Make r the subject first: r = C/(2π). Substitute C = 44, π = 22/7: r = 44/(2 × 22/7) = 44/(44/7) = 44 × 7/44 = 7. Answer: r = 7.|B. C = 2πr = 44. So r = 44/(2π). Use π = 22/7: r = 44/(2 × 22/7) = 44/2 × 7/22 = 22 × 7/22 = 7 × 7/7 = ... wait, r = 44/2 = 22. (Wrong: incorrect division by fraction, should be 44 × 7/44 not 44/2.)|C. C = 2πr = 44. So r = 44/(2π). Use π = 22/7: r = 44/(2 × 22/7) = 44/(44/7). Then r = 44 ÷ 44 = 1. (Wrong: should multiply by reciprocal 7/44, not divide 44 by 44.)|D. C = 2πr = 44. So r = 44 − 2 − π = 42 − 22/7 = (294 − 22)/7 = 272/7. (Wrong: treating 2π as added, not multiplied.)",
+            "Mr Lim at Riverside Secondary writes: 「From P = 2(l + w), given P = 36, w = 7, find l.」 Which working is correct?|A. P = 2(l + w). Make l the subject first: P/2 = l + w, so l = P/2 − w. Substitute P = 36, w = 7: l = 36/2 − 7 = 18 − 7 = 11. Answer: l = 11.|B. P = 2(l + w). Substitute P = 36, w = 7: 36 = 2(l + 7). Then l = 36 − 2(7) = 36 − 14 = 22. (Wrong: should divide by 2 first, not multiply 2 × 7.)|C. P = 2(l + w). Substitute P = 36, w = 7: P/2 = l + w, so 36/2 = l + 7, 18 = l + 7. But then l = 18 + 7 = 25. (Wrong: should subtract 7, not add 7.)|D. P = 2(l + w). Substitute: l = 36 − 2 − 7 = 27. (Wrong: treating 2 and w as added, not 2 multiplying the bracket.)",
+            "Aisha has the formula A = (b₁ + b₂)h/2 at Riverside Secondary. Given b₁ = 8, b₂ = 12, h = 5, which is the correct value of A?|A. A = (b₁ + b₂)h/2. Substitute b₁ = 8, b₂ = 12, h = 5: A = (8 + 12) × 5/2 = 20 × 5/2 = 100/2 = 50. Answer: A = 50.|B. A = (b₁ + b₂)h/2. Substitute: A = (8 + 12)/2 + 5 = 20/2 + 5 = 10 + 5 = 15.|C. A = (b₁ + b₂)h/2. Substitute: A = (8 + 12 + 5)/2 = 25/2 = 12.5.|D. A = (b₁ + b₂)h/2. Substitute: A = 8 + 12 × 5/2 = 8 + 60/2 = 8 + 30 = 38.",
+          ]),
+          correctAnswer: "A,A,A,A,A,A,A,A",
+          points: 16,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `Part 2: Show Your Working (写出算式步骤)
+
+Riverside Secondary School has formula substitution exercises. Answer the questions below. Show your working clearly.
+
+Question (a)
+At Riverside Secondary, Mr Lim gives Wei the formula v = u + at.
+(i) Given u = 10, a = 4, t = 5, find v. Show your working clearly. Write each step.
+(ii) Aisha says: 「To find v, I substitute and get v = 10 + 4 + 5 = 19.」 Explain step by step why Aisha is wrong. What is the correct working?
+
+Question (b)
+Wei has the formula A = πr² at Riverside Secondary.
+(i) Given A = 64π, find r. Show your working clearly. (Leave your answer as an integer. A = 64π means 64π, not 64 × 3.14.)
+(ii) Mr Lim says: 「From A = πr², if I want to find r and I have A = 100π, I can write r = 100.」 Explain why Mr Lim is wrong. What is the correct method? Show your working for finding r when A = 100π.
+
+Question (c)
+At Riverside Secondary, Aisha has the formula I = PRT/100.
+(i) Given P = 5000, R = 6, T = 4, find I. Show your working clearly.
+(ii) Wei has the formula C = 2πr. Given C = 88, find r. Use π = 22/7. Show your working clearly. (Hint: First make r the subject, then substitute.)
+(iii) From the formula y = 5x − 3, given y = 37, find x. Show your working clearly.
+
+写作提示 / Tips:
+✓ 每题分步骤写出推理 (Show working steps for each question)
+✓ Part 2 官方要求：clearly show the method of solution by writing working steps, plus the final answer
+✓ 不用计算器 (No calculators allowed)
+✓ 代入公式求未知量 / finding the value of an unknown quantity in a given formula 步骤示范：
+  • Given u = 10, a = 4, t = 5, find v from v = u + at:
+    Question: From the formula v = u + at, given u = 10, a = 4, t = 5, find v.
+    Solution: ① Start with v = u + at. ② Substitute the given values: u = 10, a = 4, t = 5. ③ v = 10 + 4 × 5. (Note: at means a × t, so 4 × 5, NOT 4 + 5.) ④ Follow order of operations: multiply first, then add. 4 × 5 = 20. ⑤ v = 10 + 20 = 30. Answer: v = 30. (Key point: at is ONE term meaning a × t, so substitute 4 for a and 5 for t, then multiply them together to get 4 × 5 = 20, then add to u = 10.)
+  • Given A = 64π, find r from A = πr²:
+    Question: From the formula A = πr², given A = 64π, find r. Leave your answer as an integer.
+    Solution: ① Start with A = πr². ② Substitute A = 64π: 64π = πr². ③ Divide both sides by π: 64 = r². ④ Take the square root of both sides: r = √64 = 8. Answer: r = 8. (Note: A = 64π means 64 times π, NOT the number 64.3.14. When you divide 64π by π, you get 64. Then take the square root to find r.)
+  • Given P = 5000, R = 6, T = 4, find I from I = PRT/100:
+    Question: From the formula I = PRT/100, given P = 5000, R = 6, T = 4, find I.
+    Solution: ① Start with I = PRT/100. ② Substitute the given values: P = 5000, R = 6, T = 4. ③ I = (5000 × 6 × 4)/100. (Note: PRT means P × R × T, so multiply all three numbers.) ④ Calculate the numerator first: 5000 × 6 = 30000. Then 30000 × 4 = 120000. ⑤ Divide by 100: I = 120000/100 = 1200. Answer: I = 1200.
+  • Given C = 88, find r from C = 2πr using π = 22/7:
+    Question: From the formula C = 2πr, given C = 88, find r. Use π = 22/7.
+    Solution: ① Start with C = 2πr. ② First, make r the subject. Divide both sides by 2π: r = C/(2π). ③ Now substitute the given values: C = 88, π = 22/7. ④ r = 88/(2 × 22/7) = 88/(44/7). (Note: 2 × 22/7 = 44/7.) ⑤ Dividing by a fraction: 88/(44/7) = 88 × 7/44 = (88 × 7)/44. ⑥ Simplify: (88 × 7)/44 = (88/44) × 7 = 2 × 7 = 14. Answer: r = 14. (Key steps: Make r the subject first, then substitute. When π = 22/7, substitute that fraction and simplify carefully.)
+  • Given y = 37, find x from y = 5x − 3:
+    Question: From the formula y = 5x − 3, given y = 37, find x.
+    Solution: ① Start with y = 5x − 3. ② First, make x the subject. Add 3 to both sides: y + 3 = 5x. Divide by 5: x = (y + 3)/5. ③ Now substitute y = 37: x = (37 + 3)/5 = 40/5 = 8. Answer: x = 8. (Alternative method: Substitute y = 37 directly: 37 = 5x − 3. Then solve: 37 + 3 = 5x, 40 = 5x, x = 8. Both methods give the same answer.)
+✓ 关键步骤：Step 1: Write down the formula（写出公式）. Step 2: Identify what is given and what you need to find（确定已知量和未知量）. Step 3: If the unknown is already the subject, substitute directly（如果未知量已经是主项，直接代入）. Step 4: If the unknown is not the subject, make it the subject first (using 5.10 skills), then substitute（如果未知量不是主项，先变形使其成为主项，再代入）. Step 5: Substitute the given values into the formula（把已知数值代入公式）. Step 6: Follow the order of operations carefully (BODMAS: Brackets, Order/powers, Division and Multiplication from left to right, Addition and Subtraction from left to right)（仔细遵循运算顺序：括号、幂次、乘除从左到右、加减从左到右）. Step 7: Calculate step by step and write the final answer（分步计算，写出最终答案）. Step 8: For π: when the problem says 「leave in terms of π」, write your answer with π (like 196π). When it says 「use π = 22/7」, substitute 22/7 and calculate a number（对于 π：如果题目说「留在 π 的形式」，答案写成 196π；如果说「用 π = 22/7」，代入 22/7 算出数字）.
+✓ 化石 (fossil errors)：
+  • Substituting into the wrong letter（代入错误的字母）：saying 「from v = u + at, given u = 10, a = 4, t = 5, find v」 and then substituting values into t or a instead of into u, a, t in the right places（错误：从 v = u + at，已知 u = 10, a = 4, t = 5，求 v，结果把数值代入错误的字母位置。正确：Check which letters are given values, and substitute carefully. u = 10 means replace u with 10, a = 4 means replace a with 4, t = 5 means replace t with 5. Then v = 10 + 4 × 5. Do NOT write v = 10 + 4 + 5, because at means a × t, not a + t.）
+  • Forgetting to change the subject before substituting（忘记先变形再代入）：saying 「from y = 5x − 3, given y = 37, find x」 and then writing x = 37 − 5 − 3 = 29（错误：从 y = 5x − 3，已知 y = 37，求 x，直接写 x = 37 − 5 − 3 = 29。正确：When you need to find x, you MUST first make x the subject. y = 5x − 3. Add 3 to both sides: y + 3 = 5x. Divide by 5: x = (y + 3)/5. THEN substitute y = 37: x = (37 + 3)/5 = 40/5 = 8. If you write x = 37 − 5 − 3, you are treating 5 and 3 as if they're added to x, but the formula is y = 5x − 3, which means 5 is multiplied by x and 3 is subtracted, not added to x. OR you can substitute first and solve the equation: 37 = 5x − 3, then 37 + 3 = 5x, 40 = 5x, x = 8. Both methods are correct.）
+  • Treating multiplication as addition（把乘法当加法）：saying 「from v = u + at, substitute u = 10, a = 4, t = 5」 and then writing v = 10 + 4 + 5 = 19（错误：从 v = u + at 代入 u = 10, a = 4, t = 5，写成 v = 10 + 4 + 5 = 19。正确：at means a × t, NOT a + t. So v = u + at = 10 + (4 × 5) = 10 + 20 = 30. Do NOT add all three numbers. The formula has a multiplication sign (×) hidden in at, which stands for a times t.）
+  • 本周教 Sec 2 NUMBER AND ALGEBRA, N5. Algebraic manipulation: 5.11 finding the value of an unknown quantity in a given formula（N5.11 公式代入求未知量）。本周是 N5.11 only. Given a formula and values, find the remaining letter. Examples: v = u + at with numbers; A = πr² with A = 49π → r = 7; I = PRT/100; V = lwh; y = mx + c; C = 2πr leave in terms of π or use friendly integers. Friendly integers only. No calculator. For π use 22/7 with r a multiple of 7, OR leave in terms of π — never offer both as options on one item. Fossil: substituting into the wrong letter, or forgetting to change the subject before substituting (make letter the subject first, then plug in values — may rearrange first, then substitute; that is 5.11 using 5.10 skills). 本周不教 5.12 identities (a+b)² / (a−b)² / a²−b². 本周不重教 N5.10 changing the subject as the whole week（上周已教；本周可以先变形再代入 — that is 5.11）. Cast: secondary Wei, Aisha, Mr Lim at Riverside Secondary. 第 8–56 周已完成 Sec 1 内容。第 57 周已完成 Sec 2 N2.4 map scales。第 58 周已完成 Sec 2 N2.5 direct and inverse proportion。第 59 周已完成 Sec 2 N5.9 expansion of the product of algebraic expressions。第 60 周已完成 Sec 2 N5.10 changing the subject of a formula。本周继续 Sec 2 内容（Sec 3 申请者的 preceding level）。
+
+Note: This is a sample of Part 2 short-answer/open-ended questions. The official paper has 20 short-answer + 10–15 open-ended items in 1 hour 45 minutes.`,
+          points: 20,
+        },
+      ],
+    },
   ];
 
   // =================================================================
