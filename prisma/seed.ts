@@ -11963,6 +11963,105 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
         },
       ],
     },
+    {
+      level: "SMATH",
+      weekNumber: 56,
+      title: "组合立体体积与表面积 — Problems involving volume and surface area of composite solids",
+      description: "Sec 1 G5.5: problems involving volume and surface area of composite solids (AEIS 中学数学第 56 周 / SMATH Week 56)",
+      isSample: false,
+      errorFocus: "adding the surface areas of the pieces (double-counting the joined face); or forgetting to subtract a cut-out when finding volume",
+      parentBrief: "本周是中学 AEIS 数学第 56 周，对应官方 SEAB Sec 1 卷型（https://www.seab.gov.sg/aeis/test-details/ 2026年7月1日更新）。Part 1 Multiple-choice questions：34 道 MCQ，30 分钟。Part 2 Short-answer questions (20 items) and open-ended questions (10 to 15 items)：1 小时 45 分钟。Calculators are not allowed（不允许使用计算器）。Short-answer and open-ended questions：candidates are required to show the method of solution clearly by writing working steps in the spaces provided, plus the final answer（需写出算式步骤和最终答案）。AEIS-Secondary 官方 preceding-level 规则：申请 Sec 2 入学者需熟悉 Sec 2 前一级的内容。官方举例：apply Secondary 3 → be familiar with Secondary 2 content. 本周针对 Sec 2 申请者，内容为 Sec 2 前一级（Sec 1）的官方 MOE 2020 G3 Mathematics Syllabuses, Secondary One, GEOMETRY AND MEASUREMENT, G5. Mensuration: 5.5 problems involving volume and surface area of composite solids（组合立体的体积与表面积问题）。官方 5.5 wording（逐字引用）：「problems involving volume and surface area of composite solids」。本周只教 G5.5 problems involving volume and surface area of composite solids（组合立体的体积与表面积）。官方 G5 Mensuration (5.1–5.5) 至此全部完成。本周是 Sec 1 最后一周 Mensuration 内容。Composite solids: cuboids / rectangular prisms and cylinders (G5.3 已完成)。Volume: add the pieces, or subtract a cut-out (a smaller cuboid or cylinder removed from a larger one). Surface area: add the OUTER faces only. When two solids are joined, do NOT count the hidden joined face twice (subtract 2 × the joined face area from the sum of the separate surface areas). When a piece is cut out of a face, the hole's walls are new surface; the removed face patch is gone. Friendly integers. For π use 22/7 with r a multiple of 7, OR leave answers in terms of π — pick ONE convention per item and never offer both 98π and the 22/7 integer as two options. Examples: L-shaped solid of two cuboids (8×5×4 joined to 6×5×3 along a 5×3 face); a cuboid 10×8×6 with a 4×3×2 cuboid cut from one corner; a cylinder r=7 h=10 standing on a cuboid 20×14×5. Units: cm³ and cm². You MAY convert a final answer with G5.4 if the numbers stay friendly. Do NOT invent cones, spheres, or pyramids (not in official Sec 1 G5). Fossil: adding the surface areas of the pieces (double-counting the joined face); or forgetting to subtract a cut-out when finding volume. Cast: Wei, Aisha, Mr Lim at Riverside Secondary School. No calculator。第 52–55 周已完成 G5.1–G5.4。本周完成 G5.5，官方 G5 Mensuration 全部完成。本周不教 Sec 2 内容。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "At Riverside Secondary, Mr Lim gives Wei two cuboids to form an L-shaped solid. The first cuboid is 10 cm long, 5 cm wide, and 4 cm high. The second cuboid is 6 cm long, 5 cm wide, and 3 cm high. They are joined along a face that is 5 cm by 3 cm. What is the total volume of the composite solid?|A. Volume = (10×5×4) + (6×5×3) = 200 + 90 = 290 cm³|B. Volume = (10×5×4) - (6×5×3) = 200 - 90 = 110 cm³|C. Volume = (10+6)×5×4 = 320 cm³|D. Volume = 10×5×(4+3) = 350 cm³",
+            "Aisha at Riverside Secondary has a cuboid 12 cm by 8 cm by 6 cm with a smaller cuboid 4 cm by 3 cm by 2 cm cut out from one corner. What is the volume of the remaining solid?|A. Volume = (12×8×6) - (4×3×2) = 576 - 24 = 552 cm³|B. Volume = (12×8×6) + (4×3×2) = 576 + 24 = 600 cm³|C. Volume = (12-4)×(8-3)×(6-2) = 8×5×4 = 160 cm³|D. Volume = 12×8×6 = 576 cm³",
+            "At Riverside Secondary, Wei has a cylinder with radius 7 cm and height 10 cm standing on a cuboid 20 cm by 14 cm by 5 cm. The cylinder is placed on the top face of the cuboid. What is the total volume of the composite solid? (Use π = 22/7.)|A. Volume = (20×14×5) + (22/7×7×7×10) = 1400 + 1540 = 2940 cm³|B. Volume = (20×14×5) - (22/7×7×7×10) = 1400 - 1540 = -140 cm³|C. Volume = 20×14×5 = 1400 cm³|D. Volume = 22/7×7×7×10 = 1540 cm³",
+            "Mr Lim at Riverside Secondary draws two cuboids joined to form a T-shaped solid. The horizontal part is 15 cm long, 4 cm wide, and 3 cm high. The vertical part is 6 cm long, 4 cm wide, and 8 cm high. They share a face that is 4 cm by 3 cm. Which working is correct for the total volume?|A. Volume = (15×4×3) + (6×4×8) = 180 + 192 = 372 cm³|B. Volume = (15×4×3) + (6×4×8) - (4×3) = 180 + 192 - 12 = 360 cm³|C. Volume = 15×4×(3+8) = 660 cm³|D. Volume = (15+6)×4×8 = 672 cm³",
+            "Aisha has a composite solid made of a cuboid 16 cm by 10 cm by 5 cm with a cylinder of radius 7 cm and height 5 cm cut out from the top face. The cylinder goes through the entire 5 cm height. What is the volume of the remaining solid? (Use π = 22/7.)|A. Volume = (16×10×5) - (22/7×7×7×5) = 800 - 770 = 30 cm³|B. Volume = (16×10×5) + (22/7×7×7×5) = 800 + 770 = 1570 cm³|C. Volume = 16×10×5 = 800 cm³|D. Volume = 22/7×7×7×5 = 770 cm³",
+          ]),
+          correctAnswer: "A,A,A,A,A",
+          points: 10,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "At Riverside Secondary, Mr Lim gives Wei two cuboids to form an L-shape. Cuboid A is 12 cm by 6 cm by 5 cm. Cuboid B is 8 cm by 6 cm by 4 cm. They are joined along a 6 cm by 4 cm face. The surface area of cuboid A alone is 2(12×6 + 12×5 + 6×5) = 324 cm². The surface area of cuboid B alone is 2(8×6 + 8×4 + 6×4) = 272 cm². What is the surface area of the composite solid?|A. Surface area = 324 + 272 - 2×(6×4) = 596 - 48 = 548 cm²|B. Surface area = 324 + 272 = 596 cm²|C. Surface area = 324 + 272 - (6×4) = 596 - 24 = 572 cm²|D. Surface area = 2(12×6 + 8×4 + 6×5) = 364 cm²",
+            "Aisha at Riverside Secondary has a cylinder radius 7 cm and height 12 cm on top of a cuboid 20 cm by 14 cm by 6 cm. The cylinder sits on the top face. The base of the cylinder has area 22/7×7×7 = 154 cm². The surface area of the cuboid alone (without the top where the cylinder sits) is 2(20×14) + 2(20×6) + 2(14×6) = 280 + 240 + 168 = 688 cm². The lateral surface area of the cylinder is 2×22/7×7×12 = 528 cm². The top circle of the cylinder has area 154 cm². Which is correct for the total surface area of the composite solid?|A. SA = 688 + 528 + 154 - 154 = 1216 cm² (subtract the hidden circle once from cuboid top, cylinder base is hidden)|B. SA = 688 + 528 + 154 = 1370 cm²|C. SA = 688 + 528 = 1216 cm²|D. SA = 688 + 528 + 154 - 2×154 = 1062 cm²",
+            "At Riverside Secondary, Wei has a cuboid 14 cm by 10 cm by 8 cm. A smaller cuboid 5 cm by 4 cm by 3 cm is cut out from one face, creating a rectangular hole. The hole goes 3 cm deep into the 8 cm dimension. Before cutting, the surface area of the large cuboid was 2(14×10 + 14×8 + 10×8) = 2(140 + 112 + 80) = 664 cm². After cutting, the 5 cm by 4 cm face patch is removed, and the walls of the hole (two faces 5×3 and two faces 4×3) are added. What is the new surface area?|A. SA = 664 - (5×4) + 2(5×3) + 2(4×3) = 664 - 20 + 30 + 24 = 698 cm²|B. SA = 664 - (5×4) = 644 cm²|C. SA = 664 + 2(5×3) + 2(4×3) = 664 + 30 + 24 = 718 cm²|D. SA = 664 cm²",
+            "Mr Lim shows Aisha two cuboids forming a T-shape at Riverside Secondary. The top horizontal part is 18 cm long, 6 cm wide, and 4 cm high. The vertical part is 8 cm long, 6 cm wide, and 10 cm high. They share a 6 cm by 4 cm face. Which working is correct for the surface area?|A. SA of top part alone = 2(18×6 + 18×4 + 6×4) = 2(108 + 72 + 24) = 408 cm². SA of vertical part alone = 2(8×6 + 8×10 + 6×10) = 2(48 + 80 + 60) = 376 cm². Total SA = 408 + 376 - 2(6×4) = 784 - 48 = 736 cm².|B. SA = 408 + 376 = 784 cm²|C. SA = 2(18×6 + 8×10 + 6×4) = 616 cm²|D. SA = 408 + 376 - (6×4) = 760 cm²",
+            "At Riverside Secondary, Wei has a cube with edge 10 cm. A cylinder radius 7 cm and height 5 cm is cut out from the top face, going 5 cm deep. Surface area of the cube alone was 6×10×10 = 600 cm². After cutting, the circular patch area 22/7×7×7 = 154 cm² is removed from the top, and the cylinder's lateral wall 2×22/7×7×5 = 220 cm² is added. The cylinder's bottom inside the cube has area 154 cm². What is the new surface area?|A. SA = 600 - 154 + 220 = 666 cm²|B. SA = 600 + 220 = 820 cm²|C. SA = 600 - 154 + 220 + 154 = 820 cm²|D. SA = 600 cm²",
+            "Aisha at Riverside Secondary has two cuboids forming an L-shape. Part 1 is 14 cm by 7 cm by 5 cm. Part 2 is 10 cm by 7 cm by 4 cm. They are joined along a 7 cm by 4 cm face. What is the volume of the composite solid?|A. Volume = (14×7×5) + (10×7×4) = 490 + 280 = 770 cm³|B. Volume = (14×7×5) - (10×7×4) = 490 - 280 = 210 cm³|C. Volume = (14+10)×7×5 = 840 cm³|D. Volume = 14×7×(5+4) = 882 cm³",
+            "Mr Lim gives Wei a cuboid 15 cm by 12 cm by 10 cm with a cuboid 6 cm by 4 cm by 5 cm removed from one corner. What is the volume of the remaining solid?|A. Volume = (15×12×10) - (6×4×5) = 1800 - 120 = 1680 cm³|B. Volume = (15×12×10) + (6×4×5) = 1800 + 120 = 1920 cm³|C. Volume = (15-6)×(12-4)×(10-5) = 9×8×5 = 360 cm³|D. Volume = 15×12×10 = 1800 cm³",
+            "At Riverside Secondary, Aisha has a cylinder radius 7 cm and height 8 cm on a cuboid 24 cm by 14 cm by 6 cm. What is the total volume? (Use π = 22/7.)|A. Volume = (24×14×6) + (22/7×7×7×8) = 2016 + 1232 = 3248 cm³|B. Volume = (24×14×6) - (22/7×7×7×8) = 2016 - 1232 = 784 cm³|C. Volume = 24×14×6 = 2016 cm³|D. Volume = 22/7×7×7×8 = 1232 cm³",
+          ]),
+          correctAnswer: "A,A,A,A,A,A,A,A",
+          points: 16,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `Part 2: Show Your Working (写出算式步骤)
+
+Riverside Secondary School has composite solid exercises on volume and surface area. Answer the questions below. Show your working clearly.
+
+Question (a)
+At Riverside Secondary, Mr Lim gives Wei an L-shaped solid made of two cuboids. The first cuboid is 12 cm long, 8 cm wide, and 6 cm high. The second cuboid is 10 cm long, 8 cm wide, and 5 cm high. They are joined along a face that is 8 cm by 5 cm.
+(i) Calculate the volume of each cuboid separately. Show your working.
+(ii) Calculate the total volume of the L-shaped composite solid. Show your working.
+(iii) Explain why you add the two volumes together, not subtract.
+
+Question (b)
+Aisha has a cuboid at Riverside Secondary. The cuboid is 16 cm long, 12 cm wide, and 10 cm high. A smaller cuboid 6 cm by 4 cm by 5 cm is cut out from one corner.
+(i) Calculate the volume of the large cuboid before cutting. Show your working.
+(ii) Calculate the volume of the removed small cuboid. Show your working.
+(iii) Calculate the volume of the remaining solid after cutting. Show your working.
+
+Question (c)
+At Riverside Secondary, Mr Lim shows Wei a composite solid: a cylinder with radius 7 cm and height 12 cm standing on top of a cuboid 28 cm by 14 cm by 8 cm. Use π = 22/7.
+(i) Calculate the volume of the cuboid. Show your working.
+(ii) Calculate the volume of the cylinder. Show your working. Use π = 22/7.
+(iii) Calculate the total volume of the composite solid. Show your working.
+(iv) If you want to convert the final volume to m³, and the volume is friendly, show the conversion working. (Hint: 1 m³ = 1 000 000 cm³. If the number is not friendly, you can skip this part.)
+
+写作提示 / Tips:
+✓ 每题分步骤写出推理 (Show working steps for each question)
+✓ Part 2 官方要求：clearly show the method of solution by writing working steps, plus the final answer
+✓ 不用计算器 (No calculators allowed)
+✓ 组合立体体积与表面积步骤示范（composite solids volume and surface area examples）：
+  • L-shaped solid of two cuboids (joined along a face):
+    Question: Two cuboids form an L-shape. Cuboid A: 10×5×4 cm. Cuboid B: 6×5×3 cm. They are joined along a 5×3 face. Find the volume.
+    Solution: ① Volume of A = 10×5×4 = 200 cm³. ② Volume of B = 6×5×3 = 90 cm³. ③ Total volume = 200 + 90 = 290 cm³. Answer: 290 cm³. (Note: For volume, add the pieces. The joined face does not affect volume calculation.)
+  • Cuboid with a cut-out (subtract):
+    Question: A cuboid 12×8×6 cm has a smaller cuboid 4×3×2 cm cut from one corner. Find the remaining volume.
+    Solution: ① Volume of large cuboid = 12×8×6 = 576 cm³. ② Volume of cut-out = 4×3×2 = 24 cm³. ③ Remaining volume = 576 - 24 = 552 cm³. Answer: 552 cm³. (Note: Subtract the cut-out volume.)
+  • Cylinder on a cuboid:
+    Question: A cylinder r=7 cm, h=10 cm stands on a cuboid 20×14×5 cm. Find the total volume. Use π=22/7.
+    Solution: ① Volume of cuboid = 20×14×5 = 1400 cm³. ② Volume of cylinder = π×r²×h = 22/7×7×7×10 = 22/7×49×10 = 22×490/7 = 22×70 = 1540 cm³. ③ Total volume = 1400 + 1540 = 2940 cm³. Answer: 2940 cm³. (Note: Add the pieces. Use π=22/7 with r=7 for friendly integers.)
+  • Surface area: joined solids (subtract 2× the joined face area):
+    Question: Two cuboids form an L-shape. Cuboid A: 12×6×5 cm. Cuboid B: 8×6×4 cm. Joined along 6×4 face. Find surface area.
+    Solution: ① SA of A alone = 2(12×6 + 12×5 + 6×5) = 2(72+60+30) = 2×162 = 324 cm². ② SA of B alone = 2(8×6 + 8×4 + 6×4) = 2(48+32+24) = 2×136 = 272 cm². ③ Joined face area = 6×4 = 24 cm². ④ Total SA = 324 + 272 - 2×24 = 596 - 48 = 548 cm². Answer: 548 cm². (Note: Subtract 2× the joined face area because that face is hidden on both pieces. Do NOT double-count the joined face.)
+  • Surface area: cuboid with a cut-out hole (subtract removed patch, add hole walls):
+    Question: A cuboid 14×10×8 cm has a 5×4 cm rectangular hole cut 3 cm deep into one face. Find the new surface area.
+    Solution: ① SA of cuboid before cutting = 2(14×10 + 14×8 + 10×8) = 2(140+112+80) = 2×332 = 664 cm². ② The 5×4 face patch is removed: -20 cm². ③ Hole walls: two faces 5×3 = 15 cm² each, two faces 4×3 = 12 cm² each. Total walls = 2×15 + 2×12 = 30 + 24 = 54 cm². ④ New SA = 664 - 20 + 54 = 698 cm². Answer: 698 cm². (Note: Subtract the removed face patch, add the new interior walls of the hole.)
+✓ 关键步骤：Step 1: Identify the composite solid（确定组合立体：两个长方体拼成 L 形？一个长方体挖掉一个小长方体？圆柱站在长方体上面？）. Step 2: For volume: add pieces or subtract cut-out（体积：加各部分体积，或减去挖掉的部分体积）. For surface area: add the surface areas of the pieces, then subtract 2× the joined face area if joined, or subtract removed patch and add hole walls if cut out（表面积：加各部分表面积，减去 2× 接触面面积（因为两个接触面都不算）；或者减去挖掉的面，加上孔的墙壁面积）. Step 3: Calculate each part's volume or surface area separately（分别算每部分的体积或表面积）. Step 4: Use the correct formula（用正确的公式：长方体体积 = l×w×h，表面积 = 2(lw+lh+wh)；圆柱体积 = πr²h，表面积 = 2πrh + 2πr²）. Step 5: Combine the results correctly（正确组合结果：加或减，注意表面积要减去隐藏的面或加上孔的墙壁）. Step 6: State the final answer with units（陈述最终答案并带单位 cm³ for volume, cm² for surface area）.
+✓ 化石 (fossil errors)：
+  • Adding the surface areas of the pieces (double-counting the joined face)（把两个立体的表面积直接相加，忘记减去接触面）：saying 「SA = SA of A + SA of B」without subtracting the joined face（错误：直接 SA = SA_A + SA_B，忘记减去接触面。正确：SA = SA_A + SA_B - 2×(joined face area). When two solids are joined, the joined face is hidden on BOTH pieces, so subtract 2× that area. If you forget, you double-count the joined face, getting a surface area that is too large. For example, two cuboids SA=324 cm² and SA=272 cm² joined along a 6×4=24 cm² face: correct SA = 324 + 272 - 2×24 = 548 cm². WRONG: SA = 324 + 272 = 596 cm² (too large because you counted the 24 cm² face twice).）
+  • Forgetting to subtract a cut-out when finding volume（算体积时忘记减去挖掉的部分）：saying 「Volume = volume of large cuboid」（错误：Volume = volume of large cuboid（忘记减去挖掉的小长方体体积）。正确：Volume = volume of large cuboid - volume of cut-out. When a piece is cut out, the remaining volume is LESS. If you forget to subtract, you get the volume before cutting, not the remaining volume. For example, a 12×8×6=576 cm³ cuboid with a 4×3×2=24 cm³ cut-out: correct volume = 576 - 24 = 552 cm³. WRONG: Volume = 576 cm³ (you forgot to subtract the cut-out 24 cm³).）
+  • 本周教 Sec 1 GEOMETRY AND MEASUREMENT, G5. Mensuration: 5.5 problems involving volume and surface area of composite solids（G5.5 组合立体的体积与表面积）。本周是 G5.5 only. Composite solids: cuboids / rectangular prisms and cylinders (G5.3 已完成)。Volume: add the pieces, or subtract a cut-out (a smaller cuboid or cylinder removed from a larger one). Surface area: add the OUTER faces only. When two solids are joined, do NOT count the hidden joined face twice (subtract 2 × the joined face area from the sum of the separate surface areas). When a piece is cut out of a face, the hole's walls are new surface; the removed face patch is gone. Friendly integers. For π use 22/7 with r a multiple of 7, OR leave answers in terms of π — ONE convention per item. Examples: L-shaped solid of two cuboids (8×5×4 joined to 6×5×3 along a 5×3 face); a cuboid 10×8×6 with a 4×3×2 cuboid cut from one corner; a cylinder r=7 h=10 standing on a cuboid 20×14×5. Units: cm³ and cm². You MAY convert a final answer with G5.4 if the numbers stay friendly. Do NOT invent cones, spheres, or pyramids (not in official Sec 1 G5). Cast: Wei, Aisha, Mr Lim at Riverside Secondary School. No calculator. 第 52–55 周已完成 G5.1–G5.4。本周完成 G5.5，官方 G5 Mensuration 至此全部完成。本周是 Sec 1 最后一周 Mensuration 内容。本周不教 Sec 2 内容。
+
+Note: This is a sample of Part 2 short-answer/open-ended questions. The official paper has 20 short-answer + 10–15 open-ended items in 1 hour 45 minutes.`,
+          points: 20,
+        },
+      ],
+    },
   ];
 
   // =================================================================

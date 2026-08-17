@@ -5027,6 +5027,43 @@ const lessonPlans: Record<string, LessonPlan> = {
     ],
     speakingPrompts: null,
   },
+  "SMATH-56": {
+    title: "组合立体体积与表面积 — Problems involving volume and surface area of composite solids",
+    mathExample: "L-shape: two cuboids 10×5×4 + 6×5×3 = 290 cm³. Cut-out: 12×8×6 - 4×3×2 = 552 cm³. Cylinder on cuboid: 1400 + 1540 = 2940 cm³. Surface area: SA1 + SA2 - 2×(joined face).",
+    sections: [
+      {
+        name: "课前",
+        duration: "2 分钟",
+        teacherNotes: "确认 Zoom 设置正常。调整摄像头。对家长说：「本周教 Sec 1 AEIS 数学：problems involving volume and surface area of composite solids（组合立体的体积与表面积）。这是 G5 Mensuration 最后一周内容，官方 G5.5。本周不教 Sec 2 内容。」",
+      },
+      {
+        name: "热身",
+        duration: "3 分钟",
+        teacherNotes: "问孩子：「你记得长方体的体积公式吗？」等孩子回答：volume = length × width × height. 在白板上写：Volume of cuboid = l×w×h. 然后问：「圆柱的体积公式呢？」等孩子回答：volume = πr²h. 在白板上写：Volume of cylinder = πr²h. 说：「今天我们要学组合立体图形 (composite solids). 就是把两个或更多立体图形拼起来，或者从一个立体里挖掉一块。我们要算它们的体积和表面积。」让孩子跟读：composite solid（组合立体图形）, volume（体积）, surface area（表面积）。",
+      },
+      {
+        name: "化石",
+        duration: "8 分钟",
+        teacherNotes: "在白板上写下两个常见错误：(1) 「Surface area: When two solids are joined, SA = SA of A + SA of B」（忘记减去接触面）；(2) 「Volume: When a piece is cut out, Volume = volume of large solid」（忘记减去挖掉的部分体积）。问孩子：「这两个做法对吗？」等孩子思考后，圈出错误。解释：(1) 当两个立体拼在一起时，接触的那个面被隐藏了，两边都看不见。所以 surface area = SA of A + SA of B - 2×(joined face area). 如果忘记减去，就把接触面算了两次，surface area 太大。(2) 当从一个立体里挖掉一块时，剩下的 volume = volume of large solid - volume of cut-out. 如果忘记减去挖掉的部分，就算成挖之前的体积了，不是剩下的体积。改正后写：「SA = SA_A + SA_B - 2×(joined face area)」和「Volume = large volume - cut-out volume」。让孩子跟读 2 次。",
+      },
+      {
+        name: "示范",
+        duration: "15 分钟",
+        teacherNotes: "示范三道例题（在屏幕上或白板上边写边讲）：\n\n例题 1: L-shaped solid: Two cuboids. Cuboid A: 10 cm × 5 cm × 4 cm. Cuboid B: 6 cm × 5 cm × 3 cm. They are joined along a 5 cm × 3 cm face. Find the volume.\nVolume of A = 10×5×4 = 200 cm³. Volume of B = 6×5×3 = 90 cm³. Total volume = 200 + 90 = 290 cm³. Answer: 290 cm³. (Note: For volume, just add the pieces. The joined face doesn't affect volume calculation.)\n\n例题 2: Cut-out: A cuboid 12 cm × 8 cm × 6 cm has a smaller cuboid 4 cm × 3 cm × 2 cm cut out from one corner. Find the remaining volume.\nVolume of large cuboid = 12×8×6 = 576 cm³. Volume of cut-out = 4×3×2 = 24 cm³. Remaining volume = 576 - 24 = 552 cm³. Answer: 552 cm³. (Note: Subtract the cut-out volume.)\n\n例题 3: Surface area of joined solids: Two cuboids form an L-shape. Cuboid A: 12 cm × 6 cm × 5 cm. Cuboid B: 8 cm × 6 cm × 4 cm. They are joined along a 6 cm × 4 cm face. Find the surface area.\nSA of A alone = 2(12×6 + 12×5 + 6×5) = 2(72+60+30) = 2×162 = 324 cm². SA of B alone = 2(8×6 + 8×4 + 6×4) = 2(48+32+24) = 2×136 = 272 cm². Joined face area = 6×4 = 24 cm². Total SA = 324 + 272 - 2×24 = 596 - 48 = 548 cm². Answer: 548 cm². (Note: Subtract 2× the joined face area because that face is hidden on BOTH pieces. Do NOT double-count.)\n\n让孩子跟读关键步骤：Volume: add or subtract（体积：加或减）. Surface area: add SA - 2×(joined face)（表面积：加 SA 减 2×接触面）.",
+      },
+      {
+        name: "练习",
+        duration: "15 分钟",
+        teacherNotes: "给孩子 5 道题目让他/她在纸上算（教师不给完整答案，只给提示，让孩子自己写出 working steps）：\n\n练习 1: Two cuboids form an L-shape. Cuboid A: 14 cm × 7 cm × 5 cm. Cuboid B: 10 cm × 7 cm × 4 cm. Joined along 7×4 face. Find the volume. (提示：算两个 volume 然后加起来.) 期待答案：Volume A = 14×7×5 = 490 cm³. Volume B = 10×7×4 = 280 cm³. Total = 490 + 280 = 770 cm³.\n\n练习 2: A cuboid 15 cm × 12 cm × 10 cm has a cut-out 6 cm × 4 cm × 5 cm removed. Find the remaining volume. (提示：大 volume 减小 volume.) 期待答案：Large = 15×12×10 = 1800 cm³. Cut-out = 6×4×5 = 120 cm³. Remaining = 1800 - 120 = 1680 cm³.\n\n练习 3: A cylinder radius 7 cm and height 8 cm stands on a cuboid 24 cm × 14 cm × 6 cm. Find the total volume. Use π = 22/7. (提示：长方体 volume + 圆柱 volume.) 期待答案：Cuboid = 24×14×6 = 2016 cm³. Cylinder = 22/7×7×7×8 = 22×7×8 = 1232 cm³. Total = 2016 + 1232 = 3248 cm³.\n\n练习 4: Two cuboids form an L-shape. Cuboid A: 10 cm × 6 cm × 4 cm. Cuboid B: 8 cm × 6 cm × 3 cm. Joined along 6×3 face. Find the surface area. (提示：算两个 SA，然后减去 2×(joined face).) 期待答案：SA of A = 2(10×6 + 10×4 + 6×4) = 2(60+40+24) = 2×124 = 248 cm². SA of B = 2(8×6 + 8×3 + 6×3) = 2(48+24+18) = 2×90 = 180 cm². Joined face = 6×3 = 18 cm². Total SA = 248 + 180 - 2×18 = 428 - 36 = 392 cm².\n\n练习 5: A cuboid 14 cm × 10 cm × 8 cm has a 5 cm × 4 cm rectangular hole cut 3 cm deep into one face. Find the new surface area. (提示：原来的 SA 减去挖掉的面 patch，加上 hole walls.) 期待答案：Original SA = 2(14×10 + 14×8 + 10×8) = 2(140+112+80) = 2×332 = 664 cm². Removed patch = 5×4 = 20 cm². Hole walls: 2(5×3) + 2(4×3) = 30 + 24 = 54 cm². New SA = 664 - 20 + 54 = 698 cm².\n\n如果孩子卡住，教师给词提示（例如：「用 add 还是 subtract？」或「joined face 要减几次？」），但不直接说出答案。孩子算完后，教师检查 working steps 和公式（volume: add or subtract; SA: subtract 2× joined face or add hole walls）。",
+      },
+      {
+        name: "收口",
+        duration: "3 分钟",
+        teacherNotes: "总结本周重点：(1) 官方 Sec 1 AEIS 数学卷型：Part 1 MCQ 34 题 30 分钟 + Part 2 show working 20+10–15 题 1 小时 45 分钟，不用计算器。(2) 本周内容：Sec 1 GEOMETRY AND MEASUREMENT, G5. Mensuration: 5.5 problems involving volume and surface area of composite solids（组合立体的体积与表面积）。本周是 G5.5 only. Composite solids: cuboids / rectangular prisms and cylinders (G5.3 已完成)。Volume: add the pieces, or subtract a cut-out. Surface area: add the OUTER faces only. When two solids are joined, do NOT count the hidden joined face twice (subtract 2× the joined face area from the sum of the separate surface areas). When a piece is cut out of a face, the hole's walls are new surface; the removed face patch is gone. Friendly integers. For π use 22/7 (r multiple of 7) OR leave in π terms — ONE convention per item. Examples: L-shaped solid (8×5×4 + 6×5×3 = 290 cm³); cut-out (576 - 24 = 552 cm³); cylinder on cuboid (1400 + 1540 = 2940 cm³). Units: cm³, cm². Cast: Wei, Aisha, Mr Lim at Riverside Secondary. No calculator. Fossil: adding surface areas without subtracting joined face (double-counting); or forgetting to subtract cut-out volume. 第 52–55 周已完成 G5.1–G5.4。本周完成 G5.5，官方 G5 Mensuration 至此全部完成。本周是 Sec 1 最后一周 Mensuration 内容。本周不教 Sec 2 内容。(3) 下周预告（如有下周课程）：继续 Sec 1 或 Sec 2 内容。(4) 作业：完成 app 上的 Week 56 题目（reading MCQ 5 题 + grammar MCQ 8 题 + writing show-working 3 题）。Show working steps clearly. 对家长说：「本周化石焦点：adding surface areas of joined solids without subtracting the joined face (double-counting); or forgetting to subtract a cut-out when finding volume. 请在家长端查看孩子的作业提交，关注这两个化石错误。」对孩子说：「Great work today! Remember: Volume: add or subtract. Surface area: subtract 2× joined face; or add hole walls and subtract removed patch.」鼓励孩子并结束课程。",
+      },
+    ],
+    speakingPrompts: null,
+  },
 };
 
 export default async function LessonPlanPage({
