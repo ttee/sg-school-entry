@@ -26,7 +26,7 @@ export default function DualValidationMapSmathWeek41() {
           <tbody>
             <tr className="border-b border-accent/10">
               <td className="px-3 py-3 text-ink align-top">
-                <strong>选择题</strong><br />5 道选择题（LCD 是什么、去分母后方程、第一步、x≠2 的原因、如何检验）
+                <strong>选择题</strong><br />5 道选择题（x/4 + (x−1)/3 = 2 的 LCD、去分母后方程、4/(x−1) = 8 第一步、x≠1 的原因、检验 x = 4）
               </td>
               <td className="px-3 py-3 text-ink-2 align-top">
                 <strong>Part 1 Multiple-choice questions</strong><br />34 道 MCQ，30 分钟（官方 SEAB）
@@ -37,7 +37,7 @@ export default function DualValidationMapSmathWeek41() {
             </tr>
             <tr className="border-b border-accent/10">
               <td className="px-3 py-3 text-ink align-top">
-                <strong>选择题</strong><br />8 道选择题（去分母展开后方程、x值、两边乘以(x−2)后方程、展开后方程、x值、完整推理、化石错误分析、检验）
+                <strong>选择题</strong><br />8 道选择题（x/4 + (x−1)/3 = 2 去分母展开后、x/2 + (x+2)/3 = 4 的 x 值、4/(x−1) = 8 两边乘以(x−1)后、5/(x+1) = 5 展开后、2/(x−3) = 4 的 x 值、官方例题化石错误分析、官方例题化石、检验 x = 1.5 在 4/(x−1) = 8）
               </td>
               <td className="px-3 py-3 text-ink-2 align-top">
                 <strong>Part 1 Multiple-choice questions</strong><br />34 道 MCQ（同一部分）
@@ -48,7 +48,7 @@ export default function DualValidationMapSmathWeek41() {
             </tr>
             <tr>
               <td className="px-3 py-3 text-ink align-top">
-                <strong>写作 / Show Your Working</strong><br />3 道应用题（Solve x/3 + (x−2)/4 = 3 show working and check、Solve 3/(x−2) = 6 show working check and explain x≠2、Find LCD multiply every term and explain fossil error）
+                <strong>写作 / Show Your Working</strong><br />3 道应用题（Solve x/4 + (x−1)/3 = 2 show working and check、Solve 4/(x−1) = 8 show working check and explain x≠1、Find LCD for x/2 + (x+2)/3 = 4 multiply every term and explain fossil error）
               </td>
               <td className="px-3 py-3 text-ink-2 align-top">
                 <strong>Part 2 Short-answer and open-ended questions</strong><br />Short-answer 20 题 + Open-ended 10–15 题，1 小时 45 分钟（官方 SEAB）
