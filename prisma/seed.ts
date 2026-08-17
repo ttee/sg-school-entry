@@ -9741,6 +9741,96 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
         },
       ],
     },
+    {
+      level: "SMATH",
+      weekNumber: 33,
+      title: "数学 第 33 周 / Maths Week 33",
+      description: "AEIS-Secondary Mathematics: Sec 1 use brackets and extract common factors",
+      isSample: false,
+      errorFocus: "factoring only the x term: 3x + 6 = 3(x + 6); writing 3x + 6 = 3x(1 + 6); taking a factor that is not common (4x + 10 = 4(x + 10/4)); dropping the sign: 5x − 15 = 5(x + 3)",
+      parentBrief: "本周是中学 AEIS 数学第 33 周，对应官方 SEAB Sec 1 卷型（https://www.seab.gov.sg/aeis/test-details/ 2026年7月1日更新）。Part 1 Multiple-choice questions：34 道 MCQ，30 分钟。Part 2 Short-answer questions (20 items) and open-ended questions (10 to 15 items)：1 小时 45 分钟。Calculators are not allowed（不允许使用计算器）。Short-answer and open-ended questions：candidates are required to show the method of solution clearly by writing working steps in the spaces provided, plus the final answer（需写出算式步骤和最终答案）。AEIS-Secondary 官方 preceding-level 规则：申请 Sec 2 入学者需熟悉 Sec 2 前一级的内容。官方举例：apply Secondary 3 → be familiar with Secondary 2 content. 本周针对 Sec 2 申请者，内容为 Sec 2 前一级（Sec 1）的官方 MOE 2020 G3 Mathematics Syllabuses, Secondary One, NUMBER AND ALGEBRA, N5. Algebraic expressions and formulae: 5.8 use brackets and extract common factors（提取公因式）。第 26–32 周已完成 5.1–5.7（using letters to represent numbers、interpreting notations、evaluation of algebraic expressions、translation of simple real-world situations into algebraic expressions、recognising and representing patterns/relationships by finding an algebraic expression for the nth term、addition and subtraction of linear expressions、simplification of linear expressions such as −2(3x − 5) + 4x），本周只教 5.8 use brackets and extraction of common factors（提取公因式）。本周完成 N5（5.1–5.8）。下周不教 N6 functions and graphs（函数和图像）。官方 5.8 wording（官方术语，逐字引用）：'use of brackets and extraction of common factors'。本周方法：Extract the highest common factor and write with a bracket（提取最大公因数，用括号写出来）。3x + 6 = 3(x + 2)（HCF = 3: 3x ÷ 3 = x, 6 ÷ 3 = 2）。4x + 10 = 2(2x + 5)（HCF = 2: 4x ÷ 2 = 2x, 10 ÷ 2 = 5）。6x + 9 = 3(2x + 3)（HCF = 3）。5x − 15 = 5(x − 3)（HCF = 5，keep the minus sign）。2x + 2y = 2(x + y)（HCF = 2）。ax + ay = a(x + y)（HCF = a）。Check by expanding the bracket（检验：展开括号，看是否回到原式）。Friendly integers. No calculator. 本周化石 fossil errors：factoring only the x term: 3x + 6 = 3(x + 6)（错误：只分解了 x 项，忘记 6 也要除以 3，正确是 3(x + 2)）；writing 3x + 6 = 3x(1 + 6)（错误：把 3 只放在 x 上）；taking a factor that is not common: 4x + 10 = 4(x + 10/4)（错误：4 不是 10 的因数，正确是 2(2x + 5)）；dropping the sign: 5x − 15 = 5(x + 3)（错误：丢掉负号，正确是 5(x − 3)）。唯一性 unique keys：两个选项不能是同一个表达式（Two options must not be the same expression）。Do not offer both 3(x + 2) and 3x + 6 as two options for "factorise 3x + 6"（不要同时提供 3(x + 2) 和 3x + 6 作为两个选项）。3(x + 6) must be a WRONG option when the answer is 3(x + 2)（化石值 3(x + 6) 必须是错误选项）。Do not offer both 2(2x + 5) and 2(2x + 5) written two ways（不要同时提供 2(2x + 5) 写两次）。Check every factorisation by expanding（检查每个因式分解：展开括号）。本周作业是样本，不是完整 34 + 20 + 10–15 题。非官方机构运营（affiliation 非官方机构 is OK）。不发明官方未提及的内容（do not invent official facts）。不声称 AEIS 是 G3 paper（G3 只是官方 preceding-level 内容来源）。不发明官方 cut-scores 或 extra official names。第 26–32 周已完成 5.1–5.7，本周只教 5.8 use brackets and extraction of common factors（提取公因式）。本周完成 N5（5.1–5.8）。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "Factorise 3x + 6.|A. 3(x + 2)|B. 3(x + 6)|C. 3x(1 + 2)|D. x(3 + 6)",
+            "Factorise 4x + 10.|A. 2(2x + 5)|B. 4(x + 10)|C. 2(4x + 5)|D. 4(x + 5)",
+            "Factorise 5x − 15.|A. 5(x − 3)|B. 5(x + 3)|C. 5(x − 15)|D. x(5 − 15)",
+            "Factorise 2x + 2y.|A. 2(x + y)|B. 2x(1 + y)|C. 2(x + 2y)|D. x(2 + 2y)",
+            "Which working is correct for factorising 3x + 6?|A. HCF = 3, so 3(x + 2)|B. HCF = 3, so 3(x + 6)|C. HCF = 6, so 6(x + 1)|D. HCF = 3x, so 3x(1 + 6)",
+          ]),
+          correctAnswer: "A,A,A,A,A",
+          points: 10,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "Factorise 6x + 9.|A. 3(2x + 3)|B. 6(x + 9)|C. 3(6x + 3)|D. 9(x + 6)",
+            "Factorise 8x − 12.|A. 4(2x − 3)|B. 8(x − 12)|C. 2(4x − 12)|D. 4(2x + 3)",
+            "Factorise ax + ay.|A. a(x + y)|B. x(a + y)|C. y(a + x)|D. a(x + ay)",
+            "Which is NOT a correct factorisation?|A. 3x + 6 = 3(x + 2)|B. 4x + 10 = 2(2x + 5)|C. 5x − 15 = 5(x + 3)|D. 2x + 2y = 2(x + y)",
+            "Wei factorises 10x + 15. Which working is correct?|A. HCF = 5, so 5(2x + 3)|B. HCF = 10, so 10(x + 15)|C. HCF = 15, so 15(x + 10)|D. HCF = 5, so 5(10x + 3)",
+            "Aisha factorises 7x − 21. What is the correct answer?|A. 7(x − 3)|B. 7(x + 3)|C. 7(x − 21)|D. x(7 − 21)",
+            "Mr Lim asks: Factorise 12x + 18. Which is the correct answer?|A. 6(2x + 3)|B. 12(x + 18)|C. 2(6x + 18)|D. 3(4x + 18)",
+            "Which expression is correctly factorised?|A. 9x − 27 = 9(x − 3)|B. 9x − 27 = 9(x + 3)|C. 9x − 27 = 3(3x − 27)|D. All are correct",
+          ]),
+          correctAnswer: "A,A,A,C,A,A,A,A",
+          points: 16,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `Part 2: Show Your Working (写出算式步骤)
+
+Riverside Secondary School has algebraic expression problems. Answer the questions below. Factorise each expression. Show your working and check by expanding.
+
+Question (a)
+Factorise 3x + 6.
+Show your working. Check by expanding the bracket.
+
+Question (b)
+Wei factorises 5x − 15 and writes 5(x + 3).
+(i) Factorise 5x − 15. Show your working.
+(ii) Check by expanding.
+(iii) Explain why Wei's answer 5(x + 3) is wrong.
+
+Question (c)
+Factorise 2x + 2y.
+Show your working. Check by expanding the bracket.
+
+写作提示 / Tips:
+✓ 每题分步骤写出推理 (Show working steps for each question)
+✓ Part 2 官方要求：clearly show the method of solution by writing working steps, plus the final answer
+✓ 不用计算器 (No calculators allowed)
+✓ 提取公因式步骤示范 (extraction of common factors examples)：
+  • 3x + 6 = 3(x + 2)：
+    Factorise 3x + 6. Show your working. Check by expanding.
+    Solution: ① Find the HCF of 3x and 6. HCF = 3. ② 3x ÷ 3 = x, 6 ÷ 3 = 2. ③ 3x + 6 = 3(x + 2). ④ Check by expanding: 3(x + 2) = 3 × x + 3 × 2 = 3x + 6 ✓. Answer: 3(x + 2). (Note: Common fossil: writing 3(x + 6) instead of 3(x + 2). This is wrong because 3(x + 6) = 3x + 18, not 3x + 6. When factorising, divide EVERY term by the HCF.)
+  • 5x − 15 = 5(x − 3)（not 5(x + 3)）：
+    Factorise 5x − 15. Show your working. Explain why 5(x + 3) is wrong.
+    Solution: ① Find the HCF of 5x and 15. HCF = 5. ② 5x ÷ 5 = x, −15 ÷ 5 = −3. ③ 5x − 15 = 5(x − 3). ④ Check by expanding: 5(x − 3) = 5 × x − 5 × 3 = 5x − 15 ✓. Answer: 5(x − 3). Explanation: If we write 5(x + 3), when we expand it we get 5x + 15, not 5x − 15. The sign must be kept: −15 ÷ 5 = −3, so 5(x − 3) = 5x − 15 ✓.
+  • 2x + 2y = 2(x + y)：
+    Factorise 2x + 2y. Show your working. Check by expanding.
+    Solution: ① Find the HCF of 2x and 2y. HCF = 2. ② 2x ÷ 2 = x, 2y ÷ 2 = y. ③ 2x + 2y = 2(x + y). ④ Check by expanding: 2(x + y) = 2 × x + 2 × y = 2x + 2y ✓. Answer: 2(x + y).
+✓ 关键步骤：Step 1: Find the HCF of all terms（找出所有项的最大公因数 HCF）. Step 2: Divide each term by the HCF（每一项除以 HCF）. Step 3: Write the HCF outside the bracket and the quotients inside（把 HCF 写在括号外，商写在括号内）. Step 4: Check by expanding the bracket（检验：展开括号，看是否回到原式）. Step 5: State the final answer（陈述最终答案）.
+✓ 化石 (fossil errors)：
+  • Factoring only the x term: 3x + 6 = 3(x + 6)（错误：只分解了 x 项，忘记 6 也要除以 3，正确是 3(x + 2)）
+  • Writing 3x + 6 = 3x(1 + 6)（错误：把 3 只放在 x 上，正确是 3(x + 2)）
+  • Taking a factor that is not common: 4x + 10 = 4(x + 10/4)（错误：4 不是 10 的因数，HCF 应该是 2，正确是 2(2x + 5)）
+  • Dropping the sign: 5x − 15 = 5(x + 3)（错误：丢掉负号，正确是 5(x − 3)，因为 −15 ÷ 5 = −3，不是 +3）
+  • 本周教 N5 的 5.8（use of brackets and extraction of common factors，提取公因式）。第 26–32 周已完成 5.1–5.7，本周只教 5.8 extraction of common factors（提取公因式）。本周完成 N5（5.1–5.8）。
+
+Note: This is a sample of Part 2 short-answer/open-ended questions. The official paper has 20 short-answer + 10–15 open-ended items in 1 hour 45 minutes.`,
+          points: 20,
+        },
+      ],
+    },
   ];
 
   // =================================================================

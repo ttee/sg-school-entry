@@ -557,6 +557,15 @@ export default function WeikeMiniLesson({ level, weekNumber }: WeikeMiniLessonPr
       ],
       gloss: "AEIS 中学数学第 32 周 / SMATH Week 32. 本周例题：Sec 1 一次式化简（Sec 1 NUMBER AND ALGEBRA: N5.7 simplification of linear expressions such as −2(3x − 5) + 4x）。官方 5.7 wording（逐字引用）：'simplification of linear expressions such as −2(3x − 5) + 4x ; 2x/3 − 3(x − 5)/2'。本周方法：Expand the bracket, then collect like terms（展开括号，然后合并同类项）。−2(3x − 5) + 4x = −6x + 10 + 4x = −2x + 10（先展开 −2 乘以括号里的每一项：−2 × 3x = −6x，−2 × (−5) = +10；再合并 −6x + 4x = −2x）。2(3x − 5) + 4x = 6x − 10 + 4x = 10x − 10（2 × 3x = 6x，2 × (−5) = −10；6x + 4x = 10x）。3(x + 2) − 2(x − 1) = 3x + 6 − 2x + 2 = x + 8（展开两个括号：3(x + 2) = 3x + 6，−2(x − 1) = −2x + 2；合并：3x − 2x = x，6 + 2 = 8）。4x − 2(3x − 5) = 4x − 6x + 10 = −2x + 10（展开：−2 × 3x = −6x，−2 × (−5) = +10；合并：4x − 6x = −2x）。本周化石：−2(3x − 5) = −6x − 5 or −6x − 10（错误：忘记负负得正 negative times negative is positive，正确是 −6x + 10，因为 −2 × (−5) = +10）；4x − 2(3x − 5) = 4x − 6x − 10（错误：忘记 −2 × (−5) = +10，写成了 −10，正确应该是 4x − 6x + 10 = −2x + 10）；dropping the sign on the second term inside the bracket（漏掉括号里第二项的符号）。第 26–31 周已完成 5.1–5.6，本周只教 5.7 simplification（一次式化简：展开括号再合并）。本周不教 5.8 use of brackets and extraction of common factors（括号的使用和提取公因数，下周内容）。Friendly integers。No calculator。写出算式步骤。"
     },
+    "SMATH-33": {
+      examples: [
+        "3x + 6 = 3(x + 2). Check: 3(x + 2) = 3x + 6 ✓. Fossil: 3(x + 6) ✗ (only factored x term).",
+        "4x + 10 = 2(2x + 5). HCF = 2, not 4.",
+        "5x − 15 = 5(x − 3). Keep the minus. Fossil: 5(x + 3) ✗.",
+        "2x + 2y = 2(x + y). Check: 2(x + y) = 2x + 2y ✓."
+      ],
+      gloss: "AEIS 中学数学第 33 周 / SMATH Week 33. 本周例题：Sec 1 提取公因式（Sec 1 NUMBER AND ALGEBRA: N5.8 use of brackets and extraction of common factors）。官方 5.8 wording（逐字引用）：'use of brackets and extraction of common factors'。本周方法：Extract the highest common factor and write with a bracket（提取最大公因数，用括号写出来）。3x + 6 = 3(x + 2)（HCF of 3x and 6 is 3: 3x ÷ 3 = x, 6 ÷ 3 = 2）。4x + 10 = 2(2x + 5)（HCF of 4x and 10 is 2: 4x ÷ 2 = 2x, 10 ÷ 2 = 5）。6x + 9 = 3(2x + 3)（HCF of 6x and 9 is 3）。5x − 15 = 5(x − 3)（HCF of 5x and 15 is 5; keep the minus sign: −15 ÷ 5 = −3）。2x + 2y = 2(x + y)（HCF of 2x and 2y is 2）。ax + ay = a(x + y)（HCF of ax and ay is a）。Check by expanding the bracket（检验：展开括号，看是否回到原式）：3(x + 2) = 3x + 6 ✓。本周化石：factoring only the x term: 3x + 6 = 3(x + 6)（错误：只分解了 x 项，忘记 6 也要除以 3，正确是 3(x + 2)）；writing 3x + 6 = 3x(1 + 6)（错误：把 3 只放在 x 上）；taking a factor that is not common: 4x + 10 = 4(x + 10/4)（错误：4 不是 10 的因数，正确是 2(2x + 5)）；dropping the sign: 5x − 15 = 5(x + 3)（错误：丢掉负号，正确是 5(x − 3)）。第 26–32 周已完成 5.1–5.7，本周只教 5.8 extraction of common factors（提取公因式）。本周完成 N5（5.1–5.8）。Friendly integers。No calculator。写出算式步骤。"
+    },
     "SEC-0": {
       fossil: "Although I was nervous, but I tried. ✗ (中文「虽然…但是…」迁移) / I go yesterday ✗ (叙事体过去时掉落)",
       examples: [
