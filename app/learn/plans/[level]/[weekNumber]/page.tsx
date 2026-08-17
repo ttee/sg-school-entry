@@ -4509,6 +4509,43 @@ const lessonPlans: Record<string, LessonPlan> = {
     ],
     speakingPrompts: null,
   },
+  "SMATH-42": {
+    title: "列一元一次方程解应用题 — Formulating a linear equation in one variable to solve problems",
+    mathExample: "Wei is x years old. Aisha is 3 years older. Together they are 27. → Equation: x + (x+3) = 27 → 2x + 3 = 27 → 2x = 24 → x = 12. Check: Wei 12, Aisha 15, 12+15 = 27 ✓. Book S$x, notebook S$4 less. 2 books + 1 notebook = S$26. → Equation: 2x + (x−4) = 26 → 3x − 4 = 26 → 3x = 30 → x = 10. Check: book S$10, notebook S$6, 2(10)+6 = 26 ✓.",
+    sections: [
+      {
+        name: "课前",
+        duration: "2 分钟",
+        teacherNotes: "确认 Zoom 设置正常。孩子和家长都在镜头前。调整摄像头，让孩子的脸清晰可见。对家长说：「本周内容是 Sec 1 列一元一次方程解应用题。官方 MOE 2020 G3 Sec 1 NUMBER AND ALGEBRA, N7. Equations and inequalities: 7.4 formulating a linear equation in one variable to solve problems。本周重点是 read a short school-life word problem 读一段学校生活小故事，write ONE linear equation in one unknown 写一个一元一次方程，solve it the same way as Week 40 用第 40 周方法解，check by substitution in the original story 在原故事中验算。Typical stories: ages 年龄（Wei is x, Aisha is x+3, together 27）、prices 物价（book S$x, notebook S$4 less, 2 books + 1 notebook S$26）、groups 人数分组（class 36, one group x, the other x+4）。Friendly integers 友好整数。Amounts in S$ 新元 only。No calculator。本周完成 N7（7.1–7.4），完成 Sec 1 NUMBER AND ALGEBRA N1–N7。本周不开始 GEOMETRY AND MEASUREMENT G1 angles（角）。」提醒家长可以在旁边观摩，但请让孩子自己动笔算。",
+      },
+      {
+        name: "热身",
+        duration: "5 分钟",
+        teacherNotes: "在白板或屏幕上写：Wei is x years old. Aisha is 3 years older than Wei. Together, they are 27 years old. 问孩子：「这是一个应用题 word problem。我们要找什么？」答：We need to find Wei's age（我们要找 Wei 的年龄）。问：「Wei 的年龄是什么？」引导孩子说：Let Wei's age = x（设 Wei 的年龄为 x）。写：Let Wei's age = x. 问：「Aisha is 3 years older than Wei. Aisha 的年龄是多少？」引导孩子说：Aisha's age = x + 3（Aisha 的年龄 = x + 3）。写：Aisha's age = x + 3. 强调：x + 3 is an expression for Aisha's age, not an equation（x + 3 是 Aisha 年龄的代数式 expression，不是方程 equation）。问：「Together they are 27. 怎么写成方程 equation？」引导孩子说：Wei's age + Aisha's age = 27（Wei 的年龄 + Aisha 的年龄 = 27）。写：x + (x+3) = 27. 强调：This is an equation because it has 「=」（这是一个方程，因为它有「=」号）。问：「现在怎么解这个方程？」答：Solve the same way as Week 40（用第 40 周的方法解）。写：x + x + 3 = 27 → 2x + 3 = 27 → 2x = 24 → x = 12. 问：「x = 12 是什么意思？」答：Wei is 12 years old（Wei 12 岁）。问：「Aisha 几岁？」答：Aisha is 12 + 3 = 15 years old. 问：「怎么检验？」答：Check: 12 + 15 = 27 ✓. 强调：We check by substitution in the original story（我们在原故事中代入检验）。如果孩子卡住，教师先示范一次，让孩子跟着说。",
+      },
+      {
+        name: "化石",
+        duration: "8 分钟",
+        teacherNotes: "在屏幕上或白板上写下错误例子：Wei reads: 「Wei is x years old. Aisha is 3 years older. Together they are 27.」 Wei writes: x + 3（标记为 ✗）。问孩子：「这个对吗？」等孩子思考后，圈出错误：x + 3 is only an expression, not an equation（x + 3 只是一个代数式 expression，不是方程 equation）。指出：Wei wrote an expression for Aisha's age, but forgot to write the equation with the total 27（Wei 写了 Aisha 年龄的代数式，但忘记写包含总数 27 的方程）。强调：An expression is just one quantity, like x + 3. An equation has「=」and two sides, like x + (x+3) = 27（代数式只是一个量，比如 x + 3。方程有「=」号和两边，比如 x + (x+3) = 27）。改正后写：Equation: x + (x+3) = 27（标记为 ✓）。让孩子跟读改正后的步骤：Formulate the equation: x + (x+3) = 27。再给第二个化石例子：Aisha reads: 「A notebook costs S$4 less than a book.」 Aisha writes: notebook = x + 4（标记为 ✗）。问孩子：「这个对吗？」圈出错误：translating 「少 / less than」 backwards（把「少 / less than」翻译反了）。指出：「Less than」 means subtract, not add（「less than」 意思是减，不是加）。If a notebook costs S$4 less than a book, and the book is x, then the notebook is x − 4, not x + 4（如果笔记本比书少 S$4，书是 x，那么笔记本是 x − 4，不是 x + 4）。改正后写：notebook = x − 4（标记为 ✓）。让孩子跟读 3 次：Less than means subtract. Notebook = x − 4。",
+      },
+      {
+        name: "示范",
+        duration: "10 分钟",
+        teacherNotes: "教师示范两道完整例题（写出推理步骤）。例题 1（Wei is x, Aisha is 3 older, together 27）：Wei is x years old. Aisha is 3 years older than Wei. Together, Wei and Aisha are 27 years old. (i) Formulate an equation. (ii) Solve the equation. (iii) Check by substitution in the original story. 步骤：① Read the problem: Wei is x years old. Aisha is 3 years older. Together they are 27. ② Identify the unknown: Let Wei's age = x. ③ Translate the story into algebraic expressions: Aisha's age = x + 3. ④ Formulate the equation using the total: Wei's age + Aisha's age = 27 → x + (x+3) = 27. ⑤ Solve the equation: x + x + 3 = 27 → 2x + 3 = 27 → 2x = 27 − 3 → 2x = 24 → x = 12. ⑥ Check by substitution in the original story: Wei is 12 years old. Aisha is 12 + 3 = 15 years old. Together: 12 + 15 = 27 ✓. Answer: Wei is 12 years old, Aisha is 15 years old. 例题 2（Book S$x, notebook S$4 less, 2 books + 1 notebook = S$26）：A book costs S$x. A notebook costs S$4 less than the book. Wei buys 2 books and 1 notebook for a total of S$26. (i) Formulate an equation. (ii) Solve the equation. (iii) Check by substitution. 步骤：① Read the problem: Book S$x, notebook S$4 less, 2 books + 1 notebook = S$26. ② Let the price of a book = S$x. ③ Translate: The price of a notebook = S$(x − 4) because it is S$4 less than the book. ④ Formulate the equation: 2 books + 1 notebook = S$26 → 2x + (x−4) = 26. ⑤ Solve: 2x + x − 4 = 26 → 3x − 4 = 26 → 3x = 30 → x = 10. ⑥ Check: Book = S$10. Notebook = S$(10−4) = S$6. Total: 2(10) + 6 = 20 + 6 = 26 ✓. Answer: The book costs S$10, the notebook costs S$6. 每个步骤写完后，让孩子跟着说一遍。",
+      },
+      {
+        name: "练习",
+        duration: "12 分钟",
+        teacherNotes: "给孩子 2 道练习题，让孩子独立做，写出推理步骤。家长可以用手机拍照孩子的推理。题 1：Wei is x years old. Aisha is 4 years older than Wei. Together, Wei and Aisha are 28 years old. (i) Formulate an equation. (ii) Solve the equation. (iii) Check by substitution in the original story. 答案：① Let Wei's age = x. ② Aisha's age = x + 4. ③ Equation: x + (x+4) = 28. ④ Solve: 2x + 4 = 28 → 2x = 24 → x = 12. ⑤ Check: Wei 12, Aisha 16, 12+16 = 28 ✓. Answer: Wei is 12 years old, Aisha is 16 years old. 题 2：Mr Lim splits a class of 40 students into two groups. One group has 6 more students than the other. Let x be the number of students in the smaller group. (i) Formulate an equation. (ii) Solve the equation. (iii) Check by substitution. 答案：① Let x = number of students in the smaller group. ② Larger group = x + 6. ③ Equation: x + (x+6) = 40. ④ Solve: 2x + 6 = 40 → 2x = 34 → x = 17. ⑤ Check: Smaller group 17, larger group 23, 17+23 = 40 ✓. Answer: The smaller group has 17 students, the larger group has 23 students. 孩子做完后，教师检查步骤。如果孩子卡在某一步，教师提示关键词（比如「Formulate the equation using the total」或「Check by substitution in the story」）。",
+      },
+      {
+        name: "收口",
+        duration: "3 分钟",
+        teacherNotes: "总结本周重点：(1) 官方 Sec 1 AEIS 数学卷型：Part 1 MCQ 34 题 30 分钟 + Part 2 show working 20+10–15 题 1 小时 45 分钟，不用计算器。(2) 本周内容：Sec 1 NUMBER AND ALGEBRA, N7. Equations and inequalities: 7.4 formulating a linear equation in one variable to solve problems（列一元一次方程解应用题），对应 preceding level 规则。本周只教 N7.4：read a short school-life word problem 读应用题，write ONE linear equation in one unknown 写一个一元一次方程，solve it the same way as Week 40 用第 40 周方法解，check by substitution in the original story 在原故事中验算。Typical stories: ages 年龄、prices 物价（S$ 新元 only）、groups 人数分组。Friendly integers。No calculator。第 42 周完成 N7（7.1 concept of equation, 7.2 solving linear equations, 7.3 solving simple fractional equations, 7.4 formulating a linear equation to solve problems）。第 39–42 周完成 Sec 1 NUMBER AND ALGEBRA N1–N7（质数分解、HCF/LCM、平方立方和根、负数四则、数轴、不等号、近似估算、有理数比、比的应用、百分数、速率速度、用字母表示数、代数、坐标、一次函数、方程）。本周不开始 GEOMETRY AND MEASUREMENT G1 angles（角）。(3) 本周化石：writing an expression instead of an equation（写成代数式而不是方程）。Wrong: Wei is x, Aisha is 3 older, together 27 → write x + 3 ✗（错误：这只是 Aisha 年龄的代数式，不是方程）。Wrong: notebook is S$4 less than book → x + 4 instead of x − 4 ✗（错误：中文「少」语序翻译错误）。Right: write one equation with「=」and the total（正确：写一个包含「=」和总数的方程）。(4) 本周作业在 /learn 页面，完成后系统自动批改 MCQ，writing 部分有 AI Kaizen 反馈（一个改善焦点）。家长会在微信群收到进度同步。不提「小班课」「包过」「保证录取」等话术。Cast: Wei, Aisha, Mr Lim at Riverside Secondary School. 本周对应申请 Sec 2 入学者的 preceding level（Sec 1）内容。第 39–41 周已完成 N7.1 concept of equation、N7.2 solving linear equations in one variable、N7.3 solving simple fractional equations。恭喜完成 N7 Equations and inequalities 所有小节！",
+      },
+    ],
+    speakingPrompts: null,
+  },
 };
 
 export default async function LessonPlanPage({
