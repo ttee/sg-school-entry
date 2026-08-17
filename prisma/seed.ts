@@ -10322,6 +10322,108 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
         },
       ],
     },
+    {
+      level: "SMATH",
+      weekNumber: 39,
+      title: "数学 第 39 周 / Maths Week 39",
+      description: "AEIS-Secondary Mathematics: Sec 1 concept of equation (N7.1 only)",
+      isSample: false,
+      errorFocus: "calling 3x + 2 an equation; or saying 2x + 1 = 7 is an expression",
+      parentBrief: "本周是中学 AEIS 数学第 39 周，对应官方 SEAB Sec 1 卷型（https://www.seab.gov.sg/aeis/test-details/ 2026年7月1日更新）。Part 1 Multiple-choice questions：34 道 MCQ，30 分钟。Part 2 Short-answer questions (20 items) and open-ended questions (10 to 15 items)：1 小时 45 分钟。Calculators are not allowed（不允许使用计算器）。Short-answer and open-ended questions：candidates are required to show the method of solution clearly by writing working steps in the spaces provided, plus the final answer（需写出算式步骤和最终答案）。AEIS-Secondary 官方 preceding-level 规则：申请 Sec 2 入学者需熟悉 Sec 2 前一级的内容。官方举例：apply Secondary 3 → be familiar with Secondary 2 content. 本周针对 Sec 2 申请者，内容为 Sec 2 前一级（Sec 1）的官方 MOE 2020 G3 Mathematics Syllabuses, Secondary One, N7. Equations and inequalities: 7.1 concept of equation（方程的概念）。本周只教 N7.1 concept of equation（an equation is a statement that two expressions are equal（方程是表示两个式子相等的陈述，有等号 =），an expression has no equal sign（代数式没有等号），the two sides of an equation are equal（方程的两边相等），you may check whether a given number makes an equation true by substitution（可以用代入的办法检查某个数是否使方程成立，不需要教解方程的步骤）。Example: is x = 3 a solution of 2x + 1 = 7? Check 2(3)+1=7. Distinguish 2x+1 (expression) from 2x+1=7 (equation)）。本周不教如何解方程（solving equations），不教 N7.2 solving linear equations in one variable（用逆运算两边同时做同样的操作来解方程，that is 7.2，本周不教），不教 N7.3 fractional equations（分式方程），不教 N7.4 formulating a linear equation to solve problems（用方程解应用题）。友好整数，方程右边是整数，检查时代入后算出来是整数或简单计算（no calculator）。本周化石：calling 3x + 2 an equation（错误：把代数式 3x + 2 称为方程，正确：expression 代数式没有等号，equation 方程有等号 =）；or saying 2x + 1 = 7 is an expression（错误：说 2x + 1 = 7 是代数式，正确：这是 equation 方程，因为有等号）。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "Which of the following is an equation?|A. 2x + 1 = 7|B. 3x + 5|C. x − 4|D. 5y + 2y",
+            "Wei says「3x + 2 is an equation」. Is Wei correct?|A. No, 3x + 2 is an expression, not an equation. An equation has an equal sign (=)|B. Yes, 3x + 2 is an equation|C. Yes, because it has a variable x|D. No, 3x + 2 is a number",
+            "Aisha wants to check if x = 3 is a solution of 2x + 1 = 7. What should she do?|A. Substitute x = 3 into the left side: 2(3) + 1 = 7 ✓ so x = 3 is a solution|B. Add 3 to both sides of the equation|C. Divide both sides by 2|D. Substitute x = 7 into the equation",
+            "Mr Lim writes「2x + 1 = 7 is an expression」. Is Mr Lim correct?|A. No, 2x + 1 = 7 is an equation, not an expression. An equation has an equal sign (=)|B. Yes, 2x + 1 = 7 is an expression|C. Yes, because it has numbers and a variable|D. No, it is a number",
+            "Wei has the equation x + 5 = 8. He wants to check if x = 3 is a solution. He substitutes x = 3: 3 + 5 = 8 ✓. What can Wei conclude?|A. x = 3 is a solution because when x = 3, both sides of the equation are equal|B. x = 3 is not a solution|C. The equation has no solution|D. x = 5 is the solution",
+          ]),
+          correctAnswer: "A,A,A,A,A",
+          points: 10,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "Which of the following is an expression (NOT an equation)?|A. 4x − 3|B. 4x − 3 = 5|C. 2x = 10|D. x + 7 = 12",
+            "Aisha says「An equation must have an equal sign (=)」. Is Aisha correct?|A. Yes, an equation is a statement that two expressions are equal, so it must have an equal sign|B. No, an equation does not need an equal sign|C. Yes, but only if it has a variable|D. No, an expression also has an equal sign",
+            "Wei wants to check if x = 2 is a solution of 3x − 1 = 5. He substitutes x = 2: 3(2) − 1 = 6 − 1 = 5 ✓. What can he conclude?|A. x = 2 is a solution of the equation 3x − 1 = 5|B. x = 2 is not a solution|C. The equation is wrong|D. x = 3 is the solution",
+            "Mr Lim has the equation 2x + 3 = 11. Is x = 4 a solution?|A. Yes, substitute x = 4: 2(4) + 3 = 8 + 3 = 11 ✓|B. No, substitute x = 4: 2(4) + 3 = 7 ≠ 11|C. Yes, because 4 + 3 = 7|D. No, the solution is x = 11",
+            "Aisha writes「5y + 2 = 12 is an expression」. Is she correct?|A. No, 5y + 2 = 12 is an equation because it has an equal sign (=)|B. Yes, 5y + 2 = 12 is an expression|C. Yes, because it has a variable y|D. No, it is a number",
+            "Wei says「The left side of an equation is 2x + 1 and the right side is 7, so 2x + 1 = 7」. Is Wei correct?|A. Yes, an equation shows that two expressions are equal, with the left side equal to the right side|B. No, the left side should be 7|C. No, 2x + 1 = 7 is an expression|D. Yes, but only if x = 3",
+            "Mr Lim asks: is x = 5 a solution of x + 2 = 8?|A. No, substitute x = 5: 5 + 2 = 7 ≠ 8, so x = 5 is not a solution|B. Yes, x = 5 is a solution|C. Yes, because 5 + 2 = 7|D. No, the solution is x = 2",
+            "Aisha has the equation 4x = 12. She checks if x = 3 is a solution by substituting x = 3: 4(3) = 12 ✓. What does this mean?|A. x = 3 makes the equation true, so x = 3 is a solution of 4x = 12|B. x = 3 is not a solution|C. The equation is false|D. x = 4 is the solution",
+          ]),
+          correctAnswer: "A,A,A,A,A,A,A,A",
+          points: 16,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `Part 2: Show Your Working (写出算式步骤)
+
+Riverside Secondary School has questions about equations and expressions. Answer the questions below. Show your working.
+
+Question (a)
+Wei writes: 2x + 1 = 7
+
+(i) Is this an equation or an expression? Explain your answer.
+(ii) Is x = 3 a solution of this equation? Show your working by substituting x = 3 into the equation.
+(iii) Is x = 2 a solution of this equation? Show your working.
+
+Question (b)
+Aisha writes: 3x + 5
+
+(i) Is this an equation or an expression? Explain your answer.
+(ii) Mr Lim says「3x + 5 is an equation」. Explain why Mr Lim is wrong.
+
+Question (c)
+The cost of tickets (in S$) is given by the equation C = 8n + 10, where C is the total cost and n is the number of tickets.
+
+(i) Is n = 2 a solution when the total cost is C = 26? Check by substituting n = 2 into the equation C = 8n + 10.
+(ii) Wei says「8n + 10 is an equation」. Explain why Wei is wrong.
+(iii) Aisha says「C = 8n + 10 is an expression」. Explain why Aisha is wrong.
+
+写作提示 / Tips:
+✓ 每题分步骤写出推理 (Show working steps for each question)
+✓ Part 2 官方要求：clearly show the method of solution by writing working steps, plus the final answer
+✓ 不用计算器 (No calculators allowed)
+✓ 方程的概念步骤示范 (concept of equation examples)：
+  • Is 2x + 1 = 7 an equation or an expression?
+    Solution: 2x + 1 = 7 has an equal sign (=). An equation is a statement that two expressions are equal. The left side is 2x + 1 and the right side is 7. Answer: 2x + 1 = 7 is an equation.
+  • Is x = 3 a solution of 2x + 1 = 7?
+    Solution: Substitute x = 3 into the left side of the equation: 2x + 1 = 2(3) + 1 = 6 + 1 = 7. The right side is 7. When x = 3, the left side equals the right side (7 = 7 ✓). Answer: Yes, x = 3 is a solution of 2x + 1 = 7.
+  • Is x = 2 a solution of 2x + 1 = 7?
+    Solution: Substitute x = 2 into the left side: 2x + 1 = 2(2) + 1 = 4 + 1 = 5. The right side is 7. When x = 2, the left side is 5 but the right side is 7 (5 ≠ 7 ✗). Answer: No, x = 2 is not a solution of 2x + 1 = 7 because 5 ≠ 7.
+  • Is 3x + 5 an equation or an expression?
+    Solution: 3x + 5 does not have an equal sign (=). An expression is a combination of numbers, variables, and operations, but it does not have an equal sign. Answer: 3x + 5 is an expression, not an equation.
+  • Mr Lim says「3x + 5 is an equation」. Why is he wrong?
+    Solution: An equation must have an equal sign (=) to show that two expressions are equal. 3x + 5 has no equal sign, so it is an expression, not an equation. Answer: Mr Lim is wrong because 3x + 5 is an expression. An equation must have an equal sign, and 3x + 5 does not have an equal sign.
+  • Is n = 2 a solution of C = 8n + 10 when C = 26?
+    Solution: Substitute n = 2 into the right side: 8n + 10 = 8(2) + 10 = 16 + 10 = 26. The left side is C = 26. When n = 2, the right side equals the left side (26 = 26 ✓). Answer: Yes, n = 2 is a solution when C = 26.
+  • Wei says「8n + 10 is an equation」. Why is he wrong?
+    Solution: 8n + 10 does not have an equal sign. An equation must have an equal sign to show that two expressions are equal. 8n + 10 is an expression, not an equation. Answer: Wei is wrong because 8n + 10 is an expression, not an equation. An equation must have an equal sign.
+  • Aisha says「C = 8n + 10 is an expression」. Why is she wrong?
+    Solution: C = 8n + 10 has an equal sign (=). An equation is a statement that two expressions are equal. The left side is C and the right side is 8n + 10. C = 8n + 10 is an equation, not an expression. Answer: Aisha is wrong because C = 8n + 10 is an equation. An equation has an equal sign, and C = 8n + 10 has an equal sign.
+✓ 关键步骤：Step 1: An equation is a statement that two expressions are equal. An equation has an equal sign (=)（方程是表示两个式子相等的陈述，方程有等号 =）. Step 2: An expression is a combination of numbers, variables, and operations. An expression does NOT have an equal sign（代数式是数字、变量和运算的组合，代数式没有等号）. Step 3: To check if a given value is a solution of an equation, substitute the value into the equation and check if the left side equals the right side（检查某个值是否是方程的解，代入该值看左边是否等于右边）. Step 4: If the left side equals the right side after substitution, the value is a solution. If not, the value is not a solution（代入后左边等于右边，这个值就是解；否则不是解）. Step 5: State your final answer（陈述最终答案）.
+✓ 化石 (fossil errors)：
+  • Calling an expression like 3x + 2 an equation: saying「3x + 2 is an equation」（错误：把代数式 3x + 2 说成方程。正确：expression 代数式没有等号，equation 方程有等号 =。3x + 2 没有等号，所以是 expression 代数式，不是 equation 方程）
+  • Saying an equation like 2x + 1 = 7 is an expression: saying「2x + 1 = 7 is an expression」（错误：把方程 2x + 1 = 7 说成代数式。正确：2x + 1 = 7 有等号 =，所以是 equation 方程，不是 expression 代数式）
+  • Confusing whether something is an equation or an expression: not checking for the equal sign（错误：混淆方程和代数式，没有检查有没有等号。正确：equation 方程有等号 =，expression 代数式没有等号）
+  • 本周教 N7 的 7.1（concept of equation，方程的概念）。本周只教 7.1（an equation is a statement that two expressions are equal 方程是表示两个式子相等的陈述，有等号 =；an expression has no equal sign 代数式没有等号；you may check whether a given number makes an equation true by substitution 可以用代入检查某个数是否使方程成立）。本周不教 N7.2 solving linear equations in one variable（解方程，用逆运算两边同时做同样的操作），不教 N7.3 fractional equations（分式方程），不教 N7.4 formulating a linear equation to solve problems（用方程解应用题）。
+
+Note: This is a sample of Part 2 short-answer/open-ended questions. The official paper has 20 short-answer + 10–15 open-ended items in 1 hour 45 minutes.`,
+          points: 20,
+        },
+      ],
+    },
   ];
 
   // =================================================================
