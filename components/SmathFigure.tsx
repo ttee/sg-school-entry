@@ -212,5 +212,52 @@ export default function SmathFigure({ weekNumber }: { weekNumber: number }) {
     );
   }
 
+  if (weekNumber === 72) {
+    return (
+      <div className="bg-paper border border-line rounded-xl p-6 mb-6">
+        <h3 className="font-semibold text-ink mb-4 text-center">📊 本周图解</h3>
+        <div className="flex flex-col items-center max-w-md mx-auto">
+          <svg viewBox="0 0 400 400" className="w-full max-w-[400px] h-auto">
+            {/* Axes */}
+            <line x1="50" y1="350" x2="50" y2="30" stroke="#1a1a1a" strokeWidth="2" />
+            <line x1="30" y1="350" x2="370" y2="350" stroke="#1a1a1a" strokeWidth="2" />
+            <text x="380" y="355" fontSize="14" fill="#1a1a1a" fontWeight="600">x</text>
+            <text x="45" y="20" fontSize="14" fill="#1a1a1a" fontWeight="600">y</text>
+            
+            {/* Grid points */}
+            <text x="40" y="355" fontSize="12" fill="#1a1a1a" textAnchor="end">0</text>
+            <text x="110" y="365" fontSize="12" fill="#1a1a1a" textAnchor="middle">2</text>
+            <text x="170" y="365" fontSize="12" fill="#1a1a1a" textAnchor="middle">4</text>
+            <text x="230" y="365" fontSize="12" fill="#1a1a1a" textAnchor="middle">6</text>
+            <text x="290" y="365" fontSize="12" fill="#1a1a1a" textAnchor="middle">8</text>
+            <text x="350" y="365" fontSize="12" fill="#1a1a1a" textAnchor="middle">10</text>
+            <text x="35" y="295" fontSize="12" fill="#1a1a1a" textAnchor="end">2</text>
+            <text x="35" y="235" fontSize="12" fill="#1a1a1a" textAnchor="end">4</text>
+            <text x="35" y="175" fontSize="12" fill="#1a1a1a" textAnchor="end">6</text>
+            <text x="35" y="115" fontSize="12" fill="#1a1a1a" textAnchor="end">8</text>
+            <text x="35" y="55" fontSize="12" fill="#1a1a1a" textAnchor="end">10</text>
+            
+            {/* Line 1: x + y = 10 passing through (0,10) and (10,0) */}
+            <line x1="50" y1="50" x2="350" y2="350" stroke="#d97706" strokeWidth="3" />
+            <text x="320" y="80" fontSize="14" fill="#d97706" fontWeight="600">x + y = 10</text>
+            
+            {/* Line 2: x - y = 4 passing through (4,0) and (7,3) */}
+            <line x1="170" y1="350" x2="350" y2="170" stroke="#3b82f6" strokeWidth="3" />
+            <text x="280" y="280" fontSize="14" fill="#3b82f6" fontWeight="600">x − y = 4</text>
+            
+            {/* Intersection point (7, 3) */}
+            <circle cx="260" cy="260" r="6" fill="#10b981" stroke="#1a1a1a" strokeWidth="2" />
+            <text x="275" y="245" fontSize="16" fill="#10b981" fontWeight="700">(7, 3)</text>
+          </svg>
+          <p className="text-sm text-ink-2 text-center mt-3">
+            <span className="font-semibold text-lg">联立方程的图解法</span><br />
+            <span className="text-accent">两条直线交于一点 (7, 3)</span><br />
+            解是 x = 7, y = 3
+          </p>
+        </div>
+      </div>
+    );
+  }
+
   return null;
 }
