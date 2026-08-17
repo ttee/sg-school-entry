@@ -11399,6 +11399,104 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
         },
       ],
     },
+    {
+      level: "SMATH",
+      weekNumber: 50,
+      title: "数学 第 50 周 / Maths Week 50",
+      description: "AEIS-Secondary Mathematics: Sec 1 angle sum of interior and exterior angles of any convex polygon (G1.6 only)",
+      isSample: false,
+      errorFocus: "using n × 180° instead of (n − 2) × 180° for the interior angle sum; or saying the exterior angle sum is 180° or (n − 2) × 180° instead of 360°",
+      parentBrief: "本周是中学 AEIS 数学第 50 周，对应官方 SEAB Sec 1 卷型（https://www.seab.gov.sg/aeis/test-details/ 2026年7月1日更新）。Part 1 Multiple-choice questions：34 道 MCQ，30 分钟。Part 2 Short-answer questions (20 items) and open-ended questions (10 to 15 items)：1 小时 45 分钟。Calculators are not allowed（不允许使用计算器）。Short-answer and open-ended questions：candidates are required to show the method of solution clearly by writing working steps in the spaces provided, plus the final answer（需写出算式步骤和最终答案）。AEIS-Secondary 官方 preceding-level 规则：申请 Sec 2 入学者需熟悉 Sec 2 前一级的内容。官方举例：apply Secondary 3 → be familiar with Secondary 2 content. 本周针对 Sec 2 申请者，内容为 Sec 2 前一级（Sec 1）的官方 MOE 2020 G3 Mathematics Syllabuses, Secondary One, GEOMETRY AND MEASUREMENT, G1. Angles, triangles and polygons: 1.6 angle sum of interior and exterior angles of any convex polygon（任意凸多边形的内角和与外角和）。官方 1.6 wording（逐字引用）：「angle sum of interior and exterior angles of any convex polygon」。本周方法：Interior angle sum of any convex n-gon = (n − 2) × 180°（任意凸 n 边形的内角和 = (n − 2) × 180°）。Exterior angle sum of any convex polygon = 360°（任意凸多边形的外角和 = 360°）。For a regular n-gon: each interior angle = (n − 2) × 180° ÷ n, each exterior angle = 360° ÷ n（正 n 边形的每个内角 = (n − 2) × 180° ÷ n，每个外角 = 360° ÷ n）。Friendly integers: n = 3, 4, 5, 6, 8, 9, 10, 12（用友好整数，每个所求值都是整数：三角形 180、四边形 360、五边形 540、六边形 720、八边形 1080、九边形 1260、十边形 1440、十二边形 1800；正六边形每个内角 120；正五边形每个外角 72；正八边形每个外角 45）。Examples: A convex hexagon has 6 sides, so interior angle sum = (6 − 2) × 180° = 4 × 180° = 720°; a convex nonagon has 9 sides, so interior angle sum = (9 − 2) × 180° = 7 × 180° = 1260°; exterior angle sum of any convex polygon = 360°（无论几边形）; regular octagon has 8 sides, so each exterior angle = 360° ÷ 8 = 45°, each interior angle = (8 − 2) × 180° ÷ 8 = 1080° ÷ 8 = 135°. Cast: Wei, Aisha, Mr Lim at Riverside Secondary School（描述多边形：convex pentagon, convex hexagon, regular octagon with vertices labeled）。Friendly integers（友好整数，角度和边数是整数）。唯一性 unique keys：每道选择题只有一个正确答案（only ONE option may be true）。不要在一道题目中同时提供「interior sum of a quadrilateral is 360°」和「exterior sum of any convex polygon is 360°」作为两个正确选项（两个都是 360° 但问题不同，容易混淆）。不要在「regular hexagon each interior angle 120」和「regular hexagon interior sum 720」两个数值中同时提供多个正确选项（120 和 720 是不同的问题）。本周只教 G1.6（angle sum of interior and exterior angles of any convex polygon：内角和 (n − 2) × 180°，外角和 360°），不教 G1.7（construction of simple geometrical figures from given data using compasses, ruler, set squares and protractors 尺规作图）。第 48 周已教 G1.4 regular polygons（properties and symmetry of regular pentagon, hexagon, octagon, decagon）。本周化石：using n × 180° instead of (n − 2) × 180° for the interior angle sum（错误：用 n × 180° 代替 (n − 2) × 180°。正确：Interior angle sum = (n − 2) × 180°, not n × 180°。Wrong: A hexagon has 6 sides, so interior angle sum = 6 × 180° = 1080° ✗. Right: A hexagon has 6 sides, so interior angle sum = (6 − 2) × 180° = 720° ✓）。Saying the exterior angle sum is 180° or something other than 360°（错误：说外角和是 180° 或其他数值。正确：Exterior angle sum of any convex polygon = 360°. Wrong: Exterior angle sum = (n − 2) × 180° ✗. Right: Exterior angle sum = 360° ✓）。第 43 周已完成 G1.1 right, acute, obtuse and reflex angles。第 44 周已完成 G1.2 vertically opposite angles, angles on a straight line, angles at a point。第 45 周已完成 G1.3 parallel lines and transversal。第 46 周已完成 G1.4 triangles。第 47 周已完成 G1.4 special quadrilaterals properties。第 48 周已完成 G1.4 regular polygons。第 49 周已完成 G1.5 classification of special quadrilaterals。本周完成 G1.6 angle sum of interior and exterior angles of any convex polygon。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "At Riverside Secondary, Mr Lim draws a convex hexagon on the board. He asks the class: 「What is the sum of all the interior angles of this convex hexagon?」 What is the correct answer?|A. 720° (because a hexagon has 6 sides, and interior angle sum = (6 − 2) × 180° = 4 × 180° = 720°)|B. 1080° (because 6 × 180° = 1080°)|C. 360° (because that is the angle sum for any polygon)|D. 540° (because 3 × 180° = 540°)",
+            "Wei studies a convex octagon at Riverside Secondary. How many sides does a convex octagon have, and what is the sum of its interior angles?|A. 8 sides, and interior angle sum = (8 − 2) × 180° = 6 × 180° = 1080°|B. 8 sides, and interior angle sum = 8 × 180° = 1440°|C. 6 sides, and interior angle sum = (6 − 2) × 180° = 720°|D. 10 sides, and interior angle sum = (10 − 2) × 180° = 1440°",
+            "Aisha observes a convex polygon at Riverside Secondary. Mr Lim says: 「The sum of the exterior angles of any convex polygon is always the same value, no matter how many sides it has.」 What is the sum of the exterior angles of any convex polygon?|A. 360° (because the exterior angle sum of any convex polygon = 360°)|B. 180° (because angles on a straight line add to 180°)|C. It depends on the number of sides (for example, (n − 2) × 180°)|D. 720°",
+            "At Riverside Secondary, Wei calculates the interior angle sum of a convex pentagon (5 sides). He says: 「Interior angle sum = 5 × 180° = 900°.」 What is wrong with Wei's calculation?|A. Wei used 5 × 180° = 900°, but the correct formula is (n − 2) × 180°. For a pentagon with 5 sides, the interior angle sum = (5 − 2) × 180° = 3 × 180° = 540°, not 900°.|B. Nothing is wrong. Wei's answer is correct. The interior angle sum is 900°.|C. Wei should use (5 + 2) × 180° instead.|D. The error is that a pentagon has 6 sides, not 5.",
+            "Mr Lim draws a regular octagon on the board at Riverside Secondary. Aisha asks: 「What is the measure of each exterior angle of this regular octagon?」 What is the correct answer?|A. 45° (because a regular octagon has 8 sides, and each exterior angle = 360° ÷ 8 = 45°)|B. 135° (because each exterior angle = (8 − 2) × 180° ÷ 8 = 135°)|C. 360° (because that is the exterior angle sum)|D. 1080° (because 8 × 135° = 1080°)",
+          ]),
+          correctAnswer: "A,A,A,A,A",
+          points: 10,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "A convex nonagon at Riverside Secondary has 9 sides. What is the sum of its interior angles?|A. 1260° (because interior angle sum = (9 − 2) × 180° = 7 × 180° = 1260°)|B. 1620° (because 9 × 180° = 1620°)|C. 360° (because that is the angle sum)|D. 540°",
+            "Wei observes a convex decagon (10 sides) at Riverside Secondary. He calculates the interior angle sum as 10 × 180° = 1800°. Aisha checks his working. Which statement is correct?|A. No, Wei is wrong. Wei used 10 × 180° = 1800°, but the correct formula is (n − 2) × 180°. The interior angle sum = (10 − 2) × 180° = 8 × 180° = 1440°, not 1800°.|B. Yes, Wei is correct. The interior angle sum is 1800°.|C. No, Wei is wrong. The interior angle sum is 360°.|D. Yes, because 10 × 180° = 1800°, Wei's answer is correct for the interior angle sum.",
+            "Aisha says: 「The exterior angle sum of a convex pentagon (5 sides) is (5 − 2) × 180° = 540°.」 Wei corrects her. What should Wei say?|A. No, the exterior angle sum of any convex polygon is always 360°, not (5 − 2) × 180°. Aisha calculated the interior angle sum, not the exterior angle sum.|B. Yes, Aisha is correct. The exterior angle sum is 540°.|C. No, the exterior angle sum is 180°.|D. No, the exterior angle sum is 5 × 180° = 900°.",
+            "Mr Lim draws a regular hexagon at Riverside Secondary. He asks the class: 「What is the measure of each interior angle of this regular hexagon?」 What is the correct answer?|A. 120° (because a regular hexagon has 6 sides, so each interior angle = (6 − 2) × 180° ÷ 6 = 720° ÷ 6 = 120°)|B. 60° (because 360° ÷ 6 = 60°)|C. 720° (because that is the interior angle sum)|D. 90°",
+            "A convex dodecagon (12 sides) is drawn at Riverside Secondary. What is the sum of its interior angles?|A. 1800° (because interior angle sum = (12 − 2) × 180° = 10 × 180° = 1800°)|B. 2160° (because 12 × 180° = 2160°)|C. 360° (because that is the angle sum for any polygon)|D. 1440°",
+            "Wei calculates the exterior angle sum of a convex octagon (8 sides). He says: 「Exterior angle sum = (8 − 2) × 180° = 1080°.」 What is wrong with Wei's reasoning?|A. Wei calculated the interior angle sum, not the exterior angle sum. The exterior angle sum of any convex polygon is always 360°, no matter how many sides it has.|B. Nothing is wrong. Wei's answer is correct. The exterior angle sum is 1080°.|C. Wei should use 8 × 180° instead.|D. Wei's formula is correct, but he calculated wrong. It should be (8 − 2) × 180° = 540°.",
+            "A regular pentagon has 5 sides. What is the measure of each exterior angle of this regular pentagon?|A. 72° (because each exterior angle = 360° ÷ 5 = 72°)|B. 108° (because each exterior angle = (5 − 2) × 180° ÷ 5 = 108°)|C. 360° (because that is the exterior angle sum)|D. 540° (because that is the interior angle sum)",
+            "Mr Lim asks the class at Riverside Secondary: 「A convex quadrilateral has 4 sides. What is the sum of its interior angles? And what is the sum of its exterior angles?」 Which pair of answers is correct?|A. Interior angle sum = 360° (because (4 − 2) × 180° = 360°); exterior angle sum = 360° (because exterior angle sum of any convex polygon = 360°)|B. Interior angle sum = 720° (because 4 × 180° = 720°); exterior angle sum = 180°|C. Interior angle sum = 360°; exterior angle sum = 180°|D. Interior angle sum = 180°; exterior angle sum = 360°",
+          ]),
+          correctAnswer: "A,A,A,A,A,A,A,A",
+          points: 16,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `Part 2: Show Your Working (写出算式步骤)
+
+Riverside Secondary School has convex polygon angle sum exercises. Answer the questions below. For each question, show your method of solution clearly by writing working steps, plus the final answer.
+
+Question (a)
+At Riverside Secondary, Mr Lim draws a convex heptagon (7 sides) on the classroom board. He asks the class to find the sum of all the interior angles of this convex heptagon.
+
+(i) Write the formula for the interior angle sum of any convex n-gon in terms of n.
+(ii) Use the formula to calculate the interior angle sum of the convex heptagon (7 sides). Show all your working steps clearly.
+(iii) Wei says: 「The interior angle sum should be 7 × 180° = 1260°, because there are 7 angles and each angle is close to 180°.」 Explain what is wrong with Wei's reasoning and show the correct calculation.
+
+Question (b)
+Aisha studies convex polygons at Riverside Secondary. She observes that the exterior angle sum of any convex polygon is always the same value, no matter how many sides the polygon has.
+
+(i) State the value of the exterior angle sum of any convex polygon.
+(ii) Mr Lim draws a convex pentagon (5 sides) and a convex decagon (10 sides). Verify that both polygons have the same exterior angle sum by explaining why the exterior angle sum does not depend on the number of sides.
+(iii) Wei says: 「The exterior angle sum of a convex hexagon (6 sides) should be (6 − 2) × 180° = 720°.」 Explain what is wrong with Wei's reasoning. Which angle sum did Wei actually calculate (interior or exterior)?
+
+Question (c)
+At Riverside Secondary, Mr Lim draws a regular nonagon (9 sides with all sides equal and all interior angles equal) on the board. Aisha and Wei work together to find the measure of each interior angle and each exterior angle.
+
+(i) Calculate the sum of all the interior angles of the regular nonagon. Show your working clearly.
+(ii) Since the regular nonagon has 9 equal interior angles, calculate the measure of each interior angle. Show your working.
+(iii) Calculate the measure of each exterior angle of the regular nonagon using the formula: each exterior angle = 360° ÷ n. Show your working.
+(iv) Verify that each interior angle + each exterior angle = 180° (because an interior angle and its adjacent exterior angle are on a straight line). Show your verification calculation.
+
+写作提示 / Tips:
+✓ 每题分步骤写出推理 (Show working steps for each question)
+✓ Part 2 官方要求：clearly show the method of solution by writing working steps, plus the final answer
+✓ 不用计算器 (No calculators allowed)
+✓ 凸多边形角度和步骤示范 (convex polygon angle sum examples)：
+  • Convex heptagon (7 sides):
+    Question: Find the interior angle sum. Wei says 7 × 180° = 1260°. What is wrong?
+    Solution: ① Recall the formula: Interior angle sum of any convex n-gon = (n − 2) × 180°. ② Identify n: A heptagon has 7 sides, so n = 7. ③ Apply the formula: Interior angle sum = (7 − 2) × 180° = 5 × 180°. ④ Calculate: 5 × 180° = 900°. ⑤ Conclusion: The interior angle sum of a convex heptagon is 900°. ⑥ Wei's error: Wei said 7 × 180° = 1260°, but this is wrong. Wei used n × 180° instead of (n − 2) × 180°. The correct formula has (n − 2), not n. For a heptagon with 7 sides, we subtract 2 from 7 first: (7 − 2) = 5, then multiply by 180°: 5 × 180° = 900°. Wei's mistake is a common fossil error: using n × 180° gives a wrong answer that is 2 × 180° = 360° too large.
+  • Exterior angle sum of any convex polygon:
+    Question: State the exterior angle sum. Pentagon (5 sides) and decagon (10 sides) both have same exterior angle sum — why? Wei says hexagon (6 sides) exterior angle sum = (6 − 2) × 180° = 720°. What is wrong?
+    Solution: ① Recall the property: Exterior angle sum of any convex polygon = 360° (this is always true, no matter how many sides). ② Pentagon and decagon both have exterior angle sum = 360°. The exterior angle sum does NOT depend on the number of sides. It is always 360° for any convex polygon. ③ Verification: For a pentagon (5 sides), exterior angle sum = 360°. For a decagon (10 sides), exterior angle sum = 360°. Both are the same value, 360°. ④ Wei's error: Wei said the exterior angle sum of a hexagon is (6 − 2) × 180° = 720°, but this is wrong. Wei calculated the interior angle sum, not the exterior angle sum. The formula (n − 2) × 180° gives the interior angle sum. The exterior angle sum is always 360° for any convex polygon. ⑤ Conclusion: Exterior angle sum of any convex polygon = 360° (always, regardless of n).
+  • Regular nonagon (9 sides): each interior angle and each exterior angle:
+    Question: Find (i) interior angle sum, (ii) each interior angle, (iii) each exterior angle. Verify each interior + each exterior = 180°.
+    Solution: ① Interior angle sum: A nonagon has 9 sides, so n = 9. Interior angle sum = (n − 2) × 180° = (9 − 2) × 180° = 7 × 180° = 1260°. ② Each interior angle: A regular nonagon has 9 equal interior angles. Each interior angle = interior angle sum ÷ 9 = 1260° ÷ 9 = 140°. ③ Each exterior angle: For a regular n-gon, each exterior angle = 360° ÷ n. A regular nonagon has 9 sides, so each exterior angle = 360° ÷ 9 = 40°. ④ Verification: Each interior angle + each exterior angle = 140° + 40° = 180°. This is correct because an interior angle and its adjacent exterior angle are on a straight line, and angles on a straight line add to 180°. ⑤ Conclusion: Interior angle sum = 1260°; each interior angle = 140°; each exterior angle = 40°. Verification: 140° + 40° = 180° ✓.
+✓ 关键步骤：Step 1: Recall the formula（回忆公式）——Interior angle sum of any convex n-gon = (n − 2) × 180°; Exterior angle sum of any convex polygon = 360° (always, no matter how many sides). For a regular n-gon: each interior angle = (n − 2) × 180° ÷ n; each exterior angle = 360° ÷ n. Step 2: Identify the number of sides n（识别边数 n）——triangle (3), quadrilateral (4), pentagon (5), hexagon (6), heptagon (7), octagon (8), nonagon (9), decagon (10), dodecagon (12). Step 3: Apply the formula to the given polygon（将公式应用于给定的多边形）——substitute n into (n − 2) × 180° for interior angle sum, or 360° for exterior angle sum. Step 4: Calculate the result（计算结果）——simplify (n − 2) × 180° step by step; the exterior angle sum is always 360°. Step 5: For regular polygons, divide by n to get each angle（对于正多边形，除以 n 得到每个角）——each interior angle = interior angle sum ÷ n; each exterior angle = 360° ÷ n. Step 6: Verify if needed（如果需要，验证）——check that each interior + each exterior = 180° (angles on a straight line). Step 7: State the final answer clearly（清楚地陈述最终答案）. Step 8: If a fossil error is present, explain what is wrong with the incorrect reasoning（如果有化石错误，解释错误推理的问题）——identify whether the student used n × 180° instead of (n − 2) × 180°, or confused interior sum with exterior sum.
+✓ 化石 (fossil errors)：
+  • Using n × 180° instead of (n − 2) × 180° for the interior angle sum: saying a hexagon (6 sides) has interior angle sum = 6 × 180° = 1080°（错误：用 n × 180° 代替 (n − 2) × 180°。正确：Interior angle sum = (n − 2) × 180°. For a hexagon with 6 sides, interior angle sum = (6 − 2) × 180° = 4 × 180° = 720°, not 6 × 180° = 1080°。Wrong: hexagon interior angle sum = 6 × 180° = 1080° ✗. Right: hexagon interior angle sum = (6 − 2) × 180° = 720° ✓）
+  • Saying the exterior angle sum is (n − 2) × 180° or 180° instead of 360°: saying the exterior angle sum of a pentagon is (5 − 2) × 180° = 540°（错误：说外角和是 (n − 2) × 180° 或其他数值。正确：Exterior angle sum of any convex polygon = 360° (always). Wrong: pentagon exterior angle sum = (5 − 2) × 180° = 540° ✗. Right: pentagon exterior angle sum = 360° ✓. The formula (n − 2) × 180° is for the interior angle sum, not the exterior angle sum）
+  • Confusing interior angle sum with exterior angle sum: calculating the interior angle sum using (n − 2) × 180° but claiming it is the exterior angle sum（错误：混淆内角和与外角和。内角和 = (n − 2) × 180°；外角和 = 360°。Wrong: calculating (6 − 2) × 180° = 720° and saying this is the exterior angle sum ✗. Right: (6 − 2) × 180° = 720° is the interior angle sum; the exterior angle sum is 360° ✓）
+  • Using 360° ÷ n for the interior angle of a regular n-gon: saying each interior angle of a regular pentagon is 360° ÷ 5 = 72°（错误：用 360° ÷ n 计算正 n 边形的内角。正确：360° ÷ n 给出的是外角，不是内角。Each interior angle = (n − 2) × 180° ÷ n. Each exterior angle = 360° ÷ n. Wrong: regular pentagon each interior angle = 360° ÷ 5 = 72° ✗. Right: regular pentagon each interior angle = (5 − 2) × 180° ÷ 5 = 540° ÷ 5 = 108°; each exterior angle = 360° ÷ 5 = 72° ✓）
+  • 本周教 Sec 1 GEOMETRY AND MEASUREMENT, G1. Angles, triangles and polygons: 1.6 angle sum of interior and exterior angles of any convex polygon（G1.6 任意凸多边形的内角和与外角和）。本周是 G1.6 only. 内角和 = (n − 2) × 180°；外角和 = 360°（对任意凸多边形）。第 48 周已教 G1.4 regular polygons（naming and symmetry）。本周不教 G1.7 construction。
+
+Note: This is a sample of Part 2 short-answer/open-ended questions. The official paper has 20 short-answer + 10–15 open-ended items in 1 hour 45 minutes.`,
+          points: 20,
+        },
+      ],
+    },
   ];
 
   // =================================================================
