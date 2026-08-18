@@ -2707,7 +2707,7 @@ Useful phrases:
       dueDate: new Date("2026-08-20"),
       errorFocus: "3sg-s",
       parentBrief: "本周纠错焦点：第三人称单数 -s（he/she/it + 动词要加 -s）和时间介词 at/in/on。中文动词不变形，孩子会说 she wake up 或 he go to school。英语现在时里，he/she/it 后面的动词必须加 -s：wakes, goes, has。时间介词：at 7:00, in the morning, on Monday。本周作业会抓住这两个高频错误。",
-      videoUrl: null,
+      videoUrl: "/video/a2-w1.mp4",
       kaizenFocus: "Add -s to verbs after he/she/it in present simple; use at/in/on for time correctly",
       officialClipId: "loINl3Ln6Ck",
       officialClipCredit: "片源 Super Simple Songs 官方频道。Days of the Week。本站不拥有该片，仅嵌入官方 YouTube。孩子先听 on Monday / on Tuesday，再练 she wakes / at 7:00 / on Monday。",
@@ -2869,7 +2869,7 @@ AI will listen for correct use of third-person -s (my sister walks, dad takes th
       dueDate: new Date("2026-08-27"),
       errorFocus: "present-continuous",
       parentBrief: "本周纠错焦点：现在进行时 vs 一般现在时，以及 like + -ing。中文用时间词表示习惯，孩子会说 I am going to school every day（进行时被过度泛化）。英语习惯用一般现在时：I go to school every day；正在发生才用进行时：I am swimming now。另外，like/enjoy 后面接 -ing：I like reading。本周盯住这两个混淆点。",
-      videoUrl: null,
+      videoUrl: "/video/a2-w2.mp4",
       kaizenFocus: "Use present simple for habits, present continuous for now; like/enjoy + -ing",
       officialClipId: "-DNilMthxx8",
       officialClipCredit: "片源 Cambridge English 官方频道，A2 Key for Schools 口语样例。本站与剑桥无隶属，不提供官方试卷。孩子看两人怎么回答学校、作业、喜欢做什么。",
@@ -3032,7 +3032,7 @@ AI will check if you correctly use present continuous (am/is/are + -ing) for NOW
       dueDate: new Date("2026-09-03"),
       errorFocus: "past-simple",
       parentBrief: "本周纠错焦点：一般过去时和 used to。中文靠时间词「昨天、上周」来表示过去，动词不变形，孩子会说 yesterday I go。英语过去时动词必须变形：went, visited, had。另外，以前的习惯用 used to（不是 use to）：I used to live in Beijing。本周作业会反复纠正这两个化石化高危点。",
-      videoUrl: null,
+      videoUrl: "/video/a2-w3.mp4",
       kaizenFocus: "Use past simple for finished actions (went, visited); used to for old habits",
       officialClipId: "ecm9HEFcfdQ",
       officialClipCredit: "片源 Super Simple Songs 官方频道。The Family Tree。本站不拥有该片，仅嵌入官方 YouTube。孩子先听 mummy / daddy / grandma，再练过去时 visited / used to。",
@@ -3759,7 +3759,7 @@ AI will listen for correct use of time prepositions: at (clock times, night, wee
       isSample: true,
       errorFocus: "present-perfect",
       parentBrief: "本周纠错焦点：现在完成时 vs 一般过去时。中文的「了」不等于 have + V3，孩子会说 I have went yesterday（时态混用）或 I am here for 6 months（该用 have been）。英语现在完成表示「过去的事对现在还有影响」：I have been here for six months（还在这里）。明确过去的时间用过去时：I went yesterday。本周微课和作业会反复对比这两个时态。",
-      videoUrl: null,
+      videoUrl: "/video/b1-w0.mp4",
       kaizenFocus: "Use present perfect (have/has + V3) for situations that still matter now; past simple for finished time",
       officialClipId: "xF_Q2anYOfc",
       officialClipCredit: "片源 Cambridge English 官方频道，B1 Preliminary for Schools 口语样例。本站与剑桥无隶属，不提供官方试卷。孩子先看两人怎么回答自己、学校、经历，再练 Have you ever…? / present perfect。",
@@ -3908,7 +3908,7 @@ Useful phrases (时态对比练习):
       dueDate: new Date("2026-08-20"),
       errorFocus: "experience-comparatives",
       parentBrief: "本周纠错焦点：现在完成时的经历用法（Have you ever...?）和比较级。孩子会说 Have you go to Gardens by the Bay?（过去式和完成时混淆）或 It was impressive than...（漏了 more）。英语问经历用 Have you ever been...? Have you visited...?；比较级要加 more 或 -er：more impressive, bigger。本周写作和口语会盯住这两个点。",
-      videoUrl: null,
+      videoUrl: "/video/b1-w1.mp4",
       kaizenFocus: "Use present perfect for experience (Have you ever...?); comparatives with more/-er",
       officialClipId: "Lwkn3WWGhUg",
       officialClipCredit: "片源 VisitSingapore 官方频道（新加坡旅游局）。宣传片 SingapoReimagine，Cloud Forest / Gardens by the Bay。本站不拥有该片，仅嵌入官方 YouTube。孩子先看片子，再练 Have you ever been…? 和 more impressive than…。",
@@ -4080,7 +4080,7 @@ Useful phrases:
       dueDate: new Date("2026-08-27"),
       errorFocus: "conditional-gerund",
       parentBrief: "本周纠错焦点：第一条件句（If + 现在式, will/must/can...）和动名词（enjoy/like + -ing，介词后 + -ing）。中文条件句不变形，孩子会说 If you bring phone, must...（缺主句主语或助动词）。还有典型化石化：enjoy to use（应该是 enjoy using），good at learn（应该是 good at learning）。本周作业会反复训练这两个难点。",
-      videoUrl: null,
+      videoUrl: "/video/b1-w2.mp4",
       kaizenFocus: "If + present, will/must (1st conditional); enjoy/like + -ing, preposition + -ing",
       officialClipId: "dVrHLZtvr5g",
       officialClipCredit: "片源 gov.sg 官方频道。Real or Fake: Disinformation。本站不拥有该片，仅嵌入官方 YouTube。孩子先看 how to check real or fake，再练 If you see a message, you should… 和 enjoy checking / good at spotting。",
@@ -4256,7 +4256,7 @@ Useful phrases:
       dueDate: new Date("2026-09-03"),
       errorFocus: "passive-modals",
       parentBrief: "本周纠错焦点：被动语态和情态动词（should/ought to）。中文少用被动，孩子会说 We recycle the bottles（主动）而写不出 Plastic is recycled（被动）。建议表达用 should/ought to + 动词原形。环保话题需要被动语态描述系统（Plastic is recycled, bins are collected）和情态动词提建议（We should reduce, students ought to bring...）。作业盯住这两个化石化高危点。",
-      videoUrl: null,
+      videoUrl: "/video/b1-w3.mp4",
       kaizenFocus: "Use passive voice (is recycled, are collected); should/ought to + bare verb for advice",
       officialClipId: "jAeqGbJIfJE",
       officialClipCredit: "片源 Clean and Green Singapore 官方频道（NEA Recycle Right / Bloobin）。本站不拥有该片，仅嵌入官方 YouTube。孩子先看 check / clean / recycle，再练 Plastic is recycled 和 should/ought to。",
@@ -5758,6 +5758,63 @@ You MUST use "going to" at least twice.
 ✓ 主语动词一致 (Subject-verb agreement: I am / She is / We are + going to + verb)
 ✓ 邮件格式 (Email format: Hi Sam, ... / Best, [your name])
 ✓ 40-60词 (40-60 words)`,
+          points: 10,
+        },
+        {
+          type: "listening",
+          order: 4,
+          content: `听读练习 / Listening Preparation (read carefully)
+
+Mei: Hi Jun Wei! What are you going to do tomorrow?
+
+Jun Wei: Hi Mei! Tomorrow is Saturday, so I'm going to the library in the morning. I need to return some books. What about you?
+
+Mei: I'm going to East Coast Park with my family. We're going to have a picnic by the sea.
+
+Jun Wei: That sounds fun! What time are you going to leave?
+
+Mei: We're going to leave at nine o'clock. My dad is going to drive us there.
+
+Jun Wei: Are you going to cycle?
+
+Mei: Yes! My brother is going to bring his bicycle. I'm going to rent one there.
+
+Jun Wei: Great! In the afternoon, I'm going to play basketball with my cousins at the community centre.
+
+Mei: Enjoy your weekend!`,
+          options: JSON.stringify([
+            "What is Jun Wei going to do on Saturday morning?|A. Go to East Coast Park|B. Go to the library|C. Play basketball",
+            "What is Mei's family going to do at East Coast Park?|A. Have a picnic|B. Play basketball|C. Return books",
+            "What time is Mei going to leave?|A. Eight o'clock|B. Nine o'clock|C. Ten o'clock",
+          ]),
+          correctAnswer: "B,A,B",
+          points: 3,
+        },
+        {
+          type: "speaking",
+          order: 5,
+          content: `口语练习 / Speaking Practice
+
+Task: Talk about your weekend plans (about 1 minute)
+
+Tell your partner what you are going to do this weekend. Talk about:
+• What you are going to do on Saturday
+• What you are going to do on Sunday
+• Who you are going to spend time with
+• What time you are going to do these activities
+
+You MUST use "be going to" correctly:
+✓ I am going to... / I'm going to...
+✓ My family is going to... / We are going to...
+✓ He/She is going to...
+
+Useful phrases:
+• On Saturday/Sunday, I'm going to...
+• In the morning/afternoon/evening, I'm going to...
+• My family and I are going to...
+• We're going to... at [time]
+• My friend/brother/sister is going to...
+• I'm really excited because I'm going to...`,
           points: 10,
         },
       ],
