@@ -6120,6 +6120,74 @@ const lessonPlans: Record<string, LessonPlan> = {
     ],
     speakingPrompts: null,
   },
+  "SMATH-80": {
+    title: "比例尺图 — Scale drawings",
+    mathExample: "Plan of a classroom, scale 1 : 100. Drawing length 8 cm. → Actual length = 8 × 100 = 800 cm = 8 m. Scale 1 cm : 2 m. Drawing 5 cm. → Actual = 5 cm × 2 m per cm = 10 m. (1 cm on drawing = 2 m actual). A path on a plan is 6 cm, scale 1 : 50. Actual length = 6 × 50 = 300 cm = 3 m. Angle at a corner is 90° on plan. → Actual angle = 90° (scale does NOT change angles).",
+    boardWriting: "SMATH Week 80: Sec 2 G2.6 scale drawings. Official content: A scale drawing has all lengths in the same ratio as the corresponding actual lengths. Scale 1 : n means 1 unit on the drawing represents n of the same units on the actual object (or a stated mixed unit such as 1 cm : 2 m). Find an actual length from a drawing length, or a drawing length from an actual length. Scale does NOT change angles. Example 1: Classroom plan, scale 1:100, drawing 8 cm. Actual = 8 × 100 = 800 cm = 8 m. Example 2: Scale 1 cm : 2 m, drawing 5 cm. Actual = 5 × 2 = 10 m. Example 3: Path 6 cm, scale 1:50. Actual = 6 × 50 = 300 cm = 3 m. 90° on plan → 90° actual (angles unchanged).",
+    sections: [
+      {
+        name: "课前",
+        duration: "2 分钟",
+        teacherNotes: "欢迎孩子。「今天是第 80 周 AEIS 中学数学，我们学 Sec 2 G2.6 scale drawings（比例尺图）。本周只教 G2.6 only. Official content: a scale drawing has all lengths in the same ratio as the corresponding actual lengths（比例尺图的所有长度与实际长度的比率相同）. Scale 1 : n means 1 unit on the drawing represents n of the same units on the actual object（比例 1 : n 表示图上 1 单位代表实际物体的 n 个同样单位）, or a stated mixed unit such as 1 cm : 2 m（或者混合单位如 1 cm 图上代表实际 2 m）. Find an actual length from a drawing length（从图上长度求实际长度）, or find a drawing length from an actual length（从实际长度求图上长度）. Scale does NOT change angles（比例尺不改变角度）. Integer lengths only (or ½, ⅓ if the other length stays an integer)（只用整数长度，或者 ½、⅓ 如果另一边保持整数），no calculator（不用计算器）。本周不教 G2.7 perpendicular and angle bisectors（不教垂直平分线和角平分线）; 不教 G2.8 determining congruent/similar triangles as a listed item（不作为列项教判断全等/相似三角形的 SSS/SAS/ASA/AAA）; 不教 G2.9 ratio of areas = k²（不教面积比等于 k²）; 不教 G2.10 ratio of volumes = k³（不教体积比等于 k³）; 不教 G4 Pythagoras/trigonometry（不教勾股定理/三角函数）; 不教 G5 solids（不教立体图形）. No calculator（calculators are not allowed）。官方卷型：Part 1 MCQ 34 题 30 分钟 + Part 2 show working 20+10–15 题 1 小时 45 分钟，不用计算器。」",
+      },
+      {
+        name: "学习目标",
+        duration: "1 分钟",
+        teacherNotes: "学习目标：「By the end of this lesson, you will be able to: (1) understand what a scale drawing is: all lengths in the same ratio as actual lengths; (2) interpret scale 1 : n (1 unit on drawing = n units actual) and mixed scale 1 cm : 2 m (1 cm on drawing = 2 m actual); (3) find an actual length from a drawing length using the scale (e.g. scale 1:100, drawing 8 cm → actual 800 cm = 8 m); (4) find a drawing length from an actual length using the scale (e.g. scale 1:50, actual 300 cm → drawing 6 cm); (5) understand that scale does NOT change angles (90° on drawing → 90° actual). 成功标准 Success Criteria: You can use the scale to convert drawing lengths to actual lengths and vice versa. You understand that angles stay the same on a scale drawing (scale applies to lengths only, not angles).」",
+      },
+      {
+        name: "准备",
+        duration: "5 分钟",
+        teacherNotes: "问孩子：「今天我们学 scale drawings（比例尺图）。What is a scale drawing? A scale drawing is a drawing where all lengths are in the same ratio as the corresponding actual lengths（比例尺图是一个所有长度都与实际长度保持相同比率的图）. For example: a map, a floor plan, an architect's drawing. Why do we use scale drawings? Because the actual object is too large to draw at full size. A classroom is 8 m wide, we cannot draw 8 m on paper, so we use a smaller scale. Example: scale 1 : 100 means 1 cm on the drawing represents 100 cm (1 m) on the actual object. Drawing 8 cm → actual 8 × 100 = 800 cm = 8 m. Scale can also be mixed units: scale 1 cm : 2 m means 1 cm on the drawing = 2 m actual. Drawing 5 cm → actual 5 × 2 = 10 m. Important: scale does NOT change angles. A 90° corner on the plan is a 90° corner in the actual room (angles stay the same). We only scale LENGTHS, not ANGLES. Let's learn how to use scale to find actual lengths and drawing lengths.」",
+      },
+      {
+        name: "化石",
+        duration: "10 分钟",
+        teacherNotes: "打开屏幕共享或白板，写下本周化石错误：「Fossil 1: mixing drawing length with actual length（混淆图上长度和实际长度）。Example: A classroom plan has scale 1:100. The drawing shows a wall 8 cm long. Option says: 'The actual wall is 8 cm.' ✗」说明：「这是化石错误：图上 8 cm 不是实际 8 cm。Wrong. The scale is 1:100, so 1 cm on the drawing = 100 cm actual. Drawing 8 cm → actual 8 × 100 = 800 cm = 8 m, NOT 8 cm. The drawing is smaller than the actual object (that's why we need a scale). Always use the scale to convert: drawing length × scale = actual length. Drawing 8 cm, scale 1:100 → actual 8 × 100 = 800 cm = 8 m.」让孩子跟读一句：「Scale 1:100 means 1 cm drawing = 100 cm actual. Drawing 8 cm = actual 800 cm = 8 m.」再写第二个化石错误：「Fossil 2: inverting the scale (treating 1:200 as 200:1)（颠倒比例尺，把 1:200 当成 200:1）。Example: A garden plan has scale 1:200. Drawing 4 cm. Option says: 'Actual length = 4 ÷ 200 = 0.02 cm.' ✗」说明：「这是化石错误：1:200 表示 1 cm 图上代表 200 cm 实际，不是 1 cm 实际代表 200 cm 图上。Wrong. Scale 1:200 means 1 unit drawing = 200 units actual (drawing is SMALLER). To find actual, we MULTIPLY by 200, not divide. Drawing 4 cm → actual 4 × 200 = 800 cm = 8 m. NOT 4 ÷ 200 = 0.02 cm (makes no sense). Rule: scale 1:n means actual = drawing × n. To find drawing from actual: drawing = actual ÷ n. Never invert the scale.」让孩子跟读一句：「Scale 1:200 means actual = drawing × 200. Drawing 4 cm = actual 800 cm.」再写第三个化石错误：「Fossil 3: applying the scale to an angle（把比例尺用在角度上）。Example: A path plan shows a 90° corner. Scale 1:50. Option says: 'Actual angle = 90° × 50 = 4500°.' ✗」说明：「这是化石错误：比例尺不作用于角度。Wrong. Scale applies to LENGTHS only, NOT angles. Angles do NOT change. A 90° angle on the drawing is a 90° angle in reality (you cannot have a 4500° angle, angles are measured 0°–360°). Scale 1:50 means lengths are scaled by 50, but angles stay the same. 90° on plan → 90° actual. Remember: scale changes lengths, NOT angles.」让孩子跟读一句：「Scale applies to lengths only. Angles do not change. 90° on plan = 90° actual.」",
+      },
+      {
+        name: "微课",
+        duration: "8 分钟",
+        teacherNotes: "打开屏幕共享，播放本周微课（3 个例题，每个 2–3 分钟，共 8 分钟）。微课例题 1: Plan of a classroom, scale 1 : 100. Drawing length 8 cm. Find the actual length. Solution: Step 1: Interpret the scale. Scale 1:100 means 1 cm on drawing = 100 cm actual. Step 2: Use formula: actual = drawing × scale factor. Actual = 8 cm × 100 = 800 cm. Step 3: Convert to metres: 800 cm = 8 m (100 cm = 1 m). Answer: Actual length = 8 m. 微课例题 2: Scale 1 cm : 2 m. Drawing 5 cm. Find the actual length. Solution: Step 1: Interpret the scale. 1 cm on drawing = 2 m actual (mixed units). Step 2: Drawing 5 cm → actual = 5 × 2 m = 10 m. Check: 1 cm = 2 m, so 5 cm = 5 × 2 m = 10 m. ✓ Answer: Actual length = 10 m. 微课例题 3: A path on a plan is 6 cm, scale 1 : 50. Find the actual length. The path has a 90° corner on the plan. What is the actual angle at the corner? Solution: Step 1: Scale 1:50 means 1 cm drawing = 50 cm actual. Actual length = 6 cm × 50 = 300 cm = 3 m. Step 2: Angles do NOT change. Scale applies to lengths only, not angles. 90° on plan → 90° actual. Answer: Actual length = 3 m, actual angle = 90° (unchanged).",
+      },
+      {
+        name: "示范",
+        duration: "8 分钟",
+        teacherNotes: "I do: 教师在白板上示范一道例题（画简单的图，标记图上长度、比例尺、实际长度）。「Problem: At Riverside Secondary, Mr Lim shows a garden plan. Scale 1:200. A path on the plan is 4 cm long. Find the actual length of the path in metres.」Step 1: Interpret the scale. Scale 1:200 means 1 cm on drawing = 200 cm actual. Step 2: Use formula: actual = drawing × scale factor. Actual = 4 cm × 200 = 800 cm. Step 3: Convert to metres: 800 cm = 8 m (100 cm = 1 m). Answer: Actual length = 8 m. 教师边示范边说：「Notice: scale 1:200 means 1 unit drawing = 200 units actual. Drawing 4 cm → actual 4 × 200 = 800 cm = 8 m. The drawing is much smaller than the actual object (that's why we need a scale). Always convert cm to m at the end: 800 cm = 8 m.」",
+      },
+      {
+        name: "带练",
+        duration: "10 分钟",
+        teacherNotes: "We do: 给孩子一道题目，和他/她一起做（画简单的图，标记图上长度、比例尺）。「Problem: At Riverside Secondary, Aisha has a map. Scale 1 cm : 5 m. A street on the map is 3 cm long. Find the actual length of the street in metres.」让孩子说出每一步。教师引导：「First, interpret the scale. What does 1 cm : 5 m mean?」(1 cm on map = 5 m actual.) 「Good. How do we find the actual length?」(Multiply drawing length by scale: 3 cm × 5 m per cm.) 「Yes. Calculate: 3 × 5 = ?」(15.) 「Correct. Units?」(metres.) 「Perfect. Answer: Actual length = 15 m. Check: 1 cm = 5 m, so 3 cm = 3 × 5 m = 15 m. ✓ Mixed scale 1 cm : 5 m: multiply drawing cm by 5 to get actual metres.」",
+      },
+      {
+        name: "独立",
+        duration: "8 分钟",
+        teacherNotes: "You do: 给孩子一道题目让他/她独立做（教师不给完整答案，只在孩子卡住时给提示）。「Problem: At Riverside Secondary, Wei has a building plan. Scale 1:50. The actual width of a room is 200 cm. Find the width on the plan in cm. The room has a 90° corner. What is the angle on the plan?」期待答案：Step 1: To find drawing from actual, use formula: drawing = actual ÷ scale factor. Scale 1:50 means divide by 50. Drawing = 200 cm ÷ 50 = 4 cm. Step 2: Angles do NOT change. Scale applies to lengths only. Actual 90° → plan 90°. Answer: Drawing width = 4 cm, angle on plan = 90°. 如果孩子卡住，引导：「To find drawing from actual, do we multiply or divide by the scale factor?」(Divide.) 「What is 200 ÷ 50?」(4 cm.) 「Do angles change?」(No.) 「So plan angle = ?」(90°.) 「Good. Use them.」",
+      },
+      {
+        name: "关键问题1",
+        duration: "2 分钟",
+        teacherNotes: "关键问题 1：「What does scale 1 : 100 mean? How do you find the actual length from the drawing length?」期待答案：「Scale 1 : 100 means 1 unit on the drawing represents 100 of the same units on the actual object. For example: 1 cm on drawing = 100 cm actual (= 1 m). To find actual length from drawing length, MULTIPLY by the scale factor: actual = drawing × 100. Example: drawing 8 cm, scale 1:100 → actual = 8 × 100 = 800 cm = 8 m. Why multiply? Because the scale is 1:100 (drawing is SMALLER than actual). 1 cm drawing represents 100 cm actual, so 8 cm drawing represents 8 × 100 = 800 cm actual. The drawing is 1/100 of the actual size. To go from drawing (smaller) to actual (larger), multiply by 100. To go from actual (larger) to drawing (smaller), divide by 100: drawing = actual ÷ 100. Rule: actual = drawing × n (for scale 1:n). Drawing = actual ÷ n (for scale 1:n).」(如果孩子答不出，引导：「Scale 1:100 表示图上 1 单位 = 实际 100 单位。Actual = drawing × 100 (multiply to go from smaller to larger). Drawing = actual ÷ 100 (divide to go from larger to smaller).」)",
+      },
+      {
+        name: "关键问题2",
+        duration: "2 分钟",
+        teacherNotes: "关键问题 2：「Why does scale NOT change angles?」期待答案：「Scale does NOT change angles because scale applies to LINEAR dimensions (lengths, distances) only, not to ANGULAR measures (angles, rotations). Angles define the SHAPE. A scale drawing has the same SHAPE as the actual object (that's why it's useful as a plan). If angles changed, the shape would change (a 90° corner would become something else, not useful for a plan). For example: a square room has four 90° corners. On a scale 1:100 plan, the room is drawn smaller (8 cm instead of 800 cm), but it's still a square with four 90° corners. The angles are 90° on the plan and 90° in reality. Angles do NOT scale by 100 (90° × 100 = 9000° makes no sense). Scale factor applies to lengths only. Lengths are multiplied/divided by n, but angles stay the same. A 90° angle on the drawing is a 90° angle in reality. A 60° angle on the drawing is a 60° angle in reality. Scale preserves angles (preserves shape).」(如果孩子答不出，引导：「Scale applies to lengths only, not angles. Angles define shape. Scale drawing has same shape as actual object, so angles must be equal. 90° on plan = 90° actual. Angles do not scale.」)",
+      },
+      {
+        name: "AfL",
+        duration: "3 分钟",
+        teacherNotes: "AfL（Assessment for Learning 形成性评价）：给孩子一道快速检查题：「Quick check: A classroom plan has scale 1:100. The plan shows a wall 6 cm long with a 90° corner. Wei says: 'The actual wall is 6 m long.' Aisha says: 'The actual corner angle is 90°.' Are they correct? Explain.」期待答案：Both are correct. Wei correctly calculated the actual length: scale 1:100 means 1 cm drawing = 100 cm actual. Drawing 6 cm → actual 6 × 100 = 600 cm = 6 m. ✓ Aisha correctly stated that the actual angle = 90°: angles do NOT change. 90° on plan → 90° actual (scale applies to lengths only, not angles). ✓ Both Wei and Aisha are correct. Answer: Wei correct (actual length = 6 m). Aisha correct (actual angle = 90°, unchanged). 如果孩子做对了，说：「Excellent! You understand scale drawings: multiply by scale to find actual length, angles stay the same.」如果孩子做错了，找出错在哪里（忘记乘以 100？忘记角度不变？），再示范一遍。",
+      },
+      {
+        name: "收口",
+        duration: "4 分钟",
+        teacherNotes: "总结本周重点：(1) 官方 Sec 2 AEIS 数学卷型：Part 1 MCQ 34 题 30 分钟 + Part 2 show working 20+10–15 题 1 小时 45 分钟，不用计算器。(2) 本周内容：Sec 2 GEOMETRY AND MEASUREMENT, G2. Congruence and similarity: 2.6 scale drawings。本周是 G2.6 only. Official content: a scale drawing has all lengths in the same ratio as the corresponding actual lengths. Scale 1 : n means 1 unit on drawing = n units actual. Scale 1 cm : 2 m means 1 cm on drawing = 2 m actual (mixed units). Find actual from drawing: actual = drawing × n. Find drawing from actual: drawing = actual ÷ n. Scale does NOT change angles: 90° on plan → 90° actual. Integer lengths only (or ½, ⅓ if other length stays integer), no calculator. (3) 本周化石：mixing drawing length with actual length (8 cm drawing → actual 8 cm, wrong, should be 8 × 100 = 800 cm = 8 m for scale 1:100); inverting the scale (treating 1:200 as 200:1, dividing instead of multiplying, wrong); applying the scale to an angle (90° × 50 = 4500°, wrong, angles do not change); two options that are the same pair in a different order. Remember: scale applies to lengths only. Multiply by n to go from drawing to actual (drawing smaller → actual larger). Angles do NOT scale (stay the same). (4) 本周作业在 /learn/SMATH/80，包含 5 道 reading、8 道 grammar、3 道 writing。Writing 要写算式和答案。完成后 AI 会给反馈。有问题随时联系老师。下周继续 AEIS 中学数学。",
+      },
+    ],
+    speakingPrompts: null,
+  },
 };
 
 export default async function LessonPlanPage({

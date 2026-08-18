@@ -936,6 +936,14 @@ export default function WeikeMiniLesson({ level, weekNumber }: WeikeMiniLessonPr
       ],
       gloss: "AEIS 中学数学第 79 周 / SMATH Week 79. 本周例题：Sec 2 G2.5 solving simple problems involving congruence and similarity（全等与相似的简单应用题）。"
     },
+    "SMATH-80": {
+      examples: [
+        "Plan of a classroom, scale 1 : 100. Drawing length 8 cm. → Actual length = 8 × 100 = 800 cm = 8 m",
+        "Scale 1 cm : 2 m. Drawing 5 cm. → Actual = 5 cm × 2 m per cm = 10 m. (1 cm on drawing = 2 m actual)",
+        "A path on a plan is 6 cm, scale 1 : 50. Actual length = 6 × 50 = 300 cm = 3 m. Angle at a corner is 90° on plan. → Actual angle = 90° (scale does NOT change angles)"
+      ],
+      gloss: "AEIS 中学数学第 80 周 / SMATH Week 80. 本周例题：Sec 2 G2.6 scale drawings（比例尺图）。"
+    },
     "SEC-0": {
       fossil: "Although I was nervous, but I tried. ✗ (中文「虽然…但是…」迁移) / I go yesterday ✗ (叙事体过去时掉落)",
       examples: [
