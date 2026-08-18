@@ -14135,8 +14135,8 @@ Riverside Secondary School has geometry questions about properties of similar tr
 
 Question (a)
 At Riverside Secondary, Mr Lim draws two triangles on the whiteboard:
-• Triangle ABC: sides AB = 3 cm, BC = 4 cm, AC = 5 cm
-• Triangle PQR: sides PQ = 12 cm, QR = 16 cm, PR = 20 cm
+• Triangle ABC: sides AB = 8 cm, BC = 15 cm, AC = 17 cm
+• Triangle PQR: sides PQ = 16 cm, QR = 30 cm, PR = 34 cm
 Wei says: 「These triangles are similar because Triangle PQR is bigger.」
 Aisha says: 「We need to check if corresponding sides are proportional.」
 (i) Calculate the ratios AB:PQ, BC:QR, and AC:PR. Show your working. Simplify each ratio to its simplest form.
@@ -14144,23 +14144,23 @@ Aisha says: 「We need to check if corresponding sides are proportional.」
 (iii) What is the scale factor from Triangle ABC to Triangle PQR?
 
 Question (b)
-At Riverside Secondary, Mr Lim shows two pentagons:
-• Pentagon ABCDE ~ Pentagon FGHIJ (they are similar)
-• Pentagon ABCDE: AB = 2 cm, BC = 4 cm, CD = 5 cm, DE = 3 cm, EA = 6 cm
-• Pentagon FGHIJ: FG = 8 cm
-(i) Calculate the scale factor from Pentagon ABCDE to Pentagon FGHIJ. Show your working: FG / AB = ?
-(ii) Using the scale factor, calculate GH, HI, IJ, and JF. Show your working for each side. Write: GH = BC × k = 4 × ? = ? cm. (Do this for all four sides.)
-(iii) Wei says: 「Because the pentagons are similar, all corresponding angles are equal.」 Is Wei correct? Explain why corresponding angles are equal in similar polygons (use the G2.3 property).
+At Riverside Secondary, Mr Lim shows two hexagons:
+• Hexagon ABCDEF ~ Hexagon PQRSTU (they are similar)
+• Hexagon ABCDEF: AB = 4 cm, BC = 5 cm, CD = 6 cm, DE = 7 cm, EF = 8 cm, FA = 9 cm
+• Hexagon PQRSTU: PQ = 12 cm
+(i) Calculate the scale factor from Hexagon ABCDEF to Hexagon PQRSTU. Show your working: PQ / AB = ?
+(ii) Using the scale factor, calculate QR, RS, ST, TU, and UP. Show your working for each side. Write: QR = BC × k = 5 × ? = ? cm. (Do this for all five sides.)
+(iii) Wei says: 「Because the hexagons are similar, all corresponding angles are equal.」 Is Wei correct? Explain why corresponding angles are equal in similar polygons (use the G2.3 property).
 
 Question (c)
 At Riverside Secondary, Mr Lim draws two similar triangles:
 • Triangle XYZ ~ Triangle UVW
-• Triangle XYZ has ∠X = 50°, ∠Y = 70°, ∠Z = 60°
-• Triangle XYZ has sides XY = 8 cm, YZ = 10 cm, ZX = 12 cm
-• Triangle UVW has side UV = 16 cm (UV corresponds to XY)
+• Triangle XYZ has ∠X = 35°, ∠Y = 65°, ∠Z = 80°
+• Triangle XYZ has sides XY = 9 cm, YZ = 11 cm, ZX = 13 cm
+• Triangle UVW has side UV = 27 cm (UV corresponds to XY)
 (i) What are the measures of ∠U, ∠V, and ∠W? Explain your answer using the G2.3 property: corresponding angles are equal.
 (ii) Calculate the scale factor from Triangle XYZ to Triangle UVW. Show your working: UV / XY = ?
-(iii) Aisha says: 「Because the scale factor is 2, the angles in Triangle UVW are also twice as big: ∠U = 50° × 2 = 100°.」 Is Aisha correct? Explain why the scale factor applies to side lengths but NOT to angles.
+(iii) Aisha says: 「Because the scale factor is 3, the angles in Triangle UVW are also three times as big: ∠U = 35° × 3 = 105°.」 Is Aisha correct? Explain why the scale factor applies to side lengths but NOT to angles.
 
 写作提示 / Tips:
 ✓ 每题分步骤写出推理 (Show working steps for each question)
@@ -14173,7 +14173,7 @@ At Riverside Secondary, Mr Lim draws two similar triangles:
   • All angles equal so sides must be equal (confuses similar with congruent)（所有角相等所以边也必须相等，混淆相似与全等）
   • Two options that are same correspondence in different order as two correct answers（同一对应关系以不同顺序呈现作为两个正确选项）
   • Scale factor applied to an angle (angles do not scale)（缩放比例应用于角度，角度不缩放）
-  • Writing copies 微课 example numbers (Writing Q uses 3-4-5 & 12-16-20 triangles; 2-4-5-3-6 & 8-?-?-?-? pentagons; 8-10-12 & 16-?-? triangles with 50-70-60 angles. NOT the same as 微课: 4-8 triangles, 50-70-60 angles, 3-9 pentagons.)
+  • Writing copies 微课 example numbers (Writing Q uses 8-15-17 & 16-30-34 triangles; hexagon 4-5-6-7-8-9 & 12-15-18-21-24-27; 9-11-13 & 27 triangles with 35-65-80 angles. NOT the same as 微课: 4-8 triangles, 50-70-60 angles, 3-9 pentagons.)
 ✓ 本周不教 G2.4 enlargement and reduction of a plane figure using a scale factor（不教用缩放比例进行平面图形的放大和缩小）；不教 G2.5 problems involving similar figures（不教相似图形应用题）；不教 G2.8 SSS/SAS/AAA tests as a named list（不教 SSS/SAS/AAA 相似检验作为命名列表）；不教 G2.9 ratio of areas = k²（不教面积比等于边长比的平方）；不教 G2.10 ratio of volumes = k³（不教体积比等于边长比的立方）. 本周只教 G2.3: corresponding angles are equal; corresponding sides are proportional.
 
 Note: This is a sample of Part 2 short-answer/open-ended questions. The official paper has 20 short-answer + 10–15 open-ended items in 1 hour 45 minutes.`,
