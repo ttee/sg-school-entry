@@ -14275,6 +14275,99 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
         },
       ],
     },
+    {
+      level: "SMATH",
+      weekNumber: 79,
+      title: "全等与相似的简单应用题 — Solving simple problems involving congruence and similarity",
+      description: "Sec 2 G2.5: solving simple problems involving congruence and similarity (AEIS 中学数学第 79 周 / SMATH Week 79)",
+      isSample: false,
+      errorFocus: "treating similar figures as congruent (sides equal when they are only proportional); using the wrong corresponding sides to find a missing length; applying k to an angle; duplicate answer options (same pair in different order)",
+      parentBrief: "本周练全等与相似的简单应用题。G2.5 内容：判断全等（同形同大小）/相似（同形边成比例）；找缺失边长（用对应边比例）；找缺失角度（对应角相等）。盯住：全等≠相似（不要把成比例的边当作相等）；对应边要找对（别用错边求长度）；k 不作用于角（对应角相等不缩放）。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "At Riverside Secondary, Mr Lim shows two triangles. Triangle ABC: AB = 6 cm, BC = 8 cm, AC = 10 cm, ∠A = 90°. Triangle DEF: DE = 6 cm, EF = 8 cm, DF = 10 cm, ∠D = 90°. Wei asks: 「Are Triangle ABC and Triangle DEF congruent, similar, or neither?」 Which is correct?|A. Congruent (same shape and same size). All corresponding sides are equal: AB = DE = 6 cm, BC = EF = 8 cm, AC = DF = 10 cm. All corresponding angles are equal: ∠A = ∠D = 90°. Congruent figures have EQUAL sides, not just proportional. ✓|B. Similar but NOT congruent (same shape, sides proportional, but different size).|C. Neither congruent nor similar (different shape).|D. Cannot determine without knowing all the other angles.",
+            "Aisha at Riverside Secondary sees two rectangles. Rectangle PQRS: PQ = 4 cm, QR = 6 cm, all angles 90°. Rectangle WXYZ: WX = 8 cm, XY = 12 cm, all angles 90°. Mr Lim asks: 「Are Rectangle PQRS and Rectangle WXYZ congruent, similar, or neither?」 Which is correct?|A. Similar but NOT congruent (same shape, sides proportional). PQ:WX = 4:8 = 1:2. QR:XY = 6:12 = 1:2. Same ratio 1:2, so sides are proportional. All angles equal (90°). BUT sides are NOT equal (4 ≠ 8, 6 ≠ 12), so NOT congruent. ✓|B. Congruent (same shape and same size).|C. Neither congruent nor similar (different shape).|D. Congruent because all angles are 90°.",
+            "At Riverside Secondary, Mr Lim shows two similar triangles. Triangle ABC is similar to Triangle DEF. AB = 5 cm, BC = 7 cm, AC = 9 cm. DE = 10 cm. Wei asks: 「What is the length of EF?」 Which is correct?|A. EF = 14 cm. Similar triangles: corresponding sides are proportional. AB:DE = BC:EF. 5:10 = 7:EF. 5 × EF = 10 × 7 = 70. EF = 70 / 5 = 14 cm. Check: 5:10 = 7:14 = 1:2 (same ratio). ✓|B. EF = 7 cm (same as BC, because similar means sides are equal).|C. EF = 5 cm (same as AB).|D. Cannot determine EF without knowing DF.",
+            "Aisha at Riverside Secondary sees two congruent squares. Square ABCD: AB = 8 cm, ∠A = 90°. Square PQRS: PQ = ? cm, ∠P = 90°. Mr Lim says: 「Square ABCD is congruent to Square PQRS.」 Wei asks: 「What is the length of PQ?」 Which is correct?|A. PQ = 8 cm. Congruent figures: ALL corresponding sides are EQUAL. AB = PQ. AB = 8 cm, so PQ = 8 cm. Congruent means same size, not just same ratio. ✓|B. PQ = 16 cm (double AB, because congruent means proportional).|C. PQ = 4 cm (half AB).|D. Cannot determine PQ without knowing the scale factor k.",
+            "At Riverside Secondary, Mr Lim draws two similar triangles. Triangle XYZ is similar to Triangle X'Y'Z'. XY = 6 cm, YZ = 8 cm, ZX = 10 cm. X'Y' = 9 cm. ∠Y = 60°. Wei asks: 「What is the scale factor k from Triangle XYZ to Triangle X'Y'Z'? What is ∠Y'?」 Which is correct?|A. k = X'Y' / XY = 9 / 6 = 3/2 (or 1.5, but write as fraction 3/2). Similar figures: corresponding ANGLES are EQUAL. ∠Y' = ∠Y = 60° (angles do NOT scale). ✓|B. k = 9 / 6 = 3/2. ∠Y' = 60° × 3/2 = 90° (angles scale by k).|C. k = 6 / 9 = 2/3. ∠Y' = 60°.|D. Cannot determine k without knowing Y'Z'.",
+          ]),
+          correctAnswer: "A,A,A,A,A",
+          points: 10,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "At Riverside Secondary, Mr Lim shows two triangles. Triangle ABC: AB = 8 cm, BC = 12 cm, AC = 16 cm. Triangle PQR: PQ = 8 cm, QR = 12 cm, PR = 16 cm. Wei says: 「These triangles are similar.」 Aisha says: 「No, they are congruent.」 Who is correct?|A. Aisha is correct. Congruent: ALL corresponding sides are EQUAL. AB = PQ = 8 cm, BC = QR = 12 cm, AC = PR = 16 cm. When sides are equal (not just proportional), the figures are CONGRUENT, not just similar. (Note: congruent figures are also similar, but when ALL sides are equal, we call them congruent.) ✓|B. Wei is correct. They are similar but NOT congruent.|C. Both are wrong. The triangles are neither congruent nor similar.|D. Cannot determine without knowing the angles.",
+            "Aisha at Riverside Secondary sees two similar rectangles. Rectangle PQRS: PQ = 9 cm, QR = 6 cm. Rectangle P'Q'R'S': P'Q' = 18 cm, Q'R' = ? cm. Mr Lim asks: 「What is Q'R'?」 Which is correct?|A. Q'R' = 12 cm. Similar rectangles: corresponding sides are proportional. PQ:P'Q' = QR:Q'R'. 9:18 = 6:Q'R'. 9 × Q'R' = 18 × 6 = 108. Q'R' = 108 / 9 = 12 cm. Check: 9:18 = 6:12 = 1:2 (same ratio). ✓|B. Q'R' = 6 cm (same as QR, because similar means sides are equal).|C. Q'R' = 18 cm (same as P'Q').|D. Q'R' = 9 cm.",
+            "At Riverside Secondary, Mr Lim shows two congruent triangles. Triangle ABC is congruent to Triangle DEF. ∠A = 40°, ∠B = 65°, ∠C = 75°. Wei asks: 「What are the angles in Triangle DEF?」 Which is correct?|A. ∠D = 40°, ∠E = 65°, ∠F = 75°. Congruent figures: ALL corresponding angles are EQUAL. ∠D = ∠A = 40°, ∠E = ∠B = 65°, ∠F = ∠C = 75°. Congruent means same shape AND same size. ✓|B. ∠D = 80°, ∠E = 130°, ∠F = 150° (angles are doubled in congruent figures).|C. ∠D = 20°, ∠E = 32.5°, ∠F = 37.5° (angles are halved).|D. Cannot determine the angles without knowing the sides.",
+            "Aisha at Riverside Secondary sees two similar pentagons. Pentagon ABCDE is similar to Pentagon A'B'C'D'E'. AB = 4 cm, BC = 6 cm, CD = 8 cm. A'B' = 12 cm, B'C' = ? cm. Mr Lim asks: 「What is B'C'?」 Which is correct?|A. B'C' = 18 cm. Similar figures: corresponding sides are proportional. AB:A'B' = BC:B'C'. 4:12 = 6:B'C'. 4 × B'C' = 12 × 6 = 72. B'C' = 72 / 4 = 18 cm. Check: 4:12 = 6:18 = 1:3 (same ratio). ✓|B. B'C' = 6 cm (same as BC, because similar means sides are equal).|C. B'C' = 12 cm (same as A'B').|D. B'C' = 8 cm (same as CD).",
+            "At Riverside Secondary, Mr Lim shows two similar triangles. Triangle XYZ is similar to Triangle X'Y'Z'. XY = 10 cm, X'Y' = 20 cm. ∠X = 45°. Wei says: 「The scale factor is k = 2. So ∠X' = 45° × 2 = 90°.」 Is this correct?|A. No. k = X'Y' / XY = 20 / 10 = 2 ✓. BUT similar figures: corresponding ANGLES are EQUAL, NOT scaled. ∠X' = ∠X = 45° (angles do NOT change). Scale factor k applies to side LENGTHS only, not to angles. ✓|B. Yes. k = 2, so all measurements (sides and angles) are multiplied by 2. ∠X' = 90°.|C. No. k = 10 / 20 = 1/2, so ∠X' = 45° / 2 = 22.5°.|D. Cannot determine ∠X' without knowing Y'Z'.",
+            "Aisha at Riverside Secondary sees two triangles. Triangle ABC: AB = 5 cm, BC = 7 cm, AC = 9 cm. Triangle DEF: DE = 10 cm, EF = 12 cm, DF = 18 cm. Mr Lim asks: 「Are these triangles similar?」 Which is correct?|A. No, they are NOT similar. Similar figures: ALL corresponding sides must have the SAME ratio. AB:DE = 5:10 = 1:2. BC:EF = 7:12 (not 1:2). AC:DF = 9:18 = 1:2. Ratios are NOT all the same (7:12 ≠ 1:2), so NOT similar. ✓|B. Yes, they are similar. AB:DE = 5:10, AC:DF = 9:18, ratios match.|C. Yes, they are similar because DE > AB (one is bigger).|D. Cannot determine without knowing the angles.",
+            "At Riverside Secondary, Mr Lim shows two congruent rectangles. Rectangle PQRS: PQ = 12 cm, QR = 9 cm, ∠P = 90°. Rectangle WXYZ: WX = 12 cm, XY = 9 cm, ∠W = 90°. Wei asks: 「What is the scale factor k from PQRS to WXYZ?」 Which is correct?|A. k = 1 (or no scaling). Congruent figures: sides are EQUAL, not scaled. PQ = WX = 12 cm, QR = XY = 9 cm. When sides are equal, k = 1 (no enlargement or reduction). Congruent means same size. ✓|B. k = 12 / 9 = 4/3 (ratio of PQ to QR).|C. k = 2 (WXYZ is twice PQRS).|D. Cannot determine k because the figures are congruent, not similar.",
+            "Aisha at Riverside Secondary sees two similar triangles. Triangle ABC is similar to Triangle DEF. AB = 8 cm, BC = 10 cm, AC = 12 cm. DE = 16 cm, EF = 20 cm. ∠A = 60°, ∠B = 50°, ∠C = 70°. Mr Lim asks: 「What is the length of DF? What are the angles in Triangle DEF?」 Which is correct?|A. DF = 24 cm. Similar figures: corresponding sides are proportional. AB:DE = AC:DF. 8:16 = 12:DF. 8 × DF = 16 × 12 = 192. DF = 192 / 8 = 24 cm. Check: 8:16 = 12:24 = 1:2 ✓. Corresponding ANGLES are EQUAL: ∠D = 60°, ∠E = 50°, ∠F = 70°. ✓|B. DF = 12 cm (same as AC). ∠D = 120°, ∠E = 100°, ∠F = 140° (angles doubled).|C. DF = 16 cm (same as DE). ∠D = 60°, ∠E = 50°, ∠F = 70°.|D. DF = 20 cm (same as EF). ∠D = 60°, ∠E = 50°, ∠F = 70°.",
+          ]),
+          correctAnswer: "A,A,A,A,A,A,A,A",
+          points: 16,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `Part 2: Show Your Working (写出算式步骤)
+
+Riverside Secondary School has geometry questions about congruence and similarity. Answer the questions below. Show your working.
+
+Question (a)
+At Riverside Secondary, Mr Lim shows two triangles on the whiteboard:
+• Triangle ABC: AB = 7 cm, BC = 24 cm, AC = 25 cm, ∠B = 90°
+• Triangle PQR: PQ = 7 cm, QR = 24 cm, PR = 25 cm, ∠Q = 90°
+(i) Wei says: 「These triangles are similar.」 Aisha says: 「No, they are congruent.」 Who is correct? Explain your answer: compare the corresponding sides. Are they equal or just proportional?
+(ii) Mr Lim asks: 「If Triangle ABC is congruent to Triangle PQR, what is the length of PR?」 Show your working. Explain: congruent figures have equal sides or proportional sides?
+(iii) What is the angle ∠Q in Triangle PQR? Explain your answer: do congruent figures have equal angles?
+
+Question (b)
+At Riverside Secondary, Mr Lim shows two similar rectangles:
+• Rectangle ABCD: AB = 5 cm, BC = 8 cm, all angles 90°
+• Rectangle PQRS: PQ = 15 cm, QR = ? cm, all angles 90°
+Rectangle PQRS is similar to Rectangle ABCD.
+(i) Calculate the ratio of corresponding sides AB:PQ. Show your working: AB:PQ = 5:15 = ?
+(ii) Aisha says: 「Similar figures have equal sides, so QR = BC = 8 cm.」 Wei says: 「No, similar figures have PROPORTIONAL sides, not equal sides.」 Who is correct? Explain your answer: what does 'similar' mean?
+(iii) Calculate the length of QR. Show your working: AB:PQ = BC:QR. 5:15 = 8:QR. Solve for QR.
+
+Question (c)
+At Riverside Secondary, Mr Lim draws two similar triangles:
+• Triangle XYZ: XY = 12 cm, YZ = 35 cm, ZX = 37 cm, ∠X = 90°
+• Triangle X'Y'Z': X'Y' = 24 cm, Y'Z' = 70 cm, Z'X' = 74 cm
+(i) Calculate the scale factor k from Triangle XYZ to Triangle X'Y'Z'. Show your working: k = X'Y' / XY = 24 / 12 = ? (Check: k = Y'Z' / YZ = ? and k = Z'X' / ZX = ?)
+(ii) Wei says: 「Because k = 2, the right angle in Triangle X'Y'Z' changes: ∠X' = 90° × 2 = 180°.」 Is Wei correct? Explain why scale factor applies to side LENGTHS but NOT to angles. What is the correct angle ∠X' in Triangle X'Y'Z'?
+(iii) Aisha wants to find a missing side. Triangle X'Y'Z' is similar to Triangle DEF. X'Y' = 24 cm, DE = 48 cm. Y'Z' = 70 cm. What is EF? Show your working: X'Y':DE = Y'Z':EF. 24:48 = 70:EF. Solve for EF.
+
+写作提示 / Tips:
+✓ 每题分步骤写出推理 (Show working steps for each question)
+✓ Part 2 官方要求：clearly show the method of solution by writing working steps, plus the final answer
+✓ 不用计算器 (No calculators allowed)
+✓ 本周教 Sec 2 GEOMETRY AND MEASUREMENT, G2. Congruence and similarity: 2.5 solving simple problems involving congruence and similarity. 本周是 G2.5 only. Official content: congruent figures = same shape and same size (ALL sides equal, ALL angles equal). Similar figures = same shape, sides proportional (ratio k), angles equal. Simple problems: given two figures, determine congruent / similar / neither; given similar figures, find missing side using ratio; find angles (congruent or similar → corresponding angles equal). Integer lengths only. Fossil: treating similar as congruent (sides equal when only proportional); using wrong corresponding sides; applying k to angles; offering two identical pairs as two options. Cast: secondary Wei, Aisha, Mr Lim at Riverside Secondary School. No calculator. Integer lengths only.
+✓ 关键步骤：Step 1: Identify if figures are congruent (all sides EQUAL), similar (all sides PROPORTIONAL with same ratio), or neither（识别全等：所有边相等；相似：所有边成比例（同一比率）；或者两者都不是）. Step 2: For congruent figures: corresponding sides are EQUAL. For similar figures: corresponding sides are PROPORTIONAL（全等图形：对应边相等。相似图形：对应边成比例）. Step 3: To find a missing side in similar figures: set up ratio equation AB:A'B' = BC:B'C', then solve（相似图形求缺失边：列比例式 AB:A'B' = BC:B'C'，然后求解）. Step 4: Angles in congruent or similar figures: corresponding angles are EQUAL (angles do NOT scale)（全等或相似图形的角：对应角相等（角度不缩放））. Step 5: State the final answer（陈述最终答案）.
+✓ 化石 (fossil errors):
+  • Treating similar figures as congruent (saying sides are equal when they are only proportional)（把相似当全等：说边相等，但其实只是成比例。错误：similar figures 的边是 proportional，不是 equal）
+  • Using the wrong corresponding sides to find a missing length (AB:PQ = CD:XY instead of AB:PQ = BC:QR)（用错对应边求长度：AB:PQ = CD:XY 而不是 AB:PQ = BC:QR。错误：对应边要找对，不能随便配对）
+  • Applying k to an angle (saying ∠A' = k × ∠A)（把 k 应用于角度：∠A' = k × ∠A。错误：角度不缩放，对应角相等 ∠A' = ∠A）
+  • Two options that are the same pair written in a different order as two correct answers (e.g. AB:PQ = 1:2 and PQ:AB = 2:1 both offered as correct; only ONE can be correct per question)（两个选项是同一对以不同顺序写成两个正确答案：例如 AB:PQ = 1:2 和 PQ:AB = 2:1 都说对；每道题只能有一个对。错误：读清方向，哪个是物体，哪个是像）
+  • Writing copies 微课 example numbers (Writing Q uses 7-24-25 triangle, 5-by-8 rectangle with 15-by-24 similar, 12-35-37 triangle with k=2. NOT the same as 微课: 10 cm square with 10 cm congruent, 12-18 similar with 24-36 missing, 6-9-12 triangle with 50-60-70°.)
+✓ 本周只教 G2.5 solving simple problems involving congruence and similarity。本周不教 G2.6 scale drawings（不教比例尺图）；不教 G2.7 perp/angle bisectors（不教垂直平分线/角平分线）；不教 G2.8 SSS/SAS/ASA/AAA tests as a listed item（不作为列项教 SSS/SAS/ASA/AAA 检验，但可以用"三边相等→全等""三边成比例→相似"的逻辑）；不教 G2.9 ratio of areas = k²（不教面积比等于 k²）；不教 G2.10 ratio of volumes = k³（不教体积比等于 k³）. 本周只教 G2.5: congruent = same shape and size (sides equal, angles equal), similar = same shape sides in ratio k (sides proportional, angles equal), simple problems (determine congruent/similar/neither, find missing side, find angle).
+
+Note: This is a sample of Part 2 short-answer/open-ended questions. The official paper has 20 short-answer + 10–15 open-ended items in 1 hour 45 minutes.`,
+          points: 20,
+        },
+      ],
+    },
   ];
 
 
