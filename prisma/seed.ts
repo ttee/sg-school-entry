@@ -14762,21 +14762,21 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
 Riverside Secondary School has geometry questions about similar figures and volume ratios. Answer the questions below. Show your working clearly.
 
 Question (a)
-At Riverside Secondary, Mr Lim shows two similar cubes. The small cube has volume 3 cm³. The linear scale factor k = 2 (corresponding edges are in ratio 1:2).
+At Riverside Secondary, Mr Lim shows two similar cubes. The small cube has volume 11 cm³. The linear scale factor k = 2 (corresponding edges are in ratio 1:2).
 (i) What is the volume ratio (small:large)?
 (ii) Calculate the volume of the large cube. Show your working.
 
 Question (b)
-At Riverside Secondary, Aisha draws two similar cylinders. The volume ratio is 27:1 (large:small). The small cylinder has volume 4 cm³ and one edge of length 5 cm.
+At Riverside Secondary, Aisha draws two similar cylinders. The volume ratio is 64:1 (large:small). The small cylinder has volume 9 cm³ and one edge of length 11 cm.
 (i) What is the volume of the large cylinder? Show your working.
-(ii) What is the linear scale factor k (large:small)? Show your working: volume ratio = k³, so k³ = 27.
+(ii) What is the linear scale factor k (large:small)? Show your working: volume ratio = k³, so k³ = 64.
 (iii) What is the corresponding edge of the large cylinder? Show your working: multiply the small edge by k.
 
 Question (c)
-At Riverside Secondary, Wei shows two similar pyramids. The large pyramid has volume 48 cm³ and one edge of length 14 cm. The linear scale factor k = 1/2 (small:large).
+At Riverside Secondary, Wei shows two similar pyramids. The large pyramid has volume 104 cm³ and one edge of length 18 cm. The linear scale factor k = 1/2 (small:large).
 (i) What is the volume of the small pyramid? Show your working: k³ = (1/2)³ = 1/8, so small volume = large volume × 1/8.
 (ii) What is the corresponding edge of the small pyramid? Show your working: multiply the large edge by k = 1/2.
-(iii) Wei says: 「The volume of the small pyramid is 48 ÷ 2 = 24 cm³ because k = 1/2.」 Explain why Wei is wrong and what the correct answer should be.
+(iii) Wei says: 「The volume of the small pyramid is 104 ÷ 2 = 52 cm³ because k = 1/2.」 Explain why Wei is wrong and what the correct answer should be.
 
 写作提示 / Tips:
 ✓ 每题分步骤写出推理 (Show working steps for each question)
@@ -14789,7 +14789,7 @@ At Riverside Secondary, Wei shows two similar pyramids. The large pyramid has vo
   • Using k² (area) when the question wants volume（错误：用 k² 计算体积比，而问题要求体积。k² 用于面积比（area ratio），本周教 G2.10 体积比。体积比用 k³）
   • Two options that are the same pair in a different order（两个选项是同一对不同顺序：例如 "volume × 8" 和 "8 × volume" 是同一个答案，不要两个都写成正确选项）
   • Confusing volume ratio with k（错误：把体积比当作 k。如果体积比是 27:1，那么 k³ = 27，所以 k = 3，不是 k = 27）
-✓ Writing 数值不能抄 微课：微课用 4 cm³ / 32 cm³（k=2）; 2 cm / 6 cm，volume ratio 27:1; 64 cm³ / 8 cm³（k=1/2）。Writing Q 用 3 cm³ / 24 cm³（k=2）; 4 cm³ / 108 cm³, 5 cm / 15 cm（k=3, volume ratio 27:1）; 48 cm³ / 6 cm³, 14 cm / 7 cm（k=1/2）。不能抄本周 MCQ 的 5/40/72/9/1/27/3/7/189/216/8/80/10/4/12/125/16/24/192/20 等数值。不能抄 W83 writing 的 7/28/11/176/13/52/60/15/22/11 等数值。
+✓ Writing 数值不能抄 微课：微课用 4 cm³ / 32 cm³（k=2）; 2 cm / 6 cm，volume ratio 27:1; 64 cm³ / 8 cm³（k=1/2）。Writing Q 用 11 cm³ / 88 cm³（k=2）; 9 cm³ / 576 cm³, 11 cm / 44 cm（k=4, volume ratio 64:1）; 104 cm³ / 13 cm³, 18 cm / 9 cm（k=1/2）。不能抄本周 MCQ 的 5/40/72/9/1/27/3/7/189/216/8/80/10/4/12/125/16/24/192/20 等数值。不能抄 W83 writing 的 7/28/11/176/13/52/60/15/22/11 等数值。
 ✓ 本周只教 G2.10 ratio of volumes = k³。本周不教 G2.9 ratio of areas = k²（k² 可能作为化石出现：用 k² 而问题要求体积比 k³）；不教 G4 Pythagoras/trig（不开始直角三角形定理和三角）。本周只教 G2.10: if two figures are similar with linear scale factor k, then volume ratio = k³. Find volume from k, or find k from volume ratio, then missing length.
 
 Note: This is a sample of Part 2 short-answer/open-ended questions. The official paper has 20 short-answer + 10–15 open-ended items in 1 hour 45 minutes.`,
