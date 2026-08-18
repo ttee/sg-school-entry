@@ -455,6 +455,7 @@ export default function WeekHomework({
   
   // Load speaking attempts on mount
   useEffect(() => {
+    if (guest) return;
     questions.forEach(async (q) => {
       if (q.type === "speaking") {
         try {
