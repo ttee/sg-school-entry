@@ -290,10 +290,10 @@ export default function GuidePage() {
             新加坡政府学校入学向导
           </h1>
           <p className="text-ink-2 mb-2">
-            帮助中国家长理解 AEIS / S-AEIS / CEQ 路径，找到适合孩子的起点。
+            帮你理解 AEIS、S-AEIS、CEQ 是什么，孩子应该从哪里开始。
           </p>
           <p className="text-sm text-muted">
-            约 10–15 分钟完成 · 包含简短英语与数学检测 · 结果即时显示
+            约 10–15 分钟 · 有简短英语和数学题 · 马上看到建议
           </p>
         </div>
 
@@ -325,13 +325,13 @@ export default function GuidePage() {
           <form onSubmit={handleInfoSubmit} className="space-y-6">
             <div className="bg-card border border-line rounded-2xl p-6 shadow">
               <h2 className="font-serif font-semibold text-xl text-ink mb-4">
-                第一步：孩子基本信息
+                第一步：孩子的基本信息
               </h2>
               
               <div className="space-y-4">
                 <div>
                   <label htmlFor="birthYear" className="block text-sm font-semibold text-ink mb-2">
-                    孩子出生年份 <span className="text-accent">*</span>
+                    孩子哪年出生 <span className="text-accent">*</span>
                   </label>
                   <input
                     id="birthYear"
@@ -345,21 +345,21 @@ export default function GuidePage() {
                     placeholder="例如：2016"
                   />
                   <p className="text-xs text-muted mt-1">
-                    MOE 以出生年份判断入学资格，
+                    MOE 用出生年份判断能不能考，
                     <a 
                       href="https://www.moe.gov.sg/international-students/aeis/eligibility-criteria"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-accent hover:underline ml-1"
                     >
-                      请以官网年龄核对为准 →
+                      请去官网核对 →
                     </a>
                   </p>
                 </div>
 
                 <div>
                   <label htmlFor="intendedLevel" className="block text-sm font-semibold text-ink mb-2">
-                    拟申请年级 <span className="text-accent">*</span>
+                    打算申请哪个年级 <span className="text-accent">*</span>
                   </label>
                   <select
                     id="intendedLevel"
@@ -382,7 +382,7 @@ export default function GuidePage() {
                     </optgroup>
                   </select>
                   <p className="text-xs text-muted mt-1">
-                    小学与中学考试科目组合不同，请根据孩子年龄与 MOE 年龄标准选择
+                    小学和中学考的科目不一样，请按 MOE 年龄标准选
                   </p>
                 </div>
               </div>
@@ -404,10 +404,10 @@ export default function GuidePage() {
           <div className="space-y-6">
             <div className="bg-card border border-line rounded-2xl p-6 shadow">
               <h2 className="font-serif font-semibold text-xl text-ink mb-2">
-                第二步：简短英语检测
+                第二步：英语小测试
               </h2>
               <p className="text-sm text-ink-2 mb-4">
-                共 {englishItems.length} 题，约 3 分钟。从现有摸底题精简而来。
+                共 {englishItems.length} 题，约 3 分钟。
               </p>
 
               <div className="space-y-5">
@@ -469,7 +469,7 @@ export default function GuidePage() {
           <div className="space-y-6">
             <div className="bg-card border border-line rounded-2xl p-6 shadow">
               <h2 className="font-serif font-semibold text-xl text-ink mb-2">
-                第三步：P2 水平数学检测
+                第三步：数学小测试（P2 水平）
               </h2>
               <p className="text-sm text-ink-2 mb-4">
                 共 {mathItems.length} 题，约 5 分钟。对应 MOE P2 大纲（钱币、乘除法、简单应用题）。

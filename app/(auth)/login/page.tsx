@@ -81,7 +81,7 @@ function LoginForm() {
             登录 / Login
           </h1>
           <p className="text-muted text-sm">
-            登录后开始每周作业 / Log in to start weekly homework
+            登录后开始每周作业
           </p>
         </div>
 
@@ -128,7 +128,7 @@ function LoginForm() {
               disabled={loading}
               className="w-full bg-accent text-accent-ink font-semibold py-3 rounded-full hover:bg-accent-hover transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
             >
-              {loading ? "登录中... / Logging in..." : "登录 / Log in"}
+              {loading ? "登录中..." : "登录"}
             </button>
           </form>
 

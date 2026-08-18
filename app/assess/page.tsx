@@ -216,18 +216,14 @@ export default function AssessPage() {
         {!submitted ? (
           <>
             <div className="mb-8">
-              <p className="text-xs font-semibold tracking-widest uppercase text-accent mb-2">
-                DIAGNOSTIC ASSESSMENT
-              </p>
               <h1 className="font-serif font-semibold text-3xl md:text-4xl text-ink mb-3">
                 入学英语摸底
               </h1>
               <p className="text-ink-2 mb-2">
-                这是本工作室的摸底练习，帮助家长判断孩子适合从哪个门槛开始。共 10 题，约 5–8 分钟完成。
+                这是本工作室的摸底练习，帮助家长判断孩子适合从哪个门槛开始。共 10 题，约 5–8 分钟。
               </p>
               <p className="text-sm text-muted">
-                <strong>适合对象：</strong>中国小学生（拟申请新加坡政府小学 P2–P5）<br />
-                <strong>说明：</strong>家长可以坐在孩子旁边，但请让孩子独立作答。不计时，不排名。
+                孩子做，家长可以坐旁边，但请让孩子自己答。不计时，不排名。
               </p>
             </div>
 
