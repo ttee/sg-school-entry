@@ -14368,6 +14368,97 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
         },
       ],
     },
+    {
+      level: "SMATH",
+      weekNumber: 80,
+      title: "比例尺图 — Scale drawings",
+      description: "Sec 2 G2.6: scale drawings (AEIS 中学数学第 80 周 / SMATH Week 80)",
+      isSample: false,
+      errorFocus: "mixing drawing length with actual length; inverting the scale (treating 1:200 as 200:1); applying the scale to an angle; two options that are the same pair in a different order",
+      parentBrief: "本周练比例尺图。G2.6 内容：比例尺 1 : n（图上 1 单位 = 实际 n 单位）或 1 cm : 2 m（图上 1 cm = 实际 2 m）；从图上长度求实际长度；从实际长度求图上长度；比例尺不改变角度。盯住：别把图上长度当实际长度（8 cm 图上≠8 cm 实际）；别颠倒比例尺（1:200 是乘以 200 不是除以 200）；别把比例尺用在角度上（90° 保持 90° 不会变 4500°）。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "At Riverside Secondary, Mr Lim shows a classroom plan. Scale 1:100. A wall on the plan is 9 cm long. Wei asks: 「What is the actual length of the wall in metres?」 Which is correct?|A. Actual length = 9 m. Scale 1:100 means 1 cm on drawing = 100 cm actual. Drawing 9 cm → actual 9 × 100 = 900 cm = 9 m. ✓|B. Actual length = 9 cm (same as on plan).|C. Actual length = 0.09 m (9 ÷ 100 = 0.09).|D. Actual length = 90 m (9 × 10).",
+            "Aisha at Riverside Secondary has a garden plan. Scale 1 cm : 3 m. A path on the plan is 4 cm long. Mr Lim asks: 「What is the actual length of the path in metres?」 Which is correct?|A. Actual length = 12 m. Scale 1 cm : 3 m means 1 cm on plan = 3 m actual. Drawing 4 cm → actual 4 × 3 = 12 m. ✓|B. Actual length = 4 m (same as on plan).|C. Actual length = 7 m (4 + 3).|D. Actual length = 4 cm.",
+            "At Riverside Secondary, Mr Lim shows a building plan. Scale 1:50. The actual length of a room is 250 cm. Wei asks: 「What is the length on the plan in cm?」 Which is correct?|A. Drawing length = 5 cm. Scale 1:50 means drawing = actual ÷ 50. Drawing = 250 cm ÷ 50 = 5 cm. Check: 5 × 50 = 250 ✓.|B. Drawing length = 250 cm (same as actual).|C. Drawing length = 12500 cm (250 × 50).|D. Drawing length = 300 cm (250 + 50).",
+            "Aisha at Riverside Secondary sees a map. Scale 1:200. A street on the map is 3 cm long. The street has a 90° corner on the map. Mr Lim asks: 「What is the actual angle at the corner?」 Which is correct?|A. Actual angle = 90°. Scale applies to LENGTHS only, NOT angles. 90° on map → 90° actual (angles do NOT change). ✓|B. Actual angle = 18000° (90° × 200).|C. Actual angle = 0.45° (90° ÷ 200).|D. Actual angle = 45° (90° ÷ 2).",
+            "At Riverside Secondary, Mr Lim draws a floor plan. Scale 1:100. A door on the plan is 2 cm wide and has a 90° opening. Wei says: 「The actual door is 2 m wide and the opening is 90°.」 Is Wei correct?|A. Yes. Scale 1:100: 1 cm drawing = 100 cm = 1 m actual. Drawing 2 cm → actual 2 × 1 m = 2 m ✓. Angles do NOT change: 90° on plan → 90° actual ✓.|B. No. The actual door is 200 m wide.|C. No. The actual opening is 9000°.|D. No. The actual door is 2 cm wide (same as plan).",
+          ]),
+          correctAnswer: "A,A,A,A,A",
+          points: 10,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "At Riverside Secondary, Mr Lim shows a map. Scale 1:250. A road on the map is 2 cm long. Aisha says: 「The actual road is 500 cm = 5 m.」 Is this correct?|A. Yes. Scale 1:250 means 1 cm drawing = 250 cm actual. Drawing 2 cm → actual 2 × 250 = 500 cm = 5 m. ✓|B. No. The actual road is 2 cm.|C. No. The actual road is 0.008 m (2 ÷ 250).|D. No. The actual road is 50 m.",
+            "Aisha at Riverside Secondary has a building plan. Scale 1 cm : 4 m. A corridor on the plan is 6 cm long. Wei asks: 「What is the actual length in metres?」 Which is correct?|A. Actual length = 24 m. Scale 1 cm : 4 m means 1 cm drawing = 4 m actual. Drawing 6 cm → actual 6 × 4 = 24 m. ✓|B. Actual length = 6 m.|C. Actual length = 10 m (6 + 4).|D. Actual length = 1.5 m (6 ÷ 4).",
+            "At Riverside Secondary, Mr Lim shows a garden plan. Scale 1:40. The actual width of a flower bed is 160 cm. Aisha asks: 「What is the width on the plan in cm?」 Which is correct?|A. Drawing width = 4 cm. Scale 1:40 means drawing = actual ÷ 40. Drawing = 160 cm ÷ 40 = 4 cm. Check: 4 × 40 = 160 ✓.|B. Drawing width = 160 cm.|C. Drawing width = 6400 cm (160 × 40).|D. Drawing width = 200 cm (160 + 40).",
+            "Aisha at Riverside Secondary sees a classroom plan. Scale 1:100. A window on the plan is 3 cm wide. Wei says: 「The actual window is 3 m wide.」 Is Wei correct?|A. Yes. Scale 1:100: 1 cm drawing = 100 cm = 1 m actual. Drawing 3 cm → actual 3 × 1 m = 3 m ✓.|B. No. The actual window is 3 cm.|C. No. The actual window is 300 m.|D. No. The actual window is 30 m.",
+            "At Riverside Secondary, Mr Lim shows a map. Scale 1:150. A path on the map forms a 60° angle with a road. Wei says: 「Scale 1:150 means the actual angle is 60° × 150 = 9000°.」 Is this correct?|A. No. Scale applies to LENGTHS only, NOT angles. 60° on map → 60° actual (angles do NOT change). Wei is wrong. ✓|B. Yes. All measurements (lengths and angles) are multiplied by 150.|C. No. The actual angle is 60° ÷ 150 = 0.4°.|D. No. The actual angle is 210° (60° + 150°).",
+            "Aisha at Riverside Secondary has a building plan. Scale 1 cm : 5 m. A room on the plan is 2 cm by 3 cm. Mr Lim asks: 「What are the actual dimensions in metres?」 Which is correct?|A. Actual dimensions = 10 m by 15 m. Scale 1 cm : 5 m means 1 cm drawing = 5 m actual. Drawing 2 cm → actual 2 × 5 = 10 m. Drawing 3 cm → actual 3 × 5 = 15 m. ✓|B. Actual dimensions = 2 m by 3 m.|C. Actual dimensions = 7 m by 8 m (2+5 by 3+5).|D. Actual dimensions = 0.4 m by 0.6 m (2÷5 by 3÷5).",
+            "At Riverside Secondary, Mr Lim shows a floor plan. Scale 1:80. The actual length of a wall is 320 cm. A corner in the plan shows a 90° angle. Wei asks: 「What is the length on the plan? What is the actual angle?」 Which is correct?|A. Drawing length = 4 cm (320 ÷ 80 = 4). Actual angle = 90° (angles unchanged). ✓|B. Drawing length = 320 cm. Actual angle = 7200° (90° × 80).|C. Drawing length = 25600 cm (320 × 80). Actual angle = 90°.|D. Drawing length = 240 cm (320 − 80). Actual angle = 10° (90° − 80°).",
+            "Aisha at Riverside Secondary sees a garden plan. Scale 1:60. A fence on the plan is 10 cm long. The actual fence forms a 45° angle with the path. Mr Lim asks: 「What is the actual length of the fence in metres? What is the angle on the plan?」 Which is correct?|A. Actual length = 6 m (10 × 60 = 600 cm = 6 m). Angle on plan = 45° (angles unchanged). ✓|B. Actual length = 10 m. Angle on plan = 2700° (45° × 60).|C. Actual length = 0.1667 m (10 ÷ 60). Angle on plan = 0.75° (45° ÷ 60).|D. Actual length = 60 m (10 × 6). Angle on plan = 90°.",
+          ]),
+          correctAnswer: "A,A,A,A,A,A,A,A",
+          points: 16,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `Part 2: Show Your Working (写出算式步骤)
+
+Riverside Secondary School has scale drawing questions. Answer the questions below. Show your working.
+
+Question (a)
+At Riverside Secondary, Mr Lim shows a classroom plan. Scale 1:100. The plan shows:
+• A whiteboard: 10 cm long on the plan
+• A doorway: 2 cm wide on the plan
+(i) Calculate the actual length of the whiteboard in metres. Show your working: drawing × scale = actual.
+(ii) Calculate the actual width of the doorway in metres. Show your working.
+(iii) Wei says: 「The doorway on the plan is 2 cm, so the actual doorway is also 2 cm.」 Explain why Wei is wrong. What is the actual width?
+
+Question (b)
+At Riverside Secondary, Aisha has a garden plan. Scale 1 cm : 4 m. The plan shows:
+• A path: 9 cm long on the plan
+• The path has a corner with a 90° angle on the plan
+(i) Calculate the actual length of the path in metres. Show your working: 1 cm on plan = 4 m actual, so 9 cm = ?
+(ii) Wei says: 「Because the scale is 1 cm : 4 m, the actual angle at the corner is 90° × 4 = 360°.」 Is Wei correct? Explain why scale applies to lengths only, not angles. What is the actual angle at the corner?
+
+Question (c)
+At Riverside Secondary, Mr Lim shows a building plan. Scale 1:50.
+• The actual length of a corridor is 400 cm
+• A wall has a 90° corner
+(i) Calculate the length of the corridor on the plan in cm. Show your working: drawing = actual ÷ scale factor.
+(ii) What is the angle of the corner on the plan? Explain your answer: do angles change on a scale drawing?
+(iii) Aisha sees another room. The room is 3 cm long on the plan. Calculate the actual length of the room in cm and in metres. Show your working.
+
+写作提示 / Tips:
+✓ 每题分步骤写出推理 (Show working steps for each question)
+✓ Part 2 官方要求：clearly show the method of solution by writing working steps, plus the final answer
+✓ 不用计算器 (No calculators allowed)
+✓ 本周教 Sec 2 GEOMETRY AND MEASUREMENT, G2. Congruence and similarity: 2.6 scale drawings. 本周是 G2.6 only. Official content: a scale drawing has all lengths in the same ratio as the corresponding actual lengths. Scale 1 : n means 1 unit on drawing = n units actual. Scale 1 cm : 2 m means 1 cm on drawing = 2 m actual (mixed units). Find actual from drawing: actual = drawing × n. Find drawing from actual: drawing = actual ÷ n. Scale does NOT change angles: 90° on plan → 90° actual. Integer lengths only (or ½, ⅓ if other length stays integer). Fossil: mixing drawing with actual (8 cm drawing → 8 cm actual, wrong); inverting scale (1:200 treated as 200:1, dividing instead of multiplying, wrong); applying scale to angle (90° × 50 = 4500°, wrong); same pair different order as two correct options. Cast: secondary Wei, Aisha, Mr Lim at Riverside Secondary School. No calculator. Integer lengths only.
+✓ 关键步骤：Step 1: Interpret the scale. Scale 1:n means 1 unit drawing = n units actual. Scale 1 cm : 2 m means 1 cm drawing = 2 m actual（理解比例尺。1:n 表示图上 1 单位 = 实际 n 单位。1 cm : 2 m 表示图上 1 cm = 实际 2 m）. Step 2: To find actual from drawing: actual = drawing × scale factor n（从图上求实际：实际 = 图上 × 比例尺 n）. Step 3: To find drawing from actual: drawing = actual ÷ scale factor n（从实际求图上：图上 = 实际 ÷ 比例尺 n）. Step 4: Convert units when needed: 100 cm = 1 m（需要时转换单位：100 cm = 1 m）. Step 5: Angles do NOT change: scale applies to lengths only, not angles（角度不变：比例尺只作用于长度，不作用于角度）. Step 6: State the final answer（陈述最终答案）.
+✓ 化石 (fossil errors):
+  • Mixing drawing length with actual length (图上 8 cm → 实际 8 cm。错误：忘记用比例尺。正确：scale 1:100, drawing 8 cm → actual 8 × 100 = 800 cm = 8 m)
+  • Inverting the scale (treating 1:200 as 200:1)（颠倒比例尺，把 1:200 当 200:1。错误：图上 4 cm → actual 4 ÷ 200 = 0.02 cm。正确：actual = drawing × 200 = 4 × 200 = 800 cm = 8 m）
+  • Applying the scale to an angle (把比例尺用在角度上：90° × 50 = 4500°。错误：角度不缩放。正确：90° on plan → 90° actual）
+  • Two options that are the same pair in a different order (两个选项是同一对不同顺序：drawing:actual = 1:100 和 actual:drawing = 100:1。错误：读清方向，哪个是图上，哪个是实际）
+  • Writing copies 微课 example numbers (Writing Q uses 10 cm whiteboard with actual 10 m, 2 cm door with actual 2 m, 9 cm path with actual 36 m scale 1 cm:4 m, 400 cm corridor with 8 cm drawing scale 1:50, 3 cm room with actual 150 cm = 1.5 m. NOT the same as 微课: 8 cm → 8 m scale 1:100, 5 cm → 10 m scale 1 cm:2 m, 6 cm → 3 m scale 1:50.)
+✓ 本周只教 G2.6 scale drawings。本周不教 G2.7 perpendicular and angle bisectors（不教垂直平分线和角平分线）；不教 G2.8 determining congruent/similar triangles as a listed item（不作为列项教判断全等/相似三角形的 SSS/SAS/ASA/AAA）；不教 G2.9 ratio of areas = k²（不教面积比等于 k²）；不教 G2.10 ratio of volumes = k³（不教体积比等于 k³）；不教 G4 Pythagoras/trigonometry（不教勾股定理/三角函数）；不教 G5 solids（不教立体图形）. 本周只教 G2.6: scale drawings (scale 1:n or 1 cm:2 m, find actual from drawing, find drawing from actual, angles do not change).
+
+Note: This is a sample of Part 2 short-answer/open-ended questions. The official paper has 20 short-answer + 10–15 open-ended items in 1 hour 45 minutes.`,
+          points: 20,
+        },
+      ],
+    },
   ];
 
 

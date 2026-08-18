@@ -709,5 +709,130 @@ export default function SmathFigure({ weekNumber }: { weekNumber: number }) {
     );
   }
 
+  if (weekNumber === 80) {
+    return (
+      <div className="bg-paper border border-line rounded-xl p-6 mb-6">
+        <h3 className="font-semibold text-ink mb-4 text-center">📐 本周图解</h3>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          {/* Diagram 1: Classroom plan scale 1:100 */}
+          <div className="flex flex-col items-center">
+            <svg viewBox="0 0 200 200" className="w-full max-w-[200px] h-auto">
+              {/* Title */}
+              <text x="100" y="25" fontSize="11" fill="#1a1a1a" fontWeight="600" textAnchor="middle">Classroom Plan</text>
+              <text x="100" y="40" fontSize="9" fill="#6b7280" textAnchor="middle">Scale 1:100</text>
+              
+              {/* Classroom rectangle */}
+              <rect x="40" y="60" width="120" height="80" fill="none" stroke="#d97706" strokeWidth="2" />
+              
+              {/* Door at the bottom */}
+              <line x1="90" y1="140" x2="110" y2="140" stroke="#10b981" strokeWidth="3" />
+              
+              {/* Dimension line at top */}
+              <line x1="40" y1="52" x2="160" y2="52" stroke="#6b7280" strokeWidth="1" markerStart="url(#arrowstart)" markerEnd="url(#arrowend)" />
+              <text x="100" y="48" fontSize="10" fill="#d97706" fontWeight="600" textAnchor="middle">8 cm</text>
+              
+              {/* Arrow markers */}
+              <defs>
+                <marker id="arrowstart" markerWidth="6" markerHeight="6" refX="3" refY="3" orient="auto">
+                  <polygon points="6,3 0,0 0,6" fill="#6b7280" />
+                </marker>
+                <marker id="arrowend" markerWidth="6" markerHeight="6" refX="3" refY="3" orient="auto">
+                  <polygon points="0,3 6,0 6,6" fill="#6b7280" />
+                </marker>
+              </defs>
+              
+              {/* Calculation */}
+              <text x="100" y="165" fontSize="9" fill="#1a1a1a" textAnchor="middle">Drawing: 8 cm</text>
+              <text x="100" y="177" fontSize="9" fill="#d97706" fontWeight="600" textAnchor="middle">Actual: 8 × 100 = 800 cm</text>
+              <text x="100" y="189" fontSize="9" fill="#10b981" fontWeight="600" textAnchor="middle">= 8 m</text>
+            </svg>
+            <p className="text-sm text-ink-2 text-center mt-2 font-semibold">
+              教室平面图<br />
+              <span className="text-xs text-accent">1:100 → 8 cm = 8 m</span>
+            </p>
+          </div>
+
+          {/* Diagram 2: Scale 1 cm : 2 m */}
+          <div className="flex flex-col items-center">
+            <svg viewBox="0 0 200 200" className="w-full max-w-[200px] h-auto">
+              {/* Title */}
+              <text x="100" y="25" fontSize="11" fill="#1a1a1a" fontWeight="600" textAnchor="middle">Garden Plan</text>
+              <text x="100" y="40" fontSize="9" fill="#6b7280" textAnchor="middle">Scale 1 cm : 2 m</text>
+              
+              {/* Garden path */}
+              <rect x="30" y="60" width="140" height="30" fill="#d4d4d4" stroke="#d97706" strokeWidth="2" />
+              
+              {/* Trees on sides */}
+              <circle cx="20" cy="75" r="8" fill="#10b981" />
+              <circle cx="180" cy="75" r="8" fill="#10b981" />
+              
+              {/* Dimension line */}
+              <line x1="30" y1="100" x2="170" y2="100" stroke="#6b7280" strokeWidth="1" markerStart="url(#arrowstart2)" markerEnd="url(#arrowend2)" />
+              <text x="100" y="115" fontSize="10" fill="#d97706" fontWeight="600" textAnchor="middle">5 cm</text>
+              
+              <defs>
+                <marker id="arrowstart2" markerWidth="6" markerHeight="6" refX="3" refY="3" orient="auto">
+                  <polygon points="6,3 0,0 0,6" fill="#6b7280" />
+                </marker>
+                <marker id="arrowend2" markerWidth="6" markerHeight="6" refX="3" refY="3" orient="auto">
+                  <polygon points="0,3 6,0 6,6" fill="#6b7280" />
+                </marker>
+              </defs>
+              
+              {/* Calculation */}
+              <text x="100" y="140" fontSize="9" fill="#1a1a1a" textAnchor="middle">Drawing: 5 cm</text>
+              <text x="100" y="152" fontSize="9" fill="#6b7280" textAnchor="middle">1 cm = 2 m</text>
+              <text x="100" y="164" fontSize="9" fill="#d97706" fontWeight="600" textAnchor="middle">Actual: 5 × 2 m</text>
+              <text x="100" y="176" fontSize="9" fill="#10b981" fontWeight="600" textAnchor="middle">= 10 m</text>
+            </svg>
+            <p className="text-sm text-ink-2 text-center mt-2 font-semibold">
+              花园路径<br />
+              <span className="text-xs text-accent">1 cm : 2 m → 5 cm = 10 m</span>
+            </p>
+          </div>
+
+          {/* Diagram 3: Path with corner, scale 1:50, angles unchanged */}
+          <div className="flex flex-col items-center">
+            <svg viewBox="0 0 200 200" className="w-full max-w-[200px] h-auto">
+              {/* Title */}
+              <text x="100" y="25" fontSize="11" fill="#1a1a1a" fontWeight="600" textAnchor="middle">Path Plan</text>
+              <text x="100" y="40" fontSize="9" fill="#6b7280" textAnchor="middle">Scale 1:50</text>
+              
+              {/* L-shaped path */}
+              <polyline points="40,60 40,120 130,120" fill="none" stroke="#d97706" strokeWidth="3" />
+              
+              {/* Right angle marker */}
+              <rect x="40" y="120" width="12" height="12" fill="none" stroke="#10b981" strokeWidth="1.5" transform="translate(0,-12)" />
+              <text x="60" y="115" fontSize="9" fill="#10b981" fontWeight="600">90°</text>
+              
+              {/* Dimension on vertical segment */}
+              <line x1="30" y1="60" x2="30" y2="120" stroke="#6b7280" strokeWidth="1" markerStart="url(#arrowstart3)" markerEnd="url(#arrowend3)" />
+              <text x="20" y="93" fontSize="10" fill="#d97706" fontWeight="600" textAnchor="middle">6 cm</text>
+              
+              <defs>
+                <marker id="arrowstart3" markerWidth="6" markerHeight="6" refX="3" refY="3" orient="auto">
+                  <polygon points="6,3 0,0 0,6" fill="#6b7280" />
+                </marker>
+                <marker id="arrowend3" markerWidth="6" markerHeight="6" refX="3" refY="3" orient="auto">
+                  <polygon points="0,3 6,0 6,6" fill="#6b7280" />
+                </marker>
+              </defs>
+              
+              {/* Calculation */}
+              <text x="100" y="150" fontSize="9" fill="#1a1a1a" textAnchor="middle">Drawing: 6 cm</text>
+              <text x="100" y="162" fontSize="9" fill="#d97706" fontWeight="600" textAnchor="middle">Actual: 6 × 50 = 300 cm</text>
+              <text x="100" y="174" fontSize="9" fill="#10b981" fontWeight="600" textAnchor="middle">= 3 m</text>
+              <text x="100" y="186" fontSize="8" fill="#6b7280" textAnchor="middle">Angle: 90° (unchanged)</text>
+            </svg>
+            <p className="text-sm text-ink-2 text-center mt-2 font-semibold">
+              路径转角<br />
+              <span className="text-xs text-accent">1:50 → 6 cm = 3 m, 角度不变</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
   return null;
 }
