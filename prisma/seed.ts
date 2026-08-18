@@ -15038,16 +15038,16 @@ At Riverside Secondary, Mr Lim shows a square-base pyramid. The base is 8 cm by 
 (iii) Wei says: 「Volume = 8 × 8 × 6 = 384 cm³ because we multiply base × height.」 Explain why Wei is wrong. What did Wei forget? (Hint: pyramid volume needs 1/3, not full base × height.)
 
 Question (b)
-At Riverside Secondary, Aisha measures a cone. The radius is 14 cm and the height is 3 cm. Take π = 22/7.
-(i) Calculate r². Show your working: r = 14 cm, so r² = 14² = ?.
+At Riverside Secondary, Aisha measures a cone. The radius is 28 cm and the height is 3 cm. Take π = 22/7.
+(i) Calculate r². Show your working: r = 28 cm, so r² = 28² = ?.
 (ii) Calculate the volume of the cone. Show your working: volume = (1/3)πr²h = (1/3) × (22/7) × ? × 3 = ?. Write your answer in cm³.
 (iii) Mr Lim says: 「If we forget the 1/3, what volume would we get?」 Calculate πr²h (without the 1/3). Compare with your answer in (ii). How many times larger is the wrong answer?
 
 Question (c)
-At Riverside Secondary, Wei calculates the volume and surface area of a sphere with radius 14 cm. Leave your answers in terms of π.
-(i) Calculate r³. Show your working: r = 14 cm, so r³ = 14³ = ?.
+At Riverside Secondary, Wei calculates the volume and surface area of a sphere with radius 10 cm. Leave your answers in terms of π.
+(i) Calculate r³. Show your working: r = 10 cm, so r³ = 10³ = ?.
 (ii) Calculate the volume of the sphere. Show your working: volume = (4/3)πr³ = (4/3)π × ? = ?. Write your answer in terms of π (e.g. ... π cm³). Simplify if possible.
-(iii) Calculate the surface area of the sphere. Show your working: surface area = 4πr² = 4π × (14²) = 4π × ? = ?. Write your answer in terms of π (e.g. ... π cm²).
+(iii) Calculate the surface area of the sphere. Show your working: surface area = 4πr² = 4π × (10²) = 4π × ? = ?. Write your answer in terms of π (e.g. ... π cm²).
 
 写作提示 / Tips:
 ✓ 每题分步骤写出推理 (Show working steps for each question)
@@ -15071,7 +15071,7 @@ At Riverside Secondary, Wei calculates the volume and surface area of a sphere w
   • Using base side instead of base area for pyramid（错误：棱锥用底边长而不是底面积。例如 volume = (1/3) × 8 × 6 = 16 cm³。正确：base area = 8 × 8 = 64 cm²，volume = (1/3) × 64 × 6 = 128 cm³）
   • Two options that are the same value (one in terms of π and one evaluated with 22/7)（两个选项是同一个数值：一个用 π 形式，一个用 22/7 算出来。同一道题的选项中不能同时出现。例如「196π/7 cm²」和「88 cm²」是同一个数值（22/7 代入后），不能两个都写成选项）
   • 本周教 G5.6 volume and surface area of pyramid, cone and sphere。本周不发明 √3（不教需要 √3 的题目，例如正四面体）。本周不教 G4 trigonometry（不教用三角函数求斜高 l 的题目）。本周不教 G2.10 k³（不教相似立体的体积比 k³）。
-✓ Writing 数值不能抄 微课：微课用 48, 462, 1372π/3, 196π（base 6×6 height 4; r=7 h=9; r=7）。Writing Q 用 128, 616, 10976π/3, 784π（base 8×8 height 6; r=14 h=3; r=14）。不能抄本周 MCQ 的其他数值（308, 36π, 75, 100π, 1232, 40, 256π/3, 3696 等）。也不能用 W86 writing 的 48-55-73, 65-72-97, 44-117-125 等数值（W86 writing 是三角函数，本周是立体几何，不能重复）。
+✓ Writing 数值不能抄 微课：微课用 48, 462, 1372π/3, 196π（base 6×6 height 4; r=7 h=9; r=7）。Writing Q 用 128, 2464, 4000π/3, 400π（base 8×8 height 6; r=28 h=3; r=10）。不能抄本周 MCQ 的其他数值（308, 36π, 75, 100π, 1232, 40, 256π/3, 3696 等）。也不能用 W86 writing 的 48-55-73, 65-72-97, 44-117-125 等数值（W86 writing 是三角函数，本周是立体几何，不能重复）。
 
 Note: This is a sample of Part 2 short-answer/open-ended questions. The official paper has 20 short-answer + 10–15 open-ended items in 1 hour 45 minutes.`,
           points: 20,
