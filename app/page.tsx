@@ -274,7 +274,40 @@ export default function HomePage() {
           </div>
         </section>
 
-        <section className="py-12 md:py-16 bg-paper-2" id="paths">
+        <section className="py-12 md:py-16 bg-paper-2">
+          <div className="max-w-3xl mx-auto px-4">
+            <h2 className="font-serif font-semibold text-2xl md:text-3xl mb-3">
+              CEQ 口语长这样
+            </h2>
+            <p className="text-ink-2 mb-6">
+              两个孩子、两个考官。这就是 A2 Key for Schools 口语。
+            </p>
+
+            <OfficialClip
+              videoId="ZjGt6r8XSTg"
+              title="CEQ 口语长这样"
+              credit="片源：Cambridge English 官方频道 English with Cambridge《A2 Key for Schools Speaking test — Asia and Vittoria》。官方口语样例，不是本周作业。"
+              hideWeeklyHomework={true}
+            />
+
+            <div className="flex flex-wrap gap-3 mt-6">
+              <Link
+                href="/trial/A2"
+                className="inline-flex items-center justify-center px-6 py-3 bg-accent text-accent-ink font-semibold rounded-full hover:bg-accent-hover transition-colors"
+              >
+                先做一周试学 →
+              </Link>
+              <Link
+                href="/#contact"
+                className="inline-flex items-center justify-center px-6 py-3 bg-transparent text-ink border border-accent font-semibold rounded-full hover:bg-accent/10 transition-colors"
+              >
+                报名咨询
+              </Link>
+            </div>
+          </div>
+        </section>
+
+        <section className="py-12 md:py-16 bg-paper" id="paths">
           <div className="max-w-7xl mx-auto px-4">
             <h2 className="font-serif font-semibold text-2xl md:text-3xl mb-3">
               小学一条路，中学另一条
