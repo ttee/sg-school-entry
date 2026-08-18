@@ -2,6 +2,107 @@ import { getServerSession } from "next-auth";
 import { authOptions } from "@/lib/auth";
 import { prisma } from "@/lib/db";
 import Link from "next/link";
+import ParentCard from "@/components/ParentCard";
+
+type Question = {
+  id: string;
+  type: string;
+  correctAnswer: string | null;
+};
+
+type Week = {
+  id: string;
+  level: string;
+  weekNumber: number;
+  title: string;
+  description: string | null;
+  isSample: boolean;
+  errorFocus: string | null;
+  parentBrief: string | null;
+  submissions: {
+    id: string;
+    answers: string;
+    score: number | null;
+    completedAt: Date | null;
+    createdAt: Date;
+  }[];
+  questions: Question[];
+};
+
+function getCompletedActivities(answers: any, questions: Question[]): string[] {
+  const completed: string[] = [];
+  const typeMap: Record<string, string> = {
+    reading: "阅读",
+    grammar: "语法",
+    writing: "写作",
+    listening: "听读",
+    speaking: "口语",
+  };
+
+  for (const question of questions) {
+    const answer = answers[question.id];
+    const hasAnswer =
+      question.type === "speaking"
+        ? answer === "completed"
+        : answer !== undefined && answer !== null && answer !== "";
+
+    if (hasAnswer) {
+      const label = typeMap[question.type];
+      if (label && !completed.includes(label)) {
+        completed.push(label);
+      }
+    }
+  }
+
+  return completed;
+}
+
+function getMasteryLevel(
+  answers: any,
+  questions: Question[],
+  isSubmitted: boolean
+): string {
+  if (!isSubmitted) {
+    return "未稳";
+  }
+
+  let hasWrong = false;
+  let hasWriting = false;
+
+  for (const question of questions) {
+    const answer = answers[question.id];
+
+    if (
+      question.type === "reading" ||
+      question.type === "grammar" ||
+      question.type === "listening"
+    ) {
+      if (question.correctAnswer && answer) {
+        const correctAnswers = question.correctAnswer.split(",");
+        for (let i = 0; i < correctAnswers.length; i++) {
+          if (answer[i] !== correctAnswers[i]) {
+            hasWrong = true;
+            break;
+          }
+        }
+      }
+    } else if (question.type === "writing") {
+      if (answer?.trim()) {
+        hasWriting = true;
+      }
+    }
+  }
+
+  if (hasWrong) {
+    return "能改";
+  }
+
+  if (hasWriting) {
+    return "能用";
+  }
+
+  return "未稳";
+}
 
 export default async function ProgressPage() {
   const session = await getServerSession(authOptions);
@@ -33,8 +134,50 @@ export default async function ProgressPage() {
           userId: session.user.id,
         },
       },
+      questions: {
+        select: {
+          id: true,
+          type: true,
+          correctAnswer: true,
+        },
+      },
     },
   });
+
+  const weeksWithSubmissions = weeks
+    .filter((w) => w.submissions.length > 0)
+    .sort((a, b) => {
+      const aTime = a.submissions[0].completedAt?.getTime() || a.submissions[0].createdAt?.getTime() || 0;
+      const bTime = b.submissions[0].completedAt?.getTime() || b.submissions[0].createdAt?.getTime() || 0;
+      return bTime - aTime;
+    });
+
+  const latestWeek = weeksWithSubmissions.length > 0 ? weeksWithSubmissions[0] : null;
+  const shouldShowParentCard = !isAdmin && latestWeek;
+
+  let parentCardData = null;
+  if (shouldShowParentCard && latestWeek) {
+    const submission = latestWeek.submissions[0];
+    const answers = submission.answers ? JSON.parse(submission.answers) : {};
+    
+    const focusText = latestWeek.parentBrief || latestWeek.title;
+    const focus = focusText.length > 20 ? focusText.substring(0, 20) : focusText.substring(0, Math.max(12, focusText.length));
+    
+    const isMathTrack = latestWeek.level === "MATH" || latestWeek.level === "SMATH";
+    const completed = getCompletedActivities(answers, latestWeek.questions);
+    const mastery = getMasteryLevel(
+      answers,
+      latestWeek.questions,
+      !!submission.completedAt
+    );
+
+    parentCardData = {
+      focus,
+      completed,
+      mastery,
+      isMathTrack,
+    };
+  }
 
   return (
     <div>
@@ -48,6 +191,17 @@ export default async function ProgressPage() {
             : "查看孩子的每周作业完成情况与得分。本进度仅显示当前登录账号的学习数据。"}
         </p>
       </div>
+
+      {parentCardData && (
+        <div className="mb-6">
+          <ParentCard
+            focus={parentCardData.focus}
+            completed={parentCardData.completed}
+            mastery={parentCardData.mastery}
+            isMathTrack={parentCardData.isMathTrack}
+          />
+        </div>
+      )}
 
       {isAdmin ? (
         <div className="space-y-8">
