@@ -15275,6 +15275,115 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
         },
       ],
     },
+    {
+      level: "SMATH",
+      weekNumber: 90,
+      title: "中位数 — Median of ungrouped data",
+      description: "Sec 2 S1 median as a measure of central tendency for ungrouped data (AEIS 中学数学第 90 周 / SMATH Week 90)",
+      isSample: false,
+      errorFocus: "using the unordered middle position; using the largest value; using the mean or the mode instead of the median; forgetting to order the list first",
+      parentBrief: "本周练一组数据的中位数（median）。先从小到大排好，再取中间的数。个数是偶数时，取中间两个数的平均数。不要把最大的数当成中位数。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "At Riverside Secondary, Mr Lim gives the data set 1, 3, 4, 8, 10. Aisha asks: 「What is the median?」 Which answer is correct?|A. Median = 4 (the data are in order, n = 5 (odd), middle is 3rd position, median = 4)|B. Median = 26 (fossil: using the sum 1 + 3 + 4 + 8 + 10 = 26)|C. Median = 10 (fossil: using the largest value)|D. Median = 5.2 (fossil: using the mean 26 ÷ 5 = 5.2)",
+            "At Riverside Secondary, Wei finds the median of 6, 11, 15, 20, 21. Which is correct?|A. Median = 15 (the data are in order, n = 5 (odd), middle is 3rd position, median = 15)|B. Median = 73 (fossil: using the sum 6 + 11 + 15 + 20 + 21 = 73)|C. Median = 21 (fossil: using the largest value)|D. Median = 14.6 (fossil: using the mean 73 ÷ 5 = 14.6)",
+            "At Riverside Secondary, Mr Lim shows the unordered data set 18, 2, 11, 5, 9. Aisha says: 「First, order the data: 2, 5, 9, 11, 18. n = 5 (odd). Middle is 3rd. Median = 9.」 Wei says: 「The unordered middle is 11. Median = 11.」 Who is correct?|A. Aisha is correct. Median = 9 (ordered: 2, 5, 9, 11, 18, middle is 3rd = 9). Wei forgot to order first.|B. Wei is correct. Median = 11|C. Median = 45 (fossil: sum)|D. Median = 18 (fossil: largest value)",
+            "At Riverside Secondary, Wei gives the data set 4, 6, 10, 14. Aisha says: 「n = 4 (even). Two middle are 6 and 10. Median = (6 + 10) ÷ 2 = 8.」 Which is correct?|A. Aisha is correct. For even n, median = mean of the two middle values = (6 + 10) ÷ 2 = 8.|B. Median = 6 (fossil: only took the first middle value, forgot to take the mean of the two middle values)|C. Median = 14 (fossil: using the largest value)|D. Median = 8.5 (fossil: wrong calculation)",
+            "At Riverside Secondary, Mr Lim asks: 「Wei says the median of 3, 7, 19 is 19 because it's the largest value. Aisha says: 'No, the data are in order: 3, 7, 19. n = 3 (odd). Middle is 2nd. Median = 7.' 」 Who is correct?|A. Aisha is correct. Median = 7 (the middle value). Wei used the largest value, which is wrong.|B. Wei is correct. Median = 19|C. Median = 29 (fossil: sum = 3 + 7 + 19 = 29)|D. Median = 9.67 (fossil: mean = 29 ÷ 3 ≈ 9.67)",
+          ]),
+          correctAnswer: "A,A,A,A,A",
+          points: 10,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "At Riverside Secondary, Mr Lim shows the data set 0, 2, 5, 8, 13. Wei finds the median. Which is correct?|A. Median = 5 (the data are in order, n = 5 (odd), middle is 3rd position, median = 5)|B. Median = 28 (fossil: sum = 0 + 2 + 5 + 8 + 13 = 28)|C. Median = 13 (fossil: largest value)|D. Median = 5.6 (fossil: mean = 28 ÷ 5 = 5.6)",
+            "At Riverside Secondary, Aisha finds the median of 10, 10, 10, 16, 22. Which is correct?|A. Median = 10 (the data are in order, n = 5 (odd), middle is 3rd position, median = 10)|B. Median = 68 (fossil: sum = 10 + 10 + 10 + 16 + 22 = 68)|C. Median = 22 (fossil: largest value)|D. Median = 13.6 (fossil: mean = 68 ÷ 5 = 13.6)",
+            "At Riverside Secondary, Mr Lim gives the unordered data set 14, 3, 8. Wei says: 「Order: 3, 8, 14. n = 3 (odd). Middle is 2nd. Median = 8.」 Which is correct?|A. Wei is correct. Median = 8 (ordered: 3, 8, 14, middle is 2nd = 8)|B. Median = 25 (fossil: sum = 14 + 3 + 8 = 25)|C. Median = 14 (fossil: largest value)|D. Median = 8.33 (fossil: mean = 25 ÷ 3 ≈ 8.33)",
+            "At Riverside Secondary, Aisha finds the median of 1, 1, 4, 8, 12, 20. Which is correct?|A. Median = 6 (n = 6 (even), two middle are 4 and 8, median = (4 + 8) ÷ 2 = 6)|B. Median = 46 (fossil: sum = 1 + 1 + 4 + 8 + 12 + 20 = 46)|C. Median = 20 (fossil: largest value)|D. Median = 7.67 (fossil: mean = 46 ÷ 6 ≈ 7.67)",
+            "At Riverside Secondary, Wei finds the median of 7, 9, 11, 13, 15. Which is correct?|A. Median = 11 (the data are in order, n = 5 (odd), middle is 3rd position, median = 11)|B. Median = 55 (fossil: sum = 7 + 9 + 11 + 13 + 15 = 55)|C. Median = 15 (fossil: largest value)|D. Median = 11 (correct answer, but if reasoning is using the mean, that's a fossil method; here mean = 55 ÷ 5 = 11, same as median by coincidence)",
+            "At Riverside Secondary, Mr Lim shows the data set 2, 2, 2, 2, 2. Aisha asks: 「What is the median?」 Which is correct?|A. Median = 2 (all values are 2, so the middle value is 2. When all equal, median = that value.)|B. Median = 10 (fossil: sum = 2 + 2 + 2 + 2 + 2 = 10)|C. Median = 0 (fossil: incorrect)|D. Median = 2 (correct answer, but if reasoning is using the mean or mode, those happen to equal 2 here by coincidence; use correct method: ordered middle value)",
+            "At Riverside Secondary, Aisha finds the median of 5, 8, 12, 16. Which is correct?|A. Median = 10 (n = 4 (even), two middle are 8 and 12, median = (8 + 12) ÷ 2 = 10)|B. Median = 41 (fossil: sum = 5 + 8 + 12 + 16 = 41)|C. Median = 16 (fossil: largest value)|D. Median = 10.25 (fossil: mean = 41 ÷ 4 = 10.25)",
+            "At Riverside Secondary, Wei finds the median of 21, 25, 30, 31, 40. Which is correct?|A. Median = 30 (the data are in order, n = 5 (odd), middle is 3rd position, median = 30)|B. Median = 147 (fossil: sum = 21 + 25 + 30 + 31 + 40 = 147)|C. Median = 40 (fossil: largest value)|D. Median = 29.4 (fossil: mean = 147 ÷ 5 = 29.4)",
+          ]),
+          correctAnswer: "A,A,A,A,A,A,A,A",
+          points: 16,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `Part 2: Show Your Working (写出算式步骤)
+
+Riverside Secondary School has statistics questions about the median of ungrouped data. Answer the questions below. Show your working clearly.
+
+Question (a)
+At Riverside Secondary, Mr Lim gives Wei the data set 1, 4, 8, 11, 20.
+(i) Are the data in order from smallest to largest? Write: Yes or No.
+(ii) Count how many values. Write: n = ?
+(iii) Is n odd or even? Write: Odd or Even.
+(iv) Find the middle position. For odd n, middle position is (n + 1) ÷ 2. Write: Middle position = ?
+(v) What is the value at that position? Write: The ? value is ?
+(vi) What is the median? Write your answer.
+(vii) Wei says: 「The median is 20 because it's the largest value.」 Explain why Wei is wrong. What is the median? (Hint: Median = the middle value after ordering, not the largest value.)
+
+Question (b)
+At Riverside Secondary, Aisha gives the unordered data set 16, 3, 10, 6, 12.
+(i) First, arrange the data in order from smallest to largest. Write: Ordered data: ?, ?, ?, ?, ?
+(ii) Count how many values. Write: n = ?
+(iii) Is n odd or even? Write: Odd or Even.
+(iv) Find the middle position. For odd n, middle position is (n + 1) ÷ 2. Write: Middle position = ?
+(v) What is the value at that position? Write: The ? value is ?
+(vi) What is the median? Write your answer.
+(vii) Mr Lim asks: 「If someone took the unordered middle position (the middle of 16, 3, 10, 6, 12 is 10) without ordering first, would that method be correct?」 Explain why that method happens to give the correct answer 10 this time, but why the method is still wrong. (Hint: Median = the middle value after ordering. Always order the data first.)
+
+Question (c)
+At Riverside Secondary, Wei shows the data set 2, 8, 14, 18.
+(i) Are the data in order from smallest to largest? Write: Yes or No.
+(ii) Count how many values. Write: n = ?
+(iii) Is n odd or even? Write: Odd or Even.
+(iv) For even n, find the two middle positions. The two middle positions are n ÷ 2 and (n ÷ 2) + 1. Write: Two middle positions = ? and ?
+(v) What are the values at those two positions? Write: The ? value is ? and the ? value is ?
+(vi) For even n, median = mean of the two middle values. Calculate: median = (? + ?) ÷ 2 = ?
+(vii) What is the median? Write your answer.
+
+写作提示 / Tips:
+✓ 每题分步骤写出推理 (Show working steps for each question)
+✓ Part 2 官方要求：clearly show the method of solution by writing working steps, plus the final answer
+✓ 不用计算器 (No calculators allowed)
+✓ 本周教 Sec 2 STATISTICS AND PROBABILITY, S1. Data handling and analysis: 本周是 median as a measure of central tendency for a set of ungrouped data. Median = the middle value when the data are arranged in order. Odd n: take the middle value. Even n: take the mean of the two middle values (integer medians only). Integer data values. No calculator. 本周不教 mean（平均数，Week 88 已教，可作为化石对比提及）。本周不教 mode（众数，Week 89 已教，可作为化石对比提及）。本周不教 grouped-data median（分组数据中位数）。本周不教 histograms / stem-and-leaf / box plots / quartiles / standard deviation（不教直方图/茎叶图/箱线图/四分位数/标准差）。本周不教 S2 probability（不教概率）。Cast: Wei, Aisha, Mr Lim at Riverside Secondary. No calculator.
+✓ 中位数步骤示范 (Median identification examples):
+  • Data set 2, 5, 7, 9, 12 → median 7 (微课例题):
+    Question: Find the median of 2, 5, 7, 9, 12. Show your working.
+    Solution: ① Check if the data are in order: 2, 5, 7, 9, 12. Yes, in order. ② Count: n = 5 (five values). Odd number. ③ Middle position: for odd n, middle is (n + 1) ÷ 2 = (5 + 1) ÷ 2 = 3. The middle is the 3rd value. ④ Identify the 3rd value: 1st: 2, 2nd: 5, 3rd: 7, 4th: 9, 5th: 12. The 3rd value is 7. ⑤ Median = 7. Answer: 7. (Note: Median is 7, not the sum (35), not the largest value (12), not the mean (7, but method is different: median = middle value, not sum ÷ n).)
+  • Data set 1, 3, 4, 8, 10 → median 4:
+    Question: Find the median of 1, 3, 4, 8, 10. Show your working.
+    Solution: ① In order: 1, 3, 4, 8, 10. Yes. ② n = 5 (odd). ③ Middle: (5 + 1) ÷ 2 = 3rd. ④ 3rd value = 4. ⑤ Median = 4. Answer: 4.
+  • Data set 4, 6, 10, 14 → median 8:
+    Question: Find the median of 4, 6, 10, 14. Show your working.
+    Solution: ① In order: 4, 6, 10, 14. Yes. ② n = 4 (even). ③ Two middle positions: n ÷ 2 = 2 and (n ÷ 2) + 1 = 3. Two middle are 2nd and 3rd. ④ 2nd value = 6, 3rd value = 10. ⑤ Median = (6 + 10) ÷ 2 = 16 ÷ 2 = 8. ⑥ Median = 8. Answer: 8. (Note: For even n, median = mean of the two middle values. Not just 6, not just 10, but (6 + 10) ÷ 2 = 8.)
+✓ 关键步骤：Step 1: Arrange the data in order from smallest to largest（从小到大排序）. Step 2: Count n（数个数）. Step 3: If n is odd, find the middle position (n + 1) ÷ 2, take that value as the median（如果 n 是奇数，找中间位置 (n + 1) ÷ 2，取那个值作为中位数）. If n is even, find the two middle positions n ÷ 2 and (n ÷ 2) + 1, take the mean of the two middle values as the median（如果 n 是偶数，找两个中间位置 n ÷ 2 和 (n ÷ 2) + 1，取中间两个值的平均数作为中位数）. Step 4: State the final answer（陈述最终答案）.
+✓ 化石 (fossil errors):
+  • Using the unordered middle position（不排序直接取中间位置）：data set 18, 2, 11, 5, 9. Unordered middle is 11. But after ordering (2, 5, 9, 11, 18), the middle is 9. Median = 9, not 11（错误：不排序取 11。正确：先排序 2, 5, 9, 11, 18，中间是 9，median = 9）。Always order the data first.
+  • Using the largest value as the median（把最大值当成中位数）：data set 3, 7, 19. Largest = 19. But median = the middle value = 7, not 19（错误：说中位数是 19 因为它最大。正确：Median = the middle value after ordering. 中间是 7，median = 7）。
+  • Using the mean instead of the median（把平均数当成中位数）：Week 88 taught mean (sum ÷ n). Week 90 teaches median (middle value after ordering). They are different measures of central tendency（Week 88 学 mean，这周学 median，median ≠ mean）。Median = middle value, not sum ÷ n.
+  • Using the mode instead of the median（把众数当成中位数）：Week 89 taught mode (most frequent value). Week 90 teaches median (middle value after ordering). They are different（Week 89 学 mode，这周学 median，median ≠ mode）。Median = middle value, not most frequent value.
+  • For even n: forgetting to take the mean of the two middle values（偶数个数时忘记取中间两个值的平均数）：data set 4, 6, 10, 14. Two middle are 6 and 10. Median = (6 + 10) ÷ 2 = 8, not 6 or 10（错误：只取 6 或 10。正确：median = (6 + 10) ÷ 2 = 8）。
+  • 本周教 S1 的 median of ungrouped data（一组未分组数据的中位数）。本周不教 mean（Week 88 已教）、mode（Week 89 已教）、grouped-data median（分组数据中位数）。本周不教 histograms / stem-and-leaf / box plots / quartiles / standard deviation。本周不教 S2 probability。
+✓ Writing 数值不能抄 微课：微课用 2, 5, 7, 9, 12 → median 7（这是 BoardWeike 微课例题）。Writing Q 用 1, 4, 8, 11, 20 → median 8 (Q a); unordered 16, 3, 10, 6, 12 → order 3, 6, 10, 12, 16 → median 10 (Q b); 2, 8, 14, 18 → median 11 (Q c)。不能抄本周 MCQ 的其他数值（1,3,4,8,10 → 4; 6,11,15,20,21 → 15; 18,2,11,5,9 → 9; 4,6,10,14 → 8; 3,7,19 → 7 等，也不能抄 reading/grammar 的列表）。也不能用 W88 writing 的平均数列表或 W89 writing 的众数列表（那些周是 mean / mode，本周是 median，不能重复）。
+
+Note: This is a sample of Part 2 short-answer/open-ended questions. The official paper has 20 short-answer + 10–15 open-ended items in 1 hour 45 minutes.`,
+          points: 20,
+        },
+      ],
+    },
   ];
 
 

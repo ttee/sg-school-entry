@@ -945,6 +945,12 @@ export default function BoardWeike({ level, weekNumber, planTitle, planFirstLine
       ],
       gloss: "一组未分组数据的众数：众数是出现次数最多的那个数。数每个数出现几次，找最多的。"
     },
+    "SMATH-90": {
+      examples: [
+        "Data set 2, 5, 7, 9, 12 → n = 5, median = 7"
+      ],
+      gloss: "一组未分组数据的中位数：先从小到大排好，再取中间的数。个数是奇数取中间一个，偶数取中间两个的平均数。"
+    },
     "SEC-0": {
       fossil: "Although I was nervous, but I tried. ✗ (中文「虽然…但是…」迁移) / I go yesterday ✗ (叙事体过去时掉落)",
       examples: [
