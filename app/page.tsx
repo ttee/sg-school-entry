@@ -230,7 +230,7 @@ export default function HomePage() {
               先看看新加坡政府小学
             </h2>
             <p className="text-ink-2 mb-4 max-w-2xl">
-              升旗、英语课、食堂、图书室。官方或主流媒体影片，不是本工作室微课，也不是考题。
+              升旗、英语课、食堂、图书室。这就是孩子进校以后的一天。
             </p>
             <div className="mb-4">
               <Link
