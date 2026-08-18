@@ -14890,6 +14890,98 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
         },
       ],
     },
+    {
+      level: "SMATH",
+      weekNumber: 86,
+      title: "三角函数比值 — Trigonometric ratios of acute angles",
+      description: "Sec 2 G4 trigonometric ratios of acute angles only (AEIS 中学数学第 86 周 / SMATH Week 86)",
+      isSample: false,
+      errorFocus: "swapping opposite and adjacent (sin = adj/hyp or cos = opp/hyp); using tan when the question asks for sin (or vice versa); two options that are the same fraction (3/5 and 6/10)",
+      parentBrief: "本周练锐角的三角函数比值（trigonometric ratios of acute angles）。G4 trigonometric ratios: in a right-angled triangle（直角三角形）, sin θ = opposite / hypotenuse（sin θ = 对边 / 斜边）, cos θ = adjacent / hypotenuse（cos θ = 邻边 / 斜边）, tan θ = opposite / adjacent（tan θ = 对边 / 邻边）。Identify the ratio or find a missing side from a given ratio（辨认比值或根据给定比值求缺失的边）。Answers as integer lengths or unsimplified-OK integer fractions（答案保持整数长度或未简化的整数分数形式，如 20/29）。No calculator（不用计算器）。本周不求角度（do NOT find an angle in degrees，不用反三角函数）。本周不教 30-60-90 或 45-45-90 特殊三角形（不发明 √3 或 √2）。本周不教 3-D trig（不教三维空间三角函数）。本周不教 Pythagoras' theorem（三角形已是直角三角形，边已给定，不教毕达哥拉斯定理）。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "At Riverside Secondary, Mr Lim draws a right-angled triangle. Right angle at C. AC = 20 cm (adjacent to ∠A), BC = 21 cm (opposite to ∠A), AB = 29 cm (hypotenuse). Wei asks: 「What is sin A?」 Which is correct?|A. sin A = 21/29. Using sin = opposite / hypotenuse: sin A = BC / AB = 21/29. ✓|B. sin A = 20/29. Fossil: swapping opposite and adjacent, using cos instead of sin (cos A = 20/29)|C. sin A = 21/20. Fossil: using tan instead of sin (tan A = 21/20)|D. sin A = 29/21. Fossil: inverting the ratio (hypotenuse / opposite)",
+            "At Riverside Secondary, Aisha draws a right-angled triangle. Right angle at C. AC = 12 cm, BC = 35 cm, AB = 37 cm. Mr Lim asks: 「What is sin A?」 Which is correct?|A. sin A = 35/37. Using sin = opposite / hypotenuse: sin A = BC / AB = 35/37. ✓|B. sin A = 12/37. Fossil: swapping opposite and adjacent, using cos instead of sin (cos A = 12/37)|C. sin A = 35/12. Fossil: using tan instead of sin (tan A = 35/12)|D. sin A = 37/35. Fossil: inverting the ratio (hypotenuse / opposite)",
+            "At Riverside Secondary, Wei shows a right-angled triangle. Right angle at C. AC = 20 cm (adjacent to ∠A), BC = 21 cm (opposite to ∠A), AB = 29 cm. Aisha asks: 「What is cos A?」 Which is correct?|A. cos A = 20/29. Using cos = adjacent / hypotenuse: cos A = AC / AB = 20/29. ✓|B. cos A = 21/29. Fossil: swapping opposite and adjacent, using sin instead of cos (sin A = 21/29)|C. cos A = 20/21. Fossil: using tan (but inverted) instead of cos|D. cos A = 29/20. Fossil: inverting the ratio (hypotenuse / adjacent)",
+            "At Riverside Secondary, Mr Lim draws a right-angled triangle. Right angle at C. AC = 20 cm, BC = 21 cm, AB = 29 cm. Wei says: 「tan A = 20/21.」 Aisha says: 「No, we need tan = opposite / adjacent.」 Which is correct?|A. Aisha is correct. Using tan = opposite / adjacent: tan A = BC / AC = 21/20, not 20/21. Wei swapped opposite and adjacent. ✓|B. Wei is correct. tan A = 20/21|C. tan A = 21/29. Fossil: using sin instead of tan|D. tan A = 20/29. Fossil: using cos instead of tan",
+            "At Riverside Secondary, Aisha draws a right-angled triangle. Right angle at C. AC = 33 cm (adjacent to ∠A), BC = 56 cm (opposite to ∠A). Mr Lim says: 「tan A = 56/33.」 Wei asks: 「If tan A = 56/33 and AC = 33 cm, what is BC?」 Which is correct?|A. BC = 56 cm. Using tan = opposite / adjacent: 56/33 = BC / 33, so BC = 56 cm. ✓|B. BC = 33 cm. Fossil: confusing opposite and adjacent|C. BC = 89 cm. Fossil: adding 56 + 33 = 89|D. BC = 23 cm. Fossil: subtracting 56 − 33 = 23",
+          ]),
+          correctAnswer: "A,A,A,A,A",
+          points: 10,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "At Riverside Secondary, Mr Lim draws a right-angled triangle. Right angle at C. AC = 3 cm (adjacent to ∠A), BC = 4 cm (opposite to ∠A), AB = 5 cm. Wei asks: 「What is sin A?」 Which is correct?|A. sin A = 4/5. Using sin = opposite / hypotenuse: sin A = BC / AB = 4/5. ✓|B. sin A = 3/5. Fossil: swapping opposite and adjacent, using cos instead of sin (cos A = 3/5)|C. sin A = 4/3. Fossil: using tan instead of sin (tan A = 4/3)|D. sin A = 0.8. Fossil: calculating the decimal (4 ÷ 5 = 0.8) but answer should be the fraction 4/5",
+            "At Riverside Secondary, Aisha shows a right-angled triangle. Right angle at C. AC = 5 cm, BC = 12 cm, AB = 13 cm. Mr Lim asks: 「What is cos A?」 Which is correct?|A. cos A = 5/13. Using cos = adjacent / hypotenuse: cos A = AC / AB = 5/13. ✓|B. cos A = 12/13. Fossil: swapping opposite and adjacent, using sin instead of cos (sin A = 12/13)|C. cos A = 5/12. Fossil: using tan (but inverted) instead of cos|D. cos A = 10/26. Fossil: doubling both numerator and denominator (5/13 = 10/26, but both options should not appear together)",
+            "At Riverside Secondary, Wei draws a right-angled triangle. Right angle at C. AC = 8 cm (adjacent to ∠A), BC = 15 cm (opposite to ∠A), AB = 17 cm. Aisha asks: 「What is tan A?」 Which is correct?|A. tan A = 15/8. Using tan = opposite / adjacent: tan A = BC / AC = 15/8. ✓|B. tan A = 8/15. Fossil: swapping opposite and adjacent (inverted)|C. tan A = 15/17. Fossil: using sin instead of tan (sin A = 15/17)|D. tan A = 8/17. Fossil: using cos instead of tan (cos A = 8/17)",
+            "At Riverside Secondary, Mr Lim shows a right-angled triangle. Right angle at C. AC = 7 cm, BC = 24 cm, AB = 25 cm. Wei calculates: 「sin A = 7/25.」 Aisha says: 「No, we need sin = opposite / hypotenuse.」 Which is correct?|A. Aisha is correct. Using sin = opposite / hypotenuse: sin A = BC / AB = 24/25, not 7/25. Wei used adjacent instead of opposite (that is cos A = 7/25). ✓|B. Wei is correct. sin A = 7/25|C. sin A = 24/7. Fossil: using tan instead of sin|D. sin A = 25/24. Fossil: inverting the ratio",
+            "At Riverside Secondary, Aisha draws a right-angled triangle. Right angle at C. AC = 9 cm, BC = 40 cm, AB = 41 cm. Mr Lim asks: 「What is cos A?」 Which is correct?|A. cos A = 9/41. Using cos = adjacent / hypotenuse: cos A = AC / AB = 9/41. ✓|B. cos A = 40/41. Fossil: swapping opposite and adjacent, using sin instead of cos (sin A = 40/41)|C. cos A = 9/40. Fossil: using tan (but inverted) instead of cos|D. cos A = 41/9. Fossil: inverting the ratio (hypotenuse / adjacent)",
+            "At Riverside Secondary, Wei shows a right-angled triangle. Right angle at C. AC = 11 cm (adjacent to ∠A), BC = 60 cm (opposite to ∠A), AB = 61 cm. Aisha asks: 「What is tan A?」 Which working is correct?|A. tan A = opposite / adjacent = BC / AC = 60/11. ✓|B. tan A = adjacent / opposite = AC / BC = 11/60. Fossil: swapping opposite and adjacent|C. tan A = opposite / hypotenuse = BC / AB = 60/61. Fossil: using sin instead of tan|D. tan A = adjacent / hypotenuse = AC / AB = 11/61. Fossil: using cos instead of tan",
+            "At Riverside Secondary, Mr Lim draws a right-angled triangle. Right angle at C. AC = 36 cm (adjacent to ∠A), BC = 77 cm (opposite to ∠A), AB = 85 cm. Wei asks: 「What is sin A?」 Which is correct?|A. sin A = 77/85. Using sin = opposite / hypotenuse: sin A = BC / AB = 77/85. ✓|B. sin A = 36/85. Fossil: swapping opposite and adjacent, using cos instead of sin (cos A = 36/85)|C. sin A = 77/36. Fossil: using tan instead of sin (tan A = 77/36)|D. sin A = 85/77. Fossil: inverting the ratio (hypotenuse / opposite)",
+            "At Riverside Secondary, Aisha shows a right-angled triangle. Right angle at C. AC = 39 cm, BC = 80 cm, AB = 89 cm. Mr Lim says: 「cos A = 39/89.」 Wei asks: 「If cos A = 39/89 and AB = 89 cm, what is AC?」 Which is correct?|A. AC = 39 cm. Using cos = adjacent / hypotenuse: 39/89 = AC / 89, so AC = 39 cm. ✓|B. AC = 80 cm. Fossil: confusing adjacent and opposite (that is BC = 80 cm)|C. AC = 89 cm. Fossil: confusing adjacent and hypotenuse|D. AC = 50 cm. Fossil: subtracting 89 − 39 = 50",
+          ]),
+          correctAnswer: "A,A,A,A,A,A,A,A",
+          points: 16,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `Part 2: Show Your Working (写出算式步骤)
+
+Riverside Secondary School has geometry questions about trigonometric ratios of acute angles. Answer the questions below. Show your working clearly.
+
+Question (a)
+At Riverside Secondary, Mr Lim draws a right-angled triangle. Right angle at C. AC = 11 cm (adjacent to ∠A), BC = 60 cm (opposite to ∠A), AB = 61 cm (hypotenuse).
+(i) Write the three trigonometric ratios: sin A = opposite / hypotenuse, cos A = adjacent / hypotenuse, tan A = opposite / adjacent.
+(ii) Calculate sin A, cos A, and tan A. Show your working: sin A = BC / AB = ?, cos A = AC / AB = ?, tan A = BC / AC = ?. Write your answers as fractions (do not simplify, leave as integer fractions like 60/61).
+
+Question (b)
+At Riverside Secondary, Aisha draws a right-angled triangle. Right angle at C. AC = 36 cm, BC = 77 cm, AB = 85 cm.
+(i) Calculate sin A. Show your working: sin A = opposite / hypotenuse = BC / AB = ?. Write your answer as a fraction.
+(ii) Wei says: 「sin A = 36/85 because AC = 36 cm.」 Explain why Wei is wrong. What is the correct ratio? (Hint: sin uses opposite, not adjacent. AC is adjacent to ∠A, not opposite.)
+
+Question (c)
+At Riverside Secondary, Wei shows a right-angled triangle. Right angle at C. AC = 39 cm (adjacent to ∠A), BC = 80 cm (opposite to ∠A), AB = 89 cm.
+(i) Calculate tan A. Show your working: tan A = opposite / adjacent = BC / AC = ?. Write your answer as a fraction.
+(ii) Mr Lim says: 「Given tan A = 80/39 and AC = 39 cm, what is BC?」 Show your working: tan A = BC / AC, so 80/39 = BC / 39. Multiply both sides by 39 to find BC.
+
+写作提示 / Tips:
+✓ 每题分步骤写出推理 (Show working steps for each question)
+✓ Part 2 官方要求：clearly show the method of solution by writing working steps, plus the final answer
+✓ 不用计算器 (No calculators allowed)
+✓ 本周教 Sec 2 GEOMETRY AND MEASUREMENT, G4. Pythagoras' theorem and trigonometry: 本周是 trigonometric ratios of acute angles only. Official content: in a right-angled triangle, sin θ = opposite / hypotenuse, cos θ = adjacent / hypotenuse, tan θ = opposite / adjacent. Identify the ratio or find a missing side from a given ratio. Answers as integer lengths or unsimplified-OK integer fractions (e.g. 20/29). No calculator. Do NOT ask students to find an angle in degrees (no inverse trig). Do NOT use 30-60-90 or 45-45-90 if that forces √3 or √2. Do NOT teach 3-D trig. Do NOT teach Pythagoras as this week's item (the triangle may already be right-angled with sides given). Cast: Wei, Aisha, Mr Lim at Riverside Secondary. No calculator.
+✓ 三角函数比值步骤示范 (Trigonometric ratio examples):
+  • Right-angled at C. AC = 20 cm (adj to A), BC = 21 cm (opp to A), AB = 29 cm. sin A = 21/29, cos A = 20/29, tan A = 21/20:
+    Question: Right angle at C. AC = 20 cm, BC = 21 cm, AB = 29 cm. Find sin A, cos A, and tan A.
+    Solution: ① Identify: AC is adjacent to ∠A, BC is opposite to ∠A, AB is the hypotenuse. ② sin A = opposite / hypotenuse = BC / AB = 21/29. ③ cos A = adjacent / hypotenuse = AC / AB = 20/29. ④ tan A = opposite / adjacent = BC / AC = 21/20. Answer: sin A = 21/29, cos A = 20/29, tan A = 21/20. (Note: Common fossil: swapping opposite and adjacent. sin A = 20/29 is wrong. AC = 20 cm is adjacent, not opposite. BC = 21 cm is opposite to ∠A. So sin A = 21/29, not 20/29.)
+  • Right-angled at C. AC = 12 cm, BC = 35 cm, AB = 37 cm. sin A = 35/37:
+    Question: Right angle at C. AC = 12 cm, BC = 35 cm, AB = 37 cm. Find sin A.
+    Solution: ① Identify: BC is opposite to ∠A, AB is the hypotenuse. ② sin A = opposite / hypotenuse = BC / AB = 35/37. Answer: sin A = 35/37.
+  • Given tan A = 33/56 and adj = 56 cm → opp = 33 cm:
+    Question: Right angle at C. tan A = 33/56. AC = 56 cm (adjacent to ∠A). What is BC (opposite to ∠A)?
+    Solution: ① tan A = opposite / adjacent = BC / AC. ② We have 33/56 = BC / 56. ③ Multiply both sides by 56: BC = 33 × 56 / 56 = 33 cm. Answer: BC = 33 cm. (Note: Do not use Pythagoras this week. The triangle is already right-angled with sides given. We only find the missing side from the given ratio.)
+✓ 关键步骤：Step 1: Identify the right-angled triangle and label the vertices（识别直角三角形，标出顶点）. Right angle at C. ∠A is the angle we are working with. Step 2: Identify opposite, adjacent, and hypotenuse relative to ∠A（识别相对于 ∠A 的对边、邻边和斜边）. BC is opposite to ∠A (opposite the angle). AC is adjacent to ∠A (next to the angle, not the hypotenuse). AB is the hypotenuse (longest side, opposite the right angle). Step 3: Write the three ratios（写出三个比值）: sin A = opposite / hypotenuse = BC / AB, cos A = adjacent / hypotenuse = AC / AB, tan A = opposite / adjacent = BC / AC. Step 4: Substitute the values（代入数值）. If AC = 20 cm, BC = 21 cm, AB = 29 cm, then sin A = 21/29, cos A = 20/29, tan A = 21/20. Step 5: Check your answer（检查答案）. sin and cos are always less than 1 (numerator < denominator). tan can be greater than or less than 1. If sin A = 21/29, check: 21 < 29 ✓. If tan A = 21/20, check: 21 > 20 ✓ (tan can be > 1).
+✓ 化石 (fossil errors):
+  • Swapping opposite and adjacent（错误：把对边和邻边搞反。sin A = adjacent / hypotenuse 或 cos A = opposite / hypotenuse。例如 AC = 20 cm (邻边), BC = 21 cm (对边)，但错误地写 sin A = 20/29。正确：sin A = opposite / hypotenuse = BC / AB = 21/29，不是 20/29）
+  • Using tan when the question asks for sin (or vice versa)（错误：题目问 sin 但用 tan 的公式，或题目问 tan 但用 sin 的公式。例如题目问 sin A，但用 tan A = opposite / adjacent = 21/20。正确：sin A = opposite / hypotenuse = 21/29）
+  • Two options that are the same fraction（两个选项是同一个分数：例如「3/5」和「6/10」是同一个分数，不要两个都写成选项。一个选项写 3/5 即可）
+  • 本周教 G4. Pythagoras' theorem and trigonometry 的 trigonometric ratios of acute angles only。本周不求角度（do NOT find an angle in degrees，不用反三角函数）。本周不教 30-60-90 或 45-45-90 特殊三角形（不发明 √3 或 √2）。本周不教 3-D trig（不教三维空间三角函数）。本周不教 Pythagoras' theorem（三角形已是直角三角形，边已给定，不教毕达哥拉斯定理）。
+✓ Writing 数值不能抄 微课：微课用 20-21-29, 12-35-37, 33-56。Writing Q 用 11-60-61, 36-77-85, 39-80-89。不能抄本周 MCQ 的 3-4-5, 5-12-13, 8-15-17, 7-24-25, 9-40-41 等数值。也不能用 W85 writing 的 13-84-85, 28-45-53, 16-63-65 等数值。
+
+Note: This is a sample of Part 2 short-answer/open-ended questions. The official paper has 20 short-answer + 10–15 open-ended items in 1 hour 45 minutes.`,
+          points: 20,
+        },
+      ],
+    },
   ];
 
 

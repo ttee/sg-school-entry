@@ -984,6 +984,14 @@ export default function WeikeMiniLesson({ level, weekNumber }: WeikeMiniLessonPr
       ],
       gloss: "AEIS 中学数学第 85 周 / SMATH Week 85. 本周例题：Sec 2 G4 Pythagoras' theorem only（毕达哥拉斯定理，勾股定理）。In a right-angled triangle, a² + b² = c² where c is the hypotenuse（直角三角形中，两条直角边的平方和等于斜边的平方）。"
     },
+    "SMATH-86": {
+      examples: [
+        "Right-angled at C. AC = 20 cm (adj to A), BC = 21 cm (opp to A), AB = 29 cm. sin A = 21/29, cos A = 20/29, tan A = 21/20",
+        "Right-angled at C. AC = 12 cm, BC = 35 cm, AB = 37 cm. sin A = 35/37",
+        "Given tan A = 33/56 and adj = 56 cm → opp = 33 cm"
+      ],
+      gloss: "AEIS 中学数学第 86 周 / SMATH Week 86. 本周例题：Sec 2 G4 trigonometric ratios of acute angles only（锐角的三角函数比值）。In a right-angled triangle（直角三角形）, sin θ = opposite / hypotenuse（对边/斜边）, cos θ = adjacent / hypotenuse（邻边/斜边）, tan θ = opposite / adjacent（对边/邻边）。Identify the ratio or find a missing side from a given ratio（辨认比值或根据给定比值求缺失的边）。"
+    },
     "SEC-0": {
       fossil: "Although I was nervous, but I tried. ✗ (中文「虽然…但是…」迁移) / I go yesterday ✗ (叙事体过去时掉落)",
       examples: [
