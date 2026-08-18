@@ -826,7 +826,6 @@
         </div>
         <p class="wechat">
           <span data-i18n="wxLabel">微信</span>：<code>your-wechat-id</code>
-          · <a href="mailto:hello@example.com" data-i18n="emailLabel">发邮件</a>
         </p>
       </div>
     </section>

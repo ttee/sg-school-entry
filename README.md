@@ -391,7 +391,6 @@ npx prisma db seed    # Seed demo users + weeks
 | Placeholder | Where | Replace with |
 |-------------|-------|--------------|
 | `your-wechat-id` | Contact section | Real WeChat ID |
-| `mailto:hello@example.com` | Contact section | Real email |
 | S$320/month, S$2,480, S$2,880 | Membership prices | Confirmed pricing after operational review |
 
 ---
@@ -416,7 +415,6 @@ This is a private education studio project.
 For consultation on monthly membership or 12-week prepaid packages:
 
 - **WeChat / 微信:** `your-wechat-id`
-- **Email / 邮件:** [hello@example.com](mailto:hello@example.com)
 
 报名以咨询确认为准。付款通过 PayNow 或微信转账。
 
