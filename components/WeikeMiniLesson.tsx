@@ -920,6 +920,14 @@ export default function WeikeMiniLesson({ level, weekNumber }: WeikeMiniLessonPr
       ],
       gloss: "AEIS 中学数学第 77 周 / SMATH Week 77. 本周例题：Sec 2 G2.3 properties of similar triangles and polygons（相似三角形和多边形的性质）。"
     },
+    "SMATH-78": {
+      examples: [
+        "Triangle ABC enlarged by scale factor k = 3, centre O. AB = 2 cm. → Enlargement: k > 1. Image A'B' = k × AB = 3 × 2 = 6 cm",
+        "Rectangle PQRS reduced by scale factor k = 1/2, centre O. PQ = 10 cm, QR = 8 cm. → Reduction: 0 < k < 1. Image P'Q' = 10 × 1/2 = 5 cm, Q'R' = 8 × 1/2 = 4 cm",
+        "Triangle XYZ enlarged by k = 4, centre O. ∠X = 45°. → Angles do NOT change. Image ∠X' = 45° (not 45° × 4 = 180°)"
+      ],
+      gloss: "AEIS 中学数学第 78 周 / SMATH Week 78. 本周例题：Sec 2 G2.4 enlargement and reduction of a plane figure using a scale factor（用缩放比例进行平面图形的放大和缩小）。"
+    },
     "SEC-0": {
       fossil: "Although I was nervous, but I tried. ✗ (中文「虽然…但是…」迁移) / I go yesterday ✗ (叙事体过去时掉落)",
       examples: [
