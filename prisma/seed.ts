@@ -14509,20 +14509,20 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
 Riverside Secondary School has geometry questions. Answer the questions below. Show your working.
 
 Question (a)
-At Riverside Secondary, Mr Lim draws line segment AB with length 16 cm. Point M is the midpoint of AB at 8 cm from A. He draws the perpendicular bisector of AB through M.
-(i) Wei marks point P on the perpendicular bisector. The distance from P to A is 12 cm. What is the distance from P to B? Show your working: a point on the perpendicular bisector of AB is equidistant from A and B.
+At Riverside Secondary, Mr Lim draws line segment AB with length 22 cm. Point M is the midpoint of AB at 11 cm from A. He draws the perpendicular bisector of AB through M.
+(i) Wei marks point P on the perpendicular bisector. The distance from P to A is 17 cm. What is the distance from P to B? Show your working: a point on the perpendicular bisector of AB is equidistant from A and B.
 (ii) Aisha marks point Q that is NOT on the perpendicular bisector. She says: 「Q must be equidistant from A and B.」 Explain why Aisha is wrong. Which points are equidistant from A and B?
 
 Question (b)
-At Riverside Secondary, Aisha draws angle XYZ = 90°. She draws the angle bisector YW that divides the angle into two equal parts.
+At Riverside Secondary, Aisha draws angle XYZ = 48°. She draws the angle bisector YW that divides the angle into two equal parts.
 (i) What is angle XYW? Show your working: the angle bisector divides the angle into two equal parts.
-(ii) Wei marks point R on the angle bisector YW. The distance from R to arm YX is 8 cm. What is the distance from R to arm YZ? Show your working: a point on the angle bisector is equidistant from the two sides of the angle.
+(ii) Wei marks point R on the angle bisector YW. The distance from R to arm YX is 13 cm. What is the distance from R to arm YZ? Show your working: a point on the angle bisector is equidistant from the two sides of the angle.
 (iii) Aisha marks point T that is NOT on the angle bisector. She says: 「T is equidistant from YX and YZ.」 Explain why this is not necessarily true. When is a point equidistant from the two sides?
 
 Question (c)
-At Riverside Secondary, Mr Lim draws line segment CD with length 18 cm. He draws the perpendicular bisector of CD. Wei marks point S on the perpendicular bisector. The distance from S to C is 11 cm.
+At Riverside Secondary, Mr Lim draws line segment CD with length 26 cm. He draws the perpendicular bisector of CD. Wei marks point S on the perpendicular bisector. The distance from S to C is 19 cm.
 (i) What is the distance from S to D? Show your working.
-(ii) Aisha draws angle PQR = 64°. She draws the angle bisector QU. Point V is on the bisector QU. The distance from V to arm QP is 9 cm. What is the distance from V to arm QR? What is angle PQU? Show all your working.
+(ii) Aisha draws angle PQR = 56°. She draws the angle bisector QU. Point V is on the bisector QU. The distance from V to arm QP is 21 cm. What is the distance from V to arm QR? What is angle PQU? Show all your working.
 
 写作提示 / Tips:
 ✓ 每题分步骤写出推理 (Show working steps for each question)
@@ -14534,7 +14534,7 @@ At Riverside Secondary, Mr Lim draws line segment CD with length 18 cm. He draws
   • Mixing perpendicular bisector with angle bisector (错误：混淆垂直平分线和角平分线。垂直平分线：点到两个端点等距（equidistant from endpoints A and B）。角平分线：点到角的两边等距（equidistant from the two sides of the angle）。不要把两者混淆)
   • Saying a point off the bisector is still equidistant (错误：说不在平分线上的点也等距。只有在平分线上的点才等距。如果点 Q 不在 AB 的垂直平分线上，那么 QA ≠ QB)
   • Two options that are the same pair in a different order (两个选项是同一对不同顺序：PA = 6 cm and PB = 6 cm 与 PB = 6 cm and PA = 6 cm 是同一个答案，不要两个都写成正确选项)
-✓ Writing 数值不能抄 微课：微课用 AB = 10 cm, PA = PB = 6 cm; angle XYZ = 80°, XYW = WYZ = 40°; Q 到 BA 和 BC 距离都是 5 cm。Writing Q 用 AB = 16 cm, PA = PB = 12 cm; angle XYZ = 90°, XYW = 45°, R 到两边 8 cm; CD = 18 cm, SC = SD = 11 cm; angle PQR = 64°, PQU = 32°, V 到两边 9 cm。不能抄 W80 writing 的 7 cm/1 cm/11 cm/650 cm/13 cm/18 cm 比例尺数值。
+✓ Writing 数值不能抄 微课：微课用 AB = 10 cm, PA = PB = 6 cm; angle XYZ = 80°, XYW = WYZ = 40°; Q 到 BA 和 BC 距离都是 5 cm。Writing Q 用 AB = 22 cm, PA = PB = 17 cm; angle XYZ = 48°, XYW = 24°, R 到两边 13 cm; CD = 26 cm, SC = SD = 19 cm; angle PQR = 56°, PQU = 28°, V 到两边 21 cm。不能抄 W80 writing 的 7 cm/1 cm/11 cm/650 cm/13 cm/18 cm 比例尺数值。不能抄本周 MCQ 的 10/6/5/80/40/14/9/16/12/8/20/15/100/50/4/70/120/90/60/3/18/11/64/9 等数值。
 ✓ 本周只教 G2.7 perpendicular and angle bisectors。本周不教 G2.6 scale drawings（不教比例尺图）；不教 G2.8 determining congruent/similar triangles as a listed item（不作为列项教判断全等/相似三角形的 SSS/SAS/ASA/AAA）；不教 G2.9 ratio of areas = k²（不教面积比等于 k²）；不教 G2.10 ratio of volumes = k³（不教体积比等于 k³）；不教 G4 Pythagoras/trigonometry（不教勾股定理/三角函数）；不教 G5 solids（不教立体图形）. 本周只教 G2.7: perpendicular bisector (point on it is equidistant from endpoints), angle bisector (point on it is equidistant from sides, and divides angle into two equal parts).
 
 Note: This is a sample of Part 2 short-answer/open-ended questions. The official paper has 20 short-answer + 10–15 open-ended items in 1 hour 45 minutes.`,
