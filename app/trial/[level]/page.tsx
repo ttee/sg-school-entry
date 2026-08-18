@@ -2,6 +2,7 @@ import Link from "next/link";
 import { prisma } from "@/lib/db";
 import { notFound } from "next/navigation";
 import WeekHomework from "@/components/WeekHomework";
+import OfficialClip from "@/components/OfficialClip";
 
 export const dynamic = 'force-dynamic';
 
@@ -119,6 +120,32 @@ export default async function TrialLevelPage({
         </div>
       </header>
       <main className="max-w-5xl mx-auto px-4 py-8">
+        {level === "A2" && (
+          <div className="mb-8">
+            <p className="text-ink-2 mb-4">
+              先看官方口语样例，再做试学周。
+            </p>
+            <OfficialClip
+              videoId="ZjGt6r8XSTg"
+              title="CEQ 口语长这样"
+              credit="片源：Cambridge English 官方频道 English with Cambridge《A2 Key for Schools Speaking test — Asia and Vittoria》。官方口语样例，不是本周作业。"
+              hideWeeklyHomework={true}
+            />
+          </div>
+        )}
+        {level === "B1" && (
+          <div className="mb-8">
+            <p className="text-ink-2 mb-4">
+              先看官方口语样例，再做试学周。
+            </p>
+            <OfficialClip
+              videoId="xF_Q2anYOfc"
+              title="CEQ 口语长这样"
+              credit="片源：Cambridge English 官方频道 English with Cambridge《B1 Preliminary for Schools Speaking Test — Roberto and Simone》。官方口语样例，不是本周作业。"
+              hideWeeklyHomework={true}
+            />
+          </div>
+        )}
         <WeekHomework
           week={week}
           questions={week.questions}
