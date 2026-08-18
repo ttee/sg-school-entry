@@ -26,14 +26,14 @@ function LoginForm() {
       });
 
       if (result?.error) {
-        setError("邮箱或密码错误 / Email or password incorrect");
+        setError("邮箱或密码错误");
       } else {
         const callbackUrl = searchParams.get("callbackUrl") || "/learn";
         router.push(callbackUrl);
         router.refresh();
       }
     } catch (error) {
-      setError("登录失败，请重试 / Login failed, please try again");
+      setError("登录失败，请重试");
     } finally {
       setLoading(false);
     }
@@ -78,7 +78,7 @@ function LoginForm() {
             </div>
           </Link>
           <h1 className="text-2xl font-serif font-semibold text-ink mb-2">
-            登录 / Login
+            登录
           </h1>
           <p className="text-muted text-sm">
             登录后开始每周作业
@@ -89,7 +89,7 @@ function LoginForm() {
           <form onSubmit={handleSubmit} className="space-y-4">
             <div>
               <label htmlFor="email" className="block text-sm font-semibold text-ink-2 mb-1">
-                邮箱 / Email
+                邮箱
               </label>
               <input
                 id="email"
@@ -104,7 +104,7 @@ function LoginForm() {
 
             <div>
               <label htmlFor="password" className="block text-sm font-semibold text-ink-2 mb-1">
-                密码 / Password
+                密码
               </label>
               <input
                 id="password"
@@ -150,14 +150,14 @@ function LoginForm() {
             href="/"
             className="text-sm text-muted hover:text-ink transition-colors"
           >
-            ← 返回首页 / Back to home
+            ← 返回首页
           </Link>
         </div>
 
         <div className="mt-8 pt-6 border-t border-line">
           <div className="flex justify-center gap-4 text-xs text-muted">
             <Link href="/privacy" className="hover:text-ink transition-colors">
-              隐私 / Privacy
+              隐私
             </Link>
             <a
               href="https://www.pdpc.gov.sg/"
