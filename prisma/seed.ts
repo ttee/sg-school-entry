@@ -4860,7 +4860,7 @@ Things have changed a lot, but one thing hasn't changed: students still work har
           ]),
           correctAnswer: "B,B,C,C,D",
           points: 5,
-          audioUrl: "/audio/b1-w6-listening.mp3",
+          audioUrl: null,
         },
         {
           type: "speaking",
