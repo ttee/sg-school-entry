@@ -54,7 +54,7 @@ CEQ exam-focused sprint courses:
 - Includes 2 mock tests + parent WeChat updates
 - No refunds
 
-**Payment:** PayNow or WeChat transfer (微信转账). No Stripe. Enrollment confirmed after consultation (报名以咨询确认为准).
+**Payment:** PayNow or WeChat transfer (微信转账). Enrollment confirmed after consultation (报名以咨询确认为准).
 
 **CEQ exam itself** is booked separately at authorized Cambridge centres (not included in course fees).
 
@@ -316,7 +316,6 @@ npm start
 - Post-admission: English-medium subject support (Science, etc.) — **not sold as entrance exam**
 - Parent dashboard (view child's progress from parent login)
 - WeChat OAuth (requires Open Platform app)
-- Stripe (if expanding beyond WeChat/PayNow payment)
 
 ---
 
@@ -392,7 +391,6 @@ npx prisma db seed    # Seed demo users + weeks
 | Placeholder | Where | Replace with |
 |-------------|-------|--------------|
 | `your-wechat-id` | Contact section | Real WeChat ID |
-| `mailto:hello@example.com` | Contact section | Real email |
 | S$320/month, S$2,480, S$2,880 | Membership prices | Confirmed pricing after operational review |
 
 ---
@@ -417,9 +415,8 @@ This is a private education studio project.
 For consultation on monthly membership or 12-week prepaid packages:
 
 - **WeChat / 微信:** `your-wechat-id`
-- **Email / 邮件:** [hello@example.com](mailto:hello@example.com)
 
-报名以咨询确认为准。付款通过 PayNow 或微信转账，无 Stripe。
+报名以咨询确认为准。付款通过 PayNow 或微信转账。
 
 ---
 
