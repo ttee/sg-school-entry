@@ -170,26 +170,35 @@ export default function GuidePage() {
 
     mathItems.forEach((item, idx) => {
       if (mathAnswers[idx] !== item.correct) {
-        missedMath.push(item.strand);
+        // Extract 简体 part only (before the English part in "钱币 Money" format)
+        const chinesePart = item.strand.split(/\s+/)[0];
+        missedMath.push(chinesePart);
       }
     });
 
-    if (missedEnglish.length > 0) {
-      kaizenFocus = missedEnglish[0];
-    } else if (missedMath.length > 0) {
-      kaizenFocus = missedMath[0];
-    }
-
-    // Primary 路径：CEQ English 为主
+    // Primary 路径：CEQ English 为主，但 English OK + weak maths → MATH 试学周
     if (isPrimary) {
       if (englishRate <= 0.5) {
+        // Weak English → A2 试学周
+        kaizenFocus = missedEnglish.length > 0 ? missedEnglish[0] : "冠词与时态准确度";
         return {
           weekTitle: "A2 试学周",
           weekUrl: "/learn/trial/A2",
           kaizenFocus,
           pathway: "小学 AEIS 路径（P2–P5）· CEQ English + AEIS 数学"
         };
+      } else if (englishRate > 0.5 && mathRate <= 0.5) {
+        // English OK but weak maths → MATH 试学周
+        kaizenFocus = missedMath.length > 0 ? missedMath[0] : "数学基础";
+        return {
+          weekTitle: "MATH 试学周",
+          weekUrl: "/learn/trial/MATH",
+          kaizenFocus,
+          pathway: "小学 AEIS 路径（P2–P5）· CEQ English + AEIS 数学"
+        };
       } else if (isUpperPrimary && englishRate >= 0.75) {
+        // P5 + strong English + maths not weak → B1 试学周
+        kaizenFocus = missedEnglish.length > 0 ? missedEnglish[0] : "英语进阶用法";
         return {
           weekTitle: "B1 试学周",
           weekUrl: "/learn/trial/B1",
@@ -197,6 +206,8 @@ export default function GuidePage() {
           pathway: "小学 AEIS 路径（P5）· CEQ English + AEIS 数学"
         };
       } else {
+        // Default → A2 试学周
+        kaizenFocus = missedEnglish.length > 0 ? missedEnglish[0] : "冠词与时态准确度";
         return {
           weekTitle: "A2 试学周",
           weekUrl: "/learn/trial/A2",
@@ -206,20 +217,24 @@ export default function GuidePage() {
       }
     }
 
-    // Secondary 路径：AEIS 英语 + 数学，数学量大
+    // Secondary 路径：AEIS 英语 + 数学，English weaker → SEC，Maths weaker → SMATH
     if (isSecondary) {
-      if (englishRate < mathRate || mathRate <= 0.5) {
+      if (englishRate < mathRate) {
+        // English weaker → SEC 试学周
+        kaizenFocus = missedEnglish.length > 0 ? missedEnglish[0] : "英语基础";
         return {
-          weekTitle: "SMATH 试学周",
-          weekUrl: "/learn/trial/SMATH",
-          kaizenFocus: missedMath.length > 0 ? missedMath[0] : kaizenFocus,
+          weekTitle: "SEC 试学周",
+          weekUrl: "/learn/trial/SEC",
+          kaizenFocus,
           pathway: "中学 AEIS 路径（Sec 1–3）· AEIS 英语 + 数学"
         };
       } else {
+        // Maths weaker or tie → SMATH 试学周
+        kaizenFocus = missedMath.length > 0 ? missedMath[0] : "数学基础";
         return {
           weekTitle: "SMATH 试学周",
           weekUrl: "/learn/trial/SMATH",
-          kaizenFocus: missedMath.length > 0 ? missedMath[0] : kaizenFocus,
+          kaizenFocus,
           pathway: "中学 AEIS 路径（Sec 1–3）· AEIS 英语 + 数学"
         };
       }
