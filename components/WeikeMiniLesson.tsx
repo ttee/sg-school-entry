@@ -1006,6 +1006,12 @@ export default function WeikeMiniLesson({ level, weekNumber }: WeikeMiniLessonPr
       ],
       gloss: "AEIS 中学数学第 88 周 / SMATH Week 88. 本周例题：Sec 2 S1 mean of ungrouped data（一组未分组数据的平均数）。Mean = (sum of values) ÷ (number of values)（平均数 = 所有数加起来 ÷ 个数）。Calculate the sum, count n, then divide（先算和，数个数，再除）。Common fossil: treating the sum as the mean (forgot to divide by n)（常见错误：把和当成平均数，忘记除以 n）。"
     },
+    "SMATH-89": {
+      examples: [
+        "Data set 3, 3, 5, 7, 9 → mode = 3 (3 appears twice, most frequent)"
+      ],
+      gloss: "AEIS 中学数学第 89 周 / SMATH Week 89. 本周例题：Sec 2 S1 mode of ungrouped data（一组未分组数据的众数）。Mode = the value that appears most often（众数 = 出现次数最多的那个数）。Count how many times each value appears（数每个数出现几次）。Common fossil: using the sum as the mode; using the largest value as the mode; using the mean instead of the mode（常见错误：把和当成众数；把最大值当成众数；把平均数当成众数）。"
+    },
     "SEC-0": {
       fossil: "Although I was nervous, but I tried. ✗ (中文「虽然…但是…」迁移) / I go yesterday ✗ (叙事体过去时掉落)",
       examples: [
