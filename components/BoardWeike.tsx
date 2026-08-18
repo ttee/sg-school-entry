@@ -933,6 +933,12 @@ export default function BoardWeike({ level, weekNumber, planTitle, planFirstLine
       ],
       gloss: "平面图形的放大和缩小：k > 1 放大，0 < k < 1 缩小，像边 = k × 物边，角度不变。"
     },
+    "SMATH-88": {
+      examples: [
+        "Data set 4, 6, 8, 10 → sum = 4 + 6 + 8 + 10 = 28, n = 4, mean = 28 ÷ 4 = 7"
+      ],
+      gloss: "一组未分组数据的平均数：平均数 = 所有数加起来 ÷ 个数。先算和，数个数，再除。"
+    },
     "SEC-0": {
       fossil: "Although I was nervous, but I tried. ✗ (中文「虽然…但是…」迁移) / I go yesterday ✗ (叙事体过去时掉落)",
       examples: [

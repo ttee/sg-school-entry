@@ -15078,6 +15078,104 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
         },
       ],
     },
+    {
+      level: "SMATH",
+      weekNumber: 88,
+      title: "平均数 — Mean of ungrouped data",
+      description: "Sec 2 S1 mean as a measure of central tendency for ungrouped data (AEIS 中学数学第 88 周 / SMATH Week 88)",
+      isSample: false,
+      errorFocus: "adding the numbers and forgetting to divide by n; dividing by the wrong n; treating one value as the mean",
+      parentBrief: "本周练一组数据的平均数（mean）。平均数 = 所有数加起来再除以个数。不要把加起来的和当成平均数。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "At Riverside Secondary, Mr Lim gives the data set 2, 4, 6, 8. Wei asks: 「What is the mean?」 Which working is correct?|A. Sum = 2 + 4 + 6 + 8 = 20. Number of values n = 4. Mean = 20 ÷ 4 = 5. ✓|B. Mean = 2 + 4 + 6 + 8 = 20. Fossil: treating the sum as the mean (forgot to divide by n)|C. Mean = 20 ÷ 2 = 10. Fossil: dividing by the wrong n (used 2 instead of 4)|D. Mean = 6. Fossil: treating one value in the data set as the mean",
+            "At Riverside Secondary, Aisha calculates the mean of 3, 5, 7, 9, 11. Which is correct?|A. Sum = 3 + 5 + 7 + 9 + 11 = 35. n = 5. Mean = 35 ÷ 5 = 7. ✓|B. Mean = 3 + 5 + 7 + 9 + 11 = 35. Fossil: sum as the mean|C. Mean = 35 ÷ 3 = 11.67. Fossil: wrong n|D. Mean = 11. Fossil: treating one value as the mean",
+            "At Riverside Secondary, Mr Lim shows the data set 10, 10, 10, 14. Wei says: 「The mean is 11.」 Which working shows this?|A. Sum = 10 + 10 + 10 + 14 = 44. n = 4. Mean = 44 ÷ 4 = 11. ✓|B. Sum = 10 + 10 + 10 + 14 = 44. Mean = 44. Fossil: sum as the mean|C. Mean = 44 ÷ 3 = 14.67. Fossil: dividing by 3 instead of 4|D. Mean = 10. Fossil: treating the repeated value as the mean",
+            "At Riverside Secondary, Aisha gives Wei the data set 5, 5, 5, 9. Wei calculates the mean. Which is correct?|A. Sum = 5 + 5 + 5 + 9 = 24. n = 4. Mean = 24 ÷ 4 = 6. ✓|B. Mean = 5 + 5 + 5 + 9 = 24. Fossil: sum as the mean|C. Mean = 24 ÷ 3 = 8. Fossil: counting only 3 values (ignoring one repeated 5)|D. Mean = 9. Fossil: treating the largest value as the mean",
+            "At Riverside Secondary, Mr Lim asks: 「Wei says the mean of 3, 9, 12 is 24. Aisha says we need to divide by 3.」 Who is correct?|A. Aisha is correct. Sum = 3 + 9 + 12 = 24. n = 3. Mean = 24 ÷ 3 = 8, not 24. Wei forgot to divide. ✓|B. Wei is correct. Mean = 24|C. Mean = 12. Fossil: treating one value as the mean|D. Mean = 24 ÷ 2 = 12. Fossil: dividing by 2 instead of 3",
+          ]),
+          correctAnswer: "A,A,A,A,A",
+          points: 10,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "At Riverside Secondary, Mr Lim shows the data set 6, 6, 6, 10. Aisha calculates the mean. Which is correct?|A. Sum = 6 + 6 + 6 + 10 = 28. n = 4. Mean = 28 ÷ 4 = 7. ✓|B. Mean = 6 + 6 + 6 + 10 = 28. Fossil: sum as the mean|C. Mean = 28 ÷ 3 = 9.33. Fossil: counting only 3 values|D. Mean = 6. Fossil: treating the repeated value as the mean",
+            "At Riverside Secondary, Wei calculates the mean of 8, 12, 16. Which working is correct?|A. Sum = 8 + 12 + 16 = 36. n = 3. Mean = 36 ÷ 3 = 12. ✓|B. Mean = 8 + 12 + 16 = 36. Fossil: sum as the mean|C. Mean = 36 ÷ 2 = 18. Fossil: dividing by 2 instead of 3|D. Mean = 16. Fossil: treating the largest value as the mean",
+            "At Riverside Secondary, Aisha calculates the mean of 1, 3, 5, 7, 9. Which is correct?|A. Sum = 1 + 3 + 5 + 7 + 9 = 25. n = 5. Mean = 25 ÷ 5 = 5. ✓|B. Mean = 1 + 3 + 5 + 7 + 9 = 25. Fossil: sum as the mean|C. Mean = 5. But using a different reason: treating the middle value as the mean (this is median, not taught this week)|D. Mean = 25 ÷ 4 = 6.25. Fossil: dividing by 4 instead of 5",
+            "At Riverside Secondary, Mr Lim shows the data set 15, 15, 21. Wei says: 「The mean is 17.」 Which working shows this?|A. Sum = 15 + 15 + 21 = 51. n = 3. Mean = 51 ÷ 3 = 17. ✓|B. Mean = 15 + 15 + 21 = 51. Fossil: sum as the mean|C. Mean = 51 ÷ 2 = 25.5. Fossil: dividing by 2 instead of 3|D. Mean = 15. Fossil: treating the repeated value as the mean",
+            "At Riverside Secondary, Aisha calculates the mean of 0, 4, 8, 12. Which is correct?|A. Sum = 0 + 4 + 8 + 12 = 24. n = 4. Mean = 24 ÷ 4 = 6. ✓|B. Mean = 0 + 4 + 8 + 12 = 24. Fossil: sum as the mean|C. Mean = 24 ÷ 3 = 8. Fossil: ignoring the 0 and counting only 3 values|D. Mean = 8. Fossil: treating the middle-ish value as the mean",
+            "At Riverside Secondary, Wei shows the data set 9, 9, 9, 9. Mr Lim asks: 「What is the mean?」 Which is correct?|A. Sum = 9 + 9 + 9 + 9 = 36. n = 4. Mean = 36 ÷ 4 = 9. When all values are equal, the mean equals that value. ✓|B. Mean = 9 + 9 + 9 + 9 = 36. Fossil: sum as the mean|C. Mean = 36 ÷ 1 = 36. Fossil: treating n = 1 because 'only one distinct value'|D. Mean = 0. Fossil: incorrect calculation",
+            "At Riverside Secondary, Aisha calculates the mean of 2, 2, 2, 2, 12. Which is correct?|A. Sum = 2 + 2 + 2 + 2 + 12 = 20. n = 5. Mean = 20 ÷ 5 = 4. ✓|B. Mean = 2 + 2 + 2 + 2 + 12 = 20. Fossil: sum as the mean|C. Mean = 20 ÷ 4 = 5. Fossil: counting only 4 values (ignoring one repeated 2)|D. Mean = 2. Fossil: treating the repeated value as the mean",
+            "At Riverside Secondary, Mr Lim asks Wei: 「Calculate the mean of 7, 8, 9, 16.」 Which is correct?|A. Sum = 7 + 8 + 9 + 16 = 40. n = 4. Mean = 40 ÷ 4 = 10. ✓|B. Mean = 7 + 8 + 9 + 16 = 40. Fossil: sum as the mean|C. Mean = 40 ÷ 3 = 13.33. Fossil: dividing by 3 instead of 4|D. Mean = 8. Fossil: treating one value as the mean",
+          ]),
+          correctAnswer: "A,A,A,A,A,A,A,A",
+          points: 16,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `Part 2: Show Your Working (写出算式步骤)
+
+Riverside Secondary School has statistics questions about the mean of ungrouped data. Answer the questions below. Show your working clearly.
+
+Question (a)
+At Riverside Secondary, Mr Lim gives Wei the data set 11, 13, 15, 17.
+(i) Calculate the sum of the values. Show your working: sum = 11 + 13 + 15 + 17 = ?.
+(ii) How many values are there? Write n = ?.
+(iii) Calculate the mean. Show your working: mean = sum ÷ n = ? ÷ ? = ?. Write your answer.
+(iv) Wei says: 「The mean is 56 because 11 + 13 + 15 + 17 = 56.」 Explain why Wei is wrong. What did Wei forget? (Hint: Wei calculated the sum but forgot to divide by n.)
+
+Question (b)
+At Riverside Secondary, Aisha measures the data set 2, 6, 10, 14, 18.
+(i) Calculate the sum of the values. Show your working: sum = 2 + 6 + 10 + 14 + 18 = ?.
+(ii) How many values are there? Write n = ?.
+(iii) Calculate the mean. Show your working: mean = sum ÷ n = ? ÷ ? = ?. Write your answer.
+(iv) Mr Lim asks: 「If Aisha divides the sum by 4 instead of 5, what mean would she get?」 Calculate 50 ÷ 4 = ?. Compare with your answer in (iii). Which is correct and why?
+
+Question (c)
+At Riverside Secondary, Wei shows the data set 21, 21, 21, 29.
+(i) Calculate the sum of the values. Show your working: sum = 21 + 21 + 21 + 29 = ?.
+(ii) How many values are there? Write n = ?. (Hint: Count every value, even if some are repeated.)
+(iii) Calculate the mean. Show your working: mean = sum ÷ n = ? ÷ ? = ?. Write your answer.
+(iv) Aisha says: 「The mean is 21 because three values are 21.」 Explain why Aisha is wrong and what the correct mean should be. (Hint: Mean = (sum of all values) ÷ n, not just picking the most common value.)
+
+写作提示 / Tips:
+✓ 每题分步骤写出推理 (Show working steps for each question)
+✓ Part 2 官方要求：clearly show the method of solution by writing working steps, plus the final answer
+✓ 不用计算器 (No calculators allowed)
+✓ 本周教 Sec 2 STATISTICS AND PROBABILITY, S1. Data handling and analysis: 本周是 mean as a measure of central tendency for a set of ungrouped data. Official formula: mean = (sum of values) ÷ (number of values). Simple calculate-the-mean problems. Integer data values. Integer or terminating one-decimal means that a no-calculator child can get (prefer integer means). No calculator. 本周不教 mode（众数）。本周不教 median（中位数）。本周不教 grouped-data mean（分组数据平均数）。本周不教 histograms / stem-and-leaf / box plots / quartiles / standard deviation（不教直方图/茎叶图/箱线图/四分位数/标准差）。本周不教 S2 probability（不教概率）。Cast: Wei, Aisha, Mr Lim at Riverside Secondary. No calculator.
+✓ 平均数步骤示范 (Mean calculation examples):
+  • Data set 4, 6, 8, 10 → sum 28, n = 4, mean = 7:
+    Question: Calculate the mean of 4, 6, 8, 10. Show your working.
+    Solution: ① Calculate the sum: sum = 4 + 6 + 8 + 10 = 28. ② Count the number of values: n = 4. ③ Mean = sum ÷ n = 28 ÷ 4 = 7. Answer: 7. (Note: Common fossil: saying the mean is 28 (forgot to divide by n). The sum is 28, but the mean is 28 ÷ 4 = 7.)
+  • Data set 3, 5, 7, 9, 11 → sum 35, n = 5, mean = 7:
+    Question: Calculate the mean of 3, 5, 7, 9, 11. Show your working.
+    Solution: ① Calculate the sum: sum = 3 + 5 + 7 + 9 + 11 = 35. ② Count the number of values: n = 5. ③ Mean = sum ÷ n = 35 ÷ 5 = 7. Answer: 7. (Note: The mean is 7, not 35. We must divide the sum by n.)
+  • Data set 5, 5, 5, 9 → sum 24, n = 4, mean = 6:
+    Question: Calculate the mean of 5, 5, 5, 9. Show your working.
+    Solution: ① Calculate the sum: sum = 5 + 5 + 5 + 9 = 24. ② Count the number of values: n = 4. (Even though 5 is repeated, we count each occurrence. There are four values, not three.) ③ Mean = sum ÷ n = 24 ÷ 4 = 6. Answer: 6. (Note: Common fossil: treating the repeated value 5 as the mean. The mean is 6, not 5. Another fossil: dividing by 3 instead of 4 (counting only three distinct values). Correct: count every value, n = 4.)
+✓ 关键步骤：Step 1: Calculate the sum of all values（计算所有数的和）. sum = value₁ + value₂ + ... + valueₙ. Step 2: Count the number of values（数有几个数）. n = number of values. Step 3: Calculate the mean（计算平均数）. mean = sum ÷ n. Step 4: State the final answer with correct units if applicable（陈述最终答案，如适用则带单位）.
+✓ 化石 (fossil errors):
+  • Adding the numbers and forgetting to divide by n（把数加起来，忘记除以个数）：sum = 11 + 13 + 15 + 17 = 56. Saying the mean is 56（错误：说平均数是 56）。正确：mean = 56 ÷ 4 = 14。
+  • Dividing by the wrong n（除以错误的 n）：sum = 2 + 6 + 10 + 14 + 18 = 50. Dividing by 4 instead of 5（错误：除以 4 而不是 5）：50 ÷ 4 = 12.5。正确：n = 5，mean = 50 ÷ 5 = 10。
+  • Treating one value as the mean（把某个值当成平均数）：data set 21, 21, 21, 29. Saying the mean is 21 because it appears most often（错误：说平均数是 21 因为它出现最多）。正确：sum = 21 + 21 + 21 + 29 = 92, n = 4, mean = 92 ÷ 4 = 23。
+  • 本周教 S1 的 mean of ungrouped data（一组未分组数据的平均数）。本周不教 mode（众数）、median（中位数）、grouped-data mean（分组数据平均数）。本周不教 histograms / stem-and-leaf / box plots / quartiles / standard deviation。本周不教 S2 probability。
+✓ Writing 数值不能抄 微课：微课用 4, 6, 8, 10 → mean 7（这是 BoardWeike 微课例题）。Writing Q 用 11, 13, 15, 17 → mean 14 (Q a); 2, 6, 10, 14, 18 → mean 10 (Q b); 21, 21, 21, 29 → mean 23 (Q c)。不能抄本周 MCQ 的其他数值（2,4,6,8 → 5; 3,5,7,9,11 → 7; 10,10,10,14 → 11; 5,5,5,9 → 6; 3,9,12 → 8; 6,6,6,10 → 7; 8,12,16 → 12; 1,3,5,7,9 → 5; 15,15,21 → 17; 0,4,8,12 → 6; 9,9,9,9 → 9; 2,2,2,2,12 → 4; 7,8,9,16 → 10 等）。也不能用 W87 writing 的立体几何数值（128, 2464, 4000π/3, 400π 等，W87 是立体几何，本周是统计，不能重复）。
+
+Note: This is a sample of Part 2 short-answer/open-ended questions. The official paper has 20 short-answer + 10–15 open-ended items in 1 hour 45 minutes.`,
+          points: 20,
+        },
+      ],
+    },
   ];
 
 
