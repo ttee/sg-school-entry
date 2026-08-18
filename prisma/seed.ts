@@ -14250,11 +14250,11 @@ At Riverside Secondary, Mr Lim shows a pentagon:
 
 Question (c)
 At Riverside Secondary, Mr Lim draws two triangles:
-• Object Triangle XYZ: XY = 4 cm, YZ = 6 cm, ZX = 8 cm, ∠X = 40°, ∠Y = 60°, ∠Z = 80°
-• Image Triangle X'Y'Z': X'Y' = 12 cm, Y'Z' = 18 cm, Z'X' = 24 cm
-(i) Calculate the scale factor k from Triangle XYZ to Triangle X'Y'Z'. Show your working: k = X'Y' / XY = 12 / 4 = ? (Check: k = Y'Z' / YZ = ? and k = Z'X' / ZX = ?)
+• Object Triangle XYZ: XY = 5 cm, YZ = 12 cm, ZX = 13 cm, ∠X = 90°, ∠Y = 35°, ∠Z = 55°
+• Image Triangle X'Y'Z': X'Y' = 15 cm, Y'Z' = 36 cm, Z'X' = 39 cm
+(i) Calculate the scale factor k from Triangle XYZ to Triangle X'Y'Z'. Show your working: k = X'Y' / XY = 15 / 5 = ? (Check: k = Y'Z' / YZ = ? and k = Z'X' / ZX = ?)
 (ii) Is this an enlargement or a reduction? Explain your answer: k compared to 1.
-(iii) Aisha says: 「Because k = 3, the angles in Triangle X'Y'Z' are three times as big: ∠X' = 40° × 3 = 120°, ∠Y' = 60° × 3 = 180°, ∠Z' = 80° × 3 = 240°.」 Is Aisha correct? Explain why scale factor applies to side LENGTHS but NOT to angles. What are the correct values of ∠X', ∠Y', ∠Z'?
+(iii) Aisha says: 「Because k = 3, the angles in Triangle X'Y'Z' are three times as big: ∠X' = 90° × 3 = 270°, ∠Y' = 35° × 3 = 105°, ∠Z' = 55° × 3 = 165°.」 Is Aisha correct? Explain why scale factor applies to side LENGTHS but NOT to angles. What are the correct values of ∠X', ∠Y', ∠Z'?
 
 写作提示 / Tips:
 ✓ 每题分步骤写出推理 (Show working steps for each question)
@@ -14267,7 +14267,7 @@ At Riverside Secondary, Mr Lim draws two triangles:
   • k = 1/2 called an enlargement (wrong, k = 1/2 < 1 is reduction)（k = 1/2 被称为放大，错误，k = 1/2 < 1 是缩小）
   • Scale factor applied to an angle (wrong, angles do not scale)（缩放比例应用于角度，错误，角度不缩放）
   • Two options that are same object–image pair in different order offered as two correct answers (wrong, read direction: which is object, which is image)（两个选项是同一物体-像对以不同顺序呈现作为两个正确选项，错误，读清方向：哪个是物体，哪个是像）
-  • Writing copies 微课 example numbers (Writing Q uses k = 2 triangle 3-4-5 cm with 90°; k = 1/3 pentagon 6-9-12-15-18 cm; k = 3 triangle 4-6-8 cm with 40-60-80°. NOT the same as 微课: k = 3 triangle 2 cm, k = 1/2 rectangle 10-8 cm, k = 4 triangle 45°.)
+  • Writing copies 微课 example numbers (Writing Q uses k = 2 triangle 3-4-5 cm with 90°; k = 1/3 pentagon 6-9-12-15-18 cm; k = 3 triangle 5-12-13 cm with 90-35-55°. NOT the same as 微课: k = 3 triangle 2 cm, k = 1/2 rectangle 10-8 cm, k = 4 triangle 45°.)
 ✓ 本周不教 G2.5 solving simple problems involving similar figures（不教相似图形应用题）；不教 G2.6 scale drawings（不教比例尺图）；不教 G2.8 SSS/SAS tests（不教 SSS/SAS 检验）；不教 G2.9 ratio of areas = k²（不教面积比等于 k²）；不教 G2.10 ratio of volumes = k³（不教体积比等于 k³）. 本周只教 G2.4: k > 1 enlargement, 0 < k < 1 reduction, centre O, image = k × object, angles unchanged.
 
 Note: This is a sample of Part 2 short-answer/open-ended questions. The official paper has 20 short-answer + 10–15 open-ended items in 1 hour 45 minutes.`,
