@@ -960,6 +960,14 @@ export default function WeikeMiniLesson({ level, weekNumber }: WeikeMiniLessonPr
       ],
       gloss: "AEIS 中学数学第 82 周 / SMATH Week 82. 本周例题：Sec 2 G2.8 determining congruent or similar triangles（判断全等或相似三角形）。"
     },
+    "SMATH-83": {
+      examples: [
+        "Two similar triangles, k = 2. Small area 5 cm² → large area 5 × 4 = 20 cm²",
+        "Two similar rectangles, area ratio 9 : 1 so k = 3 (or 1/3). Small length 4 cm → large 12 cm",
+        "Two similar pentagons, k = 1/2. Large area 36 cm² → small area 36 × 1/4 = 9 cm²"
+      ],
+      gloss: "AEIS 中学数学第 83 周 / SMATH Week 83. 本周例题：Sec 2 G2.9 ratio of areas of similar figures = k²（相似图形的面积比等于 k²）。"
+    },
     "SEC-0": {
       fossil: "Although I was nervous, but I tried. ✗ (中文「虽然…但是…」迁移) / I go yesterday ✗ (叙事体过去时掉落)",
       examples: [
