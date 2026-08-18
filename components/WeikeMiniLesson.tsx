@@ -992,6 +992,14 @@ export default function WeikeMiniLesson({ level, weekNumber }: WeikeMiniLessonPr
       ],
       gloss: "AEIS 中学数学第 86 周 / SMATH Week 86. 本周例题：Sec 2 G4 trigonometric ratios of acute angles only（锐角的三角函数比值）。In a right-angled triangle（直角三角形）, sin θ = opposite / hypotenuse（对边/斜边）, cos θ = adjacent / hypotenuse（邻边/斜边）, tan θ = opposite / adjacent（对边/邻边）。Identify the ratio or find a missing side from a given ratio（辨认比值或根据给定比值求缺失的边）。"
     },
+    "SMATH-87": {
+      examples: [
+        "Square-base pyramid: base 6 cm by 6 cm, height 4 cm → volume = (1/3)×36×4 = 48 cm³",
+        "Cone: r = 7 cm, h = 9 cm, take π = 22/7 → volume = (1/3)×(22/7)×49×9 = 462 cm³",
+        "Sphere: r = 7 cm, leave in terms of π → volume = (4/3)π×343 = 1372π/3 cm³ ; surface area = 4π×49 = 196π cm²"
+      ],
+      gloss: "AEIS 中学数学第 87 周 / SMATH Week 87. 本周例题：Sec 2 G5.6 volume and surface area of pyramid, cone and sphere（棱锥、圆锥和球体的体积和表面积）。Volume of a pyramid = (1/3) × base area × height; volume of a cone = (1/3)πr²h; volume of a sphere = (4/3)πr³; surface area of a sphere = 4πr²; curved surface area of a cone = πrl (l = slant height)。Simple find-a-volume or find-a-surface-area（简单求体积或求表面积）。"
+    },
     "SEC-0": {
       fossil: "Although I was nervous, but I tried. ✗ (中文「虽然…但是…」迁移) / I go yesterday ✗ (叙事体过去时掉落)",
       examples: [

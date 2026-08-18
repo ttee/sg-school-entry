@@ -230,7 +230,7 @@ export default function HomePage() {
                   AEIS 英语与 AEIS 数学两科都要考。中学路径不要求 CEQ。
                 </p>
                 <p className="text-sm text-ink-2 mb-4">
-                  中学英语有试学周 + 第 1–11 周。中学数学有试学周 + 第 1–86 周。申请 Sec 1 用前一级 P6；申请 Sec 2 用前一级 Sec 1；申请 Sec 3 用前一级 Sec 2。卷型：英语是写作 + 理解/语言运用；数学是选择题 + 写算式。
+                  中学英语有试学周 + 第 1–11 周。中学数学有试学周 + 第 1–87 周。申请 Sec 1 用前一级 P6；申请 Sec 2 用前一级 Sec 1；申请 Sec 3 用前一级 Sec 2。卷型：英语是写作 + 理解/语言运用；数学是选择题 + 写算式。
                 </p>
                 <ul className="space-y-0 border-t border-line">
                   <li className="border-b border-line py-3 pl-5 relative before:absolute before:left-0 before:top-5 before:w-2 before:h-2 before:rounded-full before:bg-accent text-sm text-ink-2">
@@ -285,7 +285,7 @@ export default function HomePage() {
                 </div>
                 <p className="text-xs font-semibold uppercase tracking-wide text-accent mb-3">按月订阅</p>
                 <p className="text-ink-2 mb-4 text-sm">
-                  作业 app 解锁已上线周数：A2 / B1 / SEC 各试学周 + 第 1–11 周，MATH 试学周 + 第 1–29 周，SMATH 试学周 + 第 1–86 周。家长微信进度通报。可随时取消。
+                  作业 app 解锁已上线周数：A2 / B1 / SEC 各试学周 + 第 1–11 周，MATH 试学周 + 第 1–29 周，SMATH 试学周 + 第 1–87 周。家长微信进度通报。可随时取消。
                 </p>
                 <ul className="space-y-0 border-t border-line mb-5">
                   <li className="border-b border-line py-3 pl-5 relative before:absolute before:left-0 before:top-5 before:w-2 before:h-2 before:rounded-full before:bg-accent text-sm text-ink-2">

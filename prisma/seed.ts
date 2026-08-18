@@ -14982,6 +14982,102 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
         },
       ],
     },
+    {
+      level: "SMATH",
+      weekNumber: 87,
+      title: "棱锥、圆锥和球体的体积和表面积 — Volume and surface area of pyramid, cone and sphere",
+      description: "Sec 2 G5.6 volume and surface area of pyramid, cone and sphere (AEIS 中学数学第 87 周 / SMATH Week 87)",
+      isSample: false,
+      errorFocus: "forgetting the 1/3 for pyramid or cone; using 4πr³ instead of (4/3)πr³ for sphere volume; two options that are the same value (one in terms of π and one evaluated with 22/7)",
+      parentBrief: "本周练棱锥、圆锥和球体的体积和表面积（volume and surface area of pyramid, cone and sphere）。G5.6: volume of a pyramid = (1/3) × base area × height; volume of a cone = (1/3)πr²h; volume of a sphere = (4/3)πr³; surface area of a sphere = 4πr²; curved surface area of a cone = πrl (l = slant height)。Simple find-a-volume or find-a-surface-area。Integer r, h, l。For π: use 22/7 with r a multiple of 7, OR leave the answer in terms of π —— never both as options on the same item。No calculator。本周不发明 √3。本周不教 G4 trig。本周不教 G2.10 k³。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "At Riverside Secondary, Mr Lim shows a square-base pyramid. The base is 6 cm by 6 cm. The vertical height is 4 cm. Wei asks: 「What is the volume?」 Which is correct?|A. Volume = (1/3) × base area × height = (1/3) × 36 × 4 = 48 cm³. ✓|B. Volume = base area × height = 36 × 4 = 144 cm³. Fossil: forgetting the 1/3 for pyramid|C. Volume = (1/2) × base area × height = (1/2) × 36 × 4 = 72 cm³. Fossil: using 1/2 instead of 1/3|D. Volume = (1/3) × 6 × 4 = 8 cm³. Fossil: using base side 6 instead of base area 36",
+            "At Riverside Secondary, Aisha measures a cone. The radius is 7 cm and the height is 9 cm. Take π = 22/7. Mr Lim asks: 「What is the volume?」 Which is correct?|A. Volume = (1/3)πr²h = (1/3) × (22/7) × 49 × 9 = 462 cm³. ✓|B. Volume = πr²h = (22/7) × 49 × 9 = 1386 cm³. Fossil: forgetting the 1/3 for cone|C. Volume = (1/3)πrh = (1/3) × (22/7) × 7 × 9 = 66 cm³. Fossil: using r instead of r²|D. Volume = (1/3) × 22 × 49 × 9 = 3234 cm³. Fossil: using 22 instead of 22/7",
+            "At Riverside Secondary, Wei calculates the volume of a sphere with radius 7 cm. Leave your answer in terms of π. Which is correct?|A. Volume = (4/3)πr³ = (4/3)π × 343 = 1372π/3 cm³. ✓|B. Volume = 4πr³ = 4π × 343 = 1372π cm³. Fossil: forgetting the 1/3 (using 4 instead of 4/3)|C. Volume = (4/3)πr² = (4/3)π × 49 = 196π/3 cm³. Fossil: using r² instead of r³|D. Volume = (4/3)π × 7 = 28π/3 cm³. Fossil: using r instead of r³",
+            "At Riverside Secondary, Aisha calculates the surface area of a sphere with radius 7 cm. Leave your answer in terms of π. Which is correct?|A. Surface area = 4πr² = 4π × 49 = 196π cm². ✓|B. Surface area = 2πr² = 2π × 49 = 98π cm². Fossil: using 2 instead of 4|C. Surface area = 4πr³ = 4π × 343 = 1372π cm³. Fossil: using r³ instead of r² (that is volume formula)|D. Surface area = πr² = π × 49 = 49π cm². Fossil: using πr² (circle area) instead of 4πr²",
+            "At Riverside Secondary, Mr Lim shows a square-base pyramid. The base is 10 cm by 10 cm. The vertical height is 12 cm. Wei says: 「Volume = (1/3) × 10 × 12 = 40 cm³.」 Aisha says: 「No, we need base area, not base side.」 Which is correct?|A. Aisha is correct. Base area = 10 × 10 = 100 cm². Volume = (1/3) × 100 × 12 = 400 cm³, not 40 cm³. Wei used base side 10 instead of base area 100. ✓|B. Wei is correct. Volume = 40 cm³|C. Volume = (1/3) × 10 × 10 = 100/3 cm³. Fossil: using (1/3) × base area without height|D. Volume = 10 × 10 × 12 = 1200 cm³. Fossil: forgetting the 1/3",
+          ]),
+          correctAnswer: "A,A,A,A,A",
+          points: 10,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "At Riverside Secondary, Mr Lim shows a cone. The radius is 7 cm, the height is 6 cm. Take π = 22/7. Wei asks: 「What is the volume?」 Which is correct?|A. Volume = (1/3)πr²h = (1/3) × (22/7) × 49 × 6 = 308 cm³. ✓|B. Volume = πr²h = (22/7) × 49 × 6 = 924 cm³. Fossil: forgetting the 1/3|C. Volume = (1/3) × (22/7) × 7 × 6 = 44 cm³. Fossil: using r instead of r²|D. Volume = (1/3) × 49 × 6 = 98 cm³. Fossil: forgetting π",
+            "At Riverside Secondary, Aisha calculates the volume of a sphere with radius 3 cm. Leave your answer in terms of π. Which is correct?|A. Volume = (4/3)πr³ = (4/3)π × 27 = 36π cm³. ✓|B. Volume = 4πr³ = 4π × 27 = 108π cm³. Fossil: using 4 instead of 4/3|C. Volume = (4/3)πr² = (4/3)π × 9 = 12π cm². Fossil: using r² instead of r³|D. Volume = (4/3) × 27 = 36 cm³. Fossil: forgetting π",
+            "At Riverside Secondary, Wei shows a square-base pyramid. The base is 5 cm by 5 cm. The height is 9 cm. Aisha asks: 「What is the volume?」 Which is correct?|A. Volume = (1/3) × base area × height = (1/3) × 25 × 9 = 75 cm³. ✓|B. Volume = base area × height = 25 × 9 = 225 cm³. Fossil: forgetting the 1/3|C. Volume = (1/3) × 5 × 9 = 15 cm³. Fossil: using base side 5 instead of base area 25|D. Volume = (1/2) × 25 × 9 = 112.5 cm³. Fossil: using 1/2 instead of 1/3",
+            "At Riverside Secondary, Mr Lim shows a sphere with radius 5 cm. Aisha calculates the surface area in terms of π. Which is correct?|A. Surface area = 4πr² = 4π × 25 = 100π cm². ✓|B. Surface area = 2πr² = 2π × 25 = 50π cm². Fossil: using 2 instead of 4|C. Surface area = 4πr = 4π × 5 = 20π cm. Fossil: using r instead of r²|D. Surface area = πr² = π × 25 = 25π cm². Fossil: using πr² (circle area) instead of 4πr²",
+            "At Riverside Secondary, Wei calculates the volume of a cone. Radius 14 cm, height 6 cm. Take π = 22/7. Which is correct?|A. Volume = (1/3)πr²h = (1/3) × (22/7) × 196 × 6 = 1232 cm³. ✓|B. Volume = πr²h = (22/7) × 196 × 6 = 3696 cm³. Fossil: forgetting the 1/3|C. Volume = (1/3) × (22/7) × 14 × 6 = 88 cm³. Fossil: using r instead of r²|D. Volume = (1/3) × 196 × 6 = 392 cm³. Fossil: forgetting π",
+            "At Riverside Secondary, Aisha shows a rectangular-base pyramid. The base is 4 cm by 6 cm. The height is 5 cm. Mr Lim asks: 「What is the volume?」 Which is correct?|A. Volume = (1/3) × base area × height = (1/3) × 24 × 5 = 40 cm³. Base area = 4 × 6 = 24 cm². ✓|B. Volume = base area × height = 24 × 5 = 120 cm³. Fossil: forgetting the 1/3|C. Volume = (1/3) × 4 × 6 = 8 cm³. Fossil: using (1/3) × base area without height|D. Volume = (1/2) × 24 × 5 = 60 cm³. Fossil: using 1/2 instead of 1/3",
+            "At Riverside Secondary, Wei says: 「A sphere has radius 4 cm. Volume = 4π × 64 = 256π cm³.」 Aisha says: 「No, we need 4/3, not 4.」 Which is correct?|A. Aisha is correct. Volume = (4/3)πr³ = (4/3)π × 64 = 256π/3 cm³, not 256π. Wei used 4 instead of 4/3. ✓|B. Wei is correct. Volume = 256π cm³|C. Volume = (4/3)π × 16 = 64π/3 cm³. Fossil: using r² instead of r³|D. Volume = 4π × 4 = 16π cm³. Fossil: using r instead of r³",
+            "At Riverside Secondary, Mr Lim shows a cone. Radius 21 cm, height 8 cm. Take π = 22/7. Aisha calculates the volume. Which working is correct?|A. Volume = (1/3)πr²h = (1/3) × (22/7) × 441 × 8 = 3696 cm³. r² = 21² = 441. ✓|B. Volume = πr²h = (22/7) × 441 × 8 = 11088 cm³. Fossil: forgetting the 1/3|C. Volume = (1/3) × (22/7) × 21 × 8 = 176 cm³. Fossil: using r instead of r²|D. Volume = (1/3) × 441 × 8 = 1176 cm³. Fossil: forgetting π",
+          ]),
+          correctAnswer: "A,A,A,A,A,A,A,A",
+          points: 16,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `Part 2: Show Your Working (写出算式步骤)
+
+Riverside Secondary School has geometry questions about volume and surface area of pyramid, cone and sphere. Answer the questions below. Show your working clearly.
+
+Question (a)
+At Riverside Secondary, Mr Lim shows a square-base pyramid. The base is 8 cm by 8 cm. The vertical height is 6 cm.
+(i) Calculate the base area. Show your working: base area = length × width = ?.
+(ii) Calculate the volume of the pyramid. Show your working: volume = (1/3) × base area × height = (1/3) × ? × 6 = ?. Write your answer in cm³.
+(iii) Wei says: 「Volume = 8 × 8 × 6 = 384 cm³ because we multiply base × height.」 Explain why Wei is wrong. What did Wei forget? (Hint: pyramid volume needs 1/3, not full base × height.)
+
+Question (b)
+At Riverside Secondary, Aisha measures a cone. The radius is 28 cm and the height is 3 cm. Take π = 22/7.
+(i) Calculate r². Show your working: r = 28 cm, so r² = 28² = ?.
+(ii) Calculate the volume of the cone. Show your working: volume = (1/3)πr²h = (1/3) × (22/7) × ? × 3 = ?. Write your answer in cm³.
+(iii) Mr Lim says: 「If we forget the 1/3, what volume would we get?」 Calculate πr²h (without the 1/3). Compare with your answer in (ii). How many times larger is the wrong answer?
+
+Question (c)
+At Riverside Secondary, Wei calculates the volume and surface area of a sphere with radius 10 cm. Leave your answers in terms of π.
+(i) Calculate r³. Show your working: r = 10 cm, so r³ = 10³ = ?.
+(ii) Calculate the volume of the sphere. Show your working: volume = (4/3)πr³ = (4/3)π × ? = ?. Write your answer in terms of π (e.g. ... π cm³). Simplify if possible.
+(iii) Calculate the surface area of the sphere. Show your working: surface area = 4πr² = 4π × (10²) = 4π × ? = ?. Write your answer in terms of π (e.g. ... π cm²).
+
+写作提示 / Tips:
+✓ 每题分步骤写出推理 (Show working steps for each question)
+✓ Part 2 官方要求：clearly show the method of solution by writing working steps, plus the final answer
+✓ 不用计算器 (No calculators allowed)
+✓ 本周教 Sec 2 GEOMETRY AND MEASUREMENT, G5. Mensuration: 本周是 G5.6 volume and surface area of pyramid, cone and sphere. Official formulas: volume of a pyramid = (1/3) × base area × height; volume of a cone = (1/3)πr²h; volume of a sphere = (4/3)πr³; surface area of a sphere = 4πr²; curved surface area of a cone = πrl (l = slant height). Simple find-a-volume or find-a-surface-area. Integer r, h, l. For π: use 22/7 with r a multiple of 7, OR leave the answer in terms of π —— never both as options on the same item. No calculator. 本周不发明 √3. 本周不教 G4 trig. 本周不教 G2.10 k³. Cast: Wei, Aisha, Mr Lim at Riverside Secondary. No calculator.
+✓ 体积和表面积步骤示范 (Volume and surface area examples):
+  • Square-base pyramid: base 6 cm × 6 cm = 36 cm², height 4 cm → volume = (1/3)×36×4 = 48 cm³:
+    Question: A square-base pyramid has base 6 cm by 6 cm and height 4 cm. Find the volume.
+    Solution: ① Base area = 6 × 6 = 36 cm². ② Volume = (1/3) × base area × height = (1/3) × 36 × 4 = 48 cm³. Answer: 48 cm³. (Note: Common fossil: forgetting the 1/3. If we use base area × height = 36 × 4 = 144 cm³, that is wrong. Pyramid volume must have 1/3.)
+  • Cone: r = 7 cm, h = 9 cm, π = 22/7 → volume = (1/3)×(22/7)×49×9 = 462 cm³:
+    Question: A cone has radius 7 cm and height 9 cm. Take π = 22/7. Find the volume.
+    Solution: ① r² = 7² = 49 cm². ② Volume = (1/3)πr²h = (1/3) × (22/7) × 49 × 9 = (1/3) × 22 × 7 × 9 = (1/3) × 1386 = 462 cm³. Answer: 462 cm³. (Note: Fossil: forgetting the 1/3. πr²h = 1386 cm³ is wrong. Cone volume must have 1/3.)
+  • Sphere: r = 7 cm, in terms of π → volume = (4/3)π×343 = 1372π/3 cm³, surface area = 4π×49 = 196π cm²:
+    Question: A sphere has radius 7 cm. Find (i) the volume in terms of π, (ii) the surface area in terms of π.
+    Solution: ① r³ = 7³ = 343 cm³. ② Volume = (4/3)πr³ = (4/3)π × 343 = 1372π/3 cm³. ③ r² = 7² = 49 cm². ④ Surface area = 4πr² = 4π × 49 = 196π cm². Answer: (i) Volume = 1372π/3 cm³. (ii) Surface area = 196π cm². (Note: Fossil: using 4πr³ instead of (4/3)πr³ for volume. 4π × 343 = 1372π cm³ is wrong. Sphere volume must have 4/3, not 4.)
+✓ 关键步骤：Step 1: Identify the shape (pyramid, cone, or sphere) and the given measurements（识别形状：棱锥、圆锥还是球体，以及给定的尺寸）. Step 2: Write the correct formula（写出正确的公式）. For pyramid: volume = (1/3) × base area × height. For cone: volume = (1/3)πr²h. For sphere: volume = (4/3)πr³, surface area = 4πr². Step 3: Calculate any intermediate values（计算中间值）. For pyramid: base area = length × width (or side × side for square base). For cone/sphere: r² or r³. Step 4: Substitute into the formula（代入公式）. Step 5: Simplify and write the final answer with units（简化并写出最终答案和单位：cm³ for volume, cm² for surface area）. Step 6: Check: did I include the 1/3 for pyramid/cone? Did I use 4/3 (not 4) for sphere volume? Did I use the correct power (r², r³)?
+✓ 化石 (fossil errors):
+  • Forgetting the 1/3 for pyramid or cone（错误：棱锥或圆锥忘记 1/3。例如 volume = base area × height = 36 × 4 = 144 cm³。正确：volume = (1/3) × base area × height = (1/3) × 36 × 4 = 48 cm³）
+  • Using 4πr³ instead of (4/3)πr³ for sphere volume（错误：球体体积用 4πr³ 而不是 (4/3)πr³。例如 volume = 4π × 343 = 1372π cm³。正确：volume = (4/3)π × 343 = 1372π/3 cm³）
+  • Using base side instead of base area for pyramid（错误：棱锥用底边长而不是底面积。例如 volume = (1/3) × 8 × 6 = 16 cm³。正确：base area = 8 × 8 = 64 cm²，volume = (1/3) × 64 × 6 = 128 cm³）
+  • Two options that are the same value (one in terms of π and one evaluated with 22/7)（两个选项是同一个数值：一个用 π 形式，一个用 22/7 算出来。同一道题的选项中不能同时出现。例如「196π/7 cm²」和「88 cm²」是同一个数值（22/7 代入后），不能两个都写成选项）
+  • 本周教 G5.6 volume and surface area of pyramid, cone and sphere。本周不发明 √3（不教需要 √3 的题目，例如正四面体）。本周不教 G4 trigonometry（不教用三角函数求斜高 l 的题目）。本周不教 G2.10 k³（不教相似立体的体积比 k³）。
+✓ Writing 数值不能抄 微课：微课用 48, 462, 1372π/3, 196π（base 6×6 height 4; r=7 h=9; r=7）。Writing Q 用 128, 2464, 4000π/3, 400π（base 8×8 height 6; r=28 h=3; r=10）。不能抄本周 MCQ 的其他数值（308, 36π, 75, 100π, 1232, 40, 256π/3, 3696 等）。也不能用 W86 writing 的 48-55-73, 65-72-97, 44-117-125 等数值（W86 writing 是三角函数，本周是立体几何，不能重复）。
+
+Note: This is a sample of Part 2 short-answer/open-ended questions. The official paper has 20 short-answer + 10–15 open-ended items in 1 hour 45 minutes.`,
+          points: 20,
+        },
+      ],
+    },
   ];
 
 

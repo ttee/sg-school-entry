@@ -1513,5 +1513,119 @@ export default function SmathFigure({ weekNumber }: { weekNumber: number }) {
     );
   }
 
+  if (weekNumber === 87) {
+    return (
+      <div className="bg-paper border border-line rounded-xl p-6 mb-6">
+        <h3 className="font-semibold text-ink mb-4 text-center">📐 本周图解</h3>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          {/* Diagram 1: Square-base pyramid */}
+          <div className="flex flex-col items-center">
+            <svg viewBox="0 0 200 200" className="w-full max-w-[200px] h-auto">
+              {/* Title */}
+              <text x="100" y="18" fontSize="11" fill="#1a1a1a" fontWeight="600" textAnchor="middle">Square-base pyramid</text>
+              
+              {/* Square base */}
+              <polygon points="50,130 150,130 170,145 30,145" fill="none" stroke="#d97706" strokeWidth="2" />
+              <line x1="50" y1="130" x2="30" y2="145" stroke="#d97706" strokeWidth="2" />
+              <line x1="150" y1="130" x2="170" y2="145" stroke="#d97706" strokeWidth="2" />
+              
+              {/* Apex */}
+              <circle cx="100" cy="50" r="3" fill="#1a1a1a" />
+              <text x="105" y="48" fontSize="11" fill="#1a1a1a" fontWeight="600">V</text>
+              
+              {/* Edges to apex */}
+              <line x1="100" y1="50" x2="50" y2="130" stroke="#10b981" strokeWidth="2" />
+              <line x1="100" y1="50" x2="150" y2="130" stroke="#10b981" strokeWidth="2" />
+              <line x1="100" y1="50" x2="30" y2="145" stroke="#10b981" strokeWidth="2" strokeDasharray="3,3" />
+              <line x1="100" y1="50" x2="170" y2="145" stroke="#10b981" strokeWidth="2" strokeDasharray="3,3" />
+              
+              {/* Height line */}
+              <line x1="100" y1="50" x2="100" y2="137" stroke="#8b5cf6" strokeWidth="2" strokeDasharray="4,2" />
+              <text x="110" y="95" fontSize="11" fill="#8b5cf6" fontWeight="600">h = 4 cm</text>
+              
+              {/* Base labels */}
+              <text x="100" y="155" fontSize="11" fill="#d97706" fontWeight="600" textAnchor="middle">6 cm × 6 cm</text>
+              
+              {/* Formula */}
+              <text x="100" y="175" fontSize="9" fill="#3b82f6" fontWeight="600" textAnchor="middle">V = (1/3) × 36 × 4</text>
+              <text x="100" y="187" fontSize="9" fill="#3b82f6" fontWeight="600" textAnchor="middle">= 48 cm³</text>
+            </svg>
+            <p className="text-sm text-ink-2 text-center mt-2 font-semibold">
+              正方形底棱锥<br />
+              <span className="text-xs text-accent">底面积 36 cm², 高 4 cm</span>
+            </p>
+          </div>
+
+          {/* Diagram 2: Cone */}
+          <div className="flex flex-col items-center">
+            <svg viewBox="0 0 200 200" className="w-full max-w-[200px] h-auto">
+              {/* Title */}
+              <text x="100" y="18" fontSize="11" fill="#1a1a1a" fontWeight="600" textAnchor="middle">Cone</text>
+              
+              {/* Base ellipse */}
+              <ellipse cx="100" cy="140" rx="50" ry="15" fill="none" stroke="#d97706" strokeWidth="2" />
+              
+              {/* Apex */}
+              <circle cx="100" cy="50" r="3" fill="#1a1a1a" />
+              <text x="105" y="48" fontSize="11" fill="#1a1a1a" fontWeight="600">V</text>
+              
+              {/* Slant edges */}
+              <line x1="100" y1="50" x2="50" y2="140" stroke="#10b981" strokeWidth="2" />
+              <line x1="100" y1="50" x2="150" y2="140" stroke="#10b981" strokeWidth="2" />
+              
+              {/* Height line */}
+              <line x1="100" y1="50" x2="100" y2="140" stroke="#8b5cf6" strokeWidth="2" strokeDasharray="4,2" />
+              <text x="110" y="95" fontSize="11" fill="#8b5cf6" fontWeight="600">h = 9 cm</text>
+              
+              {/* Radius */}
+              <line x1="100" y1="140" x2="150" y2="140" stroke="#d97706" strokeWidth="2" />
+              <text x="125" y="135" fontSize="11" fill="#d97706" fontWeight="600">r = 7 cm</text>
+              
+              {/* Formula */}
+              <text x="100" y="170" fontSize="9" fill="#3b82f6" fontWeight="600" textAnchor="middle">V = (1/3)πr²h, π = 22/7</text>
+              <text x="100" y="182" fontSize="9" fill="#3b82f6" fontWeight="600" textAnchor="middle">V = (1/3) × (22/7) × 49 × 9</text>
+              <text x="100" y="194" fontSize="9" fill="#3b82f6" fontWeight="600" textAnchor="middle">= 462 cm³</text>
+            </svg>
+            <p className="text-sm text-ink-2 text-center mt-2 font-semibold">
+              圆锥<br />
+              <span className="text-xs text-accent">半径 7 cm, 高 9 cm</span>
+            </p>
+          </div>
+
+          {/* Diagram 3: Sphere */}
+          <div className="flex flex-col items-center">
+            <svg viewBox="0 0 200 200" className="w-full max-w-[200px] h-auto">
+              {/* Title */}
+              <text x="100" y="18" fontSize="11" fill="#1a1a1a" fontWeight="600" textAnchor="middle">Sphere</text>
+              
+              {/* Sphere circle */}
+              <circle cx="100" cy="95" r="55" fill="none" stroke="#d97706" strokeWidth="2" />
+              
+              {/* Equator ellipse */}
+              <ellipse cx="100" cy="95" rx="55" ry="15" fill="none" stroke="#10b981" strokeWidth="1.5" strokeDasharray="3,3" />
+              
+              {/* Center */}
+              <circle cx="100" cy="95" r="2" fill="#1a1a1a" />
+              <text x="105" y="93" fontSize="10" fill="#1a1a1a" fontWeight="600">O</text>
+              
+              {/* Radius */}
+              <line x1="100" y1="95" x2="155" y2="95" stroke="#8b5cf6" strokeWidth="2" />
+              <text x="127" y="90" fontSize="11" fill="#8b5cf6" fontWeight="600">r = 7 cm</text>
+              
+              {/* Formulas */}
+              <text x="100" y="170" fontSize="9" fill="#3b82f6" fontWeight="600" textAnchor="middle">V = (4/3)πr³ = (4/3)π × 343</text>
+              <text x="100" y="182" fontSize="9" fill="#3b82f6" fontWeight="600" textAnchor="middle">= 1372π/3 cm³</text>
+              <text x="100" y="194" fontSize="9" fill="#3b82f6" fontWeight="600" textAnchor="middle">SA = 4πr² = 196π cm²</text>
+            </svg>
+            <p className="text-sm text-ink-2 text-center mt-2 font-semibold">
+              球体<br />
+              <span className="text-xs text-accent">半径 7 cm (in terms of π)</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
   return null;
 }
