@@ -126,7 +126,7 @@ export default function HomePage() {
               帮中国家庭走通新加坡政府学校路径
             </h1>
             <p className="text-lg text-ink-2 mb-3 max-w-2xl">
-              小学先 CEQ 英语门槛再考数学，中学考英语+数学。录取后续订英语授课适应。
+              小学先 CEQ 英语门槛再考数学，中学考英语+数学。每周一个错误，作业对准这条升学路径。
             </p>
             <p className="text-base text-ink-2 mb-6 max-w-2xl">
               每周作业 app + 家长微信跟进。家长订阅，孩子登录做题。
@@ -274,7 +274,7 @@ export default function HomePage() {
               会员与课程
             </h2>
             <p className="text-ink-2 mb-6 max-w-2xl">
-              家长订阅，孩子登录。每周作业 app + 家长微信跟进。先走 CEQ 英语门槛，再进 AEIS 数学与英语赛道。录取后可续订英语授课适应（不作为入学考试售卖）。
+              家长订阅，孩子登录。每周作业 app + 家长微信跟进。先走 CEQ 英语门槛，再进 AEIS 数学与英语赛道。
             </p>
 
             <div className="grid md:grid-cols-3 gap-5 mb-8">
@@ -385,10 +385,10 @@ export default function HomePage() {
         <section className="py-12 md:py-16 bg-paper" id="pedagogy">
           <div className="max-w-7xl mx-auto px-4">
             <h2 className="font-serif font-semibold text-2xl md:text-3xl mb-3">
-              针对性纠错，防止英语化石化
+              每周只改一个中国孩子的高频错误
             </h2>
             <p className="text-ink-2 mb-6 max-w-3xl">
-              每周只打<strong>一个</strong>中国学生的高频错误。微课对照中英句子，作业 + AI 口语/写作盯住同一点，直到改掉。
+              每周只打<strong>一个</strong>中国学生的高频错误。微课对照中英句子，作业 + AI 口语/写作盯住这一点，改对了再换下一个。
             </p>
 
             <div className="bg-card border border-line rounded-2xl p-6 mb-6 shadow">
@@ -406,10 +406,10 @@ export default function HomePage() {
                 <div className="space-y-2">
                   <p className="font-semibold text-ink flex items-start gap-2">
                     <span className="text-accent mt-0.5">✓</span>
-                    <span>防化石化</span>
+                    <span>一周一个焦点</span>
                   </p>
                   <p className="text-ink-2 ml-6">
-                    错误说多了会固化。一次改太多点，孩子顾不过来，还是会重复旧错。我们让 AI 盯住<strong>一个焦点</strong>，直到孩子真的改掉。
+                    错误说多了会固化。一次改太多点，孩子顾不过来，还是会重复旧错。我们让 AI 盯住<strong>一个焦点</strong>，改对了再换下一个。
                   </p>
                 </div>
                 <div className="space-y-2">
@@ -673,7 +673,7 @@ export default function HomePage() {
 
                 <div>
                   <label htmlFor="childBirthYear" className="block text-sm font-semibold text-ink mb-1">
-                    孩子出生年份 <span className="text-accent">*</span>
+                    孩子哪年出生 <span className="text-accent">*</span>
                   </label>
                   <input
                     id="childBirthYear"
@@ -690,7 +690,7 @@ export default function HomePage() {
 
                 <div>
                   <label htmlFor="stage" className="block text-sm font-semibold text-ink mb-1">
-                    拟申请学段 <span className="text-accent">*</span>
+                    打算申请哪个年级 <span className="text-accent">*</span>
                   </label>
                   <select
                     id="stage"
