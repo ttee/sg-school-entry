@@ -2771,15 +2771,7 @@ Amy and I walk to the bus stop. We (8) ____ the same bus to school. Amy's school
         {
           type: "writing",
           order: 3,
-          content: `You receive this email from your English friend, Sam:
-
-From: Sam
-To: You
-Subject: Your daily routine
-
-Hi!
-
-Write a story from the pictures (35 words or more).
+          content: `Write a story from the pictures (35 words or more).
 
 Look at these three pictures about Mei's Monday morning. Write a story about what happened.
 
@@ -4844,6 +4836,64 @@ You MUST use "used to" at least twice and "didn't use to" at least once.
 ✓ 邮件格式 (Email format: greeting, paragraphs, closing)
 ✓ 100-120词 (100-120 words)`,
           points: 10,
+        },
+        {
+          type: "listening",
+          order: 4,
+          content: `听读练习 / Listening Preparation (read carefully)
+
+Mr Tan (Primary Five Class Teacher): Good morning, everyone. Today I want to share a story about how our school used to be when I was a student here twenty years ago.
+
+When I was in Primary One, we didn't use to have a canteen like the one we have now. We used to eat our packed lunches in the classroom. My mother used to prepare sandwiches for me every morning.
+
+We also used to play very different games at recess. We didn't use to have tablets or computers. We used to play traditional games like hopscotch and five stones in the corridor. I used to be quite good at five stones!
+
+The school building used to look different too. We didn't use to have an indoor sports hall. We used to do PE outside in the field, even when it was very hot. Now you have air-conditioning in the hall – you're very lucky!
+
+Things have changed a lot, but one thing hasn't changed: students still work hard and help each other. That's what makes this school special.`,
+          options: JSON.stringify([
+            "What is Mr Tan talking about?|A. His holiday|B. How the school used to be when he was a student|C. Tomorrow's lesson|D. A new school building",
+            "Where did students use to eat lunch twenty years ago?|A. In the canteen|B. In the classroom|C. At home|D. In the sports hall",
+            "What games did Mr Tan use to play?|A. Computer games|B. Basketball|C. Traditional games like hopscotch and five stones|D. Table tennis",
+            "What didn't the school use to have?|A. A classroom|B. Students|C. An indoor sports hall|D. Teachers",
+            "What does Mr Tan say hasn't changed?|A. The building|B. The games|C. The canteen|D. Students work hard and help each other",
+          ]),
+          correctAnswer: "B,B,C,C,D",
+          points: 5,
+          audioUrl: "/audio/b1-w6-listening.mp3",
+        },
+        {
+          type: "speaking",
+          order: 5,
+          content: `口语练习 / Speaking Practice
+
+Task: Talk about how things used to be different (about 1-2 minutes)
+
+Tell your partner about how your life or your school used to be different when you were younger. Talk about:
+• What you used to do (activities, routines, hobbies)
+• What you didn't use to do or like
+• Where you used to go or live
+• How things are different now
+
+You MUST use "used to" at least twice AND "didn't use to" at least once:
+✓ Used to + infinitive (I used to walk to school…)
+✓ Didn't use to + infinitive (I didn't use to like vegetables…)
+
+Useful phrases:
+• When I was younger, I used to...
+• I didn't use to..., but now I...
+• My family used to..., and we would...
+• I used to think..., but now I understand...
+• We didn't use to have..., so we used to...
+• Things are different now because...
+
+如何练习 / How to practise:
+1. 想两个真实的 used to 例子和一个 didn't use to 例子 (Think of two "used to" examples and one "didn't use to" example)
+2. 准备1-2分钟内容 (Prepare 1-2 minutes of content)
+3. 点击"开始录音"，有2分钟时间 (Tap "开始录音", you have 2 minutes)
+4. 提交后AI会评估发音、流利度、任务完成度、used to 准确性 (AI evaluates pronunciation, fluency, task completion, and "used to" accuracy)
+5. 根据反馈的"改善焦点"再录一次 (Re-record focusing on the improvement tip)`,
+          points: 5,
         },
       ],
     },
@@ -7499,7 +7549,7 @@ Note: This is Part 1 Writing for Sec 1. Official paper: 2 topics, choose 1, writ
       description: "AEIS-Secondary Mathematics (Sec 1 paper shape): P6 percentage sample",
       isSample: true,
       errorFocus: "part/whole mix-up / % of vs % increase",
-      parentBrief: "本周是中学 AEIS 数学试学周，对应官方 SEAB Sec 1 卷型样本（https://www.seab.gov.sg/aeis/test-details/ 2026年7月1日更新）。Part 1 Multiple-choice questions：34 道 MCQ，30 分钟。Part 2 Short-answer questions (20 items) and open-ended questions (10 to 15 items)：1 小时 45 分钟。Calculators are not allowed（不允许使用计算器）。Short-answer and open-ended questions：candidates are required to show the method of solution clearly by writing working steps in the spaces provided, plus the final answer（需写出算式步骤和最终答案）。AEIS-Secondary 官方 preceding-level 规则：申请 Sec 1 入学者需熟悉 Sec 1 前一级的内容。官方举例：apply Secondary 3 → be familiar with Secondary 2. 本周试学针对 Sec 1 申请者，内容为 Sec 1 前一级（P6）的官方 2021 Primary Mathematics Syllabus - P6 Percentage 1.1 (finding the whole given a part and the percentage) and 1.2 (finding percentage increase/decrease)。本周作业是样本，不是完整 34 + 20 + 10–15 题。本周化石：part/whole 混淆（20% of S$50 ≠ 20% increase from S$50）。用新加坡元 S$，不用美元。不教：ratio, algebra, circles, volume, compound interest, profit/loss formulas beyond increase/decrease, calculators, invented cut-scores。",
+      parentBrief: "本周主题：百分比。孩子会学已知部分和百分比求整体、求百分比增减。常见错误：把「20% of S$50」和「S$50 增加 20%」混淆（前者是 S$10，后者是 S$60）。",
       videoUrl: null,
       kaizenFocus: null,
       questions: [
@@ -7569,7 +7619,7 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
       description: "AEIS-Secondary Mathematics: P6 ratio",
       isSample: false,
       errorFocus: "ratio not in simplest form / mixing part:part with part:whole",
-      parentBrief: "本周是中学 AEIS 数学第 1 周，对应官方 SEAB Sec 1 卷型（https://www.seab.gov.sg/aeis/test-details/ 2026年7月1日更新）。Part 1 Multiple-choice questions：34 道 MCQ，30 分钟。Part 2 Short-answer questions (20 items) and open-ended questions (10 to 15 items)：1 小时 45 分钟。Calculators are not allowed（不允许使用计算器）。Short-answer and open-ended questions：candidates are required to show the method of solution clearly by writing working steps in the spaces provided, plus the final answer（需写出算式步骤和最终答案）。AEIS-Secondary 官方 preceding-level 规则：申请 Sec 1 入学者需熟悉 Sec 1 前一级的内容。官方举例：apply Secondary 3 → be familiar with Secondary 2. 本周针对 Sec 1 申请者，内容为 Sec 1 前一级（P6）的官方 2021 Primary Mathematics Syllabus - P6 Ratio 1.1 (notation, representations and interpretation of a:b and a:b:c, where a, b and c are whole numbers, excluding ratios involving fractions and decimals), 1.2 (equivalent ratios), 1.3 (dividing a quantity in a given ratio), 1.4 (expressing a ratio in its simplest form), 1.5 (finding the ratio of two or three given quantities), 1.6 (finding the missing term in a pair of equivalent ratios), 1.7 (relationship between fraction and ratio)。本周作业是样本，不是完整 34 + 20 + 10–15 题。本周化石：ratio not in simplest form（未约简到最简比）、mixing part:part with part:whole（把部分与部分的比当作部分与整体的比）。用新加坡元 S$，不用美元。不教：ratios involving fractions or decimals（官方明确排除的内容）、percentage（已在试学周）、algebra、circles、volume、speed、calculators、invented official facts。题目要求 simplest form 时必须说明 'simplest form'，否则答案键必须唯一，不能有两个等价比同时作为正确选项（例如 2:3 和 4:6 不能同时存在于选项中）。",
+      parentBrief: "本周主题：比例。孩子会学比例记号（a:b）、等比例、约简最简比、按比例分配、找缺项。常见错误：未约简到最简形式（8:12 不约到 2:3）、混淆部分与部分的比和部分与整体的比。",
       videoUrl: null,
       kaizenFocus: null,
       questions: [
@@ -7641,7 +7691,7 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
       description: "AEIS-Secondary Mathematics: P6 algebra",
       isSample: false,
       errorFocus: "3a means 3×a not 3+a / forgetting to simplify like terms",
-      parentBrief: "本周是中学 AEIS 数学第 2 周，对应官方 SEAB Sec 1 卷型（https://www.seab.gov.sg/aeis/test-details/ 2026年7月1日更新）。Part 1 Multiple-choice questions：34 道 MCQ，30 分钟。Part 2 Short-answer questions (20 items) and open-ended questions (10 to 15 items)：1 小时 45 分钟。Calculators are not allowed（不允许使用计算器）。Short-answer and open-ended questions：candidates are required to show the method of solution clearly by writing working steps in the spaces provided, plus the final answer（需写出算式步骤和最终答案）。AEIS-Secondary 官方 preceding-level 规则：申请 Sec 1 入学者需熟悉 Sec 1 前一级的内容。官方举例：apply Secondary 3 → be familiar with Secondary 2. 本周针对 Sec 1 申请者，内容为 Sec 1 前一级（P6）的官方 2021 Primary Mathematics Syllabus - P6 Algebra 1.1 (using a letter to represent an unknown number), 1.2 (notation, representations and interpretation of simple algebraic expressions such as a ± 3, a × 3 or 3a, a ÷ 3 or a/3), 1.3 (simplifying simple linear expressions excluding brackets), 1.4 (evaluating simple linear expressions by substitution), 1.5 (simple linear equations involving whole number coefficient only)。本周作业是样本，不是完整 34 + 20 + 10–15 题。本周化石：3a means 3×a not 3+a（未理解代数乘法记号）、forgetting to simplify like terms（忘记合并同类项，如 2x+3x 写成答案而不是 5x）。用新加坡元 S$，不用美元。不教：brackets（括号）、negative coefficients（负系数）、simultaneous equations（联立方程）、inequalities（不等式）、quadratic（二次方程）、formulae of circles/volume（圆与体积公式，不在 Algebra 主题）、ratio（已在第 1 周）、percentage（已在试学周）、calculators、invented official facts。题目选项必须唯一，不能有 3n 和 n×3 同时作为两个正确选项，也不能有 n+n+n 和 3n 同时作为选项（unless stem explicitly asks for different forms）。",
+      parentBrief: "本周主题：代数基础。孩子会学用字母代表未知数、代数式记号（3a、a+3、a/3）、合并同类项、代入求值、简单一元一次方程。常见错误：把 3a 理解为 3+a（应该是 3×a）、忘记合并同类项（2x+3x 应该写 5x）。",
       videoUrl: null,
       kaizenFocus: null,
       questions: [
@@ -7713,7 +7763,7 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
       description: "AEIS-Secondary Mathematics: P6 fraction division",
       isSample: false,
       errorFocus: "÷ a whole number vs ÷ a fraction / invert-and-multiply",
-      parentBrief: "本周是中学 AEIS 数学第 3 周，对应官方 SEAB Sec 1 卷型（https://www.seab.gov.sg/aeis/test-details/ 2026年7月1日更新）。Part 1 Multiple-choice questions：34 道 MCQ，30 分钟。Part 2 Short-answer questions (20 items) and open-ended questions (10 to 15 items)：1 小时 45 分钟。Calculators are not allowed（不允许使用计算器）。Short-answer and open-ended questions：candidates are required to show the method of solution clearly by writing working steps in the spaces provided, plus the final answer（需写出算式步骤和最终答案）。AEIS-Secondary 官方 preceding-level 规则：申请 Sec 1 入学者需熟悉 Sec 1 前一级的内容。官方举例：apply Secondary 3 → be familiar with Secondary 2. 本周针对 Sec 1 申请者，内容为 Sec 1 前一级（P6）的官方 2021 Primary Mathematics Syllabus - P6 Fractions 1.1 (dividing a proper fraction by a whole number without calculator), 1.2 (dividing a whole number or a proper fraction by a proper fraction without calculator)。本周作业是样本，不是完整 34 + 20 + 10–15 题。本周化石：dividing a proper fraction by a whole number vs dividing by a proper fraction（除以整数 vs 除以分数混淆）、invert-and-multiply（倒过来乘）。用新加坡元 S$，不用美元。不教：mixed-number ÷ mixed-number（带分数除法，如果不在 1.1–1.2）、percentage、ratio、algebra、circles、volume、speed、brackets-in-algebra、invented official facts。题目选项必须唯一：不能有 1/2 ÷ 4 = 1/8 和 2/16 同时作为两个正确选项；不能有 3 ÷ 1/2 = 6 和 12/2 同时作为正确选项；不能有 2/3 ÷ 4 = 2/12 和 1/6 同时作为正确选项，除非题干明确要求 simplest form。当有未化简的等值分数作为选项时，题干必须说 simplest form，否则不要列出等值分数。",
+      parentBrief: "本周主题：分数除法。孩子会学真分数除以整数、真分数除以真分数。常见错误：混淆除以整数和除以分数（1/2 ÷ 4 vs 1/2 ÷ 1/4）、忘记倒过来乘（invert-and-multiply 法则）。",
       videoUrl: null,
       kaizenFocus: null,
       questions: [
@@ -7785,7 +7835,7 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
       description: "AEIS-Secondary Mathematics: P6 circles",
       isSample: false,
       errorFocus: "semicircle perimeter needs the diameter / πr² vs 2πr mix-up",
-      parentBrief: "本周是中学 AEIS 数学第 4 周，对应官方 SEAB Sec 1 卷型（https://www.seab.gov.sg/aeis/test-details/ 2026年7月1日更新）。Part 1 Multiple-choice questions：34 道 MCQ，30 分钟。Part 2 Short-answer questions (20 items) and open-ended questions (10 to 15 items)：1 小时 45 分钟。Calculators are not allowed（不允许使用计算器）。Short-answer and open-ended questions：candidates are required to show the method of solution clearly by writing working steps in the spaces provided, plus the final answer（需写出算式步骤和最终答案）。AEIS-Secondary 官方 preceding-level 规则：申请 Sec 1 入学者需熟悉 Sec 1 前一级的内容。官方举例：apply Secondary 3 → be familiar with Secondary 2. 本周针对 Sec 1 申请者，内容为 Sec 1 前一级（P6）的官方 2021 Primary Mathematics Syllabus - P6 Area and Circumference of Circle 1.1 (area and circumference of circle), 1.2 (finding the area and perimeter of semicircle and quarter circle), 1.3 (finding the area and perimeter of composite figures made up of square, rectangle, triangle, semicircle and quarter circle)。本周作业是样本，不是完整 34 + 20 + 10–15 题。本周化石：semicircle perimeter needs the diameter / πr² vs 2πr mix-up（半圆周长忘了加直径 / 面积公式 πr² 与周长公式 2πr 混淆）。π 的值不是官方统一规定：题目会在每道题中明确说明「Take π = 22/7」或「Take π = 3.14」，用哪个值算哪个。本周优先用 π = 22/7（radius 是 7 的倍数时答案是整数）。不混用 22/7 和 3.14 在同一道题。用新加坡元 S$，不用美元。不教：volume（体积）、algebra（代数）、ratio（比）、percentage（百分数）、fraction division（分数除法，已在第 3 周）、speed（速度）、sphere/cone/cylinder formulae（球体/圆锥/圆柱公式，官方不在 P6 Circle 1.1–1.3）、invented official facts。题目选项必须唯一：不能有 2πr 和 πd 作为两个选项（除非题目明确要求不同形式）；不能有 154 和 154 cm² 作为两个选项；不能有两个组合图形算出相同面积；不能有 22/7 和 3.14 混用导致两个选项都接近正确值。所有题目全用 π = 22/7，不用 3.14，保持选项干净。Semicircle perimeter = πr + diameter（curved part + straight part），不是只有 πr 或只有 (1/2)×2πr。",
+      parentBrief: "本周主题：圆的面积与周长。孩子会学圆、半圆、四分之一圆的面积和周长，以及组合图形。常见错误：半圆周长忘了加直径（应该是 πr + 直径）、混淆面积公式 πr² 和周长公式 2πr。",
       videoUrl: null,
       kaizenFocus: null,
       questions: [
@@ -7861,7 +7911,7 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
       description: "AEIS-Secondary Mathematics: P6 volume of cube and cuboid",
       isSample: false,
       errorFocus: "volume vs edge / forgetting V = l × w × h",
-      parentBrief: "本周是中学 AEIS 数学第 5 周，对应官方 SEAB Sec 1 卷型（https://www.seab.gov.sg/aeis/test-details/ 2026年7月1日更新）。Part 1 Multiple-choice questions：34 道 MCQ，30 分钟。Part 2 Short-answer questions (20 items) and open-ended questions (10 to 15 items)：1 小时 45 分钟。Calculators are not allowed（不允许使用计算器）。Short-answer and open-ended questions：candidates are required to show the method of solution clearly by writing working steps in the spaces provided, plus the final answer（需写出算式步骤和最终答案）。AEIS-Secondary 官方 preceding-level 规则：申请 Sec 1 入学者需熟悉 Sec 1 前一级的内容。官方举例：apply Secondary 3 → be familiar with Secondary 2. 本周针对 Sec 1 申请者，内容为 Sec 1 前一级（P6）的官方 2021 Primary Mathematics Syllabus - P6 Volume of Cube and Cuboid 2.1 (finding one dimension of a cuboid given its volume and the other dimensions), 2.2 (finding the length of one edge of a cube given its volume), 2.3 (finding the height of a cuboid given its volume and base area), 2.4 (finding the area of a face of a cuboid given its volume and one dimension), 2.5 (use of √ and ³√ as needed to find an edge from a volume or a square face)。本周作业是样本，不是完整 34 + 20 + 10–15 题。本周化石：volume vs edge 混淆（体积和边长混淆）、forgetting V = l × w × h（忘记 V = 长 × 宽 × 高）。官方大纲明确：Volume of a cube = edge³（正方体体积 = 边³）、Volume of a cuboid = length × width × height（长方体体积 = 长 × 宽 × 高）、单位 cm³ / m³。官方注意：本主题历史上在较早级别排除 cm³ 和 m³ 之间的转换，不要发明转换题。用新加坡元 S$，不用美元（如果题目涉及钱币，例如长方体水箱的价格，用 S$；本周题目优先不涉及钱币情境）。不教：circles（圆，已在第 4 周）、algebra（代数）、ratio（比）、percentage（百分数）、fraction division（分数除法）、speed（速度）、nets（展开图）、sphere/cone/cylinder（球体/圆锥/圆柱，不在官方 P6 Volume 2.1–2.5）、liquid capacity formulae beyond a cuboid tank as L×W×H in cm³（液体容量公式，除了长方体水箱用 L×W×H 算 cm³ 以外）、invented official facts。题目选项必须唯一：不能有两道题的正确答案数值相同（如两道题都是 4 cm，或一道是 4 cm 另一道是 4 cm²，数字必须不同）；不能有 cube edge 4 和 volume 64 作为同一道题的两个选项（都是基于 4³=64 的正确值）；不能有两个长方体体积都是 120 cm³；不能有 ³√8 = 2 和 8÷4 = 2 作为同一道题的两个正确选项（即使公式不同，数值相同会混淆）；不能有 5 cm 和 5 cm² 同时作为同一个数量的两个选项（单位必须匹配题目要求）。",
+      parentBrief: "本周主题：正方体和长方体体积。孩子会学已知体积和部分边长求其他边长、用 ³√ 求正方体边长。常见错误：混淆体积和边长、忘记 V = 长 × 宽 × 高 公式。",
       videoUrl: null,
       kaizenFocus: null,
       questions: [
@@ -7939,7 +7989,7 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
       description: "AEIS-Secondary Mathematics: P6 data analysis (average)",
       isSample: false,
       errorFocus: "average confused with total / forgetting total = average × n",
-      parentBrief: "本周是中学 AEIS 数学第 6 周，对应官方 SEAB Sec 1 卷型（https://www.seab.gov.sg/aeis/test-details/ 2026年7月1日更新）。Part 1 Multiple-choice questions：34 道 MCQ，30 分钟。Part 2 Short-answer questions (20 items) and open-ended questions (10 to 15 items)：1 小时 45 分钟。Calculators are not allowed（不允许使用计算器）。Short-answer and open-ended questions：candidates are required to show the method of solution clearly by writing working steps in the spaces provided, plus the final answer（需写出算式步骤和最终答案）。AEIS-Secondary 官方 preceding-level 规则：申请 Sec 1 入学者需熟悉 Sec 1 前一级的内容。官方举例：apply Secondary 3 → be familiar with Secondary 2. 本周针对 Sec 1 申请者，内容为 Sec 1 前一级（P6）的官方 MOE 2021 Primary Mathematics (Updated Oct 2025), PRIMARY SIX, STATISTICS, SUB-STRAND: DATA ANALYSIS: 1. Average of a Set of Data, 1.1 average as 'total value ÷ number of data', 1.2 relationship between average, total value and number of data。本周作业是样本，不是完整 34 + 20 + 10–15 题。本周化石：average confused with total（孩子写总值而不是平均数，或把 average 当成 total × number of data 而不是 total ÷ number of data）、求缺失值时忘记 total = average × number of data（when finding a missing value, forgetting that total = average × number of data）。官方用词是 average（平均数），不教 mean / median / mode 作为官方名称（DO NOT teach mean/median/mode as official names; official word is average）。不教：speed（速度，已从 P6 2021 大纲移到 Sec 1）、官方未给出的分数/等级切线（DO NOT invent official cut-scores）、invented official facts。数字保持友好（numbers stay friendly, no calculator）。金额用新加坡元 S$ 不用美元（如果题目涉及钱币情境，用 S$）。题目选项必须唯一（unique keys only）：不能有两个选项是相同数值或相同含义。",
+      parentBrief: "本周主题：平均数。孩子会学平均数定义（总值 ÷ 数据个数）、平均数与总值和个数的关系。常见错误：把平均数和总值混淆、求缺失值时忘记「总值 = 平均数 × 个数」。",
       videoUrl: null,
       kaizenFocus: null,
       questions: [
@@ -9663,7 +9713,7 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
       description: "AEIS-Secondary Mathematics: Sec 1 using letters to represent numbers",
       isSample: false,
       errorFocus: "writing 3n when the story is \"3 more than n\" (n + 3); writing n + 3 when the story is \"3 times n\" (3n); writing 3 − n when the story is \"n minus 3\" (n − 3); treating the letter as a unit, not a number",
-      parentBrief: "本周是中学 AEIS 数学第 26 周，对应官方 SEAB Sec 1 卷型（https://www.seab.gov.sg/aeis/test-details/ 2026年7月1日更新）。Part 1 Multiple-choice questions：34 道 MCQ，30 分钟。Part 2 Short-answer questions (20 items) and open-ended questions (10 to 15 items)：1 小时 45 分钟。Calculators are not allowed（不允许使用计算器）。Short-answer and open-ended questions：candidates are required to show the method of solution clearly by writing working steps in the spaces provided, plus the final answer（需写出算式步骤和最终答案）。AEIS-Secondary 官方 preceding-level 规则：申请 Sec 2 入学者需熟悉 Sec 2 前一级的内容。官方举例：apply Secondary 3 → be familiar with Secondary 2 content. 本周针对 Sec 2 申请者，内容为 Sec 2 前一级（Sec 1）的官方 MOE 2020 G3 Mathematics Syllabuses, Secondary One, NUMBER AND ALGEBRA, N5. Algebraic expressions and formulae: 5.1 using letters to represent numbers（用字母表示数）。第 23–25 周已完成 N4（Rate and Speed），本周开始 N5，只教 5.1 using letters to represent numbers（用字母表示数）。本周不教 5.2 interpreting notations（解读符号，如 ab, a², 3(x+y)），5.3 evaluation of algebraic expressions and formulae（代数式求值），5.4 translation of simple real-world situations（实际问题翻译为代数式），5.5 finding the value of an unknown in a given formula（公式中求未知数），5.6–5.8 simplifying algebraic expressions（化简代数式）。这些是后续周次内容。本周方法：A letter stands for a number（字母代表一个数）。If a number is n: 3 more than n is n + 3（n 多 3 是 n + 3）。5 less than n is n − 5（n 少 5 是 n − 5）。Twice n is 2n or 2 × n（n 的两倍是 2n 或 2 × n）。Half of n is n ÷ 2 or n/2（n 的一半是 n ÷ 2 或 n/2）。本周只教写出表达式 write the expression，本周不教代入数值求值 substitute a value（那是 5.3 evaluation）。用友好的整数 friendly whole numbers（如 n, x, k）。不用计算器 no calculator。金额如涉及用新加坡元 S$（money in Singapore dollars S$），never 美元。本周作业是样本，不是完整 34 + 20 + 10–15 题。本周化石 fossil errors：writing 3n when the story is \「3 more than n\」（当应用题说「n 多 3」时错误地写 3n，正确应该是 n + 3）；writing n + 3 when the story is \「3 times n\」（当应用题说「n 的 3 倍」时错误地写 n + 3，正确应该是 3n）；writing 3 − n when the story is \「n minus 3\」（当应用题说「n 减 3」时错误地写 3 − n，正确应该是 n − 3）；treating the letter as a unit not a number（把字母当单位而不是数：如把 n 当作「个」，把 n + 3 读成「n 个加 3 个」）。唯一性 unique keys：两个选项不能是同一个表达式或同一个意思。n + 3 和 3 + n 是同一个表达式（交换律）。2n 和 2 × n 是同一个意思。不要同时提供 n + 3 和 3n 作为正确答案（这是两个不同的表达式）。The fossil (3n when the story is n + 3, or n + 3 when the story is 3n) must be a WRONG option（化石错误值必须作为错误选项）。非官方机构运营（affiliation 非官方机构 is OK）。不发明官方未提及的内容（do not invent official facts）。不声称 AEIS 是 G3 paper（G3 只是官方 preceding-level 内容来源）。不发明官方 cut-scores 或 extra official names。第 23–25 周已完成 N4，本周开始 N5，只教 5.1 using letters to represent numbers。本周不教 5.2 notations（下周内容）。",
+      parentBrief: "本周主题：用字母表示数。孩子会学用字母代表数字，写简单代数式（n + 3、2n、n − 5）。常见错误：把「n 多 3」写成 3n（应该是 n + 3）、把「n 的 3 倍」写成 n + 3（应该是 3n）、把「n 减 3」写成 3 − n（应该是 n − 3）、把字母当单位而不是数。",
       videoUrl: null,
       kaizenFocus: null,
       questions: [
@@ -9925,7 +9975,7 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
       description: "AEIS-Secondary Mathematics: Sec 1 translation of simple real-world situations into algebraic expressions",
       isSample: false,
       errorFocus: "writing 3k when the story is \"S$3 more than k\"; writing n + 5 when he spends S$5; writing 2x + 3 for perimeter instead of 2(x + 3); treating \"each\" as + not ×",
-      parentBrief: "本周是中学 AEIS 数学第 29 周，对应官方 SEAB Sec 1 卷型（https://www.seab.gov.sg/aeis/test-details/ 2026年7月1日更新）。Part 1 Multiple-choice questions：34 道 MCQ，30 分钟。Part 2 Short-answer questions (20 items) and open-ended questions (10 to 15 items)：1 小时 45 分钟。Calculators are not allowed（不允许使用计算器）。Short-answer and open-ended questions：candidates are required to show the method of solution clearly by writing working steps in the spaces provided, plus the final answer（需写出算式步骤和最终答案）。AEIS-Secondary 官方 preceding-level 规则：申请 Sec 2 入学者需熟悉 Sec 2 前一级的内容。官方举例：apply Secondary 3 → be familiar with Secondary 2 content. 本周针对 Sec 2 申请者，内容为 Sec 2 前一级（Sec 1）的官方 MOE 2020 G3 Mathematics Syllabuses, Secondary One, NUMBER AND ALGEBRA, N5. Algebraic expressions and formulae: 5.4 translation of simple real-world situations into algebraic expressions（将简单的现实情境翻译为代数式）。第 26–28 周已完成 5.1–5.3（using letters to represent numbers、interpreting notations、evaluation of algebraic expressions），本周只教 5.4 translation of simple real-world situations into algebraic expressions。本周不教 5.5 finding the value of an unknown (nth term)，5.6–5.8 simplifying algebraic expressions（化简代数式）。这些是后续周次内容。官方 5.4 wording（官方术语，逐字引用）：'translation of simple real-world situations into algebraic expressions'。本周方法：Turn a short real-world sentence into an expression（将短的现实情境句子转化为代数式），using Week 26–27 notation。Wei has n dollars and spends S$5 → n − 5（不是 n + 5）。A ticket costs S$3; k tickets → 3k（不是 k + 3）。Aisha is n years old; in 4 years → n + 4。A rectangle has length x cm and width 3 cm; perimeter → 2(x + 3) or 2x + 6，pick ONE form and do not offer the other as a second option（2x+6 is 5.6/5.8 later）。Cost of n books at S$4 each plus S$2 postage → 4n + 2。Friendly letters. No calculator. Money: 新加坡元 S$（never 美元）。本周作业是样本，不是完整 34 + 20 + 10–15 题。本周化石 fossil errors：writing 3k when the story is \「S$3 more than k\」（当应用题说「比 k 多 S$3」时错误地写 3k，正确应该是 k + 3）；writing n + 5 when he spends S$5（当他花掉 S$5 时错误地写 n + 5，正确应该是 n − 5）；writing 2x + 3 for perimeter instead of 2(x + 3)（周长错误地写 2x + 3，正确应该是 2(x + 3)）；treating \「each\」 as + not ×（把「每个」当作加法而不是乘法）。唯一性 unique keys：两个选项不能是同一个意思（2n and 2 × n as two options is a fail; 2(x+3) and 2x+6 as two options is a fail）。n − 5 and 5 − n must not both be marked correct（n − 5 和 5 − n 不能同时标记为正确）。The fossil is a WRONG option（化石错误值必须作为错误选项）。非官方机构运营（affiliation 非官方机构 is OK）。不发明官方未提及的内容（do not invent official facts）。不声称 AEIS 是 G3 paper（G3 只是官方 preceding-level 内容来源，do NOT claim AEIS is a G3 paper）。不发明官方 cut-scores 或 extra official names。第 26–28 周已完成 5.1–5.3，本周只教 5.4 translation（生活情境写成代数式）。本周不教 5.5 nth term（下周内容）。",
+      parentBrief: "本周主题：生活情境翻译为代数式。孩子会学把应用题转化为代数表达式（n 花掉 S$5 → n − 5；k 张票每张 S$3 → 3k）。常见错误：把「比 k 多 S$3」写成 3k（应该是 k + 3）、把「花掉 S$5」写成 n + 5（应该是 n − 5）、周长写成 2x + 3（应该是 2(x + 3)）、把「每个」当加法而不是乘法。",
       videoUrl: null,
       kaizenFocus: null,
       questions: [
