@@ -155,6 +155,7 @@ type Question = {
   content: string;
   options: string | null;
   correctAnswer: string | null;
+  choiceWhy: string | null;
   points: number;
   audioUrl: string | null;
 };
@@ -922,6 +923,7 @@ export default function WeekHomework({
         {questions.map((question, idx) => (
           <div
             key={question.id}
+            id={question.id}
             className="bg-card border border-line rounded-xl p-6"
           >
             <div className="flex items-start justify-between mb-4">
@@ -1015,6 +1017,12 @@ export default function WeekHomework({
                   const correctAnswer = correctAnswers?.[i];
                   const showCorrect =
                     isCompleted && correctAnswer && userAnswer !== correctAnswer;
+                  const showCorrectAndRight =
+                    isCompleted && correctAnswer && userAnswer === correctAnswer;
+                  
+                  const choiceWhyData = question.choiceWhy 
+                    ? JSON.parse(question.choiceWhy)?.[i] 
+                    : null;
 
                   return (
                     <div
@@ -1066,13 +1074,55 @@ export default function WeekHomework({
                         })}
                       </div>
                       {showCorrect && (
-                        <p className="text-xs text-accent mt-2">
-                          正确答案：{correctAnswer}
+                        <div className="mt-3 space-y-2">
+                          <p className="text-xs text-accent">
+                            正确答案：{correctAnswer}
+                          </p>
+                          {choiceWhyData && choiceWhyData[userAnswer] && (
+                            <p className="text-xs text-ink-2 bg-paper-2 rounded px-3 py-2">
+                              {choiceWhyData[userAnswer]}
+                            </p>
+                          )}
+                        </div>
+                      )}
+                      {showCorrectAndRight && choiceWhyData && choiceWhyData[correctAnswer] && (
+                        <p className="text-xs text-muted mt-2">
+                          {choiceWhyData[correctAnswer]}
                         </p>
                       )}
                     </div>
                   );
                 })}
+                {isCompleted && question.correctAnswer && (() => {
+                  const userAnswers = Array.isArray(answers[question.id]) 
+                    ? answers[question.id] 
+                    : Object.values(answers[question.id] || {});
+                  const correctAnswers = question.correctAnswer.split(",");
+                  const hasWrongAnswer = userAnswers.some((ans: string, idx: number) => 
+                    ans !== correctAnswers[idx]
+                  );
+                  const siblingQuestion = hasWrongAnswer 
+                    ? questions.find(q => 
+                        q.id !== question.id && 
+                        q.type === question.type && 
+                        q.options
+                      )
+                    : null;
+                  
+                  return siblingQuestion && (
+                    <button
+                      onClick={() => {
+                        const element = document.getElementById(siblingQuestion.id);
+                        if (element) {
+                          element.scrollIntoView({ behavior: "smooth", block: "center" });
+                        }
+                      }}
+                      className="px-4 py-2 bg-accent/10 text-accent border border-accent/30 font-semibold rounded-full hover:bg-accent/20 transition-colors text-sm"
+                    >
+                      🔄 再练一道
+                    </button>
+                  );
+                })()}
               </div>
             )}
 
