@@ -335,5 +335,81 @@ export default function SmathFigure({ weekNumber }: { weekNumber: number }) {
     );
   }
 
+  if (weekNumber === 76) {
+    return (
+      <div className="bg-paper border border-line rounded-xl p-6 mb-6">
+        <h3 className="font-semibold text-ink mb-4 text-center">📐 本周图解</h3>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          {/* Diagram 1: Two similar rectangles (scale factor 2) */}
+          <div className="flex flex-col items-center">
+            <svg viewBox="0 0 200 200" className="w-full max-w-[200px] h-auto">
+              {/* Rectangle A */}
+              <rect x="30" y="60" width="60" height="40" fill="none" stroke="#d97706" strokeWidth="2" />
+              <text x="55" y="50" fontSize="12" fill="#d97706" fontWeight="600">6 cm</text>
+              <text x="15" y="85" fontSize="12" fill="#d97706" fontWeight="600">4 cm</text>
+              <text x="60" y="85" fontSize="14" fill="#1a1a1a" fontWeight="600">A</text>
+              
+              {/* Rectangle B (scale factor 2) */}
+              <rect x="20" y="120" width="120" height="80" fill="none" stroke="#10b981" strokeWidth="2" />
+              <text x="70" y="110" fontSize="12" fill="#10b981" fontWeight="600">12 cm</text>
+              <text x="5" y="165" fontSize="12" fill="#10b981" fontWeight="600">8 cm</text>
+              <text x="80" y="165" fontSize="14" fill="#1a1a1a" fontWeight="600">B</text>
+            </svg>
+            <p className="text-sm text-ink-2 text-center mt-2 font-semibold">
+              相似（比例 1:2）<br />
+              <span className="text-xs text-accent">同形不同大小</span>
+            </p>
+          </div>
+
+          {/* Diagram 2: Two similar triangles (scale factor 3) */}
+          <div className="flex flex-col items-center">
+            <svg viewBox="0 0 200 200" className="w-full max-w-[200px] h-auto">
+              {/* Triangle A */}
+              <polygon points="40,100 80,40 120,100" fill="none" stroke="#d97706" strokeWidth="2" />
+              <text x="55" y="75" fontSize="11" fill="#d97706" fontWeight="600">3</text>
+              <text x="95" y="75" fontSize="11" fill="#d97706" fontWeight="600">3</text>
+              <text x="75" y="110" fontSize="11" fill="#d97706" fontWeight="600">4</text>
+              <text x="80" y="30" fontSize="14" fill="#1a1a1a" fontWeight="600">A</text>
+              
+              {/* Triangle B (scale factor 3) */}
+              <polygon points="20,180 100,60 180,180" fill="none" stroke="#10b981" strokeWidth="2" />
+              <text x="50" y="125" fontSize="11" fill="#10b981" fontWeight="600">9</text>
+              <text x="140" y="125" fontSize="11" fill="#10b981" fontWeight="600">9</text>
+              <text x="95" y="190" fontSize="11" fill="#10b981" fontWeight="600">12</text>
+              <text x="100" y="50" fontSize="14" fill="#1a1a1a" fontWeight="600">B</text>
+            </svg>
+            <p className="text-sm text-ink-2 text-center mt-2 font-semibold">
+              相似（比例 1:3）<br />
+              <span className="text-xs text-accent">同形不同大小</span>
+            </p>
+          </div>
+
+          {/* Diagram 3: Non-similar figures (same area, different shape) */}
+          <div className="flex flex-col items-center">
+            <svg viewBox="0 0 200 200" className="w-full max-w-[200px] h-auto">
+              {/* Square A: 6×6 = 36 */}
+              <rect x="30" y="40" width="60" height="60" fill="none" stroke="#d97706" strokeWidth="2" />
+              <text x="55" y="30" fontSize="12" fill="#d97706" fontWeight="600">6 cm</text>
+              <text x="15" y="75" fontSize="12" fill="#d97706" fontWeight="600">6 cm</text>
+              <text x="60" y="75" fontSize="14" fill="#1a1a1a" fontWeight="600">A</text>
+              <text x="40" y="115" fontSize="10" fill="#6b7280">Area 36 cm²</text>
+              
+              {/* Rectangle B: 9×4 = 36 */}
+              <rect x="25" y="130" width="90" height="40" fill="none" stroke="#ef4444" strokeWidth="2" />
+              <text x="60" y="120" fontSize="12" fill="#ef4444" fontWeight="600">9 cm</text>
+              <text x="5" y="155" fontSize="12" fill="#ef4444" fontWeight="600">4 cm</text>
+              <text x="70" y="155" fontSize="14" fill="#1a1a1a" fontWeight="600">B</text>
+              <text x="35" y="185" fontSize="10" fill="#6b7280">Area 36 cm²</text>
+            </svg>
+            <p className="text-sm text-ink-2 text-center mt-2 font-semibold">
+              <span className="text-red-600">不相似</span><br />
+              <span className="text-xs text-muted">面积相同形状不同</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
   return null;
 }

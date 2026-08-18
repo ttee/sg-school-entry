@@ -13989,6 +13989,101 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
         },
       ],
     },
+    {
+      level: "SMATH",
+      weekNumber: 76,
+      title: "相似图形 — Similar figures",
+      description: "Sec 2 G2.2: similar figures (AEIS 中学数学第 76 周 / SMATH Week 76)",
+      isSample: false,
+      errorFocus: "same shape different size offered as not similar; same shape same size offered as not similar (congruent is similar with scale factor 1); different shape same area offered as similar; two options that are the same pair in different order",
+      parentBrief: "本周练相似图形。相似 = 同形（对应角相等，对应边成比例），大小可不同。全等是相似的特例（比例 1:1）。盯住：同形不同大小是相似；面积相等不一定相似；不同形状不能相似。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "At Riverside Secondary, Mr Lim draws two rectangles on the whiteboard. Rectangle A is 5 cm by 3 cm. Rectangle B is 10 cm by 6 cm. Wei asks: 「Are they similar?」 Which is correct?|A. Yes, they are similar. Same shape (both rectangles). Corresponding sides: 5:10 = 3:6 = 1:2 (same ratio). ✓|B. No, they are not similar because they have different sizes.|C. No, they are not similar. We need to check if the angles match.|D. We cannot tell without measuring the diagonals.",
+            "Aisha at Riverside Secondary sees two squares. Square P has side 8 cm. Square Q has side 8 cm. Mr Lim asks: 「Are these squares similar?」 Which is correct?|A. Yes, they are similar. Same shape and same size (congruent figures are similar with scale factor 1). ✓|B. No, they are not similar because they have the same size.|C. No, similar means different sizes only.|D. We cannot tell without checking if they are rotated.",
+            "At Riverside Secondary, Mr Lim shows two triangles. Triangle ABC has sides 4 cm, 6 cm, 8 cm. Triangle DEF has sides 8 cm, 12 cm, 16 cm. Wei checks: 4:8 = 1:2, 6:12 = 1:2, 8:16 = 1:2. Are they similar?|A. Yes, they are similar. Same shape (corresponding sides in the same ratio 1:2). ✓|B. No, they are not similar because Triangle DEF is twice as big.|C. No, we need to check the angles.|D. We cannot tell without measuring all the sides.",
+            "Aisha at Riverside Secondary sees two figures. Square A is 10 cm by 10 cm (area 100 cm²). Rectangle B is 20 cm by 5 cm (area 100 cm²). Mr Lim asks: 「Are they similar?」 Which is correct?|A. No, they are not similar. Same area but different shapes (square vs rectangle). Different shapes cannot be similar. ✓|B. Yes, they are similar because they have the same area.|C. Yes, because both have area 100 cm².|D. We need to check if the perimeters are equal.",
+            "At Riverside Secondary, Mr Lim draws two circles. Circle P has radius 5 cm. Circle Q has radius 15 cm. Wei says: 「All circles are similar because they have the same shape.」 Is this correct?|A. Yes, all circles are similar. Same shape (all angles 360° at centre, any two circles have radii in a constant ratio). ✓|B. No, circles with different radii are not similar.|C. No, we need to check if the circumferences are proportional.|D. We cannot tell without measuring the diameters.",
+          ]),
+          correctAnswer: "A,A,A,A,A",
+          points: 10,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "At Riverside Secondary, Mr Lim shows two rectangles. Rectangle P is 8 cm by 4 cm. Rectangle Q is 12 cm by 6 cm. Aisha checks: 8:12 = 2:3, but 4:6 = 2:3. Are they similar?|A. Yes, they are similar. Same shape, corresponding sides in the same ratio 2:3. ✓|B. No, they are not similar because the sides are different.|C. No, we need the sides to be equal for similar figures.|D. We cannot tell without checking the angles.",
+            "Wei at Riverside Secondary sees two triangles. Triangle A has sides 5 cm, 12 cm, 13 cm. Triangle B has sides 10 cm, 24 cm, 26 cm. Mr Lim asks: 「Are they similar?」 Which is correct?|A. Yes, they are similar. Corresponding sides: 5:10 = 12:24 = 13:26 = 1:2 (same ratio). ✓|B. No, they are not similar because Triangle B is twice as big.|C. No, we need to check the angles.|D. We cannot tell without measuring all sides.",
+            "At Riverside Secondary, Aisha sees two trapeziums. Trapezium A has parallel sides 6 cm and 10 cm. Trapezium B has parallel sides 6 cm and 10 cm. Mr Lim asks: 「Are they similar?」 Which is correct?|A. We cannot tell. Same parallel sides alone is not enough. We need all corresponding sides in the same ratio. ✓|B. Yes, they are similar because the parallel sides are equal.|C. Yes, they are similar because both are trapeziums.|D. No, trapeziums can never be similar.",
+            "At Riverside Secondary, Mr Lim draws two equilateral triangles. Triangle P has side 7 cm. Triangle Q has side 14 cm. Wei asks: 「Are they similar?」 Which is correct?|A. Yes, they are similar. All equilateral triangles have the same shape (all angles 60°). Sides 7:14 = 1:2. ✓|B. No, they are not similar because the sides are different.|C. No, we need to check if all angles are 60°.|D. We cannot tell without measuring the angles.",
+            "Aisha at Riverside Secondary sees two pentagons. Pentagon A has sides 3 cm, 4 cm, 5 cm, 6 cm, 7 cm. Pentagon B has sides 6 cm, 8 cm, 10 cm, 12 cm, 14 cm. Mr Lim says: 「Check if the sides are in the same ratio.」 Are they similar?|A. Yes, they are similar. All sides in ratio 1:2 (3:6 = 4:8 = 5:10 = 6:12 = 7:14 = 1:2). ✓|B. No, they are not similar because Pentagon B is twice as big.|C. No, we need to check the angles.|D. We cannot tell without measuring all the sides.",
+            "At Riverside Secondary, Wei sees two rhombuses. Rhombus A has all sides 9 cm, angles 60° and 120°. Rhombus B has all sides 18 cm, angles 60° and 120°. Mr Lim asks: 「Are they similar?」 Which is correct?|A. Yes, they are similar. Same shape (angles match), sides in ratio 9:18 = 1:2. ✓|B. No, they are not similar because Rhombus B is twice as big.|C. No, we need to check the diagonals.|D. We cannot tell without measuring the area.",
+            "Aisha at Riverside Secondary sees two regular hexagons. Hexagon P has side 5 cm. Hexagon Q has side 5 cm. Mr Lim asks: 「Are they similar?」 Which is correct?|A. Yes, they are similar. All regular hexagons have the same shape, and same size means scale factor 1 (congruent is similar). ✓|B. No, they are not similar because they are congruent.|C. No, similar means different sizes only.|D. We cannot tell without checking the angles.",
+            "At Riverside Secondary, Mr Lim shows two triangles. Triangle ABC has sides 10 cm, 15 cm, 20 cm. Triangle DEF has sides 2 cm, 3 cm, 4 cm. Wei checks: 10:2 = 5:1, 15:3 = 5:1, 20:4 = 5:1. Are they similar?|A. Yes, they are similar. Same shape, corresponding sides in the same ratio 5:1 (or 1:5 if we reverse). ✓|B. No, they are not similar because the ratios are reversed.|C. No, we need Triangle ABC to be smaller for them to be similar.|D. We cannot tell without measuring the angles.",
+          ]),
+          correctAnswer: "A,A,A,A,A,A,A,A",
+          points: 16,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `Part 2: Show Your Working (写出算式步骤)
+
+Riverside Secondary School has geometry questions about similar figures. Answer the questions below. Show your working.
+
+Question (a)
+At Riverside Secondary, Mr Lim draws two triangles on the whiteboard:
+• Triangle ABC: sides 6 cm, 8 cm, 10 cm
+• Triangle PQR: sides 9 cm, 12 cm, 15 cm
+Wei says: 「Triangle PQR is bigger than Triangle ABC, so they are not similar.」
+Aisha says: 「We need to check if the corresponding sides are in the same ratio.」
+(i) Check whether the corresponding sides are in the same ratio. Show your working by calculating 6:9, 8:12, and 10:15.
+(ii) Are these triangles similar? Explain your answer using the definition of similar figures (same shape, corresponding sides in the same ratio).
+
+Question (b)
+At Riverside Secondary, Mr Lim shows two rectangles:
+• Rectangle A: 7 cm by 4 cm
+• Rectangle B: 21 cm by 12 cm
+(i) Calculate the ratio of corresponding sides: 7:21 and 4:12. Show your working. Simplify each ratio to its simplest form.
+(ii) Are these rectangles similar? Explain why or why not using the ratios you calculated.
+(iii) Wei says: 「If two rectangles have the same area, they must be similar.」 Give an example of two rectangles with the same area that are NOT similar. Explain why they are not similar.
+
+Question (c)
+At Riverside Secondary, Mr Lim draws two squares:
+• Square P: side 11 cm
+• Square Q: side 11 cm
+Aisha says: 「These squares are congruent, not similar, because they have the same size.」
+Wei says: 「Congruent figures are also similar, with scale factor 1.」
+(i) Who is correct, Wei or Aisha? Explain your answer.
+(ii) Give the definition of similar figures: what must be true for two figures to be similar?
+(iii) Explain why congruent figures are a special case of similar figures (hint: what is the scale factor when two figures have exactly the same size?).
+
+写作提示 / Tips:
+✓ 每题分步骤写出推理 (Show working steps for each question)
+✓ Part 2 官方要求：clearly show the method of solution by writing working steps, plus the final answer
+✓ 不用计算器 (No calculators allowed)
+✓ 本周教 Sec 2 GEOMETRY AND MEASUREMENT, G2. Congruence and similarity: 2.2 similar figures. 本周是 G2.2 only. Similar figures: (1) two figures are similar if they have the same shape but may have different sizes (同形，大小可不同)；(2) corresponding angles are equal and corresponding sides are in the same ratio (对应角相等，对应边成比例)；(3) congruent figures are similar with scale factor 1 (全等图形是缩放比例为 1 的特殊相似图形)；(4) same area does not mean similar (面积相等不一定相似)；(5) different shape cannot be similar even if same area (不同形状不能相似，即使面积相同). Fossil: same shape different size offered as not similar (wrong); same shape same size offered as not similar (wrong, congruent is similar with scale factor 1); different shape same area offered as similar (wrong); two options that are the same pair in different order. Cast: secondary Wei, Aisha, Mr Lim at Riverside Secondary School. No calculator. Integer lengths and integer scale factors only.
+✓ 关键步骤：Step 1: Read the question carefully and identify the two figures being compared (仔细读题，识别要比较的两个图形). Step 2: Check if they have the same shape (same type of figure: triangle, rectangle, circle, etc.) (检查是否同形：同类型的图形). Step 3: Calculate the ratio of corresponding sides (计算对应边的比例). Step 4: Check if all the ratios are the same (检查所有比例是否相同). Step 5: If all ratios are the same, the figures are similar; if not, they are not similar (如果所有比例相同，图形相似；如果不同，图形不相似). Step 6: Remember: congruent figures are similar with scale factor 1 (same shape and same size) (记住：全等图形是相似图形的特例，缩放比例为 1（同形同大小）). Step 7: Remember: same area does not mean similar; different shapes cannot be similar (记住：面积相等不一定相似；不同形状不能相似). Step 8: Write your conclusion clearly: the figures are similar (or not similar) because... (清楚写出结论：这两个图形相似（或不相似）因为...).
+✓ 化石 (fossil errors):
+  • Same shape different size offered as not similar (wrong: that IS similar; similar means same shape, size may differ) (同形不同大小作为「不相似」选项，错误：那正是相似；相似就是同形，大小可不同)
+  • Same shape same size offered as not similar (wrong: congruent figures are similar with scale factor 1) (同形同大小作为「不相似」选项，错误：全等图形是相似图形的特例，缩放比例为 1)
+  • Different shape same area offered as similar (wrong: different shapes cannot be similar) (不同形状但面积相同作为「相似」选项，错误：不同形状不能相似)
+  • Two options that are the same pair of figures in different order (same pair, different order, as two correct answers) (同一对图形，不同顺序，作为两个正确选项)
+  • Copying 微课 example numbers in writing (写作题照抄微课例题的数字。微课用 6×4 和 12×8 矩形；3-3-4 和 9-9-12 三角形；6×6 正方形和 9×4 矩形。写作题必须用不同的数字。本周写作用：6-8-10 和 9-12-15 三角形；7×4 和 21×12 矩形；11×11 正方形。)
+✓ 本周不教 G2.3 properties related to similar triangles and other plane figures such as ratio of corresponding sides（不教相似三角形性质作为单独列项）；不教 G2.4 enlargement and reduction；不教 G2.5 problems involving similar figures；不教 G2.8 SSS/SAS tests；不教 G2.9 ratio of areas (k²)；不教 G2.10 ratio of volumes (k³). 本周只教 G2.2 similar figures.
+
+Note: This is a sample of Part 2 short-answer/open-ended questions. The official paper has 20 short-answer + 10–15 open-ended items in 1 hour 45 minutes.`,
+          points: 20,
+        },
+      ],
+    },
   ];
 
 
