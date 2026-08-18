@@ -13709,19 +13709,19 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
 Riverside Secondary School has quadratic equations exercises. Answer the questions below. Show your working clearly.
 
 Question (a)
-At Riverside Secondary, Mr Lim gives Wei the equation: x² − 6x + 8 = 0.
-(i) Solve by factorisation. Show your working step by step: find two numbers that multiply to +8 and add to −6, factorise the quadratic, set each factor to zero, and solve for x.
+At Riverside Secondary, Mr Lim gives Wei the equation: x² − 11x + 28 = 0.
+(i) Solve by factorisation. Show your working step by step: find two numbers that multiply to +28 and add to −11, factorise the quadratic, set each factor to zero, and solve for x.
 (ii) Check your solution by substituting each root back into the original equation.
 
 Question (b)
-Aisha at Riverside Secondary has the equation: x² + 9x + 14 = 0.
-(i) Solve by factorisation. Show your working step by step: find two numbers that multiply to +14 and add to +9, factorise, set each factor to zero, and solve for x.
+Aisha at Riverside Secondary has the equation: x² + 5x − 24 = 0.
+(i) Solve by factorisation. Show your working step by step: find two numbers that multiply to −24 and add to +5, factorise, set each factor to zero, and solve for x.
 (ii) Check your solution by substituting each root back into the original equation.
 
 Question (c)
-At Riverside Secondary, Mr Lim writes: 「For x² − 25 = 0, this is a difference of squares.」
-(i) Factorise x² − 25 and solve for x. Show your working step by step.
-(ii) Wei asks: 「Can we also write x² = 25, then take square roots: x = ±5?」 Mr Lim says: 「Yes, that gives the same answer. But this week we practice factorisation. Write x² − 25 = (x + 5)(x − 5) = 0, then x = −5 or x = 5.」 Explain why (x + 5)(x − 5) = x² − 25.
+At Riverside Secondary, Mr Lim writes: 「For x² − 36 = 0, this is a difference of squares.」
+(i) Factorise x² − 36 and solve for x. Show your working step by step.
+(ii) Wei asks: 「Can we also write x² = 36, then take square roots: x = ±6?」 Mr Lim says: 「Yes, that gives the same answer. But this week we practice factorisation. Write x² − 36 = (x + 6)(x − 6) = 0, then x = −6 or x = 6.」 Explain why (x + 6)(x − 6) = x² − 36.
 
 写作提示 / Tips:
 ✓ 每题分步骤写出推理 (Show working steps for each question)
