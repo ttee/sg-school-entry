@@ -912,6 +912,14 @@ export default function WeikeMiniLesson({ level, weekNumber }: WeikeMiniLessonPr
       ],
       gloss: "AEIS 中学数学第 76 周 / SMATH Week 76. 本周例题：Sec 2 G2.2 similar figures（相似图形）。官方 MOE 2020 G3 Mathematics Syllabuses - Sec 2 GEOMETRY AND MEASUREMENT, G2. Congruence and similarity: 2.2 similar figures. 本周是 G2.2 only（本周只教相似图形）. Similar figures: (1) two figures are similar if they have the same shape but may have different sizes（两个图形相似当且仅当它们同形，但大小可以不同）; (2) corresponding angles are equal and corresponding sides are in the same ratio（对应角相等，对应边成比例）; (3) congruent figures are similar with scale factor 1（全等图形是缩放比例为 1 的特殊相似图形，第 75 周已学全等）; (4) same area does not mean similar（面积相等不一定相似）; (5) different shape cannot be similar even if same area（不同形状不能相似，即使面积相同）; (6) integer lengths and integer scale factors only, no calculator（整数边长和整数缩放比例，不用计算器）. Example 1: Rectangle A is 6 cm by 4 cm. Rectangle B is 12 cm by 8 cm. Are they similar? Yes. Same shape (both rectangles). Check corresponding sides: 6:12 = 1:2, 4:8 = 1:2. Same ratio (1:2), so similar with scale factor 2. Example 2: Triangle A has sides 3 cm, 3 cm, 4 cm. Triangle B has sides 9 cm, 9 cm, 12 cm. Are they similar? Yes. Same shape (both triangles). Check corresponding sides: 3:9 = 1:3, 3:9 = 1:3, 4:12 = 1:3. Same ratio (1:3), so similar with scale factor 3. Example 3: Square A is 6 cm by 6 cm (area 36 cm²). Rectangle B is 9 cm by 4 cm (area 36 cm²). Are they similar? No. Same area (36 = 36), but different shape (square vs rectangle with sides ratio 9:4 ≠ 1:1). Not similar. Cast: secondary Wei, Aisha, Mr Lim at Riverside Secondary School. No calculator. Integer lengths and scale factors only. 本周不教 G2.3 properties related to similar triangles and other plane figures such as ratio of corresponding sides（不教相似三角形性质作为单独列项）; 不教 G2.4 enlargement and reduction; 不教 G2.5 problems involving similar figures; 不教 G2.8 SSS/SAS tests; 不教 G2.9 ratio of areas (k²); 不教 G2.10 ratio of volumes (k³). 本周只教 G2.2 similar figures: same shape (corresponding angles equal and corresponding sides in the same ratio); size may differ; congruent is similar with scale factor 1; same area not enough."
     },
+    "SMATH-77": {
+      examples: [
+        "Triangle ABC ~ Triangle DEF. AB = 4 cm, DE = 8 cm. → Corresponding sides proportional: AB:DE = 4:8 = 1:2 (scale factor k = 2)",
+        "∠P = 50°, ∠Q = 70°, ∠R = 60°. Triangle PQR ~ Triangle XYZ. → Corresponding angles equal: ∠X = 50°, ∠Y = 70°, ∠Z = 60°",
+        "Pentagon ABCDE ~ Pentagon FGHIJ. AB = 3 cm, FG = 9 cm. BC = 4 cm. → FG/AB = 3, so GH = BC × 3 = 4 × 3 = 12 cm"
+      ],
+      gloss: "AEIS 中学数学第 77 周 / SMATH Week 77. 本周例题：Sec 2 G2.3 properties of similar triangles and polygons（相似三角形和多边形的性质）。"
+    },
     "SEC-0": {
       fossil: "Although I was nervous, but I tried. ✗ (中文「虽然…但是…」迁移) / I go yesterday ✗ (叙事体过去时掉落)",
       examples: [

@@ -14084,6 +14084,103 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
         },
       ],
     },
+    {
+      level: "SMATH",
+      weekNumber: 77,
+      title: "相似三角形和多边形的性质 — Properties of similar triangles and polygons",
+      description: "Sec 2 G2.3: properties of similar triangles and polygons (AEIS 中学数学第 77 周 / SMATH Week 77)",
+      isSample: false,
+      errorFocus: "corresponding sides vs non-corresponding sides offered as same ratio (wrong pair); all angles equal so sides must be equal (confuses similar with congruent); two options that are same correspondence in different order; scale factor applied to an angle",
+      parentBrief: "本周练相似三角形和多边形的性质。G2.3 只有两条官方性质：对应角相等，对应边成比例。盯住：对应边（不是任意两边）；角度不缩放；比例不代表相等。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "At Riverside Secondary, Mr Lim draws two triangles on the whiteboard. Triangle ABC has sides AB = 5 cm, BC = 12 cm, AC = 13 cm. Triangle DEF has sides DE = 10 cm, EF = 24 cm, DF = 26 cm. Wei asks: 「Are the triangles similar, and what is the scale factor?」 Which is correct?|A. Yes, they are similar. Scale factor k = 2. Corresponding sides: AB:DE = 5:10 = 1:2, BC:EF = 12:24 = 1:2, AC:DF = 13:26 = 1:2. All ratios equal. ✓|B. No, they are not similar because Triangle DEF is bigger.|C. Yes, but we need to measure the angles first.|D. No, because the sides are different lengths.",
+            "Aisha at Riverside Secondary sees two quadrilaterals. Quadrilateral PQRS has sides PQ = 3 cm, QR = 4 cm, RS = 5 cm, SP = 6 cm, and ∠P = 90°, ∠Q = 110°, ∠R = 80°, ∠S = 80°. Quadrilateral WXYZ has sides WX = 9 cm, XY = 12 cm, YZ = 15 cm, ZW = 18 cm, and ∠W = 90°, ∠X = 110°, ∠Y = 80°, ∠Z = 80°. Mr Lim asks: 「Are they similar?」 Which is correct?|A. Yes, they are similar. Corresponding angles are equal (90°, 110°, 80°, 80°). Corresponding sides are proportional: 3:9 = 4:12 = 5:15 = 6:18 = 1:3. Scale factor k = 3. ✓|B. No, because Quadrilateral WXYZ is three times bigger.|C. No, we need to check if all four sides are equal.|D. Yes, because both have four sides and same angles.",
+            "At Riverside Secondary, Mr Lim shows two pentagons. Pentagon ABCDE ~ Pentagon FGHIJ (they are similar). AB = 2 cm, BC = 3 cm, CD = 4 cm, DE = 5 cm, EA = 6 cm. FG = 8 cm. Wei says: 「If AB:FG = 2:8 = 1:4, then BC:GH = 1:4, so GH = BC × 4 = 3 × 4 = 12 cm.」 Is this correct?|A. Yes. AB:FG = 1:4 (scale factor k = 4). Corresponding sides are proportional, so BC:GH = 1:4, GH = 3 × 4 = 12 cm. ✓|B. No, we need to check all the angles first.|C. No, because BC and GH are not corresponding sides.|D. No, the scale factor only applies to AB and FG.",
+            "Aisha at Riverside Secondary sees two triangles. Triangle PQR has ∠P = 50°, ∠Q = 60°, ∠R = 70°. Triangle XYZ has ∠X = 50°, ∠Y = 60°, ∠Z = 70°. Mr Lim asks: 「If the corresponding angles are equal, are the triangles similar?」 Which is correct?|A. Yes. Corresponding angles are equal (∠P = ∠X = 50°, ∠Q = ∠Y = 60°, ∠R = ∠Z = 70°). For triangles, if corresponding angles are equal, the triangles are similar (corresponding sides will be proportional). ✓|B. No, we must measure all the sides to check if they are equal.|C. No, equal angles only mean the triangles have the same shape, not that they are similar.|D. No, we need to check if the sides are in the same ratio first.",
+            "At Riverside Secondary, Wei sees two similar triangles ABC and DEF. Triangle ABC has sides AB = 4 cm, BC = 6 cm, AC = 8 cm. Triangle DEF has sides DE = 12 cm, EF = 18 cm, DF = 24 cm. Mr Lim asks: 「If Triangle DEF is similar to Triangle ABC with scale factor k = 3, what happens to the angles?」 Which is correct?|A. The angles do NOT change. Corresponding angles are equal: ∠A = ∠D, ∠B = ∠E, ∠C = ∠F. Scale factor only applies to side lengths, not angles. ✓|B. The angles are multiplied by 3 (scale factor k = 3).|C. The angles are divided by 3.|D. We need to calculate the new angles using the side ratios.",
+          ]),
+          correctAnswer: "A,A,A,A,A",
+          points: 10,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "At Riverside Secondary, Mr Lim draws two triangles. Triangle ABC has sides AB = 7 cm, BC = 24 cm, AC = 25 cm. Triangle PQR has sides PQ = 14 cm, QR = 48 cm, PR = 50 cm. Aisha checks: AB:PQ = 7:14 = 1:2, BC:QR = 24:48 = 1:2, AC:PR = 25:50 = 1:2. Are they similar?|A. Yes, they are similar. Corresponding sides are proportional (all ratios 1:2). Corresponding angles are equal (property of similar triangles). ✓|B. No, we need to measure the angles to confirm.|C. No, because Triangle PQR is twice as big.|D. Yes, but only if we check that AB, BC, AC match PQ, QR, PR in order.",
+            "Wei at Riverside Secondary sees two similar hexagons. Hexagon ABCDEF ~ Hexagon GHIJKL. AB = 3 cm, GH = 12 cm. BC = 5 cm. Mr Lim asks: 「What is HI?」 Which is correct?|A. Scale factor k = GH/AB = 12/3 = 4. Corresponding sides proportional: BC:HI = 1:4, so HI = BC × 4 = 5 × 4 = 20 cm. ✓|B. HI = BC + 9 = 5 + 9 = 14 cm (add the difference).|C. We cannot find HI without knowing all the sides of Hexagon ABCDEF.|D. HI = GH = 12 cm (all sides of Hexagon GHIJKL are 12 cm).",
+            "At Riverside Secondary, Aisha sees two quadrilaterals. Quadrilateral ABCD has sides AB = 4 cm, BC = 6 cm, CD = 8 cm, DA = 10 cm. Quadrilateral EFGH has sides EF = 8 cm, FG = 12 cm, GH = 16 cm, HE = 20 cm. Mr Lim asks: 「Check if AB:EF = BC:FG. Are they similar?」 Which is correct?|A. AB:EF = 4:8 = 1:2, BC:FG = 6:12 = 1:2, CD:GH = 8:16 = 1:2, DA:HE = 10:20 = 1:2. All ratios equal (1:2). If corresponding angles are also equal, they are similar. ✓ (We assume angles match for this problem.)|B. No, because Quadrilateral EFGH is twice as big.|C. Yes, because both have four sides.|D. No, we need CD = GH for them to be similar.",
+            "At Riverside Secondary, Mr Lim shows two triangles. Triangle ABC ~ Triangle DEF. ∠A = 40°, ∠B = 70°, ∠C = 70°. What are ∠D, ∠E, ∠F?|A. ∠D = 40°, ∠E = 70°, ∠F = 70° (corresponding angles are equal). ✓|B. ∠D = 80°, ∠E = 140°, ∠F = 140° (angles are doubled when triangles are similar).|C. We need to know the side lengths to calculate the angles.|D. ∠D = ∠A + 10°, ∠E = ∠B + 10°, ∠F = ∠C + 10°.",
+            "Wei at Riverside Secondary sees two similar pentagons. Pentagon PQRST ~ Pentagon VWXYZ. PQ = 2 cm, QR = 3 cm, VW = 10 cm. Mr Lim asks: 「If Pentagon VWXYZ is similar to Pentagon PQRST, what is WX?」 Which is correct?|A. Scale factor k = VW/PQ = 10/2 = 5. Corresponding sides proportional: QR:WX = 1:5, so WX = QR × 5 = 3 × 5 = 15 cm. ✓|B. WX = VW = 10 cm (all sides of Pentagon VWXYZ are 10 cm).|C. WX = QR + 7 = 3 + 7 = 10 cm.|D. We cannot find WX without measuring all the sides.",
+            "At Riverside Secondary, Aisha sees two triangles. Triangle ABC has sides AB = 9 cm, BC = 12 cm, AC = 15 cm. Triangle PQR has sides PQ = 3 cm, QR = 4 cm, PR = 5 cm. Mr Lim asks: 「What is the scale factor from Triangle PQR to Triangle ABC?」 Which is correct?|A. Scale factor k = AB/PQ = 9/3 = 3 (or BC/QR = 12/4 = 3, or AC/PR = 15/5 = 3). All ratios are 3:1. ✓|B. Scale factor k = 1/3 (Triangle PQR is smaller).|C. Scale factor k = 6 (difference between corresponding sides: 9 - 3 = 6).|D. We need to check the angles first.",
+            "At Riverside Secondary, Mr Lim draws two quadrilaterals. Quadrilateral ABCD has ∠A = 90°, ∠B = 100°, ∠C = 80°, ∠D = 90°. AB = 5 cm, BC = 7 cm. Quadrilateral EFGH has ∠E = 90°, ∠F = 100°, ∠G = 80°, ∠H = 90°. EF = 10 cm, FG = 14 cm. Wei says: 「Corresponding angles are equal. AB:EF = 5:10 = 1:2, BC:FG = 7:14 = 1:2. Are they similar?」 Which is correct?|A. Yes, they are similar (if all corresponding sides are also in ratio 1:2 and corresponding angles equal). Corresponding angles equal ✓. AB:EF = BC:FG = 1:2 ✓. Need to check CD:GH and DA:HE also 1:2. ✓|B. No, because Quadrilateral EFGH is twice as big.|C. No, quadrilaterals can never be similar unless they are squares.|D. No, we need all four sides to be equal.",
+            "Aisha at Riverside Secondary sees two similar triangles. Triangle ABC ~ Triangle XYZ. AB = 6 cm, XY = 18 cm. ∠A = 55°. Mr Lim asks: 「What is ∠X?」 Which is correct?|A. ∠X = 55° (corresponding angles are equal in similar triangles). ✓|B. ∠X = 55° × 3 = 165° (scale factor k = 18/6 = 3, so angles are also multiplied by 3).|C. ∠X = 55° / 3 ≈ 18.3°.|D. We need to know all the side lengths to calculate ∠X.",
+          ]),
+          correctAnswer: "A,A,A,A,A,A,A,A",
+          points: 16,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `Part 2: Show Your Working (写出算式步骤)
+
+Riverside Secondary School has geometry questions about properties of similar triangles and polygons. Answer the questions below. Show your working.
+
+Question (a)
+At Riverside Secondary, Mr Lim draws two triangles on the whiteboard:
+• Triangle ABC: sides AB = 3 cm, BC = 4 cm, AC = 5 cm
+• Triangle PQR: sides PQ = 12 cm, QR = 16 cm, PR = 20 cm
+Wei says: 「These triangles are similar because Triangle PQR is bigger.」
+Aisha says: 「We need to check if corresponding sides are proportional.」
+(i) Calculate the ratios AB:PQ, BC:QR, and AC:PR. Show your working. Simplify each ratio to its simplest form.
+(ii) Are these triangles similar? Explain your answer using the G2.3 properties: corresponding angles are equal, corresponding sides are proportional.
+(iii) What is the scale factor from Triangle ABC to Triangle PQR?
+
+Question (b)
+At Riverside Secondary, Mr Lim shows two pentagons:
+• Pentagon ABCDE ~ Pentagon FGHIJ (they are similar)
+• Pentagon ABCDE: AB = 2 cm, BC = 4 cm, CD = 5 cm, DE = 3 cm, EA = 6 cm
+• Pentagon FGHIJ: FG = 8 cm
+(i) Calculate the scale factor from Pentagon ABCDE to Pentagon FGHIJ. Show your working: FG / AB = ?
+(ii) Using the scale factor, calculate GH, HI, IJ, and JF. Show your working for each side. Write: GH = BC × k = 4 × ? = ? cm. (Do this for all four sides.)
+(iii) Wei says: 「Because the pentagons are similar, all corresponding angles are equal.」 Is Wei correct? Explain why corresponding angles are equal in similar polygons (use the G2.3 property).
+
+Question (c)
+At Riverside Secondary, Mr Lim draws two similar triangles:
+• Triangle XYZ ~ Triangle UVW
+• Triangle XYZ has ∠X = 50°, ∠Y = 70°, ∠Z = 60°
+• Triangle XYZ has sides XY = 8 cm, YZ = 10 cm, ZX = 12 cm
+• Triangle UVW has side UV = 16 cm (UV corresponds to XY)
+(i) What are the measures of ∠U, ∠V, and ∠W? Explain your answer using the G2.3 property: corresponding angles are equal.
+(ii) Calculate the scale factor from Triangle XYZ to Triangle UVW. Show your working: UV / XY = ?
+(iii) Aisha says: 「Because the scale factor is 2, the angles in Triangle UVW are also twice as big: ∠U = 50° × 2 = 100°.」 Is Aisha correct? Explain why the scale factor applies to side lengths but NOT to angles.
+
+写作提示 / Tips:
+✓ 每题分步骤写出推理 (Show working steps for each question)
+✓ Part 2 官方要求：clearly show the method of solution by writing working steps, plus the final answer
+✓ 不用计算器 (No calculators allowed)
+✓ 本周教 Sec 2 GEOMETRY AND MEASUREMENT, G2. Congruence and similarity: 2.3 properties of similar triangles and polygons. 本周是 G2.3 only. Properties of similar triangles and polygons: (1) corresponding angles are equal（对应角相等）; (2) corresponding sides are proportional（对应边成比例）. 本周只用官方两条性质：corresponding angles are equal, corresponding sides are proportional. Integer lengths and integer scale factors only. Fossil: corresponding sides vs non-corresponding sides offered as same ratio (wrong pair of sides); all angles equal so sides must be equal (confuses similar with congruent); two options that are same correspondence in different order as two correct answers; scale factor applied to an angle (angles do not scale). Cast: secondary Wei, Aisha, Mr Lim at Riverside Secondary School. No calculator. Integer lengths and scale factors only.
+✓ 关键步骤：Step 1: Identify corresponding sides/angles（识别对应边/对应角）. Step 2: Check if corresponding angles are equal (G2.3 property 1)（检查对应角是否相等）. Step 3: Calculate ratios of corresponding sides (G2.3 property 2)（计算对应边的比例）. Step 4: Check if all ratios are equal (if yes, sides are proportional)（检查所有比例是否相等）. Step 5: Scale factor k = (side of larger polygon) / (corresponding side of smaller polygon)（缩放比例 k = 大图形的边 / 小图形对应边）. Step 6: Remember: angles do NOT scale. Corresponding angles are equal regardless of scale factor（角度不缩放。无论缩放比例多少，对应角相等）.
+✓ 化石 (fossil errors):
+  • Corresponding sides vs non-corresponding sides offered as same ratio (wrong pair)（对应边 vs 非对应边作为同一比例，错误的配对）
+  • All angles equal so sides must be equal (confuses similar with congruent)（所有角相等所以边也必须相等，混淆相似与全等）
+  • Two options that are same correspondence in different order as two correct answers（同一对应关系以不同顺序呈现作为两个正确选项）
+  • Scale factor applied to an angle (angles do not scale)（缩放比例应用于角度，角度不缩放）
+  • Writing copies 微课 example numbers (Writing Q uses 3-4-5 & 12-16-20 triangles; 2-4-5-3-6 & 8-?-?-?-? pentagons; 8-10-12 & 16-?-? triangles with 50-70-60 angles. NOT the same as 微课: 4-8 triangles, 50-70-60 angles, 3-9 pentagons.)
+✓ 本周不教 G2.4 enlargement and reduction of a plane figure using a scale factor（不教用缩放比例进行平面图形的放大和缩小）；不教 G2.5 problems involving similar figures（不教相似图形应用题）；不教 G2.8 SSS/SAS/AAA tests as a named list（不教 SSS/SAS/AAA 相似检验作为命名列表）；不教 G2.9 ratio of areas = k²（不教面积比等于边长比的平方）；不教 G2.10 ratio of volumes = k³（不教体积比等于边长比的立方）. 本周只教 G2.3: corresponding angles are equal; corresponding sides are proportional.
+
+Note: This is a sample of Part 2 short-answer/open-ended questions. The official paper has 20 short-answer + 10–15 open-ended items in 1 hour 45 minutes.`,
+          points: 20,
+        },
+      ],
+    },
   ];
 
 
