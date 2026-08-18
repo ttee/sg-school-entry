@@ -952,6 +952,14 @@ export default function WeikeMiniLesson({ level, weekNumber }: WeikeMiniLessonPr
       ],
       gloss: "AEIS 中学数学第 81 周 / SMATH Week 81. 本周例题：Sec 2 G2.7 perpendicular and angle bisectors（垂直平分线和角平分线）。"
     },
+    "SMATH-82": {
+      examples: [
+        "Two triangles with sides 5, 7, 8 cm and 5, 7, 8 cm → SSS congruent (all three sides equal)",
+        "Two triangles with angles 50°, 60°, 70° and 50°, 60°, 70° → AAA similar (corresponding angles equal, but no sides given, so not enough for congruent)",
+        "Two triangles with sides 3, 4, 5 and 6, 8, 10 → sides proportional 3:6 = 4:8 = 5:10 = 1:2, AAA also holds if right-angled → similar, not congruent"
+      ],
+      gloss: "AEIS 中学数学第 82 周 / SMATH Week 82. 本周例题：Sec 2 G2.8 determining congruent or similar triangles（判断全等或相似三角形）。"
+    },
     "SEC-0": {
       fossil: "Although I was nervous, but I tried. ✗ (中文「虽然…但是…」迁移) / I go yesterday ✗ (叙事体过去时掉落)",
       examples: [

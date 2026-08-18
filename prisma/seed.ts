@@ -14542,6 +14542,91 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
         },
       ],
     },
+    {
+      level: "SMATH",
+      weekNumber: 82,
+      title: "判断全等或相似三角形 — Determining congruent or similar triangles",
+      description: "Sec 2 G2.8: determining congruent or similar triangles (AEIS 中学数学第 82 周 / SMATH Week 82)",
+      isSample: false,
+      errorFocus: "naming SSS when only two sides match; calling similar figures congruent; using the wrong corresponding vertices (A↔P, B↔Q, C↔R); two options that are the same pair in a different order",
+      parentBrief: "本周练判断全等或相似三角形。G2.8 内容：用标准判定法判断两个三角形是否全等或相似。全等判定（congruent tests）：SSS（三边全相等），SAS（两边及其夹角相等），ASA（两角及其夹边相等），AAS（两角及其一边相等），RHS（直角三角形：直角、斜边、一边相等）。相似判定（similar tests）：AAA（三组对应角相等）或三组对应边成比例。简单判断/命名判定法/找对应边或角。只用整数长度（或 ½、⅓ 如果另一边保持整数）。无 G2.9 k²。无 G2.10 k³。无 G2.7 垂直平分线。不用计算器。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "At Riverside Secondary, Mr Lim shows two triangles ABC and PQR. Triangle ABC has sides 5 cm, 7 cm, 8 cm. Triangle PQR has sides 5 cm, 7 cm, 8 cm. Wei asks: 「Are these triangles congruent or similar?」 Which is correct?|A. Congruent. All three sides are equal (SSS test). When all three sides match exactly, the triangles are congruent. ✓|B. Similar but not congruent. The sides are proportional.|C. Neither congruent nor similar. We need angles.|D. Congruent only if the angles also match.",
+            "At Riverside Secondary, Aisha draws two triangles DEF and XYZ. Triangle DEF has angles 50°, 60°, 70°. Triangle XYZ has angles 50°, 60°, 70°. No side lengths are given. Mr Lim asks: 「Are these triangles congruent, similar, or neither?」 Which is correct?|A. Similar. All three corresponding angles are equal (AAA test), so the triangles are similar. But we don't have side lengths, so we can't confirm congruent. ✓|B. Congruent. The angles match.|C. Neither. We need at least one side.|D. Congruent and similar. All triangles with same angles are congruent.",
+            "At Riverside Secondary, Wei draws triangle JKL with sides 3 cm, 4 cm, 5 cm. Aisha draws triangle MNO with sides 6 cm, 8 cm, 10 cm. Mr Lim says: 「Check if the sides are proportional.」 Which is correct?|A. Similar. The sides are proportional: 3:6 = 4:8 = 5:10 = 1:2. The triangles are similar but not congruent (different sizes). ✓|B. Congruent. The sides match.|C. Neither congruent nor similar. The sides don't match exactly.|D. Congruent. One triangle is just twice as big.",
+            "At Riverside Secondary, Mr Lim shows two triangles. Triangle ABC has sides AB = 9 cm, BC = 12 cm, and angle ABC = 35°. Triangle PQR has sides PQ = 9 cm, QR = 12 cm, and angle PQR = 35°. Wei asks: 「What test applies here?」 Which is correct?|A. SAS (Side-Angle-Side). Two sides and the included angle are equal, so the triangles are congruent by SAS. ✓|B. ASA. Two angles and a side.|C. SSS. Three sides match.|D. AAS. Two angles and a side.",
+            "At Riverside Secondary, Aisha shows two triangles. Triangle DEF has sides 4 cm, 6 cm. Triangle XYZ has sides 4 cm, 6 cm. Mr Lim asks: 「Can we conclude the triangles are congruent?」 Which is correct?|A. No. Only two sides match. We need a third side or an angle to use SSS, SAS, ASA, AAS, or RHS. Two sides alone are not enough. ✓|B. Yes. SSS test applies because two sides match.|C. Yes. The triangles must be congruent.|D. Yes. Similar figures with same sides are congruent.",
+          ]),
+          correctAnswer: "A,A,A,A,A",
+          points: 10,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "At Riverside Secondary, Mr Lim shows two triangles GHI and TUV. Triangle GHI has sides 10 cm, 15 cm, 20 cm. Triangle TUV has sides 10 cm, 15 cm, 20 cm. Aisha asks: 「Which congruence test applies?」 Which is correct?|A. SSS (Side-Side-Side). All three sides are equal, so the triangles are congruent by SSS. ✓|B. SAS. Two sides and an angle.|C. AAA. All angles must be equal too.|D. Similar only. They have same sides but not congruent.",
+            "At Riverside Secondary, Wei draws two triangles ABC and PQR. Angle A = 40°, angle B = 70°, angle C = 70°. Angle P = 40°, angle Q = 70°, angle R = 70°. Mr Lim asks: 「Are these triangles congruent or similar?」 Which is correct?|A. Similar. All corresponding angles are equal (AAA), so the triangles are similar. Without side lengths, we cannot confirm congruent. ✓|B. Congruent. AAA test proves congruence.|C. Neither. Angles alone don't tell us anything.|D. Congruent. Angle sum is 180° for both.",
+            "At Riverside Secondary, Aisha shows triangle DEF with sides 2 cm, 3 cm, 4 cm and triangle XYZ with sides 4 cm, 6 cm, 8 cm. Wei says: 「Are they similar?」 Which is correct?|A. Yes, similar. The sides are proportional: 2:4 = 3:6 = 4:8 = 1:2. The triangles are similar with scale factor 1:2. ✓|B. Yes, congruent. One is double the other.|C. No. The sides don't match exactly, so neither similar nor congruent.|D. No. We need angles to determine similarity.",
+            "At Riverside Secondary, Mr Lim shows triangle ABC with angle A = 55°, side AB = 8 cm, angle B = 60°. Triangle PQR has angle P = 55°, side PQ = 8 cm, angle Q = 60°. Aisha asks: 「What test applies?」 Which is correct?|A. ASA (Angle-Side-Angle). Two angles and the included side are equal, so the triangles are congruent by ASA. ✓|B. SAS. Two sides and an angle.|C. AAS. Two angles and a non-included side.|D. AAA. Three angles match.",
+            "At Riverside Secondary, Wei shows two right-angled triangles. Triangle GHI has a right angle at H, hypotenuse GI = 13 cm, and side HI = 12 cm. Triangle TUV has a right angle at U, hypotenuse TV = 13 cm, and side UV = 12 cm. Mr Lim asks: 「What test applies?」 Which is correct?|A. RHS (Right angle, Hypotenuse, Side). Both have a right angle, same hypotenuse, and one equal side, so congruent by RHS. ✓|B. SSS. All three sides must be given.|C. SAS. Two sides and the right angle.|D. ASA. Two angles and a side.",
+            "At Riverside Secondary, Aisha draws two triangles JKL and MNO. Angle J = 45°, angle K = 75°, side JL = 11 cm. Angle M = 45°, angle N = 75°, side MO = 11 cm. Wei says: 「Is this ASA or AAS?」 Which is correct?|A. AAS (Angle-Angle-Side). Two angles and a non-included side are equal. The side JL is opposite angle K, not between angles J and K. So it's AAS, and the triangles are congruent. ✓|B. ASA. The side is between the two angles.|C. Neither. We need the included side for ASA.|D. SSS. We need all three sides.",
+            "At Riverside Secondary, Mr Lim shows two triangles. Triangle JKL has sides 6 cm, 9 cm, 12 cm. Triangle MNO has sides 8 cm, 12 cm, 20 cm. Aisha says: 「Are they similar?」 Which is correct?|A. No. The sides are not proportional. Check the ratios: 6:8 = 3:4, 9:12 = 3:4, but 12:20 = 3:5. The first two ratios are 3:4, but the third ratio is 3:5 (different). Not all three ratios are the same, so the sides are not proportional. The triangles are NOT similar. ✓|B. Yes. 6:8 = 9:12 so similar.|C. Yes. The ratio 3:4 applies to all sides.|D. Yes. Two ratios match so similar.",
+            "At Riverside Secondary, Wei shows triangle ABC with vertices labeled A, B, C and sides 5 cm, 12 cm, 13 cm. Triangle PQR has sides 5 cm, 12 cm, 13 cm. Mr Lim says: 「If A corresponds to P, B to Q, and C to R, are the triangles congruent?」 Which is correct?|A. Yes, congruent by SSS. The corresponding vertices are A↔P, B↔Q, C↔R, and all three corresponding sides are equal (5 cm, 12 cm, 13 cm), so the triangles are congruent. ✓|B. No. The vertices don't match.|C. No. We need to check angles first.|D. Yes, but only if we also verify A↔Q instead.",
+          ]),
+          correctAnswer: "A,A,A,A,A,A,A,A",
+          points: 16,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `Part 2: Show Your Working (写出算式步骤)
+
+Riverside Secondary School has geometry questions about congruent and similar triangles. Answer the questions below. Show your working.
+
+Question (a)
+At Riverside Secondary, Mr Lim draws two triangles. Triangle ABC has sides AB = 17 cm, BC = 19 cm, CA = 23 cm. Triangle PQR has sides PQ = 17 cm, QR = 19 cm, RP = 23 cm.
+(i) Are triangles ABC and PQR congruent, similar, or neither? Which test applies? Show your working: check if all three sides are equal.
+(ii) Wei says: 「The triangles are similar because they have the same sides.」 Explain whether Wei is correct. Are they congruent, similar, or both?
+
+Question (b)
+At Riverside Secondary, Aisha draws two triangles. Triangle DEF has sides 7 cm, 10 cm, 14 cm. Triangle XYZ has sides 14 cm, 20 cm, 28 cm.
+(i) Check if the sides are proportional. Show your working: calculate the ratios 7:14, 10:20, 14:28.
+(ii) Are the triangles congruent or similar? Which test applies? Explain your answer.
+(iii) Mr Lim asks: 「If angle D = 42°, what is angle X (the corresponding angle in triangle XYZ)?」 Show your reasoning: corresponding angles in similar triangles are equal.
+
+Question (c)
+At Riverside Secondary, Wei draws two triangles. Triangle GHI has angles 72°, 48°, 60°. Triangle MNO has angles 72°, 48°, 60°. No side lengths are given.
+(i) Can you determine if the triangles are congruent? Explain why or why not. Show your reasoning: angles alone are enough for similarity (AAA), but not for congruence.
+(ii) Can you determine if the triangles are similar? Which test applies? Show your working.
+(iii) Aisha says: 「If the triangles have the same angles, they must be congruent.」 Explain why Aisha's statement is wrong. Give an example: two triangles with angles 72°, 48°, 60° but different sizes (one with sides 16 cm, 18 cm, 21 cm and another with sides 32 cm, 36 cm, 42 cm) are similar but not congruent.
+
+写作提示 / Tips:
+✓ 每题分步骤写出推理 (Show working steps for each question)
+✓ Part 2 官方要求：clearly show the method of solution by writing working steps, plus the final answer
+✓ 不用计算器 (No calculators allowed)
+✓ 本周教 Sec 2 GEOMETRY AND MEASUREMENT, G2. Congruence and similarity: 2.8 determining whether two triangles are congruent or similar using the standard tests. 本周是 G2.8 only. Official content: decide whether two triangles are congruent or similar using the standard tests. Congruent tests: SSS (three sides equal), SAS (two sides and included angle equal), ASA (two angles and included side equal), AAS (two angles and a non-included side equal), RHS (right angle, hypotenuse, one side equal for right-angled triangles). Similar tests: AAA (three corresponding angles equal) or three pairs of corresponding sides proportional. Simple decide/name the test/find a matching side or angle. Integer lengths only (or ½, ⅓ if other length stays integer). No 7.5, no √3. Cast: secondary Wei, Aisha, Mr Lim at Riverside Secondary School. No calculator.
+✓ 关键步骤：Step 1: Identify the given information for both triangles (sides and/or angles)（识别两个三角形的已知信息：边和/或角）. Step 2: For congruence, check if SSS, SAS, ASA, AAS, or RHS test applies（对于全等，检查是否适用 SSS、SAS、ASA、AAS 或 RHS 判定法）. SSS: all three sides equal. SAS: two sides and the included angle equal. ASA: two angles and the included side equal. AAS: two angles and a non-included side equal. RHS: right angle + hypotenuse + one side equal. Step 3: For similarity, check if AAA test applies (all corresponding angles equal) or if all three pairs of corresponding sides are proportional (e.g. 3:6 = 4:8 = 5:10 = 1:2)（对于相似，检查是否适用 AAA 判定法（所有对应角相等）或者三组对应边是否成比例）. Step 4: If triangles are congruent, they are also similar (congruent is a special case of similar with scale factor 1:1)（如果三角形全等，它们也相似：全等是相似的特例，比例因子 1:1）. Step 5: State the final answer and name the test used（陈述最终答案并说明使用的判定法）.
+✓ 化石 (fossil errors):
+  • Naming SSS when only two sides match (错误：只有两条边相同就说 SSS。SSS 需要三条边都相等。两条边不够)
+  • Calling similar figures congruent (错误：把相似图形说成全等。相似（similar）：同形不同大小（same shape, different size）。全等（congruent）：同形同大小（same shape, same size）。如果三角形有相同的角（AAA）但边长不同，它们是相似但不全等)
+  • Using the wrong corresponding vertices (错误：对应顶点错误。如果 A↔P, B↔Q, C↔R，那么 AB 对应 PQ，BC 对应 QR，CA 对应 RP。不要把 A 对应到 Q)
+  • Two options that are the same pair in a different order (两个选项是同一对不同顺序：例如 "congruent by SSS" 和 "SSS congruent" 是同一个答案，不要两个都写成正确选项)
+✓ Writing 数值不能抄 微课：微课用 5, 7, 8 cm（SSS 全等）；50°, 60°, 70°（AAA 相似）；3, 4, 5 和 6, 8, 10（比例 1:2 相似）。Writing Q 用 17, 19, 23 cm（SSS 全等）; 7, 10, 14 和 14, 20, 28（比例 1:2 相似）, 角度 42°; 72°, 48°, 60°（AAA 相似），例子 16, 18, 21 和 32, 36, 42 cm。不能抄本周 MCQ 的 5/7/8/50/60/70/3/4/6/9/12/35/10/15/20/40/13/45/75/11/6/8/12 等数值。
+✓ 本周只教 G2.8 determining congruent or similar triangles。本周不教 G2.9 ratio of areas = k²（不教面积比等于 k²）；不教 G2.10 ratio of volumes = k³（不教体积比等于 k³）；不教 G2.7 perpendicular and angle bisectors as the week's item（不作为本周项教垂直平分线和角平分线）. 本周只教 G2.8: decide whether two triangles are congruent (SSS, SAS, ASA, AAS, RHS) or similar (AAA or proportional sides).
+
+Note: This is a sample of Part 2 short-answer/open-ended questions. The official paper has 20 short-answer + 10–15 open-ended items in 1 hour 45 minutes.`,
+          points: 20,
+        },
+      ],
+    },
   ];
 
 

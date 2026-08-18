@@ -965,5 +965,123 @@ export default function SmathFigure({ weekNumber }: { weekNumber: number }) {
     );
   }
 
+  if (weekNumber === 82) {
+    return (
+      <div className="bg-paper border border-line rounded-xl p-6 mb-6">
+        <h3 className="font-semibold text-ink mb-4 text-center">📐 本周图解</h3>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          {/* Diagram 1: SSS Congruent */}
+          <div className="flex flex-col items-center">
+            <svg viewBox="0 0 220 200" className="w-full max-w-[220px] h-auto">
+              {/* Title */}
+              <text x="110" y="18" fontSize="11" fill="#1a1a1a" fontWeight="600" textAnchor="middle">SSS Congruent</text>
+              
+              {/* Triangle ABC */}
+              <polygon points="20,140 60,70 100,140" fill="none" stroke="#d97706" strokeWidth="2" />
+              <text x="12" y="155" fontSize="11" fill="#1a1a1a" fontWeight="600">A</text>
+              <text x="58" y="63" fontSize="11" fill="#1a1a1a" fontWeight="600">B</text>
+              <text x="103" y="155" fontSize="11" fill="#1a1a1a" fontWeight="600">C</text>
+              {/* Side lengths */}
+              <text x="30" y="110" fontSize="10" fill="#d97706" fontWeight="600">5</text>
+              <text x="75" y="110" fontSize="10" fill="#d97706" fontWeight="600">7</text>
+              <text x="55" y="155" fontSize="10" fill="#d97706" fontWeight="600">8</text>
+              
+              {/* Triangle PQR */}
+              <polygon points="120,140 160,70 200,140" fill="none" stroke="#10b981" strokeWidth="2" />
+              <text x="112" y="155" fontSize="11" fill="#1a1a1a" fontWeight="600">P</text>
+              <text x="158" y="63" fontSize="11" fill="#1a1a1a" fontWeight="600">Q</text>
+              <text x="203" y="155" fontSize="11" fill="#1a1a1a" fontWeight="600">R</text>
+              {/* Side lengths */}
+              <text x="130" y="110" fontSize="10" fill="#10b981" fontWeight="600">5</text>
+              <text x="175" y="110" fontSize="10" fill="#10b981" fontWeight="600">7</text>
+              <text x="155" y="155" fontSize="10" fill="#10b981" fontWeight="600">8</text>
+              
+              {/* Congruence mark */}
+              <text x="110" y="175" fontSize="11" fill="#3b82f6" fontWeight="700">△ABC ≅ △PQR</text>
+            </svg>
+            <p className="text-sm text-ink-2 text-center mt-2 font-semibold">
+              SSS 全等<br />
+              <span className="text-xs text-accent">三边相等 → 全等</span>
+            </p>
+          </div>
+
+          {/* Diagram 2: AAA Similar (not congruent) */}
+          <div className="flex flex-col items-center">
+            <svg viewBox="0 0 220 200" className="w-full max-w-[220px] h-auto">
+              {/* Title */}
+              <text x="110" y="18" fontSize="11" fill="#1a1a1a" fontWeight="600" textAnchor="middle">AAA Similar</text>
+              
+              {/* Triangle DEF (smaller) */}
+              <polygon points="30,130 70,80 110,130" fill="none" stroke="#d97706" strokeWidth="2" />
+              <text x="22" y="145" fontSize="11" fill="#1a1a1a" fontWeight="600">D</text>
+              <text x="68" y="73" fontSize="11" fill="#1a1a1a" fontWeight="600">E</text>
+              <text x="113" y="145" fontSize="11" fill="#1a1a1a" fontWeight="600">F</text>
+              {/* Angle marks */}
+              <text x="38" y="128" fontSize="9" fill="#d97706" fontWeight="600">50°</text>
+              <text x="68" y="93" fontSize="9" fill="#d97706" fontWeight="600">60°</text>
+              <text x="95" y="128" fontSize="9" fill="#d97706" fontWeight="600">70°</text>
+              
+              {/* Triangle XYZ (larger) */}
+              <polygon points="120,150 180,60 240,150" fill="none" stroke="#10b981" strokeWidth="2" />
+              <text x="112" y="165" fontSize="11" fill="#1a1a1a" fontWeight="600">X</text>
+              <text x="178" y="53" fontSize="11" fill="#1a1a1a" fontWeight="600">Y</text>
+              <text x="243" y="165" fontSize="11" fill="#1a1a1a" fontWeight="600">Z</text>
+              {/* Angle marks */}
+              <text x="128" y="148" fontSize="9" fill="#10b981" fontWeight="600">50°</text>
+              <text x="178" y="78" fontSize="9" fill="#10b981" fontWeight="600">60°</text>
+              <text x="220" y="148" fontSize="9" fill="#10b981" fontWeight="600">70°</text>
+              
+              {/* Similarity mark */}
+              <text x="110" y="185" fontSize="11" fill="#3b82f6" fontWeight="700">△DEF ~ △XYZ</text>
+            </svg>
+            <p className="text-sm text-ink-2 text-center mt-2 font-semibold">
+              AAA 相似<br />
+              <span className="text-xs text-accent">对应角相等 → 相似（非全等）</span>
+            </p>
+          </div>
+
+          {/* Diagram 3: Proportional sides → Similar */}
+          <div className="flex flex-col items-center">
+            <svg viewBox="0 0 220 200" className="w-full max-w-[220px] h-auto">
+              {/* Title */}
+              <text x="110" y="18" fontSize="11" fill="#1a1a1a" fontWeight="600" textAnchor="middle">Proportional → Similar</text>
+              
+              {/* Triangle JKL (3-4-5) */}
+              <polygon points="30,135 30,90 75,135" fill="none" stroke="#d97706" strokeWidth="2" />
+              <text x="22" y="150" fontSize="11" fill="#1a1a1a" fontWeight="600">J</text>
+              <text x="22" y="85" fontSize="11" fill="#1a1a1a" fontWeight="600">K</text>
+              <text x="78" y="150" fontSize="11" fill="#1a1a1a" fontWeight="600">L</text>
+              {/* Side lengths */}
+              <text x="15" y="115" fontSize="10" fill="#d97706" fontWeight="600">3</text>
+              <text x="50" y="145" fontSize="10" fill="#d97706" fontWeight="600">4</text>
+              <text x="48" y="110" fontSize="10" fill="#d97706" fontWeight="600">5</text>
+              {/* Right angle marker */}
+              <rect x="26" y="90" width="8" height="8" fill="none" stroke="#d97706" strokeWidth="1.5" />
+              
+              {/* Triangle MNO (6-8-10) */}
+              <polygon points="110,155 110,65 200,155" fill="none" stroke="#10b981" strokeWidth="2" />
+              <text x="102" y="170" fontSize="11" fill="#1a1a1a" fontWeight="600">M</text>
+              <text x="102" y="60" fontSize="11" fill="#1a1a1a" fontWeight="600">N</text>
+              <text x="203" y="170" fontSize="11" fill="#1a1a1a" fontWeight="600">O</text>
+              {/* Side lengths */}
+              <text x="95" y="115" fontSize="10" fill="#10b981" fontWeight="600">6</text>
+              <text x="150" y="170" fontSize="10" fill="#10b981" fontWeight="600">8</text>
+              <text x="145" y="110" fontSize="10" fill="#10b981" fontWeight="600">10</text>
+              {/* Right angle marker */}
+              <rect x="106" y="65" width="8" height="8" fill="none" stroke="#10b981" strokeWidth="1.5" />
+              
+              {/* Proportion mark */}
+              <text x="110" y="190" fontSize="9" fill="#3b82f6" fontWeight="600" textAnchor="middle">3:6 = 4:8 = 5:10 = 1:2</text>
+            </svg>
+            <p className="text-sm text-ink-2 text-center mt-2 font-semibold">
+              边成比例 → 相似<br />
+              <span className="text-xs text-accent">1:2 比例 → 相似（非全等）</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
   return null;
 }
