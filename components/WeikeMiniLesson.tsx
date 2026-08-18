@@ -928,6 +928,14 @@ export default function WeikeMiniLesson({ level, weekNumber }: WeikeMiniLessonPr
       ],
       gloss: "AEIS 中学数学第 78 周 / SMATH Week 78. 本周例题：Sec 2 G2.4 enlargement and reduction of a plane figure using a scale factor（用缩放比例进行平面图形的放大和缩小）。"
     },
+    "SMATH-79": {
+      examples: [
+        "Square ABCD: AB = 10 cm, ∠A = 90°. Square PQRS: PQ = 10 cm, ∠P = 90°. → Congruent (same shape, same size). All sides EQUAL: AB = PQ = 10 cm. Not just similar.",
+        "Rectangle ABCD: AB = 12 cm, BC = 18 cm. Rectangle PQRS similar to ABCD. PQ = 24 cm. QR = ? → Similar: sides proportional. AB:PQ = BC:QR. 12:24 = 18:QR. 12 × QR = 24 × 18 = 432. QR = 36 cm. Check: 12:24 = 18:36 = 1:2 ✓",
+        "Triangle XYZ similar to Triangle DEF. XY = 6 cm, YZ = 9 cm, ZX = 12 cm. DE = 12 cm. ∠X = 50°, ∠Y = 60°, ∠Z = 70°. → k = DE/XY = 12/6 = 2. Corresponding ANGLES are EQUAL: ∠D = 50°, ∠E = 60°, ∠F = 70° (angles do NOT scale)"
+      ],
+      gloss: "AEIS 中学数学第 79 周 / SMATH Week 79. 本周例题：Sec 2 G2.5 solving simple problems involving congruence and similarity（全等与相似的简单应用题）。"
+    },
     "SEC-0": {
       fossil: "Although I was nervous, but I tried. ✗ (中文「虽然…但是…」迁移) / I go yesterday ✗ (叙事体过去时掉落)",
       examples: [

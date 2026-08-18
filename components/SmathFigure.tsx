@@ -611,5 +611,103 @@ export default function SmathFigure({ weekNumber }: { weekNumber: number }) {
     );
   }
 
+  if (weekNumber === 79) {
+    return (
+      <div className="bg-paper border border-line rounded-xl p-6 mb-6">
+        <h3 className="font-semibold text-ink mb-4 text-center">📐 本周图解</h3>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          {/* Diagram 1: Two congruent triangles (same size) - Problem: Are they congruent? */}
+          <div className="flex flex-col items-center">
+            <svg viewBox="0 0 200 200" className="w-full max-w-[200px] h-auto">
+              {/* Triangle ABC */}
+              <polygon points="20,150 70,80 120,150" fill="none" stroke="#d97706" strokeWidth="2" />
+              <text x="12" y="165" fontSize="11" fill="#1a1a1a" fontWeight="600">A</text>
+              <text x="68" y="73" fontSize="11" fill="#1a1a1a" fontWeight="600">B</text>
+              <text x="123" y="165" fontSize="11" fill="#1a1a1a" fontWeight="600">C</text>
+              {/* Side lengths */}
+              <text x="35" y="120" fontSize="10" fill="#d97706" fontWeight="600">8</text>
+              <text x="88" y="120" fontSize="10" fill="#d97706" fontWeight="600">8</text>
+              <text x="65" y="165" fontSize="10" fill="#d97706" fontWeight="600">10</text>
+              
+              {/* Triangle PQR (same size, congruent) */}
+              <polygon points="130,150 180,80 230,150" fill="none" stroke="#10b981" strokeWidth="2" />
+              <text x="122" y="165" fontSize="11" fill="#1a1a1a" fontWeight="600">P</text>
+              <text x="178" y="73" fontSize="11" fill="#1a1a1a" fontWeight="600">Q</text>
+              <text x="233" y="165" fontSize="11" fill="#1a1a1a" fontWeight="600">R</text>
+              {/* Side lengths */}
+              <text x="145" y="120" fontSize="10" fill="#10b981" fontWeight="600">8</text>
+              <text x="198" y="120" fontSize="10" fill="#10b981" fontWeight="600">8</text>
+              <text x="175" y="165" fontSize="10" fill="#10b981" fontWeight="600">10</text>
+            </svg>
+            <p className="text-sm text-ink-2 text-center mt-2 font-semibold">
+              全等？相似？<br />
+              <span className="text-xs text-accent">边全相等 → 全等</span>
+            </p>
+          </div>
+
+          {/* Diagram 2: Two similar rectangles with missing side - Problem: Find missing length */}
+          <div className="flex flex-col items-center">
+            <svg viewBox="0 0 200 200" className="w-full max-w-[200px] h-auto">
+              {/* Rectangle ABCD */}
+              <rect x="30" y="50" width="60" height="40" fill="none" stroke="#d97706" strokeWidth="2" />
+              <text x="55" y="45" fontSize="10" fill="#d97706" fontWeight="600">6 cm</text>
+              <text x="15" y="75" fontSize="10" fill="#d97706" fontWeight="600">4 cm</text>
+              <text x="60" y="75" fontSize="12" fill="#1a1a1a" fontWeight="600">ABCD</text>
+              
+              {/* Rectangle PQRS (similar, larger, one side missing) */}
+              <rect x="20" y="110" width="120" height="80" fill="none" stroke="#10b981" strokeWidth="2" />
+              <text x="70" y="105" fontSize="10" fill="#10b981" fontWeight="600">12 cm</text>
+              <text x="5" y="155" fontSize="10" fill="#10b981" fontWeight="600">? cm</text>
+              <text x="80" y="155" fontSize="12" fill="#1a1a1a" fontWeight="600">PQRS</text>
+              
+              {/* Ratio indicator */}
+              <text x="100" y="75" fontSize="9" fill="#6b7280">6:12 = 1:2</text>
+              <text x="100" y="87" fontSize="9" fill="#6b7280">4:? = 1:2</text>
+            </svg>
+            <p className="text-sm text-ink-2 text-center mt-2 font-semibold">
+              相似 · 求缺失边<br />
+              <span className="text-xs text-accent">6:12 = 4:? → ? = 8</span>
+            </p>
+          </div>
+
+          {/* Diagram 3: Two similar triangles with angles marked - Problem: Find angles */}
+          <div className="flex flex-col items-center">
+            <svg viewBox="0 0 200 200" className="w-full max-w-[200px] h-auto">
+              {/* Triangle XYZ */}
+              <polygon points="30,130 80,60 130,130" fill="none" stroke="#d97706" strokeWidth="2" />
+              <text x="22" y="145" fontSize="11" fill="#1a1a1a" fontWeight="600">X</text>
+              <text x="78" y="53" fontSize="11" fill="#1a1a1a" fontWeight="600">Y</text>
+              <text x="133" y="145" fontSize="11" fill="#1a1a1a" fontWeight="600">Z</text>
+              {/* Side lengths */}
+              <text x="45" y="100" fontSize="9" fill="#d97706" fontWeight="600">5</text>
+              <text x="100" y="100" fontSize="9" fill="#d97706" fontWeight="600">5</text>
+              <text x="75" y="145" fontSize="9" fill="#d97706" fontWeight="600">6</text>
+              {/* Angle marks */}
+              <path d="M 40 130 A 15 15 0 0 1 45 120" fill="none" stroke="#d97706" strokeWidth="1.5" />
+              <text x="48" y="128" fontSize="9" fill="#d97706" fontWeight="600">60°</text>
+              
+              {/* Triangle DEF (similar, larger, angles marked) */}
+              <polygon points="20,190 120,80 220,190" fill="none" stroke="#10b981" strokeWidth="2" />
+              <text x="12" y="205" fontSize="11" fill="#1a1a1a" fontWeight="600">D</text>
+              <text x="118" y="73" fontSize="11" fill="#1a1a1a" fontWeight="600">E</text>
+              <text x="223" y="205" fontSize="11" fill="#1a1a1a" fontWeight="600">F</text>
+              {/* Side lengths */}
+              <text x="55" y="140" fontSize="9" fill="#10b981" fontWeight="600">10</text>
+              <text x="160" y="140" fontSize="9" fill="#10b981" fontWeight="600">10</text>
+              <text x="115" y="205" fontSize="9" fill="#10b981" fontWeight="600">12</text>
+              {/* Angle marks */}
+              <path d="M 35 190 A 20 20 0 0 1 42 178" fill="none" stroke="#10b981" strokeWidth="1.5" />
+              <text x="45" y="188" fontSize="9" fill="#10b981" fontWeight="600">?°</text>
+            </svg>
+            <p className="text-sm text-ink-2 text-center mt-2 font-semibold">
+              相似 · 求角度<br />
+              <span className="text-xs text-accent">对应角相等：∠D = 60°</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
   return null;
 }
