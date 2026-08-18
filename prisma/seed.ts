@@ -14847,14 +14847,14 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
 Riverside Secondary School has geometry questions about Pythagoras' theorem. Answer the questions below. Show your working clearly.
 
 Question (a)
-At Riverside Secondary, Mr Lim draws a right-angled triangle. The two legs are 9 cm and 40 cm.
+At Riverside Secondary, Mr Lim draws a right-angled triangle. The two legs are 13 cm and 84 cm.
 (i) Write Pythagoras' theorem (a² + b² = c²).
-(ii) Calculate the hypotenuse. Show your working: 9² + 40² = ? Work out each square, add them, then find the square root.
+(ii) Calculate the hypotenuse. Show your working: 13² + 84² = ? Work out each square, add them, then find the square root.
 
 Question (b)
-At Riverside Secondary, Aisha draws a right-angled triangle. The hypotenuse is 61 cm. One leg is 11 cm.
-(i) Calculate the other leg. Show your working: 11² + b² = 61². Work out 11² and 61², then find b².
-(ii) Wei says: 「The other leg is 61 − 11 = 50 cm.」 Explain why Wei is wrong and what the correct answer should be.
+At Riverside Secondary, Aisha draws a right-angled triangle. The hypotenuse is 53 cm. One leg is 28 cm.
+(i) Calculate the other leg. Show your working: 28² + b² = 53². Work out 28² and 53², then find b².
+(ii) Wei says: 「The other leg is 53 − 28 = 25 cm.」 Explain why Wei is wrong and what the correct answer should be.
 
 Question (c)
 At Riverside Secondary, Wei shows a right-angled triangle. The two legs are 16 cm and 63 cm.
@@ -14883,7 +14883,7 @@ At Riverside Secondary, Wei shows a right-angled triangle. The two legs are 16 c
   • Subtracting directly when finding a leg（错误：求直角边时直接相减：c − a = b。例如 26 − 10 = 16。正确：用 a² + b² = c²，所以 b² = c² − a²。26² − 10² = 676 − 100 = 576 = 24²，所以 b = 24，不是 16）
   • Two options that are the same length written two ways（两个选项是同一个长度用两种方式写：例如「15 cm」和「15」是同一个答案，不要两个都写成选项）
   • 本周教 G4. Pythagoras' theorem and trigonometry 的 Pythagoras' theorem only。本周不教 sine/cosine/tangent（三角函数）。本周不教 3-D Pythagoras（三维空间的勾股定理）。本周不教 G2.10 volumes（体积比）。
-✓ Writing 数值不能抄 微课：微课用 9-12-15, 8-15-17, 10-24-26。Writing Q 用 9-40-41, 11-60-61, 16-63-65。不能抄本周 MCQ 的 5-12-13, 20-21-29, 15-20-25, 7-24-25, 33-56-65 等数值。不能抄 W79 writing 的 7-24-25, 12-35-37; W82 writing 的 17-19-23; W84 writing 的 11, 9, 104, 18 等数值。也不能用 overused 的 3-4-5, 6-8-10, 9-12-15 等。
+✓ Writing 数值不能抄 微课：微课用 9-12-15, 8-15-17, 10-24-26。Writing Q 用 13-84-85, 28-45-53, 16-63-65。不能抄本周 MCQ 的 5-12-13, 20-21-29, 15-20-25, 7-24-25, 9-40-41, 11-60-61, 33-56-65 等数值。不能抄 W79 writing 的 7-24-25, 12-35-37; W82 writing 的 17-19-23; W84 writing 的 11, 9, 104, 18 等数值。也不能用 overused 的 3-4-5, 6-8-10, 9-12-15 等。
 
 Note: This is a sample of Part 2 short-answer/open-ended questions. The official paper has 20 short-answer + 10–15 open-ended items in 1 hour 45 minutes.`,
           points: 20,
