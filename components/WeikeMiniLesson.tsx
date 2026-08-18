@@ -1000,6 +1000,12 @@ export default function WeikeMiniLesson({ level, weekNumber }: WeikeMiniLessonPr
       ],
       gloss: "AEIS 中学数学第 87 周 / SMATH Week 87. 本周例题：Sec 2 G5.6 volume and surface area of pyramid, cone and sphere（棱锥、圆锥和球体的体积和表面积）。Volume of a pyramid = (1/3) × base area × height; volume of a cone = (1/3)πr²h; volume of a sphere = (4/3)πr³; surface area of a sphere = 4πr²; curved surface area of a cone = πrl (l = slant height)。Simple find-a-volume or find-a-surface-area（简单求体积或求表面积）。"
     },
+    "SMATH-88": {
+      examples: [
+        "Data set 4, 6, 8, 10 → sum = 28, n = 4, mean = 28 ÷ 4 = 7"
+      ],
+      gloss: "AEIS 中学数学第 88 周 / SMATH Week 88. 本周例题：Sec 2 S1 mean of ungrouped data（一组未分组数据的平均数）。Mean = (sum of values) ÷ (number of values)（平均数 = 所有数加起来 ÷ 个数）。Calculate the sum, count n, then divide（先算和，数个数，再除）。Common fossil: treating the sum as the mean (forgot to divide by n)（常见错误：把和当成平均数，忘记除以 n）。"
+    },
     "SEC-0": {
       fossil: "Although I was nervous, but I tried. ✗ (中文「虽然…但是…」迁移) / I go yesterday ✗ (叙事体过去时掉落)",
       examples: [

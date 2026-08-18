@@ -6664,6 +6664,74 @@ const lessonPlans: Record<string, LessonPlan> = {
     ],
     speakingPrompts: null,
   },
+  "SMATH-88": {
+    title: "平均数 — Mean of ungrouped data",
+    mathExample: "Data set 4, 6, 8, 10 → sum = 4 + 6 + 8 + 10 = 28, n = 4, mean = 28 ÷ 4 = 7.",
+    boardWriting: "SMATH Week 88: Sec 2 S1 mean of ungrouped data. Official formula: mean = (sum of values) ÷ (number of values). Simple calculate-the-mean problems. Integer data values. Integer or terminating one-decimal means that a no-calculator child can get (prefer integer means). No calculator. Do NOT teach mode. Do NOT teach median. Do NOT teach grouped-data mean. Cast: Wei, Aisha, Mr Lim at Riverside Secondary.",
+    sections: [
+      {
+        name: "课前",
+        duration: "2 分钟",
+        teacherNotes: "欢迎孩子。「今天是第 88 周 AEIS 中学数学，我们学 Sec 2 S1 mean of ungrouped data（一组未分组数据的平均数）。本周教 mean as a measure of central tendency for a set of ungrouped data（平均数作为一组未分组数据的集中趋势测量值）。Official formula: mean = (sum of values) ÷ (number of values)（平均数 = 所有数加起来 ÷ 个数）。Simple calculate-the-mean problems（简单求平均数问题）。Integer data values. Integer or terminating one-decimal means that a no-calculator child can get (prefer integer means)（整数数据值。整数或一位小数的平均数，孩子不用计算器能算出来，优先整数平均数）。No calculator（不用计算器）。本周不教 mode（众数）。本周不教 median（中位数）。本周不教 grouped-data mean（分组数据平均数）。本周不教 histograms / stem-and-leaf / box plots / quartiles / standard deviation（不教直方图/茎叶图/箱线图/四分位数/标准差）。本周不教 S2 probability（不教概率）。Cast: Wei, Aisha, Mr Lim at Riverside Secondary. No calculator. 开始上课。」",
+      },
+      {
+        name: "学习目标",
+        duration: "1 分钟",
+        teacherNotes: "学习目标：「By the end of this lesson, you will be able to: (1) know the formula for the mean of a set of ungrouped data: mean = (sum of values) ÷ (number of values); (2) calculate the sum of a set of data values; (3) count the number of data values n, even when some values are repeated; (4) calculate the mean by dividing the sum by n; (5) avoid the common fossil: treating the sum as the mean (forgot to divide by n). 成功标准 Success Criteria: You can calculate the sum of a data set correctly. You can count n correctly (including repeated values). You can divide the sum by n to get the mean. You remember to divide by n (not just write the sum as the mean). You can explain why the sum is not the mean.」",
+      },
+      {
+        name: "准备",
+        duration: "5 分钟",
+        teacherNotes: "问孩子：「今天我们学 mean of ungrouped data（一组未分组数据的平均数）。Let's review what 'mean' means. Mean is a measure of central tendency (集中趋势测量值). It tells us the 'average' value of a set of data. The official formula: mean = (sum of values) ÷ (number of values). Step 1: Calculate the sum. Add all the data values together. Example: data set 2, 4, 6, 8. Sum = 2 + 4 + 6 + 8 = 20. Step 2: Count the number of values n. How many data values are there? n = 4 (there are four numbers: 2, 4, 6, 8). Step 3: Divide the sum by n. Mean = sum ÷ n = 20 ÷ 4 = 5. The mean of the data set 2, 4, 6, 8 is 5. Important: The sum is 20, but the mean is 5. Don't confuse the sum with the mean. Common fossil: treating the sum as the mean (forgot to divide by n). If a student says 'mean = 20', that is wrong. The sum is 20, but the mean is 20 ÷ 4 = 5. When some values are repeated, count every value. Example: data set 5, 5, 5, 9. How many values? n = 4 (count every 5: the first 5, the second 5, the third 5, and 9). Sum = 5 + 5 + 5 + 9 = 24. Mean = 24 ÷ 4 = 6. Don't say n = 2 (5 and 9). Count every occurrence: n = 4. Today we will practice calculating the mean. No calculator. Integer data values. Integer or terminating one-decimal means that a no-calculator child can get (prefer integer means).」",
+      },
+      {
+        name: "化石",
+        duration: "10 分钟",
+        teacherNotes: "打开屏幕共享或白板，写下本周化石错误：「Fossil 1: adding the numbers and forgetting to divide by n（把数加起来，忘记除以个数 n）。Example: data set 11, 13, 15, 17. Student says: 'Sum = 11 + 13 + 15 + 17 = 56. Mean = 56.' ✗」说明：「这是化石错误：The sum is 56, but the mean is not 56. Mean = sum ÷ n. n = 4 (four values). Mean = 56 ÷ 4 = 14, not 56. The sum is 56, but the mean is 14. Don't forget to divide by n. If we forget to divide, we are treating the sum as the mean. Correct: sum = 56, n = 4, mean = 56 ÷ 4 = 14.」让孩子跟读一句：「Sum is not the mean. Mean = sum ÷ n. Don't forget to divide.」再写第二个化石错误：「Fossil 2: dividing by the wrong n（除以错误的 n）。Example: data set 2, 6, 10, 14, 18. Student says: 'Sum = 2 + 6 + 10 + 14 + 18 = 50. n = 4. Mean = 50 ÷ 4 = 12.5.' ✗」说明：「这是化石错误：Count the values carefully. There are five numbers: 2, 6, 10, 14, 18. n = 5, not 4. Mean = 50 ÷ 5 = 10, not 12.5. If we divide by the wrong n, the mean is wrong. Correct: sum = 50, n = 5, mean = 50 ÷ 5 = 10.」再写第三个化石错误：「Fossil 3: treating one value as the mean（把某个值当成平均数）。Example: data set 21, 21, 21, 29. Student says: 'Mean = 21 because 21 appears most often.' ✗」说明：「这是化石错误：The mean is not just picking a value. Mean = (sum of all values) ÷ n. Sum = 21 + 21 + 21 + 29 = 92. n = 4 (count every value, even if repeated). Mean = 92 ÷ 4 = 23, not 21. 21 is the most common value (that is called 'mode', but we don't teach mode this week). The mean is 23. Correct: sum = 92, n = 4, mean = 92 ÷ 4 = 23.」让孩子跟读：「Mean = sum ÷ n. Count every value for n. Don't pick a value as the mean.」",
+      },
+      {
+        name: "微课",
+        duration: "8 分钟",
+        teacherNotes: "打开屏幕共享，播放本周微课（1 个例题，8 分钟）。微课例题：At Riverside Secondary, Mr Lim gives the data set 4, 6, 8, 10. Calculate the mean. Show your working. Solution: Step 1: Calculate the sum of the values. sum = 4 + 6 + 8 + 10 = 28. Step 2: Count the number of values n. There are four numbers: 4, 6, 8, 10. n = 4. Step 3: Calculate the mean. mean = sum ÷ n = 28 ÷ 4 = 7. Answer: 7. Note: The sum is 28, but the mean is 7. Don't say the mean is 28. Common fossil: treating the sum as the mean. If we say 'mean = 28', that is wrong. The sum is 28, but we must divide by n = 4. Mean = 28 ÷ 4 = 7.",
+      },
+      {
+        name: "示范",
+        duration: "8 分钟",
+        teacherNotes: "I do: 教师在白板上示范一道例题（一组数据，求平均数）。「Problem: At Riverside Secondary, Mr Lim gives Wei the data set 3, 5, 7, 9, 11. Calculate the mean. Show your working.」Write the data set: 3, 5, 7, 9, 11. Step 1: Calculate the sum. sum = 3 + 5 + 7 + 9 + 11. 3 + 5 = 8. 8 + 7 = 15. 15 + 9 = 24. 24 + 11 = 35. sum = 35. Step 2: Count the number of values n. There are five numbers: 3, 5, 7, 9, 11. n = 5. Step 3: Calculate the mean. mean = sum ÷ n = 35 ÷ 5 = 7. Answer: 7. 教师边示范边说：「Notice: Step 1 is calculate the sum. 3 + 5 + 7 + 9 + 11 = 35. Step 2 is count n. There are five values, so n = 5. Step 3 is divide. mean = 35 ÷ 5 = 7. The sum is 35, but the mean is 7. Don't say the mean is 35. Common fossil: treating the sum as the mean. If we say 'mean = 35', that is wrong. We must divide by n. Mean = 35 ÷ 5 = 7. Always remember: mean = sum ÷ n.」",
+      },
+      {
+        name: "带练",
+        duration: "10 分钟",
+        teacherNotes: "We do: 给孩子一道题目，和他/她一起做（一组有重复值的数据，求平均数）。「Problem: At Riverside Secondary, Aisha gives Wei the data set 5, 5, 5, 9. Calculate the mean. Show your working.」Write the data set: 5, 5, 5, 9. 让孩子说出每一步。教师引导：「First, calculate the sum.」(sum = 5 + 5 + 5 + 9 = 24.) 「Good. Now, count the number of values n. How many numbers are there?」(There are four numbers: the first 5, the second 5, the third 5, and 9. n = 4.) 「Correct. Even though 5 is repeated, we count every occurrence. n = 4, not 2. Now, calculate the mean.」(mean = sum ÷ n = 24 ÷ 4 = 6.) 「Perfect. The mean is 6. Common fossil: treating the repeated value 5 as the mean. If we say 'mean = 5', that is wrong. We must calculate mean = sum ÷ n = 24 ÷ 4 = 6. Another fossil: counting only 2 values (5 and 9), so n = 2, mean = 24 ÷ 2 = 12. That is wrong. We count every value, so n = 4, mean = 24 ÷ 4 = 6. Always count every value, even if repeated.」",
+      },
+      {
+        name: "独立",
+        duration: "8 分钟",
+        teacherNotes: "You do: 给孩子一道题目让他/她独立做（教师不给完整答案，只在孩子卡住时给提示）。「Problem: At Riverside Secondary, Mr Lim asks Wei: 'Wei says the mean of 3, 9, 12 is 24. Aisha says we need to divide by 3.' Calculate the correct mean. Show your working. Who is correct, Wei or Aisha? Explain.」期待答案：sum = 3 + 9 + 12 = 24. n = 3. mean = 24 ÷ 3 = 8. Wei says mean = 24. That is wrong. Wei calculated the sum but forgot to divide by n. The sum is 24, but the mean is 24 ÷ 3 = 8. Aisha is correct. Aisha says we need to divide by 3. mean = 24 ÷ 3 = 8, not 24. Answer: mean = 8. Wei is wrong (treated the sum as the mean). Aisha is correct (remembered to divide by n). 如果孩子卡住，引导：「What is the sum?」(3 + 9 + 12 = 24.) 「Good. How many values are there?」(n = 3.) 「Correct. Now, what is the formula for the mean?」(mean = sum ÷ n.) 「So, mean = ?」(24 ÷ 3 = 8.) 「Perfect. Wei says the mean is 24. Is that correct?」(No. The sum is 24, but the mean is 8. Wei forgot to divide by n.) 「Excellent. Wei's fossil is treating the sum as the mean. The correct mean is 8.」",
+      },
+      {
+        name: "关键问题1",
+        duration: "2 分钟",
+        teacherNotes: "关键问题 1：「What is the formula for the mean of a set of ungrouped data? What are the three steps to calculate the mean? What is the difference between the sum and the mean?」期待答案：「Formula: mean = (sum of values) ÷ (number of values). Three steps: (1) Calculate the sum. Add all the data values together. (2) Count the number of values n. Count every value, even if some are repeated. (3) Calculate the mean. Divide the sum by n: mean = sum ÷ n. Difference between sum and mean: The sum is the total when you add all the values. The mean is the sum divided by n. The sum is larger than the mean (unless n = 1). Example: data set 2, 4, 6, 8. Sum = 2 + 4 + 6 + 8 = 20. n = 4. Mean = 20 ÷ 4 = 5. The sum is 20, but the mean is 5. Don't confuse them. If we say 'mean = 20', that is wrong. We must divide by n. Mean = 20 ÷ 4 = 5.」(如果孩子答不出，引导：「Formula: mean = sum ÷ n. Step 1: sum. Step 2: count n. Step 3: divide. Sum vs mean: sum is the total. Mean is sum ÷ n. Example: sum 20, n = 4, mean = 5. Sum ≠ mean.」)",
+      },
+      {
+        name: "关键问题2",
+        duration: "2 分钟",
+        teacherNotes: "关键问题 2：「What are the common fossils for calculating the mean? How can you check your answer?」期待答案：「Common fossils: (1) Adding the numbers and forgetting to divide by n (treating the sum as the mean). Example: data set 11, 13, 15, 17. Sum = 56. Saying 'mean = 56' is wrong. The sum is 56, but the mean is 56 ÷ 4 = 14. (2) Dividing by the wrong n (counting the wrong number of values). Example: data set 2, 6, 10, 14, 18. There are five values, n = 5. If we divide by 4, the mean is wrong. Correct: n = 5, mean = 50 ÷ 5 = 10. (3) Treating one value as the mean (picking a value instead of calculating). Example: data set 21, 21, 21, 29. Saying 'mean = 21' is wrong. We must calculate: sum = 92, n = 4, mean = 92 ÷ 4 = 23. To check your answer: (1) Check that you counted n correctly. Count every value, even if repeated. (2) Check that you divided the sum by n. The mean should be smaller than the sum (unless n = 1). If mean = sum, you forgot to divide. (3) Check that the mean is reasonable. The mean should be between the smallest and largest values. Example: data set 2, 4, 6, 8. Mean = 5. 5 is between 2 and 8. Reasonable. If mean = 20, that is too large. Check your working.」(如果孩子答不出，引导：「Fossils: forgot to divide, wrong n, picked a value. Check: count n, divide by n, mean between min and max.」)",
+      },
+      {
+        name: "AfL",
+        duration: "3 分钟",
+        teacherNotes: "AfL（Assessment for Learning 形成性评价）：给孩子一道快速检查题：「Quick check: At Riverside Secondary, Mr Lim shows the data set 6, 6, 6, 10. Aisha calculates the mean. sum = 6 + 6 + 6 + 10 = 28. n = 4. mean = 28 ÷ 4 = 7. Wei says: 'No, there are only two different values (6 and 10), so n = 2. mean = 28 ÷ 2 = 14.' Who is correct? Explain.」期待答案：Aisha is correct. n = 4. We count every value, even if repeated. The data set has four numbers: 6, 6, 6, 10. Count every 6: the first 6, the second 6, the third 6, and 10. n = 4, not 2. mean = 28 ÷ 4 = 7, not 14. Wei is wrong. Wei counted only 2 (the distinct values 6 and 10). That is wrong. We count every occurrence, so n = 4. Answer: Aisha correct (n = 4, mean = 7). Wei wrong (counted only distinct values; correct is count every occurrence, n = 4). 如果孩子做对了，说：「Excellent! You understand that we count every value, even if repeated. The data set 6, 6, 6, 10 has four values, not two. n = 4, mean = 28 ÷ 4 = 7. Wei's fossil is counting only distinct values. Always count every occurrence.」如果孩子做错了，重新讲解：「We count every value, even if repeated. Data set 6, 6, 6, 10: there are four numbers. Count the first 6, the second 6, the third 6, and 10. n = 4. Don't say n = 2 (only two distinct values). We count every occurrence. n = 4. mean = 28 ÷ 4 = 7. 让孩子跟读：n = 4 (count every value, even if repeated). mean = 28 ÷ 4 = 7. Don't count only distinct values.」",
+      },
+      {
+        name: "收口",
+        duration: "4 分钟",
+        teacherNotes: "总结本周重点：(1) 官方 Sec 2 AEIS 数学卷型：Part 1 MCQ 34 题 30 分钟 + Part 2 show working 20+10–15 题 1 小时 45 分钟，不用计算器。(2) 本周内容：Sec 2 STATISTICS AND PROBABILITY, S1. Data handling and analysis: 本周是 mean as a measure of central tendency for a set of ungrouped data（平均数作为一组未分组数据的集中趋势测量值）。Official formula: mean = (sum of values) ÷ (number of values). Simple calculate-the-mean problems. Integer data values. Integer or terminating one-decimal means that a no-calculator child can get (prefer integer means). No calculator. 本周不教 mode（众数）。本周不教 median（中位数）。本周不教 grouped-data mean（分组数据平均数）。本周不教 histograms / stem-and-leaf / box plots / quartiles / standard deviation。本周不教 S2 probability。(3) 本周化石：adding the numbers and forgetting to divide by n（把数加起来，忘记除以 n；例如 sum = 56，说 mean = 56，应该是 mean = 56 ÷ 4 = 14）; dividing by the wrong n（除以错误的 n；例如五个值，除以 4 而不是 5）; treating one value as the mean（把某个值当成平均数；例如 21, 21, 21, 29 说 mean = 21，应该是 mean = 92 ÷ 4 = 23）。(4) 记住：Mean = sum ÷ n. Three steps: (1) sum, (2) count n, (3) divide. Count every value, even if repeated. Sum ≠ mean. Check: mean between min and max. 看本周作业入口（/learn 页面第 88 周），做完后系统批改，我们在微信群里同步进度。」",
+      },
+    ],
+    speakingPrompts: null,
+  },
 };
 
 export default async function LessonPlanPage({
