@@ -1012,6 +1012,12 @@ export default function WeikeMiniLesson({ level, weekNumber }: WeikeMiniLessonPr
       ],
       gloss: "AEIS 中学数学第 89 周 / SMATH Week 89. 本周例题：Sec 2 S1 mode of ungrouped data（一组未分组数据的众数）。Mode = the value that appears most often（众数 = 出现次数最多的那个数）。Count how many times each value appears（数每个数出现几次）。Common fossil: using the sum as the mode; using the largest value as the mode; using the mean instead of the mode（常见错误：把和当成众数；把最大值当成众数；把平均数当成众数）。"
     },
+    "SMATH-90": {
+      examples: [
+        "Data set 2, 5, 7, 9, 12 → n = 5, median = 7"
+      ],
+      gloss: "AEIS 中学数学第 90 周 / SMATH Week 90. 本周例题：Sec 2 S1 median of ungrouped data（一组未分组数据的中位数）。Median = the middle value when the data are arranged in order（中位数 = 数据排序后的中间值）。Step 1: arrange in order. Step 2: find the middle（第一步：排序。第二步：找中间）。Odd n: take the middle value. Even n: take the mean of the two middle values（奇数个数：取中间值。偶数个数：取中间两个值的平均数）。Common fossil: using the unordered middle position; using the largest value; using the mean or the mode instead of the median; forgetting to order the list first（常见错误：不排序直接取中间位置；把最大值当成中位数；把平均数或众数当成中位数；忘记先排序）。"
+    },
     "SEC-0": {
       fossil: "Although I was nervous, but I tried. ✗ (中文「虽然…但是…」迁移) / I go yesterday ✗ (叙事体过去时掉落)",
       examples: [
