@@ -84,7 +84,7 @@ generate_video "b1" "1" "B1-W1: Have you ever + comparatives" \
 # B1-W2: 2nd conditional + gerund/infinitive
 generate_video "b1" "2" "B1-W2: If + would, suggest + -ing" \
 "Many Chinese students say: If the school change the rule, students will be happy. Or: I suggest to use phones for research. This happens because Chinese doesn't change verb forms in if-sentences. Use second conditional for imagined changes: If the school changed, students would be happy. Also, suggest takes -ing, want takes to: I suggest using. I want to use. Let's practice. Repeat after me: If we had more time, I would explore. I suggest bringing your own bag. I want to learn more. Fix this one thing." \
-"中文条件句不变形；suggest to use 是典型化石化，应该是 suggest using。"
+"中文条件句不变形；suggest to use 是典型高频错误，应该是 suggest using。"
 
 # B1-W3: Passive + should/ought to
 generate_video "b1" "3" "B1-W3: Passive voice + should" \
