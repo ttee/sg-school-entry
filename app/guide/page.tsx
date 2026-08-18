@@ -134,7 +134,7 @@ export default function GuidePage() {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
-  // 计算推荐路径
+  // 计算推荐路径：返回一个试学周
   const getRecommendation = () => {
     const englishCorrect = englishAnswers.filter(
       (answer, idx) => answer === englishItems[idx].correct
@@ -150,51 +150,102 @@ export default function GuidePage() {
     const isUpperPrimary = intendedLevel === "P5";
     const isSecondary = intendedLevel.startsWith("Sec");
 
-    // 找出英语改善焦点
-    let englishFocus = "冠词与时态准确度";
+    // 找出改善焦点
+    let kaizenFocus = "冠词与时态准确度";
+    const missedEnglish: string[] = [];
+    const missedMath: string[] = [];
+    
     if (englishAnswers[0] !== englishItems[0].correct) {
-      englishFocus = "交通方式零冠词（by bus 不加 the）";
-    } else if (englishAnswers[1] !== englishItems[1].correct) {
-      englishFocus = "第三人称单数动词加 -s";
-    } else if (englishAnswers[2] !== englishItems[2].correct) {
-      englishFocus = "过去时态的准确使用";
+      missedEnglish.push("交通方式零冠词（by bus 不加 the）");
+    }
+    if (englishAnswers[1] !== englishItems[1].correct) {
+      missedEnglish.push("第三人称单数动词加 -s");
+    }
+    if (englishAnswers[2] !== englishItems[2].correct) {
+      missedEnglish.push("过去时态");
+    }
+    if (englishAnswers[3] !== englishItems[3].correct) {
+      missedEnglish.push("动词后用 -ing 形式");
     }
 
-    let recommendation = {
-      pathway: "",
-      englishCourse: "",
-      mathCourse: "",
-      notes: [] as string[],
-      kaizenFocus: englishFocus,
-    };
-
-    if (isPrimary) {
-      // 小学路径：CEQ + AEIS 数学
-      recommendation.pathway = "小学 AEIS 路径（P2–P5）";
-      
-      if (englishRate <= 0.5) {
-        recommendation.englishCourse = "建议：A2 Key for Schools 试学周 + 已上线周数 / 作业 app";
-        recommendation.notes.push("英语基础需要加强，建议从 A2 试学周开始");
-      } else if (isUpperPrimary && englishRate >= 0.75) {
-        recommendation.englishCourse = "建议：B1 Preliminary for Schools 试学周 + 已上线周数 / 作业 app";
-        recommendation.notes.push("P5 申请一般对应 B1 水平（常见对应，以官网年龄核对为准）");
-      } else {
-        recommendation.englishCourse = "建议：A2 Key for Schools 试学周 + 已上线周数 / 作业 app";
-        recommendation.notes.push("P2–P4 申请一般对应 A2 Key for Schools（常见对应，以官网年龄核对为准）");
+    mathItems.forEach((item, idx) => {
+      if (mathAnswers[idx] !== item.correct) {
+        // Extract 简体 part only (before the English part in "钱币 Money" format)
+        const chinesePart = item.strand.split(/\s+/)[0];
+        missedMath.push(chinesePart);
       }
-      
-      recommendation.mathCourse = "建议：AEIS 数学 试学周 + 第 1–29 周 / 作业 app";
-      recommendation.notes.push("当前已上线 MATH 试学周 + 第 1–29 周（P2–P4 AEIS 数学）");
-      
-    } else if (isSecondary) {
-      // 中学路径：AEIS 英语 + 数学（两科都考）
-      recommendation.pathway = "中学 AEIS 路径（Sec 1–3）";
-      recommendation.englishCourse = "建议：AEIS 中学英语 试学周 + 第 1–11 周 / 作业 app";
-      recommendation.mathCourse = "建议：AEIS 中学数学 试学周 + 第 1–69 周 / 作业 app";
-      recommendation.notes.push("中学要考 AEIS 英语 + 数学，不要求 CEQ。当前已上线 SEC 试学周 + 第 1–11 周（中学英语）、SMATH 试学周 + 第 1–69 周（中学数学）。");
+    });
+
+    // Primary 路径：CEQ English 为主，但 English OK + weak maths → MATH 试学周
+    if (isPrimary) {
+      if (englishRate <= 0.5) {
+        // Weak English → A2 试学周
+        kaizenFocus = missedEnglish.length > 0 ? missedEnglish[0] : "冠词与时态准确度";
+        return {
+          weekTitle: "A2 试学周",
+          weekUrl: "/learn/trial/A2",
+          kaizenFocus,
+          pathway: "小学 AEIS 路径（P2–P5）· CEQ English + AEIS 数学"
+        };
+      } else if (englishRate > 0.5 && mathRate <= 0.5) {
+        // English OK but weak maths → MATH 试学周
+        kaizenFocus = missedMath.length > 0 ? missedMath[0] : "数学基础";
+        return {
+          weekTitle: "MATH 试学周",
+          weekUrl: "/learn/trial/MATH",
+          kaizenFocus,
+          pathway: "小学 AEIS 路径（P2–P5）· CEQ English + AEIS 数学"
+        };
+      } else if (isUpperPrimary && englishRate >= 0.75) {
+        // P5 + strong English + maths not weak → B1 试学周
+        kaizenFocus = missedEnglish.length > 0 ? missedEnglish[0] : "英语进阶用法";
+        return {
+          weekTitle: "B1 试学周",
+          weekUrl: "/learn/trial/B1",
+          kaizenFocus,
+          pathway: "小学 AEIS 路径（P5）· CEQ English + AEIS 数学"
+        };
+      } else {
+        // Default → A2 试学周
+        kaizenFocus = missedEnglish.length > 0 ? missedEnglish[0] : "冠词与时态准确度";
+        return {
+          weekTitle: "A2 试学周",
+          weekUrl: "/learn/trial/A2",
+          kaizenFocus,
+          pathway: "小学 AEIS 路径（P2–P4）· CEQ English + AEIS 数学"
+        };
+      }
     }
 
-    return recommendation;
+    // Secondary 路径：AEIS 英语 + 数学，English weaker → SEC，Maths weaker → SMATH
+    if (isSecondary) {
+      if (englishRate < mathRate) {
+        // English weaker → SEC 试学周
+        kaizenFocus = missedEnglish.length > 0 ? missedEnglish[0] : "英语基础";
+        return {
+          weekTitle: "SEC 试学周",
+          weekUrl: "/learn/trial/SEC",
+          kaizenFocus,
+          pathway: "中学 AEIS 路径（Sec 1–3）· AEIS 英语 + 数学"
+        };
+      } else {
+        // Maths weaker or tie → SMATH 试学周
+        kaizenFocus = missedMath.length > 0 ? missedMath[0] : "数学基础";
+        return {
+          weekTitle: "SMATH 试学周",
+          weekUrl: "/learn/trial/SMATH",
+          kaizenFocus,
+          pathway: "中学 AEIS 路径（Sec 1–3）· AEIS 英语 + 数学"
+        };
+      }
+    }
+
+    return {
+      weekTitle: "A2 试学周",
+      weekUrl: "/learn/trial/A2",
+      kaizenFocus,
+      pathway: "CEQ English 为主"
+    };
   };
 
   const recommendation = step === "result" ? getRecommendation() : null;
@@ -485,44 +536,46 @@ export default function GuidePage() {
         {step === "result" && recommendation && (
           <div className="space-y-6">
             <div className="bg-accent/10 border border-accent/30 rounded-2xl p-6">
-              <h2 className="font-serif font-semibold text-2xl text-ink mb-3">
+              <p className="text-sm font-semibold text-accent mb-2">
                 {recommendation.pathway}
+              </p>
+              <h2 className="font-serif font-semibold text-2xl text-ink mb-4">
+                建议下一步：{recommendation.weekTitle}
               </h2>
               
-              <div className="space-y-4 mb-5">
-                <div className="bg-paper border border-line rounded-xl p-4">
-                  <p className="text-sm font-semibold text-ink mb-1">📚 英语准备</p>
-                  <p className="text-ink-2 text-sm">{recommendation.englishCourse}</p>
-                </div>
+              <div className="bg-paper border border-line rounded-xl p-5 mb-5">
+                <p className="text-sm font-semibold text-ink mb-2">
+                  本次改善焦点
+                </p>
+                <p className="text-ink-2 leading-relaxed">
+                  优先练习：<strong className="text-ink">{recommendation.kaizenFocus}</strong>
+                </p>
+                <p className="text-xs text-muted mt-2">
+                  每周只改一个错，改到真正改掉为止
+                </p>
+              </div>
 
-                <div className="bg-paper border border-line rounded-xl p-4">
-                  <p className="text-sm font-semibold text-ink mb-1">🔢 数学准备</p>
-                  <p className="text-ink-2 text-sm">{recommendation.mathCourse}</p>
-                </div>
+              <Link
+                href={recommendation.weekUrl}
+                className="flex items-center justify-center w-full px-6 py-4 bg-accent text-accent-ink font-semibold rounded-full hover:bg-accent-hover transition-colors text-center mb-4"
+              >
+                开始 {recommendation.weekTitle} →
+              </Link>
 
-                {recommendation.notes.length > 0 && (
-                  <div className="bg-paper border border-line rounded-xl p-4">
-                    <p className="text-sm font-semibold text-ink mb-2">⚠️ 重要说明</p>
-                    <ul className="space-y-1 text-sm text-ink-2">
-                      {recommendation.notes.map((note, idx) => (
-                        <li key={idx} className="flex items-start gap-2">
-                          <span className="text-accent mt-0.5">•</span>
-                          <span>{note}</span>
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-                )}
-
-                <div className="bg-paper border border-line rounded-xl p-4">
-                  <p className="text-sm font-semibold text-ink mb-1">✨ 本次改善焦点</p>
-                  <p className="text-ink-2 text-sm">
-                    优先练习：<strong className="text-ink">{recommendation.kaizenFocus}</strong>
-                  </p>
-                  <p className="text-xs text-muted mt-2">
-                    每周只改一个错，改到真正改掉为止
-                  </p>
-                </div>
+              <div className="flex items-center justify-center gap-4 text-sm">
+                <Link
+                  href="/#contact"
+                  className="text-ink-2 hover:text-ink transition-colors underline"
+                >
+                  微信咨询
+                </Link>
+                <span className="text-muted">·</span>
+                <Link
+                  href="/assess"
+                  className="text-ink-2 hover:text-ink transition-colors underline"
+                >
+                  完整英语摸底
+                </Link>
               </div>
             </div>
 
@@ -899,41 +952,7 @@ export default function GuidePage() {
               </div>
             </div>
 
-            {/* 行动召唤 */}
-            <div className="bg-accent/10 border border-accent/30 rounded-2xl p-6">
-              <h3 className="font-serif font-semibold text-lg text-ink mb-3">
-                下一步行动
-              </h3>
-              
-              <div className="grid md:grid-cols-3 gap-3 mb-4">
-                <Link
-                  href="/#contact"
-                  className="flex items-center justify-center px-5 py-3 bg-accent text-accent-ink font-semibold rounded-full hover:bg-accent-hover transition-colors text-center text-sm"
-                >
-                  微信咨询 / 报名
-                </Link>
-                <Link
-                  href="/assess"
-                  className="flex items-center justify-center px-5 py-3 bg-transparent text-ink border border-accent font-semibold rounded-full hover:bg-accent/10 transition-colors text-center text-sm"
-                >
-                  完整英语摸底
-                </Link>
-                <Link
-                  href="/learn"
-                  className="flex items-center justify-center px-5 py-3 bg-transparent text-ink border border-line font-semibold rounded-full hover:border-ink-2 hover:bg-card transition-colors text-center text-sm"
-                >
-                  免费试学一周
-                </Link>
-              </div>
-
-              <div className="bg-paper border border-line rounded-lg p-3">
-                <p className="text-xs text-ink-2 leading-relaxed">
-                  <strong className="text-ink">隐私与付款：</strong>
-                  非 MOE、SEAB、Cambridge 官方机构 · 
-                  付款方式：PayNow 94594601 / 微信转账（咨询时告知）
-                </p>
-              </div>
-            </div>
+            {/* 行动召唤 - removed, now using single CTA in result card above */}
 
             <div className="flex justify-center gap-3">
               <button
