@@ -103,14 +103,11 @@ const diagnosticItems = [
   }
 ];
 
-// 评估规则：根据错误焦点的正确率推荐门槛
-// Rule: articles + 3sg-s weak (≤50% correct) → 试学周
-//       mostly correct except past/advanced → A2 12周
-//       advanced errors only → B1 12周
+// 评估规则：根据错误焦点的正确率推荐一个试学周
 function calculateRecommendation(answers: (number | null)[]) {
-  const articlesItems = [0, 2]; // items testing articles
-  const thirdPersonItems = [1, 5]; // items testing 3sg-s
-  const basicItems = [0, 1, 2, 5, 8]; // articles, 3sg, like+ing
+  const articlesItems = [0, 2];
+  const thirdPersonItems = [1, 5];
+  const basicItems = [0, 1, 2, 5, 8];
   
   let articlesCorrect = 0;
   let thirdPersonCorrect = 0;
@@ -130,27 +127,20 @@ function calculateRecommendation(answers: (number | null)[]) {
   const thirdPersonRate = thirdPersonCorrect / thirdPersonItems.length;
   const basicRate = basicCorrect / basicItems.length;
 
-  // 推荐规则
-  if (articlesRate <= 0.5 || thirdPersonRate <= 0.5) {
+  // 推荐规则：基础薄弱或语法较好都推荐 A2 试学周，只有很强才推荐 B1 试学周
+  if (basicRate >= 0.8 && totalCorrect >= 8) {
     return {
-      door: "A2 试学周（当前已上线）",
-      doorEn: "A2 Sample Week (currently available)",
-      reason: "冠词或第三人称单数还需要打基础，建议从 A2 试学周开始，重点纠正这两个高频错误。试学周免费，体验后可咨询订阅。",
-      kaizenFocus: articlesRate < thirdPersonRate ? "冠词 a/an/the 的使用" : "第三人称单数动词加 -s"
-    };
-  } else if (basicRate >= 0.8 && totalCorrect >= 8) {
-    return {
-      door: "B1 当前已上线周数 + 咨询",
-      doorEn: "B1 Available Weeks + Consultation",
-      reason: "基础语法掌握较好，可以开始 B1 Preliminary for Schools 水平学习。当前 app 已上线 B1 试学周 + 第 1–11 周（共 12 周）。建议咨询 12 周作业预付包。",
-      kaizenFocus: "现在完成时与过去时的区分"
+      level: "B1",
+      weekTitle: "B1 试学周",
+      weekUrl: "/learn/trial/B1",
+      kaizenFocus: articlesRate < thirdPersonRate ? "冠词 a/an/the 的使用" : totalCorrect < 9 ? "第三人称单数动词加 -s" : "现在完成时与过去时的区分"
     };
   } else {
     return {
-      door: "A2 当前已上线周数 + 咨询",
-      doorEn: "A2 Available Weeks + Consultation",
-      reason: "基础语法已有基础，可以开始 A2 Key for Schools 水平学习。当前 app 已上线 A2 试学周 + 第 1–11 周（共 12 周）。建议咨询 12 周作业预付包。",
-      kaizenFocus: totalCorrect < 6 ? "时态的准确使用" : "现在进行时与一般现在时的区分"
+      level: "A2",
+      weekTitle: "A2 试学周",
+      weekUrl: "/learn/trial/A2",
+      kaizenFocus: articlesRate < thirdPersonRate ? "冠词 a/an/the 的使用" : "第三人称单数动词加 -s"
     };
   }
 }
@@ -314,47 +304,46 @@ export default function AssessPage() {
 
             {recommendation && (
               <div className="bg-accent/10 border border-accent/30 rounded-2xl p-6 mb-6">
-                <h2 className="font-serif font-semibold text-2xl text-ink mb-2">
-                  建议起点：{recommendation.door}
+                <h2 className="font-serif font-semibold text-2xl text-ink mb-4">
+                  建议下一步：{recommendation.weekTitle}
                 </h2>
-                <p className="text-sm text-muted mb-3">{recommendation.doorEn}</p>
-                <p className="text-ink-2 mb-4 leading-relaxed">
-                  {recommendation.reason}
-                </p>
-                <div className="bg-paper border border-line rounded-xl p-4 mb-4">
-                  <p className="text-sm font-semibold text-ink mb-1">
-                    本次改善焦点 / Kaizen Focus
+                
+                <div className="bg-paper border border-line rounded-xl p-5 mb-5">
+                  <p className="text-sm font-semibold text-ink mb-2">
+                    本次改善焦点
                   </p>
-                  <p className="text-ink-2">
+                  <p className="text-ink-2 leading-relaxed">
                     先练这个：<strong className="text-ink">{recommendation.kaizenFocus}</strong>
                   </p>
                   <p className="text-xs text-muted mt-2">
-                    每周只改一个错，改到真正改掉为止。不追求全对，只求一个焦点扎实。
+                    每周只改一个错，改到真正改掉为止。
                   </p>
+                </div>
+
+                <Link
+                  href={recommendation.weekUrl}
+                  className="flex items-center justify-center w-full px-6 py-4 bg-accent text-accent-ink font-semibold rounded-full hover:bg-accent-hover transition-colors text-center mb-4"
+                >
+                  开始 {recommendation.weekTitle} →
+                </Link>
+
+                <div className="flex items-center justify-center gap-4 text-sm">
+                  <Link
+                    href="/#contact"
+                    className="text-ink-2 hover:text-ink transition-colors underline"
+                  >
+                    微信咨询
+                  </Link>
+                  <span className="text-muted">·</span>
+                  <Link
+                    href="/guide"
+                    className="text-ink-2 hover:text-ink transition-colors underline"
+                  >
+                    升学向导
+                  </Link>
                 </div>
               </div>
             )}
-
-            <div className="grid md:grid-cols-3 gap-3 mb-8">
-              <Link
-                href="/guide"
-                className="flex items-center justify-center px-5 py-3.5 bg-accent text-accent-ink font-semibold rounded-full hover:bg-accent-hover transition-colors text-center"
-              >
-                升学向导
-              </Link>
-              <Link
-                href="/#contact"
-                className="flex items-center justify-center px-5 py-3.5 bg-transparent text-ink border border-accent font-semibold rounded-full hover:bg-accent/10 transition-colors text-center"
-              >
-                微信咨询
-              </Link>
-              <Link
-                href="/learn"
-                className="flex items-center justify-center px-5 py-3.5 bg-transparent text-ink border border-line font-semibold rounded-full hover:border-ink-2 hover:bg-card transition-colors text-center"
-              >
-                免费试学
-              </Link>
-            </div>
 
             <div className="bg-paper-2 border border-line rounded-xl p-5 mb-6">
               <p className="text-sm text-ink-2 leading-relaxed">
