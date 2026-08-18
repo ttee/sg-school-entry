@@ -13806,6 +13806,96 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
         },
       ],
     },
+    {
+      level: "SMATH",
+      weekNumber: 74,
+      title: "列方程组 — Formulating pairs of linear equations",
+      description: "Sec 2 N7.10: formulating a pair of linear equations in two variables to solve problems (AEIS 中学数学第 74 周 / SMATH Week 74)",
+      isSample: false,
+      errorFocus: "same pair written in swapped order offered as two options; x/y swapped vs story (2x+y vs x+2y); one correct equation plus a dependent second equation (sum/double) as if it were the pair; forming only one equation when story needs two",
+      parentBrief: "本周练从应用题列二元一次方程组。读题识别两个未知量，定义 x 和 y，把每个条件转化为方程，写成方程组。只用整数系数和整数解，不用计算器。盯住：同一对方程对调顺序不能作两个正确选项；x 和 y 的系数与题意对应（2x+y vs x+2y）；一个方程加一个依赖方程（和或倍数）不是真的方程组。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "At Riverside Secondary, Mr Lim writes: 「Wei has 5 apples and Aisha has 3 apples. Together they have 8 apples. Let x be Wei's apples and y be Aisha's apples. We can write: x = 5 and y = 3, or x + y = 8.」 Aisha asks: 「Which pair of equations describes the problem completely?」 Which is correct?|A. The pair is x = 5 and y = 3. We know both values directly. ✓|B. The pair is x + y = 8 only. We don't need two equations.|C. The pair is x = 5 and x + y = 8. We know x but not y.|D. We need three equations: x = 5, y = 3, and x + y = 8.",
+            "Aisha at Riverside Secondary reads: 「Wei has x pencils and Aisha has y pencils. Together they have 12 pencils. Wei has 3 more pencils than Aisha.」 Mr Lim asks: 「What pair of equations represents this?」 Which is correct?|A. The pair is x + y = 12 and x = y + 3. These two conditions give us the pair. ✓|B. The pair is x + y = 12 only. We can solve with one equation.|C. The pair is x = y + 3 only. This tells us everything.|D. The pair is x + y = 12 and y = x + 3. (Wrong: Wei has more, not Aisha.)",
+            "At Riverside Secondary, Mr Lim writes: 「Two numbers x and y have a sum of 15. The first number is twice the second number.」 Wei says: 「The pair is x + y = 15 and x = 2y.」 Is this correct?|A. Yes, the pair is x + y = 15 and x = 2y. ✓|B. No, the pair is x + y = 15 and y = 2x.|C. No, the pair is x + y = 15 only.|D. No, the pair is x = 2y only.",
+            "Aisha at Riverside Secondary reads: 「At the school canteen, 3 pens and 2 erasers cost $11. 1 pen costs $3.」 Mr Lim asks: 「Let x be the price of one pen and y be the price of one eraser. What pair of equations do we write?」 Which is correct?|A. The pair is 3x + 2y = 11 and x = 3. These describe the two conditions. ✓|B. The pair is 3x + 2y = 11 only. We can solve with one equation.|C. The pair is x = 3 only. This tells us everything.|D. The pair is 3x + 2y = 11 and 3x = 11. (Wrong: 3x ≠ 11.)",
+            "At Riverside Secondary, Wei reads: 「The sum of two numbers is 20. The difference is 4.」 Mr Lim says: 「Let x be the larger number and y be the smaller number. We write x + y = 20 and x − y = 4.」 Is this correct?|A. Yes, the pair is x + y = 20 and x − y = 4. ✓|B. No, the pair is x + y = 20 only.|C. No, the pair is x − y = 4 only.|D. No, the pair is x + y = 20 and y − x = 4. (Wrong: larger − smaller = 4.)",
+          ]),
+          correctAnswer: "A,A,A,A,A",
+          points: 10,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "At Riverside Secondary, Mr Lim writes: 「Wei buys 2 apples and 3 oranges for $8. Aisha buys 1 apple and 2 oranges for $5. Let x be the price of one apple and y be the price of one orange.」 Which pair of equations is correct?|A. The pair is 2x + 3y = 8 and x + 2y = 5. ✓|B. The pair is 3x + 2y = 8 and 2x + y = 5. (Wrong: swapped coefficients.)|C. The pair is 2x + 3y = 8 only. We need both conditions.|D. The pair is 2x + 3y = 8 and 4x + 6y = 16. (Wrong: second is dependent, not a new condition.)",
+            "Aisha at Riverside Secondary reads: 「The perimeter of a rectangle is 30 cm. The length is 5 cm more than the width. Let x be the length and y be the width.」 Mr Lim asks: 「What pair?」 Which is correct?|A. The pair is 2x + 2y = 30 and x = y + 5. Perimeter formula: 2(length + width), and length = width + 5. ✓|B. The pair is x + y = 30 and x = y + 5. (Wrong: perimeter is 2x + 2y, not x + y.)|C. The pair is 2x + 2y = 30 only. We need the length condition too.|D. The pair is 2x + 2y = 30 and y = x + 5. (Wrong: length is more, not width.)",
+            "At Riverside Secondary, Wei reads: 「3 books and 2 pens cost $26. 2 books and 1 pen cost $16. Let x be the price of one book and y be the price of one pen.」 Which pair is correct?|A. The pair is 3x + 2y = 26 and 2x + y = 16. Two purchase conditions. ✓|B. The pair is 2x + 3y = 26 and x + 2y = 16. (Wrong: swapped coefficients.)|C. The pair is 3x + 2y = 26 only. We can solve with one equation.|D. The pair is 3x + 2y = 26 and 6x + 4y = 52. (Wrong: second is double the first, dependent.)",
+            "Aisha at Riverside Secondary reads: 「A school has x boys and y girls. There are 120 students in total. There are 20 more boys than girls.」 What pair describes this?|A. The pair is x + y = 120 and x = y + 20. Total students and boys-girls relationship. ✓|B. The pair is x + y = 120 and y = x + 20. (Wrong: boys are more, not girls.)|C. The pair is x + y = 120 only. We need the boys-girls condition.|D. The pair is x = y + 20 only. We need the total.",
+            "At Riverside Secondary, Mr Lim writes: 「Two numbers x and y have a sum of 50. One number is 3 times the other. Let x be the larger number.」 Which pair is correct?|A. The pair is x + y = 50 and x = 3y. Sum and relationship. ✓|B. The pair is x + y = 50 and y = 3x. (Wrong: larger is 3 times smaller, not smaller 3 times larger.)|C. The pair is x + y = 50 only.|D. The pair is x + y = 50 and 2x + 2y = 100. (Wrong: second is double the first, dependent.)",
+            "Wei at Riverside Secondary reads: 「5 pens and 3 erasers cost $19. 2 pens and 1 eraser cost $8. Let x be the pen price and y be the eraser price.」 Which pair?|A. The pair is 5x + 3y = 19 and 2x + y = 8. Two purchase conditions. ✓|B. The pair is 3x + 5y = 19 and x + 2y = 8. (Wrong: swapped coefficients.)|C. The pair is 5x + 3y = 19 only.|D. The pair is 5x + 3y = 19 and 10x + 6y = 38. (Wrong: second is double the first, dependent.)",
+            "Aisha at Riverside Secondary reads: 「A farmer has chickens and rabbits. There are 25 heads and 70 legs. Let x be chickens and y be rabbits.」 Mr Lim says: 「Heads: x + y = 25. Legs: chickens 2 each, rabbits 4 each: 2x + 4y = 70.」 Which is correct?|A. Yes, the pair is x + y = 25 and 2x + 4y = 70. Heads and legs. ✓|B. No, the pair is x + y = 25 and 4x + 2y = 70. (Wrong: chickens 2 legs, rabbits 4, not reversed.)|C. No, the pair is x + y = 25 only.|D. No, the pair is 2x + 4y = 70 only.",
+            "At Riverside Secondary, Mr Lim writes: 「The cost of 4 shirts and 3 hats is $45. The cost of 1 shirt is $6. Let x be the shirt price and y be the hat price.」 Which pair?|A. The pair is 4x + 3y = 45 and x = 6. Total cost and shirt price. ✓|B. The pair is 3x + 4y = 45 and x = 6. (Wrong: 4 shirts, not 3.)|C. The pair is 4x + 3y = 45 only. We know x = 6, that's the second condition.|D. The pair is 4x + 3y = 45 and 8x + 6y = 90. (Wrong: second is double the first, dependent.)",
+          ]),
+          correctAnswer: "A,A,A,A,A,A,A,A",
+          points: 16,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `Part 2: Show Your Working (写出算式步骤)
+
+Riverside Secondary School has word problems requiring pairs of linear equations. Answer the questions below. Show your working.
+
+Question (a)
+At Riverside Secondary, Wei and Aisha collect stamps. Wei has x stamps and Aisha has y stamps. Together they have 35 stamps. Wei has 7 more stamps than Aisha.
+(i) Write a pair of linear equations in x and y that represents this information. Show your working: define the variables, identify the two conditions, and write each condition as an equation.
+(ii) Solve the pair of equations by substitution or elimination to find x and y. Show your working step by step.
+(iii) Check your solution: substitute your values of x and y back into both equations to verify they satisfy both conditions.
+
+Question (b)
+At Riverside Secondary, Mr Lim buys stationery. 3 pens and 4 erasers cost $17. 2 pens and 3 erasers cost $12. Let x be the price of one pen (in dollars) and y be the price of one eraser (in dollars).
+(i) Write a pair of linear equations in x and y that represents this information. Show your working: identify the two purchase conditions and write each as an equation.
+(ii) Solve the pair of equations by substitution or elimination to find x and y. Show your working step by step.
+(iii) Check your solution: substitute your values of x and y back into both equations to verify the totals are correct.
+
+Question (c)
+At Riverside Secondary, a class has x boys and y girls. The total number of students is 40. There are twice as many boys as girls.
+(i) Write a pair of linear equations in x and y that represents this information. Show your working: identify the two conditions (total students, and the boys-girls relationship) and write each as an equation.
+(ii) Solve the pair of equations by substitution or elimination to find x and y. Show your working step by step.
+(iii) Aisha says: 「I formed the equations x + y = 40 and 2x + 2y = 80. Can I use these to solve?」 Mr Lim says: 「No, the second equation is just the first equation multiplied by 2. It's not a new condition. You need x + y = 40 and x = 2y.」 Explain why 2x + 2y = 80 is not a valid second equation for this problem.
+
+写作提示 / Tips:
+✓ 每题分步骤写出推理 (Show working steps for each question)
+✓ Part 2 官方要求：clearly show the method of solution by writing working steps, plus the final answer
+✓ 不用计算器 (No calculators allowed)
+✓ 列方程组步骤示范 (formulating pairs of equations examples)：
+  • Example: Wei has x pencils and Aisha has y pencils. Together they have 20 pencils. Wei has 6 more pencils than Aisha. Write a pair of equations.
+    Solution: ① Define the variables: Let x = number of Wei's pencils, y = number of Aisha's pencils. ② Identify the two conditions: Condition 1: Together they have 20 pencils. Condition 2: Wei has 6 more pencils than Aisha. ③ Translate each condition into an equation: Condition 1 → x + y = 20 (Wei's pencils + Aisha's pencils = 20). Condition 2 → x = y + 6 (Wei's pencils = Aisha's pencils + 6). ④ Write the pair: The pair is x + y = 20 and x = y + 6. Answer: x + y = 20 and x = y + 6.
+  • Example: 2 apples and 3 oranges cost $10. 1 apple and 2 oranges cost $6. Let x be the apple price and y be the orange price. Write a pair of equations.
+    Solution: ① Define the variables: Let x = price of one apple (in dollars), y = price of one orange (in dollars). ② Identify the two conditions: Condition 1: 2 apples and 3 oranges cost $10. Condition 2: 1 apple and 2 oranges cost $6. ③ Translate each condition into an equation: Condition 1 → 2x + 3y = 10 (2 times apple price + 3 times orange price = 10). Condition 2 → x + 2y = 6 (1 times apple price + 2 times orange price = 6). ④ Write the pair: The pair is 2x + 3y = 10 and x + 2y = 6. Answer: 2x + 3y = 10 and x + 2y = 6.
+✓ 关键步骤：Step 1: Read the problem carefully and identify the two unknown quantities（仔细读题，识别两个未知量）. Step 2: Define variables clearly: let x = ... and y = ...（清楚定义变量：令 x = ... 且 y = ...）. Step 3: Identify the two conditions given in the problem（识别问题中给出的两个条件）. Step 4: Translate each condition into a linear equation in x and y（将每个条件转化为关于 x 和 y 的线性方程）. Step 5: Write the pair of equations together（把两个方程写在一起，构成方程组）. Step 6: (If asked to solve) Use substitution or elimination to find x and y（如果要求求解，用代入法或消元法求出 x 和 y）. Step 7: Check your solution by substituting back into both original equations（检验：将解代回两个原方程）.
+✓ 化石 (fossil errors)：
+  • Same pair written in swapped order offered as two options（同一对方程对调顺序作为两个不同的选项。例如：选项 A 是 「x + y = 10 and x = 2y」 且选项 B 是 「x = 2y and x + y = 10」。这两个是同一个方程组，不能都是正确选项。一道题，一个正确选项。）
+  • x/y swapped vs the story (2x + y vs x + 2y)（x 和 y 的系数与题意相反。例如：题干说「Wei 的铅笔是 Aisha 的 2 倍」，正确是 x = 2y；如果写成 y = 2x 或者 2x + y 而应该是 x + 2y，就是错的。）
+  • One correct equation plus a dependent second equation (sum/double) as if it were the pair（一个正确方程加上一个依赖方程（和或倍数）当作方程组。例如：x + y = 10 和 2x + 2y = 20 不是真的方程组，因为第二个方程只是第一个的 2 倍，没有给出新信息。）
+  • Forming only one equation when the story needs two（只列一个方程，当题目需要两个。例如：题目给了两个条件，你只写了一个方程，漏掉了另一个。）
+  • Copying 微课 example numbers in writing（写作题照抄微课例题的数字。微课用 x + y = 8, x = y + 2; 2x + 3y = 11, x + y = 5; x + y = 15, x = 2y。写作题必须用不同的数字。）
+  • 本周教 Sec 2 NUMBER AND ALGEBRA, N7. Equations and inequalities: 7.10 formulating a pair of linear equations in two variables to solve problems（N7.10 从应用题列二元一次方程组）。本周是 N7.10 only. Formulating a pair of linear equations: (1) read the word problem carefully, identify the two unknown quantities, and define variables (let x = ... and y = ...) clearly; (2) translate each condition in the problem into a linear equation in x and y; (3) write the pair of equations together as a system; (4) the problem may then ask you to solve the system by substitution or elimination; (5) check your solution makes sense in the context of the problem; (6) integer coefficients and integer solutions only (friendly integers, no calculator). 本周重点：formulating the pair（列方程组），不是 re-teaching elimination methods（不是重新教解方程组的消元法；第 72 周已教 N7.8 solving）。Fossil: same pair in swapped order as two options; x/y swapped vs story; one equation plus a dependent equation; forming only one equation; copying 微课 numbers. Cast: secondary Wei, Aisha, Mr Lim at Riverside Secondary School.
+
+Note: This is a sample of Part 2 short-answer/open-ended questions. The official paper has 20 short-answer + 10–15 open-ended items in 1 hour 45 minutes.`,
+          points: 20,
+        },
+      ],
+    },
   ];
 
 
