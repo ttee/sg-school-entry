@@ -14712,6 +14712,91 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
         },
       ],
     },
+    {
+      level: "SMATH",
+      weekNumber: 84,
+      title: "相似图形的体积比 — Ratio of volumes of similar figures",
+      description: "Sec 2 G2.10: ratio of volumes = k³ (AEIS 中学数学第 84 周 / SMATH Week 84)",
+      isSample: false,
+      errorFocus: "using k instead of k³ for volumes (k = 2 so volume × 2 instead of × 8); using k² (area) when the question wants volume; two options that are the same pair in a different order",
+      parentBrief: "本周练相似图形的体积比。G2.10 内容：如果两个图形相似，线性比例因子为 k（对应长度的比为 k），则它们的体积比为 k³。从 k 求体积，或从体积比求 k，再求缺失长度。只用整数 k（或 k = 1/2，使得 k³ 为 1/8）。不用计算器。k² 可能作为化石出现：用 k² 而问题要求体积比 k³。无 G4 Pythagoras/trig。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "At Riverside Secondary, Mr Lim shows two similar cubes. The small cube has volume 5 cm³. The linear scale factor k = 2 (corresponding edges are in ratio 1:2). Wei asks: 「What is the volume of the large cube?」 Which is correct?|A. 40 cm³. When k = 2, the volume ratio is k³ = 2³ = 8. So large volume = small volume × 8 = 5 × 8 = 40 cm³. ✓|B. 10 cm³. Volume × 2 (fossil: using k instead of k³)|C. 20 cm³. Volume × 4 (fossil: using k² instead of k³)|D. 15 cm³. Volume × 3",
+            "At Riverside Secondary, Aisha draws two similar cylinders. The volume ratio is 8:1 (large volume: small volume = 8:1). Mr Lim asks: 「What is the linear scale factor k?」 Which is correct?|A. k = 2. Volume ratio = k³, so k³ = 8, which means k = 2. ✓|B. k = 8 (fossil: confusing volume ratio with k)|C. k = 4 (fossil: using √8 instead of ∛8)|D. k = 1/8 (inverted)",
+            "At Riverside Secondary, Wei shows two similar pyramids. The large pyramid has volume 72 cm³. The linear scale factor k = 1/2 (small:large = 1:2). Aisha asks: 「What is the volume of the small pyramid?」 Which is correct?|A. 9 cm³. When k = 1/2, the volume ratio is k³ = (1/2)³ = 1/8. So small volume = large volume × 1/8 = 72 × 1/8 = 72 ÷ 8 = 9 cm³. ✓|B. 36 cm³. Volume ÷ 2 (fossil: using k instead of k³)|C. 18 cm³. Volume ÷ 4 (fossil: using k² instead of k³)|D. 144 cm³. Volume × 2",
+            "At Riverside Secondary, Mr Lim shows two similar spheres. The small sphere has volume 1 cm³. The large sphere has volume 27 cm³. Wei asks: 「What is the volume ratio?」 Which is correct?|A. 27:1. Large volume: small volume = 27:1. The volume ratio is 27:1. ✓|B. 27:1, so k = 27 (confusing volume ratio with k: k³ = 27, so k = 3)|C. 1:27 (inverted)|D. 9:1 (fossil: using k² instead of k³)",
+            "At Riverside Secondary, Aisha shows two similar cones. The volume ratio is 1:8 (small:large). Mr Lim says: 「If an edge of the small cone is 3 cm, what is the corresponding edge of the large cone?」 Which is correct?|A. 6 cm. Volume ratio = k³, so k³ = 8 (large:small), which means k = 2. Corresponding edge of large cone = 3 × k = 3 × 2 = 6 cm. ✓|B. 24 cm. Edge × 8 (fossil: using volume ratio for edges)|C. 12 cm. Edge × 4 (fossil: using k² for edges)|D. 9 cm. Edge + 6",
+          ]),
+          correctAnswer: "A,A,A,A,A",
+          points: 10,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "At Riverside Secondary, Mr Lim shows two similar cubes. Small volume = 7 cm³. k = 3. Aisha asks: 「What is the large volume?」 Which is correct?|A. 189 cm³. k³ = 3³ = 27, so large volume = 7 × 27 = 189 cm³. ✓|B. 21 cm³. Volume × 3 (fossil: using k instead of k³)|C. 63 cm³. Volume × 9 (fossil: using k² instead of k³)|D. 10 cm³. Volume + 3",
+            "At Riverside Secondary, Wei draws two similar cylinders. Large volume = 216 cm³. Small volume = 8 cm³. Mr Lim asks: 「What is k (large:small)?」 Which is correct?|A. k = 3. Volume ratio = 216:8 = 27:1, so k³ = 27, which means k = 3. ✓|B. k = 27 (fossil: confusing volume ratio with k)|C. k = 9 (fossil: using √27 instead of ∛27)|D. k = 1/3 (inverted)",
+            "At Riverside Secondary, Aisha shows two similar pyramids. k = 1/2 (small:large). Large volume = 80 cm³. Wei asks: 「What is the small volume?」 Which is correct?|A. 10 cm³. k³ = (1/2)³ = 1/8, so small volume = 80 × 1/8 = 80 ÷ 8 = 10 cm³. ✓|B. 40 cm³. Volume ÷ 2 (fossil: using k instead of k³)|C. 20 cm³. Volume ÷ 4 (fossil: using k² instead of k³)|D. 160 cm³. Volume × 2",
+            "At Riverside Secondary, Mr Lim shows two similar spheres. Volume ratio = 27:1 (large:small). Small edge = 4 cm. Aisha says: 「What is the corresponding large edge?」 Which is correct?|A. 12 cm. k³ = 27, so k = 3. Large edge = 4 × 3 = 12 cm. ✓|B. 108 cm. Edge × 27 (fossil: using volume ratio for edges)|C. 36 cm. Edge × 9 (fossil: using k² for edges)|D. 7 cm. Wrong calculation",
+            "At Riverside Secondary, Wei shows two similar cones. Small volume = 3 cm³. k = 4 (large:small). Mr Lim asks: 「What is the large volume?」 Which is correct?|A. 192 cm³. k³ = 4³ = 64, so large volume = 3 × 64 = 192 cm³. ✓|B. 12 cm³. Volume × 4 (fossil: using k instead of k³)|C. 48 cm³. Volume × 16 (fossil: using k² instead of k³)|D. 7 cm³. Volume + 4",
+            "At Riverside Secondary, Aisha draws two similar cubes. Large volume = 125 cm³. Small volume = 1 cm³. Wei asks: 「What is k (large:small)?」 Which is correct?|A. k = 5. Volume ratio = 125:1, so k³ = 125, which means k = 5. ✓|B. k = 125 (fossil: confusing volume ratio with k)|C. k = 25 (wrong)|D. k = 1/5 (inverted)",
+            "At Riverside Secondary, Mr Lim shows two similar cylinders. k = 1/2 (small:large). Large edge = 16 cm. Aisha says: 「What is the small edge?」 Small volume = 24 cm³. Wei asks: 「What is the large volume?」 Which pair (small edge, large volume) is correct?|A. (8 cm, 192 cm³). Small edge = 16 × 1/2 = 8 cm. k³ = (1/2)³ = 1/8, so large volume = 24 ÷ (1/8) = 24 × 8 = 192 cm³. ✓|B. (8 cm, 96 cm³). Small edge OK, but large volume × 4 instead of × 8 (fossil)|C. (4 cm, 192 cm³). Wrong small edge|D. (8 cm, 12 cm³). Small edge OK, but inverted volume",
+            "At Riverside Secondary, Wei shows two similar pyramids. Volume ratio = 1:8 (small:large). Large edge = 20 cm. Mr Lim asks: 「What is k (small:large) and the small edge?」 Which is correct?|A. k = 1/2, small edge = 10 cm. k³ = 1/8, so k = 1/2. Small edge = 20 × 1/2 = 20 ÷ 2 = 10 cm. ✓|B. k = 1/8, small edge = 2.5 cm (fossil: using volume ratio as k)|C. k = 1/2, small edge = 18 cm (k correct, but edge wrong)|D. k = 1/4, small edge = 5 cm (fossil: using √(1/8) instead of ∛(1/8))",
+          ]),
+          correctAnswer: "A,A,A,A,A,A,A,A",
+          points: 16,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `Part 2: Show Your Working (写出算式步骤)
+
+Riverside Secondary School has geometry questions about similar figures and volume ratios. Answer the questions below. Show your working clearly.
+
+Question (a)
+At Riverside Secondary, Mr Lim shows two similar cubes. The small cube has volume 3 cm³. The linear scale factor k = 2 (corresponding edges are in ratio 1:2).
+(i) What is the volume ratio (small:large)?
+(ii) Calculate the volume of the large cube. Show your working.
+
+Question (b)
+At Riverside Secondary, Aisha draws two similar cylinders. The volume ratio is 27:1 (large:small). The small cylinder has volume 4 cm³ and one edge of length 5 cm.
+(i) What is the volume of the large cylinder? Show your working.
+(ii) What is the linear scale factor k (large:small)? Show your working: volume ratio = k³, so k³ = 27.
+(iii) What is the corresponding edge of the large cylinder? Show your working: multiply the small edge by k.
+
+Question (c)
+At Riverside Secondary, Wei shows two similar pyramids. The large pyramid has volume 48 cm³ and one edge of length 14 cm. The linear scale factor k = 1/2 (small:large).
+(i) What is the volume of the small pyramid? Show your working: k³ = (1/2)³ = 1/8, so small volume = large volume × 1/8.
+(ii) What is the corresponding edge of the small pyramid? Show your working: multiply the large edge by k = 1/2.
+(iii) Wei says: 「The volume of the small pyramid is 48 ÷ 2 = 24 cm³ because k = 1/2.」 Explain why Wei is wrong and what the correct answer should be.
+
+写作提示 / Tips:
+✓ 每题分步骤写出推理 (Show working steps for each question)
+✓ Part 2 官方要求：clearly show the method of solution by writing working steps, plus the final answer
+✓ 不用计算器 (No calculators allowed)
+✓ 本周教 Sec 2 GEOMETRY AND MEASUREMENT, G2. Congruence and similarity: 2.10 ratio of volumes of similar figures = k³. 本周是 G2.10 only. Official content: if two figures are similar with linear scale factor k (corresponding lengths in ratio k), then the ratio of their volumes is k³. Find a volume from k, or find k from a volume ratio, then a missing length. Integer k only, or k = 1/2 so k³ is 1/8. No calculator. Cast: secondary Wei, Aisha, Mr Lim at Riverside Secondary School. No calculator.
+✓ 关键步骤：Step 1: Identify the linear scale factor k（识别线性比例因子 k：对应长度的比）. Step 2: Calculate the volume ratio k³（计算体积比 k³）. k = 2 → k³ = 8; k = 3 → k³ = 27; k = 1/2 → k³ = 1/8. Step 3: Use volume ratio to find missing volumes（用体积比求缺失体积）. If small volume = 4 cm³ and k = 2, then large volume = 4 × k³ = 4 × 8 = 32 cm³. If large volume = 64 cm³ and k = 1/2 (small:large), then small volume = 64 × (1/2)³ = 64 × 1/8 = 64 ÷ 8 = 8 cm³. Step 4: If given volume ratio, find k by taking the cube root（如果给定体积比，通过开立方根求 k）. Volume ratio 27:1 → k³ = 27 → k = 3. Volume ratio 1:8 → k³ = 8 (large:small) → k = 2. Step 5: Use k to find missing lengths（用 k 求缺失长度）. If small edge = 2 cm and k = 3 (large:small), then large edge = 2 × 3 = 6 cm. If large edge = 10 cm and k = 1/2 (small:large), then small edge = 10 × 1/2 = 5 cm. Step 6: State the final answer and explain the reasoning（陈述最终答案并解释推理）.
+✓ 化石 (fossil errors):
+  • Using k instead of k³ for volumes（错误：用 k 而不是 k³ 计算体积比。k = 2 时，体积比是 k³ = 8，不是 2。如果小立方体体积 4 cm³，k = 2，大立方体体积是 4 × 8 = 32 cm³，不是 4 × 2 = 8 cm³）
+  • Using k² (area) when the question wants volume（错误：用 k² 计算体积比，而问题要求体积。k² 用于面积比（area ratio），本周教 G2.10 体积比。体积比用 k³）
+  • Two options that are the same pair in a different order（两个选项是同一对不同顺序：例如 "volume × 8" 和 "8 × volume" 是同一个答案，不要两个都写成正确选项）
+  • Confusing volume ratio with k（错误：把体积比当作 k。如果体积比是 27:1，那么 k³ = 27，所以 k = 3，不是 k = 27）
+✓ Writing 数值不能抄 微课：微课用 4 cm³ / 32 cm³（k=2）; 2 cm / 6 cm，volume ratio 27:1; 64 cm³ / 8 cm³（k=1/2）。Writing Q 用 3 cm³ / 24 cm³（k=2）; 4 cm³ / 108 cm³, 5 cm / 15 cm（k=3, volume ratio 27:1）; 48 cm³ / 6 cm³, 14 cm / 7 cm（k=1/2）。不能抄本周 MCQ 的 5/40/72/9/1/27/3/7/189/216/8/80/10/4/12/125/16/24/192/20 等数值。不能抄 W83 writing 的 7/28/11/176/13/52/60/15/22/11 等数值。
+✓ 本周只教 G2.10 ratio of volumes = k³。本周不教 G2.9 ratio of areas = k²（k² 可能作为化石出现：用 k² 而问题要求体积比 k³）；不教 G4 Pythagoras/trig（不开始直角三角形定理和三角）。本周只教 G2.10: if two figures are similar with linear scale factor k, then volume ratio = k³. Find volume from k, or find k from volume ratio, then missing length.
+
+Note: This is a sample of Part 2 short-answer/open-ended questions. The official paper has 20 short-answer + 10–15 open-ended items in 1 hour 45 minutes.`,
+          points: 20,
+        },
+      ],
+    },
   ];
 
 

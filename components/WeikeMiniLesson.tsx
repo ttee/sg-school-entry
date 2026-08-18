@@ -968,6 +968,14 @@ export default function WeikeMiniLesson({ level, weekNumber }: WeikeMiniLessonPr
       ],
       gloss: "AEIS 中学数学第 83 周 / SMATH Week 83. 本周例题：Sec 2 G2.9 ratio of areas of similar figures = k²（相似图形的面积比等于 k²）。"
     },
+    "SMATH-84": {
+      examples: [
+        "Two similar cubes, k = 2. Small volume 4 cm³ → large volume 4 × 8 = 32 cm³",
+        "Two similar cylinders, volume ratio 27 : 1 so k = 3. Small edge 2 cm → large edge 6 cm",
+        "Two similar pyramids, k = 1/2. Large volume 64 cm³ → small volume 64 × 1/8 = 8 cm³"
+      ],
+      gloss: "AEIS 中学数学第 84 周 / SMATH Week 84. 本周例题：Sec 2 G2.10 ratio of volumes of similar figures = k³（相似图形的体积比等于 k³）。"
+    },
     "SEC-0": {
       fossil: "Although I was nervous, but I tried. ✗ (中文「虽然…但是…」迁移) / I go yesterday ✗ (叙事体过去时掉落)",
       examples: [

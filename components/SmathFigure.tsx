@@ -1171,5 +1171,111 @@ export default function SmathFigure({ weekNumber }: { weekNumber: number }) {
     );
   }
 
+  if (weekNumber === 84) {
+    return (
+      <div className="bg-paper border border-line rounded-xl p-6 mb-6">
+        <h3 className="font-semibold text-ink mb-4 text-center">📐 本周图解</h3>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          {/* Diagram 1: Two similar cubes k=2, volume ratio 8:1 */}
+          <div className="flex flex-col items-center">
+            <svg viewBox="0 0 220 200" className="w-full max-w-[220px] h-auto">
+              {/* Title */}
+              <text x="110" y="18" fontSize="11" fill="#1a1a1a" fontWeight="600" textAnchor="middle">k = 2, k³ = 8</text>
+              
+              {/* Small cube */}
+              <rect x="25" y="85" width="35" height="35" fill="none" stroke="#d97706" strokeWidth="2" />
+              <line x1="60" y1="85" x2="75" y2="70" stroke="#d97706" strokeWidth="2" />
+              <line x1="60" y1="120" x2="75" y2="105" stroke="#d97706" strokeWidth="2" />
+              <line x1="25" y1="85" x2="40" y2="70" stroke="#d97706" strokeWidth="2" />
+              <rect x="40" y="70" width="35" height="35" fill="none" stroke="#d97706" strokeWidth="2" />
+              <line x1="25" y1="120" x2="40" y2="105" stroke="#d97706" strokeWidth="2" />
+              <text x="47" y="100" fontSize="11" fill="#d97706" fontWeight="700">4 cm³</text>
+              
+              {/* Large cube (k=2) */}
+              <rect x="110" y="60" width="70" height="70" fill="none" stroke="#10b981" strokeWidth="2" />
+              <line x1="180" y1="60" x2="210" y2="30" stroke="#10b981" strokeWidth="2" />
+              <line x1="180" y1="130" x2="210" y2="100" stroke="#10b981" strokeWidth="2" />
+              <line x1="110" y1="60" x2="140" y2="30" stroke="#10b981" strokeWidth="2" />
+              <rect x="140" y="30" width="70" height="70" fill="none" stroke="#10b981" strokeWidth="2" />
+              <line x1="110" y1="130" x2="140" y2="100" stroke="#10b981" strokeWidth="2" />
+              <text x="145" y="75" fontSize="11" fill="#10b981" fontWeight="700">32 cm³</text>
+              
+              {/* Formula */}
+              <text x="110" y="165" fontSize="10" fill="#3b82f6" fontWeight="600" textAnchor="middle">4 × 8 = 32</text>
+            </svg>
+            <p className="text-sm text-ink-2 text-center mt-2 font-semibold">
+              k = 2 → 体积 × 8<br />
+              <span className="text-xs text-accent">4 cm³ → 32 cm³</span>
+            </p>
+          </div>
+
+          {/* Diagram 2: Two similar cylinders, volume ratio 27:1 so k=3 */}
+          <div className="flex flex-col items-center">
+            <svg viewBox="0 0 220 200" className="w-full max-w-[220px] h-auto">
+              {/* Title */}
+              <text x="110" y="18" fontSize="11" fill="#1a1a1a" fontWeight="600" textAnchor="middle">Volume 27:1 → k = 3</text>
+              
+              {/* Small cylinder */}
+              <ellipse cx="50" cy="90" rx="25" ry="8" fill="none" stroke="#d97706" strokeWidth="2" />
+              <line x1="25" y1="90" x2="25" y2="130" stroke="#d97706" strokeWidth="2" />
+              <line x1="75" y1="90" x2="75" y2="130" stroke="#d97706" strokeWidth="2" />
+              <ellipse cx="50" cy="130" rx="25" ry="8" fill="none" stroke="#d97706" strokeWidth="2" />
+              <text x="30" y="75" fontSize="10" fill="#d97706" fontWeight="600">2 cm</text>
+              <text x="50" y="115" fontSize="11" fill="#1a1a1a" fontWeight="600">P</text>
+              
+              {/* Large cylinder */}
+              <ellipse cx="160" cy="60" rx="50" ry="15" fill="none" stroke="#10b981" strokeWidth="2" />
+              <line x1="110" y1="60" x2="110" y2="150" stroke="#10b981" strokeWidth="2" />
+              <line x1="210" y1="60" x2="210" y2="150" stroke="#10b981" strokeWidth="2" />
+              <ellipse cx="160" cy="150" rx="50" ry="15" fill="none" stroke="#10b981" strokeWidth="2" />
+              <text x="140" y="40" fontSize="10" fill="#10b981" fontWeight="600">6 cm</text>
+              <text x="160" y="110" fontSize="11" fill="#1a1a1a" fontWeight="600">Q</text>
+              
+              {/* Formula */}
+              <text x="110" y="185" fontSize="10" fill="#3b82f6" fontWeight="600" textAnchor="middle">2 × 3 = 6</text>
+            </svg>
+            <p className="text-sm text-ink-2 text-center mt-2 font-semibold">
+              体积比 27:1 → k = 3<br />
+              <span className="text-xs text-accent">2 cm → 6 cm</span>
+            </p>
+          </div>
+
+          {/* Diagram 3: Two similar pyramids k=1/2, volume ratio 1/8 */}
+          <div className="flex flex-col items-center">
+            <svg viewBox="0 0 220 200" className="w-full max-w-[220px] h-auto">
+              {/* Title */}
+              <text x="110" y="18" fontSize="11" fill="#1a1a1a" fontWeight="600" textAnchor="middle">k = 1/2, k³ = 1/8</text>
+              
+              {/* Large pyramid */}
+              <polygon points="30,120 70,40 110,120" fill="none" stroke="#d97706" strokeWidth="2" />
+              <line x1="30" y1="120" x2="50" y2="130" stroke="#d97706" strokeWidth="2" />
+              <line x1="110" y1="120" x2="90" y2="130" stroke="#d97706" strokeWidth="2" />
+              <line x1="70" y1="40" x2="70" y2="60" stroke="#d97706" strokeWidth="2" />
+              <polygon points="30,120 50,130 90,130 110,120" fill="none" stroke="#d97706" strokeWidth="2" />
+              <text x="70" y="95" fontSize="11" fill="#d97706" fontWeight="700">64 cm³</text>
+              <text x="70" y="145" fontSize="11" fill="#1a1a1a" fontWeight="600">M</text>
+              
+              {/* Small pyramid (k=1/2) */}
+              <polygon points="145,135 160,100 175,135" fill="none" stroke="#10b981" strokeWidth="2" />
+              <line x1="145" y1="135" x2="152" y2="142" stroke="#10b981" strokeWidth="2" />
+              <line x1="175" y1="135" x2="168" y2="142" stroke="#10b981" strokeWidth="2" />
+              <line x1="160" y1="100" x2="160" y2="110" stroke="#10b981" strokeWidth="2" />
+              <polygon points="145,135 152,142 168,142 175,135" fill="none" stroke="#10b981" strokeWidth="2" />
+              <text x="160" y="125" fontSize="11" fill="#10b981" fontWeight="700">8 cm³</text>
+              <text x="160" y="160" fontSize="11" fill="#1a1a1a" fontWeight="600">N</text>
+              
+              {/* Formula */}
+              <text x="110" y="185" fontSize="10" fill="#3b82f6" fontWeight="600" textAnchor="middle">64 × 1/8 = 8</text>
+            </svg>
+            <p className="text-sm text-ink-2 text-center mt-2 font-semibold">
+              k = 1/2 → 体积 × 1/8<br />
+              <span className="text-xs text-accent">64 cm³ → 8 cm³</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
   return null;
 }

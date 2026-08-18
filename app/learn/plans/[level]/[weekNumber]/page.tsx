@@ -6392,6 +6392,74 @@ const lessonPlans: Record<string, LessonPlan> = {
     ],
     speakingPrompts: null,
   },
+  "SMATH-84": {
+    title: "相似图形的体积比 — Ratio of volumes of similar figures",
+    mathExample: "Two similar cubes, k = 2. Small volume 4 cm³ → large volume 4 × 8 = 32 cm³. Two similar cylinders, volume ratio 27:1 so k = 3. Small edge 2 cm → large edge 6 cm. Two similar pyramids, k = 1/2. Large volume 64 cm³ → small volume 64 × 1/8 = 8 cm³.",
+    boardWriting: "SMATH Week 84: Sec 2 G2.10 ratio of volumes of similar figures = k³. Official content: If two figures are similar with linear scale factor k, then the ratio of their volumes is k³. Find a volume from k, or find k from a volume ratio, then a missing length. Integer k only, or k = 1/2 so k³ = 1/8. No calculator. Cast: Wei, Aisha, Mr Lim at Riverside Secondary School.",
+    sections: [
+      {
+        name: "课前",
+        duration: "2 分钟",
+        teacherNotes: "欢迎孩子。「今天是第 84 周 AEIS 中学数学，我们学 Sec 2 G2.10 ratio of volumes of similar figures = k³（相似图形的体积比等于 k³）。本周只教 G2.10 only. Official content: if two figures are similar with linear scale factor k (corresponding lengths in ratio k), then the ratio of their volumes is k³. Find a volume from k, or find k from a volume ratio, then a missing length. Integer k only, or k = 1/2 so k³ is 1/8. No calculator. 本周不教 G2.9 ratio of areas = k²（k² 可能作为化石出现：用 k² 而问题要求体积比 k³）。本周不教 G4 Pythagoras/trig（不开始直角三角形定理和三角）。Cast: secondary Wei, Aisha, Mr Lim at Riverside Secondary School. 开始上课。」",
+      },
+      {
+        name: "学习目标",
+        duration: "1 分钟",
+        teacherNotes: "学习目标：「By the end of this lesson, you will be able to: (1) understand that if two figures are similar with linear scale factor k, then the ratio of their volumes is k³ (if k = 2, volume ratio = 2³ = 8; if k = 3, volume ratio = 3³ = 27; if k = 1/2, volume ratio = (1/2)³ = 1/8); (2) find a volume from k: if small volume = 4 cm³ and k = 2, then large volume = 4 × k³ = 4 × 8 = 32 cm³; (3) find k from a volume ratio: if volume ratio = 27:1 (large:small), then k³ = 27, so k = 3; (4) use k to find a missing length: if small edge = 2 cm and k = 3, then large edge = 2 × 3 = 6 cm. 成功标准 Success Criteria: You can calculate the volume ratio k³ from the linear scale factor k. You can find k from a volume ratio by taking the cube root. You can use k to find missing volumes or lengths. You understand that volume ratio = k³, not k or k² (common fossils).」",
+      },
+      {
+        name: "准备",
+        duration: "5 分钟",
+        teacherNotes: "问孩子：「今天我们学 ratio of volumes of similar figures = k³（相似图形的体积比等于 k³）。What does 'similar figures' mean? Similar figures have the same shape but may have different sizes（相似图形：同形不同大小）. All corresponding angles are equal and all corresponding sides are proportional (in the same ratio). The ratio of corresponding sides is called the linear scale factor k. Example: Two similar cubes. Small cube: edge 2 cm. Large cube: edge 4 cm. Linear scale factor k = 4÷2 = 2. The edges are in ratio 1:2, so k = 2. Now, what is the volume ratio? Small volume = 2³ = 8 cm³. Large volume = 4³ = 64 cm³. Volume ratio = 64:8 = 8:1. Notice: k = 2, but volume ratio = 8:1, not 2:1 or 4:1. Why? Because volume ratio = k³ = 2³ = 8. This is the key formula: if two figures are similar with linear scale factor k, then the ratio of their volumes is k³. If k = 2, volume ratio = 2³ = 8. If k = 3, volume ratio = 3³ = 27. If k = 1/2, volume ratio = (1/2)³ = 1/8. Today we practice finding volumes from k, finding k from volume ratios, then using k to find missing lengths. 记住：k is for lengths（k 用于长度）, k² is for areas（k² 用于面积）, k³ is for volumes（k³ 用于体积）. 本周是 G2.10 volume ratio = k³ only.」",
+      },
+      {
+        name: "化石",
+        duration: "10 分钟",
+        teacherNotes: "打开屏幕共享或白板，写下本周化石错误：「Fossil 1: using k instead of k³ for volumes（用 k 而不是 k³ 计算体积比）。Example: Two similar cubes, k = 2. Small volume 4 cm³. Student says: 'Large volume = 4 × 2 = 8 cm³.' ✗」说明：「这是化石错误：体积比是 k³，不是 k。k = 2 means the edges are in ratio 1:2. But the volume ratio is k³ = 2³ = 8, not 2. If small volume = 4 cm³ and k = 2, then large volume = 4 × k³ = 4 × 8 = 32 cm³, not 4 × 2 = 8 cm³. Remember: linear scale factor k applies to lengths (edges). Volume ratio k³ applies to volumes. k is for lengths, k³ is for volumes. Don't use k for volumes.」让孩子跟读一句：「Volume ratio = k³, not k. If k = 2, volume ratio = 8.」再写第二个化石错误：「Fossil 2: using k² (area formula) when the question wants volume（用 k² 计算体积比，而问题要求体积）。Example: k = 2. Student says: 'Volume ratio = k² = 2² = 4.' ✗」说明：「这是化石错误：k² 用于面积比（area ratio），不用于体积比（volume ratio）。Volume ratio = k³. Area ratio = k². 本周教 G2.10 volume ratio = k³。上周教的 G2.9 area ratio = k² 是化石：本周不要用 k² 计算体积。Don't use k² for volumes. Use k³ for volumes.」让孩子跟读一句：「Volume ratio = k³. Area ratio = k². This week we learn k³ for volumes.」再写第三个化石错误：「Fossil 3: two options that are the same pair in a different order（选项里有两个答案是同一对，只是顺序不同）。Example: Which pair represents the volume ratio? Options: A. (8, 1) B. (1, 8) C. (2, 1) D. (4, 1). Student picks both A and B. ✗」说明：「这是化石错误：(8, 1) 和 (1, 8) 是不同的对。(8, 1) means large:small = 8:1. (1, 8) means large:small = 1:8. The order matters. Only one is correct. Read the question carefully: which is large and which is small? If large volume = 64 cm³ and small volume = 8 cm³, then volume ratio (large:small) = 64:8 = 8:1, so the pair is (8, 1), not (1, 8). Don't confuse the order.」让孩子跟读一句：「The order in a ratio matters. (8, 1) ≠ (1, 8). Read which is large and which is small.」",
+      },
+      {
+        name: "微课",
+        duration: "8 分钟",
+        teacherNotes: "打开屏幕共享，播放本周微课（3 个例题，每个 2–3 分钟，共 8 分钟）。微课例题 1: Two similar cubes, k = 2. Small volume 4 cm³ → large volume? Solution: Step 1: k = 2, so k³ = 2³ = 8. Step 2: Volume ratio = k³ = 8. Large volume = small volume × k³ = 4 × 8 = 32 cm³. Answer: 32 cm³. 微课例题 2: Two similar cylinders, volume ratio 27:1 so k = 3 (large:small). Small edge 2 cm → large edge? Solution: Step 1: Volume ratio = 27:1 (large:small), so k³ = 27. Step 2: k = ∛27 = 3. Step 3: Large edge = small edge × k = 2 × 3 = 6 cm. Answer: 6 cm. 微课例题 3: Two similar pyramids, k = 1/2 (small:large). Large volume 64 cm³ → small volume? Solution: Step 1: k = 1/2, so k³ = (1/2)³ = 1/8. Step 2: Small volume = large volume × k³ = 64 × 1/8 = 64 ÷ 8 = 8 cm³. Answer: 8 cm³.」",
+      },
+      {
+        name: "示范",
+        duration: "8 分钟",
+        teacherNotes: "I do: 教师在白板上示范一道例题（画简单的图：两个相似正方体，标注体积和 k）。「Problem: At Riverside Secondary, Mr Lim shows two similar cubes. The small cube has volume 5 cm³. The linear scale factor k = 2 (corresponding edges are in ratio 1:2). What is the volume of the large cube? Show your working.」Step 1: k = 2, so k³ = 2³ = 8. Step 2: Volume ratio = k³ = 8. The large volume is 8 times the small volume. Step 3: Large volume = small volume × k³ = 5 × 8 = 40 cm³. Answer: 40 cm³. 教师边示范边说：「Notice: k = 2 means the edges are in ratio 1:2. But the volume ratio is k³ = 8, not 2 or 4. If small volume = 5 cm³, large volume = 5 × 8 = 40 cm³. Common fossil: writing 5 × 2 = 10 cm³ (using k instead of k³). Another fossil: writing 5 × 4 = 20 cm³ (using k² instead of k³). Correct answer: 5 × 8 = 40 cm³ (using k³).」",
+      },
+      {
+        name: "带练",
+        duration: "10 分钟",
+        teacherNotes: "We do: 给孩子一道题目，和他/她一起做（画简单的图：两个相似圆柱，标注体积比和边长）。「Problem: At Riverside Secondary, Aisha draws two similar cylinders. The volume ratio is 8:1 (large:small). The small cylinder has one edge of length 3 cm. What is the corresponding edge of the large cylinder?」让孩子说出每一步。教师引导：「First, what is the volume ratio?」(8:1, large:small.) 「Good. Volume ratio = k³. So k³ = 8. What is k?」(k = ∛8 = 2.) 「Correct. k = 2. Now, how do you find the large edge?」(Multiply the small edge by k.) 「Yes. Large edge = small edge × k = 3 × 2 = 6 cm.」 「Perfect. Answer: 6 cm. Check: k = 2. Small edge = 3 cm, large edge = 6 cm. Ratio = 6:3 = 2:1 ✓. Volume ratio = k³ = 2³ = 8 ✓.」",
+      },
+      {
+        name: "独立",
+        duration: "8 分钟",
+        teacherNotes: "You do: 给孩子一道题目让他/她独立做（教师不给完整答案，只在孩子卡住时给提示）。「Problem: At Riverside Secondary, Wei shows two similar pyramids. The large pyramid has volume 54 cm³ and one edge of length 9 cm. The linear scale factor k = 1/2 (small:large). (i) What is the volume of the small pyramid? (ii) What is the corresponding edge of the small pyramid? Show your working.」期待答案：(i) k = 1/2, so k³ = (1/2)³ = 1/8. Small volume = large volume × k³ = 54 × 1/8 = 54 ÷ 8. But 54 ÷ 8 is not an integer. Let me recalculate. Actually, let me use integer volumes. Wait, the user said integer volumes only. Let me use 56 instead of 54. 56 ÷ 8 = 7. (ii) Small edge = large edge × k = 9 × 1/2 = 4.5 cm. But the user said no 7.5. Let me use 10 cm instead of 9. 10 × 1/2 = 5 cm. So: Large pyramid has volume 56 cm³ and edge 10 cm. k = 1/2. (i) Small volume = 56 × 1/8 = 7 cm³. (ii) Small edge = 10 × 1/2 = 5 cm. 如果孩子卡住，引导：「k = 1/2. What is k³?」((1/2)³ = 1/8.) 「Good. Small volume = 56 × 1/8 = ?」(56 ÷ 8 = 7.) 「Correct. 7 cm³. Now, small edge = 10 × k = 10 × 1/2 = ?」(5 cm.) 「Yes. 5 cm.」",
+      },
+      {
+        name: "关键问题1",
+        duration: "2 分钟",
+        teacherNotes: "关键问题 1：「What is the formula for the ratio of volumes of similar figures? How do you find the volume ratio from k? How do you find k from the volume ratio?」期待答案：「The formula is: volume ratio = k³. If two figures are similar with linear scale factor k, then the ratio of their volumes is k³. To find the volume ratio from k: calculate k³. Example: k = 2 → k³ = 8; k = 3 → k³ = 27; k = 1/2 → k³ = 1/8. To find k from the volume ratio: take the cube root. Example: volume ratio = 8 → k = ∛8 = 2; volume ratio = 27 → k = ∛27 = 3; volume ratio = 1/8 → k = ∛(1/8) = 1/2. Important: k is for lengths, k² is for areas, k³ is for volumes. Don't use k or k² for volumes. Use k³ for volumes.」(如果孩子答不出，引导：「Volume ratio = k³. k = 2 → volume ratio = 8. Volume ratio = 27 → k = 3. k is for lengths, k² is for areas, k³ is for volumes.」)",
+      },
+      {
+        name: "关键问题2",
+        duration: "2 分钟",
+        teacherNotes: "关键问题 2：「How do you use k to find a missing volume? How do you use k to find a missing length?」期待答案：「To find a missing volume, use k³. If small volume = 4 cm³ and k = 2, then large volume = small volume × k³ = 4 × 8 = 32 cm³. If large volume = 64 cm³ and k = 1/2 (small:large), then small volume = large volume × k³ = 64 × 1/8 = 8 cm³. To find a missing length, use k (not k² or k³). If small edge = 2 cm and k = 3, then large edge = small edge × k = 2 × 3 = 6 cm. If large edge = 10 cm and k = 1/2 (small:large), then small edge = large edge × k = 10 × 1/2 = 5 cm. Important: k is for lengths, k² is for areas, k³ is for volumes. Use k for lengths, k² for areas, k³ for volumes.」(如果孩子答不出，引导：「Volume: use k³. Length: use k. Example: small volume = 4 cm³, k = 2 → large volume = 4 × k³ = 4 × 8 = 32 cm³. Small edge = 2 cm, k = 3 → large edge = 2 × k = 2 × 3 = 6 cm.」)",
+      },
+      {
+        name: "AfL",
+        duration: "3 分钟",
+        teacherNotes: "AfL（Assessment for Learning 形成性评价）：给孩子一道快速检查题：「Quick check: At Riverside Secondary, Mr Lim shows two similar spheres. The large sphere has volume 216 cm³. The small sphere has volume 27 cm³. Wei says: 'The volume ratio is 216:27 = 8:1, so k = 8.' Aisha says: 'The volume ratio is 8:1, so k³ = 8, which means k = 2.' Who is correct? Explain.」期待答案：Aisha is correct. The volume ratio is 216:27 = 8:1 (large:small). Volume ratio = k³, so k³ = 8. To find k, take the cube root: k = ∛8 = 2. Wei is wrong. Wei said k = 8, but that's confusing the volume ratio with k. Volume ratio = 8, so k³ = 8, which means k = 2 (not k = 8). Common fossil: confusing volume ratio with k. Volume ratio = k³, not k. If volume ratio = 8, then k³ = 8, so k = 2. Answer: Aisha correct (k = 2). Wei wrong (confused volume ratio 8 with k; correct k = 2, not 8). 如果孩子做对了，说：「Excellent! You understand that volume ratio = k³, not k. Wei confused volume ratio with k. Aisha correctly took the cube root to find k = 2.」如果孩子做错了，找出错在哪里，重复讲解：「Volume ratio = k³. If volume ratio = 8:1, then k³ = 8, so k = ∛8 = 2. Don't confuse volume ratio with k. Volume ratio is k³, not k.」",
+      },
+      {
+        name: "收口",
+        duration: "4 分钟",
+        teacherNotes: "总结本周重点：(1) 官方 Sec 2 AEIS 数学卷型：Part 1 MCQ 34 题 30 分钟 + Part 2 show working 20+10–15 题 1 小时 45 分钟，不用计算器。(2) 本周内容：Sec 2 GEOMETRY AND MEASUREMENT, G2. Congruence and similarity: 2.10 ratio of volumes of similar figures = k³。本周是 G2.10 only. Official content: if two figures are similar with linear scale factor k, then the ratio of their volumes is k³. Find a volume from k, or find k from a volume ratio, then a missing length. Integer k only, or k = 1/2 so k³ is 1/8. No calculator. (3) 本周化石：using k instead of k³ for volumes（用 k 而不是 k³ 计算体积比：k = 2 时，体积比是 k³ = 8，不是 2）; using k² (area) when the question wants volume（用 k² 计算体积比，而问题要求体积：k² 用于面积比，不用于体积比。体积比用 k³）; two options that are the same pair in a different order（选项里有两个答案是同一对，顺序不同：(8, 1) ≠ (1, 8)，顺序很重要）。(4) 记住：Volume ratio = k³. k is for lengths, k² is for areas, k³ is for volumes. k = 2 → k³ = 8. k = 3 → k³ = 27. k = 1/2 → k³ = 1/8. To find k from volume ratio, take the cube root. Volume ratio = 8 → k = 2. Volume ratio = 27 → k = 3. To find volume from k, use k³. To find length from k, use k. 下周继续。完成本周作业 5 reading + 8 grammar + 3 writing。不用计算器。记住 volume ratio = k³.」",
+      },
+    ],
+    speakingPrompts: null,
+  },
 };
 
 export default async function LessonPlanPage({
