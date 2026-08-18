@@ -13896,6 +13896,99 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
         },
       ],
     },
+    {
+      level: "SMATH",
+      weekNumber: 75,
+      title: "全等图形 — Congruent figures",
+      description: "Sec 2 G2.1: congruent figures (AEIS 中学数学第 75 周 / SMATH Week 75)",
+      isSample: false,
+      errorFocus: "same figure rotated/reflected offered as not congruent; same shape different size offered as congruent (that is similar, not congruent); two options that are the same pair of figures in different order; same area so congruent",
+      parentBrief: "本周练全等图形。全等 = 同形同大小（旋转或翻转仍全等）。同形不同大小不是全等（下周学相似）。盯住：旋转/翻转后的图形仍全等；面积相等不一定全等。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "At Riverside Secondary, Mr Lim shows two triangles on the whiteboard. Triangle ABC has sides 5 cm, 7 cm, and 9 cm. Triangle PQR has sides 5 cm, 7 cm, and 9 cm. Wei asks: 「Are they congruent?」 Which is correct?|A. Yes, they are congruent. Same shape and same size. ✓|B. No, they are not congruent because one is rotated.|C. No, they are not congruent. We need to check angles too.|D. We cannot tell without more information.",
+            "Aisha at Riverside Secondary sees two rectangles. Rectangle A is 6 cm by 4 cm. Rectangle B is 6 cm by 4 cm but rotated 90°. Mr Lim asks: 「Are these rectangles congruent?」 Which is correct?|A. Yes, they are congruent. Same shape and same size (rotation does not change congruence). ✓|B. No, they are not congruent because one is rotated.|C. No, they are not congruent because the orientations are different.|D. We cannot tell without measuring the diagonals.",
+            "At Riverside Secondary, Mr Lim draws two squares. Square A has side 8 cm. Square B has side 10 cm. Wei asks: 「Are they congruent?」 Which is correct?|A. Yes, they are congruent because both are squares.|B. Yes, they are congruent because they have the same shape.|C. No, they are not congruent. Same shape but different size (8 cm ≠ 10 cm). ✓|D. We cannot tell without measuring the angles.",
+            "Aisha at Riverside Secondary sees two triangles. Triangle ABC has sides 6 cm, 8 cm, 10 cm. Triangle DEF is a reflection (mirror image) of Triangle ABC with sides 6 cm, 8 cm, 10 cm. Mr Lim asks: 「Are they congruent?」 Which is correct?|A. Yes, they are congruent. Reflection does not change size or shape. ✓|B. No, they are not congruent because one is a mirror image.|C. No, they are not congruent because one is flipped.|D. We cannot tell without measuring the angles.",
+            "At Riverside Secondary, Mr Lim shows two parallelograms. Both have base 12 cm and height 5 cm. Wei says: 「They have the same area (12 × 5 = 60 cm²), so they are congruent.」 Is this correct?|A. No, same area does not mean congruent. Congruent figures must have the same shape and same size, not just same area. ✓|B. Yes, same area means they are congruent.|C. Yes, because both are parallelograms with the same base and height.|D. We need to measure all sides to be sure.",
+          ]),
+          correctAnswer: "A,A,C,A,A",
+          points: 10,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "At Riverside Secondary, Mr Lim draws two circles. Circle P has radius 7 cm. Circle Q has radius 7 cm. Wei asks: 「Are they congruent?」 Which is correct?|A. Yes, they are congruent. Both circles have the same radius (7 cm). ✓|B. No, they are not congruent unless they are in the same position.|C. No, we need to check if they have the same centre.|D. We cannot tell without measuring the circumference.",
+            "Aisha at Riverside Secondary sees two triangles. Triangle ABC has sides 9 cm, 12 cm, 15 cm. Triangle XYZ has sides 18 cm, 24 cm, 30 cm. Mr Lim asks: 「Are they congruent?」 Which is correct?|A. Yes, they are congruent because the sides are proportional.|B. Yes, they are congruent because both are right triangles.|C. No, they are not congruent. Same shape but different size (XYZ sides are twice ABC sides). ✓|D. We cannot tell without measuring the angles.",
+            "At Riverside Secondary, Mr Lim shows two equilateral triangles. Triangle A has side 8 cm. Triangle B has side 8 cm but is rotated 60°. Wei says: 「They are congruent.」 Is this correct?|A. Yes, they are congruent. Same shape and same size (rotation does not change congruence). ✓|B. No, they are not congruent because one is rotated.|C. No, we need to check the angles.|D. We cannot tell without measuring all sides.",
+            "Aisha at Riverside Secondary sees two rectangles. Rectangle A is 10 cm by 5 cm. Rectangle B is 20 cm by 10 cm. Mr Lim asks: 「Are they congruent?」 Which is correct?|A. Yes, they are congruent because both are rectangles.|B. Yes, they are congruent because the sides are proportional (20:10 = 10:5 = 2).|C. No, they are not congruent. Same shape but different size. ✓|D. We cannot tell without measuring the diagonals.",
+            "At Riverside Secondary, Mr Lim draws two isosceles triangles. Triangle PQR has sides 7 cm, 7 cm, 10 cm. Triangle STU is a reflection of Triangle PQR with sides 7 cm, 7 cm, 10 cm. Wei asks: 「Are they congruent?」 Which is correct?|A. Yes, they are congruent. Reflection (mirror image) does not change size or shape. ✓|B. No, they are not congruent because one is reflected.|C. No, they are not congruent unless they have the same orientation.|D. We cannot tell without measuring the angles.",
+            "Aisha at Riverside Secondary sees two quadrilaterals. Quadrilateral ABCD has sides 5 cm, 6 cm, 7 cm, 8 cm. Quadrilateral PQRS has sides 5 cm, 6 cm, 7 cm, 8 cm but in a different order (8 cm, 7 cm, 6 cm, 5 cm going clockwise). Mr Lim asks: 「Are they congruent?」 Which is correct?|A. Yes, they are congruent because they have the same side lengths.|B. No, they might not be congruent. Same side lengths does not guarantee congruence unless we know they match in order and the angles match. ✓|C. Yes, they are congruent because both are quadrilaterals.|D. We cannot tell without measuring the angles.",
+            "At Riverside Secondary, Mr Lim shows two trapeziums. Trapezium A has parallel sides 6 cm and 10 cm, and height 4 cm. Trapezium B has parallel sides 6 cm and 10 cm, and height 4 cm. Wei says: 「They have the same area, so they are congruent.」 Is this correct?|A. No, same area does not mean congruent. We need all corresponding sides and angles to match. ✓|B. Yes, same area means they are congruent.|C. Yes, because both are trapeziums with the same parallel sides and height.|D. We need to measure the non-parallel sides to be sure.",
+            "Aisha at Riverside Secondary sees two right triangles. Triangle ABC has legs 6 cm and 8 cm. Triangle DEF has legs 6 cm and 8 cm but is rotated 180°. Mr Lim asks: 「Are they congruent?」 Which is correct?|A. Yes, they are congruent. Rotation does not change size or shape. ✓|B. No, they are not congruent because one is upside down.|C. No, they are not congruent because one is rotated 180°.|D. We cannot tell without measuring the hypotenuse.",
+          ]),
+          correctAnswer: "A,C,A,C,A,B,A,A",
+          points: 16,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `Part 2: Show Your Working (写出算式步骤)
+
+Riverside Secondary School has geometry questions about congruent figures. Answer the questions below. Show your working.
+
+Question (a)
+At Riverside Secondary, Mr Lim draws two circles:
+• Circle P: radius 16 cm
+• Circle Q: radius 16 cm (but rotated 90° on the board)
+Wei says: 「Circle P and Circle Q are not congruent because Circle Q is rotated.」
+Aisha says: 「They are congruent because they have the same shape and same size.」
+(i) Who is correct, Wei or Aisha? Explain your answer with the definition of congruent figures.
+(ii) Give the definition of congruent figures: what must be true for two figures to be congruent?
+
+Question (b)
+At Riverside Secondary, Mr Lim draws two regular hexagons:
+• Hexagon A: all sides 9 cm, all angles 120°
+• Hexagon B: all sides 12 cm, all angles 120°
+(i) Are these hexagons congruent? Explain your answer using the definition of congruent figures (same shape and same size).
+(ii) Wei says: 「Both hexagons have all angles 120°, so they are congruent.」 Is this correct? Explain why having equal angles alone is not enough to conclude two figures are congruent. What else must be equal?
+
+Question (c)
+At Riverside Secondary, Mr Lim shows two rectangles:
+• Rectangle A: 14 cm by 8 cm
+• Rectangle B: 14 cm by 8 cm (but reflected across a vertical line, making it a mirror image)
+Wei asks: 「Are these rectangles congruent?」
+(i) Are they congruent? Explain your answer with the definition of congruent figures.
+(ii) Mr Lim says: 「Reflection (mirror image) and rotation do not change whether two figures are congruent.」 Explain why this is true using the concept of same shape and same size.
+(iii) Give an example of a transformation (change) that WOULD make two figures not congruent. Explain your example.
+
+写作提示 / Tips:
+✓ 每题分步骤写出推理 (Show working steps for each question)
+✓ Part 2 官方要求：clearly show the method of solution by writing working steps, plus the final answer
+✓ 不用计算器 (No calculators allowed)
+✓ 本周教 Sec 2 GEOMETRY AND MEASUREMENT, G2. Congruence and similarity: 2.1 congruent figures. 本周是 G2.1 only. Congruent figures: (1) two figures are congruent if they have the same shape and the same size (同形同大小)；(2) a rotation (旋转) or reflection (翻转/镜像) of a figure is still congruent to the original figure (旋转或翻转后的图形仍全等)；(3) same shape but different size is NOT congruent, that is similar (next week) (同形不同大小不是全等，那是相似，下周学)；(4) same area does not mean congruent (面积相等不一定全等)；(5) for two figures to be congruent, all corresponding sides must be equal and all corresponding angles must be equal (两个图形全等，所有对应边相等，所有对应角相等). Fossil: same figure rotated/reflected offered as not congruent (wrong); same shape different size offered as congruent (wrong, that is similar); two options that are the same pair of figures in different order; same area so congruent (wrong, same area is not enough). Cast: secondary Wei, Aisha, Mr Lim at Riverside Secondary School. No calculator. Integer lengths and angles only.
+✓ 关键步骤：Step 1: Read the question carefully and identify the two figures being compared (仔细读题，识别要比较的两个图形). Step 2: Check if they have the same shape (same type of figure: triangle, rectangle, circle, etc.) (检查是否同形：同类型的图形). Step 3: Check if they have the same size (all corresponding sides equal, all corresponding angles equal) (检查是否同大小：所有对应边相等，所有对应角相等). Step 4: Remember: rotation (旋转) and reflection (翻转/镜像) do NOT change congruence (记住：旋转和翻转不改变全等). Step 5: Remember: same shape but different size is NOT congruent, that is similar (next week) (记住：同形不同大小不是全等，那是相似，下周学). Step 6: Write your conclusion clearly: the figures are congruent (or not congruent) because... (清楚写出结论：这两个图形全等（或不全等）因为...).
+✓ 化石 (fossil errors):
+  • Same figure rotated/reflected offered as not congruent (wrong: rotation and reflection do not change congruence) (旋转或翻转后的图形作为「不全等」选项，错误：旋转和翻转不改变全等)
+  • Same shape different size offered as congruent (wrong: that is similar, not congruent; congruent requires same shape AND same size) (同形不同大小作为「全等」选项，错误：那是相似，不是全等；全等要求同形同大小)
+  • Two options that are the same pair of figures in different order (same pair, different order, as two correct answers) (同一对图形，不同顺序，作为两个正确选项)
+  • Same area so congruent (wrong: same area is not enough; we need all corresponding sides and angles to match) (面积相等就全等，错误：面积相等不够，需要所有对应边和对应角都相等)
+  • Copying 微课 example numbers in writing (写作题照抄微课例题的数字。微课用 5 cm, 7 cm, 9 cm; 6 cm × 4 cm; 8 cm vs 10 cm。写作题必须用不同的数字。)
+✓ 本周不教 G2.2 similar figures (相似图形，下周)；不教 G2.3 similar-triangle properties；不教 G2.4 enlargement；不教 G2.5 problems；不教 G2.8 SSS/SAS/ASA tests. 本周只教 G2.1 congruent figures.
+
+Note: This is a sample of Part 2 short-answer/open-ended questions. The official paper has 20 short-answer + 10–15 open-ended items in 1 hour 45 minutes.`,
+          points: 20,
+        },
+      ],
+    },
   ];
 
 

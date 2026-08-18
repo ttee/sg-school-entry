@@ -144,6 +144,7 @@ import DualValidationMapSmathWeek71 from "./DualValidationMapSmathWeek71";
 import DualValidationMapSmathWeek72 from "./DualValidationMapSmathWeek72";
 import DualValidationMapSmathWeek73 from "./DualValidationMapSmathWeek73";
 import DualValidationMapSmathWeek74 from "./DualValidationMapSmathWeek74";
+import DualValidationMapSmathWeek75 from "./DualValidationMapSmathWeek75";
 import OfficialClip from "./OfficialClip";
 import WeikeMiniLesson from "./WeikeMiniLesson";
 import BoardWeike from "./BoardWeike";
@@ -922,9 +923,10 @@ export default function WeekHomework({
       {week.level === "SMATH" && week.weekNumber === 72 && <DualValidationMapSmathWeek72 />}
       {week.level === "SMATH" && week.weekNumber === 73 && <DualValidationMapSmathWeek73 />}
       {week.level === "SMATH" && week.weekNumber === 74 && <DualValidationMapSmathWeek74 />}
+      {week.level === "SMATH" && week.weekNumber === 75 && <DualValidationMapSmathWeek75 />}
       
       {/* SMATH Diagrams */}
-      {week.level === "SMATH" && (week.weekNumber === 44 || week.weekNumber === 70 || week.weekNumber === 71 || week.weekNumber === 72) && (
+      {week.level === "SMATH" && (week.weekNumber === 44 || week.weekNumber === 70 || week.weekNumber === 71 || week.weekNumber === 72 || week.weekNumber === 75) && (
         <SmathFigure weekNumber={week.weekNumber} />
       )}
       
