@@ -6,16 +6,20 @@ type ParentCardProps = {
   focus: string;
   completed: string[];
   mastery: string;
+  isMathTrack: boolean;
 };
 
 export default function ParentCard({
   focus,
   completed,
   mastery,
+  isMathTrack,
 }: ParentCardProps) {
   const [copied, setCopied] = useState(false);
 
-  const allActivities = ["阅读", "语法", "写作", "听读", "口语"];
+  const allActivities = isMathTrack
+    ? ["阅读", "语法", "写作"]
+    : ["阅读", "语法", "写作", "听读", "口语"];
 
   const getActivityStatus = (activity: string) => {
     return completed.includes(activity) ? "✓" : "△";

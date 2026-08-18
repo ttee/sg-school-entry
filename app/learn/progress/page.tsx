@@ -24,6 +24,7 @@ type Week = {
     answers: string;
     score: number | null;
     completedAt: Date | null;
+    createdAt: Date;
   }[];
   questions: Question[];
 };
@@ -143,19 +144,26 @@ export default async function ProgressPage() {
     },
   });
 
-  const latestWeek = weeks.length > 0 ? weeks[weeks.length - 1] : null;
-  const shouldShowParentCard =
-    !isAdmin &&
-    latestWeek &&
-    latestWeek.submissions.length > 0 &&
-    (latestWeek.submissions[0].completedAt || latestWeek.submissions[0].answers);
+  const weeksWithSubmissions = weeks
+    .filter((w) => w.submissions.length > 0)
+    .sort((a, b) => {
+      const aTime = a.submissions[0].completedAt?.getTime() || a.submissions[0].createdAt?.getTime() || 0;
+      const bTime = b.submissions[0].completedAt?.getTime() || b.submissions[0].createdAt?.getTime() || 0;
+      return bTime - aTime;
+    });
+
+  const latestWeek = weeksWithSubmissions.length > 0 ? weeksWithSubmissions[0] : null;
+  const shouldShowParentCard = !isAdmin && latestWeek;
 
   let parentCardData = null;
   if (shouldShowParentCard && latestWeek) {
     const submission = latestWeek.submissions[0];
     const answers = submission.answers ? JSON.parse(submission.answers) : {};
-    const focus = latestWeek.errorFocus || 
-      (latestWeek.parentBrief ? latestWeek.parentBrief.substring(0, 12) : latestWeek.title.substring(0, 12));
+    
+    const focusText = latestWeek.parentBrief || latestWeek.title;
+    const focus = focusText.length > 20 ? focusText.substring(0, 20) : focusText.substring(0, Math.max(12, focusText.length));
+    
+    const isMathTrack = latestWeek.level === "MATH" || latestWeek.level === "SMATH";
     const completed = getCompletedActivities(answers, latestWeek.questions);
     const mastery = getMasteryLevel(
       answers,
@@ -167,6 +175,7 @@ export default async function ProgressPage() {
       focus,
       completed,
       mastery,
+      isMathTrack,
     };
   }
 
@@ -189,6 +198,7 @@ export default async function ProgressPage() {
             focus={parentCardData.focus}
             completed={parentCardData.completed}
             mastery={parentCardData.mastery}
+            isMathTrack={parentCardData.isMathTrack}
           />
         </div>
       )}
