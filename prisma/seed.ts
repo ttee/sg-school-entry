@@ -14419,26 +14419,26 @@ Riverside Secondary School has scale drawing questions. Answer the questions bel
 
 Question (a)
 At Riverside Secondary, Mr Lim shows a classroom plan. Scale 1:100. The plan shows:
-• A whiteboard: 10 cm long on the plan
-• A doorway: 2 cm wide on the plan
+• A whiteboard: 7 cm long on the plan
+• A doorway: 1 cm wide on the plan
 (i) Calculate the actual length of the whiteboard in metres. Show your working: drawing × scale = actual.
 (ii) Calculate the actual width of the doorway in metres. Show your working.
-(iii) Wei says: 「The doorway on the plan is 2 cm, so the actual doorway is also 2 cm.」 Explain why Wei is wrong. What is the actual width?
+(iii) Wei says: 「The doorway on the plan is 1 cm, so the actual doorway is also 1 cm.」 Explain why Wei is wrong. What is the actual width?
 
 Question (b)
 At Riverside Secondary, Aisha has a garden plan. Scale 1 cm : 4 m. The plan shows:
-• A path: 9 cm long on the plan
+• A path: 11 cm long on the plan
 • The path has a corner with a 90° angle on the plan
-(i) Calculate the actual length of the path in metres. Show your working: 1 cm on plan = 4 m actual, so 9 cm = ?
+(i) Calculate the actual length of the path in metres. Show your working: 1 cm on plan = 4 m actual, so 11 cm = ?
 (ii) Wei says: 「Because the scale is 1 cm : 4 m, the actual angle at the corner is 90° × 4 = 360°.」 Is Wei correct? Explain why scale applies to lengths only, not angles. What is the actual angle at the corner?
 
 Question (c)
 At Riverside Secondary, Mr Lim shows a building plan. Scale 1:50.
-• The actual length of a corridor is 400 cm
+• The actual length of a corridor is 650 cm
 • A wall has a 90° corner
 (i) Calculate the length of the corridor on the plan in cm. Show your working: drawing = actual ÷ scale factor.
 (ii) What is the angle of the corner on the plan? Explain your answer: do angles change on a scale drawing?
-(iii) Aisha sees another room. The room is 3 cm long on the plan. Calculate the actual length of the room in cm and in metres. Show your working.
+(iii) Aisha sees another room. The room is 18 cm long on the plan. Calculate the actual length of the room in cm and in metres. Show your working.
 
 写作提示 / Tips:
 ✓ 每题分步骤写出推理 (Show working steps for each question)
@@ -14451,7 +14451,7 @@ At Riverside Secondary, Mr Lim shows a building plan. Scale 1:50.
   • Inverting the scale (treating 1:200 as 200:1)（颠倒比例尺，把 1:200 当 200:1。错误：图上 4 cm → actual 4 ÷ 200 = 0.02 cm。正确：actual = drawing × 200 = 4 × 200 = 800 cm = 8 m）
   • Applying the scale to an angle (把比例尺用在角度上：90° × 50 = 4500°。错误：角度不缩放。正确：90° on plan → 90° actual）
   • Two options that are the same pair in a different order (两个选项是同一对不同顺序：drawing:actual = 1:100 和 actual:drawing = 100:1。错误：读清方向，哪个是图上，哪个是实际）
-  • Writing copies 微课 example numbers (Writing Q uses 10 cm whiteboard with actual 10 m, 2 cm door with actual 2 m, 9 cm path with actual 36 m scale 1 cm:4 m, 400 cm corridor with 8 cm drawing scale 1:50, 3 cm room with actual 150 cm = 1.5 m. NOT the same as 微课: 8 cm → 8 m scale 1:100, 5 cm → 10 m scale 1 cm:2 m, 6 cm → 3 m scale 1:50.)
+  • Writing copies 微课 example numbers (Writing Q uses 7 cm whiteboard with actual 7 m, 1 cm door with actual 1 m, 11 cm path with actual 44 m scale 1 cm:4 m, 650 cm corridor with 13 cm drawing scale 1:50, 18 cm room with actual 900 cm = 9 m. NOT the same as 微课: 8 cm → 8 m scale 1:100, 5 cm → 10 m scale 1 cm:2 m, 6 cm → 3 m scale 1:50.)
 ✓ 本周只教 G2.6 scale drawings。本周不教 G2.7 perpendicular and angle bisectors（不教垂直平分线和角平分线）；不教 G2.8 determining congruent/similar triangles as a listed item（不作为列项教判断全等/相似三角形的 SSS/SAS/ASA/AAA）；不教 G2.9 ratio of areas = k²（不教面积比等于 k²）；不教 G2.10 ratio of volumes = k³（不教体积比等于 k³）；不教 G4 Pythagoras/trigonometry（不教勾股定理/三角函数）；不教 G5 solids（不教立体图形）. 本周只教 G2.6: scale drawings (scale 1:n or 1 cm:2 m, find actual from drawing, find drawing from actual, angles do not change).
 
 Note: This is a sample of Part 2 short-answer/open-ended questions. The official paper has 20 short-answer + 10–15 open-ended items in 1 hour 45 minutes.`,
