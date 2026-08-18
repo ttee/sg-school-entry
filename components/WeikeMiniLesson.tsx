@@ -976,6 +976,14 @@ export default function WeikeMiniLesson({ level, weekNumber }: WeikeMiniLessonPr
       ],
       gloss: "AEIS 中学数学第 84 周 / SMATH Week 84. 本周例题：Sec 2 G2.10 ratio of volumes of similar figures = k³（相似图形的体积比等于 k³）。"
     },
+    "SMATH-85": {
+      examples: [
+        "Legs 9 cm and 12 cm → hypotenuse 15 cm. Using a² + b² = c²: 9² + 12² = 81 + 144 = 225 = 15²",
+        "Legs 8 cm and 15 cm → hypotenuse 17 cm. Using a² + b² = c²: 8² + 15² = 64 + 225 = 289 = 17²",
+        "Hypotenuse 26 cm, one leg 10 cm → other leg 24 cm. Using a² + b² = c²: 10² + 24² = 100 + 576 = 676 = 26²"
+      ],
+      gloss: "AEIS 中学数学第 85 周 / SMATH Week 85. 本周例题：Sec 2 G4 Pythagoras' theorem only（毕达哥拉斯定理，勾股定理）。In a right-angled triangle, a² + b² = c² where c is the hypotenuse（直角三角形中，两条直角边的平方和等于斜边的平方）。"
+    },
     "SEC-0": {
       fossil: "Although I was nervous, but I tried. ✗ (中文「虽然…但是…」迁移) / I go yesterday ✗ (叙事体过去时掉落)",
       examples: [
