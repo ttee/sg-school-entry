@@ -126,7 +126,7 @@ export default function HomePage() {
               帮中国家庭走通新加坡政府学校路径
             </h1>
             <p className="text-lg text-ink-2 mb-3 max-w-2xl">
-              小学先 CEQ 英语门槛再考数学，中学考英语+数学。每周作业对准真题格式。
+              小学先 CEQ 英语门槛再考数学，中学考英语+数学。每周一个错误，作业对准这条升学路径。
             </p>
             <p className="text-base text-ink-2 mb-6 max-w-2xl">
               每周作业 app + 家长微信跟进。家长订阅，孩子登录做题。
@@ -274,7 +274,7 @@ export default function HomePage() {
               会员与课程
             </h2>
             <p className="text-ink-2 mb-6 max-w-2xl">
-              家长订阅，孩子登录。每周作业 app + 家长微信跟进。先走 CEQ 英语门槛，再进 AEIS 数学赛道。
+              家长订阅，孩子登录。每周作业 app + 家长微信跟进。先走 CEQ 英语门槛，再进 AEIS 数学与英语赛道。
             </p>
 
             <div className="grid md:grid-cols-3 gap-5 mb-8">
