@@ -13822,7 +13822,7 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
           order: 1,
           content: "Choose the correct answer:",
           options: JSON.stringify([
-            "At Riverside Secondary, Mr Lim writes: 「Wei has 5 apples and Aisha has 3 apples. Together they have 8 apples. Let x be Wei's apples and y be Aisha's apples. We can write: x = 5 and y = 3, or x + y = 8.」 Aisha asks: 「Which pair of equations describes the problem completely?」 Which is correct?|A. The pair is x = 5 and y = 3. We know both values directly. ✓|B. The pair is x + y = 8 only. We don't need two equations.|C. The pair is x = 5 and x + y = 8. We know x but not y.|D. We need three equations: x = 5, y = 3, and x + y = 8.",
+            "At Riverside Secondary, Mr Lim writes: 「Wei has x marbles and Aisha has y marbles. Together they have 24 marbles. Wei has 8 more marbles than Aisha.」 Aisha asks: 「What pair of equations represents this?」 Which is correct?|A. The pair is x + y = 24 and x = y + 8. Two conditions: together 24, Wei has 8 more. ✓|B. The pair is x + y = 24 and y = x + 8. (Wrong: Wei has more, not Aisha.)|C. The pair is x + y = 24 only. We need both conditions.|D. The pair is x + y = 24 and 2x + 2y = 48. (Wrong: second is double the first, dependent.)",
             "Aisha at Riverside Secondary reads: 「Wei has x pencils and Aisha has y pencils. Together they have 12 pencils. Wei has 3 more pencils than Aisha.」 Mr Lim asks: 「What pair of equations represents this?」 Which is correct?|A. The pair is x + y = 12 and x = y + 3. These two conditions give us the pair. ✓|B. The pair is x + y = 12 only. We can solve with one equation.|C. The pair is x = y + 3 only. This tells us everything.|D. The pair is x + y = 12 and y = x + 3. (Wrong: Wei has more, not Aisha.)",
             "At Riverside Secondary, Mr Lim writes: 「Two numbers x and y have a sum of 15. The first number is twice the second number.」 Wei says: 「The pair is x + y = 15 and x = 2y.」 Is this correct?|A. Yes, the pair is x + y = 15 and x = 2y. ✓|B. No, the pair is x + y = 15 and y = 2x.|C. No, the pair is x + y = 15 only.|D. No, the pair is x = 2y only.",
             "Aisha at Riverside Secondary reads: 「At the school canteen, 3 pens and 2 erasers cost $11. 1 pen costs $3.」 Mr Lim asks: 「Let x be the price of one pen and y be the price of one eraser. What pair of equations do we write?」 Which is correct?|A. The pair is 3x + 2y = 11 and x = 3. These describe the two conditions. ✓|B. The pair is 3x + 2y = 11 only. We can solve with one equation.|C. The pair is x = 3 only. This tells us everything.|D. The pair is 3x + 2y = 11 and 3x = 11. (Wrong: 3x ≠ 11.)",
@@ -13856,7 +13856,7 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
 Riverside Secondary School has word problems requiring pairs of linear equations. Answer the questions below. Show your working.
 
 Question (a)
-At Riverside Secondary, Wei and Aisha collect stamps. Wei has x stamps and Aisha has y stamps. Together they have 35 stamps. Wei has 7 more stamps than Aisha.
+At Riverside Secondary, Wei and Aisha collect trading cards. Wei has x cards and Aisha has y cards. Together they have 22 cards. Wei has 6 more cards than Aisha.
 (i) Write a pair of linear equations in x and y that represents this information. Show your working: define the variables, identify the two conditions, and write each condition as an equation.
 (ii) Solve the pair of equations by substitution or elimination to find x and y. Show your working step by step.
 (iii) Check your solution: substitute your values of x and y back into both equations to verify they satisfy both conditions.
@@ -13868,10 +13868,10 @@ At Riverside Secondary, Mr Lim buys stationery. 3 pens and 4 erasers cost $17. 2
 (iii) Check your solution: substitute your values of x and y back into both equations to verify the totals are correct.
 
 Question (c)
-At Riverside Secondary, a class has x boys and y girls. The total number of students is 40. There are twice as many boys as girls.
-(i) Write a pair of linear equations in x and y that represents this information. Show your working: identify the two conditions (total students, and the boys-girls relationship) and write each as an equation.
+At Riverside Secondary, a fruit basket has x apples and y oranges. The total number of fruits is 36. There are three times as many apples as oranges.
+(i) Write a pair of linear equations in x and y that represents this information. Show your working: identify the two conditions (total fruits, and the apples-oranges relationship) and write each as an equation.
 (ii) Solve the pair of equations by substitution or elimination to find x and y. Show your working step by step.
-(iii) Aisha says: 「I formed the equations x + y = 40 and 2x + 2y = 80. Can I use these to solve?」 Mr Lim says: 「No, the second equation is just the first equation multiplied by 2. It's not a new condition. You need x + y = 40 and x = 2y.」 Explain why 2x + 2y = 80 is not a valid second equation for this problem.
+(iii) Aisha says: 「I formed the equations x + y = 36 and 2x + 2y = 72. Can I use these to solve?」 Mr Lim says: 「No, the second equation is just the first equation multiplied by 2. It's not a new condition. You need x + y = 36 and x = 3y.」 Explain why 2x + 2y = 72 is not a valid second equation for this problem.
 
 写作提示 / Tips:
 ✓ 每题分步骤写出推理 (Show working steps for each question)
@@ -13888,7 +13888,7 @@ At Riverside Secondary, a class has x boys and y girls. The total number of stud
   • x/y swapped vs the story (2x + y vs x + 2y)（x 和 y 的系数与题意相反。例如：题干说「Wei 的铅笔是 Aisha 的 2 倍」，正确是 x = 2y；如果写成 y = 2x 或者 2x + y 而应该是 x + 2y，就是错的。）
   • One correct equation plus a dependent second equation (sum/double) as if it were the pair（一个正确方程加上一个依赖方程（和或倍数）当作方程组。例如：x + y = 10 和 2x + 2y = 20 不是真的方程组，因为第二个方程只是第一个的 2 倍，没有给出新信息。）
   • Forming only one equation when the story needs two（只列一个方程，当题目需要两个。例如：题目给了两个条件，你只写了一个方程，漏掉了另一个。）
-  • Copying 微课 example numbers in writing（写作题照抄微课例题的数字。微课用 x + y = 8, x = y + 2; 2x + 3y = 11, x + y = 5; x + y = 15, x = 2y。写作题必须用不同的数字。）
+  • Copying 微课 example numbers in writing（写作题照抄微课例题的数字。微课用 x + y = 18, x = y + 4; 3x + 2y = 13, x + y = 5; x + y = 30, x = 2y。写作题必须用不同的数字。）
   • 本周教 Sec 2 NUMBER AND ALGEBRA, N7. Equations and inequalities: 7.10 formulating a pair of linear equations in two variables to solve problems（N7.10 从应用题列二元一次方程组）。本周是 N7.10 only. Formulating a pair of linear equations: (1) read the word problem carefully, identify the two unknown quantities, and define variables (let x = ... and y = ...) clearly; (2) translate each condition in the problem into a linear equation in x and y; (3) write the pair of equations together as a system; (4) the problem may then ask you to solve the system by substitution or elimination; (5) check your solution makes sense in the context of the problem; (6) integer coefficients and integer solutions only (friendly integers, no calculator). 本周重点：formulating the pair（列方程组），不是 re-teaching elimination methods（不是重新教解方程组的消元法；第 72 周已教 N7.8 solving）。Fossil: same pair in swapped order as two options; x/y swapped vs story; one equation plus a dependent equation; forming only one equation; copying 微课 numbers. Cast: secondary Wei, Aisha, Mr Lim at Riverside Secondary School.
 
 Note: This is a sample of Part 2 short-answer/open-ended questions. The official paper has 20 short-answer + 10–15 open-ended items in 1 hour 45 minutes.`,
