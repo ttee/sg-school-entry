@@ -14940,19 +14940,19 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
 Riverside Secondary School has geometry questions about trigonometric ratios of acute angles. Answer the questions below. Show your working clearly.
 
 Question (a)
-At Riverside Secondary, Mr Lim draws a right-angled triangle. Right angle at C. AC = 11 cm (adjacent to ∠A), BC = 60 cm (opposite to ∠A), AB = 61 cm (hypotenuse).
+At Riverside Secondary, Mr Lim draws a right-angled triangle. Right angle at C. AC = 48 cm (adjacent to ∠A), BC = 55 cm (opposite to ∠A), AB = 73 cm (hypotenuse).
 (i) Write the three trigonometric ratios: sin A = opposite / hypotenuse, cos A = adjacent / hypotenuse, tan A = opposite / adjacent.
-(ii) Calculate sin A, cos A, and tan A. Show your working: sin A = BC / AB = ?, cos A = AC / AB = ?, tan A = BC / AC = ?. Write your answers as fractions (do not simplify, leave as integer fractions like 60/61).
+(ii) Calculate sin A, cos A, and tan A. Show your working: sin A = BC / AB = ?, cos A = AC / AB = ?, tan A = BC / AC = ?. Write your answers as fractions (do not simplify, leave as integer fractions like 55/73).
 
 Question (b)
-At Riverside Secondary, Aisha draws a right-angled triangle. Right angle at C. AC = 36 cm, BC = 77 cm, AB = 85 cm.
-(i) Calculate sin A. Show your working: sin A = opposite / hypotenuse = BC / AB = ?. Write your answer as a fraction.
-(ii) Wei says: 「sin A = 36/85 because AC = 36 cm.」 Explain why Wei is wrong. What is the correct ratio? (Hint: sin uses opposite, not adjacent. AC is adjacent to ∠A, not opposite.)
+At Riverside Secondary, Aisha draws a right-angled triangle. Right angle at C. AC = 65 cm (adjacent to ∠A), BC = 72 cm (opposite to ∠A), AB = 97 cm (hypotenuse).
+(i) Calculate tan A. Show your working: tan A = opposite / adjacent = BC / AC = ?. Write your answer as a fraction.
+(ii) Mr Lim says: 「Given tan A = 72/65 and AC = 65 cm, what is BC?」 Show your working: tan A = BC / AC, so 72/65 = BC / 65. Multiply both sides by 65 to find BC.
 
 Question (c)
-At Riverside Secondary, Wei shows a right-angled triangle. Right angle at C. AC = 39 cm (adjacent to ∠A), BC = 80 cm (opposite to ∠A), AB = 89 cm.
-(i) Calculate tan A. Show your working: tan A = opposite / adjacent = BC / AC = ?. Write your answer as a fraction.
-(ii) Mr Lim says: 「Given tan A = 80/39 and AC = 39 cm, what is BC?」 Show your working: tan A = BC / AC, so 80/39 = BC / 39. Multiply both sides by 39 to find BC.
+At Riverside Secondary, Wei shows a right-angled triangle. Right angle at C. AC = 44 cm (adjacent to ∠A), BC = 117 cm (opposite to ∠A), AB = 125 cm (hypotenuse).
+(i) Calculate sin A and cos A. Show your working: sin A = opposite / hypotenuse = BC / AB = ?, cos A = adjacent / hypotenuse = AC / AB = ?. Write your answers as fractions.
+(ii) Aisha says: 「sin A = 44/125 because AC = 44 cm.」 Explain why Aisha is wrong. What is the correct ratio? (Hint: sin uses opposite, not adjacent. AC is adjacent to ∠A, not opposite. That would be cos A, not sin A.)
 
 写作提示 / Tips:
 ✓ 每题分步骤写出推理 (Show working steps for each question)
@@ -14975,7 +14975,7 @@ At Riverside Secondary, Wei shows a right-angled triangle. Right angle at C. AC 
   • Using tan when the question asks for sin (or vice versa)（错误：题目问 sin 但用 tan 的公式，或题目问 tan 但用 sin 的公式。例如题目问 sin A，但用 tan A = opposite / adjacent = 21/20。正确：sin A = opposite / hypotenuse = 21/29）
   • Two options that are the same fraction（两个选项是同一个分数：例如「3/5」和「6/10」是同一个分数，不要两个都写成选项。一个选项写 3/5 即可）
   • 本周教 G4. Pythagoras' theorem and trigonometry 的 trigonometric ratios of acute angles only。本周不求角度（do NOT find an angle in degrees，不用反三角函数）。本周不教 30-60-90 或 45-45-90 特殊三角形（不发明 √3 或 √2）。本周不教 3-D trig（不教三维空间三角函数）。本周不教 Pythagoras' theorem（三角形已是直角三角形，边已给定，不教毕达哥拉斯定理）。
-✓ Writing 数值不能抄 微课：微课用 20-21-29, 12-35-37, 33-56。Writing Q 用 11-60-61, 36-77-85, 39-80-89。不能抄本周 MCQ 的 3-4-5, 5-12-13, 8-15-17, 7-24-25, 9-40-41 等数值。也不能用 W85 writing 的 13-84-85, 28-45-53, 16-63-65 等数值。
+✓ Writing 数值不能抄 微课：微课用 20-21-29, 12-35-37, 33-56。Writing Q 用 48-55-73, 65-72-97, 44-117-125。不能抄本周 MCQ 的 3-4-5, 5-12-13, 8-15-17, 7-24-25, 9-40-41, 11-60-61, 36-77-85, 39-80-89 等数值（MCQ grammar Q6/Q7/Q8）。也不能用 W85 writing 的 13-84-85, 28-45-53, 16-63-65 等数值。
 
 Note: This is a sample of Part 2 short-answer/open-ended questions. The official paper has 20 short-answer + 10–15 open-ended items in 1 hour 45 minutes.`,
           points: 20,
