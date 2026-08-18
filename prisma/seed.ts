@@ -14040,11 +14040,11 @@ Riverside Secondary School has geometry questions about similar figures. Answer 
 
 Question (a)
 At Riverside Secondary, Mr Lim draws two triangles on the whiteboard:
-• Triangle ABC: sides 5 cm, 12 cm, 13 cm
-• Triangle PQR: sides 10 cm, 24 cm, 26 cm
+• Triangle ABC: sides 6 cm, 8 cm, 10 cm
+• Triangle PQR: sides 9 cm, 12 cm, 15 cm
 Wei says: 「Triangle PQR is bigger than Triangle ABC, so they are not similar.」
 Aisha says: 「We need to check if the corresponding sides are in the same ratio.」
-(i) Check whether the corresponding sides are in the same ratio. Show your working by calculating 5:10, 12:24, and 13:26.
+(i) Check whether the corresponding sides are in the same ratio. Show your working by calculating 6:9, 8:12, and 10:15.
 (ii) Are these triangles similar? Explain your answer using the definition of similar figures (same shape, corresponding sides in the same ratio).
 
 Question (b)
@@ -14076,7 +14076,7 @@ Wei says: 「Congruent figures are also similar, with scale factor 1.」
   • Same shape same size offered as not similar (wrong: congruent figures are similar with scale factor 1) (同形同大小作为「不相似」选项，错误：全等图形是相似图形的特例，缩放比例为 1)
   • Different shape same area offered as similar (wrong: different shapes cannot be similar) (不同形状但面积相同作为「相似」选项，错误：不同形状不能相似)
   • Two options that are the same pair of figures in different order (same pair, different order, as two correct answers) (同一对图形，不同顺序，作为两个正确选项)
-  • Copying 微课 example numbers in writing (写作题照抄微课例题的数字。微课用 6×4 和 12×8 矩形；3-3-4 和 9-9-12 三角形；6×6 正方形和 9×4 矩形。写作题必须用不同的数字。本周写作用：5-12-13 和 10-24-26 三角形；7×4 和 21×12 矩形；11×11 正方形。)
+  • Copying 微课 example numbers in writing (写作题照抄微课例题的数字。微课用 6×4 和 12×8 矩形；3-3-4 和 9-9-12 三角形；6×6 正方形和 9×4 矩形。写作题必须用不同的数字。本周写作用：6-8-10 和 9-12-15 三角形；7×4 和 21×12 矩形；11×11 正方形。)
 ✓ 本周不教 G2.3 properties related to similar triangles and other plane figures such as ratio of corresponding sides（不教相似三角形性质作为单独列项）；不教 G2.4 enlargement and reduction；不教 G2.5 problems involving similar figures；不教 G2.8 SSS/SAS tests；不教 G2.9 ratio of areas (k²)；不教 G2.10 ratio of volumes (k³). 本周只教 G2.2 similar figures.
 
 Note: This is a sample of Part 2 short-answer/open-ended questions. The official paper has 20 short-answer + 10–15 open-ended items in 1 hour 45 minutes.`,
