@@ -14677,21 +14677,21 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
 Riverside Secondary School has geometry questions about similar figures and area ratios. Answer the questions below. Show your working clearly.
 
 Question (a)
-At Riverside Secondary, Mr Lim shows two similar triangles. The small triangle has area 8 cm². The linear scale factor k = 2 (corresponding lengths are in ratio 1:2).
+At Riverside Secondary, Mr Lim shows two similar triangles. The small triangle has area 7 cm². The linear scale factor k = 2 (corresponding lengths are in ratio 1:2).
 (i) What is the area ratio (small:large)?
 (ii) Calculate the area of the large triangle. Show your working.
 
 Question (b)
-At Riverside Secondary, Aisha draws two similar rectangles. The area ratio is 9:1 (large:small). The small rectangle has area 4 cm² and one side of length 3 cm.
+At Riverside Secondary, Aisha draws two similar rectangles. The area ratio is 16:1 (large:small). The small rectangle has area 11 cm² and one side of length 13 cm.
 (i) What is the area of the large rectangle? Show your working.
-(ii) What is the linear scale factor k (large:small)? Show your working: area ratio = k², so k² = 9.
+(ii) What is the linear scale factor k (large:small)? Show your working: area ratio = k², so k² = 16.
 (iii) What is the corresponding side of the large rectangle? Show your working: multiply the small side by k.
 
 Question (c)
-At Riverside Secondary, Wei shows two similar pentagons. The large pentagon has area 48 cm² and one side of length 10 cm. The linear scale factor k = 1/2 (small:large).
+At Riverside Secondary, Wei shows two similar pentagons. The large pentagon has area 60 cm² and one side of length 22 cm. The linear scale factor k = 1/2 (small:large).
 (i) What is the area of the small pentagon? Show your working: k² = (1/2)² = 1/4, so small area = large area × 1/4.
 (ii) What is the corresponding side of the small pentagon? Show your working: multiply the large side by k = 1/2.
-(iii) Wei says: 「The area of the small pentagon is 48 ÷ 2 = 24 cm² because k = 1/2.」 Explain why Wei is wrong and what the correct answer should be.
+(iii) Wei says: 「The area of the small pentagon is 60 ÷ 2 = 30 cm² because k = 1/2.」 Explain why Wei is wrong and what the correct answer should be.
 
 写作提示 / Tips:
 ✓ 每题分步骤写出推理 (Show working steps for each question)
@@ -14704,7 +14704,7 @@ At Riverside Secondary, Wei shows two similar pentagons. The large pentagon has 
   • Using k³ for area（错误：用 k³ 计算面积比。k³ 用于体积比（volume ratio），本周不教 G2.10。面积比用 k²）
   • Two options that are the same pair in a different order（两个选项是同一对不同顺序：例如 "area × 4" 和 "4 × area" 是同一个答案，不要两个都写成正确选项）
   • Confusing area ratio with k（错误：把面积比当作 k。如果面积比是 9:1，那么 k² = 9，所以 k = 3，不是 k = 9）
-✓ Writing 数值不能抄 微课：微课用 5 cm² / 20 cm²（k=2）; 4 cm / 12 cm，area ratio 9:1; 36 cm² / 9 cm²（k=1/2）。Writing Q 用 8 cm² / 32 cm²（k=2）; 4 cm² / 36 cm², 3 cm / 9 cm（k=3, area ratio 9:1）; 48 cm² / 12 cm², 10 cm / 5 cm（k=1/2）。不能抄本周 MCQ 的 6/24/45/3/27/2/10/64/16/80/5/15/100/25/18/27/21 等数值。
+✓ Writing 数值不能抄 微课：微课用 5 cm² / 20 cm²（k=2）; 4 cm / 12 cm，area ratio 9:1; 36 cm² / 9 cm²（k=1/2）。Writing Q 用 7 cm² / 28 cm²（k=2）; 11 cm² / 176 cm², 13 cm / 52 cm（k=4, area ratio 16:1）; 60 cm² / 15 cm², 22 cm / 11 cm（k=1/2）。不能抄本周 MCQ 的 6/24/45/3/27/2/10/64/16/80/5/15/100/25/18/27/21 等数值。
 ✓ 本周只教 G2.9 ratio of areas = k²。本周不教 G2.10 ratio of volumes = k³（不教体积比等于 k³）；不教 G2.8 tests（不作为本周项教判定法）。本周只教 G2.9: if two figures are similar with linear scale factor k, then area ratio = k². Find area from k, or find k from area ratio, then missing length.
 
 Note: This is a sample of Part 2 short-answer/open-ended questions. The official paper has 20 short-answer + 10–15 open-ended items in 1 hour 45 minutes.`,
