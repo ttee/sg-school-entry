@@ -14459,6 +14459,89 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
         },
       ],
     },
+    {
+      level: "SMATH",
+      weekNumber: 81,
+      title: "垂直平分线和角平分线 — Perpendicular and angle bisectors",
+      description: "Sec 2 G2.7: perpendicular bisector, angle bisector (AEIS 中学数学第 81 周 / SMATH Week 81)",
+      isSample: false,
+      errorFocus: "mixing perpendicular bisector (equidistant from endpoints) with angle bisector (equidistant from sides); saying a point off the bisector is still equidistant; two options that are the same pair in a different order",
+      parentBrief: "本周练垂直平分线和角平分线。G2.7 内容：垂直平分线（perpendicular bisector of a line segment AB：过 AB 中点且垂直于 AB 的直线，线上的点到 A 和 B 距离相等）；角平分线（angle bisector：平分一个角，线上的点到角的两边距离相等）。简单定位/判断/用这些性质求长度。无圆规作图题。无 G2.8 SSS/SAS/ASA/AAA。无 G2.9 k²。无 G2.10 k³。无 G2.6 比例尺复习。不用计算器。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "At Riverside Secondary, Mr Lim draws line segment AB with length 10 cm. Point M is the midpoint of AB. He draws the perpendicular bisector of AB through M. Wei marks point P on the perpendicular bisector. Mr Lim says: 「Point P is on the perpendicular bisector of AB.」 Which statement must be true?|A. PA = PB. A point on the perpendicular bisector of AB is equidistant from A and B. ✓|B. PA = 10 cm and PB = 10 cm.|C. P is the midpoint of AB.|D. PA = AM.",
+            "At Riverside Secondary, Aisha draws angle XYZ = 80°. She draws the angle bisector YW that divides the angle into two equal parts. Mr Lim asks: 「What are the two angles formed by the bisector?」 Which is correct?|A. Angle XYW = 40° and angle WYZ = 40°. The angle bisector divides 80° into two equal parts: 80° ÷ 2 = 40°. ✓|B. Angle XYW = 80° and angle WYZ = 80°.|C. Angle XYW = 20° and angle WYZ = 20°.|D. Angle XYW = 40° and angle WYZ = 80°.",
+            "At Riverside Secondary, Wei draws line segment CD with C at (0, 0) and D at (8, 0). He draws the perpendicular bisector of CD. Point Q is on the perpendicular bisector. The distance from Q to C is 6 cm. Mr Lim asks: 「What is the distance from Q to D?」 Which is correct?|A. QD = 6 cm. A point on the perpendicular bisector of CD is equidistant from C and D. QC = 6 cm → QD = 6 cm. ✓|B. QD = 8 cm (same as CD).|C. QD = 4 cm (half of CD).|D. QD = 12 cm (double QC).",
+            "At Riverside Secondary, Aisha draws angle ABC. She draws the angle bisector from B. Point R is on the angle bisector of angle ABC. The distance from R to arm BA is 5 cm. Mr Lim asks: 「What is the distance from R to arm BC?」 Which is correct?|A. Distance from R to BC is 5 cm. A point on the angle bisector is equidistant from the two sides of the angle. ✓|B. Distance from R to BC is 10 cm (double the distance to BA).|C. Distance from R to BC is 2.5 cm (half the distance to BA).|D. Distance from R to BC is 0 cm (R is on BC).",
+            "At Riverside Secondary, Mr Lim draws line segment EF with length 12 cm. Wei marks point T that is NOT on the perpendicular bisector of EF. Aisha says: 「T is equidistant from E and F because any point is equidistant from the endpoints.」 Is Aisha correct?|A. No. Only points ON the perpendicular bisector are equidistant from E and F. T is NOT on the perpendicular bisector, so TE ≠ TF. ✓|B. Yes. Any point is equidistant from E and F.|C. No. Only the midpoint is equidistant from E and F.|D. Yes. T is on the perpendicular bisector, so TE = TF.",
+          ]),
+          correctAnswer: "A,A,A,A,A",
+          points: 10,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "At Riverside Secondary, Mr Lim draws line segment GH with length 14 cm. He draws the perpendicular bisector of GH. Wei marks point S on the perpendicular bisector. The distance from S to G is 9 cm. Aisha asks: 「What is SH?」 Which is correct?|A. SH = 9 cm. S is on the perpendicular bisector of GH, so S is equidistant from G and H. SG = 9 cm → SH = 9 cm. ✓|B. SH = 14 cm (same as GH).|C. SH = 7 cm (half of GH).|D. SH = 18 cm (SG + 9).",
+            "At Riverside Secondary, Aisha draws angle PQR = 100°. She draws the angle bisector QT. Mr Lim asks: 「What is angle PQT?」 Which is correct?|A. Angle PQT = 50°. The angle bisector divides angle PQR into two equal parts: 100° ÷ 2 = 50°. ✓|B. Angle PQT = 100°.|C. Angle PQT = 25° (half of 50°).|D. Angle PQT = 200° (double 100°).",
+            "At Riverside Secondary, Wei draws line segment JK with J at (0, 0) and K at (10, 0). The midpoint of JK is M at (5, 0). Point U is on the perpendicular bisector of JK and UJ = 8 cm. Mr Lim asks: 「What is UK?」 Which is correct?|A. UK = 8 cm. U is on the perpendicular bisector, so U is equidistant from J and K. UJ = 8 cm → UK = 8 cm. ✓|B. UK = 10 cm (same as JK).|C. UK = 5 cm (same as JM).|D. UK = 16 cm (double UJ).",
+            "At Riverside Secondary, Aisha draws angle LMN = 70°. She draws the angle bisector MP. Point V is on the angle bisector MP. The distance from V to arm ML is 4 cm. Wei asks: 「What is the distance from V to arm MN?」 Which is correct?|A. Distance from V to MN is 4 cm. V is on the angle bisector, so V is equidistant from the two sides ML and MN. ✓|B. Distance from V to MN is 8 cm (double).|C. Distance from V to MN is 2 cm (half).|D. Distance from V to MN is 70 cm (same as the angle measure).",
+            "At Riverside Secondary, Mr Lim draws line segment AB with length 16 cm. He draws the perpendicular bisector. Wei marks point X that is NOT on the perpendicular bisector. Mr Lim says: 「X is not on the perpendicular bisector.」 Which statement is correct?|A. XA and XB are NOT equal. Only points on the perpendicular bisector are equidistant from A and B. X is not on it, so XA ≠ XB. ✓|B. XA = XB because X is near AB.|C. XA = XB = 16 cm.|D. XA = 8 cm and XB = 8 cm (both half of AB).",
+            "At Riverside Secondary, Aisha draws angle DEF. She draws the angle bisector from E. Point W is on the angle bisector. The distance from W to arm ED is 6 cm. The distance from W to arm EF is also 6 cm. Mr Lim says: 「This confirms W is on the angle bisector.」 Which statement is correct?|A. Yes. A point on the angle bisector is equidistant from the two sides of the angle. Distance to ED = distance to EF = 6 cm confirms W is on the bisector. ✓|B. No. W should be 3 cm from each side.|C. No. The distances should add up to the angle measure.|D. Yes, but only if angle DEF = 12°.",
+            "At Riverside Secondary, Wei draws line segment RS with length 20 cm. Point M is the midpoint at 10 cm from R. He draws the perpendicular bisector of RS through M. Aisha marks point Y on the perpendicular bisector with YR = 15 cm. Mr Lim asks: 「What is YS? Is Y equidistant from R and S?」 Which is correct?|A. YS = 15 cm. Y is on the perpendicular bisector, so Y is equidistant from R and S. YR = 15 cm → YS = 15 cm. ✓|B. YS = 20 cm (same as RS).|C. YS = 10 cm (same as RM).|D. YS = 5 cm (15 − 10).",
+            "At Riverside Secondary, Aisha draws angle TUV = 120°. She draws the angle bisector UW. Wei marks point Z on the angle bisector UW. The distance from Z to arm UT is 3 cm. Mr Lim asks: 「What is the distance from Z to arm UV? What is angle TUW?」 Which is correct?|A. Distance from Z to UV is 3 cm (Z is on the bisector, equidistant from the two sides). Angle TUW = 60° (bisector divides 120° into two 60° angles). ✓|B. Distance from Z to UV is 6 cm. Angle TUW = 120°.|C. Distance from Z to UV is 1.5 cm. Angle TUW = 30°.|D. Distance from Z to UV is 120 cm. Angle TUW = 60 cm.",
+          ]),
+          correctAnswer: "A,A,A,A,A,A,A,A",
+          points: 16,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `Part 2: Show Your Working (写出算式步骤)
+
+Riverside Secondary School has geometry questions. Answer the questions below. Show your working.
+
+Question (a)
+At Riverside Secondary, Mr Lim draws line segment AB with length 22 cm. Point M is the midpoint of AB at 11 cm from A. He draws the perpendicular bisector of AB through M.
+(i) Wei marks point P on the perpendicular bisector. The distance from P to A is 17 cm. What is the distance from P to B? Show your working: a point on the perpendicular bisector of AB is equidistant from A and B.
+(ii) Aisha marks point Q that is NOT on the perpendicular bisector. She says: 「Q must be equidistant from A and B.」 Explain why Aisha is wrong. Which points are equidistant from A and B?
+
+Question (b)
+At Riverside Secondary, Aisha draws angle XYZ = 48°. She draws the angle bisector YW that divides the angle into two equal parts.
+(i) What is angle XYW? Show your working: the angle bisector divides the angle into two equal parts.
+(ii) Wei marks point R on the angle bisector YW. The distance from R to arm YX is 13 cm. What is the distance from R to arm YZ? Show your working: a point on the angle bisector is equidistant from the two sides of the angle.
+(iii) Aisha marks point T that is NOT on the angle bisector. She says: 「T is equidistant from YX and YZ.」 Explain why this is not necessarily true. When is a point equidistant from the two sides?
+
+Question (c)
+At Riverside Secondary, Mr Lim draws line segment CD with length 26 cm. He draws the perpendicular bisector of CD. Wei marks point S on the perpendicular bisector. The distance from S to C is 19 cm.
+(i) What is the distance from S to D? Show your working.
+(ii) Aisha draws angle PQR = 56°. She draws the angle bisector QU. Point V is on the bisector QU. The distance from V to arm QP is 21 cm. What is the distance from V to arm QR? What is angle PQU? Show all your working.
+
+写作提示 / Tips:
+✓ 每题分步骤写出推理 (Show working steps for each question)
+✓ Part 2 官方要求：clearly show the method of solution by writing working steps, plus the final answer
+✓ 不用计算器 (No calculators allowed)
+✓ 本周教 Sec 2 GEOMETRY AND MEASUREMENT, G2. Congruence and similarity: 2.7 perpendicular bisector of a line segment; angle bisector. 本周是 G2.7 only. Official content: (1) perpendicular bisector of a line segment AB: the line that passes through the midpoint of AB and is perpendicular to AB; a point on the perpendicular bisector of AB is equidistant from A and B. (2) angle bisector: the line that divides an angle into two equal parts; a point on the angle bisector is equidistant from the two sides of the angle. Simple locate/identify/find a length using those facts. No compass-construction essay. Integer lengths only (or ½, ⅓ if other length stays integer). No 7.5, no √3. Cast: secondary Wei, Aisha, Mr Lim at Riverside Secondary School. No calculator. Integer lengths only.
+✓ 关键步骤：Step 1: Identify the perpendicular bisector or angle bisector in the question（识别垂直平分线或角平分线）. Step 2: For perpendicular bisector: any point on the perpendicular bisector is equidistant from the two endpoints A and B, so PA = PB（垂直平分线上的点到两个端点 A 和 B 距离相等，所以 PA = PB）. Step 3: For angle bisector: any point on the angle bisector is equidistant from the two sides of the angle（角平分线上的点到角的两边距离相等）. The bisector divides the angle into two equal parts: if angle ABC = 80°, then angle ABD = angle DBC = 40°（角平分线把角分成两个相等的部分：如果 ABC = 80°，那么 ABD = DBC = 40°）. Step 4: If a point is NOT on the bisector, it is NOT necessarily equidistant（如果点不在平分线上，不一定等距）. Step 5: State the final answer（陈述最终答案）.
+✓ 化石 (fossil errors):
+  • Mixing perpendicular bisector with angle bisector (错误：混淆垂直平分线和角平分线。垂直平分线：点到两个端点等距（equidistant from endpoints A and B）。角平分线：点到角的两边等距（equidistant from the two sides of the angle）。不要把两者混淆)
+  • Saying a point off the bisector is still equidistant (错误：说不在平分线上的点也等距。只有在平分线上的点才等距。如果点 Q 不在 AB 的垂直平分线上，那么 QA ≠ QB)
+  • Two options that are the same pair in a different order (两个选项是同一对不同顺序：PA = 6 cm and PB = 6 cm 与 PB = 6 cm and PA = 6 cm 是同一个答案，不要两个都写成正确选项)
+✓ Writing 数值不能抄 微课：微课用 AB = 10 cm, PA = PB = 6 cm; angle XYZ = 80°, XYW = WYZ = 40°; Q 到 BA 和 BC 距离都是 5 cm。Writing Q 用 AB = 22 cm, PA = PB = 17 cm; angle XYZ = 48°, XYW = 24°, R 到两边 13 cm; CD = 26 cm, SC = SD = 19 cm; angle PQR = 56°, PQU = 28°, V 到两边 21 cm。不能抄 W80 writing 的 7 cm/1 cm/11 cm/650 cm/13 cm/18 cm 比例尺数值。不能抄本周 MCQ 的 10/6/5/80/40/14/9/16/12/8/20/15/100/50/4/70/120/90/60/3/18/11/64/9 等数值。
+✓ 本周只教 G2.7 perpendicular and angle bisectors。本周不教 G2.6 scale drawings（不教比例尺图）；不教 G2.8 determining congruent/similar triangles as a listed item（不作为列项教判断全等/相似三角形的 SSS/SAS/ASA/AAA）；不教 G2.9 ratio of areas = k²（不教面积比等于 k²）；不教 G2.10 ratio of volumes = k³（不教体积比等于 k³）；不教 G4 Pythagoras/trigonometry（不教勾股定理/三角函数）；不教 G5 solids（不教立体图形）. 本周只教 G2.7: perpendicular bisector (point on it is equidistant from endpoints), angle bisector (point on it is equidistant from sides, and divides angle into two equal parts).
+
+Note: This is a sample of Part 2 short-answer/open-ended questions. The official paper has 20 short-answer + 10–15 open-ended items in 1 hour 45 minutes.`,
+          points: 20,
+        },
+      ],
+    },
   ];
 
 
