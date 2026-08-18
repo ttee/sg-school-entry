@@ -944,6 +944,14 @@ export default function WeikeMiniLesson({ level, weekNumber }: WeikeMiniLessonPr
       ],
       gloss: "AEIS 中学数学第 80 周 / SMATH Week 80. 本周例题：Sec 2 G2.6 scale drawings（比例尺图）。"
     },
+    "SMATH-81": {
+      examples: [
+        "AB = 10 cm. M midpoint. Perp bisector through M. Point P on the perp bisector with PA = 6 cm → PB = 6 cm",
+        "Angle XYZ = 80°. Bisector YW. The two half-angles are 40° and 40°",
+        "Point Q on the bisector of ∠ABC. Distance from Q to arm BA is 5 cm → distance from Q to arm BC is 5 cm"
+      ],
+      gloss: "AEIS 中学数学第 81 周 / SMATH Week 81. 本周例题：Sec 2 G2.7 perpendicular and angle bisectors（垂直平分线和角平分线）。"
+    },
     "SEC-0": {
       fossil: "Although I was nervous, but I tried. ✗ (中文「虽然…但是…」迁移) / I go yesterday ✗ (叙事体过去时掉落)",
       examples: [

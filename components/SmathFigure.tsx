@@ -834,5 +834,136 @@ export default function SmathFigure({ weekNumber }: { weekNumber: number }) {
     );
   }
 
+  if (weekNumber === 81) {
+    return (
+      <div className="bg-paper border border-line rounded-xl p-6 mb-6">
+        <h3 className="font-semibold text-ink mb-4 text-center">📐 本周图解</h3>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          {/* Diagram 1: Perpendicular bisector */}
+          <div className="flex flex-col items-center">
+            <svg viewBox="0 0 200 200" className="w-full max-w-[200px] h-auto">
+              {/* Title */}
+              <text x="100" y="20" fontSize="11" fill="#1a1a1a" fontWeight="600" textAnchor="middle">Perpendicular Bisector</text>
+              
+              {/* Line segment AB */}
+              <line x1="40" y1="120" x2="160" y2="120" stroke="#1a1a1a" strokeWidth="2" />
+              <circle cx="40" cy="120" r="3" fill="#1a1a1a" />
+              <circle cx="160" cy="120" r="3" fill="#1a1a1a" />
+              <text x="35" y="115" fontSize="11" fill="#1a1a1a" fontWeight="600" textAnchor="end">A</text>
+              <text x="165" y="115" fontSize="11" fill="#1a1a1a" fontWeight="600">B</text>
+              
+              {/* Midpoint M */}
+              <circle cx="100" cy="120" r="3" fill="#d97706" />
+              <text x="100" y="135" fontSize="11" fill="#d97706" fontWeight="600" textAnchor="middle">M</text>
+              
+              {/* Perpendicular bisector (vertical line through M) */}
+              <line x1="100" y1="40" x2="100" y2="180" stroke="#10b981" strokeWidth="2" strokeDasharray="4,2" />
+              
+              {/* Point P on perpendicular bisector */}
+              <circle cx="100" cy="70" r="3" fill="#3b82f6" />
+              <text x="108" y="68" fontSize="11" fill="#3b82f6" fontWeight="600">P</text>
+              
+              {/* PA and PB distances */}
+              <line x1="100" y1="70" x2="40" y2="120" stroke="#3b82f6" strokeWidth="1.5" strokeDasharray="2,2" />
+              <line x1="100" y1="70" x2="160" y2="120" stroke="#3b82f6" strokeWidth="1.5" strokeDasharray="2,2" />
+              
+              {/* Distance labels */}
+              <text x="60" y="90" fontSize="10" fill="#3b82f6" fontWeight="600">PA = 6 cm</text>
+              <text x="115" y="90" fontSize="10" fill="#3b82f6" fontWeight="600">PB = 6 cm</text>
+              
+              {/* Right angle marker */}
+              <rect x="96" y="116" width="8" height="8" fill="none" stroke="#10b981" strokeWidth="1.5" />
+            </svg>
+            <p className="text-sm text-ink-2 text-center mt-2 font-semibold">
+              垂直平分线<br />
+              <span className="text-xs text-accent">P 在垂直平分线上 → PA = PB</span>
+            </p>
+          </div>
+
+          {/* Diagram 2: Angle bisector */}
+          <div className="flex flex-col items-center">
+            <svg viewBox="0 0 200 200" className="w-full max-w-[200px] h-auto">
+              {/* Title */}
+              <text x="100" y="20" fontSize="11" fill="#1a1a1a" fontWeight="600" textAnchor="middle">Angle Bisector</text>
+              
+              {/* Angle arms */}
+              <line x1="100" y1="140" x2="100" y2="50" stroke="#1a1a1a" strokeWidth="2" />
+              <line x1="100" y1="140" x2="180" y2="70" stroke="#1a1a1a" strokeWidth="2" />
+              
+              {/* Vertex Y */}
+              <circle cx="100" cy="140" r="3" fill="#1a1a1a" />
+              <text x="100" y="155" fontSize="11" fill="#1a1a1a" fontWeight="600" textAnchor="middle">Y</text>
+              
+              {/* Labels X and Z */}
+              <text x="100" y="43" fontSize="11" fill="#1a1a1a" fontWeight="600" textAnchor="middle">X</text>
+              <text x="188" y="68" fontSize="11" fill="#1a1a1a" fontWeight="600">Z</text>
+              
+              {/* Angle bisector */}
+              <line x1="100" y1="140" x2="145" y2="85" stroke="#10b981" strokeWidth="2" strokeDasharray="4,2" />
+              <text x="130" y="105" fontSize="11" fill="#10b981" fontWeight="600">W</text>
+              
+              {/* Original angle label */}
+              <text x="108" y="125" fontSize="10" fill="#d97706" fontWeight="600">80°</text>
+              
+              {/* Two equal half-angles */}
+              <path d="M 100 130 A 15 15 0 0 1 106 120" fill="none" stroke="#3b82f6" strokeWidth="1.5" />
+              <text x="112" y="128" fontSize="9" fill="#3b82f6" fontWeight="600">40°</text>
+              
+              <path d="M 110 134 A 20 20 0 0 1 120 126" fill="none" stroke="#3b82f6" strokeWidth="1.5" />
+              <text x="120" y="138" fontSize="9" fill="#3b82f6" fontWeight="600">40°</text>
+            </svg>
+            <p className="text-sm text-ink-2 text-center mt-2 font-semibold">
+              角平分线<br />
+              <span className="text-xs text-accent">80° ÷ 2 = 40° + 40°</span>
+            </p>
+          </div>
+
+          {/* Diagram 3: Distance from point on angle bisector to sides */}
+          <div className="flex flex-col items-center">
+            <svg viewBox="0 0 200 200" className="w-full max-w-[200px] h-auto">
+              {/* Title */}
+              <text x="100" y="20" fontSize="11" fill="#1a1a1a" fontWeight="600" textAnchor="middle">Distance to Sides</text>
+              
+              {/* Angle arms */}
+              <line x1="60" y1="160" x2="60" y2="60" stroke="#1a1a1a" strokeWidth="2" />
+              <line x1="60" y1="160" x2="170" y2="80" stroke="#1a1a1a" strokeWidth="2" />
+              
+              {/* Vertex B */}
+              <circle cx="60" cy="160" r="3" fill="#1a1a1a" />
+              <text x="55" y="175" fontSize="11" fill="#1a1a1a" fontWeight="600" textAnchor="end">B</text>
+              
+              {/* Labels A and C */}
+              <text x="55" y="58" fontSize="11" fill="#1a1a1a" fontWeight="600" textAnchor="end">A</text>
+              <text x="178" y="78" fontSize="11" fill="#1a1a1a" fontWeight="600">C</text>
+              
+              {/* Angle bisector */}
+              <line x1="60" y1="160" x2="120" y2="95" stroke="#10b981" strokeWidth="2" strokeDasharray="4,2" />
+              
+              {/* Point Q on bisector */}
+              <circle cx="100" cy="115" r="3" fill="#3b82f6" />
+              <text x="108" y="113" fontSize="11" fill="#3b82f6" fontWeight="600">Q</text>
+              
+              {/* Perpendicular distances to arms */}
+              <line x1="100" y1="115" x2="60" y2="115" stroke="#d97706" strokeWidth="1.5" strokeDasharray="2,2" />
+              <line x1="100" y1="115" x2="108" y2="130" stroke="#d97706" strokeWidth="1.5" strokeDasharray="2,2" />
+              
+              {/* Right angle markers */}
+              <rect x="56" y="111" width="8" height="8" fill="none" stroke="#d97706" strokeWidth="1.5" />
+              <rect x="104" y="126" width="8" height="8" fill="none" stroke="#d97706" strokeWidth="1.5" transform="rotate(-45 108 130)" />
+              
+              {/* Distance labels */}
+              <text x="78" y="110" fontSize="10" fill="#d97706" fontWeight="600">5 cm</text>
+              <text x="95" y="140" fontSize="10" fill="#d97706" fontWeight="600">5 cm</text>
+            </svg>
+            <p className="text-sm text-ink-2 text-center mt-2 font-semibold">
+              到两边等距<br />
+              <span className="text-xs text-accent">Q 在角平分线上 → 距离相等</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
   return null;
 }
