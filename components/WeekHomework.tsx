@@ -264,11 +264,13 @@ export default function WeekHomework({
   questions,
   submission: initialSubmission,
   userId,
+  guest = false,
 }: {
   week: Week;
   questions: Question[];
   submission: Submission;
   userId: string;
+  guest?: boolean;
 }) {
   const router = useRouter();
   const [answers, setAnswers] = useState<Record<string, any>>(
@@ -1057,9 +1059,9 @@ export default function WeekHomework({
                   const correctAnswers = question.correctAnswer?.split(",");
                   const correctAnswer = correctAnswers?.[i];
                   const showCorrect =
-                    isCompleted && correctAnswer && userAnswer !== correctAnswer;
+                    (isCompleted || (guest && userAnswer !== undefined)) && correctAnswer && userAnswer !== correctAnswer;
                   const showCorrectAndRight =
-                    isCompleted && correctAnswer && userAnswer === correctAnswer;
+                    (isCompleted || (guest && userAnswer !== undefined)) && correctAnswer && userAnswer === correctAnswer;
                   
                   const choiceWhyData = question.choiceWhy 
                     ? JSON.parse(question.choiceWhy)?.[i] 
@@ -1083,7 +1085,7 @@ export default function WeekHomework({
                             <label
                               key={ci}
                               className={`flex items-center gap-3 p-3 rounded-lg cursor-pointer transition-colors ${
-                                isCompleted
+                                isCompleted || (guest && userAnswer !== undefined)
                                   ? isCorrect
                                     ? "bg-accent/10 border border-accent"
                                     : isSelected
@@ -1100,15 +1102,15 @@ export default function WeekHomework({
                                 value={choiceValue}
                                 checked={isSelected}
                                 onChange={(e) =>
-                                  !isCompleted &&
+                                  (!isCompleted || guest) &&
                                   handleMCQChange(question.id, i, e.target.value)
                                 }
-                                disabled={isCompleted}
+                                disabled={isCompleted && !guest}
                                 className="w-4 h-4 text-accent"
                               />
                               <span className="text-sm text-ink">
                                 {choice}
-                                {isCompleted && isCorrect && " ✓"}
+                                {(isCompleted || (guest && userAnswer !== undefined)) && isCorrect && " ✓"}
                               </span>
                             </label>
                           );
@@ -1169,8 +1171,17 @@ export default function WeekHomework({
 
             {question.type === "writing" && (
               <div className="space-y-4">
+                {/* Guest mode message */}
+                {guest && (
+                  <div className="bg-accent/5 border border-accent/20 rounded-lg p-4">
+                    <p className="text-sm text-ink-2">
+                      登录后老师才收写作和口语。要账号请回首页报名表。
+                    </p>
+                  </div>
+                )}
+                
                 {/* Show previous focus if exists */}
-                {previousWritingFocus[question.id] && !isCompleted && (
+                {!guest && previousWritingFocus[question.id] && !isCompleted && (
                   <div className="bg-accent/10 border border-accent/30 rounded-lg p-3">
                     <p className="text-sm font-semibold text-ink mb-1">📌 本次练习焦点：</p>
                     <p className="text-sm text-ink-2">{previousWritingFocus[question.id]}</p>
@@ -1178,7 +1189,7 @@ export default function WeekHomework({
                 )}
                 
                 {/* How to practice guide */}
-                {!isCompleted && !writingFeedback[question.id] && week.level !== "MATH" && week.level !== "SMATH" && week.level !== "SMATH" && (
+                {!guest && !isCompleted && !writingFeedback[question.id] && week.level !== "MATH" && week.level !== "SMATH" && week.level !== "SMATH" && (
                   <div className="bg-paper border border-line rounded-lg p-3">
                     <p className="text-sm font-semibold text-ink mb-2">💡 如何练习 / How to practice:</p>
                     <ol className="text-sm text-ink-2 space-y-1 list-decimal list-inside">
@@ -1193,40 +1204,42 @@ export default function WeekHomework({
                 <textarea
                   value={answers[question.id] || ""}
                   onChange={(e) =>
-                    !isCompleted &&
+                    !isCompleted && !guest &&
                     handleTextChange(question.id, e.target.value)
                   }
-                  disabled={isCompleted}
+                  disabled={isCompleted || guest}
                   rows={8}
                   className="w-full px-4 py-3 bg-paper border border-line rounded-lg text-ink resize-y focus:outline-none focus:ring-2 focus:ring-accent disabled:opacity-60"
-                  placeholder="在此输入你的答案..."
+                  placeholder={guest ? "登录后才能输入写作..." : "在此输入你的答案..."}
                 />
-                <div className="flex justify-between items-center gap-3">
-                  <div className="flex flex-col gap-2 flex-1">
-                    {!isCompleted && week.level !== "MATH" && week.level !== "SMATH" && (
-                      <button
-                        onClick={() => getWritingFeedback(question.id)}
-                        disabled={gettingFeedback[question.id] || !answers[question.id] || answers[question.id].trim().length <= 10}
-                        className="px-5 py-2.5 bg-accent text-accent-ink font-semibold rounded-full hover:bg-accent-hover transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
-                      >
-                        {gettingFeedback[question.id] ? "批改中..." : "📝 提交写作 / Get feedback"}
-                      </button>
-                    )}
-                    {!isCompleted && week.level !== "MATH" && week.level !== "SMATH" && (!answers[question.id] || answers[question.id].trim().length <= 10) && (
-                      <p className="text-xs text-muted">
-                        请先输入至少 10 个字符，然后点击提交获取改善反馈 / Type at least 10 characters to submit for feedback
+                {!guest && (
+                  <div className="flex justify-between items-center gap-3">
+                    <div className="flex flex-col gap-2 flex-1">
+                      {!isCompleted && week.level !== "MATH" && week.level !== "SMATH" && (
+                        <button
+                          onClick={() => getWritingFeedback(question.id)}
+                          disabled={gettingFeedback[question.id] || !answers[question.id] || answers[question.id].trim().length <= 10}
+                          className="px-5 py-2.5 bg-accent text-accent-ink font-semibold rounded-full hover:bg-accent-hover transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+                        >
+                          {gettingFeedback[question.id] ? "批改中..." : "📝 提交写作 / Get feedback"}
+                        </button>
+                      )}
+                      {!isCompleted && week.level !== "MATH" && week.level !== "SMATH" && (!answers[question.id] || answers[question.id].trim().length <= 10) && (
+                        <p className="text-xs text-muted">
+                          请先输入至少 10 个字符，然后点击提交获取改善反馈 / Type at least 10 characters to submit for feedback
+                        </p>
+                      )}
+                    </div>
+                    {week.level !== "MATH" && week.level !== "SMATH" && (
+                      <p className="text-xs text-muted whitespace-nowrap">
+                        字数 / Words: {(answers[question.id] || "").trim().split(/\s+/).filter((w: string) => w.length > 0).length}
                       </p>
                     )}
                   </div>
-                  {week.level !== "MATH" && week.level !== "SMATH" && (
-                    <p className="text-xs text-muted whitespace-nowrap">
-                      字数 / Words: {(answers[question.id] || "").trim().split(/\s+/).filter((w: string) => w.length > 0).length}
-                    </p>
-                  )}
-                </div>
+                )}
                 
                 {/* AI Feedback Display */}
-                {writingFeedback[question.id] && (
+                {!guest && writingFeedback[question.id] && (
                   <div className="bg-accent/10 border border-accent/20 rounded-lg p-4 space-y-3 text-sm">
                     <h3 className="font-semibold text-ink text-lg">AI 批改反馈</h3>
                     
@@ -1308,8 +1321,17 @@ export default function WeekHomework({
 
             {question.type === "speaking" && (
               <div className="space-y-4">
+                {/* Guest mode message */}
+                {guest && (
+                  <div className="bg-accent/5 border border-accent/20 rounded-lg p-4">
+                    <p className="text-sm text-ink-2">
+                      登录后老师才收写作和口语。要账号请回首页报名表。
+                    </p>
+                  </div>
+                )}
+                
                 {/* Show previous focus if exists */}
-                {speakingAttempts[question.id] && speakingAttempts[question.id].length > 0 && !isCompleted && (
+                {!guest && speakingAttempts[question.id] && speakingAttempts[question.id].length > 0 && !isCompleted && (
                   <div className="bg-accent/10 border border-accent/30 rounded-lg p-3">
                     <p className="text-sm font-semibold text-ink mb-1">📌 本次练习焦点：</p>
                     <p className="text-sm text-ink-2">
@@ -1319,10 +1341,11 @@ export default function WeekHomework({
                 )}
                 
                 {/* Recording UI */}
-                <div className="bg-paper border border-line rounded-lg p-4">
-                  <p className="text-sm text-ink-2 mb-3">
-                    请点击"开始录音"并按照提示完成口语练习。录音将由AI评估并提供改进建议。
-                  </p>
+                {!guest && (
+                  <div className="bg-paper border border-line rounded-lg p-4">
+                    <p className="text-sm text-ink-2 mb-3">
+                      请点击"开始录音"并按照提示完成口语练习。录音将由AI评估并提供改进建议。
+                    </p>
                   
                   {!recording[question.id] && !recordedBlob[question.id] && (
                     <button
@@ -1410,10 +1433,11 @@ export default function WeekHomework({
                       </label>
                     </div>
                   )}
-                </div>
+                  </div>
+                )}
                 
                 {/* AI Feedback Display */}
-                {speakingEval[question.id] && (
+                {!guest && speakingEval[question.id] && (
                   <div className="bg-accent/10 border border-accent/20 rounded-lg p-4 space-y-4">
                     <h3 className="font-semibold text-ink text-lg">AI 评估结果</h3>
                     
@@ -1533,13 +1557,38 @@ export default function WeekHomework({
         ))}
       </div>
 
-      {error && (
+      {!guest && error && (
         <div className="mt-6 bg-warn-bg border border-warn-ink/20 rounded-lg px-4 py-3 text-warn-ink">
           {error}
         </div>
       )}
 
-      {!isCompleted && (
+      {guest && (
+        <div className="mt-8 bg-accent/10 border border-accent/30 rounded-2xl p-6">
+          <h3 className="font-serif font-semibold text-lg text-ink mb-3">
+            完成试学周了？
+          </h3>
+          <p className="text-ink-2 mb-4">
+            报名开通后续周，继续纠错路径。
+          </p>
+          <div className="flex flex-wrap gap-3">
+            <Link
+              href="/#contact"
+              className="inline-flex items-center justify-center px-6 py-3 bg-accent text-accent-ink font-semibold rounded-full hover:bg-accent-hover transition-colors"
+            >
+              报名咨询 →
+            </Link>
+            <Link
+              href="/trial"
+              className="inline-flex items-center justify-center px-6 py-3 bg-transparent text-ink border border-line font-semibold rounded-full hover:border-ink-2 hover:bg-card transition-colors"
+            >
+              返回试学选择
+            </Link>
+          </div>
+        </div>
+      )}
+
+      {!guest && !isCompleted && (
         <div className="mt-8 flex gap-4">
           <button
             onClick={saveProgress}

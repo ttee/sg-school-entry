@@ -185,7 +185,7 @@ export default function HomePage() {
                 入学摸底
               </Link>
               <Link
-                href="/learn"
+                href="/trial"
                 className="text-ink-2 hover:text-ink underline"
               >
                 免费试学
@@ -896,8 +896,11 @@ export default function HomePage() {
 
               <div className="bg-paper-2 border border-line rounded-xl p-5">
                 <h3 className="font-serif font-semibold text-base mb-2 text-ink">免费试学</h3>
-                <p className="text-sm text-ink-2">
+                <p className="text-sm text-ink-2 mb-2">
                   提交表单时选择「免费试学账号」，老师会为您开通试学周权限。
+                </p>
+                <p className="text-sm text-ink-2">
+                  也可以现在就打开<Link href="/trial" className="text-accent hover:underline">试学周</Link>，不用登录先看作业长什么样。
                 </p>
               </div>
             </div>

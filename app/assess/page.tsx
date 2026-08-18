@@ -132,14 +132,14 @@ function calculateRecommendation(answers: (number | null)[]) {
     return {
       level: "B1",
       weekTitle: "B1 试学周",
-      weekUrl: "/learn/trial/B1",
+      weekUrl: "/trial/B1",
       kaizenFocus: articlesRate < thirdPersonRate ? "冠词 a/an/the 的使用" : totalCorrect < 9 ? "第三人称单数动词加 -s" : "现在完成时与过去时的区分"
     };
   } else {
     return {
       level: "A2",
       weekTitle: "A2 试学周",
-      weekUrl: "/learn/trial/A2",
+      weekUrl: "/trial/A2",
       kaizenFocus: articlesRate < thirdPersonRate ? "冠词 a/an/the 的使用" : "第三人称单数动词加 -s"
     };
   }
