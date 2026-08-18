@@ -92,7 +92,7 @@ async function main() {
       description: "AEIS-Primary P2 Mathematics: Whole numbers and money",
       isSample: true,
       errorFocus: null,
-      parentBrief: "本周主题：整数与钱币（对应 MOE 小学 P2 数学大纲）。孩子会做加减法、比较大小、认识新加坡钱币。题目是简体中文家长说明 + 英文题干，帮孩子同时熟悉数学和英语。本周配有双向对照表，显示题目对应的官方 2021 Primary Mathematics Syllabus 内容点，以及 MOE AEIS 的「preceding level」规则（申请 P3 → 掌握 P2 内容）。",
+      parentBrief: "本周主题：整数与钱币。孩子会做加减法、比较大小、认识新加坡钱币（$10/$2/50分硬币等）。题目是简体中文家长说明加英文题干。",
       videoUrl: null,
       kaizenFocus: null,
       questions: [
@@ -169,7 +169,7 @@ He paid with a $50 note.
       description: "AEIS-Primary P2 Mathematics: Multiplication and division within tables",
       isSample: false,
       errorFocus: null,
-      parentBrief: "本周主题：乘法与除法（对应 MOE 小学 P2 数学大纲 3.1–3.5）。孩子会练习 2、3、4、5、10 的乘法口诀，理解乘法和除法的关系（例如 3 × 4 = 12，所以 12 ÷ 3 = 4），并在应用题中使用这些技能。题目是简体中文家长说明 + 英文题干。本周配有双向对照表，显示题目对应的官方 2021 Primary Mathematics Syllabus 内容点，以及 MOE AEIS 的「preceding level」规则（申请 P3 → 掌握 P2 内容）。",
+      parentBrief: "本周主题：乘法与除法。孩子会练习2、3、4、5、10的乘法口诀，理解乘除法关系（如3×4=12，所以12÷3=4）。会在应用题中使用这些技能。",
       videoUrl: null,
       kaizenFocus: null,
       questions: [
@@ -224,7 +224,7 @@ He paid with a $50 note.
       description: "AEIS-Primary P2 Mathematics: Fractions",
       isSample: false,
       errorFocus: null,
-      parentBrief: "本周主题：分数（对应 MOE 小学 P2 数学大纲 Fractions）。孩子会认识分数是「整体的一部分」，学会分数记号（1/2、1/3、1/4 等），比较单位分数和同分母分数的大小，在一个整体内加减同分母分数。分母不超过 12。题目是简体中文家长说明 + 英文题干。本周配有双向对照表，显示题目对应的官方 2021 Primary Mathematics Syllabus 内容点，以及 MOE AEIS 的「preceding level」规则（申请 P3 → 掌握 P2 内容）。",
+      parentBrief: "本周主题：分数。孩子会认识分数是整体的一部分，学会分数记号（1/2、1/3、1/4等），比较单位分数和同分母分数的大小。会在一个整体内加减同分母分数（分母不超过12）。",
       videoUrl: null,
       kaizenFocus: null,
       questions: [
@@ -280,7 +280,7 @@ He paid with a $50 note.
       description: "AEIS-Primary P2 Mathematics: Length, Mass, Volume and Time",
       isSample: false,
       errorFocus: null,
-      parentBrief: "本周主题：长度、质量、容积与时间（对应 MOE 小学 P2 数学大纲 Measurement and Geometry）。孩子会练习用米（m）测量长度、用千克（kg）和克（g）测量质量、用升（ℓ）测量容积，学会比较和排序这些量。还会练习看时钟读时间到分钟、测量小时和分钟、进行小时和分钟之间的转换（1 小时 = 60 分钟）。题目是简体中文家长说明 + 英文题干。本周配有双向对照表，显示题目对应的官方 2021 Primary Mathematics Syllabus 内容点，以及 MOE AEIS 的「preceding level」规则（申请 P3 → 掌握 P2 内容）。",
+      parentBrief: "本周主题：长度、质量、容积与时间。孩子会练习用米（m）测长度、用千克（kg）和克（g）测质量、用升（ℓ）测容积，学会比较和排序。还会练习看时钟读时间到分钟、测量小时和分钟并转换（1小时=60分钟）。",
       videoUrl: null,
       kaizenFocus: null,
       questions: [
@@ -335,7 +335,7 @@ He paid with a $50 note.
       description: "AEIS-Primary P2 Mathematics: 2D patterns and 3D shapes",
       isSample: false,
       errorFocus: null,
-      parentBrief: "本周主题：平面图形规律与立体图形（对应 MOE 小学 P2 数学大纲 Measurement and Geometry）。孩子会练习按 size / shape / colour / orientation 一个属性找规律（下一个图形是什么），还会认识五种立体图形：cube（正方体，6 个正方形面）、cuboid（长方体，6 个长方形面）、cone（圆锥，圆形底和顶点）、cylinder（圆柱，2 个圆形面）、sphere（球体，圆球）。题目是简体中文家长说明 + 英文题干。本周配有双向对照表，显示题目对应的官方 2021 Primary Mathematics Syllabus 内容点，以及 MOE AEIS 的「preceding level」规则（申请 P3 → 掌握 P2 内容）。",
+      parentBrief: "本周主题：平面图形规律与立体图形。孩子会练习按大小/形状/颜色/方向找规律，预测下一个图形。还会认识五种立体图形：cube正方体（6个正方形面）、cuboid长方体（6个长方形面）、cone圆锥、cylinder圆柱、sphere球体。",
       videoUrl: null,
       kaizenFocus: null,
       questions: [
@@ -387,7 +387,7 @@ He paid with a $50 note.
       description: "AEIS-Primary P2 Mathematics: Picture graphs with scales",
       isSample: false,
       errorFocus: null,
-      parentBrief: "本周主题：带单位的象形统计图（对应 MOE 小学 P2 数学大纲 Statistics）。P1 学过每个图代表 1 个物品。本周 P2 的新知识点是单位：每个图代表 2 个、5 个或 10 个。孩子要先看「Each ⭐ stands for 2」，再数有几个图，然后乘出总数（4 个 ⭐ × 2 = 8），最后比较大小或求差。常见错误：数了 4 个图就写 4，忘了乘单位。题目是简体中文家长说明 + 英文题干。本周配有双向对照表，显示题目对应的官方 2021 Primary Mathematics Syllabus P2 Statistics 内容点（Picture graphs with scales 1.1），以及 MOE AEIS 的「preceding level」规则（申请 P3 → 掌握 P2 内容）。",
+      parentBrief: "本周主题：带单位的象形统计图。P2新知识点是单位：每个图代表2个、5个或10个。孩子要先看「Each⭐stands for 2」，再数有几个图，然后乘出总数（4个⭐×2=8），最后比较大小或求差。常见错误：数了4个图就写4，忘了乘单位。",
       videoUrl: null,
       kaizenFocus: null,
       questions: [
@@ -444,7 +444,7 @@ Art 📖📖📖📖📖
       description: "AEIS-Primary P3 Mathematics: Whole numbers to 10 000 and money",
       isSample: false,
       errorFocus: null,
-      parentBrief: "本周主题：万以内整数与钱币（对应 MOE 小学 P3 数学大纲）。P2 学过千以内（到 1000），本周学 P3 的新知识点：万以内（到 10 000）的位值（千位、百位、十位、个位）、读写数字和单词、比较大小、四位数加减法、以及钱币的小数记法（加减法和两步应用题）。申请 P4 入学的孩子需掌握 P3 内容（MOE AEIS preceding level 规则）。常见错误：5000 + 3000 = 5300（忘了是 8000）、$15.60 + $8.50 = $23.10 或 $24.10（小数进位错）。题目是简体中文家长说明 + 英文题干。本周配有双向对照表，显示题目对应的官方 2021 Primary Mathematics Syllabus P3 内容点（Whole numbers to 10 000: place value, reading/writing, compare/order, patterns; Addition and subtraction up to 4 digits; Money: addition/subtraction in decimal notation, 2-step word problems），以及 MOE AEIS 的「preceding level」规则（申请 P4 → 掌握 P3 内容）。",
+      parentBrief: "本周主题：万以内整数与钱币。孩子会学万以内（到10000）的位值、读写数字、比较大小、四位数加减法，以及钱币的小数记法加减和两步应用题。常见错误：5000+3000=5300（忘了是8000）、$15.60+$8.50算错小数进位。",
       videoUrl: null,
       kaizenFocus: null,
       questions: [
@@ -500,7 +500,7 @@ Art 📖📖📖📖📖
       description: "AEIS-Primary P3 Mathematics: Multiplication and division (6–9 tables, remainder, 3-digit ÷ 1-digit)",
       isSample: false,
       errorFocus: null,
-      parentBrief: "本周主题：六七八九的乘法口诀、有余数的除法、三位数乘/除一位数（对应 MOE 小学 P3 数学大纲）。P2 学过 2/3/4/5/10 的乘法口诀，本周学 P3 新知识点：6、7、8、9 的乘法口诀（Multiplication tables of 6, 7, 8 and 9）、有余数的除法（Division with remainder，例如 50 ÷ 6 = 8 R 2）、以及三位数乘/除一位数的算法（up to 3 digits by 1 digit）。申请 P4 入学的孩子需掌握 P3 内容（MOE AEIS preceding level 规则）。常见错误：7 × 8 = 54（记混成 6 × 9）、137 × 3 算错进位、50 ÷ 6 = 8（忘了余数 R 2）。题目是简体中文家长说明 + 英文题干。本周配有双向对照表，显示题目对应的官方 2021 Primary Mathematics Syllabus P3 内容点（Multiplication tables of 6, 7, 8 and 9; Division with remainder; Multiplication and division algorithms up to 3 digits by 1 digit; Mental calculation），以及 MOE AEIS 的「preceding level」规则（申请 P4 → 掌握 P3 内容）。",
+      parentBrief: "本周主题：六七八九的乘法口诀、有余数的除法、三位数乘除一位数。孩子会学6、7、8、9的乘法口诀、有余数的除法（如50÷6=8 R 2）、三位数乘除一位数的算法。常见错误：7×8=54（记混成6×9）、137×3算错进位、50÷6=8（忘了余数R 2）。",
       videoUrl: null,
       kaizenFocus: null,
       questions: [
@@ -556,7 +556,7 @@ Art 📖📖📖📖📖
       description: "AEIS-Primary P3 Mathematics: Equivalent fractions and related fractions",
       isSample: false,
       errorFocus: null,
-      parentBrief: "本周主题：等值分数、最简分数、异分母分数比较、相关分数加减（对应 MOE 小学 P3 数学大纲）。P2 第 2 周学过同分母分数加减（2/8 + 3/8 = 5/8），本周学 P3 新知识点：等值分数（Equivalent fractions，例如 2/3 = 4/6 = 8/12）、最简分数（Simplest form，例如 4/6 = 2/3）、异分母分数比较（Compare unlike fractions，例如 1/2 vs 1/3，分母不超过 12）、相关分数加减（Add and subtract related fractions within one whole，例如 1/2 + 1/4 = 3/4）。申请 P4 入学的孩子需掌握 P3 内容（MOE AEIS preceding level 规则）。常见错误：认为 1/3 > 1/2（分母越大越大）、1/2 + 1/4 = 2/6（分子分母分别相加）、4/6 已是最简（忘了约分成 2/3）。题目是简体中文家长说明 + 英文题干。本周配有双向对照表，显示题目对应的官方 2021 Primary Mathematics Syllabus P3 内容点（Equivalent fractions; Express a fraction in simplest form; Compare and order unlike fractions with denominators not exceeding 12; Add and subtract related fractions within one whole），以及 MOE AEIS 的「preceding level」规则（申请 P4 → 掌握 P3 内容）。注意：本周不教 P4 的假分数/带分数（Improper fractions / Mixed numbers）或小数表示法（Decimals as fractions）。",
+      parentBrief: "本周主题：等值分数、最简分数、异分母分数比较、相关分数加减。孩子会学等值分数（如2/3=4/6）、最简分数（如4/6=2/3）、异分母分数比较（如1/2 vs 1/3）、相关分数加减（如1/2+1/4=3/4）。常见错误：认为1/3>1/2、1/2+1/4=2/6（分子分母分别相加）。",
       videoUrl: null,
       kaizenFocus: null,
       questions: [
@@ -614,7 +614,7 @@ Art 📖📖📖📖📖
       description: "AEIS-Primary P3 Mathematics: Length, mass and volume (km, ml, compound units, conversions)",
       isSample: false,
       errorFocus: null,
-      parentBrief: "本周主题：长度/质量/容量的测量（对应 MOE 小学 P3 数学大纲）。P2 第 3 周学过 m/cm、kg/g、l、时间（到 5 分钟），本周学 P3 新知识点：千米（km, 1 km = 1000 m）、毫升（ml, 1 l = 1000 ml）、复合单位（compound units，例如 1 m 35 cm、2 kg 500 g、1 l 200 ml）、大小单位互换（conversions: km ↔ m, m ↔ cm, kg ↔ g, l ↔ ml）。申请 P4 入学的孩子需掌握 P3 内容（MOE AEIS preceding level 规则）。常见错误：1 km = 100 m（应是 1000 m）、1 m 35 cm = 1.35 cm（应是 135 cm）、加减混合单位时忘了统一（3 km − 1500 m 要先换成同单位）。题目是简体中文家长说明 + 英文题干。本周配有双向对照表，显示题目对应的官方 2021 Primary Mathematics Syllabus P3 内容点（Length: kilometres; Volume of liquid: millilitres; Length/mass/volume in compound units; Conversion of a measurement in compound units to the smaller unit and vice versa），以及 MOE AEIS 的「preceding level」规则（申请 P4 → 掌握 P3 内容）。注意：本周不教 P3 的面积/周长（Area and perimeter）、以秒为单位的时间（Time in seconds）、24 小时制（24-hour clock），也不教 P4 的小数（Decimals）。",
+      parentBrief: "本周主题：长度/质量/容量的测量。孩子会学千米（km, 1 km=1000 m）、毫升（ml, 1 l=1000 ml）、复合单位（如1 m 35 cm、2 kg 500 g）、大小单位互换（km↔m, m↔cm, kg↔g, l↔ml）。常见错误：1 km=100 m（应是1000 m）、加减混合单位时忘了统一。",
       videoUrl: null,
       kaizenFocus: null,
       questions: [
@@ -672,7 +672,7 @@ Art 📖📖📖📖📖
       description: "AEIS-Primary P3 Mathematics: Area and perimeter",
       isSample: false,
       errorFocus: null,
-      parentBrief: "本周主题：面积与周长（对应 MOE 小学 P3 数学大纲）。P3 新知识点：面积的概念（area in square units: cm², m²）、长方形/正方形面积公式（area of rectangle/square）、直线图形周长（perimeter of rectilinear figures）、面积与周长的应用题（word problems on area/perimeter of squares and rectangles）。申请 P4 入学的孩子需掌握 P3 内容（MOE AEIS preceding level 规则）。常见错误：面积和周长单位混淆（面积是 cm² 或 m²，周长是 cm 或 m）、长方形面积公式记错（应是长 × 宽，不是长 + 宽）、正方形周长算错（应是 4 × 边长）。题目是简体中文家长说明 + 英文题干。本周配有双向对照表，显示题目对应的官方 2021 Primary Mathematics Syllabus P3 内容点（Geometry: Concepts of area and perimeter; Area in square units cm², m²; Formula for area of a rectangle/square; Perimeter of rectilinear figures, rectangles, squares; Word problems on area/perimeter），以及 MOE AEIS 的「preceding level」规则（申请 P4 → 掌握 P3 内容）。注意：本周不教 P4 圆形面积、三角形面积、P3 角度（angles），答案用整数 cm 或 m，不用小数。",
+      parentBrief: "本周主题：面积与周长。孩子会学面积的概念（cm²、m²）、长方形/正方形面积公式（长×宽）、直线图形周长、面积与周长的应用题。常见错误：面积和周长单位混淆（面积是cm²或m²，周长是cm或m）、长方形面积公式记错。",
       videoUrl: null,
       kaizenFocus: null,
       questions: [
@@ -730,7 +730,7 @@ Art 📖📖📖📖📖
       description: "AEIS-Primary P3 Mathematics: Time (seconds, duration, 24-hour clock)",
       isSample: false,
       errorFocus: null,
-      parentBrief: "本周主题：时间（对应 MOE 小学 P3 数学大纲）。P3 新知识点：秒（measuring time in seconds, 1 min = 60 s）、计算起始时间/结束时间/经过时间（finding starting time, finishing time, or duration）、24 小时制（24-hour clock，例如 2:30 p.m. = 14:30）。申请 P4 入学的孩子需掌握 P3 内容（MOE AEIS preceding level 规则）。常见错误：秒和分钟的换算记错（应该是 1 min = 60 s）、24 小时制转换错误（下午时间要加 12，早上不变）、起始/结束/经过时间三者关系混淆（开始 + 经过 = 结束，结束 − 经过 = 开始）。题目是简体中文家长说明 + 英文题干。本周配有双向对照表，显示题目对应的官方 2021 Primary Mathematics Syllabus P3 内容点（Measurement: Measuring time in seconds; Finding starting time, finishing time, or duration; 24-hour clock），以及 MOE AEIS 的「preceding level」规则（申请 P4 → 掌握 P3 内容）。注意：P2 第 3 周已学过时间到 5 分钟（telling time to 5 minutes），本周重点是秒和 24 小时制，不教 P4 跨午夜的时间计算（duration across midnight），题目都在同一天内。",
+      parentBrief: "本周主题：时间。孩子会学秒（1 min=60 s）、计算起始时间/结束时间/经过时间、24小时制（如2:30 p.m.=14:30）。常见错误：秒和分钟的换算记错、24小时制转换错误（下午时间要加12）、起始/结束/经过时间三者关系混淆。",
       videoUrl: null,
       kaizenFocus: null,
       questions: [
@@ -788,7 +788,7 @@ Art 📖📖📖📖📖
       description: "AEIS-Primary P3 Mathematics: Angles and lines (right angles, perpendicular, parallel)",
       isSample: false,
       errorFocus: null,
-      parentBrief: "本周主题：角与直线（对应 MOE 小学 P3 数学大纲）。P3 新知识点：直角（right angle = 90°）、垂直线（perpendicular lines，两条线相交成直角）、平行线（parallel lines，永不相交，距离始终相等）。申请 P4 入学的孩子需掌握 P3 内容（MOE AEIS preceding level 规则）。常见错误：不知道直角 = 90°、混淆垂直和平行的定义（垂直是相交成直角，平行是永不相交）、不记得正方形和长方形都有 4 个直角。题目是简体中文家长说明 + 英文题干。本周配有双向对照表，显示题目对应的官方 2021 Primary Mathematics Syllabus P3 内容点（Geometry: Identifying and comparing right angles; Identifying perpendicular lines; Identifying parallel lines），以及 MOE AEIS 的「preceding level」规则（申请 P4 → 掌握 P3 内容）。注意：P3 只教直角 = 90°，不教 P4 的量角器（protractor）和非直角的度数，也不教 P5 的三角形性质。题目使用学校日常物品（门框、书本、教室瓷砖、窗户）作为情境，不需要图表。",
+      parentBrief: "本周主题：角与直线。孩子会学直角（right angle=90°）、垂直线（两条线相交成直角）、平行线（永不相交，距离始终相等）。常见错误：不知道直角=90°、混淆垂直和平行的定义。",
       videoUrl: null,
       kaizenFocus: null,
       questions: [
@@ -846,7 +846,7 @@ Art 📖📖📖📖📖
       description: "AEIS-Primary P3 Mathematics: Bar graphs",
       isSample: false,
       errorFocus: null,
-      parentBrief: "本周主题：条形统计图（对应 MOE 小学 P3 数学大纲）。P3 新知识点：读条形图（bar graph）、比较条的高低、找最多/最少、计算差值（difference）、计算总数（total）。P2 第 5 周学过象形统计图（picture graph），本周升级到条形图。申请 P4 入学的孩子需掌握 P3 内容（MOE AEIS preceding level 规则）。常见错误：不看纵轴刻度直接猜答案、混淆「most」（最多）和「least」（最少）、计算差值时忘记减法、求总数时漏掉某个条。题目是简体中文家长说明 + 英文题干。本周配有双向对照表，显示题目对应的官方 2021 Primary Mathematics Syllabus P3 内容点（Statistics: Reading and interpreting bar graphs; Comparing data; Solving simple problems involving bar graphs），以及 MOE AEIS 的「preceding level」规则（申请 P4 → 掌握 P3 内容）。注意：P3 只教条形图，不教 P4 的折线图（line graph）或 P5 的饼图（pie chart）。题目用文字描述条形图（因为系统是文字 MCQ，没有图片上传功能），例如「Favourite fruit (each bar = number of children) Apple 8, Orange 5, Mango 12, Banana 7」。数字保持简单，条的高度差别明显，便于比较。",
+      parentBrief: "本周主题：条形统计图。孩子会读条形图、比较条的高低、找最多/最少、计算差值和总数。常见错误：不看纵轴刻度直接猜答案、混淆「most」（最多）和「least」（最少）、计算差值时忘记减法。",
       videoUrl: null,
       kaizenFocus: null,
       questions: [
@@ -969,7 +969,7 @@ Answer the following questions. Show your working.
       description: "AEIS-Primary P4 Mathematics: Whole numbers to 100 000",
       isSample: false,
       errorFocus: null,
-      parentBrief: "本周主题：十万以内整数（对应 MOE 小学 P4 数学大纲）。P4 新知识点：10 万以内的数（numbers to 100 000）、位值（place value: 万位 ten thousands、千位 thousands、百位 hundreds、十位 tens、个位 ones）、读写数字、比较大小、排序、数字规律。P3 学过 10 000 以内的数，本周扩展到 100 000（五位数）。申请 P5 入学的孩子需掌握 P4 内容（MOE AEIS preceding level 规则）。常见错误：位值混淆（例如 45 678 中的 5 在千位不是百位）、比较大小时只看首位不看后续位数、数字规律找错模式、写数字时漏写 0 占位。题目是简体中文家长说明 + 英文题干。本周配有双向对照表，显示题目对应的官方 2021 Primary Mathematics Syllabus P4 内容点（Whole Numbers: Numbers up to 100 000; Place value; Reading, writing, comparing and ordering numbers; Number patterns），以及 MOE AEIS 的「preceding level」规则（申请 P5 → 掌握 P4 内容）。注意：P4 只教到 100 000，不教 P5 的小数（decimals）、百分数（percentages）。本周也不教 P4 下学期的因数倍数（factors/multiples）。算术保持在整数加减（5 位数如果大纲允许，否则 4 位数）。",
+      parentBrief: "本周主题：十万以内整数。孩子会学10万以内的数（到100000）、位值（万位、千位、百位、十位、个位）、读写数字、比较大小、排序、数字规律。常见错误：位值混淆、比较大小时只看首位不看后续位数、写数字时漏写0占位。",
       videoUrl: null,
       kaizenFocus: null,
       questions: [
@@ -1074,7 +1074,7 @@ The smallest 5-digit number is _____ .`,
       description: "AEIS-Primary P4 Mathematics: Factors and multiples",
       isSample: false,
       errorFocus: null,
-      parentBrief: "本周主题：因数与倍数（factors and multiples），对应官方 2021 Primary Mathematics Syllabus P4 Whole Numbers → Factors and Multiples。P4 新知识点：2.1 factors, multiples and their relationship（因数、倍数及关系）；2.2 determining if a 1-digit number is a factor of a given number within 100（判断一位数是否是 100 以内某数的因数）；2.3 finding the common factors of two given numbers（找两个数的公因数）；2.4 determining if a number is a multiple of a given 1-digit number（判断某数是否是一位数的倍数）；2.5 finding the common multiples of two given 1-digit numbers（找两个一位数的公倍数）。申请 P5 入学的孩子需掌握 P4 内容（MOE AEIS preceding level 规则）。常见错误：把倍数当因数（混淆 factor 和 multiple）、列因数时漏掉 1 和自己、找公倍数时只写其中一个数的倍数。题目是简体中文家长说明 + 英文题干。本周配有双向对照表，显示题目对应的官方 2021 Primary Mathematics Syllabus P4 内容点（Factors and Multiples: 2.1–2.5），以及 MOE AEIS 的「preceding level」规则（申请 P5 → 掌握 P4 内容）。注意：本周不教质数（prime numbers）、质因数分解（prime factorisation）、HCF/LCM 作为算法名称（只说公因数 common factors / 公倍数 common multiples）、小数（decimals）、百分数（percentages）、4 位数 × 1 位数（那是下周）、假分数/带分数（improper/mixed fractions）、折线图（line graphs）。测试「N 是否是 M 的因数」时 M 必须 ≤ 100。公倍数必须是两个一位数的公倍数。",
+      parentBrief: "本周主题：因数与倍数。孩子会学因数、倍数及关系，判断一位数是否是某数的因数，找两个数的公因数，判断某数是否是一位数的倍数，找两个一位数的公倍数。常见错误：把倍数当因数、列因数时漏掉1和自己。",
       videoUrl: null,
       kaizenFocus: null,
       questions: [
@@ -1173,7 +1173,7 @@ Which statement is true about the relationship between factors and multiples?`,
       description: "AEIS-Primary P4 Mathematics: Four operations (multiply and divide)",
       isSample: false,
       errorFocus: null,
-      parentBrief: "本周主题：四则运算里的乘除算法（multiplication / division algorithm），对应官方 2021 Primary Mathematics Syllabus P4 Whole Numbers → Four Operations。P4 新知识点：3.1 multiplication algorithm（乘法算法）up to 4 digits by 1 digit（4 位数 × 1 位数）、up to 3 digits by 2 digits（3 位数 × 2 位数）；3.2 division algorithm（除法算法）up to 4 digits by 1 digit（4 位数 ÷ 1 位数）。申请 P5 入学的孩子需掌握 P4 内容（MOE AEIS preceding level 规则）。常见错误：进位漏写或写错位置（carry 错）、个位对齐错误（竖式没对齐 place value）、余数 ≥ 除数（remainder 必须小于 divisor）、3 位数 × 2 位数把第二个部分积放错位（partial product 对齐错）。题目是简体中文家长说明 + 英文题干。本周配有双向对照表，显示题目对应的官方 2021 Primary Mathematics Syllabus P4 内容点（Four Operations: 3.1 multiplication algorithm, 3.2 division algorithm），以及 MOE AEIS 的「preceding level」规则（申请 P5 → 掌握 P4 内容）。注意：本周不教运算顺序（order of operations）、括号（brackets）、因数倍数（factors/multiples，那是上周）、小数（decimals）、百分数（percentages）、余数当分数写（remainder as fraction）、两位数除法（long division by 2-digit divisor, 那是 P5）、计算器（calculator）、5 位数 × 任何数（five digits × anything）。4 位数 ÷ 1 位数有余数是可以的，如果题目要求 quotient and remainder（P4 标准）。乘积和被除数都要保持在官方规定的位数范围内。",
+      parentBrief: "本周主题：四则运算里的乘除算法。孩子会学4位数×1位数、3位数×2位数、4位数÷1位数的乘除算法。常见错误：进位漏写或写错位置、个位对齐错误、余数≥除数、3位数×2位数把第二个部分积放错位。",
       videoUrl: null,
       kaizenFocus: null,
       questions: [
@@ -1272,7 +1272,7 @@ Mei solved 6847 ÷ 7. She got quotient 978 and remainder 1. Is she correct?`,
       description: "AEIS-Primary P4 Mathematics: Mixed numbers and improper fractions",
       isSample: false,
       errorFocus: null,
-      parentBrief: "本周主题：带分数与假分数（mixed numbers / improper fractions）及互换，对应官方 2021 Primary Mathematics Syllabus P4 Fractions 1.1 mixed numbers, improper fractions and their relationship。申请 P5 入学的孩子需掌握 P4 内容（MOE AEIS preceding level 规则）。常见错误：假分数分子分母对调（conversion error: swapping numerator & denominator）、带分数换成假分数时只乘不加整数部分（conversion error: multiplying but forgetting to add the whole number）、化成带分数时余数当分子忘了（conversion error: forgetting remainder becomes numerator）。题目是简体中文家长说明 + 英文题干。本周配有双向对照表，显示题目对应的官方 2021 Primary Mathematics Syllabus P4 内容点（Fractions: 1.1 mixed numbers, improper fractions and their relationship），以及 MOE AEIS 的「preceding level」规则（申请 P5 → 掌握 P4 内容）。明确说明：本周不教一组的几分之几（fraction of a set, 那是下周）、异分母加减（adding/subtracting unlike fractions, 后续周）、带分数加减（adding mixed numbers, P5）、分数乘法（multiplying fractions, P5）、小数（decimals）、百分数（percentages）。本周分母不超过 12（denominators not exceeding 12）。",
+      parentBrief: "本周主题：带分数与假分数及互换。孩子会学混合数、假分数及其相互转换。常见错误：假分数分子分母对调、带分数换成假分数时只乘不加整数部分、化成带分数时余数当分子忘了。",
       videoUrl: null,
       kaizenFocus: null,
       questions: [
@@ -1371,7 +1371,7 @@ Look at these fractions: 2 1/4, 5/3, 1 5/8, 9/2. How many of them are improper f
       description: "AEIS-Primary P4 Mathematics: Fraction of a set",
       isSample: false,
       errorFocus: null,
-      parentBrief: "本周主题：一组的几分之几（fraction of a set），对应官方 2021 Primary Mathematics Syllabus P4 Fractions 2.1 fraction as part of a set。申请 P5 入学的孩子需掌握 P4 内容（MOE AEIS preceding level 规则）。算法：先÷分母再×分子。常见错误：先乘后除（multiplying before dividing）、把 of 当成减去（misinterpreting 'of' as subtraction）、分母分子对调（swapping numerator and denominator）。题目是简体中文家长说明 + 英文题干。本周配有双向对照表，显示题目对应的官方 2021 Primary Mathematics Syllabus P4 内容点（Fractions: 2.1 fraction as part of a set），以及 MOE AEIS 的「preceding level」规则（申请 P5 → 掌握 P4 内容）。明确说明：本周不教带分数互换（mixed / improper conversion, 已在第 17 周）、异分母加减（adding/subtracting unlike fractions, 后续周）、分数乘法（multiplying fractions, P5）、小数（decimals）、百分数（percentages）、需要余数作为分数的除法问题（leftover items with remainder as fraction）。分母不超过 12（denominators not exceeding 12）。集合必须能整除（sets must divide evenly）。",
+      parentBrief: "本周主题：一组的几分之几（fraction of a set）。孩子会学分数作为集合的一部分。算法：先÷分母再×分子。常见错误：先乘后除、把of当成减去、分母分子对调。",
       videoUrl: null,
       kaizenFocus: null,
       questions: [
@@ -1468,7 +1468,7 @@ Which calculation shows 2/3 of 18?`,
       description: "AEIS-Primary P4 Mathematics: Adding and subtracting fractions",
       isSample: false,
       errorFocus: null,
-      parentBrief: "本周主题：分数加减（adding and subtracting fractions），包括同分母加减（like fractions, 如 2/7 + 3/7）和异分母加减（unlike fractions with TWO denominators, 如 1/2 + 1/4, 2/3 − 1/6），对应官方 2021 Primary Mathematics Syllabus P4 Fractions 3.1 adding and subtracting fractions with denominators of given fractions not exceeding 12 and not more than two different denominators。申请 P5 入学的孩子需掌握 P4 内容（MOE AEIS preceding level 规则）。算法：同分母直接加减分子（2/7 + 3/7 = 5/7），异分母先通分再加减（1/2 + 1/4 = 2/4 + 1/4 = 3/4）。答案要化简到最简分数（simplest form, 如 4/8 = 1/2）。常见错误：分子分母一起加（adding numerators and denominators together, 1/2 + 1/3 ≠ 2/5）、异分母不先通分（not finding common denominator first）、通分后忘了改分子（forgetting to adjust numerator after finding common denominator）、答案不约分（not simplifying to simplest form, 写 4/8 而不是 1/2）。题目是简体中文家长说明 + 英文题干。本周配有双向对照表，显示题目对应的官方 2021 Primary Mathematics Syllabus P4 内容点（Fractions: 3.1 adding and subtracting fractions），以及 MOE AEIS 的「preceding level」规则（申请 P5 → 掌握 P4 内容）。明确说明：本周不教带分数加减（adding/subtracting mixed numbers, P5）、分数乘法（multiplying fractions, P5）、三个不同分母（three different denominators）、分母大于 12（denominators > 12）、小数（decimals）、百分数（percentages）。本周只教至多两个不同分母（not more than two different denominators）。",
+      parentBrief: "本周主题：分数加减。孩子会学同分母加减（如2/7+3/7）和异分母加减（如1/2+1/4）。算法：同分母直接加减分子，异分母先通分再加减。答案要化简到最简分数。常见错误：分子分母一起加、异分母不先通分、通分后忘了改分子、答案不约分。",
       videoUrl: null,
       kaizenFocus: null,
       questions: [
@@ -1565,7 +1565,7 @@ Which calculation shows adding 1/2 and 1/4?`,
       description: "AEIS-Primary P4 Mathematics: Decimals up to 3 decimal places",
       isSample: false,
       errorFocus: null,
-      parentBrief: "本周主题：小数到三位（decimals up to 3 decimal places）：十分位 tenths、百分位 hundredths、千分位 thousandths，包括 1.1 小数记法和位值（notation, representations and place values）、1.2 比较和排序（comparing and ordering decimals）、1.3 小数转分数（expressing decimals as fractions）、1.4 分数转小数当分母是 10 或 100 的因数时（expressing fractions as decimals when the denominator is a factor of 10 or 100）、1.5 四舍五入到整数/1 位/2 位（rounding decimals to the nearest whole number / 1 decimal place / 2 decimal places），对应官方 2021 Primary Mathematics Syllabus P4 Decimals 1.1–1.5。申请 P5 入学的孩子需掌握 P4 内容（MOE AEIS preceding level 规则）。位值：0.256 中的 5 在百分位 = 0.05。比较：0.47 < 0.5 因为 0.47 = 47 hundredths, 0.50 = 50 hundredths。转换：0.4 = 4/10 = 2/5（要约分到最简）；3/5 = 6/10 = 0.6（分母是 10 的因数）。四舍五入：2.36 到 1 d.p. = 2.4（看百分位 6 ≥ 5 进位）；5.852 到 2 d.p. = 5.85（看千分位 2 < 5 不进位）。常见错误：0.35 当成 0.350 比大小时只看位数不看值（错误地认为位数多就大）、0.4 = 4/10 忘了约分（应该是 2/5）、四舍五入看错位（要四舍五入到 1 d.p. 却看了百分位而不是十分位后一位）。题目是简体中文家长说明 + 英文题干。本周配有双向对照表，显示题目对应的官方 2021 Primary Mathematics Syllabus P4 内容点（Decimals 1.1–1.5），以及 MOE AEIS 的「preceding level」规则（申请 P5 → 掌握 P4 内容）。明确说明：本周不教小数加减乘除（adding/subtracting/multiplying/dividing decimals，那是下周 2.1 和后续 3.1–3.3）、小数×÷10/100/1000（P5）、百分数（percentages）、4 位小数（4 decimal places）。",
+      parentBrief: "本周主题：小数到三位（十分位、百分位、千分位）。孩子会学小数记法和位值、比较和排序小数、小数转分数、分数转小数（当分母是10或100的因数时）、四舍五入到整数/1位/2位。常见错误：0.35当成0.350比大小时只看位数、0.4=4/10忘了约分、四舍五入看错位。",
       videoUrl: null,
       kaizenFocus: null,
       questions: [
@@ -1662,7 +1662,7 @@ What is 0.75 written as a fraction in simplest form?`,
       description: "AEIS-Primary P4 Mathematics: Adding and subtracting decimals",
       isSample: false,
       errorFocus: null,
-      parentBrief: "本周主题：小数加减（最多两位小数，up to 2 decimal places），对应官方 2021 Primary Mathematics Syllabus P4 Decimals 2.1 adding and subtracting decimals (up to 2 decimal places)。申请 P5 入学的孩子需掌握 P4 内容（MOE AEIS preceding level 规则）。关键技能：对齐小数点，补零补位，竖式计算。金额新元和分（dollars and cents）是 2 位小数可以练。常见错误：不对齐小数点（把 3.45 和 2.7 的个位对齐而不是小数点对齐）、从左边开始减（应该从右边个位或小数部分开始）、借位时漏了某一位。题目是简体中文家长说明 + 英文题干。本周配有双向对照表，显示题目对应的官方 2021 Primary Mathematics Syllabus P4 Decimals 2.1，以及申请 P5 → 掌握 P4 的规则。本周不教：三位小数的加减（那超出 P4 Decimals 2.1 范围）、小数乘除（Decimals 3.1–3.3 是 P4 后续内容）、乘除 10/100/1000（P5）、百分数（percentages）。",
+      parentBrief: "本周主题：小数加减（最多两位小数）。孩子会学小数加减法（到2位小数）。关键技能：对齐小数点，补零补位，竖式计算。金额新元和分是2位小数可以练。常见错误：不对齐小数点、从左边开始减、借位时漏了某一位。",
       videoUrl: null,
       kaizenFocus: null,
       questions: [
@@ -1759,7 +1759,7 @@ What is 10.00 − 4.37?`,
       description: "AEIS-Primary P4 Mathematics: Multiplying and dividing decimals",
       isSample: false,
       errorFocus: null,
-      parentBrief: "本周主题：小数乘除一位整数、整数除以整数商为小数、按要求四舍五入，对应官方 2021 P4 Decimals 3.1–3.3（multiplying and dividing decimals up to 2 decimal places by a 1-digit whole number, dividing a whole number by a whole number with quotient as a decimal, rounding answers to a specified degree of accuracy）。申请 P5 入学的孩子需掌握 P4 内容（MOE AEIS preceding level 规则）。关键技能：2.45 × 3 = 7.35，6.4 ÷ 4 = 1.6，5 ÷ 2 = 2.5，7 ÷ 4 = 1.75，四舍五入到指定小数位。金额写新元 S$ 不是美元 $。常见错误：小数点位置错、除不尽不会写成小数、四舍五入看错位。题目是简体中文家长说明 + 英文题干。本周配有双向对照表，显示题目对应的官方 2021 Primary Mathematics Syllabus P4 Decimals 3.1–3.3，以及申请 P5 → 掌握 P4 的规则。本周不教：小数×小数、除以小数、×÷10 100 1000（P5）、百分数。",
+      parentBrief: "本周主题：小数乘除一位整数、整数除以整数商为小数、按要求四舍五入。孩子会学小数乘除一位整数（如2.45×3=7.35, 6.4÷4=1.6）、整数除法商为小数（如5÷2=2.5）、四舍五入到指定小数位。常见错误：小数点位置错、除不尽不会写成小数、四舍五入看错位。",
       videoUrl: null,
       kaizenFocus: null,
       questions: [
@@ -1856,7 +1856,7 @@ What is 4.38 × 2, rounded to 1 decimal place?`,
       description: "AEIS-Primary P4 Mathematics: Area and perimeter (missing side, composite)",
       isSample: false,
       errorFocus: null,
-      parentBrief: "本周主题：已知面积/周长求一边、正方形边长、长方形+正方形组合图形的面积和周长，对应官方 2021 P4 Area and Perimeter 1.1–1.3（finding one dimension of a rectangle given the other dimension and its area/perimeter; finding the length of one side of a square given its area/perimeter; finding the area and perimeter of composite figures made up of rectangles and squares）。申请 P5 入学的孩子需掌握 P4 内容（MOE AEIS 的 preceding level 规则）。关键技能：长方形 area = length × width → 已知 area 和 length，求 width：width = area ÷ length；长方形 perimeter = 2 × (length + width) → 已知 perimeter 和 length，求 width：width = perimeter ÷ 2 − length；正方形 area = side × side → 已知 area 求 side：side = √area（例 area 36 cm² → side 6 cm）；正方形 perimeter = 4 × side → 已知 perimeter 求 side：side = perimeter ÷ 4；组合图形（L-shape / T-shape 等）：可以拆分（split）成几个长方形分别算面积再相加，或用大长方形减去缺口；周长只算外轮廓（outer perimeter），不算内部拼接线。常见错误：组合图形把内部边算进周长（should only count outer edges）、求一边时面积÷错边（area ÷ wrong side）、正方形边长当面积（confusing side with area）、拆分组合图形时漏算某一块。题目配有双向对照表，显示对应官方 2021 Primary Mathematics Syllabus P4 Area and Perimeter 1.1–1.3，以及申请 P5 → 掌握 P4 的规则。本周明确不教：三角形面积（area of triangle, P5）、圆形/半圆（circles / semicircles）、立方体/长方体的体积（volume of cube/cuboid）、cm² ↔ m² 互换（converting cm² ↔ m²）、P3 纯概念「什么是面积」而不求缺失边/不涉及组合图形的题目。",
+      parentBrief: "本周主题：已知面积/周长求一边、正方形边长、长方形+正方形组合图形的面积和周长。孩子会学已知面积/周长求一边、求正方形边长（已知面积或周长）、求组合图形（L-shape/T-shape）的面积和周长。常见错误：组合图形把内部边算进周长、求一边时面积÷错边、正方形边长当面积。",
       videoUrl: null,
       kaizenFocus: null,
       questions: [
@@ -1953,7 +1953,7 @@ A rectangular garden is 15 m long and 8 m wide. A square flower bed of side 3 m 
       description: "AEIS-Primary P4 Mathematics: Tables and line graphs",
       isSample: false,
       errorFocus: null,
-      parentBrief: "本周主题：从表补全数据、读折线图（最高/最低、升/降、差值），对应官方 2021 P4 Statistics 1.1–1.2（completing a table from given data; reading and interpreting data from tables and line graphs）。申请 P5 入学的孩子需掌握 P4 内容（MOE AEIS 的 preceding level 规则）。关键技能：读表格（table）找缺失数字、把给出的数据填入空白表格、折线图（line graph）读点（reading data points: 横轴日期/类别 + 纵轴数值）、找最高点/最低点（highest / lowest point）、判断升降趋势（increase / decrease from one point to another）、计算差值（difference = 高的值 − 低的值）、回答 'how much more / less'（用减法）。常见错误：把折线两点之间的斜率当成数值（the slope is not the value, read the point on the vertical axis）、读错横轴日期（misreading the day/category on horizontal axis）、算差值用加法而不是减法（difference should be subtraction, not addition）、表格填数时单位漏写或错写（missing or wrong units when completing a table）。题目配有双向对照表，显示对应官方 2021 Primary Mathematics Syllabus P4 Statistics 1.1–1.2，以及申请 P5 → 掌握 P4 的规则。本周明确不教：饼图（pie charts，下周）、条形图作为主要新技能（bar graphs 已在 P3 第 13 周学过）、平均数/均值（mean / average，除非能从官方 P4 大纲引用，不要自创）、P5/P6 数据主题（如 mode / median / range）。",
+      parentBrief: "本周主题：从表补全数据、读折线图（最高/最低、升/降、差值）。孩子会学读表格找缺失数字、把给出的数据填入空白表格、读折线图找最高点/最低点、判断升降趋势、计算差值。常见错误：把折线两点之间的斜率当成数值、读错横轴日期、算差值用加法而不是减法。",
       videoUrl: null,
       kaizenFocus: null,
       questions: [
@@ -2050,7 +2050,7 @@ The canteen sold drinks each day: Monday 85, Tuesday 92, Wednesday 88, Thursday 
       description: "AEIS-Primary P4 Mathematics: Pie charts",
       isSample: false,
       errorFocus: null,
-      parentBrief: "本周主题：读饼图（哪一块最大/最小、一块是总数的几分之几、已知总数求人数），对应官方 2021 P4 Statistics 1.2 pie charts（reading and interpreting data from pie charts）。申请 P5 入学的孩子需掌握 P4 内容（MOE AEIS 的 preceding level 规则）。关键技能：读饼图（pie chart）识别哪一块最大/最小（which slice is the largest / smallest）、理解每一块是整体的几分之几（each slice is a fraction of the whole）、用分数乘总数求人数（multiply the total by the fraction to find the number）、验证所有分数块之和是 1（check that all fractions add up to 1）。算法：1/2 of 40 = 40 ÷ 2 = 20（已知总数 40，一块是 1/2，求这块的人数 = 40 ÷ 2 = 20）。常见错误：把最大块当作全部（treating the largest slice as the whole）、分数块加起来不是 1（fractions do not sum to 1）、先乘分子再除分母（multiplying by numerator first instead of dividing by denominator first: should be 40 ÷ 2, not 40 × 1 ÷ 2）、混淆哪一块最大（identifying the wrong slice as largest because not comparing all fractions correctly）。题目配有双向对照表，显示对应官方 2021 Primary Mathematics Syllabus P4 Statistics 1.2 pie charts，以及申请 P5 → 掌握 P4 的规则。本周明确不教：百分数（percentages，P5）、平均数/均值（mean / average）、360° 扇形角度计算（sector angles in degrees，除非用简单分数 1/4 = 90°，但重点是分数 of a set）。本周只用分数（fractions: 1/2, 1/4, 1/8, 1/5, 3/8），不用百分数。每个饼图给出总数（e.g., 40 children），所有分数块之和必须是 1。",
+      parentBrief: "本周主题：读饼图（哪一块最大/最小、一块是总数的几分之几、已知总数求人数）。孩子会学读饼图识别哪一块最大/最小、理解每一块是整体的几分之几、用分数乘总数求人数。算法：1/2 of 40=40÷2=20。常见错误：把最大块当作全部、分数块加起来不是1、先乘分子再除分母。",
       videoUrl: null,
       kaizenFocus: null,
       questions: [
@@ -2149,7 +2149,7 @@ The pie chart shows 56 students' favourite games. Soccer 3/8, Basketball 1/4, Ba
       description: "AEIS-Primary P4 Mathematics: Angles",
       isSample: false,
       errorFocus: null,
-      parentBrief: "本周主题：角的名称（∠ABC、∠a）、度数测量、直角/平角/周角（right angle = 90°、straight angle = 180°、complete turn = 360°）、1/4 圈 = 90°、1/2 圈 = 180°、一整圈 = 360°、画指定角度（describe in words: 'draw a 90° angle / a right angle'），对应官方 2021 P4 Geometry → Angles 1.1–1.3（using notation such as ∠ABC and ∠a to name angles, measuring angles in degrees, drawing an angle of given size, relating quarter turn to 90°, half turn to 180°, complete turn to 360°, comparing two given degree measures, acute angle < 90°, right angle = 90°, obtuse angle between 90° and 180°）。申请 P5 入学的孩子需掌握 P4 内容（MOE AEIS 的 preceding level 规则）。关键技能：识别角的名称（∠ABC 中间字母 B 是角的顶点）、知道直角 = 90°、平角/半圈 = 180°、周角/一整圈 = 360°、1/4 圈 = 90°、比较角度大小（comparing degrees: 75° < 90°, 120° > 90°）、识别锐角（acute < 90°）、直角（right = 90°）、钝角（obtuse between 90° and 180°）。算法：quarter turn (1/4 turn) = 90°, half turn (1/2 turn) = 180°, complete turn = 360°。常见错误：把 1/4 圈当 45°（thinking quarter turn is 45° instead of 90°）、锐角钝角看错 90°（confusing acute and obtuse: acute is less than 90°, obtuse is more than 90° but less than 180°）、∠ABC 时把 A 或 C 当作角的顶点（vertex should be the middle letter B, not A or C）、把半圈当 90°（thinking half turn is 90° instead of 180°）。题目配有双向对照表，显示对应官方 2021 Primary Mathematics Syllabus P4 Geometry → Angles 1.1–1.3，以及申请 P5 → 掌握 P4 的规则。本周明确不教：properties of rectangles/squares beyond 'four right angles' as a fact（长方形正方形性质仅限「四个直角」，不教其他性质）、line symmetry / nets（对称/展开图，那是后续单元）、protractor construction that needs a diagram（需要图示的量角器使用）、triangle angle sum（三角形内角和，不在官方 P4 Angles 1.1–1.3 列表中）、angles beyond obtuse（reflex angle、angles on a straight line add up to 180°，P5）。本周只教：angle notation（角的名称 ∠ABC, ∠a）、angle in degrees（度数）、quarter/half/complete turn（1/4 圈、1/2 圈、一整圈）、comparing angles（比较角度大小）、acute/right/obtuse angle（锐角/直角/钝角）。每个题目用文字描述角，给足信息让孩子能唯一确定答案。",
+      parentBrief: "本周主题：角的名称（∠ABC、∠a）、度数测量、直角/平角/周角（90°/180°/360°）、1/4圈=90°、1/2圈=180°、一整圈=360°、画指定角度、比较角度大小、锐角/直角/钝角。常见错误：把1/4圈当45°、锐角钝角看错90°、∠ABC时把A或C当作角的顶点、把半圈当90°。",
       videoUrl: null,
       kaizenFocus: null,
       questions: [
@@ -2248,7 +2248,7 @@ The angle ∠XYZ has its vertex at Y. The two lines forming the angle are YX and
       description: "AEIS-Primary P4 Mathematics: Rectangle and square",
       isSample: false,
       errorFocus: null,
-      parentBrief: "本周主题：长方形和正方形的性质（不含对角线），对应官方 2021 P4 Geometry → 2D Shapes 2.1–2.2（properties of rectangle and square excluding diagonal properties, drawing rectangles and squares on a square grid）。申请 P5 入学的孩子需掌握 P4 内容（MOE AEIS 的 preceding level 规则）。关键技能：rectangle 有 4 个 right angles（直角 = 90°）和 opposite sides equal（对边相等）；square 有 4 个 right angles 和 4 equal sides（四边相等）；both have opposite sides parallel（如果 P3 第 12 周已教平行和垂直，可以回顾）；在方格纸上画长方形和正方形（describe in words: 'draw a rectangle 4 units by 3 units on a square grid'，不需要图片文件）。算法：识别长方形和正方形的性质、画指定尺寸的长方形和正方形。常见错误：把长方形当成四边相等（thinking rectangle has all sides equal instead of only opposite sides equal）、用对角线性质（using diagonal properties，官方明确排除）、混淆长方形和正方形的定义（confusing rectangle and square: rectangle has opposite sides equal, square has all four sides equal）、忘记长方形和正方形都有 4 个直角（forgetting both shapes have four right angles = 90°）。题目配有双向对照表，显示对应官方 2021 Primary Mathematics Syllabus P4 Geometry → 2D Shapes 2.1–2.2，以及申请 P5 → 掌握 P4 的规则。本周明确不教：diagonal properties（对角线性质，官方明确 excluding diagonal properties）、line symmetry / nets（对称/展开图，后续单元）、triangle angle sum（三角形内角和）、quadrilateral interior angle sum（四边形内角和，不在官方 P4 2.1 列表中，不要发明）。本周只教：rectangle properties（长方形性质：4 right angles, opposite sides equal）、square properties（正方形性质：4 right angles, 4 equal sides）、drawing rectangles and squares on a square grid（在方格纸上画长方形和正方形，用文字描述）。每个题目用文字描述图形，给足信息让孩子能唯一确定答案。",
+      parentBrief: "本周主题：长方形和正方形的性质（不含对角线）、在方格纸上画长方形和正方形。孩子会学rectangle有4个直角（90°）和对边相等；square有4个直角和4边相等；both have opposite sides parallel；在方格纸上画长方形和正方形。常见错误：把长方形当成四边相等、用对角线性质、混淆长方形和正方形的定义。",
       videoUrl: null,
       kaizenFocus: null,
       questions: [
@@ -2347,7 +2347,7 @@ On a square grid, you draw a square with each side 3 units long. How many units 
       description: "AEIS-Primary P4 Mathematics: Line symmetry",
       isSample: false,
       errorFocus: null,
-      parentBrief: "本周主题：对称轴 / line of symmetry，对应官方 2021 P4 Geometry → Symmetry 3.1–3.3（identifying symmetric figures, determining whether a straight line is a line of symmetry of a symmetric figure, completing a symmetric figure with respect to a given line of symmetry on a square grid）。申请 P5 入学的孩子需掌握 P4 内容（MOE AEIS 的 preceding level 规则）。关键技能：一个图形是对称的，如果一半是另一半在一条直线（对称轴）对面的镜像。正方形有 4 条对称轴（两条中线穿过对边，两条对角线）。非正方形长方形有 2 条对称轴（两条中线穿过对边的中点——不包括对角线）。等边三角形有 3 条。非等边的等腰三角形有 1 条。圆有很多条（不要发明数字）。不规则三角形 / 不规则四边形通常有 0 条。完成图形：如果方格纸有一条垂直/水平对称轴，一侧有一些单位格已着色，另一侧的匹配格必须距离对称轴相同的距离。算法：识别对称图形、判断一条直线是否是对称轴、在方格纸上完成对称图形。常见错误：把长方形的对角线当对称轴（rectangle diagonals are NOT lines of symmetry）、认为每个图形都有对称轴（scalene triangles usually have 0）、在对称轴错误的一侧完成图形（should be same distance on the other side）、数出不能让两半重合的折叠线（must check that folding makes two halves match exactly）。题目配有双向对照表，显示对应官方 2021 Primary Mathematics Syllabus P4 Geometry → Symmetry 3.1–3.3，以及申请 P5 → 掌握 P4 的规则。本周明确不教：rotational symmetry / order of rotational symmetry（旋转对称）、reflection in a point（点对称）、3D symmetry（立体对称）、nets（展开图，那是第 29 周）、triangle angle sum（三角形内角和）、quadrilateral interior-angle sum（四边形内角和）。本周只教：line of symmetry（对称轴）、symmetric figure（对称图形）、identifying symmetric figures（识别对称图形 3.1）、determining whether a straight line is a line of symmetry（判断一条直线是否是对称轴 3.2）、completing a symmetric figure on a square grid（在方格纸上完成对称图形 3.3）。每个题目用文字描述图形，给足信息让孩子能唯一确定答案。",
+      parentBrief: "本周主题：对称轴/line of symmetry。孩子会学识别对称图形、判断一条直线是否是对称轴、在方格纸上完成对称图形。正方形有4条对称轴，非正方形长方形有2条（不包括对角线）。常见错误：把长方形的对角线当对称轴、认为每个图形都有对称轴、在对称轴错误的一侧完成图形。",
       videoUrl: null,
       kaizenFocus: null,
       questions: [
@@ -2446,7 +2446,7 @@ On a square grid, a vertical line of symmetry runs down the middle. After comple
       description: "AEIS-Primary P4 Mathematics: Nets",
       isSample: false,
       errorFocus: null,
-      parentBrief: "本周主题：展开图 / nets，对应官方 2021 P4 Geometry → Nets 4.1–4.4（identifying 2D representations of cube, cuboid, cone, cylinder, prism, pyramid; drawing 2D representations of cube, cuboid, prism, pyramid; identifying the nets of 3D solids: cube, cuboid, prism, pyramid; identifying the solid which can be formed by a given net）。申请 P5 入学的孩子需掌握 P4 内容（MOE AEIS 的 preceding level 规则）。关键技能：识别立体图形的二维表示（4.1: cube 立方体, cuboid 长方体, cone 圆锥, cylinder 圆柱, prism 棱柱, pyramid 棱锥）；画二维表示（4.2: cube, cuboid, prism, pyramid——注意 cone 和 cylinder 不在 4.2）；识别展开图（4.3: cube, cuboid, prism, pyramid 的展开图——注意 cone 和 cylinder 不在 4.3，不能发明圆锥圆柱展开图）；从展开图判断可组成的立体图形（4.4）。官方事实：cube 有 6 个正方形面，都相等，有效的 cube net 有 6 个正方形折叠后无重叠；cuboid 有 6 个长方形面（对面相等）；triangular prism 有 2 个三角形面和 3 个长方形面（共 5 面）；square pyramid 有 1 个正方形底和 4 个三角形面（共 5 面）；cone 的 2D 表示是圆+三角形或圆+扇形（只在 4.1，不在 4.3）；cylinder 的 2D 表示是长方形+两个圆（只在 4.1，不在 4.3）。常见错误：以为任何 6 个正方形排列都是 cube net（一排 6 个正方形折叠时面会重叠，不是 cube net）；混淆 prism（2 triangles + 3 rectangles）和 square pyramid（1 square + 4 triangles）；发明 cone/cylinder net（cone 和 cylinder 只在 4.1 二维表示，不在 4.3 展开图中）；把 2D 画法当展开图（2D drawing 如正方形+两个平行四边形表示立方体，不是 net）。本周不教：surface area / volume formulas（表面积体积公式）、Euler's formula（欧拉公式）、line symmetry / rotational symmetry（已教）、triangle angle sum（三角形内角和）、sphere net（球体不在 P4 nets 列表）。这是最后一个官方 P4 Geometry 主题周。",
+      parentBrief: "本周主题：展开图/nets。孩子会学识别立体图形的二维表示（cube、cuboid、cone、cylinder、prism、pyramid）、画二维表示（cube、cuboid、prism、pyramid）、识别展开图（cube、cuboid、prism、pyramid）、从展开图判断可组成的立体图形。常见错误：以为任何6个正方形排列都是cube net、混淆prism和square pyramid、发明cone/cylinder net。",
       videoUrl: null,
       kaizenFocus: null,
       questions: [
@@ -2627,18 +2627,20 @@ Mei`,
         {
           type: "writing",
           order: 3,
-          content: `Write an email to Mei (50-70 words).
+          content: `Write a note to the Lost and Found office (25 words or more).
 
-Mei told you about finding her bottle at Lost and Found. Write back and answer these THREE questions:
-• Have you ever lost something at school? What was it?
-• How did you find it (or did someone help you)?
-• What would you say to someone at Lost and Found?
+You lost your pencil case at school yesterday. Write a note to the Lost and Found office.
 
-成功标准 / Success Criteria:
-✓ 回答所有3个问题 (Answer all 3 content points)
-✓ 使用 this/that 和 your/mine (Use demonstratives and possessives: Is this yours? That's mine.)
-✓ 使用正确冠词 (Use articles correctly: a water bottle, the Lost and Found office)
-✓ 50-70词 (50-70 words)`,
+In your note:
+• Say what you lost and when you lost it
+• Describe what it looks like (colour, size, what's inside or on it)
+• Say why it's important to you
+
+成功标准 / Success Criteria (Cambridge A2 Key for Schools Part 6 format):
+✓ 包含所有3个内容点 (Cover all 3 content points)
+✓ 25词或以上 (25 words or more)
+✓ 使用正确冠词和物主代词 (Use articles: a/the; possessives: my/mine)
+✓ 简短便条格式 (Short note format)`,
           points: 10,
         },
         {
@@ -2705,7 +2707,7 @@ Useful phrases:
       dueDate: new Date("2026-08-20"),
       errorFocus: "3sg-s",
       parentBrief: "本周纠错焦点：第三人称单数 -s（he/she/it + 动词要加 -s）和时间介词 at/in/on。中文动词不变形，孩子会说 she wake up 或 he go to school。英语现在时里，he/she/it 后面的动词必须加 -s：wakes, goes, has。时间介词：at 7:00, in the morning, on Monday。本周作业会抓住这两个高频错误。",
-      videoUrl: null,
+      videoUrl: "/video/a2-w1.mp4",
       kaizenFocus: "Add -s to verbs after he/she/it in present simple; use at/in/on for time correctly",
       officialClipId: "loINl3Ln6Ck",
       officialClipCredit: "片源 Super Simple Songs 官方频道。Days of the Week。本站不拥有该片，仅嵌入官方 YouTube。孩子先听 on Monday / on Tuesday，再练 she wakes / at 7:00 / on Monday。",
@@ -2777,19 +2779,20 @@ Subject: Your daily routine
 
 Hi!
 
-Thanks for your last email. I want to know about your school day! What time do you wake up? What do you eat for breakfast? How do you get to school? And what do you do after school in the evening?
+Write a story from the pictures (35 words or more).
 
-Write back soon!
-Sam
+Look at these three pictures about Mei's Monday morning. Write a story about what happened.
 
-Write your email to Sam (50-70 words). Answer ALL the questions.
+Picture 1简体描述: Mei醒来看闹钟（alarm clock shows 6:30），阳光从窗户照进来，她揉眼睛。
+Picture 2简体描述: Mei在厨房吃早餐（breakfast: bread and milk），妈妈在旁边准备便当（packed lunch）。
+Picture 3简体描述: Mei背着书包（school bag）走出家门，爸爸在门口挥手说再见（waving goodbye）。
 
-成功标准 / Success Criteria:
-✓ 回答所有4个问题 (Answer all 4 questions)
-✓ 第三人称单数 -s (If you mention family: My dad drives... / My sister wakes...)
-✓ 时间介词 at/in/on (at 7:00, in the morning, on weekdays)
-✓ 邮件格式 (Email format: Hi Sam, ... / Best, [your name])
-✓ 50-70词 (50-70 words)`,
+成功标准 / Success Criteria (Cambridge A2 Key for Schools Part 7 format):
+✓ 写35词或以上 (Write 35 words or more)
+✓ 描述所有3张图片发生的事 (Describe what happens in all 3 pictures)
+✓ 使用过去时（这是星期一早上发生的事）或现在时讲故事 (Use past tense for story OR present tense)
+✓ 第三人称单数 -s（如果用现在时：She wakes, eats, leaves） (If present tense: use 3rd person -s)
+✓ 故事连贯，有开头、经过、结尾 (Story flows with beginning, middle, end)`,
           points: 10,
         },
         {
@@ -2866,7 +2869,7 @@ AI will listen for correct use of third-person -s (my sister walks, dad takes th
       dueDate: new Date("2026-08-27"),
       errorFocus: "present-continuous",
       parentBrief: "本周纠错焦点：现在进行时 vs 一般现在时，以及 like + -ing。中文用时间词表示习惯，孩子会说 I am going to school every day（进行时被过度泛化）。英语习惯用一般现在时：I go to school every day；正在发生才用进行时：I am swimming now。另外，like/enjoy 后面接 -ing：I like reading。本周盯住这两个混淆点。",
-      videoUrl: null,
+      videoUrl: "/video/a2-w2.mp4",
       kaizenFocus: "Use present simple for habits, present continuous for now; like/enjoy + -ing",
       officialClipId: "-DNilMthxx8",
       officialClipCredit: "片源 Cambridge English 官方频道，A2 Key for Schools 口语样例。本站与剑桥无隶属，不提供官方试卷。孩子看两人怎么回答学校、作业、喜欢做什么。",
@@ -3029,7 +3032,7 @@ AI will check if you correctly use present continuous (am/is/are + -ing) for NOW
       dueDate: new Date("2026-09-03"),
       errorFocus: "past-simple",
       parentBrief: "本周纠错焦点：一般过去时和 used to。中文靠时间词「昨天、上周」来表示过去，动词不变形，孩子会说 yesterday I go。英语过去时动词必须变形：went, visited, had。另外，以前的习惯用 used to（不是 use to）：I used to live in Beijing。本周作业会反复纠正这两个化石化高危点。",
-      videoUrl: null,
+      videoUrl: "/video/a2-w3.mp4",
       kaizenFocus: "Use past simple for finished actions (went, visited); used to for old habits",
       officialClipId: "ecm9HEFcfdQ",
       officialClipCredit: "片源 Super Simple Songs 官方频道。The Family Tree。本站不拥有该片，仅嵌入官方 YouTube。孩子先听 mummy / daddy / grandma，再练过去时 visited / used to。",
@@ -3756,7 +3759,7 @@ AI will listen for correct use of time prepositions: at (clock times, night, wee
       isSample: true,
       errorFocus: "present-perfect",
       parentBrief: "本周纠错焦点：现在完成时 vs 一般过去时。中文的「了」不等于 have + V3，孩子会说 I have went yesterday（时态混用）或 I am here for 6 months（该用 have been）。英语现在完成表示「过去的事对现在还有影响」：I have been here for six months（还在这里）。明确过去的时间用过去时：I went yesterday。本周微课和作业会反复对比这两个时态。",
-      videoUrl: null,
+      videoUrl: "/video/b1-w0.mp4",
       kaizenFocus: "Use present perfect (have/has + V3) for situations that still matter now; past simple for finished time",
       officialClipId: "xF_Q2anYOfc",
       officialClipCredit: "片源 Cambridge English 官方频道，B1 Preliminary for Schools 口语样例。本站与剑桥无隶属，不提供官方试卷。孩子先看两人怎么回答自己、学校、经历，再练 Have you ever…? / present perfect。",
@@ -3905,7 +3908,7 @@ Useful phrases (时态对比练习):
       dueDate: new Date("2026-08-20"),
       errorFocus: "experience-comparatives",
       parentBrief: "本周纠错焦点：现在完成时的经历用法（Have you ever...?）和比较级。孩子会说 Have you go to Gardens by the Bay?（过去式和完成时混淆）或 It was impressive than...（漏了 more）。英语问经历用 Have you ever been...? Have you visited...?；比较级要加 more 或 -er：more impressive, bigger。本周写作和口语会盯住这两个点。",
-      videoUrl: null,
+      videoUrl: "/video/b1-w1.mp4",
       kaizenFocus: "Use present perfect for experience (Have you ever...?); comparatives with more/-er",
       officialClipId: "Lwkn3WWGhUg",
       officialClipCredit: "片源 VisitSingapore 官方频道（新加坡旅游局）。宣传片 SingapoReimagine，Cloud Forest / Gardens by the Bay。本站不拥有该片，仅嵌入官方 YouTube。孩子先看片子，再练 Have you ever been…? 和 more impressive than…。",
@@ -4077,7 +4080,7 @@ Useful phrases:
       dueDate: new Date("2026-08-27"),
       errorFocus: "conditional-gerund",
       parentBrief: "本周纠错焦点：第一条件句（If + 现在式, will/must/can...）和动名词（enjoy/like + -ing，介词后 + -ing）。中文条件句不变形，孩子会说 If you bring phone, must...（缺主句主语或助动词）。还有典型化石化：enjoy to use（应该是 enjoy using），good at learn（应该是 good at learning）。本周作业会反复训练这两个难点。",
-      videoUrl: null,
+      videoUrl: "/video/b1-w2.mp4",
       kaizenFocus: "If + present, will/must (1st conditional); enjoy/like + -ing, preposition + -ing",
       officialClipId: "dVrHLZtvr5g",
       officialClipCredit: "片源 gov.sg 官方频道。Real or Fake: Disinformation。本站不拥有该片，仅嵌入官方 YouTube。孩子先看 how to check real or fake，再练 If you see a message, you should… 和 enjoy checking / good at spotting。",
@@ -4253,7 +4256,7 @@ Useful phrases:
       dueDate: new Date("2026-09-03"),
       errorFocus: "passive-modals",
       parentBrief: "本周纠错焦点：被动语态和情态动词（should/ought to）。中文少用被动，孩子会说 We recycle the bottles（主动）而写不出 Plastic is recycled（被动）。建议表达用 should/ought to + 动词原形。环保话题需要被动语态描述系统（Plastic is recycled, bins are collected）和情态动词提建议（We should reduce, students ought to bring...）。作业盯住这两个化石化高危点。",
-      videoUrl: null,
+      videoUrl: "/video/b1-w3.mp4",
       kaizenFocus: "Use passive voice (is recycled, are collected); should/ought to + bare verb for advice",
       officialClipId: "jAeqGbJIfJE",
       officialClipCredit: "片源 Clean and Green Singapore 官方频道（NEA Recycle Right / Bloobin）。本站不拥有该片，仅嵌入官方 YouTube。孩子先看 check / clean / recycle，再练 Plastic is recycled 和 should/ought to。",
@@ -4953,6 +4956,51 @@ DO NOT write: although + but / despite of / despite + clause without noun
 ✓ 100-120词 (100-120 words)`,
           points: 10,
         },
+        {
+          type: "listening",
+          order: 4,
+          content: `听读练习 / Listening Preparation (read carefully)
+
+Ms Tan: Good morning, everyone. I want to tell you about yesterday's Sports Day. Although the weather forecast said it would rain, we decided to go ahead with the event.
+
+Despite the cloudy sky in the morning, all the students arrived on time. We started with the 100-metre sprint. Jun Wei won the race! Despite feeling nervous, he ran so fast.
+
+Then it started raining during the relay race. Although we wanted to continue, it wasn't safe on the wet track. Mr Kumar said, "Despite our disappointment, safety comes first."
+
+So, although we didn't finish all the races, we moved to the hall and played indoor games instead. Despite the change of plans, everyone had a great time!`,
+          options: JSON.stringify([
+            "What did the weather forecast say?|A. It would be sunny|B. It would rain|C. It would be cloudy",
+            "Who won the 100-metre sprint?|A. Ms Tan|B. Mr Kumar|C. Jun Wei",
+            "Why did they stop the relay race?|A. It was too hot|B. It wasn't safe on the wet track|C. Students were tired",
+          ]),
+          correctAnswer: "B,C,B",
+          points: 3,
+        },
+        {
+          type: "speaking",
+          order: 5,
+          content: `口语练习 / Speaking Practice
+
+Task: Talk about a time when plans changed (about 1-2 minutes)
+
+Tell your partner about a day when your plans changed because of weather or another problem. Talk about:
+• What you originally planned to do
+• What went wrong or changed
+• What you did instead
+• How you felt about the situation
+
+You MUST use "although" or "even though" at least once AND "despite" or "in spite of" at least once:
+✓ Although / even though + clause (Although it rained, we went...)
+✓ Despite / in spite of + noun or -ing (Despite the rain, we...)
+
+Useful phrases:
+• Although we planned to..., we couldn't because...
+• Despite the..., we still...
+• Even though..., we decided to...
+• In spite of feeling..., we...
+• It was disappointing, but despite..., we...`,
+          points: 10,
+        },
       ],
     },
     {
@@ -5059,6 +5107,56 @@ DO NOT write: so + noun / so a + noun / such + adjective alone (without noun)
 ✓ 描述为什么这一天特别 (Explain why the day was special)
 ✓ 邮件格式 (Email format: greeting, paragraphs, closing)
 ✓ 100-120词 (100-120 words)`,
+          points: 10,
+        },
+        {
+          type: "listening",
+          order: 4,
+          content: `听读练习 / Listening Preparation (read carefully)
+
+Jun Wei: Mei, how was your weekend?
+
+Mei: It was so exhausting! We had such a long family gathering on Saturday. We drove to Johor Bahru to visit my relatives.
+
+Jun Wei: That sounds tiring! How long was the drive?
+
+Mei: It took such a long time because of the traffic – almost three hours! But when we arrived, my aunt cooked such delicious laksa. I was so hungry that I ate two bowls!
+
+Jun Wei: Sounds like it was worth it! Did you have fun?
+
+Mei: Yes! My cousins are so funny. We played board games for such a long time. But by evening, I was so tired that I fell asleep in the car on the way home!`,
+          options: JSON.stringify([
+            "Where did Mei go on Saturday?|A. Singapore Zoo|B. Johor Bahru|C. East Coast Park",
+            "How long was the drive?|A. One hour|B. Two hours|C. Almost three hours",
+            "What did Mei's aunt cook?|A. Chicken rice|B. Laksa|C. Fried noodles",
+          ]),
+          correctAnswer: "B,C,B",
+          points: 3,
+        },
+        {
+          type: "speaking",
+          order: 5,
+          content: `口语练习 / Speaking Practice
+
+Task: Talk about a very good or very difficult day (about 1-2 minutes)
+
+Tell your partner about a day that was unusually good or difficult. Talk about:
+• What day it was and what happened
+• Why it was special (very busy, very tiring, very exciting, etc.)
+• How people behaved or what things were like
+• How you felt about it
+
+You MUST use "so + adjective" at least once AND "such (+ a/an) + adjective + noun" at least once:
+✓ so + adjective (so tired, so happy, so interesting)
+✓ such a/an + adjective + singular noun (such a good day, such an interesting lesson)
+✓ such + adjective + plural/uncountable (such friendly people, such bad weather)
+
+Useful phrases:
+• It was such a... day
+• I was so... that I...
+• The... was/were so...
+• We had such a... time
+• Everyone was so...`,
           points: 10,
         },
       ],
@@ -5169,6 +5267,54 @@ DO NOT write: too much tired / enough tall / too tired that I can't / I am not e
 ✓ 解释限制是什么以及你的感受 (Explain the limit and how you felt)
 ✓ 邮件格式 (Email format: greeting, paragraphs, closing)
 ✓ 100-120词 (100-120 words)`,
+          points: 10,
+        },
+        {
+          type: "listening",
+          order: 4,
+          content: `听读练习 / Listening Preparation (read carefully)
+
+Ms Tan: Class, I want to talk about the school trip next Friday. We're going to the Science Centre, but we need to leave early.
+
+The bus will arrive at 7:30 a.m., so please don't be late. Some students said they wanted to bring their cameras, but the museum is too dark to take good photos inside. You're welcome to take pictures outside during lunch break.
+
+We only have enough time for two exhibitions, so we'll visit the Space and Technology sections. The third exhibition is too far to walk to in our schedule.
+
+The museum shop has interesting books, but they're quite expensive. If you want to buy something, make sure you bring enough money. Most items cost between $10 and $20.
+
+Any questions?`,
+          options: JSON.stringify([
+            "What time will the bus arrive?|A. 7:00 a.m.|B. 7:30 a.m.|C. 8:00 a.m.",
+            "Why can't students take photos inside?|A. Cameras are not allowed|B. It's too dark|C. It's too expensive",
+            "How many exhibitions will they visit?|A. One|B. Two|C. Three",
+          ]),
+          correctAnswer: "B,B,B",
+          points: 3,
+        },
+        {
+          type: "speaking",
+          order: 5,
+          content: `口语练习 / Speaking Practice
+
+Task: Talk about something you wanted to do but couldn't (about 1-2 minutes)
+
+Tell your partner about a time when you wanted to do something but couldn't because of a limit. Talk about:
+• What you wanted to do
+• What stopped you (too tired, not enough time, not old enough, etc.)
+• How you felt about it
+• What you did instead or learned
+
+You MUST use "too + adjective + to-infinitive" AND "adjective + enough" or "enough + noun":
+✓ too + adjective + to-infinitive (too tired to run, too late to join)
+✓ adjective + enough (tall enough, fast enough, old enough)
+✓ enough + noun (enough time, enough money)
+
+Useful phrases:
+• I wanted to..., but I was too... to...
+• I wasn't... enough to...
+• We didn't have enough...
+• It was too... for me to...
+• Next time, I'll make sure I'm... enough`,
           points: 10,
         },
       ],
@@ -5297,6 +5443,58 @@ DO NOT write: You like it, is it? / She's tall, is she? / You don't like English
 ✓ 100-120词 (100-120 words)`,
           points: 10,
         },
+        {
+          type: "listening",
+          order: 4,
+          content: `听读练习 / Listening Preparation (read carefully)
+
+Mei: Jun Wei, the school trip is next Friday, isn't it?
+
+Jun Wei: Yes, that's right. We're going to the National Museum.
+
+Mei: We need to wear our school uniform, don't we?
+
+Jun Wei: Yes, Ms Tan said school uniform is required. And we should bring our water bottles, shouldn't we?
+
+Mei: Good idea! The museum has air conditioning, doesn't it? I hope it's not too cold.
+
+Jun Wei: Yes, it does. But you can bring a light jacket if you want. Oh, and we don't need to bring lunch, do we?
+
+Mei: No, Ms Tan said we'll eat at the museum café. That sounds nice!`,
+          options: JSON.stringify([
+            "When is the school trip?|A. This Friday|B. Next Friday|C. Next Monday",
+            "What should students wear?|A. PE uniform|B. Casual clothes|C. School uniform",
+            "Where will they eat lunch?|A. At school|B. At the museum café|C. Bring packed lunch",
+          ]),
+          correctAnswer: "B,C,B",
+          points: 3,
+        },
+        {
+          type: "speaking",
+          order: 5,
+          content: `口语练习 / Speaking Practice
+
+Task: Check information with your partner (about 1-2 minutes)
+
+Practice checking details about a school event (imaginary or real). Talk about:
+• When and where the event is
+• What you need to bring or wear
+• What you're not sure about and want to confirm
+
+You MUST use question tags correctly:
+✓ Positive statement + negative tag (It's on Friday, isn't it?)
+✓ Negative statement + positive tag (We don't need books, do we?)
+✓ Match the auxiliary (is→isn't it, does→doesn't she, can→can't we)
+
+Useful phrases for checking:
+• The event is on..., isn't it?
+• We need to bring..., don't we?
+• Ms Tan said..., didn't she?
+• You're coming too, aren't you?
+• We can't..., can we?
+• It starts at..., doesn't it?`,
+          points: 10,
+        },
       ],
     },
     {
@@ -5408,6 +5606,56 @@ DO NOT write: I already eat before she come / When I arrived, the bus left / I h
 ✓ 100-120词 (100-120 words)`,
           points: 10,
         },
+        {
+          type: "listening",
+          order: 4,
+          content: `听读练习 / Listening Preparation (read carefully)
+
+Priya: Jun Wei, you look upset. What happened?
+
+Jun Wei: I had such a frustrating morning! I wanted to join the basketball practice, but when I arrived at the sports hall at 7:45, the coach told me they had already started at 7:30.
+
+Priya: Oh no! Did you get to join?
+
+Jun Wei: No! And that's not all. When I went to the canteen at recess, my favourite noodles had already sold out. The aunty said they had finished by 10:15, but I arrived at 10:25!
+
+Priya: That's really unlucky. I hope your afternoon was better!
+
+Jun Wei: Well, I went to return my library book, but the library had already closed for maintenance. They had closed at 1:00 p.m., and I got there at 1:10!`,
+          options: JSON.stringify([
+            "What time had basketball practice already started?|A. 7:15|B. 7:30|C. 7:45",
+            "Why couldn't Jun Wei buy noodles?|A. He had no money|B. The canteen was closed|C. They had already sold out",
+            "Why was the library closed?|A. For a staff meeting|B. For maintenance|C. It was too late",
+          ]),
+          correctAnswer: "B,C,B",
+          points: 3,
+        },
+        {
+          type: "speaking",
+          order: 5,
+          content: `口语练习 / Speaking Practice
+
+Task: Talk about a time you were late and missed something (about 1-2 minutes)
+
+Tell your partner about a time when you arrived late and something had already happened. Talk about:
+• What you wanted to do or attend
+• Why you were late
+• What had already happened when you arrived
+• How you felt about it
+
+You MUST use the past perfect (had + past participle) at least twice:
+✓ had + past participle for the earlier action (The bus had left; The shop had closed; My friend had already eaten)
+✓ Simple past for when you arrived (When I arrived, the class had started)
+
+Useful phrases:
+• When I got there, ... had already...
+• By the time I arrived, ... had...
+• I was late because...
+• Unfortunately, the... had already...
+• I felt disappointed because...
+• Next time, I'll make sure to...`,
+          points: 10,
+        },
       ],
     },
 
@@ -5510,6 +5758,63 @@ You MUST use "going to" at least twice.
 ✓ 主语动词一致 (Subject-verb agreement: I am / She is / We are + going to + verb)
 ✓ 邮件格式 (Email format: Hi Sam, ... / Best, [your name])
 ✓ 40-60词 (40-60 words)`,
+          points: 10,
+        },
+        {
+          type: "listening",
+          order: 4,
+          content: `听读练习 / Listening Preparation (read carefully)
+
+Mei: Hi Jun Wei! What are you going to do tomorrow?
+
+Jun Wei: Hi Mei! Tomorrow is Saturday, so I'm going to the library in the morning. I need to return some books. What about you?
+
+Mei: I'm going to East Coast Park with my family. We're going to have a picnic by the sea.
+
+Jun Wei: That sounds fun! What time are you going to leave?
+
+Mei: We're going to leave at nine o'clock. My dad is going to drive us there.
+
+Jun Wei: Are you going to cycle?
+
+Mei: Yes! My brother is going to bring his bicycle. I'm going to rent one there.
+
+Jun Wei: Great! In the afternoon, I'm going to play basketball with my cousins at the community centre.
+
+Mei: Enjoy your weekend!`,
+          options: JSON.stringify([
+            "What is Jun Wei going to do on Saturday morning?|A. Go to East Coast Park|B. Go to the library|C. Play basketball",
+            "What is Mei's family going to do at East Coast Park?|A. Have a picnic|B. Play basketball|C. Return books",
+            "What time is Mei going to leave?|A. Eight o'clock|B. Nine o'clock|C. Ten o'clock",
+          ]),
+          correctAnswer: "B,A,B",
+          points: 3,
+        },
+        {
+          type: "speaking",
+          order: 5,
+          content: `口语练习 / Speaking Practice
+
+Task: Talk about your weekend plans (about 1 minute)
+
+Tell your partner what you are going to do this weekend. Talk about:
+• What you are going to do on Saturday
+• What you are going to do on Sunday
+• Who you are going to spend time with
+• What time you are going to do these activities
+
+You MUST use "be going to" correctly:
+✓ I am going to... / I'm going to...
+✓ My family is going to... / We are going to...
+✓ He/She is going to...
+
+Useful phrases:
+• On Saturday/Sunday, I'm going to...
+• In the morning/afternoon/evening, I'm going to...
+• My family and I are going to...
+• We're going to... at [time]
+• My friend/brother/sister is going to...
+• I'm really excited because I'm going to...`,
           points: 10,
         },
       ],
@@ -5615,6 +5920,55 @@ You MUST use "can" at least once and "must" at least once.
 ✓ 40-60词 (40-60 words)`,
           points: 10,
         },
+        {
+          type: "listening",
+          order: 4,
+          content: `听读练习 / Listening Preparation (read carefully)
+
+Ms Tan: Good morning, class. Today I want to remind you about some important school rules. Listen carefully.
+
+In the library, you can borrow up to three books. You must be quiet when you are reading. You cannot eat or drink in the library.
+
+In the canteen, you can buy food during recess and lunch. You must queue up at the stall. You must clear your plates when you finish eating.
+
+During PE lessons, you can play sports on the field. You must wear your PE uniform and sports shoes. You cannot run near the swimming pool.
+
+If you follow these rules, everyone can have a safe and happy time at school!`,
+          options: JSON.stringify([
+            "How many books can students borrow from the library?|A. Two books|B. Three books|C. Four books",
+            "What must students do in the library?|A. Eat snacks|B. Talk loudly|C. Be quiet",
+            "What must students wear during PE lessons?|A. School uniform|B. PE uniform and sports shoes|C. Swimming costume",
+          ]),
+          correctAnswer: "B,C,B",
+          points: 3,
+        },
+        {
+          type: "speaking",
+          order: 5,
+          content: `口语练习 / Speaking Practice
+
+Task: Talk about school rules and what you can do (about 1 minute)
+
+Tell your partner about the rules at your school. Talk about:
+• What you can do at school (in the library, canteen, or playground)
+• What you must do (school rules)
+• What you cannot do
+• What you can do after school
+
+You MUST use "can", "must", and "cannot" correctly:
+✓ I can... / We can... / You can...
+✓ I must... / We must... / Students must...
+✓ I cannot... / You cannot...
+
+Useful phrases:
+• At my school, we can...
+• Students must...
+• We cannot... in the library/canteen
+• After school, I can...
+• During recess, we can...
+• In PE lessons, we must...`,
+          points: 10,
+        },
       ],
     },
     {
@@ -5714,6 +6068,58 @@ You MUST use like/love/enjoy + -ing at least twice.
 ✓ 主语和动词一致 (Subject-verb agreement: I like / She likes / He enjoys)
 ✓ 邮件格式 (Email format: Hi Alex, ... / Best, [your name])
 ✓ 40-60词 (40-60 words)`,
+          points: 10,
+        },
+        {
+          type: "listening",
+          order: 4,
+          content: `听读练习 / Listening Preparation (read carefully)
+
+Mei: Hi Priya! What do you like doing after school?
+
+Priya: Hi Mei! I love reading books at the library. I enjoy reading mystery stories. What about you?
+
+Mei: I like playing basketball with my friends. I enjoy sports because it's fun and healthy.
+
+Priya: That's great! Do you like drawing?
+
+Mei: Not really. I don't like drawing very much. But my brother Jun Wei loves drawing. He enjoys making pictures of animals.
+
+Priya: My sister hates reading. She prefers watching videos on her tablet!
+
+Mei: Everyone has different hobbies!`,
+          options: JSON.stringify([
+            "What does Priya love doing?|A. Playing basketball|B. Reading books|C. Watching videos",
+            "What does Mei enjoy?|A. Reading mystery stories|B. Drawing pictures|C. Playing basketball",
+            "What does Jun Wei love?|A. Playing sports|B. Reading books|C. Drawing pictures of animals",
+          ]),
+          correctAnswer: "B,C,C",
+          points: 3,
+        },
+        {
+          type: "speaking",
+          order: 5,
+          content: `口语练习 / Speaking Practice
+
+Task: Talk about your hobbies and what you like doing (about 1 minute)
+
+Tell your partner about activities you like and don't like. Talk about:
+• What you love doing after school or on weekends
+• What activities you enjoy
+• What you don't like doing or hate doing
+• What your family members enjoy doing
+
+You MUST use like/love/enjoy/hate + -ing correctly:
+✓ I like/love/enjoy/hate + -ing form
+✓ He/She likes/loves/enjoys/hates + -ing form
+
+Useful phrases:
+• I love... / I enjoy... / I like...
+• I don't like... / I hate...
+• My favourite hobby is... because I enjoy...
+• My brother/sister/friend loves...
+• In my free time, I like...
+• At weekends, I enjoy...`,
           points: 10,
         },
       ],
@@ -5817,6 +6223,51 @@ You MUST use at least two different frequency adverbs (always/usually/often/some
 ✓ 40-60词 (40-60 words)`,
           points: 10,
         },
+        {
+          type: "listening",
+          order: 4,
+          content: `听读练习 / Listening Preparation (read carefully)
+
+Ms Tan: Good morning, class. Let me tell you about my daily routine. I always wake up at 5:30 in the morning. I usually go jogging at the park before breakfast. I never skip breakfast because it gives me energy for the day.
+
+I always arrive at school at 7:00 a.m. I am never late! I often prepare my lessons in the staff room before class starts.
+
+During recess, I sometimes talk to other teachers in the canteen. After school, I usually stay in the classroom to mark homework. I am always busy, but I enjoy teaching!`,
+          options: JSON.stringify([
+            "What time does Ms Tan always wake up?|A. 5:00|B. 5:30|C. 6:00",
+            "What does Ms Tan usually do before breakfast?|A. Mark homework|B. Prepare lessons|C. Go jogging",
+            "What time does Ms Tan always arrive at school?|A. 6:30|B. 7:00|C. 7:30",
+          ]),
+          correctAnswer: "B,C,B",
+          points: 3,
+        },
+        {
+          type: "speaking",
+          order: 5,
+          content: `口语练习 / Speaking Practice
+
+Task: Talk about your daily routine (about 1 minute)
+
+Tell your partner about what you do every day. Talk about:
+• What time you usually wake up
+• What you always do in the morning
+• What you sometimes do after school
+• Things you never do or never forget
+
+You MUST use frequency adverbs in the correct position:
+✓ Before main verbs: I always walk, She usually eats
+✓ After 'be': I am never late, He is always tired
+
+Useful phrases:
+• I always wake up at...
+• I usually have breakfast at...
+• I sometimes... after school
+• I never... on weekdays
+• I am never late for...
+• My teacher is always...
+• On Mondays, I often...`,
+          points: 10,
+        },
       ],
     },
     {
@@ -5914,6 +6365,54 @@ You MUST use in, on, and at for place at least once each (不是时间介词).
 ✓ 40-60词 (40-60 words)`,
           points: 10,
         },
+        {
+          type: "listening",
+          order: 4,
+          content: `听读练习 / Listening Preparation (read carefully)
+
+Ms Tan: Class, please listen carefully. Tomorrow we have a field trip to the Science Centre. We will meet at the school gate at 8 o'clock in the morning. Don't be late!
+
+Bring your water bottle and put it in your bag. When we arrive at the Science Centre, we will meet at the entrance hall. Our guide will wait for us there.
+
+During the visit, stay with your group. Don't wander around alone. If you need help, you can find me at the information counter on the first floor.
+
+Put your lunch boxes in the classroom today. We will eat at the Science Centre cafeteria. See you tomorrow!`,
+          options: JSON.stringify([
+            "Where will students meet tomorrow morning?|A. In the classroom|B. At the school gate|C. At the Science Centre",
+            "Where will the guide wait?|A. At the information counter|B. At the entrance hall|C. In the classroom",
+            "Where can students find Ms Tan if they need help?|A. At the cafeteria|B. At the school gate|C. At the information counter on the first floor",
+          ]),
+          correctAnswer: "B,B,C",
+          points: 3,
+        },
+        {
+          type: "speaking",
+          order: 5,
+          content: `口语练习 / Speaking Practice
+
+Task: Describe where things are in your classroom or school (about 1 minute)
+
+Tell your partner about the location of things. Talk about:
+• Where your classroom is (which floor, which building)
+• Where you sit in class
+• Where your books or bag are
+• Where you meet your friends
+
+You MUST use in, on, and at for place correctly:
+✓ in = enclosed spaces (in the classroom, in the library)
+✓ on = surfaces/floors (on the desk, on the second floor, on the wall)
+✓ at = places as points (at the school gate, at the canteen, at the door)
+
+Useful phrases:
+• My classroom is on the... floor
+• I sit at the desk next to...
+• My bag is under the chair
+• The whiteboard is on the wall
+• We meet at the...
+• The library is in...
+• I put my books on the...`,
+          points: 10,
+        },
       ],
     },
     // SEC WEEKS (AEIS-Secondary English)
@@ -5924,7 +6423,7 @@ You MUST use in, on, and at for place at least once each (不是时间介词).
       description: "AEIS-Secondary English (Sec 1 paper shape): writing + comprehension / language use sample",
       isSample: true,
       errorFocus: "although-but / past tense in narrative",
-      parentBrief: "本周是中学 AEIS 英语试学周，对应官方 SEAB Sec 1 卷型样本（https://www.seab.gov.sg/aeis/test-details/ 2026年7月1日更新）。Part 1 Writing：Sec 1 提供 2 个作文题目，选写 1 篇，200–300 词。Part 2 Comprehension & Language Use：50 道 MCQ（理解 + 完形 + 词汇 + 语法）。本周作业是样本，不是完整 50 题，不是 2 小时 10 分钟正式试卷。AEIS-Secondary 官方 preceding-level 规则：申请 Sec 1 入学者需熟悉 Sec 1 前一级（即 P6 后/Sec 1 前）的英语与数学内容。本周纠错化石：although...but...（中文虽然…但是…迁移）和叙事体过去时态掉落（中文靠时间词yesterday表示过去，动词不变形）。",
+      parentBrief: "本周是中学AEIS英语试学周。孩子会练习阅读理解、完形填空、词汇和语法选择题（Sec 1前一级水平）。本周纠错焦点：although...but...（中文虽然…但是…迁移）和叙事体过去时态掉落。",
       videoUrl: null,
       kaizenFocus: "Classroom English a Sec 1 listener needs: teacher instructions, classmate questions, timetable announcements",
       questions: [
@@ -6013,7 +6512,7 @@ Note: This is a Sec 1 writing sample (2 topics, 200–300 words), not Sec 2 or S
       description: "AEIS-Secondary English (Sec 1 paper shape): CCA / classroom English sample",
       isSample: false,
       errorFocus: "subject-verb agreement (everyone / the team of…)",
-      parentBrief: "中学 AEIS 英语第 1 周。对应官方 SEAB Sec 1 卷型（https://www.seab.gov.sg/aeis/test-details/ 2026年7月1日更新）：Part 1 Writing 提供 2 个作文题目，选写 1 篇，200–300 词；Part 2 Comprehension & Language Use 共 50 道 MCQ（理解 15 + 完形 15 + 词汇 10 + 语法 10）。本周作业是样本，不是完整 50 题，不是 2 小时 10 分钟正式试卷。AEIS-Secondary 官方 preceding-level 规则：申请者需熟悉所申请级别前一级（preceding level）的内容。官方举例：apply Sec 3 → 熟悉 Sec 2。本周针对 Sec 1 申请者，对应 Sec 1 前一级内容水平。本周纠错化石：主谓一致（everyone is / the team of teachers helps，中文主语后动词不变形，英语要根据主语单复数变形）。情境：Wei 在 Riverside Secondary 听 CCA briefing、form teacher instruction。",
+      parentBrief: "中学AEIS英语第1周。孩子会练习阅读理解、完形填空、词汇和语法（Sec 1前一级水平）。本周纠错焦点：主谓一致（everyone is / the team of teachers helps，中文主语后动词不变形，英语要根据主语单复数变形）。情境：Wei在Riverside Secondary听CCA briefing、form teacher instruction。",
       videoUrl: null,
       kaizenFocus: "classroom English a Sec 1 listener needs (CCA briefing, form teacher instruction)",
       questions: [
@@ -6103,7 +6602,7 @@ Note: This is a Sec 1 writing sample (2 topics, 200–300 words), not Sec 2 or S
       description: "AEIS-Secondary English (Sec 1 paper shape): morning assembly sample",
       isSample: false,
       errorFocus: "prepositions of time (at / on / in)",
-      parentBrief: "中学 AEIS 英语第 2 周。对应官方 SEAB Sec 1 卷型（https://www.seab.gov.sg/aeis/test-details/ 2026年7月1日更新）：Part 1 Writing 提供 2 个作文题目，选写 1 篇，200–300 词；Part 2 Comprehension & Language Use 共 50 道 MCQ（理解 15 + 完形 15 + 词汇 10 + 语法 10）。本周作业是样本，不是完整 50 题，不是 2 小时 10 分钟正式试卷。AEIS-Secondary 官方 preceding-level 规则：申请者需熟悉所申请级别前一级（preceding level）的内容。官方举例：apply Sec 3 → 熟悉 Sec 2。本周针对 Sec 1 申请者，对应 Sec 1 前一级内容水平。本周纠错化石：时间介词（at 7:30 / on Monday / in the morning）。中文用一个「在」表达时间（在星期一早上 7:30），英语要区分 at（具体时刻）、on（星期/日期）、in（时段）。情境：Wei 在 Riverside Secondary 听 morning assembly 的 Mr Lim 指令、flag-raising、form-class line-up。本周不是 CEQ。",
+      parentBrief: "中学AEIS英语第2周。孩子会练习阅读理解、完形填空、词汇和语法。本周纠错焦点：时间介词（at 7:30 / on Monday / in the morning）。中文用一个「在」表达时间，英语要区分at（具体时刻）、on（星期/日期）、in（时段）。",
       videoUrl: null,
       kaizenFocus: "classroom English a listener needs at morning assembly (time, place, instruction)",
       questions: [
@@ -6193,7 +6692,7 @@ Note: This is a Sec 1 writing sample (2 topics, 200–300 words), not Sec 2 or S
       description: "AEIS-Secondary English (Sec 1 paper shape): school library sample",
       isSample: false,
       errorFocus: "homework is uncountable (not a homework)",
-      parentBrief: "中学 AEIS 英语第 3 周。对应官方 SEAB Sec 1 卷型（https://www.seab.gov.sg/aeis/test-details/ 2026年7月1日更新）：Part 1 Writing 提供 2 个作文题目，选写 1 篇，200–300 词；Part 2 Comprehension & Language Use 共 50 道 MCQ（理解 15 + 完形 15 + 词汇 10 + 语法 10）。本周作业是样本，不是完整 50 题，不是 2 小时 10 分钟正式试卷。AEIS-Secondary 官方 preceding-level 规则：申请者需熟悉所申请级别前一级（preceding level）的内容。官方举例：apply Sec 3 → 熟悉 Sec 2。本周针对 Sec 1 申请者，对应 Sec 1 前一级内容水平。本周纠错化石：homework / advice / information 是不可数名词（uncountable），不能说 a homework（中文「一份作业」迁移）。正确说法是 homework / some homework / a piece of homework。情境：Wei 在 Riverside Secondary 图书馆第一次借书，用于英语作业。本周不是 CEQ。",
+      parentBrief: "中学AEIS英语第3周。孩子会练习阅读理解、完形填空、词汇和语法。本周纠错焦点：homework / advice / information是不可数名词，不能说a homework（中文「一份作业」迁移）。正确说法是homework / some homework / a piece of homework。",
       videoUrl: null,
       kaizenFocus: "classroom English a listener needs in the library (borrow, due date, assignment)",
       questions: [
@@ -6287,7 +6786,7 @@ Note: This is a Sec 1 writing sample (2 topics, 200–300 words), not Sec 2 or S
       description: "AEIS-Secondary English (Sec 1 paper shape): canteen rules sample",
       isSample: false,
       errorFocus: "must / have to for school rules (not must to)",
-      parentBrief: "中学 AEIS 英语第 4 周。对应官方 SEAB Sec 1 卷型（https://www.seab.gov.sg/aeis/test-details/ 2026年7月1日更新）：Part 1 Writing 提供 2 个作文题目，选写 1 篇，200–300 词；Part 2 Comprehension & Language Use 共 50 道 MCQ（理解 15 + 完形 15 + 词汇 10 + 语法 10）。本周作业是样本，不是完整 50 题，不是 2 小时 10 分钟正式试卷。AEIS-Secondary 官方 preceding-level 规则：申请者需熟悉所申请级别前一级（preceding level）的内容。官方举例：apply Sec 3 → 熟悉 Sec 2。本周针对 Sec 1 申请者，对应 Sec 1 前一级内容水平。本周纠错化石：must / have to 表示学校规则，后面直接加动词原形，不能加 to。中文说「必须要排队」，但英语是 You must queue，不是 You must to queue（中文「必须要」迁移）。must not 表示禁止。情境：Wei、Aisha、Mr Lim 在 Riverside Secondary 食堂第一次午休（queue / tray / no cutting）。本周不是 CEQ。",
+      parentBrief: "中学AEIS英语第4周。孩子会练习阅读理解、完形填空、词汇和语法。本周纠错焦点：must / have to表示学校规则，后面直接加动词原形，不能加to。中文说「必须要排队」，但英语是You must queue，不是You must to queue。",
       videoUrl: null,
       kaizenFocus: "classroom English a listener needs in the canteen (queue, tray, instruction)",
       questions: [
@@ -6379,7 +6878,7 @@ Note: This is a Sec 1 writing sample (2 topics, 200–300 words), not Sec 2 or S
       description: "AEIS-Secondary English (Sec 1 paper shape): PE lesson sample",
       isSample: false,
       errorFocus: "should (advice) vs must (school rule) — unique keys",
-      parentBrief: "中学 AEIS 英语第 5 周。对应官方 SEAB Sec 1 卷型（https://www.seab.gov.sg/aeis/test-details/ 2026年7月1日更新）：Part 1 Writing 提供 2 个作文题目，选写 1 篇，200–300 词；Part 2 Comprehension & Language Use 共 50 道 MCQ（理解 15 + 完形 15 + 词汇 10 + 语法 10）。本周作业是样本，不是完整 50 题，不是 2 小时 10 分钟正式试卷。AEIS-Secondary 官方 preceding-level 规则：申请者需熟悉所申请级别前一级（preceding level）的内容。官方举例：apply Sec 3 → 熟悉 Sec 2。本周针对 Sec 1 申请者，对应 Sec 1 前一级内容水平。本周纠错化石：should（建议/advice）vs must（学校规则/school rule）。如果句子是规则（rule），正确答案是 must，should 不出现或明显错误。如果句子是建议（advice），正确答案是 should，must 不出现或明显错误。每个空只有一个正确选项，不能两个选项都对。情境：Wei 第一次上 PE 课（更衣室 / PE 服装 / 水壶 / 热身 / 身体不适要坐旁边）。Aisha / Coach Ng（或 Mr Lim）给出听者需要的指令。本周不是 CEQ。",
+      parentBrief: "中学AEIS英语第5周。孩子会练习阅读理解、完形填空、词汇和语法。本周纠错焦点：should（建议/advice）vs must（学校规则/school rule）。如果句子是规则，用must；如果是建议，用should。情境：Wei第一次上PE课（更衣室 / PE服装 / 水壶 / 热身）。",
       videoUrl: null,
       kaizenFocus: "classroom English a listener needs at PE lesson (changing room, PE attire, water bottle, warm-up, sit out if unwell)",
       questions: [
@@ -6470,7 +6969,7 @@ Note: This is a Sec 1 writing sample (2 topics, 200–300 words), not Sec 2 or S
       description: "AEIS-Secondary English (Sec 1 paper shape): science lab sample",
       isSample: false,
       errorFocus: "because (reason) vs so (result) — unique keys",
-      parentBrief: "中学 AEIS 英语第 6 周。对应官方 SEAB Sec 1 卷型（https://www.seab.gov.sg/aeis/test-details/ 2026年7月1日更新）：Part 1 Writing 提供 2 个作文题目，选写 1 篇，200–300 词；Part 2 Comprehension & Language Use 共 50 道 MCQ（理解 15 + 完形 15 + 词汇 10 + 语法 10）。本周作业是样本，不是完整 50 题，不是 2 小时 10 分钟正式试卷。AEIS-Secondary 官方 preceding-level 规则：申请者需熟悉所申请级别前一级（preceding level）的内容。官方举例：apply Sec 3 → 熟悉 Sec 2。本周针对 Sec 1 申请者，对应 Sec 1 前一级内容水平。本周纠错化石：because（表示原因）vs so（表示结果）。如果空格需要填原因从句连接词，正确答案是 because，so 不出现或明显错误。如果空格需要填结果连接词，正确答案是 so，because 不出现或明显错误。不能让 because 和 so 都对同一个空。禁止错误：because of + 句子（because of 后只能接名词短语，不能接句子）、so that 当 because 用（so that 表示目的，不表示原因）。情境：Wei 第一次上科学实验课（戴护目镜 / 不要碰本生灯 / 等 Ms Chen 老师 / 洗手）。听者需要的指令。本周不是 CEQ。",
+      parentBrief: "中学AEIS英语第6周。孩子会练习阅读理解、完形填空、词汇和语法。本周纠错焦点：because（表示原因）vs so（表示结果）。如果需要填原因从句连接词，用because；如果需要填结果连接词，用so。情境：Wei第一次上科学实验课（戴护目镜 / 不要碰本生灯 / 洗手）。",
       videoUrl: null,
       kaizenFocus: "classroom English a listener needs in science lab (goggles, Bunsen burner, wait for teacher, wash hands)",
       questions: [
@@ -6561,7 +7060,7 @@ Note: This is a Sec 1 writing sample (2 topics, 200–300 words), not Sec 2 or S
       description: "AEIS-Secondary English (Sec 1 paper shape): after-school dismissal sample",
       isSample: false,
       errorFocus: "if (possible) vs when (certain) — unique keys",
-      parentBrief: "中学 AEIS 英语第 7 周。对应官方 SEAB Sec 1 卷型（https://www.seab.gov.sg/aeis/test-details/ 2026年7月1日更新）：Part 1 Writing 提供 2 个作文题目，选写 1 篇，200–300 词；Part 2 Comprehension & Language Use 共 50 道 MCQ（理解 15 + 完形 15 + 词汇 10 + 语法 10）。本周作业是样本，不是完整 50 题，不是 2 小时 10 分钟正式试卷。AEIS-Secondary 官方 preceding-level 规则：申请者需熟悉所申请级别前一级（preceding level）的内容。官方举例：apply Sec 3 → 熟悉 Sec 2。本周针对 Sec 1 申请者，对应 Sec 1 前一级内容水平。本周纠错化石：if（可能/不确定）vs when（一定会发生）。如果事件是一定会发生的（the bell rings every day），正确答案是 when，if 不出现或明显错误。如果事件是可能的（if you miss the bus），正确答案是 if，when 不出现或明显错误。不能让 if 和 when 都对同一个空。情境：Wei 第一次放学（bell / bag / bus bay or MRT / wait for the bus / don't run across the road）。Riverside Secondary 的 Mr Lim 和 duty teacher。听者需要的指令。本周不是 CEQ。",
+      parentBrief: "中学AEIS英语第7周。孩子会练习阅读理解、完形填空、词汇和语法。本周纠错焦点：if（可能/不确定）vs when（一定会发生）。如果事件是一定会发生的（the bell rings every day），用when；如果事件是可能的（if you miss the bus），用if。情境：Wei第一次放学（bell / bag / bus bay or MRT）。",
       videoUrl: null,
       kaizenFocus: "classroom English a listener needs at dismissal (bell, bag, bus bay, wait, road safety)",
       questions: [
@@ -6656,7 +7155,7 @@ Note: This is a Sec 1 writing sample (2 topics, 200–300 words), not Sec 2 or S
       description: "AEIS-Secondary English (Sec 1 paper shape): computer lab sample",
       isSample: false,
       errorFocus: "present perfect (unfinished / for / since) vs past simple (finished time) — unique keys",
-      parentBrief: "中学 AEIS 英语第 8 周。对应官方 SEAB Sec 1 卷型（https://www.seab.gov.sg/aeis/test-details/ 2026年7月1日更新）：Part 1 Writing 提供 2 个作文题目，选写 1 篇，200–300 词；Part 2 Comprehension & Language Use 共 50 道 MCQ（理解 15 + 完形 15 + 词汇 10 + 语法 10）。本周作业是样本，不是完整 50 题，不是 2 小时 10 分钟正式试卷。AEIS-Secondary 官方 preceding-level 规则：申请者需熟悉所申请级别前一级（preceding level）的内容。官方举例：apply Sec 3 → 熟悉 Sec 2。本周针对 Sec 1 申请者，对应 Sec 1 前一级内容水平。本周纠错化石：present perfect（未完成/持续的时间：for two weeks / since Monday / already）vs past simple（已完成的时间：yesterday / last week / at 2 p.m.）。如果时间是已完成的（yesterday / last week / at 2 p.m.），正确答案是 past simple（went / forgot / logged in），present perfect 不出现或明显错误。如果时间是未完成的/持续的（for two weeks / since Monday / already），正确答案是 present perfect（has been / has learned / have saved），past simple 不出现或明显错误。不能同时让 present perfect 和 past simple 都对同一个空。情境：Wei 第一次上计算机实验室课（ICT lesson: log in / don't share your password / save your work / headphones / instructions a listener needs）。Riverside Secondary 的 Mr Raj ICT teacher。Wei 已在 Riverside 两周（has been for two weeks）；昨天他忘了密码（yesterday he forgot）。本周不是 CEQ。",
+      parentBrief: "中学AEIS英语第8周。孩子会练习阅读理解、完形填空、词汇和语法。本周纠错焦点：present perfect（未完成/持续的时间：for two weeks / since Monday）vs past simple（已完成的时间：yesterday / last week）。情境：Wei第一次上计算机实验室课（log in / save your work / headphones）。",
       videoUrl: null,
       kaizenFocus: "classroom English a listener needs at ICT lesson (log in, password, save, headphones)",
       questions: [
@@ -6749,7 +7248,7 @@ Note: This is a Sec 1 writing sample (2 topics, 200–300 words), not Sec 2 or S
       description: "AEIS-Secondary English (Sec 1 paper shape): sick bay sample",
       isSample: false,
       errorFocus: "although (concession) vs but (contrast) — unique keys",
-      parentBrief: "本周是中学 AEIS 英语第 9 周，对应官方 SEAB Sec 1 卷型（https://www.seab.gov.sg/aeis/test-details/ 2026年7月1日更新）。Part 1 Writing：2 个题目选写 1 篇，200–300 词。Part 2 Comprehension & Language Use：50 道 MCQ（Comprehension 15 + Comprehension cloze 15 + Vocabulary 10 + Grammar 10），共 2 小时 10 分钟。AEIS-Secondary 官方 preceding-level 规则：申请 Sec 1 入学者需熟悉 Sec 1 前一级的内容。官方举例：apply Secondary 3 → be familiar with Secondary 2. 本周针对 Sec 1 申请者，内容为 Sec 1 前一级水平。本周作业是样本，不是完整 50 题。本周化石：although（concession 让步从句）vs but（contrast 对比转折）。如果空格在句首或需要引导让步从句，正确答案是 although（但 but 不出现或明显错误）。如果空格在逗号后连接对比句子，正确答案是 but（although 不出现或明显错误）。每个空只有一个正确选项。禁止：although … but … 同时出现（中文「虽然…但是…」在英语里只用一个）。例：Although the nurse was busy, she helped Wei. ✓ 或 The nurse was busy, but she helped Wei. ✓。本周情境：Wei 上课时身体不适，Mr Lim 送他去 sick bay，Nurse Ong 指导：sit down, take your temperature, drink water, call home if needed（instructions a listener needs）。Cast: Wei, Aisha, Mr Lim at Riverside Secondary, Nurse Ong（可添加校医）。本周不是 CEQ。",
+      parentBrief: "本周是中学AEIS英语第9周。孩子会练习阅读理解、完形填空、词汇和语法。本周纠错焦点：although（concession让步从句）vs but（contrast对比转折）。如果空格在句首或需要引导让步从句，用although；如果空格在逗号后连接对比句子，用but。禁止：although … but … 同时出现。",
       videoUrl: null,
       kaizenFocus: null,
       questions: [
@@ -6831,7 +7330,7 @@ Note: This is Part 1 Writing for Sec 1. Official paper: 2 topics, choose 1, writ
       description: "AEIS-Secondary English (Sec 1 paper shape): fire drill sample",
       isSample: false,
       errorFocus: "too + adj vs adj + enough — unique keys",
-      parentBrief: "本周是中学 AEIS 英语第 10 周，对应官方 SEAB Sec 1 卷型（https://www.seab.gov.sg/aeis/test-details/ 2026年7月1日更新）。Part 1 Writing：2 个题目选写 1 篇，200–300 词。Part 2 Comprehension & Language Use：50 道 MCQ（Comprehension 15 + Comprehension cloze 15 + Vocabulary 10 + Grammar 10），共 2 小时 10 分钟。AEIS-Secondary 官方 preceding-level 规则：申请 Sec 1 入学者需熟悉 Sec 1 前一级的内容。官方举例：apply Secondary 3 → be familiar with Secondary 2. 本周针对 Sec 1 申请者，内容为 Sec 1 前一级水平。本周作业是样本，不是完整 50 题。本周化石：too + adj（太…不能）vs adj + enough（足够…可以）。如果意思是「超过需要/不可能」，正确答案是 too（too crowded / too slow），enough 不出现或明显错误。如果意思是「足够达到需要」，正确答案是 enough（quiet enough / early enough），too 不出现或明显错误。禁止：too enough, enough too, very enough。每个空只有一个正确选项。本周情境：Wei 在 Riverside Secondary 第一次消防演习（fire drill: alarm, leave bags, walk don't run, stairs, assembly point on the field, class register, instructions a listener needs）。Cast: Wei, Aisha, Mr Lim at Riverside Secondary。可添加 duty teacher。本周不是 CEQ。",
+      parentBrief: "本周是中学AEIS英语第10周。孩子会练习阅读理解、完形填空、词汇和语法。本周纠错焦点：too + adj（太…不能）vs adj + enough（足够…可以）。如果意思是「超过需要/不可能」，用too；如果意思是「足够达到需要」，用enough。情境：Wei在Riverside Secondary第一次消防演习（fire drill: alarm, walk don't run, assembly point）。",
       videoUrl: null,
       kaizenFocus: null,
       questions: [
@@ -6914,7 +7413,7 @@ Note: This is Part 1 Writing for Sec 1. Official paper: 2 topics, choose 1, writ
       description: "AEIS-Secondary English (Sec 1 paper shape): school bookshop sample",
       isSample: false,
       errorFocus: "a few (countable) vs a little (uncountable) — unique keys",
-      parentBrief: "本周是中学 AEIS 英语第 11 周，对应官方 SEAB Sec 1 卷型（https://www.seab.gov.sg/aeis/test-details/ 2026年7月1日更新）。Part 1 Writing：2 个题目选写 1 篇，200–300 词。Part 2 Comprehension & Language Use：50 道 MCQ（Comprehension 15 + Comprehension cloze 15 + Vocabulary 10 + Grammar 10），共 2 小时 10 分钟。AEIS-Secondary 官方 preceding-level 规则：申请 Sec 1 入学者需熟悉 Sec 1 前一级的内容。官方举例：apply Secondary 3 → be familiar with Secondary 2. 本周针对 Sec 1 申请者，内容为 Sec 1 前一级水平。本周作业是样本，不是完整 50 题。本周化石：a few（可数）vs a little（不可数）。如果名词可数（pens, books, minutes），正确答案是 a few，a little 不出现或明显错误。如果名词不可数（money, time, paper, water），正确答案是 a little，a few 不出现或明显错误。禁止：a few money, a little pens, few of money。每个空只有一个正确选项。本周情境：Wei 在 Riverside Secondary 学校书店买文具（exercise book, a few pens, a little money left, queue, receipt, instructions a listener needs）。Cast: Wei, Aisha, Mr Lim at Riverside Secondary, bookshop uncle/auntie。金额用新加坡元 S$，不用美元。本周不是 CEQ。",
+      parentBrief: "本周是中学AEIS英语第11周。孩子会练习阅读理解、完形填空、词汇和语法。本周纠错焦点：a few（可数）vs a little（不可数）。如果名词可数（pens, books），用a few；如果名词不可数（money, time, water），用a little。情境：Wei在Riverside Secondary学校书店买文具（exercise book, pens）。",
       videoUrl: null,
       kaizenFocus: null,
       questions: [

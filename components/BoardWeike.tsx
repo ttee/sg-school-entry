@@ -19,6 +19,15 @@ export default function BoardWeike({ level, weekNumber, planTitle, planFirstLine
   const [visibleExamples, setVisibleExamples] = useState<number>(0);
   
   const lessons: Record<string, LessonContent> = {
+    "A2-0": {
+      fossil: "this is your bottle? / that is my / I lost water bottle",
+      examples: [
+        "Is this your bottle? Yes, that's mine.",
+        "Auntie Tan found a pencil case. Is that yours?",
+        "I lost a water bottle. The bottle has a pink sticker."
+      ],
+      gloss: "冠词 a/the、指示代词 this/that、物主代词 your/mine。疑问句语序：Is this your…?（不是 this is your…?）。物主代词 mine/yours 不加名词，your/my 后面要加名词。第一次提到用 a（I lost a bottle），第二次用 the（The bottle is white）。"
+    },
     "A2-5": {
       fossil: "more bigger / more cheap / he is tall than me",
       examples: [
