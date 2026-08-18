@@ -1394,5 +1394,124 @@ export default function SmathFigure({ weekNumber }: { weekNumber: number }) {
     );
   }
 
+  if (weekNumber === 86) {
+    return (
+      <div className="bg-paper border border-line rounded-xl p-6 mb-6">
+        <h3 className="font-semibold text-ink mb-4 text-center">📐 本周图解</h3>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          {/* Diagram 1: 20-21-29 triangle with sin/cos/tan */}
+          <div className="flex flex-col items-center">
+            <svg viewBox="0 0 200 200" className="w-full max-w-[200px] h-auto">
+              {/* Title */}
+              <text x="100" y="18" fontSize="11" fill="#1a1a1a" fontWeight="600" textAnchor="middle">sin A, cos A, tan A</text>
+              
+              {/* Right-angled triangle */}
+              <line x1="30" y1="150" x2="130" y2="150" stroke="#1a1a1a" strokeWidth="2" />
+              <line x1="130" y1="150" x2="130" y2="60" stroke="#1a1a1a" strokeWidth="2" />
+              <line x1="30" y1="150" x2="130" y2="60" stroke="#d97706" strokeWidth="2" />
+              
+              {/* Right angle marker at C */}
+              <rect x="120" y="140" width="10" height="10" fill="none" stroke="#1a1a1a" strokeWidth="1" />
+              
+              {/* Labels for sides */}
+              <text x="80" y="165" fontSize="12" fill="#d97706" fontWeight="600">AC = 20 cm (adj)</text>
+              <text x="145" y="108" fontSize="12" fill="#10b981" fontWeight="600">BC = 21 cm (opp)</text>
+              <text x="65" y="95" fontSize="12" fill="#8b5cf6" fontWeight="600">AB = 29 cm</text>
+              
+              {/* Vertices */}
+              <circle cx="30" cy="150" r="2" fill="#1a1a1a" />
+              <circle cx="130" cy="150" r="2" fill="#1a1a1a" />
+              <circle cx="130" cy="60" r="2" fill="#1a1a1a" />
+              <text x="25" y="165" fontSize="11" fill="#1a1a1a" fontWeight="600">A</text>
+              <text x="135" y="165" fontSize="11" fill="#1a1a1a" fontWeight="600">C</text>
+              <text x="135" y="55" fontSize="11" fill="#1a1a1a" fontWeight="600">B</text>
+              
+              {/* Ratios */}
+              <text x="100" y="185" fontSize="9" fill="#3b82f6" fontWeight="600" textAnchor="middle">sin A = 21/29</text>
+              <text x="100" y="195" fontSize="9" fill="#3b82f6" fontWeight="600" textAnchor="middle">cos A = 20/29, tan A = 21/20</text>
+            </svg>
+            <p className="text-sm text-ink-2 text-center mt-2 font-semibold">
+              直角在 C，∠A 处<br />
+              <span className="text-xs text-accent">sin A = 对边/斜边 = 21/29</span>
+            </p>
+          </div>
+
+          {/* Diagram 2: 12-35-37 triangle with sin A */}
+          <div className="flex flex-col items-center">
+            <svg viewBox="0 0 200 200" className="w-full max-w-[200px] h-auto">
+              {/* Title */}
+              <text x="100" y="18" fontSize="11" fill="#1a1a1a" fontWeight="600" textAnchor="middle">sin A = 35/37</text>
+              
+              {/* Right-angled triangle */}
+              <line x1="30" y1="150" x2="90" y2="150" stroke="#1a1a1a" strokeWidth="2" />
+              <line x1="90" y1="150" x2="90" y2="30" stroke="#1a1a1a" strokeWidth="2" />
+              <line x1="30" y1="150" x2="90" y2="30" stroke="#d97706" strokeWidth="2" />
+              
+              {/* Right angle marker at C */}
+              <rect x="80" y="140" width="10" height="10" fill="none" stroke="#1a1a1a" strokeWidth="1" />
+              
+              {/* Labels for sides */}
+              <text x="60" y="165" fontSize="12" fill="#d97706" fontWeight="600">AC = 12 cm</text>
+              <text x="100" y="95" fontSize="12" fill="#10b981" fontWeight="600">BC = 35 cm</text>
+              <text x="45" y="80" fontSize="12" fill="#8b5cf6" fontWeight="600">AB = 37 cm</text>
+              
+              {/* Vertices */}
+              <circle cx="30" cy="150" r="2" fill="#1a1a1a" />
+              <circle cx="90" cy="150" r="2" fill="#1a1a1a" />
+              <circle cx="90" cy="30" r="2" fill="#1a1a1a" />
+              <text x="25" y="165" fontSize="11" fill="#1a1a1a" fontWeight="600">A</text>
+              <text x="95" y="165" fontSize="11" fill="#1a1a1a" fontWeight="600">C</text>
+              <text x="95" y="25" fontSize="11" fill="#1a1a1a" fontWeight="600">B</text>
+              
+              {/* Ratio */}
+              <text x="100" y="185" fontSize="10" fill="#3b82f6" fontWeight="600" textAnchor="middle">sin A = opposite / hypotenuse</text>
+              <text x="100" y="197" fontSize="10" fill="#3b82f6" fontWeight="600" textAnchor="middle">sin A = 35/37</text>
+            </svg>
+            <p className="text-sm text-ink-2 text-center mt-2 font-semibold">
+              直角在 C，求 sin A<br />
+              <span className="text-xs text-accent">对边 BC = 35, 斜边 AB = 37</span>
+            </p>
+          </div>
+
+          {/* Diagram 3: tan A = 33/56 given, find opposite */}
+          <div className="flex flex-col items-center">
+            <svg viewBox="0 0 200 200" className="w-full max-w-[200px] h-auto">
+              {/* Title */}
+              <text x="100" y="18" fontSize="11" fill="#1a1a1a" fontWeight="600" textAnchor="middle">tan A = 33/56</text>
+              
+              {/* Right-angled triangle */}
+              <line x1="30" y1="150" x2="150" y2="150" stroke="#1a1a1a" strokeWidth="2" />
+              <line x1="150" y1="150" x2="150" y2="80" stroke="#1a1a1a" strokeWidth="2" />
+              <line x1="30" y1="150" x2="150" y2="80" stroke="#d97706" strokeWidth="2" />
+              
+              {/* Right angle marker at C */}
+              <rect x="140" y="140" width="10" height="10" fill="none" stroke="#1a1a1a" strokeWidth="1" />
+              
+              {/* Labels for sides */}
+              <text x="90" y="165" fontSize="12" fill="#d97706" fontWeight="600">AC = 56 cm (adj)</text>
+              <text x="160" y="118" fontSize="12" fill="#10b981" fontWeight="600">BC = 33 cm (opp)</text>
+              
+              {/* Vertices */}
+              <circle cx="30" cy="150" r="2" fill="#1a1a1a" />
+              <circle cx="150" cy="150" r="2" fill="#1a1a1a" />
+              <circle cx="150" cy="80" r="2" fill="#1a1a1a" />
+              <text x="25" y="165" fontSize="11" fill="#1a1a1a" fontWeight="600">A</text>
+              <text x="155" y="165" fontSize="11" fill="#1a1a1a" fontWeight="600">C</text>
+              <text x="155" y="75" fontSize="11" fill="#1a1a1a" fontWeight="600">B</text>
+              
+              {/* Explanation */}
+              <text x="100" y="185" fontSize="10" fill="#3b82f6" fontWeight="600" textAnchor="middle">tan A = opposite / adjacent</text>
+              <text x="100" y="197" fontSize="10" fill="#3b82f6" fontWeight="600" textAnchor="middle">33/56 → opp = 33 cm</text>
+            </svg>
+            <p className="text-sm text-ink-2 text-center mt-2 font-semibold">
+              给定 tan A = 33/56，邻边 = 56 cm<br />
+              <span className="text-xs text-accent">求对边 = 33 cm</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
   return null;
 }
