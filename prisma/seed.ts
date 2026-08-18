@@ -14181,6 +14181,100 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
         },
       ],
     },
+    {
+      level: "SMATH",
+      weekNumber: 78,
+      title: "平面图形的放大和缩小 — Enlargement and reduction of a plane figure",
+      description: "Sec 2 G2.4: enlargement and reduction of a plane figure using a scale factor (AEIS 中学数学第 78 周 / SMATH Week 78)",
+      isSample: false,
+      errorFocus: "k = 2 called a reduction (wrong); k = 1/2 called an enlargement (wrong); scale factor applied to an angle; two options that are same object–image pair in different order offered as two correct answers",
+      parentBrief: "本周练平面图形的放大和缩小。G2.4 内容：k > 1 放大，0 < k < 1 缩小，中心 O，像边 = k × 物边，角度不变。盯住：k 的分类（大于 1 还是小于 1）；角度不缩放；物体→像的方向。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "At Riverside Secondary, Mr Lim draws a triangle. Triangle ABC is enlarged by scale factor k = 2, centre O. AB = 5 cm. Wei asks: 「What is the length of image side A'B'?」 Which is correct?|A. k = 2 > 1, so this is an enlargement (image bigger). Image length = k × object length. A'B' = 2 × 5 = 10 cm. Check: 10 > 5 (image bigger). ✓|B. k = 2 < 10, so this is a reduction (image smaller). A'B' = 5 / 2 = 2.5 cm.|C. A'B' = 5 + 2 = 7 cm (add the scale factor to the object length).|D. We cannot find A'B' without knowing all the other sides of Triangle ABC.",
+            "Aisha at Riverside Secondary sees a rectangle. Rectangle PQRS is reduced by scale factor k = 1/3, centre O. PQ = 12 cm, QR = 9 cm. Mr Lim asks: 「What are the lengths of the image sides P'Q' and Q'R'?」 Which is correct?|A. k = 1/3 < 1, so this is a reduction (image smaller). Image length = k × object length. P'Q' = 1/3 × 12 = 4 cm. Q'R' = 1/3 × 9 = 3 cm. Check: 4 < 12, 3 < 9 (image smaller). ✓|B. k = 1/3 is an enlargement because we are multiplying. P'Q' = 12 × 3 = 36 cm.|C. P'Q' = 12 - 3 = 9 cm, Q'R' = 9 - 3 = 6 cm (subtract the denominator).|D. We need to know the centre O before we can calculate the image sides.",
+            "At Riverside Secondary, Mr Lim draws a triangle. Triangle DEF is enlarged by scale factor k = 4, centre O. ∠D = 40°. Wei says: 「The image angle ∠D' = 40° × 4 = 160°.」 Is this correct?|A. No. Angles do NOT change. ∠D' = ∠D = 40° (not 40° × 4 = 160°). Scale factor k applies to side LENGTHS only, not to angles. Enlargement changes SIZE (side lengths), not SHAPE (angles). ✓|B. Yes. k = 4, so all measurements are multiplied by 4, including angles. ∠D' = 160°.|C. No. ∠D' = 40° / 4 = 10° (angles are divided by the scale factor).|D. We cannot determine ∠D' without knowing all the side lengths of Triangle DEF.",
+            "Aisha at Riverside Secondary sees two figures. Object square ABCD has side AB = 6 cm. Image square A'B'C'D' has side A'B' = 3 cm. Mr Lim asks: 「What is the scale factor k, and is this an enlargement or a reduction?」 Which is correct?|A. k = image length / object length = 3 / 6 = 1/2. k = 1/2 < 1, so this is a reduction (image smaller than object). ✓|B. k = 3 / 6 = 1/2. k = 1/2 is an enlargement because we are multiplying by k.|C. k = object length / image length = 6 / 3 = 2. k = 2 > 1, so this is an enlargement.|D. This is neither enlargement nor reduction because the sides are different.",
+            "At Riverside Secondary, Mr Lim shows two triangles. Triangle ABC (object) → Triangle A'B'C' (image), scale factor k = 3, centre O. Wei says: 「This is an enlargement with k = 3.」 Aisha says: 「We can also say Triangle A'B'C' (object) → Triangle ABC (image), scale factor k = 1/3.」 Mr Lim asks: 「If the question asks 'Which shows enlargement with k = 3?', can we choose both?」 Which is correct?|A. No, we can only choose Wei's statement. The question asks for enlargement with k = 3. Wei: ABC → A'B'C', k = 3 (enlargement). Aisha: A'B'C' → ABC, k = 1/3 (reduction, reverse direction). Different transformation. Read direction carefully: which is object, which is image. ✓|B. Yes, both are correct because they describe the same pair of triangles.|C. Yes, because k = 3 and k = 1/3 are related (reciprocals).|D. No, only Aisha's statement is correct because we can reverse the transformation.",
+          ]),
+          correctAnswer: "A,A,A,A,A",
+          points: 10,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "At Riverside Secondary, Mr Lim draws a rectangle. Rectangle ABCD is enlarged by scale factor k = 2, centre O. AB = 7 cm, BC = 5 cm, ∠A = 90°. What are the image sides A'B', B'C' and image angle ∠A'?|A. k = 2 > 1, so enlargement (image bigger). A'B' = k × AB = 2 × 7 = 14 cm. B'C' = k × BC = 2 × 5 = 10 cm. Angles do NOT change: ∠A' = ∠A = 90°. ✓|B. k = 2 < 10, so reduction (image smaller). A'B' = 7 / 2 = 3.5 cm.|C. A'B' = 14 cm, B'C' = 10 cm, ∠A' = 90° × 2 = 180°.|D. We cannot calculate the image sides without knowing CD and DA.",
+            "Wei at Riverside Secondary sees a pentagon. Pentagon PQRST is reduced by scale factor k = 1/2, centre O. PQ = 8 cm, QR = 10 cm, RS = 6 cm. Mr Lim asks: 「What are P'Q', Q'R', R'S'?」 Which is correct?|A. k = 1/2 < 1, so reduction (image smaller). P'Q' = 1/2 × 8 = 4 cm. Q'R' = 1/2 × 10 = 5 cm. R'S' = 1/2 × 6 = 3 cm. Check: all image sides < object sides. ✓|B. k = 1/2 is an enlargement. P'Q' = 8 × 2 = 16 cm.|C. P'Q' = 8 - 2 = 6 cm, Q'R' = 10 - 2 = 8 cm, R'S' = 6 - 2 = 4 cm.|D. We need to know all five sides before we can calculate any image side.",
+            "At Riverside Secondary, Aisha sees a triangle. Triangle XYZ is enlarged by scale factor k = 3, centre O. XY = 4 cm, YZ = 6 cm, ZX = 8 cm. Mr Lim asks: 「Check: is k > 1 or 0 < k < 1? What are the image sides X'Y', Y'Z', Z'X'?」 Which is correct?|A. k = 3 > 1, so enlargement (image bigger). X'Y' = 3 × 4 = 12 cm. Y'Z' = 3 × 6 = 18 cm. Z'X' = 3 × 8 = 24 cm. Check: 12 > 4, 18 > 6, 24 > 8 (image bigger). ✓|B. k = 3 is a reduction because 3 < 10. X'Y' = 4 / 3 ≈ 1.3 cm.|C. X'Y' = 4 + 3 = 7 cm, Y'Z' = 6 + 3 = 9 cm, Z'X' = 8 + 3 = 11 cm.|D. We cannot determine the image sides without knowing the centre O.",
+            "At Riverside Secondary, Mr Lim shows a square. Square ABCD is reduced by scale factor k = 1/3, centre O. AB = 9 cm, ∠A = 90°. Wei says: 「Image A'B' = 9 × 1/3 = 3 cm.」 Aisha says: 「Image ∠A' = 90° (angles do not change).」 Are they correct?|A. Both are correct. k = 1/3 < 1, so reduction (image smaller). A'B' = k × AB = 1/3 × 9 = 3 cm. Check: 3 < 9 (image smaller). ✓ Angles do NOT change: ∠A' = ∠A = 90°. ✓|B. Wei is wrong. k = 1/3 is an enlargement, so A'B' = 9 × 3 = 27 cm.|C. Aisha is wrong. ∠A' = 90° / 3 = 30° (angles are divided by k).|D. Both are wrong. We need to know all four sides to calculate A'B'.",
+            "Wei at Riverside Secondary sees a triangle. Triangle PQR is enlarged by scale factor k = 4, centre O. PQ = 3 cm, ∠P = 50°. Mr Lim asks: 「What is P'Q' and ∠P'?」 Which is correct?|A. k = 4 > 1, so enlargement (image bigger). P'Q' = k × PQ = 4 × 3 = 12 cm. Angles do NOT change: ∠P' = ∠P = 50°. ✓|B. P'Q' = 12 cm, ∠P' = 50° × 4 = 200°.|C. k = 4 is a reduction because 4 < 10. P'Q' = 3 / 4 = 0.75 cm.|D. We cannot calculate P'Q' without knowing QR and PR.",
+            "At Riverside Secondary, Aisha sees a hexagon. Hexagon ABCDEF is reduced by scale factor k = 1/2, centre O. AB = 10 cm, BC = 12 cm, CD = 8 cm, ∠A = 120°. Mr Lim asks: 「What are A'B', B'C', C'D', and ∠A'?」 Which is correct?|A. k = 1/2 < 1, so reduction (image smaller). A'B' = 1/2 × 10 = 5 cm. B'C' = 1/2 × 12 = 6 cm. C'D' = 1/2 × 8 = 4 cm. Angles do NOT change: ∠A' = ∠A = 120°. ✓|B. k = 1/2 is an enlargement. A'B' = 10 × 2 = 20 cm.|C. A'B' = 5 cm, B'C' = 6 cm, C'D' = 4 cm, ∠A' = 120° / 2 = 60°.|D. We need to know all six sides and all angles before we can calculate the image.",
+            "At Riverside Secondary, Mr Lim draws two rectangles. Object rectangle PQRS has PQ = 6 cm, QR = 4 cm. Image rectangle P'Q'R'S' has P'Q' = 18 cm, Q'R' = 12 cm. Wei says: 「The scale factor from PQRS to P'Q'R'S' is k = 18 / 6 = 3.」 Is this correct?|A. Yes. k = image length / object length = 18 / 6 = 3 (or 12 / 4 = 3). k = 3 > 1, so enlargement (PQRS → P'Q'R'S'). Check: 18 > 6, 12 > 4 (image bigger). ✓|B. No. k = 6 / 18 = 1/3 (object / image, not image / object).|C. No. k = 18 - 6 = 12 (subtract object from image).|D. No. We need to check the angles first.",
+            "Aisha at Riverside Secondary sees a triangle. Triangle ABC is enlarged by scale factor k = 2, centre O. AB = 5 cm, BC = 7 cm, AC = 9 cm. ∠A = 60°, ∠B = 70°, ∠C = 50°. Mr Lim asks: 「If k = 2, what happens to the side lengths and the angles?」 Which is correct?|A. Side lengths are multiplied by k: A'B' = 10 cm, B'C' = 14 cm, A'C' = 18 cm. Angles do NOT change: ∠A' = 60°, ∠B' = 70°, ∠C' = 50°. Scale factor applies to lengths only, not angles. ✓|B. Both side lengths and angles are multiplied by k: A'B' = 10 cm, ∠A' = 120°.|C. Side lengths are multiplied, angles are divided: A'B' = 10 cm, ∠A' = 30°.|D. We cannot determine what happens without drawing the centre O.",
+          ]),
+          correctAnswer: "A,A,A,A,A,A,A,A",
+          points: 16,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `Part 2: Show Your Working (写出算式步骤)
+
+Riverside Secondary School has geometry questions about enlargement and reduction of plane figures. Answer the questions below. Show your working.
+
+Question (a)
+At Riverside Secondary, Mr Lim draws a triangle on the whiteboard:
+• Triangle ABC is enlarged by scale factor k = 2, centre O
+• Object Triangle ABC: AB = 3 cm, BC = 4 cm, AC = 5 cm, ∠A = 90°
+Wei says: 「k = 2 is a reduction because 2 < 10.」
+Aisha says: 「k = 2 > 1, so this is an enlargement. The image is bigger than the object.」
+(i) Who is correct, Wei or Aisha? Explain your answer: k = 2 compared to 1. Is k > 1 or 0 < k < 1? What does this mean (enlargement or reduction)?
+(ii) Calculate the image sides A'B', B'C', and A'C'. Show your working: A'B' = k × AB = 2 × 3 = ? cm. (Do this for all three sides.)
+(iii) What is the image angle ∠A'? Explain your answer: do angles change when we enlarge a figure? Why or why not?
+
+Question (b)
+At Riverside Secondary, Mr Lim shows a pentagon:
+• Pentagon PQRST is reduced by scale factor k = 1/3, centre O
+• Object Pentagon PQRST: PQ = 6 cm, QR = 9 cm, RS = 12 cm, ST = 15 cm, TP = 18 cm
+(i) Is k = 1/3 an enlargement or a reduction? Explain your answer: k = 1/3 compared to 1. Is k > 1 or 0 < k < 1? What does this mean?
+(ii) Calculate the image sides P'Q', Q'R', R'S', S'T', and T'P'. Show your working for each side: P'Q' = k × PQ = 1/3 × 6 = ? cm. (Do this for all five sides.)
+(iii) Wei says: 「k = 1/3 is an enlargement because we are multiplying: P'Q' = k × PQ.」 Is Wei correct? Explain why k = 1/3 < 1 means reduction (image smaller), even though we multiply by k.
+
+Question (c)
+At Riverside Secondary, Mr Lim draws two triangles:
+• Object Triangle XYZ: XY = 4 cm, YZ = 6 cm, ZX = 8 cm, ∠X = 40°, ∠Y = 60°, ∠Z = 80°
+• Image Triangle X'Y'Z': X'Y' = 12 cm, Y'Z' = 18 cm, Z'X' = 24 cm
+(i) Calculate the scale factor k from Triangle XYZ to Triangle X'Y'Z'. Show your working: k = X'Y' / XY = 12 / 4 = ? (Check: k = Y'Z' / YZ = ? and k = Z'X' / ZX = ?)
+(ii) Is this an enlargement or a reduction? Explain your answer: k compared to 1.
+(iii) Aisha says: 「Because k = 3, the angles in Triangle X'Y'Z' are three times as big: ∠X' = 40° × 3 = 120°, ∠Y' = 60° × 3 = 180°, ∠Z' = 80° × 3 = 240°.」 Is Aisha correct? Explain why scale factor applies to side LENGTHS but NOT to angles. What are the correct values of ∠X', ∠Y', ∠Z'?
+
+写作提示 / Tips:
+✓ 每题分步骤写出推理 (Show working steps for each question)
+✓ Part 2 官方要求：clearly show the method of solution by writing working steps, plus the final answer
+✓ 不用计算器 (No calculators allowed)
+✓ 本周教 Sec 2 GEOMETRY AND MEASUREMENT, G2. Congruence and similarity: 2.4 enlargement and reduction of a plane figure using a scale factor. 本周是 G2.4 only. Official content: scale factor k > 1 = enlargement (放大); 0 < k < 1 = reduction (缩小). Centre of enlargement O (放大中心). Image lengths = k × object lengths (像的长度 = k × 物体长度). Angles do NOT change (角度不变). Integer object/image lengths only. Fossil: k = 2 called a reduction (wrong, k = 2 > 1 is enlargement); k = 1/2 called an enlargement (wrong, k = 1/2 < 1 is reduction); scale factor applied to an angle (angles do not scale); two options that are same object–image pair in different order as two correct answers. Cast: secondary Wei, Aisha, Mr Lim at Riverside Secondary School. No calculator. Integer lengths only.
+✓ 关键步骤：Step 1: Check k. Is k > 1 or 0 < k < 1?（检查 k。k > 1 还是 0 < k < 1？）Step 2: Classify: k > 1 = enlargement (image bigger), 0 < k < 1 = reduction (image smaller)（分类：k > 1 放大，0 < k < 1 缩小）. Step 3: Calculate image lengths: image length = k × object length（计算像的边长：像边 = k × 物边）. Step 4: Angles do NOT change: image angle = object angle（角度不变：像角 = 物角）. Step 5: Scale factor k applies to side LENGTHS only, not to angles（缩放比例 k 只作用于边长，不作用于角度）.
+✓ 化石 (fossil errors):
+  • k = 2 called a reduction (wrong, k = 2 > 1 is enlargement)（k = 2 被称为缩小，错误，k = 2 > 1 是放大）
+  • k = 1/2 called an enlargement (wrong, k = 1/2 < 1 is reduction)（k = 1/2 被称为放大，错误，k = 1/2 < 1 是缩小）
+  • Scale factor applied to an angle (wrong, angles do not scale)（缩放比例应用于角度，错误，角度不缩放）
+  • Two options that are same object–image pair in different order offered as two correct answers (wrong, read direction: which is object, which is image)（两个选项是同一物体-像对以不同顺序呈现作为两个正确选项，错误，读清方向：哪个是物体，哪个是像）
+  • Writing copies 微课 example numbers (Writing Q uses k = 2 triangle 3-4-5 cm with 90°; k = 1/3 pentagon 6-9-12-15-18 cm; k = 3 triangle 4-6-8 cm with 40-60-80°. NOT the same as 微课: k = 3 triangle 2 cm, k = 1/2 rectangle 10-8 cm, k = 4 triangle 45°.)
+✓ 本周不教 G2.5 solving simple problems involving similar figures（不教相似图形应用题）；不教 G2.6 scale drawings（不教比例尺图）；不教 G2.8 SSS/SAS tests（不教 SSS/SAS 检验）；不教 G2.9 ratio of areas = k²（不教面积比等于 k²）；不教 G2.10 ratio of volumes = k³（不教体积比等于 k³）. 本周只教 G2.4: k > 1 enlargement, 0 < k < 1 reduction, centre O, image = k × object, angles unchanged.
+
+Note: This is a sample of Part 2 short-answer/open-ended questions. The official paper has 20 short-answer + 10–15 open-ended items in 1 hour 45 minutes.`,
+          points: 20,
+        },
+      ],
+    },
   ];
 
 

@@ -925,6 +925,14 @@ export default function BoardWeike({ level, weekNumber, planTitle, planFirstLine
       ],
       gloss: "相似三角形和多边形的性质：对应角相等，对应边成比例。"
     },
+    "SMATH-78": {
+      examples: [
+        "Triangle ABC enlarged by scale factor k = 3, centre O. AB = 2 cm. → Enlargement: k > 1. Image A'B' = k × AB = 3 × 2 = 6 cm",
+        "Rectangle PQRS reduced by scale factor k = 1/2, centre O. PQ = 10 cm, QR = 8 cm. → Reduction: 0 < k < 1. Image P'Q' = 10 × 1/2 = 5 cm, Q'R' = 8 × 1/2 = 4 cm",
+        "Triangle XYZ enlarged by k = 4, centre O. ∠X = 45°. → Angles do NOT change. Image ∠X' = 45° (not 45° × 4 = 180°)"
+      ],
+      gloss: "平面图形的放大和缩小：k > 1 放大，0 < k < 1 缩小，像边 = k × 物边，角度不变。"
+    },
     "SEC-0": {
       fossil: "Although I was nervous, but I tried. ✗ (中文「虽然…但是…」迁移) / I go yesterday ✗ (叙事体过去时掉落)",
       examples: [

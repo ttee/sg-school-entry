@@ -503,5 +503,113 @@ export default function SmathFigure({ weekNumber }: { weekNumber: number }) {
     );
   }
 
+  if (weekNumber === 78) {
+    return (
+      <div className="bg-paper border border-line rounded-xl p-6 mb-6">
+        <h3 className="font-semibold text-ink mb-4 text-center">📐 本周图解</h3>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          {/* Diagram 1: Enlargement with centre O, scale factor k = 2 */}
+          <div className="flex flex-col items-center">
+            <svg viewBox="0 0 200 200" className="w-full max-w-[200px] h-auto">
+              {/* Centre O */}
+              <circle cx="30" cy="150" r="3" fill="#1a1a1a" />
+              <text x="22" y="168" fontSize="12" fill="#1a1a1a" fontWeight="600">O</text>
+              
+              {/* Object triangle ABC (small) */}
+              <polygon points="60,120 90,80 120,120" fill="none" stroke="#d97706" strokeWidth="2" />
+              <text x="52" y="128" fontSize="11" fill="#d97706" fontWeight="600">A</text>
+              <text x="88" y="73" fontSize="11" fill="#d97706" fontWeight="600">B</text>
+              <text x="123" y="128" fontSize="11" fill="#d97706" fontWeight="600">C</text>
+              <text x="85" y="110" fontSize="10" fill="#d97706" fontWeight="600">6</text>
+              
+              {/* Dashed lines from O through object to image */}
+              <line x1="30" y1="150" x2="120" y2="40" stroke="#6b7280" strokeWidth="1" strokeDasharray="3,3" />
+              <line x1="30" y1="150" x2="180" y2="40" stroke="#6b7280" strokeWidth="1" strokeDasharray="3,3" />
+              <line x1="30" y1="150" x2="210" y2="120" stroke="#6b7280" strokeWidth="1" strokeDasharray="3,3" />
+              
+              {/* Image triangle A'B'C' (enlarged, k=2) */}
+              <polygon points="90,90 150,40 180,90" fill="none" stroke="#10b981" strokeWidth="2" />
+              <text x="82" y="98" fontSize="11" fill="#10b981" fontWeight="600">A'</text>
+              <text x="148" y="33" fontSize="11" fill="#10b981" fontWeight="600">B'</text>
+              <text x="183" y="98" fontSize="11" fill="#10b981" fontWeight="600">C'</text>
+              <text x="135" y="73" fontSize="10" fill="#10b981" fontWeight="600">12</text>
+            </svg>
+            <p className="text-sm text-ink-2 text-center mt-2 font-semibold">
+              放大 (k = 2)<br />
+              <span className="text-xs text-accent">中心 O · 像边 = 2 × 物边</span>
+            </p>
+          </div>
+
+          {/* Diagram 2: Reduction with centre O, scale factor k = 1/2 */}
+          <div className="flex flex-col items-center">
+            <svg viewBox="0 0 200 200" className="w-full max-w-[200px] h-auto">
+              {/* Centre O */}
+              <circle cx="30" cy="150" r="3" fill="#1a1a1a" />
+              <text x="22" y="168" fontSize="12" fill="#1a1a1a" fontWeight="600">O</text>
+              
+              {/* Object rectangle PQRS (large) */}
+              <rect x="80" y="60" width="80" height="60" fill="none" stroke="#d97706" strokeWidth="2" />
+              <text x="115" y="50" fontSize="10" fill="#d97706" fontWeight="600">8 cm</text>
+              <text x="65" y="95" fontSize="10" fill="#d97706" fontWeight="600">6 cm</text>
+              <text x="72" y="68" fontSize="11" fill="#d97706" fontWeight="600">P</text>
+              
+              {/* Dashed lines from O through object to image */}
+              <line x1="30" y1="150" x2="80" y2="60" stroke="#6b7280" strokeWidth="1" strokeDasharray="3,3" />
+              <line x1="30" y1="150" x2="160" y2="60" stroke="#6b7280" strokeWidth="1" strokeDasharray="3,3" />
+              <line x1="30" y1="150" x2="80" y2="120" stroke="#6b7280" strokeWidth="1" strokeDasharray="3,3" />
+              <line x1="30" y1="150" x2="160" y2="120" stroke="#6b7280" strokeWidth="1" strokeDasharray="3,3" />
+              
+              {/* Image rectangle P'Q'R'S' (reduced, k=1/2) */}
+              <rect x="55" y="105" width="40" height="30" fill="none" stroke="#10b981" strokeWidth="2" />
+              <text x="67" y="100" fontSize="10" fill="#10b981" fontWeight="600">4 cm</text>
+              <text x="40" y="123" fontSize="10" fill="#10b981" fontWeight="600">3 cm</text>
+              <text x="47" y="113" fontSize="11" fill="#10b981" fontWeight="600">P'</text>
+            </svg>
+            <p className="text-sm text-ink-2 text-center mt-2 font-semibold">
+              缩小 (k = 1/2)<br />
+              <span className="text-xs text-accent">中心 O · 像边 = ½ × 物边</span>
+            </p>
+          </div>
+
+          {/* Diagram 3: Angles unchanged */}
+          <div className="flex flex-col items-center">
+            <svg viewBox="0 0 200 200" className="w-full max-w-[200px] h-auto">
+              {/* Centre O */}
+              <circle cx="40" cy="140" r="3" fill="#1a1a1a" />
+              <text x="32" y="158" fontSize="12" fill="#1a1a1a" fontWeight="600">O</text>
+              
+              {/* Object triangle with angle marked */}
+              <polygon points="80,110 120,60 140,110" fill="none" stroke="#d97706" strokeWidth="2" />
+              <text x="72" y="118" fontSize="11" fill="#d97706" fontWeight="600">X</text>
+              <text x="118" y="53" fontSize="11" fill="#d97706" fontWeight="600">Y</text>
+              <text x="143" y="118" fontSize="11" fill="#d97706" fontWeight="600">Z</text>
+              {/* Mark angle */}
+              <path d="M 90 110 A 15 15 0 0 1 95 100" fill="none" stroke="#d97706" strokeWidth="1.5" />
+              <text x="98" y="108" fontSize="11" fill="#d97706" fontWeight="600">60°</text>
+              
+              {/* Dashed lines */}
+              <line x1="40" y1="140" x2="120" y2="60" stroke="#6b7280" strokeWidth="1" strokeDasharray="3,3" />
+              <line x1="40" y1="140" x2="160" y2="20" stroke="#6b7280" strokeWidth="1" strokeDasharray="3,3" />
+              <line x1="40" y1="140" x2="180" y2="80" stroke="#6b7280" strokeWidth="1" strokeDasharray="3,3" />
+              
+              {/* Image triangle (enlarged k=2) with same angle */}
+              <polygon points="100,125 160,25 200,125" fill="none" stroke="#10b981" strokeWidth="2" />
+              <text x="92" y="133" fontSize="11" fill="#10b981" fontWeight="600">X'</text>
+              <text x="158" y="18" fontSize="11" fill="#10b981" fontWeight="600">Y'</text>
+              <text x="203" y="133" fontSize="11" fill="#10b981" fontWeight="600">Z'</text>
+              {/* Mark same angle */}
+              <path d="M 110 125 A 15 15 0 0 1 115 115" fill="none" stroke="#10b981" strokeWidth="1.5" />
+              <text x="118" y="123" fontSize="11" fill="#10b981" fontWeight="600">60°</text>
+            </svg>
+            <p className="text-sm text-ink-2 text-center mt-2 font-semibold">
+              角度不变<br />
+              <span className="text-xs text-accent">∠X = ∠X' = 60° (k 不作用于角)</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
   return null;
 }
