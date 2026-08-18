@@ -259,5 +259,81 @@ export default function SmathFigure({ weekNumber }: { weekNumber: number }) {
     );
   }
 
+  if (weekNumber === 75) {
+    return (
+      <div className="bg-paper border border-line rounded-xl p-6 mb-6">
+        <h3 className="font-semibold text-ink mb-4 text-center">📐 本周图解</h3>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          {/* Diagram 1: Two congruent triangles (one rotated) */}
+          <div className="flex flex-col items-center">
+            <svg viewBox="0 0 200 200" className="w-full max-w-[200px] h-auto">
+              {/* Triangle A */}
+              <polygon points="30,120 80,40 130,120" fill="none" stroke="#d97706" strokeWidth="2" />
+              <text x="50" y="85" fontSize="12" fill="#d97706" fontWeight="600">4</text>
+              <text x="100" y="85" fontSize="12" fill="#d97706" fontWeight="600">5</text>
+              <text x="75" y="135" fontSize="12" fill="#d97706" fontWeight="600">6</text>
+              <text x="80" y="25" fontSize="14" fill="#1a1a1a" fontWeight="600">A</text>
+              
+              {/* Triangle B (rotated) */}
+              <g transform="translate(150, 100) rotate(45) translate(-50, -40)">
+                <polygon points="30,40 80,40 55,90" fill="none" stroke="#10b981" strokeWidth="2" />
+              </g>
+              <text x="150" y="105" fontSize="14" fill="#1a1a1a" fontWeight="600">B</text>
+              <text x="155" y="125" fontSize="11" fill="#6b7280">(rotated)</text>
+            </svg>
+            <p className="text-sm text-ink-2 text-center mt-2 font-semibold">
+              全等（旋转 OK）<br />
+              <span className="text-xs text-accent">同形同大小</span>
+            </p>
+          </div>
+
+          {/* Diagram 2: Two congruent squares (one reflected) */}
+          <div className="flex flex-col items-center">
+            <svg viewBox="0 0 200 200" className="w-full max-w-[200px] h-auto">
+              {/* Square A */}
+              <rect x="20" y="60" width="60" height="60" fill="none" stroke="#d97706" strokeWidth="2" />
+              <text x="45" y="50" fontSize="12" fill="#d97706" fontWeight="600">7 cm</text>
+              <text x="50" y="95" fontSize="14" fill="#1a1a1a" fontWeight="600">A</text>
+              
+              {/* Square B (reflected) - mirror image */}
+              <rect x="120" y="60" width="60" height="60" fill="none" stroke="#10b981" strokeWidth="2" />
+              <text x="145" y="50" fontSize="12" fill="#10b981" fontWeight="600">7 cm</text>
+              <text x="150" y="95" fontSize="14" fill="#1a1a1a" fontWeight="600">B</text>
+              
+              {/* Mirror line */}
+              <line x1="100" y1="40" x2="100" y2="140" stroke="#6b7280" strokeWidth="1" strokeDasharray="5,5" />
+              <text x="85" y="155" fontSize="11" fill="#6b7280">mirror</text>
+            </svg>
+            <p className="text-sm text-ink-2 text-center mt-2 font-semibold">
+              全等（翻转 OK）<br />
+              <span className="text-xs text-accent">同形同大小</span>
+            </p>
+          </div>
+
+          {/* Diagram 3: Two non-congruent rectangles */}
+          <div className="flex flex-col items-center">
+            <svg viewBox="0 0 200 200" className="w-full max-w-[200px] h-auto">
+              {/* Rectangle A */}
+              <rect x="20" y="40" width="80" height="45" fill="none" stroke="#d97706" strokeWidth="2" />
+              <text x="55" y="30" fontSize="12" fill="#d97706" fontWeight="600">9 cm</text>
+              <text x="5" y="70" fontSize="12" fill="#d97706" fontWeight="600">5 cm</text>
+              <text x="60" y="68" fontSize="14" fill="#1a1a1a" fontWeight="600">A</text>
+              
+              {/* Rectangle B (different size) */}
+              <rect x="30" y="110" width="120" height="67.5" fill="none" stroke="#ef4444" strokeWidth="2" />
+              <text x="75" y="100" fontSize="12" fill="#ef4444" fontWeight="600">12 cm</text>
+              <text x="5" y="150" fontSize="12" fill="#ef4444" fontWeight="600">8 cm</text>
+              <text x="90" y="150" fontSize="14" fill="#1a1a1a" fontWeight="600">B</text>
+            </svg>
+            <p className="text-sm text-ink-2 text-center mt-2 font-semibold">
+              <span className="text-red-600">不全等</span><br />
+              <span className="text-xs text-muted">同形不同大小</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
   return null;
 }
