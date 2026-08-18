@@ -13929,7 +13929,7 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
             "At Riverside Secondary, Mr Lim draws two circles. Circle P has radius 7 cm. Circle Q has radius 7 cm. Wei asks: 「Are they congruent?」 Which is correct?|A. Yes, they are congruent. Both circles have the same radius (7 cm). ✓|B. No, they are not congruent unless they are in the same position.|C. No, we need to check if they have the same centre.|D. We cannot tell without measuring the circumference.",
             "Aisha at Riverside Secondary sees two triangles. Triangle ABC has sides 9 cm, 12 cm, 15 cm. Triangle XYZ has sides 18 cm, 24 cm, 30 cm. Mr Lim asks: 「Are they congruent?」 Which is correct?|A. Yes, they are congruent because the sides are proportional.|B. Yes, they are congruent because both are right triangles.|C. No, they are not congruent. Same shape but different size (XYZ sides are twice ABC sides). ✓|D. We cannot tell without measuring the angles.",
             "At Riverside Secondary, Mr Lim shows two equilateral triangles. Triangle A has side 8 cm. Triangle B has side 8 cm but is rotated 60°. Wei says: 「They are congruent.」 Is this correct?|A. Yes, they are congruent. Same shape and same size (rotation does not change congruence). ✓|B. No, they are not congruent because one is rotated.|C. No, we need to check the angles.|D. We cannot tell without measuring all sides.",
-            "Aisha at Riverside Secondary sees two rectangles. Rectangle A is 10 cm by 5 cm. Rectangle B is 15 cm by 7.5 cm. Mr Lim asks: 「Are they congruent?」 Which is correct?|A. Yes, they are congruent because both are rectangles.|B. Yes, they are congruent because the sides are proportional (15:10 = 7.5:5 = 1.5).|C. No, they are not congruent. Same shape but different size. ✓|D. We cannot tell without measuring the diagonals.",
+            "Aisha at Riverside Secondary sees two rectangles. Rectangle A is 10 cm by 5 cm. Rectangle B is 20 cm by 10 cm. Mr Lim asks: 「Are they congruent?」 Which is correct?|A. Yes, they are congruent because both are rectangles.|B. Yes, they are congruent because the sides are proportional (20:10 = 10:5 = 2).|C. No, they are not congruent. Same shape but different size. ✓|D. We cannot tell without measuring the diagonals.",
             "At Riverside Secondary, Mr Lim draws two isosceles triangles. Triangle PQR has sides 7 cm, 7 cm, 10 cm. Triangle STU is a reflection of Triangle PQR with sides 7 cm, 7 cm, 10 cm. Wei asks: 「Are they congruent?」 Which is correct?|A. Yes, they are congruent. Reflection (mirror image) does not change size or shape. ✓|B. No, they are not congruent because one is reflected.|C. No, they are not congruent unless they have the same orientation.|D. We cannot tell without measuring the angles.",
             "Aisha at Riverside Secondary sees two quadrilaterals. Quadrilateral ABCD has sides 5 cm, 6 cm, 7 cm, 8 cm. Quadrilateral PQRS has sides 5 cm, 6 cm, 7 cm, 8 cm but in a different order (8 cm, 7 cm, 6 cm, 5 cm going clockwise). Mr Lim asks: 「Are they congruent?」 Which is correct?|A. Yes, they are congruent because they have the same side lengths.|B. No, they might not be congruent. Same side lengths does not guarantee congruence unless we know they match in order and the angles match. ✓|C. Yes, they are congruent because both are quadrilaterals.|D. We cannot tell without measuring the angles.",
             "At Riverside Secondary, Mr Lim shows two trapeziums. Trapezium A has parallel sides 6 cm and 10 cm, and height 4 cm. Trapezium B has parallel sides 6 cm and 10 cm, and height 4 cm. Wei says: 「They have the same area, so they are congruent.」 Is this correct?|A. No, same area does not mean congruent. We need all corresponding sides and angles to match. ✓|B. Yes, same area means they are congruent.|C. Yes, because both are trapeziums with the same parallel sides and height.|D. We need to measure the non-parallel sides to be sure.",
@@ -13946,21 +13946,20 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
 Riverside Secondary School has geometry questions about congruent figures. Answer the questions below. Show your working.
 
 Question (a)
-At Riverside Secondary, Mr Lim draws two triangles:
-• Triangle ABC: sides 11 cm, 13 cm, 15 cm
-• Triangle PQR: sides 11 cm, 13 cm, 15 cm (but rotated 45°)
-Wei says: 「Triangle ABC and Triangle PQR are not congruent because Triangle PQR is rotated.」
+At Riverside Secondary, Mr Lim draws two circles:
+• Circle P: radius 16 cm
+• Circle Q: radius 16 cm (but rotated 90° on the board)
+Wei says: 「Circle P and Circle Q are not congruent because Circle Q is rotated.」
 Aisha says: 「They are congruent because they have the same shape and same size.」
 (i) Who is correct, Wei or Aisha? Explain your answer with the definition of congruent figures.
 (ii) Give the definition of congruent figures: what must be true for two figures to be congruent?
 
 Question (b)
-At Riverside Secondary, Mr Lim draws two hexagons:
+At Riverside Secondary, Mr Lim draws two regular hexagons:
 • Hexagon A: all sides 9 cm, all angles 120°
 • Hexagon B: all sides 12 cm, all angles 120°
-Aisha asks: 「Are these hexagons congruent?」
-(i) Are they congruent? Explain your answer.
-(ii) Hexagon A has area 81√3 cm². Hexagon B has area 144√3 cm². Wei says: 「The areas are different, so they are not congruent.」 Is this reasoning correct? Explain why same area is not enough to conclude congruence, and what we need to check.
+(i) Are these hexagons congruent? Explain your answer using the definition of congruent figures (same shape and same size).
+(ii) Wei says: 「Both hexagons have all angles 120°, so they are congruent.」 Is this correct? Explain why having equal angles alone is not enough to conclude two figures are congruent. What else must be equal?
 
 Question (c)
 At Riverside Secondary, Mr Lim shows two rectangles:
