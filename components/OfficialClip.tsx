@@ -3,15 +3,19 @@
 type OfficialClipProps = {
   videoId: string;
   credit: string;
+  title?: string;
+  hideWeeklyHomework?: boolean;
 };
 
-export default function OfficialClip({ videoId, credit }: OfficialClipProps) {
+export default function OfficialClip({ videoId, credit, title, hideWeeklyHomework = false }: OfficialClipProps) {
   return (
     <div className="bg-card border border-line rounded-xl p-5">
-      <h3 className="font-semibold text-ink mb-3">🎬 先看官方影片</h3>
-      <p className="text-sm text-ink-2 mb-3">
-        先看官方影片，再做本周作业。
-      </p>
+      <h3 className="font-semibold text-ink mb-3">{title || "🎬 先看官方影片"}</h3>
+      {!hideWeeklyHomework && (
+        <p className="text-sm text-ink-2 mb-3">
+          先看官方影片，再做本周作业。
+        </p>
+      )}
       
       {/* YouTube privacy-enhanced embed */}
       <div className="relative w-full" style={{ paddingBottom: '56.25%' /* 16:9 aspect ratio */ }}>
