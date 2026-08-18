@@ -2,11 +2,13 @@
 
 import Link from "next/link";
 import { useState } from "react";
+import OfficialClip from "@/components/OfficialClip";
 
 export default function HomePage() {
   const payNowNumber = "94594601";
   
   const [showCurriculumMap, setShowCurriculumMap] = useState(false);
+  const [showMobileMenu, setShowMobileMenu] = useState(false);
   
   const [formData, setFormData] = useState({
     parentWechat: "",
@@ -113,7 +115,37 @@ export default function HomePage() {
           >
             登录
           </Link>
+          <button
+            onClick={() => setShowMobileMenu(!showMobileMenu)}
+            className="md:hidden flex items-center text-ink-2 hover:text-ink transition-colors"
+            aria-label="菜单"
+          >
+            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+          </button>
         </div>
+        {showMobileMenu && (
+          <div className="md:hidden border-t border-line bg-paper">
+            <div className="px-4 py-3 space-y-3">
+              <Link href="/guide" className="block text-ink-2 hover:text-ink transition-colors font-medium" onClick={() => setShowMobileMenu(false)}>
+                升学向导
+              </Link>
+              <Link href="/assess" className="block text-ink-2 hover:text-ink transition-colors font-medium" onClick={() => setShowMobileMenu(false)}>
+                入学摸底
+              </Link>
+              <Link href="#paths" className="block text-ink-2 hover:text-ink transition-colors font-medium" onClick={() => setShowMobileMenu(false)}>
+                路径
+              </Link>
+              <Link href="#ceq-course" className="block text-ink-2 hover:text-ink transition-colors font-medium" onClick={() => setShowMobileMenu(false)}>
+                会员课程
+              </Link>
+              <Link href="#contact" className="block text-ink-2 hover:text-ink transition-colors font-medium" onClick={() => setShowMobileMenu(false)}>
+                咨询
+              </Link>
+            </div>
+          </div>
+        )}
       </header>
 
       <main id="main">
@@ -192,7 +224,57 @@ export default function HomePage() {
           </div>
         </section>
 
-        <section className="py-12 md:py-16 bg-paper" id="paths">
+        <section className="py-12 md:py-16 bg-paper">
+          <div className="max-w-7xl mx-auto px-4">
+            <h2 className="font-serif font-semibold text-2xl md:text-3xl mb-3">
+              先看看新加坡政府小学
+            </h2>
+            <p className="text-ink-2 mb-4 max-w-2xl">
+              升旗、英语课、食堂、图书室。官方或主流媒体影片，不是本工作室微课，也不是考题。
+            </p>
+            <div className="mb-4">
+              <Link
+                href="/guide"
+                className="text-accent hover:text-accent-hover font-semibold underline text-sm"
+              >
+                向导里还有更多 →
+              </Link>
+              <span className="text-muted mx-2">·</span>
+              <a
+                href="https://www.youtube.com/@moespore"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-accent hover:text-accent-hover font-semibold underline text-sm"
+              >
+                教育部 YouTube
+              </a>
+            </div>
+
+            <div className="grid md:grid-cols-2 gap-6">
+              <div>
+                <h3 className="font-serif font-semibold text-lg mb-3 text-ink">浙江孩子在华苑小学</h3>
+                <OfficialClip
+                  videoId="Knyh8cm4kJU"
+                  title="浙江孩子在华苑小学"
+                  credit="片源说明：CNA Insider / Mediacorp《Life As An International Student At A Singapore Primary School》（2019）。华苑小学真实校园，一名从浙江来的孩子。非 MOE 官方，不是 AEIS / CEQ 考题。日期与学费以官网为准。"
+                  hideWeeklyHomework={true}
+                />
+              </div>
+              
+              <div>
+                <h3 className="font-serif font-semibold text-lg mb-3 text-ink">政府小学的一天（小一）</h3>
+                <OfficialClip
+                  videoId="Mqf8E8vwEg0"
+                  title="政府小学的一天（小一）"
+                  credit="片源说明：Kranji Primary School 官方频道《A Day In a Life of A P1 Student》。一所政府小学的一天，不是 AEIS 教程。"
+                  hideWeeklyHomework={true}
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="py-12 md:py-16 bg-paper-2" id="paths">
           <div className="max-w-7xl mx-auto px-4">
             <h2 className="font-serif font-semibold text-2xl md:text-3xl mb-3">
               小学一条路，中学另一条
@@ -665,7 +747,17 @@ export default function HomePage() {
                     type="text"
                     required
                     value={formData.parentWechat}
-                    onChange={(e) => setFormData({ ...formData, parentWechat: e.target.value })}
+                    onChange={(e) => {
+                      e.target.setCustomValidity("");
+                      setFormData({ ...formData, parentWechat: e.target.value });
+                    }}
+                    onInvalid={(e) => {
+                      e.preventDefault();
+                      const target = e.target as HTMLInputElement;
+                      if (target.validity.valueMissing) {
+                        target.setCustomValidity("请填写这一项");
+                      }
+                    }}
                     className="w-full px-4 py-2.5 bg-paper border border-line rounded-xl text-ink focus:outline-none focus:ring-2 focus:ring-accent focus:border-accent"
                     placeholder="您的微信号"
                   />
@@ -682,7 +774,19 @@ export default function HomePage() {
                     min="2000"
                     max={new Date().getFullYear()}
                     value={formData.childBirthYear}
-                    onChange={(e) => setFormData({ ...formData, childBirthYear: e.target.value })}
+                    onChange={(e) => {
+                      e.target.setCustomValidity("");
+                      setFormData({ ...formData, childBirthYear: e.target.value });
+                    }}
+                    onInvalid={(e) => {
+                      e.preventDefault();
+                      const target = e.target as HTMLInputElement;
+                      if (target.validity.valueMissing) {
+                        target.setCustomValidity("请填写这一项");
+                      } else if (target.validity.rangeUnderflow || target.validity.rangeOverflow) {
+                        target.setCustomValidity("请填写 2000 年或以后的出生年");
+                      }
+                    }}
                     className="w-full px-4 py-2.5 bg-paper border border-line rounded-xl text-ink focus:outline-none focus:ring-2 focus:ring-accent focus:border-accent"
                     placeholder="例如：2015"
                   />
@@ -696,7 +800,17 @@ export default function HomePage() {
                     id="stage"
                     required
                     value={formData.stage}
-                    onChange={(e) => setFormData({ ...formData, stage: e.target.value })}
+                    onChange={(e) => {
+                      e.target.setCustomValidity("");
+                      setFormData({ ...formData, stage: e.target.value });
+                    }}
+                    onInvalid={(e) => {
+                      e.preventDefault();
+                      const target = e.target as HTMLSelectElement;
+                      if (target.validity.valueMissing) {
+                        target.setCustomValidity("请填写这一项");
+                      }
+                    }}
                     className="w-full px-4 py-2.5 bg-paper border border-line rounded-xl text-ink focus:outline-none focus:ring-2 focus:ring-accent focus:border-accent"
                   >
                     <option value="">请选择</option>
@@ -722,7 +836,17 @@ export default function HomePage() {
                     id="intent"
                     required
                     value={formData.intent}
-                    onChange={(e) => setFormData({ ...formData, intent: e.target.value })}
+                    onChange={(e) => {
+                      e.target.setCustomValidity("");
+                      setFormData({ ...formData, intent: e.target.value });
+                    }}
+                    onInvalid={(e) => {
+                      e.preventDefault();
+                      const target = e.target as HTMLSelectElement;
+                      if (target.validity.valueMissing) {
+                        target.setCustomValidity("请填写这一项");
+                      }
+                    }}
                     className="w-full px-4 py-2.5 bg-paper border border-line rounded-xl text-ink focus:outline-none focus:ring-2 focus:ring-accent focus:border-accent"
                   >
                     <option value="">请选择</option>

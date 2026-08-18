@@ -312,7 +312,7 @@ export default function AssessPage() {
                     先练这个：<strong className="text-ink">{recommendation.kaizenFocus}</strong>
                   </p>
                   <p className="text-xs text-muted mt-2">
-                    每周只改一个错，改到真正改掉为止。
+                    每周只改一个错。
                   </p>
                 </div>
 

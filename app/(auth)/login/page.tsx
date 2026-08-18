@@ -98,7 +98,7 @@ function LoginForm() {
                 onChange={(e) => setEmail(e.target.value)}
                 required
                 className="w-full px-4 py-2.5 bg-paper border border-line rounded-xl text-ink focus:outline-none focus:ring-2 focus:ring-accent focus:border-accent"
-                placeholder="your@email.com"
+                placeholder="家长提供的邮箱"
               />
             </div>
 
@@ -176,7 +176,7 @@ function LoginForm() {
 
 export default function LoginPage() {
   return (
-    <Suspense fallback={<div className="min-h-screen flex items-center justify-center">Loading...</div>}>
+    <Suspense fallback={<div className="min-h-screen flex items-center justify-center">登录中...</div>}>
       <LoginForm />
     </Suspense>
   );
