@@ -547,6 +547,21 @@ export default function WeekHomework({
         )}
       </div>
 
+      {/* BoardWeike - first content block */}
+      <div className="mb-8 space-y-4">
+        <div className="bg-card border border-line rounded-xl p-5">
+          <p className="text-sm text-ink-2 mb-3">
+            先看这两个句子，跟读正确的一句，再做本周卷
+          </p>
+          <BoardWeike 
+            level={week.level} 
+            weekNumber={week.weekNumber}
+            planTitle={week.title}
+            planFirstLine={week.errorFocus || week.parentBrief?.split('。')[0] || week.parentBrief?.split('.')[0] || ""}
+          />
+        </div>
+      </div>
+
       {/* Lesson content: Parent brief + Video + How to use */}
       {(week.parentBrief || week.videoUrl || (week.officialClipId && week.officialClipCredit)) && (
         <div className="mb-8 space-y-4">
@@ -623,14 +638,6 @@ export default function WeekHomework({
               </div>
             </div>
           )}
-
-          {/* BoardWeike - always show */}
-          <BoardWeike 
-            level={week.level} 
-            weekNumber={week.weekNumber}
-            planTitle={week.title}
-            planFirstLine={week.errorFocus || week.parentBrief?.split('。')[0] || week.parentBrief?.split('.')[0] || ""}
-          />
         </div>
       )}
 
