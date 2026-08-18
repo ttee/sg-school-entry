@@ -939,6 +939,12 @@ export default function BoardWeike({ level, weekNumber, planTitle, planFirstLine
       ],
       gloss: "一组未分组数据的平均数：平均数 = 所有数加起来 ÷ 个数。先算和，数个数，再除。"
     },
+    "SMATH-89": {
+      examples: [
+        "Data set 3, 3, 5, 7, 9 → 3 appears twice, others once → mode = 3"
+      ],
+      gloss: "一组未分组数据的众数：众数是出现次数最多的那个数。数每个数出现几次，找最多的。"
+    },
     "SEC-0": {
       fossil: "Although I was nervous, but I tried. ✗ (中文「虽然…但是…」迁移) / I go yesterday ✗ (叙事体过去时掉落)",
       examples: [

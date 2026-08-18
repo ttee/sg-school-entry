@@ -15176,6 +15176,105 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
         },
       ],
     },
+    {
+      level: "SMATH",
+      weekNumber: 89,
+      title: "众数 — Mode of ungrouped data",
+      description: "Sec 2 S1 mode as a measure of central tendency for ungrouped data (AEIS 中学数学第 89 周 / SMATH Week 89)",
+      isSample: false,
+      errorFocus: "using the sum as the mode; using the largest value as the mode; using the mean instead of the mode; ignoring a repeated value",
+      parentBrief: "本周练一组数据的众数（mode）。众数是出现次数最多的那个数。不要把加起来的和当成众数，也不要用平均数代替众数。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "At Riverside Secondary, Mr Lim gives the data set 1, 2, 2, 4. Wei asks: 「What is the mode?」 Which answer is correct?|A. Mode = 2 (2 appears twice, most frequent)|B. Mode = 7 (sum is 1 + 2 + 2 + 4 = 9, fossil: using the sum)|C. Mode = 4 (fossil: using the largest value)|D. Mode = 2.25 (fossil: using the mean 9 ÷ 4 = 2.25)",
+            "At Riverside Secondary, Aisha finds the mode of 10, 10, 10, 14, 16. Which is correct?|A. Mode = 10 (10 appears three times, most frequent)|B. Mode = 50 (fossil: using the sum 10 + 10 + 10 + 14 + 16 = 50)|C. Mode = 16 (fossil: using the largest value)|D. Mode = 12 (fossil: using the mean 50 ÷ 5 = 10, but this would be 10 anyway)",
+            "At Riverside Secondary, Mr Lim shows the data set 7, 8, 9, 9. Wei says: 「The mode is 9.」 Which reason is correct?|A. 9 appears twice, others once. 9 is the most frequent value.|B. 9 is the largest value (fossil: wrong reason)|C. The sum is 33 (fossil: wrong reason)|D. The mean is 8.25 (fossil: wrong reason)",
+            "At Riverside Secondary, Aisha gives Wei the data set 0, 1, 1, 1, 4. Wei finds the mode. Which is correct?|A. Mode = 1 (1 appears three times, most frequent)|B. Mode = 6 (fossil: using the sum 0 + 1 + 1 + 1 + 4 = 7, wait that's 7 not 6; correct fossil example: sum = 7)|C. Mode = 4 (fossil: using the largest value)|D. Mode = 1.4 (fossil: using the mean 7 ÷ 5 = 1.4)",
+            "At Riverside Secondary, Mr Lim asks: 「Wei says the mode of 5, 6, 6, 8 is 25. Aisha says the mode is 6.」 Who is correct?|A. Aisha is correct. Mode = 6 (6 appears twice, most frequent). Wei used the sum (5 + 6 + 6 + 8 = 25), which is wrong.|B. Wei is correct. Mode = 25|C. Mode = 8 (fossil: largest value)|D. Mode = 6.25 (fossil: mean = 25 ÷ 4 = 6.25)",
+          ]),
+          correctAnswer: "A,A,A,A,A",
+          points: 10,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "At Riverside Secondary, Mr Lim shows the data set 12, 12, 15, 18. Aisha finds the mode. Which is correct?|A. Mode = 12 (12 appears twice, most frequent)|B. Mode = 57 (fossil: using the sum 12 + 12 + 15 + 18 = 57)|C. Mode = 18 (fossil: using the largest value)|D. Mode = 14.25 (fossil: using the mean 57 ÷ 4 = 14.25)",
+            "At Riverside Secondary, Wei finds the mode of 4, 4, 4, 7, 7. Which is correct?|A. Mode = 4 (4 appears three times, 7 appears twice. 4 is most frequent.)|B. Mode = 22 (fossil: sum = 4 + 4 + 4 + 7 + 7 = 26, not 22; correct: sum = 26)|C. Mode = 7 (fossil: largest value)|D. Mode = 5.2 (fossil: mean = 26 ÷ 5 = 5.2)",
+            "At Riverside Secondary, Aisha finds the mode of 20, 21, 21, 22. Which is correct?|A. Mode = 21 (21 appears twice, most frequent)|B. Mode = 84 (fossil: sum = 20 + 21 + 21 + 22 = 84)|C. Mode = 22 (fossil: largest value)|D. Mode = 21 (correct answer, but if reasoning is using mean, that's a fossil method)",
+            "At Riverside Secondary, Mr Lim shows the data set 3, 6, 6, 6, 10. Wei says: 「The mode is 6.」 Which reason is correct?|A. 6 appears three times, others once. 6 is the most frequent value.|B. 6 is between the min and max (fossil: wrong reason)|C. The sum is 31 (fossil: wrong reason, also sum is 3 + 6 + 6 + 6 + 10 = 31)|D. The mean is about 6.2 (fossil: wrong reason, also mean = 31 ÷ 5 = 6.2)",
+            "At Riverside Secondary, Aisha finds the mode of 8, 8, 11, 14. Which is correct?|A. Mode = 8 (8 appears twice, most frequent)|B. Mode = 41 (fossil: sum = 8 + 8 + 11 + 14 = 41)|C. Mode = 14 (fossil: largest value)|D. Mode = 10.25 (fossil: mean = 41 ÷ 4 = 10.25)",
+            "At Riverside Secondary, Wei shows the data set 1, 1, 1, 1. Mr Lim asks: 「What is the mode?」 Which is correct?|A. Mode = 1 (all values are 1, so 1 is the most frequent. When all equal, mode = that value.)|B. Mode = 4 (fossil: sum = 1 + 1 + 1 + 1 = 4)|C. Mode = 0 (fossil: incorrect)|D. Mode = 1 (correct answer, but if reasoning is using the mean, that's a fossil method; however, here all values equal so mean = mode = 1 by coincidence)",
+            "At Riverside Secondary, Aisha finds the mode of 13, 16, 16, 19, 19, 19. Which is correct?|A. Mode = 19 (19 appears three times, 16 appears twice. 19 is most frequent.)|B. Mode = 102 (fossil: sum = 13 + 16 + 16 + 19 + 19 + 19 = 102)|C. Mode = 19 (correct, but if using largest-value reasoning, that's a fossil; here 19 is both mode and largest by coincidence)|D. Mode = 17 (fossil: mean = 102 ÷ 6 = 17)",
+            "At Riverside Secondary, Mr Lim asks Wei: 「Find the mode of 2, 2, 4, 8, 8, 8.」 Which is correct?|A. Mode = 8 (8 appears three times, 2 appears twice. 8 is most frequent.)|B. Mode = 32 (fossil: sum = 2 + 2 + 4 + 8 + 8 + 8 = 32)|C. Mode = 8 (correct, but if using largest-value reasoning, that's a fossil; here 8 is both mode and largest by coincidence)|D. Mode = 5.33 (fossil: mean = 32 ÷ 6 ≈ 5.33)",
+          ]),
+          correctAnswer: "A,A,A,A,A,A,A,A",
+          points: 16,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `Part 2: Show Your Working (写出算式步骤)
+
+Riverside Secondary School has statistics questions about the mode of ungrouped data. Answer the questions below. Show your working clearly.
+
+Question (a)
+At Riverside Secondary, Mr Lim gives Wei the data set 4, 8, 8, 10, 12.
+(i) Count how many times each value appears. Write: 4 appears ? times. 8 appears ? times. 10 appears ? times. 12 appears ? times.
+(ii) Which value appears most often?
+(iii) What is the mode? Write your answer.
+(iv) Wei says: 「The mode is 42 because 4 + 8 + 8 + 10 + 12 = 42.」 Explain why Wei is wrong. What is the mode? (Hint: Mode = the most frequent value, not the sum.)
+
+Question (b)
+At Riverside Secondary, Aisha measures the data set 2, 5, 5, 5, 11.
+(i) Count how many times each value appears. Write: 2 appears ? times. 5 appears ? times. 11 appears ? times.
+(ii) Which value appears most often?
+(iii) What is the mode? Write your answer.
+(iv) Mr Lim asks: 「If someone says the mode is 11 because it's the largest value, is that correct?」 Explain why that reasoning is wrong. What is the correct mode and why?
+
+Question (c)
+At Riverside Secondary, Wei shows the data set 6, 6, 9, 9, 9, 15.
+(i) Count how many times each value appears. Write: 6 appears ? times. 9 appears ? times. 15 appears ? times.
+(ii) Which value appears most often?
+(iii) What is the mode? Write your answer.
+(iv) Aisha calculates: sum = 6 + 6 + 9 + 9 + 9 + 15 = 54. n = 6. Mean = 54 ÷ 6 = 9. She says: 「The mode is 9 because the mean is 9.」 Explain why this reasoning is wrong (even though the answer 9 happens to be correct). What is the correct reason that the mode is 9?
+
+写作提示 / Tips:
+✓ 每题分步骤写出推理 (Show working steps for each question)
+✓ Part 2 官方要求：clearly show the method of solution by writing working steps, plus the final answer
+✓ 不用计算器 (No calculators allowed)
+✓ 本周教 Sec 2 STATISTICS AND PROBABILITY, S1. Data handling and analysis: 本周是 mode as a measure of central tendency for a set of ungrouped data. Mode = the value that appears most often (the most frequent value). Simple identify-the-mode problems. Integer data values. Unimodal lists only (exactly one mode). No calculator. 本周不教 mean（平均数，上周 Week 88 已教）。本周不教 median（中位数）。本周不教 bimodal / two modes / no mode（双峰 / 两个众数 / 没有众数）。本周不教 grouped-data mode（分组数据众数）。本周不教 histograms / stem-and-leaf / box plots / quartiles / standard deviation（不教直方图/茎叶图/箱线图/四分位数/标准差）。本周不教 S2 probability（不教概率）。Cast: Wei, Aisha, Mr Lim at Riverside Secondary. No calculator.
+✓ 众数步骤示范 (Mode identification examples):
+  • Data set 3, 3, 5, 7, 9 → mode 3:
+    Question: Find the mode of 3, 3, 5, 7, 9. Show your working.
+    Solution: ① Count how many times each value appears. 3 appears twice (the first 3 and the second 3). 5 appears once. 7 appears once. 9 appears once. ② Which value appears most often? 3 appears twice. 5, 7, 9 each appear once. 3 is the most frequent. ③ Mode = 3. Answer: 3. (Note: Common fossil: saying the mode is 27 (the sum 3 + 3 + 5 + 7 + 9 = 27). Mode = the most frequent value, not the sum. Another fossil: saying the mode is 9 (the largest value). Mode = the most frequent value, not the maximum.)
+  • Data set 1, 2, 2, 4 → mode 2:
+    Question: Find the mode of 1, 2, 2, 4. Show your working.
+    Solution: ① Count: 1 appears once. 2 appears twice. 4 appears once. ② Which appears most often? 2 (twice). ③ Mode = 2. Answer: 2. (Note: Mode is 2, not the sum (9), not the largest (4), not the mean (2.25).)
+  • Data set 10, 10, 10, 14, 16 → mode 10:
+    Question: Find the mode of 10, 10, 10, 14, 16. Show your working.
+    Solution: ① Count: 10 appears three times (the first 10, the second 10, the third 10). 14 appears once. 16 appears once. ② Which appears most often? 10 (three times). ③ Mode = 10. Answer: 10. (Note: Common fossils: saying mode = 50 (the sum), mode = 16 (the largest), or mode = 12 (the mean). All wrong. Mode = the most frequent value. 10 appears three times (most often). Mode = 10.)
+✓ 关键步骤：Step 1: Count how many times each value appears (count the frequency)（数每个值出现几次（数频数））. Step 2: Which value has the highest frequency? (which value appears most often?)（哪个值频数最高（哪个值出现最多次））. Step 3: State the mode (the most frequent value)（陈述众数（出现最多次的那个值））. Step 4: Remember: mode = the most frequent value, NOT the sum, NOT the largest value, NOT the mean（记住：众数 = 出现次数最多的值，不是和，不是最大值，不是平均数）.
+✓ 化石 (fossil errors):
+  • Using the sum as the mode（把和当成众数）：data set 4, 8, 8, 10, 12. Sum = 4 + 8 + 8 + 10 + 12 = 42. Saying the mode is 42（错误：说众数是 42）。正确：Mode = the most frequent value. 8 appears twice (most often). Mode = 8, not 42.
+  • Using the largest value as the mode（把最大值当成众数）：data set 2, 5, 5, 5, 11. Largest = 11. Saying the mode is 11（错误：说众数是 11 因为它最大）。正确：Mode = the most frequent value. 5 appears three times (most often). Mode = 5, not 11.
+  • Using the mean instead of the mode（用平均数代替众数）：data set 6, 6, 9, 9, 9, 15. Mean = 54 ÷ 6 = 9. Saying the mode is 9 because the mean is 9（错误的推理：说众数是 9 因为平均数是 9）。正确推理：Mode = the most frequent value. 9 appears three times (6 appears twice, 15 appears once). Mode = 9 because 9 is the most frequent, not because mean = 9. (The answer 9 is correct, but the method is wrong if you used the mean formula. 上周 Week 88 学 mean，这周学 mode，mode ≠ mean.)
+  • Ignoring a repeated value（忽略重复值）：data set 1, 2, 2, 4. Saying 'each value appears once, no mode'（错误：说每个值都出现一次，没有众数）。正确：Count every occurrence. 2 appears twice (the first 2 and the second 2). Mode = 2.
+  • 本周教 S1 的 mode of ungrouped data（一组未分组数据的众数）。本周不教 mean（平均数，上周 Week 88 已教）、median（中位数）、bimodal / two modes / no mode（双峰 / 两个众数 / 没有众数）、grouped-data mode（分组数据众数）。本周不教 histograms / stem-and-leaf / box plots / quartiles / standard deviation。本周不教 S2 probability。
+✓ Writing 数值不能抄 微课：微课用 3, 3, 5, 7, 9 → mode 3（这是 BoardWeike 微课例题）。Writing Q 用 4, 8, 8, 10, 12 → mode 8 (Q a); 2, 5, 5, 5, 11 → mode 5 (Q b); 6, 6, 9, 9, 9, 15 → mode 9 (Q c)。不能抄本周 MCQ 的其他数值（1,2,2,4 → 2; 10,10,10,14,16 → 10; 7,8,9,9 → 9; 0,1,1,1,4 → 1; 5,6,6,8 → 6 等，也不能抄 reading/grammar 的列表）。也不能用 W88 writing 的平均数列表（11,13,15,17; 2,6,10,14,18; 21,21,21,29 等，W88 是 mean，本周是 mode，不能重复）。
+
+Note: This is a sample of Part 2 short-answer/open-ended questions. The official paper has 20 short-answer + 10–15 open-ended items in 1 hour 45 minutes.`,
+          points: 20,
+        },
+      ],
+    },
   ];
 
 
