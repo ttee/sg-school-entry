@@ -1277,5 +1277,122 @@ export default function SmathFigure({ weekNumber }: { weekNumber: number }) {
     );
   }
 
+  if (weekNumber === 85) {
+    return (
+      <div className="bg-paper border border-line rounded-xl p-6 mb-6">
+        <h3 className="font-semibold text-ink mb-4 text-center">📐 本周图解</h3>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          {/* Diagram 1: 9-12-15 triangle */}
+          <div className="flex flex-col items-center">
+            <svg viewBox="0 0 200 180" className="w-full max-w-[200px] h-auto">
+              {/* Title */}
+              <text x="100" y="18" fontSize="11" fill="#1a1a1a" fontWeight="600" textAnchor="middle">9² + 12² = 15²</text>
+              
+              {/* Right-angled triangle */}
+              <line x1="30" y1="130" x2="150" y2="130" stroke="#1a1a1a" strokeWidth="2" />
+              <line x1="30" y1="130" x2="30" y2="40" stroke="#1a1a1a" strokeWidth="2" />
+              <line x1="30" y1="40" x2="150" y2="130" stroke="#d97706" strokeWidth="2" />
+              
+              {/* Right angle marker */}
+              <rect x="30" y="120" width="10" height="10" fill="none" stroke="#1a1a1a" strokeWidth="1" />
+              
+              {/* Labels */}
+              <text x="90" y="145" fontSize="12" fill="#1a1a1a" fontWeight="600">12 cm</text>
+              <text x="15" y="90" fontSize="12" fill="#1a1a1a" fontWeight="600">9 cm</text>
+              <text x="95" y="75" fontSize="13" fill="#d97706" fontWeight="700">15 cm</text>
+              
+              {/* Vertices */}
+              <circle cx="30" cy="130" r="2" fill="#1a1a1a" />
+              <circle cx="150" cy="130" r="2" fill="#1a1a1a" />
+              <circle cx="30" cy="40" r="2" fill="#1a1a1a" />
+              <text x="25" y="150" fontSize="11" fill="#1a1a1a" fontWeight="600">C</text>
+              <text x="155" y="145" fontSize="11" fill="#1a1a1a" fontWeight="600">B</text>
+              <text x="25" y="30" fontSize="11" fill="#1a1a1a" fontWeight="600">A</text>
+              
+              {/* Formula */}
+              <text x="100" y="170" fontSize="10" fill="#3b82f6" fontWeight="600" textAnchor="middle">81 + 144 = 225</text>
+            </svg>
+            <p className="text-sm text-ink-2 text-center mt-2 font-semibold">
+              两条直角边 9 cm 和 12 cm<br />
+              <span className="text-xs text-accent">斜边 15 cm</span>
+            </p>
+          </div>
+
+          {/* Diagram 2: 8-15-17 triangle */}
+          <div className="flex flex-col items-center">
+            <svg viewBox="0 0 200 180" className="w-full max-w-[200px] h-auto">
+              {/* Title */}
+              <text x="100" y="18" fontSize="11" fill="#1a1a1a" fontWeight="600" textAnchor="middle">8² + 15² = 17²</text>
+              
+              {/* Right-angled triangle */}
+              <line x1="30" y1="130" x2="165" y2="130" stroke="#1a1a1a" strokeWidth="2" />
+              <line x1="30" y1="130" x2="30" y2="60" stroke="#1a1a1a" strokeWidth="2" />
+              <line x1="30" y1="60" x2="165" y2="130" stroke="#10b981" strokeWidth="2" />
+              
+              {/* Right angle marker */}
+              <rect x="30" y="120" width="10" height="10" fill="none" stroke="#1a1a1a" strokeWidth="1" />
+              
+              {/* Labels */}
+              <text x="95" y="145" fontSize="12" fill="#1a1a1a" fontWeight="600">15 cm</text>
+              <text x="12" y="100" fontSize="12" fill="#1a1a1a" fontWeight="600">8 cm</text>
+              <text x="105" y="85" fontSize="13" fill="#10b981" fontWeight="700">17 cm</text>
+              
+              {/* Vertices */}
+              <circle cx="30" cy="130" r="2" fill="#1a1a1a" />
+              <circle cx="165" cy="130" r="2" fill="#1a1a1a" />
+              <circle cx="30" cy="60" r="2" fill="#1a1a1a" />
+              <text x="25" y="150" fontSize="11" fill="#1a1a1a" fontWeight="600">C</text>
+              <text x="170" y="145" fontSize="11" fill="#1a1a1a" fontWeight="600">B</text>
+              <text x="25" y="50" fontSize="11" fill="#1a1a1a" fontWeight="600">A</text>
+              
+              {/* Formula */}
+              <text x="100" y="170" fontSize="10" fill="#3b82f6" fontWeight="600" textAnchor="middle">64 + 225 = 289</text>
+            </svg>
+            <p className="text-sm text-ink-2 text-center mt-2 font-semibold">
+              两条直角边 8 cm 和 15 cm<br />
+              <span className="text-xs text-accent">斜边 17 cm</span>
+            </p>
+          </div>
+
+          {/* Diagram 3: 10-24-26 triangle (hypotenuse given) */}
+          <div className="flex flex-col items-center">
+            <svg viewBox="0 0 200 180" className="w-full max-w-[200px] h-auto">
+              {/* Title */}
+              <text x="100" y="18" fontSize="11" fill="#1a1a1a" fontWeight="600" textAnchor="middle">10² + 24² = 26²</text>
+              
+              {/* Right-angled triangle */}
+              <line x1="30" y1="130" x2="150" y2="130" stroke="#8b5cf6" strokeWidth="2" />
+              <line x1="30" y1="130" x2="30" y2="35" stroke="#1a1a1a" strokeWidth="2" />
+              <line x1="30" y1="35" x2="150" y2="130" stroke="#d97706" strokeWidth="2" />
+              
+              {/* Right angle marker */}
+              <rect x="30" y="120" width="10" height="10" fill="none" stroke="#1a1a1a" strokeWidth="1" />
+              
+              {/* Labels */}
+              <text x="90" y="145" fontSize="12" fill="#8b5cf6" fontWeight="700">24 cm</text>
+              <text x="12" y="90" fontSize="12" fill="#1a1a1a" fontWeight="600">10 cm</text>
+              <text x="95" y="70" fontSize="13" fill="#d97706" fontWeight="700">26 cm</text>
+              
+              {/* Vertices */}
+              <circle cx="30" cy="130" r="2" fill="#1a1a1a" />
+              <circle cx="150" cy="130" r="2" fill="#1a1a1a" />
+              <circle cx="30" cy="35" r="2" fill="#1a1a1a" />
+              <text x="25" y="150" fontSize="11" fill="#1a1a1a" fontWeight="600">C</text>
+              <text x="155" y="145" fontSize="11" fill="#1a1a1a" fontWeight="600">B</text>
+              <text x="25" y="25" fontSize="11" fill="#1a1a1a" fontWeight="600">A</text>
+              
+              {/* Formula */}
+              <text x="100" y="170" fontSize="10" fill="#3b82f6" fontWeight="600" textAnchor="middle">100 + 576 = 676</text>
+            </svg>
+            <p className="text-sm text-ink-2 text-center mt-2 font-semibold">
+              斜边 26 cm，一条直角边 10 cm<br />
+              <span className="text-xs text-accent">另一条直角边 24 cm</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
   return null;
 }

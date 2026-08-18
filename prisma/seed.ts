@@ -14797,6 +14797,99 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
         },
       ],
     },
+    {
+      level: "SMATH",
+      weekNumber: 85,
+      title: "毕达哥拉斯定理 — Pythagoras' theorem",
+      description: "Sec 2 G4 Pythagoras' theorem only (AEIS 中学数学第 85 周 / SMATH Week 85)",
+      isSample: false,
+      errorFocus: "using the hypotenuse as a leg (a² + c² = b²); adding the two legs instead of squares (a + b = c); two options that are the same length written two ways",
+      parentBrief: "本周练毕达哥拉斯定理（勾股定理）。G4 Pythagoras' theorem: in a right-angled triangle（直角三角形）, a² + b² = c²（两条直角边的平方和等于斜边的平方）, where c is the hypotenuse（c 是斜边）。Find a missing side（求缺失的边）。Integer Pythagorean triples only（只用整数勾股数组，答案保持整数），so no calculator, no surds, no invented √3（不用计算器，不出现根号，不发明 √3）。本周不教 sine/cosine/tangent（不教三角函数）。本周不教 3-D Pythagoras（不教三维空间勾股定理）。本周不教 G2.10 volumes（不教体积比）。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "At Riverside Secondary, Mr Lim draws a right-angled triangle. The two legs are AC = 9 cm and BC = 12 cm. Wei asks: 「What is the hypotenuse AB?」 Which is correct?|A. AB = 15 cm. Using Pythagoras' theorem: a² + b² = c². 9² + 12² = 81 + 144 = 225 = 15². So c = 15 cm. ✓|B. AB = 21 cm. Adding the two legs: 9 + 12 = 21 (fossil: adding legs instead of squares)|C. AB = 3 cm. Subtracting: 12 − 9 = 3|D. AB = 108 cm. Multiplying: 9 × 12 = 108",
+            "At Riverside Secondary, Aisha draws a right-angled triangle. The two legs are 8 cm and 15 cm. Mr Lim asks: 「What is the hypotenuse?」 Which is correct?|A. 17 cm. Using Pythagoras' theorem: 8² + 15² = 64 + 225 = 289 = 17². So c = 17 cm. ✓|B. 23 cm. Adding the two legs: 8 + 15 = 23 (fossil: adding legs instead of squares)|C. 7 cm. Subtracting: 15 − 8 = 7|D. 120 cm. Multiplying: 8 × 15 = 120",
+            "At Riverside Secondary, Wei draws a right-angled triangle. The hypotenuse is 26 cm. One leg is 10 cm. Aisha asks: 「What is the other leg?」 Which is correct?|A. 24 cm. Using Pythagoras' theorem: a² + b² = c². 10² + b² = 26². 100 + b² = 676. b² = 576. b = 24 cm. ✓|B. 16 cm. Subtracting: 26 − 10 = 16 (fossil: subtracting instead of using Pythagoras)|C. 36 cm. Adding: 26 + 10 = 36|D. 260 cm. Multiplying: 26 × 10 = 260",
+            "At Riverside Secondary, Mr Lim shows a right-angled triangle with hypotenuse 25 cm and one leg 15 cm. Wei says: 「The other leg is 40 cm because 25 + 15 = 40.」 Aisha says: 「No, we need Pythagoras' theorem.」 Which is correct?|A. Aisha is correct. Using a² + b² = c²: 15² + b² = 25². 225 + b² = 625. b² = 400. b = 20 cm. Wei added instead of using Pythagoras. ✓|B. Wei is correct. Adding: 25 + 15 = 40 cm|C. The other leg is 10 cm. Subtracting: 25 − 15 = 10|D. The other leg is 375 cm. Multiplying: 25 × 15 = 375",
+            "At Riverside Secondary, Aisha draws a right-angled triangle. The legs are 20 cm and 21 cm. Mr Lim asks: 「What is the hypotenuse?」 Which is correct?|A. 29 cm. Using Pythagoras' theorem: 20² + 21² = 400 + 441 = 841 = 29². So c = 29 cm. ✓|B. 41 cm. Adding the two legs: 20 + 21 = 41 (fossil: adding legs instead of squares)|C. 1 cm. Subtracting: 21 − 20 = 1|D. 420 cm. Multiplying: 20 × 21 = 420",
+          ]),
+          correctAnswer: "A,A,A,A,A",
+          points: 10,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "At Riverside Secondary, Mr Lim draws a right-angled triangle with legs 5 cm and 12 cm. Wei asks: 「What is the hypotenuse?」 Which is correct?|A. 13 cm. Using Pythagoras' theorem: 5² + 12² = 25 + 144 = 169 = 13². So c = 13 cm. ✓|B. 17 cm. Adding the two legs: 5 + 12 = 17 (fossil: adding legs instead of squares)|C. 7 cm. Subtracting: 12 − 5 = 7|D. 60 cm. Multiplying: 5 × 12 = 60",
+            "At Riverside Secondary, Aisha draws a right-angled triangle with hypotenuse 13 cm and one leg 5 cm. Mr Lim asks: 「What is the other leg?」 Which is correct?|A. 12 cm. Using Pythagoras' theorem: 5² + b² = 13². 25 + b² = 169. b² = 144. b = 12 cm. ✓|B. 8 cm. Subtracting: 13 − 5 = 8 (fossil: subtracting instead of using Pythagoras)|C. 18 cm. Adding: 13 + 5 = 18|D. 65 cm. Multiplying: 13 × 5 = 65",
+            "At Riverside Secondary, Wei shows a right-angled triangle. The hypotenuse is 25 cm. One leg is 7 cm. Aisha asks: 「What is the other leg?」 Which is correct?|A. 24 cm. Using Pythagoras' theorem: 7² + b² = 25². 49 + b² = 625. b² = 576. b = 24 cm. ✓|B. 18 cm. Subtracting: 25 − 7 = 18 (fossil: subtracting instead of using Pythagoras)|C. 32 cm. Adding: 25 + 7 = 32|D. 175 cm. Multiplying: 25 × 7 = 175",
+            "At Riverside Secondary, Mr Lim draws a right-angled triangle with legs 15 cm and 20 cm. Wei calculates: 「15 + 20 = 35, so the hypotenuse is 35 cm.」 Aisha says: 「No, we need a² + b² = c².」 Which is correct?|A. Aisha is correct. Using Pythagoras' theorem: 15² + 20² = 225 + 400 = 625 = 25². So c = 25 cm, not 35 cm. ✓|B. Wei is correct. Adding: 15 + 20 = 35 cm|C. The hypotenuse is 5 cm. Subtracting: 20 − 15 = 5|D. The hypotenuse is 300 cm. Multiplying: 15 × 20 = 300",
+            "At Riverside Secondary, Aisha shows a right-angled triangle. The hypotenuse is 17 cm. One leg is 15 cm. Mr Lim asks: 「What is the other leg?」 Which is correct?|A. 8 cm. Using Pythagoras' theorem: 15² + b² = 17². 225 + b² = 289. b² = 64. b = 8 cm. ✓|B. 2 cm. Subtracting: 17 − 15 = 2 (fossil: subtracting instead of using Pythagoras)|C. 32 cm. Adding: 17 + 15 = 32|D. 255 cm. Multiplying: 17 × 15 = 255",
+            "At Riverside Secondary, Wei draws a right-angled triangle with legs 9 cm and 40 cm. Aisha asks: 「What is the hypotenuse?」 Which working is correct?|A. 9² + 40² = 81 + 1600 = 1681 = 41². So c = 41 cm. ✓|B. 9 + 40 = 49 cm (fossil: adding legs instead of squares)|C. 40 − 9 = 31 cm|D. 9 × 40 = 360 cm",
+            "At Riverside Secondary, Mr Lim shows a right-angled triangle. The hypotenuse is 61 cm. One leg is 60 cm. Wei asks: 「What is the other leg?」 Which is correct?|A. 11 cm. Using Pythagoras' theorem: 60² + b² = 61². 3600 + b² = 3721. b² = 121. b = 11 cm. ✓|B. 1 cm. Subtracting: 61 − 60 = 1 (fossil: subtracting instead of using Pythagoras)|C. 121 cm. Adding: 61 + 60 = 121|D. 3660 cm. Multiplying: 61 × 60 = 3660",
+            "At Riverside Secondary, Aisha draws a right-angled triangle with legs 33 cm and 56 cm. Mr Lim asks: 「What is the hypotenuse?」 Which is correct?|A. 65 cm. Using Pythagoras' theorem: 33² + 56² = 1089 + 3136 = 4225 = 65². So c = 65 cm. ✓|B. 89 cm. Adding the two legs: 33 + 56 = 89 (fossil: adding legs instead of squares)|C. 23 cm. Subtracting: 56 − 33 = 23|D. 1848 cm. Multiplying: 33 × 56 = 1848",
+          ]),
+          correctAnswer: "A,A,A,A,A,A,A,A",
+          points: 16,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `Part 2: Show Your Working (写出算式步骤)
+
+Riverside Secondary School has geometry questions about Pythagoras' theorem. Answer the questions below. Show your working clearly.
+
+Question (a)
+At Riverside Secondary, Mr Lim draws a right-angled triangle. The two legs are 13 cm and 84 cm.
+(i) Write Pythagoras' theorem (a² + b² = c²).
+(ii) Calculate the hypotenuse. Show your working: 13² + 84² = ? Work out each square, add them, then find the square root.
+
+Question (b)
+At Riverside Secondary, Aisha draws a right-angled triangle. The hypotenuse is 53 cm. One leg is 28 cm.
+(i) Calculate the other leg. Show your working: 28² + b² = 53². Work out 28² and 53², then find b².
+(ii) Wei says: 「The other leg is 53 − 28 = 25 cm.」 Explain why Wei is wrong and what the correct answer should be.
+
+Question (c)
+At Riverside Secondary, Wei shows a right-angled triangle. The two legs are 16 cm and 63 cm.
+(i) Calculate the hypotenuse. Show your working: 16² + 63² = ? Work out each square, add them, then find the square root.
+(ii) Mr Lim says: 「The hypotenuse must be longer than each leg.」 Check your answer: is the hypotenuse longer than 16 cm and longer than 63 cm?
+
+写作提示 / Tips:
+✓ 每题分步骤写出推理 (Show working steps for each question)
+✓ Part 2 官方要求：clearly show the method of solution by writing working steps, plus the final answer
+✓ 不用计算器 (No calculators allowed)
+✓ 本周教 Sec 2 GEOMETRY AND MEASUREMENT, G4. Pythagoras' theorem and trigonometry: 本周是 Pythagoras' theorem only. Official content: in a right-angled triangle, a² + b² = c² where c is the hypotenuse. Find a missing side. Integer Pythagorean triples only, so no calculator, no surds, no invented √3. 本周不教 sine/cosine/tangent. 本周不教 3-D Pythagoras. 本周不教 G2.10 volumes. Cast: secondary Wei, Aisha, Mr Lim at Riverside Secondary School. No calculator.
+✓ 毕达哥拉斯定理步骤示范 (Pythagoras' theorem examples):
+  • Legs 9 cm and 12 cm → hypotenuse 15 cm:
+    Question: The two legs are 9 cm and 12 cm. What is the hypotenuse?
+    Solution: Using Pythagoras' theorem: a² + b² = c². ① Work out 9² = 81. ② Work out 12² = 144. ③ Add: 81 + 144 = 225. ④ Find the square root: √225 = 15. ⑤ So c = 15 cm. Answer: The hypotenuse is 15 cm. (Note: Common fossil: adding the two legs directly: 9 + 12 = 21. This is wrong. We must square each leg first, then add the squares, then find the square root. 9² + 12² = 81 + 144 = 225 = 15².)
+  • Legs 8 cm and 15 cm → hypotenuse 17 cm:
+    Question: The two legs are 8 cm and 15 cm. What is the hypotenuse?
+    Solution: Using Pythagoras' theorem: a² + b² = c². ① Work out 8² = 64. ② Work out 15² = 225. ③ Add: 64 + 225 = 289. ④ Find the square root: √289 = 17. ⑤ So c = 17 cm. Answer: The hypotenuse is 17 cm.
+  • Hypotenuse 26 cm, one leg 10 cm → other leg 24 cm:
+    Question: The hypotenuse is 26 cm. One leg is 10 cm. What is the other leg?
+    Solution: Using Pythagoras' theorem: a² + b² = c². ① We have 10² + b² = 26². ② Work out 10² = 100. Work out 26² = 676. ③ So 100 + b² = 676. ④ Subtract: b² = 676 − 100 = 576. ⑤ Find the square root: √576 = 24. ⑥ So b = 24 cm. Answer: The other leg is 24 cm. (Note: Common fossil: subtracting directly: 26 − 10 = 16. This is wrong. We must use Pythagoras' theorem: a² + b² = c². If we know c and one leg, we find the other leg by c² − a² = b².)
+✓ 关键步骤：Step 1: Identify the right-angled triangle and label the hypotenuse c and the legs a and b（识别直角三角形，标出斜边 c 和两条直角边 a, b）. The hypotenuse is the longest side, opposite the right angle（斜边是最长的边，在直角对面）. Step 2: Write Pythagoras' theorem: a² + b² = c²（写出毕达哥拉斯定理：a² + b² = c²）. Step 3: If finding the hypotenuse（求斜边）, square each leg, add the squares, then find the square root（把每条直角边平方，相加，再开平方根）. a² + b² = c² → c = √(a² + b²). Step 4: If finding a leg（求直角边）, square the hypotenuse and the known leg, subtract, then find the square root（把斜边和已知直角边平方，相减，再开平方根）. a² + b² = c² → b² = c² − a² → b = √(c² − a²). Step 5: Check the answer（检查答案）. The hypotenuse must be longer than each leg（斜边必须比每条直角边长）. If a = 9, b = 40, c = 41, check: 41 > 9 ✓ and 41 > 40 ✓. Also check by squaring: 9² + 40² = 81 + 1600 = 1681 = 41² ✓.
+✓ 化石 (fossil errors):
+  • Using the hypotenuse as a leg（错误：把斜边当作直角边。a² + c² = b²。正确：a² + b² = c²，斜边 c 在等号右边，不能和直角边 a 或 b 一起放在左边）
+  • Adding the two legs instead of squares（错误：把两条直角边直接相加：a + b = c。例如 9 + 12 = 21。正确：先平方再相加：a² + b² = c²。9² + 12² = 81 + 144 = 225 = 15²，所以 c = 15，不是 21）
+  • Subtracting directly when finding a leg（错误：求直角边时直接相减：c − a = b。例如 26 − 10 = 16。正确：用 a² + b² = c²，所以 b² = c² − a²。26² − 10² = 676 − 100 = 576 = 24²，所以 b = 24，不是 16）
+  • Two options that are the same length written two ways（两个选项是同一个长度用两种方式写：例如「15 cm」和「15」是同一个答案，不要两个都写成选项）
+  • 本周教 G4. Pythagoras' theorem and trigonometry 的 Pythagoras' theorem only。本周不教 sine/cosine/tangent（三角函数）。本周不教 3-D Pythagoras（三维空间的勾股定理）。本周不教 G2.10 volumes（体积比）。
+✓ Writing 数值不能抄 微课：微课用 9-12-15, 8-15-17, 10-24-26。Writing Q 用 13-84-85, 28-45-53, 16-63-65。不能抄本周 MCQ 的 5-12-13, 20-21-29, 15-20-25, 7-24-25, 9-40-41, 11-60-61, 33-56-65 等数值。不能抄 W79 writing 的 7-24-25, 12-35-37; W82 writing 的 17-19-23; W84 writing 的 11, 9, 104, 18 等数值。也不能用 overused 的 3-4-5, 6-8-10, 9-12-15 等。
+
+Note: This is a sample of Part 2 short-answer/open-ended questions. The official paper has 20 short-answer + 10–15 open-ended items in 1 hour 45 minutes.`,
+          points: 20,
+        },
+      ],
+    },
   ];
 
 
