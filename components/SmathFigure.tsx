@@ -411,5 +411,97 @@ export default function SmathFigure({ weekNumber }: { weekNumber: number }) {
     );
   }
 
+  if (weekNumber === 77) {
+    return (
+      <div className="bg-paper border border-line rounded-xl p-6 mb-6">
+        <h3 className="font-semibold text-ink mb-4 text-center">📐 本周图解</h3>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          {/* Diagram 1: Similar triangles with marked corresponding angles */}
+          <div className="flex flex-col items-center">
+            <svg viewBox="0 0 220 200" className="w-full max-w-[220px] h-auto">
+              {/* Triangle ABC */}
+              <polygon points="30,120 90,40 150,120" fill="none" stroke="#d97706" strokeWidth="2" />
+              <text x="20" y="135" fontSize="12" fill="#1a1a1a" fontWeight="600">A</text>
+              <text x="90" y="30" fontSize="12" fill="#1a1a1a" fontWeight="600">B</text>
+              <text x="155" y="135" fontSize="12" fill="#1a1a1a" fontWeight="600">C</text>
+              {/* Mark angles with arcs */}
+              <path d="M 40 120 A 15 15 0 0 1 45 110" fill="none" stroke="#d97706" strokeWidth="1.5" />
+              <text x="48" y="118" fontSize="10" fill="#d97706" fontWeight="600">∠A</text>
+              <path d="M 85 50 A 15 15 0 0 1 95 50" fill="none" stroke="#d97706" strokeWidth="1.5" />
+              <text x="88" y="63" fontSize="10" fill="#d97706" fontWeight="600">∠B</text>
+              <path d="M 140 115 A 15 15 0 0 1 145 105" fill="none" stroke="#d97706" strokeWidth="1.5" />
+              <text x="130" y="118" fontSize="10" fill="#d97706" fontWeight="600">∠C</text>
+              {/* Side lengths */}
+              <text x="50" y="85" fontSize="11" fill="#d97706" fontWeight="600">5</text>
+              <text x="115" y="85" fontSize="11" fill="#d97706" fontWeight="600">5</text>
+              <text x="85" y="135" fontSize="11" fill="#d97706" fontWeight="600">8</text>
+            </svg>
+            <p className="text-sm text-ink-2 text-center mt-2 font-semibold">
+              标记对应角<br />
+              <span className="text-xs text-accent">∠A = ∠D, ∠B = ∠E, ∠C = ∠F</span>
+            </p>
+          </div>
+
+          {/* Diagram 2: Similar triangle with marked corresponding sides */}
+          <div className="flex flex-col items-center">
+            <svg viewBox="0 0 220 200" className="w-full max-w-[220px] h-auto">
+              {/* Triangle DEF (scale factor 2) */}
+              <polygon points="10,180 110,20 210,180" fill="none" stroke="#10b981" strokeWidth="2" />
+              <text x="5" y="195" fontSize="12" fill="#1a1a1a" fontWeight="600">D</text>
+              <text x="108" y="10" fontSize="12" fill="#1a1a1a" fontWeight="600">E</text>
+              <text x="215" y="195" fontSize="12" fill="#1a1a1a" fontWeight="600">F</text>
+              {/* Mark angles */}
+              <path d="M 25 180 A 20 20 0 0 1 32 168" fill="none" stroke="#10b981" strokeWidth="1.5" />
+              <text x="35" y="182" fontSize="10" fill="#10b981" fontWeight="600">∠D</text>
+              <path d="M 100 35 A 20 20 0 0 1 120 35" fill="none" stroke="#10b981" strokeWidth="1.5" />
+              <text x="107" y="52" fontSize="10" fill="#10b981" fontWeight="600">∠E</text>
+              <path d="M 195 175 A 20 20 0 0 1 200 163" fill="none" stroke="#10b981" strokeWidth="1.5" />
+              <text x="183" y="182" fontSize="10" fill="#10b981" fontWeight="600">∠F</text>
+              {/* Side lengths */}
+              <text x="45" y="110" fontSize="11" fill="#10b981" fontWeight="600">10</text>
+              <text x="155" y="110" fontSize="11" fill="#10b981" fontWeight="600">10</text>
+              <text x="105" y="195" fontSize="11" fill="#10b981" fontWeight="600">16</text>
+            </svg>
+            <p className="text-sm text-ink-2 text-center mt-2 font-semibold">
+              标记对应边（比例 5:10 = 1:2）<br />
+              <span className="text-xs text-accent">AB:DE = BC:EF = AC:DF</span>
+            </p>
+          </div>
+
+          {/* Diagram 3: Properties summary with marked rectangle */}
+          <div className="flex flex-col items-center">
+            <svg viewBox="0 0 200 200" className="w-full max-w-[200px] h-auto">
+              {/* Rectangle with marked angles */}
+              <rect x="20" y="40" width="80" height="50" fill="none" stroke="#d97706" strokeWidth="2" />
+              <text x="55" y="30" fontSize="11" fill="#d97706" fontWeight="600">4 cm</text>
+              <text x="5" y="70" fontSize="11" fill="#d97706" fontWeight="600">3 cm</text>
+              {/* Mark right angles */}
+              <rect x="20" y="40" width="8" height="8" fill="none" stroke="#d97706" strokeWidth="1" />
+              <rect x="92" y="40" width="8" height="8" fill="none" stroke="#d97706" strokeWidth="1" />
+              <rect x="20" y="82" width="8" height="8" fill="none" stroke="#d97706" strokeWidth="1" />
+              <rect x="92" y="82" width="8" height="8" fill="none" stroke="#d97706" strokeWidth="1" />
+              <text x="60" y="70" fontSize="14" fill="#1a1a1a" fontWeight="600">P</text>
+              
+              {/* Similar rectangle (scale 2) */}
+              <rect x="10" y="110" width="160" height="100" fill="none" stroke="#10b981" strokeWidth="2" />
+              <text x="80" y="100" fontSize="11" fill="#10b981" fontWeight="600">8 cm</text>
+              <text x="-5" y="165" fontSize="11" fill="#10b981" fontWeight="600">6 cm</text>
+              {/* Mark right angles */}
+              <rect x="10" y="110" width="10" height="10" fill="none" stroke="#10b981" strokeWidth="1" />
+              <rect x="160" y="110" width="10" height="10" fill="none" stroke="#10b981" strokeWidth="1" />
+              <rect x="10" y="200" width="10" height="10" fill="none" stroke="#10b981" strokeWidth="1" />
+              <rect x="160" y="200" width="10" height="10" fill="none" stroke="#10b981" strokeWidth="1" />
+              <text x="90" y="165" fontSize="14" fill="#1a1a1a" fontWeight="600">Q</text>
+            </svg>
+            <p className="text-sm text-ink-2 text-center mt-2 font-semibold">
+              G2.3 两条性质<br />
+              <span className="text-xs text-accent">对应角相等 · 对应边成比例</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
   return null;
 }
