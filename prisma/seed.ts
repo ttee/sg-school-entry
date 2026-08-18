@@ -13659,6 +13659,99 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
         },
       ],
     },
+    {
+      level: "SMATH",
+      weekNumber: 73,
+      title: "一元二次方程 — Quadratic equations by factorisation",
+      description: "Sec 2 N7.9: quadratic equations in one variable by factorisation (AEIS 中学数学第 73 周 / SMATH Week 73)",
+      isSample: false,
+      errorFocus: "offering swapped factors as two correct options on one item; offering both 「x=2 or x=3」 and 「roots 2 and 3」 as two correct options; keyed A that does not expand back; non-integer roots; copying 微课 examples",
+      parentBrief: "本周练因式分解解一元二次方程。二次方程形式 ax² + bx + c = 0，因式分解成 (x + p)(x + q) = 0，令每个因子等于零求 x。只用整数根，不用计算器。盯住：因子对调是同一个分解，不能作两个正确选项；解完要代回原方程检查。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "At Riverside Secondary, Mr Lim writes: 「A quadratic equation has the form ax² + bx + c = 0, where a ≠ 0. For x² − 5x + 6 = 0, we need two numbers that multiply to +6 and add to −5. Those are −2 and −3.」 Wei asks: 「So we factorise as (x − 2)(x − 3) = 0?」 Mr Lim says: 「Yes. Set each factor to zero: x − 2 = 0 or x − 3 = 0, so x = 2 or x = 3.」 Is this correct?|A. Yes, this is correct. The roots are x = 2 or x = 3 ✓.|B. No, this is wrong. You cannot factorise x² − 5x + 6.|C. No, this is wrong. The roots are x = −2 or x = −3.|D. No, this is wrong. You need three factors, not two.",
+            "Aisha at Riverside Secondary solves x² + 7x + 10 = 0. She says: 「Two numbers that multiply to +10 and add to +7 are +2 and +5. So (x + 2)(x + 5) = 0. Set each factor to zero: x + 2 = 0 or x + 5 = 0, so x = −2 or x = −5.」 Is Aisha correct?|A. Yes, Aisha is correct. The roots are x = −2 or x = −5 ✓.|B. No, Aisha is wrong. The roots are x = 2 or x = 5.|C. No, Aisha is wrong. You cannot set each factor to zero.|D. No, Aisha is wrong. (x + 2)(x + 5) = x² + 7x + 12, not x² + 7x + 10.",
+            "At Riverside Secondary, Wei solves x² − 16 = 0. Mr Lim says: 「This is a difference of squares: x² − 4². Factorise as (x + 4)(x − 4) = 0.」 Wei says: 「So x + 4 = 0 or x − 4 = 0, which gives x = −4 or x = 4.」 Which statement is correct?|A. Wei's working is correct. The roots are x = −4 or x = 4 ✓.|B. Wei's working is wrong. You cannot factorise x² − 16.|C. Wei's working is wrong. The roots are x = 16 only.|D. Wei's working is wrong. (x + 4)(x − 4) = x² − 8, not x² − 16.",
+            "Mr Lim at Riverside Secondary asks Aisha to solve x² + 2x − 15 = 0. Aisha says: 「Two numbers that multiply to −15 and add to +2 are +5 and −3. So (x + 5)(x − 3) = 0. The roots are x = −5 or x = 3.」 Mr Lim checks: (−5)² + 2(−5) − 15 = 25 − 10 − 15 = 0 ✓. 3² + 2(3) − 15 = 9 + 6 − 15 = 0 ✓. Is Aisha's solution correct?|A. Yes, Aisha's solution is correct. The roots satisfy the equation ✓.|B. No, the roots do not satisfy the equation.|C. No, (x + 5)(x − 3) = x² + 2x − 8, not x² + 2x − 15.|D. No, you cannot check by substituting back.",
+            "At Riverside Secondary, Wei solves x² − 8x + 15 = 0. He gets x = 3 or x = 5. Mr Lim says: 「Check by substituting back.」 Wei checks: 3² − 8(3) + 15 = 9 − 24 + 15 = 0 ✓. 5² − 8(5) + 15 = 25 − 40 + 15 = 0 ✓. Both roots satisfy the equation. Which statement is correct?|A. Wei's check is correct. Both roots satisfy the equation ✓.|B. Wei's check is wrong. You only need to check one root.|C. Wei's check is wrong. 3² − 8(3) + 15 ≠ 0.|D. Wei's check is wrong. You cannot substitute back into a quadratic.",
+          ]),
+          correctAnswer: "A,A,A,A,A",
+          points: 10,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "At Riverside Secondary, Mr Lim asks: 「For x² − 6x + 8 = 0, find two numbers that multiply to +8 and add to −6.」 Which is the correct factorisation?|A. Those are −2 and −4. So (x − 2)(x − 4) = 0, giving x = 2 or x = 4 ✓.|B. Those are +2 and +4. So (x + 2)(x + 4) = 0, giving x = −2 or x = −4.|C. Those are −1 and −8. So (x − 1)(x − 8) = 0, giving x = 1 or x = 8.|D. You cannot factorise x² − 6x + 8.",
+            "Aisha at Riverside Secondary has x² + 9x + 14 = 0. What are the roots?|A. Two numbers: +2 and +7. Factorise: (x + 2)(x + 7) = 0. Roots: x = −2 or x = −7 ✓.|B. Two numbers: −2 and −7. Factorise: (x − 2)(x − 7) = 0. Roots: x = 2 or x = 7.|C. The roots are x = 9 or x = 14.|D. You cannot solve this equation by factorisation.",
+            "Wei at Riverside Secondary solves x² − 25 = 0. He says: 「This is a difference of squares: (x + 5)(x − 5) = 0.」 What are the roots?|A. x = −5 or x = 5 ✓.|B. x = 25 only.|C. x = 5 only.|D. x = −25 or x = 25.",
+            "At Riverside Secondary, Mr Lim writes: 「For x² + 3x − 18 = 0, find the roots.」 Which method gives the correct answer?|A. Two numbers: +6 and −3. Factorise: (x + 6)(x − 3) = 0. Roots: x = −6 or x = 3 ✓.|B. Two numbers: +9 and −2. Factorise: (x + 9)(x − 2) = 0. Roots: x = −9 or x = 2.|C. The roots are x = 3 or x = 18.|D. You cannot factorise x² + 3x − 18.",
+            "Aisha at Riverside Secondary says: 「For x² − 10x + 21 = 0, two numbers that multiply to +21 and add to −10 are −3 and −7. So (x − 3)(x − 7) = 0. The roots are x = 3 or x = 7.」 Is this correct?|A. Yes, the roots are x = 3 or x = 7 ✓.|B. No, (x − 3)(x − 7) = x² − 10x + 10, not x² − 10x + 21.|C. No, the roots are x = −3 or x = −7.|D. No, you need +3 and +7, not −3 and −7.",
+            "At Riverside Secondary, Wei has x² + 4x − 12 = 0. What are the roots?|A. Two numbers: +6 and −2. Factorise: (x + 6)(x − 2) = 0. Roots: x = −6 or x = 2 ✓.|B. Two numbers: +4 and −3. Factorise: (x + 4)(x − 3) = 0. Roots: x = −4 or x = 3.|C. The roots are x = 4 or x = 12.|D. The roots are x = 2 or x = 6.",
+            "Mr Lim at Riverside Secondary asks: 「For x² − x − 12 = 0, use factorisation.」 Aisha says: 「Two numbers that multiply to −12 and add to −1 are +3 and −4. So (x + 3)(x − 4) = 0. The roots are x = −3 or x = 4.」 What is the answer?|A. The roots are x = −3 or x = 4 ✓.|B. The roots are x = 3 or x = −4.|C. The roots are x = 1 or x = 12.|D. You cannot factorise x² − x − 12.",
+            "At Riverside Secondary, Wei has x² + 11x + 24 = 0. He says: 「Two numbers that multiply to +24 and add to +11 are +3 and +8. So (x + 3)(x + 8) = 0, giving x = −3 or x = −8.」 Mr Lim checks by expanding: (x + 3)(x + 8) = x² + 11x + 24 ✓. Is Wei correct?|A. Yes, Wei is correct. (x + 3)(x + 8) = x² + 11x + 24 and the roots are x = −3 or x = −8 ✓.|B. No, (x + 3)(x + 8) = x² + 11x + 11, not x² + 11x + 24.|C. No, the roots are x = 3 or x = 8.|D. No, the roots are x = 11 or x = 24.",
+          ]),
+          correctAnswer: "A,A,A,A,A,A,A,A",
+          points: 16,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `Part 2: Show Your Working (写出算式步骤)
+
+Riverside Secondary School has quadratic equations exercises. Answer the questions below. Show your working clearly.
+
+Question (a)
+At Riverside Secondary, Mr Lim gives Wei the equation: x² − 6x + 8 = 0.
+(i) Solve by factorisation. Show your working step by step: find two numbers that multiply to +8 and add to −6, factorise the quadratic, set each factor to zero, and solve for x.
+(ii) Check your solution by substituting each root back into the original equation.
+
+Question (b)
+Aisha at Riverside Secondary has the equation: x² + 9x + 14 = 0.
+(i) Solve by factorisation. Show your working step by step: find two numbers that multiply to +14 and add to +9, factorise, set each factor to zero, and solve for x.
+(ii) Check your solution by substituting each root back into the original equation.
+
+Question (c)
+At Riverside Secondary, Mr Lim writes: 「For x² − 25 = 0, this is a difference of squares.」
+(i) Factorise x² − 25 and solve for x. Show your working step by step.
+(ii) Wei asks: 「Can we also write x² = 25, then take square roots: x = ±5?」 Mr Lim says: 「Yes, that gives the same answer. But this week we practice factorisation. Write x² − 25 = (x + 5)(x − 5) = 0, then x = −5 or x = 5.」 Explain why (x + 5)(x − 5) = x² − 25.
+
+写作提示 / Tips:
+✓ 每题分步骤写出推理 (Show working steps for each question)
+✓ Part 2 官方要求：clearly show the method of solution by writing working steps, plus the final answer
+✓ 不用计算器 (No calculators allowed)
+✓ 一元二次方程步骤示范 (quadratic equations examples)：
+  • For x² − 5x + 6 = 0, solve by factorisation:
+    Question: For x² − 5x + 6 = 0, solve by factorisation.
+    Solution: ① We need two numbers that multiply to +6 and add to −5. ② Try factors of 6: 1 and 6, 2 and 3. ③ Check: −2 and −3 multiply to +6 and add to −5 ✓. ④ Factorise: x² − 5x + 6 = (x − 2)(x − 3). ⑤ Set the equation to zero: (x − 2)(x − 3) = 0. ⑥ If a product equals zero, at least one factor must be zero. So x − 2 = 0 or x − 3 = 0. ⑦ From x − 2 = 0, x = 2. From x − 3 = 0, x = 3. ⑧ The roots are x = 2 or x = 3. ⑨ Check: Substitute x = 2: 2² − 5(2) + 6 = 4 − 10 + 6 = 0 ✓. Substitute x = 3: 3² − 5(3) + 6 = 9 − 15 + 6 = 0 ✓. Both roots satisfy the equation. Answer: x = 2 or x = 3. (Note: Find two numbers p and q such that p × q = c and p + q = b. Then x² + bx + c = (x + p)(x + q).)
+  • For x² + 7x + 10 = 0, solve by factorisation:
+    Question: For x² + 7x + 10 = 0, solve by factorisation.
+    Solution: ① We need two numbers that multiply to +10 and add to +7. ② Try factors of 10: 1 and 10, 2 and 5. ③ Check: +2 and +5 multiply to +10 and add to +7 ✓. ④ Factorise: x² + 7x + 10 = (x + 2)(x + 5). ⑤ Set the equation to zero: (x + 2)(x + 5) = 0. ⑥ So x + 2 = 0 or x + 5 = 0. ⑦ From x + 2 = 0, x = −2. From x + 5 = 0, x = −5. ⑧ The roots are x = −2 or x = −5. ⑨ Check: Substitute x = −2: (−2)² + 7(−2) + 10 = 4 − 14 + 10 = 0 ✓. Substitute x = −5: (−5)² + 7(−5) + 10 = 25 − 35 + 10 = 0 ✓. Both roots satisfy the equation. Answer: x = −2 or x = −5.
+  • For x² − 16 = 0, solve by factorisation (difference of squares):
+    Question: For x² − 16 = 0, solve by factorisation.
+    Solution: ① This is a difference of squares: x² − 16 = x² − 4². ② Factorise using the formula a² − b² = (a + b)(a − b): x² − 4² = (x + 4)(x − 4). ③ Set the equation to zero: (x + 4)(x − 4) = 0. ④ So x + 4 = 0 or x − 4 = 0. ⑤ From x + 4 = 0, x = −4. From x − 4 = 0, x = 4. ⑥ The roots are x = −4 or x = 4. ⑦ Check: Substitute x = −4: (−4)² − 16 = 16 − 16 = 0 ✓. Substitute x = 4: 4² − 16 = 16 − 16 = 0 ✓. Both roots satisfy the equation. Answer: x = −4 or x = 4. (Note: For x² − a² = 0, factorise as (x + a)(x − a) = 0, giving x = −a or x = a.)
+✓ 关键步骤：Step 1: Identify the quadratic equation in the form ax² + bx + c = 0（确认二次方程形式 ax² + bx + c = 0）. Step 2: For factorisation, find two numbers p and q such that p × q = c and p + q = b（找两个数 p 和 q，使得 p × q = c 且 p + q = b）. Step 3: Factorise as (x + p)(x + q) = 0（因式分解为 (x + p)(x + q) = 0）. Step 4: Set each factor to zero: x + p = 0 or x + q = 0（令每个因子等于零）. Step 5: Solve for x: the roots are x = −p or x = −q（解出 x：根是 x = −p 或 x = −q）. Step 6: Check by substituting each root back into the original equation. Both sides must equal zero（检验：把每个根代回原方程。两边必须等于零）.
+✓ 化石 (fossil errors)：
+  • Offering swapped factors (x − 4)(x − 3) vs (x − 3)(x − 4) as two correct options on the same item（在同一道题上，同时提供对调后的因子作为两个「正确」选项。一道题，一个正确选项。）
+  • Offering both 「x = 2 or x = 3」 and 「roots 2 and 3」 as two keyed-correct options on one item（在同一道题上，同时提供「x = 2 or x = 3」和「roots 2 and 3」作为两个正确选项。只能有一个正确选项。）
+  • Keyed A that does not expand back to the given equation（选项 A 的因式分解展开后不等于题干的方程。Always expand your factorisation to check: (x + 1)(x + 6) = x² + 7x + 6, not x² + 5x + 6.）
+  • Non-integer roots（答案不是整数：coefficients 要挑好，让根都是整数。This week: integer roots only.）
+  • Writing quadratics that copy the three 微课 example quadratics (x² + 5x + 6, x² − 3x − 10, x² − 4)（照抄微课的一元二次方程。微课用这三个，作业就不能再用。）
+  • Only writing one root, forgetting the other（只写 x = 2，忘了 x = 3。A quadratic has two roots.）
+  • 本周教 Sec 2 NUMBER AND ALGEBRA, N7. Equations and inequalities: 7.9 quadratic equations in one variable by factorisation（N7.9 因式分解解一元二次方程）。本周是 N7.9 only. Quadratic equations by factorisation: (1) a quadratic equation in the form ax² + bx + c = 0, where a ≠ 0. (2) solve by factorisation: rewrite the quadratic expression as a product of two factors, then set each factor to zero. (3) example: x² + 5x + 6 = 0 → (x + 2)(x + 3) = 0 → x = −2 or x = −3. (4) check by substituting each solution back into the original equation. (5) integer roots only (friendly integers, no calculator). 本周不教 7.10 formulating a pair of simultaneous linear equations from a word problem（不教从应用题列方程组）。Fossil: offering swapped factors as two correct options on the same item; offering both 「x = 2 or x = 3」 and 「roots 2 and 3」 as two correct options; keyed A that does not expand back to the given equation; non-integer roots; writing quadratics that copy the three 微课 example quadratics. Cast: secondary Wei, Aisha, Mr Lim at Riverside Secondary School. 第 72 周已完成 N7.8 solving simultaneous linear equations in two variables（解二元一次联立方程）。本周继续 N7 Equations and inequalities（方程和不等式），学习 7.9 quadratic equations in one variable by factorisation（因式分解解一元二次方程）。本周不教 7.10 formulating equations from word problems（不教从应用题列方程）。
+
+Note: This is a sample of Part 2 short-answer/open-ended questions. The official paper has 20 short-answer + 10–15 open-ended items in 1 hour 45 minutes.`,
+          points: 20,
+        },
+      ],
+    },
   ];
 
 
