@@ -6324,6 +6324,74 @@ const lessonPlans: Record<string, LessonPlan> = {
     ],
     speakingPrompts: null,
   },
+  "SMATH-83": {
+    title: "相似图形的面积比 — Ratio of areas of similar figures",
+    mathExample: "Two similar triangles, k = 2. Small area 5 cm² → large area 5 × 4 = 20 cm². Two similar rectangles, area ratio 9:1 so k = 3. Small length 4 cm → large 12 cm. Two similar pentagons, k = 1/2. Large area 36 cm² → small area 36 × 1/4 = 9 cm².",
+    boardWriting: "SMATH Week 83: Sec 2 G2.9 ratio of areas of similar figures = k². Official content: If two figures are similar with linear scale factor k, then the ratio of their areas is k². Find an area from k, or find k from an area ratio, then a missing length. Integer k only, or k = 1/2 or 1/3 so k² is 1/4 or 1/9. No calculator. Cast: Wei, Aisha, Mr Lim at Riverside Secondary School.",
+    sections: [
+      {
+        name: "课前",
+        duration: "2 分钟",
+        teacherNotes: "欢迎孩子。「今天是第 83 周 AEIS 中学数学，我们学 Sec 2 G2.9 ratio of areas of similar figures = k²（相似图形的面积比等于 k²）。本周只教 G2.9 only. Official content: if two figures are similar with linear scale factor k (corresponding lengths in ratio k), then the ratio of their areas is k². Find an area from k, or find k from an area ratio, then a missing length. Integer k only, or k = 1/2 or 1/3 so k² is 1/4 or 1/9. No calculator. 本周不教 G2.10 ratio of volumes = k³（不教体积比等于 k³）; 不教 G2.8 tests（不作为本周项教判定法）。Cast: secondary Wei, Aisha, Mr Lim at Riverside Secondary School. 开始上课。」",
+      },
+      {
+        name: "学习目标",
+        duration: "1 分钟",
+        teacherNotes: "学习目标：「By the end of this lesson, you will be able to: (1) understand that if two figures are similar with linear scale factor k, then the ratio of their areas is k² (if k = 2, area ratio = 2² = 4; if k = 3, area ratio = 3² = 9; if k = 1/2, area ratio = (1/2)² = 1/4); (2) find an area from k: if small area = 5 cm² and k = 2, then large area = 5 × k² = 5 × 4 = 20 cm²; (3) find k from an area ratio: if area ratio = 9:1 (large:small), then k² = 9, so k = 3; (4) use k to find a missing length: if small side = 4 cm and k = 3, then large side = 4 × 3 = 12 cm. 成功标准 Success Criteria: You can calculate the area ratio k² from the linear scale factor k. You can find k from an area ratio by taking the square root. You can use k to find missing areas or lengths. You understand that area ratio = k², not k (common fossil).」",
+      },
+      {
+        name: "准备",
+        duration: "5 分钟",
+        teacherNotes: "问孩子：「今天我们学 ratio of areas of similar figures = k²（相似图形的面积比等于 k²）。What does 'similar figures' mean? Similar figures have the same shape but may have different sizes（相似图形：同形不同大小）. All corresponding angles are equal and all corresponding sides are proportional (in the same ratio). The ratio of corresponding sides is called the linear scale factor k. Example: Two similar rectangles. Small rectangle: 3 cm by 4 cm. Large rectangle: 6 cm by 8 cm. Linear scale factor k = 6÷3 = 8÷4 = 2. The sides are in ratio 1:2, so k = 2. Now, what is the area ratio? Small area = 3 × 4 = 12 cm². Large area = 6 × 8 = 48 cm². Area ratio = 48:12 = 4:1. Notice: k = 2, but area ratio = 4:1, not 2:1. Why? Because area ratio = k² = 2² = 4. This is the key formula: if two figures are similar with linear scale factor k, then the ratio of their areas is k². If k = 2, area ratio = 2² = 4. If k = 3, area ratio = 3² = 9. If k = 1/2, area ratio = (1/2)² = 1/4. Today we practice finding areas from k, finding k from area ratios, and using k to find missing lengths.」",
+      },
+      {
+        name: "化石",
+        duration: "10 分钟",
+        teacherNotes: "打开屏幕共享或白板，写下本周化石错误：「Fossil 1: using k instead of k² for areas（用 k 而不是 k² 计算面积比）。Example: Two similar triangles, k = 2. Small area 5 cm². Student says: 'Large area = 5 × 2 = 10 cm².' ✗」说明：「这是化石错误：面积比是 k²，不是 k。k = 2 means the sides are in ratio 1:2. But the area ratio is k² = 2² = 4, not 2. If small area = 5 cm² and k = 2, then large area = 5 × k² = 5 × 4 = 20 cm², not 5 × 2 = 10 cm². Remember: linear scale factor k applies to lengths (sides). Area ratio k² applies to areas. k is for lengths, k² is for areas. Don't use k for areas.」让孩子跟读一句：「Area ratio = k², not k. If k = 2, area ratio = 4.」再写第二个化石错误：「Fossil 2: using k³ for area（用 k³ 计算面积比）。Example: k = 2. Student says: 'Area ratio = k³ = 2³ = 8.' ✗」说明：「这是化石错误：k³ 用于体积比（volume ratio），不用于面积比（area ratio）。Area ratio = k². Volume ratio = k³. 本周只教 G2.9 area ratio = k²。本周不教 G2.10 volume ratio = k³。Don't use k³ for areas. Use k² for areas.」让孩子跟读一句：「Area ratio = k². Volume ratio = k³. This week we learn k² for areas only.」再写第三个化石错误：「Fossil 3: confusing area ratio with k（把面积比当作 k）。Example: Area ratio = 9:1 (large:small). Student says: 'k = 9.' ✗」说明：「这是化石错误：面积比是 k²，不是 k。If area ratio = 9:1, then k² = 9, so k = 3 (not k = 9). To find k from an area ratio, take the square root. Area ratio = 9 → k² = 9 → k = √9 = 3. Area ratio = 4 → k² = 4 → k = √4 = 2. Area ratio = 1/4 → k² = 1/4 → k = √(1/4) = 1/2. Don't confuse area ratio with k. Area ratio = k², so k = √(area ratio).」让孩子跟读一句：「If area ratio = 9, then k = 3. If area ratio = 4, then k = 2.」",
+      },
+      {
+        name: "微课",
+        duration: "8 分钟",
+        teacherNotes: "打开屏幕共享，播放本周微课（3 个例题，每个 2–3 分钟，共 8 分钟）。微课例题 1: Two similar triangles, k = 2. Small area 5 cm² → large area? Solution: Step 1: k = 2, so k² = 2² = 4. Step 2: Area ratio = k² = 4. Large area = small area × k² = 5 × 4 = 20 cm². Answer: 20 cm². 微课例题 2: Two similar rectangles, area ratio 9:1 so k = 3 (or 1/3). Small length 4 cm → large? Solution: Step 1: Area ratio = 9:1 (large:small), so k² = 9. Step 2: k = √9 = 3. Step 3: Large length = small length × k = 4 × 3 = 12 cm. Answer: 12 cm. 微课例题 3: Two similar pentagons, k = 1/2. Large area 36 cm² → small area? Solution: Step 1: k = 1/2, so k² = (1/2)² = 1/4. Step 2: Small area = large area × k² = 36 × 1/4 = 36 ÷ 4 = 9 cm². Answer: 9 cm².」",
+      },
+      {
+        name: "示范",
+        duration: "8 分钟",
+        teacherNotes: "I do: 教师在白板上示范一道例题（画简单的图：两个相似三角形，标注面积和 k）。「Problem: At Riverside Secondary, Mr Lim shows two similar triangles. The small triangle has area 8 cm². The linear scale factor k = 2 (corresponding lengths are in ratio 1:2). What is the area of the large triangle? Show your working.」Step 1: k = 2, so k² = 2² = 4. Step 2: Area ratio = k² = 4. The large area is 4 times the small area. Step 3: Large area = small area × k² = 8 × 4 = 32 cm². Answer: 32 cm². 教师边示范边说：「Notice: k = 2 means the sides are in ratio 1:2. But the area ratio is k² = 4, not 2. If small area = 8 cm², large area = 8 × 4 = 32 cm². Common fossil: writing 8 × 2 = 16 cm² (using k instead of k²). Correct answer: 8 × 4 = 32 cm² (using k²).」",
+      },
+      {
+        name: "带练",
+        duration: "10 分钟",
+        teacherNotes: "We do: 给孩子一道题目，和他/她一起做（画简单的图：两个相似矩形，标注面积比和边长）。「Problem: At Riverside Secondary, Aisha draws two similar rectangles. The area ratio is 9:1 (large:small). The small rectangle has one side of length 3 cm. What is the corresponding side of the large rectangle?」让孩子说出每一步。教师引导：「First, what is the area ratio?」(9:1, large:small.) 「Good. Area ratio = k². So k² = 9. What is k?」(k = √9 = 3.) 「Correct. k = 3. Now, how do you find the large side?」(Multiply the small side by k.) 「Yes. Large side = small side × k = 3 × 3 = 9 cm.」 「Perfect. Answer: 9 cm. Check: k = 3. Small side = 3 cm, large side = 9 cm. Ratio = 9:3 = 3:1 ✓. Area ratio = k² = 3² = 9 ✓.」",
+      },
+      {
+        name: "独立",
+        duration: "8 分钟",
+        teacherNotes: "You do: 给孩子一道题目让他/她独立做（教师不给完整答案，只在孩子卡住时给提示）。「Problem: At Riverside Secondary, Wei shows two similar pentagons. The large pentagon has area 48 cm² and one side of length 10 cm. The linear scale factor k = 1/2 (small:large). (i) What is the area of the small pentagon? (ii) What is the corresponding side of the small pentagon? Show your working.」期待答案：(i) k = 1/2, so k² = (1/2)² = 1/4. Small area = large area × k² = 48 × 1/4 = 48 ÷ 4 = 12 cm². (ii) Small side = large side × k = 10 × 1/2 = 5 cm. 如果孩子卡住，引导：「k = 1/2. What is k²?」((1/2)² = 1/4.) 「Good. Small area = 48 × 1/4 = ?」(48 ÷ 4 = 12.) 「Correct. 12 cm². Now, small side = 10 × k = 10 × 1/2 = ?」(5 cm.) 「Yes. 5 cm.」",
+      },
+      {
+        name: "关键问题1",
+        duration: "2 分钟",
+        teacherNotes: "关键问题 1：「What is the formula for the ratio of areas of similar figures? How do you find the area ratio from k? How do you find k from the area ratio?」期待答案：「The formula is: area ratio = k². If two figures are similar with linear scale factor k, then the ratio of their areas is k². To find the area ratio from k: calculate k². Example: k = 2 → k² = 4; k = 3 → k² = 9; k = 1/2 → k² = 1/4; k = 1/3 → k² = 1/9. To find k from the area ratio: take the square root. Example: area ratio = 4 → k = √4 = 2; area ratio = 9 → k = √9 = 3; area ratio = 1/4 → k = √(1/4) = 1/2; area ratio = 1/9 → k = √(1/9) = 1/3. Important: k is for lengths, k² is for areas. Don't use k for areas. Use k² for areas.」(如果孩子答不出，引导：「Area ratio = k². k = 2 → area ratio = 4. Area ratio = 9 → k = 3. k is for lengths, k² is for areas.」)",
+      },
+      {
+        name: "关键问题2",
+        duration: "2 分钟",
+        teacherNotes: "关键问题 2：「How do you use k to find a missing area? How do you use k to find a missing length?」期待答案：「To find a missing area, use k². If small area = 5 cm² and k = 2, then large area = small area × k² = 5 × 4 = 20 cm². If large area = 36 cm² and k = 1/2 (small:large), then small area = large area × k² = 36 × 1/4 = 9 cm². To find a missing length, use k (not k²). If small side = 4 cm and k = 3, then large side = small side × k = 4 × 3 = 12 cm². If large side = 10 cm and k = 1/2 (small:large), then small side = large side × k = 10 × 1/2 = 5 cm. Important: k is for lengths, k² is for areas. Use k for lengths, k² for areas.」(如果孩子答不出，引导：「Area: use k². Length: use k. Example: small area = 5 cm², k = 2 → large area = 5 × k² = 5 × 4 = 20 cm². Small side = 4 cm, k = 3 → large side = 4 × k = 4 × 3 = 12 cm.」)",
+      },
+      {
+        name: "AfL",
+        duration: "3 分钟",
+        teacherNotes: "AfL（Assessment for Learning 形成性评价）：给孩子一道快速检查题：「Quick check: At Riverside Secondary, Mr Lim shows two similar hexagons. The large hexagon has area 100 cm². The small hexagon has area 25 cm². Wei says: 'The area ratio is 100:25 = 4:1, so k = 4.' Aisha says: 'The area ratio is 4:1, so k² = 4, which means k = 2.' Who is correct? Explain.」期待答案：Aisha is correct. The area ratio is 100:25 = 4:1 (large:small). Area ratio = k², so k² = 4. To find k, take the square root: k = √4 = 2. Wei is wrong. Wei said k = 4, but that's confusing the area ratio with k. Area ratio = 4, so k² = 4, which means k = 2 (not k = 4). Common fossil: confusing area ratio with k. Area ratio = k², not k. If area ratio = 4, then k² = 4, so k = 2. Answer: Aisha correct (k = 2). Wei wrong (confused area ratio 4 with k; correct k = 2, not 4). 如果孩子做对了，说：「Excellent! You understand that area ratio = k², not k. Wei confused area ratio with k. Aisha correctly took the square root to find k = 2.」如果孩子做错了，找出错在哪里（是否混淆了 area ratio 和 k？是否忘记开平方根？），再示范一遍。",
+      },
+      {
+        name: "收口",
+        duration: "4 分钟",
+        teacherNotes: "总结本周重点：(1) 官方 Sec 2 AEIS 数学卷型：Part 1 MCQ 34 题 30 分钟 + Part 2 show working 20+10–15 题 1 小时 45 分钟，不用计算器。(2) 本周内容：Sec 2 GEOMETRY AND MEASUREMENT, G2. Congruence and similarity: 2.9 ratio of areas of similar figures = k²。本周是 G2.9 only. Official content: if two figures are similar with linear scale factor k, then the ratio of their areas is k². Find an area from k, or find k from an area ratio, then a missing length. Integer k only, or k = 1/2 or 1/3 so k² is 1/4 or 1/9. No calculator. (3) 本周化石：using k instead of k² for areas（用 k 而不是 k² 计算面积比：k = 2 时，面积比是 k² = 4，不是 2）; using k³ for area（用 k³ 计算面积比：k³ 用于体积比，不用于面积比。面积比用 k²）; confusing area ratio with k（把面积比当作 k：如果面积比是 9:1，那么 k² = 9，所以 k = 3，不是 k = 9）。(4) 记住：Area ratio = k². k is for lengths, k² is for areas. k = 2 → k² = 4. k = 3 → k² = 9. k = 1/2 → k² = 1/4. k = 1/3 → k² = 1/9. To find k from area ratio, take the square root. Area ratio = 4 → k = 2. Area ratio = 9 → k = 3. To find area from k, use k². To find length from k, use k (not k²). 本周不教 G2.10 ratio of volumes = k³（不教体积比等于 k³）。本周不教 G2.8 tests（不作为本周项教判定法）。下周继续 AEIS 中学数学练习。家长会收到本周作业完成情况通报。」",
+      },
+    ],
+    speakingPrompts: null,
+  },
 };
 
 export default async function LessonPlanPage({

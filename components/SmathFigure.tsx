@@ -1083,5 +1083,93 @@ export default function SmathFigure({ weekNumber }: { weekNumber: number }) {
     );
   }
 
+  if (weekNumber === 83) {
+    return (
+      <div className="bg-paper border border-line rounded-xl p-6 mb-6">
+        <h3 className="font-semibold text-ink mb-4 text-center">📐 本周图解</h3>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          {/* Diagram 1: Two similar triangles k=2, area ratio 4:1 */}
+          <div className="flex flex-col items-center">
+            <svg viewBox="0 0 220 200" className="w-full max-w-[220px] h-auto">
+              {/* Title */}
+              <text x="110" y="18" fontSize="11" fill="#1a1a1a" fontWeight="600" textAnchor="middle">k = 2, k² = 4</text>
+              
+              {/* Small triangle */}
+              <polygon points="30,110 60,70 90,110" fill="none" stroke="#d97706" strokeWidth="2" />
+              <text x="22" y="125" fontSize="11" fill="#1a1a1a" fontWeight="600">A</text>
+              <text x="58" y="63" fontSize="11" fill="#1a1a1a" fontWeight="600">B</text>
+              <text x="93" y="125" fontSize="11" fill="#1a1a1a" fontWeight="600">C</text>
+              <text x="60" y="100" fontSize="11" fill="#d97706" fontWeight="700">5 cm²</text>
+              
+              {/* Large triangle (k=2) */}
+              <polygon points="110,150 170,50 230,150" fill="none" stroke="#10b981" strokeWidth="2" />
+              <text x="102" y="165" fontSize="11" fill="#1a1a1a" fontWeight="600">P</text>
+              <text x="168" y="43" fontSize="11" fill="#1a1a1a" fontWeight="600">Q</text>
+              <text x="233" y="165" fontSize="11" fill="#1a1a1a" fontWeight="600">R</text>
+              <text x="170" y="115" fontSize="11" fill="#10b981" fontWeight="700">20 cm²</text>
+              
+              {/* Formula */}
+              <text x="110" y="185" fontSize="10" fill="#3b82f6" fontWeight="600" textAnchor="middle">5 × 4 = 20</text>
+            </svg>
+            <p className="text-sm text-ink-2 text-center mt-2 font-semibold">
+              k = 2 → 面积 × 4<br />
+              <span className="text-xs text-accent">5 cm² → 20 cm²</span>
+            </p>
+          </div>
+
+          {/* Diagram 2: Two similar rectangles, area ratio 9:1 so k=3 */}
+          <div className="flex flex-col items-center">
+            <svg viewBox="0 0 220 200" className="w-full max-w-[220px] h-auto">
+              {/* Title */}
+              <text x="110" y="18" fontSize="11" fill="#1a1a1a" fontWeight="600" textAnchor="middle">Area 9:1 → k = 3</text>
+              
+              {/* Small rectangle */}
+              <rect x="30" y="60" width="40" height="30" fill="none" stroke="#d97706" strokeWidth="2" />
+              <text x="45" y="50" fontSize="10" fill="#d97706" fontWeight="600">4 cm</text>
+              <text x="50" y="80" fontSize="11" fill="#1a1a1a" fontWeight="600">P</text>
+              
+              {/* Large rectangle */}
+              <rect x="100" y="80" width="120" height="90" fill="none" stroke="#10b981" strokeWidth="2" />
+              <text x="150" y="70" fontSize="10" fill="#10b981" fontWeight="600">12 cm</text>
+              <text x="160" y="130" fontSize="11" fill="#1a1a1a" fontWeight="600">Q</text>
+              
+              {/* Formula */}
+              <text x="110" y="185" fontSize="10" fill="#3b82f6" fontWeight="600" textAnchor="middle">4 × 3 = 12</text>
+            </svg>
+            <p className="text-sm text-ink-2 text-center mt-2 font-semibold">
+              面积比 9:1 → k = 3<br />
+              <span className="text-xs text-accent">4 cm → 12 cm</span>
+            </p>
+          </div>
+
+          {/* Diagram 3: Two similar pentagons k=1/2, area ratio 1/4 */}
+          <div className="flex flex-col items-center">
+            <svg viewBox="0 0 220 200" className="w-full max-w-[220px] h-auto">
+              {/* Title */}
+              <text x="110" y="18" fontSize="11" fill="#1a1a1a" fontWeight="600" textAnchor="middle">k = 1/2, k² = 1/4</text>
+              
+              {/* Large pentagon */}
+              <polygon points="30,80 50,50 90,50 110,80 70,120" fill="none" stroke="#d97706" strokeWidth="2" />
+              <text x="70" y="90" fontSize="11" fill="#d97706" fontWeight="700">36 cm²</text>
+              <text x="70" y="135" fontSize="11" fill="#1a1a1a" fontWeight="600">M</text>
+              
+              {/* Small pentagon (k=1/2) */}
+              <polygon points="130,110 140,95 160,95 170,110 150,135" fill="none" stroke="#10b981" strokeWidth="2" />
+              <text x="150" y="118" fontSize="11" fill="#10b981" fontWeight="700">9 cm²</text>
+              <text x="150" y="150" fontSize="11" fill="#1a1a1a" fontWeight="600">N</text>
+              
+              {/* Formula */}
+              <text x="110" y="175" fontSize="10" fill="#3b82f6" fontWeight="600" textAnchor="middle">36 × 1/4 = 9</text>
+            </svg>
+            <p className="text-sm text-ink-2 text-center mt-2 font-semibold">
+              k = 1/2 → 面积 × 1/4<br />
+              <span className="text-xs text-accent">36 cm² → 9 cm²</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
   return null;
 }

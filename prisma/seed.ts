@@ -14627,6 +14627,91 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
         },
       ],
     },
+    {
+      level: "SMATH",
+      weekNumber: 83,
+      title: "相似图形的面积比 — Ratio of areas of similar figures",
+      description: "Sec 2 G2.9: ratio of areas = k² (AEIS 中学数学第 83 周 / SMATH Week 83)",
+      isSample: false,
+      errorFocus: "using k instead of k² for areas (k = 2 so area × 2 instead of × 4); using k³ for area; two options that are the same pair in a different order",
+      parentBrief: "本周练相似图形的面积比。G2.9 内容：如果两个图形相似，线性比例因子为 k（对应长度的比为 k），则它们的面积比为 k²。从 k 求面积，或从面积比求 k，再求缺失长度。只用整数 k（或 k = 1/2、1/3，使得 k² 为 1/4、1/9）。不用计算器。无 G2.10 k³。无 G2.8 判定法。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "At Riverside Secondary, Mr Lim shows two similar triangles. The small triangle has area 6 cm². The linear scale factor k = 2 (corresponding lengths are in ratio 1:2). Wei asks: 「What is the area of the large triangle?」 Which is correct?|A. 24 cm². When k = 2, the area ratio is k² = 2² = 4. So large area = small area × 4 = 6 × 4 = 24 cm². ✓|B. 12 cm². Area × 2 (fossil: using k instead of k²)|C. 48 cm². Area × 8 (fossil: using k³ = 8)|D. 18 cm². Area × 3",
+            "At Riverside Secondary, Aisha draws two similar rectangles. The area ratio is 4:1 (large area: small area = 4:1). Mr Lim asks: 「What is the linear scale factor k?」 Which is correct?|A. k = 2. Area ratio = k², so k² = 4, which means k = 2. ✓|B. k = 4 (fossil: confusing area ratio with k)|C. k = 16 (fossil: k² × k = k³)|D. k = 1/4 (inverted)",
+            "At Riverside Secondary, Wei shows two similar pentagons. The large pentagon has area 45 cm². The linear scale factor k = 1/3 (small:large = 1:3). Aisha asks: 「What is the area of the small pentagon?」 Which is correct?|A. 5 cm². When k = 1/3, the area ratio is k² = (1/3)² = 1/9. So small area = large area × 1/9 = 45 × 1/9 = 45 ÷ 9 = 5 cm². ✓|B. 15 cm². Area ÷ 3 (fossil: using k instead of k²)|C. 135 cm². Area × 3|D. 1.67 cm². Wrong calculation",
+            "At Riverside Secondary, Mr Lim shows two similar quadrilaterals. The small quadrilateral has area 3 cm². The large quadrilateral has area 27 cm². Wei asks: 「What is the area ratio?」 Which is correct?|A. 27:3 = 9:1. Large area: small area = 27:3 = 9:1. The area ratio is 9:1. ✓|B. 27:3 = 9:1, so k = 9 (confusing area ratio with k: k² = 9, so k = 3)|C. 1:9 (inverted)|D. 27:1",
+            "At Riverside Secondary, Aisha shows two similar hexagons. The area ratio is 1:4 (small:large). Mr Lim says: 「If a side of the small hexagon is 2 cm, what is the corresponding side of the large hexagon?」 Which is correct?|A. 4 cm. Area ratio = k², so k² = 4 (large:small), which means k = 2. Corresponding side of large hexagon = 2 × k = 2 × 2 = 4 cm. ✓|B. 8 cm. Side × 4 (fossil: using area ratio for sides)|C. 6 cm. Side + 4|D. 1 cm. Side ÷ 2",
+          ]),
+          correctAnswer: "A,A,A,A,A",
+          points: 10,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "At Riverside Secondary, Mr Lim shows two similar triangles. Small area = 10 cm². k = 3. Aisha asks: 「What is the large area?」 Which is correct?|A. 90 cm². k² = 3² = 9, so large area = 10 × 9 = 90 cm². ✓|B. 30 cm². Area × 3 (fossil: using k instead of k²)|C. 270 cm². Area × 27 (fossil: using k³ = 27)|D. 13 cm². Area + 3",
+            "At Riverside Secondary, Wei draws two similar rectangles. Large area = 64 cm². Small area = 16 cm². Mr Lim asks: 「What is k (large:small)?」 Which is correct?|A. k = 2. Area ratio = 64:16 = 4:1, so k² = 4, which means k = 2. ✓|B. k = 4 (fossil: confusing area ratio with k)|C. k = 8 (wrong)|D. k = 1/2 (inverted)",
+            "At Riverside Secondary, Aisha shows two similar triangles. k = 1/2 (small:large). Large area = 80 cm². Wei asks: 「What is the small area?」 Which is correct?|A. 20 cm². k² = (1/2)² = 1/4, so small area = 80 × 1/4 = 80 ÷ 4 = 20 cm². ✓|B. 40 cm². Area ÷ 2 (fossil: using k instead of k²)|C. 160 cm². Area × 2|D. 10 cm². Area ÷ 8",
+            "At Riverside Secondary, Mr Lim shows two similar pentagons. Area ratio = 9:1 (large:small). Small side = 5 cm. Aisha says: 「What is the corresponding large side?」 Which is correct?|A. 15 cm. k² = 9, so k = 3. Large side = 5 × 3 = 15 cm. ✓|B. 45 cm. Side × 9 (fossil: using area ratio for sides)|C. 8 cm. Wrong calculation|D. 14 cm. Side + 9",
+            "At Riverside Secondary, Wei shows two similar quadrilaterals. Small area = 2 cm². k = 4 (large:small). Mr Lim asks: 「What is the large area?」 Which is correct?|A. 32 cm². k² = 4² = 16, so large area = 2 × 16 = 32 cm². ✓|B. 8 cm². Area × 4 (fossil: using k instead of k²)|C. 128 cm². Area × 64 (fossil: using k³ × k = 4⁴)|D. 6 cm². Area + 4",
+            "At Riverside Secondary, Aisha draws two similar hexagons. Large area = 100 cm². Small area = 25 cm². Wei asks: 「What is k (large:small)?」 Which is correct?|A. k = 2. Area ratio = 100:25 = 4:1, so k² = 4, which means k = 2. ✓|B. k = 4 (fossil: confusing area ratio with k)|C. k = 75 (wrong: difference)|D. k = 1/4 (inverted)",
+            "At Riverside Secondary, Mr Lim shows two similar triangles. k = 1/2 (small:large). Large side = 18 cm. Aisha says: 「What is the small side?」 Small area = 27 cm². Wei asks: 「What is the large area?」 Which pair (small side, large area) is correct?|A. (9 cm, 108 cm²). Small side = 18 × 1/2 = 9 cm. k² = (1/2)² = 1/4, so large area = 27 ÷ (1/4) = 27 × 4 = 108 cm². ✓|B. (9 cm, 54 cm²). Small side OK, but large area × 2 instead of × 4 (fossil)|C. (6 cm, 108 cm²). Wrong small side|D. (9 cm, 13.5 cm²). Small side OK, but inverted area",
+            "At Riverside Secondary, Wei shows two similar pentagons. Area ratio = 1:9 (small:large). Large side = 21 cm. Mr Lim asks: 「What is k (small:large) and the small side?」 Which is correct?|A. k = 1/3, small side = 7 cm. k² = 1/9, so k = 1/3. Small side = 21 × 1/3 = 21 ÷ 3 = 7 cm. ✓|B. k = 1/9, small side = 21/9 = 2.33 cm (fossil: using area ratio as k)|C. k = 1/3, small side = 18 cm (k correct, but side wrong)|D. k = 1/9, small side = 7 cm (k wrong, side correct by luck)",
+          ]),
+          correctAnswer: "A,A,A,A,A,A,A,A",
+          points: 16,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `Part 2: Show Your Working (写出算式步骤)
+
+Riverside Secondary School has geometry questions about similar figures and area ratios. Answer the questions below. Show your working clearly.
+
+Question (a)
+At Riverside Secondary, Mr Lim shows two similar triangles. The small triangle has area 8 cm². The linear scale factor k = 2 (corresponding lengths are in ratio 1:2).
+(i) What is the area ratio (small:large)?
+(ii) Calculate the area of the large triangle. Show your working.
+
+Question (b)
+At Riverside Secondary, Aisha draws two similar rectangles. The area ratio is 9:1 (large:small). The small rectangle has area 4 cm² and one side of length 3 cm.
+(i) What is the area of the large rectangle? Show your working.
+(ii) What is the linear scale factor k (large:small)? Show your working: area ratio = k², so k² = 9.
+(iii) What is the corresponding side of the large rectangle? Show your working: multiply the small side by k.
+
+Question (c)
+At Riverside Secondary, Wei shows two similar pentagons. The large pentagon has area 48 cm² and one side of length 10 cm. The linear scale factor k = 1/2 (small:large).
+(i) What is the area of the small pentagon? Show your working: k² = (1/2)² = 1/4, so small area = large area × 1/4.
+(ii) What is the corresponding side of the small pentagon? Show your working: multiply the large side by k = 1/2.
+(iii) Wei says: 「The area of the small pentagon is 48 ÷ 2 = 24 cm² because k = 1/2.」 Explain why Wei is wrong and what the correct answer should be.
+
+写作提示 / Tips:
+✓ 每题分步骤写出推理 (Show working steps for each question)
+✓ Part 2 官方要求：clearly show the method of solution by writing working steps, plus the final answer
+✓ 不用计算器 (No calculators allowed)
+✓ 本周教 Sec 2 GEOMETRY AND MEASUREMENT, G2. Congruence and similarity: 2.9 ratio of areas of similar figures = k². 本周是 G2.9 only. Official content: if two figures are similar with linear scale factor k (corresponding lengths in ratio k), then the ratio of their areas is k². Find an area from k, or find k from an area ratio, then a missing length. Integer k only, or k = 1/2 or 1/3 so k² is 1/4 or 1/9. No calculator. Cast: secondary Wei, Aisha, Mr Lim at Riverside Secondary School. No calculator.
+✓ 关键步骤：Step 1: Identify the linear scale factor k（识别线性比例因子 k：对应长度的比）. Step 2: Calculate the area ratio k²（计算面积比 k²）. k = 2 → k² = 4; k = 3 → k² = 9; k = 1/2 → k² = 1/4; k = 1/3 → k² = 1/9. Step 3: Use area ratio to find missing areas（用面积比求缺失面积）. If small area = 5 cm² and k = 2, then large area = 5 × k² = 5 × 4 = 20 cm². If large area = 36 cm² and k = 1/2 (small:large), then small area = 36 × (1/2)² = 36 × 1/4 = 36 ÷ 4 = 9 cm². Step 4: If given area ratio, find k by taking the square root（如果给定面积比，通过开平方根求 k）. Area ratio 9:1 → k² = 9 → k = 3. Area ratio 1:4 → k² = 4 (large:small) → k = 2. Step 5: Use k to find missing lengths（用 k 求缺失长度）. If small side = 4 cm and k = 3 (large:small), then large side = 4 × 3 = 12 cm. If large side = 10 cm and k = 1/2 (small:large), then small side = 10 × 1/2 = 5 cm. Step 6: State the final answer and explain the reasoning（陈述最终答案并解释推理）.
+✓ 化石 (fossil errors):
+  • Using k instead of k² for areas（错误：用 k 而不是 k² 计算面积比。k = 2 时，面积比是 k² = 4，不是 2。如果小三角形面积 5 cm²，k = 2，大三角形面积是 5 × 4 = 20 cm²，不是 5 × 2 = 10 cm²）
+  • Using k³ for area（错误：用 k³ 计算面积比。k³ 用于体积比（volume ratio），本周不教 G2.10。面积比用 k²）
+  • Two options that are the same pair in a different order（两个选项是同一对不同顺序：例如 "area × 4" 和 "4 × area" 是同一个答案，不要两个都写成正确选项）
+  • Confusing area ratio with k（错误：把面积比当作 k。如果面积比是 9:1，那么 k² = 9，所以 k = 3，不是 k = 9）
+✓ Writing 数值不能抄 微课：微课用 5 cm² / 20 cm²（k=2）; 4 cm / 12 cm，area ratio 9:1; 36 cm² / 9 cm²（k=1/2）。Writing Q 用 8 cm² / 32 cm²（k=2）; 4 cm² / 36 cm², 3 cm / 9 cm（k=3, area ratio 9:1）; 48 cm² / 12 cm², 10 cm / 5 cm（k=1/2）。不能抄本周 MCQ 的 6/24/45/3/27/2/10/64/16/80/5/15/100/25/18/27/21 等数值。
+✓ 本周只教 G2.9 ratio of areas = k²。本周不教 G2.10 ratio of volumes = k³（不教体积比等于 k³）；不教 G2.8 tests（不作为本周项教判定法）。本周只教 G2.9: if two figures are similar with linear scale factor k, then area ratio = k². Find area from k, or find k from area ratio, then missing length.
+
+Note: This is a sample of Part 2 short-answer/open-ended questions. The official paper has 20 short-answer + 10–15 open-ended items in 1 hour 45 minutes.`,
+          points: 20,
+        },
+      ],
+    },
   ];
 
 
