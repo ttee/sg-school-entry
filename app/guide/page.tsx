@@ -909,7 +909,7 @@ export default function GuidePage() {
                 🎬 先看影片，了解真实校园
               </h3>
               <p className="text-sm text-ink-2 mb-4">
-                以下影片帮助家长了解新加坡政府小学的真实环境与期望。均非 AEIS/CEQ 考题，也非本工作室微课。
+                先看校园里的一天，再看一个从浙江来的孩子怎么进课堂。
               </p>
               
               <div className="space-y-6">
