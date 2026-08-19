@@ -195,6 +195,12 @@ AUDIO_CONFIGS = [
         ]
     },
     {
+        "filename": "a2-w10-listening.mp3",
+        "dialogue": [
+            ("Ms Tan", TEACHER_VOICE, "Good morning, class. Let me tell you about my daily routine. I always wake up at 5:30 in the morning. I usually go jogging at the park before breakfast. I never skip breakfast because it gives me energy for the day. I always arrive at school at 7:00 a.m. I am never late! I often prepare my lessons in the staff room before class starts. During recess, I sometimes talk to other teachers in the canteen. After school, I usually stay in the classroom to mark homework. I am always busy, but I enjoy teaching!"),
+        ]
+    },
+    {
         "filename": "b1-w4-listening.mp3",
         "dialogue": [
             ("Mei", FEMALE_VOICE, "Hi Priya! Did you hear what Ms Chen said in assembly this morning?"),

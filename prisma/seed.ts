@@ -6279,6 +6279,7 @@ You MUST use at least two different frequency adverbs (always/usually/often/some
         {
           type: "listening",
           order: 4,
+          audioUrl: "/audio/a2-w10-listening.mp3",
           content: `听读练习 / Listening Preparation (read carefully)
 
 Ms Tan: Good morning, class. Let me tell you about my daily routine. I always wake up at 5:30 in the morning. I usually go jogging at the park before breakfast. I never skip breakfast because it gives me energy for the day.
