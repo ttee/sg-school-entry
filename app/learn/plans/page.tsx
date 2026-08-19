@@ -21,17 +21,17 @@ export default async function LessonPlansIndex() {
       <div className="mb-8 flex items-center justify-between">
         <div>
           <h1 className="font-serif font-semibold text-3xl text-ink mb-2">
-            Zoom 教案
+            Zoom lesson plans
           </h1>
           <p className="text-ink-2">
-            管理员专用 · 家长和订阅学生看不到这些内容
+            Admin only. Parents and subscribed students do not see these.
           </p>
         </div>
         <Link
           href="/learn"
           className="text-sm text-muted hover:text-ink transition-colors"
         >
-          ← 返回
+          ← Back
         </Link>
       </div>
 
@@ -39,7 +39,7 @@ export default async function LessonPlansIndex() {
         {/* A2 Level */}
         <div>
           <h2 className="font-serif font-semibold text-2xl text-accent mb-4">
-            A2 Key (12 周)
+            A2 Key (12 weeks)
           </h2>
           <div className="grid md:grid-cols-4 gap-3">
             {a2Weeks.map((week) => (
@@ -49,10 +49,10 @@ export default async function LessonPlansIndex() {
                 className="bg-card border border-line hover:border-accent hover:shadow-md rounded-lg p-4 transition-all"
               >
                 <div className="font-serif font-semibold text-lg text-ink">
-                  第 {week} 周
+                  Week {week}
                 </div>
                 {week === 0 && (
-                  <p className="text-xs text-accent mt-1">完整教案</p>
+                  <p className="text-xs text-accent mt-1">Full plan</p>
                 )}
               </Link>
             ))}
@@ -62,7 +62,7 @@ export default async function LessonPlansIndex() {
         {/* B1 Level */}
         <div>
           <h2 className="font-serif font-semibold text-2xl text-accent mb-4">
-            B1 Preliminary (12 周)
+            B1 Preliminary (12 weeks)
           </h2>
           <div className="grid md:grid-cols-4 gap-3">
             {b1Weeks.map((week) => (
@@ -72,7 +72,7 @@ export default async function LessonPlansIndex() {
                 className="bg-card border border-line hover:border-accent hover:shadow-md rounded-lg p-4 transition-all"
               >
                 <div className="font-serif font-semibold text-lg text-ink">
-                  第 {week} 周
+                  Week {week}
                 </div>
               </Link>
             ))}
@@ -82,7 +82,7 @@ export default async function LessonPlansIndex() {
         {/* MATH Level */}
         <div>
           <h2 className="font-serif font-semibold text-2xl text-accent mb-4">
-            MATH (29 周)
+            MATH (29 weeks)
           </h2>
           <div className="grid md:grid-cols-4 gap-3">
             {mathWeeks.map((week) => (
@@ -92,7 +92,7 @@ export default async function LessonPlansIndex() {
                 className="bg-card border border-line hover:border-accent hover:shadow-md rounded-lg p-4 transition-all"
               >
                 <div className="font-serif font-semibold text-lg text-ink">
-                  第 {week} 周
+                  Week {week}
                 </div>
               </Link>
             ))}
@@ -102,7 +102,7 @@ export default async function LessonPlansIndex() {
         {/* SEC Level */}
         <div>
           <h2 className="font-serif font-semibold text-2xl text-accent mb-4">
-            SEC 中学英语 (12 周)
+            SEC (12 weeks)
           </h2>
           <div className="grid md:grid-cols-4 gap-3">
             {secWeeks.map((week) => (
@@ -112,13 +112,13 @@ export default async function LessonPlansIndex() {
                 className="bg-card border border-line hover:border-accent hover:shadow-md rounded-lg p-4 transition-all"
               >
                 <div className="font-serif font-semibold text-lg text-ink">
-                  第 {week} 周
+                  Week {week}
                 </div>
                 {week === 0 && (
-                  <p className="text-xs text-accent mt-1">试学周</p>
+                  <p className="text-xs text-accent mt-1">Trial week</p>
                 )}
                 {week === 1 && (
-                  <p className="text-xs text-accent mt-1">第 1 周</p>
+                  <p className="text-xs text-accent mt-1">Week 1</p>
                 )}
               </Link>
             ))}
@@ -128,7 +128,7 @@ export default async function LessonPlansIndex() {
         {/* SMATH Level */}
         <div>
           <h2 className="font-serif font-semibold text-2xl text-accent mb-4">
-            SMATH 中学数学 (89 周)
+            SMATH (89 weeks)
           </h2>
           <div className="grid md:grid-cols-4 gap-3">
             {smathWeeks.map((week) => (
@@ -138,10 +138,10 @@ export default async function LessonPlansIndex() {
                 className="bg-card border border-line hover:border-accent hover:shadow-md rounded-lg p-4 transition-all"
               >
                 <div className="font-serif font-semibold text-lg text-ink">
-                  第 {week} 周
+                  Week {week}
                 </div>
                 {week === 0 && (
-                  <p className="text-xs text-accent mt-1">试学周</p>
+                  <p className="text-xs text-accent mt-1">Trial week</p>
                 )}
               </Link>
             ))}
@@ -151,10 +151,10 @@ export default async function LessonPlansIndex() {
 
       <div className="mt-8 bg-warn-bg border border-warn-ink/20 rounded-xl p-5">
         <h3 className="font-serif font-semibold text-base mb-2 text-ink">
-          隐私提醒
+          Privacy reminder
         </h3>
         <p className="text-xs text-ink-2">
-          这些教案仅供授课教师使用，不得分享给家长或学生。教案中不包含销售话术。
+          These lesson plans are for teaching staff only and must not be shared with parents or students. Lesson plans do not contain sales talk.
         </p>
       </div>
     </div>
