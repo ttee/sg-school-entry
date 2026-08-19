@@ -174,14 +174,14 @@ export default function HomePage() {
               <article className="bg-card border border-line rounded-2xl p-6 shadow mb-6">
                 <h3 className="font-serif text-xl font-semibold mb-2">CEQ 英语作业（A2 Key for Schools）</h3>
                 <p className="text-sm text-ink-2 mb-4">
-                  试学周今晚可做，完整周数由顾问确认。
+                  试学周今晚可做，12 周。
                 </p>
                 <p className="text-sm text-ink-2 mb-4">
-                  向顾问支付 RMB 或 SGD。
+                  向顾问支付 RMB 2,680。
                 </p>
                 <div className="bg-paper-2 rounded-xl p-4 mb-4 border border-line">
                   <p className="text-sm text-ink font-mono">
-                    CEQ English homework, [N] weeks, [price] RMB or SGD through me. Open this tonight, no account.
+                    CEQ English homework, 12 weeks, RMB 2,680 through me. Open this tonight, no account.
                   </p>
                 </div>
                 <p className="text-xs text-muted mb-1">
@@ -740,7 +740,7 @@ export default function HomePage() {
                     className="w-full px-4 py-2.5 bg-paper border border-line rounded-xl text-ink focus:outline-none focus:ring-2 focus:ring-accent focus:border-accent"
                   >
                     <option value="">请选择</option>
-                    <option value="ceq-homework">CEQ 英语作业</option>
+                    <option value="ceq-homework">CEQ 英语作业（RMB 2,680 / 12 周）</option>
                     <option value="trial">免费试学账号</option>
                   </select>
                 </div>
