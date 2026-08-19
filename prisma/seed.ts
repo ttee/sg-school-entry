@@ -5183,6 +5183,7 @@ Mei: Yes! My cousins are so funny. We played board games for such a long time. B
           ]),
           correctAnswer: "B,C,B",
           points: 3,
+          audioUrl: "/audio/b1-w8-listening.mp3",
         },
         {
           type: "speaking",

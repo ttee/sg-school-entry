@@ -254,6 +254,17 @@ AUDIO_CONFIGS = [
             ("Ms Tan", TEACHER_VOICE, "So, although we didn't finish all the races, we moved to the hall and played indoor games instead. Despite the change of plans, everyone had a great time!"),
         ]
     },
+    {
+        "filename": "b1-w8-listening.mp3",
+        "dialogue": [
+            ("Jun Wei", MALE_VOICE, "Mei, how was your weekend?"),
+            ("Mei", FEMALE_VOICE, "It was so exhausting! We had such a long family gathering on Saturday. We drove to Johor Bahru to visit my relatives."),
+            ("Jun Wei", MALE_VOICE, "That sounds tiring! How long was the drive?"),
+            ("Mei", FEMALE_VOICE, "It took such a long time because of the traffic – almost three hours! But when we arrived, my aunt cooked such delicious laksa. I was so hungry that I ate two bowls!"),
+            ("Jun Wei", MALE_VOICE, "Sounds like it was worth it! Did you have fun?"),
+            ("Mei", FEMALE_VOICE, "Yes! My cousins are so funny. We played board games for such a long time. But by evening, I was so tired that I fell asleep in the car on the way home!"),
+        ]
+    },
 ]
 
 async def generate_audio_with_pauses(dialogue, output_path):
