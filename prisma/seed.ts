@@ -16191,6 +16191,135 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
         },
       ],
     },
+
+    // ============================================================
+    // SMATH Week 93 - Addition and multiplication of probabilities (S2.4)
+    // ============================================================
+    {
+      level: "SMATH",
+      weekNumber: 93,
+      title: "概率加减乘 — Addition and multiplication of probabilities",
+      description: "Sec 2 S2.4 mutually exclusive and independent events (AEIS 中学数学第 93 周 / SMATH Week 93)",
+      isSample: false,
+      errorFocus: "adding P for events that can happen together; multiplying when the second event depends on the first; writing P > 1; treating the count as the probability",
+      parentBrief: "本周练互斥事件的加法、独立事件的乘法。互斥：不能同时发生，P(A 或 B) = P(A) + P(B)。独立：互不影响，P(A 且 B) = P(A) × P(B)。不要把能同时发生的两件事相加。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "At Riverside Secondary, Wei rolls a fair six-sided die. Event A: the die shows an even number (2, 4, or 6). Event B: the die shows an odd number (1, 3, or 5). Are events A and B mutually exclusive?|A. Yes, A and B are mutually exclusive because the die cannot show both even and odd at the same time. P(A or B) = P(A) + P(B) = 3/6 + 3/6 = 1.|B. No, the die can show both even and odd. Fossil: events that cannot happen together are mutually exclusive.|C. Yes, P(A or B) = P(A) × P(B). Fossil: used multiplication instead of addition for mutually exclusive events.|D. No, P(A or B) = 3/6. Fossil: forgot to add P(B).",
+            "At Riverside Secondary, Aisha flips a fair coin and rolls a fair die. Event A: the coin shows heads. Event B: the die shows 3. Are events A and B independent?|A. Yes, A and B are independent because the coin result does not affect the die result. P(A and B) = P(A) × P(B) = 1/2 × 1/6 = 1/12.|B. No, if the coin shows heads, the die cannot show 3. Fossil: confused independence with mutual exclusivity.|C. Yes, P(A and B) = P(A) + P(B) = 1/2 + 1/6 = 4/6. Fossil: used addition instead of multiplication for independent events.|D. No, P(A and B) = 1/2. Fossil: forgot to multiply by P(B).",
+            "At Riverside Secondary, Mr Lim has a bag of marbles: 3 red, 2 blue. He draws one marble with replacement (puts it back), then draws again. What is P(red on first draw and red on second draw)?|A. P(red, red) = 3/5 × 3/5 = 9/25 (with replacement, the events are independent, first draw does not affect second draw, so multiply)|B. P(red, red) = 3/5 + 3/5 = 6/5. Fossil: added instead of multiplying, and wrote P > 1.|C. P(red, red) = 3/5 × 2/4 = 6/20. Fossil: used without-replacement calculation (dependent events), but the question says with replacement.|D. P(red, red) = 3. Fossil: treated the count as the probability.",
+            "At Riverside Secondary, Wei rolls a fair die. Event A: the die shows a number less than 3 (1 or 2). Event B: the die shows a 4. Are events A and B mutually exclusive? What is P(A or B)?|A. Yes, A and B are mutually exclusive (cannot both happen). P(A or B) = P(A) + P(B) = 2/6 + 1/6 = 3/6 = 1/2.|B. No, A and B can happen together. Fossil: A is (1 or 2) and B is 4, they cannot both happen on a single die roll.|C. Yes, P(A or B) = P(A) × P(B) = 2/6 × 1/6 = 2/36. Fossil: multiplied instead of adding for mutually exclusive events.|D. Yes, P(A or B) = 2 + 1 = 3. Fossil: treated the counts as the probability.",
+            "At Riverside Secondary, Aisha flips two fair coins. Event A: the first coin shows heads. Event B: the second coin shows heads. Are events A and B independent? What is P(A and B)?|A. Yes, A and B are independent (first coin does not affect second coin). P(A and B) = P(HH) = 1/2 × 1/2 = 1/4.|B. No, if the first coin shows heads, the second coin must show heads too. Fossil: confused independence with some other property.|C. Yes, P(A and B) = 1/2 + 1/2 = 1. Fossil: added instead of multiplying for independent events.|D. Yes, P(A and B) = 1. Fossil: treated the count as the probability.",
+          ]),
+          correctAnswer: "A,A,A,A,A",
+          points: 10,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "At Riverside Secondary, Mr Lim rolls a fair die. Event A: the die shows 5. Event B: the die shows 6. Can events A and B happen at the same time on a single roll?|A. No, the die cannot show both 5 and 6 at the same time. A and B are mutually exclusive.|B. Yes, the die can show both 5 and 6. Fossil: on a single die roll, only one number can appear.|C. No, because P(A) × P(B) = 1/6 × 1/6 = 1/36. Fossil: that is the calculation for independent events, not the definition of mutually exclusive.|D. Yes, P(A or B) = P(A) + P(B) = 2/6. Fossil: correct addition, but the question asks if they can happen together, not P(A or B).",
+            "At Riverside Secondary, Wei flips a fair coin twice (with replacement). The first flip shows tails. Does this affect the probability of the second flip?|A. No, the first flip does not affect the second flip. The events are independent. P(second flip is heads) = 1/2, same as always.|B. Yes, if the first flip is tails, the second flip must be heads. Fossil: flips are independent, not dependent.|C. Yes, P(second flip is heads) = 0 because the first flip was tails. Fossil: the first flip does not change the second flip's probability.|D. No, P(second flip is heads) = 1. Fossil: P is still 1/2, not 1.",
+            "At Riverside Secondary, Aisha rolls a fair die. Event A: the die shows an even number (2, 4, 6). Event B: the die shows a number greater than 4 (5, 6). Aisha says: 「A and B are mutually exclusive because P(A or B) = P(A) + P(B).」 Is Aisha correct?|A. No, A and B are not mutually exclusive because they can both happen together (outcome 6 is both even and >4). P(A or B) = P(A) + P(B) only works for mutually exclusive events.|B. Yes, A and B are mutually exclusive. Fossil: they can both happen together (6 is even and >4), so not mutually exclusive.|C. No, A and B are independent, not mutually exclusive. Fossil: independence and mutual exclusivity are different concepts.|D. Yes, P(A or B) = 3/6 + 2/6 = 5/6, so Aisha is correct. Fossil: P(A or B) = 4/6, not 5/6, because 6 is counted in both A and B, so we cannot just add.",
+            "At Riverside Secondary, Mr Lim flips a fair coin and rolls a fair die. Event A: the coin shows tails. Event B: the die shows 2. Wei says: 「P(A and B) = P(A) + P(B) = 1/2 + 1/6 = 4/6 = 2/3.」 Is Wei correct?|A. No, A and B are independent events, so P(A and B) = P(A) × P(B) = 1/2 × 1/6 = 1/12, not 2/3. Wei used addition instead of multiplication.|B. Yes, P(A and B) = 2/3 is correct. Fossil: for independent events, multiply, do not add.|C. No, P(A and B) = P(A or B) = 4/6. Fossil: the question asks for P(A and B), not P(A or B).|D. Yes, Wei used the correct formula for independent events. Fossil: Wei used addition, which is for mutually exclusive events (or part of the inclusion-exclusion formula), not for independent events A and B.",
+            "At Riverside Secondary, Aisha has a bag of marbles: 2 red, 3 blue. She draws one marble, records the colour, puts it back (with replacement), then draws again. What is P(red on first draw and blue on second draw)?|A. P(red, blue) = 2/5 × 3/5 = 6/25 (with replacement, events are independent, multiply)|B. P(red, blue) = 2/5 + 3/5 = 1. Fossil: added instead of multiplying for independent events, and P(red, blue) is not 1.|C. P(red, blue) = 2/5 × 3/4 = 6/20. Fossil: used without-replacement calculation (after drawing red, 4 marbles left), but the question says with replacement.|D. P(red, blue) = 6. Fossil: treated the product 2 × 3 as the probability.",
+            "At Riverside Secondary, Wei rolls a fair die. Event A: the die shows 1. Event B: the die shows a number less than 3 (1 or 2). Can A and B happen at the same time?|A. Yes, A and B can happen at the same time (outcome 1 satisfies both A and B). A and B are not mutually exclusive.|B. No, A and B cannot happen at the same time. Fossil: outcome 1 satisfies both, so they can happen together.|C. Yes, P(A or B) = P(A) + P(B) = 1/6 + 2/6 = 3/6. Fossil: the question asks if they can happen together, not P(A or B), and since they can happen together, we cannot use P(A or B) = P(A) + P(B) directly (inclusion-exclusion needed).|D. No, because A is a subset of B. Fossil: if A is a subset of B, then A and B can happen together (whenever A happens, B also happens).",
+            "At Riverside Secondary, Mr Lim flips two fair coins. He calculates P(first coin is heads or second coin is heads). Aisha says: 「P(first H or second H) = P(first H) + P(second H) = 1/2 + 1/2 = 1.」 Is Aisha correct?|A. No, the two events (first H and second H) are not mutually exclusive because both can happen together (outcome HH). P(first H or second H) = P(HH or HT or TH) = 3/4, not 1. Aisha used addition without checking if the events are mutually exclusive.|B. Yes, P(first H or second H) = 1 is correct. Fossil: P(at least one H) = 3/4, not 1.|C. No, P(first H or second H) = P(first H) × P(second H) = 1/4. Fossil: for (or), if events are mutually exclusive, add; for independent events (and), multiply.|D. Yes, 1/2 + 1/2 = 1, so Aisha is correct. Fossil: the addition formula P(A or B) = P(A) + P(B) only works when A and B are mutually exclusive, but (first H) and (second H) can both happen together (HH).",
+            "At Riverside Secondary, Wei rolls a fair die twice. What is P(first roll is 3 and second roll is 5)?|A. P(3, 5) = 1/6 × 1/6 = 1/36 (the two rolls are independent, so multiply)|B. P(3, 5) = 1/6 + 1/6 = 2/6 = 1/3. Fossil: added instead of multiplying for independent events.|C. P(3, 5) = 1/6. Fossil: forgot to multiply by the second roll's probability.|D. P(3, 5) = 2. Fossil: treated the count as the probability.",
+          ]),
+          correctAnswer: "A,A,A,A,A,A,A,A",
+          points: 16,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `Part 2: Show Your Working (写出算式步骤)
+
+Riverside Secondary School has questions about addition and multiplication of probabilities. Answer the questions below. Show your working clearly.
+
+Question (a)
+At Riverside Secondary, Wei rolls a fair six-sided die once.
+
+(i) Event A: the die shows an even number (2, 4, or 6). What is P(A)? Write: P(A) = number of even outcomes / total outcomes = ? / ? = ?
+(Hint: Count even numbers: 2, 4, 6. Total outcomes: 6.)
+
+(ii) Event B: the die shows an odd number (1, 3, or 5). What is P(B)? Write: P(B) = ? / ? = ?
+
+(iii) Can events A and B happen at the same time on a single die roll? Explain. (Hint: The die cannot show both even and odd at the same time. A and B are mutually exclusive.)
+
+(iv) Calculate P(A or B) using the addition rule for mutually exclusive events. Write: P(A or B) = P(A) + P(B) = ? + ? = ?
+(Hint: For mutually exclusive events, P(A or B) = P(A) + P(B).)
+
+(v) Check your answer: P(A or B) should equal 1 because every die outcome is either even or odd. Is your answer 1?
+
+
+Question (b)
+At Riverside Secondary, Aisha flips a fair coin and rolls a fair die.
+
+(i) Event A: the coin shows heads. What is P(A)? Write: P(A) = ? / ? = ?
+
+(ii) Event B: the die shows an even number (2, 4, or 6). What is P(B)? Write: P(B) = ? / ? = ?
+
+(iii) Are events A and B independent? Explain. (Hint: The coin result does not affect the die result, so A and B are independent.)
+
+(iv) Calculate P(A and B) using the multiplication rule for independent events. Write: P(A and B) = P(A) × P(B) = ? × ? = ?
+(Hint: For independent events, P(A and B) = P(A) × P(B).)
+
+(v) Mr Lim says: 「P(A and B) = P(A) + P(B) = 1/2 + 1/2 = 1.」 Explain why Mr Lim is wrong. What is the correct P(A and B)? (Hint: For independent events, multiply, do not add. Also, P(B) = 1/2, not 1/2 [Mr Lim used the wrong P(B)]. The addition rule is for mutually exclusive events, not independent events.)
+
+
+Question (c)
+At Riverside Secondary, Mr Lim has a bag of marbles: 3 red marbles and 2 blue marbles (5 marbles in total). He draws one marble, records the colour, puts it back (with replacement), then draws again.
+
+(i) What is the probability of drawing a red marble on the first draw? Write: P(red on first draw) = ? / ? = ?
+
+(ii) After putting the first marble back, what is the probability of drawing a red marble on the second draw? Write: P(red on second draw) = ? / ? = ?
+(Hint: With replacement, the bag still has 3 red and 2 blue marbles, so P(red on second draw) = 3/5, same as the first draw.)
+
+(iii) Are the two draws independent? Explain. (Hint: With replacement, the first draw does not affect the second draw, so the events are independent.)
+
+(iv) Calculate P(red on first draw and red on second draw) using the multiplication rule. Write: P(red, red) = P(red on first) × P(red on second) = ? × ? = ?
+
+(v) Wei says: 「P(red, red) = 3/5 + 3/5 = 6/5.」 Explain why Wei is wrong. (Hint: Wei added instead of multiplying for independent events, and also wrote P > 1, which is impossible. Probabilities must be between 0 and 1.)
+
+
+写作提示 / Tips:
+✓ 每题分步骤写出推理 (Show working steps for each question)
+✓ Part 2 官方要求：clearly show the method of solution by writing working steps, plus the final answer
+✓ 不用计算器 (No calculators allowed)
+✓ 本周教 Sec 2 STATISTICS AND PROBABILITY, S2. Probability: 本周是 addition and multiplication of probabilities (S2.4)（概率加法与乘法）: for mutually exclusive events and independent events（互斥事件和独立事件）。互斥事件：不能同时发生，P(A or B) = P(A) + P(B)。独立事件：一个事件不影响另一个，P(A and B) = P(A) × P(B)。本周建立在 W92 (S2.3 listing with possibility/tree diagrams) 基础上，教加法和乘法规则，不是重新教 S2.3 的全部内容。
+✓ 加法与乘法规则步骤示范 (Addition and multiplication rules examples):
+  • Mutually exclusive events, P(A or B):
+    Question: A fair die is rolled. Event A: the die shows 2. Event B: the die shows 5. What is P(A or B)?
+    Solution: ① Check if A and B are mutually exclusive: The die cannot show both 2 and 5 at the same time, so A and B are mutually exclusive. ② Calculate P(A): P(A) = 1/6. ③ Calculate P(B): P(B) = 1/6. ④ Use the addition rule: P(A or B) = P(A) + P(B) = 1/6 + 1/6 = 2/6 = 1/3. Answer: 1/3.
+  • Independent events, P(A and B):
+    Question: A fair coin is flipped and a fair die is rolled. Event A: the coin shows heads. Event B: the die shows 3. What is P(A and B)?
+    Solution: ① Check if A and B are independent: The coin result does not affect the die result, so A and B are independent. ② Calculate P(A): P(A) = 1/2. ③ Calculate P(B): P(B) = 1/6. ④ Use the multiplication rule: P(A and B) = P(A) × P(B) = 1/2 × 1/6 = 1/12. Answer: 1/12.
+  • With replacement (independent draws):
+    Question: A bag has 2 red marbles and 3 blue marbles. Draw one marble with replacement, then draw again. What is P(red on first draw and blue on second draw)?
+    Solution: ① With replacement, the two draws are independent (first draw does not affect second draw). ② P(red on first draw) = 2/5. ③ P(blue on second draw) = 3/5 (bag still has 2 red and 3 blue after replacement). ④ P(red, blue) = P(red on first) × P(blue on second) = 2/5 × 3/5 = 6/25. Answer: 6/25.
+✓ 关键步骤：Step 1: Identify if the events are mutually exclusive (cannot happen together) or independent (one does not affect the other)（判断事件是互斥还是独立）。Step 2: For mutually exclusive events, use addition rule: P(A or B) = P(A) + P(B)（互斥事件用加法）。Step 3: For independent events, use multiplication rule: P(A and B) = P(A) × P(B)（独立事件用乘法）。Step 4: Calculate each probability P(A) and P(B) separately（分别算 P(A) 和 P(B)）。Step 5: Apply the rule (add or multiply)（应用规则：加或乘）。Step 6: Simplify the answer（化简）。Step 7: Check that 0 ≤ P ≤ 1 (probability cannot be negative or greater than 1)（检查 0 ≤ P ≤ 1）。Step 8: State the final answer（陈述最终答案）。
+✓ 化石 (fossil errors):
+  • Adding P for events that can happen together（把能同时发生的事件概率相加）：P(die shows even or die shows >4) = P(even) + P(>4) = 3/6 + 2/6 = 5/6. Wrong. Outcome 6 is both even and >4, so the events are not mutually exclusive. Correct: P(even or >4) = P(2, 4, 5, 6) = 4/6 = 2/3（错误：把不是互斥的事件相加）。
+  • Multiplying when the second event depends on the first（当第二个事件受第一个影响时仍用乘法）：Bag has 3 red, 2 blue. Draw one, do not replace, draw again. P(red, red) = 3/5 × 3/5 = 9/25. Wrong. After drawing one red, the bag has 2 red and 2 blue (4 marbles), so P(red on second) = 2/4, not 3/5. Correct: P(red, red) = 3/5 × 2/4 = 6/20 = 3/10（错误：没有放回但仍用独立事件乘法）。This is S2.4 dependent events (conditional probability), not taught this week. This week teaches independent events (with replacement).
+  • Writing P > 1（写出 P > 1）：P(A or B) = 1/2 + 3/4 = 5/4. Wrong. Probability cannot be greater than 1. If you get P > 1, check if the events are mutually exclusive（错误：P > 1，检查事件是否互斥）。
+  • Treating the count as the probability（把个数当成概率）：P(red, red) = 3 × 3 = 9. Wrong. P(red, red) = (3/5) × (3/5) = 9/25, not 9（错误：没有除以总数）。
+  • Confusing addition and multiplication（混淆加法和乘法）：For independent events (and), using addition instead of multiplication. For mutually exclusive events (or), using multiplication instead of addition（对独立事件用加法；对互斥事件用乘法）。Remember: mutually exclusive → add; independent → multiply（记住：互斥→加；独立→乘）。
+✓ 本周教 S2 的 2.4 addition and multiplication of probabilities (mutually exclusive events and independent events)（概率加法与乘法：互斥事件和独立事件）。本周建立在 W92 (S2.3 simple combined events with listing) 基础上，不是重新教 S2.3 的全部内容。本周不教 conditional probability (dependent events without replacement)（条件概率/无放回抽取的非独立事件）。本周不教 Venn diagrams for probability（概率的维恩图）。本周不教 tree diagrams for dependent events（非独立事件的树状图）。本周不教 S3 content（S3 内容）。
+✓ Writing 数值不能抄 微课（如果本周有微课）或 MCQ 的其他数值。Writing Q 用 die: even vs odd (mutually exclusive, P = 1); coin and die: heads and even (independent); bag 3 red 2 blue with replacement (independent draws)。不能抄本周 MCQ 的其他数值（spinner; two coins; die: 5 vs 6; die: A=even, B=>4; 等）。也不能用 W92 或 W87–W91 writing 的数值（那些周是其他概率/统计/立体几何话题，本周是 S2.4 加法乘法规则）。
+
+Note: This is a sample of Part 2 short-answer/open-ended questions. The official paper has 20 short-answer + 10–15 open-ended items in 1 hour 45 minutes.`,
+          points: 20,
+        },
+      ],
+    },
   ];
 
 

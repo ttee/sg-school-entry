@@ -1749,5 +1749,126 @@ export default function SmathFigure({ weekNumber }: { weekNumber: number }) {
     );
   }
 
+  if (weekNumber === 93) {
+    return (
+      <div className="bg-paper border border-line rounded-xl p-6 mb-6">
+        <h3 className="font-semibold text-ink mb-4 text-center">📊 本周图解</h3>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-3xl mx-auto">
+          {/* Diagram 1: Tree diagram for independent events (two coin flips with replacement) */}
+          <div className="flex flex-col items-center">
+            <svg viewBox="0 0 300 280" className="w-full max-w-[300px] h-auto">
+              {/* Title */}
+              <text x="150" y="20" fontSize="12" fill="#1a1a1a" fontWeight="600" textAnchor="middle">Independent Events: Two Coin Flips</text>
+              
+              {/* Start */}
+              <circle cx="150" cy="50" r="4" fill="#1a1a1a" />
+              <text x="150" y="40" fontSize="10" fill="#1a1a1a" fontWeight="600" textAnchor="middle">Start</text>
+              
+              {/* First branches */}
+              <line x1="150" y1="50" x2="90" y2="100" stroke="#d97706" strokeWidth="2.5" />
+              <line x1="150" y1="50" x2="210" y2="100" stroke="#10b981" strokeWidth="2.5" />
+              
+              {/* First branch labels */}
+              <text x="110" y="70" fontSize="11" fill="#d97706" fontWeight="700">H (1/2)</text>
+              <text x="180" y="70" fontSize="11" fill="#10b981" fontWeight="700">T (1/2)</text>
+              
+              {/* Second level circles */}
+              <circle cx="90" cy="100" r="4" fill="#d97706" />
+              <circle cx="210" cy="100" r="4" fill="#10b981" />
+              
+              {/* Second branches from H */}
+              <line x1="90" y1="100" x2="60" y2="150" stroke="#d97706" strokeWidth="2" />
+              <line x1="90" y1="100" x2="120" y2="150" stroke="#10b981" strokeWidth="2" />
+              
+              {/* Second branches from T */}
+              <line x1="210" y1="100" x2="180" y2="150" stroke="#d97706" strokeWidth="2" />
+              <line x1="210" y1="100" x2="240" y2="150" stroke="#10b981" strokeWidth="2" />
+              
+              {/* Second branch labels */}
+              <text x="55" y="125" fontSize="10" fill="#d97706" fontWeight="600">H (1/2)</text>
+              <text x="115" y="125" fontSize="10" fill="#10b981" fontWeight="600">T (1/2)</text>
+              <text x="175" y="125" fontSize="10" fill="#d97706" fontWeight="600">H (1/2)</text>
+              <text x="235" y="125" fontSize="10" fill="#10b981" fontWeight="600">T (1/2)</text>
+              
+              {/* Outcomes */}
+              <circle cx="60" cy="150" r="5" fill="#d97706" stroke="#1a1a1a" strokeWidth="1.5" />
+              <text x="60" y="170" fontSize="10" fill="#d97706" fontWeight="700" textAnchor="middle">HH</text>
+              <text x="60" y="183" fontSize="8" fill="#6b7280" fontWeight="600" textAnchor="middle">1/2 × 1/2</text>
+              <text x="60" y="195" fontSize="9" fill="#3b82f6" fontWeight="700" textAnchor="middle">= 1/4</text>
+              
+              <circle cx="120" cy="150" r="5" fill="#10b981" stroke="#1a1a1a" strokeWidth="1.5" />
+              <text x="120" y="170" fontSize="10" fill="#10b981" fontWeight="700" textAnchor="middle">HT</text>
+              <text x="120" y="183" fontSize="8" fill="#6b7280" fontWeight="600" textAnchor="middle">1/2 × 1/2</text>
+              <text x="120" y="195" fontSize="9" fill="#3b82f6" fontWeight="700" textAnchor="middle">= 1/4</text>
+              
+              <circle cx="180" cy="150" r="5" fill="#10b981" stroke="#1a1a1a" strokeWidth="1.5" />
+              <text x="180" y="170" fontSize="10" fill="#10b981" fontWeight="700" textAnchor="middle">TH</text>
+              <text x="180" y="183" fontSize="8" fill="#6b7280" fontWeight="600" textAnchor="middle">1/2 × 1/2</text>
+              <text x="180" y="195" fontSize="9" fill="#3b82f6" fontWeight="700" textAnchor="middle">= 1/4</text>
+              
+              <circle cx="240" cy="150" r="5" fill="#3b82f6" stroke="#1a1a1a" strokeWidth="1.5" />
+              <text x="240" y="170" fontSize="10" fill="#3b82f6" fontWeight="700" textAnchor="middle">TT</text>
+              <text x="240" y="183" fontSize="8" fill="#6b7280" fontWeight="600" textAnchor="middle">1/2 × 1/2</text>
+              <text x="240" y="195" fontSize="9" fill="#3b82f6" fontWeight="700" textAnchor="middle">= 1/4</text>
+              
+              {/* Formula */}
+              <text x="150" y="225" fontSize="10" fill="#8b5cf6" fontWeight="700" textAnchor="middle">独立事件：P(A and B) = P(A) × P(B)</text>
+              <text x="150" y="240" fontSize="9" fill="#6b7280" fontWeight="600" textAnchor="middle">First flip does not affect second flip</text>
+            </svg>
+            <p className="text-sm text-ink-2 text-center mt-3">
+              <span className="font-semibold">独立事件树状图：两次硬币</span><br />
+              <span className="text-accent">P(A and B) = P(A) × P(B)</span><br />
+              <span className="text-xs text-muted">第一次不影响第二次，用乘法</span>
+            </p>
+          </div>
+
+          {/* Diagram 2: Mutually exclusive events on a die */}
+          <div className="flex flex-col items-center">
+            <svg viewBox="0 0 300 280" className="w-full max-w-[300px] h-auto">
+              {/* Title */}
+              <text x="150" y="20" fontSize="12" fill="#1a1a1a" fontWeight="600" textAnchor="middle">Mutually Exclusive Events: Die Roll</text>
+              
+              {/* Die outline */}
+              <rect x="75" y="50" width="150" height="150" rx="8" fill="#f9fafb" stroke="#1a1a1a" strokeWidth="2" />
+              
+              {/* Even numbers (left side) */}
+              <rect x="85" y="65" width="60" height="120" rx="5" fill="#d97706" fillOpacity="0.2" stroke="#d97706" strokeWidth="2" />
+              <text x="115" y="85" fontSize="13" fill="#d97706" fontWeight="700" textAnchor="middle">Even</text>
+              <text x="115" y="105" fontSize="18" fill="#d97706" fontWeight="700" textAnchor="middle">2</text>
+              <text x="115" y="130" fontSize="18" fill="#d97706" fontWeight="700" textAnchor="middle">4</text>
+              <text x="115" y="155" fontSize="18" fill="#d97706" fontWeight="700" textAnchor="middle">6</text>
+              <text x="115" y="175" fontSize="10" fill="#d97706" fontWeight="600" textAnchor="middle">P(A) = 3/6</text>
+              
+              {/* Odd numbers (right side) */}
+              <rect x="155" y="65" width="60" height="120" rx="5" fill="#10b981" fillOpacity="0.2" stroke="#10b981" strokeWidth="2" />
+              <text x="185" y="85" fontSize="13" fill="#10b981" fontWeight="700" textAnchor="middle">Odd</text>
+              <text x="185" y="105" fontSize="18" fill="#10b981" fontWeight="700" textAnchor="middle">1</text>
+              <text x="185" y="130" fontSize="18" fill="#10b981" fontWeight="700" textAnchor="middle">3</text>
+              <text x="185" y="155" fontSize="18" fill="#10b981" fontWeight="700" textAnchor="middle">5</text>
+              <text x="185" y="175" fontSize="10" fill="#10b981" fontWeight="600" textAnchor="middle">P(B) = 3/6</text>
+              
+              {/* X mark between sections */}
+              <line x1="145" y1="80" x2="155" y2="90" stroke="#ef4444" strokeWidth="3" />
+              <line x1="155" y1="80" x2="145" y2="90" stroke="#ef4444" strokeWidth="3" />
+              <text x="150" y="110" fontSize="9" fill="#ef4444" fontWeight="700" textAnchor="middle">不能</text>
+              <text x="150" y="120" fontSize="9" fill="#ef4444" fontWeight="700" textAnchor="middle">同时</text>
+              <text x="150" y="130" fontSize="9" fill="#ef4444" fontWeight="700" textAnchor="middle">发生</text>
+              
+              {/* Formula */}
+              <text x="150" y="225" fontSize="10" fill="#8b5cf6" fontWeight="700" textAnchor="middle">互斥事件：P(A or B) = P(A) + P(B)</text>
+              <text x="150" y="240" fontSize="10" fill="#3b82f6" fontWeight="700" textAnchor="middle">P(even or odd) = 3/6 + 3/6 = 1</text>
+              <text x="150" y="255" fontSize="9" fill="#6b7280" fontWeight="600" textAnchor="middle">Cannot happen together, use addition</text>
+            </svg>
+            <p className="text-sm text-ink-2 text-center mt-3">
+              <span className="font-semibold">互斥事件：骰子偶数或奇数</span><br />
+              <span className="text-accent">P(A or B) = P(A) + P(B)</span><br />
+              <span className="text-xs text-muted">不能同时发生，用加法</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
   return null;
 }
