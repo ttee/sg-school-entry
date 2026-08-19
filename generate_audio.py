@@ -265,6 +265,12 @@ AUDIO_CONFIGS = [
             ("Mei", FEMALE_VOICE, "Yes! My cousins are so funny. We played board games for such a long time. But by evening, I was so tired that I fell asleep in the car on the way home!"),
         ]
     },
+    {
+        "filename": "b1-w9-listening.mp3",
+        "dialogue": [
+            ("Ms Tan", TEACHER_VOICE, "Class, I want to talk about the school trip next Friday. We're going to the Science Centre, but we need to leave early. The bus will arrive at 7:30 a.m., so please don't be late. Some students said they wanted to bring their cameras, but the museum is too dark to take good photos inside. You're welcome to take pictures outside during lunch break. We only have enough time for two exhibitions, so we'll visit the Space and Technology sections. The third exhibition is too far to walk to in our schedule. The museum shop has interesting books, but they're quite expensive. If you want to buy something, make sure you bring enough money. Most items cost between $10 and $20. Any questions?"),
+        ]
+    },
 ]
 
 async def generate_audio_with_pauses(dialogue, output_path):
