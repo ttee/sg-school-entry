@@ -16703,6 +16703,131 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
         },
       ],
     },
+    {
+      level: "SMATH",
+      weekNumber: 97,
+      title: "累积频率和箱线图 — Cumulative frequency and box-and-whisker",
+      description: "S1.13 analysis and interpretation of cumulative frequency diagrams and box-and-whisker plots (AEIS 中学数学第 97 周 / SMATH Week 97)",
+      isSample: false,
+      errorFocus: "box from min to max with no quartiles; median forced to the box centre; reading cumulative frequency as a single-class count",
+      parentBrief: "本周读累积频率图和箱线图。箱线用五个数：最小、Q1、Q2、Q3、最大。累积频率是往下加的累计人数。不要把箱子画成从最小到最大中间没有四分位。不要把中位数强行放在箱子正中（Q2 位置由数据决定）。不要把累积频率当成单个区间的频数。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "At Riverside Secondary, Mr Lim has a data set: 10, 15, 18, 20, 22, 25, 30. Min = 10, Q1 = 15, Q2 = 20, Q3 = 25, Max = 30. He draws a box-and-whisker plot. Where are the five key values on the number line?|A. The five key values are: min = 10, Q1 = 15, Q2 = 20, Q3 = 25, max = 30. The box goes from Q1 to Q3, with a line at Q2. The whiskers go from min to Q1 and from Q3 to max.|B. The box goes from min (10) to max (30), with the median at the centre. Fossil: box from min to max with no quartiles.|C. The five key values are: 10, 12, 20, 28, 30 (evenly spaced). Fossil: forced the median to the box centre (instead of Q2 at 20, put it at (10+30)/2 = 20 by chance, but changed Q1 and Q3).|D. Only draw the median line, no box. Fossil: missing the box and whiskers.",
+            "At Riverside Secondary, Aisha has a cumulative frequency table. Age ≤ 12: cumulative frequency = 5. Age ≤ 14: cumulative frequency = 12. Age ≤ 16: cumulative frequency = 20. Age ≤ 18: cumulative frequency = 25. How many students are aged 14 < age ≤ 16?|A. Students aged 14 < age ≤ 16 = 20 − 12 = 8. To find the frequency of one class, subtract the cumulative frequency of the previous class.|B. 20 students. Fossil: read the cumulative frequency (20) as the single-class frequency.|C. 12 students. Fossil: read the wrong cumulative frequency.|D. 25 students. Fossil: used the total instead of the class frequency.",
+            "At Riverside Secondary, Wei has a data set: 8, 12, 15, 18, 22, 25, 30. Min = 8, Q1 = 12, Q2 = 18, Q3 = 25, Max = 30. Wei says: 「The box-and-whisker plot box goes from 8 (min) to 30 (max), with the median at 19 (the centre of 8 and 30).」 Is Wei correct?|A. No, the box goes from Q1 (12) to Q3 (25), with a line at Q2 (18, the actual median), not from min to max. The whiskers go from min to Q1 and from Q3 to max. The median is Q2 = 18 (from the data), not (8+30)/2 = 19.|B. Yes, the box goes from min to max, with the median at the centre. Fossil: box from min to max with no quartiles; median forced to the box centre.|C. No, the box goes from Q1 to Q3, but the median is at the centre of Q1 and Q3. Fossil: forced the median to the box centre (instead of Q2 at 18, put it at (12+25)/2 = 18.5).|D. Yes, the median is at the centre of the box. Fossil: forced the median to the box centre.",
+            "At Riverside Secondary, Mr Lim has a cumulative frequency table. Class 0–10: cumulative frequency = 4. Class 0–20: cumulative frequency = 10. Class 0–30: cumulative frequency = 18. Class 0–40: cumulative frequency = 25. Aisha says: 「There are 18 students in the class 20–30.」 Is Aisha correct?|A. No, the frequency of the class 20–30 = 18 − 10 = 8 students, not 18. 18 is the cumulative frequency up to 30 (total of 0–10, 0–20 classes up to 30), not the frequency of one class.|B. Yes, 18 students in the class 20–30. Fossil: read the cumulative frequency (18) as the single-class frequency.|C. No, 10 students in the class 20–30. Fossil: read the wrong cumulative frequency (10 is up to 20, not the class frequency).|D. No, 25 students in the class 20–30. Fossil: used the total instead of the class frequency.",
+            "At Riverside Secondary, Wei has a data set: 10, 12, 15, 18, 20, 22, 28. Min = 10, Q1 = 12, Q2 = 18, Q3 = 22, Max = 28. Wei draws a box-and-whisker plot. The box should go from Q1 to Q3, with a line at Q2. Wei says: 「The median line should be at the centre of the box, at (12+22)/2 = 17.」 Is Wei correct?|A. No, the median line is at Q2 = 18 (the actual median from the data), not at the centre of Q1 and Q3. The median position is determined by the data, not by the box centre.|B. Yes, the median line is at the centre of the box. Fossil: forced the median to the box centre.|C. No, the median line is at the centre of the min and max, at (10+28)/2 = 19. Fossil: forced the median to the centre of min and max.|D. No, the box goes from min (10) to max (28), with the median at Q2 = 18. Fossil: box from min to max (but got Q2 correct by chance).",
+          ]),
+          correctAnswer: "A,A,A,A,A",
+          points: 10,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "At Riverside Secondary, Mr Lim has a box-and-whisker plot. The five-number summary is: min = 5, Q1 = 10, Q2 = 15, Q3 = 22, max = 30. What do the box and whiskers represent?|A. The box goes from Q1 (10) to Q3 (22), with a line at Q2 (15). The left whisker goes from min (5) to Q1 (10). The right whisker goes from Q3 (22) to max (30).|B. The box goes from min (5) to max (30), with a line at Q2 (15). Fossil: box from min to max with no quartiles.|C. The box goes from Q1 (10) to Q3 (22), with the median line at the centre (10+22)/2 = 16. Fossil: forced the median to the box centre (instead of Q2 at 15).|D. The box goes from Q2 (15) to Q3 (22), with whiskers from Q1 (10) to Q2 (15) and from max (30) to min (5). Fossil: confused the box and whiskers positions.",
+            "At Riverside Secondary, Aisha has a cumulative frequency table. Score ≤ 50: cumulative frequency = 8. Score ≤ 60: cumulative frequency = 15. Score ≤ 70: cumulative frequency = 24. Score ≤ 80: cumulative frequency = 30. How many students scored 60 < score ≤ 70?|A. Students with 60 < score ≤ 70 = 24 − 15 = 9. To find the frequency of one class, subtract the cumulative frequency of the previous class.|B. 24 students. Fossil: read the cumulative frequency (24) as the single-class frequency.|C. 15 students. Fossil: read the wrong cumulative frequency (15 is up to 60, not the class frequency).|D. 30 students. Fossil: used the total instead of the class frequency.",
+            "At Riverside Secondary, Wei draws a box-and-whisker plot. Min = 8, Q1 = 12, Q2 = 16, Q3 = 24, Max = 32. Wei says: 「The median line should be at the centre of the box, at (12+24)/2 = 18, not at 16.」 Is Wei correct?|A. No, the median line is at Q2 = 16 (the actual median from the data), not at the centre of Q1 and Q3. The median position is determined by the data, not by the box centre.|B. Yes, the median line is at the centre of the box. Fossil: forced the median to the box centre.|C. No, the median line is at the centre of the min and max, at (8+32)/2 = 20. Fossil: forced the median to the centre of min and max.|D. Yes, the median is at 18. Fossil: forced the median to the box centre.",
+            "At Riverside Secondary, Mr Lim has a cumulative frequency diagram (ogive). At x = 20, cumulative frequency = 12. At x = 30, cumulative frequency = 20. At x = 40, cumulative frequency = 28. Aisha says: 「There are 20 students in the class 20–30.」 Is Aisha correct?|A. No, the frequency of the class 20–30 = 20 − 12 = 8 students, not 20. 20 is the cumulative frequency up to 30, not the frequency of one class.|B. Yes, 20 students in the class 20–30. Fossil: read the cumulative frequency (20) as the single-class frequency.|C. No, 12 students in the class 20–30. Fossil: read the wrong cumulative frequency (12 is up to 20, not the class frequency).|D. No, 28 students in the class 20–30. Fossil: used the total instead of the class frequency.",
+            "At Riverside Secondary, Wei has a data set: 6, 10, 14, 18, 22, 26, 30. Min = 6, Q1 = 10, Q2 = 18, Q3 = 26, Max = 30. Wei draws a box-and-whisker plot. Aisha says: 「The box goes from min (6) to max (30), with the median at Q2 (18).」 Is Aisha correct?|A. No, the box goes from Q1 (10) to Q3 (26), with a line at Q2 (18). The whiskers go from min (6) to Q1 (10) and from Q3 (26) to max (30). Aisha's box is from min to max (fossil).|B. Yes, the box goes from min to max, with the median at Q2. Fossil: box from min to max with no quartiles (but got Q2 correct).|C. No, the median should be at the centre of the box, at (6+30)/2 = 18. Fossil: forced the median to the centre of min and max (got 18 by chance, but the reasoning is wrong).|D. No, the median should be at the centre of Q1 and Q3, at (10+26)/2 = 18. Fossil: forced the median to the box centre (got 18 by chance, but the reasoning is wrong).",
+            "At Riverside Secondary, Mr Lim records the cumulative frequency of test scores. Score ≤ 40: 5 students. Score ≤ 50: 12 students. Score ≤ 60: 20 students. Score ≤ 70: 28 students. Score ≤ 80: 35 students. What is the frequency of the class 50 < score ≤ 60?|A. Frequency of 50 < score ≤ 60 = 20 − 12 = 8 students.|B. 20 students. Fossil: read the cumulative frequency (20) as the single-class frequency.|C. 12 students. Fossil: read the wrong cumulative frequency (12 is up to 50, not the class frequency).|D. 35 students. Fossil: used the total instead of the class frequency.",
+            "At Riverside Secondary, Aisha draws a box-and-whisker plot. Min = 10, Q1 = 15, Q2 = 20, Q3 = 25, Max = 30. Aisha says: 「The box goes from Q1 (15) to Q3 (25), with the median line at the centre of the box, at (15+25)/2 = 20.」 Is Aisha correct?|A. Yes, the box goes from Q1 (15) to Q3 (25), with the median line at Q2 (20). In this case, Q2 = 20 happens to equal (Q1+Q3)/2 = 20, but in general, Q2 is the actual median from the data, not (Q1+Q3)/2.|B. No, the median line is at the centre of min and max, at (10+30)/2 = 20. Fossil: forced the median to the centre of min and max (got 20 by chance, but the reasoning is wrong).|C. No, the box goes from min (10) to max (30), with the median at Q2 (20). Fossil: box from min to max with no quartiles.|D. No, the median is at Q2 = 20, but the box goes from min to max. Fossil: box from min to max (but got Q2 correct).",
+            "At Riverside Secondary, Wei has a cumulative frequency table. Height ≤ 150cm: 6 students. Height ≤ 160cm: 14 students. Height ≤ 170cm: 24 students. Height ≤ 180cm: 30 students. Wei says: 「The median is the 15th student (middle of 30 students). At height ≤ 160cm, cumulative frequency = 14, so the median is in the class 160–170cm.」 Is Wei correct?|A. Yes, the median is the 15th student. At height ≤ 160cm, cumulative frequency = 14 (first 14 students). At height ≤ 170cm, cumulative frequency = 24 (first 24 students). The 15th student is in the class 160–170cm.|B. No, the median is at height ≤ 160cm, cumulative frequency = 14. Fossil: read the cumulative frequency (14) as the median position.|C. No, the median is at height ≤ 170cm, cumulative frequency = 24. Fossil: read the cumulative frequency (24) as the median.|D. No, the median is the 14th student, at height ≤ 160cm. Fossil: confused the cumulative frequency (14) with the median position.",
+          ]),
+          correctAnswer: "A,A,A,A,A,A,A,A",
+          points: 16,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `Part 2: Show Your Working (写出算式步骤)
+
+Riverside Secondary School has questions about cumulative frequency and box-and-whisker plots. Answer the questions below. Show your working clearly.
+
+Question (a)
+At Riverside Secondary, Mr Lim records the ages of 20 students. The ordered data is: 12, 13, 13, 14, 14, 14, 15, 15, 15, 16, 16, 16, 17, 17, 17, 18, 18, 18, 19, 20.
+
+(i) Find the five-number summary (min, Q1, Q2, Q3, max). Write: min = ?, Q1 = ?, Q2 = ?, Q3 = ?, max = ?
+(Hint: Recall W95 and W96 methods. For 20 values, Q2 is between the 10th and 11th values. Q1 is the median of the lower 10 values. Q3 is the median of the upper 10 values.)
+
+(ii) Draw a simple box-and-whisker plot on a number line from 12 to 20. Mark the five key values (min, Q1, Q2, Q3, max).
+(Hint: The box goes from Q1 to Q3, with a line at Q2. The whiskers go from min to Q1 and from Q3 to max. Do not draw the box from min to max.)
+
+(iii) Wei says: 「The box should go from min (12) to max (20), with the median at the centre.」 Explain why Wei is wrong.
+(Hint: The box goes from Q1 to Q3, not from min to max. The whiskers show min and max. The median is at Q2, not at the centre of the box or the centre of min and max.)
+
+
+Question (b)
+At Riverside Secondary, Aisha records the test scores of 30 students in a frequency table. She makes a cumulative frequency table:
+
+Score ≤ 50: 5 students (cumulative frequency = 5)
+Score ≤ 60: cumulative frequency = 12
+Score ≤ 70: cumulative frequency = 20
+Score ≤ 80: cumulative frequency = 28
+Score ≤ 90: cumulative frequency = 30
+
+(i) How many students scored 50 < score ≤ 60? Write: Frequency of 50 < score ≤ 60 = ?
+(Hint: To find the frequency of one class, subtract the cumulative frequency of the previous class. Frequency = 12 − 5 = ?)
+
+(ii) How many students scored 70 < score ≤ 80? Write: Frequency of 70 < score ≤ 80 = ?
+(Hint: Frequency = cumulative frequency at 80 − cumulative frequency at 70.)
+
+(iii) Mr Lim says: 「There are 20 students in the class 60–70.」 Explain why Mr Lim is wrong. What is the correct frequency?
+(Hint: 20 is the cumulative frequency up to 70 (total of all classes up to 70), not the frequency of one class. The frequency of the class 60–70 = 20 − 12 = ?)
+
+
+Question (c)
+At Riverside Secondary, Wei has a cumulative frequency diagram (ogive). At score = 40, cumulative frequency = 6. At score = 50, cumulative frequency = 14. At score = 60, cumulative frequency = 24. At score = 70, cumulative frequency = 30.
+
+(i) Find the median score. Write: The median is the (?/2)th student. At score ≤ ?, cumulative frequency ≥ median position. The median score is in the class ?–?.
+(Hint: For 30 students, the median is the 15th student. At score ≤ 50, cumulative frequency = 14 (first 14 students). At score ≤ 60, cumulative frequency = 24 (first 24 students). The 15th student is in the class 50–60.)
+
+(ii) Aisha says: 「The median is 24, because at score ≤ 60, cumulative frequency = 24.」 Explain why Aisha is wrong.
+(Hint: 24 is the cumulative frequency at score ≤ 60, not the median score. The median is the 15th student, which is in the class 50–60. To estimate the median score, we read the ogive or interpolate in the class 50–60.)
+
+
+写作提示 / Tips:
+✓ 每题分步骤写出推理 (Show working steps for each question)
+✓ Part 2 官方要求：clearly show the method of solution by writing working steps, plus the final answer
+✓ 不用计算器 (No calculators allowed)
+✓ 本周教 Sec 2 STATISTICS AND PROBABILITY, S1. Data handling and analysis: 本周是 analysis and interpretation of cumulative frequency diagrams and box-and-whisker plots (S1.13)（累积频率图和箱线图）。Box-and-whisker: five-number summary (min, Q1, Q2, Q3, max) on a number line. The box goes from Q1 to Q3, with a line at Q2. The whiskers go from min to Q1 and from Q3 to max. Cumulative frequency: running total of frequencies. To find the frequency of one class, subtract the cumulative frequency of the previous class. Read the median / quartile off the ogive at the cumulative frequency position (e.g. median is the (n/2)th value).
+✓ 箱线图步骤示范 (Box-and-whisker steps):
+  • Question: Data: 10, 15, 18, 20, 22, 25, 30 (7 values). Draw a box-and-whisker plot.
+    Solution: 
+    ① Find the five-number summary. Min = 10, max = 30.
+    ② Q2 (median) = 20 (the 4th value, the middle of 7 values).
+    ③ Lower half (below Q2): 10, 15, 18. Q1 = 15 (the middle value of the lower half).
+    ④ Upper half (above Q2): 22, 25, 30. Q3 = 25 (the middle value of the upper half).
+    ⑤ Five-number summary: min = 10, Q1 = 15, Q2 = 20, Q3 = 25, max = 30.
+    ⑥ Draw a number line from 10 to 30. Mark the five key values.
+    ⑦ The box goes from Q1 (15) to Q3 (25), with a line at Q2 (20).
+    ⑧ The left whisker goes from min (10) to Q1 (15). The right whisker goes from Q3 (25) to max (30).
+    Answer: Box from 15 to 25 (with line at 20), whiskers from 10 to 15 and from 25 to 30.
+✓ 累积频率步骤示范 (Cumulative frequency steps):
+  • Question: Cumulative frequency table. Score ≤ 50: 8. Score ≤ 60: 15. Score ≤ 70: 24. Score ≤ 80: 30. Find the frequency of the class 60–70.
+    Solution: 
+    ① Frequency of 60–70 = cumulative frequency at 70 − cumulative frequency at 60.
+    ② Frequency of 60–70 = 24 − 15 = 9 students.
+    Answer: 9 students in the class 60–70.
+✓ 关键步骤：Step 1: Order the data from smallest to largest（把数据从小到大排好）。Step 2: Find the five-number summary (min, Q1, Q2, Q3, max)（找五个数：最小、Q1、Q2、Q3、最大，recall W95 and W96）。Step 3: Draw a number line and mark the five key values（画数轴，标出五个关键值）。Step 4: The box goes from Q1 to Q3, with a line at Q2（箱子从 Q1 到 Q3，中间画一条线在 Q2）。Step 5: The whiskers go from min to Q1 and from Q3 to max（须从最小到 Q1，从 Q3 到最大）。Step 6: For cumulative frequency, to find the frequency of one class, subtract the cumulative frequency of the previous class（累积频率：单个区间的频数 = 本区间的累积频率 − 前一区间的累积频率）。Step 7: Read the median / quartile off the ogive at the cumulative frequency position (e.g. median is the (n/2)th value)（读中位数/四分位数：在累积频率图上，找到中位数位置（n/2），读出对应的分数）。Step 8: State the final answer（陈述最终答案）。
+✓ 化石 (fossil errors):
+  • Box from min to max with no quartiles（箱子从最小到最大，没有四分位数）：Data: 10, 15, 18, 20, 22, 25, 30. Min = 10, Q1 = 15, Q2 = 20, Q3 = 25, Max = 30. Box from min (10) to max (30), with a line at Q2 (20). Wrong. The box should go from Q1 (15) to Q3 (25), with a line at Q2 (20). The whiskers go from min (10) to Q1 (15) and from Q3 (25) to max (30)（错误：箱子应该从 Q1 到 Q3，不是从最小到最大）。
+  • Median forced to the box centre（中位数强行放在箱子正中）：Data: 10, 12, 15, 18, 20, 22, 28. Min = 10, Q1 = 12, Q2 = 18, Q3 = 22, Max = 28. Median at the centre of the box, at (12+22)/2 = 17. Wrong. The median is at Q2 = 18 (the actual median from the data), not at the centre of Q1 and Q3（错误：中位数是 Q2 = 18，不是 (Q1+Q3)/2）。
+  • Reading cumulative frequency as a single-class count（把累积频率当成单个区间的频数）：Cumulative frequency table. Score ≤ 60: 15. Score ≤ 70: 24. Aisha says: 「There are 24 students in the class 60–70.」 Wrong. 24 is the cumulative frequency up to 70, not the frequency of one class. Frequency of 60–70 = 24 − 15 = 9 students（错误：24 是累积到 70 的总人数，不是 60–70 这个区间的人数）。
+
+Note: This is a sample of Part 2 short-answer/open-ended questions. The official paper has 20 short-answer + 10–15 open-ended items in 1 hour 45 minutes.`,
+          points: 20,
+        },
+      ],
+    },
   ];
 
 

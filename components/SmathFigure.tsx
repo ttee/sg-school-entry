@@ -2152,5 +2152,131 @@ export default function SmathFigure({ weekNumber }: { weekNumber: number }) {
     );
   }
 
+  if (weekNumber === 97) {
+    return (
+      <div className="bg-paper border border-line rounded-xl p-6 mb-6">
+        <h3 className="font-semibold text-ink mb-4 text-center">📊 本周图解</h3>
+        <div className="max-w-4xl mx-auto">
+          <div className="flex flex-col gap-8">
+            {/* Box-and-whisker plot */}
+            <div className="flex flex-col items-center">
+              <svg viewBox="0 0 600 280" className="w-full max-w-[600px] h-auto">
+                {/* Title */}
+                <text x="300" y="20" fontSize="13" fill="#1a1a1a" fontWeight="700" textAnchor="middle">Box-and-Whisker Plot (箱线图)</text>
+                <text x="300" y="36" fontSize="11" fill="#6b7280" fontWeight="600" textAnchor="middle">Data: 10, 15, 18, 20, 22, 25, 30. Five-number summary: min=10, Q1=15, Q2=20, Q3=25, max=30</text>
+                
+                {/* Number line */}
+                <line x1="80" y1="100" x2="520" y2="100" stroke="#1a1a1a" strokeWidth="2" />
+                
+                {/* Tick marks */}
+                <line x1="80" y1="95" x2="80" y2="105" stroke="#1a1a1a" strokeWidth="2" />
+                <text x="80" y="120" fontSize="11" fill="#1a1a1a" fontWeight="700" textAnchor="middle">10</text>
+                
+                <line x1="153" y1="95" x2="153" y2="105" stroke="#1a1a1a" strokeWidth="2" />
+                <text x="153" y="120" fontSize="11" fill="#1a1a1a" fontWeight="700" textAnchor="middle">15</text>
+                
+                <line x1="241" y1="95" x2="241" y2="105" stroke="#1a1a1a" strokeWidth="2" />
+                <text x="241" y="120" fontSize="11" fill="#1a1a1a" fontWeight="700" textAnchor="middle">20</text>
+                
+                <line x1="373" y1="95" x2="373" y2="105" stroke="#1a1a1a" strokeWidth="2" />
+                <text x="373" y="120" fontSize="11" fill="#1a1a1a" fontWeight="700" textAnchor="middle">25</text>
+                
+                <line x1="520" y1="95" x2="520" y2="105" stroke="#1a1a1a" strokeWidth="2" />
+                <text x="520" y="120" fontSize="11" fill="#1a1a1a" fontWeight="700" textAnchor="middle">30</text>
+                
+                {/* Box (Q1 to Q3) */}
+                <rect x="153" y="65" width="220" height="30" fill="#dbeafe" stroke="#3b82f6" strokeWidth="2.5" />
+                
+                {/* Median line (Q2) */}
+                <line x1="241" y1="65" x2="241" y2="95" stroke="#d97706" strokeWidth="3" />
+                
+                {/* Left whisker (min to Q1) */}
+                <line x1="80" y1="80" x2="153" y2="80" stroke="#3b82f6" strokeWidth="2.5" />
+                <line x1="80" y1="75" x2="80" y2="85" stroke="#3b82f6" strokeWidth="2.5" />
+                
+                {/* Right whisker (Q3 to max) */}
+                <line x1="373" y1="80" x2="520" y2="80" stroke="#3b82f6" strokeWidth="2.5" />
+                <line x1="520" y1="75" x2="520" y2="85" stroke="#3b82f6" strokeWidth="2.5" />
+                
+                {/* Labels */}
+                <text x="80" y="140" fontSize="10" fill="#ef4444" fontWeight="700" textAnchor="middle">min</text>
+                <text x="153" y="140" fontSize="10" fill="#3b82f6" fontWeight="700" textAnchor="middle">Q1</text>
+                <text x="241" y="140" fontSize="10" fill="#d97706" fontWeight="700" textAnchor="middle">Q2</text>
+                <text x="373" y="140" fontSize="10" fill="#10b981" fontWeight="700" textAnchor="middle">Q3</text>
+                <text x="520" y="140" fontSize="10" fill="#ef4444" fontWeight="700" textAnchor="middle">max</text>
+                
+                {/* Step guide */}
+                <rect x="40" y="160" width="520" height="105" fill="#f9fafb" stroke="#3b82f6" strokeWidth="1.5" rx="8" />
+                
+                <text x="300" y="178" fontSize="11" fill="#3b82f6" fontWeight="700" textAnchor="middle">Box-and-Whisker Plot Steps (箱线图步骤)</text>
+                
+                <text x="50" y="196" fontSize="10" fill="#1a1a1a" fontWeight="700">Five-number summary: min=10, Q1=15, Q2=20, Q3=25, max=30</text>
+                <text x="50" y="213" fontSize="10" fill="#3b82f6" fontWeight="700">Box: from Q1 (15) to Q3 (25), with a line at Q2 (20)</text>
+                <text x="430" y="213" fontSize="9" fill="#6b7280" fontWeight="600">(箱子从 Q1 到 Q3)</text>
+                <text x="50" y="230" fontSize="10" fill="#3b82f6" fontWeight="700">Whiskers: left from min (10) to Q1 (15), right from Q3 (25) to max (30)</text>
+                <text x="50" y="247" fontSize="9" fill="#ef4444" fontWeight="700">Fossil: Box from min to max (NO! Box is Q1 to Q3); median at box centre (NO! Q2 by data)</text>
+                <text x="50" y="260" fontSize="9" fill="#6b7280" fontWeight="600">错误：箱子从最小到最大（应从 Q1 到 Q3）；中位数在箱子正中（Q2 由数据决定，不是 (Q1+Q3)/2）</text>
+              </svg>
+              <p className="text-sm text-ink-2 text-center mt-4">
+                <span className="font-semibold">箱线图：箱子从 Q1 到 Q3，中间线在 Q2，须从两端延伸到最小和最大</span><br />
+                <span className="text-accent">Box from Q1 (15) to Q3 (25), median line at Q2 (20), whiskers to min (10) and max (30)</span>
+              </p>
+            </div>
+            
+            {/* Cumulative frequency table */}
+            <div className="flex flex-col items-center">
+              <svg viewBox="0 0 600 320" className="w-full max-w-[600px] h-auto">
+                {/* Title */}
+                <text x="300" y="20" fontSize="13" fill="#1a1a1a" fontWeight="700" textAnchor="middle">Cumulative Frequency Table (累积频率表)</text>
+                <text x="300" y="36" fontSize="11" fill="#6b7280" fontWeight="600" textAnchor="middle">Test scores of 30 students (30 名学生的测验分数)</text>
+                
+                {/* Table header */}
+                <rect x="100" y="60" width="200" height="35" fill="#dbeafe" stroke="#3b82f6" strokeWidth="2" />
+                <rect x="300" y="60" width="200" height="35" fill="#dbeafe" stroke="#3b82f6" strokeWidth="2" />
+                <text x="200" y="82" fontSize="11" fill="#1a1a1a" fontWeight="700" textAnchor="middle">Score</text>
+                <text x="400" y="82" fontSize="11" fill="#1a1a1a" fontWeight="700" textAnchor="middle">Cumulative Frequency</text>
+                
+                {/* Table rows */}
+                <rect x="100" y="95" width="200" height="30" fill="#ffffff" stroke="#3b82f6" strokeWidth="1.5" />
+                <rect x="300" y="95" width="200" height="30" fill="#ffffff" stroke="#3b82f6" strokeWidth="1.5" />
+                <text x="200" y="115" fontSize="11" fill="#1a1a1a" fontWeight="600" textAnchor="middle">≤ 50</text>
+                <text x="400" y="115" fontSize="11" fill="#1a1a1a" fontWeight="600" textAnchor="middle">8</text>
+                
+                <rect x="100" y="125" width="200" height="30" fill="#ffffff" stroke="#3b82f6" strokeWidth="1.5" />
+                <rect x="300" y="125" width="200" height="30" fill="#ffffff" stroke="#3b82f6" strokeWidth="1.5" />
+                <text x="200" y="145" fontSize="11" fill="#1a1a1a" fontWeight="600" textAnchor="middle">≤ 60</text>
+                <text x="400" y="145" fontSize="11" fill="#d97706" fontWeight="700" textAnchor="middle">15</text>
+                
+                <rect x="100" y="155" width="200" height="30" fill="#ffffff" stroke="#3b82f6" strokeWidth="1.5" />
+                <rect x="300" y="155" width="200" height="30" fill="#ffffff" stroke="#3b82f6" strokeWidth="1.5" />
+                <text x="200" y="175" fontSize="11" fill="#1a1a1a" fontWeight="600" textAnchor="middle">≤ 70</text>
+                <text x="400" y="175" fontSize="11" fill="#10b981" fontWeight="700" textAnchor="middle">24</text>
+                
+                <rect x="100" y="185" width="200" height="30" fill="#ffffff" stroke="#3b82f6" strokeWidth="1.5" />
+                <rect x="300" y="185" width="200" height="30" fill="#ffffff" stroke="#3b82f6" strokeWidth="1.5" />
+                <text x="200" y="205" fontSize="11" fill="#1a1a1a" fontWeight="600" textAnchor="middle">≤ 80</text>
+                <text x="400" y="205" fontSize="11" fill="#1a1a1a" fontWeight="600" textAnchor="middle">30</text>
+                
+                {/* Step guide */}
+                <rect x="40" y="230" width="520" height="75" fill="#f9fafb" stroke="#10b981" strokeWidth="1.5" rx="8" />
+                
+                <text x="300" y="248" fontSize="11" fill="#10b981" fontWeight="700" textAnchor="middle">Cumulative Frequency Steps (累积频率步骤)</text>
+                
+                <text x="50" y="266" fontSize="10" fill="#1a1a1a" fontWeight="700">How many students scored 60 &lt; score ≤ 70?</text>
+                <text x="50" y="283" fontSize="10" fill="#10b981" fontWeight="700">Frequency of 60–70 = cumulative at 70 − cumulative at 60 = 24 − 15 = 9 students</text>
+                <text x="440" y="283" fontSize="9" fill="#6b7280" fontWeight="600">(减法)</text>
+                <text x="50" y="299" fontSize="9" fill="#ef4444" fontWeight="700">Fossil: 24 students (NO! 24 is cumulative, not single-class frequency)</text>
+              </svg>
+              <p className="text-sm text-ink-2 text-center mt-4">
+                <span className="font-semibold">累积频率表：单个区间的频数 = 本区间的累积频率 − 前一区间的累积频率</span><br />
+                <span className="text-accent">Frequency of one class = subtract previous cumulative frequency. Example: 60–70 = 24 − 15 = 9</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
   return null;
 }
