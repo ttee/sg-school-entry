@@ -3272,27 +3272,27 @@ export default function SmathFigure({ weekNumber }: { weekNumber: number }) {
             <p className="text-sm text-purple-900 font-semibold mb-3 text-center">y = (x − 1)(x − 5)</p>
             <svg viewBox="0 0 200 200" className="w-full h-48">
               {/* Axes */}
-              <line x1="20" y1="80" x2="190" y2="80" stroke="#333" strokeWidth="1.5" />
+              <line x1="20" y1="90" x2="190" y2="90" stroke="#333" strokeWidth="1.5" />
               <line x1="40" y1="20" x2="40" y2="185" stroke="#333" strokeWidth="1.5" />
               {/* Arrow heads */}
-              <polygon points="190,80 185,77 185,83" fill="#333" />
+              <polygon points="190,90 185,87 185,93" fill="#333" />
               <polygon points="40,20 37,25 43,25" fill="#333" />
               {/* Grid marks */}
-              <line x1="60" y1="77" x2="60" y2="83" stroke="#666" strokeWidth="1" />
-              <line x1="140" y1="77" x2="140" y2="83" stroke="#666" strokeWidth="1" />
+              <line x1="60" y1="87" x2="60" y2="93" stroke="#666" strokeWidth="1" />
+              <line x1="140" y1="87" x2="140" y2="93" stroke="#666" strokeWidth="1" />
               {/* Parabola opening up: y = (x-1)(x-5), x-intercepts at 1 and 5, vertex at (3,-4) */}
               <path
-                d="M 40,180 L 60,80 L 100,160 L 140,80 L 160,180"
+                d="M 40,30 L 60,90 L 100,138 L 140,90 L 160,30"
                 fill="none"
                 stroke="#9333ea"
                 strokeWidth="2.5"
               />
               {/* X-intercepts */}
-              <circle cx="60" cy="80" r="4" fill="#ef4444" />
-              <circle cx="140" cy="80" r="4" fill="#ef4444" />
+              <circle cx="60" cy="90" r="4" fill="#ef4444" />
+              <circle cx="140" cy="90" r="4" fill="#ef4444" />
               {/* Labels */}
-              <text x="60" y="72" fontSize="10" fill="#ef4444" fontWeight="bold">1</text>
-              <text x="140" y="72" fontSize="10" fill="#ef4444" fontWeight="bold">5</text>
+              <text x="60" y="82" fontSize="10" fill="#ef4444" fontWeight="bold">1</text>
+              <text x="140" y="82" fontSize="10" fill="#ef4444" fontWeight="bold">5</text>
             </svg>
             <p className="text-xs text-purple-700 text-center mt-2">开口向上，x 轴交点 1 和 5</p>
             <p className="text-xs text-red-600 text-center mt-1">❌ 不要混淆交点和顶点</p>
@@ -3303,27 +3303,27 @@ export default function SmathFigure({ weekNumber }: { weekNumber: number }) {
             <p className="text-sm text-orange-900 font-semibold mb-3 text-center">y = −(x − 1)(x − 5)</p>
             <svg viewBox="0 0 200 200" className="w-full h-48">
               {/* Axes */}
-              <line x1="20" y1="140" x2="190" y2="140" stroke="#333" strokeWidth="1.5" />
+              <line x1="20" y1="130" x2="190" y2="130" stroke="#333" strokeWidth="1.5" />
               <line x1="40" y1="20" x2="40" y2="185" stroke="#333" strokeWidth="1.5" />
               {/* Arrow heads */}
-              <polygon points="190,140 185,137 185,143" fill="#333" />
+              <polygon points="190,130 185,127 185,133" fill="#333" />
               <polygon points="40,20 37,25 43,25" fill="#333" />
               {/* Grid marks */}
-              <line x1="60" y1="137" x2="60" y2="143" stroke="#666" strokeWidth="1" />
-              <line x1="140" y1="137" x2="140" y2="143" stroke="#666" strokeWidth="1" />
+              <line x1="60" y1="127" x2="60" y2="133" stroke="#666" strokeWidth="1" />
+              <line x1="140" y1="127" x2="140" y2="133" stroke="#666" strokeWidth="1" />
               {/* Parabola opening down: y = -(x-1)(x-5), x-intercepts at 1 and 5, vertex at (3,4) */}
               <path
-                d="M 20,20 L 60,140 L 100,60 L 140,140 L 180,20"
+                d="M 40,190 L 60,130 L 100,82 L 140,130 L 160,190"
                 fill="none"
                 stroke="#ea580c"
                 strokeWidth="2.5"
               />
               {/* X-intercepts */}
-              <circle cx="60" cy="140" r="4" fill="#ef4444" />
-              <circle cx="140" cy="140" r="4" fill="#ef4444" />
+              <circle cx="60" cy="130" r="4" fill="#ef4444" />
+              <circle cx="140" cy="130" r="4" fill="#ef4444" />
               {/* Labels */}
-              <text x="60" y="155" fontSize="10" fill="#ef4444" fontWeight="bold">1</text>
-              <text x="140" y="155" fontSize="10" fill="#ef4444" fontWeight="bold">5</text>
+              <text x="60" y="145" fontSize="10" fill="#ef4444" fontWeight="bold">1</text>
+              <text x="140" y="145" fontSize="10" fill="#ef4444" fontWeight="bold">5</text>
             </svg>
             <p className="text-xs text-orange-700 text-center mt-2">开口向下，x 轴交点 1 和 5</p>
             <p className="text-xs text-red-600 text-center mt-1">❌ 不是开口向上</p>
