@@ -17139,8 +17139,8 @@ Riverside Secondary School has questions about comparing two sets of data using 
 
 Question (a)
 At Riverside Secondary, Mr Lim has test scores for two classes:
-Class A: 4, 6, 8 (3 students, mean = 6, SD = 2)
-Class B: 7, 9, 11 (3 students, mean = 9, SD = 2)
+Class A: 4, 4, 8, 8 (4 students, mean = 6, SD = 2)
+Class B: 7, 7, 11, 11 (4 students, mean = 9, SD = 2)
 
 (i) Which class scored higher on average? Explain your answer using the mean.
 (Hint: Compare the means. The class with the larger mean scored higher on average.)
@@ -17155,16 +17155,16 @@ Class B: 7, 9, 11 (3 students, mean = 9, SD = 2)
 Question (b)
 At Riverside Secondary, Wei has quiz scores for two groups:
 Group A: 10, 12, 14, 16 (4 students, mean = 13, SD = √5)
-Group B: 10, 10, 16, 16 (4 students, mean = 13, SD = √12)
+Group B: 10, 10, 16, 16 (4 students, mean = 13, SD = 3)
 
 (i) Which group scored higher on average? Explain your answer.
 (Hint: Both groups have the same mean (13), so they scored the same on average.)
 
 (ii) Which group is more consistent? Explain your answer using the SD.
-(Hint: Compare the SDs. Group A has SD = √5 ≈ 2.24, Group B has SD = √12 = 2√3 ≈ 3.46. Group A has a smaller SD, so Group A is more consistent.)
+(Hint: Compare the SDs. Group A has SD = √5 ≈ 2.24, Group B has SD = 3. Group A has a smaller SD, so Group A is more consistent.)
 
 (iii) Aisha says: 「Both groups have the same mean, so they are identical.」 Is Aisha correct? Explain why or why not.
-(Hint: Both groups have the same mean, but they have different SDs. Group B has a larger SD, so Group B is more spread around its mean. They have the same average, but different spread.)
+(Hint: Both groups have the same mean, but they have different SDs. Group B has a larger SD (3 > √5), so Group B is more spread around its mean. They have the same average, but different spread.)
 
 
 Question (c)
