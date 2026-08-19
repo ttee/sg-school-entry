@@ -2066,5 +2066,91 @@ export default function SmathFigure({ weekNumber }: { weekNumber: number }) {
     );
   }
 
+  if (weekNumber === 96) {
+    return (
+      <div className="bg-paper border border-line rounded-xl p-6 mb-6">
+        <h3 className="font-semibold text-ink mb-4 text-center">📊 本周图解</h3>
+        <div className="max-w-4xl mx-auto">
+          <div className="flex flex-col items-center">
+            <svg viewBox="0 0 600 340" className="w-full max-w-[600px] h-auto">
+              {/* Title */}
+              <text x="300" y="20" fontSize="13" fill="#1a1a1a" fontWeight="700" textAnchor="middle">Measures of Spread: Range and IQR</text>
+              <text x="300" y="36" fontSize="11" fill="#6b7280" fontWeight="600" textAnchor="middle">Data set (7 values): 10, 15, 18, 20, 22, 25, 30 (离散程度：极差和四分位距)</text>
+              
+              {/* Number line */}
+              <line x1="80" y1="80" x2="520" y2="80" stroke="#1a1a1a" strokeWidth="2" />
+              
+              {/* Tick marks for data points */}
+              <line x1="80" y1="75" x2="80" y2="85" stroke="#1a1a1a" strokeWidth="2" />
+              <circle cx="80" cy="80" r="5" fill="#ef4444" stroke="#b91c1c" strokeWidth="2" />
+              <text x="80" y="102" fontSize="11" fill="#ef4444" fontWeight="700" textAnchor="middle">10</text>
+              <text x="80" y="115" fontSize="8" fill="#6b7280" fontWeight="600" textAnchor="middle">(min)</text>
+              
+              <line x1="153" y1="75" x2="153" y2="85" stroke="#3b82f6" strokeWidth="2" />
+              <circle cx="153" cy="80" r="5" fill="#3b82f6" stroke="#2563eb" strokeWidth="2" />
+              <text x="153" y="102" fontSize="11" fill="#3b82f6" fontWeight="700" textAnchor="middle">15</text>
+              <text x="153" y="115" fontSize="8" fill="#6b7280" fontWeight="600" textAnchor="middle">(Q1)</text>
+              
+              <line x1="197" y1="75" x2="197" y2="85" stroke="#1a1a1a" strokeWidth="1.5" />
+              <circle cx="197" cy="80" r="4" fill="#f9fafb" stroke="#1a1a1a" strokeWidth="1.5" />
+              <text x="197" y="102" fontSize="11" fill="#1a1a1a" fontWeight="700" textAnchor="middle">18</text>
+              
+              <line x1="241" y1="75" x2="241" y2="85" stroke="#d97706" strokeWidth="2" />
+              <circle cx="241" cy="80" r="5" fill="#d97706" stroke="#b45309" strokeWidth="2" />
+              <text x="241" y="102" fontSize="11" fill="#d97706" fontWeight="700" textAnchor="middle">20</text>
+              <text x="241" y="115" fontSize="8" fill="#6b7280" fontWeight="600" textAnchor="middle">(Q2)</text>
+              
+              <line x="285" y1="75" x2="285" y2="85" stroke="#1a1a1a" strokeWidth="1.5" />
+              <circle cx="285" cy="80" r="4" fill="#f9fafb" stroke="#1a1a1a" strokeWidth="1.5" />
+              <text x="285" y="102" fontSize="11" fill="#1a1a1a" fontWeight="700" textAnchor="middle">22</text>
+              
+              <line x1="373" y1="75" x2="373" y2="85" stroke="#10b981" strokeWidth="2" />
+              <circle cx="373" cy="80" r="5" fill="#10b981" stroke="#059669" strokeWidth="2" />
+              <text x="373" y="102" fontSize="11" fill="#10b981" fontWeight="700" textAnchor="middle">25</text>
+              <text x="373" y="115" fontSize="8" fill="#6b7280" fontWeight="600" textAnchor="middle">(Q3)</text>
+              
+              <line x1="520" y1="75" x2="520" y2="85" stroke="#1a1a1a" strokeWidth="2" />
+              <circle cx="520" cy="80" r="5" fill="#ef4444" stroke="#b91c1c" strokeWidth="2" />
+              <text x="520" y="102" fontSize="11" fill="#ef4444" fontWeight="700" textAnchor="middle">30</text>
+              <text x="520" y="115" fontSize="8" fill="#6b7280" fontWeight="600" textAnchor="middle">(max)</text>
+              
+              {/* Range bracket */}
+              <line x1="80" y1="140" x2="520" y2="140" stroke="#ef4444" strokeWidth="2" />
+              <line x1="80" y1="135" x2="80" y2="145" stroke="#ef4444" strokeWidth="2" />
+              <line x1="520" y1="135" x2="520" y2="145" stroke="#ef4444" strokeWidth="2" />
+              <text x="300" y="158" fontSize="11" fill="#ef4444" fontWeight="700" textAnchor="middle">Range = max − min = 30 − 10 = 20</text>
+              <text x="300" y="173" fontSize="9" fill="#6b7280" fontWeight="600" textAnchor="middle">(极差：受极端值影响)</text>
+              
+              {/* IQR bracket */}
+              <line x1="153" y1="195" x2="373" y2="195" stroke="#8b5cf6" strokeWidth="2.5" />
+              <line x1="153" y1="190" x2="153" y2="200" stroke="#8b5cf6" strokeWidth="2.5" />
+              <line x1="373" y1="190" x2="373" y2="200" stroke="#8b5cf6" strokeWidth="2.5" />
+              <text x="263" y="213" fontSize="11" fill="#8b5cf6" fontWeight="700" textAnchor="middle">IQR = Q3 − Q1 = 25 − 15 = 10</text>
+              <text x="263" y="228" fontSize="9" fill="#6b7280" fontWeight="600" textAnchor="middle">(四分位距：不受极端值影响)</text>
+              
+              {/* Step-by-step guide */}
+              <rect x="40" y="250" width="520" height="75" fill="#f9fafb" stroke="#8b5cf6" strokeWidth="1.5" rx="8" />
+              
+              <text x="300" y="268" fontSize="11" fill="#8b5cf6" fontWeight="700" textAnchor="middle">Measures of Spread (离散程度步骤)</text>
+              
+              <text x="50" y="286" fontSize="10" fill="#ef4444" fontWeight="700">Range = largest − smallest = 30 − 10 = 20</text>
+              <text x="390" y="286" fontSize="9" fill="#6b7280" fontWeight="600">(极差 = 最大 − 最小)</text>
+              
+              <text x="50" y="303" fontSize="10" fill="#8b5cf6" fontWeight="700">IQR = Q3 − Q1 = 25 − 15 = 10</text>
+              <text x="280" y="303" fontSize="9" fill="#6b7280" fontWeight="600">(四分位距 = Q3 − Q1, 用 W95 方法找 Q1, Q3)</text>
+              
+              <text x="300" y="319" fontSize="9" fill="#ef4444" fontWeight="700" textAnchor="middle">Fossil: Range ≠ 10 − 30 (backwards); IQR ≠ 15 − 25 (Q1−Q3) or 25 + 15 (Q3+Q1); IQR ≠ 30 (one extreme)</text>
+            </svg>
+            <p className="text-sm text-ink-2 text-center mt-4">
+              <span className="font-semibold">离散程度图解：数轴展示 Range 和 IQR</span><br />
+              <span className="text-accent">Range = 20 (极差，受极端值影响), IQR = 10 (四分位距，不受极端值影响)</span><br />
+              <span className="text-xs text-muted">更大的 range / IQR / 标准差表示更分散。本周不画箱线图（S1.13）。</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
   return null;
 }
