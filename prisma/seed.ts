@@ -3374,7 +3374,7 @@ AI will check if you correctly use some/any, much/many, and distinguish countabl
       dueDate: new Date("2026-09-17"),
       errorFocus: "comparatives-superlatives",
       parentBrief: "本周纠错焦点：比较级和最高级（bigger than / the biggest；more + 多音节形容词）。中文用「比」和「最」，孩子会说 more bigger、more cheap、he is tall than me。英语单音节形容词加 -er / -est：taller, tallest；多音节加 more / most：more difficult, most difficult。比较级后接 than：She is taller than me。本周作业会反复纠正这些高频错误。",
-      videoUrl: null,
+      videoUrl: "/video/a2-w5.mp4",
       kaizenFocus: "Use comparatives correctly (taller, more interesting, better than); superlatives (the tallest, the most interesting, the best)",
       officialClipId: null,
       officialClipCredit: null,
