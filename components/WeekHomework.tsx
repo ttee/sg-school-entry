@@ -164,6 +164,7 @@ import DualValidationMapSmathWeek91 from "./DualValidationMapSmathWeek91";
 import DualValidationMapSmathWeek92 from "./DualValidationMapSmathWeek92";
 import DualValidationMapSmathWeek93 from "./DualValidationMapSmathWeek93";
 import DualValidationMapSmathWeek94 from "./DualValidationMapSmathWeek94";
+import DualValidationMapSmathWeek95 from "./DualValidationMapSmathWeek95";
 import OfficialClip from "./OfficialClip";
 import WeikeMiniLesson from "./WeikeMiniLesson";
 import BoardWeike from "./BoardWeike";
@@ -965,9 +966,10 @@ export default function WeekHomework({
       {week.level === "SMATH" && week.weekNumber === 92 && <DualValidationMapSmathWeek92 />}
       {week.level === "SMATH" && week.weekNumber === 93 && <DualValidationMapSmathWeek93 />}
       {week.level === "SMATH" && week.weekNumber === 94 && <DualValidationMapSmathWeek94 />}
+      {week.level === "SMATH" && week.weekNumber === 95 && <DualValidationMapSmathWeek95 />}
       
       {/* SMATH Diagrams */}
-      {week.level === "SMATH" && (week.weekNumber === 44 || week.weekNumber === 70 || week.weekNumber === 71 || week.weekNumber === 72 || week.weekNumber === 75 || week.weekNumber === 76 || week.weekNumber === 77 || week.weekNumber === 78 || week.weekNumber === 79 || week.weekNumber === 80 || week.weekNumber === 81 || week.weekNumber === 82 || week.weekNumber === 83 || week.weekNumber === 84 || week.weekNumber === 85 || week.weekNumber === 86 || week.weekNumber === 87 || week.weekNumber === 92 || week.weekNumber === 93 || week.weekNumber === 94) && (
+      {week.level === "SMATH" && (week.weekNumber === 44 || week.weekNumber === 70 || week.weekNumber === 71 || week.weekNumber === 72 || week.weekNumber === 75 || week.weekNumber === 76 || week.weekNumber === 77 || week.weekNumber === 78 || week.weekNumber === 79 || week.weekNumber === 80 || week.weekNumber === 81 || week.weekNumber === 82 || week.weekNumber === 83 || week.weekNumber === 84 || week.weekNumber === 85 || week.weekNumber === 86 || week.weekNumber === 87 || week.weekNumber === 92 || week.weekNumber === 93 || week.weekNumber === 94 || week.weekNumber === 95) && (
         <SmathFigure weekNumber={week.weekNumber} />
       )}
       
