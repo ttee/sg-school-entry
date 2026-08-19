@@ -3175,7 +3175,7 @@ Useful phrases (use past simple!):
       dueDate: new Date("2026-09-10"),
       errorFocus: "quantifiers-countable-uncountable",
       parentBrief: "本周纠错焦点：可数/不可数名词 + 量词（some/any、much/many、a lot of）。中文量词系统不同，孩子会说 two breads、how many rice?、I need some waters。英语可数名词有复数：apples, bottles；不可数名词无复数：water, bread, rice。问可数用 How many + 复数，问不可数用 How much + 单数。some/any 都可以，但疑问句和否定句常用 any。本周作业会反复纠正这些高频错误。",
-      videoUrl: null,
+      videoUrl: "/video/a2-w4.mp4",
       kaizenFocus: "Use some/any correctly; count vs non-count nouns; How many/How much",
       officialClipId: "KbrSWbuWtmc",
       officialClipCredit: "片源 Super Simple Songs 官方频道。The Ice Cream Song。本站不拥有该片，仅嵌入官方 YouTube。孩子先听 how many scoops，再练 some / any / much / many。",

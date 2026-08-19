@@ -333,6 +333,9 @@ export default function WeekHomework({
   const [writingFeedback, setWritingFeedback] = useState<Record<string, any>>({});
   const [gettingFeedback, setGettingFeedback] = useState<Record<string, boolean>>({});
   const [previousWritingFocus, setPreviousWritingFocus] = useState<Record<string, string>>({});
+  
+  // Video fallback state
+  const [videoError, setVideoError] = useState(false);
 
   const isCompleted = !!initialSubmission?.completedAt;
 
@@ -682,38 +685,57 @@ export default function WeekHomework({
       <div className="mb-8">
         <div className="bg-card border border-line rounded-xl p-5">
           <h3 className="font-semibold text-ink mb-3">🎬 播放本周微课 / Watch this week's micro-lesson</h3>
-          {week.videoUrl ? (
-            <>
-              <video
-                autoPlay
-                muted
-                loop
-                controls
-                playsInline
-                preload="auto"
-                className="w-full rounded-lg bg-paper-2"
-                style={{ maxHeight: '480px' }}
-              >
-                <source src={week.videoUrl} type="video/mp4" />
-                Your browser does not support the video element.
-              </video>
-              <p className="mt-2 text-sm text-ink-2">
-                先看动画（无声自动播放）。要点右下角开声音。
+          {(() => {
+            // Calculate video source: use explicit videoUrl if set, otherwise try fallback
+            const fallbackVideoUrl = `/video/${week.level.toLowerCase()}-w${week.weekNumber}.mp4`;
+            const videoSrc = week.videoUrl || fallbackVideoUrl;
+            const hasExplicitVideo = !!week.videoUrl;
+            
+            // If explicit video is set OR (no explicit video AND no error yet), show video player
+            if (hasExplicitVideo || (!hasExplicitVideo && !videoError)) {
+              return (
+                <>
+                  <video
+                    autoPlay
+                    muted
+                    loop
+                    controls
+                    playsInline
+                    preload="auto"
+                    className="w-full rounded-lg bg-paper-2"
+                    style={{ maxHeight: '480px' }}
+                    onError={() => {
+                      // Only set error if trying fallback (not explicit videoUrl)
+                      if (!hasExplicitVideo) {
+                        setVideoError(true);
+                      }
+                    }}
+                  >
+                    <source src={videoSrc} type="video/mp4" />
+                    Your browser does not support the video element.
+                  </video>
+                  <p className="mt-2 text-sm text-ink-2">
+                    先看动画（无声自动播放）。要点右下角开声音。
+                  </p>
+                  <div className="mt-3 text-sm text-ink-2 space-y-1">
+                    <p className="font-semibold">💡 如何看微课 / How to use:</p>
+                    <ol className="list-decimal list-inside space-y-1 ml-2">
+                      <li>先看微课，了解本周重点错误 / Watch the video first</li>
+                      <li>再做下方题目（阅读、语法、写作、听力、口语）/ Then complete the homework below</li>
+                      <li>口语和写作 AI 会盯住同一个焦点 / Speaking & writing AI will focus on the same error</li>
+                    </ol>
+                  </div>
+                </>
+              );
+            }
+            
+            // Show empty state if fallback failed
+            return (
+              <p className="text-sm text-ink-2">
+                本周动画还没有。先做下面的作业。
               </p>
-              <div className="mt-3 text-sm text-ink-2 space-y-1">
-                <p className="font-semibold">💡 如何看微课 / How to use:</p>
-                <ol className="list-decimal list-inside space-y-1 ml-2">
-                  <li>先看微课，了解本周重点错误 / Watch the video first</li>
-                  <li>再做下方题目（阅读、语法、写作、听力、口语）/ Then complete the homework below</li>
-                  <li>口语和写作 AI 会盯住同一个焦点 / Speaking & writing AI will focus on the same error</li>
-                </ol>
-              </div>
-            </>
-          ) : (
-            <p className="text-sm text-ink-2">
-              本周动画还没有。先做下面的作业。
-            </p>
-          )}
+            );
+          })()}
         </div>
       </div>
 
