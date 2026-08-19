@@ -5974,6 +5974,7 @@ You MUST use "can" at least once and "must" at least once.
         {
           type: "listening",
           order: 4,
+          audioUrl: "/audio/a2-w8-listening.mp3",
           content: `听读练习 / Listening Preparation (read carefully)
 
 Ms Tan: Good morning, class. Today I want to remind you about some important school rules. Listen carefully.

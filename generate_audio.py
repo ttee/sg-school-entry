@@ -177,6 +177,12 @@ AUDIO_CONFIGS = [
         ]
     },
     {
+        "filename": "a2-w8-listening.mp3",
+        "dialogue": [
+            ("Ms Tan", TEACHER_VOICE, "Good morning, class. Today I want to remind you about some important school rules. Listen carefully. In the library, you can borrow up to three books. You must be quiet when you are reading. You cannot eat or drink in the library. In the canteen, you can buy food during recess and lunch. You must queue up at the stall. You must clear your plates when you finish eating. During PE lessons, you can play sports on the field. You must wear your PE uniform and sports shoes. You cannot run near the swimming pool. If you follow these rules, everyone can have a safe and happy time at school!"),
+        ]
+    },
+    {
         "filename": "b1-w4-listening.mp3",
         "dialogue": [
             ("Mei", FEMALE_VOICE, "Hi Priya! Did you hear what Ms Chen said in assembly this morning?"),
