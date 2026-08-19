@@ -191,6 +191,16 @@ AUDIO_CONFIGS = [
             ("Mei", FEMALE_VOICE, "Great idea. I'll message the boys now."),
         ]
     },
+    {
+        "filename": "b1-w6-listening.mp3",
+        "dialogue": [
+            ("Mr Tan", TEACHER_VOICE, "Good morning, everyone. Today I want to share a story about how our school used to be when I was a student here twenty years ago."),
+            ("Mr Tan", TEACHER_VOICE, "When I was in Primary One, we didn't use to have a canteen like the one we have now. We used to eat our packed lunches in the classroom. My mother used to prepare sandwiches for me every morning."),
+            ("Mr Tan", TEACHER_VOICE, "We also used to play very different games at recess. We didn't use to have tablets or computers. We used to play traditional games like hopscotch and five stones in the corridor. I used to be quite good at five stones!"),
+            ("Mr Tan", TEACHER_VOICE, "The school building used to look different too. We didn't use to have an indoor sports hall. We used to do PE outside in the field, even when it was very hot. Now you have air-conditioning in the hall – you're very lucky!"),
+            ("Mr Tan", TEACHER_VOICE, "Things have changed a lot, but one thing hasn't changed: students still work hard and help each other. That's what makes this school special."),
+        ]
+    },
 ]
 
 async def generate_audio_with_pauses(dialogue, output_path):
