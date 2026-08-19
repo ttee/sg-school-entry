@@ -17263,10 +17263,12 @@ Riverside Secondary School has questions about reading dot diagrams, histograms,
 Question (a)
 At Riverside Secondary, Mr Lim has a dot diagram showing the number of hours 8 students spent on homework last week:
 
+```
     •
-    •
+    •   •   •
 •   •   •   •
 2   3   4   5
+```
 
 Each dot represents one student. The dots are stacked when multiple students have the same value.
 
