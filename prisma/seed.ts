@@ -17969,6 +17969,130 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
         },
       ],
     },
+    {
+      level: "SMATH",
+      weekNumber: 108,
+      title: "二次函数草图 — Sketching quadratic graphs",
+      description: "N6.8 sketching the graphs of quadratic functions (AEIS 中学数学第 108 周 / SMATH Week 108)",
+      isSample: false,
+      errorFocus: "treating (x − 3)² + 1 as vertex (−3, 1); thinking −(x − 2)² + 4 opens up; mixing intercepts with the vertex",
+      parentBrief: "本周按四种写法画二次函数草图。y = (x − p)² + q 开口向上，顶点 (p, q)；y = −(x − p)² + q 开口向下，顶点 (p, q)；y = (x − a)(x − b) 开口向上，x 轴交点 a 和 b；y = −(x − a)(x − b) 开口向下，x 轴交点 a 和 b。不要把 (x − 3)² 的顶点写成 (−3, …)。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "At Riverside Secondary, Mr Lim sketches y = (x − 2)² + 1. Aisha says: 「The vertex is at (−2, 1) and the parabola opens upwards.」 Is Aisha correct?|A. Aisha is wrong. The vertex is at (2, 1), not (−2, 1). (For y = (x − p)² + q, the vertex is at (p, q). So for y = (x − 2)² + 1, the vertex is at (2, 1), not (−2, 1). The parabola opens upwards is correct.)|B. Aisha is correct. The vertex is at (−2, 1) and the parabola opens upwards. Fossil: For y = (x − p)² + q, the vertex is at (p, q), not (−p, q). The correct vertex is (2, 1), not (−2, 1).|C. Aisha is wrong. The vertex is at (2, 1) but the parabola opens downwards. Fossil: y = (x − 2)² + 1 opens upwards, not downwards. Only y = −(x − 2)² + 1 opens downwards.|D. Aisha is wrong. The x-intercepts are at 2 and 1. Fossil: y = (x − 2)² + 1 is in vertex form, not intercept form. The vertex is at (2, 1), not x-intercepts.",
+            "At Riverside Secondary, Wei sketches y = −(x − 2)² + 4. He says: 「The vertex is at (2, 4) and the parabola opens upwards.」 Is Wei correct?|A. Wei is wrong. The parabola opens downwards, not upwards. (For y = −(x − p)² + q, the vertex is at (p, q) and the parabola opens downwards because of the negative sign. So for y = −(x − 2)² + 4, the vertex is at (2, 4) and the parabola opens downwards.)|B. Wei is correct. The vertex is at (2, 4) and the parabola opens upwards. Fossil: y = −(x − 2)² + 4 opens downwards, not upwards. The negative sign means the parabola opens downwards.|C. Wei is wrong. The vertex is at (−2, 4) and the parabola opens downwards. Fossil: For y = −(x − p)² + q, the vertex is at (p, q), not (−p, q). The correct vertex is (2, 4), not (−2, 4).|D. Wei is wrong. The x-intercepts are at 2 and 4. Fossil: y = −(x − 2)² + 4 is in vertex form, not intercept form. The vertex is at (2, 4), not x-intercepts.",
+            "At Riverside Secondary, Aisha sketches y = (x − 1)(x − 5). She says: 「The x-intercepts are at 1 and 5, and the parabola opens upwards.」 Is Aisha correct?|A. Aisha is correct. The x-intercepts are at 1 and 5, and the parabola opens upwards. (For y = (x − a)(x − b), the x-intercepts are at a and b, and the parabola opens upwards. So for y = (x − 1)(x − 5), the x-intercepts are at 1 and 5.)|B. Aisha is wrong. The x-intercepts are at −1 and −5. Fossil: For y = (x − a)(x − b), the x-intercepts are at a and b, not −a and −b. The correct x-intercepts are 1 and 5, not −1 and −5.|C. Aisha is wrong. The vertex is at (1, 5). Fossil: y = (x − 1)(x − 5) is in intercept form, not vertex form. The x-intercepts are at 1 and 5, not the vertex.|D. Aisha is wrong. The parabola opens downwards. Fossil: y = (x − 1)(x − 5) opens upwards, not downwards. Only y = −(x − 1)(x − 5) opens downwards.",
+            "At Riverside Secondary, Mr Lim sketches y = −(x − 1)(x − 5). Wei says: 「The x-intercepts are at 1 and 5, and the parabola opens downwards.」 Is Wei correct?|A. Wei is correct. The x-intercepts are at 1 and 5, and the parabola opens downwards. (For y = −(x − a)(x − b), the x-intercepts are at a and b, and the parabola opens downwards because of the negative sign. So for y = −(x − 1)(x − 5), the x-intercepts are at 1 and 5.)|B. Wei is wrong. The x-intercepts are at −1 and −5. Fossil: For y = −(x − a)(x − b), the x-intercepts are at a and b, not −a and −b. The correct x-intercepts are 1 and 5, not −1 and −5.|C. Wei is wrong. The parabola opens upwards. Fossil: y = −(x − 1)(x − 5) opens downwards, not upwards. The negative sign means the parabola opens downwards.|D. Wei is wrong. The vertex is at (1, 5). Fossil: y = −(x − 1)(x − 5) is in intercept form, not vertex form. The x-intercepts are at 1 and 5, not the vertex.",
+            "At Riverside Secondary, Aisha sketches y = (x − 3)² + 2. Which of the following is correct?|A. The vertex is at (3, 2) and the parabola opens upwards. (For y = (x − p)² + q, the vertex is at (p, q) and the parabola opens upwards. So for y = (x − 3)² + 2, the vertex is at (3, 2).)|B. The vertex is at (−3, 2) and the parabola opens upwards. Fossil: For y = (x − p)² + q, the vertex is at (p, q), not (−p, q). The correct vertex is (3, 2), not (−3, 2).|C. The vertex is at (3, 2) and the parabola opens downwards. Fossil: y = (x − 3)² + 2 opens upwards, not downwards. Only y = −(x − 3)² + 2 opens downwards.|D. The x-intercepts are at 3 and 2. Fossil: y = (x − 3)² + 2 is in vertex form, not intercept form. The vertex is at (3, 2), not x-intercepts.",
+          ]),
+          correctAnswer: "A,A,A,A,A",
+          points: 10,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "At Riverside Secondary, Wei sketches y = (x − 4)² + 3. Which of the following is correct?|A. The vertex is at (4, 3) and the parabola opens upwards. (For y = (x − p)² + q, the vertex is at (p, q) and the parabola opens upwards. So for y = (x − 4)² + 3, the vertex is at (4, 3).)|B. The vertex is at (−4, 3) and the parabola opens upwards. Fossil: For y = (x − p)² + q, the vertex is at (p, q), not (−p, q). The correct vertex is (4, 3), not (−4, 3).|C. The vertex is at (4, 3) and the parabola opens downwards. Fossil: y = (x − 4)² + 3 opens upwards, not downwards. Only y = −(x − 4)² + 3 opens downwards.|D. The x-intercepts are at 4 and 3. Fossil: y = (x − 4)² + 3 is in vertex form, not intercept form. The vertex is at (4, 3), not x-intercepts.",
+            "At Riverside Secondary, Aisha sketches y = −(x − 1)² + 5. Which of the following is correct?|A. The vertex is at (1, 5) and the parabola opens downwards. (For y = −(x − p)² + q, the vertex is at (p, q) and the parabola opens downwards because of the negative sign. So for y = −(x − 1)² + 5, the vertex is at (1, 5).)|B. The vertex is at (−1, 5) and the parabola opens downwards. Fossil: For y = −(x − p)² + q, the vertex is at (p, q), not (−p, q). The correct vertex is (1, 5), not (−1, 5).|C. The vertex is at (1, 5) and the parabola opens upwards. Fossil: y = −(x − 1)² + 5 opens downwards, not upwards. The negative sign means the parabola opens downwards.|D. The x-intercepts are at 1 and 5. Fossil: y = −(x − 1)² + 5 is in vertex form, not intercept form. The vertex is at (1, 5), not x-intercepts.",
+            "At Riverside Secondary, Mr Lim sketches y = (x − 2)(x − 6). Wei says: 「The x-intercepts are at 2 and 6, and the parabola opens upwards.」 Is Wei correct?|A. Wei is correct. The x-intercepts are at 2 and 6, and the parabola opens upwards. (For y = (x − a)(x − b), the x-intercepts are at a and b, and the parabola opens upwards. So for y = (x − 2)(x − 6), the x-intercepts are at 2 and 6.)|B. Wei is wrong. The x-intercepts are at −2 and −6. Fossil: For y = (x − a)(x − b), the x-intercepts are at a and b, not −a and −b. The correct x-intercepts are 2 and 6, not −2 and −6.|C. Wei is wrong. The vertex is at (2, 6). Fossil: y = (x − 2)(x − 6) is in intercept form, not vertex form. The x-intercepts are at 2 and 6, not the vertex.|D. Wei is wrong. The parabola opens downwards. Fossil: y = (x − 2)(x − 6) opens upwards, not downwards. Only y = −(x − 2)(x − 6) opens downwards.",
+            "At Riverside Secondary, Aisha sketches y = −(x − 3)(x − 7). Which of the following is correct?|A. The x-intercepts are at 3 and 7, and the parabola opens downwards. (For y = −(x − a)(x − b), the x-intercepts are at a and b, and the parabola opens downwards because of the negative sign. So for y = −(x − 3)(x − 7), the x-intercepts are at 3 and 7.)|B. The x-intercepts are at −3 and −7, and the parabola opens downwards. Fossil: For y = −(x − a)(x − b), the x-intercepts are at a and b, not −a and −b. The correct x-intercepts are 3 and 7, not −3 and −7.|C. The x-intercepts are at 3 and 7, and the parabola opens upwards. Fossil: y = −(x − 3)(x − 7) opens downwards, not upwards. The negative sign means the parabola opens downwards.|D. The vertex is at (3, 7). Fossil: y = −(x − 3)(x − 7) is in intercept form, not vertex form. The x-intercepts are at 3 and 7, not the vertex.",
+            "At Riverside Secondary, Wei sketches y = (x − 5)² + 1. Which of the following is correct?|A. The vertex is at (5, 1) and the parabola opens upwards. (For y = (x − p)² + q, the vertex is at (p, q) and the parabola opens upwards. So for y = (x − 5)² + 1, the vertex is at (5, 1).)|B. The vertex is at (−5, 1) and the parabola opens upwards. Fossil: For y = (x − p)² + q, the vertex is at (p, q), not (−p, q). The correct vertex is (5, 1), not (−5, 1).|C. The vertex is at (5, 1) and the parabola opens downwards. Fossil: y = (x − 5)² + 1 opens upwards, not downwards. Only y = −(x − 5)² + 1 opens downwards.|D. The x-intercepts are at 5 and 1. Fossil: y = (x − 5)² + 1 is in vertex form, not intercept form. The vertex is at (5, 1), not x-intercepts.",
+            "At Riverside Secondary, Aisha sketches y = −(x − 2)² + 6. Which of the following is correct?|A. The vertex is at (2, 6) and the parabola opens downwards. (For y = −(x − p)² + q, the vertex is at (p, q) and the parabola opens downwards because of the negative sign. So for y = −(x − 2)² + 6, the vertex is at (2, 6).)|B. The vertex is at (−2, 6) and the parabola opens downwards. Fossil: For y = −(x − p)² + q, the vertex is at (p, q), not (−p, q). The correct vertex is (2, 6), not (−2, 6).|C. The vertex is at (2, 6) and the parabola opens upwards. Fossil: y = −(x − 2)² + 6 opens downwards, not upwards. The negative sign means the parabola opens downwards.|D. The x-intercepts are at 2 and 6. Fossil: y = −(x − 2)² + 6 is in vertex form, not intercept form. The vertex is at (2, 6), not x-intercepts.",
+            "At Riverside Secondary, Mr Lim sketches y = (x − 1)(x − 7). Wei says: 「The x-intercepts are at 1 and 7, and the parabola opens upwards.」 Is Wei correct?|A. Wei is correct. The x-intercepts are at 1 and 7, and the parabola opens upwards. (For y = (x − a)(x − b), the x-intercepts are at a and b, and the parabola opens upwards. So for y = (x − 1)(x − 7), the x-intercepts are at 1 and 7.)|B. Wei is wrong. The x-intercepts are at −1 and −7. Fossil: For y = (x − a)(x − b), the x-intercepts are at a and b, not −a and −b. The correct x-intercepts are 1 and 7, not −1 and −7.|C. Wei is wrong. The vertex is at (1, 7). Fossil: y = (x − 1)(x − 7) is in intercept form, not vertex form. The x-intercepts are at 1 and 7, not the vertex.|D. Wei is wrong. The parabola opens downwards. Fossil: y = (x − 1)(x − 7) opens upwards, not downwards. Only y = −(x − 1)(x − 7) opens downwards.",
+            "At Riverside Secondary, Aisha sketches y = −(x − 2)(x − 8). Which of the following is correct?|A. The x-intercepts are at 2 and 8, and the parabola opens downwards. (For y = −(x − a)(x − b), the x-intercepts are at a and b, and the parabola opens downwards because of the negative sign. So for y = −(x − 2)(x − 8), the x-intercepts are at 2 and 8.)|B. The x-intercepts are at −2 and −8, and the parabola opens downwards. Fossil: For y = −(x − a)(x − b), the x-intercepts are at a and b, not −a and −b. The correct x-intercepts are 2 and 8, not −2 and −8.|C. The x-intercepts are at 2 and 8, and the parabola opens upwards. Fossil: y = −(x − 2)(x − 8) opens downwards, not upwards. The negative sign means the parabola opens downwards.|D. The vertex is at (2, 8). Fossil: y = −(x − 2)(x − 8) is in intercept form, not vertex form. The x-intercepts are at 2 and 8, not the vertex.",
+          ]),
+          correctAnswer: "A,A,A,A,A,A,A,A",
+          points: 16,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `Part 2: Show Your Working (写出算式步骤)
+
+Riverside Secondary School has questions about sketching quadratic graphs. Answer the questions below. Show your working clearly.
+
+Question (a)
+For each quadratic function, state:
+(i) whether the parabola opens upwards or downwards
+(ii) the vertex (if in vertex form) or the x-intercepts (if in intercept form)
+
+(a) y = (x − 2)² + 1
+(Hint: This is in vertex form y = (x − p)² + q. The vertex is at (p, q) = (2, 1). The parabola opens upwards because there is no negative sign.)
+
+(b) y = −(x − 2)² + 1
+(Hint: This is in vertex form y = −(x − p)² + q. The vertex is at (p, q) = (2, 1). The parabola opens downwards because of the negative sign.)
+
+(c) y = (x − 1)(x − 5)
+(Hint: This is in intercept form y = (x − a)(x − b). The x-intercepts are at a = 1 and b = 5. The parabola opens upwards because there is no negative sign.)
+
+(d) y = −(x − 1)(x − 5)
+(Hint: This is in intercept form y = −(x − a)(x − b). The x-intercepts are at a = 1 and b = 5. The parabola opens downwards because of the negative sign.)
+
+
+Question (b)
+At Riverside Secondary, Aisha sketches y = (x − 3)² + 2. She says: 「The vertex is at (−3, 2) and the parabola opens upwards.」
+
+(i) For y = (x − p)² + q, what is the vertex?
+(Hint: The vertex is at (p, q). For y = (x − 3)² + 2, the vertex is at (3, 2), not (−3, 2).)
+
+(ii) Is Aisha correct? If not, what is the correct vertex? Show your working.
+(Hint: Aisha is wrong. For y = (x − p)² + q, the vertex is at (p, q), not (−p, q). So for y = (x − 3)² + 2, the vertex is at (3, 2), not (−3, 2). The parabola opens upwards is correct.)
+
+
+Question (c)
+At Riverside Secondary, Wei sketches y = −(x − 2)² + 4. He says: 「The vertex is at (2, 4) and the parabola opens upwards.」
+
+(i) For y = −(x − p)² + q, does the parabola open upwards or downwards?
+(Hint: The parabola opens downwards because of the negative sign.)
+
+(ii) Is Wei correct? If not, what is the correct direction? Show your working.
+(Hint: Wei is wrong about the direction. The vertex at (2, 4) is correct. For y = −(x − p)² + q, the negative sign means the parabola opens downwards, not upwards.)
+
+
+Question (d)
+Sketch the following quadratic functions. For each, state:
+(i) whether the parabola opens upwards or downwards
+(ii) the vertex or the x-intercepts
+
+(a) y = (x − 4)² + 3
+(Hint: Vertex form y = (x − p)² + q. Vertex at (4, 3). Opens upwards.)
+
+(b) y = −(x − 1)² + 5
+(Hint: Vertex form y = −(x − p)² + q. Vertex at (1, 5). Opens downwards.)
+
+(c) y = (x − 2)(x − 6)
+(Hint: Intercept form y = (x − a)(x − b). x-intercepts at 2 and 6. Opens upwards.)
+
+(d) y = −(x − 3)(x − 7)
+(Hint: Intercept form y = −(x − a)(x − b). x-intercepts at 3 and 7. Opens downwards.)
+
+
+写作提示 / Tips:
+✓ 每题分步骤写出推理 (Show working steps for each question)
+✓ Part 2 官方要求：clearly show the method of solution by writing working steps, plus the final answer
+✓ 不用计算器 (No calculators allowed)
+✓ 本周教 Secondary Three/Four, NUMBER AND ALGEBRA, N6. Functions and graphs: 本周是 N6.8 sketching the graphs of quadratic functions（画二次函数草图）。
+  • y = (x − p)² + q: vertex at (p, q), opens upwards
+  • y = −(x − p)² + q: vertex at (p, q), opens downwards
+  • y = (x − a)(x − b): x-intercepts at a and b, opens upwards
+  • y = −(x − a)(x − b): x-intercepts at a and b, opens downwards
+✓ Common mistakes (fossil errors):
+  • Treating (x − 3)² + 1 as vertex (−3, 1): 错误：顶点应该是 (3, 1)，不是 (−3, 1)。对于 y = (x − p)² + q，顶点是 (p, q)。
+  • Thinking −(x − 2)² + 4 opens up: 错误：负号表示开口向下。y = −(x − p)² + q 开口向下，不是向上。
+  • Mixing intercepts with the vertex: 错误：不要把 x 轴交点和顶点混淆。y = (x − 1)(x − 5) 的 x 轴交点是 1 和 5，不是顶点。
+
+Note: This is a sample of Part 2 short-answer/open-ended questions. The official paper has 20 short-answer + 10–15 open-ended items in 1 hour 45 minutes.`,
+          points: 20,
+        },
+      ],
+    },
   ];
 
 
