@@ -6338,7 +6338,7 @@ Useful phrases:
       dueDate: new Date("2026-10-29"),
       errorFocus: "prepositions-place-in-on-at",
       parentBrief: "本周纠错焦点：地点介词 in / on / at。中文「在」一个字，孩子会说 in the bus / on the classroom / at the table (for in) / in the wall。规则：in 用在封闭空间（in the classroom, in the library）；on 用在表面（on the desk, on the wall）；at 把地点看作一个点（at the bus stop, at the door, at school）。本周还练 under / next to / between / behind / in front of 这些方位词。本周不教时间介词 at 7 o'clock / on Monday / in the morning（第 6 周已教）。Cambridge A2 Key for Schools (Handbook 2020) Language Specifications 包含地点介词 in, on, at, under, next to, between, behind, in front of。",
-      videoUrl: null,
+      videoUrl: "/video/a2-w11.mp4",
       kaizenFocus: "Use in/on/at (and under/next to/between) for place, not time",
       officialClipId: null,
       questions: [
