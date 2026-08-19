@@ -161,6 +161,7 @@ import DualValidationMapSmathWeek88 from "./DualValidationMapSmathWeek88";
 import DualValidationMapSmathWeek89 from "./DualValidationMapSmathWeek89";
 import DualValidationMapSmathWeek90 from "./DualValidationMapSmathWeek90";
 import DualValidationMapSmathWeek91 from "./DualValidationMapSmathWeek91";
+import DualValidationMapSmathWeek92 from "./DualValidationMapSmathWeek92";
 import OfficialClip from "./OfficialClip";
 import WeikeMiniLesson from "./WeikeMiniLesson";
 import BoardWeike from "./BoardWeike";
@@ -959,9 +960,10 @@ export default function WeekHomework({
       {week.level === "SMATH" && week.weekNumber === 89 && <DualValidationMapSmathWeek89 />}
       {week.level === "SMATH" && week.weekNumber === 90 && <DualValidationMapSmathWeek90 />}
       {week.level === "SMATH" && week.weekNumber === 91 && <DualValidationMapSmathWeek91 />}
+      {week.level === "SMATH" && week.weekNumber === 92 && <DualValidationMapSmathWeek92 />}
       
       {/* SMATH Diagrams */}
-      {week.level === "SMATH" && (week.weekNumber === 44 || week.weekNumber === 70 || week.weekNumber === 71 || week.weekNumber === 72 || week.weekNumber === 75 || week.weekNumber === 76 || week.weekNumber === 77 || week.weekNumber === 78 || week.weekNumber === 79 || week.weekNumber === 80 || week.weekNumber === 81 || week.weekNumber === 82 || week.weekNumber === 83 || week.weekNumber === 84 || week.weekNumber === 85 || week.weekNumber === 86 || week.weekNumber === 87) && (
+      {week.level === "SMATH" && (week.weekNumber === 44 || week.weekNumber === 70 || week.weekNumber === 71 || week.weekNumber === 72 || week.weekNumber === 75 || week.weekNumber === 76 || week.weekNumber === 77 || week.weekNumber === 78 || week.weekNumber === 79 || week.weekNumber === 80 || week.weekNumber === 81 || week.weekNumber === 82 || week.weekNumber === 83 || week.weekNumber === 84 || week.weekNumber === 85 || week.weekNumber === 86 || week.weekNumber === 87 || week.weekNumber === 92) && (
         <SmathFigure weekNumber={week.weekNumber} />
       )}
       

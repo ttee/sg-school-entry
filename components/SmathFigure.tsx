@@ -1627,5 +1627,127 @@ export default function SmathFigure({ weekNumber }: { weekNumber: number }) {
     );
   }
 
+  if (weekNumber === 92) {
+    return (
+      <div className="bg-paper border border-line rounded-xl p-6 mb-6">
+        <h3 className="font-semibold text-ink mb-4 text-center">📊 本周图解</h3>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-3xl mx-auto">
+          {/* Diagram 1: Possibility diagram for two coins */}
+          <div className="flex flex-col items-center">
+            <svg viewBox="0 0 300 300" className="w-full max-w-[300px] h-auto">
+              {/* Title */}
+              <text x="150" y="20" fontSize="12" fill="#1a1a1a" fontWeight="600" textAnchor="middle">Possibility Diagram: Two Coins</text>
+              
+              {/* Axes */}
+              <line x1="50" y1="250" x2="270" y2="250" stroke="#1a1a1a" strokeWidth="2" />
+              <line x1="50" y1="250" x2="50" y2="50" stroke="#1a1a1a" strokeWidth="2" />
+              
+              {/* Axis labels */}
+              <text x="150" y="280" fontSize="12" fill="#1a1a1a" fontWeight="600" textAnchor="middle">First Coin</text>
+              <text x="20" y="150" fontSize="12" fill="#1a1a1a" fontWeight="600" textAnchor="middle" transform="rotate(-90 20 150)">Second Coin</text>
+              
+              {/* X-axis labels */}
+              <text x="120" y="268" fontSize="11" fill="#1a1a1a" textAnchor="middle">H</text>
+              <text x="200" y="268" fontSize="11" fill="#1a1a1a" textAnchor="middle">T</text>
+              
+              {/* Y-axis labels */}
+              <text x="35" y="110" fontSize="11" fill="#1a1a1a" textAnchor="end">H</text>
+              <text x="35" y="190" fontSize="11" fill="#1a1a1a" textAnchor="end">T</text>
+              
+              {/* Grid lines */}
+              <line x1="50" y1="100" x2="270" y2="100" stroke="#e5e7eb" strokeWidth="1" strokeDasharray="3,3" />
+              <line x1="50" y1="180" x2="270" y2="180" stroke="#e5e7eb" strokeWidth="1" strokeDasharray="3,3" />
+              <line x1="120" y1="250" x2="120" y2="50" stroke="#e5e7eb" strokeWidth="1" strokeDasharray="3,3" />
+              <line x1="200" y1="250" x2="200" y2="50" stroke="#e5e7eb" strokeWidth="1" strokeDasharray="3,3" />
+              
+              {/* Points */}
+              <circle cx="120" cy="100" r="5" fill="#d97706" stroke="#1a1a1a" strokeWidth="1.5" />
+              <text x="120" y="92" fontSize="10" fill="#d97706" fontWeight="600" textAnchor="middle">HH</text>
+              
+              <circle cx="200" cy="100" r="5" fill="#10b981" stroke="#1a1a1a" strokeWidth="1.5" />
+              <text x="200" y="92" fontSize="10" fill="#10b981" fontWeight="600" textAnchor="middle">TH</text>
+              
+              <circle cx="120" cy="180" r="5" fill="#10b981" stroke="#1a1a1a" strokeWidth="1.5" />
+              <text x="120" y="172" fontSize="10" fill="#10b981" fontWeight="600" textAnchor="middle">HT</text>
+              
+              <circle cx="200" cy="180" r="5" fill="#3b82f6" stroke="#1a1a1a" strokeWidth="1.5" />
+              <text x="200" y="172" fontSize="10" fill="#3b82f6" fontWeight="600" textAnchor="middle">TT</text>
+            </svg>
+            <p className="text-sm text-ink-2 text-center mt-3">
+              <span className="font-semibold">可能性图：两硬币</span><br />
+              <span className="text-accent">4 个同样可能的结果</span><br />
+              <span className="text-xs text-muted">HH, HT, TH, TT（不要忘记 HT 和 TH）</span>
+            </p>
+          </div>
+
+          {/* Diagram 2: Tree diagram for coin then die */}
+          <div className="flex flex-col items-center">
+            <svg viewBox="0 0 300 300" className="w-full max-w-[300px] h-auto">
+              {/* Title */}
+              <text x="150" y="20" fontSize="12" fill="#1a1a1a" fontWeight="600" textAnchor="middle">Tree Diagram: Coin then Die</text>
+              
+              {/* Start */}
+              <circle cx="150" cy="50" r="4" fill="#1a1a1a" />
+              
+              {/* First branches (coin) */}
+              <line x1="150" y1="50" x2="80" y2="90" stroke="#d97706" strokeWidth="2" />
+              <line x1="150" y1="50" x2="220" y2="90" stroke="#10b981" strokeWidth="2" />
+              
+              {/* First branch labels */}
+              <text x="100" y="70" fontSize="11" fill="#d97706" fontWeight="600">H</text>
+              <text x="190" y="70" fontSize="11" fill="#10b981" fontWeight="600">T</text>
+              
+              {/* Second level circles */}
+              <circle cx="80" cy="90" r="3" fill="#d97706" />
+              <circle cx="220" cy="90" r="3" fill="#10b981" />
+              
+              {/* Second branches from H (die outcomes 1,2,3) */}
+              <line x1="80" y1="90" x2="40" y2="150" stroke="#6b7280" strokeWidth="1.5" />
+              <line x1="80" y1="90" x2="60" y2="150" stroke="#6b7280" strokeWidth="1.5" />
+              <line x1="80" y1="90" x2="80" y2="150" stroke="#6b7280" strokeWidth="1.5" />
+              <line x1="80" y1="90" x2="100" y2="150" stroke="#6b7280" strokeWidth="1.5" />
+              <line x1="80" y1="90" x2="120" y2="150" stroke="#6b7280" strokeWidth="1.5" />
+              <line x1="80" y1="90" x2="140" y2="150" stroke="#6b7280" strokeWidth="1.5" />
+              
+              {/* Second branches from T (die outcomes 1,2,3) */}
+              <line x1="220" y1="90" x2="160" y2="150" stroke="#6b7280" strokeWidth="1.5" />
+              <line x1="220" y1="90" x2="180" y2="150" stroke="#6b7280" strokeWidth="1.5" />
+              <line x1="220" y1="90" x2="200" y2="150" stroke="#6b7280" strokeWidth="1.5" />
+              <line x1="220" y1="90" x2="220" y2="150" stroke="#6b7280" strokeWidth="1.5" />
+              <line x1="220" y1="90" x2="240" y2="150" stroke="#6b7280" strokeWidth="1.5" />
+              <line x1="220" y1="90" x2="260" y2="150" stroke="#6b7280" strokeWidth="1.5" />
+              
+              {/* Die number labels for H branch */}
+              <text x="40" y="165" fontSize="9" fill="#6b7280" fontWeight="600" textAnchor="middle">1</text>
+              <text x="60" y="165" fontSize="9" fill="#6b7280" fontWeight="600" textAnchor="middle">2</text>
+              <text x="80" y="165" fontSize="9" fill="#6b7280" fontWeight="600" textAnchor="middle">3</text>
+              <text x="100" y="165" fontSize="9" fill="#6b7280" fontWeight="600" textAnchor="middle">4</text>
+              <text x="120" y="165" fontSize="9" fill="#6b7280" fontWeight="600" textAnchor="middle">5</text>
+              <text x="140" y="165" fontSize="9" fill="#6b7280" fontWeight="600" textAnchor="middle">6</text>
+              
+              {/* Die number labels for T branch */}
+              <text x="160" y="165" fontSize="9" fill="#6b7280" fontWeight="600" textAnchor="middle">1</text>
+              <text x="180" y="165" fontSize="9" fill="#6b7280" fontWeight="600" textAnchor="middle">2</text>
+              <text x="200" y="165" fontSize="9" fill="#6b7280" fontWeight="600" textAnchor="middle">3</text>
+              <text x="220" y="165" fontSize="9" fill="#6b7280" fontWeight="600" textAnchor="middle">4</text>
+              <text x="240" y="165" fontSize="9" fill="#6b7280" fontWeight="600" textAnchor="middle">5</text>
+              <text x="260" y="165" fontSize="9" fill="#6b7280" fontWeight="600" textAnchor="middle">6</text>
+              
+              {/* Outcomes list */}
+              <text x="150" y="190" fontSize="9" fill="#3b82f6" fontWeight="600" textAnchor="middle">Outcomes: H1, H2, H3, H4, H5, H6,</text>
+              <text x="150" y="202" fontSize="9" fill="#3b82f6" fontWeight="600" textAnchor="middle">T1, T2, T3, T4, T5, T6</text>
+              <text x="150" y="220" fontSize="10" fill="#d97706" fontWeight="700" textAnchor="middle">Total: 12 equally likely outcomes</text>
+            </svg>
+            <p className="text-sm text-ink-2 text-center mt-3">
+              <span className="font-semibold">树状图：硬币再骰子</span><br />
+              <span className="text-accent">12 个同样可能的结果</span><br />
+              <span className="text-xs text-muted">H1, H2, H3, H4, H5, H6, T1, T2, T3, T4, T5, T6</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
   return null;
 }

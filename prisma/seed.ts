@@ -16058,6 +16058,139 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
         },
       ],
     },
+
+    // ============================================================
+    // SMATH Week 92 - Simple combined events (S2.3)
+    // ============================================================
+    {
+      level: "SMATH",
+      weekNumber: 92,
+      title: "简单组合事件 — Probability of simple combined events",
+      description: "Sec 2 S2.3 simple combined events (AEIS 中学数学第 92 周 / SMATH Week 92)",
+      isSample: false,
+      errorFocus: "skipping HT vs TH; treating a possibility/tree list as optional; writing P as the count; jumping to S2.4 multiply/add without listing outcomes",
+      parentBrief: "本周练简单组合事件。用可能性图或树状图列出所有同样可能的结果，再写 P = 符合条件的个数 ÷ 全部个数。不要漏掉 HT 和 TH，也不要把个数本身当成概率。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "At Riverside Secondary, Mr Lim flips two fair coins. Aisha asks: 「What is the probability of getting two heads (HH)?」 Which working is correct?|A. List all equally likely outcomes: {HH, HT, TH, TT}. Total outcomes = 4. Favourable outcomes (HH) = 1. P(HH) = 1/4. ✓|B. P(HH) = 1 because there is 1 HH outcome. Fossil: treating the count as the probability (forgot to divide by total)|C. P(HH) = 1/2 because one coin is heads. Fossil: treating one coin as the whole event|D. P(HH) = {HH, HT, TH}. Fossil: listing outcomes instead of a probability number",
+            "At Riverside Secondary, Wei flips two fair coins. What is the probability of getting exactly one head (one head and one tail in any order)?|A. P(one head) = 1/2 (outcomes: {HH, HT, TH, TT}, exactly one head: {HT, TH}, favourable = 2, total = 4, P = 2/4 = 1/2)|B. P(one head) = 1 (fossil: treating the count as the probability, forgot HT and TH are two different outcomes)|C. P(one head) = 1/4 (fossil: forgot to count both HT and TH)|D. P(one head) = 2 (fossil: using the count 2 as the probability)",
+            "At Riverside Secondary, Aisha flips a fair coin then rolls a fair six-sided die. Using a tree diagram, how many equally likely outcomes are there in total?|A. Total outcomes = 12 (coin: 2 outcomes {H, T}, die: 6 outcomes {1, 2, 3, 4, 5, 6}, tree diagram lists: H1, H2, H3, H4, H5, H6, T1, T2, T3, T4, T5, T6, so 2 × 6 = 12)|B. Total outcomes = 8 (fossil: wrong count, forgot some branches)|C. Total outcomes = 2 (fossil: only counted the coin, forgot the die)|D. Total outcomes = 6 (fossil: only counted the die, forgot the coin)",
+            "At Riverside Secondary, Mr Lim flips a fair coin then rolls a fair die. What is the probability of getting heads on the coin and an even number on the die (H2, H4, or H6)?|A. P(H and even) = 3/12 = 1/4 (tree diagram: 12 outcomes {H1, H2, H3, H4, H5, H6, T1, T2, T3, T4, T5, T6}, favourable: {H2, H4, H6}, count = 3, P = 3/12 = 1/4)|B. P(H and even) = 1/2 (fossil: said half the die outcomes are even, forgot to combine with coin)|C. P(H and even) = 3 (fossil: treated the count as the probability)|D. P(H and even) = 1/6 (fossil: wrong calculation)",
+            "At Riverside Secondary, Wei spins a spinner with 3 equal sectors labelled A, B, C, then flips a fair coin. What is the probability of getting sector A and tails (outcome A, T)?|A. P(A, T) = 1/6 (possibility diagram or tree: spinner has 3 outcomes {A, B, C}, coin has 2 outcomes {H, T}, total outcomes = 3 × 2 = 6: {AH, AT, BH, BT, CH, CT}, favourable outcome (A, T) = 1, P = 1/6)|B. P(A, T) = 1/3 (fossil: only counted the spinner, forgot the coin)|C. P(A, T) = 1 (fossil: treating the count as the probability)|D. P(A, T) = 1/5 (fossil: wrong total count)",
+          ]),
+          correctAnswer: "A,A,A,A,A",
+          points: 10,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "At Riverside Secondary, Aisha flips two fair coins. Mr Lim asks: 「List all equally likely outcomes.」 Which list is complete and correct?|A. {HH, HT, TH, TT} (4 equally likely outcomes for two coins, HT and TH are different outcomes)|B. {HH, HT, TT} (fossil: incomplete list, forgot TH, confused HT and TH as the same outcome)|C. {0, 1, 2} (fossil: using the count of heads instead of listing the actual outcomes)|D. {H, T} (fossil: only listed one coin's outcomes)",
+            "At Riverside Secondary, Wei rolls two fair dice (one red, one blue). How many equally likely outcomes are there in total?|A. 36 (red die: 6 outcomes, blue die: 6 outcomes, total = 6 × 6 = 36, e.g. (1,1), (1,2), ..., (6,6))|B. 12 (fossil: wrong count, maybe added 6 + 6 instead of multiplying)|C. 6 (fossil: only counted one die)|D. 21 (fossil: wrong counting method)",
+            "At Riverside Secondary, Mr Lim spins a spinner with 4 equal sectors labelled 1, 2, 3, 4, then flips a fair coin. Using a tree diagram, what is the probability of getting sector 2 and heads (outcome 2, H)?|A. P(2, H) = 1/8 (tree: spinner 4 outcomes {1, 2, 3, 4}, coin 2 outcomes {H, T}, total = 4 × 2 = 8, favourable outcome (2, H) = 1, P = 1/8)|B. P(2, H) = 1/4 (fossil: only counted the spinner, forgot the coin)|C. P(2, H) = 1 (fossil: treating the count as the probability)|D. P(2, H) = 2/8 = 1/4 (fossil: double-counted the outcome)",
+            "At Riverside Secondary, Aisha flips a fair coin, then rolls a fair die. What is the probability of getting tails on the coin and a number greater than 4 on the die (T5 or T6)?|A. P(T and >4) = 2/12 = 1/6 (tree: 12 outcomes {H1, H2, H3, H4, H5, H6, T1, T2, T3, T4, T5, T6}, favourable: {T5, T6}, count = 2, P = 2/12 = 1/6)|B. P(T and >4) = 1/3 (fossil: said 2 out of 6 on the die, forgot to combine with coin)|C. P(T and >4) = 2 (fossil: treating the count as the probability)|D. P(T and >4) = 1/2 (fossil: wrong calculation)",
+            "At Riverside Secondary, Wei spins a spinner with 2 equal sectors labelled X and Y, then draws one card from 3 cards labelled 1, 2, 3. How many equally likely outcomes are there in total?|A. 6 (spinner: 2 outcomes {X, Y}, card: 3 outcomes {1, 2, 3}, total = 2 × 3 = 6: {X1, X2, X3, Y1, Y2, Y3})|B. 5 (fossil: wrong count, maybe added 2 + 3)|C. 2 (fossil: only counted the spinner)|D. 3 (fossil: only counted the cards)",
+            "At Riverside Secondary, Mr Lim flips two fair coins. Aisha says: 「The probability of getting at least one head is P(at least one H) = 1/2 because one coin is heads.」 Is Aisha correct?|A. No. List all outcomes: {HH, HT, TH, TT}. At least one H means HH, HT, or TH. Favourable = 3, total = 4. P(at least one H) = 3/4, not 1/2.|B. Yes, P(at least one H) = 1/2 is correct|C. No, P(at least one H) = 1 because there will be at least one heads|D. Yes, half the outcomes have heads",
+            "At Riverside Secondary, Wei flips a fair coin, then spins a spinner with 3 equal sectors labelled A, B, C. What is the probability of getting heads on the coin and sector B on the spinner (outcome H, B)?|A. P(H, B) = 1/6 (tree: coin 2 outcomes {H, T}, spinner 3 outcomes {A, B, C}, total = 2 × 3 = 6: {HA, HB, HC, TA, TB, TC}, favourable outcome (H, B) = 1, P = 1/6)|B. P(H, B) = 1/3 (fossil: only counted the spinner, forgot the coin)|C. P(H, B) = 1/2 × 1/3 = 1/6. Fossil: used S2.4 multiplication rule instead of listing outcomes. The answer 1/6 is correct, but the method (multiplication) is not taught in S2.3. S2.3 requires listing all outcomes from the tree diagram or possibility diagram first.|D. P(H, B) = 1 (fossil: treating the count as the probability)",
+            "At Riverside Secondary, Mr Lim flips two fair coins. Wei says: 「The probability of getting two tails (TT) is P(TT) = 1/3 because there are 3 outcomes: two heads, one head one tail, two tails.」 Is Wei correct?|A. No. Wei forgot to list all equally likely outcomes. The correct list is {HH, HT, TH, TT}, 4 outcomes. One head one tail has two outcomes (HT and TH). P(TT) = 1/4, not 1/3.|B. Yes, P(TT) = 1/3 is correct|C. No, P(TT) = 1/2|D. Yes, there are 3 outcomes so P(TT) = 1/3",
+          ]),
+          correctAnswer: "A,A,A,A,A,A,A,A",
+          points: 16,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `Part 2: Show Your Working (写出算式步骤)
+
+Riverside Secondary School has questions about probability of simple combined events. Answer the questions below. Show your working clearly.
+
+Question (a)
+At Riverside Secondary, Wei flips two fair coins (coin 1 and coin 2).
+
+(i) Use a possibility diagram or list to show all equally likely outcomes. Write: Outcomes = { ?, ?, ?, ? }
+(Hint: Each coin can be heads (H) or tails (T). List all combinations: HH, HT, TH, TT. Do not forget HT and TH are different outcomes.)
+
+(ii) How many outcomes are in the sample space? Write: Total outcomes = ?
+
+(iii) How many outcomes have exactly one head (one head and one tail in any order)? Write: Favourable outcomes (one head) = ?
+(Hint: One head means either HT or TH. Count both.)
+
+(iv) Calculate the probability of getting exactly one head. Write: P(one head) = favourable / total = ? / ? = ? (simplify to lowest terms)
+
+(v) Aisha says: 「P(one head) = 1 because there is one HT outcome.」 Explain why Aisha is wrong. What is P(one head)? (Hint: Aisha forgot to count TH and forgot to divide by the total.)
+
+
+Question (b)
+At Riverside Secondary, Mr Lim flips a fair coin, then rolls a fair six-sided die.
+
+(i) Use a tree diagram or list to show all equally likely outcomes. Start with the coin outcomes (H or T), then for each coin outcome, list the die outcomes (1, 2, 3, 4, 5, 6).
+Write: Outcomes = { H1, H2, ?, ?, ?, ?, T1, ?, ?, ?, ?, ? }
+(Hint: Complete the list. There are 2 × 6 = 12 outcomes in total.)
+
+(ii) How many outcomes are in the sample space? Write: Total outcomes = ?
+
+(iii) How many outcomes have heads on the coin AND an even number on the die (2, 4, or 6)? Write: Favourable outcomes (H and even) = ?
+(Hint: List H2, H4, H6. Count these.)
+
+(iv) Calculate the probability of getting heads on the coin AND an even number on the die. Write: P(H and even) = favourable / total = ? / ? = ? (simplify to lowest terms)
+
+(v) Wei says: 「P(H and even) = 1/2 × 1/2 = 1/4 because half the coin outcomes are heads and half the die outcomes are even.」 The answer 1/4 is correct, but explain why the method Wei used (multiplication) is not the method taught in S2.3. What method should Wei use? (Hint: S2.3 teaches listing all outcomes from a tree diagram or possibility diagram, then counting favourable / total. The multiplication rule P(A and B) = P(A) × P(B) is taught in S2.4, not S2.3.)
+
+
+Question (c)
+At Riverside Secondary, Aisha spins a spinner with 3 equal sectors labelled A, B, C, then flips a fair coin.
+
+(i) Use a possibility diagram or tree diagram to list all equally likely outcomes. Write: Outcomes = { AH, AT, ?, ?, ?, ? }
+(Hint: Complete the list. There are 3 × 2 = 6 outcomes: AH, AT, BH, BT, CH, CT.)
+
+(ii) How many outcomes are in the sample space? Write: Total outcomes = ?
+
+(iii) What is the probability of getting sector B and tails (outcome B, T)? Show your working. Write: Favourable outcomes (B, T) = ?, P(B, T) = ? / ? = ?
+
+(iv) What is the probability of getting sector A (either AH or AT)? Show your working. Write: Favourable outcomes (sector A) = ?, P(sector A) = ? / ? = ? (simplify to lowest terms)
+
+(v) Mr Lim says: 「The probability of getting sector D and heads is P(D, H) = 0 because there is no sector D on the spinner.」 Is Mr Lim correct? Explain why. (Hint: If an event is impossible, P = 0.)
+
+
+写作提示 / Tips:
+✓ 每题分步骤写出推理 (Show working steps for each question)
+✓ Part 2 官方要求：clearly show the method of solution by writing working steps, plus the final answer
+✓ 不用计算器 (No calculators allowed)
+✓ 本周教 Sec 2 STATISTICS AND PROBABILITY, S2. Probability: 本周是 probability of simple combined events (S2.3)（简单组合事件概率）: including using possibility diagrams and tree diagrams, where appropriate（包括适当使用可能性图和树状图）。两个或多个事件组合在一起。两硬币：可能性图 {HH, HT, TH, TT}，4 个同样可能的结果。硬币再骰子：树状图，两步骤，列出所有 12 个结果。转盘再硬币：树状图或列表。列出所有同样可能的结果，数符合条件的个数，写 P = 符合个数 ÷ 全部个数。不要漏掉 HT 和 TH（它们不是同一个结果）。不要把个数本身当成概率。本周不教 S2.4 addition and multiplication of probabilities（概率加法与乘法）、mutually exclusive events（互斥事件）、independent events（独立事件）。
+✓ 简单组合事件概率步骤示范 (Probability of simple combined events examples):
+  • Two coins, P(HH):
+    Question: Two fair coins are flipped. What is the probability of getting two heads (HH)? Show your working.
+    Solution: ① List all equally likely outcomes (sample space) using a possibility diagram or list: {HH, HT, TH, TT}. Note: HT and TH are different outcomes. ② Count total outcomes: 4. ③ Count favourable outcomes (HH): 1. ④ Calculate probability: P(HH) = favourable / total = 1 / 4. Answer: 1/4. (Note: Common fossil: saying P(HH) = 1 or forgetting to list TH separately from HT. HT means coin 1 is H and coin 2 is T. TH means coin 1 is T and coin 2 is H. They are different outcomes.)
+  • Coin then die, P(H and 3):
+    Question: A fair coin is flipped, then a fair six-sided die is rolled. What is the probability of getting heads on the coin and a 3 on the die? Show your working.
+    Solution: ① Use a tree diagram or list all equally likely outcomes. Start with coin outcomes {H, T}. For each coin outcome, list die outcomes {1, 2, 3, 4, 5, 6}. Outcomes: {H1, H2, H3, H4, H5, H6, T1, T2, T3, T4, T5, T6}. ② Count total outcomes: 2 × 6 = 12. ③ Count favourable outcomes (H and 3): 1 (outcome H3). ④ Calculate probability: P(H and 3) = 1 / 12. Answer: 1/12. (Note: Fossil: saying P(H and 3) = 1/2 × 1/6 = 1/12 using the multiplication rule. The answer 1/12 is correct, but the multiplication rule P(A and B) = P(A) × P(B) is taught in S2.4, not S2.3. S2.3 requires listing all outcomes from the tree diagram first, then counting.)
+  • Spinner (3 sectors A, B, C) then coin, P(B, T):
+    Question: A spinner with 3 equal sectors labelled A, B, C is spun, then a fair coin is flipped. What is the probability of getting sector B and tails? Show your working.
+    Solution: ① Use a possibility diagram or tree diagram. Spinner outcomes: {A, B, C}. Coin outcomes: {H, T}. All outcomes: {AH, AT, BH, BT, CH, CT}. ② Count total outcomes: 3 × 2 = 6. ③ Count favourable outcomes (B, T): 1 (outcome BT). ④ Calculate probability: P(B, T) = 1 / 6. Answer: 1/6.
+  • Two coins, P(one head):
+    Question: Two fair coins are flipped. What is the probability of getting exactly one head (one head and one tail in any order)? Show your working.
+    Solution: ① List all equally likely outcomes: {HH, HT, TH, TT}. ② Count total outcomes: 4. ③ Count favourable outcomes (one head): 2 (outcomes HT and TH). Note: HT and TH are two different outcomes. Do not count them as one. ④ Calculate probability: P(one head) = 2 / 4 = 1 / 2 (simplify to lowest terms). Answer: 1/2. (Note: Fossil: saying P(one head) = 1 because there is one HT outcome. This is wrong because it forgot to count TH and forgot to divide by total. P = 2 / 4 = 1 / 2.)
+✓ 关键步骤：Step 1: Use a possibility diagram or tree diagram to list all equally likely possible outcomes (sample space)（用可能性图或树状图列出所有同样可能的结果，即样本空间）。For two events, total outcomes = (outcomes of first event) × (outcomes of second event). Step 2: Count the total number of outcomes n（数全部结果的个数 n）. Step 3: Count the number of favourable outcomes for the event m（数符合条件的结果个数 m）. Step 4: Calculate the probability P = m / n（计算概率 P = m / n）. Step 5: Simplify the fraction to lowest terms if possible（如果可能，化简为最简分数）. Step 6: Check that 0 ≤ P ≤ 1 (probability cannot be negative or greater than 1)（检查 0 ≤ P ≤ 1，概率不能是负数或大于 1）. Step 7: State the final answer（陈述最终答案）.
+✓ 化石 (fossil errors):
+  • Forgetting HT vs TH（忘记 HT 和 TH 是两个不同的结果）：Two coins, listing only {HH, HT, TT}, forgetting TH. Wrong. Correct list: {HH, HT, TH, TT}（错误：只列 {HH, HT, TT}，忘记 TH。正确：{HH, HT, TH, TT}）。HT and TH are different outcomes.
+  • Treating probability as the count of favourable outcomes without dividing by total（把概率当成符合条件的个数，忘记除以全部个数）：Two coins, P(HH), favourable = 1, saying P(HH) = 1. Wrong. P = 1 / 4（错误：说 P(HH) = 1，正确：P = 1 / 4）。Always divide by total outcomes.
+  • Treating a possibility/tree list as optional（把可能性图/树状图列表当成可选，不列出就猜概率）：Saying P(H and 3) = 1/12 without first listing the tree diagram outcomes {H1, H2, H3, H4, H5, H6, T1, T2, T3, T4, T5, T6}. Risk: might miss outcomes or count wrong（错误：不列出树状图就猜 P，容易算错。正确：先列出所有 12 个结果，再数）。
+  • Jumping to S2.4 multiply/add without listing outcomes（跳到 S2.4 乘法/加法规则，不列出结果）：Saying P(H and 3) = 1/2 × 1/6 = 1/12. The answer is correct, but the method (multiplication rule) is taught in S2.4, not S2.3. S2.3 requires listing all outcomes from the tree diagram first（错误方法：用乘法规则 P(A and B) = P(A) × P(B)。这是 S2.4 的方法，不是 S2.3。S2.3 要求先列出树状图的所有结果，再数）。
+✓ 本周教 S2 的 2.3 probability of simple combined events (including using possibility diagrams and tree diagrams, where appropriate)（简单组合事件概率，包括适当使用可能性图和树状图）。本周不教 2.4 addition and multiplication of probabilities（概率加法与乘法）、mutually exclusive events（互斥事件）、independent events（独立事件）。本周不教 grouped-data mean（分组数据平均数）。本周不教 Pythagoras / trigonometry（勾股定理/三角函数）。本周不教 G4 content（G4 内容）。本周不教 G2 similar figures（G2 相似图形）。
+✓ Writing 数值不能抄 微课（如果本周有微课）或 MCQ 的其他数值。Writing Q 用 two coins P(one head) (Q a); coin then die P(H and even) (Q b); spinner 3 sectors A,B,C then coin, P(B, T) = 1/6, P(sector A) = 2/6 = 1/3, P(D, H) = 0 (Q c)。不能抄本周 MCQ 的其他数值（spinner 4 sectors; spinner 2 sectors X,Y then 3 cards; two dice 等）。也不能用 W87–W91 writing 的立体几何/统计/单事件概率数值（那些周是立体几何/统计/单事件概率，本周是简单组合事件，不能重复）。
+
+Note: This is a sample of Part 2 short-answer/open-ended questions. The official paper has 20 short-answer + 10–15 open-ended items in 1 hour 45 minutes.`,
+          points: 20,
+        },
+      ],
+    },
   ];
 
 
