@@ -647,41 +647,39 @@
         
         <div class="paths">
           <article class="card">
-            <div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:0.5rem;">
+            <div style="margin-bottom:0.5rem;">
               <h3 style="margin:0" data-i18n="ceqA2Title">A2 Key for Schools</h3>
-              <div style="font-family:var(--serif);font-size:1.65rem;font-weight:600;color:var(--accent);">S$2,480</div>
             </div>
             <p class="tag" style="margin-top:0.35rem" data-i18n="ceqA2Tag">适合 P2–P4 CEQ 门槛</p>
             <p data-i18n="ceqA2Intro">12 周冲刺剑桥 A2 Key for Schools 水平，帮孩子在 CEQ 考试前准备好听、说、读、写四项。</p>
             <ul>
-              <li data-i18n="ceqA2Li1">12 周，每周 2 次课，每次 1.5 小时（共 24 节课）</li>
-              <li data-i18n="ceqA2Li2">小班授课，每班最多 8 人</li>
+              <li data-i18n="ceqA2Li1">12 周作业课程</li>
+              <li data-i18n="ceqA2Li2">向顾问支付 RMB 2,680</li>
               <li data-i18n="ceqA2Li3">针对 Cambridge A2 Key for Schools 四项技能：阅读、写作、听力、口语</li>
-              <li data-i18n="ceqA2Li4">包含 2 次模拟考，家长微信通报进度</li>
+              <li data-i18n="ceqA2Li4">试学周打开就能做</li>
               <li data-i18n="ceqA2Li5">帮孩子在提交 AEIS / S-AEIS 申请前 12 个月内考出 CEQ，不保证具体 CES 分数或学校录取</li>
             </ul>
             <a class="btn btn-accent" href="#contact" data-ceq-track="primary" data-i18n="ceqCta">报名咨询</a>
           </article>
           
           <article class="card">
-            <div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:0.5rem;">
+            <div style="margin-bottom:0.5rem;">
               <h3 style="margin:0" data-i18n="ceqB1Title">B1 Preliminary for Schools</h3>
-              <div style="font-family:var(--serif);font-size:1.65rem;font-weight:600;color:var(--accent);">S$2,880</div>
             </div>
             <p class="tag" style="margin-top:0.35rem" data-i18n="ceqB1Tag">适合 P5 CEQ 门槛</p>
             <p data-i18n="ceqB1Intro">12 周冲刺剑桥 B1 Preliminary for Schools 水平，帮孩子在 CEQ 考试前准备好听、说、读、写四项。</p>
             <ul>
-              <li data-i18n="ceqB1Li1">12 周，每周 2 次课，每次 1.5 小时（共 24 节课）</li>
-              <li data-i18n="ceqB1Li2">小班授课，每班最多 8 人</li>
+              <li data-i18n="ceqB1Li1">12 周作业课程</li>
+              <li data-i18n="ceqB1Li2">向顾问支付 RMB 2,680</li>
               <li data-i18n="ceqB1Li3">针对 Cambridge B1 Preliminary for Schools 四项技能：阅读、写作、听力、口语</li>
-              <li data-i18n="ceqB1Li4">包含 2 次模拟考，家长微信通报进度</li>
+              <li data-i18n="ceqB1Li4">试学周打开就能做</li>
               <li data-i18n="ceqB1Li5">帮孩子在提交 AEIS / S-AEIS 申请前 12 个月内考出 CEQ，不保证具体 CES 分数或学校录取</li>
             </ul>
             <a class="btn btn-accent" href="#contact" data-ceq-track="primary" data-i18n="ceqCta">报名咨询</a>
           </article>
         </div>
         
-        <p class="note" style="margin-top:1.25rem" data-i18n="ceqPayNote">学费可通过 PayNow 或微信转账，报名以咨询确认为准。课程帮孩子准备 CEQ 考试，考试本身在剑桥授权考点单独报名，不在本课程学费内。</p>
+        <p class="note" style="margin-top:1.25rem" data-i18n="ceqPayNote">RMB 2,680 向顾问支付，报名以咨询确认为准。课程帮孩子准备 CEQ 考试，考试本身在剑桥授权考点单独报名，不在本课程费用内。</p>
       </div>
     </section>
 

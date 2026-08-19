@@ -35,30 +35,15 @@ The studio guides families through entrance exams **in order**:
 
 ## Membership & Pricing / 会员与价格
 
-**Two subscription models** (both assumed starting prices, editable, not fake historical data):
-
-### 1. Monthly membership / 月度会员
-**S$320 / month**
-- Small live classes (2× per week, 1.5 hours each, max 8 students)
-- Weekly homework app unlocked for the child's level (A2 or B1)
-- Covers CEQ prep: reading, writing, listening-as-text, speaking prompts
-- Auto-scored MCQs; writing stored for parent/teacher review
-- WeChat progress updates to parents
-- Can cancel anytime
-
-### 2. Prepaid 12-week packages / 12 周预付包
-CEQ exam-focused sprint courses:
-- **A2 Key for Schools:** S$2,480 (typical for P2–P4)
-- **B1 Preliminary for Schools:** S$2,880 (typical for P5)
-- 12 weeks, 24 sessions (2× per week, 1.5 hours each)
-- Includes 2 mock tests + parent WeChat updates
-- No refunds
-
-**Payment:** PayNow or WeChat transfer (微信转账). Enrollment confirmed after consultation (报名以咨询确认为准).
-
-**CEQ exam itself** is booked separately at authorized Cambridge centres (not included in course fees).
+**12-week CEQ English homework program:**
+- RMB 2,680 prepaid to advisor
+- 12 weeks of A2 or B1 level homework
+- Week 0 (sample week) accessible to all users before payment
+- Payment confirmed after consultation (报名以咨询确认为准)
 
 **Subscription unlocks:** All weeks for the child's level. Unsubscribed users can only access Week 0 (试学周 / sample week).
+
+**CEQ exam itself** is booked separately at authorized Cambridge centres (not included in program fees).
 
 ---
 
@@ -391,7 +376,6 @@ npx prisma db seed    # Seed demo users + weeks
 | Placeholder | Where | Replace with |
 |-------------|-------|--------------|
 | `your-wechat-id` | Contact section | Real WeChat ID |
-| S$320/month, S$2,480, S$2,880 | Membership prices | Confirmed pricing after operational review |
 
 ---
 
