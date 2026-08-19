@@ -96,6 +96,9 @@ export default function HomePage() {
             <Link href="/trial/A2" className="text-ink-2 hover:text-ink transition-colors font-medium">
               免费试学
             </Link>
+            <Link href="/trial" className="text-ink-2 hover:text-ink transition-colors font-medium">
+              中学试学
+            </Link>
             <Link href="/skills" className="text-ink-2 hover:text-ink transition-colors font-medium">
               技能表
             </Link>
@@ -125,6 +128,9 @@ export default function HomePage() {
               <Link href="/trial/A2" className="block text-ink-2 hover:text-ink transition-colors font-medium" onClick={() => setShowMobileMenu(false)}>
                 免费试学
               </Link>
+              <Link href="/trial" className="block text-ink-2 hover:text-ink transition-colors font-medium" onClick={() => setShowMobileMenu(false)}>
+                中学试学
+              </Link>
               <Link href="/skills" className="block text-ink-2 hover:text-ink transition-colors font-medium" onClick={() => setShowMobileMenu(false)}>
                 技能表
               </Link>
@@ -145,12 +151,18 @@ export default function HomePage() {
             <h1 className="font-serif font-semibold text-3xl md:text-5xl leading-tight tracking-tight mb-4 max-w-4xl">
               小学先过 CEQ 英语门槛。作业打开就能做。
             </h1>
-            <div className="flex flex-wrap gap-3 mb-6">
+            <div className="flex flex-wrap gap-3 mb-3">
               <Link
                 href="/trial/A2"
                 className="inline-flex items-center justify-center px-6 py-3.5 bg-accent text-accent-ink font-semibold rounded-full hover:bg-accent-hover transition-colors text-base"
               >
                 今晚试学
+              </Link>
+              <Link
+                href="/trial"
+                className="inline-flex items-center justify-center px-6 py-3.5 bg-transparent text-ink border border-accent font-semibold rounded-full hover:bg-accent/10 transition-colors text-base"
+              >
+                中学试学
               </Link>
               <Link
                 href="/skills"
@@ -159,6 +171,9 @@ export default function HomePage() {
                 看技能表
               </Link>
             </div>
+            <p className="text-sm text-muted mb-6 max-w-2xl">
+              中学试学是 AEIS 英语和数学，不是 CEQ。
+            </p>
             <p className="text-sm text-muted max-w-2xl">
               非 MOE、SEAB、Cambridge 官方机构
             </p>
