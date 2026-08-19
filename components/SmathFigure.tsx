@@ -3471,5 +3471,169 @@ export default function SmathFigure({ weekNumber }: { weekNumber: number }) {
     );
   }
 
+  if (weekNumber === 110) {
+    return (
+      <div className="bg-paper border border-line rounded-xl p-6 mb-6">
+        <h3 className="font-semibold text-ink mb-4 text-center">📊 本周图解</h3>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+          {/* Graph 1: y = 2^x */}
+          <div className="bg-blue-50 border-2 border-blue-300 rounded-xl p-5">
+            <p className="text-sm text-blue-900 font-semibold mb-3 text-center">y = 2<sup>x</sup></p>
+            <svg viewBox="0 0 240 240" className="w-full h-56">
+              {/* Axes */}
+              <line x1="20" y1="180" x2="230" y2="180" stroke="#333" strokeWidth="1.5" />
+              <line x1="120" y1="20" x2="120" y2="200" stroke="#333" strokeWidth="1.5" />
+              {/* Arrow heads */}
+              <polygon points="230,180 225,177 225,183" fill="#333" />
+              <polygon points="120,20 117,25 123,25" fill="#333" />
+              
+              {/* Axis labels */}
+              <text x="225" y="172" fontSize="12" fill="#333" fontWeight="600">x</text>
+              <text x="128" y="25" fontSize="12" fill="#333" fontWeight="600">y</text>
+              
+              {/* Tick marks and labels on x-axis */}
+              <line x1="70" y1="177" x2="70" y2="183" stroke="#333" strokeWidth="1" />
+              <text x="70" y="195" fontSize="10" textAnchor="middle" fill="#333">−1</text>
+              
+              <line x1="120" y1="177" x2="120" y2="183" stroke="#333" strokeWidth="1" />
+              <text x="120" y="195" fontSize="10" textAnchor="middle" fill="#333">0</text>
+              
+              <line x1="170" y1="177" x2="170" y2="183" stroke="#333" strokeWidth="1" />
+              <text x="170" y="195" fontSize="10" textAnchor="middle" fill="#333">1</text>
+              
+              <line x1="220" y1="177" x2="220" y2="183" stroke="#333" strokeWidth="1" />
+              <text x="220" y="195" fontSize="10" textAnchor="middle" fill="#333">2</text>
+              
+              {/* Exponential curve: y = 2^x */}
+              {/* Approaches x-axis on left, through (0,1) and (1,2), rises steeply on right */}
+              <path
+                d="M 20,179 L 40,178.5 L 60,177 L 70,175 L 90,165 L 110,145 L 120,130 L 140,90 L 150,70 L 160,50 L 170,30"
+                fill="none"
+                stroke="#2563eb"
+                strokeWidth="2.5"
+              />
+              
+              {/* Key points */}
+              <circle cx="120" cy="130" r="4" fill="#ef4444" />
+              <text x="125" y="125" fontSize="10" fill="#ef4444" fontWeight="bold">(0, 1)</text>
+              
+              <circle cx="170" cy="30" r="4" fill="#ef4444" />
+              <text x="175" y="27" fontSize="10" fill="#ef4444" fontWeight="bold">(1, 2)</text>
+            </svg>
+            <p className="text-xs text-blue-700 text-center mt-2">过 (0, 1) 和 (1, 2)</p>
+            <p className="text-xs text-blue-700 text-center">一直在 x 轴上方</p>
+          </div>
+
+          {/* Graph 2: y = 3^x */}
+          <div className="bg-green-50 border-2 border-green-300 rounded-xl p-5">
+            <p className="text-sm text-green-900 font-semibold mb-3 text-center">y = 3<sup>x</sup></p>
+            <svg viewBox="0 0 240 240" className="w-full h-56">
+              {/* Axes */}
+              <line x1="20" y1="180" x2="230" y2="180" stroke="#333" strokeWidth="1.5" />
+              <line x1="120" y1="20" x2="120" y2="200" stroke="#333" strokeWidth="1.5" />
+              {/* Arrow heads */}
+              <polygon points="230,180 225,177 225,183" fill="#333" />
+              <polygon points="120,20 117,25 123,25" fill="#333" />
+              
+              {/* Axis labels */}
+              <text x="225" y="172" fontSize="12" fill="#333" fontWeight="600">x</text>
+              <text x="128" y="25" fontSize="12" fill="#333" fontWeight="600">y</text>
+              
+              {/* Tick marks and labels on x-axis */}
+              <line x1="70" y1="177" x2="70" y2="183" stroke="#333" strokeWidth="1" />
+              <text x="70" y="195" fontSize="10" textAnchor="middle" fill="#333">−1</text>
+              
+              <line x1="120" y1="177" x2="120" y2="183" stroke="#333" strokeWidth="1" />
+              <text x="120" y="195" fontSize="10" textAnchor="middle" fill="#333">0</text>
+              
+              <line x1="170" y1="177" x2="170" y2="183" stroke="#333" strokeWidth="1" />
+              <text x="170" y="195" fontSize="10" textAnchor="middle" fill="#333">1</text>
+              
+              <line x1="220" y1="177" x2="220" y2="183" stroke="#333" strokeWidth="1" />
+              <text x="220" y="195" fontSize="10" textAnchor="middle" fill="#333">2</text>
+              
+              {/* Exponential curve: y = 3^x (steeper than 2^x) */}
+              <path
+                d="M 20,179.5 L 40,179 L 60,177.5 L 70,176 L 90,167 L 110,148 L 120,130 L 140,75 L 150,50 L 160,30 L 165,25"
+                fill="none"
+                stroke="#16a34a"
+                strokeWidth="2.5"
+              />
+              
+              {/* Key points */}
+              <circle cx="120" cy="130" r="4" fill="#ef4444" />
+              <text x="125" y="125" fontSize="10" fill="#ef4444" fontWeight="bold">(0, 1)</text>
+              
+              <circle cx="170" cy="80" r="4" fill="#ef4444" />
+              <text x="175" y="77" fontSize="10" fill="#ef4444" fontWeight="bold">(1, 3)</text>
+            </svg>
+            <p className="text-xs text-green-700 text-center mt-2">过 (0, 1) 和 (1, 3)</p>
+            <p className="text-xs text-green-700 text-center">对于 x {'>'} 0 比 y = 2<sup>x</sup> 更陡</p>
+          </div>
+
+          {/* Graph 3: y = 2·2^x */}
+          <div className="bg-purple-50 border-2 border-purple-300 rounded-xl p-5">
+            <p className="text-sm text-purple-900 font-semibold mb-3 text-center">y = 2 · 2<sup>x</sup></p>
+            <svg viewBox="0 0 240 240" className="w-full h-56">
+              {/* Axes */}
+              <line x1="20" y1="180" x2="230" y2="180" stroke="#333" strokeWidth="1.5" />
+              <line x1="120" y1="20" x2="120" y2="200" stroke="#333" strokeWidth="1.5" />
+              {/* Arrow heads */}
+              <polygon points="230,180 225,177 225,183" fill="#333" />
+              <polygon points="120,20 117,25 123,25" fill="#333" />
+              
+              {/* Axis labels */}
+              <text x="225" y="172" fontSize="12" fill="#333" fontWeight="600">x</text>
+              <text x="128" y="25" fontSize="12" fill="#333" fontWeight="600">y</text>
+              
+              {/* Tick marks and labels on x-axis */}
+              <line x1="70" y1="177" x2="70" y2="183" stroke="#333" strokeWidth="1" />
+              <text x="70" y="195" fontSize="10" textAnchor="middle" fill="#333">−1</text>
+              
+              <line x1="120" y1="177" x2="120" y2="183" stroke="#333" strokeWidth="1" />
+              <text x="120" y="195" fontSize="10" textAnchor="middle" fill="#333">0</text>
+              
+              <line x1="170" y1="177" x2="170" y2="183" stroke="#333" strokeWidth="1" />
+              <text x="170" y="195" fontSize="10" textAnchor="middle" fill="#333">1</text>
+              
+              <line x1="220" y1="177" x2="220" y2="183" stroke="#333" strokeWidth="1" />
+              <text x="220" y="195" fontSize="10" textAnchor="middle" fill="#333">2</text>
+              
+              {/* Exponential curve: y = 2·2^x (k = 2, meets y-axis at (0, 2)) */}
+              <path
+                d="M 20,179 L 40,178 L 60,174 L 70,170 L 90,155 L 110,125 L 120,80 L 140,40 L 150,30 L 155,25"
+                fill="none"
+                stroke="#9333ea"
+                strokeWidth="2.5"
+              />
+              
+              {/* Key points */}
+              <circle cx="120" cy="80" r="4" fill="#ef4444" />
+              <text x="125" y="75" fontSize="10" fill="#ef4444" fontWeight="bold">(0, 2)</text>
+              
+              <circle cx="170" cy="130" r="4" fill="#ef4444" />
+              <text x="175" y="127" fontSize="10" fill="#ef4444" fontWeight="bold">(1, 4)</text>
+            </svg>
+            <p className="text-xs text-purple-700 text-center mt-2">y = ka<sup>x</sup> with k = 2, a = 2</p>
+            <p className="text-xs text-purple-700 text-center">过 (0, 2)，因为 a<sup>0</sup> = 1</p>
+          </div>
+        </div>
+
+        <div className="mt-6 bg-accent/5 border border-accent/20 rounded-xl p-4">
+          <p className="text-sm text-ink-2 text-center">
+            <strong className="text-ink">指数函数 y = ka<sup>x</sup> (a {'>'} 1)：</strong><br />
+            • 曲线过 (0, k)，因为 a<sup>0</sup> = 1<br />
+            • 一直在 x 轴上方，左边逐渐接近 x 轴但不接触<br />
+            • a 越大，x {'>'} 0 时曲线越陡<br />
+            <span className="text-red-600 font-semibold">❌ 常见错误：</span><br />
+            <span className="text-xs">• 以为 2<sup>x</sup> 在 x 为负时是负数（错误：2<sup>−1</sup> = 0.5，是正数）</span><br />
+            <span className="text-xs">• 以为 2<sup>0</sup> = 0（错误：2<sup>0</sup> = 1）</span><br />
+            <span className="text-xs">• 画成抛物线（错误：这是指数函数，不是抛物线）</span>
+          </p>
+        </div>
+      </div>
+    );
+  }
+
   return null;
 }
