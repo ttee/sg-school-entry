@@ -2729,18 +2729,18 @@ export default function SmathFigure({ weekNumber }: { weekNumber: number }) {
             <text x="430" y="120" fontSize="10" fill="#1e40af" fontWeight="700" textAnchor="middle">Class intervals 组距</text>
             
             {/* Simple histogram */}
-            <line x="330" y="215" x2="330" y2="135" stroke="#000" strokeWidth="1.5" />
-            <line x="330" y="215" x2="530" y2="215" stroke="#000" strokeWidth="1.5" />
+            <line x1="330" y1="215" x2="330" y2="135" stroke="#000" strokeWidth="1.5" />
+            <line x1="330" y1="215" x2="530" y2="215" stroke="#000" strokeWidth="1.5" />
             
             {/* Y-axis labels */}
             <text x="322" y="218" fontSize="8" fill="#000" textAnchor="end">0</text>
-            <text x="322" y="190" fontSize="8" fill="#000" textAnchor="end">3</text>
+            <text x="322" y="176" fontSize="8" fill="#000" textAnchor="end">3</text>
             <text x="322" y="145" fontSize="8" fill="#000" textAnchor="end">5</text>
             
             {/* Bars */}
-            {/* Bar 1: 12–13, frequency 3 */}
-            <rect x="350" y="187" width="80" height="28" fill="#60a5fa" stroke="#000" strokeWidth="1" />
-            <text x="390" y="175" fontSize="9" fill="#1e40af" fontWeight="700" textAnchor="middle">3</text>
+            {/* Bar 1: 12–13, frequency 3, height 42 (3×14=42), y=173 (215-42=173) */}
+            <rect x="350" y="173" width="80" height="42" fill="#60a5fa" stroke="#000" strokeWidth="1" />
+            <text x="390" y="161" fontSize="9" fill="#1e40af" fontWeight="700" textAnchor="middle">3</text>
             
             {/* Bar 2: 14–15, frequency 5 */}
             <rect x="430" y="145" width="80" height="70" fill="#3b82f6" stroke="#000" strokeWidth="1.5" />
