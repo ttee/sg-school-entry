@@ -5884,7 +5884,7 @@ Useful phrases:
       dueDate: new Date("2026-10-08"),
       errorFocus: "can-must",
       parentBrief: "本周纠错焦点：can / must + 动词原形。中文「能/必须」不变形，孩子会说 I can to swim / I must to go / I can swimming。英语规则：can + 原形（能力或许可）；must + 原形（必须）；问句 Can I…? 请求许可。Cambridge A2 Key for Schools (Handbook 2020) 规定考 can（ability / permission）和 must（obligation）。",
-      videoUrl: null,
+      videoUrl: "/video/a2-w8.mp4",
       kaizenFocus: "Use can + infinitive for ability/permission and must + infinitive for obligation; no to after can/must",
       officialClipId: null,
       questions: [
