@@ -185,6 +185,23 @@ import WeikeMiniLesson from "./WeikeMiniLesson";
 import BoardWeike from "./BoardWeike";
 import SmathFigure from "./SmathFigure";
 
+function getSkillForWeek(level: string, weekNumber: number): { id: string; label: string } | null {
+  if (level !== "A2") return null;
+  
+  const skillMap: Record<number, { id: string; label: string }> = {
+    0: { id: "skill-articles", label: "冠词 a / an / the" },
+    1: { id: "skill-present-simple", label: "现在时第三人称 -s" },
+    2: { id: "skill-present-continuous", label: "现在进行时" },
+    3: { id: "skill-past-simple", label: "一般过去时" },
+    4: { id: "skill-quantifiers", label: "可数与不可数" },
+    5: { id: "skill-comparatives", label: "比较级" },
+    6: { id: "skill-prep-time", label: "时间介词 at / in / on" },
+    8: { id: "skill-classroom", label: "课堂 can / must" },
+  };
+  
+  return skillMap[weekNumber] || null;
+}
+
 type Question = {
   id: string;
   type: string;
@@ -577,6 +594,17 @@ export default function WeekHomework({
         </h1>
         {week.description && (
           <p className="text-ink-2">{week.description}</p>
+        )}
+        {getSkillForWeek(week.level, week.weekNumber) && (
+          <div className="mt-3">
+            <Link
+              href={`/skills/${getSkillForWeek(week.level, week.weekNumber)!.id}`}
+              className="inline-flex items-center gap-2 bg-accent/10 hover:bg-accent/20 text-accent px-3 py-1.5 rounded-full text-sm font-medium transition-colors"
+            >
+              <span>本周技能：{getSkillForWeek(week.level, week.weekNumber)!.label}</span>
+              <span>→</span>
+            </Link>
+          </div>
         )}
         {isCompleted && initialSubmission?.score !== null && (
           <div className="mt-4 bg-accent/10 border border-accent/20 rounded-lg px-4 py-3">
