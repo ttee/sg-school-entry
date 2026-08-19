@@ -1870,5 +1870,121 @@ export default function SmathFigure({ weekNumber }: { weekNumber: number }) {
     );
   }
 
+  if (weekNumber === 94) {
+    return (
+      <div className="bg-paper border border-line rounded-xl p-6 mb-6">
+        <h3 className="font-semibold text-ink mb-4 text-center">📊 本周图解</h3>
+        <div className="max-w-4xl mx-auto">
+          {/* Frequency table with calculation */}
+          <div className="flex flex-col items-center">
+            <svg viewBox="0 0 520 360" className="w-full max-w-[520px] h-auto">
+              {/* Title */}
+              <text x="260" y="20" fontSize="13" fill="#1a1a1a" fontWeight="700" textAnchor="middle">Grouped Data Mean: Frequency Table</text>
+              <text x="260" y="36" fontSize="11" fill="#6b7280" fontWeight="600" textAnchor="middle">Test scores of 20 students (分组数据平均数：20 个学生的测试成绩)</text>
+              
+              {/* Table headers */}
+              <rect x="40" y="55" width="120" height="30" fill="#8b5cf6" stroke="#1a1a1a" strokeWidth="1.5" />
+              <text x="100" y="75" fontSize="11" fill="white" fontWeight="700" textAnchor="middle">Score (分数)</text>
+              
+              <rect x="160" y="55" width="90" height="30" fill="#8b5cf6" stroke="#1a1a1a" strokeWidth="1.5" />
+              <text x="205" y="68" fontSize="10" fill="white" fontWeight="700" textAnchor="middle">Frequency</text>
+              <text x="205" y="80" fontSize="10" fill="white" fontWeight="700" textAnchor="middle">(f)</text>
+              
+              <rect x="250" y="55" width="90" height="30" fill="#d97706" stroke="#1a1a1a" strokeWidth="1.5" />
+              <text x="295" y="68" fontSize="10" fill="white" fontWeight="700" textAnchor="middle">Midpoint</text>
+              <text x="295" y="80" fontSize="10" fill="white" fontWeight="700" textAnchor="middle">(组中值)</text>
+              
+              <rect x="340" y="55" width="140" height="30" fill="#10b981" stroke="#1a1a1a" strokeWidth="1.5" />
+              <text x="410" y="68" fontSize="10" fill="white" fontWeight="700" textAnchor="middle">fx (midpoint × f)</text>
+              <text x="410" y="80" fontSize="10" fill="white" fontWeight="700" textAnchor="middle">(组中值 × 频数)</text>
+              
+              {/* Row 1: 10-19 */}
+              <rect x="40" y="85" width="120" height="28" fill="#f9fafb" stroke="#1a1a1a" strokeWidth="1" />
+              <text x="100" y="103" fontSize="11" fill="#1a1a1a" fontWeight="600" textAnchor="middle">10–19</text>
+              
+              <rect x="160" y="85" width="90" height="28" fill="#f9fafb" stroke="#1a1a1a" strokeWidth="1" />
+              <text x="205" y="103" fontSize="11" fill="#1a1a1a" fontWeight="600" textAnchor="middle">3</text>
+              
+              <rect x="250" y="85" width="90" height="28" fill="#fef3c7" stroke="#1a1a1a" strokeWidth="1" />
+              <text x="295" y="103" fontSize="11" fill="#d97706" fontWeight="700" textAnchor="middle">14.5</text>
+              
+              <rect x="340" y="85" width="140" height="28" fill="#d1fae5" stroke="#1a1a1a" strokeWidth="1" />
+              <text x="410" y="103" fontSize="11" fill="#10b981" fontWeight="700" textAnchor="middle">14.5 × 3 = 43.5</text>
+              
+              {/* Row 2: 20-29 */}
+              <rect x="40" y="113" width="120" height="28" fill="#ffffff" stroke="#1a1a1a" strokeWidth="1" />
+              <text x="100" y="131" fontSize="11" fill="#1a1a1a" fontWeight="600" textAnchor="middle">20–29</text>
+              
+              <rect x="160" y="113" width="90" height="28" fill="#ffffff" stroke="#1a1a1a" strokeWidth="1" />
+              <text x="205" y="131" fontSize="11" fill="#1a1a1a" fontWeight="600" textAnchor="middle">5</text>
+              
+              <rect x="250" y="113" width="90" height="28" fill="#fef3c7" stroke="#1a1a1a" strokeWidth="1" />
+              <text x="295" y="131" fontSize="11" fill="#d97706" fontWeight="700" textAnchor="middle">24.5</text>
+              
+              <rect x="340" y="113" width="140" height="28" fill="#d1fae5" stroke="#1a1a1a" strokeWidth="1" />
+              <text x="410" y="131" fontSize="11" fill="#10b981" fontWeight="700" textAnchor="middle">24.5 × 5 = 122.5</text>
+              
+              {/* Row 3: 30-39 */}
+              <rect x="40" y="141" width="120" height="28" fill="#f9fafb" stroke="#1a1a1a" strokeWidth="1" />
+              <text x="100" y="159" fontSize="11" fill="#1a1a1a" fontWeight="600" textAnchor="middle">30–39</text>
+              
+              <rect x="160" y="141" width="90" height="28" fill="#f9fafb" stroke="#1a1a1a" strokeWidth="1" />
+              <text x="205" y="159" fontSize="11" fill="#1a1a1a" fontWeight="600" textAnchor="middle">8</text>
+              
+              <rect x="250" y="141" width="90" height="28" fill="#fef3c7" stroke="#1a1a1a" strokeWidth="1" />
+              <text x="295" y="159" fontSize="11" fill="#d97706" fontWeight="700" textAnchor="middle">34.5</text>
+              
+              <rect x="340" y="141" width="140" height="28" fill="#d1fae5" stroke="#1a1a1a" strokeWidth="1" />
+              <text x="410" y="159" fontSize="11" fill="#10b981" fontWeight="700" textAnchor="middle">34.5 × 8 = 276</text>
+              
+              {/* Row 4: 40-49 */}
+              <rect x="40" y="169" width="120" height="28" fill="#ffffff" stroke="#1a1a1a" strokeWidth="1" />
+              <text x="100" y="187" fontSize="11" fill="#1a1a1a" fontWeight="600" textAnchor="middle">40–49</text>
+              
+              <rect x="160" y="169" width="90" height="28" fill="#ffffff" stroke="#1a1a1a" strokeWidth="1" />
+              <text x="205" y="187" fontSize="11" fill="#1a1a1a" fontWeight="600" textAnchor="middle">4</text>
+              
+              <rect x="250" y="169" width="90" height="28" fill="#fef3c7" stroke="#1a1a1a" strokeWidth="1" />
+              <text x="295" y="187" fontSize="11" fill="#d97706" fontWeight="700" textAnchor="middle">44.5</text>
+              
+              <rect x="340" y="169" width="140" height="28" fill="#d1fae5" stroke="#1a1a1a" strokeWidth="1" />
+              <text x="410" y="187" fontSize="11" fill="#10b981" fontWeight="700" textAnchor="middle">44.5 × 4 = 178</text>
+              
+              {/* Total row */}
+              <rect x="40" y="197" width="120" height="32" fill="#e0e7ff" stroke="#1a1a1a" strokeWidth="2" />
+              <text x="100" y="217" fontSize="11" fill="#1a1a1a" fontWeight="700" textAnchor="middle">Total (总计)</text>
+              
+              <rect x="160" y="197" width="90" height="32" fill="#dbeafe" stroke="#1a1a1a" strokeWidth="2" />
+              <text x="205" y="210" fontSize="10" fill="#3b82f6" fontWeight="700" textAnchor="middle">Σf = 20</text>
+              <text x="205" y="222" fontSize="8" fill="#6b7280" fontWeight="600" textAnchor="middle">(总频数)</text>
+              
+              <rect x="250" y="197" width="90" height="32" fill="#fef3c7" stroke="#1a1a1a" strokeWidth="2" />
+              <text x="295" y="217" fontSize="10" fill="#6b7280" fontWeight="600" textAnchor="middle">—</text>
+              
+              <rect x="340" y="197" width="140" height="32" fill="#d1fae5" stroke="#1a1a1a" strokeWidth="2" />
+              <text x="410" y="210" fontSize="10" fill="#10b981" fontWeight="700" textAnchor="middle">Σfx = 620</text>
+              <text x="410" y="222" fontSize="8" fill="#6b7280" fontWeight="600" textAnchor="middle">(总和)</text>
+              
+              {/* Calculation steps */}
+              <text x="260" y="252" fontSize="12" fill="#8b5cf6" fontWeight="700" textAnchor="middle">Step 1: Find midpoint (组中值) = (lower + upper) / 2</text>
+              <text x="260" y="268" fontSize="11" fill="#6b7280" fontWeight="600" textAnchor="middle">Example: Class 10–19, midpoint = (10 + 19) / 2 = 14.5</text>
+              
+              <text x="260" y="290" fontSize="12" fill="#8b5cf6" fontWeight="700" textAnchor="middle">Step 2: Calculate fx for each class (每组算 fx)</text>
+              <text x="260" y="306" fontSize="11" fill="#6b7280" fontWeight="600" textAnchor="middle">Example: fx = 14.5 × 3 = 43.5, then sum all fx to get Σfx</text>
+              
+              <text x="260" y="328" fontSize="13" fill="#ef4444" fontWeight="700" textAnchor="middle">Step 3: Mean = Σfx / Σf = 620 / 20 = 31</text>
+              <text x="260" y="344" fontSize="10" fill="#6b7280" fontWeight="600" textAnchor="middle">Estimated mean of test scores (估计平均分)</text>
+            </svg>
+            <p className="text-sm text-ink-2 text-center mt-4">
+              <span className="font-semibold">分组数据平均数计算表</span><br />
+              <span className="text-accent">Mean = Σfx / Σf = 620 / 20 = 31</span><br />
+              <span className="text-xs text-muted">用组中值代表该组，算 Σ(组中值 × 频数) ÷ 总频数</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
   return null;
 }
