@@ -256,7 +256,7 @@ export default function HomePage() {
                 <OfficialClip
                   videoId="Knyh8cm4kJU"
                   title="浙江孩子在华苑小学"
-                  credit="片源说明：CNA Insider / Mediacorp《Life As An International Student At A Singapore Primary School》（2019）。华苑小学真实校园，一名从浙江来的孩子。非 MOE 官方，不是 AEIS / CEQ 考题。日期与学费以官网为准。"
+                  credit="CNA Insider / Mediacorp《Life As An International Student At A Singapore Primary School》（2019）。华苑小学真实校园，一名从浙江来的孩子。非 MOE 官方，不是 AEIS / CEQ 考题。日期与学费以官网为准。"
                   hideWeeklyHomework={true}
                 />
               </div>
@@ -266,7 +266,7 @@ export default function HomePage() {
                 <OfficialClip
                   videoId="Mqf8E8vwEg0"
                   title="政府小学的一天（小一）"
-                  credit="片源说明：Kranji Primary School 官方频道《A Day In a Life of A P1 Student》。一所政府小学的一天，不是 AEIS 教程。"
+                  credit="Kranji Primary School 官方频道《A Day In a Life of A P1 Student》。一所政府小学的一天，不是 AEIS 教程。"
                   hideWeeklyHomework={true}
                 />
               </div>
@@ -286,7 +286,7 @@ export default function HomePage() {
             <OfficialClip
               videoId="ZjGt6r8XSTg"
               title="CEQ 口语长这样"
-              credit="片源：Cambridge English 官方频道 English with Cambridge《A2 Key for Schools Speaking test — Asia and Vittoria》。官方口语样例，不是本周作业。"
+              credit="Cambridge English 官方频道 English with Cambridge《A2 Key for Schools Speaking test — Asia and Vittoria》。官方口语样例，不是本周作业。"
               hideWeeklyHomework={true}
             />
 
@@ -345,7 +345,7 @@ export default function HomePage() {
                   AEIS 英语与 AEIS 数学两科都要考。中学路径不要求 CEQ。
                 </p>
                 <p className="text-sm text-ink-2 mb-4">
-                  中学英语有试学周 + 第 1–11 周。中学数学有试学周 + 第 1–90 周。申请 Sec 1 用前一级 P6；申请 Sec 2 用前一级 Sec 1；申请 Sec 3 用前一级 Sec 2。卷型：英语是写作 + 理解/语言运用；数学是选择题 + 写算式。
+                  中学英语有试学周 + 第 1–11 周。中学数学有试学周 + 第 1–91 周。申请 Sec 1 用前一级 P6；申请 Sec 2 用前一级 Sec 1；申请 Sec 3 用前一级 Sec 2。卷型：英语是写作 + 理解/语言运用；数学是选择题 + 写算式。
                 </p>
                 <ul className="space-y-0 border-t border-line">
                   <li className="border-b border-line py-3 pl-5 relative before:absolute before:left-0 before:top-5 before:w-2 before:h-2 before:rounded-full before:bg-accent text-sm text-ink-2">
@@ -400,7 +400,7 @@ export default function HomePage() {
                 </div>
                 <p className="text-xs font-semibold uppercase tracking-wide text-accent mb-3">按月订阅</p>
                 <p className="text-ink-2 mb-4 text-sm">
-                  作业 app 解锁已上线周数：A2 / B1 / SEC 各试学周 + 第 1–11 周，MATH 试学周 + 第 1–29 周，SMATH 试学周 + 第 1–90 周。家长微信进度通报。可随时取消。
+                  作业 app 解锁已上线周数：A2 / B1 / SEC 各试学周 + 第 1–11 周，MATH 试学周 + 第 1–29 周，SMATH 试学周 + 第 1–91 周。家长微信进度通报。可随时取消。
                 </p>
                 <ul className="space-y-0 border-t border-line mb-5">
                   <li className="border-b border-line py-3 pl-5 relative before:absolute before:left-0 before:top-5 before:w-2 before:h-2 before:rounded-full before:bg-accent text-sm text-ink-2">
