@@ -2904,7 +2904,7 @@ export default function SmathFigure({ weekNumber }: { weekNumber: number }) {
             <line x1="290" y1="145" x2="290" y2="155" stroke="#000" strokeWidth="1.5" />
             <text x="290" y="170" fontSize="9" fill="#000" textAnchor="middle">10</text>
             
-            <line x="334" y1="145" x2="334" y2="155" stroke="#000" strokeWidth="1.5" />
+            <line x1="334" y1="145" x2="334" y2="155" stroke="#000" strokeWidth="1.5" />
             <text x="334" y="170" fontSize="9" fill="#000" textAnchor="middle">12</text>
             
             <line x1="378" y1="145" x2="378" y2="155" stroke="#000" strokeWidth="1.5" />

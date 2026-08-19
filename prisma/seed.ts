@@ -17624,7 +17624,7 @@ At Riverside Secondary, Wei has heights (in cm) for 5 students: 150, 150, 150, 1
   • Mean uses every value; one extreme (an outlier) pulls it（平均数用了每个数；一个极端值会拉偏平均数）。例如：2, 3, 3, 3, 4, 20，平均数是 35/6 ≈ 5.8，但大部分学生得 2–4，只有一个学生得 20。平均数被 20 拉高了，不是大部分学生的典型分数。
   • Median is the middle; better when one value is far from the rest（中位数是中间的；有一个值离其他值很远时更稳）。例如：2, 3, 3, 3, 4, 20，中位数是 (3 + 3) / 2 = 3。中位数不受 20 的影响，更能代表大部分学生的典型分数。
   • Mode is the most common; use it for size/colour/favourite (categorical), or the typical score that appears most（众数是最常出现的；用来看尺寸/颜色/最喜欢的（分类数据），或者出现最多的典型分数）。例如：2, 3, 3, 3, 4, 20，众数是 3（出现 3 次）。众数不受 20 的影响。另外，如果数据是分类的（例如水果名、颜色、运动名），只能用众数，不能用平均数或中位数。
-✓ 化石 (fossil errors):
+✓ Common mistakes (fossil errors):
   • Always using the mean（每次都用平均数）：「The mean is always the best.」 Wrong. The mean is pulled by the outlier, so the median or mode is better when there is an outlier（错误：有极端值时，平均数被拉偏，中位数或众数更好）。
   • Calling the biggest value the mode（把最大的数叫做众数）：「The mode is 200 because 200 is the biggest value.」 Wrong. The mode is the most common value, not the biggest value（错误：众数是出现最多的值，不是最大的值）。
   • Using the mean for "favourite colour"（用平均数看"最喜欢的颜色"）：「The mean favourite colour is...」 Wrong. We cannot calculate the mean for colour names because they are not numerical data. Use the mode for categorical data（错误：颜色名不是数字，不能算平均数。用众数看分类数据）。
