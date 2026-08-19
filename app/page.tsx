@@ -181,7 +181,7 @@ export default function HomePage() {
                 </p>
                 <div className="bg-paper-2 rounded-xl p-4 mb-4 border border-line">
                   <p className="text-sm text-ink font-mono">
-                    CEQ English homework, 12 weeks, RMB 2,680 through me. Open this tonight, no account.
+                    12周 CEQ 英语作业，RMB 2,680，向升学顾问支付。试学周今晚可做，无需登录。
                   </p>
                 </div>
                 <p className="text-xs text-muted mb-1">
