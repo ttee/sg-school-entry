@@ -5724,7 +5724,7 @@ Useful phrases:
       dueDate: new Date("2026-10-01"),
       errorFocus: "going-to-future",
       parentBrief: "本周纠错焦点：be going to 表示打算。中文用「要/打算」不变形，孩子会说 I going to the library tomorrow / I go to swim / Tomorrow I go library（用裸现在时表达计划）。英语规则：I am going to + 动词原形；He/She is going to + 动词原形；We/They are going to + 动词原形。本周轻微对比 present continuous（第 2 周已教）：this week focuses on PLANS (going to), not actions happening now.",
-      videoUrl: null,
+      videoUrl: "/video/a2-w7.mp4",
       kaizenFocus: "Use be going to + infinitive for plans (I am going to visit…; She is going to…; We are going to…)",
       officialClipId: null,
       questions: [
