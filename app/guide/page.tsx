@@ -918,7 +918,7 @@ export default function GuidePage() {
                   <p className="text-sm font-semibold text-ink mb-3">1. 真实案例：一名来自浙江的国际学生</p>
                   <OfficialClip
                     videoId="Knyh8cm4kJU"
-                    credit="片源说明：CNA Insider / Mediacorp《Life As An International Student At A Singapore Primary School》（2019）。华苑小学真实校园，一名从浙江来的孩子。非 MOE 官方，不是 AEIS / CEQ 考题。日期与学费以官网为准。"
+                    credit="CNA Insider / Mediacorp《Life As An International Student At A Singapore Primary School》（2019）。华苑小学真实校园，一名从浙江来的孩子。非 MOE 官方，不是 AEIS / CEQ 考题。日期与学费以官网为准。"
                   />
                 </div>
 
@@ -927,7 +927,7 @@ export default function GuidePage() {
                   <p className="text-sm font-semibold text-ink mb-3">2. 期望管理：AEIS 多数派位到邻里小学</p>
                   <OfficialClip
                     videoId="kMUsrkuVk7k"
-                    credit="片源说明：联合早报 zaobaosg《名校 vs 邻里小学》（2025）。新加坡主流媒体，非教育部。AEIS 派位看空位和住址，多数是邻里小学。"
+                    credit="联合早报 zaobaosg《名校 vs 邻里小学》（2025）。新加坡主流媒体，非教育部。AEIS 派位看空位和住址，多数是邻里小学。"
                   />
                 </div>
 
@@ -936,7 +936,7 @@ export default function GuidePage() {
                   <p className="text-sm font-semibold text-ink mb-3">3. 政府小学的一天（小一学生）</p>
                   <OfficialClip
                     videoId="Mqf8E8vwEg0"
-                    credit="片源说明：Kranji Primary School 官方频道《A Day In a Life of A P1 Student》。一所政府小学的一天，不是 AEIS 教程。"
+                    credit="Kranji Primary School 官方频道《A Day In a Life of A P1 Student》。一所政府小学的一天，不是 AEIS 教程。"
                   />
                 </div>
               </div>

@@ -15933,6 +15933,121 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
         },
       ],
     },
+    {
+      level: "SMATH",
+      weekNumber: 91,
+      title: "单事件概率 — Probability of single events",
+      description: "Sec 2 S2 probability of single events (AEIS 中学数学第 91 周 / SMATH Week 91)",
+      isSample: false,
+      errorFocus: "treating probability as the count of favourable outcomes without dividing by the sample-space size; using the sum of the data; writing P > 1; skipping the list of equally likely outcomes",
+      parentBrief: "本周练单事件概率。先列出所有同样可能的结果，再写 P = 符合条件的个数 ÷ 全部个数。不要把个数本身当成概率。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "At Riverside Secondary, Mr Lim flips a fair coin once. Aisha asks: 「What is the probability of getting heads?」 Which working is correct?|A. List all equally likely outcomes: {heads, tails}. Total outcomes = 2. Favourable outcomes (heads) = 1. P(heads) = 1/2. ✓|B. P(heads) = 1 because there is 1 heads outcome. Fossil: treating the count as the probability (forgot to divide by total)|C. P(heads) = 2 because there are 2 outcomes. Fossil: using the total count as the probability|D. P(heads) = 1 because heads will happen. Fossil: saying P = 1 for any non-impossible event",
+            "At Riverside Secondary, Wei rolls a fair six-sided die once. What is the probability of rolling a 3?|A. P(3) = 1/6 (sample space: {1, 2, 3, 4, 5, 6}, total = 6, favourable = 1, P = 1/6)|B. P(3) = 1 (fossil: treating the count as the probability)|C. P(3) = 3 (fossil: using the outcome value as the probability)|D. P(3) = 6 (fossil: using the total count as the probability)",
+            "At Riverside Secondary, Aisha spins a spinner with 4 equal sectors labelled 1, 2, 3, 4. What is the probability of getting an even number?|A. P(even) = 1/2 (sample space: {1, 2, 3, 4}, even numbers: {2, 4}, favourable = 2, total = 4, P = 2/4 = 1/2)|B. P(even) = 2 (fossil: treating the count as the probability)|C. P(even) = 4 (fossil: using the total count as the probability)|D. P(even) = 1/4 (fossil: wrong calculation or forgot to count both 2 and 4)",
+            "At Riverside Secondary, Mr Lim has a bag with 3 red marbles and 2 blue marbles. Wei draws one marble at random. What is the probability of drawing a red marble?|A. P(red) = 3/5 (total marbles = 3 + 2 = 5, red marbles = 3, P = 3/5)|B. P(red) = 3 (fossil: treating the count as the probability)|C. P(red) = 5 (fossil: using the total count as the probability)|D. P(red) = 1/3 (fossil: wrong calculation)",
+            "At Riverside Secondary, Aisha rolls a fair die once. What is the probability of rolling a number greater than 6?|A. P(>6) = 0 (sample space: {1, 2, 3, 4, 5, 6}, no outcomes > 6, favourable = 0, P = 0/6 = 0)|B. P(>6) = 1 (fossil: saying it's certain)|C. P(>6) = 6 (fossil: using the total count)|D. P(>6) = 1/6 (fossil: wrong calculation)",
+          ]),
+          correctAnswer: "A,A,A,A,A",
+          points: 10,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "At Riverside Secondary, Wei flips a fair coin twice. Mr Lim asks: 「List all equally likely outcomes for the two flips.」 Which list is correct?|A. {HH, HT, TH, TT} (4 equally likely outcomes for two flips)|B. {H, T} (fossil: only listed one flip outcomes)|C. {HH, TT} (fossil: incomplete list, forgot HT and TH)|D. {0, 1, 2} (fossil: using counts instead of outcomes)",
+            "At Riverside Secondary, Aisha draws one card at random from a set of cards labelled A, B, C. What is the probability of drawing card B?|A. P(B) = 1/3 (sample space: {A, B, C}, total = 3, favourable = 1, P = 1/3)|B. P(B) = 1 (fossil: treating the count as the probability)|C. P(B) = 3 (fossil: using the total count as the probability)|D. P(B) = 2/3 (fossil: wrong calculation)",
+            "At Riverside Secondary, Wei spins a spinner with 5 equal sectors labelled 1, 2, 3, 4, 5. What is the probability of getting a number less than 3?|A. P(<3) = 2/5 (numbers less than 3: {1, 2}, favourable = 2, total = 5, P = 2/5)|B. P(<3) = 2 (fossil: treating the count as the probability)|C. P(<3) = 3/5 (fossil: wrong count, counted ≤3 instead of <3)|D. P(<3) = 1/5 (fossil: wrong calculation)",
+            "At Riverside Secondary, Mr Lim has a bag with 1 green marble, 2 yellow marbles, and 3 red marbles. Aisha draws one marble at random. What is the probability of drawing a yellow marble?|A. P(yellow) = 2/6 = 1/3 (total = 1 + 2 + 3 = 6, yellow = 2, P = 2/6 = 1/3 in lowest terms)|B. P(yellow) = 2 (fossil: treating the count as the probability)|C. P(yellow) = 2/5 (fossil: wrong total, forgot to count all marbles)|D. P(yellow) = 1/2 (fossil: wrong calculation)",
+            "At Riverside Secondary, Wei rolls a fair die once. What is the probability of rolling an odd number?|A. P(odd) = 1/2 (odd numbers: {1, 3, 5}, favourable = 3, total = 6, P = 3/6 = 1/2)|B. P(odd) = 3 (fossil: treating the count as the probability)|C. P(odd) = 1/3 (fossil: wrong calculation)|D. P(odd) = 3/5 (fossil: wrong total)",
+            "At Riverside Secondary, Aisha spins a spinner with 8 equal sectors: 4 are red, 3 are blue, 1 is green. What is the probability of getting red?|A. P(red) = 4/8 = 1/2 (total sectors = 8, red = 4, P = 4/8 = 1/2 in lowest terms)|B. P(red) = 4 (fossil: treating the count as the probability)|C. P(red) = 1/4 (fossil: wrong calculation)|D. P(red) = 4/7 (fossil: wrong total, forgot to count all sectors)",
+            "At Riverside Secondary, Wei draws one card at random from 5 cards labelled 10, 20, 30, 40, 50. What is the probability of drawing a card with a number divisible by 20?|A. P(divisible by 20) = 2/5 (numbers divisible by 20: {20, 40}, favourable = 2, total = 5, P = 2/5)|B. P(divisible by 20) = 2 (fossil: treating the count as the probability)|C. P(divisible by 20) = 1/5 (fossil: wrong count, forgot 40)|D. P(divisible by 20) = 3/5 (fossil: wrong count)",
+            "At Riverside Secondary, Mr Lim rolls a fair die once. Aisha says: 「The probability of rolling a 7 is P = 7/6 because 7 divided by 6.」 Is Aisha correct?|A. No, P cannot be greater than 1. Rolling a 7 is impossible on a die with faces 1–6. P(7) = 0/6 = 0.|B. Yes, P = 7/6 is correct|C. No, P(7) = 1 because there is 1 outcome of 7|D. Yes, P can be any number",
+          ]),
+          correctAnswer: "A,A,A,A,A,A,A,A",
+          points: 16,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `Part 2: Show Your Working (写出算式步骤)
+
+Riverside Secondary School has questions about probability of single events. Answer the questions below. Show your working clearly.
+
+Question (a)
+At Riverside Secondary, Wei flips a fair coin once.
+
+(i) List all equally likely outcomes. Write: Sample space = { ?, ? }
+(ii) How many outcomes are in the sample space? Write: Total outcomes = ?
+(iii) How many outcomes are favourable for getting tails? Write: Favourable outcomes (tails) = ?
+(iv) Calculate the probability of getting tails. Write: P(tails) = favourable / total = ? / ? = ?
+(v) Aisha says: 「P(tails) = 1 because there is 1 tails outcome.」 Explain why Aisha is wrong. What is P(tails)? (Hint: Probability = number of favourable outcomes divided by total number of equally likely outcomes, not just the count.)
+
+Question (b)
+At Riverside Secondary, Mr Lim rolls a fair six-sided die once.
+
+(i) List all equally likely outcomes. Write: Sample space = { ?, ?, ?, ?, ?, ? }
+(ii) How many outcomes are in the sample space? Write: Total outcomes = ?
+(iii) An even number means 2, 4, or 6. How many outcomes are even numbers? Write: Favourable outcomes (even) = ?
+(iv) Calculate the probability of rolling an even number. Write: P(even) = favourable / total = ? / ? = ? (simplify to lowest terms)
+(v) Wei says: 「P(even) = 3 because there are 3 even numbers.」 Explain why Wei is wrong. What is P(even)? (Hint: P = favourable / total, not just favourable.)
+
+Question (c)
+At Riverside Secondary, Aisha has a bag with 2 red marbles, 3 blue marbles, and 1 green marble. She draws one marble at random.
+
+(i) How many marbles are in the bag? Write: Total marbles = ? + ? + ? = ?
+(ii) List the marbles by colour and count. Write: Red: ?, Blue: ?, Green: ?
+(iii) What is the probability of drawing a blue marble? Show your working. Write: P(blue) = favourable / total = ? / ? = ? (simplify if possible)
+(iv) What is the probability of drawing a red marble? Show your working. Write: P(red) = ? / ? = ? (simplify if possible)
+(v) Mr Lim asks: 「What is the probability of drawing a yellow marble?」 There are no yellow marbles in the bag. What is P(yellow)? Explain why. (Hint: If an event is impossible, P = 0.)
+
+写作提示 / Tips:
+✓ 每题分步骤写出推理 (Show working steps for each question)
+✓ Part 2 官方要求：clearly show the method of solution by writing working steps, plus the final answer
+✓ 不用计算器 (No calculators allowed)
+✓ 本周教 Sec 2 STATISTICS AND PROBABILITY, S2. Probability: 本周是 probability as a measure of chance and probability of single events（概率作为偶然性的度量和单事件概率）。Probability = (number of equally likely favourable outcomes) / (number of equally likely possible outcomes). P is a fraction in lowest terms (or 0 or 1). 0 ≤ P ≤ 1. List the sample space for a coin, a fair die, a spinner with equal sectors, or drawing one card/marble from a small listed set. Integer counts only. 本周不教 combined events（组合事件）、possibility diagrams（可能性图表）、tree diagrams（树状图）、addition/multiplication of probabilities（概率加法/乘法）、mutually exclusive / independent events（互斥/独立事件）。官方来源：MOE 2020 G2 and G3 Mathematics Syllabuses (Full SBB), Statistics and Probability, S2. Probability: 2.1 probability as a measure of chance, 2.2 probability of single events (including listing all the possible outcomes in a simple chance situation to calculate the probability). 官方文件 PDF 链接：https://www.moe.gov.sg/api/media/d415c25d-cf29-4b05-83da-9713f38edd14/2020-G2-and-G3-Mathematics-Syllabuses.pdf (也可历史引用为 moe.gov.sg 2020-g2-and-g3-mathematics-syllabuses.pdf). Cast: Wei, Aisha, Mr Lim at Riverside Secondary. No calculator.
+✓ 单事件概率步骤示范 (Probability of single events examples):
+  • Fair coin, P(heads):
+    Question: A fair coin is flipped once. What is the probability of getting heads? Show your working.
+    Solution: ① List all equally likely outcomes (sample space): {heads, tails}. ② Count total outcomes: 2. ③ Count favourable outcomes (heads): 1. ④ Calculate probability: P(heads) = favourable / total = 1 / 2. Answer: 1/2. (Note: Common fossil: saying P(heads) = 1 because there is 1 heads outcome. This is wrong because probability is not just the count, it is the count divided by the total number of equally likely outcomes. P = favourable / total = 1 / 2, not 1.)
+  • Fair die, P(rolling a 5):
+    Question: A fair six-sided die is rolled once. What is the probability of rolling a 5? Show your working.
+    Solution: ① List all equally likely outcomes (sample space): {1, 2, 3, 4, 5, 6}. ② Count total outcomes: 6. ③ Count favourable outcomes (rolling a 5): 1. ④ Calculate probability: P(5) = favourable / total = 1 / 6. Answer: 1/6. (Note: Fossil: saying P(5) = 1 or P(5) = 5. Wrong. P = 1 / 6.)
+  • Spinner with 4 equal sectors labelled A, B, C, D, P(B):
+    Question: A spinner has 4 equal sectors labelled A, B, C, D. What is the probability of landing on B? Show your working.
+    Solution: ① List all equally likely outcomes: {A, B, C, D}. ② Count total outcomes: 4. ③ Count favourable outcomes (B): 1. ④ Calculate probability: P(B) = 1 / 4. Answer: 1/4.
+  • Marbles: 2 red, 3 blue, draw one, P(blue):
+    Question: A bag contains 2 red marbles and 3 blue marbles. One marble is drawn at random. What is the probability of drawing a blue marble? Show your working.
+    Solution: ① Count total marbles: 2 + 3 = 5. ② Count blue marbles: 3. ③ List marbles (if needed to clarify equally likely): {red₁, red₂, blue₁, blue₂, blue₃}. Each marble is equally likely to be drawn. ④ Calculate probability: P(blue) = favourable / total = 3 / 5. Answer: 3/5. (Note: Fossil: saying P(blue) = 3. Wrong. P = 3 / 5.)
+  • P = 0 for impossible events:
+    Question: A fair die with faces 1, 2, 3, 4, 5, 6 is rolled once. What is the probability of rolling a 7? Explain.
+    Solution: The sample space is {1, 2, 3, 4, 5, 6}. There is no outcome of 7 in the sample space. Favourable outcomes (rolling a 7) = 0. P(7) = 0 / 6 = 0. Answer: 0. Explanation: Rolling a 7 is impossible on this die, so P = 0.
+  • P = 1 for certain events:
+    Question: A fair die with faces 1, 2, 3, 4, 5, 6 is rolled once. What is the probability of rolling a number from 1 to 6? Explain.
+    Solution: The sample space is {1, 2, 3, 4, 5, 6}. All outcomes are numbers from 1 to 6. Favourable outcomes = 6. Total outcomes = 6. P(1 to 6) = 6 / 6 = 1. Answer: 1. Explanation: Rolling a number from 1 to 6 is certain on this die, so P = 1.
+✓ 关键步骤：Step 1: List all equally likely possible outcomes (sample space)（列出所有同样可能的结果，即样本空间）. Step 2: Count the total number of outcomes n（数全部结果的个数 n）. Step 3: Count the number of favourable outcomes for the event m（数符合条件的结果个数 m）. Step 4: Calculate the probability P = m / n（计算概率 P = m / n）. Step 5: Simplify the fraction to lowest terms if possible（如果可能，化简为最简分数）. Step 6: Check that 0 ≤ P ≤ 1 (probability cannot be negative or greater than 1)（检查 0 ≤ P ≤ 1，概率不能是负数或大于 1）. Step 7: State the final answer（陈述最终答案）.
+✓ 化石 (fossil errors):
+  • Treating probability as the count of favourable outcomes without dividing by the sample-space size（把概率当成符合条件的个数，忘记除以全部个数）：Coin flip: favourable (heads) = 1, saying P(heads) = 1. Wrong. P = 1 / 2（错误：说 P(heads) = 1，正确：P = 1 / 2）。Always divide by total outcomes.
+  • Using the sum of the data as probability（把数据的和当成概率）：Rolling a die, sum of outcomes 1+2+3+4+5+6 = 21, saying P(even) = 21. Wrong. P is not the sum（错误：用和 21 当概率，正确：P = favourable / total）。
+  • Writing P > 1（概率 > 1）：Saying P(5 on a die) = 5 or P(red) = 3 when there are 3 red marbles out of 5. Wrong. Probability must be ≤ 1（错误：P > 1，正确：P ≤ 1）。
+  • Skipping the list of equally likely outcomes（不列出同样可能的结果）：Saying P without first listing the sample space. Risk: might miss outcomes or count wrong（错误：不列样本空间就猜 P，容易算错。正确：先列出所有同样可能的结果）。
+  • Using percent talk as 100/100 without listing（用百分比说法但不列举）：Saying "it will happen" means P = 100 so P = 100/100 = 1 for any event. Wrong unless the event is certain（错误：说"会发生"就是 P = 1。正确：only certain events have P = 1）。
+  • 本周教 S2 的 2.1 probability as a measure of chance 和 2.2 probability of single events（单事件概率）。本周不教 2.3 simple combined events（简单组合事件）、possibility diagrams（可能性图表）、tree diagrams（树状图）。本周不教 2.4 addition/multiplication of probabilities（概率加法/乘法）、mutually exclusive / independent events（互斥/独立事件）。本周不教 grouped-data mean（分组数据平均数）。本周不教 Pythagoras / trigonometry（勾股定理/三角函数）。本周不教 G4 content（G4 内容）。本周不教 G2 similar figures（G2 相似图形）。
+✓ Writing 数值不能抄 微课（如果本周有微课）或 MCQ 的其他数值。Writing Q 用 fair coin (Q a); fair die P(even) (Q b); 2 red + 3 blue + 1 green marbles, P(blue) = 3/6 = 1/2, P(red) = 2/6 = 1/3, P(yellow) = 0 (Q c)。不能抄本周 MCQ 的其他数值（3 red + 2 blue; spinner 4 sectors; die P(3); spinner 5 sectors P(<3); 1 green + 2 yellow + 3 red; spinner 8 sectors 4 red + 3 blue + 1 green; 5 cards 10,20,30,40,50 等）。也不能用 W87–W90 writing 的立体几何/mean/mode/median 数值（那些周是立体几何/统计，本周是概率，不能重复）。
+
+Note: This is a sample of Part 2 short-answer/open-ended questions. The official paper has 20 short-answer + 10–15 open-ended items in 1 hour 45 minutes.`,
+          points: 20,
+        },
+      ],
+    },
   ];
 
 
