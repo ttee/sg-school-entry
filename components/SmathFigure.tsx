@@ -3148,5 +3148,57 @@ export default function SmathFigure({ weekNumber }: { weekNumber: number }) {
     );
   }
 
+  if (weekNumber === 107) {
+    return (
+      <div className="bg-paper border border-line rounded-xl p-6 mb-6">
+        <h3 className="font-semibold text-ink mb-4 text-center">📊 本周图解</h3>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
+          {/* Tile 1: Multiplication law */}
+          <div className="bg-blue-50 border-2 border-blue-300 rounded-xl p-5 flex flex-col items-center justify-center">
+            <p className="text-sm text-blue-900 font-semibold mb-3">相乘指数相加</p>
+            <div className="text-center">
+              <p className="text-3xl font-bold text-blue-900 mb-2">2³ × 2⁴ = 2⁷</p>
+              <p className="text-sm text-blue-700">3 + 4 = 7</p>
+              <p className="text-xs text-blue-600 mt-2">a^m × a^n = a^(m+n)</p>
+              <p className="text-xs text-red-600 mt-2">❌ 2³ × 2⁴ = 4⁷</p>
+            </div>
+          </div>
+
+          {/* Tile 2: Division law */}
+          <div className="bg-green-50 border-2 border-green-300 rounded-xl p-5 flex flex-col items-center justify-center">
+            <p className="text-sm text-green-900 font-semibold mb-3">相除指数相减</p>
+            <div className="text-center">
+              <p className="text-3xl font-bold text-green-900 mb-2">2⁵ ÷ 2² = 2³</p>
+              <p className="text-sm text-green-700">5 − 2 = 3</p>
+              <p className="text-xs text-green-600 mt-2">a^m ÷ a^n = a^(m−n)</p>
+              <p className="text-xs text-red-600 mt-2">❌ 2⁵ ÷ 2² = 1³</p>
+            </div>
+          </div>
+
+          {/* Tile 3: Power law */}
+          <div className="bg-purple-50 border-2 border-purple-300 rounded-xl p-5 flex flex-col items-center justify-center">
+            <p className="text-sm text-purple-900 font-semibold mb-3">乘方指数相乘</p>
+            <div className="text-center">
+              <p className="text-3xl font-bold text-purple-900 mb-2">(2³)² = 2⁶</p>
+              <p className="text-sm text-purple-700">3 × 2 = 6</p>
+              <p className="text-xs text-purple-600 mt-2">(a^m)^n = a^(m×n)</p>
+              <p className="text-xs text-red-600 mt-2">❌ (2³)² = 2⁵</p>
+            </div>
+          </div>
+        </div>
+
+        <div className="mt-6 bg-accent/5 border border-accent/20 rounded-xl p-4">
+          <p className="text-sm text-ink-2 text-center leading-relaxed">
+            <strong className="text-ink">本周重点（N1.10 laws of indices）：</strong><br />
+            • <strong>相乘指数相加：</strong>2³ × 2⁴ = 2^(3+4) = 2⁷（a^m × a^n = a^(m+n)）<br />
+            • <strong>相除指数相减：</strong>2⁵ ÷ 2² = 2^(5−2) = 2³（a^m ÷ a^n = a^(m−n)）<br />
+            • <strong>乘方指数相乘：</strong>(2³)² = 2^(3×2) = 2⁶（(a^m)^n = a^(m×n)）<br />
+            <span className="text-accent font-semibold">常见错误：2³ × 2⁴ = 4⁷（底数也加）；2³ × 2⁴ = 2¹²（指数相乘）；(2³)² = 2⁵（指数相加）</span>
+          </p>
+        </div>
+      </div>
+    );
+  }
+
   return null;
 }
