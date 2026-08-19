@@ -2566,5 +2566,128 @@ export default function SmathFigure({ weekNumber }: { weekNumber: number }) {
     );
   }
 
+  if (weekNumber === 101) {
+    return (
+      <div className="bg-paper border border-line rounded-xl p-6 mb-6">
+        <h3 className="font-semibold text-ink mb-4 text-center">📊 本周图解</h3>
+        <div className="flex flex-col items-center max-w-2xl mx-auto">
+          <svg viewBox="0 0 520 440" className="w-full max-w-[520px] h-auto">
+            {/* Title */}
+            <text x="260" y="20" fontSize="14" fill="#1a1a1a" fontWeight="700" textAnchor="middle">Dot Diagram, Histogram, and Stem-and-Leaf 点图、直方图和茎叶图</text>
+            <text x="260" y="38" fontSize="11" fill="#6b7280" textAnchor="middle">Same data shown three ways 同一组数据的三种表示</text>
+            
+            {/* Data: 12, 13, 13, 14, 14, 14, 15, 15 (8 values) */}
+            
+            {/* Section 1: Dot Diagram 点图 */}
+            <text x="260" y="65" fontSize="13" fill="#3b82f6" fontWeight="700" textAnchor="middle">1. Dot Diagram 点图</text>
+            <text x="260" y="80" fontSize="9" fill="#6b7280" textAnchor="middle">Each dot = one value 每个点是一个数据</text>
+            
+            {/* Number line for dots */}
+            <line x1="100" y1="110" x2="420" y2="110" stroke="#3b82f6" strokeWidth="1.5" />
+            
+            {/* Marks: 12, 13, 14, 15 at equal spacing */}
+            <line x1="140" y1="107" x2="140" y2="113" stroke="#3b82f6" strokeWidth="1.5" />
+            <text x="140" y="125" fontSize="10" fill="#3b82f6" textAnchor="middle">12</text>
+            
+            <line x1="220" y1="107" x2="220" y2="113" stroke="#3b82f6" strokeWidth="1.5" />
+            <text x="220" y="125" fontSize="10" fill="#3b82f6" textAnchor="middle">13</text>
+            
+            <line x1="300" y1="107" x2="300" y2="113" stroke="#3b82f6" strokeWidth="1.5" />
+            <text x="300" y="125" fontSize="10" fill="#3b82f6" textAnchor="middle">14</text>
+            
+            <line x1="380" y1="107" x2="380" y2="113" stroke="#3b82f6" strokeWidth="1.5" />
+            <text x="380" y="125" fontSize="10" fill="#3b82f6" textAnchor="middle">15</text>
+            
+            {/* Dots: 1 at 12, 2 at 13, 3 at 14, 2 at 15 */}
+            {/* 12: 1 dot */}
+            <circle cx="140" cy="95" r="4" fill="#3b82f6" />
+            
+            {/* 13: 2 dots stacked */}
+            <circle cx="220" cy="95" r="4" fill="#3b82f6" />
+            <circle cx="220" cy="85" r="4" fill="#3b82f6" />
+            
+            {/* 14: 3 dots stacked (mode) */}
+            <circle cx="300" cy="95" r="4" fill="#10b981" />
+            <circle cx="300" cy="85" r="4" fill="#10b981" />
+            <circle cx="300" cy="75" r="4" fill="#10b981" />
+            <text x="300" y="67" fontSize="8" fill="#10b981" fontWeight="700" textAnchor="middle">mode 众数</text>
+            
+            {/* 15: 2 dots stacked */}
+            <circle cx="380" cy="95" r="4" fill="#3b82f6" />
+            <circle cx="380" cy="85" r="4" fill="#3b82f6" />
+            
+            <text x="260" y="142" fontSize="9" fill="#6b7280" textAnchor="middle">Value 14 has the most dots (3), so mode = 14</text>
+            
+            {/* Section 2: Histogram 直方图 */}
+            <text x="260" y="175" fontSize="13" fill="#10b981" fontWeight="700" textAnchor="middle">2. Histogram 直方图</text>
+            <text x="260" y="190" fontSize="9" fill="#6b7280" textAnchor="middle">Bars touch 柱子连着 | Height = frequency 高度是频数</text>
+            
+            {/* Histogram bars: 12-13 (1), 13-14 (2), 14-15 (3), 15-16 (2) */}
+            {/* Using class intervals: 12-13, 13-14, 14-15, 15-16 */}
+            
+            {/* Axes */}
+            <line x1="80" y1="310" x2="80" y2="210" stroke="#000" strokeWidth="1.5" />
+            <line x1="80" y1="310" x2="440" y2="310" stroke="#000" strokeWidth="1.5" />
+            
+            {/* Y-axis labels */}
+            <text x="70" y="313" fontSize="9" fill="#000" textAnchor="end">0</text>
+            <text x="70" y="285" fontSize="9" fill="#000" textAnchor="end">1</text>
+            <text x="70" y="255" fontSize="9" fill="#000" textAnchor="end">2</text>
+            <text x="70" y="225" fontSize="9" fill="#000" textAnchor="end">3</text>
+            
+            {/* Bars (each bar width 90px, bars touch) */}
+            {/* Bar 1: 12-13, frequency 1, height 30px per unit, so height 30 */}
+            <rect x="80" y="280" width="90" height="30" fill="#10b981" stroke="#000" strokeWidth="1" />
+            <text x="125" y="270" fontSize="9" fill="#10b981" fontWeight="700" textAnchor="middle">1</text>
+            
+            {/* Bar 2: 13-14, frequency 2, height 60 */}
+            <rect x="170" y="250" width="90" height="60" fill="#10b981" stroke="#000" strokeWidth="1" />
+            <text x="215" y="240" fontSize="9" fill="#10b981" fontWeight="700" textAnchor="middle">2</text>
+            
+            {/* Bar 3: 14-15, frequency 3, height 90 (tallest, modal class) */}
+            <rect x="260" y="220" width="90" height="90" fill="#f59e0b" stroke="#000" strokeWidth="1.5" />
+            <text x="305" y="210" fontSize="9" fill="#f59e0b" fontWeight="700" textAnchor="middle">3</text>
+            <text x="305" y="200" fontSize="8" fill="#f59e0b" fontWeight="700" textAnchor="middle">modal class</text>
+            
+            {/* Bar 4: 15-16, frequency 2, height 60 */}
+            <rect x="350" y="250" width="90" height="60" fill="#10b981" stroke="#000" strokeWidth="1" />
+            <text x="395" y="240" fontSize="9" fill="#10b981" fontWeight="700" textAnchor="middle">2</text>
+            
+            {/* X-axis labels */}
+            <text x="125" y="327" fontSize="9" fill="#000" textAnchor="middle">12-13</text>
+            <text x="215" y="327" fontSize="9" fill="#000" textAnchor="middle">13-14</text>
+            <text x="305" y="327" fontSize="9" fill="#f59e0b" fontWeight="700" textAnchor="middle">14-15</text>
+            <text x="395" y="327" fontSize="9" fill="#000" textAnchor="middle">15-16</text>
+            
+            <text x="260" y="345" fontSize="9" fill="#6b7280" textAnchor="middle">Read class intervals 读组距 | Tallest bar is modal class (14-15) 最高柱是众数组距</text>
+            
+            {/* Section 3: Stem-and-Leaf 茎叶图 */}
+            <text x="260" y="375" fontSize="13" fill="#d97706" fontWeight="700" textAnchor="middle">3. Stem-and-Leaf Diagram 茎叶图</text>
+            <text x="260" y="390" fontSize="9" fill="#6b7280" textAnchor="middle">Key 图例: 1 | 2 means 12</text>
+            
+            {/* Stem-and-leaf display */}
+            <text x="200" y="410" fontSize="10" fill="#d97706" fontWeight="700" textAnchor="end">Stem | Leaf</text>
+            <text x="220" y="410" fontSize="10" fill="#000" textAnchor="start">茎 | 叶</text>
+            
+            <text x="200" y="428" fontSize="11" fill="#d97706" fontWeight="700" textAnchor="end">1 |</text>
+            <text x="220" y="428" fontSize="11" fill="#000" textAnchor="start">2 3 3 4 4 4 5 5</text>
+            
+            <text x="260" y="445" fontSize="9" fill="#6b7280" textAnchor="middle">Stem = tens 茎是十位 | Leaf = ones 叶是个位 | Count leaves for total (8 values)</text>
+          </svg>
+        </div>
+
+        <div className="mt-6 bg-accent/5 border border-accent/20 rounded-xl p-4">
+          <p className="text-sm text-ink-2 text-center">
+            <strong className="text-ink">三种图的读法：</strong><br />
+            • <strong>Dot diagram</strong>: Each dot = one value. Most dots = mode（点图：每个点是一个数据，点最多的值是众数）<br />
+            • <strong>Histogram</strong>: Bars touch. Height = frequency. Read class interval, not bar edge（直方图：柱子连着，高度是频数，读组距不是柱边）<br />
+            • <strong>Stem-and-leaf</strong>: Always check the key! 1 | 2 means 12, not 1 + 2 = 3（茎叶图：要看图例！1 | 2 means 12）<br />
+            <span className="text-accent font-semibold">All three show the same data (8 values: 12, 13, 13, 14, 14, 14, 15, 15). Mode = 14.（同一组数据，众数 = 14）</span>
+          </p>
+        </div>
+      </div>
+    );
+  }
+
   return null;
 }

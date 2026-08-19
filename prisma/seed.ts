@@ -17211,6 +17211,125 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
         },
       ],
     },
+    {
+      level: "SMATH",
+      weekNumber: 101,
+      title: "点图、直方图和茎叶图 — Dot diagrams, histograms and stem-and-leaf",
+      description: "S1.5 analysis and interpretation of dot diagrams, histograms and stem-and-leaf diagrams (AEIS 中学数学第 101 周 / SMATH Week 101)",
+      isSample: false,
+      errorFocus: "reading a stem-and-leaf without the key; treating a histogram like a bar graph of named categories; counting dots wrong",
+      parentBrief: "本周读点图、直方图和茎叶图。茎叶图要看图例（key）：4 | 2 means 42。直方图的柱是连着的，读组距（class interval），不要当成普通条形图。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "At Riverside Secondary, Mr Lim has a dot diagram showing the test scores of 10 students: 12, 12, 12, 14, 15, 15, 16, 16, 16, 16. Each dot represents one student's score. How many students scored 16?|A. 4 students scored 16. (Count the dots at 16: there are 4 dots at 16, so 4 students scored 16.)|B. 3 students scored 16. Fossil: counting the dots wrong. There are 4 dots at 16, not 3.|C. 16 students scored. Fossil: confusing the score with the number of students. 16 is the score, not the number of students. The number of students who scored 16 is the number of dots at 16 (4 students).|D. 5 students scored 16. Fossil: counting the total number of dots instead of the dots at 16. The total is 10 students, but only 4 of them scored 16.",
+            "At Riverside Secondary, Aisha has a stem-and-leaf diagram with a key: 4 | 2 means 42. The diagram shows: Stem | Leaf. 2 | 3 5. 3 | 1 4 8. 4 | 2. What is the smallest value in this data set?|A. 23. (The key says 4 | 2 means 42, so the stem is the tens place and the leaf is the ones place. The first row is 2 | 3 5, which means 23 and 25. The smallest value is 23.)|B. 2. Fossil: reading the stem without the leaf. The stem 2 alone is not a value. We need to read the stem and the leaf together (2 | 3 means 23).|C. 3. Fossil: reading only the leaf. The leaf 3 alone is not the value. The key says 4 | 2 means 42, so we read the stem (2) and the leaf (3) together to get 23.|D. 5. Fossil: reading the wrong leaf. The first leaf is 3 (not 5), so the smallest value is 23 (not 25).",
+            "At Riverside Secondary, Wei has a histogram showing the number of students in different score ranges: Score 0–10 (4 students), Score 10–20 (6 students), Score 20–30 (5 students). The bars in the histogram touch each other. Which statement is correct?|A. The histogram shows grouped data with class intervals (0–10, 10–20, 20–30). The bars touch because a histogram is for continuous data. We read the class interval, not the bar edge.|B. The histogram shows 3 named categories: 0–10, 10–20, 20–30. Fossil: treating a histogram like a bar graph. A histogram is for continuous data with class intervals, not named categories. The bars touch in a histogram, but they are separate in a bar graph.|C. The bar for Score 0–10 starts at 0 and ends at 10, so the bar has a width of 10. Fossil: confusing the class interval with the bar height. The width of the bar is the class interval (10), but the height of the bar shows the frequency (4 students), not the width.|D. The bar for Score 10–20 is at x = 10, so all students in this bar scored exactly 10. Fossil: reading the bar edge as the score. The bar for Score 10–20 represents the class interval (10 to 20), not a single score of 10. Students in this bar scored between 10 and 20.",
+            "At Riverside Secondary, Mr Lim has a dot diagram showing the ages of 8 students: 12, 12, 13, 13, 13, 14, 15, 15. Aisha says: 「The age 13 has the most dots, so the mode is 13.」 Is Aisha correct?|A. Aisha is correct. The age 13 has 3 dots, which is more than any other age. In a dot diagram, the value with the most dots is the mode (most common value). So the mode is 13.|B. Aisha is wrong. The mode is the age with the fewest dots. Fossil: confusing mode with the least common value. The mode is the most common value (the age with the most dots), not the least common value.|C. Aisha is wrong. The mode is the total number of dots (8). Fossil: confusing mode with the total. The mode is the most common value (13), not the total number of students (8).|D. Aisha is wrong. The dot diagram does not show the mode. Fossil: not understanding that the mode is the value with the most dots in a dot diagram. The mode is the most common value, and we can see it by counting the dots at each age.",
+            "At Riverside Secondary, Wei has a stem-and-leaf diagram. The key says: 3 | 7 means 37. The diagram shows: Stem | Leaf. 4 | 2 5. 5 | 1 1 3 8. 6 | 0. How many values are in the data set?|A. 7 values. (Count all the leaves: row 4 has 2 leaves (2 and 5), row 5 has 4 leaves (1, 1, 3, and 8), row 6 has 1 leaf (0). Total: 2 + 4 + 1 = 7 values.)|B. 3 values. Fossil: counting the number of rows (stems) instead of the number of leaves. There are 3 stems (4, 5, 6), but the number of values is the number of leaves (7).|C. 10 values. Fossil: adding the stems and leaves together. The number of values is the number of leaves (7), not the sum of the stems and leaves.|D. 6 values. Fossil: missing one leaf. There are 7 leaves, not 6. Check the count: row 4 has 2 leaves, row 5 has 4 leaves, row 6 has 1 leaf (2 + 4 + 1 = 7).",
+          ]),
+          correctAnswer: "A,A,A,A,A",
+          points: 10,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "At Riverside Secondary, Mr Lim has a histogram showing the number of students in different height ranges (in cm): Height 140–150 (3 students), Height 150–160 (7 students), Height 160–170 (5 students). Which statement is correct?|A. The histogram shows 3 class intervals: 140–150, 150–160, and 160–170. The tallest bar is Height 150–160 with 7 students, so the modal class is 150–160 cm.|B. The histogram shows 15 students (3 + 7 + 5 = 15), so the mode is 15. Fossil: confusing the total frequency with the mode. The total number of students is 15, but the mode is the most common value (the modal class is 150–160 cm).|C. The bar for Height 150–160 has a frequency of 7, so all students are 157 cm tall (the middle of the interval). Fossil: assuming all students in a class have the middle value. The bar shows the frequency (7 students), but we don't know each student's exact height. We only know they are between 150 and 160 cm.|D. The histogram has 3 bars, so there are 3 students. Fossil: confusing the number of bars with the number of students. The number of bars is the number of class intervals (3), but the number of students is the sum of the frequencies (3 + 7 + 5 = 15).",
+            "At Riverside Secondary, Aisha has a stem-and-leaf diagram with a key: 2 | 5 means 25. The diagram shows: Stem | Leaf. 3 | 2 6. 4 | 1 3 3 7. 5 | 0 2. Wei says: 「The value 43 appears twice in the data set.」 Is Wei correct?|A. Wei is correct. The key says 2 | 5 means 25, so the stem is the tens place and the leaf is the ones place. The row 4 | 1 3 3 7 means 41, 43, 43, 47. The value 43 has two leaves (3 and 3), so 43 appears twice.|B. Wei is wrong. The value 43 appears once. Fossil: not counting repeated leaves. The row 4 | 1 3 3 7 has two leaves of 3, so 43 appears twice (not once).|C. Wei is wrong. The value 43 is the sum of the stem and the leaf (4 + 3 = 7). Fossil: adding the stem and the leaf instead of reading them as tens and ones. The key says 2 | 5 means 25, so 4 | 3 means 43 (not 4 + 3 = 7).|D. Wei is wrong. The stem 4 appears only once, so the value 4 appears once. Fossil: reading the stem without the leaf. The stem 4 alone is not a value. The row 4 | 1 3 3 7 has 4 values (41, 43, 43, 47), not 1 value.",
+            "At Riverside Secondary, Wei has a dot diagram showing the number of books read by 12 students last month: 1, 1, 2, 2, 2, 2, 3, 3, 3, 4, 4, 5. Aisha says: 「The range is 5, so the students read 5 books in total.」 Is Aisha correct?|A. Aisha is wrong. The range is the difference between the highest and lowest values: 5 − 1 = 4. Aisha confused the range (4) with the highest value (5). The range tells us the spread of the data, not the total.|B. Aisha is correct. The range is the highest value, which is 5. Fossil: confusing the range with the highest value. The range is the difference between the highest and lowest values (5 − 1 = 4), not the highest value alone (5).|C. Aisha is correct. The range is 5, and this is the total number of books read. Fossil: confusing the range with the total. The range is the difference between the highest and lowest values (4), and the total number of books read is the sum of all values (1 + 1 + 2 + 2 + 2 + 2 + 3 + 3 + 3 + 4 + 4 + 5 = 32).|D. Aisha is wrong. The range is the total number of students (12). Fossil: confusing the range with the total number of students. The range is the difference between the highest and lowest values (5 − 1 = 4), not the number of students (12).",
+            "At Riverside Secondary, Mr Lim has a histogram showing the number of students in different score ranges: Score 60–70 (2 students), Score 70–80 (8 students), Score 80–90 (6 students), Score 90–100 (4 students). Wei wants to find the median class. Which statement is correct?|A. The total number of students is 2 + 8 + 6 + 4 = 20. The median position is (20 + 1) / 2 = 10.5, which is in the 11th position (rounding up). Counting from the left: Score 60–70 has 2 students (positions 1–2), Score 70–80 has 8 students (positions 3–10), Score 80–90 has 6 students (positions 11–16). The 11th position is in the class 80–90, so the median class is 80–90.|B. The median is the middle bar, which is Score 70–80 or Score 80–90. Fossil: assuming the median class is always the middle bar. The median class is the class that contains the middle position (position 10.5 or 11), which is Score 80–90, not the middle bar.|C. The tallest bar is Score 70–80 with 8 students, so the median class is 70–80. Fossil: confusing the median class with the modal class. The tallest bar (70–80) is the modal class (most common class), not the median class. The median class is the class that contains the middle position (80–90).|D. The median class is the class with the median score, which is (60 + 100) / 2 = 80. Fossil: confusing the median of the class boundaries with the median class. The median class is the class that contains the middle position (80–90), not the class with the median score of the boundaries.|",
+            "At Riverside Secondary, Aisha has a stem-and-leaf diagram with a key: 5 | 3 means 53. The diagram shows: Stem | Leaf. 6 | 2 4. 7 | 1 5 8. 8 | 0 3 3 9. Wei wants to find the range. Which statement is correct?|A. The smallest value is 62 (stem 6, leaf 2). The largest value is 89 (stem 8, leaf 9). The range is 89 − 62 = 27.|B. The range is the difference between the highest stem and the lowest stem: 8 − 6 = 2. Fossil: using only the stems to calculate the range. The range is the difference between the highest value (89) and the lowest value (62), not the difference between the stems (8 − 6 = 2).|C. The smallest value is 6 (the smallest stem) and the largest value is 9 (the largest leaf), so the range is 9 − 6 = 3. Fossil: mixing stems and leaves. The smallest value is 62 (stem 6, leaf 2), not 6. The largest value is 89 (stem 8, leaf 9), not 9. The range is 89 − 62 = 27.|D. The range is the total number of leaves: 2 + 3 + 4 = 9. Fossil: confusing the range with the total number of values. The range is the difference between the highest and lowest values (89 − 62 = 27), not the total number of leaves (9).",
+            "At Riverside Secondary, Wei has a dot diagram showing the number of goals scored by a football team in 10 matches: 0, 0, 1, 1, 1, 2, 2, 3, 3, 4. Aisha says: 「The most common number of goals is 1, and the total number of goals is 10.」 Is Aisha correct?|A. Aisha is partly correct. The most common number of goals is 1 (there are 3 matches with 1 goal, which is more than any other value). But the total number of goals is 0 + 0 + 1 + 1 + 1 + 2 + 2 + 3 + 3 + 4 = 17 (not 10). Aisha confused the total number of goals (17) with the total number of matches (10).|B. Aisha is correct. The most common number of goals is 1, and the total number of goals is 10 (the number of matches). Fossil: confusing the total number of goals with the total number of matches. The total number of goals is the sum of all the values (17), not the number of matches (10).|C. Aisha is wrong. The most common number of goals is 4 (the highest value). Fossil: confusing the mode with the highest value. The mode is the most common value (1, which appears 3 times), not the highest value (4, which appears only once).|D. Aisha is wrong. The most common number of goals is 0 (the lowest value). Fossil: confusing the mode with the lowest value. The mode is the most common value (1, which appears 3 times), not the lowest value (0, which appears 2 times).",
+            "At Riverside Secondary, Mr Lim has a histogram showing the number of students in different time ranges (in minutes) for completing a test: Time 10–20 (5 students), Time 20–30 (10 students), Time 30–40 (8 students), Time 40–50 (2 students). Wei says: 「The histogram has 4 bars, so the total number of students is 4.」 Is Wei correct?|A. Wei is wrong. The histogram has 4 bars (4 class intervals), but the total number of students is the sum of the frequencies: 5 + 10 + 8 + 2 = 25 students.|B. Wei is correct. The number of bars is the total number of students. Fossil: confusing the number of bars with the total frequency. The number of bars is the number of class intervals (4), but the total number of students is the sum of the frequencies (25).|C. Wei is wrong. The total number of students is the highest frequency (10). Fossil: confusing the total with the highest frequency. The total number of students is the sum of all frequencies (25), not the highest frequency (10).|D. Wei is wrong. The histogram shows time ranges, not students. Fossil: not understanding that the height of each bar shows the number of students in that time range. The histogram shows how many students are in each time range, so the total number of students is the sum of the frequencies (25).",
+            "At Riverside Secondary, Aisha has a stem-and-leaf diagram with no key shown. The diagram shows: Stem | Leaf. 1 | 2 5. 2 | 3 7 9. 3 | 1. Wei says: 「Without the key, I assume 1 | 2 means 12.」 Is Wei correct?|A. Wei is correct. When the key is not shown, the usual convention is that the stem is the tens place and the leaf is the ones place. So 1 | 2 means 12, 2 | 3 means 23, and so on. But it is best to always include the key to avoid confusion.|B. Wei is wrong. Without the key, we cannot read the diagram. Fossil: assuming that a stem-and-leaf diagram without a key is unreadable. The usual convention is that the stem is the tens place and the leaf is the ones place, so we can read 1 | 2 as 12. But it is safer to always include the key.|C. Wei is wrong. 1 | 2 means 1 + 2 = 3. Fossil: adding the stem and the leaf. The usual convention is that the stem is the tens place and the leaf is the ones place, so 1 | 2 means 12 (not 1 + 2 = 3).|D. Wei is wrong. 1 | 2 means 1.2 (one point two). Fossil: reading the stem and leaf as a decimal. The usual convention is that the stem is the tens place and the leaf is the ones place, so 1 | 2 means 12 (not 1.2).",
+          ]),
+          correctAnswer: "A,A,A,A,A,A,A,A",
+          points: 16,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `Part 2: Show Your Working (写出算式步骤)
+
+Riverside Secondary School has questions about reading dot diagrams, histograms, and stem-and-leaf diagrams. Answer the questions below. Show your working clearly.
+
+Question (a)
+At Riverside Secondary, Mr Lim has a dot diagram showing the number of hours 10 students spent on homework last week:
+
+• • • •
+2   3   4   5
+
+Each dot represents one student. (For example, there are 3 dots at 3, so 3 students spent 3 hours on homework.)
+
+(i) How many students spent 3 hours on homework? (Hint: Count the dots at 3. There are 3 dots at 3, so 3 students spent 3 hours on homework.)
+
+(ii) How many students spent more than 3 hours on homework? (Hint: Count the dots at 4 and 5. There are 2 dots at 4 and 2 dots at 5. Total: 2 + 2 = 4 students spent more than 3 hours.)
+
+(iii) Aisha says: 「The value 4 has 2 dots, so the mode is 2.」 Is Aisha correct? Explain your answer. (Hint: Aisha is wrong. The mode is the value with the most dots, not the number of dots. The value 3 has 3 dots (the most), so the mode is 3 hours.)
+
+
+Question (b)
+At Riverside Secondary, Wei has a stem-and-leaf diagram with a key: 4 | 2 means 42.
+
+Stem | Leaf
+  3  | 5 8
+  4  | 2 6 6
+  5  | 1 3 9
+
+(i) What is the smallest value in this data set? (Hint: The key says 4 | 2 means 42, so the stem is the tens place and the leaf is the ones place. The first row is 3 | 5 8, which means 35 and 38. The smallest value is 35.)
+
+(ii) How many values are in the data set? (Hint: Count all the leaves. Row 3 has 2 leaves (5 and 8), row 4 has 3 leaves (2, 6, and 6), row 5 has 3 leaves (1, 3, and 9). Total: 2 + 3 + 3 = 8 values.)
+
+(iii) What is the largest value? (Hint: The largest value is in the last row: 5 | 9 means 59.)
+
+(iv) Aisha says: 「The value 46 appears twice in the data set.」 Is Aisha correct? Explain your answer. (Hint: Aisha is correct. The row 4 | 2 6 6 has two leaves of 6, so 46 appears twice.)
+
+
+Question (c)
+At Riverside Secondary, Mr Lim has a histogram showing the number of students in different score ranges:
+
+Score 50–60: 3 students (bar height = 3)
+Score 60–70: 7 students (bar height = 7)
+Score 70–80: 5 students (bar height = 5)
+Score 80–90: 2 students (bar height = 2)
+
+(The bars touch each other because a histogram is for continuous data with class intervals.)
+
+(i) How many students are there in total? (Hint: Add the frequencies: 3 + 7 + 5 + 2 = 17 students.)
+
+(ii) Which score range (class interval) has the most students? (Hint: The tallest bar is Score 60–70 with 7 students, so the modal class is 60–70.)
+
+(iii) Wei says: 「The histogram has 4 bars, so there are 4 students.」 Is Wei correct? Explain your answer. (Hint: Wei is wrong. The histogram has 4 bars (4 class intervals), but the total number of students is the sum of the frequencies: 3 + 7 + 5 + 2 = 17 students. The number of bars is the number of class intervals, not the number of students.)
+
+(iv) Aisha says: 「All students in the Score 60–70 bar scored exactly 65 (the middle of the interval).」 Is Aisha correct? Explain your answer. (Hint: Aisha is wrong. The bar shows the frequency (7 students), but we don't know each student's exact score. We only know they scored between 60 and 70. We cannot assume they all scored 65.)
+
+
+写作提示 / Tips:
+✓ 每题分步骤写出推理 (Show working steps for each question)
+✓ Part 2 官方要求：clearly show the method of solution by writing working steps, plus the final answer
+✓ 不用计算器 (No calculators allowed)
+✓ 本周教 Sec 2 STATISTICS AND PROBABILITY, S1. Data handling and analysis: 本周是 analysis and interpretation of dot diagrams, histograms and stem-and-leaf diagrams (S1.5)（读点图、直方图和茎叶图）。读法：
+  • Dot diagram: each dot is one value; cluster = more of that value（点图：每个点是一个数据，点多的地方说明那个值多）。
+  • Stem-and-leaf: stem is the tens (or given place), leaf is the ones; keep the key (e.g. 4 | 2 means 42)（茎叶图：茎是十位，叶是个位；要看图例）。
+  • Histogram: bars touch; height/area shows frequency of a class interval; read from the class, not the bar edge（直方图：柱子连着；高度是组距的频数；读组距，不是柱边）。
+✓ 化石 (fossil errors):
+  • Reading a stem-and-leaf without the key（不看图例就读茎叶图）：assuming 4 | 2 means 4 + 2 = 6 or 4.2, not 42（假设 4 | 2 是 4 + 2 = 6 或 4.2，而不是 42）。
+  • Treating a histogram like a bar graph of named categories（把直方图当成普通条形图）：「The bar for Score 60–70 means all students scored exactly 65.」 Wrong. The bar shows the frequency (number of students), not the exact score（错误：直方图的柱只说明频数，不是每个学生的确切分数）。
+  • Counting dots wrong（数点错误）：「The value 3 has 3 dots, so 3 students scored 3.」 Correct. But: 「The value 3 has 3 dots, so the mode is 3 dots.」 Wrong. The mode is the value with the most dots (3), not the number of dots (3 dots)（错误：点最多的那个值是众数，不是点的个数）。
+  • Reading only the stem or only the leaf（只读茎或只读叶）：「The stem 4 means the value is 4.」 Wrong. The stem 4 alone is not a value. We need to read the stem and the leaf together (4 | 2 means 42)（错误：只读茎不读叶，不是完整的数值）。
+
+Note: This is a sample of Part 2 short-answer/open-ended questions. The official paper has 20 short-answer + 10–15 open-ended items in 1 hour 45 minutes.`,
+          points: 20,
+        },
+      ],
+    },
   ];
 
 
