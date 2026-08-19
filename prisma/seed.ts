@@ -16320,6 +16320,146 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
         },
       ],
     },
+    {
+      level: "SMATH",
+      weekNumber: 94,
+      title: "分组数据平均数 — Mean of grouped data",
+      description: "S1.10 calculation of the mean for grouped data (AEIS 中学数学第 94 周 / SMATH Week 94)",
+      isSample: false,
+      errorFocus: "summing midpoints and ignoring frequency; using class width as the data value; using the lower or upper class boundary instead of the midpoint; treating the ungrouped formula on the class labels; writing the total of fx as the mean",
+      parentBrief: "本周练分组数据的平均数。用每组的组中值（class midpoint）代表该组，再算 Σ(组中值 × 频数) ÷ 总频数。不要把组中值直接相加，也不要把 Σfx 当成平均数。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "At Riverside Secondary, Mr Lim records the test scores of 20 students in a frequency table. Score: 10–19 (frequency 3), 20–29 (frequency 5), 30–39 (frequency 8), 40–49 (frequency 4). To calculate the mean, Wei finds the midpoint of each class. What is the midpoint of the class 10–19?|A. Midpoint = (10 + 19) / 2 = 14.5 (correct: add the lower and upper class boundaries, then divide by 2)|B. Midpoint = 10. Fossil: used the lower boundary instead of the midpoint.|C. Midpoint = 19. Fossil: used the upper boundary instead of the midpoint.|D. Midpoint = 9. Fossil: used the class width (19 − 10 = 9) instead of the midpoint.",
+            "At Riverside Secondary, Aisha has a grouped frequency table. Class 20–29 (frequency 4), 30–39 (frequency 6), 40–49 (frequency 5). The midpoints are 24.5, 34.5, 44.5. To find the mean, what is the next step?|A. Calculate fx for each class (midpoint × frequency), then find Σfx. For example, 24.5 × 4 = 98, 34.5 × 6 = 207, 44.5 × 5 = 222.5, so Σfx = 98 + 207 + 222.5 = 527.5.|B. Add the midpoints: 24.5 + 34.5 + 44.5 = 103.5. Fossil: summed midpoints and ignored frequency.|C. Add the frequencies: 4 + 6 + 5 = 15. Fossil: summed frequencies only, did not multiply by midpoints.|D. Multiply the class widths: 10 × 4 × 6 × 5. Fossil: used class width instead of midpoints.",
+            "At Riverside Secondary, Mr Lim has a frequency table for the time (in minutes) students took to complete a task. Time: 10–14 (frequency 2), 15–19 (frequency 5), 20–24 (frequency 3). The midpoints are 12, 17, 22. Calculate Σfx (sum of midpoint × frequency).|A. Σfx = 12 × 2 + 17 × 5 + 22 × 3 = 24 + 85 + 66 = 175 (correct: multiply each midpoint by its frequency, then sum)|B. Σfx = 12 + 17 + 22 = 51. Fossil: summed midpoints without multiplying by frequency.|C. Σfx = 2 + 5 + 3 = 10. Fossil: summed frequencies only.|D. Σfx = (12 + 17 + 22) / 3 = 17. Fossil: calculated the mean of the midpoints, not Σfx.",
+            "At Riverside Secondary, Wei calculates the mean for grouped data. He finds Σf = 20 (total frequency) and Σfx = 580 (sum of midpoint × frequency). What is the mean?|A. Mean = Σfx / Σf = 580 / 20 = 29 (correct: estimated mean = Σ(midpoint × frequency) / Σ frequency)|B. Mean = Σfx = 580. Fossil: wrote Σfx as the mean, forgot to divide by Σf.|C. Mean = Σf = 20. Fossil: wrote Σf as the mean.|D. Mean = 580 + 20 = 600. Fossil: added Σfx and Σf instead of dividing.",
+            "At Riverside Secondary, Aisha has a frequency table. Class 50–59 (frequency 4), 60–69 (frequency 7), 70–79 (frequency 6). She calculates: midpoints are 54.5, 64.5, 74.5. Σfx = 54.5 × 4 + 64.5 × 7 + 74.5 × 6 = 218 + 451.5 + 447 = 1116.5. Σf = 4 + 7 + 6 = 17. What is the mean?|A. Mean = 1116.5 / 17 = 65.7 (rounded to 1 decimal place). Correct: mean = Σfx / Σf.|B. Mean = 1116.5. Fossil: wrote Σfx as the mean, forgot to divide by Σf.|C. Mean = (54.5 + 64.5 + 74.5) / 3 = 64.5. Fossil: calculated the mean of the midpoints (ungrouped formula on midpoints), ignored frequency.|D. Mean = 17. Fossil: wrote Σf as the mean.",
+          ]),
+          correctAnswer: "A,A,A,A,A",
+          points: 10,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "At Riverside Secondary, Mr Lim explains how to find the midpoint of a class interval. For the class 30–39, which calculation gives the correct midpoint?|A. Midpoint = (30 + 39) / 2 = 34.5 (correct: add the lower and upper boundaries, then divide by 2)|B. Midpoint = 30. Fossil: used the lower boundary.|C. Midpoint = 39. Fossil: used the upper boundary.|D. Midpoint = 39 − 30 = 9. Fossil: calculated the class width instead of the midpoint.",
+            "At Riverside Secondary, Wei has a grouped frequency table. Class 0–9 (midpoint 4.5, frequency 6), 10–19 (midpoint 14.5, frequency 8). He calculates fx for each class. What is fx for the class 0–9?|A. fx = 4.5 × 6 = 27 (correct: midpoint × frequency)|B. fx = 6. Fossil: wrote the frequency as fx, did not multiply by the midpoint.|C. fx = 4.5. Fossil: wrote the midpoint as fx, did not multiply by the frequency.|D. fx = 9 × 6 = 54. Fossil: used the class width (9) instead of the midpoint (4.5).",
+            "At Riverside Secondary, Aisha calculates Σfx for a frequency table. Class 20–24 (midpoint 22, frequency 5), 25–29 (midpoint 27, frequency 7), 30–34 (midpoint 32, frequency 4). What is Σfx?|A. Σfx = 22 × 5 + 27 × 7 + 32 × 4 = 110 + 189 + 128 = 427 (correct: sum of midpoint × frequency for all classes)|B. Σfx = 22 + 27 + 32 = 81. Fossil: summed midpoints, ignored frequency.|C. Σfx = 5 + 7 + 4 = 16. Fossil: summed frequencies only.|D. Σfx = (22 + 27 + 32) / 3 = 27. Fossil: calculated the mean of the midpoints.",
+            "At Riverside Secondary, Mr Lim has a frequency table with Σf = 30 and Σfx = 1350. Wei says: 「The mean is Σfx = 1350.」 Is Wei correct?|A. No, Wei forgot to divide by Σf. The correct mean = Σfx / Σf = 1350 / 30 = 45.|B. Yes, the mean is Σfx = 1350. Fossil: treated Σfx as the mean.|C. No, the mean is Σf = 30. Fossil: treated Σf as the mean.|D. No, the mean is 1350 + 30 = 1380. Fossil: added Σfx and Σf.",
+            "At Riverside Secondary, Aisha calculates the mean for grouped data. She has a frequency table: 10–19 (midpoint 14.5, frequency 4), 20–29 (midpoint 24.5, frequency 9), 30–39 (midpoint 34.5, frequency 7). She writes: 「Mean = (14.5 + 24.5 + 34.5) / 3 = 24.5.」 Is Aisha correct?|A. No, Aisha used the ungrouped formula on the midpoints (ignored frequency). Correct: calculate Σfx = 14.5 × 4 + 24.5 × 9 + 34.5 × 7 = 58 + 220.5 + 241.5 = 520, Σf = 4 + 9 + 7 = 20, mean = 520 / 20 = 26.|B. Yes, Aisha is correct. Fossil: she ignored the frequency.|C. No, the mean is Σfx = 520. Fossil: forgot to divide by Σf.|D. No, the mean is Σf = 20. Fossil: treated Σf as the mean.",
+            "At Riverside Secondary, Wei has a frequency table. Class 40–49 (frequency 3), 50–59 (frequency 6), 60–69 (frequency 5). He says: 「The midpoint of 40–49 is 40.」 Is Wei correct?|A. No, the midpoint of 40–49 is (40 + 49) / 2 = 44.5, not 40. Wei used the lower boundary instead of the midpoint.|B. Yes, the midpoint is 40. Fossil: lower boundary is not the midpoint.|C. No, the midpoint is 49. Fossil: upper boundary is not the midpoint.|D. No, the midpoint is 9. Fossil: class width is not the midpoint.",
+            "At Riverside Secondary, Mr Lim calculates the mean for grouped data. He finds the midpoints: 7, 17, 27. The frequencies are 8, 5, 7. He calculates: Σfx = 7 × 8 + 17 × 5 + 27 × 7 = 56 + 85 + 189 = 330. Σf = 8 + 5 + 7 = 20. Aisha says: 「The mean is 330.」 Is Aisha correct?|A. No, the mean is Σfx / Σf = 330 / 20 = 16.5, not 330. Aisha wrote Σfx as the mean, forgot to divide by Σf.|B. Yes, the mean is 330. Fossil: Σfx is not the mean.|C. No, the mean is 20. Fossil: Σf is not the mean.|D. No, the mean is (7 + 17 + 27) / 3 = 17. Fossil: mean of midpoints ignores frequency.",
+            "At Riverside Secondary, Wei has a frequency table. Class 100–109 (midpoint 104.5, frequency 2), 110–119 (midpoint 114.5, frequency 5), 120–129 (midpoint 124.5, frequency 3). What is the formula for the mean?|A. Mean = (104.5 × 2 + 114.5 × 5 + 124.5 × 3) / (2 + 5 + 3) = (209 + 572.5 + 373.5) / 10 = 1155 / 10 = 115.5 (correct: Σfx / Σf)|B. Mean = (104.5 + 114.5 + 124.5) / 3 = 114.5. Fossil: ungrouped formula on midpoints, ignored frequency.|C. Mean = 2 + 5 + 3 = 10. Fossil: summed frequencies only.|D. Mean = 104.5 × 2 + 114.5 × 5 + 124.5 × 3 = 1155. Fossil: wrote Σfx as the mean, forgot to divide by Σf.",
+          ]),
+          correctAnswer: "A,A,A,A,A,A,A,A",
+          points: 16,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `Part 2: Show Your Working (写出算式步骤)
+
+Riverside Secondary School has questions about the mean of grouped data. Answer the questions below. Show your working clearly.
+
+Question (a)
+At Riverside Secondary, Mr Lim records the number of books read by 30 students in a month in a grouped frequency table:
+
+Number of books | Frequency
+0–4             | 5
+5–9             | 12
+10–14           | 8
+15–19           | 5
+
+(i) Find the midpoint of each class interval. Write:
+   Class 0–4: Midpoint = (0 + 4) / 2 = ?
+   Class 5–9: Midpoint = (5 + 9) / 2 = ?
+   Class 10–14: Midpoint = (10 + 14) / 2 = ?
+   Class 15–19: Midpoint = (15 + 19) / 2 = ?
+(Hint: Midpoint = (lower boundary + upper boundary) / 2)
+
+(ii) Complete the table below to calculate fx (midpoint × frequency) for each class:
+
+Class     | Midpoint | Frequency (f) | fx (midpoint × frequency)
+0–4       | ?        | 5             | ? × 5 = ?
+5–9       | ?        | 12            | ? × 12 = ?
+10–14     | ?        | 8             | ? × 8 = ?
+15–19     | ?        | 5             | ? × 5 = ?
+                      Σf = ?          Σfx = ?
+
+(iii) Calculate Σf (total frequency). Write: Σf = 5 + 12 + 8 + 5 = ?
+(Hint: Σf is the sum of all frequencies.)
+
+(iv) Calculate Σfx (sum of midpoint × frequency). Write: Σfx = ? + ? + ? + ? = ?
+(Hint: Add all the fx values from the table.)
+
+(v) Calculate the estimated mean using the formula: Mean = Σfx / Σf. Write: Mean = ? / ? = ?
+(Hint: Divide Σfx by Σf.)
+
+(vi) Wei says: 「The mean is Σfx.」 Explain why Wei is wrong. What is the correct formula?
+(Hint: Wei forgot to divide by Σf. The correct formula is mean = Σfx / Σf.)
+
+
+Question (b)
+At Riverside Secondary, Aisha records the time (in seconds) 20 students took to complete a puzzle:
+
+Time (seconds) | Frequency
+20–24          | 4
+25–29          | 7
+30–34          | 6
+35–39          | 3
+
+(i) Find the midpoint of each class interval and complete the table:
+
+Class     | Midpoint | Frequency (f) | fx
+20–24     | ?        | 4             | ?
+25–29     | ?        | 7             | ?
+30–34     | ?        | 6             | ?
+35–39     | ?        | 3             | ?
+                      Σf = ?          Σfx = ?
+
+(ii) Calculate the estimated mean. Write: Mean = Σfx / Σf = ? / ? = ?
+
+(iii) Mr Lim says: 「The mean is (22 + 27 + 32 + 37) / 4 = 29.5.」 Explain why Mr Lim is wrong.
+(Hint: Mr Lim calculated the mean of the midpoints using the ungrouped formula, which ignores the frequency. The correct method is to use Σfx / Σf.)
+
+
+写作提示 / Tips:
+✓ 每题分步骤写出推理 (Show working steps for each question)
+✓ Part 2 官方要求：clearly show the method of solution by writing working steps, plus the final answer
+✓ 不用计算器 (No calculators allowed)
+✓ 本周教 Sec 2 STATISTICS AND PROBABILITY, S1. Data handling and analysis: 本周是 calculation of the mean for grouped data (S1.10)（分组数据的平均数计算）。Use the class midpoint as the representative value of the class; estimated mean = Σ(midpoint × frequency) / Σ frequency. 本周建立在 W88 (ungrouped mean, S1.8) 基础上，教分组数据的平均数。本周不教 quartiles, percentiles, IQR, standard deviation, box-and-whisker, cumulative frequency (those are S1.11+ content).
+✓ 分组数据平均数步骤示范 (Mean of grouped data steps):
+  • Question: Find the mean for the frequency table. Class 10–19 (frequency 6), 20–29 (frequency 9), 30–39 (frequency 5).
+    Solution: 
+    ① Find midpoints: Class 10–19: midpoint = (10 + 19) / 2 = 14.5. Class 20–29: midpoint = (20 + 29) / 2 = 24.5. Class 30–39: midpoint = (30 + 39) / 2 = 34.5.
+    ② Calculate fx: Class 10–19: fx = 14.5 × 6 = 87. Class 20–29: fx = 24.5 × 9 = 220.5. Class 30–39: fx = 34.5 × 5 = 172.5.
+    ③ Calculate Σf: Σf = 6 + 9 + 5 = 20.
+    ④ Calculate Σfx: Σfx = 87 + 220.5 + 172.5 = 480.
+    ⑤ Calculate mean: Mean = Σfx / Σf = 480 / 20 = 24.
+    Answer: The estimated mean is 24.
+✓ 关键步骤：Step 1: Find the midpoint of each class interval: midpoint = (lower boundary + upper boundary) / 2（算每组的组中值：组中值 = (下界 + 上界) / 2）。Step 2: Multiply each midpoint by its frequency to get fx（每组的组中值 × 频数 = fx）。Step 3: Sum all frequencies to get Σf（所有频数相加 = Σf）。Step 4: Sum all fx values to get Σfx（所有 fx 相加 = Σfx）。Step 5: Calculate the mean: mean = Σfx / Σf（平均数 = Σfx / Σf）。Step 6: State the final answer（陈述最终答案）。
+✓ 化石 (fossil errors):
+  • Summing midpoints and ignoring frequency（把组中值直接相加，忽略频数）：Mean = (14.5 + 24.5 + 34.5) / 3 = 24.5. Wrong. This is the ungrouped formula on the midpoints. The correct method uses Σfx / Σf（错误：用了非分组数据公式在组中值上）。
+  • Using class width as the data value（把组距当成数据值）：Class 10–19 has width 9, so fx = 9 × 6 = 54. Wrong. Use the midpoint 14.5, not the width（错误：用组距代替组中值）。
+  • Using the lower or upper class boundary instead of the midpoint（用下界或上界代替组中值）：Midpoint of 10–19 is 10 (or 19). Wrong. Midpoint = (10 + 19) / 2 = 14.5（错误：用边界代替组中值）。
+  • Treating the ungrouped formula on the class labels（把非分组公式用在组标签上）：Mean = (10 + 20 + 30) / 3. Wrong. Use the midpoints and multiply by frequency（错误：把组标签当成数据）。
+  • Writing the total of fx as the mean（把 Σfx 当成平均数）：Mean = Σfx = 480. Wrong. Mean = Σfx / Σf = 480 / 20 = 24（错误：忘记除以 Σf）。
+✓ 本周教 S1 的 1.10 calculation of the mean for grouped data（分组数据的平均数计算）。本周建立在 W88 (S1.8 mean of ungrouped data)、W89 (S1.9 mode)、W90 (S1.9 median) 基础上，教分组数据的平均数。本周不教 quartiles, percentiles, IQR, standard deviation, box-and-whisker, cumulative frequency (those are S1.11+ content)。本周不教 S2 Probability 内容（那是 W91–W93）。本周不教 S3 content。
+✓ Writing 数值不能抄 微课（如果本周有微课）或 MCQ 的其他数值。Writing Q 用 books read (0–4, 5–9, 10–14, 15–19, small frequencies) 和 puzzle time (20–24, 25–29, 30–34, 35–39)。不能抄本周 MCQ 的其他数值（test scores 10–19/20–29/30–39/40–49; time 10–14/15–19/20–24; 等）。也不能用 W88–W90 writing 的数值（那些周是非分组数据的 mean/mode/median，本周是分组数据的 mean）。
+
+Note: This is a sample of Part 2 short-answer/open-ended questions. The official paper has 20 short-answer + 10–15 open-ended items in 1 hour 45 minutes.`,
+          points: 20,
+        },
+      ],
+    },
   ];
 
 
