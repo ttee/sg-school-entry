@@ -396,7 +396,7 @@ export default function HomePage() {
                     <span>一周一个焦点</span>
                   </p>
                   <p className="text-ink-2 ml-6">
-                    错误说多了会固化。一次改太多点，孩子顾不过来，还是会重复旧错。我们让 AI 盯住<strong>一个焦点</strong>，改对了再换下一个。
+                    错误说多了会固化。一次改太多点，孩子顾不过来，还是会重复旧错。每周盯住<strong>一个焦点</strong>，改对了再换下一个。
                   </p>
                 </div>
                 <div className="space-y-2">
@@ -405,7 +405,7 @@ export default function HomePage() {
                     <span>聚焦形式</span>
                   </p>
                   <p className="text-ink-2 ml-6">
-                    阅读、写作、口语任务还是真实话题（学校、家庭、环境），但本周的微课、语法题、AI 批改都指向<strong>同一个语法点</strong>。
+                    阅读、写作、口语任务还是真实话题（学校、家庭、环境），但本周的微课、语法题都指向<strong>同一个语法点</strong>。
                   </p>
                 </div>
                 <div className="space-y-2">
@@ -791,11 +791,8 @@ export default function HomePage() {
 
               <div className="bg-paper-2 border border-line rounded-xl p-5">
                 <h3 className="font-serif font-semibold text-base mb-2 text-ink">免费试学</h3>
-                <p className="text-sm text-ink-2 mb-2">
-                  提交表单时选择「免费试学账号」，老师会为您开通试学周权限。
-                </p>
                 <p className="text-sm text-ink-2">
-                  也可以现在就打开<Link href="/trial/A2" className="text-accent hover:underline">试学周</Link>，不用登录先看作业长什么样。
+                  现在就打开<Link href="/trial/A2" className="text-accent hover:underline">试学周</Link>，不用登录先看作业长什么样。
                 </p>
               </div>
             </div>
