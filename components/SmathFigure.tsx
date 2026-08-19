@@ -3505,9 +3505,9 @@ export default function SmathFigure({ weekNumber }: { weekNumber: number }) {
               <text x="220" y="195" fontSize="10" textAnchor="middle" fill="#333">2</text>
               
               {/* Exponential curve: y = 2^x */}
-              {/* Approaches x-axis on left, through (0,1) and (1,2), rises steeply on right */}
+              {/* 50px per y-unit: (0,1)=(120,130), (1,2)=(170,80) */}
               <path
-                d="M 20,179 L 40,178.5 L 60,177 L 70,175 L 90,165 L 110,145 L 120,130 L 140,90 L 150,70 L 160,50 L 170,30"
+                d="M 20,172 L 70,155 L 120,130 L 170,80"
                 fill="none"
                 stroke="#2563eb"
                 strokeWidth="2.5"
@@ -3517,8 +3517,8 @@ export default function SmathFigure({ weekNumber }: { weekNumber: number }) {
               <circle cx="120" cy="130" r="4" fill="#ef4444" />
               <text x="125" y="125" fontSize="10" fill="#ef4444" fontWeight="bold">(0, 1)</text>
               
-              <circle cx="170" cy="30" r="4" fill="#ef4444" />
-              <text x="175" y="27" fontSize="10" fill="#ef4444" fontWeight="bold">(1, 2)</text>
+              <circle cx="170" cy="80" r="4" fill="#ef4444" />
+              <text x="175" y="77" fontSize="10" fill="#ef4444" fontWeight="bold">(1, 2)</text>
             </svg>
             <p className="text-xs text-blue-700 text-center mt-2">过 (0, 1) 和 (1, 2)</p>
             <p className="text-xs text-blue-700 text-center">一直在 x 轴上方</p>
@@ -3553,8 +3553,9 @@ export default function SmathFigure({ weekNumber }: { weekNumber: number }) {
               <text x="220" y="195" fontSize="10" textAnchor="middle" fill="#333">2</text>
               
               {/* Exponential curve: y = 3^x (steeper than 2^x) */}
+              {/* 50px per y-unit: (0,1)=(120,130), (1,3)=(170,30) */}
               <path
-                d="M 20,179.5 L 40,179 L 60,177.5 L 70,176 L 90,167 L 110,148 L 120,130 L 140,75 L 150,50 L 160,30 L 165,25"
+                d="M 20,174 L 70,163 L 120,130 L 170,30"
                 fill="none"
                 stroke="#16a34a"
                 strokeWidth="2.5"
@@ -3564,8 +3565,8 @@ export default function SmathFigure({ weekNumber }: { weekNumber: number }) {
               <circle cx="120" cy="130" r="4" fill="#ef4444" />
               <text x="125" y="125" fontSize="10" fill="#ef4444" fontWeight="bold">(0, 1)</text>
               
-              <circle cx="170" cy="80" r="4" fill="#ef4444" />
-              <text x="175" y="77" fontSize="10" fill="#ef4444" fontWeight="bold">(1, 3)</text>
+              <circle cx="170" cy="30" r="4" fill="#ef4444" />
+              <text x="175" y="27" fontSize="10" fill="#ef4444" fontWeight="bold">(1, 3)</text>
             </svg>
             <p className="text-xs text-green-700 text-center mt-2">过 (0, 1) 和 (1, 3)</p>
             <p className="text-xs text-green-700 text-center">对于 x {'>'} 0 比 y = 2<sup>x</sup> 更陡</p>
@@ -3600,19 +3601,20 @@ export default function SmathFigure({ weekNumber }: { weekNumber: number }) {
               <text x="220" y="195" fontSize="10" textAnchor="middle" fill="#333">2</text>
               
               {/* Exponential curve: y = 2·2^x (k = 2, meets y-axis at (0, 2)) */}
+              {/* 25px per y-unit: (0,2)=(120,130), (1,4)=(170,80) */}
               <path
-                d="M 20,179 L 40,178 L 60,174 L 70,170 L 90,155 L 110,125 L 120,80 L 140,40 L 150,30 L 155,25"
+                d="M 20,167 L 70,155 L 120,130 L 170,80"
                 fill="none"
                 stroke="#9333ea"
                 strokeWidth="2.5"
               />
               
               {/* Key points */}
-              <circle cx="120" cy="80" r="4" fill="#ef4444" />
-              <text x="125" y="75" fontSize="10" fill="#ef4444" fontWeight="bold">(0, 2)</text>
+              <circle cx="120" cy="130" r="4" fill="#ef4444" />
+              <text x="125" y="125" fontSize="10" fill="#ef4444" fontWeight="bold">(0, 2)</text>
               
-              <circle cx="170" cy="130" r="4" fill="#ef4444" />
-              <text x="175" y="127" fontSize="10" fill="#ef4444" fontWeight="bold">(1, 4)</text>
+              <circle cx="170" cy="80" r="4" fill="#ef4444" />
+              <text x="175" y="77" fontSize="10" fill="#ef4444" fontWeight="bold">(1, 4)</text>
             </svg>
             <p className="text-xs text-purple-700 text-center mt-2">y = ka<sup>x</sup> with k = 2, a = 2</p>
             <p className="text-xs text-purple-700 text-center">过 (0, 2)，因为 a<sup>0</sup> = 1</p>
