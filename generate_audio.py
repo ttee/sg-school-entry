@@ -163,6 +163,20 @@ AUDIO_CONFIGS = [
         ]
     },
     {
+        "filename": "a2-w7-listening.mp3",
+        "dialogue": [
+            ("Mei", FEMALE_VOICE, "Hi Jun Wei! What are you going to do tomorrow?"),
+            ("Jun Wei", MALE_VOICE, "Hi Mei! Tomorrow is Saturday, so I'm going to the library in the morning. I need to return some books. What about you?"),
+            ("Mei", FEMALE_VOICE, "I'm going to East Coast Park with my family. We're going to have a picnic by the sea."),
+            ("Jun Wei", MALE_VOICE, "That sounds fun! What time are you going to leave?"),
+            ("Mei", FEMALE_VOICE, "We're going to leave at nine o'clock. My dad is going to drive us there."),
+            ("Jun Wei", MALE_VOICE, "Are you going to cycle?"),
+            ("Mei", FEMALE_VOICE, "Yes! My brother is going to bring his bicycle. I'm going to rent one there."),
+            ("Jun Wei", MALE_VOICE, "Great! In the afternoon, I'm going to play basketball with my cousins at the community centre."),
+            ("Mei", FEMALE_VOICE, "Enjoy your weekend!"),
+        ]
+    },
+    {
         "filename": "b1-w4-listening.mp3",
         "dialogue": [
             ("Mei", FEMALE_VOICE, "Hi Priya! Did you hear what Ms Chen said in assembly this morning?"),
