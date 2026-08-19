@@ -2278,5 +2278,109 @@ export default function SmathFigure({ weekNumber }: { weekNumber: number }) {
     );
   }
 
+  if (weekNumber === 98) {
+    return (
+      <div className="bg-paper border border-line rounded-xl p-6 mb-6">
+        <h3 className="font-semibold text-ink mb-4 text-center">📊 本周图解</h3>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+          {/* Box plot representation */}
+          <div className="flex flex-col items-center">
+            <svg viewBox="0 0 400 180" className="w-full max-w-[400px] h-auto">
+              {/* Title */}
+              <text x="200" y="20" fontSize="14" fill="#1a1a1a" fontWeight="700" textAnchor="middle">Box-and-Whisker Plot</text>
+              
+              {/* Number line */}
+              <line x1="50" y1="80" x2="350" y2="80" stroke="#1a1a1a" strokeWidth="2" />
+              <line x1="50" y1="75" x2="50" y2="85" stroke="#1a1a1a" strokeWidth="2" />
+              <line x1="110" y1="75" x2="110" y2="85" stroke="#1a1a1a" strokeWidth="2" />
+              <line x1="170" y1="75" x2="170" y2="85" stroke="#1a1a1a" strokeWidth="2" />
+              <line x1="230" y1="75" x2="230" y2="85" stroke="#1a1a1a" strokeWidth="2" />
+              <line x1="290" y1="75" x2="290" y2="85" stroke="#1a1a1a" strokeWidth="2" />
+              <line x1="350" y1="75" x2="350" y2="85" stroke="#1a1a1a" strokeWidth="2" />
+              
+              {/* Labels */}
+              <text x="50" y="100" fontSize="11" fill="#1a1a1a" textAnchor="middle">10</text>
+              <text x="110" y="100" fontSize="11" fill="#1a1a1a" textAnchor="middle">12</text>
+              <text x="170" y="100" fontSize="11" fill="#1a1a1a" textAnchor="middle">14</text>
+              <text x="230" y="100" fontSize="11" fill="#1a1a1a" textAnchor="middle">16</text>
+              <text x="290" y="100" fontSize="11" fill="#1a1a1a" textAnchor="middle">18</text>
+              <text x="350" y="100" fontSize="11" fill="#1a1a1a" textAnchor="middle">20</text>
+              
+              {/* Box plot: Data: 10, 12, 13, 14, 15, 16, 18 */}
+              {/* Min=10, Q1=12, Q2=14, Q3=16, Max=18 */}
+              
+              {/* Left whisker (min to Q1) */}
+              <line x1="50" y1="60" x2="110" y2="60" stroke="#3b82f6" strokeWidth="2" />
+              <line x1="50" y1="55" x2="50" y2="65" stroke="#3b82f6" strokeWidth="2" />
+              
+              {/* Box (Q1 to Q3) */}
+              <rect x="110" y="50" width="120" height="20" fill="#dbeafe" stroke="#3b82f6" strokeWidth="2" />
+              
+              {/* Median line (Q2) */}
+              <line x1="170" y1="50" x2="170" y2="70" stroke="#d97706" strokeWidth="3" />
+              
+              {/* Right whisker (Q3 to max) */}
+              <line x1="230" y1="60" x2="290" y2="60" stroke="#3b82f6" strokeWidth="2" />
+              <line x1="290" y1="55" x2="290" y2="65" stroke="#3b82f6" strokeWidth="2" />
+              
+              {/* Labels */}
+              <text x="50" y="45" fontSize="9" fill="#3b82f6" fontWeight="600" textAnchor="middle">Min=10</text>
+              <text x="110" y="40" fontSize="9" fill="#3b82f6" fontWeight="600" textAnchor="middle">Q1=12</text>
+              <text x="170" y="40" fontSize="9" fill="#d97706" fontWeight="700" textAnchor="middle">Q2=14</text>
+              <text x="230" y="40" fontSize="9" fill="#3b82f6" fontWeight="600" textAnchor="middle">Q3=16</text>
+              <text x="290" y="45" fontSize="9" fill="#3b82f6" fontWeight="600" textAnchor="middle">Max=18</text>
+              
+              {/* Advantages */}
+              <rect x="30" y="115" width="340" height="60" fill="#f0fdf4" stroke="#10b981" strokeWidth="1.5" rx="6" />
+              <text x="200" y="132" fontSize="10" fill="#10b981" fontWeight="700" textAnchor="middle">Advantage 优势</text>
+              <text x="200" y="147" fontSize="9" fill="#1a1a1a" textAnchor="middle">Shows spread (IQR, range) and median quickly</text>
+              <text x="200" y="160" fontSize="9" fill="#1a1a1a" textAnchor="middle">快速显示离散程度和中位数</text>
+              <text x="200" y="172" fontSize="8" fill="#ef4444" fontWeight="600" textAnchor="middle">Disadvantage: hides individual values (看不到每个数)</text>
+            </svg>
+          </div>
+
+          {/* Stem-and-leaf representation */}
+          <div className="flex flex-col items-center">
+            <svg viewBox="0 0 400 180" className="w-full max-w-[400px] h-auto">
+              {/* Title */}
+              <text x="200" y="20" fontSize="14" fill="#1a1a1a" fontWeight="700" textAnchor="middle">Stem-and-Leaf Diagram</text>
+              
+              {/* Stem and Leaf table */}
+              <rect x="100" y="40" width="100" height="30" fill="#dbeafe" stroke="#3b82f6" strokeWidth="2" />
+              <rect x="200" y="40" width="100" height="30" fill="#dbeafe" stroke="#3b82f6" strokeWidth="2" />
+              <text x="150" y="60" fontSize="11" fill="#1a1a1a" fontWeight="700" textAnchor="middle">Stem</text>
+              <text x="250" y="60" fontSize="11" fill="#1a1a1a" fontWeight="700" textAnchor="middle">Leaf</text>
+              
+              {/* Data: 10, 12, 13, 14, 15, 16, 18 */}
+              <rect x="100" y="70" width="100" height="25" fill="#ffffff" stroke="#3b82f6" strokeWidth="1.5" />
+              <rect x="200" y="70" width="100" height="25" fill="#ffffff" stroke="#3b82f6" strokeWidth="1.5" />
+              <text x="150" y="87" fontSize="11" fill="#1a1a1a" fontWeight="600" textAnchor="middle">1</text>
+              <text x="250" y="87" fontSize="11" fill="#10b981" fontWeight="700" textAnchor="middle">0  2  3  4  5  6  8</text>
+              
+              {/* Key */}
+              <text x="200" y="107" fontSize="9" fill="#6b7280" textAnchor="middle">Key: 1|0 = 10</text>
+              
+              {/* All individual values highlighted */}
+              <rect x="30" y="115" width="340" height="60" fill="#f0fdf4" stroke="#10b981" strokeWidth="1.5" rx="6" />
+              <text x="200" y="132" fontSize="10" fill="#10b981" fontWeight="700" textAnchor="middle">Advantage 优势</text>
+              <text x="200" y="147" fontSize="9" fill="#1a1a1a" textAnchor="middle">Shows all individual values: 10, 12, 13, 14, 15, 16, 18</text>
+              <text x="200" y="160" fontSize="9" fill="#1a1a1a" textAnchor="middle">显示所有原始数据，能看到每个数</text>
+              <text x="200" y="172" fontSize="8" fill="#ef4444" fontWeight="600" textAnchor="middle">Disadvantage: too long for large data sets (大数据集太长)</text>
+            </svg>
+          </div>
+        </div>
+
+        <div className="mt-6 bg-accent/5 border border-accent/20 rounded-xl p-4">
+          <p className="text-sm text-ink-2 text-center">
+            <strong className="text-ink">同一个数据 (10, 12, 13, 14, 15, 16, 18) 用两种图：</strong><br />
+            箱线图快看离散（spread）和中位数，但看不到每个数（hides individual values）。<br />
+            茎叶图能看到所有原始数据（shows all individual values）。<br />
+            <span className="text-accent font-semibold">选图看用途：Want to see each value? → Stem-and-leaf. Want spread and median quickly? → Box plot.</span>
+          </p>
+        </div>
+      </div>
+    );
+  }
+
   return null;
 }

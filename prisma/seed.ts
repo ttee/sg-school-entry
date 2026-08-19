@@ -16828,6 +16828,128 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
         },
       ],
     },
+    {
+      level: "SMATH",
+      weekNumber: 98,
+      title: "统计图的用处 — Purposes of statistical representations",
+      description: "S1.14 purposes, uses, advantages and disadvantages of statistical representations (AEIS 中学数学第 98 周 / SMATH Week 98)",
+      isSample: false,
+      errorFocus: "using histogram to find one exact value; using box plot when raw data is needed; choosing stem-and-leaf when only shape is needed",
+      parentBrief: "本周比较几种统计图各适合看什么。箱线图快看离散和四分位，但看不到每个数。茎叶图能看到所有原始数据。直方图看分组数据的形状，读不出每个具体分数。不要用错图去找一个具体分数。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "At Riverside Secondary, Mr Lim has test scores: 52, 55, 58, 60, 62, 65, 68. He wants to show all the individual scores. Which representation is best?|A. Stem-and-leaf diagram or dot diagram. They show all the individual values. You can see each score.|B. Box-and-whisker plot. It shows the five-number summary (min, Q1, Q2, Q3, max) but hides the individual values. Fossil: using box plot when raw data is needed.|C. Histogram. It groups the data into classes (e.g. 50–60, 60–70) and shows the shape, but you cannot read each exact score. Fossil: using histogram to find one exact value.|D. Cumulative frequency diagram. It shows running totals, not individual scores. Fossil: wrong choice for seeing individual values.",
+            "At Riverside Secondary, Aisha has 50 test scores grouped into classes: 40–50 (8 students), 50–60 (12 students), 60–70 (18 students), 70–80 (12 students). She wants to see the shape of the distribution. Which representation is best?|A. Histogram. It shows the shape of grouped data. You can see if the data is skewed or symmetric.|B. Stem-and-leaf diagram. It shows individual values, not the shape of grouped data. Fossil: choosing stem-and-leaf when only shape is needed.|C. Box-and-whisker plot. It shows spread and quartiles, but not the shape of the distribution within classes. Fossil: using box plot when shape is needed.|D. Dot diagram. It shows individual values, not the shape of grouped data. Fossil: wrong choice for grouped data.",
+            "At Riverside Secondary, Wei has a large data set with 80 scores. He wants to quickly see the spread, the median, and the quartiles. Which representation is best?|A. Box-and-whisker plot. It shows the five-number summary (min, Q1, Q2, Q3, max) quickly. It is good for comparing spread and quartiles.|B. Stem-and-leaf diagram. It shows all individual values, but for 80 values, it is long and hard to read. Fossil: choosing stem-and-leaf when only spread and quartiles are needed.|C. Histogram. It shows the shape, but not the exact median and quartiles. Fossil: using histogram when quartiles are needed.|D. Dot diagram. It shows all individual values, but for 80 values, it is crowded and hard to read. Fossil: wrong choice for large data sets when only spread is needed.",
+            "At Riverside Secondary, Mr Lim has a histogram showing test scores grouped into classes: 40–50, 50–60, 60–70, 70–80. Aisha wants to find the exact score of one student (e.g. did any student score exactly 65?). Can Aisha use the histogram?|A. No, a histogram groups data into classes and shows frequencies. You cannot read individual scores from a histogram. Use a stem-and-leaf or dot diagram to see individual values.|B. Yes, Aisha can read the exact score 65 from the histogram. Fossil: using histogram to find one exact value.|C. Yes, the histogram shows all individual scores. Fossil: confusing histogram with stem-and-leaf.|D. No, but the histogram shows the median and quartiles, so Aisha can find the exact score. Fossil: confusing histogram with box plot (and histogram does not show quartiles).",
+            "At Riverside Secondary, Wei has two data sets: Class A (10 scores) and Class B (10 scores). He wants to compare the spread (IQR) and the median of the two classes. Which representation is best?|A. Two box-and-whisker plots (one for each class). Box plots show the five-number summary (including median and IQR) quickly. Good for comparison.|B. Two stem-and-leaf diagrams. They show individual values, but it is harder to compare spread and median visually. Fossil: choosing stem-and-leaf when comparison of spread is the goal.|C. Two histograms. They show the shape, but not the exact median and IQR. Fossil: using histogram when quartiles are needed for comparison.|D. Two cumulative frequency diagrams. They show running totals, not the median and IQR directly. Fossil: wrong choice for comparing spread.",
+          ]),
+          correctAnswer: "A,A,A,A,A",
+          points: 10,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "At Riverside Secondary, Mr Lim has a data set: 10, 12, 15, 18, 20, 22, 25. Which representation shows all the individual values?|A. Stem-and-leaf diagram or dot diagram. They show all the individual values.|B. Box-and-whisker plot. It shows the five-number summary (min, Q1, Q2, Q3, max) but hides the individual values. Fossil: using box plot when raw data is needed.|C. Histogram. It groups the data and shows the shape, but you cannot read each exact value. Fossil: using histogram to find one exact value.|D. Cumulative frequency diagram. It shows running totals, not individual values. Fossil: wrong choice for seeing individual values.",
+            "At Riverside Secondary, Aisha has grouped data: Score 0–20 (5 students), 20–40 (8 students), 40–60 (12 students), 60–80 (10 students), 80–100 (5 students). Which representation shows the shape of the distribution?|A. Histogram. It shows the shape of grouped data (e.g. skewed or symmetric).|B. Stem-and-leaf diagram. It shows individual values, not the shape of grouped data. Fossil: choosing stem-and-leaf when only shape is needed.|C. Box-and-whisker plot. It shows spread and quartiles, but not the shape within classes. Fossil: using box plot when shape is needed.|D. Dot diagram. It shows individual values, not the shape of grouped data. Fossil: wrong choice for grouped data.",
+            "At Riverside Secondary, Wei has a stem-and-leaf diagram showing 60 scores. Mr Lim says: 「A box-and-whisker plot would be better for quickly seeing the spread (IQR) and median.」 Is Mr Lim correct?|A. Yes, a box plot shows the five-number summary (min, Q1, Q2, Q3, max) quickly. For large data sets, a box plot is easier to read than a stem-and-leaf diagram if you only need spread and quartiles.|B. No, a stem-and-leaf diagram is better because it shows all individual values. Fossil: choosing stem-and-leaf when only spread and quartiles are needed.|C. No, a histogram is better for seeing spread and median. Fossil: confusing histogram with box plot (histogram shows shape, not quartiles).|D. No, a dot diagram is better for seeing spread and median. Fossil: wrong choice (dot diagram shows individual values, not a summary of spread).",
+            "At Riverside Secondary, Aisha has a histogram showing test scores grouped into classes: 30–40, 40–50, 50–60, 60–70, 70–80. Wei wants to know if any student scored exactly 55. Can Wei use the histogram?|A. No, a histogram groups data and shows frequencies. You cannot read individual scores from a histogram. Use a stem-and-leaf or dot diagram to see if any student scored exactly 55.|B. Yes, Wei can read the exact score 55 from the histogram. Fossil: using histogram to find one exact value.|C. Yes, the histogram shows all individual scores. Fossil: confusing histogram with stem-and-leaf.|D. No, but the histogram shows the median, so Wei can estimate the score 55. Fossil: confusing histogram with box plot or cumulative frequency diagram.",
+            "At Riverside Secondary, Mr Lim has two classes: Class A (12 scores) and Class B (12 scores). He wants to compare the range (max − min) and the median. Which representation is best?|A. Two box-and-whisker plots (one for each class). Box plots show the five-number summary (min, Q1, Q2, Q3, max), so you can see the range and median quickly.|B. Two stem-and-leaf diagrams. They show individual values, but it is harder to compare range and median visually. Fossil: choosing stem-and-leaf when comparison of range and median is the goal.|C. Two histograms. They show the shape, but not the exact min, max, and median. Fossil: using histogram when range and median are needed for comparison.|D. Two cumulative frequency diagrams. They show running totals, not the range and median directly. Fossil: wrong choice for comparing range and median.",
+            "At Riverside Secondary, Aisha has a data set: 8, 10, 12, 14, 16, 18, 20, 22, 24. She wants to show the individual values and the median. Which representation shows both?|A. Stem-and-leaf diagram or dot diagram. They show all individual values, and you can count to find the median (the middle value).|B. Box-and-whisker plot. It shows the median (Q2) but hides the individual values. Fossil: using box plot when raw data is needed.|C. Histogram. It groups the data and shows the shape, but you cannot read each exact value or the exact median. Fossil: using histogram to find individual values.|D. Cumulative frequency diagram. It shows running totals, not individual values. Fossil: wrong choice for seeing individual values.",
+            "At Riverside Secondary, Wei has a box-and-whisker plot showing the test scores of 30 students. Mr Lim wants to know the frequency of students who scored between 50 and 60. Can he use the box plot?|A. No, a box plot shows the five-number summary (min, Q1, Q2, Q3, max) but does not show frequencies of classes. Use a histogram or frequency table to find the frequency of a class.|B. Yes, the box plot shows the frequency of students who scored between 50 and 60. Fossil: confusing box plot with histogram (box plot shows quartiles, not frequencies).|C. Yes, the box plot shows all individual scores, so you can count the frequency. Fossil: using box plot when raw data is needed.|D. No, but the box plot shows the median, so you can estimate the frequency. Fossil: confusing box plot properties (median does not tell you class frequencies).",
+            "At Riverside Secondary, Aisha has grouped data: Height 140–150cm (6 students), 150–160cm (14 students), 160–170cm (18 students), 170–180cm (12 students). She wants to see if the data is skewed or symmetric. Which representation is best?|A. Histogram. It shows the shape of grouped data. You can see if the bars are higher on one side (skewed) or symmetric.|B. Stem-and-leaf diagram. It shows individual values, not the shape of grouped data. Fossil: choosing stem-and-leaf when only shape is needed.|C. Box-and-whisker plot. It shows spread and quartiles, but not the shape within classes. Fossil: using box plot when shape is needed.|D. Cumulative frequency diagram. It shows running totals, not the shape directly. Fossil: wrong choice for seeing shape.",
+          ]),
+          correctAnswer: "A,A,A,A,A,A,A,A",
+          points: 16,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `Part 2: Show Your Working (写出算式步骤)
+
+Riverside Secondary School has questions about choosing and comparing statistical representations. Answer the questions below. Show your working clearly.
+
+Question (a)
+At Riverside Secondary, Mr Lim has two data sets:
+• Class A test scores (7 values): 50, 55, 60, 65, 70, 75, 80
+• Class B test scores (7 values): 50, 50, 60, 70, 80, 90, 90
+
+(i) Calculate the five-number summary for Class A. Write: min = ?, Q1 = ?, Q2 = ?, Q3 = ?, max = ?
+(Hint: For 7 values, Q2 is the 4th value (the middle). Q1 is the median of the lower half (below Q2). Q3 is the median of the upper half (above Q2).)
+
+(ii) Calculate the five-number summary for Class B. Write: min = ?, Q1 = ?, Q2 = ?, Q3 = ?, max = ?
+
+(iii) Compare the two classes. Which class has a larger range? Which class has a larger IQR (interquartile range = Q3 − Q1)?
+(Hint: Range = max − min. IQR = Q3 − Q1. A box-and-whisker plot would show this comparison quickly.)
+
+(iv) Mr Lim says: 「A box-and-whisker plot is better for comparing the spread (range and IQR) of the two classes than a stem-and-leaf diagram.」 Do you agree? Explain why or why not.
+(Hint: A box plot shows the five-number summary quickly. A stem-and-leaf diagram shows all individual values, but it is harder to compare spread visually.)
+
+
+Question (b)
+At Riverside Secondary, Aisha has grouped data showing test scores of 40 students:
+
+Score 30–40: 4 students
+Score 40–50: 8 students
+Score 50–60: 14 students
+Score 60–70: 10 students
+Score 70–80: 4 students
+
+(i) Draw a simple histogram (or describe the shape). Which class has the highest frequency?
+(Hint: A histogram has bars. The height of each bar is the frequency. The class 50–60 has the highest frequency (14 students).)
+
+(ii) Aisha says: 「The histogram shows that the data is skewed to the left (more students scored high).」 Is Aisha correct?
+(Hint: Look at the shape. The highest bar is in the middle (50–60), and the frequencies decrease on both sides. The data is roughly symmetric or slightly skewed to the right (more low scores), not skewed to the left.)
+
+(iii) Wei wants to know if any student scored exactly 55. Can he use the histogram? Explain why or why not.
+(Hint: A histogram groups data into classes (e.g. 50–60) and shows frequencies. You cannot read individual scores from a histogram. Use a stem-and-leaf or dot diagram to see if any student scored exactly 55.)
+
+
+Question (c)
+At Riverside Secondary, Wei has a data set: 10, 12, 14, 16, 18, 20, 22, 24, 26 (9 values). He wants to show all the individual values and the median.
+
+(i) Which representation is best: stem-and-leaf diagram, box-and-whisker plot, or histogram? Explain your choice.
+(Hint: A stem-and-leaf diagram or dot diagram shows all individual values, and you can count to find the median. A box plot shows the median but hides the individual values. A histogram groups the data and does not show individual values.)
+
+(ii) Find the median of the data. Write: Q2 = ?
+(Hint: For 9 values, the median is the 5th value (the middle value).)
+
+(iii) Mr Lim says: 「A box-and-whisker plot is better because it shows the median and the spread (IQR) quickly.」 Wei says: 「A stem-and-leaf diagram is better because it shows all the individual values.」 Who is correct?
+(Hint: Both are correct, but it depends on the purpose. If you want to see all individual values, use a stem-and-leaf diagram. If you only need the median and spread (and the data set is large), use a box plot.)
+
+
+写作提示 / Tips:
+✓ 每题分步骤写出推理 (Show working steps for each question)
+✓ Part 2 官方要求：clearly show the method of solution by writing working steps, plus the final answer
+✓ 不用计算器 (No calculators allowed)
+✓ 本周教 Sec 2 STATISTICS AND PROBABILITY, S1. Data handling and analysis: 本周是 purposes, uses, advantages and disadvantages of the different forms of statistical representations (S1.14)（统计图的用处和优缺点）。比较几种统计图：
+  • Stem-and-leaf diagram / dot diagram: shows all individual values（茎叶图/点图：显示所有原始数据）。Good for small data sets when you want to see each value（适合小数据集，想看每个数）。Bad for large data sets (too long)（大数据集太长）。
+  • Box-and-whisker plot: shows five-number summary (min, Q1, Q2, Q3, max) and spread (IQR, range)（箱线图：显示五个数和离散程度）。Good for comparing spread and quartiles quickly（适合快速比较离散和四分位）。Bad when you need individual values（看不到每个数）。
+  • Histogram: shows shape of grouped data (skewed or symmetric)（直方图：显示分组数据的形状）。Good for large grouped data when you want to see shape（适合大数据集看形状）。Bad when you need individual values（读不出每个具体分数）。
+  • Cumulative frequency diagram (ogive): shows running totals and is good for finding median and quartiles from grouped data（累积频率图：显示累计人数，适合读中位数和四分位数）。Bad when you need individual values or class frequencies directly（看不到每个数或单个区间的频数）。
+✓ 选图原则 (Choosing the right representation):
+  • Want to see all individual values? → Stem-and-leaf or dot diagram（想看每个数？→ 茎叶图/点图）。
+  • Want to see shape of grouped data? → Histogram（想看分组数据的形状？→ 直方图）。
+  • Want to compare spread (IQR, range) and median quickly? → Box-and-whisker plot（想快速比较离散和中位数？→ 箱线图）。
+  • Want to find median / quartiles from grouped data? → Cumulative frequency diagram（想从分组数据读中位数/四分位数？→ 累积频率图）。
+✓ 化石 (fossil errors):
+  • Using histogram to find one exact value（用直方图找一个具体分数）：「Can I use the histogram to find if any student scored exactly 55?」 Wrong. A histogram groups data and shows frequencies, not individual values（错误：直方图分组显示频数，看不到每个具体分数）。
+  • Using box plot when raw data is needed（需要原始数据时用箱线图）：「Which representation shows all individual values? → Box plot.」 Wrong. A box plot shows the five-number summary but hides the individual values. Use a stem-and-leaf or dot diagram（错误：箱线图显示五个数，但看不到每个原始数据）。
+  • Choosing stem-and-leaf when only shape is needed（只需要看形状时选茎叶图）：「I have 80 grouped scores and want to see the shape. → Stem-and-leaf.」 Wrong. For large grouped data, use a histogram to see the shape. A stem-and-leaf is too long and does not show the shape of grouped data clearly（错误：大数据集看形状用直方图，茎叶图太长且不适合分组数据）。
+
+Note: This is a sample of Part 2 short-answer/open-ended questions. The official paper has 20 short-answer + 10–15 open-ended items in 1 hour 45 minutes.`,
+          points: 20,
+        },
+      ],
+    },
   ];
 
 
