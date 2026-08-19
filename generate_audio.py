@@ -201,6 +201,12 @@ AUDIO_CONFIGS = [
         ]
     },
     {
+        "filename": "a2-w11-listening.mp3",
+        "dialogue": [
+            ("Ms Tan", TEACHER_VOICE, "Class, please listen carefully. Tomorrow we have a field trip to the Science Centre. We will meet at the school gate at 8 o'clock in the morning. Don't be late! Bring your water bottle and put it in your bag. When we arrive at the Science Centre, we will meet at the entrance hall. Our guide will wait for us there. During the visit, stay with your group. Don't wander around alone. If you need help, you can find me at the information counter on the first floor. Put your lunch boxes in the classroom today. We will eat at the Science Centre cafeteria. See you tomorrow!"),
+        ]
+    },
+    {
         "filename": "b1-w4-listening.mp3",
         "dialogue": [
             ("Mei", FEMALE_VOICE, "Hi Priya! Did you hear what Ms Chen said in assembly this morning?"),

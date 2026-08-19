@@ -6422,6 +6422,7 @@ You MUST use in, on, and at for place at least once each (不是时间介词).
         {
           type: "listening",
           order: 4,
+          audioUrl: "/audio/a2-w11-listening.mp3",
           content: `听读练习 / Listening Preparation (read carefully)
 
 Ms Tan: Class, please listen carefully. Tomorrow we have a field trip to the Science Centre. We will meet at the school gate at 8 o'clock in the morning. Don't be late!
