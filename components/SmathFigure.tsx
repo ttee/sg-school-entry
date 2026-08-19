@@ -3200,5 +3200,149 @@ export default function SmathFigure({ weekNumber }: { weekNumber: number }) {
     );
   }
 
+  if (weekNumber === 108) {
+    return (
+      <div className="bg-paper border border-line rounded-xl p-6 mb-6">
+        <h3 className="font-semibold text-ink mb-4 text-center">📊 本周图解</h3>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+          {/* Graph 1: y = (x - 2)² + 1 (opens up, vertex form) */}
+          <div className="bg-blue-50 border-2 border-blue-300 rounded-xl p-5">
+            <p className="text-sm text-blue-900 font-semibold mb-3 text-center">y = (x − 2)² + 1</p>
+            <svg viewBox="0 0 200 200" className="w-full h-48">
+              {/* Axes */}
+              <line x1="20" y1="160" x2="190" y2="160" stroke="#333" strokeWidth="1.5" />
+              <line x1="60" y1="20" x2="60" y2="185" stroke="#333" strokeWidth="1.5" />
+              {/* Arrow heads */}
+              <polygon points="190,160 185,157 185,163" fill="#333" />
+              <polygon points="60,20 57,25 63,25" fill="#333" />
+              {/* Grid marks */}
+              <line x1="100" y1="157" x2="100" y2="163" stroke="#666" strokeWidth="1" />
+              <line x1="57" y1="140" x2="63" y2="140" stroke="#666" strokeWidth="1" />
+              {/* Parabola opening up: y = (x-2)^2 + 1, vertex at (2,1) */}
+              <path
+                d="M 60,60 L 80,120 L 100,140 L 120,120 L 140,60"
+                fill="none"
+                stroke="#2563eb"
+                strokeWidth="2.5"
+              />
+              {/* Vertex point */}
+              <circle cx="100" cy="140" r="4" fill="#ef4444" />
+              {/* Labels */}
+              <text x="100" y="177" fontSize="11" textAnchor="middle" fill="#333">2</text>
+              <text x="50" y="143" fontSize="11" textAnchor="middle" fill="#333">1</text>
+              <text x="105" y="135" fontSize="10" fill="#ef4444" fontWeight="bold">(2, 1)</text>
+            </svg>
+            <p className="text-xs text-blue-700 text-center mt-2">开口向上，顶点 (2, 1)</p>
+            <p className="text-xs text-red-600 text-center mt-1">❌ 顶点不是 (−2, 1)</p>
+          </div>
+
+          {/* Graph 2: y = -(x - 2)² + 1 (opens down, vertex form) */}
+          <div className="bg-green-50 border-2 border-green-300 rounded-xl p-5">
+            <p className="text-sm text-green-900 font-semibold mb-3 text-center">y = −(x − 2)² + 1</p>
+            <svg viewBox="0 0 200 200" className="w-full h-48">
+              {/* Axes */}
+              <line x1="20" y1="140" x2="190" y2="140" stroke="#333" strokeWidth="1.5" />
+              <line x1="60" y1="20" x2="60" y2="185" stroke="#333" strokeWidth="1.5" />
+              {/* Arrow heads */}
+              <polygon points="190,140 185,137 185,143" fill="#333" />
+              <polygon points="60,20 57,25 63,25" fill="#333" />
+              {/* Grid marks */}
+              <line x1="100" y1="137" x2="100" y2="143" stroke="#666" strokeWidth="1" />
+              <line x1="57" y1="120" x2="63" y2="120" stroke="#666" strokeWidth="1" />
+              {/* Parabola opening down: y = -(x-2)^2 + 1, vertex at (2,1) */}
+              <path
+                d="M 40,180 L 80,140 L 100,120 L 120,140 L 160,180"
+                fill="none"
+                stroke="#16a34a"
+                strokeWidth="2.5"
+              />
+              {/* Vertex point */}
+              <circle cx="100" cy="120" r="4" fill="#ef4444" />
+              {/* Labels */}
+              <text x="100" y="157" fontSize="11" textAnchor="middle" fill="#333">2</text>
+              <text x="50" y="123" fontSize="11" textAnchor="middle" fill="#333">1</text>
+              <text x="105" y="115" fontSize="10" fill="#ef4444" fontWeight="bold">(2, 1)</text>
+            </svg>
+            <p className="text-xs text-green-700 text-center mt-2">开口向下，顶点 (2, 1)</p>
+            <p className="text-xs text-red-600 text-center mt-1">❌ 不是开口向上</p>
+          </div>
+
+          {/* Graph 3: y = (x - 1)(x - 5) (opens up, intercept form) */}
+          <div className="bg-purple-50 border-2 border-purple-300 rounded-xl p-5">
+            <p className="text-sm text-purple-900 font-semibold mb-3 text-center">y = (x − 1)(x − 5)</p>
+            <svg viewBox="0 0 200 200" className="w-full h-48">
+              {/* Axes */}
+              <line x1="20" y1="90" x2="190" y2="90" stroke="#333" strokeWidth="1.5" />
+              <line x1="40" y1="20" x2="40" y2="185" stroke="#333" strokeWidth="1.5" />
+              {/* Arrow heads */}
+              <polygon points="190,90 185,87 185,93" fill="#333" />
+              <polygon points="40,20 37,25 43,25" fill="#333" />
+              {/* Grid marks */}
+              <line x1="60" y1="87" x2="60" y2="93" stroke="#666" strokeWidth="1" />
+              <line x1="140" y1="87" x2="140" y2="93" stroke="#666" strokeWidth="1" />
+              {/* Parabola opening up: y = (x-1)(x-5), x-intercepts at 1 and 5, vertex at (3,-4) */}
+              <path
+                d="M 40,30 L 60,90 L 100,138 L 140,90 L 160,30"
+                fill="none"
+                stroke="#9333ea"
+                strokeWidth="2.5"
+              />
+              {/* X-intercepts */}
+              <circle cx="60" cy="90" r="4" fill="#ef4444" />
+              <circle cx="140" cy="90" r="4" fill="#ef4444" />
+              {/* Labels */}
+              <text x="60" y="82" fontSize="10" fill="#ef4444" fontWeight="bold">1</text>
+              <text x="140" y="82" fontSize="10" fill="#ef4444" fontWeight="bold">5</text>
+            </svg>
+            <p className="text-xs text-purple-700 text-center mt-2">开口向上，x 轴交点 1 和 5</p>
+            <p className="text-xs text-red-600 text-center mt-1">❌ 不要混淆交点和顶点</p>
+          </div>
+
+          {/* Graph 4: y = -(x - 1)(x - 5) (opens down, intercept form) */}
+          <div className="bg-orange-50 border-2 border-orange-300 rounded-xl p-5">
+            <p className="text-sm text-orange-900 font-semibold mb-3 text-center">y = −(x − 1)(x − 5)</p>
+            <svg viewBox="0 0 200 200" className="w-full h-48">
+              {/* Axes */}
+              <line x1="20" y1="130" x2="190" y2="130" stroke="#333" strokeWidth="1.5" />
+              <line x1="40" y1="20" x2="40" y2="185" stroke="#333" strokeWidth="1.5" />
+              {/* Arrow heads */}
+              <polygon points="190,130 185,127 185,133" fill="#333" />
+              <polygon points="40,20 37,25 43,25" fill="#333" />
+              {/* Grid marks */}
+              <line x1="60" y1="127" x2="60" y2="133" stroke="#666" strokeWidth="1" />
+              <line x1="140" y1="127" x2="140" y2="133" stroke="#666" strokeWidth="1" />
+              {/* Parabola opening down: y = -(x-1)(x-5), x-intercepts at 1 and 5, vertex at (3,4) */}
+              <path
+                d="M 40,190 L 60,130 L 100,82 L 140,130 L 160,190"
+                fill="none"
+                stroke="#ea580c"
+                strokeWidth="2.5"
+              />
+              {/* X-intercepts */}
+              <circle cx="60" cy="130" r="4" fill="#ef4444" />
+              <circle cx="140" cy="130" r="4" fill="#ef4444" />
+              {/* Labels */}
+              <text x="60" y="145" fontSize="10" fill="#ef4444" fontWeight="bold">1</text>
+              <text x="140" y="145" fontSize="10" fill="#ef4444" fontWeight="bold">5</text>
+            </svg>
+            <p className="text-xs text-orange-700 text-center mt-2">开口向下，x 轴交点 1 和 5</p>
+            <p className="text-xs text-red-600 text-center mt-1">❌ 不是开口向上</p>
+          </div>
+        </div>
+
+        <div className="mt-6 bg-accent/5 border border-accent/20 rounded-xl p-4">
+          <p className="text-sm text-ink-2 text-center leading-relaxed">
+            <strong className="text-ink">本周重点（N6.8 sketching quadratic graphs）：</strong><br />
+            • <strong>y = (x − p)² + q：</strong>顶点 (p, q)，开口向上（例：y = (x − 2)² + 1 顶点 (2, 1)）<br />
+            • <strong>y = −(x − p)² + q：</strong>顶点 (p, q)，开口向下（例：y = −(x − 2)² + 1 顶点 (2, 1)）<br />
+            • <strong>y = (x − a)(x − b)：</strong>x 轴交点 a 和 b，开口向上（例：y = (x − 1)(x − 5) 交点 1 和 5）<br />
+            • <strong>y = −(x − a)(x − b)：</strong>x 轴交点 a 和 b，开口向下（例：y = −(x − 1)(x − 5) 交点 1 和 5）<br />
+            <span className="text-accent font-semibold">常见错误：(x − 3)² + 1 顶点写成 (−3, 1)；−(x − 2)² + 4 以为开口向上；把交点和顶点混淆</span>
+          </p>
+        </div>
+      </div>
+    );
+  }
+
   return null;
 }
