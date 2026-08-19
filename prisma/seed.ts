@@ -17740,6 +17740,122 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
         },
       ],
     },
+    // SMATH WEEK 106
+    {
+      level: "SMATH",
+      weekNumber: 106,
+      title: "正、负、零和分数指数 — Positive, negative, zero and fractional indices",
+      description: "N1.9 positive, negative, zero and fractional indices (AEIS 中学数学第 106 周 / SMATH Week 106)",
+      isSample: false,
+      errorFocus: "2^0 = 0 or 2; 2^(-3) = -8; 9^(1/2) = 9/2; writing 1/2^3 as 2^(-1/3)",
+      parentBrief: "本周学四种指数。a^n 是 n 个 a 相乘。a^0 = 1（a ≠ 0）。负指数 a^(-n) = 1/a^n 是倒数。分数指数 a^(1/2) = √a 是平方根。不要把 2^(-3) 写成 -8。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "At Riverside Secondary, Wei says: 「2^3 = 8 because 2^3 means 2 × 2 × 2 = 8.」 Mr Lim asks: 「What is 2^0?」 Wei says: 「2^0 = 0.」 Is Wei correct?|A. Wei is wrong. 2^0 = 1, not 0. (For any number a ≠ 0, a^0 = 1. So 2^0 = 1. The answer 0 is a common fossil error.)|B. Wei is correct. 2^0 = 0. Fossil: a^0 = 1 for any a ≠ 0. The correct answer is 2^0 = 1, not 0.|C. Wei is correct. 2^0 = 2. Fossil: 2^0 = 1, not 2. Any number to the power of 0 is 1 (a^0 = 1).|D. Wei is wrong. 2^0 = 2. Fossil: 2^0 = 1, not 2. For any number a ≠ 0, a^0 = 1.",
+            "At Riverside Secondary, Aisha says: 「I know 2^3 = 8. So 2^(-3) must be -8.」 Is Aisha correct?|A. Aisha is wrong. 2^(-3) = 1/(2^3) = 1/8, not -8. (A negative index means reciprocal: a^(-n) = 1/(a^n). So 2^(-3) = 1/(2^3) = 1/8. The answer -8 is a common fossil error.)|B. Aisha is correct. 2^(-3) = -8. Fossil: a^(-n) = 1/(a^n), not -a^n. The correct answer is 2^(-3) = 1/8, not -8.|C. Aisha is wrong. 2^(-3) = -1/8. Fossil: 2^(-3) = 1/(2^3) = 1/8, not -1/8. Negative index means reciprocal, not negative.|D. Aisha is wrong. 2^(-3) = 1/3. Fossil: 2^(-3) = 1/(2^3) = 1/8, not 1/3. Remember: 2^3 = 8, so 2^(-3) = 1/8.",
+            "At Riverside Secondary, Mr Lim writes 9^(1/2) on the board. Wei says: 「9^(1/2) = 9/2 = 4.5.」 Is Wei correct?|A. Wei is wrong. 9^(1/2) = √9 = 3, not 9/2. (A fractional index 1/2 means square root: a^(1/2) = √a. So 9^(1/2) = √9 = 3. The answer 9/2 = 4.5 is a common fossil error.)|B. Wei is correct. 9^(1/2) = 9/2 = 4.5. Fossil: a^(1/2) = √a, not a/2. The correct answer is 9^(1/2) = √9 = 3.|C. Wei is wrong. 9^(1/2) = 9. Fossil: 9^(1/2) = √9 = 3, not 9. The fractional index 1/2 means square root.|D. Wei is wrong. 9^(1/2) = 1/9. Fossil: 9^(1/2) = √9 = 3, not 1/9. Do not confuse fractional index with negative index.",
+            "At Riverside Secondary, Aisha calculates 1/(2^3). She says: 「1/(2^3) = 2^(-1/3).」 Is Aisha correct?|A. Aisha is wrong. 1/(2^3) = 2^(-3), not 2^(-1/3). (The negative index rule is: 1/(a^n) = a^(-n). So 1/(2^3) = 2^(-3) = 1/8. The answer 2^(-1/3) is a common fossil error.)|B. Aisha is correct. 1/(2^3) = 2^(-1/3). Fossil: 1/(a^n) = a^(-n), not a^(-1/n). The correct answer is 1/(2^3) = 2^(-3).|C. Aisha is wrong. 1/(2^3) = -2^3. Fossil: 1/(2^3) = 2^(-3), not -2^3. Negative index means reciprocal, not negative number.|D. Aisha is wrong. 1/(2^3) = 1/2 - 3. Fossil: 1/(2^3) = 2^(-3). This is the negative index rule: 1/(a^n) = a^(-n).",
+            "At Riverside Secondary, Mr Lim asks: 「What is 8^(1/3)?」 Wei says: 「8^(1/3) = ∛8 = 2, because 2 × 2 × 2 = 8.」 Is Wei correct?|A. Wei is correct. 8^(1/3) = ∛8 = 2. (A fractional index 1/3 means cube root: a^(1/3) = ∛a. So 8^(1/3) = ∛8 = 2, because 2 × 2 × 2 = 8.)|B. Wei is wrong. 8^(1/3) = 8/3. Fossil: a^(1/3) = ∛a, not a/3. The correct answer is 8^(1/3) = ∛8 = 2.|C. Wei is wrong. 8^(1/3) = 1/8. Fossil: 8^(1/3) = ∛8 = 2, not 1/8. Do not confuse fractional index with negative index.|D. Wei is wrong. 8^(1/3) = 3. Fossil: 8^(1/3) = ∛8 = 2, not 3. Check: 2 × 2 × 2 = 8, so ∛8 = 2.",
+          ]),
+          correctAnswer: "A,A,A,A,A",
+          points: 10,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "At Riverside Secondary, Mr Lim writes 3^0 on the board. Which of the following is correct?|A. 3^0 = 1 (For any number a ≠ 0, a^0 = 1. So 3^0 = 1.)|B. 3^0 = 0 Fossil: a^0 = 1 for any a ≠ 0. The correct answer is 3^0 = 1, not 0.|C. 3^0 = 3 Fossil: a^0 = 1, not a. The correct answer is 3^0 = 1, not 3.|D. 3^0 = 1/3 Fossil: 3^0 = 1. Do not confuse with 3^(-1) = 1/3.",
+            "At Riverside Secondary, Aisha needs to simplify 5^(-2). Which of the following is correct?|A. 5^(-2) = 1/(5^2) = 1/25 (A negative index means reciprocal: a^(-n) = 1/(a^n). So 5^(-2) = 1/(5^2) = 1/25.)|B. 5^(-2) = -25 Fossil: a^(-n) = 1/(a^n), not -a^n. The correct answer is 5^(-2) = 1/25, not -25.|C. 5^(-2) = -1/25 Fossil: 5^(-2) = 1/(5^2) = 1/25, not -1/25. Negative index means reciprocal, not negative number.|D. 5^(-2) = 1/2 Fossil: 5^(-2) = 1/(5^2) = 1/25, not 1/2. Remember: 5^2 = 25, so 5^(-2) = 1/25.",
+            "At Riverside Secondary, Wei calculates 16^(1/2). Which of the following is correct?|A. 16^(1/2) = √16 = 4 (A fractional index 1/2 means square root: a^(1/2) = √a. So 16^(1/2) = √16 = 4, because 4 × 4 = 16.)|B. 16^(1/2) = 16/2 = 8 Fossil: a^(1/2) = √a, not a/2. The correct answer is 16^(1/2) = √16 = 4.|C. 16^(1/2) = 2 Fossil: 16^(1/2) = √16 = 4, not 2. Check: 4 × 4 = 16, so √16 = 4.|D. 16^(1/2) = 1/16 Fossil: 16^(1/2) = √16 = 4, not 1/16. Do not confuse fractional index with negative index.",
+            "At Riverside Secondary, Mr Lim asks Aisha to simplify 1/(3^4). Which of the following is correct?|A. 1/(3^4) = 3^(-4) (The negative index rule is: 1/(a^n) = a^(-n). So 1/(3^4) = 3^(-4).)|B. 1/(3^4) = 3^(-1/4) Fossil: 1/(a^n) = a^(-n), not a^(-1/n). The correct answer is 1/(3^4) = 3^(-4).|C. 1/(3^4) = -3^4 Fossil: 1/(3^4) = 3^(-4), not -3^4. Negative index means reciprocal, not negative number.|D. 1/(3^4) = 3^(1/4) Fossil: 1/(3^4) = 3^(-4), not 3^(1/4). The reciprocal rule gives a negative index.",
+            "At Riverside Secondary, Wei needs to calculate 27^(1/3). Which of the following is correct?|A. 27^(1/3) = ∛27 = 3 (A fractional index 1/3 means cube root: a^(1/3) = ∛a. So 27^(1/3) = ∛27 = 3, because 3 × 3 × 3 = 27.)|B. 27^(1/3) = 27/3 = 9 Fossil: a^(1/3) = ∛a, not a/3. The correct answer is 27^(1/3) = ∛27 = 3.|C. 27^(1/3) = 9 Fossil: 27^(1/3) = ∛27 = 3, not 9. Check: 3 × 3 × 3 = 27, so ∛27 = 3.|D. 27^(1/3) = 1/27 Fossil: 27^(1/3) = ∛27 = 3, not 1/27. Do not confuse fractional index with negative index.",
+            "At Riverside Secondary, Aisha simplifies 4^(-1). Which of the following is correct?|A. 4^(-1) = 1/4 (A negative index means reciprocal: a^(-n) = 1/(a^n). So 4^(-1) = 1/(4^1) = 1/4.)|B. 4^(-1) = -4 Fossil: a^(-1) = 1/a, not -a. The correct answer is 4^(-1) = 1/4, not -4.|C. 4^(-1) = -1/4 Fossil: 4^(-1) = 1/4, not -1/4. Negative index means reciprocal, not negative number.|D. 4^(-1) = 4 Fossil: 4^(-1) = 1/4, not 4. Remember: a^(-1) = 1/a.",
+            "At Riverside Secondary, Mr Lim writes 64^(1/2) on the board. Aisha says: 「64^(1/2) = 8, because 8 × 8 = 64.」 Is Aisha correct?|A. Aisha is correct. 64^(1/2) = √64 = 8. (A fractional index 1/2 means square root: a^(1/2) = √a. So 64^(1/2) = √64 = 8, because 8 × 8 = 64.)|B. Aisha is wrong. 64^(1/2) = 64/2 = 32. Fossil: a^(1/2) = √a, not a/2. The correct answer is 64^(1/2) = √64 = 8.|C. Aisha is wrong. 64^(1/2) = 4. Fossil: 64^(1/2) = √64 = 8, not 4. Check: 8 × 8 = 64, so √64 = 8.|D. Aisha is wrong. 64^(1/2) = 32. Fossil: 64^(1/2) = √64 = 8, not 32. Do not divide by 2; find the square root.",
+            "At Riverside Secondary, Wei simplifies 10^0. Which of the following is correct?|A. 10^0 = 1 (For any number a ≠ 0, a^0 = 1. So 10^0 = 1.)|B. 10^0 = 0 Fossil: a^0 = 1 for any a ≠ 0. The correct answer is 10^0 = 1, not 0.|C. 10^0 = 10 Fossil: a^0 = 1, not a. The correct answer is 10^0 = 1, not 10.|D. 10^0 = 1/10 Fossil: 10^0 = 1. Do not confuse with 10^(-1) = 1/10.",
+          ]),
+          correctAnswer: "A,A,A,A,A,A,A,A",
+          points: 16,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `Part 2: Show Your Working (写出算式步骤)
+
+Riverside Secondary School has questions about indices (positive, negative, zero, and fractional indices). Answer the questions below. Show your working clearly.
+
+Question (a)
+Simplify each expression.
+
+(i) 2^4
+(Hint: 2^4 means 2 × 2 × 2 × 2 = 16. For positive integer n, a^n is n factors of a.)
+
+(ii) 5^0
+(Hint: For any number a ≠ 0, a^0 = 1. So 5^0 = 1.)
+
+(iii) 3^(-2)
+(Hint: a^(-n) = 1/(a^n). So 3^(-2) = 1/(3^2) = 1/9.)
+
+(iv) 25^(1/2)
+(Hint: a^(1/2) = √a. So 25^(1/2) = √25 = 5, because 5 × 5 = 25.)
+
+
+Question (b)
+At Riverside Secondary, Wei says: 「I know 2^3 = 8. So 2^(-3) must be -8.」
+
+(i) Calculate 2^3. Show your working.
+(Hint: 2^3 = 2 × 2 × 2 = 8.)
+
+(ii) Is Wei correct? If not, what is the correct value of 2^(-3)? Show your working.
+(Hint: Wei is wrong. a^(-n) = 1/(a^n), not -a^n. So 2^(-3) = 1/(2^3) = 1/8, not -8. Negative index means reciprocal, not negative number.)
+
+
+Question (c)
+At Riverside Secondary, Aisha calculates 49^(1/2). She says: 「49^(1/2) = 49/2 = 24.5.」
+
+(i) Calculate 49/2. Show your working.
+(Hint: 49/2 = 24.5.)
+
+(ii) Is Aisha correct? If not, what is the correct value of 49^(1/2)? Show your working.
+(Hint: Aisha is wrong. a^(1/2) = √a, not a/2. So 49^(1/2) = √49 = 7, because 7 × 7 = 49. The fractional index 1/2 means square root, not divide by 2.)
+
+
+Question (d)
+Simplify:
+
+(i) 1/(4^2)
+(Hint: 1/(a^n) = a^(-n). So 1/(4^2) = 4^(-2). Or you can calculate: 1/(4^2) = 1/16.)
+
+(ii) 8^(1/3)
+(Hint: a^(1/3) = ∛a. So 8^(1/3) = ∛8 = 2, because 2 × 2 × 2 = 8.)
+
+
+写作提示 / Tips:
+✓ 每题分步骤写出推理 (Show working steps for each question)
+✓ Part 2 官方要求：clearly show the method of solution by writing working steps, plus the final answer
+✓ 不用计算器 (No calculators allowed)
+✓ 本周教 Secondary Three/Four, NUMBER AND ALGEBRA, N1. Numbers and their operations: 本周是 N1.9 positive, negative, zero and fractional indices（正、负、零和分数指数）。
+  • a^n 是 n 个 a 相乘（例：2^3 = 2 × 2 × 2 = 8）
+  • a^0 = 1（a ≠ 0）（例：5^0 = 1）
+  • a^(-n) = 1/(a^n)（例：2^(-3) = 1/(2^3) = 1/8）
+  • a^(1/2) = √a, a^(1/3) = ∛a（例：9^(1/2) = √9 = 3, 8^(1/3) = ∛8 = 2）
+✓ Common mistakes (fossil errors):
+  • 2^0 = 0 or 2^0 = 2（错误：任何数的 0 次方是 1，不是 0 或这个数本身。正确：2^0 = 1）
+  • 2^(-3) = -8（错误：负指数是倒数，不是负数。正确：2^(-3) = 1/(2^3) = 1/8）
+  • 9^(1/2) = 9/2 = 4.5（错误：分数指数 1/2 是平方根，不是除以 2。正确：9^(1/2) = √9 = 3）
+  • Writing 1/(2^3) as 2^(-1/3)（错误：1/(a^n) = a^(-n)，不是 a^(-1/n)。正确：1/(2^3) = 2^(-3)）
+
+Note: This is a sample of Part 2 short-answer/open-ended questions. The official paper has 20 short-answer + 10–15 open-ended items in 1 hour 45 minutes.`,
+          points: 20,
+        },
+      ],
+    },
   ];
 
 

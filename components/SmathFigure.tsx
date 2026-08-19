@@ -3088,5 +3088,65 @@ export default function SmathFigure({ weekNumber }: { weekNumber: number }) {
     );
   }
 
+  if (weekNumber === 106) {
+    return (
+      <div className="bg-paper border border-line rounded-xl p-6 mb-6">
+        <h3 className="font-semibold text-ink mb-4 text-center">📊 本周图解</h3>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-3xl mx-auto">
+          {/* Tile 1: Positive integer index */}
+          <div className="bg-blue-50 border-2 border-blue-300 rounded-xl p-5 flex flex-col items-center justify-center">
+            <p className="text-sm text-blue-900 font-semibold mb-3">正整数指数 Positive Integer Index</p>
+            <div className="text-center">
+              <p className="text-3xl font-bold text-blue-900 mb-2">2³ = 8</p>
+              <p className="text-sm text-blue-700">2³ = 2 × 2 × 2 = 8</p>
+              <p className="text-xs text-blue-600 mt-2">a^n 是 n 个 a 相乘</p>
+            </div>
+          </div>
+
+          {/* Tile 2: Zero index */}
+          <div className="bg-green-50 border-2 border-green-300 rounded-xl p-5 flex flex-col items-center justify-center">
+            <p className="text-sm text-green-900 font-semibold mb-3">零指数 Zero Index</p>
+            <div className="text-center">
+              <p className="text-3xl font-bold text-green-900 mb-2">2⁰ = 1</p>
+              <p className="text-sm text-green-700">a⁰ = 1 (a ≠ 0)</p>
+              <p className="text-xs text-red-600 mt-2">❌ 2⁰ = 0 or 2</p>
+            </div>
+          </div>
+
+          {/* Tile 3: Negative index */}
+          <div className="bg-amber-50 border-2 border-amber-300 rounded-xl p-5 flex flex-col items-center justify-center">
+            <p className="text-sm text-amber-900 font-semibold mb-3">负指数 Negative Index</p>
+            <div className="text-center">
+              <p className="text-3xl font-bold text-amber-900 mb-2">2⁻³ = 1/8</p>
+              <p className="text-sm text-amber-700">2⁻³ = 1/(2³) = 1/8</p>
+              <p className="text-xs text-red-600 mt-2">❌ 2⁻³ = -8</p>
+            </div>
+          </div>
+
+          {/* Tile 4: Fractional index */}
+          <div className="bg-purple-50 border-2 border-purple-300 rounded-xl p-5 flex flex-col items-center justify-center">
+            <p className="text-sm text-purple-900 font-semibold mb-3">分数指数 Fractional Index</p>
+            <div className="text-center">
+              <p className="text-3xl font-bold text-purple-900 mb-2">9^(1/2) = 3</p>
+              <p className="text-sm text-purple-700">9^(1/2) = √9 = 3</p>
+              <p className="text-xs text-red-600 mt-2">❌ 9^(1/2) = 9/2</p>
+            </div>
+          </div>
+        </div>
+
+        <div className="mt-6 bg-accent/5 border border-accent/20 rounded-xl p-4">
+          <p className="text-sm text-ink-2 text-center leading-relaxed">
+            <strong className="text-ink">本周重点（N1.9 positive, negative, zero and fractional indices）：</strong><br />
+            • <strong>正整数指数：</strong>2³ = 2 × 2 × 2 = 8（a^n 是 n 个 a 相乘）<br />
+            • <strong>零指数：</strong>2⁰ = 1（a⁰ = 1, a ≠ 0）<br />
+            • <strong>负指数：</strong>2⁻³ = 1/(2³) = 1/8（a^(-n) = 1/(a^n)，是倒数不是负数）<br />
+            • <strong>分数指数：</strong>9^(1/2) = √9 = 3, 8^(1/3) = ∛8 = 2（a^(1/2) = √a, a^(1/3) = ∛a）<br />
+            <span className="text-accent font-semibold">常见错误：2⁰ = 0 or 2；2⁻³ = -8；9^(1/2) = 9/2；写 1/(2³) 为 2^(-1/3)</span>
+          </p>
+        </div>
+      </div>
+    );
+  }
+
   return null;
 }
