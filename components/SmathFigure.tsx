@@ -3419,21 +3419,9 @@ export default function SmathFigure({ weekNumber }: { weekNumber: number }) {
                 stroke="#9333ea"
                 strokeWidth="2.5"
               />
-              <path
-                d="M 110,110 Q 120,140 150,155"
-                fill="none"
-                stroke="#9333ea"
-                strokeWidth="2.5"
-              />
               {/* Branch 2: Quadrant III (x < 0, y < 0) */}
               <path
                 d="M 90,110 Q 80,140 50,155"
-                fill="none"
-                stroke="#9333ea"
-                strokeWidth="2.5"
-              />
-              <path
-                d="M 90,90 Q 80,60 50,45"
                 fill="none"
                 stroke="#9333ea"
                 strokeWidth="2.5"
