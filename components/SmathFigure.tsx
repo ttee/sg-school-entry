@@ -1986,5 +1986,85 @@ export default function SmathFigure({ weekNumber }: { weekNumber: number }) {
     );
   }
 
+  if (weekNumber === 95) {
+    return (
+      <div className="bg-paper border border-line rounded-xl p-6 mb-6">
+        <h3 className="font-semibold text-ink mb-4 text-center">📊 本周图解</h3>
+        <div className="max-w-4xl mx-auto">
+          <div className="flex flex-col items-center">
+            <svg viewBox="0 0 600 320" className="w-full max-w-[600px] h-auto">
+              {/* Title */}
+              <text x="300" y="20" fontSize="13" fill="#1a1a1a" fontWeight="700" textAnchor="middle">Quartiles and Percentiles: Ordered Data</text>
+              <text x="300" y="36" fontSize="11" fill="#6b7280" fontWeight="600" textAnchor="middle">Data set (7 values): 12, 15, 18, 20, 23, 25, 28 (四分位数和百分位数)</text>
+              
+              {/* Ordered list boxes */}
+              <rect x="60" y="60" width="60" height="40" fill="#f9fafb" stroke="#1a1a1a" strokeWidth="1.5" />
+              <text x="90" y="85" fontSize="14" fill="#1a1a1a" fontWeight="700" textAnchor="middle">12</text>
+              
+              <rect x="130" y="60" width="60" height="40" fill="#dbeafe" stroke="#3b82f6" strokeWidth="2" />
+              <text x="160" y="85" fontSize="14" fill="#3b82f6" fontWeight="700" textAnchor="middle">15</text>
+              
+              <rect x="200" y="60" width="60" height="40" fill="#f9fafb" stroke="#1a1a1a" strokeWidth="1.5" />
+              <text x="230" y="85" fontSize="14" fill="#1a1a1a" fontWeight="700" textAnchor="middle">18</text>
+              
+              <rect x="270" y="60" width="60" height="40" fill="#fef3c7" stroke="#d97706" strokeWidth="2.5" />
+              <text x="300" y="85" fontSize="14" fill="#d97706" fontWeight="700" textAnchor="middle">20</text>
+              
+              <rect x="340" y="60" width="60" height="40" fill="#f9fafb" stroke="#1a1a1a" strokeWidth="1.5" />
+              <text x="370" y="85" fontSize="14" fill="#1a1a1a" fontWeight="700" textAnchor="middle">23</text>
+              
+              <rect x="410" y="60" width="60" height="40" fill="#d1fae5" stroke="#10b981" strokeWidth="2" />
+              <text x="440" y="85" fontSize="14" fill="#10b981" fontWeight="700" textAnchor="middle">25</text>
+              
+              <rect x="480" y="60" width="60" height="40" fill="#f9fafb" stroke="#1a1a1a" strokeWidth="1.5" />
+              <text x="510" y="85" fontSize="14" fill="#1a1a1a" fontWeight="700" textAnchor="middle">28</text>
+              
+              {/* Q1 label */}
+              <line x1="160" y1="110" x2="160" y2="130" stroke="#3b82f6" strokeWidth="2" />
+              <circle cx="160" cy="135" r="3" fill="#3b82f6" />
+              <text x="160" y="152" fontSize="12" fill="#3b82f6" fontWeight="700" textAnchor="middle">Q1 = 15</text>
+              <text x="160" y="165" fontSize="9" fill="#6b7280" fontWeight="600" textAnchor="middle">(median of lower half)</text>
+              
+              {/* Q2 label */}
+              <line x1="300" y1="110" x2="300" y2="130" stroke="#d97706" strokeWidth="2.5" />
+              <circle cx="300" cy="135" r="4" fill="#d97706" />
+              <text x="300" y="152" fontSize="12" fill="#d97706" fontWeight="700" textAnchor="middle">Q2 = 20</text>
+              <text x="300" y="165" fontSize="9" fill="#6b7280" fontWeight="600" textAnchor="middle">(median, 50th percentile)</text>
+              
+              {/* Q3 label */}
+              <line x1="440" y1="110" x2="440" y2="130" stroke="#10b981" strokeWidth="2" />
+              <circle cx="440" cy="135" r="3" fill="#10b981" />
+              <text x="440" y="152" fontSize="12" fill="#10b981" fontWeight="700" textAnchor="middle">Q3 = 25</text>
+              <text x="440" y="165" fontSize="9" fill="#6b7280" fontWeight="600" textAnchor="middle">(median of upper half)</text>
+              
+              {/* Step-by-step guide */}
+              <rect x="40" y="190" width="520" height="115" fill="#f9fafb" stroke="#8b5cf6" strokeWidth="1.5" rx="8" />
+              
+              <text x="300" y="210" fontSize="12" fill="#8b5cf6" fontWeight="700" textAnchor="middle">Step-by-step: Finding Quartiles (四分位数步骤)</text>
+              
+              <text x="50" y="230" fontSize="10" fill="#1a1a1a" fontWeight="600">① Order data: 12, 15, 18, 20, 23, 25, 28 (7 values)</text>
+              
+              <text x="50" y="248" fontSize="10" fill="#d97706" fontWeight="700">② Q2 (median) = 20 (4th value, middle of 7)</text>
+              <text x="360" y="248" fontSize="9" fill="#6b7280" fontWeight="600">(50th percentile)</text>
+              
+              <text x="50" y="266" fontSize="10" fill="#3b82f6" fontWeight="700">③ Lower half (below Q2): (12, 15, 18) → Q1 = 15</text>
+              <text x="350" y="266" fontSize="9" fill="#6b7280" fontWeight="600">(25th percentile)</text>
+              
+              <text x="50" y="284" fontSize="10" fill="#10b981" fontWeight="700">④ Upper half (above Q2): (23, 25, 28) → Q3 = 25</text>
+              <text x="350" y="284" fontSize="9" fill="#6b7280" fontWeight="600">(75th percentile)</text>
+              
+              <text x="300" y="300" fontSize="9" fill="#ef4444" fontWeight="700" textAnchor="middle">Fossil: Q1 ≠ first value (12); Q3 ≠ last value (28). Order first!</text>
+            </svg>
+            <p className="text-sm text-ink-2 text-center mt-4">
+              <span className="font-semibold">四分位数图解：有序数据列表</span><br />
+              <span className="text-accent">Q1 = 15 (下半部分中位数), Q2 = 20 (中位数), Q3 = 25 (上半部分中位数)</span><br />
+              <span className="text-xs text-muted">先排序，再找 Q2 (median)，再找 Q1 (下半) 和 Q3 (上半)</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
   return null;
 }

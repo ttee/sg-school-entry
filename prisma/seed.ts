@@ -16460,6 +16460,122 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
         },
       ],
     },
+    {
+      level: "SMATH",
+      weekNumber: 95,
+      title: "四分位数和百分位数 — Quartiles and percentiles",
+      description: "S1.11 quartiles and percentiles (AEIS 中学数学第 95 周 / SMATH Week 95)",
+      isSample: false,
+      errorFocus: "not ordering the data list; treating Q1 as the first data value; mixing up Q1, Q2, Q3 positions; treating a percentile as a raw count instead of a value",
+      parentBrief: "本周练四分位数和百分位数。先把数据从小到大排好。Q2 是中位数，Q1 是下半部分的中位数，Q3 是上半部分的中位数。不要把第一个数当成 Q1。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "At Riverside Secondary, Mr Lim gives a data set of 7 test scores: 18, 22, 15, 28, 20, 25, 17. Wei needs to find Q1 (the first quartile). What is the first step?|A. Order the data from smallest to largest: 15, 17, 18, 20, 22, 25, 28. (Correct: always order the data first before finding quartiles)|B. Q1 is the first value in the list, so Q1 = 18. Fossil: treated Q1 as the first data value without ordering.|C. Find the mean of all values: (18 + 22 + 15 + 28 + 20 + 25 + 17) / 7 = 21. Fossil: confused quartiles with mean.|D. Q1 is the largest value, so Q1 = 28. Fossil: confused Q1 with the maximum.",
+            "At Riverside Secondary, Aisha has an ordered data set of 7 scores: 12, 15, 18, 20, 23, 25, 28. What is Q2 (the second quartile)?|A. Q2 = 20 (the median, the middle value of the ordered list). Correct: Q2 is the median.|B. Q2 = 15. Fossil: confused Q2 with Q1.|C. Q2 = 2. Fossil: confused the label 'Q2' with the position '2nd value'.|D. Q2 = 25. Fossil: confused Q2 with Q3.",
+            "At Riverside Secondary, Wei has an ordered data set: 10, 12, 15, 18, 20, 22, 25. The median (Q2) is 18. To find Q1, what should he do?|A. Find the median of the lower half (below Q2): 10, 12, 15. Q1 = 12 (the middle value of the lower half).|B. Q1 is the first value in the list, so Q1 = 10. Fossil: treated Q1 as the first data value.|C. Q1 = 1. Fossil: confused the label 'Q1' with the position 'first value'.|D. Find the median of the upper half: 20, 22, 25. Q1 = 22. Fossil: confused Q1 with Q3.",
+            "At Riverside Secondary, Aisha has an ordered data set: 8, 11, 14, 16, 19, 22, 25. The median (Q2) is 16. What is Q3 (the third quartile)?|A. Find the median of the upper half (above Q2): 19, 22, 25. Q3 = 22 (the middle value of the upper half).|B. Q3 is the last value in the list, so Q3 = 25. Fossil: treated Q3 as the last data value.|C. Q3 = 3. Fossil: confused the label 'Q3' with the position '3rd value'.|D. Find the median of the lower half: 8, 11, 14. Q3 = 11. Fossil: confused Q3 with Q1.",
+            "At Riverside Secondary, Mr Lim has an ordered data set of 9 times (in seconds): 30, 32, 35, 38, 40, 42, 45, 48, 50. What is the 50th percentile?|A. The 50th percentile is Q2 (the median) = 40 (the middle value). About 50% of the data is at or below 40.|B. The 50th percentile is 50. Fossil: confused percentile with the data value at the 50th position.|C. The 50th percentile is 5 (there are 5 values at or below the median). Fossil: confused percentile with a raw count.|D. The 50th percentile is 30 (the first value). Fossil: treated percentile as the first data value.",
+          ]),
+          correctAnswer: "A,A,A,A,A",
+          points: 10,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "At Riverside Secondary, Wei has a data set of 7 scores: 25, 18, 30, 22, 27, 20, 24. Before finding Q1, Q2, Q3, what must he do first?|A. Order the data from smallest to largest: 18, 20, 22, 24, 25, 27, 30. (Correct: always order the data first)|B. Find Q1 = 25 (the first value in the unordered list). Fossil: did not order the data first.|C. Calculate the mean: (25 + 18 + 30 + 22 + 27 + 20 + 24) / 7 = 23.7. Fossil: confused quartiles with mean.|D. Q1 is 1, Q2 is 2, Q3 is 3. Fossil: confused the labels with numerical positions.",
+            "At Riverside Secondary, Aisha has an ordered data set: 14, 16, 19, 21, 24, 27, 30. What is Q2?|A. Q2 = 21 (the median, the middle value of the ordered data set). Correct: Q2 is the median.|B. Q2 = 2 (the second value). Fossil: confused the label 'Q2' with position '2nd value'.|C. Q2 = 16 (Q1). Fossil: confused Q2 with Q1.|D. Q2 = 27 (Q3). Fossil: confused Q2 with Q3.",
+            "At Riverside Secondary, Mr Lim explains Q1. He has an ordered data set: 5, 8, 10, 12, 15, 18, 20. The median (Q2) is 12. What is Q1?|A. Q1 is the median of the lower half (below Q2): 5, 8, 10. Q1 = 8.|B. Q1 = 5 (the first value). Fossil: treated Q1 as the first data value.|C. Q1 = 1. Fossil: confused the label 'Q1' with the value '1'.|D. Q1 = 18 (the median of the upper half). Fossil: confused Q1 with Q3.",
+            "At Riverside Secondary, Wei has an ordered data set: 10, 13, 16, 20, 23, 26, 29. The median (Q2) is 20. What is Q3?|A. Q3 is the median of the upper half (above Q2): 23, 26, 29. Q3 = 26.|B. Q3 = 29 (the last value). Fossil: treated Q3 as the last data value.|C. Q3 = 16 (the third value in the list). Fossil: confused 'Q3' with '3rd position'.|D. Q3 = 13 (the median of the lower half). Fossil: confused Q3 with Q1.",
+            "At Riverside Secondary, Aisha has an ordered data set of 7 scores: 12, 15, 18, 20, 23, 25, 28. She finds Q1 = 15, Q2 = 20, Q3 = 25. Wei says: 「Q1 is the first score, so Q1 = 12.」 Is Wei correct?|A. No, Q1 is the median of the lower half (12, 15, 18), which is 15, not 12. Wei confused Q1 with the first data value.|B. Yes, Q1 = 12. Fossil: Q1 is not the first data value.|C. No, Q1 = 1. Fossil: confused the label 'Q1' with the value '1'.|D. No, Q1 = 25. Fossil: confused Q1 with Q3.",
+            "At Riverside Secondary, Mr Lim has an ordered data set: 8, 11, 14, 17, 20, 23, 26, 29, 32. The median (Q2) is 20. Aisha says: 「Q3 is 32 because it is the last value.」 Is Aisha correct?|A. No, Q3 is the median of the upper half (23, 26, 29, 32), which is (26 + 29) / 2 = 27.5, not 32. Aisha confused Q3 with the maximum.|B. Yes, Q3 = 32. Fossil: Q3 is not the last data value.|C. No, Q3 = 3. Fossil: confused the label 'Q3' with the value '3'.|D. No, Q3 = 11 (the median of the lower half). Fossil: confused Q3 with Q1.",
+            "At Riverside Secondary, Wei has an ordered data set: 40, 42, 45, 48, 50, 52, 55. What is the 50th percentile?|A. The 50th percentile is Q2 (the median) = 48. About 50% of the data is at or below 48.|B. The 50th percentile is 50 (the 5th value). Fossil: confused percentile with a specific data value at a position.|C. The 50th percentile is 4 (there are 4 values below 48). Fossil: confused percentile with a raw count.|D. The 50th percentile is 40 (the first value). Fossil: treated percentile as the first data value.",
+            "At Riverside Secondary, Aisha has an ordered data set of 7 test scores: 60, 65, 70, 75, 80, 85, 90. Mr Lim says: 「The 25th percentile is about 67.5, a value with about 25% of the data at or below it.」 Is this correct?|A. Yes, the 25th percentile is Q1. The median of the lower half (60, 65, 70) is 65. But with interpolation, about 67.5 is reasonable as a value with about 25% below it. The 25th percentile is a value, not a count.|B. No, the 25th percentile is 25. Fossil: confused percentile with the value '25'.|C. No, the 25th percentile is 2 (the number of values below 67.5). Fossil: confused percentile with a raw count.|D. No, the 25th percentile is 60 (the first value). Fossil: treated percentile as the first data value.",
+          ]),
+          correctAnswer: "A,A,A,A,A,A,A,A",
+          points: 16,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `Part 2: Show Your Working (写出算式步骤)
+
+Riverside Secondary School has questions about quartiles and percentiles. Answer the questions below. Show your working clearly.
+
+Question (a)
+At Riverside Secondary, Mr Lim records the number of push-ups done by 7 students in a sports test: 18, 22, 15, 20, 25, 17, 28.
+
+(i) Order the data from smallest to largest. Write: Ordered data = ?
+(Hint: Always order the data first before finding quartiles.)
+
+(ii) Find Q2 (the median, the second quartile). Write: Q2 = ? (the middle value of the ordered list)
+(Hint: For 7 values, the median is the 4th value in the ordered list.)
+
+(iii) Find Q1 (the first quartile). Write: Q1 = ? (the median of the lower half)
+(Hint: The lower half is the data below Q2. For the lower half, find the middle value.)
+
+(iv) Find Q3 (the third quartile). Write: Q3 = ? (the median of the upper half)
+(Hint: The upper half is the data above Q2. For the upper half, find the middle value.)
+
+(v) Wei says: 「Q1 is the first value in the ordered list, so Q1 = 15.」 Explain why Wei is wrong. What is the correct value of Q1?
+(Hint: Q1 is the median of the lower half, not the first data value. The lower half is the data below Q2, and Q1 is the middle value of the lower half.)
+
+
+Question (b)
+At Riverside Secondary, Aisha records the time (in seconds) 9 students took to complete a puzzle: 32, 40, 35, 50, 38, 45, 30, 42, 48.
+
+(i) Order the data from smallest to largest. Write: Ordered data = ?
+
+(ii) Find Q2 (the median). Write: Q2 = ? (the middle value of the ordered list)
+(Hint: For 9 values, the median is the 5th value in the ordered list.)
+
+(iii) Find Q1 (the median of the lower half, below Q2). Write: Q1 = ?
+(Hint: The lower half is the 4 values below Q2. The median of 4 values is the average of the 2nd and 3rd values.)
+
+(iv) Find Q3 (the median of the upper half, above Q2). Write: Q3 = ?
+(Hint: The upper half is the 4 values above Q2. The median of 4 values is the average of the 2nd and 3rd values.)
+
+(v) What is the 50th percentile? Write: The 50th percentile = ?
+(Hint: The 50th percentile is Q2, the median. About 50% of the data is at or below this value.)
+
+(vi) Mr Lim says: 「The 50th percentile is 5, because there are 5 values at or below the median.」 Explain why Mr Lim is wrong.
+(Hint: The 50th percentile is a value, not a raw count. The 50th percentile is Q2, the median value.)
+
+
+写作提示 / Tips:
+✓ 每题分步骤写出推理 (Show working steps for each question)
+✓ Part 2 官方要求：clearly show the method of solution by writing working steps, plus the final answer
+✓ 不用计算器 (No calculators allowed)
+✓ 本周教 Sec 2 STATISTICS AND PROBABILITY, S1. Data handling and analysis: 本周是 quartiles and percentiles (S1.11)（四分位数和百分位数）。Step 1: Order the data from smallest to largest. Step 2: Find Q2 (the median, the middle value). Step 3: Find Q1 (the median of the lower half, below Q2). Step 4: Find Q3 (the median of the upper half, above Q2). The kth percentile is a value with about k% of the ordered data at or below it. The 50th percentile = Q2 (the median).
+✓ 四分位数和百分位数步骤示范 (Quartiles and percentiles steps):
+  • Question: Find Q1, Q2, Q3 for the data set: 14, 18, 20, 22, 25, 28, 30.
+    Solution: 
+    ① The data is already ordered: 14, 18, 20, 22, 25, 28, 30 (7 values).
+    ② Q2 (median) = 22 (the 4th value, the middle of 7 values).
+    ③ Lower half (below Q2): 14, 18, 20. Q1 = 18 (the middle value of the lower half).
+    ④ Upper half (above Q2): 25, 28, 30. Q3 = 28 (the middle value of the upper half).
+    Answer: Q1 = 18, Q2 = 22, Q3 = 28.
+✓ 关键步骤：Step 1: Order the data from smallest to largest（把数据从小到大排好）。Step 2: Find Q2, the median (the middle value of the ordered list)（找 Q2，即中位数，有序列表的中间值）。Step 3: Find Q1, the median of the lower half (the data below Q2)（找 Q1，下半部分的中位数，即 Q2 以下的数据的中间值）。Step 4: Find Q3, the median of the upper half (the data above Q2)（找 Q3，上半部分的中位数，即 Q2 以上的数据的中间值）。Step 5: The kth percentile is a value with about k% of the data at or below it (e.g. 50th percentile = Q2)（第 k 个百分位数是一个值，约有 k% 的数据在它或它以下。例如第 50 个百分位数 = Q2）。Step 6: State the final answer（陈述最终答案）。
+✓ 化石 (fossil errors):
+  • Not ordering the data first（不先排序）：Data set: 25, 18, 30, 22. Q1 = 25 (the first value). Wrong. Order first: 18, 22, 25, 30, then find Q1 = 20 (median of lower half 18, 22)（错误：忘记先排序）。
+  • Treating Q1 as the first data value（把 Q1 当成第一个数据值）：Ordered data: 12, 15, 18, 20, 23, 25, 28. Q1 = 12 (the first value). Wrong. Q1 is the median of the lower half (12, 15, 18), which is 15（错误：Q1 不是第一个值）。
+  • Mixing up Q1, Q2, Q3 positions（混淆 Q1, Q2, Q3 的位置）：Q1 is the median of the upper half. Wrong. Q1 is the median of the lower half, Q3 is the median of the upper half（错误：Q1 和 Q3 位置混淆）。
+  • Treating a percentile as a raw count（把百分位数当成原始数量）：The 50th percentile is 4 (there are 4 values below the median). Wrong. The 50th percentile is a value (Q2, the median), not a count（错误：百分位数是一个值，不是数量）。
+✓ 本周教 S1 的 1.11 quartiles and percentiles（四分位数和百分位数）。本周建立在 W88–W90 (S1.8–S1.9 mean, mode, median) 基础上，教四分位数和百分位数。本周不教 range, interquartile range (IQR), standard deviation (S1.12)。本周不教 box-and-whisker plots, cumulative frequency diagrams (S1.13)。本周不教 S1.10 grouped mean（那是 W94）。本周不教 S2 Probability 内容（那是 W91–W93）。本周不教 S3 content。
+✓ Writing 数值不能抄 微课（如果本周有微课）或 MCQ 的其他数值。Writing Q 用 push-ups (18, 22, 15, 20, 25, 17, 28) 和 puzzle time (32, 40, 35, 50, 38, 45, 30, 42, 48)。不能抄本周 MCQ 的其他数值（test scores 18/22/15/28/20/25/17; scores 12/15/18/20/23/25/28; 等）。也不能用 W88–W94 writing 的数值（那些周教的是 mean/mode/median/probability/grouped mean，本周是 quartiles and percentiles）。
+
+Note: This is a sample of Part 2 short-answer/open-ended questions. The official paper has 20 short-answer + 10–15 open-ended items in 1 hour 45 minutes.`,
+          points: 20,
+        },
+      ],
+    },
   ];
 
 
