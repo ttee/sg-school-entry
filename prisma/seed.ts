@@ -6191,7 +6191,7 @@ Useful phrases:
       dueDate: new Date("2026-10-22"),
       errorFocus: "adverbs-of-frequency",
       parentBrief: "本周纠错焦点：always / usually / often / sometimes / never 的位置。中文频率词位置自由，孩子会说 I go always / I am always go / I never am late。英语规则：频率副词放在实义动词前面（I always walk to school），放在 be 动词后面（I am always tired）。Cambridge A2 Key for Schools (Handbook 2020) Language Specifications 规定考 always, usually, often, sometimes, never 这些频率副词。本周不教 present perfect + ever/never（那是 B1 Week 0）。",
-      videoUrl: null,
+      videoUrl: "/video/a2-w10.mp4",
       kaizenFocus: "Place always/usually/often/sometimes/never before the main verb and after be",
       officialClipId: null,
       questions: [
