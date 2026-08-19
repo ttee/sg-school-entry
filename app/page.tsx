@@ -93,17 +93,11 @@ export default function HomePage() {
             </div>
           </Link>
           <nav className="hidden md:flex items-center gap-6 text-sm">
-            <Link href="/guide" className="text-ink-2 hover:text-ink transition-colors font-medium">
-              升学向导
+            <Link href="/trial/A2" className="text-ink-2 hover:text-ink transition-colors font-medium">
+              免费试学
             </Link>
-            <Link href="/assess" className="text-ink-2 hover:text-ink transition-colors font-medium">
-              入学摸底
-            </Link>
-            <Link href="#paths" className="text-ink-2 hover:text-ink transition-colors font-medium">
-              路径
-            </Link>
-            <Link href="#ceq-course" className="text-ink-2 hover:text-ink transition-colors font-medium">
-              会员课程
+            <Link href="/skills" className="text-ink-2 hover:text-ink transition-colors font-medium">
+              技能表
             </Link>
             <Link href="#contact" className="text-ink-2 hover:text-ink transition-colors font-medium">
               咨询
@@ -128,17 +122,11 @@ export default function HomePage() {
         {showMobileMenu && (
           <div className="md:hidden border-t border-line bg-paper">
             <div className="px-4 py-3 space-y-3">
-              <Link href="/guide" className="block text-ink-2 hover:text-ink transition-colors font-medium" onClick={() => setShowMobileMenu(false)}>
-                升学向导
+              <Link href="/trial/A2" className="block text-ink-2 hover:text-ink transition-colors font-medium" onClick={() => setShowMobileMenu(false)}>
+                免费试学
               </Link>
-              <Link href="/assess" className="block text-ink-2 hover:text-ink transition-colors font-medium" onClick={() => setShowMobileMenu(false)}>
-                入学摸底
-              </Link>
-              <Link href="#paths" className="block text-ink-2 hover:text-ink transition-colors font-medium" onClick={() => setShowMobileMenu(false)}>
-                路径
-              </Link>
-              <Link href="#ceq-course" className="block text-ink-2 hover:text-ink transition-colors font-medium" onClick={() => setShowMobileMenu(false)}>
-                会员课程
+              <Link href="/skills" className="block text-ink-2 hover:text-ink transition-colors font-medium" onClick={() => setShowMobileMenu(false)}>
+                技能表
               </Link>
               <Link href="#contact" className="block text-ink-2 hover:text-ink transition-colors font-medium" onClick={() => setShowMobileMenu(false)}>
                 咨询
@@ -155,44 +143,18 @@ export default function HomePage() {
               升学工作室
             </p>
             <h1 className="font-serif font-semibold text-3xl md:text-5xl leading-tight tracking-tight mb-4 max-w-4xl">
-              帮中国家庭走通新加坡政府学校路径
+              小学先过 CEQ 英语门槛。作业打开就能做。
             </h1>
-            <p className="text-lg text-ink-2 mb-3 max-w-2xl">
-              小学先 CEQ 英语门槛再考数学，中学考英语+数学。每周一个错误，作业对准这条升学路径。
-            </p>
-            <p className="text-base text-ink-2 mb-6 max-w-2xl">
-              每周作业 app + 家长微信跟进。家长订阅，孩子登录做题。
-            </p>
-            <div className="flex flex-wrap gap-3 mb-4">
+            <div className="flex flex-wrap gap-3 mb-6">
               <Link
-                href="/guide"
+                href="/trial/A2"
                 className="inline-flex items-center justify-center px-6 py-3.5 bg-accent text-accent-ink font-semibold rounded-full hover:bg-accent-hover transition-colors text-base"
               >
-                升学向导
-              </Link>
-              <Link
-                href="#contact"
-                className="inline-flex items-center justify-center px-6 py-3.5 bg-transparent text-ink border border-accent font-semibold rounded-full hover:bg-accent/10 transition-colors text-base"
-              >
-                微信咨询
-              </Link>
-            </div>
-            <div className="flex flex-wrap gap-3 mb-4 text-sm">
-              <Link
-                href="/assess"
-                className="text-ink-2 hover:text-ink underline"
-              >
-                入学摸底
-              </Link>
-              <Link
-                href="/trial"
-                className="text-ink-2 hover:text-ink underline"
-              >
-                免费试学
+                今晚试学
               </Link>
               <Link
                 href="/skills"
-                className="text-ink-2 hover:text-ink underline"
+                className="inline-flex items-center justify-center px-6 py-3.5 bg-transparent text-ink border border-accent font-semibold rounded-full hover:bg-accent/10 transition-colors text-base"
               >
                 看技能表
               </Link>
@@ -206,32 +168,29 @@ export default function HomePage() {
         <section className="py-12 md:py-16 bg-paper-2">
           <div className="max-w-7xl mx-auto px-4">
             <h2 className="font-serif font-semibold text-2xl md:text-3xl mb-6">
-              已开课程
+              CEQ 英语作业
             </h2>
-            <div className="grid md:grid-cols-3 gap-5 mb-8">
-              <article className="bg-card border border-line rounded-2xl p-6 shadow">
-                <h3 className="font-serif text-xl font-semibold mb-2">A2 Key for Schools</h3>
-                <p className="text-sm text-ink-2 mb-2">12 周 · P2–P4 CEQ 门槛</p>
-                <p className="text-xs text-muted">试学周免费</p>
+            <div className="max-w-2xl">
+              <article className="bg-card border border-line rounded-2xl p-6 shadow mb-6">
+                <h3 className="font-serif text-xl font-semibold mb-2">CEQ 英语作业（A2 Key for Schools）</h3>
+                <p className="text-sm text-ink-2 mb-4">
+                  试学周今晚可做，完整周数由顾问确认。
+                </p>
+                <p className="text-sm text-ink-2 mb-4">
+                  向顾问支付 RMB 或 SGD。
+                </p>
+                <div className="bg-paper-2 rounded-xl p-4 mb-4 border border-line">
+                  <p className="text-sm text-ink font-mono">
+                    CEQ English homework, [N] weeks, [price] RMB or SGD through me. Open this tonight, no account.
+                  </p>
+                </div>
+                <p className="text-xs text-muted mb-1">
+                  联络：PayNow 94594601
+                </p>
               </article>
-
-              <article className="bg-card border border-line rounded-2xl p-6 shadow">
-                <h3 className="font-serif text-xl font-semibold mb-2">B1 Preliminary for Schools</h3>
-                <p className="text-sm text-ink-2 mb-2">12 周 · P5 CEQ 门槛</p>
-                <p className="text-xs text-muted">试学周免费</p>
-              </article>
-
-              <article className="bg-card border border-line rounded-2xl p-6 shadow">
-                <h3 className="font-serif text-xl font-semibold mb-2">AEIS 数学</h3>
-                <p className="text-sm text-ink-2 mb-2">试学周 + 第 1–29 周 · P2–P4 AEIS 数学</p>
-                <p className="text-xs text-muted">试学周免费</p>
-              </article>
-
-              <article className="bg-card border border-line rounded-2xl p-6 shadow">
-                <h3 className="font-serif text-xl font-semibold mb-2">AEIS 中学数学</h3>
-                <p className="text-sm text-ink-2 mb-2">试学周 + 第 1–110 周 · Sec 1–3 AEIS 数学</p>
-                <p className="text-xs text-muted">试学周免费</p>
-              </article>
+              <p className="text-sm text-muted">
+                数学作业另议。
+              </p>
             </div>
           </div>
         </section>
@@ -392,120 +351,6 @@ export default function HomePage() {
                 2026 年申请窗口已结束。下一轮日期与考场以官网为准。
               </p>
             </div>
-          </div>
-        </section>
-
-        <section className="py-12 md:py-16 bg-paper-2" id="ceq-course">
-          <div className="max-w-7xl mx-auto px-4">
-            <h2 className="font-serif font-semibold text-2xl md:text-3xl mb-3">
-              会员与课程
-            </h2>
-            <p className="text-ink-2 mb-6 max-w-2xl">
-              家长订阅，孩子登录。每周作业 app + 家长微信跟进。先走 CEQ 英语门槛，再进 AEIS 数学与英语赛道。
-            </p>
-
-            <div className="grid md:grid-cols-3 gap-5 mb-8">
-              <article className="bg-card border border-line rounded-2xl p-6 shadow">
-                <div className="flex justify-between items-baseline mb-2">
-                  <h3 className="font-serif text-xl font-semibold">月度会员</h3>
-                  <div className="font-serif text-2xl font-semibold text-accent">S$320</div>
-                </div>
-                <p className="text-xs font-semibold uppercase tracking-wide text-accent mb-3">按月订阅</p>
-                <p className="text-ink-2 mb-4 text-sm">
-                  作业 app 解锁已上线周数：A2 / B1 / SEC 各试学周 + 第 1–11 周，MATH 试学周 + 第 1–29 周，SMATH 试学周 + 第 1–110 周。家长微信进度通报。可随时取消。
-                </p>
-                <ul className="space-y-0 border-t border-line mb-5">
-                  <li className="border-b border-line py-3 pl-5 relative before:absolute before:left-0 before:top-5 before:w-2 before:h-2 before:rounded-full before:bg-accent text-sm text-ink-2">
-                    包含 CEQ 备考四项技能：阅读、写作、听读准备、口语提示
-                  </li>
-                  <li className="border-b border-line py-3 pl-5 relative before:absolute before:left-0 before:top-5 before:w-2 before:h-2 before:rounded-full before:bg-accent text-sm text-ink-2">
-                    选择题自动批改，写作 AI 简体点评（Kaizen 一个改善焦点）
-                  </li>
-                  <li className="border-b border-line py-3 pl-5 relative before:absolute before:left-0 before:top-5 before:w-2 before:h-2 before:rounded-full before:bg-accent text-sm text-ink-2">
-                    家长微信进度通报，可随时取消
-                  </li>
-                  <li className="py-3 pl-5 relative before:absolute before:left-0 before:top-5 before:w-2 before:h-2 before:rounded-full before:bg-accent text-sm text-ink-2">
-                    试学一周免费
-                  </li>
-                </ul>
-                <p className="text-xs text-muted mb-4">
-                  如需老师带练，微信咨询后再约（有教案再开 Zoom）。
-                </p>
-                <Link
-                  href="#contact"
-                  className="inline-flex items-center justify-center w-full px-5 py-3 bg-accent text-accent-ink font-semibold rounded-full hover:bg-accent-hover transition-colors"
-                >
-                  咨询月度订阅
-                </Link>
-              </article>
-              <article className="bg-card border border-line rounded-2xl p-6 shadow">
-                <div className="flex justify-between items-baseline mb-2">
-                  <h3 className="font-serif text-xl font-semibold">A2 Key for Schools</h3>
-                  <div className="font-serif text-2xl font-semibold text-accent">S$2,480</div>
-                </div>
-                <p className="text-xs font-semibold uppercase tracking-wide text-accent mb-3">适合 P2–P4 CEQ 门槛</p>
-                <p className="text-ink-2 mb-4 text-sm">
-                  该级别作业 app 12 周路径（试学周 + 第 1–11 周）。
-                </p>
-                <ul className="space-y-0 border-t border-line mb-5">
-                  <li className="border-b border-line py-3 pl-5 relative before:absolute before:left-0 before:top-5 before:w-2 before:h-2 before:rounded-full before:bg-accent text-sm text-ink-2">
-                    针对 Cambridge A2 Key for Schools：阅读、写作、听读、口语提示
-                  </li>
-                  <li className="border-b border-line py-3 pl-5 relative before:absolute before:left-0 before:top-5 before:w-2 before:h-2 before:rounded-full before:bg-accent text-sm text-ink-2">
-                    作业 app A2 试学周 + 第 1–11 周（共 12 周）
-                  </li>
-                  <li className="border-b border-line py-3 pl-5 relative before:absolute before:left-0 before:top-5 before:w-2 before:h-2 before:rounded-full before:bg-accent text-sm text-ink-2">
-                    家长微信进度通报
-                  </li>
-                  <li className="py-3 pl-5 relative before:absolute before:left-0 before:top-5 before:w-2 before:h-2 before:rounded-full before:bg-accent text-sm text-ink-2">
-                    对准申请前 12 个月内要交的 CEQ 成绩单格式来练
-                  </li>
-                </ul>
-                <Link
-                  href="#contact"
-                  className="inline-flex items-center justify-center w-full px-5 py-3 bg-accent text-accent-ink font-semibold rounded-full hover:bg-accent-hover transition-colors"
-                >
-                  报名咨询
-                </Link>
-              </article>
-
-              <article className="bg-card border border-line rounded-2xl p-6 shadow">
-                <div className="flex justify-between items-baseline mb-2">
-                  <h3 className="font-serif text-xl font-semibold">B1 Preliminary for Schools</h3>
-                  <div className="font-serif text-2xl font-semibold text-accent">S$2,880</div>
-                </div>
-                <p className="text-xs font-semibold uppercase tracking-wide text-accent mb-3">适合 P5 CEQ 门槛</p>
-                <p className="text-ink-2 mb-4 text-sm">
-                  该级别作业 app 12 周路径（试学周 + 第 1–11 周）。
-                </p>
-                <ul className="space-y-0 border-t border-line mb-5">
-                  <li className="border-b border-line py-3 pl-5 relative before:absolute before:left-0 before:top-5 before:w-2 before:h-2 before:rounded-full before:bg-accent text-sm text-ink-2">
-                    针对 Cambridge B1 Preliminary for Schools：阅读、写作、听读、口语提示
-                  </li>
-                  <li className="border-b border-line py-3 pl-5 relative before:absolute before:left-0 before:top-5 before:w-2 before:h-2 before:rounded-full before:bg-accent text-sm text-ink-2">
-                    作业 app B1 试学周 + 第 1–11 周（共 12 周）
-                  </li>
-                  <li className="border-b border-line py-3 pl-5 relative before:absolute before:left-0 before:top-5 before:w-2 before:h-2 before:rounded-full before:bg-accent text-sm text-ink-2">
-                    家长微信进度通报
-                  </li>
-                  <li className="py-3 pl-5 relative before:absolute before:left-0 before:top-5 before:w-2 before:h-2 before:rounded-full before:bg-accent text-sm text-ink-2">
-                    对准申请前 12 个月内要交的 CEQ 成绩单格式来练
-                  </li>
-                </ul>
-                <Link
-                  href="#contact"
-                  className="inline-flex items-center justify-center w-full px-5 py-3 bg-accent text-accent-ink font-semibold rounded-full hover:bg-accent-hover transition-colors"
-                >
-                  报名咨询
-                </Link>
-              </article>
-            </div>
-
-            <p className="text-sm text-muted mt-5 max-w-3xl">
-              <strong className="text-ink-2">付款方式：</strong>PayNow 或微信转账，报名以咨询确认为准。月度会员可随时取消，12 周预付包不退费。
-              <br />
-              <strong className="text-ink-2 mt-2 inline-block">考试单独报名：</strong>CEQ 考试本身在剑桥授权考点报名，不含在课程学费内。
-            </p>
           </div>
         </section>
 
@@ -778,7 +623,7 @@ export default function HomePage() {
           <div className="max-w-2xl mx-auto px-4">
             <h2 className="font-serif font-semibold text-2xl md:text-3xl mb-3">报名咨询</h2>
             <p className="text-ink-2 mb-6">
-              提交后老师会在 1–2 个工作日内添加您的微信。咨询月度会员、12 周预付包或试学账号。
+              提交后老师会在 1–2 个工作日内添加您的微信。
             </p>
 
             <form onSubmit={handleSubmit} className="bg-card border border-line rounded-2xl p-6 shadow mb-6">
@@ -895,9 +740,7 @@ export default function HomePage() {
                     className="w-full px-4 py-2.5 bg-paper border border-line rounded-xl text-ink focus:outline-none focus:ring-2 focus:ring-accent focus:border-accent"
                   >
                     <option value="">请选择</option>
-                    <option value="monthly">月度会员（S$320/月）</option>
-                    <option value="a2-12week">A2 Key 12 周预付包（S$2,480）</option>
-                    <option value="b1-12week">B1 Preliminary 12 周预付包（S$2,880）</option>
+                    <option value="ceq-homework">CEQ 英语作业</option>
                     <option value="trial">免费试学账号</option>
                   </select>
                 </div>
@@ -930,12 +773,9 @@ export default function HomePage() {
 
             <div className="grid md:grid-cols-2 gap-4 mb-6">
               <div className="bg-paper-2 border border-line rounded-xl p-5">
-                <h3 className="font-serif font-semibold text-base mb-2 text-ink">付款方式</h3>
+                <h3 className="font-serif font-semibold text-base mb-2 text-ink">联络方式</h3>
                 <p className="text-sm text-ink-2 mb-1">
                   PayNow：{payNowNumber}（手机号）
-                </p>
-                <p className="text-sm text-ink-2">
-                  微信转账：老师添加后告知
                 </p>
               </div>
 
@@ -945,12 +785,15 @@ export default function HomePage() {
                   提交表单时选择「免费试学账号」，老师会为您开通试学周权限。
                 </p>
                 <p className="text-sm text-ink-2">
-                  也可以现在就打开<Link href="/trial" className="text-accent hover:underline">试学周</Link>，不用登录先看作业长什么样。
+                  也可以现在就打开<Link href="/trial/A2" className="text-accent hover:underline">试学周</Link>，不用登录先看作业长什么样。
                 </p>
               </div>
             </div>
 
             <div className="bg-accent/5 border border-accent/20 rounded-xl p-5">
+              <p className="text-sm text-ink-2 mb-2">
+                <strong className="text-ink">考试单独报名：</strong>CEQ 考试本身在剑桥授权考点报名，不含在作业包内。
+              </p>
               <p className="text-xs text-ink-2">
                 <strong className="text-ink">隐私说明：</strong>
                 我们仅收集您的微信号用于咨询回复，不会公开或出售给第三方。您可随时要求删除。详见
