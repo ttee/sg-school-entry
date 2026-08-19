@@ -2673,9 +2673,103 @@ export default function SmathFigure({ weekNumber }: { weekNumber: number }) {
           <p className="text-sm text-ink-2 text-center">
             <strong className="text-ink">三种图的读法：</strong><br />
             • <strong>Dot diagram</strong>: Each dot = one value. Most dots = mode（点图：每个点是一个数据，点最多的值是众数）<br />
-            • <strong>Histogram</strong>: Bars touch. Non-overlapping classes. 12–13 has {'{12, 13, 13}'} (3 values), 14–15 has {'{14, 14, 14, 15, 15}'} (5 values)（直方图：柱子连着，不重叠的组距）<br />
+            • <strong>Histogram</strong>: Bars touch. Non-overlapping classes. 12–13 has 12, 13, 13 (3 values), 14–15 has 14, 14, 14, 15, 15 (5 values)（直方图：柱子连着，不重叠的组距）<br />
             • <strong>Stem-and-leaf</strong>: Always check the key! 1 | 2 means 12, not 1 + 2 = 3（茎叶图：要看图例！1 | 2 means 12）<br />
             <span className="text-accent font-semibold">All three show the same data (8 values: 12, 13, 13, 14, 14, 14, 15, 15). Mode = 14.（同一组数据，众数 = 14）</span>
+          </p>
+        </div>
+      </div>
+    );
+  }
+
+  if (weekNumber === 102) {
+    return (
+      <div className="bg-paper border border-line rounded-xl p-6 mb-6">
+        <h3 className="font-semibold text-ink mb-4 text-center">📊 本周图解</h3>
+        <div className="flex flex-col items-center max-w-2xl mx-auto">
+          <svg viewBox="0 0 580 360" className="w-full max-w-[580px] h-auto">
+            {/* Title */}
+            <text x="290" y="20" fontSize="14" fill="#1a1a1a" fontWeight="700" textAnchor="middle">Stem-and-Leaf vs Histogram 茎叶图 vs 直方图</text>
+            <text x="290" y="38" fontSize="11" fill="#6b7280" textAnchor="middle">Same data, different purposes 同一组数据，不同用途</text>
+            
+            {/* Data: 12, 13, 13, 14, 14, 14, 15, 15 (8 values) */}
+            
+            {/* Left side: Stem-and-Leaf keeps exact values 茎叶图留着原数据 */}
+            <rect x="20" y="55" width="260" height="250" fill="#fef3c7" stroke="#f59e0b" strokeWidth="2" rx="8" />
+            <text x="150" y="80" fontSize="13" fill="#d97706" fontWeight="700" textAnchor="middle">Stem-and-Leaf 茎叶图</text>
+            <text x="150" y="95" fontSize="9" fill="#92400e" textAnchor="middle">Keeps exact values 留着原数据</text>
+            
+            {/* Stem-and-leaf display */}
+            <text x="150" y="120" fontSize="10" fill="#d97706" fontWeight="700" textAnchor="middle">Key: 1 | 2 means 12</text>
+            
+            <rect x="40" y="135" width="220" height="50" fill="#fffbeb" stroke="#fbbf24" strokeWidth="1" rx="4" />
+            <text x="110" y="155" fontSize="11" fill="#d97706" fontWeight="700" textAnchor="end">Stem | Leaf</text>
+            <text x="130" y="155" fontSize="11" fill="#000" textAnchor="start">茎 | 叶</text>
+            
+            <text x="110" y="173" fontSize="12" fill="#d97706" fontWeight="700" textAnchor="end">1 |</text>
+            <text x="130" y="173" fontSize="12" fill="#000" textAnchor="start">2 3 3 4 4 4 5 5</text>
+            
+            {/* Highlight the three 14s */}
+            <rect x="175" y="164" width="36" height="14" fill="none" stroke="#10b981" strokeWidth="2" rx="2" />
+            <text x="193" y="203" fontSize="9" fill="#10b981" fontWeight="700" textAnchor="middle">three 14s</text>
+            <text x="193" y="215" fontSize="9" fill="#10b981" textAnchor="middle">三个 14</text>
+            
+            {/* Advantage */}
+            <text x="150" y="240" fontSize="10" fill="#92400e" fontWeight="700" textAnchor="middle">✓ Advantage 优势：</text>
+            <text x="150" y="255" fontSize="9" fill="#78350f" textAnchor="middle">We can see</text>
+            <text x="150" y="268" fontSize="9" fill="#78350f" textAnchor="middle">EXACTLY how many 14s</text>
+            <text x="150" y="281" fontSize="9" fill="#78350f" textAnchor="middle">能看到确切有几个 14</text>
+            
+            {/* Right side: Histogram groups data 直方图分组 */}
+            <rect x="300" y="55" width="260" height="250" fill="#dbeafe" stroke="#3b82f6" strokeWidth="2" rx="8" />
+            <text x="430" y="80" fontSize="13" fill="#1e40af" fontWeight="700" textAnchor="middle">Histogram 直方图</text>
+            <text x="430" y="95" fontSize="9" fill="#1e3a8a" textAnchor="middle">Groups data 分组数据</text>
+            
+            {/* Histogram display */}
+            <text x="430" y="120" fontSize="10" fill="#1e40af" fontWeight="700" textAnchor="middle">Class intervals 组距</text>
+            
+            {/* Simple histogram */}
+            <line x="330" y="215" x2="330" y2="135" stroke="#000" strokeWidth="1.5" />
+            <line x="330" y="215" x2="530" y2="215" stroke="#000" strokeWidth="1.5" />
+            
+            {/* Y-axis labels */}
+            <text x="322" y="218" fontSize="8" fill="#000" textAnchor="end">0</text>
+            <text x="322" y="190" fontSize="8" fill="#000" textAnchor="end">3</text>
+            <text x="322" y="145" fontSize="8" fill="#000" textAnchor="end">5</text>
+            
+            {/* Bars */}
+            {/* Bar 1: 12–13, frequency 3 */}
+            <rect x="350" y="187" width="80" height="28" fill="#60a5fa" stroke="#000" strokeWidth="1" />
+            <text x="390" y="175" fontSize="9" fill="#1e40af" fontWeight="700" textAnchor="middle">3</text>
+            
+            {/* Bar 2: 14–15, frequency 5 */}
+            <rect x="430" y="145" width="80" height="70" fill="#3b82f6" stroke="#000" strokeWidth="1.5" />
+            <text x="470" y="133" fontSize="9" fill="#1e40af" fontWeight="700" textAnchor="middle">5</text>
+            
+            {/* X-axis labels */}
+            <text x="390" y="230" fontSize="10" fill="#000" textAnchor="middle">12–13</text>
+            <text x="470" y="230" fontSize="10" fill="#1e40af" fontWeight="700" textAnchor="middle">14–15</text>
+            
+            {/* Highlight the bar 14–15 */}
+            <rect x="432" y="147" width="76" height="66" fill="none" stroke="#f59e0b" strokeWidth="2" strokeDasharray="3,2" rx="2" />
+            <text x="470" y="256" fontSize="9" fill="#f59e0b" fontWeight="700" textAnchor="middle">5 in "14–15"</text>
+            <text x="470" y="268" fontSize="9" fill="#f59e0b" textAnchor="middle">but we don't know</text>
+            <text x="470" y="280" fontSize="9" fill="#f59e0b" textAnchor="middle">how many 14s</text>
+            <text x="470" y="292" fontSize="9" fill="#f59e0b" textAnchor="middle">不知道几个 14</text>
+            
+            {/* Bottom summary */}
+            <rect x="40" y="315" width="500" height="35" fill="#f0fdf4" stroke="#10b981" strokeWidth="1.5" rx="6" />
+            <text x="290" y="330" fontSize="10" fill="#065f46" fontWeight="700" textAnchor="middle">Stem-and-leaf keeps 14,14,14; histogram only shows "5 in 14–15"</text>
+            <text x="290" y="343" fontSize="9" fill="#047857" textAnchor="middle">茎叶图留着 14,14,14；直方图只显示"14–15 有 5 个"</text>
+          </svg>
+        </div>
+
+        <div className="mt-6 bg-accent/5 border border-accent/20 rounded-xl p-4">
+          <p className="text-sm text-ink-2 text-center">
+            <strong className="text-ink">本周重点（S1.6 purposes and uses, advantages and disadvantages）：</strong><br />
+            • <strong>Stem-and-leaf keeps exact values</strong>（茎叶图留着原数据）: We can see three 14s and two 15s（能看到三个 14 和两个 15）<br />
+            • <strong>Histogram groups data, loses exact values</strong>（直方图分组，丢掉具体分数）: The bar 14–15 shows 5 scores, but we don't know how many 14s and how many 15s（柱 14–15 显示 5 个分数，但不知道几个 14 几个 15）<br />
+            <span className="text-accent font-semibold">When to use? Stem-and-leaf for small data when we need exact values; histogram for large grouped data when we only need frequency.（什么时候用？茎叶图适合小数据需要原值；直方图适合大数据只要频数）</span>
           </p>
         </div>
       </div>
