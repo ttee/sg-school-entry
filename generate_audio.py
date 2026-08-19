@@ -271,6 +271,18 @@ AUDIO_CONFIGS = [
             ("Ms Tan", TEACHER_VOICE, "Class, I want to talk about the school trip next Friday. We're going to the Science Centre, but we need to leave early. The bus will arrive at 7:30 a.m., so please don't be late. Some students said they wanted to bring their cameras, but the museum is too dark to take good photos inside. You're welcome to take pictures outside during lunch break. We only have enough time for two exhibitions, so we'll visit the Space and Technology sections. The third exhibition is too far to walk to in our schedule. The museum shop has interesting books, but they're quite expensive. If you want to buy something, make sure you bring enough money. Most items cost between $10 and $20. Any questions?"),
         ]
     },
+    {
+        "filename": "b1-w10-listening.mp3",
+        "dialogue": [
+            ("Mei", FEMALE_VOICE, "Jun Wei, the school trip is next Friday, isn't it?"),
+            ("Jun Wei", MALE_VOICE, "Yes, that's right. We're going to the National Museum."),
+            ("Mei", FEMALE_VOICE, "We need to wear our school uniform, don't we?"),
+            ("Jun Wei", MALE_VOICE, "Yes, Ms Tan said school uniform is required. And we should bring our water bottles, shouldn't we?"),
+            ("Mei", FEMALE_VOICE, "Good idea! The museum has air conditioning, doesn't it? I hope it's not too cold."),
+            ("Jun Wei", MALE_VOICE, "Yes, it does. But you can bring a light jacket if you want. Oh, and we don't need to bring lunch, do we?"),
+            ("Mei", FEMALE_VOICE, "No, Ms Tan said we'll eat at the museum café. That sounds nice!"),
+        ]
+    },
 ]
 
 async def generate_audio_with_pauses(dialogue, output_path):
