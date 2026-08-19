@@ -5839,6 +5839,7 @@ Mei: Enjoy your weekend!`,
           ]),
           correctAnswer: "B,A,B",
           points: 3,
+          audioUrl: "/audio/a2-w7-listening.mp3",
         },
         {
           type: "speaking",
