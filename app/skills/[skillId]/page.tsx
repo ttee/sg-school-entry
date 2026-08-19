@@ -46,9 +46,15 @@ export default function SkillDrillPage() {
           <h1 className="text-3xl font-bold text-ink mb-2">{skill.labelZh}</h1>
           <p className="text-muted mb-4">{skill.labelEn}</p>
           <div className="bg-warn-bg border border-line rounded-[--radius] p-6">
-            <p className="text-warn-ink">
-              此技能练习即将上线。请先学习 {skill.weekLabel} 内容。
+            <p className="text-warn-ink mb-4">
+              先做{skill.weekLabel}作业。
             </p>
+            <Link
+              href="/trial/A2"
+              className="inline-block px-6 py-2 rounded-[--radius] bg-accent text-accent-ink hover:bg-accent-hover transition-colors"
+            >
+              去试学周
+            </Link>
           </div>
         </main>
       </div>

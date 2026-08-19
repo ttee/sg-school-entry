@@ -1,9 +1,13 @@
 "use client";
 
 import Link from "next/link";
-import { skills } from "@/lib/skills-data";
+import { skills, drills } from "@/lib/skills-data";
 
 export default function SkillsPage() {
+  const hasSkillDrill = (skillId: string) => {
+    return drills.some((d) => d.skillId === skillId);
+  };
+
   return (
     <div className="min-h-screen bg-paper">
       <header className="sticky top-0 z-50 bg-paper border-b border-line">
@@ -35,35 +39,42 @@ export default function SkillsPage() {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          {skills.map((skill) => (
-            <div
-              key={skill.id}
-              className="bg-card border border-line rounded-[--radius] p-6 hover:shadow-lg transition-shadow"
-            >
-              <div className="mb-3">
-                <h2 className="text-2xl font-bold text-ink mb-1">{skill.labelZh}</h2>
-                <p className="text-sm text-muted">{skill.labelEn}</p>
-              </div>
-              <div className="mb-4">
-                <span className="inline-block bg-accent/10 text-accent px-3 py-1 rounded-full text-sm font-medium">
-                  {skill.weekLabel}
-                </span>
-              </div>
-              <Link
-                href={`/skills/${skill.id}`}
-                className="inline-block bg-accent text-accent-ink px-6 py-2 rounded-[--radius] font-medium hover:bg-accent-hover transition-colors"
+          {skills.map((skill) => {
+            const hasDrill = hasSkillDrill(skill.id);
+            const linkHref = hasDrill
+              ? `/skills/${skill.id}`
+              : `/trial/A2`;
+            const buttonText = hasDrill ? "练一练" : "先看本周故事";
+
+            return (
+              <div
+                key={skill.id}
+                className="bg-card border border-line rounded-[--radius] p-6 hover:shadow-lg transition-shadow"
               >
-                练一练
-              </Link>
-            </div>
-          ))}
+                <div className="mb-3">
+                  <h2 className="text-2xl font-bold text-ink mb-1">{skill.labelZh}</h2>
+                  <p className="text-sm text-muted">{skill.labelEn}</p>
+                </div>
+                <div className="mb-4">
+                  <span className="inline-block bg-accent/10 text-accent px-3 py-1 rounded-full text-sm font-medium">
+                    {skill.weekLabel}
+                  </span>
+                </div>
+                <Link
+                  href={linkHref}
+                  className="inline-block bg-accent text-accent-ink px-6 py-2 rounded-[--radius] font-medium hover:bg-accent-hover transition-colors"
+                >
+                  {buttonText}
+                </Link>
+              </div>
+            );
+          })}
         </div>
 
         <div className="mt-12 p-6 bg-warn-bg border border-line rounded-[--radius]">
           <h2 className="text-xl font-bold text-warn-ink mb-2">说明</h2>
           <ul className="text-warn-ink space-y-1 text-sm">
             <li>• 本页技能对应剑桥 A2 Key for Schools 考试语言规范（非官方完整大纲）</li>
-            <li>• 练习题原创，重用已有 Mei 故事内容</li>
             <li>• 可免费访问，无需登录</li>
             <li>• 点击"练一练"进入对应技能练习</li>
           </ul>
@@ -101,7 +112,7 @@ export default function SkillsPage() {
             </div>
             <div>
               <h3 className="text-lg font-bold text-ink mb-3">联系</h3>
-              <p className="text-sm text-muted">PayNow UEN: 94594601</p>
+              <p className="text-sm text-muted">PayNow 94594601</p>
             </div>
           </div>
         </div>
