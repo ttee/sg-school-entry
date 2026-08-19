@@ -2571,7 +2571,7 @@ export default function SmathFigure({ weekNumber }: { weekNumber: number }) {
       <div className="bg-paper border border-line rounded-xl p-6 mb-6">
         <h3 className="font-semibold text-ink mb-4 text-center">📊 本周图解</h3>
         <div className="flex flex-col items-center max-w-2xl mx-auto">
-          <svg viewBox="0 0 520 440" className="w-full max-w-[520px] h-auto">
+          <svg viewBox="0 0 520 460" className="w-full max-w-[520px] h-auto">
             {/* Title */}
             <text x="260" y="20" fontSize="14" fill="#1a1a1a" fontWeight="700" textAnchor="middle">Dot Diagram, Histogram, and Stem-and-Leaf 点图、直方图和茎叶图</text>
             <text x="260" y="38" fontSize="11" fill="#6b7280" textAnchor="middle">Same data shown three ways 同一组数据的三种表示</text>
@@ -2622,44 +2622,37 @@ export default function SmathFigure({ weekNumber }: { weekNumber: number }) {
             <text x="260" y="175" fontSize="13" fill="#10b981" fontWeight="700" textAnchor="middle">2. Histogram 直方图</text>
             <text x="260" y="190" fontSize="9" fill="#6b7280" textAnchor="middle">Bars touch 柱子连着 | Height = frequency 高度是频数</text>
             
-            {/* Histogram bars: 12-13 (1), 13-14 (2), 14-15 (3), 15-16 (2) */}
-            {/* Using class intervals: 12-13, 13-14, 14-15, 15-16 */}
+            {/* Histogram bars: Non-overlapping classes */}
+            {/* 12–13 = {12, 13, 13} → frequency 3 */}
+            {/* 14–15 = {14, 14, 14, 15, 15} → frequency 5 */}
             
             {/* Axes */}
-            <line x1="80" y1="310" x2="80" y2="210" stroke="#000" strokeWidth="1.5" />
+            <line x1="80" y1="310" x2="80" y2="205" stroke="#000" strokeWidth="1.5" />
             <line x1="80" y1="310" x2="440" y2="310" stroke="#000" strokeWidth="1.5" />
             
-            {/* Y-axis labels */}
+            {/* Y-axis labels (scale up to 5) */}
             <text x="70" y="313" fontSize="9" fill="#000" textAnchor="end">0</text>
-            <text x="70" y="285" fontSize="9" fill="#000" textAnchor="end">1</text>
-            <text x="70" y="255" fontSize="9" fill="#000" textAnchor="end">2</text>
-            <text x="70" y="225" fontSize="9" fill="#000" textAnchor="end">3</text>
+            <text x="70" y="289" fontSize="9" fill="#000" textAnchor="end">1</text>
+            <text x="70" y="265" fontSize="9" fill="#000" textAnchor="end">2</text>
+            <text x="70" y="241" fontSize="9" fill="#000" textAnchor="end">3</text>
+            <text x="70" y="217" fontSize="9" fill="#000" textAnchor="end">4</text>
+            <text x="70" y="193" fontSize="9" fill="#000" textAnchor="end">5</text>
             
-            {/* Bars (each bar width 90px, bars touch) */}
-            {/* Bar 1: 12-13, frequency 1, height 30px per unit, so height 30 */}
-            <rect x="80" y="280" width="90" height="30" fill="#10b981" stroke="#000" strokeWidth="1" />
-            <text x="125" y="270" fontSize="9" fill="#10b981" fontWeight="700" textAnchor="middle">1</text>
+            {/* Bars (bars touch, each unit = 24px height) */}
+            {/* Bar 1: 12–13, frequency 3, height 72px */}
+            <rect x="140" y="238" width="140" height="72" fill="#10b981" stroke="#000" strokeWidth="1" />
+            <text x="210" y="228" fontSize="10" fill="#10b981" fontWeight="700" textAnchor="middle">3</text>
             
-            {/* Bar 2: 13-14, frequency 2, height 60 */}
-            <rect x="170" y="250" width="90" height="60" fill="#10b981" stroke="#000" strokeWidth="1" />
-            <text x="215" y="240" fontSize="9" fill="#10b981" fontWeight="700" textAnchor="middle">2</text>
-            
-            {/* Bar 3: 14-15, frequency 3, height 90 (tallest, modal class) */}
-            <rect x="260" y="220" width="90" height="90" fill="#f59e0b" stroke="#000" strokeWidth="1.5" />
-            <text x="305" y="210" fontSize="9" fill="#f59e0b" fontWeight="700" textAnchor="middle">3</text>
-            <text x="305" y="200" fontSize="8" fill="#f59e0b" fontWeight="700" textAnchor="middle">modal class</text>
-            
-            {/* Bar 4: 15-16, frequency 2, height 60 */}
-            <rect x="350" y="250" width="90" height="60" fill="#10b981" stroke="#000" strokeWidth="1" />
-            <text x="395" y="240" fontSize="9" fill="#10b981" fontWeight="700" textAnchor="middle">2</text>
+            {/* Bar 2: 14–15, frequency 5, height 120px (tallest, modal class) */}
+            <rect x="280" y="190" width="140" height="120" fill="#f59e0b" stroke="#000" strokeWidth="1.5" />
+            <text x="350" y="180" fontSize="10" fill="#f59e0b" fontWeight="700" textAnchor="middle">5</text>
+            <text x="350" y="168" fontSize="9" fill="#f59e0b" fontWeight="700" textAnchor="middle">modal class</text>
             
             {/* X-axis labels */}
-            <text x="125" y="327" fontSize="9" fill="#000" textAnchor="middle">12-13</text>
-            <text x="215" y="327" fontSize="9" fill="#000" textAnchor="middle">13-14</text>
-            <text x="305" y="327" fontSize="9" fill="#f59e0b" fontWeight="700" textAnchor="middle">14-15</text>
-            <text x="395" y="327" fontSize="9" fill="#000" textAnchor="middle">15-16</text>
+            <text x="210" y="327" fontSize="10" fill="#000" textAnchor="middle">12–13</text>
+            <text x="350" y="327" fontSize="10" fill="#f59e0b" fontWeight="700" textAnchor="middle">14–15</text>
             
-            <text x="260" y="345" fontSize="9" fill="#6b7280" textAnchor="middle">Read class intervals 读组距 | Tallest bar is modal class (14-15) 最高柱是众数组距</text>
+            <text x="260" y="345" fontSize="9" fill="#6b7280" textAnchor="middle">Non-overlapping classes 不重叠 | 12–13 has 3 values, 14–15 has 5 values</text>
             
             {/* Section 3: Stem-and-Leaf 茎叶图 */}
             <text x="260" y="375" fontSize="13" fill="#d97706" fontWeight="700" textAnchor="middle">3. Stem-and-Leaf Diagram 茎叶图</text>
@@ -2672,7 +2665,7 @@ export default function SmathFigure({ weekNumber }: { weekNumber: number }) {
             <text x="200" y="428" fontSize="11" fill="#d97706" fontWeight="700" textAnchor="end">1 |</text>
             <text x="220" y="428" fontSize="11" fill="#000" textAnchor="start">2 3 3 4 4 4 5 5</text>
             
-            <text x="260" y="445" fontSize="9" fill="#6b7280" textAnchor="middle">Stem = tens 茎是十位 | Leaf = ones 叶是个位 | Count leaves for total (8 values)</text>
+            <text x="260" y="450" fontSize="9" fill="#6b7280" textAnchor="middle">Stem = tens 茎是十位 | Leaf = ones 叶是个位 | Count leaves for total (8 values)</text>
           </svg>
         </div>
 
@@ -2680,7 +2673,7 @@ export default function SmathFigure({ weekNumber }: { weekNumber: number }) {
           <p className="text-sm text-ink-2 text-center">
             <strong className="text-ink">三种图的读法：</strong><br />
             • <strong>Dot diagram</strong>: Each dot = one value. Most dots = mode（点图：每个点是一个数据，点最多的值是众数）<br />
-            • <strong>Histogram</strong>: Bars touch. Height = frequency. Read class interval, not bar edge（直方图：柱子连着，高度是频数，读组距不是柱边）<br />
+            • <strong>Histogram</strong>: Bars touch. Non-overlapping classes. 12–13 has {'{12, 13, 13}'} (3 values), 14–15 has {'{14, 14, 14, 15, 15}'} (5 values)（直方图：柱子连着，不重叠的组距）<br />
             • <strong>Stem-and-leaf</strong>: Always check the key! 1 | 2 means 12, not 1 + 2 = 3（茎叶图：要看图例！1 | 2 means 12）<br />
             <span className="text-accent font-semibold">All three show the same data (8 values: 12, 13, 13, 14, 14, 14, 15, 15). Mode = 14.（同一组数据，众数 = 14）</span>
           </p>
