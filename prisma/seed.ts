@@ -18093,6 +18093,123 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
         },
       ],
     },
+    {
+      level: "SMATH",
+      weekNumber: 109,
+      title: "幂函数图像 — Graphs of power functions",
+      description: "N6.9 graphs of power functions y = ax^n (AEIS 中学数学第 109 周 / SMATH Week 109)",
+      isSample: false,
+      errorFocus: "drawing y = 1/x as a parabola; thinking x^0 = 0; drawing y = 1/x² below the axis in the 3rd quadrant",
+      parentBrief: "本周认 y = ax^n 的图像，n 只取 −2, −1, 0, 1, 2, 3。1/x 是两支，不过轴。1/x² 两支都在 x 轴上方。不要把 x^0 写成 0。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "At Riverside Secondary, Mr Lim sketches y = x². Aisha says: 「The graph is a parabola opening upwards through the origin.」 Is Aisha correct?|A. Aisha is correct. y = x² is a U-shaped parabola opening upwards through (0, 0). (For y = x², when x = 0, y = 0. When x = 1, y = 1. When x = 2, y = 4. The graph opens upwards through the origin.)|B. Aisha is wrong. The graph is a straight line. Fossil: y = x² is not a straight line. y = x (when n = 1) is a straight line, but y = x² (when n = 2) is a parabola.|C. Aisha is wrong. The graph opens downwards. Fossil: y = x² opens upwards, not downwards. The parabola opens upwards through (0, 0).|D. Aisha is wrong. The graph does not pass through the origin. Fossil: y = x² passes through (0, 0). When x = 0, y = 0² = 0.",
+            "At Riverside Secondary, Wei sketches y = x³. He says: 「The graph passes through the origin and goes down-left to up-right.」 Is Wei correct?|A. Wei is correct. y = x³ passes through (0, 0) and goes down-left to up-right. (For y = x³, when x = 0, y = 0. When x = 1, y = 1. When x = −1, y = −1. When x = 2, y = 8. The graph goes from bottom-left to top-right through the origin.)|B. Wei is wrong. The graph does not pass through the origin. Fossil: y = x³ passes through (0, 0). When x = 0, y = 0³ = 0.|C. Wei is wrong. The graph goes up-left to down-right. Fossil: y = x³ goes down-left to up-right, not up-left to down-right. It is an odd function.|D. Wei is wrong. The graph is a parabola opening upwards. Fossil: y = x³ is not a parabola. y = x² (when n = 2) is a parabola, but y = x³ (when n = 3) is a cubic curve.",
+            "At Riverside Secondary, Aisha sketches y = 1/x. She says: 「The graph has two branches and never crosses the axes.」 Is Aisha correct?|A. Aisha is correct. y = 1/x has two branches (one in quadrant I, one in quadrant III) and never crosses the x-axis or y-axis. (For y = 1/x, when x = 1, y = 1. When x = 2, y = 0.5. When x = −1, y = −1. The graph never touches or crosses the axes because 1/x is undefined when x = 0, and 1/x is never 0.)|B. Aisha is wrong. The graph crosses the x-axis at x = 1. Fossil: y = 1/x never crosses the x-axis. The graph approaches the x-axis but never touches it.|C. Aisha is wrong. The graph is a parabola. Fossil: y = 1/x is not a parabola. y = x² (when n = 2) is a parabola, but y = 1/x (when n = −1) has two branches that never cross the axes.|D. Aisha is wrong. The graph passes through the origin. Fossil: y = 1/x does not pass through the origin. When x = 0, y = 1/0 is undefined.",
+            "At Riverside Secondary, Mr Lim sketches y = 1/x². Wei says: 「The graph has two branches, both above the x-axis.」 Is Wei correct?|A. Wei is correct. y = 1/x² has two branches, both above the x-axis. (For y = 1/x², when x = 1, y = 1. When x = 2, y = 0.25. When x = −1, y = 1. When x = −2, y = 0.25. Since x² is always positive, 1/x² is always positive. Both branches are above the x-axis.)|B. Wei is wrong. One branch is above the x-axis and one is below. Fossil: y = 1/x² has both branches above the x-axis. Since x² is always positive (whether x is positive or negative), 1/x² is always positive. Both branches are above the x-axis.|C. Wei is wrong. The graph is a parabola opening upwards. Fossil: y = 1/x² is not a parabola. y = x² (when n = 2) is a parabola, but y = 1/x² (when n = −2) has two branches above the x-axis.|D. Wei is wrong. The graph passes through the origin. Fossil: y = 1/x² does not pass through the origin. When x = 0, y = 1/0² is undefined.",
+            "At Riverside Secondary, Aisha sketches y = x^0. She says: 「For all x ≠ 0, the graph is the horizontal line y = 1.」 Is Aisha correct?|A. Aisha is correct. y = x^0 = 1 for all x ≠ 0, so the graph is the horizontal line y = 1. (By definition, x^0 = 1 for all x ≠ 0. The graph is a horizontal line at y = 1, with a hole at x = 0 because 0^0 is undefined.)|B. Aisha is wrong. The graph is y = 0. Fossil: x^0 = 1, not 0. The graph is the horizontal line y = 1 (for x ≠ 0), not y = 0.|C. Aisha is wrong. The graph is a parabola. Fossil: y = x^0 = 1 is not a parabola. It is a horizontal line at y = 1 for all x ≠ 0.|D. Aisha is wrong. The graph passes through the origin. Fossil: y = x^0 = 1 does not pass through the origin. For all x ≠ 0, y = 1, not 0.",
+          ]),
+          correctAnswer: "A,A,A,A,A",
+          points: 10,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "At Riverside Secondary, Wei sketches y = 2x². Which of the following is correct?|A. The graph is a parabola opening upwards through the origin, steeper than y = x². (For y = 2x², when x = 0, y = 0. When x = 1, y = 2. When x = 2, y = 8. The graph opens upwards through (0, 0), steeper than y = x² because of the coefficient 2.)|B. The graph is a straight line through the origin. Fossil: y = 2x² is not a straight line. y = 2x (when n = 1) is a straight line, but y = 2x² (when n = 2) is a parabola.|C. The graph opens downwards. Fossil: y = 2x² opens upwards, not downwards. The coefficient 2 is positive.|D. The graph does not pass through the origin. Fossil: y = 2x² passes through (0, 0). When x = 0, y = 2(0)² = 0.",
+            "At Riverside Secondary, Aisha sketches y = x. Which of the following is correct?|A. The graph is a straight line through the origin with slope 1. (For y = x (when n = 1), when x = 0, y = 0. When x = 1, y = 1. When x = 2, y = 2. The graph is a straight line through the origin with slope 1.)|B. The graph is a parabola opening upwards. Fossil: y = x (when n = 1) is a straight line, not a parabola. y = x² (when n = 2) is a parabola.|C. The graph has two branches. Fossil: y = x is a straight line, not two branches. y = 1/x (when n = −1) has two branches.|D. The graph is a horizontal line. Fossil: y = x is not a horizontal line. y = x^0 = 1 (when n = 0) is a horizontal line at y = 1.",
+            "At Riverside Secondary, Mr Lim sketches y = 1/x. Wei says: 「The graph has two branches: one in quadrant I and one in quadrant III.」 Is Wei correct?|A. Wei is correct. y = 1/x has two branches: one in quadrant I (where x > 0, y > 0) and one in quadrant III (where x < 0, y < 0). (For y = 1/x, when x = 1, y = 1 (quadrant I). When x = −1, y = −1 (quadrant III). The graph never crosses the axes.)|B. Wei is wrong. The graph has two branches: one in quadrant I and one in quadrant IV. Fossil: y = 1/x has branches in quadrants I and III, not I and IV. When x < 0, y = 1/x < 0, so the branch is in quadrant III, not IV.|C. Wei is wrong. The graph is a parabola. Fossil: y = 1/x is not a parabola. y = x² (when n = 2) is a parabola, but y = 1/x (when n = −1) has two branches.|D. Wei is wrong. The graph passes through the origin. Fossil: y = 1/x does not pass through the origin. When x = 0, y = 1/0 is undefined.",
+            "At Riverside Secondary, Aisha sketches y = 1/x². Which of the following is correct?|A. The graph has two branches, both above the x-axis, never crossing the axes. (For y = 1/x², when x = 1, y = 1. When x = −1, y = 1. Since x² is always positive, 1/x² is always positive. Both branches are above the x-axis.)|B. The graph has one branch above the x-axis and one below. Fossil: y = 1/x² has both branches above the x-axis. Since x² is always positive (whether x is positive or negative), 1/x² is always positive.|C. The graph passes through the origin. Fossil: y = 1/x² does not pass through the origin. When x = 0, y = 1/0² is undefined.|D. The graph is a parabola opening upwards. Fossil: y = 1/x² is not a parabola. y = x² (when n = 2) is a parabola, but y = 1/x² (when n = −2) has two branches above the x-axis.",
+            "At Riverside Secondary, Wei sketches y = x³. Which of the following is correct?|A. The graph passes through the origin and goes down-left to up-right. (For y = x³, when x = 0, y = 0. When x = 1, y = 1. When x = −1, y = −1. The graph goes from bottom-left to top-right through the origin.)|B. The graph is a parabola opening upwards. Fossil: y = x³ is not a parabola. y = x² (when n = 2) is a parabola, but y = x³ (when n = 3) is a cubic curve.|C. The graph has two branches. Fossil: y = x³ is one continuous curve, not two branches. y = 1/x (when n = −1) has two branches.|D. The graph does not pass through the origin. Fossil: y = x³ passes through (0, 0). When x = 0, y = 0³ = 0.",
+            "At Riverside Secondary, Aisha sketches y = x^0. Which of the following is correct?|A. For all x ≠ 0, the graph is the horizontal line y = 1. (By definition, x^0 = 1 for all x ≠ 0. The graph is a horizontal line at y = 1.)|B. The graph is y = 0. Fossil: x^0 = 1, not 0. The graph is the horizontal line y = 1 (for x ≠ 0), not y = 0.|C. The graph passes through the origin. Fossil: y = x^0 = 1 does not pass through the origin. For all x ≠ 0, y = 1, not 0.|D. The graph is a parabola. Fossil: y = x^0 = 1 is not a parabola. It is a horizontal line at y = 1 for all x ≠ 0.",
+            "At Riverside Secondary, Mr Lim sketches y = x + 1/x. Wei says: 「This is a simple sum of y = x and y = 1/x.」 Is Wei correct?|A. Wei is correct. y = x + 1/x is a simple sum of two power functions: y = x (n = 1) and y = 1/x (n = −1). (The official syllabus allows simple sums of not more than three of these power functions. y = x + 1/x is a sum of two.)|B. Wei is wrong. This is not allowed by the syllabus. Fossil: The official syllabus (N6.9) allows simple sums of not more than three of these power functions. y = x + 1/x is a sum of two, so it is allowed.|C. Wei is wrong. y = x + 1/x is a parabola. Fossil: y = x + 1/x is not a parabola. It is a sum of y = x (a straight line) and y = 1/x (two branches).|D. Wei is wrong. y = x + 1/x passes through the origin. Fossil: y = x + 1/x does not pass through the origin. When x = 0, y = 0 + 1/0 is undefined.",
+            "At Riverside Secondary, Aisha sketches y = 1/x. She says: 「The branch in quadrant III is below the x-axis.」 Is Aisha correct?|A. Aisha is correct. For y = 1/x, when x < 0, y < 0, so the branch in quadrant III is below the x-axis. (For y = 1/x, when x = −1, y = −1 (quadrant III, below the x-axis). When x = −2, y = −0.5 (quadrant III, below the x-axis).)|B. Aisha is wrong. Both branches are above the x-axis. Fossil: For y = 1/x, the branch in quadrant I is above the x-axis, and the branch in quadrant III is below the x-axis. Only y = 1/x² has both branches above the x-axis.|C. Aisha is wrong. The graph is a parabola. Fossil: y = 1/x is not a parabola. y = x² (when n = 2) is a parabola, but y = 1/x (when n = −1) has two branches.|D. Aisha is wrong. The graph passes through the origin. Fossil: y = 1/x does not pass through the origin. When x = 0, y = 1/0 is undefined.",
+          ]),
+          correctAnswer: "A,A,A,A,A,A,A,A",
+          points: 16,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `Part 2: Show Your Working (写出算式步骤)
+
+Riverside Secondary School has questions about graphs of power functions. Answer the questions below. Show your working clearly.
+
+Question (a)
+For each power function, describe the shape of the graph:
+
+(a) y = x²
+(Hint: This is y = ax^n with n = 2. The graph is a U-shaped parabola opening upwards through the origin (0, 0).)
+
+(b) y = x³
+(Hint: This is y = ax^n with n = 3. The graph passes through the origin (0, 0) and goes down-left to up-right.)
+
+(c) y = 1/x
+(Hint: This is y = ax^n with n = −1. The graph has two branches: one in quadrant I, one in quadrant III. The graph never crosses the x-axis or y-axis.)
+
+(d) y = 1/x²
+(Hint: This is y = ax^n with n = −2. The graph has two branches, both above the x-axis. The graph never crosses the x-axis or y-axis.)
+
+
+Question (b)
+Mr Lim shows the class the graph of y = 1/x. Aisha draws the graph as a parabola opening upwards.
+
+(i) Is Aisha correct? Explain.
+(Hint: No, Aisha is wrong. y = 1/x is not a parabola. It has two branches: one in quadrant I, one in quadrant III. y = x² (when n = 2) is a parabola, but y = 1/x (when n = −1) has two branches that never cross the axes.)
+
+(ii) What is the correct shape of y = 1/x? Show your working.
+(Hint: y = 1/x has two branches. When x = 1, y = 1 (quadrant I). When x = 2, y = 0.5 (quadrant I). When x = −1, y = −1 (quadrant III). The graph never touches or crosses the axes.)
+
+
+Question (c)
+Wei sketches y = x^0. He says: 「x^0 = 0, so the graph is the horizontal line y = 0.」
+
+(i) Is Wei correct? Explain.
+(Hint: No, Wei is wrong. x^0 = 1, not 0. For all x ≠ 0, x^0 = 1. The graph is the horizontal line y = 1, not y = 0.)
+
+(ii) What is the correct graph of y = x^0? Show your working.
+(Hint: By definition, x^0 = 1 for all x ≠ 0. The graph is a horizontal line at y = 1, with a hole at x = 0 because 0^0 is undefined.)
+
+
+Question (d)
+At Riverside Secondary, Aisha sketches y = 1/x². She draws one branch above the x-axis in quadrant I and one branch below the x-axis in quadrant III.
+
+(i) Is Aisha correct? Explain.
+(Hint: No, Aisha is wrong. For y = 1/x², both branches are above the x-axis. Since x² is always positive (whether x is positive or negative), 1/x² is always positive. Both branches are above the x-axis.)
+
+(ii) What is the correct shape of y = 1/x²? Show your working.
+(Hint: For y = 1/x², when x = 1, y = 1 (quadrant I, above the x-axis). When x = −1, y = 1 (quadrant II, above the x-axis). Both branches are above the x-axis because x² is always positive.)
+
+
+写作提示 / Tips:
+✓ 每题分步骤写出推理 (Show working steps for each question)
+✓ Part 2 官方要求：clearly show the method of solution by writing working steps, plus the final answer
+✓ 不用计算器 (No calculators allowed)
+✓ 本周教 Secondary Three/Four, NUMBER AND ALGEBRA, N6. Functions and graphs: 本周是 N6.9 graphs of power functions y = ax^n, where n = −2, −1, 0, 1, 2, 3（幂函数图像）。
+  • y = x² (n = 2): U-shaped parabola opening upwards through (0, 0)
+  • y = x³ (n = 3): passes through (0, 0), goes down-left to up-right
+  • y = x (n = 1): straight line through the origin with slope 1
+  • y = x^0 (n = 0): horizontal line y = 1 (for x ≠ 0)
+  • y = 1/x (n = −1): two branches (quadrants I and III), never crosses the axes
+  • y = 1/x² (n = −2): two branches, both above the x-axis, never crosses the axes
+  • Simple sum example: y = x + 1/x (not more than three of these)
+✓ Common mistakes (fossil errors):
+  • Drawing y = 1/x as a parabola: 错误：y = 1/x 不是抛物线。它有两支，不过轴。
+  • Thinking x^0 = 0: 错误：x^0 = 1，不是 0。图像是 y = 1 的水平线。
+  • Drawing y = 1/x² below the axis in quadrant III: 错误：y = 1/x² 两支都在 x 轴上方。因为 x² 总是正数，1/x² 也总是正数。
+
+Note: This is a sample of Part 2 short-answer/open-ended questions. The official paper has 20 short-answer + 10–15 open-ended items in 1 hour 45 minutes.`,
+          points: 20,
+        },
+      ],
+    },
   ];
 
 
