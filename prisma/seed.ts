@@ -17634,6 +17634,112 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
         },
       ],
     },
+    {
+      level: "SMATH",
+      weekNumber: 105,
+      title: "科学记数法 — Standard form A × 10ⁿ",
+      description: "N1.8 use of standard form A × 10^n, where n is an integer, and 1 ≤ A < 10 (AEIS 中学数学第 105 周 / SMATH Week 105)",
+      isSample: false,
+      errorFocus: "A = 34 or A = 0.34; writing 10 × 10^5; dropping the minus in a negative index",
+      parentBrief: "本周把大数和小数写成 A × 10ⁿ。A 要满足 1 ≤ A < 10。3.4 × 10^6 对，34 × 10^5 不对。小数是负指数。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "At Riverside Secondary, Wei writes 3 400 000 in standard form as 34 × 10^5. Is Wei correct?|A. Wei is wrong. The correct answer is 3.4 × 10^6, not 34 × 10^5. (Standard form is A × 10^n where 1 ≤ A < 10. Wei's answer 34 × 10^5 has A = 34, which is not between 1 and 10. Move the decimal point one more place: 34 × 10^5 = 3.4 × 10^6.)|B. Wei is correct. 34 × 10^5 is in standard form. Fossil: A must be between 1 and 10 (1 ≤ A < 10). The answer 34 × 10^5 has A = 34, which is too big. The correct answer is 3.4 × 10^6.|C. Wei is correct. 3 400 000 = 34 × 10^5. Fossil: 34 × 10^5 is mathematically equal to 3 400 000, but it is not in standard form because A = 34 is not between 1 and 10. The correct standard form is 3.4 × 10^6.|D. Wei is wrong. The correct answer is 3.4 × 10^5. Fossil: counting the wrong number of places. 3 400 000 = 3.4 × 10^6, not 3.4 × 10^5. The decimal point moves 6 places to the left, so n = 6.",
+            "At Riverside Secondary, Aisha writes 0.0025 in standard form as 2.5 × 10^3. Is Aisha correct?|A. Aisha is wrong. The correct answer is 2.5 × 10^(-3), not 2.5 × 10^3. (For small numbers less than 1, n is negative. 0.0025 = 2.5 × 10^(-3). The decimal point moves 3 places to the right, so n = -3. Aisha dropped the minus sign.)|B. Aisha is correct. 0.0025 = 2.5 × 10^3. Fossil: dropping the minus in a negative index. For small numbers less than 1, n is negative. The correct answer is 2.5 × 10^(-3), not 2.5 × 10^3.|C. Aisha is wrong. The correct answer is 2.5 × 10^(-2). Fossil: counting the wrong number of places. The decimal point moves 3 places to the right (0.0025 → 2.5), so n = -3, not -2.|D. Aisha is wrong. The correct answer is 0.25 × 10^(-2). Fossil: A must be between 1 and 10 (1 ≤ A < 10). The answer 0.25 × 10^(-2) has A = 0.25, which is less than 1. The correct answer is 2.5 × 10^(-3).",
+            "At Riverside Secondary, Mr Lim writes 8 000 000 in standard form. Which of the following is correct?|A. 8 × 10^6 (The decimal point moves 6 places to the left: 8 000 000 → 8.0. So 8 000 000 = 8 × 10^6. A = 8, which is between 1 and 10, so this is correct standard form.)|B. 0.8 × 10^7 Fossil: A must be between 1 and 10 (1 ≤ A < 10). The answer 0.8 × 10^7 has A = 0.8, which is less than 1. The correct answer is 8 × 10^6.|C. 80 × 10^5 Fossil: A must be between 1 and 10 (1 ≤ A < 10). The answer 80 × 10^5 has A = 80, which is greater than 10. The correct answer is 8 × 10^6.|D. 8 × 10^7 Fossil: counting the wrong number of places. 8 000 000 = 8 × 10^6, not 8 × 10^7. The decimal point moves 6 places to the left, so n = 6, not 7.",
+            "At Riverside Secondary, Wei has a number 5.6 × 10^(-4). What is this number as a decimal?|A. 0.00056 (5.6 × 10^(-4) means move the decimal point 4 places to the left: 5.6 → 0.56 → 0.056 → 0.0056 → 0.00056. So 5.6 × 10^(-4) = 0.00056.)|B. 0.056 Fossil: counting the wrong number of places. 5.6 × 10^(-4) means move the decimal point 4 places to the left, not 2 places. The correct answer is 0.00056.|C. 0.0056 Fossil: counting the wrong number of places. 5.6 × 10^(-4) means move the decimal point 4 places to the left, not 3 places. The correct answer is 0.00056.|D. 56 000 Fossil: moving the decimal point the wrong way. 5.6 × 10^(-4) means move the decimal point 4 places to the left (because n is negative), not to the right. The correct answer is 0.00056.",
+            "At Riverside Secondary, Aisha writes 1 000 000 in standard form as 10 × 10^5. Is Aisha correct?|A. Aisha is wrong. The correct answer is 1 × 10^6, not 10 × 10^5. (Standard form is A × 10^n where 1 ≤ A < 10. Aisha's answer 10 × 10^5 has A = 10, which is not less than 10 (A cannot be 10). The correct answer is 1 × 10^6. A can be 1, but A cannot be 10.)|B. Aisha is correct. 10 × 10^5 is in standard form. Fossil: A must be less than 10 (A < 10). The answer 10 × 10^5 has A = 10, which is not allowed. The correct answer is 1 × 10^6.|C. Aisha is correct. 1 000 000 = 10 × 10^5. Fossil: 10 × 10^5 is mathematically equal to 1 000 000, but it is not in standard form because A = 10 is not less than 10. The correct answer is 1 × 10^6.|D. Aisha is wrong. The correct answer is 100 × 10^4. Fossil: A must be between 1 and 10 (1 ≤ A < 10). The answer 100 × 10^4 has A = 100, which is too big. The correct answer is 1 × 10^6.",
+          ]),
+          correctAnswer: "A,A,A,A,A",
+          points: 10,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "At Riverside Secondary, Mr Lim writes 450 000 in standard form. Which of the following is correct?|A. 4.5 × 10^5 (The decimal point moves 5 places to the left: 450 000 → 4.5. So 450 000 = 4.5 × 10^5. A = 4.5, which is between 1 and 10, so this is correct standard form.)|B. 45 × 10^4 Fossil: A must be between 1 and 10 (1 ≤ A < 10). The answer 45 × 10^4 has A = 45, which is greater than 10. The correct answer is 4.5 × 10^5.|C. 0.45 × 10^6 Fossil: A must be between 1 and 10 (1 ≤ A < 10). The answer 0.45 × 10^6 has A = 0.45, which is less than 1. The correct answer is 4.5 × 10^5.|D. 4.5 × 10^4 Fossil: counting the wrong number of places. 450 000 = 4.5 × 10^5, not 4.5 × 10^4. The decimal point moves 5 places to the left, so n = 5, not 4.",
+            "At Riverside Secondary, Wei has a number 7.2 × 10^4. What is this number as a decimal?|A. 72 000 (7.2 × 10^4 means move the decimal point 4 places to the right: 7.2 → 72 → 720 → 7200 → 72 000. So 7.2 × 10^4 = 72 000.)|B. 720 Fossil: counting the wrong number of places. 7.2 × 10^4 means move the decimal point 4 places to the right, not 2 places. The correct answer is 72 000.|C. 7200 Fossil: counting the wrong number of places. 7.2 × 10^4 means move the decimal point 4 places to the right, not 3 places. The correct answer is 72 000.|D. 0.00072 Fossil: moving the decimal point the wrong way. 7.2 × 10^4 means move the decimal point 4 places to the right (because n is positive), not to the left. The correct answer is 72 000.",
+            "At Riverside Secondary, Aisha writes 0.000 34 in standard form. Which of the following is correct?|A. 3.4 × 10^(-4) (The decimal point moves 4 places to the right: 0.000 34 → 3.4. So 0.000 34 = 3.4 × 10^(-4). A = 3.4, which is between 1 and 10, and n = -4 because the number is less than 1.)|B. 3.4 × 10^4 Fossil: dropping the minus in a negative index. For small numbers less than 1, n is negative. The correct answer is 3.4 × 10^(-4), not 3.4 × 10^4.|C. 34 × 10^(-5) Fossil: A must be between 1 and 10 (1 ≤ A < 10). The answer 34 × 10^(-5) has A = 34, which is greater than 10. The correct answer is 3.4 × 10^(-4).|D. 3.4 × 10^(-5) Fossil: counting the wrong number of places. The decimal point moves 4 places to the right (0.000 34 → 3.4), so n = -4, not -5.",
+            "At Riverside Secondary, Mr Lim has a number 9 × 10^(-3). What is this number as a decimal?|A. 0.009 (9 × 10^(-3) means move the decimal point 3 places to the left: 9 → 0.9 → 0.09 → 0.009. So 9 × 10^(-3) = 0.009.)|B. 0.9 Fossil: counting the wrong number of places. 9 × 10^(-3) means move the decimal point 3 places to the left, not 1 place. The correct answer is 0.009.|C. 0.09 Fossil: counting the wrong number of places. 9 × 10^(-3) means move the decimal point 3 places to the left, not 2 places. The correct answer is 0.009.|D. 9000 Fossil: moving the decimal point the wrong way. 9 × 10^(-3) means move the decimal point 3 places to the left (because n is negative), not to the right. The correct answer is 0.009.",
+            "At Riverside Secondary, Wei writes 62 000 in standard form. Which of the following is correct?|A. 6.2 × 10^4 (The decimal point moves 4 places to the left: 62 000 → 6.2. So 62 000 = 6.2 × 10^4. A = 6.2, which is between 1 and 10, so this is correct standard form.)|B. 62 × 10^3 Fossil: A must be between 1 and 10 (1 ≤ A < 10). The answer 62 × 10^3 has A = 62, which is greater than 10. The correct answer is 6.2 × 10^4.|C. 0.62 × 10^5 Fossil: A must be between 1 and 10 (1 ≤ A < 10). The answer 0.62 × 10^5 has A = 0.62, which is less than 1. The correct answer is 6.2 × 10^4.|D. 6.2 × 10^5 Fossil: counting the wrong number of places. 62 000 = 6.2 × 10^4, not 6.2 × 10^5. The decimal point moves 4 places to the left, so n = 4, not 5.",
+            "At Riverside Secondary, Aisha has a number 1.8 × 10^(-2). What is this number as a decimal?|A. 0.018 (1.8 × 10^(-2) means move the decimal point 2 places to the left: 1.8 → 0.18 → 0.018. So 1.8 × 10^(-2) = 0.018.)|B. 0.18 Fossil: counting the wrong number of places. 1.8 × 10^(-2) means move the decimal point 2 places to the left, not 1 place. The correct answer is 0.018.|C. 1.8 Fossil: not moving the decimal point. 1.8 × 10^(-2) means move the decimal point 2 places to the left. The correct answer is 0.018.|D. 180 Fossil: moving the decimal point the wrong way. 1.8 × 10^(-2) means move the decimal point 2 places to the left (because n is negative), not to the right. The correct answer is 0.018.",
+            "At Riverside Secondary, Mr Lim writes 0.007 in standard form. Which of the following is correct?|A. 7 × 10^(-3) (The decimal point moves 3 places to the right: 0.007 → 7. So 0.007 = 7 × 10^(-3). A = 7, which is between 1 and 10, and n = -3 because the number is less than 1.)|B. 7 × 10^3 Fossil: dropping the minus in a negative index. For small numbers less than 1, n is negative. The correct answer is 7 × 10^(-3), not 7 × 10^3.|C. 70 × 10^(-4) Fossil: A must be between 1 and 10 (1 ≤ A < 10). The answer 70 × 10^(-4) has A = 70, which is greater than 10. The correct answer is 7 × 10^(-3).|D. 7 × 10^(-2) Fossil: counting the wrong number of places. The decimal point moves 3 places to the right (0.007 → 7), so n = -3, not -2.",
+            "At Riverside Secondary, Wei has a number 2.5 × 10^6. Aisha says: 「This number is 250 000.」 Is Aisha correct?|A. Aisha is wrong. The correct answer is 2 500 000, not 250 000. (2.5 × 10^6 means move the decimal point 6 places to the right: 2.5 → 25 → 250 → 2500 → 25 000 → 250 000 → 2 500 000. So 2.5 × 10^6 = 2 500 000.)|B. Aisha is correct. 2.5 × 10^6 = 250 000. Fossil: counting the wrong number of places. 2.5 × 10^6 means move the decimal point 6 places to the right, not 5 places. The correct answer is 2 500 000.|C. Aisha is wrong. The correct answer is 25 000 000. Fossil: counting the wrong number of places. 2.5 × 10^6 means move the decimal point 6 places to the right, not 7 places. The correct answer is 2 500 000.|D. Aisha is wrong. The correct answer is 0.0000025. Fossil: moving the decimal point the wrong way. 2.5 × 10^6 means move the decimal point 6 places to the right (because n is positive), not to the left. The correct answer is 2 500 000.",
+          ]),
+          correctAnswer: "A,A,A,A,A,A,A,A",
+          points: 16,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `Part 2: Show Your Working (写出算式步骤)
+
+Riverside Secondary School has questions about standard form A × 10^n. Answer the questions below. Show your working clearly.
+
+Question (a)
+Write each number in standard form (A × 10^n where 1 ≤ A < 10).
+
+(i) 540 000
+(Hint: The decimal point moves 5 places to the left: 540 000 → 5.4. So 540 000 = 5.4 × 10^5. A = 5.4, which is between 1 and 10, and n = 5.)
+
+(ii) 0.000 82
+(Hint: The decimal point moves 4 places to the right: 0.000 82 → 8.2. So 0.000 82 = 8.2 × 10^(-4). A = 8.2, which is between 1 and 10, and n = -4 because the number is less than 1.)
+
+(iii) 7 300 000
+(Hint: The decimal point moves 6 places to the left: 7 300 000 → 7.3. So 7 300 000 = 7.3 × 10^6. A = 7.3, which is between 1 and 10, and n = 6.)
+
+
+Question (b)
+Write each number as a decimal.
+
+(i) 3.6 × 10^4
+(Hint: 3.6 × 10^4 means move the decimal point 4 places to the right: 3.6 → 36 → 360 → 3600 → 36 000. So 3.6 × 10^4 = 36 000.)
+
+(ii) 9.1 × 10^(-3)
+(Hint: 9.1 × 10^(-3) means move the decimal point 3 places to the left: 9.1 → 0.91 → 0.091 → 0.0091. So 9.1 × 10^(-3) = 0.0091.)
+
+(iii) 1 × 10^5
+(Hint: 1 × 10^5 means move the decimal point 5 places to the right: 1 → 10 → 100 → 1000 → 10 000 → 100 000. So 1 × 10^5 = 100 000.)
+
+
+Question (c)
+At Riverside Secondary, Wei writes 920 000 in standard form as 92 × 10^4. Aisha says: 「Wei's answer is wrong. The correct answer is 9.2 × 10^5.」 
+
+(i) Is Wei's answer 92 × 10^4 mathematically equal to 920 000? Show your calculation.
+(Hint: 92 × 10^4 = 92 × 10 000 = 920 000. Yes, Wei's answer is mathematically equal to 920 000.)
+
+(ii) Is Wei's answer 92 × 10^4 in correct standard form? Explain why or why not.
+(Hint: No. Standard form is A × 10^n where 1 ≤ A < 10. Wei's answer 92 × 10^4 has A = 92, which is not between 1 and 10. So Wei's answer is not in correct standard form.)
+
+(iii) What is the correct standard form for 920 000?
+(Hint: The decimal point moves 5 places to the left: 920 000 → 9.2. So 920 000 = 9.2 × 10^5. A = 9.2, which is between 1 and 10, and n = 5.)
+
+
+写作提示 / Tips:
+✓ 每题分步骤写出推理 (Show working steps for each question)
+✓ Part 2 官方要求：clearly show the method of solution by writing working steps, plus the final answer
+✓ 不用计算器 (No calculators allowed)
+✓ 本周教 Sec 2 NUMBER AND ALGEBRA, N1. Numbers and their operations: 本周是 use of standard form A × 10^n, where n is an integer, and 1 ≤ A < 10 (N1.8)（科学记数法 A × 10ⁿ）。把大数和小数写成 A × 10ⁿ（A 要满足 1 ≤ A < 10）：
+  • 大数（n 是正整数）：3 400 000 = 3.4 × 10^6（小数点左移 6 位，所以 n = 6）。
+  • 小数（n 是负整数）：0.0025 = 2.5 × 10^(-3)（小数点右移 3 位，所以 n = -3）。
+  • A 可以是 1，不能是 10（1 ≤ A < 10）。
+✓ Common mistakes (fossil errors):
+  • A = 34 or A = 0.34（A 不满足 1 ≤ A < 10）：「540 000 = 54 × 10^4」 Wrong. A = 54 is too big. The correct answer is 5.4 × 10^5（错误：A = 54 太大了。正确答案是 5.4 × 10^5）。
+  • Writing 10 × 10^5（A 不能是 10）：「1 000 000 = 10 × 10^5」 Wrong. A cannot be 10. The correct answer is 1 × 10^6（错误：A 不能是 10。正确答案是 1 × 10^6）。
+  • Dropping the minus in a negative index（小数要写 10^(-3)，不要写 10^3）：「0.0025 = 2.5 × 10^3」 Wrong. For small numbers less than 1, n is negative. The correct answer is 2.5 × 10^(-3)（错误：小于 1 的数，n 是负数。正确答案是 2.5 × 10^(-3)）。
+
+Note: This is a sample of Part 2 short-answer/open-ended questions. The official paper has 20 short-answer + 10–15 open-ended items in 1 hour 45 minutes.`,
+          points: 20,
+        },
+      ],
+    },
   ];
 
 

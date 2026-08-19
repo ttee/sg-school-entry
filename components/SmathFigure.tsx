@@ -2982,5 +2982,111 @@ export default function SmathFigure({ weekNumber }: { weekNumber: number }) {
     );
   }
 
+  if (weekNumber === 105) {
+    return (
+      <div className="bg-paper border border-line rounded-xl p-6 mb-6">
+        <h3 className="font-semibold text-ink mb-4 text-center">📊 本周图解</h3>
+        <div className="flex flex-col items-center max-w-2xl mx-auto">
+          <svg viewBox="0 0 620 480" className="w-full max-w-[620px] h-auto">
+            {/* Title */}
+            <text x="310" y="20" fontSize="14" fill="#1a1a1a" fontWeight="700" textAnchor="middle">Standard Form A × 10ⁿ 科学记数法</text>
+            <text x="310" y="38" fontSize="11" fill="#6b7280" textAnchor="middle">where 1 ≤ A &lt; 10, and n is an integer（A 要满足 1 ≤ A &lt; 10，n 是整数）</text>
+            
+            {/* Example 1: Large number (positive index) */}
+            <rect x="30" y="60" width="560" height="180" fill="#dbeafe" stroke="#3b82f6" strokeWidth="2" rx="8" />
+            <text x="310" y="80" fontSize="12" fill="#1e40af" fontWeight="700" textAnchor="middle">Example 1: Large Number 大数（n 是正整数）</text>
+            
+            {/* Original number */}
+            <text x="310" y="105" fontSize="13" fill="#1a1a1a" fontWeight="700" textAnchor="middle">3 400 000</text>
+            
+            {/* Arrow showing decimal point movement */}
+            <text x="90" y="135" fontSize="10" fill="#1e40af" textAnchor="start">3</text>
+            <text x="102" y="135" fontSize="10" fill="#ef4444" fontWeight="700" textAnchor="start">.</text>
+            <text x="112" y="135" fontSize="10" fill="#1e40af" textAnchor="start">4</text>
+            <text x="124" y="135" fontSize="10" fill="#1e40af" textAnchor="start">0</text>
+            <text x="136" y="135" fontSize="10" fill="#1e40af" textAnchor="start">0</text>
+            <text x="148" y="135" fontSize="10" fill="#1e40af" textAnchor="start">0</text>
+            <text x="160" y="135" fontSize="10" fill="#1e40af" textAnchor="start">0</text>
+            <text x="172" y="135" fontSize="10" fill="#1e40af" textAnchor="start">0</text>
+            <text x="184" y="135" fontSize="10" fill="#1e40af" textAnchor="start">0</text>
+            
+            {/* Arrow showing 6 places to the left */}
+            <line x1="105" y1="145" x2="185" y2="145" stroke="#ef4444" strokeWidth="2" markerEnd="url(#arrowhead1)" />
+            <defs>
+              <marker id="arrowhead1" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+                <polygon points="0 0, 10 3.5, 0 7" fill="#ef4444" />
+              </marker>
+            </defs>
+            <text x="145" y="160" fontSize="9" fill="#dc2626" fontWeight="700" textAnchor="middle">6 places left</text>
+            <text x="145" y="172" fontSize="8" fill="#dc2626" textAnchor="middle">小数点左移 6 位</text>
+            
+            {/* Arrow down */}
+            <line x1="310" y1="180" x2="310" y2="195" stroke="#3b82f6" strokeWidth="2" markerEnd="url(#arrowhead2)" />
+            <defs>
+              <marker id="arrowhead2" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+                <polygon points="0 0, 10 3.5, 0 7" fill="#3b82f6" />
+              </marker>
+            </defs>
+            
+            {/* Standard form result */}
+            <text x="310" y="215" fontSize="14" fill="#1e40af" fontWeight="700" textAnchor="middle">3.4 × 10⁶</text>
+            <text x="310" y="230" fontSize="9" fill="#6b7280" textAnchor="middle">(A = 3.4, which is between 1 and 10; n = 6)</text>
+            
+            {/* Example 2: Small number (negative index) */}
+            <rect x="30" y="260" width="560" height="180" fill="#fef3c7" stroke="#f59e0b" strokeWidth="2" rx="8" />
+            <text x="310" y="280" fontSize="12" fill="#92400e" fontWeight="700" textAnchor="middle">Example 2: Small Number 小数（n 是负整数）</text>
+            
+            {/* Original number */}
+            <text x="310" y="305" fontSize="13" fill="#1a1a1a" fontWeight="700" textAnchor="middle">0.0025</text>
+            
+            {/* Arrow showing decimal point movement */}
+            <text x="90" y="335" fontSize="10" fill="#92400e" textAnchor="start">0</text>
+            <text x="102" y="335" fontSize="10" fill="#92400e" textAnchor="start">.</text>
+            <text x="112" y="335" fontSize="10" fill="#92400e" textAnchor="start">0</text>
+            <text x="124" y="335" fontSize="10" fill="#92400e" textAnchor="start">0</text>
+            <text x="136" y="335" fontSize="10" fill="#92400e" textAnchor="start">2</text>
+            <text x="148" y="335" fontSize="10" fill="#ef4444" fontWeight="700" textAnchor="start">.</text>
+            <text x="158" y="335" fontSize="10" fill="#92400e" textAnchor="start">5</text>
+            
+            {/* Arrow showing 3 places to the right */}
+            <line x1="105" y1="345" x2="145" y2="345" stroke="#ef4444" strokeWidth="2" markerStart="url(#arrowhead3)" />
+            <defs>
+              <marker id="arrowhead3" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto">
+                <polygon points="10 0, 0 3.5, 10 7" fill="#ef4444" />
+              </marker>
+            </defs>
+            <text x="125" y="360" fontSize="9" fill="#dc2626" fontWeight="700" textAnchor="middle">3 places right</text>
+            <text x="125" y="372" fontSize="8" fill="#dc2626" textAnchor="middle">小数点右移 3 位</text>
+            
+            {/* Arrow down */}
+            <line x1="310" y1="380" x2="310" y2="395" stroke="#f59e0b" strokeWidth="2" markerEnd="url(#arrowhead4)" />
+            <defs>
+              <marker id="arrowhead4" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+                <polygon points="0 0, 10 3.5, 0 7" fill="#f59e0b" />
+              </marker>
+            </defs>
+            
+            {/* Standard form result */}
+            <text x="310" y="415" fontSize="14" fill="#92400e" fontWeight="700" textAnchor="middle">2.5 × 10⁻³</text>
+            <text x="310" y="430" fontSize="9" fill="#6b7280" textAnchor="middle">(A = 2.5, which is between 1 and 10; n = -3)</text>
+            
+            {/* Key point */}
+            <text x="310" y="465" fontSize="10" fill="#dc2626" fontWeight="700" textAnchor="middle">⚠ A can be 1, but A cannot be 10 （A 可以是 1，不能是 10）</text>
+          </svg>
+        </div>
+
+        <div className="mt-6 bg-accent/5 border border-accent/20 rounded-xl p-4">
+          <p className="text-sm text-ink-2 text-center leading-relaxed">
+            <strong className="text-ink">本周重点（N1.8 use of standard form A × 10^n）：</strong><br />
+            • <strong>大数（n 是正整数）：</strong>3 400 000 = 3.4 × 10^6（小数点左移 6 位，所以 n = 6）<br />
+            • <strong>小数（n 是负整数）：</strong>0.0025 = 2.5 × 10^(-3)（小数点右移 3 位，所以 n = -3）<br />
+            • <strong>A 的范围：</strong>1 ≤ A &lt; 10（A 可以是 1，不能是 10）<br />
+            <span className="text-accent font-semibold">常见错误：A = 34 或 A = 0.34（A 不满足 1 ≤ A &lt; 10）；写成 10 × 10^5（A 不能是 10）；小数漏掉负号（要写 10^(-3)，不要写 10^3）</span>
+          </p>
+        </div>
+      </div>
+    );
+  }
+
   return null;
 }
