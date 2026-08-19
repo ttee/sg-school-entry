@@ -190,6 +190,12 @@ export default function HomePage() {
               >
                 免费试学
               </Link>
+              <Link
+                href="/skills"
+                className="text-ink-2 hover:text-ink underline"
+              >
+                看技能表
+              </Link>
             </div>
             <p className="text-sm text-muted max-w-2xl">
               非 MOE、SEAB、Cambridge 官方机构

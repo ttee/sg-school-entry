@@ -110,6 +110,12 @@ export default async function TrialPage() {
               入学摸底
             </Link>
             <Link
+              href="/skills"
+              className="text-sm text-ink-2 hover:text-ink underline"
+            >
+              看技能表
+            </Link>
+            <Link
               href="/#contact"
               className="text-sm text-ink-2 hover:text-ink underline"
             >
