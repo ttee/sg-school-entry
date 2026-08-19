@@ -16576,6 +16576,133 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
         },
       ],
     },
+    {
+      level: "SMATH",
+      weekNumber: 96,
+      title: "离散程度 — Range, IQR and standard deviation as spread",
+      description: "S1.12 range, interquartile range and standard deviation as measures of spread (AEIS 中学数学第 96 周 / SMATH Week 96)",
+      isSample: false,
+      errorFocus: "range backwards (smallest − largest); IQR as Q1−Q3 or Q3+Q1; treating one extreme value as the IQR; drawing a box plot (that is S1.13)",
+      parentBrief: "本周练离散程度。极差 = 最大 − 最小。四分位距 IQR = Q3 − Q1（先排序，用 W95 的四分位数方法）。标准差也表示数据有多散，但本周只比较哪组更散，不套完整公式。不要把极差反过来算（最小 − 最大）。不要把一个极端值当成 IQR。不要画箱线图（那是 S1.13）。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "At Riverside Secondary, Mr Lim has a data set: 10, 14, 16, 20, 24. What is the range?|A. Range = 24 − 10 = 14. Correct: range = largest − smallest.|B. Range = 10 − 24 = −14. Fossil: range backwards (smallest − largest).|C. Range = 24 + 10 = 34. Fossil: treated range as sum instead of difference.|D. Range = 20 (the median). Fossil: confused range with median.",
+            "At Riverside Secondary, Aisha has an ordered data set: 8, 12, 15, 18, 22, 25, 30. The median (Q2) is 18. Q1 = 12, Q3 = 25. What is the interquartile range (IQR)?|A. IQR = Q3 − Q1 = 25 − 12 = 13. Correct: IQR = Q3 − Q1.|B. IQR = Q1 − Q3 = 12 − 25 = −13. Fossil: IQR backwards (Q1 − Q3).|C. IQR = Q3 + Q1 = 25 + 12 = 37. Fossil: IQR as Q3 + Q1 (addition instead of subtraction).|D. IQR = 30 − 8 = 22. Fossil: confused IQR with range.",
+            "At Riverside Secondary, Wei has two data sets. Set A: 10, 12, 14, 16, 18 (range = 8). Set B: 5, 10, 15, 20, 25 (range = 20). Which set has more spread?|A. Set B has more spread, because it has a larger range (20 > 8). A larger range means more spread.|B. Set A has more spread, because it has a smaller range (8 < 20). Fossil: treated smaller range as more spread.|C. Both sets have the same spread. Fossil: ignored the range values.|D. Cannot tell from the range. Fossil: range is a measure of spread.",
+            "At Riverside Secondary, Aisha has a data set: 10, 15, 18, 20, 22, 25, 30. Q1 = 15, Q2 = 20, Q3 = 25. IQR = Q3 − Q1 = 25 − 15 = 10. Mr Lim says: 「The IQR is 30, the largest value.」 Is Mr Lim correct?|A. No, IQR = Q3 − Q1 = 10, not 30. Mr Lim confused IQR with the maximum value.|B. Yes, IQR = 30. Fossil: treating one extreme value as the IQR.|C. No, IQR = 10 − 30 = −20. Fossil: IQR backwards.|D. No, IQR = 30 + 10 = 40. Fossil: IQR as sum.",
+            "At Riverside Secondary, Wei compares two small data sets. Set A: 10, 11, 12, 13, 14 (values close to the mean 12). Set B: 2, 8, 12, 16, 22 (values far from the mean 12). Which set has a larger standard deviation (more spread around the mean)?|A. Set B has a larger standard deviation, because its values are more spread around the mean.|B. Set A has a larger standard deviation. Fossil: confused close/far from mean.|C. Both have the same standard deviation. Fossil: ignored the spread around the mean.|D. Cannot tell without the full formula. Note: this week we compare qualitatively (which is more spread), not calculate the full SD formula (that is S1.15).",
+          ]),
+          correctAnswer: "A,A,A,A,A",
+          points: 10,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "At Riverside Secondary, Mr Lim has a data set: 5, 9, 12, 15, 18, 22, 28. What is the range?|A. Range = 28 − 5 = 23. Correct: range = largest − smallest.|B. Range = 5 − 28 = −23. Fossil: range backwards (smallest − largest).|C. Range = 28 + 5 = 33. Fossil: range as sum instead of difference.|D. Range = 15 (the median). Fossil: confused range with median.",
+            "At Riverside Secondary, Aisha has an ordered data set: 6, 10, 14, 18, 22, 26, 30. Q2 = 18, Q1 = 10, Q3 = 26. What is the IQR?|A. IQR = Q3 − Q1 = 26 − 10 = 16. Correct: IQR = Q3 − Q1.|B. IQR = Q1 − Q3 = 10 − 26 = −16. Fossil: IQR backwards (Q1 − Q3).|C. IQR = Q3 + Q1 = 26 + 10 = 36. Fossil: IQR as Q3 + Q1 (addition).|D. IQR = 30 (the largest value). Fossil: treating one extreme value as the IQR.",
+            "At Riverside Secondary, Wei has a data set: 12, 15, 18, 20, 22, 25, 28. Q1 = 15, Q2 = 20, Q3 = 25. Wei says: 「IQR = 25 + 15 = 40.」 Is Wei correct?|A. No, IQR = Q3 − Q1 = 25 − 15 = 10, not 40. Wei added instead of subtracting.|B. Yes, IQR = 40. Fossil: IQR as Q3 + Q1 (addition).|C. No, IQR = 15 − 25 = −10. Fossil: IQR backwards.|D. No, IQR = 28 (the largest value). Fossil: treating one extreme as the IQR.",
+            "At Riverside Secondary, Aisha has two data sets. Set A: 10, 12, 14, 16, 18 (IQR = 6). Set B: 5, 10, 15, 20, 25 (IQR = 15). Which set has more spread in the middle 50%?|A. Set B has more spread in the middle 50%, because it has a larger IQR (15 > 6).|B. Set A has more spread. Fossil: confused smaller IQR with more spread.|C. Both have the same spread. Fossil: ignored the IQR values.|D. Cannot tell from the IQR. Fossil: IQR is a measure of spread of the middle 50%.",
+            "At Riverside Secondary, Mr Lim has a data set: 8, 12, 15, 18, 22, 25, 30. Range = 22, Q1 = 12, Q3 = 25, IQR = 13. Aisha says: 「The range is pulled by the extreme values 8 and 30. The IQR (Q3 − Q1) is not affected by one extreme value.」 Is Aisha correct?|A. Yes, the range uses the largest and smallest (30 and 8), so it is pulled by extremes. The IQR uses Q1 and Q3 (the middle 50%), so it is not pulled by one extreme value.|B. No, the IQR is also pulled by extremes. Fossil: IQR is not pulled by one extreme.|C. No, the range is not affected by extremes. Fossil: range is affected by extremes.|D. No, the IQR = 30 (the extreme value). Fossil: treating one extreme as the IQR.",
+            "At Riverside Secondary, Wei has a data set: 10, 11, 12, 13, 14 (all values close to the mean 12). Aisha has a data set: 2, 8, 12, 16, 22 (values far from the mean 12). Wei says: 「My data has a smaller standard deviation, because the values are closer to the mean.」 Is Wei correct?|A. Yes, a smaller standard deviation means less spread around the mean (values are closer to the mean).|B. No, a smaller standard deviation means more spread. Fossil: confused small SD with more spread.|C. No, standard deviation is not about spread around the mean. Fossil: SD is a measure of spread around the mean.|D. No, this week we draw a box-and-whisker plot to show the standard deviation. Fossil: box plots show quartiles (S1.13), not SD (本周不教 box plots).",
+            "At Riverside Secondary, Aisha has a data set: 5, 10, 15, 20, 25. She finds range = 20, Q1 = 10, Q3 = 20, IQR = 10. Mr Lim says: 「Draw a box-and-whisker plot to show the IQR.」 Is Mr Lim's instruction correct for this week (S1.12)?|A. No, this week (S1.12) is about range, IQR and SD as measures of spread, not drawing box-and-whisker plots. Box plots are S1.13.|B. Yes, we draw box-and-whisker plots this week. Fossil: box plots are S1.13, not S1.12.|C. Yes, box plots show the standard deviation. Fossil: box plots show quartiles (S1.13), not SD.|D. No, this week we draw cumulative frequency diagrams. Fossil: cumulative frequency diagrams are S1.13, not S1.12.",
+            "At Riverside Secondary, Wei has two data sets. Set A: 10, 12, 14, 16, 18. Set B: 2, 8, 14, 20, 26. Wei says: 「Set A has a smaller range and a smaller standard deviation, so it has less spread.」 Is Wei correct?|A. Yes, a smaller range and a smaller standard deviation both mean less spread.|B. No, a smaller range means more spread. Fossil: confused smaller range with more spread.|C. No, a smaller standard deviation means more spread. Fossil: confused smaller SD with more spread.|D. No, this week we calculate the full SD formula. Note: S1.12 teaches SD as a measure of spread (compare qualitatively), not the full calculation formula (that is S1.15).",
+          ]),
+          correctAnswer: "A,A,A,A,A,A,A,A",
+          points: 16,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `Part 2: Show Your Working (写出算式步骤)
+
+Riverside Secondary School has questions about measures of spread. Answer the questions below. Show your working clearly.
+
+Question (a)
+At Riverside Secondary, Mr Lim records the number of goals scored by 7 students in a football match: 2, 5, 3, 8, 4, 6, 9.
+
+(i) Order the data from smallest to largest. Write: Ordered data = ?
+(Hint: Always order the data first.)
+
+(ii) Find the range. Write: Range = largest − smallest = ?
+(Hint: Range = largest value − smallest value.)
+
+(iii) Wei says: 「Range = 2 − 9 = −7.」 Explain why Wei is wrong. What is the correct range?
+(Hint: Range is not backwards. Range = largest − smallest, not smallest − largest.)
+
+
+Question (b)
+At Riverside Secondary, Aisha records the time (in seconds) 7 students took to finish a race: 30, 35, 38, 40, 42, 45, 50.
+
+(i) Find Q2 (the median). Write: Q2 = ? (the middle value of the ordered list)
+(Hint: For 7 values, the median is the 4th value in the ordered list. Recall W95: Q2 is the median.)
+
+(ii) Find Q1 (the first quartile, the median of the lower half below Q2). Write: Q1 = ?
+(Hint: Recall W95: The lower half is the data below Q2. Q1 is the middle value of the lower half.)
+
+(iii) Find Q3 (the third quartile, the median of the upper half above Q2). Write: Q3 = ?
+(Hint: Recall W95: The upper half is the data above Q2. Q3 is the middle value of the upper half.)
+
+(iv) Find the interquartile range (IQR). Write: IQR = Q3 − Q1 = ?
+(Hint: IQR = Q3 − Q1, not Q1 − Q3 or Q3 + Q1.)
+
+(v) Aisha says: 「IQR = 50, the largest value.」 Explain why Aisha is wrong. What is the correct IQR?
+(Hint: IQR is not one extreme value. IQR = Q3 − Q1, the difference between the third quartile and the first quartile.)
+
+
+Question (c)
+At Riverside Secondary, Mr Lim compares two small data sets of test scores.
+
+Set A: 10, 11, 12, 13, 14 (all values are close to the mean 12).
+Set B: 4, 8, 12, 16, 20 (values are far from the mean 12).
+
+(i) Which set has more spread around the mean? Write: Set ? has more spread around the mean.
+(Hint: A larger standard deviation means more spread around the mean. Set B has values far from the mean (4 and 20 are far from 12), so Set B has a larger standard deviation and more spread.)
+
+(ii) Which set has a larger standard deviation? Write: Set ? has a larger standard deviation.
+(Hint: This week we compare qualitatively (which is more spread). We do not calculate the full SD formula (that is S1.15).)
+
+(iii) Mr Lim says: 「This week we draw a box-and-whisker plot to show the standard deviation.」 Explain why Mr Lim is wrong.
+(Hint: This week (S1.12) is about range, IQR and SD as measures of spread, not drawing box plots. Box-and-whisker plots and cumulative frequency diagrams are S1.13. Box plots show quartiles, not SD.)
+
+
+写作提示 / Tips:
+✓ 每题分步骤写出推理 (Show working steps for each question)
+✓ Part 2 官方要求：clearly show the method of solution by writing working steps, plus the final answer
+✓ 不用计算器 (No calculators allowed)
+✓ 本周教 Sec 2 STATISTICS AND PROBABILITY, S1. Data handling and analysis: 本周是 range, interquartile range and standard deviation as measures of spread (S1.12)（离散程度：极差、四分位距和标准差）。Range = largest − smallest. IQR = Q3 − Q1 (先排序，用 W95 的四分位数方法找 Q1 和 Q3). A larger range / IQR / standard deviation means more spread. The range is pulled by one extreme value; the IQR is not. This week we compare SD qualitatively (which is more spread), not calculate the full SD formula (S1.15).
+✓ 离散程度步骤示范 (Measures of spread steps):
+  • Question: Data set: 10, 15, 18, 20, 22, 25, 30. Find range, Q1, Q3, IQR.
+    Solution: 
+    ① The data is already ordered: 10, 15, 18, 20, 22, 25, 30 (7 values).
+    ② Range = largest − smallest = 30 − 10 = 20.
+    ③ Q2 (median) = 20 (the 4th value, the middle of 7 values).
+    ④ Lower half (below Q2): 10, 15, 18. Q1 = 15 (the middle value of the lower half).
+    ⑤ Upper half (above Q2): 22, 25, 30. Q3 = 25 (the middle value of the upper half).
+    ⑥ IQR = Q3 − Q1 = 25 − 15 = 10.
+    Answer: Range = 20, Q1 = 15, Q3 = 25, IQR = 10.
+✓ 关键步骤：Step 1: Order the data from smallest to largest（把数据从小到大排好）。Step 2: Range = largest − smallest（极差 = 最大 − 最小）。Step 3: Find Q2, the median (the middle value of the ordered list)（找 Q2，即中位数，有序列表的中间值，recall W95）。Step 4: Find Q1, the median of the lower half (the data below Q2)（找 Q1，下半部分的中位数，即 Q2 以下的数据的中间值，recall W95）。Step 5: Find Q3, the median of the upper half (the data above Q2)（找 Q3，上半部分的中位数，即 Q2 以上的数据的中间值，recall W95）。Step 6: IQR = Q3 − Q1（四分位距 = Q3 − Q1，不是 Q1 − Q3 或 Q3 + Q1）。Step 7: Compare spread qualitatively: a larger range / IQR / SD means more spread（比较离散程度：更大的 range / IQR / SD 表示更分散）。Step 8: State the final answer（陈述最终答案）。
+✓ 化石 (fossil errors):
+  • Range backwards（极差反过来算）：Data set: 10, 15, 20. Range = 10 − 20 = −10. Wrong. Range = largest − smallest = 20 − 10 = 10（错误：极差反了）。
+  • IQR as Q1 − Q3（IQR 反了）：Q1 = 15, Q3 = 25. IQR = 15 − 25 = −10. Wrong. IQR = Q3 − Q1 = 25 − 15 = 10（错误：IQR 是 Q3 − Q1，不是 Q1 − Q3）。
+  • IQR as Q3 + Q1（IQR 加法）：Q1 = 15, Q3 = 25. IQR = 25 + 15 = 40. Wrong. IQR = Q3 − Q1 = 25 − 15 = 10（错误：IQR 是减法，不是加法）。
+  • Treating one extreme value as the IQR（把一个极端值当成 IQR）：Data set: 10, 15, 20, 25, 30. IQR = 30 (the largest value). Wrong. IQR = Q3 − Q1, not one extreme value（错误：IQR 不是一个极端值）。
+  • Drawing a box plot this week（本周画箱线图）：This week (S1.12) is about range, IQR and SD as measures of spread, not drawing box plots. Box-and-whisker plots and cumulative frequency diagrams are S1.13（错误：本周不画箱线图）。
+✓ 本周教 S1 的 1.12 range, interquartile range and standard deviation as measures of spread（极差、四分位距和标准差作为离散程度的度量）。本周建立在 W95 (S1.11 quartiles and percentiles) 基础上，教离散程度。本周用 W95 的四分位数方法找 Q1 和 Q3，再算 IQR = Q3 − Q1。本周不教 S1.13 cumulative frequency diagrams, box-and-whisker plots。本周不教 S1.15 calculation of the standard deviation for a set of data (grouped and ungrouped)（那是完整的 SD 计算公式）。本周只比较 SD qualitatively（哪组更散），不套完整公式。本周不教 S1.10 grouped mean（那是 W94）。本周不教 S2 Probability 内容（那是 W91–W93）。本周不教 S3 content。
+✓ Writing 数值不能抄 微课（如果本周有微课）或 MCQ 的其他数值。Writing Q 用 goals (2, 5, 3, 8, 4, 6, 9) 和 race time (30, 35, 38, 40, 42, 45, 50) 和 test scores Set A (10, 11, 12, 13, 14) and Set B (4, 8, 12, 16, 20)。不能抄本周 MCQ 的其他数值（data set 10/14/16/20/24; 8/12/15/18/22/25/30; 等）。也不能用 W88–W95 writing 的数值（那些周教的是 mean/mode/median/probability/grouped mean/quartiles and percentiles，本周是 measures of spread range/IQR/SD）。
+
+Note: This is a sample of Part 2 short-answer/open-ended questions. The official paper has 20 short-answer + 10–15 open-ended items in 1 hour 45 minutes.`,
+          points: 20,
+        },
+      ],
+    },
   ];
 
 
