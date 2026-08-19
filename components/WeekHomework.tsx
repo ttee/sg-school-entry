@@ -630,8 +630,8 @@ export default function WeekHomework({
         </div>
       </div>
 
-      {/* Lesson content: Parent brief + Video + How to use */}
-      {(week.parentBrief || week.videoUrl || (week.officialClipId && week.officialClipCredit)) && (
+      {/* Lesson content: Parent brief + Official clip */}
+      {(week.parentBrief || (week.officialClipId && week.officialClipCredit)) && (
         <div className="mb-8 space-y-4">
           {/* Parent brief card */}
           {week.parentBrief && (
@@ -675,11 +675,15 @@ export default function WeekHomework({
               credit={week.officialClipCredit}
             />
           )}
+        </div>
+      )}
 
-          {/* Video player (if exists) */}
-          {week.videoUrl && (
-            <div className="bg-card border border-line rounded-xl p-5">
-              <h3 className="font-semibold text-ink mb-3">🎬 播放本周微课 / Watch this week's micro-lesson</h3>
+      {/* Video player - always show heading, conditionally show video or empty state */}
+      <div className="mb-8">
+        <div className="bg-card border border-line rounded-xl p-5">
+          <h3 className="font-semibold text-ink mb-3">🎬 播放本周微课 / Watch this week's micro-lesson</h3>
+          {week.videoUrl ? (
+            <>
               <video
                 autoPlay
                 muted
@@ -704,10 +708,14 @@ export default function WeekHomework({
                   <li>口语和写作 AI 会盯住同一个焦点 / Speaking & writing AI will focus on the same error</li>
                 </ol>
               </div>
-            </div>
+            </>
+          ) : (
+            <p className="text-sm text-ink-2">
+              本周动画还没有。先做下面的作业。
+            </p>
           )}
         </div>
-      )}
+      </div>
 
       {/* Dual-validation map for A2 Week 0 */}
       {week.level === "A2" && week.weekNumber === 0 && <DualValidationMap />}
