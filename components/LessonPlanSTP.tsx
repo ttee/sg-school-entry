@@ -32,23 +32,23 @@ export default function LessonPlanSTP({
   const getLearningObjective = (): string => {
     if (isMath) {
       const topic = title.split('—')[0].trim();
-      return `能运用${topic}解决应用题`;
+      return `Use ${topic} to solve a word problem.`;
     }
     const grammar = title.split('—')[0].trim();
-    return `能正确使用${grammar}`;
+    return `Use ${grammar} correctly.`;
   };
 
   const getSuccessCriteria = (): string[] => {
     if (isMath) {
       return [
-        "能写出完整算式并检查单位",
-        "能解释每一步的意义"
+        "Write a complete equation and check the unit",
+        "Explain what each step means"
       ];
     }
     
     return [
-      "能识别并改正化石错误",
-      "能在自己的句子中正确使用"
+      "Spot and fix the high-frequency error",
+      "Use the target in their own sentence"
     ];
   };
 
@@ -66,12 +66,12 @@ export default function LessonPlanSTP({
     youDo: string;
     closure: string;
   } => {
-    // Standard section names
-    const readinessNames = ["课前", "热身"];
-    const iDoNames = ["化石", "示范"];
-    const weDoNames = ["跟读", "带练"];
-    const youDoNames = ["开口", "练习"];
-    const closureNames = ["收口"];
+    // Standard section names (both English and Chinese for backwards compatibility)
+    const readinessNames = ["Prep", "Warm-up", "课前", "热身"];
+    const iDoNames = ["High-frequency error", "I do", "Model", "化石", "示范"];
+    const weDoNames = ["Echo", "We do", "跟读", "带练"];
+    const youDoNames = ["You do", "Speak", "Practice", "开口", "练习"];
+    const closureNames = ["Close", "收口"];
     
     const readinessSection = sections.find(s => readinessNames.includes(s.name));
     const iDoSection = sections.find(s => iDoNames.includes(s.name));
@@ -148,61 +148,67 @@ export default function LessonPlanSTP({
   const getKeyQuestions = (): string[] => {
     if (isMath) {
       return [
-        "这一步为什么可以这样算？",
-        "答案的单位是什么，为什么？"
+        "Why can we do this step?",
+        "What is the unit, and why?"
       ];
     }
     
     return [
-      "哪一个词错了，为什么？",
-      "改正后应该怎么说？"
+      "Which word is wrong, and why?",
+      "How should we say it after the fix?"
     ];
   };
 
   const getAfLMove = (): string => {
-    const youDoSection = sections.find(s => s.name === "开口" || s.name === "练习");
+    const youDoSection = sections.find(s => 
+      s.name === "You do" || s.name === "Speak" || s.name === "Practice" || 
+      s.name === "开口" || s.name === "练习"
+    );
     if (youDoSection) {
       const notes = youDoSection.teacherNotes;
-      if (notes.includes("自己说") || notes.includes("独立")) {
-        return "让孩子独立输出，观察是否能自己纠正";
+      if (notes.includes("自己说") || notes.includes("独立") || notes.toLowerCase().includes("independent")) {
+        return "Let the child produce independently; observe if they self-correct";
       }
-      if (notes.includes("提示")) {
-        return "给词提示但不说完整句子，检测理解程度";
+      if (notes.includes("提示") || notes.toLowerCase().includes("prompt") || notes.toLowerCase().includes("cue")) {
+        return "Give word prompts but not full sentences to check understanding";
       }
-      if (notes.includes("写") || notes.includes("算式")) {
-        return "让孩子自己写算式，观察步骤是否完整";
+      if (notes.includes("写") || notes.includes("算式") || notes.toLowerCase().includes("write") || notes.toLowerCase().includes("equation")) {
+        return "Let the child write the equation; observe if steps are complete";
       }
     }
     
-    const fossilSection = sections.find(s => s.name === "化石" || s.name === "示范");
-    if (fossilSection && fossilSection.teacherNotes.includes("问")) {
-      return "问「这个对吗？」等孩子思考后再讲解";
+    const fossilSection = sections.find(s => 
+      s.name === "High-frequency error" || s.name === "I do" || s.name === "Model" || 
+      s.name === "化石" || s.name === "示范"
+    );
+    if (fossilSection && (fossilSection.teacherNotes.includes("问") || fossilSection.teacherNotes.toLowerCase().includes("ask"))) {
+      return "Ask 'Is this correct?' Let the child think before explaining";
     }
     
-    return "通过开口环节检测学生能否独立产出";
+    return "Check through the You do section if the child can produce independently";
   };
 
   const getClosureExit = (): string => {
-    const closureSection = sections.find(s => s.name === "收口");
+    const closureSection = sections.find(s => s.name === "Close" || s.name === "收口");
     if (!closureSection) {
       if (isMath) {
-        return "孩子再写一遍完整算式";
+        return "Child writes the complete equation again";
       }
-      return "孩子再说一遍改正后的句子";
+      return "Child says the corrected sentence again";
     }
     
     const notes = closureSection.teacherNotes;
-    if (notes.includes("作业")) {
-      return "布置作业，孩子确认本周重点";
+    if (notes.includes("作业") || notes.toLowerCase().includes("homework")) {
+      return "Assign homework; child confirms this week's focus";
     }
-    if (notes.includes("总结")) {
-      return "孩子总结本周学到的内容";
+    if (notes.includes("总结") || notes.toLowerCase().includes("summary") || notes.toLowerCase().includes("review")) {
+      return "Child summarizes what they learned this week";
     }
     
     if (isMath) {
-      return "孩子再写一遍完整算式";
+      return "Child writes the complete equation again";
     }
-    return "孩子再说一遍改正后的句子";
+    return "Child says the corrected sentence again";
   };
 
   const learnerContext = getLearnerContext();
@@ -213,13 +219,13 @@ export default function LessonPlanSTP({
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         {/* Learning Objective */}
         <div className="bg-white/80 rounded-lg p-4 border border-blue-200">
-          <h3 className="font-semibold text-sm text-blue-900 mb-2">学习目标</h3>
+          <h3 className="font-semibold text-sm text-blue-900 mb-2">Learning objective</h3>
           <p className="text-sm text-gray-800">{getLearningObjective()}</p>
         </div>
 
         {/* Success Criteria */}
         <div className="bg-white/80 rounded-lg p-4 border border-blue-200">
-          <h3 className="font-semibold text-sm text-blue-900 mb-2">成功标准</h3>
+          <h3 className="font-semibold text-sm text-blue-900 mb-2">Success criteria</h3>
           <ul className="text-sm text-gray-800 space-y-1">
             {getSuccessCriteria().map((criterion, i) => (
               <li key={i} className="flex items-start gap-1">
@@ -233,14 +239,14 @@ export default function LessonPlanSTP({
         {/* Learner Context */}
         {learnerContext && (
           <div className="bg-white/80 rounded-lg p-4 border border-blue-200 md:col-span-2">
-            <h3 className="font-semibold text-sm text-blue-900 mb-2">学习者</h3>
+            <h3 className="font-semibold text-sm text-blue-900 mb-2">Learner</h3>
             <p className="text-sm text-gray-800">{learnerContext}</p>
           </div>
         )}
 
         {/* Readiness */}
         <div className="bg-white/80 rounded-lg p-4 border border-blue-200">
-          <h3 className="font-semibold text-sm text-blue-900 mb-2">准备</h3>
+          <h3 className="font-semibold text-sm text-blue-900 mb-2">Readiness</h3>
           <p className="text-sm text-gray-800">
             <span className="font-semibold text-blue-700">{teachingSteps.readiness}:</span>{" "}
             {getReadinessHook()}
@@ -249,34 +255,34 @@ export default function LessonPlanSTP({
 
         {/* I Do */}
         <div className="bg-white/80 rounded-lg p-4 border border-blue-200">
-          <h3 className="font-semibold text-sm text-blue-900 mb-2">示范 I do</h3>
+          <h3 className="font-semibold text-sm text-blue-900 mb-2">I do</h3>
           <p className="text-sm text-gray-800">
             <span className="font-semibold text-blue-700">{teachingSteps.iDo}:</span>{" "}
-            教师示范板书例题
+            Teacher models the board example
           </p>
         </div>
 
         {/* We Do */}
         <div className="bg-white/80 rounded-lg p-4 border border-blue-200">
-          <h3 className="font-semibold text-sm text-blue-900 mb-2">带练 We do</h3>
+          <h3 className="font-semibold text-sm text-blue-900 mb-2">We do</h3>
           <p className="text-sm text-gray-800">
             <span className="font-semibold text-blue-700">{teachingSteps.weDo}:</span>{" "}
-            {isMath ? "一起写算式步骤" : "跟读目标句型"}
+            {isMath ? "Write the steps together" : "Echo the target sentences"}
           </p>
         </div>
 
         {/* You Do */}
         <div className="bg-white/80 rounded-lg p-4 border border-blue-200">
-          <h3 className="font-semibold text-sm text-blue-900 mb-2">独立 You do</h3>
+          <h3 className="font-semibold text-sm text-blue-900 mb-2">You do</h3>
           <p className="text-sm text-gray-800">
             <span className="font-semibold text-blue-700">{teachingSteps.youDo}:</span>{" "}
-            {isMath ? "孩子自己写" : "孩子自己说"}
+            {isMath ? "Child writes it" : "Child says it"}
           </p>
         </div>
 
         {/* Key Questions */}
         <div className="bg-white/80 rounded-lg p-4 border border-blue-200">
-          <h3 className="font-semibold text-sm text-blue-900 mb-2">关键问题</h3>
+          <h3 className="font-semibold text-sm text-blue-900 mb-2">Key questions</h3>
           <ul className="text-sm text-gray-800 space-y-1">
             {getKeyQuestions().map((question, i) => (
               <li key={i} className="flex items-start gap-1">
@@ -289,13 +295,13 @@ export default function LessonPlanSTP({
 
         {/* Assessment for Learning */}
         <div className="bg-white/80 rounded-lg p-4 border border-blue-200">
-          <h3 className="font-semibold text-sm text-blue-900 mb-2">检测理解</h3>
+          <h3 className="font-semibold text-sm text-blue-900 mb-2">AfL check</h3>
           <p className="text-sm text-gray-800">{getAfLMove()}</p>
         </div>
 
         {/* Closure */}
         <div className="bg-white/80 rounded-lg p-4 border border-blue-200">
-          <h3 className="font-semibold text-sm text-blue-900 mb-2">收口</h3>
+          <h3 className="font-semibold text-sm text-blue-900 mb-2">Close</h3>
           <p className="text-sm text-gray-800">
             <span className="font-semibold text-blue-700">{teachingSteps.closure}:</span>{" "}
             {getClosureExit()}
@@ -304,22 +310,22 @@ export default function LessonPlanSTP({
 
         {/* Teaching Resources */}
         <div className="bg-white/80 rounded-lg p-4 border border-blue-200">
-          <h3 className="font-semibold text-sm text-blue-900 mb-2">教学资源</h3>
+          <h3 className="font-semibold text-sm text-blue-900 mb-2">Teaching resources</h3>
           <ul className="text-sm text-gray-800 space-y-1">
             <li className="flex items-start gap-1">
               <span className="text-blue-600 mt-0.5">•</span>
-              <span>板书例题微课</span>
+              <span>BoardWeike (board mini-lesson)</span>
             </li>
             {boardWriting && (
               <li className="flex items-start gap-1">
                 <span className="text-blue-600 mt-0.5">•</span>
-                <span>板书要点：{boardWriting}</span>
+                <span>Board notes: {boardWriting}</span>
               </li>
             )}
             {sections.some(s => s.teacherNotes.includes("YouTube") || s.teacherNotes.includes("官方")) && (
               <li className="flex items-start gap-1">
                 <span className="text-blue-600 mt-0.5">•</span>
-                <span>YouTube 辅助素材（额外）</span>
+                <span>Extra YouTube clip</span>
               </li>
             )}
           </ul>
@@ -328,7 +334,7 @@ export default function LessonPlanSTP({
 
       <div className="mt-4 pt-3 border-t border-blue-200">
         <p className="text-xs text-blue-700">
-          依据：课前准备、课堂实施、评估与反馈、积极课堂文化
+          STP: lesson preparation, lesson enactment, assessment and feedback, positive classroom culture
         </p>
       </div>
     </div>
