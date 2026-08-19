@@ -331,7 +331,7 @@ export default function HomePage() {
                   AEIS 英语与 AEIS 数学两科都要考。中学路径不要求 CEQ。
                 </p>
                 <p className="text-sm text-ink-2 mb-4">
-                  中学英语有试学周 + 第 1–11 周。中学数学有试学周 + 第 1–110 周。申请 Sec 1 用前一级 P6；申请 Sec 2 用前一级 Sec 1；申请 Sec 3 用前一级 Sec 2。卷型：英语是写作 + 理解/语言运用；数学是选择题 + 写算式。
+                  中学英语有试学周 + 第 1–11 周。中学数学有试学周 + 第 1–11 周。申请 Sec 1 用前一级 P6；申请 Sec 2 用前一级 Sec 1；申请 Sec 3 用前一级 Sec 2。卷型：英语是写作 + 理解/语言运用；数学是选择题 + 写算式。
                 </p>
                 <ul className="space-y-0 border-t border-line">
                   <li className="border-b border-line py-3 pl-5 relative before:absolute before:left-0 before:top-5 before:w-2 before:h-2 before:rounded-full before:bg-accent text-sm text-ink-2">
@@ -375,7 +375,7 @@ export default function HomePage() {
               每周只改一个中国孩子的高频错误
             </h2>
             <p className="text-ink-2 mb-6 max-w-3xl">
-              每周只打<strong>一个</strong>中国学生的高频错误。微课对照中英句子，作业 + AI 口语/写作盯住这一点，改对了再换下一个。
+              每周只打<strong>一个</strong>中国学生的高频错误。微课对照中英句子，作业盯住这一点，改对了再换下一个。
             </p>
 
             <div className="bg-card border border-line rounded-2xl p-6 mb-6 shadow">
@@ -396,7 +396,7 @@ export default function HomePage() {
                     <span>一周一个焦点</span>
                   </p>
                   <p className="text-ink-2 ml-6">
-                    错误说多了会固化。一次改太多点，孩子顾不过来，还是会重复旧错。我们让 AI 盯住<strong>一个焦点</strong>，改对了再换下一个。
+                    错误说多了会固化。一次改太多点，孩子顾不过来，还是会重复旧错。每周盯住<strong>一个焦点</strong>，改对了再换下一个。
                   </p>
                 </div>
                 <div className="space-y-2">
@@ -405,7 +405,7 @@ export default function HomePage() {
                     <span>聚焦形式</span>
                   </p>
                   <p className="text-ink-2 ml-6">
-                    阅读、写作、口语任务还是真实话题（学校、家庭、环境），但本周的微课、语法题、AI 批改都指向<strong>同一个语法点</strong>。
+                    阅读、写作、口语任务还是真实话题（学校、家庭、环境），但本周的微课、语法题都指向<strong>同一个语法点</strong>。
                   </p>
                 </div>
                 <div className="space-y-2">
@@ -414,7 +414,7 @@ export default function HomePage() {
                     <span>注意 + 输出</span>
                   </p>
                   <p className="text-ink-2 ml-6">
-                    微课先让孩子看到错的句子和对的句子对比，然后跟读一句。写作和口语时，AI 会再次提醒这个焦点，等孩子真正用对了，再换下一个。
+                    微课先让孩子看到错的句子和对的句子对比，然后跟读一句。选择题当场看对错。写作和口语先看题目、先跟读。正式周由顾问开通批改。
                   </p>
                 </div>
               </div>
@@ -638,7 +638,7 @@ export default function HomePage() {
           <div className="max-w-2xl mx-auto px-4">
             <h2 className="font-serif font-semibold text-2xl md:text-3xl mb-3">报名咨询</h2>
             <p className="text-ink-2 mb-6">
-              提交后老师会在 1–2 个工作日内添加您的微信。
+              留下微信号，顾问会联系您。也可以先 PayNow 94594601。
             </p>
 
             <form onSubmit={handleSubmit} className="bg-card border border-line rounded-2xl p-6 shadow mb-6">
@@ -756,7 +756,6 @@ export default function HomePage() {
                   >
                     <option value="">请选择</option>
                     <option value="ceq-homework">CEQ 英语作业（RMB 2,680 / 12 周）</option>
-                    <option value="trial">免费试学账号</option>
                   </select>
                 </div>
 
@@ -779,10 +778,6 @@ export default function HomePage() {
                 >
                   {isSubmitting ? "提交中..." : "提交咨询"}
                 </button>
-
-                <p className="text-xs text-muted text-center">
-                  提交后老师会添加您的微信 · 不会向您推送任何营销信息
-                </p>
               </div>
             </form>
 
@@ -796,11 +791,8 @@ export default function HomePage() {
 
               <div className="bg-paper-2 border border-line rounded-xl p-5">
                 <h3 className="font-serif font-semibold text-base mb-2 text-ink">免费试学</h3>
-                <p className="text-sm text-ink-2 mb-2">
-                  提交表单时选择「免费试学账号」，老师会为您开通试学周权限。
-                </p>
                 <p className="text-sm text-ink-2">
-                  也可以现在就打开<Link href="/trial/A2" className="text-accent hover:underline">试学周</Link>，不用登录先看作业长什么样。
+                  现在就打开<Link href="/trial/A2" className="text-accent hover:underline">试学周</Link>，不用登录先看作业长什么样。
                 </p>
               </div>
             </div>

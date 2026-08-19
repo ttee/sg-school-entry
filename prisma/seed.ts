@@ -2541,7 +2541,7 @@ A 2D representation shows a circle and a triangle. Which solid does this represe
     {
       level: "A2",
       weekNumber: 0,
-      title: "试学周 / Sample Week",
+      title: "试学周",
       description: "First week in a Singapore school",
       isSample: true,
       errorFocus: "articles-demonstratives-possessives",
@@ -2693,7 +2693,7 @@ Useful phrases:
 1. 准备1分钟 (Prepare for 1 minute)
 2. 点击下方"开始录音"按钮 (Tap the "开始录音" button below)
 3. 说完整1分钟，然后停止 (Speak for the full minute, then stop)
-4. 播放听一听，满意后提交给AI评估 (Playback, then submit for AI feedback)`,
+4. 播放听一听，看看题目，先跟读 (Playback, review the prompt, practice speaking)`,
           points: 5,
         },
       ],
@@ -3374,7 +3374,7 @@ AI will check if you correctly use some/any, much/many, and distinguish countabl
       dueDate: new Date("2026-09-17"),
       errorFocus: "comparatives-superlatives",
       parentBrief: "本周纠错焦点：比较级和最高级（bigger than / the biggest；more + 多音节形容词）。中文用「比」和「最」，孩子会说 more bigger、more cheap、he is tall than me。英语单音节形容词加 -er / -est：taller, tallest；多音节加 more / most：more difficult, most difficult。比较级后接 than：She is taller than me。本周作业会反复纠正这些高频错误。",
-      videoUrl: null,
+      videoUrl: "/video/a2-w5.mp4",
       kaizenFocus: "Use comparatives correctly (taller, more interesting, better than); superlatives (the tallest, the most interesting, the best)",
       officialClipId: null,
       officialClipCredit: null,
@@ -3568,7 +3568,7 @@ AI will listen for correct use of comparatives (taller, faster, more difficult, 
       dueDate: new Date("2026-09-24"),
       errorFocus: "prepositions-time-at-in-on",
       parentBrief: "本周纠错焦点：时间介词 at / in / on。中文用「在」表达所有时间（在周一、在早上、在七点），孩子会说 in Monday、on morning、in 7 o'clock。英语规则：at + 钟点时间（at 7 o'clock, at night, at the weekend），in + 时段/月份/年份（in the morning, in July, in 2026），on + 星期/日期（on Monday, on 12 September）。本周作业会反复练习这三个介词的正确搭配。",
-      videoUrl: null,
+      videoUrl: "/video/a2-w6.mp4",
       kaizenFocus: "Use at for clock times and specific moments (at 7 o'clock, at night, at the weekend); in for parts of day, months, years (in the morning, in July); on for days and dates (on Monday, on 12 September)",
       officialClipId: "loINl3Ln6Ck",
       officialClipCredit: "片源 Super Simple Songs 官方频道。Days of the Week。本站不拥有该片，仅嵌入官方 YouTube。孩子先听 on Monday / on Tuesday，再练 at 7 o'clock / in the morning / on Monday。",
@@ -4384,8 +4384,8 @@ Useful phrases:
 1. 选择一个真实可行的习惯 (Choose a realistic habit)
 2. 想好具体做法 (Think of specific steps)
 3. 点击"开始录音"按钮 (Tap the "开始录音" button)
-4. 说2分钟后提交给AI评估 (Speak for 2 minutes, then submit to AI)
-5. 根据"改善焦点"和"跟读句子"再练习 (Practice again with focus tips and model sentences)`,
+4. 说2分钟，看看题目，先跟读 (Speak for 2 minutes, review the prompt, practice speaking)
+5. 正式周由顾问开通批改 (Full weeks: advisor will enable feedback)`,
           points: 5,
         },
       ],

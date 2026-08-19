@@ -3,6 +3,7 @@ import { prisma } from "@/lib/db";
 import { notFound } from "next/navigation";
 import WeekHomework from "@/components/WeekHomework";
 import OfficialClip from "@/components/OfficialClip";
+import type { Metadata } from "next";
 
 export const dynamic = 'force-dynamic';
 
@@ -15,6 +16,47 @@ const levelNames: Record<string, string> = {
   SEC: "中学英语（Sec 1）",
   SMATH: "中学数学（Sec 1）",
 };
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ level: string }>;
+}): Promise<Metadata> {
+  const { level } = await params;
+  
+  if (level === "A2") {
+    return {
+      title: "今晚打开就能做一周 CEQ 英语作业",
+      description: "不用登录。12 周 RMB 2,680，向升学顾问支付。",
+      openGraph: {
+        title: "今晚打开就能做一周 CEQ 英语作业",
+        description: "不用登录。12 周 RMB 2,680，向升学顾问支付。",
+        url: "https://sg-school-entry.vercel.app/trial/A2",
+        siteName: "狮城入学",
+        locale: "zh_CN",
+        type: "website",
+        images: [
+          {
+            url: "/og-ceq.jpg",
+            width: 1200,
+            height: 630,
+            alt: "CEQ 英语作业试学周",
+          },
+        ],
+      },
+      twitter: {
+        card: "summary_large_image",
+        title: "今晚打开就能做一周 CEQ 英语作业",
+        description: "不用登录。12 周 RMB 2,680，向升学顾问支付。",
+        images: ["/og-ceq.jpg"],
+      },
+    };
+  }
+  
+  return {
+    title: `狮城入学 · ${levelNames[level] || "试学周"}`,
+  };
+}
 
 export default async function TrialLevelPage({
   params,
@@ -121,9 +163,29 @@ export default async function TrialLevelPage({
       </header>
       <main className="max-w-5xl mx-auto px-4 py-8">
         {level === "A2" && (
-          <div className="mb-8">
+          <div className="mb-6">
+            <h1 className="font-serif font-semibold text-2xl text-ink mb-2">
+              试学周
+            </h1>
             <p className="text-ink-2 mb-4">
-              先看官方口语样例，再做试学周。
+              阅读第 1 题打开就能做。官方口语样例在作业下方。
+            </p>
+          </div>
+        )}
+        <WeekHomework
+          week={week}
+          questions={week.questions}
+          submission={null}
+          userId=""
+          guest={true}
+        />
+        {level === "A2" && (
+          <div className="mt-8">
+            <h2 className="font-serif font-semibold text-xl text-ink mb-3">
+              CEQ 口语长这样
+            </h2>
+            <p className="text-ink-2 mb-4">
+              两个孩子、两个考官。这就是 A2 Key for Schools 口语。
             </p>
             <OfficialClip
               videoId="ZjGt6r8XSTg"
@@ -134,9 +196,12 @@ export default async function TrialLevelPage({
           </div>
         )}
         {level === "B1" && (
-          <div className="mb-8">
+          <div className="mt-8">
+            <h2 className="font-serif font-semibold text-xl text-ink mb-3">
+              CEQ 口语长这样
+            </h2>
             <p className="text-ink-2 mb-4">
-              先看官方口语样例，再做试学周。
+              官方口语样例。
             </p>
             <OfficialClip
               videoId="xF_Q2anYOfc"
@@ -146,13 +211,6 @@ export default async function TrialLevelPage({
             />
           </div>
         )}
-        <WeekHomework
-          week={week}
-          questions={week.questions}
-          submission={null}
-          userId=""
-          guest={true}
-        />
       </main>
     </div>
   );
