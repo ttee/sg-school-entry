@@ -245,6 +245,15 @@ AUDIO_CONFIGS = [
             ("Mr Tan", TEACHER_VOICE, "Things have changed a lot, but one thing hasn't changed: students still work hard and help each other. That's what makes this school special."),
         ]
     },
+    {
+        "filename": "b1-w7-listening.mp3",
+        "dialogue": [
+            ("Ms Tan", TEACHER_VOICE, "Good morning, everyone. I want to tell you about yesterday's Sports Day. Although the weather forecast said it would rain, we decided to go ahead with the event."),
+            ("Ms Tan", TEACHER_VOICE, "Despite the cloudy sky in the morning, all the students arrived on time. We started with the 100-metre sprint. Jun Wei won the race! Despite feeling nervous, he ran so fast."),
+            ("Ms Tan", TEACHER_VOICE, "Then it started raining during the relay race. Although we wanted to continue, it wasn't safe on the wet track. Mr Kumar said, \"Despite our disappointment, safety comes first.\""),
+            ("Ms Tan", TEACHER_VOICE, "So, although we didn't finish all the races, we moved to the hall and played indoor games instead. Despite the change of plans, everyone had a great time!"),
+        ]
+    },
 ]
 
 async def generate_audio_with_pauses(dialogue, output_path):

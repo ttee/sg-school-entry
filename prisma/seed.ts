@@ -5018,6 +5018,7 @@ Despite the cloudy sky in the morning, all the students arrived on time. We star
 Then it started raining during the relay race. Although we wanted to continue, it wasn't safe on the wet track. Mr Kumar said, "Despite our disappointment, safety comes first."
 
 So, although we didn't finish all the races, we moved to the hall and played indoor games instead. Despite the change of plans, everyone had a great time!`,
+          audioUrl: "/audio/b1-w7-listening.mp3",
           options: JSON.stringify([
             "What did the weather forecast say?|A. It would be sunny|B. It would rain|C. It would be cloudy",
             "Who won the 100-metre sprint?|A. Ms Tan|B. Mr Kumar|C. Jun Wei",
