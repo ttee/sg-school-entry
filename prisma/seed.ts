@@ -6037,7 +6037,7 @@ Useful phrases:
       dueDate: new Date("2026-10-15"),
       errorFocus: "like-ing",
       parentBrief: "本周纠错焦点：like / love / hate / enjoy + -ing。中文「喜欢」后直接加动词，孩子会说 I like swim / I like to swimming / I like swimminging / I enjoy to read。英语规则：like/love/hate/enjoy 后面加动词-ing。Cambridge A2 Key for Schools (Handbook 2020) Language Specifications 规定考 like / love / hate / enjoy + -ing 表达喜好。本周不是 like + to-infinitive（可能出现在错误选项）。",
-      videoUrl: null,
+      videoUrl: "/video/a2-w9.mp4",
       kaizenFocus: "Use like/love/hate/enjoy + -ing for likes and dislikes (I like swimming; She enjoys reading)",
       officialClipId: null,
       questions: [
