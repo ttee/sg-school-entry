@@ -5,7 +5,7 @@ export default function DualValidationMapSmathWeek99() {
         本周题目
       </h2>
       <p className="text-sm text-ink-2 mb-4 leading-relaxed">
-        第 99 周按 <strong>AEIS-Secondary Sec 3 Mathematics</strong> 卷型样本来练。这是 AEIS 中学数学。内容对应申请 Sec 3 入学的 preceding level（前一级 Sec 2）STATISTICS AND PROBABILITY 第一节：S1. Data handling and analysis —— 本周教 <strong>calculation of the standard deviation for a set of data (grouped and ungrouped)</strong> (1.15)（计算标准差，分组和不分组数据）。先求平均数，再算每个数与平均数差的平方（(x − mean)²），加起来除以个数（÷ n），再开方（√）。分组数据用组中值（class midpoint）。不要除以 n−1，新加坡中学用 n。例：Data 2, 4, 6, 8. Mean = 5. SD = √( [(2−5)² + (4−5)² + (6−5)² + (8−5)²] / 4 ) = √(18 / 4) = √(9/2) = (3/√2) = (3√2)/2. 不要把 Σ(x−mean) 当成标准差（那个总是 0）。不要忘记开方。
+        第 99 周按 <strong>AEIS-Secondary Sec 3 Mathematics</strong> 卷型样本来练。这是 AEIS 中学数学。内容对应申请 Sec 3 入学的 preceding level（前一级 Sec 2）STATISTICS AND PROBABILITY 第一节：S1. Data handling and analysis —— 本周教 <strong>calculation of the standard deviation for a set of data (grouped and ungrouped)</strong> (1.15)（计算标准差，分组和不分组数据）。先求平均数，再算每个数与平均数差的平方（(x − mean)²），加起来除以个数（÷ n），再开方（√）。分组数据用组中值（class midpoint）。不要除以 n−1，新加坡中学用 n。例：Data 2, 4, 6, 8. Mean = 5. SD = √( [(2−5)² + (4−5)² + (6−5)² + (8−5)²] / 4 ) = √(20 / 4) = √5. 不要把 Σ(x−mean) 当成标准差（那个总是 0）。不要忘记开方。
       </p>
 
       <div className="mt-4 pt-3 border-t border-accent/20">
