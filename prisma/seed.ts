@@ -5521,6 +5521,7 @@ Mei: No, Ms Tan said we'll eat at the museum café. That sounds nice!`,
           ]),
           correctAnswer: "B,C,B",
           points: 3,
+          audioUrl: "/audio/b1-w10-listening.mp3",
         },
         {
           type: "speaking",
