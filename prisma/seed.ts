@@ -16950,6 +16950,144 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
         },
       ],
     },
+    {
+      level: "SMATH",
+      weekNumber: 99,
+      title: "标准差计算 — Calculation of standard deviation",
+      description: "S1.15 calculation of the standard deviation for grouped and ungrouped data (AEIS 中学数学第 99 周 / SMATH Week 99)",
+      isSample: false,
+      errorFocus: "using n−1 instead of n; forgetting to divide by n; treating Σ(x−mean) as SD; using class ends instead of midpoints",
+      parentBrief: "本周算标准差。先求平均数，再算每个数与平均数差的平方，加起来除以个数，再开方。分组数据用组中值。不要除以 n−1。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "At Riverside Secondary, Mr Lim has data: 2, 4, 6, 8. The mean is 5. Wei wants to calculate the standard deviation. What is the first step?|A. Find each deviation (x − mean): (2−5) = −3, (4−5) = −1, (6−5) = 1, (8−5) = 3. Then square each deviation to get (x − mean)².|B. Add all the deviations: (2−5) + (4−5) + (6−5) + (8−5) = 0. This is the standard deviation. Fossil: treating Σ(x−mean) as SD (it always equals 0).|C. Divide by n−1 instead of n. Fossil: using n−1 (sample SD). Singapore secondary uses n (population SD).|D. Calculate the mean again. Fossil: forgetting that the mean is already given (mean = 5).",
+            "At Riverside Secondary, Aisha has data: 1, 3, 5, 7, 9. The mean is 5. She calculates the squared deviations: (1−5)² = 16, (3−5)² = 4, (5−5)² = 0, (7−5)² = 4, (9−5)² = 16. What is the next step?|A. Find the sum Σ(x − mean)² = 16 + 4 + 0 + 4 + 16 = 40. Then divide by n = 5 to get the variance: 40 ÷ 5 = 8. Finally, take the square root: SD = √8 = 2√2.|B. Take the square root of each squared deviation first: √16 = 4, √4 = 2, √0 = 0, √4 = 2, √16 = 4. Then add them. Fossil: taking square root before summing (wrong order).|C. Divide by n−1 = 4 instead of n = 5. Fossil: using n−1 (sample SD). Singapore secondary uses n (population SD).|D. The sum of deviations is 0, so the SD is 0. Fossil: confusing Σ(x−mean) with Σ(x−mean)².",
+            "At Riverside Secondary, Wei has ungrouped data: 2, 4, 4, 6. The mean is 4. He calculates the standard deviation. Which formula is correct?|A. SD = √( Σ(x − mean)² / n ). For this data: SD = √( (2−4)² + (4−4)² + (4−4)² + (6−4)² ) / 4 = √(4 + 0 + 0 + 4) / 4 = √(8 / 4) = √2.|B. SD = √( Σ(x − mean)² / (n−1) ). Fossil: using n−1 instead of n. Singapore secondary uses n in the denominator.|C. SD = Σ(x − mean) / n. Fossil: forgetting to square the deviations. The correct formula is Σ(x − mean)² / n, not Σ(x − mean) / n.|D. SD = √( Σx² / n ). Fossil: forgetting to subtract the mean. The correct formula is √( Σ(x − mean)² / n ) or √( Σx² / n − mean² ).",
+            "At Riverside Secondary, Mr Lim has grouped data: Score 1–3 (frequency 2), Score 4–6 (frequency 3). Aisha wants to calculate the mean and SD. What should she use for each class?|A. Use the class midpoint: for 1–3, use x = 2 (midpoint = (1+3)/2 = 2). For 4–6, use x = 5 (midpoint = (4+6)/2 = 5). Then calculate mean = Σfx / Σf.|B. Use the class lower end: for 1–3, use x = 1. For 4–6, use x = 4. Fossil: using class ends instead of midpoints for grouped data.|C. Use the class upper end: for 1–3, use x = 3. For 4–6, use x = 6. Fossil: using class ends instead of midpoints for grouped data.|D. Use all values in the class: for 1–3, use x = 1, 2, 3. Fossil: treating grouped data as ungrouped (we don't know the exact values, so we use the midpoint).",
+            "At Riverside Secondary, Wei has grouped data: Score 0–2 (frequency 1), Score 3–5 (frequency 2). He calculates the mean: mean = (1×1 + 4×2) / 3 = 9 / 3 = 3. Now he wants to calculate the SD. What is the correct formula?|A. SD = √( Σf(x − mean)² / Σf ). For this data: SD = √( [1×(1−3)² + 2×(4−3)²] / 3 ) = √( [1×4 + 2×1] / 3 ) = √(6 / 3) = √2.|B. SD = √( Σf(x − mean)² / (Σf − 1) ). Fossil: using Σf − 1 instead of Σf. Singapore secondary uses Σf in the denominator.|C. SD = Σf(x − mean) / Σf. Fossil: forgetting to square the deviations. The correct formula is Σf(x − mean)² / Σf, not Σf(x − mean) / Σf.|D. SD = √( Σfx² / Σf ). Fossil: forgetting to subtract the mean. The correct formula is √( Σf(x − mean)² / Σf ) or √( Σfx² / Σf − mean² ).",
+          ]),
+          correctAnswer: "A,A,A,A,A",
+          points: 10,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "At Riverside Secondary, Mr Lim has data: 3, 5, 7. The mean is 5. What is the sum of squared deviations Σ(x − mean)²?|A. (3−5)² + (5−5)² + (7−5)² = 4 + 0 + 4 = 8.|B. (3−5) + (5−5) + (7−5) = −2 + 0 + 2 = 0. Fossil: forgetting to square. The correct sum is Σ(x − mean)², not Σ(x − mean).|C. (3−5)² + (5−5)² + (7−5)² = 4 + 0 + 4 = 8, divided by n−1 = 2, equals 4. Fossil: dividing by n−1 in this step (we only divide by n when calculating variance, after summing).|D. 3² + 5² + 7² = 9 + 25 + 49 = 83. Fossil: using Σx² without subtracting the mean (the correct sum is Σ(x − mean)²).",
+            "At Riverside Secondary, Aisha has data: 1, 2, 3, 4, 5. The mean is 3. She calculates Σ(x − mean)² = 10. What is the standard deviation?|A. SD = √(10 / 5) = √2.|B. SD = √(10 / 4) = √2.5. Fossil: using n−1 = 4 instead of n = 5. Singapore secondary uses n in the denominator.|C. SD = 10 / 5 = 2. Fossil: forgetting to take the square root. The correct formula is SD = √( Σ(x − mean)² / n ), not Σ(x − mean)² / n.|D. SD = 10. Fossil: forgetting to divide by n and take the square root. The correct formula is SD = √( Σ(x − mean)² / n ).",
+            "At Riverside Secondary, Wei has data: 2, 2, 4, 4. The mean is 3. He calculates the variance: variance = Σ(x − mean)² / n = [(2−3)² + (2−3)² + (4−3)² + (4−3)²] / 4 = (1 + 1 + 1 + 1) / 4 = 1. What is the standard deviation?|A. SD = √1 = 1.|B. SD = 1 / 4 = 0.25. Fossil: dividing again by n. The variance is already Σ(x − mean)² / n, so we only take the square root: SD = √variance.|C. SD = 1. Fossil: forgetting to take the square root. The standard deviation is √variance, not variance itself.|D. SD = √(1 / 3). Fossil: using n−1 = 3 instead of n = 4. Singapore secondary uses n in the denominator.",
+            "At Riverside Secondary, Mr Lim has grouped data: Class 0–2 (midpoint x = 1, frequency f = 2), Class 3–5 (midpoint x = 4, frequency f = 1). He calculates the mean: mean = (1×2 + 4×1) / 3 = 6 / 3 = 2. What is the sum Σf(x − mean)²?|A. 2×(1−2)² + 1×(4−2)² = 2×1 + 1×4 = 2 + 4 = 6.|B. 2×(0−2)² + 1×(3−2)² = 2×4 + 1×1 = 8 + 1 = 9. Fossil: using class lower end 0 and 3 instead of midpoints 1 and 4.|C. 2×(1−2) + 1×(4−2) = 2×(−1) + 1×2 = −2 + 2 = 0. Fossil: forgetting to square. The correct sum is Σf(x − mean)², not Σf(x − mean).|D. 1² × 2 + 4² × 1 = 1×2 + 16×1 = 2 + 16 = 18. Fossil: using Σfx² without subtracting the mean (the correct sum is Σf(x − mean)²).",
+            "At Riverside Secondary, Aisha has ungrouped data: 4, 6. The mean is 5. She calculates the variance using the alternative formula: variance = Σx² / n − mean². What is Σx²?|A. 4² + 6² = 16 + 36 = 52.|B. (4−5)² + (6−5)² = 1 + 1 = 2. Fossil: calculating Σ(x − mean)² instead of Σx². The alternative formula is variance = Σx² / n − mean², so we need Σx² = 4² + 6².|C. 4 + 6 = 10. Fossil: calculating Σx instead of Σx². The correct sum is Σx² = 4² + 6² = 52.|D. (4+6)² = 10² = 100. Fossil: squaring the sum (Σx)² instead of summing the squares Σx². The correct sum is Σx² = 4² + 6² = 52.",
+            "At Riverside Secondary, Wei has grouped data: Class 1–3 (midpoint x = 2, frequency f = 3), Class 4–6 (midpoint x = 5, frequency f = 2). He calculates the mean: mean = (2×3 + 5×2) / 5 = 16 / 5 = 3.2. He calculates the variance: variance = Σf(x − mean)² / Σf = [3×(2−3.2)² + 2×(5−3.2)²] / 5 = [3×1.44 + 2×3.24] / 5 = (4.32 + 6.48) / 5 = 10.8 / 5 = 2.16. What is the standard deviation?|A. SD = √2.16. Since 2.16 = 216/100 = 54/25, we have SD = √(54/25) = (√54) / 5 = (3√6) / 5. But the answer is usually left as √2.16 or simplified if it is a perfect square. In this case, √2.16 ≈ 1.47 (not a nice surd). If the question expects an exact answer, leave it as √2.16 or simplify the fraction. Answer: SD = √2.16 (or SD ≈ 1.47 if rounding is allowed).|B. SD = 2.16. Fossil: forgetting to take the square root. The standard deviation is √variance, not variance itself.|C. SD = √(2.16 / 4). Fossil: using Σf − 1 = 4 instead of Σf = 5. Singapore secondary uses Σf in the denominator (already used in variance calculation).|D. SD = 10.8 / 5 = 2.16. Fossil: calculating variance only, not SD. The standard deviation is SD = √variance.",
+            "At Riverside Secondary, Mr Lim has data: 5, 5, 5, 5. The mean is 5. What is the standard deviation?|A. SD = 0. All values equal the mean, so (x − mean) = 0 for all x. Hence Σ(x − mean)² = 0, and SD = √(0 / 4) = 0.|B. SD = √(5 / 4). Fossil: using Σx / n instead of Σ(x − mean)² / n. When all values are the same, the SD is 0.|C. SD = 5. Fossil: confusing mean with SD. When all values are the same, the SD is 0 (no variation).|D. SD = √5. Fossil: incorrect calculation. When all values equal the mean, the SD is 0.",
+            "At Riverside Secondary, Aisha has ungrouped data: 0, 2, 4. The mean is 2. She uses the alternative formula: variance = Σx² / n − mean². Calculate the variance.|A. Σx² = 0² + 2² + 4² = 0 + 4 + 16 = 20. Variance = 20 / 3 − 2² = 20/3 − 4 = 20/3 − 12/3 = 8/3. SD = √(8/3) = (2√6) / 3.|B. Variance = (0 + 2 + 4) / 3 − 2² = 6/3 − 4 = 2 − 4 = −2. Fossil: using Σx instead of Σx² in the formula. The correct formula is Σx² / n − mean², not Σx / n − mean².|C. Variance = Σ(x − mean)² / (n−1) = [(0−2)² + (2−2)² + (4−2)²] / 2 = (4 + 0 + 4) / 2 = 4. Fossil: using n−1 instead of n. Singapore secondary uses n in the denominator.|D. Variance = Σx² − mean² = (0² + 2² + 4²) − 2² = 20 − 4 = 16. Fossil: forgetting to divide Σx² by n. The correct formula is Σx² / n − mean², not Σx² − mean².",
+          ]),
+          correctAnswer: "A,A,A,A,A,A,A,A",
+          points: 16,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `Part 2: Show Your Working (写出算式步骤)
+
+Riverside Secondary School has questions about calculating the standard deviation. Answer the questions below. Show your working clearly.
+
+Question (a)
+At Riverside Secondary, Mr Lim has test scores: 2, 4, 6, 8 (4 values).
+
+(i) Calculate the mean. Write: mean = Σx / n = ?
+
+(ii) Complete the table showing the deviations and squared deviations:
+
+x  |  x − mean  |  (x − mean)²
+2  |     ?      |      ?
+4  |     ?      |      ?
+6  |     ?      |      ?
+8  |     ?      |      ?
+
+(iii) Calculate the sum of squared deviations: Σ(x − mean)² = ?
+
+(iv) Calculate the standard deviation. Write: SD = √( Σ(x − mean)² / n ) = ?
+(Leave the answer as an exact surd if it does not simplify to an integer, e.g. √2.)
+
+(v) Aisha calculates the sum of deviations: Σ(x − mean) = (2−5) + (4−5) + (6−5) + (8−5) = −3 + (−1) + 1 + 3 = 0. She says: 「The SD is 0 because Σ(x − mean) = 0.」 Explain why Aisha is wrong.
+(Hint: The sum of deviations Σ(x − mean) is always 0, but the SD is √( Σ(x − mean)² / n ), not Σ(x − mean) / n. We square the deviations first.)
+
+
+Question (b)
+At Riverside Secondary, Wei has grouped test scores:
+
+Score 1–3: 2 students
+Score 4–6: 2 students
+
+(i) Find the midpoint of each class. Write: for 1–3, x = ? ; for 4–6, x = ?
+
+(ii) Calculate the mean using grouped data. Write: mean = Σfx / Σf = ?
+
+(iii) Complete the table showing the squared deviations for grouped data:
+
+Class  |  Midpoint x  |  f  |  x − mean  |  (x − mean)²  |  f(x − mean)²
+1–3    |      ?       |  2  |     ?      |       ?       |       ?
+4–6    |      ?       |  2  |     ?      |       ?       |       ?
+
+(iv) Calculate the sum: Σf(x − mean)² = ?
+
+(v) Calculate the standard deviation. Write: SD = √( Σf(x − mean)² / Σf ) = ?
+(Leave the answer as an exact surd if it does not simplify to an integer.)
+
+(vi) Aisha says: 「For grouped data, I should use the class lower end (1 and 4) instead of the midpoint (2 and 5).」 Explain why Aisha is wrong.
+(Hint: For grouped data, we use the class midpoint as the representative value for each class, because we don't know the exact values within the class.)
+
+
+Question (c)
+At Riverside Secondary, Aisha has data: 1, 3, 5 (3 values). The mean is 3.
+
+(i) Calculate the standard deviation using the formula SD = √( Σ(x − mean)² / n ). Show your working.
+
+(ii) Wei says: 「I will use the alternative formula: variance = Σx² / n − mean², then take the square root.」 Calculate Σx² and verify that this formula gives the same answer as (i).
+(Hint: Σx² = 1² + 3² + 5² = 1 + 9 + 25 = 35. Variance = 35 / 3 − 3² = 35/3 − 9 = 35/3 − 27/3 = 8/3. SD = √(8/3).)
+
+(iii) Mr Lim says: 「The variance is 8/3 ≈ 2.67, so the standard deviation is 8/3 ≈ 2.67.」 Explain why Mr Lim is wrong.
+(Hint: The standard deviation is the square root of the variance, not the variance itself. SD = √variance, not SD = variance.)
+
+
+写作提示 / Tips:
+✓ 每题分步骤写出推理 (Show working steps for each question)
+✓ Part 2 官方要求：clearly show the method of solution by writing working steps, plus the final answer
+✓ 不用计算器 (No calculators allowed)
+✓ 本周教 Sec 2 STATISTICS AND PROBABILITY, S1. Data handling and analysis: 本周是 calculation of the standard deviation for a set of data (grouped and ungrouped) (S1.15)（计算标准差，分组和不分组数据）。标准差公式：
+  • Ungrouped data（不分组数据）：SD = √( Σ(x − mean)² / n ) or SD = √( Σx² / n − mean² )（两个公式等价）。
+  • Grouped data（分组数据）：use class midpoints（使用组中值 x），SD = √( Σf(x − mean)² / Σf )。
+✓ 步骤 (Steps):
+  1. Calculate the mean（计算平均数）：mean = Σx / n (ungrouped) or mean = Σfx / Σf (grouped)。
+  2. Find each deviation x − mean（求每个数与平均数的差）。
+  3. Square each deviation to get (x − mean)²（求差的平方）。
+  4. Sum the squared deviations: Σ(x − mean)² (ungrouped) or Σf(x − mean)² (grouped)（求平方和）。
+  5. Divide by n (ungrouped) or Σf (grouped) to get the variance（除以个数得到方差）。
+  6. Take the square root to get the SD（开方得到标准差）：SD = √variance。
+✓ 分组数据用组中值 (For grouped data, use class midpoint): Class 1–3 → midpoint x = (1+3)/2 = 2. Class 4–6 → midpoint x = (4+6)/2 = 5.
+✓ 新加坡中学用 n，不用 n−1 (Singapore secondary uses n in the denominator, not n−1): SD = √( Σ(x − mean)² / n ), not √( Σ(x − mean)² / (n−1) ).
+✓ 答案可以是无理根式 (Leave answers as exact surds if they do not simplify): e.g. √2, √(8/3) = (2√6)/3, etc. No calculator, so do not round to decimals unless the question asks.
+✓ 化石 (fossil errors):
+  • Using n−1 instead of n（用 n−1 而不是 n）：「SD = √( Σ(x − mean)² / (n−1) )」 Wrong. Singapore secondary uses n in the denominator（错误：新加坡中学用 n 作为分母，不用 n−1）。
+  • Forgetting to divide by n（忘记除以 n）：「SD = √( Σ(x − mean)² )」 Wrong. The correct formula is SD = √( Σ(x − mean)² / n )（错误：正确公式是除以 n 再开方）。
+  • Treating Σ(x−mean) as the SD（把 Σ(x−mean) 当成标准差）：「Σ(x−mean) = 0, so SD = 0.」 Wrong. Σ(x−mean) is always 0 (positive and negative deviations cancel out). The SD is √( Σ(x−mean)² / n ), not Σ(x−mean) / n（错误：Σ(x−mean) 总是 0，因为正负相消。标准差是 √( Σ(x−mean)² / n )，要先平方再加）。
+  • Using class ends instead of midpoints for grouped data（分组数据用组端而不是组中值）：「For class 1–3, use x = 1 or x = 3.」 Wrong. Use the midpoint x = 2（错误：分组数据要用组中值 x = (1+3)/2 = 2，不用组端 1 或 3）。
+  • Forgetting to take the square root（忘记开方）：「Variance = 8, so SD = 8.」 Wrong. SD = √variance = √8 = 2√2, not SD = 8（错误：标准差是方差的平方根，SD = √variance，不是 SD = variance）。
+  • Confusing variance with SD（把方差和标准差混淆）：Variance is Σ(x−mean)² / n. SD is √variance. They are not the same（方差是 Σ(x−mean)² / n，标准差是 √variance，两者不同）。
+
+Note: This is a sample of Part 2 short-answer/open-ended questions. The official paper has 20 short-answer + 10–15 open-ended items in 1 hour 45 minutes.`,
+          points: 20,
+        },
+      ],
+    },
   ];
 
 
