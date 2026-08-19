@@ -2456,5 +2456,115 @@ export default function SmathFigure({ weekNumber }: { weekNumber: number }) {
     );
   }
 
+  if (weekNumber === 100) {
+    return (
+      <div className="bg-paper border border-line rounded-xl p-6 mb-6">
+        <h3 className="font-semibold text-ink mb-4 text-center">📊 本周图解</h3>
+        <div className="flex flex-col items-center max-w-2xl mx-auto">
+          <svg viewBox="0 0 500 310" className="w-full max-w-[500px] h-auto">
+            {/* Title */}
+            <text x="250" y="20" fontSize="14" fill="#1a1a1a" fontWeight="700" textAnchor="middle">Comparing Two Sets with Mean and SD 用平均数和标准差比较两组</text>
+            
+            {/* Class A Section */}
+            <text x="250" y="45" fontSize="12" fill="#3b82f6" fontWeight="700" textAnchor="middle">Class A 甲班</text>
+            <text x="250" y="60" fontSize="10" fill="#6b7280" textAnchor="middle">Data: 58, 60, 62, 64  |  Mean = 61  |  SD = √5</text>
+            
+            {/* Class A number line (scale 55-75, span 20, from x=80 to x=420, so 340px wide) */}
+            {/* 55 at x=80, 75 at x=420, so each unit = 340/20 = 17px */}
+            <line x1="80" y1="85" x2="420" y2="85" stroke="#3b82f6" strokeWidth="2" />
+            {/* Marks on number line */}
+            <line x1="80" y1="80" x2="80" y2="90" stroke="#3b82f6" strokeWidth="2" />
+            <text x="80" y="102" fontSize="9" fill="#3b82f6" textAnchor="middle">55</text>
+            
+            <line x1="165" y1="80" x2="165" y2="90" stroke="#3b82f6" strokeWidth="2" />
+            <text x="165" y="102" fontSize="9" fill="#3b82f6" textAnchor="middle">60</text>
+            
+            <line x1="250" y1="80" x2="250" y2="90" stroke="#3b82f6" strokeWidth="2" />
+            <text x="250" y="102" fontSize="9" fill="#3b82f6" textAnchor="middle">65</text>
+            
+            <line x1="335" y1="80" x2="335" y2="90" stroke="#3b82f6" strokeWidth="2" />
+            <text x="335" y="102" fontSize="9" fill="#3b82f6" textAnchor="middle">70</text>
+            
+            <line x1="420" y1="80" x2="420" y2="90" stroke="#3b82f6" strokeWidth="2" />
+            <text x="420" y="102" fontSize="9" fill="#3b82f6" textAnchor="middle">75</text>
+            
+            {/* Class A data points: 58 at x=80+(58-55)*17=131, 60 at 165, 62 at 199, 64 at 233 */}
+            <circle cx="131" cy="85" r="5" fill="#3b82f6" />
+            <text x="131" y="118" fontSize="8" fill="#3b82f6" textAnchor="middle">58</text>
+            
+            <circle cx="165" cy="85" r="5" fill="#3b82f6" />
+            <text x="165" y="118" fontSize="8" fill="#3b82f6" textAnchor="middle">60</text>
+            
+            <circle cx="199" cy="85" r="5" fill="#3b82f6" />
+            <text x="199" y="118" fontSize="8" fill="#3b82f6" textAnchor="middle">62</text>
+            
+            <circle cx="233" cy="85" r="5" fill="#3b82f6" />
+            <text x="233" y="118" fontSize="8" fill="#3b82f6" textAnchor="middle">64</text>
+            
+            {/* Mean marker for Class A at 61: x=80+(61-55)*17=182 */}
+            <line x1="182" y1="70" x2="182" y2="90" stroke="#d97706" strokeWidth="3" strokeDasharray="4,2" />
+            <text x="182" y="130" fontSize="9" fill="#d97706" fontWeight="700" textAnchor="middle">Mean 平均数 (61)</text>
+            
+            {/* Class A summary */}
+            <rect x="50" y="135" width="400" height="20" fill="#eff6ff" stroke="#3b82f6" strokeWidth="1.5" rx="4" />
+            <text x="250" y="148" fontSize="10" fill="#3b82f6" fontWeight="700" textAnchor="middle">Class A: Mean = 61 (lower), SD = √5 (smaller, more consistent 更一致)</text>
+            
+            {/* Class B Section */}
+            <text x="250" y="180" fontSize="12" fill="#10b981" fontWeight="700" textAnchor="middle">Class B 乙班</text>
+            <text x="250" y="195" fontSize="10" fill="#6b7280" textAnchor="middle">Data: 60, 64, 68, 72  |  Mean = 66  |  SD = 2√5</text>
+            
+            {/* Class B number line (same scale 55-75) */}
+            <line x1="80" y1="220" x2="420" y2="220" stroke="#10b981" strokeWidth="2" />
+            {/* Marks on number line */}
+            <line x1="80" y1="215" x2="80" y2="225" stroke="#10b981" strokeWidth="2" />
+            <text x="80" y="237" fontSize="9" fill="#10b981" textAnchor="middle">55</text>
+            
+            <line x1="165" y1="215" x2="165" y2="225" stroke="#10b981" strokeWidth="2" />
+            <text x="165" y="237" fontSize="9" fill="#10b981" textAnchor="middle">60</text>
+            
+            <line x1="250" y1="215" x2="250" y2="225" stroke="#10b981" strokeWidth="2" />
+            <text x="250" y="237" fontSize="9" fill="#10b981" textAnchor="middle">65</text>
+            
+            <line x1="335" y1="215" x2="335" y2="225" stroke="#10b981" strokeWidth="2" />
+            <text x="335" y="237" fontSize="9" fill="#10b981" textAnchor="middle">70</text>
+            
+            <line x1="420" y1="215" x2="420" y2="225" stroke="#10b981" strokeWidth="2" />
+            <text x="420" y="237" fontSize="9" fill="#10b981" textAnchor="middle">75</text>
+            
+            {/* Class B data points: 60 at 165, 64 at 233, 68 at 301, 72 at 369 */}
+            <circle cx="165" cy="220" r="5" fill="#10b981" />
+            <text x="165" y="253" fontSize="8" fill="#10b981" textAnchor="middle">60</text>
+            
+            <circle cx="233" cy="220" r="5" fill="#10b981" />
+            <text x="233" y="253" fontSize="8" fill="#10b981" textAnchor="middle">64</text>
+            
+            <circle cx="301" cy="220" r="5" fill="#10b981" />
+            <text x="301" y="253" fontSize="8" fill="#10b981" textAnchor="middle">68</text>
+            
+            <circle cx="369" cy="220" r="5" fill="#10b981" />
+            <text x="369" y="253" fontSize="8" fill="#10b981" textAnchor="middle">72</text>
+            
+            {/* Mean marker for Class B at 66: x=80+(66-55)*17=267 */}
+            <line x1="267" y1="205" x2="267" y2="225" stroke="#d97706" strokeWidth="3" strokeDasharray="4,2" />
+            <text x="267" y="265" fontSize="9" fill="#d97706" fontWeight="700" textAnchor="middle">Mean 平均数 (66)</text>
+            
+            {/* Class B summary */}
+            <rect x="50" y="275" width="400" height="25" fill="#f0fdf4" stroke="#10b981" strokeWidth="1.5" rx="4" />
+            <text x="250" y="290" fontSize="10" fill="#10b981" fontWeight="700" textAnchor="middle">Class B: Mean = 66 (higher 更高), SD = 2√5 (larger, more spread 更散)</text>
+          </svg>
+        </div>
+
+        <div className="mt-6 bg-accent/5 border border-accent/20 rounded-xl p-4">
+          <p className="text-sm text-ink-2 text-center">
+            <strong className="text-ink">比较两组：</strong><br />
+            • Larger mean → higher on average（平均数大 → 整体更高）<br />
+            • Larger SD → more spread, less consistent（标准差大 → 更散，更不一致）<br />
+            <span className="text-accent font-semibold">Class B 平均更高 (66 {'>'} 61) 但更散 (2√5 {'>'} √5)。Class A 平均更低但更一致。不要说"更好"，除非上下文说明什么是更好。</span>
+          </p>
+        </div>
+      </div>
+    );
+  }
+
   return null;
 }

@@ -17088,6 +17088,129 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
         },
       ],
     },
+    {
+      level: "SMATH",
+      weekNumber: 100,
+      title: "用平均数和标准差比较两组 — Compare two sets with mean and SD",
+      description: "S1.16 using the mean and standard deviation to compare two sets of data (AEIS 中学数学第 100 周 / SMATH Week 100)",
+      isSample: false,
+      errorFocus: "treating larger SD as better; comparing totals instead of means; saying the set with the larger mean is more consistent",
+      parentBrief: "本周用平均数和标准差比较两组。平均数大说明整体更高，标准差大说明更散。不要把更大的标准差当成更好。不要说平均数大的那组更一致。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "At Riverside Secondary, Mr Lim has two classes. Class A scores: mean = 60, SD = 8. Class B scores: mean = 70, SD = 8. Wei wants to compare the two classes. Which statement is correct?|A. Class B has a higher mean (70 > 60), so Class B scored higher on average. Both classes have the same SD (SD = 8), so they have the same spread.|B. Class B has a higher mean, so Class B is more consistent. Fossil: confusing mean with consistency. The mean tells us the average score, not the consistency. Consistency is shown by the SD (a smaller SD means more consistent).|C. Class A has a lower mean, so Class A is more spread out. Fossil: confusing mean with spread. The mean tells us the average score, not the spread. Spread is shown by the SD (a larger SD means more spread).|D. The total score for Class B is higher, so we should compare totals instead of means. Fossil: comparing totals instead of means. If the two classes have different numbers of students, we must use the mean (average) to compare them fairly.",
+            "At Riverside Secondary, Aisha has two data sets. Set A: mean = 50, SD = 4. Set B: mean = 50, SD = 10. Which statement is correct?|A. Both sets have the same mean (50), so they have the same average. Set B has a larger SD (10 > 4), so Set B is more spread around its mean (less consistent).|B. Set B has a larger SD, so Set B is better. Fossil: treating larger SD as better. A larger SD means more spread (less consistent), not better. Whether larger or smaller SD is better depends on the context.|C. Set A has a smaller SD, so Set A has a higher mean. Fossil: confusing SD with mean. The SD tells us the spread, not the average. Set A has a smaller SD (more consistent), but both sets have the same mean (50).|D. Set B has a larger SD, so Set B scored higher on average. Fossil: confusing SD with mean. The SD tells us the spread, not the average. Set B has a larger SD (more spread), but both sets have the same mean (50).",
+            "At Riverside Secondary, Mr Lim has two groups. Group A: mean = 12, SD = 2. Group B: mean = 10, SD = 1. Wei says: 「Group A is better because it has a higher mean and a larger SD.」 Is Wei correct?|A. Wei is partly correct: Group A has a higher mean (12 > 10), so Group A is higher on average. But a larger SD (SD = 2 for A) means more spread (less consistent), not better. Whether Group A is better depends on what we want: higher scores or more consistency.|B. Wei is correct. A higher mean and a larger SD both mean better. Fossil: treating larger SD as better. A larger SD means more spread (less consistent), not better.|C. Wei is wrong. Group B has a smaller SD, so Group B has a higher mean. Fossil: confusing SD with mean. Group A has the higher mean (12 > 10), but Group B has a smaller SD (more consistent).|D. Wei is wrong. Group A has a larger SD, so Group A is more spread out, and this means Group A has a lower mean. Fossil: confusing SD with mean. A larger SD means more spread, but it does not tell us whether the mean is higher or lower.",
+            "At Riverside Secondary, Aisha has two classes. Class A: mean = 75, SD = 5. Class B: mean = 70, SD = 3. Which class has higher scores on average, and which class is more consistent?|A. Class A has a higher mean (75 > 70), so Class A scored higher on average. Class B has a smaller SD (3 < 5), so Class B is more consistent (less spread around its mean).|B. Class A has a higher mean, so Class A is more consistent. Fossil: confusing mean with consistency. The mean tells us the average score, not the consistency. Class A has a higher mean (75), but Class B has a smaller SD (more consistent).|C. Class B has a smaller SD, so Class B scored higher on average. Fossil: confusing SD with mean. Class B has a smaller SD (more consistent), but Class A has a higher mean (75 > 70).|D. Class A has a higher mean and a larger SD, so Class A is better in every way. Fossil: treating larger SD as better. Class A has a higher mean (better average), but a larger SD (less consistent). Which is better depends on the goal.",
+            "At Riverside Secondary, Wei has two sets of data. Set A: mean = 20, SD = 6. Set B: mean = 25, SD = 2. Wei wants to know which set is higher on average and which set is more spread around its mean. What should he conclude?|A. Set B has a higher mean (25 > 20), so Set B is higher on average. Set A has a larger SD (6 > 2), so Set A is more spread around its mean (less consistent).|B. Set A has a larger SD, so Set A is higher on average. Fossil: confusing SD with mean. Set A has a larger SD (more spread), but Set B has a higher mean (25 > 20).|C. Set B has a higher mean, so Set B is more spread. Fossil: confusing mean with spread. Set B has a higher mean (25), but Set A has a larger SD (more spread).|D. Set B has a higher mean and a smaller SD, so Set B is better. Fossil: saying one set is better without knowing the context. Set B has a higher mean (better average) and a smaller SD (more consistent), but we should not say better unless we know what better means in the context.",
+          ]),
+          correctAnswer: "A,A,A,A,A",
+          points: 10,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "At Riverside Secondary, Mr Lim has two classes. Class A has 5 students with a total score of 100. Class B has 10 students with a total score of 150. Wei wants to compare the two classes. What should he do?|A. Calculate the mean for each class: Class A mean = 100 / 5 = 20, Class B mean = 150 / 10 = 15. Class A has a higher mean (20 > 15), so Class A scored higher on average.|B. Compare the totals: 150 > 100, so Class B is better. Fossil: comparing totals instead of means. Class B has more students, so the total is higher, but the mean (average) is lower. We should compare means, not totals.|C. Class A has fewer students, so Class A is better. Fossil: comparing the number of students instead of the mean. The number of students does not tell us which class scored higher on average. We should compare the means.|D. Add the totals: 100 + 150 = 250. This is the combined score. Fossil: adding totals instead of comparing means. We want to compare the two classes, not combine them.",
+            "At Riverside Secondary, Aisha has two data sets with the same mean. Set A: data 10, 12, 14 (mean = 12). Set B: data 6, 12, 18 (mean = 12). Wei says: 「Both sets have the same mean, so they are identical.」 Is Wei correct?|A. Wei is wrong. Both sets have the same mean (12), but Set B has a larger spread (6 and 18 are farther from 12 than 10 and 14 are). We can calculate the SD to compare the spread: Set A has SD = √(8/3) ≈ 1.63, Set B has SD = √(72/3) = √24 = 2√6 ≈ 4.90. Set B has a larger SD, so Set B is more spread.|B. Wei is correct. Both sets have the same mean, so they are identical. Fossil: ignoring the SD. Even if two sets have the same mean, they can have different spreads (different SDs).|C. Wei is wrong. Set B has a larger range (18 − 6 = 12), so Set B has a higher mean. Fossil: confusing range with mean. The range tells us the spread (max − min), not the mean. Both sets have the same mean (12).|D. Wei is correct. Both sets have 3 values, so they have the same SD. Fossil: assuming that the same number of values means the same SD. The SD depends on how spread the values are, not how many values there are.",
+            "At Riverside Secondary, Mr Lim has two classes. Class A: mean = 65, SD = 10. Class B: mean = 65, SD = 4. Aisha wants to know which class is more consistent. What should she conclude?|A. Both classes have the same mean (65), so they have the same average. Class B has a smaller SD (4 < 10), so Class B is more consistent (the scores are closer to the mean).|B. Class A has a larger SD, so Class A is better. Fossil: treating larger SD as better. A larger SD means more spread (less consistent), not better.|C. Class A has a larger SD, so Class A scored higher on average. Fossil: confusing SD with mean. Class A has a larger SD (more spread), but both classes have the same mean (65).|D. Class B has a smaller SD, so Class B has a lower mean. Fossil: confusing SD with mean. Class B has a smaller SD (more consistent), but both classes have the same mean (65).",
+            "At Riverside Secondary, Wei has two groups. Group A: mean = 50, SD = 8. Group B: mean = 60, SD = 6. Wei says: 「Group B has a higher mean, so Group B is more consistent.」 Is Wei correct?|A. Wei is wrong. Group B has a higher mean (60 > 50), so Group B scored higher on average. But consistency is shown by the SD, not the mean. Group B has a smaller SD (6 < 8), so Group B is also more consistent. Wei's conclusion is correct, but his reason is wrong (he should say smaller SD, not higher mean).|B. Wei is correct. A higher mean means more consistent. Fossil: confusing mean with consistency. The mean tells us the average, not the consistency. Consistency is shown by the SD (a smaller SD means more consistent).|C. Wei is wrong. Group A has a larger SD, so Group A is more consistent. Fossil: treating larger SD as more consistent. A larger SD means more spread (less consistent), not more consistent.|D. Wei is wrong. Group B has a higher mean, so Group B has a larger SD. Fossil: confusing mean with SD. The mean and SD are independent: a higher mean does not tell us whether the SD is larger or smaller.",
+            "At Riverside Secondary, Aisha has two classes. Class A: mean = 72, SD = 3. Class B: mean = 68, SD = 5. Aisha wants to choose the class with higher scores on average and the class with more consistent scores. What should she conclude?|A. Class A has a higher mean (72 > 68), so Class A scored higher on average. Class A also has a smaller SD (3 < 5), so Class A is more consistent. In this case, Class A is higher and more consistent.|B. Class A has a higher mean, so Class A is better. Fossil: saying better without defining what better means. Class A has a higher mean (better average) and a smaller SD (more consistent), but we should not say better unless the context says what better means.|C. Class B has a larger SD, so Class B is better. Fossil: treating larger SD as better. Class B has a larger SD (more spread, less consistent), not better.|D. Class A has a higher mean and a smaller SD, so Class A has more students. Fossil: confusing mean/SD with the number of students. The mean and SD tell us the average and spread, not the number of students.",
+            "At Riverside Secondary, Mr Lim has data for two groups. Group A: 8, 10, 12 (mean = 10). Group B: 10, 10, 10 (mean = 10). Wei wants to compare the two groups. What should he conclude?|A. Both groups have the same mean (10), so they have the same average. Group B has SD = 0 (all values are the same), so Group B has no spread (perfectly consistent). Group A has some spread (8, 10, 12 are not all the same), so Group A has SD > 0 (less consistent than Group B).|B. Group A has more different values, so Group A has a higher mean. Fossil: confusing the number of different values with the mean. The mean is the average of the values, not how many different values there are. Both groups have the same mean (10).|C. Group B has SD = 0, so Group B has a lower mean. Fossil: confusing SD with mean. Group B has SD = 0 (perfectly consistent), but both groups have the same mean (10).|D. Both groups have the same mean, so they have the same SD. Fossil: assuming that the same mean means the same SD. The mean tells us the average, and the SD tells us the spread. Two sets can have the same mean but different SDs.",
+            "At Riverside Secondary, Aisha has two sets. Set A: mean = 15, SD = 5. Set B: mean = 20, SD = 5. Aisha says: 「Set B has a higher mean, so Set B has a larger SD.」 Is Aisha correct?|A. Aisha is wrong. Set B has a higher mean (20 > 15), but both sets have the same SD (5). The mean and SD are independent: a higher mean does not tell us whether the SD is larger or smaller.|B. Aisha is correct. A higher mean means a larger SD. Fossil: confusing mean with SD. The mean tells us the average, and the SD tells us the spread. They are independent.|C. Aisha is correct. Set B has a higher mean, so Set B is more consistent. Fossil: confusing mean with consistency. The mean tells us the average, not the consistency. Consistency is shown by the SD.|D. Aisha is wrong. Set B has a higher mean, so Set B has a smaller SD. Fossil: assuming that a higher mean means a smaller SD. The mean and SD are independent.",
+            "At Riverside Secondary, Wei has two classes. Class A: mean = 80, SD = 2. Class B: mean = 70, SD = 12. Wei wants to know which class is better. What should he say?|A. Class A has a higher mean (80 > 70), so Class A scored higher on average. Class A has a smaller SD (2 < 12), so Class A is more consistent. But we should not say which class is better unless we know what better means in the context. If better means higher scores, Class A is better. If better means more variety, Class B has a larger SD (more spread).|B. Class A has a higher mean and a smaller SD, so Class A is better. Fossil: saying better without defining it. We should not say better unless the context says what better means.|C. Class B has a larger SD, so Class B is better. Fossil: treating larger SD as better. A larger SD means more spread (less consistent), not necessarily better.|D. Class A has a higher mean, so Class A has a larger SD. Fossil: confusing mean with SD. The mean and SD are independent: Class A has a higher mean (80), but a smaller SD (2 < 12).",
+          ]),
+          correctAnswer: "A,A,A,A,A,A,A,A",
+          points: 16,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `Part 2: Show Your Working (写出算式步骤)
+
+Riverside Secondary School has questions about comparing two sets of data using the mean and standard deviation. Answer the questions below. Show your working clearly.
+
+Question (a)
+At Riverside Secondary, Mr Lim has test scores for two classes:
+Class A: 4, 4, 8, 8 (4 students, mean = 6, SD = 2)
+Class B: 7, 7, 11, 11 (4 students, mean = 9, SD = 2)
+
+(i) Which class scored higher on average? Explain your answer using the mean.
+(Hint: Compare the means. The class with the larger mean scored higher on average.)
+
+(ii) Which class is more consistent (less spread around its mean)? Explain your answer using the SD.
+(Hint: Compare the SDs. The class with the smaller SD is more consistent.)
+
+(iii) Aisha says: 「Class B has a higher mean, so Class B is more consistent.」 Is Aisha correct? Explain why or why not.
+(Hint: The mean tells us the average score, not the consistency. Consistency is shown by the SD. Both classes have the same SD, so they are equally consistent.)
+
+
+Question (b)
+At Riverside Secondary, Wei has quiz scores for two groups:
+Group A: 10, 12, 14, 16 (4 students, mean = 13, SD = √5)
+Group B: 10, 10, 16, 16 (4 students, mean = 13, SD = 3)
+
+(i) Which group scored higher on average? Explain your answer.
+(Hint: Both groups have the same mean (13), so they scored the same on average.)
+
+(ii) Which group is more consistent? Explain your answer using the SD.
+(Hint: Compare the SDs. Group A has SD = √5 ≈ 2.24, Group B has SD = 3. Group A has a smaller SD, so Group A is more consistent.)
+
+(iii) Aisha says: 「Both groups have the same mean, so they are identical.」 Is Aisha correct? Explain why or why not.
+(Hint: Both groups have the same mean, but they have different SDs. Group B has a larger SD (3 > √5), so Group B is more spread around its mean. They have the same average, but different spread.)
+
+
+Question (c)
+At Riverside Secondary, Mr Lim has two classes:
+Class A: 6, 8, 10 (3 students)
+Class B: 2, 8, 14 (3 students)
+
+(i) Calculate the mean for each class. Write: Class A mean = ? , Class B mean = ?
+(Hint: Mean = Σx / n. Class A: mean = (6 + 8 + 10) / 3 = 24 / 3 = 8. Class B: mean = (2 + 8 + 14) / 3 = 24 / 3 = 8.)
+
+(ii) Both classes have the same mean (8). Are they identical? Calculate the SD for each class to find out.
+Class A: SD = √( Σ(x − mean)² / n ) = √( [(6−8)² + (8−8)² + (10−8)²] / 3 ) = ?
+Class B: SD = √( [(2−8)² + (8−8)² + (14−8)²] / 3 ) = ?
+(Hint: Class A: SD = √( (4 + 0 + 4) / 3 ) = √(8/3) = (2√6)/3. Class B: SD = √( (36 + 0 + 36) / 3 ) = √(72/3) = √24 = 2√6.)
+
+(iii) Which class is more consistent? Explain your answer.
+(Hint: Both classes have the same mean (8), but Class B has a larger SD (2√6 > (2√6)/3), so Class B is more spread around its mean (less consistent). Class A is more consistent.)
+
+(iv) Wei says: 「Class A has a smaller SD, so Class A has a higher mean.」 Is Wei correct? Explain why or why not.
+(Hint: Wei is wrong. Class A has a smaller SD (more consistent), but both classes have the same mean (8). The SD tells us the spread, not the mean.)
+
+
+写作提示 / Tips:
+✓ 每题分步骤写出推理 (Show working steps for each question)
+✓ Part 2 官方要求：clearly show the method of solution by writing working steps, plus the final answer
+✓ 不用计算器 (No calculators allowed)
+✓ 本周教 Sec 2 STATISTICS AND PROBABILITY, S1. Data handling and analysis: 本周是 using the mean and standard deviation to compare two sets of data (S1.16)（用平均数和标准差比较两组数据）。比较方法：
+  • Larger mean → that set is higher on average（平均数大 → 那组平均更高）。
+  • Larger SD → that set is more spread around its mean（标准差大 → 那组更散，更不一致）。
+  • A set can have a higher mean and a smaller SD (higher and more consistent)（一组可以平均数大而且标准差小，即更高且更一致）。
+  • Do not say "better" unless the context says what better means（不要说"更好"，除非上下文说明了什么是更好）。
+✓ 给出平均数和标准差时直接比较 (When the mean and SD are given, compare them directly): 
+  • Which set is higher on average? → Compare the means（哪组平均更高？→ 比较平均数）。
+  • Which set is more consistent? → Compare the SDs. Smaller SD means more consistent（哪组更一致？→ 比较标准差。标准差小说明更一致）。
+✓ 化石 (fossil errors):
+  • Treating larger SD as "better"（把更大的标准差当成"更好"）：「Class A has a larger SD, so Class A is better.」 Wrong. A larger SD means more spread (less consistent), not better. Whether larger or smaller SD is better depends on what better means in the context（错误：标准差大说明更散，不是更好。更好的定义取决于上下文）。
+  • Comparing totals instead of means（比较总和而不是平均数）：「Class A has a total of 100, Class B has a total of 150, so Class B is better.」 Wrong. If the two classes have different numbers of students, we must use the mean (average) to compare them fairly（错误：如果两个班人数不同，必须用平均数来公平比较）。
+  • Saying the set with the larger mean is more consistent（说平均数大的那组更一致）：「Class A has a higher mean, so Class A is more consistent.」 Wrong. The mean tells us the average, not the consistency. Consistency is shown by the SD (a smaller SD means more consistent)（错误：平均数说明平均值，不说明一致性。一致性由标准差显示，标准差小说明更一致）。
+  • Confusing mean with SD（把平均数和标准差混淆）：「Set A has a higher mean, so Set A has a larger SD.」 Wrong. The mean and SD are independent. A higher mean does not tell us whether the SD is larger or smaller（错误：平均数和标准差是独立的，平均数大不等于标准差大）。
+  • Ignoring the SD when two sets have the same mean（两组平均数相同时忽略标准差）：「Both sets have the same mean, so they are identical.」 Wrong. Even if two sets have the same mean, they can have different spreads (different SDs)（错误：即使平均数相同，两组可以有不同的离散程度，即不同的标准差）。
+
+Note: This is a sample of Part 2 short-answer/open-ended questions. The official paper has 20 short-answer + 10–15 open-ended items in 1 hour 45 minutes.`,
+          points: 20,
+        },
+      ],
+    },
   ];
 
 
