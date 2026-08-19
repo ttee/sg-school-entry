@@ -2382,5 +2382,79 @@ export default function SmathFigure({ weekNumber }: { weekNumber: number }) {
     );
   }
 
+  if (weekNumber === 99) {
+    return (
+      <div className="bg-paper border border-line rounded-xl p-6 mb-6">
+        <h3 className="font-semibold text-ink mb-4 text-center">📊 本周图解</h3>
+        <div className="flex flex-col items-center max-w-2xl mx-auto">
+          <svg viewBox="0 0 450 220" className="w-full max-w-[450px] h-auto">
+            {/* Title */}
+            <text x="225" y="20" fontSize="14" fill="#1a1a1a" fontWeight="700" textAnchor="middle">Standard Deviation Calculation Table 标准差计算表</text>
+            
+            {/* Example: Data 2, 4, 6, 8; Mean = 5 */}
+            <text x="225" y="40" fontSize="11" fill="#6b7280" textAnchor="middle">Example: Data 2, 4, 6, 8  |  Mean = 5</text>
+            
+            {/* Table headers */}
+            <rect x="60" y="50" width="80" height="30" fill="#dbeafe" stroke="#3b82f6" strokeWidth="2" />
+            <rect x="140" y="50" width="110" height="30" fill="#dbeafe" stroke="#3b82f6" strokeWidth="2" />
+            <rect x="250" y="50" width="110" height="30" fill="#dbeafe" stroke="#3b82f6" strokeWidth="2" />
+            <text x="100" y="70" fontSize="11" fill="#1a1a1a" fontWeight="700" textAnchor="middle">x</text>
+            <text x="195" y="70" fontSize="11" fill="#1a1a1a" fontWeight="700" textAnchor="middle">x − mean</text>
+            <text x="305" y="70" fontSize="11" fill="#1a1a1a" fontWeight="700" textAnchor="middle">(x − mean)²</text>
+            
+            {/* Data row 1: x=2 */}
+            <rect x="60" y="80" width="80" height="25" fill="#ffffff" stroke="#3b82f6" strokeWidth="1.5" />
+            <rect x="140" y="80" width="110" height="25" fill="#ffffff" stroke="#3b82f6" strokeWidth="1.5" />
+            <rect x="250" y="80" width="110" height="25" fill="#ffffff" stroke="#3b82f6" strokeWidth="1.5" />
+            <text x="100" y="97" fontSize="11" fill="#1a1a1a" textAnchor="middle">2</text>
+            <text x="195" y="97" fontSize="11" fill="#d97706" fontWeight="600" textAnchor="middle">2 − 5 = −3</text>
+            <text x="305" y="97" fontSize="11" fill="#10b981" fontWeight="700" textAnchor="middle">(−3)² = 9</text>
+            
+            {/* Data row 2: x=4 */}
+            <rect x="60" y="105" width="80" height="25" fill="#ffffff" stroke="#3b82f6" strokeWidth="1.5" />
+            <rect x="140" y="105" width="110" height="25" fill="#ffffff" stroke="#3b82f6" strokeWidth="1.5" />
+            <rect x="250" y="105" width="110" height="25" fill="#ffffff" stroke="#3b82f6" strokeWidth="1.5" />
+            <text x="100" y="122" fontSize="11" fill="#1a1a1a" textAnchor="middle">4</text>
+            <text x="195" y="122" fontSize="11" fill="#d97706" fontWeight="600" textAnchor="middle">4 − 5 = −1</text>
+            <text x="305" y="122" fontSize="11" fill="#10b981" fontWeight="700" textAnchor="middle">(−1)² = 1</text>
+            
+            {/* Data row 3: x=6 */}
+            <rect x="60" y="130" width="80" height="25" fill="#ffffff" stroke="#3b82f6" strokeWidth="1.5" />
+            <rect x="140" y="130" width="110" height="25" fill="#ffffff" stroke="#3b82f6" strokeWidth="1.5" />
+            <rect x="250" y="130" width="110" height="25" fill="#ffffff" stroke="#3b82f6" strokeWidth="1.5" />
+            <text x="100" y="147" fontSize="11" fill="#1a1a1a" textAnchor="middle">6</text>
+            <text x="195" y="147" fontSize="11" fill="#d97706" fontWeight="600" textAnchor="middle">6 − 5 = 1</text>
+            <text x="305" y="147" fontSize="11" fill="#10b981" fontWeight="700" textAnchor="middle">(1)² = 1</text>
+            
+            {/* Data row 4: x=8 */}
+            <rect x="60" y="155" width="80" height="25" fill="#ffffff" stroke="#3b82f6" strokeWidth="1.5" />
+            <rect x="140" y="155" width="110" height="25" fill="#ffffff" stroke="#3b82f6" strokeWidth="1.5" />
+            <rect x="250" y="155" width="110" height="25" fill="#ffffff" stroke="#3b82f6" strokeWidth="1.5" />
+            <text x="100" y="172" fontSize="11" fill="#1a1a1a" textAnchor="middle">8</text>
+            <text x="195" y="172" fontSize="11" fill="#d97706" fontWeight="600" textAnchor="middle">8 − 5 = 3</text>
+            <text x="305" y="172" fontSize="11" fill="#10b981" fontWeight="700" textAnchor="middle">(3)² = 9</text>
+            
+            {/* Sum row */}
+            <text x="225" y="195" fontSize="11" fill="#8b5cf6" fontWeight="700" textAnchor="middle">Sum: Σ(x − mean)² = 9 + 1 + 1 + 9 = 20</text>
+            
+            {/* Final calculation */}
+            <rect x="30" y="200" width="390" height="15" fill="#f0fdf4" stroke="#10b981" strokeWidth="1.5" rx="4" />
+            <text x="225" y="210" fontSize="10" fill="#10b981" fontWeight="700" textAnchor="middle">SD = √(20 / 4) = √5</text>
+          </svg>
+        </div>
+
+        <div className="mt-6 bg-accent/5 border border-accent/20 rounded-xl p-4">
+          <p className="text-sm text-ink-2 text-center">
+            <strong className="text-ink">标准差步骤：</strong><br />
+            ① 算平均数 mean = Σx / n<br />
+            ② 算每个数与平均数差的平方 (x − mean)²<br />
+            ③ 求平方和 Σ(x − mean)²，除以个数 n，再开方：SD = √( Σ(x − mean)² / n )<br />
+            <span className="text-accent font-semibold">不要用 n−1，新加坡中学用 n。不要忘记开方。</span>
+          </p>
+        </div>
+      </div>
+    );
+  }
+
   return null;
 }
