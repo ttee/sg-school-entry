@@ -283,6 +283,17 @@ AUDIO_CONFIGS = [
             ("Mei", FEMALE_VOICE, "No, Ms Tan said we'll eat at the museum café. That sounds nice!"),
         ]
     },
+    {
+        "filename": "b1-w11-listening.mp3",
+        "dialogue": [
+            ("Priya", STUDENT_VOICE, "Jun Wei, you look upset. What happened?"),
+            ("Jun Wei", MALE_VOICE, "I had such a frustrating morning! I wanted to join the basketball practice, but when I arrived at the sports hall at 7:45, the coach told me they had already started at 7:30."),
+            ("Priya", STUDENT_VOICE, "Oh no! Did you get to join?"),
+            ("Jun Wei", MALE_VOICE, "No! And that's not all. When I went to the canteen at recess, my favourite noodles had already sold out. The aunty said they had finished by 10:15, but I arrived at 10:25!"),
+            ("Priya", STUDENT_VOICE, "That's really unlucky. I hope your afternoon was better!"),
+            ("Jun Wei", MALE_VOICE, "Well, I went to return my library book, but the library had already closed for maintenance. They had closed at 1:00 p.m., and I got there at 1:10!"),
+        ]
+    },
 ]
 
 async def generate_audio_with_pauses(dialogue, output_path):
