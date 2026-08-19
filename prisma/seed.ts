@@ -6125,6 +6125,7 @@ You MUST use like/love/enjoy + -ing at least twice.
         {
           type: "listening",
           order: 4,
+          audioUrl: "/audio/a2-w9-listening.mp3",
           content: `听读练习 / Listening Preparation (read carefully)
 
 Mei: Hi Priya! What do you like doing after school?

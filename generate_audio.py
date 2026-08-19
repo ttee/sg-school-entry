@@ -183,6 +183,18 @@ AUDIO_CONFIGS = [
         ]
     },
     {
+        "filename": "a2-w9-listening.mp3",
+        "dialogue": [
+            ("Mei", FEMALE_VOICE, "Hi Priya! What do you like doing after school?"),
+            ("Priya", STUDENT_VOICE, "Hi Mei! I love reading books at the library. I enjoy reading mystery stories. What about you?"),
+            ("Mei", FEMALE_VOICE, "I like playing basketball with my friends. I enjoy sports because it's fun and healthy."),
+            ("Priya", STUDENT_VOICE, "That's great! Do you like drawing?"),
+            ("Mei", FEMALE_VOICE, "Not really. I don't like drawing very much. But my brother Jun Wei loves drawing. He enjoys making pictures of animals."),
+            ("Priya", STUDENT_VOICE, "My sister hates reading. She prefers watching videos on her tablet!"),
+            ("Mei", FEMALE_VOICE, "Everyone has different hobbies!"),
+        ]
+    },
+    {
         "filename": "b1-w4-listening.mp3",
         "dialogue": [
             ("Mei", FEMALE_VOICE, "Hi Priya! Did you hear what Ms Chen said in assembly this morning?"),
