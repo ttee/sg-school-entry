@@ -722,7 +722,7 @@ export default function WeekHomework({
                     <ol className="list-decimal list-inside space-y-1 ml-2">
                       <li>先看微课，了解本周重点错误 / Watch the video first</li>
                       <li>再做下方题目（阅读、语法、写作、听力、口语）/ Then complete the homework below</li>
-                      <li>口语和写作 AI 会盯住同一个焦点 / Speaking & writing AI will focus on the same error</li>
+                      <li>选择题当场看对错。写作和口语先看题目、先跟读。正式周由顾问开通批改。</li>
                     </ol>
                   </div>
                 </>

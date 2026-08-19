@@ -2541,7 +2541,7 @@ A 2D representation shows a circle and a triangle. Which solid does this represe
     {
       level: "A2",
       weekNumber: 0,
-      title: "试学周 / Sample Week",
+      title: "试学周",
       description: "First week in a Singapore school",
       isSample: true,
       errorFocus: "articles-demonstratives-possessives",
@@ -2693,7 +2693,7 @@ Useful phrases:
 1. 准备1分钟 (Prepare for 1 minute)
 2. 点击下方"开始录音"按钮 (Tap the "开始录音" button below)
 3. 说完整1分钟，然后停止 (Speak for the full minute, then stop)
-4. 播放听一听，满意后提交给AI评估 (Playback, then submit for AI feedback)`,
+4. 播放听一听，看看题目，先跟读 (Playback, review the prompt, practice speaking)`,
           points: 5,
         },
       ],
@@ -4384,8 +4384,8 @@ Useful phrases:
 1. 选择一个真实可行的习惯 (Choose a realistic habit)
 2. 想好具体做法 (Think of specific steps)
 3. 点击"开始录音"按钮 (Tap the "开始录音" button)
-4. 说2分钟后提交给AI评估 (Speak for 2 minutes, then submit to AI)
-5. 根据"改善焦点"和"跟读句子"再练习 (Practice again with focus tips and model sentences)`,
+4. 说2分钟，看看题目，先跟读 (Speak for 2 minutes, review the prompt, practice speaking)
+5. 正式周由顾问开通批改 (Full weeks: advisor will enable feedback)`,
           points: 5,
         },
       ],
