@@ -186,7 +186,7 @@ export default function PrivacyPage() {
             </p>
             <ul className="list-disc pl-6 text-ink-2 space-y-2 mb-4">
               <li>
-                <strong>教学：</strong>提供每周作业 app 与家长微信跟进（有教案再开 Zoom）的教学服务
+                <strong>教学：</strong>提供每周作业 app 与家长微信跟进的教学服务
               </li>
               <li>
                 <strong>评估与反馈：</strong>自动批改选择题，AI 评估口语录音和写作，给出改善焦点（Kaizen focus）
