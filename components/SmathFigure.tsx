@@ -2776,5 +2776,97 @@ export default function SmathFigure({ weekNumber }: { weekNumber: number }) {
     );
   }
 
+  if (weekNumber === 103) {
+    return (
+      <div className="bg-paper border border-line rounded-xl p-6 mb-6">
+        <h3 className="font-semibold text-ink mb-4 text-center">📊 本周图解</h3>
+        <div className="flex flex-col items-center max-w-2xl mx-auto">
+          <svg viewBox="0 0 580 360" className="w-full max-w-[580px] h-auto">
+            {/* Title */}
+            <text x="290" y="20" fontSize="14" fill="#1a1a1a" fontWeight="700" textAnchor="middle">Fair vs Misleading Bar Chart 公平 vs 误导的柱状图</text>
+            <text x="290" y="38" fontSize="11" fill="#6b7280" textAnchor="middle">Same data, different scales 同一组数据，不同刻度</text>
+            
+            {/* Data: Aisha scored 20, Wei scored 22 */}
+            
+            {/* Left side: Fair bar chart (axis from 0) 公平柱状图（纵轴从 0 开始）*/}
+            <rect x="20" y="55" width="260" height="250" fill="#f0fdf4" stroke="#10b981" strokeWidth="2" rx="8" />
+            <text x="150" y="80" fontSize="13" fill="#059669" fontWeight="700" textAnchor="middle">Fair Chart 公平图</text>
+            <text x="150" y="95" fontSize="9" fill="#047857" textAnchor="middle">Axis from 0 纵轴从 0 开始</text>
+            
+            {/* Y-axis */}
+            <line x1="50" y1="240" x2="50" y2="115" stroke="#000" strokeWidth="1.5" />
+            <line x1="50" y1="240" x2="240" y2="240" stroke="#000" strokeWidth="1.5" />
+            
+            {/* Y-axis labels (0 to 25) */}
+            <text x="42" y="243" fontSize="8" fill="#000" textAnchor="end">0</text>
+            <text x="42" y="193" fontSize="8" fill="#000" textAnchor="end">10</text>
+            <text x="42" y="143" fontSize="8" fill="#000" textAnchor="end">20</text>
+            <text x="42" y="118" fontSize="8" fill="#000" textAnchor="end">25</text>
+            
+            {/* Bar for Aisha (20): height = 20/25 * 125 = 100px, y = 240-100 = 140 */}
+            <rect x="80" y="140" width="50" height="100" fill="#34d399" stroke="#000" strokeWidth="1" />
+            <text x="105" y="131" fontSize="10" fill="#047857" fontWeight="700" textAnchor="middle">20</text>
+            <text x="105" y="256" fontSize="9" fill="#000" textAnchor="middle">Aisha</text>
+            
+            {/* Bar for Wei (22): height = 22/25 * 125 = 110px, y = 240-110 = 130 */}
+            <rect x="160" y="130" width="50" height="110" fill="#10b981" stroke="#000" strokeWidth="1" />
+            <text x="185" y="121" fontSize="10" fill="#047857" fontWeight="700" textAnchor="middle">22</text>
+            <text x="185" y="256" fontSize="9" fill="#000" textAnchor="middle">Wei</text>
+            
+            {/* Annotation */}
+            <text x="150" y="275" fontSize="9" fill="#065f46" fontWeight="700" textAnchor="middle">Bars look almost equal</text>
+            <text x="150" y="287" fontSize="9" fill="#047857" textAnchor="middle">柱子看起来差不多高</text>
+            <text x="150" y="299" fontSize="9" fill="#047857" textAnchor="middle">Difference is only 2</text>
+            
+            {/* Right side: Misleading bar chart (axis from 18) 误导柱状图（纵轴从 18 开始）*/}
+            <rect x="300" y="55" width="260" height="250" fill="#fef2f2" stroke="#ef4444" strokeWidth="2" rx="8" />
+            <text x="430" y="80" fontSize="13" fill="#dc2626" fontWeight="700" textAnchor="middle">Misleading Chart 误导图</text>
+            <text x="430" y="95" fontSize="9" fill="#991b1b" textAnchor="middle">Axis from 18 纵轴从 18 开始</text>
+            
+            {/* Y-axis */}
+            <line x1="330" y1="240" x2="330" y2="115" stroke="#000" strokeWidth="1.5" />
+            <line x1="330" y1="240" x2="520" y2="240" stroke="#000" strokeWidth="1.5" />
+            
+            {/* Y-axis labels (18 to 23) */}
+            <text x="322" y="243" fontSize="8" fill="#dc2626" fontWeight="700" textAnchor="end">18</text>
+            <text x="322" y="193" fontSize="8" fill="#000" textAnchor="end">20</text>
+            <text x="322" y="143" fontSize="8" fill="#000" textAnchor="end">22</text>
+            <text x="322" y="118" fontSize="8" fill="#000" textAnchor="end">23</text>
+            
+            {/* Bar for Aisha (20): (20-18)/(23-18) * 125 = 2/5 * 125 = 50px, y = 240-50 = 190 */}
+            <rect x="360" y="190" width="50" height="50" fill="#fca5a5" stroke="#000" strokeWidth="1" />
+            <text x="385" y="181" fontSize="10" fill="#991b1b" fontWeight="700" textAnchor="middle">20</text>
+            <text x="385" y="256" fontSize="9" fill="#000" textAnchor="middle">Aisha</text>
+            
+            {/* Bar for Wei (22): (22-18)/(23-18) * 125 = 4/5 * 125 = 100px, y = 240-100 = 140 */}
+            <rect x="440" y="140" width="50" height="100" fill="#ef4444" stroke="#000" strokeWidth="1.5" />
+            <text x="465" y="131" fontSize="10" fill="#991b1b" fontWeight="700" textAnchor="middle">22</text>
+            <text x="465" y="256" fontSize="9" fill="#000" textAnchor="middle">Wei</text>
+            
+            {/* Warning annotation */}
+            <line x1="440" y1="190" x2="410" y2="190" stroke="#dc2626" strokeWidth="1" strokeDasharray="2,2" />
+            <text x="430" y="275" fontSize="9" fill="#dc2626" fontWeight="700" textAnchor="middle">Wei looks MUCH taller</text>
+            <text x="430" y="287" fontSize="9" fill="#991b1b" textAnchor="middle">Wei 看起来高很多</text>
+            <text x="430" y="299" fontSize="9" fill="#991b1b" textAnchor="middle">but difference is still 2!</text>
+            
+            {/* Bottom summary */}
+            <rect x="40" y="315" width="500" height="35" fill="#fff7ed" stroke="#f59e0b" strokeWidth="1.5" rx="6" />
+            <text x="290" y="330" fontSize="10" fill="#92400e" fontWeight="700" textAnchor="middle">Axis from 0: bars look almost equal (正确). Axis from 18: small difference looks huge (误导)!</text>
+            <text x="290" y="343" fontSize="9" fill="#d97706" textAnchor="middle">从 0 开始：柱子差不多高（正确）。从 18 开始：小差别看起来很大（误导）！</text>
+          </svg>
+        </div>
+
+        <div className="mt-6 bg-accent/5 border border-accent/20 rounded-xl p-4">
+          <p className="text-sm text-ink-2 text-center">
+            <strong className="text-ink">本周重点（S1.7 explaining why a given statistical diagram leads to misinterpretation）：</strong><br />
+            • <strong>Axis not starting at 0 misleads</strong>（纵轴不从 0 开始会误导）: The right chart makes 22 look much taller than 20, but the difference is only 2（右图让 22 看起来比 20 高很多，但差别只有 2）<br />
+            • <strong>Fair chart starts axis at 0</strong>（公平图纵轴从 0 开始）: The left chart shows the true size. Bars for 20 and 22 look almost equal, which is correct（左图显示真实大小。20 和 22 的柱子看起来差不多高，这是正确的）<br />
+            <span className="text-accent font-semibold">Always read the scale! Don't just look at which bar is taller.（一定要读刻度！不要只看哪根柱子高。）</span>
+          </p>
+        </div>
+      </div>
+    );
+  }
+
   return null;
 }
