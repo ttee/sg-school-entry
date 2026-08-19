@@ -17856,6 +17856,119 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
         },
       ],
     },
+    {
+      level: "SMATH",
+      weekNumber: 107,
+      title: "指数定律 — Laws of indices",
+      description: "N1.10 laws of indices (AEIS 中学数学第 107 周 / SMATH Week 107)",
+      isSample: false,
+      errorFocus: "adding the bases (2^3 × 2^4 = 4^7); multiplying the indices on a product (2^3 × 2^4 = 2^{12}); (2^3)^2 = 2^5",
+      parentBrief: "本周用指数定律合并同底数的幂。相乘指数相加，相除指数相减，乘方指数相乘。不要把底数也加起来。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "At Riverside Secondary, Wei simplifies 2^3 × 2^4. He says: 「2^3 × 2^4 = 4^7, because 2 + 2 = 4 and 3 + 4 = 7.」 Is Wei correct?|A. Wei is wrong. 2^3 × 2^4 = 2^7, not 4^7. (When multiplying powers with the same base, add the indices: a^m × a^n = a^(m+n). So 2^3 × 2^4 = 2^(3+4) = 2^7. Do not add the bases.)|B. Wei is correct. 2^3 × 2^4 = 4^7. Fossil: a^m × a^n = a^(m+n), not (a+a)^(m+n). The correct answer is 2^3 × 2^4 = 2^7, not 4^7.|C. Wei is wrong. 2^3 × 2^4 = 2^12. Fossil: a^m × a^n = a^(m+n), not a^(m×n). The correct answer is 2^3 × 2^4 = 2^(3+4) = 2^7, not 2^12.|D. Wei is wrong. 2^3 × 2^4 = 8 × 16 = 128. Fossil: We can also simplify to 2^7, which equals 128.",
+            "At Riverside Secondary, Aisha simplifies 2^5 ÷ 2^2. She says: 「2^5 ÷ 2^2 = 2^3, because when dividing powers with the same base, subtract the indices.」 Is Aisha correct?|A. Aisha is correct. 2^5 ÷ 2^2 = 2^(5-2) = 2^3. (When dividing powers with the same base, subtract the indices: a^m ÷ a^n = a^(m-n). So 2^5 ÷ 2^2 = 2^(5-2) = 2^3.)|B. Aisha is wrong. 2^5 ÷ 2^2 = 2^7. Fossil: a^m ÷ a^n = a^(m-n), not a^(m+n). The correct answer is 2^5 ÷ 2^2 = 2^(5-2) = 2^3, not 2^7.|C. Aisha is wrong. 2^5 ÷ 2^2 = 1^3. Fossil: a^m ÷ a^n = a^(m-n), not (a÷a)^(m-n). The correct answer is 2^5 ÷ 2^2 = 2^3, not 1^3.|D. Aisha is wrong. 2^5 ÷ 2^2 = 2^10. Fossil: a^m ÷ a^n = a^(m-n), not a^(m×n). The correct answer is 2^5 ÷ 2^2 = 2^3, not 2^10.",
+            "At Riverside Secondary, Mr Lim writes (2^3)^2 on the board. Wei says: 「(2^3)^2 = 2^5, because 3 + 2 = 5.」 Is Wei correct?|A. Wei is wrong. (2^3)^2 = 2^6, not 2^5. (When raising a power to a power, multiply the indices: (a^m)^n = a^(m×n). So (2^3)^2 = 2^(3×2) = 2^6, not 2^5. Do not add the indices.)|B. Wei is correct. (2^3)^2 = 2^5. Fossil: (a^m)^n = a^(m×n), not a^(m+n). The correct answer is (2^3)^2 = 2^6, not 2^5.|C. Wei is wrong. (2^3)^2 = 2^9. Fossil: (a^m)^n = a^(m×n). The correct answer is (2^3)^2 = 2^(3×2) = 2^6, not 2^9 = 2^(3+3+3).|D. Wei is wrong. (2^3)^2 = 4^6. Fossil: (a^m)^n = a^(m×n), not (a^n)^m. The correct answer is (2^3)^2 = 2^6, not 4^6.",
+            "At Riverside Secondary, Aisha simplifies 3^2 × 3^5. Which of the following is correct?|A. 3^2 × 3^5 = 3^7 (When multiplying powers with the same base, add the indices: a^m × a^n = a^(m+n). So 3^2 × 3^5 = 3^(2+5) = 3^7.)|B. 3^2 × 3^5 = 3^10 Fossil: a^m × a^n = a^(m×n), not a^(m+n). The correct answer is 3^2 × 3^5 = 3^7, not 3^10.|C. 3^2 × 3^5 = 6^7 Fossil: a^m × a^n = a^(m+n), not (a+a)^(m+n). The correct answer is 3^2 × 3^5 = 3^7, not 6^7.|D. 3^2 × 3^5 = 9^7 Fossil: a^m × a^n = a^(m+n). The base stays the same. The correct answer is 3^2 × 3^5 = 3^7, not 9^7.",
+            "At Riverside Secondary, Mr Lim asks Wei to simplify (5^2)^3. Which of the following is correct?|A. (5^2)^3 = 5^6 (When raising a power to a power, multiply the indices: (a^m)^n = a^(m×n). So (5^2)^3 = 5^(2×3) = 5^6.)|B. (5^2)^3 = 5^5 Fossil: (a^m)^n = a^(m×n), not a^(m+n). The correct answer is (5^2)^3 = 5^6, not 5^5.|C. (5^2)^3 = 5^8 Fossil: (a^m)^n = a^(m×n). The correct answer is (5^2)^3 = 5^(2×3) = 5^6, not 5^8.|D. (5^2)^3 = 25^3 Fossil: (a^m)^n = a^(m×n). The correct answer is (5^2)^3 = 5^6. While 25^3 = (5^2)^3, the simplified form is 5^6.",
+          ]),
+          correctAnswer: "A,A,A,A,A",
+          points: 10,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "At Riverside Secondary, Wei simplifies 2^4 × 2^1. Which of the following is correct?|A. 2^4 × 2^1 = 2^5 (When multiplying powers with the same base, add the indices: a^m × a^n = a^(m+n). So 2^4 × 2^1 = 2^(4+1) = 2^5.)|B. 2^4 × 2^1 = 2^4 Fossil: a^m × a^n = a^(m+n), not a^m. The correct answer is 2^4 × 2^1 = 2^5, not 2^4.|C. 2^4 × 2^1 = 4^5 Fossil: a^m × a^n = a^(m+n), not (a×a)^(m+n). The correct answer is 2^4 × 2^1 = 2^5, not 4^5.|D. 2^4 × 2^1 = 2^3 Fossil: a^m × a^n = a^(m+n), not a^(m-n). The correct answer is 2^4 × 2^1 = 2^5, not 2^3.",
+            "At Riverside Secondary, Aisha simplifies 3^7 ÷ 3^4. Which of the following is correct?|A. 3^7 ÷ 3^4 = 3^3 (When dividing powers with the same base, subtract the indices: a^m ÷ a^n = a^(m-n). So 3^7 ÷ 3^4 = 3^(7-4) = 3^3.)|B. 3^7 ÷ 3^4 = 3^11 Fossil: a^m ÷ a^n = a^(m-n), not a^(m+n). The correct answer is 3^7 ÷ 3^4 = 3^3, not 3^11.|C. 3^7 ÷ 3^4 = 1^3 Fossil: a^m ÷ a^n = a^(m-n), not (a÷a)^(m-n). The correct answer is 3^7 ÷ 3^4 = 3^3, not 1^3.|D. 3^7 ÷ 3^4 = 3^28 Fossil: a^m ÷ a^n = a^(m-n), not a^(m×n). The correct answer is 3^7 ÷ 3^4 = 3^3, not 3^28.",
+            "At Riverside Secondary, Mr Lim writes (3^4)^2 on the board. Wei says: 「(3^4)^2 = 3^8, because when raising a power to a power, multiply the indices.」 Is Wei correct?|A. Wei is correct. (3^4)^2 = 3^(4×2) = 3^8. (When raising a power to a power, multiply the indices: (a^m)^n = a^(m×n). So (3^4)^2 = 3^8.)|B. Wei is wrong. (3^4)^2 = 3^6. Fossil: (a^m)^n = a^(m×n), not a^(m+n). The correct answer is (3^4)^2 = 3^8, not 3^6.|C. Wei is wrong. (3^4)^2 = 3^16. Fossil: (a^m)^n = a^(m×n). The correct answer is (3^4)^2 = 3^8, not 3^16 = 3^(4×4).|D. Wei is wrong. (3^4)^2 = 9^8. Fossil: (a^m)^n = a^(m×n). The base stays the same. The correct answer is (3^4)^2 = 3^8, not 9^8.",
+            "At Riverside Secondary, Aisha simplifies 5^6 ÷ 5^2. Which of the following is correct?|A. 5^6 ÷ 5^2 = 5^4 (When dividing powers with the same base, subtract the indices: a^m ÷ a^n = a^(m-n). So 5^6 ÷ 5^2 = 5^(6-2) = 5^4.)|B. 5^6 ÷ 5^2 = 5^8 Fossil: a^m ÷ a^n = a^(m-n), not a^(m+n). The correct answer is 5^6 ÷ 5^2 = 5^4, not 5^8.|C. 5^6 ÷ 5^2 = 5^3 Fossil: a^m ÷ a^n = a^(m-n). The correct answer is 5^6 ÷ 5^2 = 5^(6-2) = 5^4, not 5^3.|D. 5^6 ÷ 5^2 = 1^4 Fossil: a^m ÷ a^n = a^(m-n), not (a÷a)^(m-n). The correct answer is 5^6 ÷ 5^2 = 5^4, not 1^4.",
+            "At Riverside Secondary, Wei simplifies 7^3 × 7^2. Which of the following is correct?|A. 7^3 × 7^2 = 7^5 (When multiplying powers with the same base, add the indices: a^m × a^n = a^(m+n). So 7^3 × 7^2 = 7^(3+2) = 7^5.)|B. 7^3 × 7^2 = 7^6 Fossil: a^m × a^n = a^(m×n), not a^(m+n). The correct answer is 7^3 × 7^2 = 7^5, not 7^6.|C. 7^3 × 7^2 = 14^5 Fossil: a^m × a^n = a^(m+n), not (a+a)^(m+n). The correct answer is 7^3 × 7^2 = 7^5, not 14^5.|D. 7^3 × 7^2 = 49^5 Fossil: a^m × a^n = a^(m+n). The base stays the same. The correct answer is 7^3 × 7^2 = 7^5, not 49^5.",
+            "At Riverside Secondary, Aisha simplifies (2^5)^3. Which of the following is correct?|A. (2^5)^3 = 2^15 (When raising a power to a power, multiply the indices: (a^m)^n = a^(m×n). So (2^5)^3 = 2^(5×3) = 2^15.)|B. (2^5)^3 = 2^8 Fossil: (a^m)^n = a^(m×n), not a^(m+n). The correct answer is (2^5)^3 = 2^15, not 2^8.|C. (2^5)^3 = 2^125 Fossil: (a^m)^n = a^(m×n). The correct answer is (2^5)^3 = 2^15, not 2^125 = 2^(5^3).|D. (2^5)^3 = 32^3 Fossil: (a^m)^n = a^(m×n). The correct answer is (2^5)^3 = 2^15. While 32^3 = (2^5)^3, the simplified form is 2^15.",
+            "At Riverside Secondary, Mr Lim asks Wei to simplify 4^8 ÷ 4^3. Which of the following is correct?|A. 4^8 ÷ 4^3 = 4^5 (When dividing powers with the same base, subtract the indices: a^m ÷ a^n = a^(m-n). So 4^8 ÷ 4^3 = 4^(8-3) = 4^5.)|B. 4^8 ÷ 4^3 = 4^11 Fossil: a^m ÷ a^n = a^(m-n), not a^(m+n). The correct answer is 4^8 ÷ 4^3 = 4^5, not 4^11.|C. 4^8 ÷ 4^3 = 1^5 Fossil: a^m ÷ a^n = a^(m-n), not (a÷a)^(m-n). The correct answer is 4^8 ÷ 4^3 = 4^5, not 1^5.|D. 4^8 ÷ 4^3 = 4^24 Fossil: a^m ÷ a^n = a^(m-n), not a^(m×n). The correct answer is 4^8 ÷ 4^3 = 4^5, not 4^24.",
+            "At Riverside Secondary, Aisha simplifies (6^2)^4. Which of the following is correct?|A. (6^2)^4 = 6^8 (When raising a power to a power, multiply the indices: (a^m)^n = a^(m×n). So (6^2)^4 = 6^(2×4) = 6^8.)|B. (6^2)^4 = 6^6 Fossil: (a^m)^n = a^(m×n), not a^(m+n). The correct answer is (6^2)^4 = 6^8, not 6^6.|C. (6^2)^4 = 6^16 Fossil: (a^m)^n = a^(m×n). The correct answer is (6^2)^4 = 6^(2×4) = 6^8, not 6^16 = 6^(2^4).|D. (6^2)^4 = 36^4 Fossil: (a^m)^n = a^(m×n). The correct answer is (6^2)^4 = 6^8. While 36^4 = (6^2)^4, the simplified form is 6^8.",
+          ]),
+          correctAnswer: "A,A,A,A,A,A,A,A",
+          points: 16,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `Part 2: Show Your Working (写出算式步骤)
+
+Riverside Secondary School has questions about the laws of indices. Answer the questions below. Show your working clearly.
+
+Question (a)
+Simplify each expression using the laws of indices.
+
+(i) 2^3 × 2^4
+(Hint: When multiplying powers with the same base, add the indices: a^m × a^n = a^(m+n). So 2^3 × 2^4 = 2^(3+4) = 2^7.)
+
+(ii) 2^5 ÷ 2^2
+(Hint: When dividing powers with the same base, subtract the indices: a^m ÷ a^n = a^(m-n). So 2^5 ÷ 2^2 = 2^(5-2) = 2^3.)
+
+(iii) (2^3)^2
+(Hint: When raising a power to a power, multiply the indices: (a^m)^n = a^(m×n). So (2^3)^2 = 2^(3×2) = 2^6.)
+
+
+Question (b)
+At Riverside Secondary, Wei simplifies 2^3 × 2^4. He says: 「2^3 × 2^4 = 4^7, because 2 + 2 = 4 and 3 + 4 = 7.」
+
+(i) What is 2 + 2? What is 3 + 4?
+(Hint: 2 + 2 = 4. 3 + 4 = 7.)
+
+(ii) Is Wei correct? If not, what is the correct answer? Show your working.
+(Hint: Wei is wrong. When multiplying powers with the same base, the base stays the same and you add the indices. So 2^3 × 2^4 = 2^(3+4) = 2^7, not 4^7. Do not add the bases.)
+
+
+Question (c)
+At Riverside Secondary, Aisha simplifies (2^3)^2. She says: 「(2^3)^2 = 2^5, because 3 + 2 = 5.」
+
+(i) What is 3 + 2? What is 3 × 2?
+(Hint: 3 + 2 = 5. 3 × 2 = 6.)
+
+(ii) Is Aisha correct? If not, what is the correct answer? Show your working.
+(Hint: Aisha is wrong. When raising a power to a power, multiply the indices, not add them. So (2^3)^2 = 2^(3×2) = 2^6, not 2^5.)
+
+
+Question (d)
+Simplify using the laws of indices:
+
+(i) 3^5 × 3^2
+(Hint: a^m × a^n = a^(m+n). So 3^5 × 3^2 = 3^(5+2) = 3^7.)
+
+(ii) 5^8 ÷ 5^3
+(Hint: a^m ÷ a^n = a^(m-n). So 5^8 ÷ 5^3 = 5^(8-3) = 5^5.)
+
+(iii) (4^2)^3
+(Hint: (a^m)^n = a^(m×n). So (4^2)^3 = 4^(2×3) = 4^6.)
+
+
+写作提示 / Tips:
+✓ 每题分步骤写出推理 (Show working steps for each question)
+✓ Part 2 官方要求：clearly show the method of solution by writing working steps, plus the final answer
+✓ 不用计算器 (No calculators allowed)
+✓ 本周教 Secondary Three/Four, NUMBER AND ALGEBRA, N1. Numbers and their operations: 本周是 N1.10 laws of indices（指数定律）。
+  • a^m × a^n = a^(m+n)（相乘指数相加）（例：2^3 × 2^4 = 2^(3+4) = 2^7）
+  • a^m ÷ a^n = a^(m-n)（相除指数相减）（例：2^5 ÷ 2^2 = 2^(5-2) = 2^3）
+  • (a^m)^n = a^(m×n)（乘方指数相乘）（例：(2^3)^2 = 2^(3×2) = 2^6）
+✓ Common mistakes (fossil errors):
+  • Adding the bases: 2^3 × 2^4 = 4^7（错误：不要把底数也加起来。正确：底数不变，指数相加：2^3 × 2^4 = 2^7）
+  • Multiplying the indices on a product: 2^3 × 2^4 = 2^12（错误：相乘时指数不是相乘。正确：a^m × a^n = a^(m+n)，不是 a^(m×n)。2^3 × 2^4 = 2^7，不是 2^12）
+  • Adding the indices for a power of a power: (2^3)^2 = 2^5（错误：乘方时指数要相乘，不是相加。正确：(a^m)^n = a^(m×n)，不是 a^(m+n)。(2^3)^2 = 2^6，不是 2^5）
+
+Note: This is a sample of Part 2 short-answer/open-ended questions. The official paper has 20 short-answer + 10–15 open-ended items in 1 hour 45 minutes.`,
+          points: 20,
+        },
+      ],
+    },
   ];
 
 
