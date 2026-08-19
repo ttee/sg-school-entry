@@ -161,7 +161,7 @@ export default function PrivacyPage() {
                 <tr className="border-b border-line">
                   <td className="px-4 py-3 text-ink">口语录音</td>
                   <td className="px-4 py-3 text-ink-2">
-                    可选提交的语音录音文件（用于 AI 发音与流利度评估）
+                    可选提交的语音录音文件（正式周由顾问批改）
                   </td>
                 </tr>
                 <tr>
@@ -173,7 +173,7 @@ export default function PrivacyPage() {
               </tbody>
             </table>
             <p className="text-sm text-ink-2 leading-relaxed">
-              <strong>English:</strong> We collect enquiry data via registration form (parent WeChat, child birth year, intended stage, registration intent), student name/class/level, login email provided by parent, homework answers, optional voice recordings for speaking evaluation, and progress data for parent updates.
+              <strong>English:</strong> We collect enquiry data via registration form (parent WeChat, child birth year, intended stage, registration intent), student name/class/level, login email provided by parent, homework answers, optional voice recordings (reviewed by advisors during enrolled weeks), and progress data for parent updates.
             </p>
           </section>
 
@@ -189,7 +189,7 @@ export default function PrivacyPage() {
                 <strong>教学：</strong>提供每周作业 app 与家长微信跟进的教学服务
               </li>
               <li>
-                <strong>评估与反馈：</strong>自动批改选择题，AI 评估口语录音和写作，给出改善焦点（Kaizen focus）
+                <strong>评估与反馈：</strong>选择题当场看对错；写作和口语先看题目、先跟读；正式周由顾问开通批改
               </li>
               <li>
                 <strong>家长通报：</strong>通过微信或邮件向家长通报孩子的周作业完成情况与分数
@@ -210,46 +210,35 @@ export default function PrivacyPage() {
 
           <section>
             <h2 className="font-serif font-semibold text-2xl text-ink mb-4">
-              4. AI 评估与数据存储 / AI Evaluation & Storage
+              4. 批改流程与数据存储 / Feedback Process & Storage
             </h2>
             <p className="text-ink-2 leading-relaxed mb-3">
-              <strong>写作与口语 AI 反馈：</strong>
+              <strong>作业批改流程：</strong>
             </p>
             <p className="text-ink-2 leading-relaxed mb-3">
-              本站使用 Google Gemini API（通过 Vercel 云端）对学生的写作文本和口语录音进行 AI 评估，生成改善焦点和简体中文反馈。
+              选择题当场看对错；写作和口语先看题目、先跟读；正式周由顾问开通批改。写作和口语批改功能仅在正式报名周期由顾问开通，公开访客无法使用 AI 批改功能。
             </p>
-            <div className="bg-warn-bg border border-warn-ink/30 rounded-lg p-5 mb-4">
-              <p className="text-sm text-ink-2 leading-relaxed mb-2">
-                <strong className="text-warn-ink">重要提示：</strong>
-              </p>
-              <ul className="list-disc pl-5 text-sm text-ink-2 space-y-1.5">
-                <li>
-                  学生的口语录音和写作文本会被发送给 Google Gemini API 进行分析。
-                </li>
-                <li>
-                  根据 <a
-                    href="https://ai.google.dev/gemini-api/terms"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-accent hover:underline"
-                  >
-                    Google Gemini API 用户条款
-                  </a>，<strong>使用免费版 API 提交的内容可能被 Google 用于产品改进。</strong>
-                </li>
-                <li>
-                  我们不会将录音用于商业出售，但由于 API 限制，无法完全阻止 Google 的后台处理。
-                </li>
-                <li>
-                  如果家长不希望孩子的录音被发送到 AI，可以选择<strong>不提交口语录音</strong>，手动完成口语练习即可。
-                </li>
-              </ul>
-            </div>
             <p className="text-ink-2 leading-relaxed mb-3">
               <strong>数据存储：</strong>
             </p>
-            <p className="text-ink-2 leading-relaxed">
-              学生的作业答案、写作文本存储在我们的 PostgreSQL 数据库中。口语练习记录（`SpeakingAttempt` 表）存储：转录文本、评分、反馈、录音时长，以及可能的录音文件引用（`audioUrl` 字段）。数据库托管在 Vercel / Supabase（位于新加坡或美国数据中心）。录音文件本身由浏览器录制后提交给 AI；评估完成后，我们保留转录文本和评估结果用于进度跟踪，录音文件引用可能被保留或过期删除。
+            <p className="text-ink-2 leading-relaxed mb-3">
+              学生的作业答案、写作文本存储在我们的 PostgreSQL 数据库中（托管在 Vercel / Supabase，位于新加坡或美国数据中心）。口语练习记录存储提交时间和完成状态，用于进度跟踪。
             </p>
+            <div className="bg-paper-2 border border-line rounded-lg p-5">
+              <p className="text-sm text-ink-2 leading-relaxed mb-2">
+                <strong>关于 AI 评估（仅适用于正式报名学员）：</strong>
+              </p>
+              <p className="text-sm text-ink-2 leading-relaxed">
+                正式报名学员在顾问开通后可使用 AI 辅助批改功能。该功能通过 Google Gemini API（经 Vercel 云端）对写作文本和口语录音进行评估。根据 <a
+                  href="https://ai.google.dev/gemini-api/terms"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-accent hover:underline"
+                >
+                  Google Gemini API 用户条款
+                </a>，提交给 API 的内容可能被 Google 用于产品改进。如家长对此有疑虑，可联系顾问讨论替代批改方式。
+              </p>
+            </div>
           </section>
 
           <section>
