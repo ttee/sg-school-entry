@@ -1169,7 +1169,7 @@ const lessonPlans: Record<string, LessonPlan> = {
  {
  name: "This week's example",
  duration: "8 min",
- teacherNotes: "write: '12 sweets shared equally among 3 children.' Guide 12 ÷ 3 = 4. Emphasize the keyword 'of' (multiplication method), shared equally (division method). ",
+ teacherNotes: "Write: '12 sweets shared equally among 3 children.' Guide 12 ÷ 3 = 4. Emphasize the keyword 'of' (multiplication method), shared equally (division method). ",
  },
  {
  name: "Child verbalizes equation",
@@ -1211,7 +1211,7 @@ const lessonPlans: Record<string, LessonPlan> = {
  {
  name: "This week's example",
  duration: "8 min",
- teacherNotes: "write: '2/8 + 3/8 = 5/8'. Explain: denominators are the same, only add numerators. Readwork 'two eighths plus three eighths equals five eighths.'",
+ teacherNotes: "Write: '2/8 + 3/8 = 5/8'. Explain: denominators are the same, only add numerators. Readwork 'two eighths plus three eighths equals five eighths.'",
  },
  {
  name: "Child verbalizes equation",
@@ -1253,7 +1253,7 @@ const lessonPlans: Record<string, LessonPlan> = {
  {
  name: "This week's example",
  duration: "8 min",
- teacherNotes: "write: '2 m − 1 m = 1 m'. Explain: units are the same, can only add and subtraction. 2 hours = 120 minutes. ",
+ teacherNotes: "Write: '2 m − 1 m = 1 m'. Explain: units are the same, can only add and subtraction. 2 hours = 120 minutes. ",
  },
  {
  name: "Child verbalizes equation",
@@ -1295,7 +1295,7 @@ const lessonPlans: Record<string, LessonPlan> = {
  {
  name: "This week's example",
  duration: "8 min",
- teacherNotes: "write: 'cube: 6 square faces'. 'cuboid: 6 rectangular faces'. 'cylinder: 2 circular faces'. child repeats. ",
+ teacherNotes: "Write: 'cube: 6 square faces'. 'cuboid: 6 rectangular faces'. 'cylinder: 2 circular faces'. child repeats. ",
  },
  {
  name: "Child verbalizes equation",
@@ -1339,7 +1339,7 @@ const lessonPlans: Record<string, LessonPlan> = {
  {
  name: "This week's example",
  duration: "8 min",
- teacherNotes: "write: 'Each ⭐ stands for 2. There are 4 stars. 4 × 2 = 8.' emphasize: do not count the diagram directly, needmultiply. ",
+ teacherNotes: "Write: 'Each ⭐ stands for 2. There are 4 stars. 4 × 2 = 8.' emphasize: do not count the diagram directly, needmultiply. ",
  },
  {
  name: "Child verbalizes equation",
