@@ -3344,5 +3344,132 @@ export default function SmathFigure({ weekNumber }: { weekNumber: number }) {
     );
   }
 
+  if (weekNumber === 109) {
+    return (
+      <div className="bg-paper border border-line rounded-xl p-6 mb-6">
+        <h3 className="font-semibold text-ink mb-4 text-center">📊 本周图解</h3>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+          {/* Graph 1: y = x² */}
+          <div className="bg-blue-50 border-2 border-blue-300 rounded-xl p-5">
+            <p className="text-sm text-blue-900 font-semibold mb-3 text-center">y = x² (n = 2)</p>
+            <svg viewBox="0 0 200 200" className="w-full h-48">
+              {/* Axes */}
+              <line x1="20" y1="160" x2="190" y2="160" stroke="#333" strokeWidth="1.5" />
+              <line x1="100" y1="20" x2="100" y2="185" stroke="#333" strokeWidth="1.5" />
+              {/* Arrow heads */}
+              <polygon points="190,160 185,157 185,163" fill="#333" />
+              <polygon points="100,20 97,25 103,25" fill="#333" />
+              {/* Parabola: y = x^2 through origin */}
+              <path
+                d="M 40,80 L 60,100 L 80,130 L 100,160 L 120,130 L 140,100 L 160,80"
+                fill="none"
+                stroke="#2563eb"
+                strokeWidth="2.5"
+              />
+              {/* Origin */}
+              <circle cx="100" cy="160" r="4" fill="#ef4444" />
+              {/* Labels */}
+              <text x="100" y="177" fontSize="11" textAnchor="middle" fill="#333">0</text>
+              <text x="105" y="155" fontSize="10" fill="#ef4444" fontWeight="bold">(0, 0)</text>
+            </svg>
+            <p className="text-xs text-blue-700 text-center mt-2">U 形抛物线，开口向上，过原点</p>
+          </div>
+
+          {/* Graph 2: y = x³ */}
+          <div className="bg-green-50 border-2 border-green-300 rounded-xl p-5">
+            <p className="text-sm text-green-900 font-semibold mb-3 text-center">y = x³ (n = 3)</p>
+            <svg viewBox="0 0 200 200" className="w-full h-48">
+              {/* Axes */}
+              <line x1="20" y1="100" x2="190" y2="100" stroke="#333" strokeWidth="1.5" />
+              <line x1="100" y1="20" x2="100" y2="185" stroke="#333" strokeWidth="1.5" />
+              {/* Arrow heads */}
+              <polygon points="190,100 185,97 185,103" fill="#333" />
+              <polygon points="100,20 97,25 103,25" fill="#333" />
+              {/* Cubic curve: y = x^3 through origin, down-left to up-right */}
+              <path
+                d="M 40,150 Q 70,110 100,100 Q 130,90 160,50"
+                fill="none"
+                stroke="#16a34a"
+                strokeWidth="2.5"
+              />
+              {/* Origin */}
+              <circle cx="100" cy="100" r="4" fill="#ef4444" />
+              {/* Labels */}
+              <text x="100" y="117" fontSize="11" textAnchor="middle" fill="#333">0</text>
+              <text x="105" y="95" fontSize="10" fill="#ef4444" fontWeight="bold">(0, 0)</text>
+            </svg>
+            <p className="text-xs text-green-700 text-center mt-2">过原点，左下到右上</p>
+          </div>
+
+          {/* Graph 3: y = 1/x */}
+          <div className="bg-purple-50 border-2 border-purple-300 rounded-xl p-5">
+            <p className="text-sm text-purple-900 font-semibold mb-3 text-center">y = 1/x (n = −1)</p>
+            <svg viewBox="0 0 200 200" className="w-full h-48">
+              {/* Axes */}
+              <line x1="20" y1="100" x2="190" y2="100" stroke="#333" strokeWidth="1.5" />
+              <line x1="100" y1="20" x2="100" y2="185" stroke="#333" strokeWidth="1.5" />
+              {/* Arrow heads */}
+              <polygon points="190,100 185,97 185,103" fill="#333" />
+              <polygon points="100,20 97,25 103,25" fill="#333" />
+              {/* Hyperbola: y = 1/x, two branches */}
+              {/* Branch 1: Quadrant I (x > 0, y > 0) */}
+              <path
+                d="M 110,90 Q 120,60 150,45"
+                fill="none"
+                stroke="#9333ea"
+                strokeWidth="2.5"
+              />
+              {/* Branch 2: Quadrant III (x < 0, y < 0) */}
+              <path
+                d="M 90,110 Q 80,140 50,155"
+                fill="none"
+                stroke="#9333ea"
+                strokeWidth="2.5"
+              />
+              {/* Labels */}
+              <text x="155" y="43" fontSize="10" fill="#9333ea" fontWeight="bold">I</text>
+              <text x="45" y="160" fontSize="10" fill="#9333ea" fontWeight="bold">III</text>
+            </svg>
+            <p className="text-xs text-purple-700 text-center mt-2">两支（第一、三象限），不过轴</p>
+            <p className="text-xs text-red-600 text-center mt-1">❌ 不是抛物线</p>
+          </div>
+
+          {/* Graph 4: y = 1/x² */}
+          <div className="bg-orange-50 border-2 border-orange-300 rounded-xl p-5">
+            <p className="text-sm text-orange-900 font-semibold mb-3 text-center">y = 1/x² (n = −2)</p>
+            <svg viewBox="0 0 200 200" className="w-full h-48">
+              {/* Axes */}
+              <line x1="20" y1="160" x2="190" y2="160" stroke="#333" strokeWidth="1.5" />
+              <line x1="100" y1="20" x2="100" y2="185" stroke="#333" strokeWidth="1.5" />
+              {/* Arrow heads */}
+              <polygon points="190,160 185,157 185,163" fill="#333" />
+              <polygon points="100,20 97,25 103,25" fill="#333" />
+              {/* Hyperbola: y = 1/x², two branches both above x-axis */}
+              {/* Branch 1: x > 0 */}
+              <path
+                d="M 110,150 Q 120,100 135,60 Q 145,35 160,25"
+                fill="none"
+                stroke="#ea580c"
+                strokeWidth="2.5"
+              />
+              {/* Branch 2: x < 0 */}
+              <path
+                d="M 90,150 Q 80,100 65,60 Q 55,35 40,25"
+                fill="none"
+                stroke="#ea580c"
+                strokeWidth="2.5"
+              />
+              {/* Labels */}
+              <text x="165" y="25" fontSize="10" fill="#ea580c" fontWeight="bold">上</text>
+              <text x="30" y="25" fontSize="10" fill="#ea580c" fontWeight="bold">上</text>
+            </svg>
+            <p className="text-xs text-orange-700 text-center mt-2">两支都在 x 轴上方</p>
+            <p className="text-xs text-red-600 text-center mt-1">❌ 不会在第三象限下方</p>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
   return null;
 }
