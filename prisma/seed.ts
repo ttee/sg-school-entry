@@ -18210,6 +18210,117 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
         },
       ],
     },
+    {
+      level: "SMATH",
+      weekNumber: 110,
+      title: "指数函数图像 — Graphs of exponential functions",
+      description: "N6.10 graphs of exponential functions y = ka^x (AEIS 中学数学第 110 周 / SMATH Week 110)",
+      isSample: false,
+      errorFocus: "thinking 2^x is negative when x is negative; thinking 2^0 = 0; drawing y = 2^x as a parabola",
+      parentBrief: "本周认 y = ka^x 的图像，a 是大于 1 的正整数。曲线过 (0, k)，一直在 x 轴上方。2^x 在 x 为负时仍是正数。不要把 2^0 写成 0。",
+      videoUrl: null,
+      kaizenFocus: null,
+      questions: [
+        {
+          type: "reading",
+          order: 1,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "At Riverside Secondary, Mr Lim sketches y = 2^x. Aisha says: 「The graph passes through (0, 1) and (1, 2), and is always above the x-axis.」 Is Aisha correct?|A. Aisha is correct. y = 2^x passes through (0, 1) because 2^0 = 1, and through (1, 2) because 2^1 = 2. The graph is always above the x-axis. (For y = 2^x, when x = 0, y = 2^0 = 1. When x = 1, y = 2^1 = 2. When x = 2, y = 2^2 = 4. When x = −1, y = 2^(−1) = 1/2 = 0.5. The graph is always positive, always above the x-axis.)|B. Aisha is wrong. The graph passes through the origin. Fossil: y = 2^x does not pass through the origin. When x = 0, y = 2^0 = 1, not 0. The graph passes through (0, 1).|C. Aisha is wrong. When x is negative, y is negative. Fossil: For y = 2^x, when x is negative, y is still positive. For example, 2^(−1) = 1/2 = 0.5 (positive). The graph is always above the x-axis.|D. Aisha is wrong. The graph is a parabola. Fossil: y = 2^x is not a parabola. y = x² is a parabola, but y = 2^x is an exponential function.",
+            "At Riverside Secondary, Wei sketches y = 3^x. He says: 「The graph passes through (0, 1) and (1, 3), and is steeper than y = 2^x for x > 0.」 Is Wei correct?|A. Wei is correct. y = 3^x passes through (0, 1) because 3^0 = 1, and through (1, 3) because 3^1 = 3. For x > 0, y = 3^x is steeper than y = 2^x. (For y = 3^x, when x = 0, y = 3^0 = 1. When x = 1, y = 3^1 = 3. When x = 2, y = 3^2 = 9. For x > 0, 3^x grows faster than 2^x, so y = 3^x is steeper.)|B. Wei is wrong. The graph passes through (0, 3). Fossil: y = 3^x does not pass through (0, 3). When x = 0, y = 3^0 = 1, not 3. The graph passes through (0, 1).|C. Wei is wrong. The graph is less steep than y = 2^x for x > 0. Fossil: For x > 0, y = 3^x is steeper than y = 2^x. When x = 2, 3^2 = 9 but 2^2 = 4. 3^x grows faster than 2^x.|D. Wei is wrong. When x is negative, the graph is below the x-axis. Fossil: For y = 3^x, when x is negative, y is still positive. For example, 3^(−1) = 1/3 (positive). The graph is always above the x-axis.",
+            "At Riverside Secondary, Aisha sketches y = 2 · 2^x. She says: 「This is y = ka^x with k = 2 and a = 2, so the graph passes through (0, 2).」 Is Aisha correct?|A. Aisha is correct. y = 2 · 2^x is y = ka^x with k = 2 and a = 2. When x = 0, y = 2 · 2^0 = 2 · 1 = 2, so the graph passes through (0, 2). (For y = ka^x, when x = 0, y = ka^0 = k · 1 = k. The graph meets the y-axis at (0, k). For y = 2 · 2^x, k = 2, so the graph passes through (0, 2).)|B. Aisha is wrong. The graph passes through (0, 1). Fossil: y = 2 · 2^x does not pass through (0, 1). When x = 0, y = 2 · 2^0 = 2 · 1 = 2, not 1. The graph passes through (0, 2).|C. Aisha is wrong. The graph passes through the origin. Fossil: y = 2 · 2^x does not pass through the origin. When x = 0, y = 2 · 2^0 = 2, not 0. The graph passes through (0, 2).|D. Aisha is wrong. This is not y = ka^x. Fossil: y = 2 · 2^x is y = ka^x with k = 2 and a = 2. It fits the form y = ka^x.",
+            "At Riverside Secondary, Mr Lim sketches y = 2^x. Wei says: 「When x = −1, y is negative because the exponent is negative.」 Is Wei correct?|A. Wei is wrong. When x = −1, y = 2^(−1) = 1/2 = 0.5, which is positive. (For y = 2^x, when x = −1, y = 2^(−1) = 1/(2^1) = 1/2 = 0.5. The value is positive. Negative exponents give positive fractions, not negative numbers.)|B. Wei is correct. When x = −1, y = 2^(−1) = −2. Fossil: 2^(−1) ≠ −2. 2^(−1) = 1/2 = 0.5 (positive). Negative exponents mean reciprocals, not negative values.|C. Wei is correct. When x = −1, y = 2^(−1) = −0.5. Fossil: 2^(−1) ≠ −0.5. 2^(−1) = 1/2 = 0.5 (positive). The graph of y = 2^x is always above the x-axis.|D. Wei is wrong, but y = 0. Fossil: When x = −1, y = 2^(−1) = 1/2 = 0.5, not 0. The graph is always positive, never touches the x-axis.",
+            "At Riverside Secondary, Aisha sketches y = ka^x. She says: 「For all exponential functions y = ka^x (where a > 1), the graph meets the y-axis at (0, k) because a^0 = 1.」 Is Aisha correct?|A. Aisha is correct. For y = ka^x, when x = 0, y = ka^0 = k · 1 = k. The graph meets the y-axis at (0, k). (For any positive integer a > 1, a^0 = 1. So y = ka^x meets the y-axis at (0, k). For y = 2^x, k = 1, so it passes through (0, 1). For y = 2 · 2^x, k = 2, so it passes through (0, 2).)|B. Aisha is wrong. The graph meets the y-axis at (0, 0). Fossil: y = ka^x does not meet the y-axis at (0, 0). When x = 0, y = k, not 0. The graph meets the y-axis at (0, k).|C. Aisha is wrong. a^0 = 0, not 1. Fossil: a^0 = 1, not 0. For any positive integer a > 1, a^0 = 1. So y = ka^x meets the y-axis at (0, k).|D. Aisha is wrong. The graph does not meet the y-axis. Fossil: y = ka^x meets the y-axis at (0, k). When x = 0, y = ka^0 = k. The graph does meet the y-axis.",
+          ]),
+          correctAnswer: "A,A,A,A,A",
+          points: 10,
+        },
+        {
+          type: "grammar",
+          order: 2,
+          content: "Choose the correct answer:",
+          options: JSON.stringify([
+            "At Riverside Secondary, Wei sketches y = 2^x. Which of the following is correct?|A. The graph passes through (0, 1) and (1, 2), and is always above the x-axis, approaching the x-axis on the left. (For y = 2^x, when x = 0, y = 2^0 = 1. When x = 1, y = 2^1 = 2. When x = 2, y = 2^2 = 4. When x = −1, y = 2^(−1) = 0.5. When x = −2, y = 2^(−2) = 0.25. As x becomes more negative, y approaches 0 but is always positive. The graph is always above the x-axis, approaching the x-axis on the left.)|B. The graph is a parabola opening upwards. Fossil: y = 2^x is not a parabola. y = x² is a parabola, but y = 2^x is an exponential function.|C. When x = −1, y is negative. Fossil: When x = −1, y = 2^(−1) = 1/2 = 0.5 (positive). The graph is always above the x-axis.|D. The graph crosses the x-axis when x is negative. Fossil: The graph never crosses the x-axis. For y = 2^x, y is always positive, always above the x-axis.",
+            "At Riverside Secondary, Aisha sketches y = 3^x. Which of the following is correct?|A. The graph passes through (0, 1) and (1, 3), and is steeper than y = 2^x for x > 0. (For y = 3^x, when x = 0, y = 3^0 = 1. When x = 1, y = 3^1 = 3. When x = 2, y = 3^2 = 9. For x > 0, 3^x > 2^x, so y = 3^x is steeper than y = 2^x.)|B. The graph passes through (0, 3). Fossil: When x = 0, y = 3^0 = 1, not 3. The graph passes through (0, 1).|C. When x is negative, y is negative. Fossil: When x is negative, y is still positive. For example, 3^(−1) = 1/3 (positive). The graph is always above the x-axis.|D. The graph is less steep than y = 2^x for x > 0. Fossil: For x > 0, 3^x > 2^x, so y = 3^x is steeper than y = 2^x. When x = 2, 3^2 = 9 but 2^2 = 4.",
+            "At Riverside Secondary, Mr Lim sketches y = 2 · 2^x. Wei says: 「This graph passes through (0, 2) and (1, 4).」 Is Wei correct?|A. Wei is correct. When x = 0, y = 2 · 2^0 = 2 · 1 = 2. When x = 1, y = 2 · 2^1 = 2 · 2 = 4. (For y = 2 · 2^x, when x = 0, y = 2 · 1 = 2. When x = 1, y = 2 · 2 = 4. The graph passes through (0, 2) and (1, 4).)|B. Wei is wrong. The graph passes through (0, 1) and (1, 2). Fossil: When x = 0, y = 2 · 2^0 = 2, not 1. When x = 1, y = 2 · 2^1 = 4, not 2. The graph passes through (0, 2) and (1, 4).|C. Wei is wrong. The graph passes through the origin. Fossil: When x = 0, y = 2 · 2^0 = 2, not 0. The graph does not pass through the origin.|D. Wei is wrong. When x = 0, y = 0. Fossil: When x = 0, y = 2 · 2^0 = 2 · 1 = 2, not 0. Remember 2^0 = 1.",
+            "At Riverside Secondary, Aisha sketches y = 2^x. She says: 「When x = 0, y = 0, so the graph passes through the origin.」 Is Aisha correct?|A. Aisha is wrong. When x = 0, y = 2^0 = 1, not 0. The graph passes through (0, 1), not the origin. (For y = 2^x, 2^0 = 1. The graph passes through (0, 1). For y = ka^x, when x = 0, y = k, not 0. The graph never passes through the origin unless k = 0, but k is not zero here.)|B. Aisha is correct. 2^0 = 0. Fossil: 2^0 = 1, not 0. For any positive integer a, a^0 = 1.|C. Aisha is correct. The graph passes through the origin. Fossil: The graph does not pass through the origin. When x = 0, y = 2^0 = 1, not 0.|D. Aisha is wrong, but only because y = 2^x does not meet the y-axis. Fossil: y = 2^x does meet the y-axis. When x = 0, y = 1. The graph meets the y-axis at (0, 1).",
+            "At Riverside Secondary, Wei sketches y = 4^x. Which of the following is correct?|A. The graph passes through (0, 1) and (1, 4), and is steeper than y = 3^x for x > 0. (For y = 4^x, when x = 0, y = 4^0 = 1. When x = 1, y = 4^1 = 4. When x = 2, y = 4^2 = 16. For x > 0, 4^x > 3^x, so y = 4^x is steeper than y = 3^x.)|B. The graph passes through (0, 4). Fossil: When x = 0, y = 4^0 = 1, not 4. The graph passes through (0, 1).|C. When x is negative, y is negative. Fossil: When x is negative, y is still positive. For example, 4^(−1) = 1/4 (positive). The graph is always above the x-axis.|D. The graph is a parabola. Fossil: y = 4^x is not a parabola. y = x² is a parabola, but y = 4^x is an exponential function.",
+            "At Riverside Secondary, Aisha sketches y = 2^x. She says: 「As x becomes more negative, the graph approaches the x-axis but never touches it.」 Is Aisha correct?|A. Aisha is correct. As x becomes more negative, 2^x becomes smaller and approaches 0, but is always positive. The graph approaches the x-axis on the left but never touches it. (For y = 2^x, when x = −1, y = 0.5. When x = −2, y = 0.25. When x = −3, y = 0.125. As x becomes more negative, y approaches 0 but is always positive. The graph approaches the x-axis but never touches it.)|B. Aisha is wrong. The graph crosses the x-axis when x is negative. Fossil: The graph never crosses the x-axis. For y = 2^x, y is always positive. As x becomes more negative, y approaches 0 but never equals 0.|C. Aisha is wrong. As x becomes more negative, y becomes negative. Fossil: For y = 2^x, y is always positive. When x is negative, y = 2^x is a positive fraction (e.g., 2^(−1) = 0.5).|D. Aisha is wrong. The graph touches the x-axis at x = −1. Fossil: The graph never touches the x-axis. When x = −1, y = 2^(−1) = 0.5, not 0. The graph approaches the x-axis but never touches it.",
+            "At Riverside Secondary, Mr Lim sketches y = 5^x and y = 2^x on the same axes. Wei says: 「For x > 0, the graph of y = 5^x is steeper than y = 2^x.」 Is Wei correct?|A. Wei is correct. For x > 0, 5^x > 2^x, so y = 5^x is steeper than y = 2^x. (For x = 1, 5^1 = 5 but 2^1 = 2. For x = 2, 5^2 = 25 but 2^2 = 4. For x > 0, larger a means steeper graph.)|B. Wei is wrong. For x > 0, y = 5^x is less steep than y = 2^x. Fossil: For x > 0, 5^x > 2^x, so y = 5^x is steeper than y = 2^x. When x = 2, 5^2 = 25 but 2^2 = 4.|C. Wei is wrong. Both graphs have the same steepness. Fossil: For x > 0, 5^x > 2^x, so y = 5^x is steeper than y = 2^x. Larger a (in y = a^x) means steeper graph for x > 0.|D. Wei is wrong. For x > 0, y = 5^x is below y = 2^x. Fossil: For x > 0, 5^x > 2^x, so y = 5^x is above y = 2^x, not below.",
+            "At Riverside Secondary, Aisha sketches y = 3 · 2^x. Which of the following is correct?|A. The graph passes through (0, 3) and (1, 6). This is y = ka^x with k = 3 and a = 2. (For y = 3 · 2^x, when x = 0, y = 3 · 2^0 = 3 · 1 = 3. When x = 1, y = 3 · 2^1 = 3 · 2 = 6. The graph passes through (0, 3) and (1, 6).)|B. The graph passes through (0, 1). Fossil: When x = 0, y = 3 · 2^0 = 3 · 1 = 3, not 1. The graph passes through (0, 3).|C. The graph passes through the origin. Fossil: When x = 0, y = 3 · 2^0 = 3, not 0. The graph does not pass through the origin.|D. When x is negative, y is negative. Fossil: For y = 3 · 2^x, y is always positive. When x = −1, y = 3 · 2^(−1) = 3 · 0.5 = 1.5 (positive). The graph is always above the x-axis.",
+          ]),
+          correctAnswer: "A,A,A,A,A,A,A,A",
+          points: 16,
+        },
+        {
+          type: "writing",
+          order: 3,
+          content: `Part 2: Show Your Working (写出算式步骤)
+
+Riverside Secondary School has questions about graphs of exponential functions. Answer the questions below. Show your working clearly.
+
+Question (a)
+For each exponential function, describe the shape of the graph and state the coordinates where it meets the y-axis:
+
+(a) y = 2^x
+(Hint: This is y = ka^x with k = 1 and a = 2. The graph passes through (0, 1) because 2^0 = 1. It passes through (1, 2) because 2^1 = 2. The graph is always above the x-axis. As x becomes more negative, the graph approaches the x-axis but never touches it.)
+
+(b) y = 3^x
+(Hint: This is y = ka^x with k = 1 and a = 3. The graph passes through (0, 1) because 3^0 = 1. It passes through (1, 3) because 3^1 = 3. The graph is always above the x-axis. For x > 0, y = 3^x is steeper than y = 2^x.)
+
+(c) y = 2 · 2^x
+(Hint: This is y = ka^x with k = 2 and a = 2. The graph passes through (0, 2) because 2 · 2^0 = 2 · 1 = 2. It passes through (1, 4) because 2 · 2^1 = 2 · 2 = 4. For y = ka^x, the graph meets the y-axis at (0, k).)
+
+
+Question (b)
+Mr Lim shows the class the graph of y = 2^x. Aisha draws the graph as a parabola opening upwards.
+
+(i) Is Aisha correct? Explain.
+(Hint: No, Aisha is wrong. y = 2^x is not a parabola. It is an exponential function. y = x² is a parabola, but y = 2^x is y = ka^x with k = 1 and a = 2. The graph passes through (0, 1) and (1, 2), always above the x-axis, approaching the x-axis on the left.)
+
+(ii) What is the correct shape of y = 2^x? Show your working.
+(Hint: y = 2^x passes through (0, 1) and (1, 2). When x = 0, y = 2^0 = 1. When x = 1, y = 2^1 = 2. When x = 2, y = 2^2 = 4. When x = −1, y = 2^(−1) = 1/2 = 0.5. When x = −2, y = 2^(−2) = 1/4 = 0.25. The graph is always above the x-axis, approaching the x-axis on the left.)
+
+
+Question (c)
+Wei sketches y = 2^x. He says: 「When x = −1, y is negative because the exponent is negative.」
+
+(i) Is Wei correct? Explain.
+(Hint: No, Wei is wrong. When x = −1, y = 2^(−1) = 1/2 = 0.5 (positive). Negative exponents give positive fractions, not negative numbers. The graph of y = 2^x is always above the x-axis.)
+
+(ii) What is the value of y when x = −1? Show your working.
+(Hint: When x = −1, y = 2^(−1) = 1/(2^1) = 1/2 = 0.5. The value is positive. For y = 2^x, when x is negative, y is a positive fraction. The graph is always above the x-axis.)
+
+
+Question (d)
+At Riverside Secondary, Aisha sketches y = 2^x. She says: 「When x = 0, y = 0, so the graph passes through the origin.」
+
+(i) Is Aisha correct? Explain.
+(Hint: No, Aisha is wrong. When x = 0, y = 2^0 = 1, not 0. Remember: for any positive integer a, a^0 = 1. The graph passes through (0, 1), not the origin.)
+
+(ii) What is the correct point where y = 2^x meets the y-axis? Show your working.
+(Hint: When x = 0, y = 2^0 = 1. The graph meets the y-axis at (0, 1). For y = ka^x, the graph meets the y-axis at (0, k) because a^0 = 1.)
+
+
+写作提示 / Tips:
+✓ 每题分步骤写出推理 (Show working steps for each question)
+✓ Part 2 官方要求：clearly show the method of solution by writing working steps, plus the final answer
+✓ 不用计算器 (No calculators allowed)
+✓ 本周教 Secondary Three/Four, NUMBER AND ALGEBRA, N6. Functions and graphs: 本周是 N6.10 graphs of exponential functions y = ka^x, where a is a positive integer, a > 1（指数函数图像）。
+  • y = 2^x passes through (0, 1) and (1, 2); always above the x-axis
+  • y = 3^x passes through (0, 1) and (1, 3); steeper than 2^x for x > 0
+  • y = 2 · 2^x = ka^x with k = 2, a = 2; passes through (0, 2)
+  • a^0 = 1, so y = ka^x meets the y-axis at (0, k)
+✓ Common mistakes (fossil errors):
+  • Thinking 2^x is negative when x is negative: 错误：2^x 在 x 为负时仍是正数。例如 2^(−1) = 0.5（正数）。
+  • Thinking 2^0 = 0: 错误：2^0 = 1，不是 0。a^0 = 1。
+  • Drawing y = 2^x as a parabola: 错误：y = 2^x 不是抛物线。它是指数函数，一直在 x 轴上方。
+
+Note: This is a sample of Part 2 short-answer/open-ended questions. The official paper has 20 short-answer + 10–15 open-ended items in 1 hour 45 minutes.`,
+          points: 20,
+        },
+      ],
+    },
   ];
 
 
