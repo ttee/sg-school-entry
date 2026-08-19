@@ -2868,5 +2868,119 @@ export default function SmathFigure({ weekNumber }: { weekNumber: number }) {
     );
   }
 
+  if (weekNumber === 104) {
+    return (
+      <div className="bg-paper border border-line rounded-xl p-6 mb-6">
+        <h3 className="font-semibold text-ink mb-4 text-center">📊 本周图解</h3>
+        <div className="flex flex-col items-center max-w-2xl mx-auto">
+          <svg viewBox="0 0 580 340" className="w-full max-w-[580px] h-auto">
+            {/* Title */}
+            <text x="290" y="20" fontSize="14" fill="#1a1a1a" fontWeight="700" textAnchor="middle">Mean, Mode, Median with an Outlier 平均数、众数、中位数与极端值</text>
+            <text x="290" y="38" fontSize="11" fill="#6b7280" textAnchor="middle">Data: 2, 3, 3, 3, 4, 20 (one outlier)</text>
+            
+            {/* Number line background */}
+            <rect x="40" y="60" width="500" height="180" fill="#fef3c7" stroke="#f59e0b" strokeWidth="2" rx="8" />
+            <text x="290" y="80" fontSize="12" fill="#92400e" fontWeight="700" textAnchor="middle">Number Line 数轴</text>
+            
+            {/* Number line axis */}
+            <line x1="70" y1="150" x2="510" y2="150" stroke="#000" strokeWidth="2" />
+            
+            {/* Tick marks and labels for 0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20 */}
+            <line x1="70" y1="145" x2="70" y2="155" stroke="#000" strokeWidth="1.5" />
+            <text x="70" y="170" fontSize="9" fill="#000" textAnchor="middle">0</text>
+            
+            <line x1="114" y1="145" x2="114" y2="155" stroke="#000" strokeWidth="1.5" />
+            <text x="114" y="170" fontSize="9" fill="#000" textAnchor="middle">2</text>
+            
+            <line x1="158" y1="145" x2="158" y2="155" stroke="#000" strokeWidth="1.5" />
+            <text x="158" y="170" fontSize="9" fill="#000" textAnchor="middle">4</text>
+            
+            <line x1="202" y1="145" x2="202" y2="155" stroke="#000" strokeWidth="1.5" />
+            <text x="202" y="170" fontSize="9" fill="#000" textAnchor="middle">6</text>
+            
+            <line x1="246" y1="145" x2="246" y2="155" stroke="#000" strokeWidth="1.5" />
+            <text x="246" y="170" fontSize="9" fill="#000" textAnchor="middle">8</text>
+            
+            <line x1="290" y1="145" x2="290" y2="155" stroke="#000" strokeWidth="1.5" />
+            <text x="290" y="170" fontSize="9" fill="#000" textAnchor="middle">10</text>
+            
+            <line x="334" y1="145" x2="334" y2="155" stroke="#000" strokeWidth="1.5" />
+            <text x="334" y="170" fontSize="9" fill="#000" textAnchor="middle">12</text>
+            
+            <line x1="378" y1="145" x2="378" y2="155" stroke="#000" strokeWidth="1.5" />
+            <text x="378" y="170" fontSize="9" fill="#000" textAnchor="middle">14</text>
+            
+            <line x1="422" y1="145" x2="422" y2="155" stroke="#000" strokeWidth="1.5" />
+            <text x="422" y="170" fontSize="9" fill="#000" textAnchor="middle">16</text>
+            
+            <line x1="466" y1="145" x2="466" y2="155" stroke="#000" strokeWidth="1.5" />
+            <text x="466" y="170" fontSize="9" fill="#000" textAnchor="middle">18</text>
+            
+            <line x1="510" y1="145" x2="510" y2="155" stroke="#000" strokeWidth="1.5" />
+            <text x="510" y="170" fontSize="9" fill="#000" textAnchor="middle">20</text>
+            
+            {/* Data points as dots */}
+            {/* 2: x = 114 */}
+            <circle cx="114" cy="150" r="5" fill="#10b981" stroke="#000" strokeWidth="1" />
+            
+            {/* 3, 3, 3: x = 136 (stacked vertically) */}
+            <circle cx="136" cy="150" r="5" fill="#10b981" stroke="#000" strokeWidth="1" />
+            <circle cx="136" cy="138" r="5" fill="#10b981" stroke="#000" strokeWidth="1" />
+            <circle cx="136" cy="126" r="5" fill="#10b981" stroke="#000" strokeWidth="1" />
+            
+            {/* 4: x = 158 */}
+            <circle cx="158" cy="150" r="5" fill="#10b981" stroke="#000" strokeWidth="1" />
+            
+            {/* 20 (outlier): x = 510 */}
+            <circle cx="510" cy="150" r="6" fill="#ef4444" stroke="#000" strokeWidth="2" />
+            <text x="510" y="138" fontSize="9" fill="#dc2626" fontWeight="700" textAnchor="middle">outlier</text>
+            <text x="510" y="195" fontSize="8" fill="#dc2626" textAnchor="middle">极端值</text>
+            
+            {/* Mode marker (at 3) */}
+            <line x1="136" y1="105" x2="136" y2="120" stroke="#8b5cf6" strokeWidth="2" />
+            <circle cx="136" cy="105" r="4" fill="#8b5cf6" />
+            <text x="136" y="98" fontSize="10" fill="#7c3aed" fontWeight="700" textAnchor="middle">Mode = 3</text>
+            <text x="136" y="210" fontSize="8" fill="#7c3aed" textAnchor="middle">众数 = 3</text>
+            <text x="136" y="220" fontSize="7" fill="#7c3aed" textAnchor="middle">(most common)</text>
+            
+            {/* Median marker (at 3) */}
+            <line x1="136" y1="180" x2="136" y2="193" stroke="#3b82f6" strokeWidth="2" />
+            <circle cx="136" cy="193" r="4" fill="#3b82f6" />
+            <text x="136" y="228" fontSize="10" fill="#2563eb" fontWeight="700" textAnchor="middle">Median = 3</text>
+            <text x="136" y="238" fontSize="8" fill="#2563eb" textAnchor="middle">中位数 = 3 (middle)</text>
+            
+            {/* Mean marker (at 35/6 ≈ 5.83, which is approximately at x = 70 + (35/6) * 22 = 70 + 128.33 = 198.33) */}
+            <line x1="198" y1="105" x2="198" y2="120" stroke="#f97316" strokeWidth="2" />
+            <circle cx="198" cy="105" r="4" fill="#f97316" />
+            <text x="198" y="98" fontSize="10" fill="#ea580c" fontWeight="700" textAnchor="middle">Mean = 35/6</text>
+            <text x="198" y="210" fontSize="8" fill="#ea580c" textAnchor="middle">平均数 ≈ 5.8</text>
+            <text x="198" y="220" fontSize="7" fill="#ea580c" textAnchor="middle">(pulled by 20)</text>
+            
+            {/* Arrow showing mean is pulled toward outlier */}
+            <line x1="198" y1="110" x2="480" y2="135" stroke="#f97316" strokeWidth="1.5" strokeDasharray="3,3" markerEnd="url(#arrowhead)" />
+            <defs>
+              <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+                <polygon points="0 0, 10 3.5, 0 7" fill="#f97316" />
+              </marker>
+            </defs>
+            <text x="340" y="115" fontSize="8" fill="#ea580c" fontWeight="700" textAnchor="middle">Mean pulled toward outlier</text>
+            <text x="340" y="125" fontSize="7" fill="#ea580c" textAnchor="middle">平均数被极端值拉偏</text>
+            
+          </svg>
+        </div>
+
+        <div className="mt-6 bg-accent/5 border border-accent/20 rounded-xl p-4">
+          <p className="text-sm text-ink-2 text-center leading-relaxed">
+            <strong className="text-ink">本周重点（S1.9 purposes and use of mean, mode and median）：</strong><br />
+            • <strong>Mean = 35/6 ≈ 5.8</strong> — pulled toward the outlier 20（平均数被极端值 20 拉高）<br />
+            • <strong>Median = 3</strong> — the middle value, not affected by the outlier（中位数是中间的值，不受极端值影响）<br />
+            • <strong>Mode = 3</strong> — the most common value, appears 3 times（众数是出现最多的值，出现 3 次）<br />
+            <span className="text-accent font-semibold">When there is an outlier, use the median or mode instead of the mean!（有极端值时，用中位数或众数，不要用平均数！）</span>
+          </p>
+        </div>
+      </div>
+    );
+  }
+
   return null;
 }
