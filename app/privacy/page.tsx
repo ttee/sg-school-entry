@@ -398,9 +398,6 @@ export default function PrivacyPage() {
 
       <footer className="border-t border-line py-8 bg-paper">
         <div className="max-w-7xl mx-auto px-4">
-          <p className="text-sm text-ink-2 mb-4 max-w-3xl">
-            狮城入学（SG School Entry）与新加坡教育部（MOE）、新加坡考试与评鉴局（SEAB）、剑桥大学英语考评部（Cambridge English）均无隶属、授权或官方合作关系。页面内容仅为路径说明，不构成录取、派位、签证或入境方面的承诺或法律意见。
-          </p>
           <div className="flex flex-wrap gap-4 text-sm text-muted">
             <Link href="/" className="hover:text-ink transition-colors">
               狮城入学 · SG School Entry

@@ -93,7 +93,7 @@ export default function HomePage() {
           </Link>
           <nav className="hidden md:flex items-center gap-6 text-sm">
             <Link href="/trial/A2" className="text-ink-2 hover:text-ink transition-colors font-medium">
-              今晚试小学
+              今天试小学
             </Link>
             <Link href="/trial" className="text-ink-2 hover:text-ink transition-colors font-medium">
               中学英语和数学
@@ -125,7 +125,7 @@ export default function HomePage() {
           <div className="md:hidden border-t border-line bg-paper">
             <div className="px-4 py-3 space-y-3">
               <Link href="/trial/A2" className="block text-ink-2 hover:text-ink transition-colors font-medium" onClick={() => setShowMobileMenu(false)}>
-                今晚试小学
+                今天试小学
               </Link>
               <Link href="/trial" className="block text-ink-2 hover:text-ink transition-colors font-medium" onClick={() => setShowMobileMenu(false)}>
                 中学英语和数学
@@ -148,14 +148,16 @@ export default function HomePage() {
               升学顾问的作业
             </p>
             <h1 className="font-serif font-semibold text-3xl md:text-5xl leading-tight tracking-tight mb-4 max-w-4xl">
-              小学先练英语作业。中学练英语和数学。今晚打开就能做。
+              <span className="block">小学先练英语作业。</span>
+              <span className="block">中学练英语和数学。</span>
+              <span className="block">今天打开就能做。</span>
             </h1>
             <div className="flex flex-wrap gap-3 mb-3">
               <Link
                 href="/trial/A2"
                 className="inline-flex items-center justify-center px-6 py-3.5 bg-accent text-accent-ink font-semibold rounded-full hover:bg-accent-hover transition-colors text-base"
               >
-                今晚试小学
+                今天试小学
               </Link>
               <Link
                 href="/trial"
@@ -171,7 +173,7 @@ export default function HomePage() {
               </Link>
             </div>
             <p className="text-sm text-muted mb-6 max-w-2xl">
-              小学今晚练英语。中学英语和数学在试学页里。
+              小学今天练英语。中学英语和数学在试学页里。
             </p>
           </div>
         </section>
@@ -184,7 +186,7 @@ export default function HomePage() {
             <div className="max-w-2xl">
               <article className="bg-card border border-line rounded-2xl p-6 shadow mb-6">
                 <p className="text-sm text-ink mb-4">
-                  12 周，RMB 2,680，向升学顾问支付。今晚打开试学就能做，不用登录。
+                  12 周，RMB 2,680，向升学顾问支付。今天打开试学就能做，不用登录。
                 </p>
                 <p className="text-xs text-muted mb-1">
                   PayNow 94594601
@@ -799,9 +801,6 @@ export default function HomePage() {
 
       <footer className="border-t border-line py-8 bg-paper">
         <div className="max-w-7xl mx-auto px-4">
-          <p className="text-sm text-ink-2 mb-4 max-w-3xl">
-            狮城入学（SG School Entry）与新加坡教育部（MOE）、新加坡考试与评鉴局（SEAB）、剑桥大学英语考评部（Cambridge English）均无隶属、授权或官方合作关系。本站不使用新加坡狮头国家标志，也不使用上述机构的标识。页面内容仅为路径说明，不构成录取、派位、签证或入境方面的承诺或法律意见。入学资格、考期、规则一律以各机构官网为准。
-          </p>
           <div className="flex flex-wrap gap-4 text-sm text-muted">
             <span>狮城入学</span>
             <Link href="/privacy" className="hover:text-ink transition-colors">
