@@ -19,7 +19,7 @@ export default function SkillsPage() {
             <Link href="/trial" className="text-accent hover:text-accent-hover font-medium">
               免费试学
             </Link>
-            <Link href="/learn" className="text-accent hover:text-accent-hover font-medium">
+            <Link href="/login" className="text-accent hover:text-accent-hover font-medium">
               登录
             </Link>
           </div>
@@ -41,10 +41,19 @@ export default function SkillsPage() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {skills.map((skill) => {
             const hasDrill = hasSkillDrill(skill.id);
-            const linkHref = hasDrill
-              ? `/skills/${skill.id}`
-              : `/trial/A2`;
-            const buttonText = hasDrill ? "练一练" : "先看本周故事";
+            let linkHref: string;
+            let buttonText: string;
+
+            if (hasDrill) {
+              linkHref = `/skills/${skill.id}`;
+              buttonText = "练一练";
+            } else if (skill.weekNumber === 0) {
+              linkHref = `/trial/A2`;
+              buttonText = "先看本周故事";
+            } else {
+              linkHref = `/learn/plans/A2/${skill.weekNumber}`;
+              buttonText = "先看本周故事";
+            }
 
             return (
               <div

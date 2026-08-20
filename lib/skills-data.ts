@@ -69,6 +69,13 @@ export const skills: Skill[] = [
     weekNumber: 6,
   },
   {
+    id: "skill-going-to",
+    labelZh: "打算 going to",
+    labelEn: "going to for future plans",
+    weekLabel: "第 7 周",
+    weekNumber: 7,
+  },
+  {
     id: "skill-classroom",
     labelZh: "课堂 can / must",
     labelEn: "can, must + classroom instructions",
