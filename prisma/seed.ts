@@ -2709,8 +2709,8 @@ Useful phrases:
       parentBrief: "本周纠错焦点：第三人称单数 -s（he/she/it + 动词加 -s）。中文动词不变形，孩子常说 she wake up；英语里必须是 she wakes up。例如 Mei 自己说 I wake up at 6:15，但说到妹妹要加 -s：My sister wakes up later。另一个常错点是时间介词：at 6:15, in the morning, on Monday。",
       videoUrl: "/video/a2-w1.mp4",
       kaizenFocus: "Add -s to verbs after he/she/it in present simple; use at/in/on for time correctly",
-      officialClipId: "loINl3Ln6Ck",
-      officialClipCredit: "片源 Super Simple Songs 官方频道。Days of the Week。本站不拥有该片，仅嵌入官方 YouTube。孩子先听 on Monday / on Tuesday，再练 she wakes / at 7:00 / on Monday。",
+      officialClipId: null,
+      officialClipCredit: null,
       questions: [
         {
           type: "reading",
@@ -2765,7 +2765,7 @@ Amy and I walk to the bus stop. We (7) ____ the same bus to school. Amy's school
 
 Look at these three pictures about Mei's Monday morning. Write a story about what happened.
 
-Picture 1简体描述: Mei醒来看闹钟（alarm clock shows 6:30），阳光从窗户照进来，她揉眼睛。
+Picture 1简体描述: Mei醒来看闹钟（alarm clock shows 6:15），阳光从窗户照进来，她揉眼睛。
 Picture 2简体描述: Mei在厨房吃早餐（breakfast: bread and milk），妈妈在旁边准备便当（packed lunch）。
 Picture 3简体描述: Mei背着书包（school bag）走出家门，爸爸在门口挥手说再见（waving goodbye）。
 

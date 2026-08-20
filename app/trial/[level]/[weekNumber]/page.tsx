@@ -185,7 +185,9 @@ export default async function TrialWeekPage({
     week.title = "第 1 周：日常作息";
     week.description = "谈论日常活动";
     week.parentBrief = "本周纠错焦点：第三人称单数 -s（he/she/it + 动词加 -s）。中文动词不变形，孩子常说 she wake up；英语里必须是 she wakes up。例如 Mei 自己说 I wake up at 6:15，但说到妹妹要加 -s：My sister wakes up later。另一个常错点是时间介词：at 6:15, in the morning, on Monday。";
-    
+    week.officialClipId = null;
+    week.officialClipCredit = null;
+
     // Update reading question (order 1)
     const readingQ = week.questions.find(q => q.type === "reading" && q.order === 1);
     if (readingQ) {
@@ -232,6 +234,12 @@ Amy and I walk to the bus stop. We (7) ____ the same bus to school. Amy's school
       ]);
       grammarQ.correctAnswer = "A,B,B,B,C,B,A";
       grammarQ.points = 7;
+    }
+    
+    // Writing picture leftover: Mei's clock is 6:15, not 6:30
+    const writingQ = week.questions.find(q => q.type === "writing" && q.order === 3);
+    if (writingQ) {
+      writingQ.content = writingQ.content.replace("alarm clock shows 6:30", "alarm clock shows 6:15");
     }
     
     // Sanitize all speaking questions to remove AI evaluation and recording button references
