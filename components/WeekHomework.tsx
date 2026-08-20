@@ -698,63 +698,79 @@ export default function WeekHomework({
         </div>
       )}
 
-      {/* Video player - always show heading, conditionally show video or empty state */}
-      <div className="mb-8">
-        <div className="bg-card border border-line rounded-xl p-5">
-          <h3 className="font-semibold text-ink mb-3">🎬 播放本周微课 / Watch this week's micro-lesson</h3>
-          {(() => {
-            // Calculate video source: use explicit videoUrl if set, otherwise try fallback
-            const fallbackVideoUrl = `/video/${week.level.toLowerCase()}-w${week.weekNumber}.mp4`;
-            const videoSrc = week.videoUrl || fallbackVideoUrl;
-            const hasExplicitVideo = !!week.videoUrl;
-            
-            // If explicit video is set OR (no explicit video AND no error yet), show video player
-            if (hasExplicitVideo || (!hasExplicitVideo && !videoError)) {
-              return (
-                <>
-                  <video
-                    autoPlay
-                    muted
-                    loop
-                    controls
-                    playsInline
-                    preload="auto"
-                    className="w-full rounded-lg bg-paper-2"
-                    style={{ maxHeight: '480px' }}
-                    onError={() => {
-                      // Only set error if trying fallback (not explicit videoUrl)
-                      if (!hasExplicitVideo) {
-                        setVideoError(true);
-                      }
-                    }}
-                  >
-                    <source src={videoSrc} type="video/mp4" />
-                    Your browser does not support the video element.
-                  </video>
-                  <p className="mt-2 text-sm text-ink-2">
-                    先看动画（无声自动播放）。要点右下角开声音。
+      {/* Video player - show only for levels with videos or explicit videoUrl */}
+      {(() => {
+        // MATH/SEC/SMATH don't have week 0 videos yet, skip the video section entirely
+        const isMathTrack = week.level === "MATH" || week.level === "SEC" || week.level === "SMATH";
+        const hasExplicitVideo = !!week.videoUrl;
+        
+        // Only show video section if explicit video exists OR it's A2/B1 (English CEQ tracks)
+        if (!hasExplicitVideo && isMathTrack) {
+          return null;
+        }
+        
+        return (
+          <div className="mb-8">
+            <div className="bg-card border border-line rounded-xl p-5">
+              <h3 className="font-semibold text-ink mb-3">🎬 播放本周微课 / Watch this week's micro-lesson</h3>
+              {(() => {
+                // Calculate video source: use explicit videoUrl if set, otherwise try fallback
+                const fallbackVideoUrl = `/video/${week.level.toLowerCase()}-w${week.weekNumber}.mp4`;
+                const videoSrc = week.videoUrl || fallbackVideoUrl;
+                
+                // If explicit video is set OR (no explicit video AND no error yet), show video player
+                if (hasExplicitVideo || (!hasExplicitVideo && !videoError)) {
+                  return (
+                    <>
+                      <video
+                        autoPlay
+                        muted
+                        loop
+                        controls
+                        playsInline
+                        preload="auto"
+                        className="w-full rounded-lg bg-paper-2"
+                        style={{ maxHeight: '480px' }}
+                        onError={() => {
+                          // Only set error if trying fallback (not explicit videoUrl)
+                          if (!hasExplicitVideo) {
+                            setVideoError(true);
+                          }
+                        }}
+                      >
+                        <source src={videoSrc} type="video/mp4" />
+                        Your browser does not support the video element.
+                      </video>
+                      <p className="mt-2 text-sm text-ink-2">
+                        先看动画（无声自动播放）。要点右下角开声音。
+                      </p>
+                      <div className="mt-3 text-sm text-ink-2 space-y-1">
+                        <p className="font-semibold">💡 如何看微课 / How to use:</p>
+                        <ol className="list-decimal list-inside space-y-1 ml-2">
+                          <li>先看微课，了解本周重点错误 / Watch the video first</li>
+                          <li>再做下方题目（阅读、语法、写作、听力、口语）/ Then complete the homework below</li>
+                          {(week.level === "A2" || week.level === "B1") ? (
+                            <li>选择题当场看对错。写作和口语先看题目、先跟读。正式周由顾问开通批改。</li>
+                          ) : (
+                            <li>选择题当场看对错。</li>
+                          )}
+                        </ol>
+                      </div>
+                    </>
+                  );
+                }
+                
+                // Show empty state if fallback failed
+                return (
+                  <p className="text-sm text-ink-2">
+                    本周动画还没有。先做下面的作业。
                   </p>
-                  <div className="mt-3 text-sm text-ink-2 space-y-1">
-                    <p className="font-semibold">💡 如何看微课 / How to use:</p>
-                    <ol className="list-decimal list-inside space-y-1 ml-2">
-                      <li>先看微课，了解本周重点错误 / Watch the video first</li>
-                      <li>再做下方题目（阅读、语法、写作、听力、口语）/ Then complete the homework below</li>
-                      <li>选择题当场看对错。写作和口语先看题目、先跟读。正式周由顾问开通批改。</li>
-                    </ol>
-                  </div>
-                </>
-              );
-            }
-            
-            // Show empty state if fallback failed
-            return (
-              <p className="text-sm text-ink-2">
-                本周动画还没有。先做下面的作业。
-              </p>
-            );
-          })()}
-        </div>
-      </div>
+                );
+              })()}
+            </div>
+          </div>
+        );
+      })()}
 
       {/* Dual-validation map for A2 Week 0 */}
       {week.level === "A2" && week.weekNumber === 0 && <DualValidationMap />}
@@ -1289,8 +1305,8 @@ export default function WeekHomework({
 
             {question.type === "writing" && (
               <div className="space-y-4">
-                {/* Guest mode message */}
-                {guest && (
+                {/* Guest mode message - only show for English CEQ (A2/B1), not for MATH/SEC/SMATH */}
+                {guest && week.level !== "MATH" && week.level !== "SEC" && week.level !== "SMATH" && (
                   <div className="bg-accent/5 border border-accent/20 rounded-lg p-4">
                     <p className="text-sm text-ink-2">
                       登录后老师才收写作和口语。要账号请回首页报名表。
@@ -1306,8 +1322,8 @@ export default function WeekHomework({
                   </div>
                 )}
                 
-                {/* How to practice guide */}
-                {!guest && !isCompleted && !writingFeedback[question.id] && week.level !== "MATH" && week.level !== "SMATH" && week.level !== "SMATH" && (
+                {/* How to practice guide - only for English CEQ (A2/B1), not MATH/SEC/SMATH */}
+                {!guest && !isCompleted && !writingFeedback[question.id] && week.level !== "MATH" && week.level !== "SEC" && week.level !== "SMATH" && (
                   <div className="bg-paper border border-line rounded-lg p-3">
                     <p className="text-sm font-semibold text-ink mb-2">💡 如何练习 / How to practice:</p>
                     <ol className="text-sm text-ink-2 space-y-1 list-decimal list-inside">
@@ -1439,8 +1455,8 @@ export default function WeekHomework({
 
             {question.type === "speaking" && (
               <div className="space-y-4">
-                {/* Guest mode message */}
-                {guest && (
+                {/* Guest mode message - only show for English CEQ (A2/B1), not for MATH/SEC/SMATH */}
+                {guest && week.level !== "MATH" && week.level !== "SEC" && week.level !== "SMATH" && (
                   <div className="bg-accent/5 border border-accent/20 rounded-lg p-4">
                     <p className="text-sm text-ink-2">
                       登录后老师才收写作和口语。要账号请回首页报名表。
@@ -1461,9 +1477,16 @@ export default function WeekHomework({
                 {/* Recording UI */}
                 {!guest && (
                   <div className="bg-paper border border-line rounded-lg p-4">
-                    <p className="text-sm text-ink-2 mb-3">
-                      请点击"开始录音"并按照提示完成口语练习。录音将由AI评估并提供改进建议。
-                    </p>
+                    {/* Different instruction for MATH/SEC/SMATH vs English CEQ */}
+                    {(week.level === "MATH" || week.level === "SEC" || week.level === "SMATH") ? (
+                      <p className="text-sm text-ink-2 mb-3">
+                        请点击"开始录音"并按照提示完成口语练习。
+                      </p>
+                    ) : (
+                      <p className="text-sm text-ink-2 mb-3">
+                        请点击"开始录音"并按照提示完成口语练习。录音将由AI评估并提供改进建议。
+                      </p>
+                    )}
                   
                   {!recording[question.id] && !recordedBlob[question.id] && (
                     <button
