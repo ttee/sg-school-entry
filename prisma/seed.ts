@@ -2706,7 +2706,7 @@ Useful phrases:
       isSample: false,
       dueDate: new Date("2026-08-20"),
       errorFocus: "3sg-s",
-      parentBrief: "本周纠错焦点：第三人称单数 -s（he/she/it + 动词加 -s）。中文动词不变形，孩子常说 she wake up；英语里必须是 she wakes up。另一个常错点是时间介词：at 7:00, in the morning, on Monday。",
+      parentBrief: "本周纠错焦点：第三人称单数 -s（he/she/it + 动词加 -s）。中文动词不变形，孩子常说 she wake up；英语里必须是 she wakes up。例如 Mei 自己说 I wake up at 6:15，但说到妹妹要加 -s：My sister wakes up later。另一个常错点是时间介词：at 6:15, in the morning, on Monday。",
       videoUrl: "/video/a2-w1.mp4",
       kaizenFocus: "Add -s to verbs after he/she/it in present simple; use at/in/on for time correctly",
       officialClipId: "loINl3Ln6Ck",
@@ -2719,29 +2719,20 @@ Useful phrases:
 
 My School Day – Monday
 
-I live in Bedok with my family. Every Monday I wake up early because I have extra Math class before school starts. My alarm rings at 6:00 a.m. but I sometimes press snooze! My dad always tells me not to be late.
+My name is Mei. I live in Bedok with my family. Every Monday I wake up at 6:15. I brush my teeth and put on my school uniform. My mum prepares breakfast. I drink tea and check my school bag.
 
-I wake up at 6:15, brush my teeth, and put on my school uniform. My mum prepares breakfast – fried rice or noodles. I drink tea and check my bag. My little sister Jia is still sleeping! She goes to kindergarten, so she wakes up later.
+My little sister Jia is still sleeping! She goes to kindergarten, so she wakes up later. At 7:00 my dad and I leave home. We walk to the bus stop and take the bus to school.
 
-At 7:00 a.m. sharp, Dad and I leave home. We walk to the bus stop together. The 168 bus arrives at 7:10. Dad takes it to work and I take it to school. The journey is twenty minutes. I get off near the library and walk three minutes to the school gate.
-
-My extra Math class starts at 7:45. Miss Chen teaches us fractions and problem sums. She writes on the whiteboard and asks us questions. After that, normal school starts at 8:30. We have assembly, then English, Science, and PE before lunch.
-
-At 2:00 p.m. school finishes. I take the bus home. At home, I change into comfortable clothes, have a snack, and do my homework. In the evening, we have dinner together at 7:00 p.m. After dinner, I help wash the dishes, then read for a bit. I go to bed at 9:30 p.m.
-
-I like Mondays because Math is my favourite subject!`,
+School starts at 8:30. I have English, Math, and PE. At 2:00 p.m. school finishes. I take the bus home and do my homework. I like Mondays!`,
           options: JSON.stringify([
-            "Why does Mei wake up early on Mondays?|A. She has basketball practice|B. She has extra Math class|C. Her mum tells her to|D. The bus comes early",
+            "What time does Mei wake up?|A. 6:00|B. 6:15|C. 7:00|D. 8:30",
             "Who wakes up later than Mei?|A. Her dad|B. Her mum|C. Her sister Jia|D. Her teacher",
-            "What time does Mei leave home?|A. 6:00 a.m.|B. 6:15 a.m.|C. 7:00 a.m.|D. 7:10 a.m.",
-            "How does Mei travel to school?|A. Dad drives her|B. She walks all the way|C. She takes bus 168|D. She rides a bicycle",
-            "What does Miss Chen teach?|A. English|B. Science|C. Math|D. PE",
-            "What time does normal school start?|A. 7:45|B. 8:00|C. 8:30|D. 9:00",
-            "What does Mei do after she gets home?|A. Plays computer games|B. Changes clothes, has a snack, does homework|C. Goes to sleep|D. Watches TV for two hours",
-            "How does Mei feel about Mondays?|A. She dislikes them|B. She thinks they are boring|C. She likes them because Math is her favourite|D. She doesn't say",
+            "What time does Mei leave home?|A. 6:15|B. 7:00|C. 8:30|D. 2:00",
+            "How does Mei travel to school?|A. She walks all the way|B. Dad drives her|C. She takes the bus|D. She rides a bicycle",
+            "What time does school start?|A. 6:15|B. 7:00|C. 8:30|D. 2:00",
           ]),
-          correctAnswer: "B,C,C,C,C,C,B,C",
-          points: 8,
+          correctAnswer: "B,C,B,C,C",
+          points: 5,
         },
         {
           type: "grammar",
@@ -2750,23 +2741,22 @@ I like Mondays because Math is my favourite subject!`,
 
 My School Routine
 
-My name is Jun. I (1) ____ at a secondary school in Tampines. Every weekday, my sister Amy and I wake up early. Amy is in Primary 5. She (2) ____ her alarm at 6:30 a.m. I wake up a bit earlier, (3) ____ 6:15 a.m.
+My name is Jun. I (1) ____ at 6:15 every morning. My sister Amy is in Primary 5. She (2) ____ her alarm at 6:30, so she wakes up later than me.
 
-After we wash up, we have breakfast together. Mum (4) ____ us rice porridge or toast. Amy always (5) ____ orange juice, but I prefer milk. Dad leaves for work (6) ____ 7:00 a.m. He (7) ____ the MRT to the city.
+After we wash up, we have breakfast together. Mum (3) ____ us rice porridge or toast. Amy always (4) ____ orange juice, but I prefer milk. Dad leaves for work (5) ____ 7:00 a.m. He (6) ____ the MRT to the city.
 
-Amy and I walk to the bus stop. We (8) ____ the same bus to school. Amy's school is near mine, so we get off at the same stop. Then Amy walks left and I walk right!`,
+Amy and I walk to the bus stop. We (7) ____ the same bus to school. Amy's school is near mine, so we get off at the same stop. Then Amy walks left and I walk right!`,
           options: JSON.stringify([
-            "(1)|A. study|B. studies|C. studied|D. studying",
+            "(1)|A. wake up|B. wakes up|C. woke up|D. waking up",
             "(2)|A. set|B. sets|C. setting|D. setted",
-            "(3)|A. in|B. on|C. at|D. by",
-            "(4)|A. make|B. makes|C. making|D. maked",
-            "(5)|A. drink|B. drinks|C. drank|D. drinking",
-            "(6)|A. in|B. on|C. at|D. to",
-            "(7)|A. take|B. takes|C. taking|D. taked",
-            "(8)|A. catch|B. catches|C. catched|D. catching",
+            "(3)|A. make|B. makes|C. making|D. maked",
+            "(4)|A. drink|B. drinks|C. drank|D. drinking",
+            "(5)|A. in|B. on|C. at|D. to",
+            "(6)|A. take|B. takes|C. taking|D. taked",
+            "(7)|A. catch|B. catches|C. catched|D. catching",
           ]),
-          correctAnswer: "A,B,C,B,B,C,B,A",
-          points: 8,
+          correctAnswer: "A,B,B,B,C,B,A",
+          points: 7,
         },
         {
           type: "writing",
