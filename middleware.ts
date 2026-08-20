@@ -2,7 +2,29 @@ import { getToken } from "next-auth/jwt";
 import { NextResponse } from "next/server";
 import type { NextRequest } from "next/server";
 
+function decodedPath(request: NextRequest): string {
+  const raw = request.nextUrl.pathname;
+  try {
+    return decodeURIComponent(raw);
+  } catch {
+    return raw;
+  }
+}
+
 export async function middleware(request: NextRequest) {
+  const path = decodedPath(request);
+
+  if (path === "/小学") {
+    return NextResponse.rewrite(new URL("/primary", request.url));
+  }
+  if (path === "/中学") {
+    return NextResponse.rewrite(new URL("/secondary", request.url));
+  }
+
+  if (!request.nextUrl.pathname.startsWith("/learn") && !path.startsWith("/learn")) {
+    return NextResponse.next();
+  }
+
   const token = await getToken({
     req: request,
     secret: process.env.AUTH_SECRET,
@@ -18,5 +40,8 @@ export async function middleware(request: NextRequest) {
 }
 
 export const config = {
-  matcher: ["/learn/:path*"],
+  matcher: [
+    "/learn/:path*",
+    "/((?!_next/static|_next/image|favicon.ico|api/|audio/|video/|weike/).*)",
+  ],
 };
