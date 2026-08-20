@@ -219,10 +219,37 @@ export default async function TrialLevelPage({
   if (level === "A2") {
     week.title = "试学周 · 失物招领";
     week.description = "";
-    
+    week.errorFocus = "冠词 a / an / the";
+    week.parentBrief = "本周只练冠词 a / an / the.";
+
+    const grammarQ = week.questions.find(q => q.type === "grammar" && q.order === 2);
+    if (grammarQ) {
+      grammarQ.options = JSON.stringify([
+        "Is ____ your bottle?|A. this|B. these|C. those|D. them",
+        "Yes, that's ____.|A. my|B. mine|C. me|D. I",
+        "Mei lost ____ water bottle.|A. a|B. an|C. the|D. some",
+        "Auntie Tan wears ____ pink polo shirt.|A. a|B. an|C. the|D. some",
+        "That is ____ bottle with the pink flower.|A. a|B. an|C. the|D. no article",
+        "____ is Auntie Tan at the counter.|A. This|B. That|C. These|D. Those",
+        "The Lost and Found office is ____ the school office.|A. in|B. at|C. on|D. by",
+      ]);
+      grammarQ.correctAnswer = "A,B,A,A,C,B,A";
+      grammarQ.choiceWhy = JSON.stringify([
+        {"A": "问Is this your bottle用this指近处的单数物品。", "B": "these是复数，不能指一个水杯。", "C": "those是复数且指远处，不合适。", "D": "them是宾格代词，不能做主语。"},
+        {"A": "my后面要加名词（my bottle），不能单独用。", "B": "mine = my bottle，可以单独用表示我的东西。", "C": "me是宾格我，不是物主代词。", "D": "I是主格我，不是物主代词。"},
+        {"A": "首次提到用a（a water bottle）。", "B": "water不是元音开头，不用an。", "C": "首次提到不用the，再提才用the。", "D": "some用于不确定数量，这里是一个水杯。"},
+        {"A": "首次提到衣服用a（a pink polo shirt）。", "B": "pink不是元音开头，不用an。", "C": "首次提到不用the。", "D": "some不用于单数可数名词。"},
+        {"A": "已经说过的特定水杯，用the表示那个已知的。", "B": "bottle不是元音开头，不用an。", "C": "已经提过的特定物品用the。", "D": "可数名词单数前要加冠词。"},
+        {"A": "This用于近处，Auntie Tan在柜台那边较远。", "B": "That用于指较远的人或物（Auntie Tan在柜台那边）。", "C": "These是复数，Auntie Tan是一个人。", "D": "Those是复数，不能指一个人。"},
+        {"A": "Lost and Found office在school office里面，用in。", "B": "at表示在某个点，不是里面。", "C": "on表示在表面上，不合适。", "D": "by表示在旁边，不是里面。"},
+      ]);
+      grammarQ.points = 7;
+    }
+
     // Sanitize all speaking questions to remove AI evaluation and recording button references
     week.questions.forEach((question) => {
       if (question.type === "speaking") {
+        question.content = question.content.replace(/• Have you ever lost something at school\? What was it\?\n?/g, "");
         question.content = sanitizeSpeakingContentForGuest(question.content);
       }
     });
@@ -324,7 +351,7 @@ export default async function TrialLevelPage({
               试学周
             </h1>
             <p className="text-ink-2 mb-4">
-              阅读第 1 题打开就能做。官方口语样例在作业下方。
+              阅读第 1 题打开就能做。
             </p>
           </div>
         )}
@@ -335,22 +362,6 @@ export default async function TrialLevelPage({
           userId=""
           guest={true}
         />
-        {level === "A2" && (
-          <div className="mt-8">
-            <h2 className="font-serif font-semibold text-xl text-ink mb-3">
-              CEQ 口语长这样
-            </h2>
-            <p className="text-ink-2 mb-4">
-              两个孩子、两个考官。这就是 A2 Key for Schools 口语。
-            </p>
-            <OfficialClip
-              videoId="ZjGt6r8XSTg"
-              title="CEQ 口语长这样"
-              credit="片源：Cambridge English 官方频道 English with Cambridge《A2 Key for Schools Speaking test — Asia and Vittoria》。官方口语样例，不是本周作业。"
-              hideWeeklyHomework={true}
-            />
-          </div>
-        )}
         {level === "B1" && (
           <div className="mt-8">
             <h2 className="font-serif font-semibold text-xl text-ink mb-3">

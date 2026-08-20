@@ -26,7 +26,7 @@ export default function BoardWeike({ level, weekNumber, planTitle, planFirstLine
         "Auntie Tan found a pencil case. Is that yours?",
         "I lost a water bottle. The bottle has a pink sticker."
       ],
-      gloss: "冠词 a/the、指示代词 this/that、物主代词 your/mine。疑问句语序：Is this your…?（不是 this is your…?）。物主代词 mine/yours 不加名词，your/my 后面要加名词。第一次提到用 a（I lost a bottle），第二次用 the（The bottle is white）。"
+      gloss: ""
     },
     "A2-5": {
       fossil: "more bigger / more cheap / he is tall than me",
@@ -1254,11 +1254,13 @@ export default function BoardWeike({ level, weekNumber, planTitle, planFirstLine
   return (
     <div className="mb-8 bg-gradient-to-br from-accent/5 via-card to-accent/10 border border-accent/20 rounded-xl overflow-hidden shadow-sm">
       <div className="relative" style={{ aspectRatio: "16/9", width: "100%" }}>
+        {key !== "A2-0" && (
         <img 
           src={teacherImage}
           alt={teacherName}
           className="absolute inset-0 w-full h-full object-cover"
         />
+        )}
         
         <div className="absolute inset-0 flex items-center justify-end pointer-events-none" style={{ paddingRight: "5%" }}>
           <div className="bg-white/95 rounded-lg p-4 shadow-lg" style={{ width: "45%", maxWidth: "500px" }}>

@@ -3,7 +3,6 @@
 import { useState, useRef, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
-import DualValidationMap from "./DualValidationMap";
 import DualValidationMapWeek1 from "./DualValidationMapWeek1";
 import DualValidationMapWeek2 from "./DualValidationMapWeek2";
 import DualValidationMapWeek3 from "./DualValidationMapWeek3";
@@ -839,9 +838,6 @@ export default function WeekHomework({
           </div>
         );
       })()}
-
-      {/* Dual-validation map for A2 Week 0 */}
-      {week.level === "A2" && week.weekNumber === 0 && <DualValidationMap />}
 
       {/* Dual-validation map for A2 Week 1 */}
       {week.level === "A2" && week.weekNumber === 1 && <DualValidationMapWeek1 />}

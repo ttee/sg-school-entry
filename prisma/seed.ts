@@ -2544,8 +2544,8 @@ A 2D representation shows a circle and a triangle. Which solid does this represe
       title: "试学周",
       description: "First week in a Singapore school",
       isSample: true,
-      errorFocus: "articles-demonstratives-possessives",
-      parentBrief: "本周纠错焦点：冠词 + 指示代词 + 物主代词。微课是失物招领：Auntie Tan 问 Is this your bottle? Mei 答 Yes, that's mine. 孩子会说 this is your bottle?（疑问语序错）、that is my（漏 -s）、I lost water bottle（漏 a）。练 this/that、your/mine、Is this your…? 和 a → the。不提开学板书，不提食堂。",
+      errorFocus: "冠词 a / an / the",
+      parentBrief: "本周只练冠词 a / an / the.",
       videoUrl: "/video/a2-w0.mp4",
       kaizenFocus: "Use articles (a/the), demonstratives (this/that), possessives (your/mine), and question form 'Is this your...?'",
       questions: [
@@ -2609,9 +2609,8 @@ Mei`,
             "That is ____ bottle with the pink flower.|A. a|B. an|C. the|D. no article",
             "____ is Auntie Tan at the counter.|A. This|B. That|C. These|D. Those",
             "The Lost and Found office is ____ the school office.|A. in|B. at|C. on|D. by",
-            "Mei said thank ____.|A. me|B. your|C. you|D. yours",
           ]),
-          correctAnswer: "A,B,A,A,C,B,A,C",
+          correctAnswer: "A,B,A,A,C,B,A",
           choiceWhy: JSON.stringify([
             {"A": "问Is this your bottle用this指近处的单数物品。", "B": "these是复数，不能指一个水杯。", "C": "those是复数且指远处，不合适。", "D": "them是宾格代词，不能做主语。"},
             {"A": "my后面要加名词（my bottle），不能单独用。", "B": "mine = my bottle，可以单独用表示我的东西。", "C": "me是宾格我，不是物主代词。", "D": "I是主格我，不是物主代词。"},
@@ -2620,9 +2619,8 @@ Mei`,
             {"A": "已经说过的特定水杯，用the表示那个已知的。", "B": "bottle不是元音开头，不用an。", "C": "已经提过的特定物品用the。", "D": "可数名词单数前要加冠词。"},
             {"A": "This用于近处，Auntie Tan在柜台那边较远。", "B": "That用于指较远的人或物（Auntie Tan在柜台那边）。", "C": "These是复数，Auntie Tan是一个人。", "D": "Those是复数，不能指一个人。"},
             {"A": "Lost and Found office在school office里面，用in。", "B": "at表示在某个点，不是里面。", "C": "on表示在表面上，不合适。", "D": "by表示在旁边，不是里面。"},
-            {"A": "me不对，固定说法是thank you。", "B": "your是物主代词，不能用在这里。", "C": "固定搭配thank you（谢谢你）。", "D": "yours是名词性物主代词，不能用在这里。"},
           ]),
-          points: 8,
+          points: 7,
         },
         {
           type: "writing",
@@ -2674,7 +2672,6 @@ Ms Tan: Yes, please bring your Maths workbook. And remember, Thursday is Drama C
 Task: Talk about "Lost and Found at school" (1 minute)
 
 Think about these points:
-• Have you ever lost something at school? What was it?
 • How did you ask for help or look for it?
 • Practice saying: "Is this your...?" and "Yes, that's mine. Thank you."
 • What advice would you give to someone who lost something?
