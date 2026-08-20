@@ -33,8 +33,8 @@ export default async function TrialPage() {
     },
   });
 
-  const levelOrder = ["A2", "B1", "MATH", "SEC", "SMATH"];
-  const sortedWeeks = trialWeeks.sort((a, b) => 
+  const levelOrder = ["SEC", "SMATH", "A2", "B1", "MATH"];
+  const sortedWeeks = trialWeeks.sort((a, b) =>
     levelOrder.indexOf(a.level) - levelOrder.indexOf(b.level)
   );
 
@@ -53,6 +53,31 @@ export default async function TrialPage() {
     SEC: "中学 AEIS 英语：写作 + 理解/语言运用样本",
     SMATH: "中学 AEIS 数学：小六百分数样本",
   };
+
+  const secondaryWeeks = sortedWeeks.filter((week) => week.level === "SEC" || week.level === "SMATH");
+  const primaryWeeks = sortedWeeks.filter((week) => week.level === "A2" || week.level === "B1" || week.level === "MATH");
+
+  const renderCards = (weeks: typeof sortedWeeks) => (
+    <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5">
+      {weeks.map((week) => (
+        <Link
+          key={week.id}
+          href={`/trial/${week.level}`}
+          className="bg-card border border-line rounded-2xl p-6 shadow hover:border-accent hover:shadow-lg transition-all"
+        >
+          <h3 className="font-serif text-xl font-semibold text-ink mb-2">
+            {levelNames[week.level] || week.level}
+          </h3>
+          <p className="text-sm text-ink-2 mb-3">
+            {levelDescriptions[week.level] || week.description}
+          </p>
+          <div className="text-accent font-semibold text-sm flex items-center gap-2">
+            开始试学 →
+          </div>
+        </Link>
+      ))}
+    </div>
+  );
 
   return (
     <>
@@ -73,7 +98,6 @@ export default async function TrialPage() {
             </svg>
             <div className="flex flex-col leading-tight">
               <strong className="font-serif font-semibold text-ink tracking-wide">狮城入学</strong>
-              <span className="text-xs text-muted tracking-wider">SG SCHOOL ENTRY</span>
             </div>
           </Link>
           <Link
@@ -91,29 +115,26 @@ export default async function TrialPage() {
             免费试学周
           </h1>
           <p className="text-ink-2 mb-2">
+            中学英语和数学在上面。小学在下面。
+          </p>
+          <p className="text-ink-2 mb-2">
             不用登录。先做试学周，看作业长什么样。提交账号仍走首页报名表。
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5 mb-8">
-          {sortedWeeks.map((week) => (
-            <Link
-              key={week.id}
-              href={`/trial/${week.level}`}
-              className="bg-card border border-line rounded-2xl p-6 shadow hover:border-accent hover:shadow-lg transition-all"
-            >
-              <h2 className="font-serif text-xl font-semibold text-ink mb-2">
-                {levelNames[week.level] || week.level}
-              </h2>
-              <p className="text-sm text-ink-2 mb-3">
-                {levelDescriptions[week.level] || week.description}
-              </p>
-              <div className="text-accent font-semibold text-sm flex items-center gap-2">
-                开始试学 →
-              </div>
-            </Link>
-          ))}
-        </div>
+        <section className="mb-8">
+          <h2 className="font-serif font-semibold text-xl md:text-2xl text-ink mb-4">
+            中学英语和数学
+          </h2>
+          {renderCards(secondaryWeeks)}
+        </section>
+
+        <section className="mb-8">
+          <h2 className="font-serif font-semibold text-xl md:text-2xl text-ink mb-4">
+            小学
+          </h2>
+          {renderCards(primaryWeeks)}
+        </section>
 
         <div className="bg-paper-2 border border-line rounded-xl p-6 mb-6">
           <h3 className="font-serif font-semibold text-lg text-ink mb-3">快速导航</h3>

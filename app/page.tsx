@@ -96,7 +96,7 @@ export default function HomePage() {
               今晚试小学
             </Link>
             <Link href="/trial" className="text-ink-2 hover:text-ink transition-colors font-medium">
-              中学在试学页
+              中学英语和数学
             </Link>
             <Link href="/skills" className="text-ink-2 hover:text-ink transition-colors font-medium">
               小学英语会练什么
@@ -128,7 +128,7 @@ export default function HomePage() {
                 今晚试小学
               </Link>
               <Link href="/trial" className="block text-ink-2 hover:text-ink transition-colors font-medium" onClick={() => setShowMobileMenu(false)}>
-                中学在试学页
+                中学英语和数学
               </Link>
               <Link href="/skills" className="block text-ink-2 hover:text-ink transition-colors font-medium" onClick={() => setShowMobileMenu(false)}>
                 小学英语会练什么
@@ -161,7 +161,7 @@ export default function HomePage() {
                 href="/trial"
                 className="inline-flex items-center justify-center px-6 py-3.5 bg-transparent text-ink border border-accent font-semibold rounded-full hover:bg-accent/10 transition-colors text-base"
               >
-                中学在试学页
+                中学英语和数学
               </Link>
               <Link
                 href="/skills"
