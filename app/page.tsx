@@ -148,8 +148,7 @@ export default function HomePage() {
               升学顾问的作业
             </p>
             <h1 className="font-serif font-semibold text-3xl md:text-5xl leading-tight tracking-tight mb-4 max-w-4xl">
-              <span className="block">小学先练英语作业。</span>
-              <span className="block">中学练英语和数学。</span>
+              <span className="block">进新加坡政府学校。</span>
               <span className="block">今天打开就能做。</span>
             </h1>
             <div className="flex flex-wrap gap-3 mb-3">
@@ -173,36 +172,21 @@ export default function HomePage() {
               </Link>
             </div>
             <p className="text-sm text-muted mb-4 max-w-2xl">
-              小学今天练英语。中学英语和数学在试学页里。
+              小学先打开英语。中学英语和数学在试学页里。
+            </p>
+            <p className="text-sm text-ink mb-1 max-w-2xl">
+              12 周，RMB 2,680，向升学顾问支付。今天打开试学，不用登录。
+            </p>
+            <p className="text-xs text-muted mb-4 max-w-2xl">
+              PayNow 94594601
             </p>
             <div className="max-w-2xl">
               <p className="font-serif text-ink-2">
-                纸上得来终觉浅，绝知此事要躬行
+                学而时习之，不亦说乎
               </p>
               <p className="text-xs text-muted mt-1">
-                陆游《冬夜读书示子聿》
+                《论语·学而》
               </p>
-              <p className="text-xs text-muted">
-                今天打开，自己做这一周。
-              </p>
-            </div>
-          </div>
-        </section>
-
-        <section className="py-12 md:py-16 bg-paper-2">
-          <div className="max-w-7xl mx-auto px-4">
-            <h2 className="font-serif font-semibold text-2xl md:text-3xl mb-6">
-              CEQ 英语作业
-            </h2>
-            <div className="max-w-2xl">
-              <article className="bg-card border border-line rounded-2xl p-6 shadow mb-6">
-                <p className="text-sm text-ink mb-4">
-                  12 周，RMB 2,680，向升学顾问支付。今天打开试学就能做，不用登录。
-                </p>
-                <p className="text-xs text-muted mb-1">
-                  PayNow 94594601
-                </p>
-              </article>
             </div>
           </div>
         </section>
