@@ -100,6 +100,66 @@ export async function generateMetadata({
     };
   }
   
+  if (level === "MATH") {
+    return {
+      title: "小学 AEIS 数学试学",
+      description: "小学 AEIS 数学试学，打开就能做。",
+      openGraph: {
+        title: "小学 AEIS 数学试学",
+        description: "小学 AEIS 数学试学，打开就能做。",
+        url: "https://sg-school-entry.vercel.app/trial/MATH",
+        siteName: "狮城入学",
+        locale: "zh_CN",
+        type: "website",
+      },
+      twitter: {
+        card: "summary_large_image",
+        title: "小学 AEIS 数学试学",
+        description: "小学 AEIS 数学试学，打开就能做。",
+      },
+    };
+  }
+  
+  if (level === "SEC") {
+    return {
+      title: "中学 AEIS 英语试学",
+      description: "中学 AEIS 英语试学，不是 CEQ。",
+      openGraph: {
+        title: "中学 AEIS 英语试学",
+        description: "中学 AEIS 英语试学，不是 CEQ。",
+        url: "https://sg-school-entry.vercel.app/trial/SEC",
+        siteName: "狮城入学",
+        locale: "zh_CN",
+        type: "website",
+      },
+      twitter: {
+        card: "summary_large_image",
+        title: "中学 AEIS 英语试学",
+        description: "中学 AEIS 英语试学，不是 CEQ。",
+      },
+    };
+  }
+  
+  if (level === "SMATH") {
+    return {
+      title: "中学 AEIS 数学试学",
+      description: "中学 AEIS 数学试学，不是 CEQ。",
+      openGraph: {
+        title: "中学 AEIS 数学试学",
+        description: "中学 AEIS 数学试学，不是 CEQ。",
+        url: "https://sg-school-entry.vercel.app/trial/SMATH",
+        siteName: "狮城入学",
+        locale: "zh_CN",
+        type: "website",
+      },
+      twitter: {
+        card: "summary_large_image",
+        title: "中学 AEIS 数学试学",
+        description: "中学 AEIS 数学试学，不是 CEQ。",
+      },
+    };
+  }
+  
   return {
     title: `狮城入学 · ${levelNames[level] || "试学周"}`,
   };
@@ -166,6 +226,42 @@ export default async function TrialLevelPage({
         question.content = sanitizeSpeakingContentForGuest(question.content);
       }
     });
+  }
+
+  // SEC W0: Override title and sanitize 化石 references
+  if (level === "SEC" && week.weekNumber === 0) {
+    week.title = "试学周";
+    
+    // Replace 化石/化石化 with 这个中文迁移错
+    if (week.errorFocus) {
+      week.errorFocus = week.errorFocus.replace(/化石化?/g, "这个中文迁移错");
+    }
+    if (week.parentBrief) {
+      week.parentBrief = week.parentBrief.replace(/化石化?/g, "这个中文迁移错");
+    }
+    
+    // Sanitize questions
+    week.questions.forEach((question) => {
+      question.content = question.content.replace(/化石化?/g, "这个中文迁移错");
+      if (question.choiceWhy) {
+        question.choiceWhy = question.choiceWhy.replace(/化石化?/g, "这个中文迁移错");
+      }
+    });
+  }
+
+  // MATH W0: Override title
+  if (level === "MATH" && week.weekNumber === 0) {
+    week.title = "数学试学周";
+  }
+
+  // SMATH W0: Override title
+  if (level === "SMATH" && week.weekNumber === 0) {
+    week.title = "试学周";
+  }
+
+  // B1 W0: Override title
+  if (level === "B1" && week.weekNumber === 0) {
+    week.title = "试学周";
   }
 
   return (

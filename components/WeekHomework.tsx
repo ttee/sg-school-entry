@@ -625,6 +625,14 @@ export default function WeekHomework({
             ? "试学周 · 失物招领" 
             : guest && week.level === "A2" && week.weekNumber === 1
             ? "第 1 周：日常作息"
+            : guest && week.level === "MATH" && week.weekNumber === 0
+            ? "数学试学周"
+            : guest && week.level === "SEC" && week.weekNumber === 0
+            ? "试学周"
+            : guest && week.level === "SMATH" && week.weekNumber === 0
+            ? "试学周"
+            : guest && week.level === "B1" && week.weekNumber === 0
+            ? "试学周"
             : week.title}
         </h1>
         {week.description && !(guest && week.level === "A2" && week.weekNumber === 0) && (
@@ -654,7 +662,11 @@ export default function WeekHomework({
       <div className="mb-8 space-y-4">
         <div className="bg-card border border-line rounded-xl p-5">
           <p className="text-sm text-ink-2 mb-3">
-            先看这两个句子，跟读正确的一句，再做本周卷
+            {(week.level === "MATH" || week.level === "SMATH") 
+              ? "先看例题，再做本周卷"
+              : week.level === "SEC"
+              ? "先看本周句子，再做本周卷"
+              : "先看这两个句子，跟读正确的一句，再做本周卷"}
           </p>
           <BoardWeike 
             level={week.level} 
@@ -1137,23 +1149,23 @@ export default function WeekHomework({
                 {idx + 1}.{" "}
                 {(week.level === "MATH" || week.level === "SMATH")
                   ? (question.type === "reading"
-                    ? "应用题 / Word Problems"
+                    ? "应用题"
                     : question.type === "grammar"
-                    ? "选择题 / Multiple Choice"
+                    ? "选择题"
                     : question.type === "writing"
-                    ? "应用题（写算式）/ Show Your Working"
+                    ? "写出算式"
                     : question.type === "listening"
-                    ? (question.audioUrl ? "听力 / Listening" : "听读 / Reading")
-                    : "口语 / Speaking")
+                    ? (question.audioUrl ? "听力" : "听读")
+                    : "口语")
                   : (question.type === "reading"
-                    ? "阅读理解 / Reading"
+                    ? "阅读理解"
                     : question.type === "grammar"
-                    ? "语法 / Use of English"
+                    ? "语法"
                     : question.type === "writing"
-                    ? "写作 / Writing"
+                    ? "写作"
                     : question.type === "listening"
-                    ? (question.audioUrl ? "听力 / Listening" : "听读 / Reading")
-                    : "口语 / Speaking")}
+                    ? (question.audioUrl ? "听力" : "听读")
+                    : "口语")}
               </h2>
               <span className="text-sm text-muted">{question.points} 分</span>
             </div>

@@ -22,7 +22,7 @@ export default function OfficialClip({ videoId, credit, title, hideWeeklyHomewor
         <iframe
           className="absolute top-0 left-0 w-full h-full rounded-lg"
           src={`https://www.youtube-nocookie.com/embed/${videoId}?rel=0&modestbranding=1`}
-          title="Official YouTube Sample"
+          title="官方影片样例"
           frameBorder="0"
           allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
