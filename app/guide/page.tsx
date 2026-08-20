@@ -627,7 +627,7 @@ export default function GuidePage() {
                   <div className="bg-paper-2 border border-line rounded-lg p-3 mt-3">
                     <p className="text-xs font-semibold text-ink mb-1">2026 年 AEIS（官方已公布）</p>
                     <ul className="text-xs text-ink-2 space-y-0.5">
-                      <li>• <strong className="text-ink">申请窗口（已关闭）：</strong>2026 年申请已关闭。时间线为 2026 年 7 月。以官网为准。</li>
+                      <li>• <strong className="text-ink">申请窗口（已关闭）：</strong>2026 年 AEIS 申请在 7 月。开闭以官网为准。</li>
                       <li>• <strong className="text-ink">考试日期：</strong>Sec 1: 2026年9月1日（周二）；Sec 2/3: 2026年9月2日（周三）；Primary 2/3 及 4/5 数学: 2026年9月3日（周四）</li>
                       <li>• <strong className="text-ink">费用（官方）：</strong>小学 $340，中学 $630，另加 GST，不退费</li>
                       <li>• 录取后次年1月入学（视表现、空缺、居住区域而定）</li>
@@ -679,7 +679,7 @@ export default function GuidePage() {
                     <ul className="text-xs text-ink-2 space-y-1">
                       <li>• 下一轮 S-AEIS 日期以官网为准。</li>
                       <li>• 如获录取，同年 4/5 月入学</li>
-                      <li>• <strong className="text-ink">小学 CEQ 时间窗口：</strong>2027 年小学 S-AEIS：CEQ 从 2026 年 1 月起考的才算。以官网为准。</li>
+                      <li>• <strong className="text-ink">小学 CEQ 时间窗口：</strong>2027 年小学 S-AEIS：CEQ 从 2026 年 1 月起考，须在提交申请那一个月往前的 12 个月内。以官网为准。</li>
                       <li>• <strong className="text-ink">费用（官方）：</strong>小学 $340，中学 $630，另加 GST，不退费（与 AEIS 同）</li>
                       <li>• <strong className="text-ink">2026 AEIS P5 未录取者：</strong>如仍符合年龄要求，可申请 2027 S-AEIS P4；需提供 B1 Preliminary for Schools CEQ 成绩（须在 2027 S-AEIS 提交日期前 12 个月内取得）</li>
                     </ul>
@@ -693,7 +693,7 @@ export default function GuidePage() {
                   <div className="border-t border-line pt-3">
                     <p className="font-semibold text-ink mb-1">CEQ 剑桥英语资格考试（小学专用，官方）</p>
                     <p className="text-ink-2 mb-2">
-                      小学 AEIS 不另考英语，英语能力由 CEQ 成绩证明。2026 年小学申请：CEQ 从 2025 年 7 月起考的才算。以官网为准。
+                      小学 AEIS 不另考英语，英语能力由 CEQ 成绩证明。2026 年小学 AEIS：CEQ 从 2025 年 7 月起考，须在提交申请那一个月往前的 12 个月内。以官网为准。
                     </p>
                     <div className="space-y-1 text-ink-2">
                       <p><strong className="text-ink">查找考点（官方）：</strong>
