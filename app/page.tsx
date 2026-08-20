@@ -172,9 +172,20 @@ export default function HomePage() {
                 小学英语会练什么
               </Link>
             </div>
-            <p className="text-sm text-muted mb-6 max-w-2xl">
+            <p className="text-sm text-muted mb-4 max-w-2xl">
               小学今天练英语。中学英语和数学在试学页里。
             </p>
+            <div className="max-w-2xl">
+              <p className="font-serif text-ink-2">
+                纸上得来终觉浅，绝知此事要躬行
+              </p>
+              <p className="text-xs text-muted mt-1">
+                陆游《冬夜读书示子聿》
+              </p>
+              <p className="text-xs text-muted">
+                今天打开，自己做这一周。
+              </p>
+            </div>
           </div>
         </section>
 
