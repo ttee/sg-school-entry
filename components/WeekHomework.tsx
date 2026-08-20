@@ -235,6 +235,21 @@ type Submission = {
   completedAt: string | null;
 } | null;
 
+
+const A2_PLAYER_CAPTIONS: Record<number, { zh: string; en: string }> = {
+  0: { zh: "问这是不是你的瓶子。", en: "Is this your bottle?" },
+  1: { zh: "我六点十五起床。", en: "I wake up at 6:15." },
+  2: { zh: "我现在在画画。", en: "I am painting now." },
+  3: { zh: "昨天我去了Toa Payoh。", en: "Yesterday I went to Toa Payoh." },
+  4: { zh: "还有牛奶吗？", en: "Do we have any milk?" },
+  5: { zh: "Priya比大多数同学快。", en: "Priya was faster than most students." },
+  7: { zh: "我们要去东海岸。", en: "We're going to visit East Coast Park." },
+  8: { zh: "书要按时还。", en: "You must return books on time." },
+  9: { zh: "我喜欢游泳。", en: "I love swimming." },
+  10: { zh: "我总是六点半起床。", en: "I always wake up at 6:30." },
+  11: { zh: "我们在校门口见。", en: "We can meet at the school gate." },
+};
+
 function getShortPracticeDescription(week: Week): string {
   const title = week.title.toLowerCase();
   const description = (week.description || "").toLowerCase();
@@ -771,6 +786,16 @@ export default function WeekHomework({
                         <source src={videoSrcWithCacheBust} type="video/mp4" />
                         Your browser does not support the video element.
                       </video>
+                      {week.level === "A2" && A2_PLAYER_CAPTIONS[week.weekNumber] ? (
+                        <div className="mt-3 rounded-lg bg-paper-2 border border-line px-4 py-3">
+                          <p className="text-lg text-ink leading-relaxed" lang="zh-CN">
+                            {A2_PLAYER_CAPTIONS[week.weekNumber].zh}
+                          </p>
+                          <p className="mt-1 text-base font-medium text-ink leading-relaxed" lang="en">
+                            {A2_PLAYER_CAPTIONS[week.weekNumber].en}
+                          </p>
+                        </div>
+                      ) : null}
                       <div className="mt-2 flex items-center gap-3">
                         <p className="text-sm text-ink-2 flex-1">
                           先看动画（无声自动播放）
