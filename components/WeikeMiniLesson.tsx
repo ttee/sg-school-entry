@@ -1183,6 +1183,14 @@ export default function WeikeMiniLesson({ level, weekNumber }: WeikeMiniLessonPr
       ],
       gloss: "in 用在房间/建筑物里（in the classroom, in the library, in Building A）；on 用在表面上或楼层（on the desk, on the wall, on the second floor）；at 把地点看作一个点（at the door, at school, at the bus stop）。中文都说「在」，但英语要分清楚。不要写成 in the bus（英语说 on the bus）或 on the classroom（应该是 in the classroom）。"
     },
+    "B1-0": {
+      fossil: "I am here for 6 months",
+      examples: [
+        "When did you come here?",
+        "I have been here for six months."
+      ],
+      gloss: "还在这里用 have been。不要说 I am here for 6 months."
+    },
     "B1-5": {
       fossil: "The girl sits next to me is Priya / the book who I read",
       examples: [
