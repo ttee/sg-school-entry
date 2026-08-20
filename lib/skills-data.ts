@@ -204,7 +204,7 @@ export const drills: SkillDrill[] = [
     skillId: "skill-present-simple",
     items: [
       {
-        question: "Mei ____ up at seven o'clock every Monday.",
+        question: "Mei ____ up at 6:15 every Monday.",
         options: ["wake", "wakes", "waking", "waked"],
         correctIndex: 1,
         whyWrong: [

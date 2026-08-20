@@ -1322,13 +1322,13 @@ export default function WeekHomework({
                 <textarea
                   value={answers[question.id] || ""}
                   onChange={(e) =>
-                    !isCompleted && !guest &&
+                    !isCompleted &&
                     handleTextChange(question.id, e.target.value)
                   }
-                  disabled={isCompleted || guest}
+                  disabled={isCompleted}
                   rows={8}
                   className="w-full px-4 py-3 bg-paper border border-line rounded-lg text-ink resize-y focus:outline-none focus:ring-2 focus:ring-accent disabled:opacity-60"
-                  placeholder={guest ? "登录后才能输入写作..." : "在此输入你的答案..."}
+                  placeholder={guest ? "可以在此打字，但登录后老师才收..." : "在此输入你的答案..."}
                 />
                 {!guest && (
                   <div className="flex justify-between items-center gap-3">
