@@ -334,6 +334,7 @@ export default function WeekHomework({
   const [submitting, setSubmitting] = useState(false);
   const [error, setError] = useState("");
   const [showTranscript, setShowTranscript] = useState<Record<string, boolean>>({});
+  const videoRef = useRef<HTMLVideoElement | null>(null);
   
   // Speaking recording state
   const [recording, setRecording] = useState<Record<string, boolean>>({});
@@ -716,13 +717,16 @@ export default function WeekHomework({
               {(() => {
                 // Calculate video source: use explicit videoUrl if set, otherwise try fallback
                 const fallbackVideoUrl = `/video/${week.level.toLowerCase()}-w${week.weekNumber}.mp4`;
+                const cacheBuster = `?v=20260820w1`;
                 const videoSrc = week.videoUrl || fallbackVideoUrl;
+                const videoSrcWithCacheBust = `${videoSrc}${cacheBuster}`;
                 
                 // If explicit video is set OR (no explicit video AND no error yet), show video player
                 if (hasExplicitVideo || (!hasExplicitVideo && !videoError)) {
                   return (
                     <>
                       <video
+                        ref={videoRef}
                         autoPlay
                         muted
                         loop
@@ -738,12 +742,25 @@ export default function WeekHomework({
                           }
                         }}
                       >
-                        <source src={videoSrc} type="video/mp4" />
+                        <source src={videoSrcWithCacheBust} type="video/mp4" />
                         Your browser does not support the video element.
                       </video>
-                      <p className="mt-2 text-sm text-ink-2">
-                        先看动画（无声自动播放）。要点右下角开声音。
-                      </p>
+                      <div className="mt-2 flex items-center gap-3">
+                        <p className="text-sm text-ink-2 flex-1">
+                          先看动画（无声自动播放）
+                        </p>
+                        <button
+                          onClick={() => {
+                            if (videoRef.current) {
+                              videoRef.current.muted = false;
+                              videoRef.current.volume = 1;
+                            }
+                          }}
+                          className="px-4 py-2 bg-accent text-accent-ink text-sm font-semibold rounded-full hover:bg-accent-hover transition-colors"
+                        >
+                          开声音
+                        </button>
+                      </div>
                       <div className="mt-3 text-sm text-ink-2 space-y-1">
                         <p className="font-semibold">💡 如何看微课 / How to use:</p>
                         <ol className="list-decimal list-inside space-y-1 ml-2">
@@ -1252,20 +1269,27 @@ export default function WeekHomework({
                       </div>
                       {showCorrect && (
                         <div className="mt-3 space-y-2">
-                          <p className="text-xs text-accent">
+                          <p className="text-sm text-accent font-semibold">
                             正确答案：{correctAnswer}
                           </p>
-                          {choiceWhyData && choiceWhyData[userAnswer] && (
-                            <p className="text-xs text-ink-2 bg-paper-2 rounded px-3 py-2">
-                              {choiceWhyData[userAnswer]}
-                            </p>
+                          {choiceWhyData && (
+                            <div className="text-sm text-ink-2 bg-paper-2 rounded px-3 py-2 space-y-1">
+                              {choiceWhyData[userAnswer] && (
+                                <p><strong>你的答案（{userAnswer}）：</strong>{choiceWhyData[userAnswer]}</p>
+                              )}
+                              {choiceWhyData[correctAnswer] && (
+                                <p className="text-accent"><strong>正确解释：</strong>{choiceWhyData[correctAnswer]}</p>
+                              )}
+                            </div>
                           )}
                         </div>
                       )}
                       {showCorrectAndRight && choiceWhyData && choiceWhyData[correctAnswer] && (
-                        <p className="text-xs text-muted mt-2">
-                          {choiceWhyData[correctAnswer]}
-                        </p>
+                        <div className="mt-3 bg-accent/10 rounded px-3 py-2">
+                          <p className="text-sm text-ink-2">
+                            <strong className="text-accent">✓ 正确！</strong> {choiceWhyData[correctAnswer]}
+                          </p>
+                        </div>
                       )}
                     </div>
                   );
