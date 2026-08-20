@@ -303,7 +303,14 @@ function sanitizeSpeakingContentForGuest(content: string): string {
     .replace(/提交给AI评估/g, "先看题目、先跟读")
     .replace(/录音将由AI评估并提供改进建议/g, "正式周由顾问开通批改")
     .replace(/录音将由AI评估/g, "正式周由顾问开通批改")
-    .replace(/AI评估/g, "顾问批改");
+    .replace(/AI评估/g, "顾问批改")
+    .replace(/\s*\([^)]*submit for AI feedback[^)]*\)/gi, "")
+    .replace(/\s*\([^)]*AI feedback[^)]*\)/gi, "")
+    .replace(/\s*\([^)]*AI evaluation[^)]*\)/gi, "")
+    .replace(/submit for AI feedback/gi, "")
+    .replace(/AI feedback/gi, "")
+    .replace(/AI evaluation/gi, "")
+    .trim();
 }
 
 export default function WeekHomework({
