@@ -149,7 +149,7 @@ export default function HomePage() {
               升学工作室
             </p>
             <h1 className="font-serif font-semibold text-3xl md:text-5xl leading-tight tracking-tight mb-4 max-w-4xl">
-              小学先过 CEQ 英语门槛。作业打开就能做。
+              小学走 CEQ，中学走 AEIS。作业打开就能做。
             </h1>
             <div className="flex flex-wrap gap-3 mb-3">
               <Link
