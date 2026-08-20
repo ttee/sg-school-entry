@@ -186,25 +186,13 @@ export default function HomePage() {
             </h2>
             <div className="max-w-2xl">
               <article className="bg-card border border-line rounded-2xl p-6 shadow mb-6">
-                <h3 className="font-serif text-xl font-semibold mb-2">CEQ 英语作业（A2 Key for Schools）</h3>
-                <p className="text-sm text-ink-2 mb-4">
-                  试学周今晚可做，12 周。
+                <p className="text-sm text-ink mb-4">
+                  12 周，RMB 2,680，向升学顾问支付。今晚打开试学就能做，不用登录。
                 </p>
-                <p className="text-sm text-ink-2 mb-4">
-                  向顾问支付 RMB 2,680。
-                </p>
-                <div className="bg-paper-2 rounded-xl p-4 mb-4 border border-line">
-                  <p className="text-sm text-ink font-mono">
-                    12周 CEQ 英语作业，RMB 2,680，向升学顾问支付。试学周今晚可做，无需登录。
-                  </p>
-                </div>
                 <p className="text-xs text-muted mb-1">
-                  联络：PayNow 94594601
+                  PayNow 94594601
                 </p>
               </article>
-              <p className="text-sm text-muted">
-                数学作业另议。
-              </p>
             </div>
           </div>
         </section>
