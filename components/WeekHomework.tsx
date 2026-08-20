@@ -226,6 +226,7 @@ type Week = {
   kaizenFocus: string | null;
   officialClipId: string | null;
   officialClipCredit: string | null;
+  isSample?: boolean;
 };
 
 type Submission = {
@@ -294,6 +295,15 @@ function getShortErrorFocus(errorFocus: string | null): string | null {
   
   // Only return mapped 简体 phrases, never English
   return null;
+}
+
+function sanitizeSpeakingContentForGuest(content: string): string {
+  return content
+    .replace(/播放听一听，满意后提交给AI评估/g, "先看题目、先跟读")
+    .replace(/提交给AI评估/g, "先看题目、先跟读")
+    .replace(/录音将由AI评估并提供改进建议/g, "正式周由顾问开通批改")
+    .replace(/录音将由AI评估/g, "正式周由顾问开通批改")
+    .replace(/AI评估/g, "顾问批改");
 }
 
 export default function WeekHomework({
@@ -1146,7 +1156,9 @@ export default function WeekHomework({
 
             {question.type !== "listening" && (
               <div className="whitespace-pre-wrap text-ink-2 mb-4">
-                {question.content}
+                {guest && question.type === "speaking" 
+                  ? sanitizeSpeakingContentForGuest(question.content)
+                  : question.content}
               </div>
             )}
 
