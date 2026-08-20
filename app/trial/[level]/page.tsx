@@ -73,10 +73,10 @@ export async function generateMetadata({
   
   if (level === "A2") {
     return {
-      title: "今天打开就能练",
+      title: "狮城入学 · 今天打开就能练",
       description: "不用登录。12 周 RMB 2,680，向升学顾问支付。",
       openGraph: {
-        title: "今天打开就能练",
+        title: "狮城入学 · 今天打开就能练",
         description: "不用登录。12 周 RMB 2,680，向升学顾问支付。",
         url: "https://sg-school-entry.vercel.app/trial/A2",
         siteName: "狮城入学",
@@ -87,13 +87,13 @@ export async function generateMetadata({
             url: "/og-ceq.jpg",
             width: 1200,
             height: 630,
-            alt: "CEQ 英语作业试学周",
+            alt: "狮城入学 · 今天打开就能练",
           },
         ],
       },
       twitter: {
         card: "summary_large_image",
-        title: "今天打开就能练",
+        title: "狮城入学 · 今天打开就能练",
         description: "不用登录。12 周 RMB 2,680，向升学顾问支付。",
         images: ["/og-ceq.jpg"],
       },
