@@ -627,7 +627,7 @@ export default function GuidePage() {
                   <div className="bg-paper-2 border border-line rounded-lg p-3 mt-3">
                     <p className="text-xs font-semibold text-ink mb-1">2026 年 AEIS（官方已公布）</p>
                     <ul className="text-xs text-ink-2 space-y-0.5">
-                      <li>• <strong className="text-ink">申请窗口（已关闭）：</strong>2026 年 AEIS 申请在 7 月。开闭以官网为准。</li>
+                      <li>• <strong className="text-ink">申请窗口（已关闭）：</strong>2026 年 AEIS 申请已结束。时间在 2026 年 7 月。开闭以官网为准。</li>
                       <li>• <strong className="text-ink">考试日期：</strong>Sec 1: 2026年9月1日（周二）；Sec 2/3: 2026年9月2日（周三）；Primary 2/3 及 4/5 数学: 2026年9月3日（周四）</li>
                       <li>• <strong className="text-ink">费用（官方）：</strong>小学 $340，中学 $630，另加 GST，不退费</li>
                       <li>• 录取后次年1月入学（视表现、空缺、居住区域而定）</li>
