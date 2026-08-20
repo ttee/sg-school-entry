@@ -68,7 +68,7 @@ export default async function LearnDashboard() {
             <>
               级别：<strong className="text-accent font-semibold">{userLevel}</strong> ·{" "}
               {isSubscribed ? (
-                <span className="text-accent font-semibold">订阅会员</span>
+                <span className="text-accent font-semibold">顾问已开通</span>
               ) : (
                 <span className="text-warn-ink">试学模式（仅可访问试学周）</span>
               )}
@@ -231,13 +231,16 @@ export default async function LearnDashboard() {
                         <div className="text-center">
                           <div className="text-2xl mb-1">🔒</div>
                           <p className="text-xs text-warn-ink font-semibold">
-                            订阅后解锁
+                            正式周由顾问开通
+                          </p>
+                          <p className="text-xs text-muted mt-1 max-w-[9rem]">
+                            请重新登录后打开本周作业
                           </p>
                           <Link
-                            href="/#ceq-course"
+                            href="/#contact"
                             className="text-xs text-accent hover:underline mt-1 inline-block"
                           >
-                            了解订阅
+                            回首页问顾问
                           </Link>
                         </div>
                       ) : isCompleted ? (
@@ -272,16 +275,16 @@ export default async function LearnDashboard() {
         {!isSubscribed && !isAdmin && (
           <div className="mt-8 bg-warn-bg border border-warn-ink/20 rounded-xl p-6">
             <h3 className="font-serif font-semibold text-lg text-ink mb-2">
-              订阅后解锁全部作业
+              正式周由顾问开通
             </h3>
             <p className="text-sm text-ink-2 mb-4">
-              订阅会员可访问所有 {userLevel} 级别每周作业，自动批改选择题，跟踪学习进度。
+              试学周现在就能做。正式周由顾问开通批改。顾问开通后请重新登录后打开本周作业。
             </p>
             <Link
-              href="/#ceq-course"
+              href="/#contact"
               className="inline-flex items-center justify-center px-5 py-2.5 bg-accent text-accent-ink text-sm font-semibold rounded-full hover:bg-accent-hover transition-colors"
             >
-              查看 CEQ 课程与订阅
+              回首页问顾问
             </Link>
           </div>
         )}

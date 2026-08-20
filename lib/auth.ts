@@ -52,6 +52,19 @@ export const authOptions: NextAuthOptions = {
         token.level = user.level;
         token.subscribed = user.subscribed;
       }
+      // Unlock is a human Prisma flip — there is no subscribe API.
+      // Re-read so a 30-day JWT cannot keep subscribed:false after the flip.
+      if (token.id) {
+        const dbUser = await prisma.user.findUnique({
+          where: { id: token.id as string },
+          select: { subscribed: true, role: true, level: true },
+        });
+        if (dbUser) {
+          token.subscribed = dbUser.subscribed;
+          token.role = dbUser.role;
+          token.level = dbUser.level;
+        }
+      }
       return token;
     },
     async session({ session, token }) {

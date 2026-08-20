@@ -726,7 +726,7 @@ export default function HomePage() {
                     className="w-full px-4 py-2.5 bg-paper border border-line rounded-xl text-ink focus:outline-none focus:ring-2 focus:ring-accent focus:border-accent"
                   >
                     <option value="">请选择</option>
-                    <option value="ceq-homework">CEQ 英语作业（RMB 2,680 / 12 周）</option>
+                    <option value="a2-12week">CEQ 英语作业（RMB 2,680 / 12 周）</option>
                   </select>
                 </div>
 
