@@ -28,13 +28,9 @@ export default function SkillsPage() {
 
       <main className="max-w-6xl mx-auto px-4 py-12">
         <div className="mb-8">
-          <h1 className="text-4xl font-bold text-ink mb-4">本周能练的 CEQ 技能</h1>
+          <h1 className="text-4xl font-bold text-ink mb-4">小学英语会练什么</h1>
           <p className="text-lg text-ink-2 mb-2">
             对应 A2 Key for Schools 语言范围，挂在现有故事周上。
-          </p>
-          <p className="text-sm text-muted">
-            非官方机构。本页技能点对应剑桥 A2 Key for Schools 考试手册（2020 年起）语言规范 + ALTE Can Do 描述，
-            挂在 Mei 故事周上供额外练习。
           </p>
         </div>
 
