@@ -72,10 +72,10 @@ export async function generateMetadata({
   
   if (level === "A2" && weekNumber === "1") {
     return {
-      title: "第 1 周 Daily Routines 日常作息 — 不用登录就能做",
+      title: "第 1 周：日常作息 — 不用登录就能做",
       description: "I wake up at 6:15. 不用登录。12 周 RMB 2,680，向升学顾问支付。",
       openGraph: {
-        title: "第 1 周 Daily Routines 日常作息 — 不用登录就能做",
+        title: "第 1 周：日常作息 — 不用登录就能做",
         description: "I wake up at 6:15. 不用登录。12 周 RMB 2,680，向升学顾问支付。",
         url: "https://sg-school-entry.vercel.app/trial/A2/1",
         siteName: "狮城入学",
@@ -92,7 +92,7 @@ export async function generateMetadata({
       },
       twitter: {
         card: "summary_large_image",
-        title: "第 1 周 Daily Routines 日常作息 — 不用登录就能做",
+        title: "第 1 周：日常作息 — 不用登录就能做",
         description: "I wake up at 6:15. 不用登录。12 周 RMB 2,680，向升学顾问支付。",
         images: ["/og-ceq.jpg"],
       },
@@ -299,7 +299,7 @@ Amy and I walk to the bus stop. We (7) ____ the same bus to school. Amy's school
         {level === "A2" && weekNum === 1 && (
           <div className="mb-6">
             <h1 className="font-serif font-semibold text-2xl text-ink mb-2">
-              第 1 周：Daily Routines 日常作息
+              第 1 周：日常作息
             </h1>
             <p className="text-ink-2 mb-4">
               选择题打开就能做。写作和口语先看题目、先跟读。正式周由顾问开通批改。
