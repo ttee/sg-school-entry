@@ -89,7 +89,6 @@ export default function HomePage() {
             </svg>
             <div className="flex flex-col leading-tight">
               <strong className="font-serif font-semibold text-ink tracking-wide">狮城入学</strong>
-              <span className="text-xs text-muted tracking-wider">SG SCHOOL ENTRY</span>
             </div>
           </Link>
           <nav className="hidden md:flex items-center gap-6 text-sm">
@@ -156,7 +155,7 @@ export default function HomePage() {
                 href="/trial/A2"
                 className="inline-flex items-center justify-center px-6 py-3.5 bg-accent text-accent-ink font-semibold rounded-full hover:bg-accent-hover transition-colors text-base"
               >
-                今晚试学
+                今晚试小学
               </Link>
               <Link
                 href="/trial"
@@ -168,14 +167,14 @@ export default function HomePage() {
                 href="/skills"
                 className="inline-flex items-center justify-center px-6 py-3.5 bg-transparent text-ink border border-accent font-semibold rounded-full hover:bg-accent/10 transition-colors text-base"
               >
-                看技能表
+                技能表
               </Link>
             </div>
             <p className="text-sm text-muted mb-6 max-w-2xl">
-              中学试学是 AEIS 英语和数学，不是 CEQ。
+              中学试学练 AEIS 英语和数学。
             </p>
             <p className="text-sm text-muted max-w-2xl">
-              非 MOE、SEAB、Cambridge 官方机构
+              非官方机构
             </p>
           </div>
         </section>
@@ -299,7 +298,7 @@ export default function HomePage() {
               小学一条路，中学另一条
             </h2>
             <p className="text-ink-2 mb-6 max-w-2xl">
-              学段不同，考试组合就不同。不要用中学的办法去准备小学，也不要把科学当成 AEIS 科目。
+              小学先过英语、再考数学；中学英语和数学都要考。科学等进校后再准备。
             </p>
             <div className="grid md:grid-cols-2 gap-5">
               <article className="bg-card border border-line rounded-2xl p-6 shadow">
@@ -328,7 +327,7 @@ export default function HomePage() {
                 <p className="text-xs font-bold tracking-widest uppercase text-accent mb-2">中学 · Sec 1–3</p>
                 <h3 className="font-serif text-xl font-semibold mb-2">中学路径</h3>
                 <p className="text-ink-2 mb-4">
-                  AEIS 英语与 AEIS 数学两科都要考。中学路径不要求 CEQ。
+                  中学考 AEIS 英语和数学。
                 </p>
                 <p className="text-sm text-ink-2 mb-4">
                   中学英语有试学周 + 第 1–11 周。中学数学有试学周 + 第 1–11 周。申请 Sec 1 用前一级 P6；申请 Sec 2 用前一级 Sec 1；申请 Sec 3 用前一级 Sec 2。卷型：英语是写作 + 理解/语言运用；数学是选择题 + 写算式。
@@ -338,7 +337,7 @@ export default function HomePage() {
                     英语、数学均在新加坡参加 AEIS（或后续的 S-AEIS，如当年开放）。
                   </li>
                   <li className="border-b border-line py-3 pl-5 relative before:absolute before:left-0 before:top-5 before:w-2 before:h-2 before:rounded-full before:bg-accent text-sm text-ink-2">
-                    不要求提交剑桥英语资格考试（CEQ）。
+                    中学申请走 AEIS 英语和数学。
                   </li>
                   <li className="border-b border-line py-3 pl-5 relative before:absolute before:left-0 before:top-5 before:w-2 before:h-2 before:rounded-full before:bg-accent text-sm text-ink-2">
                     科学及其他英语授课科目不是 AEIS 考试范围。部分预备课程会按教育部大纲教科学，那是入学后的适应，不能替代 AEIS。
