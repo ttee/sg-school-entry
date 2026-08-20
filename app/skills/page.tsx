@@ -58,7 +58,6 @@ export default function SkillsPage() {
               >
                 <div className="mb-3">
                   <h2 className="text-2xl font-bold text-ink mb-1">{skill.labelZh}</h2>
-                  <p className="text-sm text-muted">{skill.labelEn}</p>
                 </div>
                 <div className="mb-4">
                   <span className="inline-block bg-accent/10 text-accent px-3 py-1 rounded-full text-sm font-medium">

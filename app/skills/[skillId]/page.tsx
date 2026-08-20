@@ -44,7 +44,6 @@ export default function SkillDrillPage() {
         </header>
         <main className="max-w-4xl mx-auto px-4 py-12">
           <h1 className="text-3xl font-bold text-ink mb-2">{skill.labelZh}</h1>
-          <p className="text-muted mb-4">{skill.labelEn}</p>
           <div className="bg-warn-bg border border-line rounded-[--radius] p-6">
             <p className="text-warn-ink mb-4">
               先做{skill.weekLabel}作业。
@@ -111,7 +110,6 @@ export default function SkillDrillPage() {
       <main className="max-w-4xl mx-auto px-4 py-8">
         <div className="mb-6">
           <h1 className="text-3xl font-bold text-ink mb-2">{skill.labelZh}</h1>
-          <p className="text-muted mb-4">{skill.labelEn}</p>
           <div className="flex items-center gap-2">
             <span className="inline-block bg-accent/10 text-accent px-3 py-1 rounded-full text-sm font-medium">
               {skill.weekLabel}
