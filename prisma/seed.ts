@@ -2702,10 +2702,10 @@ Useful phrases:
       description: "Talking about everyday activities",
       isSample: false,
       dueDate: new Date("2026-08-20"),
-      errorFocus: "3sg-s",
-      parentBrief: "本周纠错焦点：第三人称单数 -s（he/she/it + 动词加 -s）。中文动词不变形，孩子常说 she wake up；英语里必须是 she wakes up。例如 Mei 自己说 I wake up at 6:15，但说到妹妹要加 -s：My sister wakes up later。另一个常错点是时间介词：at 6:15, in the morning, on Monday。",
+      errorFocus: "现在时第三人称 -s",
+      parentBrief: "本周只练 I wake up at 6:15 和 she wakes.",
       videoUrl: "/video/a2-w1.mp4",
-      kaizenFocus: "Add -s to verbs after he/she/it in present simple; use at/in/on for time correctly",
+      kaizenFocus: "Add -s to verbs after he/she/it in present simple",
       officialClipId: null,
       officialClipCredit: null,
       questions: [
@@ -2738,22 +2738,20 @@ School starts at 8:30. I have English, Math, and PE. At 2:00 p.m. school finishe
 
 My School Routine
 
-My name is Jun. I (1) ____ at 6:15 every morning. My sister Amy is in Primary 5. She (2) ____ her alarm at 6:30, so she wakes up later than me.
+My name is Jun. I (1) ____ at 6:15 every morning. My sister Amy is in Primary 5.
 
-After we wash up, we have breakfast together. Mum (3) ____ us rice porridge or toast. Amy always (4) ____ orange juice, but I prefer milk. Dad leaves for work (5) ____ 7:00 a.m. He (6) ____ the MRT to the city.
+After we wash up, we have breakfast together. Mum (2) ____ us rice porridge or toast. Amy always (3) ____ orange juice, but I prefer milk. Dad (4) ____ the MRT to the city.
 
-Amy and I walk to the bus stop. We (7) ____ the same bus to school. Amy's school is near mine, so we get off at the same stop. Then Amy walks left and I walk right!`,
+Amy and I walk to the bus stop. We (5) ____ the same bus to school. Amy's school is near mine, so we get off at the same stop. Then Amy walks left and I walk right!`,
           options: JSON.stringify([
             "(1)|A. wake up|B. wakes up|C. woke up|D. waking up",
-            "(2)|A. set|B. sets|C. setting|D. setted",
-            "(3)|A. make|B. makes|C. making|D. maked",
-            "(4)|A. drink|B. drinks|C. drank|D. drinking",
-            "(5)|A. in|B. on|C. at|D. to",
-            "(6)|A. take|B. takes|C. taking|D. taked",
-            "(7)|A. catch|B. catches|C. catched|D. catching",
+            "(2)|A. make|B. makes|C. making|D. maked",
+            "(3)|A. drink|B. drinks|C. drank|D. drinking",
+            "(4)|A. take|B. takes|C. taking|D. taked",
+            "(5)|A. catch|B. catches|C. catched|D. catching",
           ]),
-          correctAnswer: "A,B,B,B,C,B,A",
-          points: 7,
+          correctAnswer: "A,B,B,B,A",
+          points: 5,
         },
         {
           type: "writing",
@@ -2769,7 +2767,6 @@ Picture 3简体描述: Mei背着书包（school bag）走出家门，爸爸在�
 成功标准 / Success Criteria (Cambridge A2 Key for Schools Part 7 format):
 ✓ 写35词或以上 (Write 35 words or more)
 ✓ 描述所有3张图片发生的事 (Describe what happens in all 3 pictures)
-✓ 使用过去时（这是星期一早上发生的事）或现在时讲故事 (Use past tense for story OR present tense)
 ✓ 第三人称单数 -s（如果用现在时：She wakes, eats, leaves） (If present tense: use 3rd person -s)
 ✓ 故事连贯，有开头、经过、结尾 (Story flows with beginning, middle, end)`,
           points: 10,
