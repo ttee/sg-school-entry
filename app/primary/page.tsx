@@ -61,7 +61,7 @@ export default function PrimaryPage() {
                 href="/trial/A2"
                 className="inline-flex items-center justify-center px-6 py-3.5 bg-accent text-accent-ink font-semibold rounded-full hover:bg-accent-hover transition-colors text-base"
               >
-                今天打开英语试学
+                英语试学
               </Link>
               <Link
                 href="/skills"
