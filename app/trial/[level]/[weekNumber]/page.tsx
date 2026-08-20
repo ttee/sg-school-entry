@@ -132,6 +132,60 @@ export default async function TrialWeekPage({
     );
   }
 
+  // Override A2 Week 1 content with shortened texts from seed (after PR 279 merge)
+  // This ensures guests see the updated content even if production DB hasn't been re-seeded
+  if (level === "A2" && weekNum === 1) {
+    week.parentBrief = "本周纠错焦点：第三人称单数 -s（he/she/it + 动词加 -s）。中文动词不变形，孩子常说 she wake up；英语里必须是 she wakes up。例如 Mei 自己说 I wake up at 6:15，但说到妹妹要加 -s：My sister wakes up later。另一个常错点是时间介词：at 6:15, in the morning, on Monday。";
+    
+    // Update reading question (order 1)
+    const readingQ = week.questions.find(q => q.type === "reading" && q.order === 1);
+    if (readingQ) {
+      readingQ.content = `Read Mei's diary entry:
+
+My School Day – Monday
+
+My name is Mei. I live in Bedok with my family. Every Monday I wake up at 6:15. I brush my teeth and put on my school uniform. My mum prepares breakfast. I drink tea and check my school bag.
+
+My little sister Jia is still sleeping! She goes to kindergarten, so she wakes up later. At 7:00 my dad and I leave home. We walk to the bus stop and take the bus to school.
+
+School starts at 8:30. I have English, Math, and PE. At 2:00 p.m. school finishes. I take the bus home and do my homework. I like Mondays!`;
+      readingQ.options = JSON.stringify([
+        "What time does Mei wake up?|A. 6:00|B. 6:15|C. 7:00|D. 8:30",
+        "Who wakes up later than Mei?|A. Her dad|B. Her mum|C. Her sister Jia|D. Her teacher",
+        "What time does Mei leave home?|A. 6:15|B. 7:00|C. 8:30|D. 2:00",
+        "How does Mei travel to school?|A. She walks all the way|B. Dad drives her|C. She takes the bus|D. She rides a bicycle",
+        "What time does school start?|A. 6:15|B. 7:00|C. 8:30|D. 2:00",
+      ]);
+      readingQ.correctAnswer = "B,C,B,C,C";
+      readingQ.points = 5;
+    }
+    
+    // Update grammar question (order 2)
+    const grammarQ = week.questions.find(q => q.type === "grammar" && q.order === 2);
+    if (grammarQ) {
+      grammarQ.content = `Read about Jun's routine. Choose the correct word for each gap.
+
+My School Routine
+
+My name is Jun. I (1) ____ at 6:15 every morning. My sister Amy is in Primary 5. She (2) ____ her alarm at 6:30, so she wakes up later than me.
+
+After we wash up, we have breakfast together. Mum (3) ____ us rice porridge or toast. Amy always (4) ____ orange juice, but I prefer milk. Dad leaves for work (5) ____ 7:00 a.m. He (6) ____ the MRT to the city.
+
+Amy and I walk to the bus stop. We (7) ____ the same bus to school. Amy's school is near mine, so we get off at the same stop. Then Amy walks left and I walk right!`;
+      grammarQ.options = JSON.stringify([
+        "(1)|A. wake up|B. wakes up|C. woke up|D. waking up",
+        "(2)|A. set|B. sets|C. setting|D. setted",
+        "(3)|A. make|B. makes|C. making|D. maked",
+        "(4)|A. drink|B. drinks|C. drank|D. drinking",
+        "(5)|A. in|B. on|C. at|D. to",
+        "(6)|A. take|B. takes|C. taking|D. taked",
+        "(7)|A. catch|B. catches|C. catched|D. catching",
+      ]);
+      grammarQ.correctAnswer = "A,B,B,B,C,B,A";
+      grammarQ.points = 7;
+    }
+  }
+
   return (
     <div className="min-h-screen bg-paper">
       <header className="sticky top-0 z-40 bg-card/95 backdrop-blur-md border-b border-line">
