@@ -69,6 +69,30 @@ export default async function TrialWeekPage({
     notFound();
   }
 
+  // ONLY allow A2 Week 1 for public trial. Everything else is locked.
+  if (level !== "A2" || weekNum !== 1) {
+    return (
+      <>
+        <div className="min-h-screen bg-paper flex items-center justify-center px-4">
+          <div className="max-w-md text-center">
+            <h1 className="font-serif font-semibold text-2xl text-ink mb-3">
+              这一周未开放
+            </h1>
+            <p className="text-ink-2 mb-6">
+              {levelNames[level]} 第 {weekNumber} 周暂未开放试学。
+            </p>
+            <Link
+              href="/trial"
+              className="inline-flex items-center justify-center px-6 py-3 bg-accent text-accent-ink font-semibold rounded-full hover:bg-accent-hover transition-colors"
+            >
+              回到试学选择
+            </Link>
+          </div>
+        </div>
+      </>
+    );
+  }
+
   const week = await prisma.week.findUnique({
     where: {
       level_weekNumber: {
