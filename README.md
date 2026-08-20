@@ -16,7 +16,7 @@ A **trust page + homework app** for a small education studio. Not a self-serve U
 - **Parent is the customer.** 家长订阅，通过微信或 PayNow 付款，报名以咨询确认为准。
 - **Child is the user.** 孩子登录 `/learn` 做每周作业（阅读、语法、写作、听读准备、口语提示）。
 - **Small live classes + weekly homework app.** 小班直播课（最多 8 人）+ 每周作业 app。选择题自动批改，写作留给家长或老师查看。
-- **Membership gates learning.** 免费试学一周（Week 0）；订阅后解锁全部当前级别周数。
+- **Membership gates learning.** 免费试学一周（Week 0）；正式周由顾问开通。
 
 ### Learning pathway / 学习路径
 
@@ -101,22 +101,11 @@ All videos are original teaching materials, not Cambridge official content.
 
 ---
 
-## Demo Accounts / 试学账号
+## Local seed users (not a family seat)
 
-**Two seed users for testing:**
+Production seed does **not** upsert demo/admin users. `SEED_DEMO_USERS` defaults off; set `SEED_DEMO_USERS=true` only on a local machine. Seed never writes `subscribed: true`. Do not use a seed login as a paying family seat. Do not put passwords in this file.
 
-| Email | Password | Role | Level | Subscribed | Access |
-|-------|----------|------|-------|------------|--------|
-| `demo@sgschoolentry.local` | `demo1234` | student | A2 | ✅ Yes | All A2 weeks + sample week already submitted |
-| `trial@sgschoolentry.local` | `trial1234` | student | A2 | ❌ No | Week 0 (sample) only; other weeks locked with paywall |
-
-**Use these to test:**
-- Login at `/learn`
-- Dashboard shows weeks, completion status, scores
-- Trial user sees the paywall card on locked weeks
-- Demo user can submit homework and see auto-scoring
-
-**⚠️ Never present these as "real customers" in marketing or metrics.**
+Unlock after the placement agent confirms payment is a human Prisma flip (`User.subscribed = true`). The child then re-logs in. There is no subscribe API or admin toggle.
 
 ---
 
@@ -153,6 +142,7 @@ Required variables:
   - If not set, `DATABASE_URL` is used for both queries and migrations
 - `AUTH_SECRET` — generate with `openssl rand -base64 32`
 - `NEXTAUTH_URL` — defaults to `http://localhost:3000`
+- SEED_DEMO_USERS: production default off. true only locally. Unset or false on Vercel.
 - `GEMINI_API_KEY` or `GOOGLE_GENERATIVE_AI_API_KEY` — **Required for AI feedback**
   - Get a **free key** at [https://aistudio.google.com/apikey](https://aistudio.google.com/apikey)
   - Used for speaking evaluation (audio-to-feedback) and writing feedback
@@ -164,7 +154,7 @@ Required variables:
 
 ```bash
 npm run db:migrate # Run migrations to create tables
-npm run db:seed    # Seed demo users + weeks (idempotent, safe to re-run)
+npm run db:seed    # Seed week content; demo users only if SEED_DEMO_USERS=true
 ```
 
 Or for local dev with a fresh database:
@@ -174,10 +164,10 @@ npm run db:seed
 ```
 
 This creates:
-- 2 demo users (demo@ subscribed, trial@ not)
+- Week content only unless SEED_DEMO_USERS=true (those users stay unsubscribed)
 - 8 weeks total: 4 for A2 (Week 0–3), 4 for B1 (Week 0–3)
 - Each week has 5 question types: reading, grammar, writing, listening, speaking
-- Demo user has Week 0 (sample) already submitted with score
+- Paid unlock is a human Prisma flip, not the seed
 
 **Seed is idempotent** — re-running is safe and UPDATES existing week content in place. Questions are upserted by `(weekId, order)`, so production content will refresh on every build. This allows homework content to be improved over time without orphaning existing submissions.
 
@@ -191,7 +181,7 @@ Open [http://localhost:3000](http://localhost:3000)
 
 - `/` — marketing landing page (parent-facing trust page)
 - `/learn` — homework app (child-facing, login required)
-- `/login` — login page with demo credentials shown
+- `/login` — child login (advisor-issued account; no public password table)
 
 ### 5. Build for production
 
@@ -270,7 +260,7 @@ npm start
 **Access control:**
 - Unsubscribed (`subscribed: false`): can only access weeks where `isSample: true` (Week 0).
 - Subscribed (`subscribed: true`): can access all weeks for their level.
-- Paywall card shown on locked weeks: "订阅后解锁 / Unlock with subscription" → links to `/#ceq-course`.
+- Locked weeks say 正式周由顾问开通 / 请重新登录后打开本周作业 and link to `/#contact`. Opened weeks say 顾问已开通.
 
 **Scoring:**
 - MCQs (reading, grammar, listening): auto-scored against `correctAnswer`.
@@ -293,7 +283,7 @@ npm start
 - ✅ Dashboard showing weeks, progress, scores
 - ✅ Paywall for unsubscribed users
 - ✅ Auto-scoring for MCQs
-- ✅ Demo accounts (subscribed vs trial)
+- ✅ Advisor Prisma unlock + child re-login
 
 **Future (can be "coming soon / locked" in v1):**
 - AEIS Mathematics track (after CEQ → separate weeks or progression gate)
@@ -334,7 +324,7 @@ npm start
      - **Note:** Free-tier audio may be used by Google to improve products
 5. Deploy
    - **Schema and seed run automatically** during build (`npm run build` includes `prisma migrate deploy && prisma db seed`)
-   - First deploy runs migrations to create tables, then seeds demo users + weeks
+   - First deploy runs migrations to create tables, then seeds week content. Set SEED_DEMO_USERS=false (or leave unset) on Vercel Production — this commit cannot write Vercel env from gh
    - Migrations are committed to repo under `prisma/migrations/`
    - Seed is idempotent — safe to re-run on subsequent deploys
    - **Safe for existing databases** — migrations only touch our tables (User, Week, Question, Submission), won't affect Supabase Auth or other tables
@@ -354,7 +344,7 @@ npm start
 After first deploy, run once:
 ```bash
 npx prisma db push    # Create tables
-npx prisma db seed    # Seed demo users + weeks
+npx prisma db seed    # Seed week content (demo users off unless SEED_DEMO_USERS=true)
 ```
 
 ---

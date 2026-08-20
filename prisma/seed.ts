@@ -1,83 +1,114 @@
 import { prisma } from "../lib/db";
 import * as bcrypt from "bcryptjs";
 
+/** Production default OFF. Only set SEED_DEMO_USERS=true on a local machine. */
+const SEED_DEMO_USERS = process.env.SEED_DEMO_USERS === "true";
+const SEEDED_EMAILS = [
+  "demo@sgschoolentry.local",
+  "trial@sgschoolentry.local",
+  "admin@sgschoolentry.local",
+  "math@sgschoolentry.local",
+] as const;
+
 async function main() {
-  console.log("🌱 Starting seed...");
+  console.log("Starting seed...");
+  console.log(
+    SEED_DEMO_USERS
+      ? "SEED_DEMO_USERS=true — upserting local demo users (subscribed stays false)"
+      : "SEED_DEMO_USERS is off (production default) — not upserting demo users"
+  );
 
-  // Upsert demo users - only hash password on create, not on update
-  const demoUser = await prisma.user.upsert({
-    where: { email: "demo@sgschoolentry.local" },
-    update: {
-      name: "Demo Student",
-      role: "student",
-      level: "A2",
-      subscribed: true,
-    },
-    create: {
-      email: "demo@sgschoolentry.local",
-      password: await bcrypt.hash("demo1234", 10),
-      name: "Demo Student",
-      role: "student",
-      level: "A2",
-      subscribed: true,
-    },
-  });
+  // Anyone who can read GitHub must not keep a paid seat. When seeding is off,
+  // revoke subscribed on public seed emails and drop the public admin role.
+  if (!SEED_DEMO_USERS) {
+    await prisma.user.updateMany({
+      where: { email: { in: [...SEEDED_EMAILS] }, subscribed: true },
+      data: { subscribed: false },
+    });
+    await prisma.user.updateMany({
+      where: { email: "admin@sgschoolentry.local" },
+      data: { role: "student" },
+    });
+  }
 
-  const trialUser = await prisma.user.upsert({
-    where: { email: "trial@sgschoolentry.local" },
-    update: {
-      name: "Trial Student",
-      role: "student",
-      level: "A2",
-      subscribed: false,
-    },
-    create: {
-      email: "trial@sgschoolentry.local",
-      password: await bcrypt.hash("trial1234", 10),
-      name: "Trial Student",
-      role: "student",
-      level: "A2",
-      subscribed: false,
-    },
-  });
+  let demoUser: { id: string } | null = null;
+  let trialUser: { id: string } | null = null;
+  let adminUser: { id: string } | null = null;
 
-  const adminUser = await prisma.user.upsert({
-    where: { email: "admin@sgschoolentry.local" },
-    update: {
-      name: "Review Admin",
-      role: "admin",
-      level: null,
-      subscribed: true,
-    },
-    create: {
-      email: "admin@sgschoolentry.local",
-      password: await bcrypt.hash("admin1234", 10),
-      name: "Review Admin",
-      role: "admin",
-      level: null,
-      subscribed: true,
-    },
-  });
+  if (SEED_DEMO_USERS) {
+    const demoUserRow = await prisma.user.upsert({
+      where: { email: "demo@sgschoolentry.local" },
+      update: {
+        name: "Demo Student",
+        role: "student",
+        level: "A2",
+      },
+      create: {
+        email: "demo@sgschoolentry.local",
+        password: await bcrypt.hash("demo1234", 10),
+        name: "Demo Student",
+        role: "student",
+        level: "A2",
+        subscribed: false,
+      },
+    });
 
-  const mathTrialUser = await prisma.user.upsert({
-    where: { email: "math@sgschoolentry.local" },
-    update: {
-      name: "Math Trial Student",
-      role: "student",
-      level: "MATH",
-      subscribed: false,
-    },
-    create: {
-      email: "math@sgschoolentry.local",
-      password: await bcrypt.hash("math1234", 10),
-      name: "Math Trial Student",
-      role: "student",
-      level: "MATH",
-      subscribed: false,
-    },
-  });
+    const trialUserRow = await prisma.user.upsert({
+      where: { email: "trial@sgschoolentry.local" },
+      update: {
+        name: "Trial Student",
+        role: "student",
+        level: "A2",
+      },
+      create: {
+        email: "trial@sgschoolentry.local",
+        password: await bcrypt.hash("trial1234", 10),
+        name: "Trial Student",
+        role: "student",
+        level: "A2",
+        subscribed: false,
+      },
+    });
 
-  console.log("✅ Upserted demo users");
+    const adminUserRow = await prisma.user.upsert({
+      where: { email: "admin@sgschoolentry.local" },
+      update: {
+        name: "Review Admin",
+        role: "admin",
+        level: null,
+      },
+      create: {
+        email: "admin@sgschoolentry.local",
+        password: await bcrypt.hash("admin1234", 10),
+        name: "Review Admin",
+        role: "admin",
+        level: null,
+        subscribed: false,
+      },
+    });
+
+    await prisma.user.upsert({
+      where: { email: "math@sgschoolentry.local" },
+      update: {
+        name: "Math Trial Student",
+        role: "student",
+        level: "MATH",
+      },
+      create: {
+        email: "math@sgschoolentry.local",
+        password: await bcrypt.hash("math1234", 10),
+        name: "Math Trial Student",
+        role: "student",
+        level: "MATH",
+        subscribed: false,
+      },
+    });
+
+    demoUser = demoUserRow;
+    trialUser = trialUserRow;
+    adminUser = adminUserRow;
+    console.log("Upserted local demo users (subscribed stays false)");
+  }
 
   // =================================================================
   // WEEK DEFINITIONS
@@ -18400,15 +18431,16 @@ Note: This is a sample of Part 2 short-answer/open-ended questions. The official
   // Demo, trial, and admin accounts should start fresh with zero submissions
   // so users can actually try the sample weeks
 
-  await prisma.submission.deleteMany({
-    where: {
-      userId: {
-        in: [demoUser.id, trialUser.id, adminUser.id],
+  if (SEED_DEMO_USERS && demoUser && trialUser && adminUser) {
+    await prisma.submission.deleteMany({
+      where: {
+        userId: {
+          in: [demoUser.id, trialUser.id, adminUser.id],
+        },
       },
-    },
-  });
-
-  console.log("✅ Demo, trial, and admin users have no submissions");
+    });
+    console.log("Demo, trial, and admin users have no submissions");
+  }
   console.log("🎉 Seed completed!");
 }
 
