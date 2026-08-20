@@ -1,7 +1,6 @@
 export interface Skill {
   id: string;
   labelZh: string;
-  labelEn: string;
   weekLabel: string;
   weekNumber: number;
 }
@@ -22,84 +21,72 @@ export const skills: Skill[] = [
   {
     id: "skill-articles",
     labelZh: "冠词 a / an / the",
-    labelEn: "articles, demonstratives, possessives",
     weekLabel: "试学周",
     weekNumber: 0,
   },
   {
     id: "skill-prep-place",
     labelZh: "地点介词 in / at / near",
-    labelEn: "prepositions of location",
     weekLabel: "试学周",
     weekNumber: 0,
   },
   {
     id: "skill-present-simple",
     labelZh: "现在时第三人称 -s",
-    labelEn: "present simple 3sg -s",
     weekLabel: "第 1 周",
     weekNumber: 1,
   },
   {
     id: "skill-interrogative-what-time",
     labelZh: "疑问句 What time…?",
-    labelEn: "interrogatives What time",
     weekLabel: "第 1 周",
     weekNumber: 1,
   },
   {
     id: "skill-genitive",
     labelZh: "所有格 's",
-    labelEn: "genitive 's",
     weekLabel: "第 1 周",
     weekNumber: 1,
   },
   {
     id: "skill-present-continuous",
     labelZh: "现在进行时",
-    labelEn: "present continuous",
     weekLabel: "第 2 周",
     weekNumber: 2,
   },
   {
     id: "skill-past-simple",
     labelZh: "一般过去时",
-    labelEn: "past simple",
     weekLabel: "第 3 周",
     weekNumber: 3,
   },
   {
     id: "skill-quantifiers",
     labelZh: "可数与不可数",
-    labelEn: "quantifiers / countable-uncountable",
     weekLabel: "第 4 周",
     weekNumber: 4,
   },
   {
     id: "skill-comparatives",
     labelZh: "比较级和最高级",
-    labelEn: "comparatives and superlatives",
     weekLabel: "第 5 周",
     weekNumber: 5,
   },
   {
     id: "skill-prep-time",
     labelZh: "时间介词 at / in / on",
-    labelEn: "prepositions of time",
     weekLabel: "第 6 周",
     weekNumber: 6,
   },
   {
     id: "skill-going-to",
     labelZh: "打算 going to",
-    labelEn: "going to for future plans",
     weekLabel: "第 7 周",
     weekNumber: 7,
   },
   {
     id: "skill-classroom",
     labelZh: "课堂 can / must",
-    labelEn: "can, must + classroom instructions",
     weekLabel: "第 8 周",
     weekNumber: 8,
   },
