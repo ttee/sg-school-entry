@@ -127,8 +127,7 @@ export default async function TrialPage() {
         <div className="bg-accent/5 border border-accent/20 rounded-xl p-5">
           <p className="text-sm text-ink-2">
             <strong className="text-ink">试学说明：</strong>
-            试学周不需要登录。选择题可以在浏览器本地查看对错。写作和口语只能看题目提示，
-            登录后老师才收写作和口语。要账号请回首页报名表。
+            试学周不需要登录。选择题当场看对错。要账号请回首页报名表。
           </p>
         </div>
       </main>
