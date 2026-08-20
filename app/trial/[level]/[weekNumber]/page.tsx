@@ -9,13 +9,26 @@ export const dynamic = 'force-dynamic';
 const validLevels = ["A2", "B1", "MATH", "SEC", "SMATH"];
 
 function sanitizeSpeakingContentForGuest(content: string): string {
-  return content
+  // Remove Grammar focus for AI section and AI will sentences
+  let sanitized = content
+    .replace(/Grammar focus for AI:[\s\S]*?(?=如何练习|$)/gi, "")
+    .replace(/AI will [^\n]*\n?/gi, "")
+    .replace(/AI会[^\n。]*[。\n]/g, "")
+    .replace(/AI会[^\n。]*/g, "");
+  
+  // Replace the entire 如何练习 section with guest-friendly version
+  sanitized = sanitized.replace(
+    /如何练习\s*\/\s*How to practise:[\s\S]*/i,
+    "如何练习 / How to practise:\n1. 先看题目\n2. 先跟读"
+  );
+  
+  // Additional cleanup for any remaining AI/recording references
+  sanitized = sanitized
     .replace(/播放听一听，满意后提交给AI评估/g, "")
     .replace(/提交给AI评估/g, "")
     .replace(/录音将由AI评估并提供改进建议/g, "")
     .replace(/录音将由AI评估/g, "")
     .replace(/AI评估/g, "")
-    .replace(/AI会评估/g, "")
     .replace(/\s*\([^)]*submit for AI[^)]*\)/gi, "")
     .replace(/\s*\([^)]*AI feedback[^)]*\)/gi, "")
     .replace(/\s*\([^)]*AI evaluation[^)]*\)/gi, "")
@@ -24,15 +37,22 @@ function sanitizeSpeakingContentForGuest(content: string): string {
     .replace(/AI feedback/gi, "")
     .replace(/AI evaluation/gi, "")
     .replace(/点击下方"开始录音"按钮/g, "")
-    .replace(/点击"开始录音"[^。]*/g, "")
-    .replace(/\d+\.\s*点击[^。]*"开始录音"[^。\n]*/g, "")
+    .replace(/点击"开始录音"[^。\n]*/g, "")
+    .replace(/\d+\.\s*点击[^。\n]*"开始录音"[^。\n]*/g, "")
     .replace(/Tap\s+(?:the\s+)?"开始录音"[^\n。]*/gi, "")
     .replace(/\([^)]*Tap\s+"开始录音"[^)]*\)/gi, "")
     .replace(/开始录音/g, "")
+    .replace(/正式周由顾问开通批改功能/g, "")
+    .replace(/正式周由顾问开通批改/g, "")
+    // Clean up orphaned parentheses and excessive whitespace
+    .replace(/\(\s*\)/g, "")
+    .replace(/^\s*\(\s*$/gm, "")
     .replace(/\s{2,}/g, " ")
-    .replace(/^\s+|\s+$/g, "")
-    .replace(/^[。\s]+|[。\s]+$/g, "")
+    .replace(/\n{3,}/g, "\n\n")
+    .replace(/^\s+|\s+$/gm, "")
     .trim();
+  
+  return sanitized;
 }
 
 const levelNames: Record<string, string> = {
