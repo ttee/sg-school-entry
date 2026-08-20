@@ -143,7 +143,7 @@ export default function HomePage() {
             </p>
             <h1 className="font-serif font-semibold text-3xl md:text-5xl leading-tight tracking-tight mb-4 max-w-4xl">
               <span className="block">进新加坡政府学校。</span>
-              <span className="block">今天打开就能练。</span>
+              <span className="block">今天打开就能做。</span>
             </h1>
             <div className="flex flex-wrap gap-3 mb-3">
               <Link
