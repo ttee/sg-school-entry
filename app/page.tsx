@@ -719,13 +719,13 @@ export default function HomePage() {
                     className="w-full px-4 py-2.5 bg-paper border border-line rounded-xl text-ink focus:outline-none focus:ring-2 focus:ring-accent focus:border-accent"
                   >
                     <option value="">请选择</option>
-                    <optgroup label="小学 Primary">
+                    <optgroup label="小学">
                       <option value="P2">P2</option>
                       <option value="P3">P3</option>
                       <option value="P4">P4</option>
                       <option value="P5">P5</option>
                     </optgroup>
-                    <optgroup label="中学 Secondary">
+                    <optgroup label="中学">
                       <option value="Sec1">Sec 1</option>
                       <option value="Sec2">Sec 2</option>
                       <option value="Sec3">Sec 3</option>
@@ -735,7 +735,9 @@ export default function HomePage() {
 
                 <div>
                   <label htmlFor="intent" className="block text-sm font-semibold text-ink mb-1">
-                    报名意向 <span className="text-accent">*</span>
+                    {formData.stage === "Sec1" || formData.stage === "Sec2" || formData.stage === "Sec3" 
+                      ? "中学 AEIS 咨询"
+                      : "报名意向"} <span className="text-accent">*</span>
                   </label>
                   <select
                     id="intent"
@@ -817,9 +819,9 @@ export default function HomePage() {
             狮城入学（SG School Entry）与新加坡教育部（MOE）、新加坡考试与评鉴局（SEAB）、剑桥大学英语考评部（Cambridge English）均无隶属、授权或官方合作关系。本站不使用新加坡狮头国家标志，也不使用上述机构的标识。页面内容仅为路径说明，不构成录取、派位、签证或入境方面的承诺或法律意见。入学资格、考期、规则一律以各机构官网为准。
           </p>
           <div className="flex flex-wrap gap-4 text-sm text-muted">
-            <span>狮城入学 · SG School Entry</span>
+            <span>狮城入学</span>
             <Link href="/privacy" className="hover:text-ink transition-colors">
-              隐私 / Privacy
+              隐私政策
             </Link>
             <a
               href="https://www.moe.gov.sg/international-students/aeis"

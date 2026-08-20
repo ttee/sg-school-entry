@@ -3,6 +3,19 @@ import { prisma } from "@/lib/db";
 
 export const dynamic = 'force-dynamic';
 
+export const metadata = {
+  title: "狮城入学 · 免费试学周",
+  description: "狮城入学 · 小学 CEQ，中学 AEIS.",
+  openGraph: {
+    title: "狮城入学 · 免费试学周",
+    description: "狮城入学 · 小学 CEQ，中学 AEIS.",
+    url: "https://sg-school-entry.vercel.app/trial",
+    siteName: "狮城入学",
+    locale: "zh_CN",
+    type: "website",
+  },
+};
+
 export default async function TrialPage() {
   const trialWeeks = await prisma.week.findMany({
     where: {
@@ -31,6 +44,14 @@ export default async function TrialPage() {
     MATH: "AEIS 数学（小学 P2–P4）",
     SEC: "中学英语（Sec 1）",
     SMATH: "中学数学（Sec 1）",
+  };
+
+  const levelDescriptions: Record<string, string> = {
+    A2: "新加坡小学第一周",
+    B1: "转去全英语学校",
+    MATH: "小学 AEIS 数学：整数和钱币",
+    SEC: "中学 AEIS 英语：写作 + 理解/语言运用样本",
+    SMATH: "中学 AEIS 数学：小六百分数样本",
   };
 
   return (
@@ -85,7 +106,7 @@ export default async function TrialPage() {
                 {levelNames[week.level] || week.level}
               </h2>
               <p className="text-sm text-ink-2 mb-3">
-                {week.description}
+                {levelDescriptions[week.level] || week.description}
               </p>
               <div className="text-accent font-semibold text-sm flex items-center gap-2">
                 开始试学 →
@@ -139,10 +160,10 @@ export default async function TrialPage() {
           </p>
           <div className="flex flex-wrap gap-4 text-sm text-muted">
             <Link href="/" className="hover:text-ink transition-colors">
-              狮城入学 · SG School Entry
+              狮城入学
             </Link>
             <Link href="/privacy" className="hover:text-ink transition-colors">
-              隐私 / Privacy
+              隐私政策
             </Link>
           </div>
         </div>
