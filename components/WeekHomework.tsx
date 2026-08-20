@@ -717,7 +717,7 @@ export default function WeekHomework({
               {(() => {
                 // Calculate video source: use explicit videoUrl if set, otherwise try fallback
                 const fallbackVideoUrl = `/video/${week.level.toLowerCase()}-w${week.weekNumber}.mp4`;
-                const cacheBuster = `?v=20260820w1v4`;
+                const cacheBuster = `?v=20260820w1v5`;
                 const videoSrc = week.videoUrl || fallbackVideoUrl;
                 const videoSrcWithCacheBust = `${videoSrc}${cacheBuster}`;
                 
