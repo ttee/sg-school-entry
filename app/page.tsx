@@ -173,9 +173,6 @@ export default function HomePage() {
             <p className="text-sm text-muted mb-6 max-w-2xl">
               小学今晚练英语。中学英语和数学在试学页里。
             </p>
-            <p className="text-sm text-muted max-w-2xl">
-              这是顾问的作业，不是学校或考局的网站。
-            </p>
           </div>
         </section>
 
