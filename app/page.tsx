@@ -247,10 +247,10 @@ export default function HomePage() {
 
             <div className="flex flex-wrap gap-3 mt-6">
               <Link
-                href="/trial/A2"
+                href="/小学"
                 className="inline-flex items-center justify-center px-6 py-3 bg-accent text-accent-ink font-semibold rounded-full hover:bg-accent-hover transition-colors"
               >
-                先做一周试学 →
+                小学
               </Link>
               <Link
                 href="/#contact"
@@ -763,7 +763,7 @@ export default function HomePage() {
               <div className="bg-paper-2 border border-line rounded-xl p-5">
                 <h3 className="font-serif font-semibold text-base mb-2 text-ink">免费试学</h3>
                 <p className="text-sm text-ink-2">
-                  现在就打开<Link href="/trial/A2" className="text-accent hover:underline">试学周</Link>，不用登录先看作业长什么样。
+                  现在就打开<Link href="/小学" className="text-accent hover:underline">小学</Link>，不用登录先看作业长什么样。
                 </p>
               </div>
             </div>
@@ -786,6 +786,9 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-4">
           <div className="flex flex-wrap gap-4 text-sm text-muted">
             <span>狮城入学</span>
+            <Link href="/小学" className="hover:text-ink transition-colors">
+              小学
+            </Link>
             <Link href="/privacy" className="hover:text-ink transition-colors">
               隐私政策
             </Link>

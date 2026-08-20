@@ -16,8 +16,8 @@ export default function SkillsPage() {
             狮城入学
           </Link>
           <div className="flex gap-4">
-            <Link href="/trial" className="text-accent hover:text-accent-hover font-medium">
-              免费试学
+            <Link href="/小学" className="text-accent hover:text-accent-hover font-medium">
+              小学
             </Link>
             <Link href="/login" className="text-accent hover:text-accent-hover font-medium">
               登录
