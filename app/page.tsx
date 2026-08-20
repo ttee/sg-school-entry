@@ -92,14 +92,11 @@ export default function HomePage() {
             </div>
           </Link>
           <nav className="hidden md:flex items-center gap-6 text-sm">
-            <Link href="/trial/A2" className="text-ink-2 hover:text-ink transition-colors font-medium">
-              今天试小学
+            <Link href="/小学" className="text-ink-2 hover:text-ink transition-colors font-medium">
+              小学
             </Link>
-            <Link href="/trial" className="text-ink-2 hover:text-ink transition-colors font-medium">
-              中学英语和数学
-            </Link>
-            <Link href="/skills" className="text-ink-2 hover:text-ink transition-colors font-medium">
-              小学英语会练什么
+            <Link href="/中学" className="text-ink-2 hover:text-ink transition-colors font-medium">
+              中学
             </Link>
             <Link href="#contact" className="text-ink-2 hover:text-ink transition-colors font-medium">
               咨询
@@ -124,14 +121,11 @@ export default function HomePage() {
         {showMobileMenu && (
           <div className="md:hidden border-t border-line bg-paper">
             <div className="px-4 py-3 space-y-3">
-              <Link href="/trial/A2" className="block text-ink-2 hover:text-ink transition-colors font-medium" onClick={() => setShowMobileMenu(false)}>
-                今天试小学
+              <Link href="/小学" className="block text-ink-2 hover:text-ink transition-colors font-medium" onClick={() => setShowMobileMenu(false)}>
+                小学
               </Link>
-              <Link href="/trial" className="block text-ink-2 hover:text-ink transition-colors font-medium" onClick={() => setShowMobileMenu(false)}>
-                中学英语和数学
-              </Link>
-              <Link href="/skills" className="block text-ink-2 hover:text-ink transition-colors font-medium" onClick={() => setShowMobileMenu(false)}>
-                小学英语会练什么
+              <Link href="/中学" className="block text-ink-2 hover:text-ink transition-colors font-medium" onClick={() => setShowMobileMenu(false)}>
+                中学
               </Link>
               <Link href="#contact" className="block text-ink-2 hover:text-ink transition-colors font-medium" onClick={() => setShowMobileMenu(false)}>
                 咨询
@@ -153,26 +147,20 @@ export default function HomePage() {
             </h1>
             <div className="flex flex-wrap gap-3 mb-3">
               <Link
-                href="/trial/A2"
+                href="/小学"
                 className="inline-flex items-center justify-center px-6 py-3.5 bg-accent text-accent-ink font-semibold rounded-full hover:bg-accent-hover transition-colors text-base"
               >
-                今天试小学
+                小学
               </Link>
               <Link
-                href="/trial"
+                href="/中学"
                 className="inline-flex items-center justify-center px-6 py-3.5 bg-transparent text-ink border border-accent font-semibold rounded-full hover:bg-accent/10 transition-colors text-base"
               >
-                中学英语和数学
-              </Link>
-              <Link
-                href="/skills"
-                className="inline-flex items-center justify-center px-6 py-3.5 bg-transparent text-ink border border-accent font-semibold rounded-full hover:bg-accent/10 transition-colors text-base"
-              >
-                小学英语会练什么
+                中学
               </Link>
             </div>
             <p className="text-sm text-muted mb-4 max-w-2xl">
-              小学先打开英语。中学英语和数学在试学页里。
+              先选小学还是中学。
             </p>
             <p className="text-sm text-ink mb-1 max-w-2xl">
               12 周，RMB 2,680，向升学顾问支付。今天打开试学，不用登录。
