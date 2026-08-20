@@ -2693,7 +2693,7 @@ Useful phrases:
 1. 准备1分钟 (Prepare for 1 minute)
 2. 点击下方"开始录音"按钮 (Tap the "开始录音" button below)
 3. 说完整1分钟，然后停止 (Speak for the full minute, then stop)
-4. 播放听一听，看看题目，先跟读 (Playback, review the prompt, practice speaking)`,
+4. 先看题目、先跟读；正式周由顾问开通批改`,
           points: 5,
         },
       ],
@@ -3884,8 +3884,7 @@ Useful phrases (时态对比练习):
 1. 想一个真实经历 (Think of a real experience)
 2. 准备2分钟内容 (Prepare 2 minutes of content)
 3. 点击"开始录音"，有2分钟时间 (Tap "开始录音", you have 2 minutes)
-4. 提交后AI会评估发音、流利度、任务完成度、时态准确性 (AI evaluates pronunciation, fluency, task, tense accuracy)
-5. 根据反馈的"改善焦点"再录一次 (Re-record focusing on the improvement tip)`,
+4. 先看题目、先跟读；正式周由顾问开通批改`,
           points: 5,
         },
       ],
