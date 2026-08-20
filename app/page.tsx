@@ -282,7 +282,7 @@ export default function HomePage() {
                     英语：剑桥英语资格考试（Cambridge English Qualifications, CEQ）。P2–P4 一般对应 A2 Key for Schools；P5 一般对应 B1 Preliminary for Schools。
                   </li>
                   <li className="border-b border-line py-3 pl-5 relative before:absolute before:left-0 before:top-5 before:w-2 before:h-2 before:rounded-full before:bg-accent text-sm text-ink-2">
-                    CEQ 须在提交 AEIS / S-AEIS 申请前 12 个月内取得。提供成绩单 PDF（Statement of Results）即可，不必等待纸质证书。
+                    小学才要 CEQ。2026 年 AEIS 从 2025 年 7 月起考；2027 年小学 S-AEIS 从 2026 年 1 月起考。都按提交申请那一个月往前的 12 个月算。以官网为准。提供成绩单 PDF（Statement of Results）即可，不必等待纸质证书。
                   </li>
                   <li className="border-b border-line py-3 pl-5 relative before:absolute before:left-0 before:top-5 before:w-2 before:h-2 before:rounded-full before:bg-accent text-sm text-ink-2">
                     数学：赴新加坡参加 AEIS 数学。考试地点与场次以教育部公布为准。
@@ -297,7 +297,7 @@ export default function HomePage() {
                 <p className="text-xs font-bold tracking-widest uppercase text-accent mb-2">中学 · Sec 1–3</p>
                 <h3 className="font-serif text-xl font-semibold mb-2">中学路径</h3>
                 <p className="text-ink-2 mb-4">
-                  中学考 AEIS 英语和数学。
+                  中学考 AEIS 英语和数学。中学不用考 CEQ。
                 </p>
                 <p className="text-sm text-ink-2 mb-4">
                   中学英语有试学周 + 第 1–11 周。中学数学有试学周 + 第 1–11 周。申请 Sec 1 用前一级 P6；申请 Sec 2 用前一级 Sec 1；申请 Sec 3 用前一级 Sec 2。卷型：英语是写作 + 理解/语言运用；数学是选择题 + 写算式。
