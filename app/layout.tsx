@@ -19,7 +19,7 @@ export const metadata: Metadata = {
         url: "/og-ceq.jpg",
         width: 1200,
         height: 630,
-        alt: "狮城入学 · CEQ 英语作业",
+        alt: "狮城入学 · 进新加坡政府学校",
       },
     ],
   },

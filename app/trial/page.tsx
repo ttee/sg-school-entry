@@ -5,10 +5,10 @@ export const dynamic = 'force-dynamic';
 
 export const metadata = {
   title: "狮城入学 · 免费试学周",
-  description: "狮城入学 · 小学 CEQ，中学 AEIS.",
+  description: "狮城入学 · 进新加坡政府学校",
   openGraph: {
     title: "狮城入学 · 免费试学周",
-    description: "狮城入学 · 小学 CEQ，中学 AEIS.",
+    description: "狮城入学 · 进新加坡政府学校",
     url: "https://sg-school-entry.vercel.app/trial",
     siteName: "狮城入学",
     locale: "zh_CN",
