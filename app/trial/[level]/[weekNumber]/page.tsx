@@ -246,7 +246,7 @@ Amy and I walk to the bus stop. We (7) ____ the same bus to school. Amy's school
               第 1 周：Daily Routines 日常作息
             </h1>
             <p className="text-ink-2 mb-4">
-              先看微课。选择题打开就能做。写作可以输入，但登录后老师才收。
+              选择题打开就能做。写作和口语先看题目、先跟读。正式周由顾问开通批改。
             </p>
             <div className="bg-accent/10 border border-accent/20 rounded-lg p-4 mb-4">
               <p className="text-ink-2 text-sm">
