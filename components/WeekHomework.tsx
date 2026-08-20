@@ -334,6 +334,7 @@ export default function WeekHomework({
   const [submitting, setSubmitting] = useState(false);
   const [error, setError] = useState("");
   const [showTranscript, setShowTranscript] = useState<Record<string, boolean>>({});
+  const videoRef = useRef<HTMLVideoElement | null>(null);
   
   // Speaking recording state
   const [recording, setRecording] = useState<Record<string, boolean>>({});
@@ -716,7 +717,7 @@ export default function WeekHomework({
               {(() => {
                 // Calculate video source: use explicit videoUrl if set, otherwise try fallback
                 const fallbackVideoUrl = `/video/${week.level.toLowerCase()}-w${week.weekNumber}.mp4`;
-                const cacheBuster = `?v=${Date.now()}`;
+                const cacheBuster = `?v=20260820w1`;
                 const videoSrc = week.videoUrl || fallbackVideoUrl;
                 const videoSrcWithCacheBust = `${videoSrc}${cacheBuster}`;
                 
@@ -725,6 +726,7 @@ export default function WeekHomework({
                   return (
                     <>
                       <video
+                        ref={videoRef}
                         autoPlay
                         muted
                         loop
@@ -739,17 +741,26 @@ export default function WeekHomework({
                             setVideoError(true);
                           }
                         }}
-                        onClick={(e) => {
-                          const video = e.currentTarget;
-                          video.muted = !video.muted;
-                        }}
                       >
                         <source src={videoSrcWithCacheBust} type="video/mp4" />
                         Your browser does not support the video element.
                       </video>
-                      <p className="mt-2 text-sm text-ink-2">
-                        先看动画（无声自动播放）。点击画面可开关声音。
-                      </p>
+                      <div className="mt-2 flex items-center gap-3">
+                        <p className="text-sm text-ink-2 flex-1">
+                          先看动画（无声自动播放）
+                        </p>
+                        <button
+                          onClick={() => {
+                            if (videoRef.current) {
+                              videoRef.current.muted = false;
+                              videoRef.current.volume = 1;
+                            }
+                          }}
+                          className="px-4 py-2 bg-accent text-accent-ink text-sm font-semibold rounded-full hover:bg-accent-hover transition-colors"
+                        >
+                          开声音
+                        </button>
+                      </div>
                       <div className="mt-3 text-sm text-ink-2 space-y-1">
                         <p className="font-semibold">💡 如何看微课 / How to use:</p>
                         <ol className="list-decimal list-inside space-y-1 ml-2">
