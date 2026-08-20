@@ -2706,7 +2706,7 @@ Useful phrases:
       isSample: false,
       dueDate: new Date("2026-08-20"),
       errorFocus: "3sg-s",
-      parentBrief: "本周纠错焦点：第三人称单数 -s（he/she/it + 动词要加 -s）和时间介词 at/in/on。中文动词不变形，孩子会说 she wake up 或 he go to school。英语现在时里，he/she/it 后面的动词必须加 -s：wakes, goes, has。时间介词：at 7:00, in the morning, on Monday。本周作业会抓住这两个高频错误。",
+      parentBrief: "本周纠错焦点：第三人称单数 -s（he/she/it + 动词加 -s）。中文动词不变形，孩子常说 she wake up；英语里必须是 she wakes up。另一个常错点是时间介词：at 7:00, in the morning, on Monday。",
       videoUrl: "/video/a2-w1.mp4",
       kaizenFocus: "Add -s to verbs after he/she/it in present simple; use at/in/on for time correctly",
       officialClipId: "loINl3Ln6Ck",
@@ -2721,7 +2721,7 @@ My School Day – Monday
 
 I live in Bedok with my family. Every Monday I wake up early because I have extra Math class before school starts. My alarm rings at 6:00 a.m. but I sometimes press snooze! My dad always tells me not to be late.
 
-I get up at 6:15, brush my teeth, and put on my school uniform. My mum prepares breakfast – fried rice or noodles. I drink tea and check my bag. My little sister Jia is still sleeping! She goes to kindergarten, so she wakes up later.
+I wake up at 6:15, brush my teeth, and put on my school uniform. My mum prepares breakfast – fried rice or noodles. I drink tea and check my bag. My little sister Jia is still sleeping! She goes to kindergarten, so she wakes up later.
 
 At 7:00 a.m. sharp, Dad and I leave home. We walk to the bus stop together. The 168 bus arrives at 7:10. Dad takes it to work and I take it to school. The journey is twenty minutes. I get off near the library and walk three minutes to the school gate.
 
@@ -2830,6 +2830,8 @@ Describe these points:
 • What time you leave home and how you travel
 
 Useful phrases:
+• Priya asks Mei: "What time do you wake up?"
+• Mei answers: "I wake up at 6:15."
 • I wake up at...
 • My alarm rings at...
 • My mum/dad wakes up at... (note: wakes, not wake!)
@@ -2840,14 +2842,11 @@ Useful phrases:
 • On weekdays, I always...
 • In the morning, my family...
 
-Grammar focus for AI:
-AI will listen for correct use of third-person -s (my sister walks, dad takes the MRT) and time prepositions (at 7:00, in the morning, on Monday).
-
 如何练习 / How to practise:
-1. 计划你的内容，特别注意 he/she + 动词-s (Plan your content; focus on he/she + verb-s)
-2. 点击下方"开始录音"按钮 (Tap "开始录音")
-3. 说满1分钟 (Speak for 1 minute)
-4. AI会评估你的语法，特别是第三人称-s和时间介词 (AI evaluates grammar, especially 3rd person -s and time prepositions)`,
+1. 先看题目要求，在心里准备内容，特别留意 he/she/it + 动词-s
+2. 先跟读上面的 useful phrases 几次，再自己说
+3. 点击"开始录音"，说满1分钟
+4. 正式周由顾问开通批改功能`,
           points: 5,
         },
       ],
