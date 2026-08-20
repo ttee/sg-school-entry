@@ -299,22 +299,27 @@ function getShortErrorFocus(errorFocus: string | null): string | null {
 
 function sanitizeSpeakingContentForGuest(content: string): string {
   return content
-    .replace(/播放听一听，满意后提交给AI评估/g, "先看题目、先跟读")
-    .replace(/提交给AI评估/g, "先看题目、先跟读")
-    .replace(/录音将由AI评估并提供改进建议/g, "正式周由顾问开通批改")
-    .replace(/录音将由AI评估/g, "正式周由顾问开通批改")
-    .replace(/AI评估/g, "顾问批改")
-    .replace(/\s*\([^)]*submit for AI feedback[^)]*\)/gi, "")
+    .replace(/播放听一听，满意后提交给AI评估/g, "")
+    .replace(/提交给AI评估/g, "")
+    .replace(/录音将由AI评估并提供改进建议/g, "")
+    .replace(/录音将由AI评估/g, "")
+    .replace(/AI评估/g, "")
+    .replace(/\s*\([^)]*submit for AI[^)]*\)/gi, "")
     .replace(/\s*\([^)]*AI feedback[^)]*\)/gi, "")
     .replace(/\s*\([^)]*AI evaluation[^)]*\)/gi, "")
     .replace(/submit for AI feedback/gi, "")
+    .replace(/submit for AI/gi, "")
     .replace(/AI feedback/gi, "")
     .replace(/AI evaluation/gi, "")
-    .replace(/点击下方"开始录音"按钮/g, "先看题目、先跟读")
-    .replace(/点击"开始录音"[^。]*/g, "先看题目、先跟读")
+    .replace(/点击下方"开始录音"按钮/g, "")
+    .replace(/点击"开始录音"[^。]*/g, "")
     .replace(/\d+\.\s*点击[^。]*"开始录音"[^。\n]*/g, "")
-    .replace(/Tap\s+(?:the\s+)?"开始录音"[^\n]*/gi, "")
+    .replace(/Tap\s+(?:the\s+)?"开始录音"[^\n。]*/gi, "")
     .replace(/\([^)]*Tap\s+"开始录音"[^)]*\)/gi, "")
+    .replace(/开始录音/g, "")
+    .replace(/\s{2,}/g, " ")
+    .replace(/^\s+|\s+$/g, "")
+    .replace(/^[。\s]+|[。\s]+$/g, "")
     .trim();
 }
 
@@ -616,9 +621,13 @@ export default function WeekHomework({
           ← 返回作业列表
         </Link>
         <h1 className="font-serif font-semibold text-3xl text-ink mb-2">
-          {week.title}
+          {guest && week.level === "A2" && week.weekNumber === 0 
+            ? "试学周 · 失物招领" 
+            : guest && week.level === "A2" && week.weekNumber === 1
+            ? "第 1 周：日常作息"
+            : week.title}
         </h1>
-        {week.description && (
+        {week.description && !(guest && week.level === "A2" && week.weekNumber === 0) && (
           <p className="text-ink-2">{week.description}</p>
         )}
         {getSkillForWeek(week.level, week.weekNumber) && (
