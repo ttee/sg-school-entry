@@ -93,13 +93,13 @@ export default function HomePage() {
           </Link>
           <nav className="hidden md:flex items-center gap-6 text-sm">
             <Link href="/trial/A2" className="text-ink-2 hover:text-ink transition-colors font-medium">
-              免费试学
+              今晚试小学
             </Link>
             <Link href="/trial" className="text-ink-2 hover:text-ink transition-colors font-medium">
-              中学试学
+              中学在试学页
             </Link>
             <Link href="/skills" className="text-ink-2 hover:text-ink transition-colors font-medium">
-              技能表
+              小学英语会练什么
             </Link>
             <Link href="#contact" className="text-ink-2 hover:text-ink transition-colors font-medium">
               咨询
@@ -125,13 +125,13 @@ export default function HomePage() {
           <div className="md:hidden border-t border-line bg-paper">
             <div className="px-4 py-3 space-y-3">
               <Link href="/trial/A2" className="block text-ink-2 hover:text-ink transition-colors font-medium" onClick={() => setShowMobileMenu(false)}>
-                免费试学
+                今晚试小学
               </Link>
               <Link href="/trial" className="block text-ink-2 hover:text-ink transition-colors font-medium" onClick={() => setShowMobileMenu(false)}>
-                中学试学
+                中学在试学页
               </Link>
               <Link href="/skills" className="block text-ink-2 hover:text-ink transition-colors font-medium" onClick={() => setShowMobileMenu(false)}>
-                技能表
+                小学英语会练什么
               </Link>
               <Link href="#contact" className="block text-ink-2 hover:text-ink transition-colors font-medium" onClick={() => setShowMobileMenu(false)}>
                 咨询
@@ -145,10 +145,10 @@ export default function HomePage() {
         <section className="py-16 md:py-24">
           <div className="max-w-7xl mx-auto px-4">
             <p className="text-xs font-semibold tracking-widest uppercase text-accent mb-3">
-              升学工作室
+              升学顾问的作业
             </p>
             <h1 className="font-serif font-semibold text-3xl md:text-5xl leading-tight tracking-tight mb-4 max-w-4xl">
-              小学走 CEQ，中学走 AEIS。作业打开就能做。
+              小学先练英语作业。中学练英语和数学。今晚打开就能做。
             </h1>
             <div className="flex flex-wrap gap-3 mb-3">
               <Link
@@ -161,20 +161,20 @@ export default function HomePage() {
                 href="/trial"
                 className="inline-flex items-center justify-center px-6 py-3.5 bg-transparent text-ink border border-accent font-semibold rounded-full hover:bg-accent/10 transition-colors text-base"
               >
-                中学试学
+                中学在试学页
               </Link>
               <Link
                 href="/skills"
                 className="inline-flex items-center justify-center px-6 py-3.5 bg-transparent text-ink border border-accent font-semibold rounded-full hover:bg-accent/10 transition-colors text-base"
               >
-                技能表
+                小学英语会练什么
               </Link>
             </div>
             <p className="text-sm text-muted mb-6 max-w-2xl">
-              中学试学练 AEIS 英语和数学。
+              小学今晚练英语。中学英语和数学在试学页里。
             </p>
             <p className="text-sm text-muted max-w-2xl">
-              非官方机构
+              这是顾问的作业，不是学校或考局的网站。
             </p>
           </div>
         </section>
