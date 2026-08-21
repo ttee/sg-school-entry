@@ -1191,6 +1191,14 @@ export default function WeikeMiniLesson({ level, weekNumber }: WeikeMiniLessonPr
       ],
       gloss: "还在这里用 have been。不要说 I am here for 6 months."
     },
+    "B1-4": {
+      fossil: "He said me that...",
+      examples: [
+        "What did she say?",
+        "She told me that the library would be closed."
+      ],
+      gloss: "对人用 told me that，不要 said me。"
+    },
     "B1-5": {
       fossil: "The girl sits next to me is Priya / the book who I read",
       examples: [
