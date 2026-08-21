@@ -3,6 +3,16 @@
 import Link from "next/link";
 import { skills, drills } from "@/lib/skills-data";
 
+function storyHop(weekNumber: number): { href: string; text: string } {
+  if (weekNumber === 0) {
+    return { href: "/trial/A2", text: "先看本周故事" };
+  }
+  if (weekNumber === 1) {
+    return { href: "/trial/A2/1", text: "先看本周故事" };
+  }
+  return { href: "/#contact", text: "报名开通后续周" };
+}
+
 export default function SkillsPage() {
   const hasSkillDrill = (skillId: string) => {
     return drills.some((d) => d.skillId === skillId);
@@ -37,19 +47,7 @@ export default function SkillsPage() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {skills.map((skill) => {
             const hasDrill = hasSkillDrill(skill.id);
-            let linkHref: string;
-            let buttonText: string;
-
-            if (hasDrill) {
-              linkHref = `/skills/${skill.id}`;
-              buttonText = "练一练";
-            } else if (skill.weekNumber === 0) {
-              linkHref = `/trial/A2`;
-              buttonText = "先看本周故事";
-            } else {
-              linkHref = `/learn/plans/A2/${skill.weekNumber}`;
-              buttonText = "先看本周故事";
-            }
+            const hop = storyHop(skill.weekNumber);
 
             return (
               <div
@@ -64,12 +62,22 @@ export default function SkillsPage() {
                     {skill.weekLabel}
                   </span>
                 </div>
-                <Link
-                  href={linkHref}
-                  className="inline-block bg-accent text-accent-ink px-6 py-2 rounded-[--radius] font-medium hover:bg-accent-hover transition-colors"
-                >
-                  {buttonText}
-                </Link>
+                <div className="flex flex-wrap gap-3">
+                  <Link
+                    href={hop.href}
+                    className="inline-flex items-center justify-center px-6 py-2 bg-accent text-accent-ink font-medium rounded-[--radius] hover:bg-accent-hover transition-colors"
+                  >
+                    {hop.text}
+                  </Link>
+                  {hasDrill && (
+                    <Link
+                      href={`/skills/${skill.id}`}
+                      className="inline-flex items-center justify-center px-6 py-2 bg-transparent text-ink border border-accent font-medium rounded-[--radius] hover:bg-accent/10 transition-colors"
+                    >
+                      练一练
+                    </Link>
+                  )}
+                </div>
               </div>
             );
           })}
@@ -78,9 +86,9 @@ export default function SkillsPage() {
         <div className="mt-12 p-6 bg-warn-bg border border-line rounded-[--radius]">
           <h2 className="text-xl font-bold text-warn-ink mb-2">说明</h2>
           <ul className="text-warn-ink space-y-1 text-sm">
-            <li>• 本页技能对应剑桥 A2 Key for Schools 考试语言规范（非官方完整大纲）</li>
-            <li>• 可免费访问，无需登录</li>
-            <li>• 点击"练一练"进入对应技能练习</li>
+            <li>• 对应 A2 Key for Schools 语言范围，挂在现有故事周上</li>
+            <li>• 试学周和第 1 周打开就能看，不用登录</li>
+            <li>• 第 2 周起由顾问开通。留下微信号即可</li>
           </ul>
         </div>
       </main>
@@ -91,7 +99,7 @@ export default function SkillsPage() {
             <div>
               <h3 className="text-lg font-bold text-ink mb-3">狮城入学</h3>
               <p className="text-sm text-muted">
-                CEQ（A2/B1）及 AEIS 数学英语备考
+                CEQ 英语作业，12 周，向升学顾问支付 RMB 2,680
               </p>
             </div>
             <div>
