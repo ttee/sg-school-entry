@@ -1,5 +1,4 @@
-import { getServerSession } from "next-auth";
-import { authOptions } from "@/lib/auth";
+import { getSession } from "@/lib/session";
 import { redirect } from "next/navigation";
 import Link from "next/link";
 import BoardWeike from "@/components/BoardWeike";
@@ -34,7 +33,7 @@ export default async function LessonPlanPage({
 }: {
   params: Promise<{ level: string; weekNumber: string }>;
 }) {
-  const session = await getServerSession(authOptions);
+  const session = await getSession();
 
   if (!session?.user || session.user.role !== "admin") {
     redirect("/learn");

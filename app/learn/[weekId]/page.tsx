@@ -1,5 +1,4 @@
-import { getServerSession } from "next-auth";
-import { authOptions } from "@/lib/auth";
+import { getSession } from "@/lib/session";
 import { prisma } from "@/lib/db";
 import { redirect } from "next/navigation";
 import WeekHomework from "@/components/WeekHomework";
@@ -10,7 +9,7 @@ export default async function WeekPage({
   params: Promise<{ weekId: string }>;
 }) {
   const { weekId } = await params;
-  const session = await getServerSession(authOptions);
+  const session = await getSession();
 
   if (!session?.user) {
     redirect("/login");

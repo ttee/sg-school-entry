@@ -1,17 +1,22 @@
 "use client";
 
 import { signIn } from "next-auth/react";
-import { useState, Suspense } from "react";
-import { useRouter, useSearchParams } from "next/navigation";
+import { useEffect, useState } from "react";
 import Link from "next/link";
 
 function LoginForm() {
-  const router = useRouter();
-  const searchParams = useSearchParams();
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
   const [loading, setLoading] = useState(false);
+  const [callbackUrl, setCallbackUrl] = useState("/learn");
+
+  useEffect(() => {
+    const next = new URLSearchParams(window.location.search).get("callbackUrl");
+    if (next && next.startsWith("/") && !next.startsWith("//")) {
+      setCallbackUrl(next);
+    }
+  }, []);
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -23,18 +28,17 @@ function LoginForm() {
         email,
         password,
         redirect: false,
+        callbackUrl,
       });
 
       if (result?.error) {
         setError("邮箱或密码错误");
-      } else {
-        const callbackUrl = searchParams.get("callbackUrl") || "/learn";
-        router.push(callbackUrl);
-        router.refresh();
+        setLoading(false);
+        return;
       }
+      window.location.assign(callbackUrl);
     } catch (error) {
       setError("登录失败，请重试");
-    } finally {
       setLoading(false);
     }
   };
@@ -175,9 +179,5 @@ function LoginForm() {
 }
 
 export default function LoginPage() {
-  return (
-    <Suspense fallback={<div className="min-h-screen flex items-center justify-center">登录中...</div>}>
-      <LoginForm />
-    </Suspense>
-  );
+  return <LoginForm />;
 }

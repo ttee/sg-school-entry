@@ -18,6 +18,15 @@ export const authOptions: NextAuthOptions = {
 
         const user = await prisma.user.findUnique({
           where: { email: credentials.email },
+          select: {
+            id: true,
+            email: true,
+            name: true,
+            role: true,
+            level: true,
+            subscribed: true,
+            password: true,
+          },
         });
 
         if (!user) {
@@ -51,10 +60,15 @@ export const authOptions: NextAuthOptions = {
         token.role = user.role;
         token.level = user.level;
         token.subscribed = user.subscribed;
+        token.accessCheckedAt = Date.now();
+        return token;
       }
       // Unlock is a human Prisma flip — there is no subscribe API.
-      // Re-read so a 30-day JWT cannot keep subscribed:false after the flip.
-      if (token.id) {
+      // Re-read at most once a minute so a 30-day JWT can pick up the flip
+      // without a Postgres round-trip on every getServerSession.
+      const checkedAt =
+        typeof token.accessCheckedAt === "number" ? token.accessCheckedAt : 0;
+      if (token.id && Date.now() - checkedAt > 60_000) {
         const dbUser = await prisma.user.findUnique({
           where: { id: token.id as string },
           select: { subscribed: true, role: true, level: true },
@@ -64,6 +78,7 @@ export const authOptions: NextAuthOptions = {
           token.role = dbUser.role;
           token.level = dbUser.level;
         }
+        token.accessCheckedAt = Date.now();
       }
       return token;
     },
@@ -79,6 +94,7 @@ export const authOptions: NextAuthOptions = {
   },
   pages: {
     signIn: "/login",
+    signOut: "/logout",
   },
   session: {
     strategy: "jwt",

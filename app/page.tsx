@@ -103,7 +103,7 @@ export default function HomePage() {
             </Link>
           </nav>
           <Link
-            href="/learn"
+            href="/login"
             className="text-sm text-muted hover:text-ink transition-colors"
           >
             登录

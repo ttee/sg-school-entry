@@ -1,5 +1,4 @@
-import { getServerSession } from "next-auth";
-import { authOptions } from "@/lib/auth";
+import { getSession } from "@/lib/session";
 import { prisma } from "@/lib/db";
 import Link from "next/link";
 import ParentCard from "@/components/ParentCard";
@@ -105,7 +104,7 @@ function getMasteryLevel(
 }
 
 export default async function ProgressPage() {
-  const session = await getServerSession(authOptions);
+  const session = await getSession();
 
   if (!session?.user) {
     return null;

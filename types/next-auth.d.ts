@@ -21,5 +21,6 @@ declare module "next-auth/jwt" {
     role: string;
     level: string | null;
     subscribed: boolean;
+    accessCheckedAt?: number;
   }
 }
