@@ -1,5 +1,7 @@
 "use client";
 
+import { useRef, useState } from "react";
+
 type StoryKey = "A2-0" | "A2-1" | "B1-0" | "SEC-0";
 
 type Story = {
@@ -12,27 +14,27 @@ type Story = {
 const STORIES: Record<StoryKey, Story> = {
   "A2-0": {
     poster: "/trial/a2-w0.jpg",
-    video: "/trial/a2-w0.mp4",
-    captionZh: "失物招领。Auntie Tan 举起水杯问：Is this your bottle?",
-    captionEn: "Is this your bottle? Yes, that's mine.",
+    video: "/trial/a2-w0.mp4?v=talk1",
+    captionZh: "跟读：Auntie Tan 问，Mei 答。",
+    captionEn: "Is this your bottle? Yes, that's mine. Thank you.",
   },
   "A2-1": {
-    poster: "/trial/a2-w1-p3.jpg",
-    video: "/trial/a2-w1.mp4",
-    captionZh: "周一早上。Mei 6:15 醒来，吃早餐，出门上学。",
+    poster: "/trial/a2-w1.jpg",
+    video: "/trial/a2-w1.mp4?v=talk1",
+    captionZh: "跟读：I wake up / she wakes。",
     captionEn: "I wake up at 6:15. She wakes later.",
   },
   "B1-0": {
     poster: "/trial/b1-w0.jpg",
-    video: "/trial/b1-w0.mp4",
-    captionZh: "全英语学校。每天先看布告栏，再把句子写进本子。",
+    video: "/trial/b1-w0.mp4?v=talk1",
+    captionZh: "跟读：现在完成 vs 过去时。",
     captionEn: "I have been here for six months. I went there last year.",
   },
   "SEC-0": {
     poster: "/trial/sec-w0.jpg",
-    video: "/trial/sec-w0.mp4",
-    captionZh: "中学第一周。Wei 带 Aisha 去食堂。Although he was nervous, he tried.",
-    captionEn: "Although he was nervous, he tried. Not although…but…",
+    video: "/trial/sec-w0.mp4?v=talk1",
+    captionZh: "跟读：Although…，不要 although…but…。",
+    captionEn: "Do you know where the canteen is? Although I was nervous, I tried.",
   },
 };
 
@@ -41,6 +43,14 @@ const WRITING_FRAMES = [
   { src: "/trial/a2-w1-p2.jpg", labelZh: "图 2", labelEn: "She eats bread and milk." },
   { src: "/trial/a2-w1-p3.jpg", labelZh: "图 3", labelEn: "Dad waves goodbye." },
 ];
+
+export function hasTalkingStory(level: string, weekNumber: number): boolean {
+  return (
+    (level === "A2" && (weekNumber === 0 || weekNumber === 1)) ||
+    (level === "B1" && weekNumber === 0) ||
+    (level === "SEC" && weekNumber === 0)
+  );
+}
 
 export function TrialWritingPictures({
   level,
@@ -80,22 +90,52 @@ export default function TrialStoryArt({
 }) {
   const key = `${level}-${weekNumber}` as StoryKey;
   const story = STORIES[key];
+  const videoRef = useRef<HTMLVideoElement>(null);
+  const [started, setStarted] = useState(false);
+
   if (!story) return null;
+
+  const playWithSound = async () => {
+    const el = videoRef.current;
+    if (!el) return;
+    el.muted = false;
+    el.volume = 1;
+    try {
+      await el.play();
+      setStarted(true);
+    } catch {
+      setStarted(true);
+    }
+  };
 
   return (
     <div className="mb-8 bg-card border border-line rounded-xl overflow-hidden">
-      <video
-        autoPlay
-        muted
-        loop
-        playsInline
-        controls
-        poster={story.poster}
-        className="w-full bg-paper-2"
-        style={{ maxHeight: "420px" }}
-      >
-        <source src={story.video} type="video/mp4" />
-      </video>
+      <div className="relative bg-paper-2">
+        <video
+          ref={videoRef}
+          controls
+          playsInline
+          preload="metadata"
+          poster={story.poster}
+          className="w-full"
+          style={{ maxHeight: "420px" }}
+          onPlay={() => setStarted(true)}
+        >
+          <source src={story.video} type="video/mp4" />
+        </video>
+        {!started && (
+          <button
+            type="button"
+            onClick={playWithSound}
+            className="absolute inset-0 flex flex-col items-center justify-center bg-ink/35 text-paper"
+          >
+            <span className="inline-flex h-14 w-14 items-center justify-center rounded-full bg-accent text-accent-ink text-2xl">
+              ▶
+            </span>
+            <span className="mt-3 text-sm font-semibold">点击播放 · 开声音跟读</span>
+          </button>
+        )}
+      </div>
       <div className="px-5 py-4">
         <p className="text-sm text-ink leading-relaxed">{story.captionZh}</p>
         <p className="mt-1 text-sm font-medium text-ink-2" lang="en">

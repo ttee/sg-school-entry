@@ -3,7 +3,7 @@
 import { useState, useRef, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
-import TrialStoryArt, { TrialWritingPictures } from "./TrialStoryArt";
+import TrialStoryArt, { TrialWritingPictures, hasTalkingStory } from "./TrialStoryArt";
 import DualValidationMap from "./DualValidationMap";
 import DualValidationMapWeek1 from "./DualValidationMapWeek1";
 import DualValidationMapWeek2 from "./DualValidationMapWeek2";
@@ -743,8 +743,11 @@ export default function WeekHomework({
         </div>
       )}
 
-      {/* Video player - show only for levels with videos or explicit videoUrl */}
+      {/* Video player - skip on weeks that already have the illustrated talking story */}
       {(() => {
+        if (hasTalkingStory(week.level, week.weekNumber)) {
+          return null;
+        }
         // MATH/SEC/SMATH don't have week 0 videos yet, skip the video section entirely
         const isMathTrack = week.level === "MATH" || week.level === "SEC" || week.level === "SMATH";
         const hasExplicitVideo = !!week.videoUrl;
