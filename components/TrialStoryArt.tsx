@@ -1,40 +1,87 @@
 "use client";
 
+import Link from "next/link";
 import { useRef, useState } from "react";
 
 type StoryKey = "A2-0" | "A2-1" | "B1-0" | "SEC-0";
 
-type Story = {
+type Clip = {
   poster: string;
   video: string;
+  titleZh: string;
   captionZh: string;
   captionEn: string;
 };
 
-const STORIES: Record<StoryKey, Story> = {
+type Pair = {
+  story: Clip;
+  form: Clip;
+};
+
+const PAIRS: Record<StoryKey, Pair> = {
   "A2-0": {
-    poster: "/trial/a2-w0.jpg",
-    video: "/trial/a2-w0.mp4?v=talk1",
-    captionZh: "跟读：Auntie Tan 问，Mei 答。",
-    captionEn: "Is this your bottle? Yes, that's mine. Thank you.",
+    story: {
+      poster: "/trial/a2-w0-story.jpg",
+      video: "/video/a2-w0.mp4?v=story2",
+      titleZh: "第 1 段 · 故事",
+      captionZh: "Auntie Tan 帮 Mei 找回水杯。",
+      captionEn: "Is this your bottle? Yes, that's mine.",
+    },
+    form: {
+      poster: "/trial/a2-w0-form.jpg",
+      video: "/trial/a2-w0-form.mp4?v=form1",
+      titleZh: "第 2 段 · 跟读本周句子",
+      captionZh: "先说 a water bottle，再说 the bottle。",
+      captionEn: "I lost a water bottle. The bottle has a pink flower.",
+    },
   },
   "A2-1": {
-    poster: "/trial/a2-w1.jpg",
-    video: "/trial/a2-w1.mp4?v=talk1",
-    captionZh: "跟读：I wake up / she wakes。",
-    captionEn: "I wake up at 6:15. She wakes later.",
+    story: {
+      poster: "/trial/a2-w1-story.jpg",
+      video: "/video/a2-w1.mp4?v=story2",
+      titleZh: "第 1 段 · 故事",
+      captionZh: "校门口。Priya 问 Mei 几点起床。",
+      captionEn: "What time do you wake up?",
+    },
+    form: {
+      poster: "/trial/a2-w1-form.jpg",
+      video: "/trial/a2-w1-form.mp4?v=form1",
+      titleZh: "第 2 段 · 跟读本周句子",
+      captionZh: "厨房。I wake / she wakes。",
+      captionEn: "I wake up at 6:15. She wakes later.",
+    },
   },
   "B1-0": {
-    poster: "/trial/b1-w0.jpg",
-    video: "/trial/b1-w0.mp4?v=talk1",
-    captionZh: "跟读：现在完成 vs 过去时。",
-    captionEn: "I have been here for six months. I went there last year.",
+    story: {
+      poster: "/trial/b1-w0-story.jpg",
+      video: "/video/b1-w0.mp4?v=story2",
+      titleZh: "第 1 段 · 故事",
+      captionZh: "转去全英语学校，走廊上先开口问。",
+      captionEn: "Just ask one question every lesson.",
+    },
+    form: {
+      poster: "/trial/b1-w0-form.jpg",
+      video: "/trial/b1-w0-form.mp4?v=form1",
+      titleZh: "第 2 段 · 跟读本周句子",
+      captionZh: "布告栏。现在完成 vs 过去时。",
+      captionEn: "I have been here for six months. I went there last year.",
+    },
   },
   "SEC-0": {
-    poster: "/trial/sec-w0.jpg",
-    video: "/trial/sec-w0.mp4?v=talk1",
-    captionZh: "跟读：Although…，不要 although…but…。",
-    captionEn: "Do you know where the canteen is? Although I was nervous, I tried.",
+    story: {
+      poster: "/trial/sec-w0-story.jpg",
+      video: "/trial/sec-w0-story.mp4?v=form1",
+      titleZh: "第 1 段 · 故事",
+      captionZh: "食堂。Aisha 迷路，Wei 带路。",
+      captionEn: "Do you know where the canteen is? Come with me.",
+    },
+    form: {
+      poster: "/trial/sec-w0-form.jpg",
+      video: "/trial/sec-w0-form.mp4?v=form1",
+      titleZh: "第 2 段 · 跟读本周句子",
+      captionZh: "英语课。Although…，不要 although…but…。",
+      captionEn: "Although I was nervous, I tried.",
+    },
   },
 };
 
@@ -49,6 +96,62 @@ export function hasTalkingStory(level: string, weekNumber: number): boolean {
     (level === "A2" && (weekNumber === 0 || weekNumber === 1)) ||
     (level === "B1" && weekNumber === 0) ||
     (level === "SEC" && weekNumber === 0)
+  );
+}
+
+function ClipPlayer({ clip }: { clip: Clip }) {
+  const videoRef = useRef<HTMLVideoElement>(null);
+  const [started, setStarted] = useState(false);
+
+  const playWithSound = async () => {
+    const el = videoRef.current;
+    if (!el) return;
+    el.muted = false;
+    el.volume = 1;
+    try {
+      await el.play();
+      setStarted(true);
+    } catch {
+      setStarted(true);
+    }
+  };
+
+  return (
+    <div className="bg-card border border-line rounded-xl overflow-hidden">
+      <p className="px-4 pt-3 text-sm font-semibold text-ink">{clip.titleZh}</p>
+      <div className="relative bg-paper-2 mt-2">
+        <video
+          ref={videoRef}
+          controls
+          playsInline
+          preload="metadata"
+          poster={clip.poster}
+          className="w-full"
+          style={{ maxHeight: "380px" }}
+          onPlay={() => setStarted(true)}
+        >
+          <source src={clip.video} type="video/mp4" />
+        </video>
+        {!started && (
+          <button
+            type="button"
+            onClick={playWithSound}
+            className="absolute inset-0 flex flex-col items-center justify-center bg-ink/35 text-paper"
+          >
+            <span className="inline-flex h-12 w-12 items-center justify-center rounded-full bg-accent text-accent-ink text-xl">
+              ▶
+            </span>
+            <span className="mt-2 text-sm font-semibold">点击播放 · 开声音</span>
+          </button>
+        )}
+      </div>
+      <div className="px-4 py-3">
+        <p className="text-sm text-ink leading-relaxed">{clip.captionZh}</p>
+        <p className="mt-1 text-sm font-medium text-ink-2" lang="en">
+          {clip.captionEn}
+        </p>
+      </div>
+    </div>
   );
 }
 
@@ -89,58 +192,19 @@ export default function TrialStoryArt({
   weekNumber: number;
 }) {
   const key = `${level}-${weekNumber}` as StoryKey;
-  const story = STORIES[key];
-  const videoRef = useRef<HTMLVideoElement>(null);
-  const [started, setStarted] = useState(false);
-
-  if (!story) return null;
-
-  const playWithSound = async () => {
-    const el = videoRef.current;
-    if (!el) return;
-    el.muted = false;
-    el.volume = 1;
-    try {
-      await el.play();
-      setStarted(true);
-    } catch {
-      setStarted(true);
-    }
-  };
+  const pair = PAIRS[key];
+  if (!pair) return null;
 
   return (
-    <div className="mb-8 bg-card border border-line rounded-xl overflow-hidden">
-      <div className="relative bg-paper-2">
-        <video
-          ref={videoRef}
-          controls
-          playsInline
-          preload="metadata"
-          poster={story.poster}
-          className="w-full"
-          style={{ maxHeight: "420px" }}
-          onPlay={() => setStarted(true)}
-        >
-          <source src={story.video} type="video/mp4" />
-        </video>
-        {!started && (
-          <button
-            type="button"
-            onClick={playWithSound}
-            className="absolute inset-0 flex flex-col items-center justify-center bg-ink/35 text-paper"
-          >
-            <span className="inline-flex h-14 w-14 items-center justify-center rounded-full bg-accent text-accent-ink text-2xl">
-              ▶
-            </span>
-            <span className="mt-3 text-sm font-semibold">点击播放 · 开声音跟读</span>
-          </button>
-        )}
-      </div>
-      <div className="px-5 py-4">
-        <p className="text-sm text-ink leading-relaxed">{story.captionZh}</p>
-        <p className="mt-1 text-sm font-medium text-ink-2" lang="en">
-          {story.captionEn}
-        </p>
+    <div className="mb-8 space-y-4">
+      <ClipPlayer clip={pair.story} />
+      <ClipPlayer clip={pair.form} />
+      <div className="bg-accent/10 border border-accent/20 rounded-xl px-4 py-3 text-sm text-ink-2">
+        试学只开放故事、跟读和下面的选择题。写作批改由顾问开通。
+        {" "}
+        <Link href="/#contact" className="text-accent font-semibold hover:text-accent-hover">
+          留下微信号报名 →
+        </Link>
       </div>
     </div>
   );

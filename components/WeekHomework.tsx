@@ -676,7 +676,7 @@ export default function WeekHomework({
 
       <TrialStoryArt level={week.level} weekNumber={week.weekNumber} />
 
-      {/* BoardWeike - first content block */}
+      {!hasTalkingStory(week.level, week.weekNumber) && (
       <div className="mb-8 space-y-4">
         <div className="bg-card border border-line rounded-xl p-5">
           <p className="text-sm text-ink-2 mb-3">
@@ -694,6 +694,7 @@ export default function WeekHomework({
           />
         </div>
       </div>
+      )}
 
       {/* Lesson content: Parent brief + Official clip */}
       {(week.parentBrief || (week.officialClipId && week.officialClipCredit)) && (
