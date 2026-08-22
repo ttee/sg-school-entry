@@ -22,65 +22,65 @@ const PAIRS: Record<StoryKey, Pair> = {
   "A2-0": {
     story: {
       poster: "/trial/a2-w0-setup.jpg",
-      video: "/trial/a2-w0-setup.mp4?v=lock2",
+      video: "/trial/a2-w0-setup.mp4?v=cast1",
       titleZh: "第 1 段 · 故事",
-      captionZh: "Mei 丢了水杯。Priya 说话，Mei 不说话。",
+      captionZh: "Mei 丢了水杯。只有 Priya 说话。",
       captionEn: "Priya: Don't worry. Let's go to the Lost and Found office.",
     },
     form: {
-      poster: "/trial/a2-w0-story.jpg",
-      video: "/video/a2-w0.mp4?v=lock2",
+      poster: "/trial/a2-w0-counter.jpg",
+      video: "/trial/a2-w0-counter.mp4?v=cast1",
       titleZh: "第 2 段 · 跟读本周句子",
-      captionZh: "柜台。Auntie Tan 先问，Mei 再答。",
+      captionZh: "柜台。Auntie Tan 先问，Mei 再答。Priya 不说话。",
       captionEn: "Auntie Tan: Is this your bottle?  Mei: Yes, that's mine. Thank you.",
     },
   },
   "A2-1": {
     story: {
-      poster: "/trial/a2-w1-story.jpg",
-      video: "/video/a2-w1.mp4?v=lock2",
+      poster: "/trial/a2-w1-ask.jpg",
+      video: "/trial/a2-w1-ask.mp4?v=cast1",
       titleZh: "第 1 段 · 故事",
-      captionZh: "校门口。Priya 问。",
+      captionZh: "校门口。只有 Priya 问。",
       captionEn: "Priya: What time do you wake up?",
     },
     form: {
       poster: "/trial/a2-w1-form.jpg",
-      video: "/trial/a2-w1-form.mp4?v=lock2",
+      video: "/trial/a2-w1-form.mp4?v=cast1",
       titleZh: "第 2 段 · 跟读本周句子",
-      captionZh: "还是这两个人。Mei 答，Priya 听。",
+      captionZh: "还是这两个人。只有 Mei 答。",
       captionEn: "Mei: I wake up at 6:15. She wakes later.",
     },
   },
   "B1-0": {
     story: {
       poster: "/trial/b1-w0-story.jpg",
-      video: "/video/b1-w0.mp4?v=lock2",
+      video: "/trial/b1-w0-story.mp4?v=cast1",
       titleZh: "第 1 段 · 故事",
-      captionZh: "走廊。还是这两个人。",
-      captionEn: "Just ask one question every lesson.",
+      captionZh: "走廊。只有 Priya 说话。",
+      captionEn: "Priya: Just ask one question every lesson.",
     },
     form: {
       poster: "/trial/b1-w0-form.jpg",
-      video: "/trial/b1-w0-form.mp4?v=lock2",
+      video: "/trial/b1-w0-form.mp4?v=cast1",
       titleZh: "第 2 段 · 跟读本周句子",
-      captionZh: "短发女孩说现在完成和过去时。",
-      captionEn: "I have been here for six months. I went there last year.",
+      captionZh: "还是这两个人。只有 Mei 说话。",
+      captionEn: "Mei: I have been here for six months. I went there last year.",
     },
   },
   "SEC-0": {
     story: {
       poster: "/trial/sec-w0-story.jpg",
-      video: "/trial/sec-w0-story.mp4?v=form1",
+      video: "/trial/sec-w0-story.mp4?v=cast1",
       titleZh: "第 1 段 · 故事",
-      captionZh: "食堂。Aisha 迷路，Wei 带路。",
-      captionEn: "Do you know where the canteen is? Come with me.",
+      captionZh: "食堂。Aisha 先问，Wei 再答。",
+      captionEn: "Aisha: Do you know where the canteen is?  Wei: Come with me.",
     },
     form: {
       poster: "/trial/sec-w0-form.jpg",
-      video: "/trial/sec-w0-form.mp4?v=form1",
+      video: "/trial/sec-w0-form.mp4?v=cast1",
       titleZh: "第 2 段 · 跟读本周句子",
-      captionZh: "英语课。Although…，不要 although…but…。",
-      captionEn: "Although I was nervous, I tried.",
+      captionZh: "英语课。只有 Wei 说话。",
+      captionEn: "Wei: Although I was nervous, I tried.",
     },
   },
 };
@@ -199,6 +199,9 @@ export default function TrialStoryArt({
     <div className="mb-8 space-y-4">
       <ClipPlayer clip={pair.story} />
       <ClipPlayer clip={pair.form} />
+      <p className="text-xs text-muted px-1">
+        同一周里，同一个人用同一个声音：Mei、Priya、Auntie Tan 不会换声。
+      </p>
       <div className="bg-accent/10 border border-accent/20 rounded-xl px-4 py-3 text-sm text-ink-2">
         试学只开放故事、跟读和下面的选择题。写作批改由顾问开通。
         {" "}
