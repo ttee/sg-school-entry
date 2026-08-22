@@ -3,6 +3,9 @@
 import { useState, useRef, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
+import TrialStoryArt, { TrialWritingPictures } from "./TrialStoryArt";
+import DualValidationMap from "./DualValidationMap";
+import DualValidationMapWeek1 from "./DualValidationMapWeek1";
 import DualValidationMapWeek2 from "./DualValidationMapWeek2";
 import DualValidationMapWeek3 from "./DualValidationMapWeek3";
 import DualValidationMapWeek4 from "./DualValidationMapWeek4";
@@ -671,6 +674,8 @@ export default function WeekHomework({
         )}
       </div>
 
+      <TrialStoryArt level={week.level} weekNumber={week.weekNumber} />
+
       {/* BoardWeike - first content block */}
       <div className="mb-8 space-y-4">
         <div className="bg-card border border-line rounded-xl p-5">
@@ -837,6 +842,9 @@ export default function WeekHomework({
           </div>
         );
       })()}
+
+      {week.level === "A2" && week.weekNumber === 0 && <DualValidationMap />}
+      {week.level === "A2" && week.weekNumber === 1 && <DualValidationMapWeek1 />}
 
       {/* Dual-validation map for A2 Week 2 */}
       {week.level === "A2" && week.weekNumber === 2 && <DualValidationMapWeek2 />}
@@ -1372,6 +1380,7 @@ export default function WeekHomework({
 
             {question.type === "writing" && (
               <div className="space-y-4">
+                <TrialWritingPictures level={week.level} weekNumber={week.weekNumber} />
                 {/* Guest mode message - only show for English CEQ (A2/B1), not for MATH/SEC/SMATH */}
                 {guest && week.level !== "MATH" && week.level !== "SEC" && week.level !== "SMATH" && (
                   <div className="bg-accent/5 border border-accent/20 rounded-lg p-4">
