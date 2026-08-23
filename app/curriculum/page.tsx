@@ -47,6 +47,7 @@ export default function CurriculumHome() {
           { href: "/curriculum/papers", label: "试卷结构 · CEQ 时间 + AEIS 50 题" },
           { href: "/curriculum/ixl", label: "P4 / S1 十二周计划" },
           { href: "/curriculum/stories", label: "77 个新加坡故事 · 沉浸开口" },
+          { href: "/curriculum/context", label: "新加坡语境 · 家长中英词表" },
           { href: "/curriculum/sow", label: "2a P4 W3 · G.2 + V.1" },
           { href: "/curriculum/grammar/linkers", label: "2b however / therefore / in addition" },
           { href: "/curriculum/writing", label: "3a S1 三段作文 200–300" },

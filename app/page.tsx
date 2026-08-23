@@ -3,6 +3,7 @@ import OfficialClip from "@/components/OfficialClip";
 import LandingNav from "@/components/LandingNav";
 import LandingEnquiry from "@/components/LandingEnquiry";
 import { THEMES } from "@/lib/curriculum/storylines";
+import { CONTEXT_TOPICS } from "@/lib/curriculum/singapore-context";
 
 export const metadata = {
   title: "狮城入学 · 6 个月准备进新加坡政府学校",
@@ -85,6 +86,10 @@ const FAQS = [
   {
     q: "和去补习教室有什么不同？",
     a: "这里是每天在家做的结构化作业：故事、选择题、摸底数据。教室课一周两次，家长往往看不到当日对错。我们不提供其他机构的链接或比较表。",
+  },
+  {
+    q: "课程是抄 NIE「新加坡语境华语」吗？",
+    a: "不是。陈志锐副教授的资料库研究的是新加坡华语词。本站教的是进校要用的英语：hawker centre、HDB、recess。家长页有中英对照，方便您先用中文讲给孩子听。",
   },
   {
     q: "有没有通过保证？",
@@ -202,8 +207,45 @@ export default function HomePage() {
           </div>
         </section>
 
-        {/* 3. 77 stories */}
+        {/* Singapore-context English */}
         <section className="py-12 md:py-16">
+          <div className="max-w-7xl mx-auto px-4">
+            <h2 className="font-serif font-semibold text-2xl md:text-3xl mb-2">
+              用新加坡方式学英语
+            </h2>
+            <p className="text-lg text-ink-2 mb-3">Learn English the Singapore way</p>
+            <p className="text-ink-2 mb-4 max-w-3xl leading-relaxed">
+              多数海外英语材料是英美场景。政府学校第一天要听懂 HDB、hawker centre、MRT、recess、Aunty。
+              先用中文把词讲清，再练英语开口——进校才不迷路。
+            </p>
+            <p className="text-sm text-muted mb-8 max-w-3xl leading-relaxed">
+              国立教育学院陈志锐副教授主持过新加坡华语本地词研究（推广华语理事会《新加坡华语资料库》）。那是华语，不是英语课。本站不转载教材、不宣称与
+              NIE 合作。我们把同一类生活写成英语作业。
+            </p>
+            <div className="grid sm:grid-cols-2 lg:grid-cols-5 gap-3 mb-6">
+              {CONTEXT_TOPICS.map((t) => (
+                <Link
+                  key={t.id}
+                  href={t.href}
+                  className="bg-card border border-line rounded-xl p-4 hover:border-accent"
+                >
+                  <p className="text-xs font-semibold text-accent mb-1">{t.zhScene}</p>
+                  <p className="text-sm font-semibold mb-1">{t.enTitle}</p>
+                  <p className="text-xs text-muted">{t.vocab[0].en}</p>
+                </Link>
+              ))}
+            </div>
+            <Link
+              href="/curriculum/context"
+              className="inline-flex px-6 py-3 border border-accent rounded-full font-semibold"
+            >
+              家长中文词表 + 十课台词
+            </Link>
+          </div>
+        </section>
+
+        {/* 3. 77 stories */}
+        <section className="py-12 md:py-16 bg-paper-2">
           <div className="max-w-7xl mx-auto px-4">
             <h2 className="font-serif font-semibold text-2xl md:text-3xl mb-2">
               用新加坡生活学英语，不是只做语法卷

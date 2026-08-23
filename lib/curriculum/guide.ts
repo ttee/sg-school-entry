@@ -12,7 +12,11 @@ export const TERMS: { en: string; zh: string; mean: string }[] = [
   { en: "OAS", zh: "光学答题卡", mean: "选择题涂 A–D。模拟卷按此训练。" },
   { en: "CCA", zh: "课程辅助活动", mean: "Co-Curricular Activity。录取后学校生活的一部分。" },
   { en: "form teacher", zh: "班主任", mean: "不是中国语境的「辅导员」。" },
-  { en: "recess", zh: "课间休息", mean: "新加坡小学常用词。" },
+  { en: "recess", zh: "课间休息 / 小息", mean: "新加坡小学常用词，不只说 break。" },
+  { en: "hawker centre", zh: "小贩中心", mean: "自己拿托盘排队。详见新加坡语境页。" },
+  { en: "HDB", zh: "组屋", mean: "不是 apartment 能完全替代。" },
+  { en: "void deck", zh: "组屋底层公共空间", mean: "楼下避雨、活动的地方。" },
+  { en: "Aunty / Uncle", zh: "对工作人员的尊称", mean: "食堂档口、清洁工常用。Thank you, Aunty Tan." },
   { en: "Candidates Portal (CP)", zh: "考生门户", mean: "AEIS 网上报名与上传文件。" },
 ];
 
