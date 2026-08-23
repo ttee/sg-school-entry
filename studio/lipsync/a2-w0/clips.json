@@ -1,0 +1,82 @@
+{
+  "lesson": "A2 Lost and Found",
+  "clips": [
+    {
+      "id": "01-mei-setup",
+      "speaker": "mei",
+      "still": "stills/mei-setup.jpg",
+      "text": "Oh no! Where is my water bottle? I cannot find it.",
+      "scene": "corridor",
+      "prompt": "Mei, a 6-year-old Singapore primary girl with a short black bob and pink backpack, chest-up in a school corridor, talking to camera with realistic lip sync, clear mouth shapes for P B M, worried face, small head movement, painterly cartoon, one speaker only.",
+      "wav": "audio/01-mei-setup.wav",
+      "mp3": "audio/01-mei-setup.mp3",
+      "duration_s": 3.2
+    },
+    {
+      "id": "02-priya-setup",
+      "speaker": "priya",
+      "still": "stills/priya-setup.jpg",
+      "text": "Let's go to the Lost and Found. OK.",
+      "scene": "corridor",
+      "prompt": "Priya, a 6-year-old Singapore primary girl with a long black ponytail and blue backpack, chest-up in a school corridor, talking to camera with realistic lip sync, clear enunciation, kind face, small nod, painterly cartoon, one speaker only.",
+      "wav": "audio/02-priya-setup.wav",
+      "mp3": "audio/02-priya-setup.mp3",
+      "duration_s": 2.47
+    },
+    {
+      "id": "03-auntie-ask",
+      "speaker": "auntie",
+      "still": "stills/auntie-office.jpg",
+      "text": "Is this your white bottle with the pink flower?",
+      "scene": "office",
+      "prompt": "Aunty Tan, older Singapore school staff, curly grey hair, glasses, pink polo, chest-up at the Lost and Found counter, holding a white bottle with a pink flower, talking to camera with realistic lip sync, clear mouth shapes for P B M, warm teacher tone, painterly cartoon, one speaker only.",
+      "wav": "audio/03-auntie-ask.wav",
+      "mp3": "audio/03-auntie-ask.mp3",
+      "duration_s": 2.45
+    },
+    {
+      "id": "04-mei-mine",
+      "speaker": "mei",
+      "still": "stills/mei-office.jpg",
+      "text": "Yes, that is mine. That is the bottle.",
+      "scene": "office",
+      "prompt": "Mei, short black bob, pink backpack, navy pinafore, chest-up at the Lost and Found counter, talking to camera with realistic lip sync, clear mouth shapes, hopeful smile, small nod, painterly cartoon, one speaker only.",
+      "wav": "audio/04-mei-mine.wav",
+      "mp3": "audio/04-mei-mine.mp3",
+      "duration_s": 2.67
+    },
+    {
+      "id": "05-auntie-yours",
+      "speaker": "auntie",
+      "still": "stills/auntie-office.jpg",
+      "text": "Here you are. This is yours.",
+      "scene": "office",
+      "prompt": "Aunty Tan at the Lost and Found counter, chest-up, holding the white bottle with a pink flower, talking to camera with realistic lip sync, clear enunciation, offering the bottle, painterly cartoon, one speaker only.",
+      "wav": "audio/05-auntie-yours.wav",
+      "mp3": "audio/05-auntie-yours.mp3",
+      "duration_s": 2.03
+    },
+    {
+      "id": "06-priya-yours",
+      "speaker": "priya",
+      "still": "stills/priya-office.jpg",
+      "text": "That is yours, Mei.",
+      "scene": "office",
+      "prompt": "Priya, long black ponytail, blue backpack, chest-up at the Lost and Found counter, talking to Mei with realistic lip sync, clear mouth shapes, pleased face, one small hand gesture, painterly cartoon, one speaker only.",
+      "wav": "audio/06-priya-yours.wav",
+      "mp3": "audio/06-priya-yours.mp3",
+      "duration_s": 1.62
+    },
+    {
+      "id": "07-mei-thanks",
+      "speaker": "mei",
+      "still": "stills/mei-office.jpg",
+      "text": "Thank you, Aunty Tan.",
+      "scene": "office",
+      "prompt": "Mei, short black bob, pink backpack, chest-up at the Lost and Found counter, talking to camera with realistic lip sync, clear mouth shapes, grateful smile, small nod, painterly cartoon, one speaker only.",
+      "wav": "audio/07-mei-thanks.wav",
+      "mp3": "audio/07-mei-thanks.mp3",
+      "duration_s": 1.72
+    }
+  ]
+}
