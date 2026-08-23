@@ -1,6 +1,9 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import CurriculumNav from "@/components/CurriculumNav";
+import { getSession } from "@/lib/session";
+import { isAdminRole } from "@/lib/access";
+import { CONTEXT_TOPICS } from "@/lib/curriculum/singapore-context";
 import {
   ALL_STORIES,
   CYCLE,
@@ -21,8 +24,15 @@ export default async function StoryPage({
   const { n } = await params;
   const story = getStory(Number(n));
   if (!story) notFound();
+  const session = await getSession();
+  const isReviewer =
+    isAdminRole(session?.user?.role) || Boolean(session?.user?.subscribed);
   const theme = THEMES.find((t) => t.stories.some((s) => s.n === story.n));
   const script = SAMPLE_SCRIPTS.find((s) => s.n === story.n);
+  const contextTopic = CONTEXT_TOPICS.find((t) => t.story === story.n);
+  const dialogue =
+    script?.lines ??
+    contextTopic?.dialogue.map((d) => ({ who: d.who, say: d.line }));
   const prev = getStory(story.n - 1);
   const next = getStory(story.n + 1);
 
@@ -34,6 +44,13 @@ export default async function StoryPage({
       </p>
       <h1 className="font-serif font-semibold text-3xl mb-2">{story.title}</h1>
       <p className="text-ink-2 mb-6">{story.focus}</p>
+      <p className="text-sm text-ink-2 mb-6 max-w-2xl">
+        这一页是课文提纲（语法、词汇、开口句）。完整每周作业在{" "}
+        <Link href="/learn" className="text-accent font-semibold">
+          作业列表
+        </Link>
+        里，不在这一页解锁。
+      </p>
 
       <div className="grid md:grid-cols-2 gap-4 mb-8">
         <div className="bg-card border border-line rounded-xl p-4 text-sm">
@@ -56,12 +73,12 @@ export default async function StoryPage({
         ))}
       </ul>
 
-      {script && (
+      {dialogue && dialogue.length > 0 && (
         <section className="bg-card border border-accent/40 rounded-2xl p-5 mb-8">
-          <h2 className="font-serif font-semibold text-lg mb-1">Sample script</h2>
-          <p className="text-sm text-muted mb-3">{script.scene}</p>
+          <h2 className="font-serif font-semibold text-lg mb-1">开口对话</h2>
+          {script?.scene && <p className="text-sm text-muted mb-3">{script.scene}</p>}
           <div className="space-y-2 text-sm">
-            {script.lines.map((l, i) => (
+            {dialogue.map((l, i) => (
               <p key={i}>
                 <strong>{l.who}:</strong> {l.say}
               </p>
@@ -80,20 +97,39 @@ export default async function StoryPage({
       </ol>
 
       <div className="flex flex-wrap gap-3 mb-8">
-        {story.href && (
+        {isReviewer ? (
           <Link
-            href={story.href}
+            href="/learn"
             className="px-5 py-2.5 bg-accent text-accent-ink rounded-full font-semibold"
           >
-            Open this lesson on the site
+            打开全部作业
+          </Link>
+        ) : (
+          story.href && (
+            <Link
+              href={story.href}
+              className="px-5 py-2.5 bg-accent text-accent-ink rounded-full font-semibold"
+            >
+              打开试学
+            </Link>
+          )
+        )}
+        {contextTopic && (
+          <Link
+            href="/curriculum/context"
+            className="px-5 py-2.5 border border-accent rounded-full font-semibold"
+          >
+            语境：{contextTopic.zhScene}
           </Link>
         )}
-        <Link
-          href="/#contact"
-          className="px-5 py-2.5 border border-accent rounded-full font-semibold"
-        >
-          Unlock 12 weeks
-        </Link>
+        {!isReviewer && (
+          <Link
+            href="/#contact"
+            className="px-5 py-2.5 border border-line rounded-full font-semibold"
+          >
+            问顾问开通作业
+          </Link>
+        )}
         <Link href="/curriculum/stories" className="px-5 py-2.5 border border-line rounded-full">
           课文目录
         </Link>
