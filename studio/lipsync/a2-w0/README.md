@@ -38,36 +38,38 @@ Do not overlay two mouths in one generation. If you want Mei and Priya at the sa
 ### 03 — Aunty Tan, office
 - Still: `stills/auntie-office.jpg`
 - Audio: `audio/03-auntie-ask.wav`
-- TTS: Is this your white bottle with the pink flower?
-- Prompt: Aunty Tan, older Singapore school staff, curly grey hair, glasses, pink polo, chest-up at the Lost and Found counter, holding a white bottle with a pink flower, talking to camera with realistic lip sync, clear mouth shapes for P B M, warm teacher tone, painterly cartoon, one speaker only.
+- TTS: Is this your white water bottle with the pink flower?
+- Prompt: Aunty Tan, motherly Singapore school staff, curly grey hair, glasses, pink polo, chest-up at the Lost and Found counter, holding a white water bottle with a pink flower, talking to camera with realistic lip sync, clear mouth shapes for P B M, warm high motherly voice, painterly cartoon, one speaker only.
 
 ### 04 — Mei, office
 - Still: `stills/mei-office.jpg`
 - Audio: `audio/04-mei-mine.wav`
-- TTS: Yes, that is mine. That is the bottle.
-- Prompt: Mei, short black bob, pink backpack, navy pinafore, chest-up at the Lost and Found counter, talking to camera with realistic lip sync, clear mouth shapes, hopeful smile, small nod, painterly cartoon, one speaker only.
+- TTS: Yes, Aunty! That is my white water bottle!
+- Prompt: Mei, short black bob, pink backpack, navy pinafore, chest-up at the Lost and Found counter, talking to camera with realistic lip sync, clear mouth shapes, excited smile, small nod, painterly cartoon, one speaker only.
 
-### 05 — Aunty Tan, office
-- Still: `stills/auntie-office.jpg`
-- Audio: `audio/05-auntie-yours.wav`
-- TTS: Here you are. This is yours.
-- Prompt: Aunty Tan at the Lost and Found counter, chest-up, holding the white bottle with a pink flower, talking to camera with realistic lip sync, clear enunciation, offering the bottle, painterly cartoon, one speaker only.
-
-### 06 — Priya, office
+### 05 — Priya, office (same time as 06)
 - Still: `stills/priya-office.jpg`
-- Audio: `audio/06-priya-yours.wav`
-- TTS: That is yours, Mei.
-- Prompt: Priya, long black ponytail, blue backpack, chest-up at the Lost and Found counter, talking to Mei with realistic lip sync, clear mouth shapes, pleased face, one small hand gesture, painterly cartoon, one speaker only.
+- Audio: `audio/05-priya-found.wav`
+- TTS: We found it!
+- Prompt: Priya, long black ponytail, blue backpack, chest-up at the Lost and Found counter, talking with realistic lip sync, clear mouth shapes, happy face, small clap or hand gesture, painterly cartoon, one speaker only.
+
+### 06 — Mei, office (same time as 05)
+- Still: `stills/mei-office.jpg`
+- Audio: `audio/06-mei-found.wav`
+- TTS: We found it!
+- Prompt: Mei, short black bob, pink backpack, chest-up at the Lost and Found counter, talking with realistic lip sync, happy face, small excited gesture, painterly cartoon, one speaker only.
 
 ### 07 — Mei, office
 - Still: `stills/mei-office.jpg`
 - Audio: `audio/07-mei-thanks.wav`
-- TTS: Thank you, Aunty Tan.
+- TTS: Thank you, Aunty!
 - Prompt: Mei, short black bob, pink backpack, chest-up at the Lost and Found counter, talking to camera with realistic lip sync, clear mouth shapes, grateful smile, small nod, painterly cartoon, one speaker only.
+
+Generate 05 and 06 separately, then overlay in the editor so both say "We found it!" together.
 
 ## Lesson targets (keep these words)
 
-Is this your…? / the / that is mine / this is yours / Thank you, Aunty Tan.
+Is this your…? / my white water bottle / We found it! / Thank you, Aunty!
 
 ## Rebuild audio
 

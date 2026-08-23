@@ -49,13 +49,13 @@ CLIPS: list[dict] = [
         "id": "03-auntie-ask",
         "speaker": "auntie",
         "still": "stills/auntie-office.jpg",
-        "text": "Is this your white bottle with the pink flower?",
+        "text": "Is this your white water bottle with the pink flower?",
         "scene": "office",
         "prompt": (
-            "Aunty Tan, older Singapore school staff, curly grey hair, glasses, "
+            "Aunty Tan, motherly Singapore school staff, curly grey hair, glasses, "
             "pink polo, chest-up at the Lost and Found counter, holding a white "
-            "bottle with a pink flower, talking to camera with realistic lip sync, "
-            "clear mouth shapes for P B M, warm teacher tone, painterly cartoon, "
+            "water bottle with a pink flower, talking to camera with realistic lip sync, "
+            "clear mouth shapes for P B M, warm high motherly voice, painterly cartoon, "
             "one speaker only."
         ),
     },
@@ -63,45 +63,44 @@ CLIPS: list[dict] = [
         "id": "04-mei-mine",
         "speaker": "mei",
         "still": "stills/mei-office.jpg",
-        "text": "Yes, that is mine. That is the bottle.",
+        "text": "Yes, Aunty! That is my white water bottle!",
         "scene": "office",
         "prompt": (
             "Mei, short black bob, pink backpack, navy pinafore, chest-up at the "
             "Lost and Found counter, talking to camera with realistic lip sync, "
-            "clear mouth shapes, hopeful smile, small nod, painterly cartoon, "
+            "clear mouth shapes, excited smile, small nod, painterly cartoon, "
             "one speaker only."
         ),
     },
     {
-        "id": "05-auntie-yours",
-        "speaker": "auntie",
-        "still": "stills/auntie-office.jpg",
-        "text": "Here you are. This is yours.",
-        "scene": "office",
-        "prompt": (
-            "Aunty Tan at the Lost and Found counter, chest-up, holding the white "
-            "bottle with a pink flower, talking to camera with realistic lip sync, "
-            "clear enunciation, offering the bottle, painterly cartoon, one speaker only."
-        ),
-    },
-    {
-        "id": "06-priya-yours",
+        "id": "05-priya-found",
         "speaker": "priya",
         "still": "stills/priya-office.jpg",
-        "text": "That is yours, Mei.",
+        "text": "We found it!",
         "scene": "office",
         "prompt": (
             "Priya, long black ponytail, blue backpack, chest-up at the Lost and "
-            "Found counter, talking to Mei with realistic lip sync, clear mouth "
-            "shapes, pleased face, one small hand gesture, painterly cartoon, "
-            "one speaker only."
+            "Found counter, talking with realistic lip sync, clear mouth shapes, "
+            "happy face, small clap or hand gesture, painterly cartoon, one speaker only."
+        ),
+    },
+    {
+        "id": "06-mei-found",
+        "speaker": "mei",
+        "still": "stills/mei-office.jpg",
+        "text": "We found it!",
+        "scene": "office",
+        "prompt": (
+            "Mei, short black bob, pink backpack, chest-up at the Lost and Found "
+            "counter, talking with realistic lip sync, happy face, small excited "
+            "gesture, painterly cartoon, one speaker only."
         ),
     },
     {
         "id": "07-mei-thanks",
         "speaker": "mei",
         "still": "stills/mei-office.jpg",
-        "text": "Thank you, Aunty Tan.",
+        "text": "Thank you, Aunty!",
         "scene": "office",
         "prompt": (
             "Mei, short black bob, pink backpack, chest-up at the Lost and Found "

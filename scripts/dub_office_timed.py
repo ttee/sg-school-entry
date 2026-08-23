@@ -22,15 +22,13 @@ BEATS: list[tuple[float, float, str, str]] = [
         0.16,
         2.70,
         "auntie",
-        "Is this your white bottle with the pink flower?",
+        "Is this your white water bottle with the pink flower?",
     ),
-    (2.76, 5.30, "mei", "Yes, that is mine, that is the bottle."),
-    (5.38, 7.16, "auntie", "Here you are, this is yours."),
-    # Both mouths open 7.5–8.7s — mix these two at once.
-    (7.18, 8.70, "priya", "That is yours, Mei!"),
-    (7.42, 8.70, "mei", "Yes, that is mine!"),
-    # Mei's remaining mouth (fist / point / thank you) after the overlap.
-    (8.54, 10.02, "mei", "Thank you Aunty Tan."),
+    (2.76, 5.30, "mei", "Yes, Aunty! That is my white water bottle!"),
+    # Both mouths open 7.5–8.7s — same line together.
+    (7.18, 8.70, "priya", "We found it!"),
+    (7.42, 8.70, "mei", "We found it!"),
+    (8.54, 10.02, "mei", "Thank you, Aunty!"),
 ]
 
 

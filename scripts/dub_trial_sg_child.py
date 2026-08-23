@@ -52,8 +52,9 @@ CAST = {
     },
     "auntie": {
         "voice": "en-SG-LunaNeural",
-        "rate": "-4%",
-        "pitch_scale": 0.87,  # older staff aunty
+        "rate": "+6%",
+        "pitch_scale": 1.16,  # motherly, higher; still below the girls
+        "tts_pitch": "+10Hz",
     },
     "wei": {
         "voice": "en-SG-WayneNeural",
@@ -96,7 +97,9 @@ def duration(path: Path) -> float:
 async def tts_to_wav(text: str, speaker: str, dest: Path) -> None:
     cfg = CAST[speaker]
     raw_mp3 = dest.with_suffix(".raw.mp3")
-    comm = edge_tts.Communicate(text, cfg["voice"], rate=cfg["rate"], pitch="+0Hz")
+    comm = edge_tts.Communicate(
+        text, cfg["voice"], rate=cfg["rate"], pitch=cfg.get("tts_pitch", "+0Hz")
+    )
     await comm.save(str(raw_mp3))
     scale = cfg["pitch_scale"]
     # formant=shifted: smaller vocal tract with higher pitch (child, not chipmunk adult)

@@ -21,62 +21,62 @@
       "prompt": "Priya, a 6-year-old Singapore primary girl with a long black ponytail and blue backpack, chest-up in a school corridor, talking to camera with realistic lip sync, clear enunciation, kind face, small nod, painterly cartoon, one speaker only.",
       "wav": "audio/02-priya-setup.wav",
       "mp3": "audio/02-priya-setup.mp3",
-      "duration_s": 2.47
+      "duration_s": 2.39
     },
     {
       "id": "03-auntie-ask",
       "speaker": "auntie",
       "still": "stills/auntie-office.jpg",
-      "text": "Is this your white bottle with the pink flower?",
+      "text": "Is this your white water bottle with the pink flower?",
       "scene": "office",
-      "prompt": "Aunty Tan, older Singapore school staff, curly grey hair, glasses, pink polo, chest-up at the Lost and Found counter, holding a white bottle with a pink flower, talking to camera with realistic lip sync, clear mouth shapes for P B M, warm teacher tone, painterly cartoon, one speaker only.",
+      "prompt": "Aunty Tan, motherly Singapore school staff, curly grey hair, glasses, pink polo, chest-up at the Lost and Found counter, holding a white water bottle with a pink flower, talking to camera with realistic lip sync, clear mouth shapes for P B M, warm high motherly voice, painterly cartoon, one speaker only.",
       "wav": "audio/03-auntie-ask.wav",
       "mp3": "audio/03-auntie-ask.mp3",
-      "duration_s": 2.45
+      "duration_s": 2.58
     },
     {
       "id": "04-mei-mine",
       "speaker": "mei",
       "still": "stills/mei-office.jpg",
-      "text": "Yes, that is mine. That is the bottle.",
+      "text": "Yes, Aunty! That is my white water bottle!",
       "scene": "office",
-      "prompt": "Mei, short black bob, pink backpack, navy pinafore, chest-up at the Lost and Found counter, talking to camera with realistic lip sync, clear mouth shapes, hopeful smile, small nod, painterly cartoon, one speaker only.",
+      "prompt": "Mei, short black bob, pink backpack, navy pinafore, chest-up at the Lost and Found counter, talking to camera with realistic lip sync, clear mouth shapes, excited smile, small nod, painterly cartoon, one speaker only.",
       "wav": "audio/04-mei-mine.wav",
       "mp3": "audio/04-mei-mine.mp3",
-      "duration_s": 2.67
+      "duration_s": 2.95
     },
     {
-      "id": "05-auntie-yours",
-      "speaker": "auntie",
-      "still": "stills/auntie-office.jpg",
-      "text": "Here you are. This is yours.",
-      "scene": "office",
-      "prompt": "Aunty Tan at the Lost and Found counter, chest-up, holding the white bottle with a pink flower, talking to camera with realistic lip sync, clear enunciation, offering the bottle, painterly cartoon, one speaker only.",
-      "wav": "audio/05-auntie-yours.wav",
-      "mp3": "audio/05-auntie-yours.mp3",
-      "duration_s": 2.03
-    },
-    {
-      "id": "06-priya-yours",
+      "id": "05-priya-found",
       "speaker": "priya",
       "still": "stills/priya-office.jpg",
-      "text": "That is yours, Mei.",
+      "text": "We found it!",
       "scene": "office",
-      "prompt": "Priya, long black ponytail, blue backpack, chest-up at the Lost and Found counter, talking to Mei with realistic lip sync, clear mouth shapes, pleased face, one small hand gesture, painterly cartoon, one speaker only.",
-      "wav": "audio/06-priya-yours.wav",
-      "mp3": "audio/06-priya-yours.mp3",
-      "duration_s": 1.62
+      "prompt": "Priya, long black ponytail, blue backpack, chest-up at the Lost and Found counter, talking with realistic lip sync, clear mouth shapes, happy face, small clap or hand gesture, painterly cartoon, one speaker only.",
+      "wav": "audio/05-priya-found.wav",
+      "mp3": "audio/05-priya-found.mp3",
+      "duration_s": 0.74
+    },
+    {
+      "id": "06-mei-found",
+      "speaker": "mei",
+      "still": "stills/mei-office.jpg",
+      "text": "We found it!",
+      "scene": "office",
+      "prompt": "Mei, short black bob, pink backpack, chest-up at the Lost and Found counter, talking with realistic lip sync, happy face, small excited gesture, painterly cartoon, one speaker only.",
+      "wav": "audio/06-mei-found.wav",
+      "mp3": "audio/06-mei-found.mp3",
+      "duration_s": 0.72
     },
     {
       "id": "07-mei-thanks",
       "speaker": "mei",
       "still": "stills/mei-office.jpg",
-      "text": "Thank you, Aunty Tan.",
+      "text": "Thank you, Aunty!",
       "scene": "office",
       "prompt": "Mei, short black bob, pink backpack, chest-up at the Lost and Found counter, talking to camera with realistic lip sync, clear mouth shapes, grateful smile, small nod, painterly cartoon, one speaker only.",
       "wav": "audio/07-mei-thanks.wav",
       "mp3": "audio/07-mei-thanks.mp3",
-      "duration_s": 1.72
+      "duration_s": 1.28
     }
   ]
 }
