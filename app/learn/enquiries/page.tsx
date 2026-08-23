@@ -27,7 +27,7 @@ export default async function EnquiriesPage() {
   };
 
   const intentLabels: Record<string, string> = {
-    enrol: "咨询新加坡私立学校入学",
+    enrol: "咨询来新加坡备考 CEQ / AEIS",
     monthly: "月度会员",
     "a2-12week": "A2 Key 12 周",
     "b1-12week": "B1 Preliminary 12 周",

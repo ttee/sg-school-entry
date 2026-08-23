@@ -10,7 +10,7 @@ function storyHop(weekNumber: number): { href: string; text: string } {
   if (weekNumber === 1) {
     return { href: "/trial/A2/1", text: "先看本周故事" };
   }
-  return { href: "/#contact", text: "咨询入学" };
+  return { href: "/#contact", text: "咨询备考" };
 }
 
 export default function SkillsPage() {
@@ -99,7 +99,7 @@ export default function SkillsPage() {
             <div>
               <h3 className="text-lg font-bold text-ink mb-3">狮城入学</h3>
               <p className="text-sm text-muted">
-                来新加坡入读私立学校，从容应对 CEQ、AEIS 入学考。
+                用新加坡场景上课，从容应对 CEQ、AEIS 入学考。
               </p>
             </div>
             <div>

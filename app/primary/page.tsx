@@ -2,10 +2,10 @@ import Link from "next/link";
 
 export const metadata = {
   title: "小学 · 狮城入学",
-  description: "来新加坡入学。英语冲 CEQ，数学考 AEIS。",
+  description: "英语冲 CEQ，数学考 AEIS。课文从新加坡小学场景来。",
   openGraph: {
     title: "小学 · 狮城入学",
-    description: "来新加坡入学。英语冲 CEQ，数学考 AEIS。",
+    description: "英语冲 CEQ，数学考 AEIS。课文从新加坡小学场景来。",
     url: "https://sg-school-entry.vercel.app/小学",
     siteName: "狮城入学",
     locale: "zh_CN",
@@ -51,7 +51,7 @@ export default function PrimaryPage() {
               小学
             </h1>
             <p className="text-ink-2 mb-6 max-w-2xl">
-              来新加坡入读私立学校。英语冲剑桥 CEQ，数学考 AEIS。
+              英语冲剑桥 CEQ，数学考 AEIS。课文从新加坡小学场景来。
             </p>
             <div className="flex flex-wrap gap-3">
               <Link

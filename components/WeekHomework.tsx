@@ -1790,14 +1790,14 @@ export default function WeekHomework({
             完成试学周了？
           </h3>
           <p className="text-ink-2 mb-4">
-            来新加坡入学，在校园里继续开口、纠错、备考。
+            课文从新加坡场景来。继续开口、纠错，对准 CEQ 和 AEIS。
           </p>
           <div className="flex flex-wrap gap-3">
             <Link
               href="/#contact"
               className="inline-flex items-center justify-center px-6 py-3 bg-accent text-accent-ink font-semibold rounded-full hover:bg-accent-hover transition-colors"
             >
-              咨询入学 →
+              咨询备考 →
             </Link>
             <Link
               href="/trial"

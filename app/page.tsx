@@ -6,9 +6,9 @@ import { THEMES } from "@/lib/curriculum/storylines";
 import { CONTEXT_TOPICS } from "@/lib/curriculum/singapore-context";
 
 export const metadata = {
-  title: "狮城入学 · 来新加坡入学",
+  title: "狮城入学 · 过 CEQ 和 AEIS",
   description:
-    "专为有意向入读新加坡政府学校的家庭打造。来新加坡入读私立学校，帮助孩子破除语言障碍，从容应对 CEQ、AEIS 入学考。",
+    "专为有意向入读新加坡政府学校的家庭打造。用食堂、小息、失物招领这些新加坡场景上课，从容应对 CEQ、AEIS 入学考。",
 };
 
 function story(n: number) {
@@ -41,7 +41,7 @@ const PILLARS = [
   {
     href: "/curriculum/speaking",
     titleZh: "跟读开口",
-    body: "食堂、小息、失物招领，每课几句能用的话。试学视频打开就能听。",
+    body: "食堂、小息、失物招领。每课对着新加坡这一幕开口，不是背单词表。",
   },
   {
     href: "/assess",
@@ -106,7 +106,7 @@ const FAMILY_PATHS = [
   {
     tag: "想来新加坡读小学",
     title: "先过 CEQ，再考 AEIS 数学",
-    body: "来新加坡入读私立学校。英语冲剑桥 CEQ，数学对准 AEIS。顾问帮你看年级和学位。",
+    body: "英语冲剑桥 CEQ，数学对准 AEIS。来新加坡是为了每天泡在英语里，学得更快。本站用校园场景陪着练。",
     next: "打开小学试学",
     href: "/trial/A2",
   },
@@ -120,7 +120,7 @@ const FAMILY_PATHS = [
   {
     tag: "申请中学",
     title: "作文、理解语法、再加数学",
-    body: "来新加坡入读私立学校。英语写一篇，再做理解语法；数学不给计算器。按前一年级的内容来。",
+    body: "英语写一篇，再做理解语法；数学不给计算器。按前一年级的内容来。本站用中学校园场景陪着练。",
     next: "打开中学试学",
     href: "/trial/SEC",
   },
@@ -129,11 +129,11 @@ const FAMILY_PATHS = [
 const CHALLENGES = [
   {
     titleZh: "位子有限",
-    body: "热门学校每年就那么多国际学生名额。早点来新加坡入学，把该练的练熟。",
+    body: "热门政府学校每年就那么多国际学生名额。CEQ 和 AEIS 要赶申请窗口。",
   },
   {
-    titleZh: "学位、考试、准证分开办",
-    body: "私立学校学位、CEQ / AEIS 报名、准证是不同的手续。顾问把步骤讲清楚。费用以咨询确认为准。",
+    titleZh: "准证、考试、政府学位分开看",
+    body: "私立学校是语言环境和申请学生准证的路，不是终点。政府学校要过 CEQ / AEIS。准证以 ICA 为准。",
   },
   {
     titleZh: "头三个月最懵",
@@ -144,19 +144,19 @@ const CHALLENGES = [
 const FAQS = [
   {
     q: "一定要来新加坡吗？",
-    a: "要。我们帮孩子入读新加坡的私立学校，在校园里学英语、练数学、适应生活，再应考 CEQ 和 AEIS。试学课可以先看我们怎么教。",
+    a: "来了学得更快。入读私立学校，是为了申请学生准证、每天泡在新加坡英语里。终点是 CEQ 和 AEIS，不是私立学校本身。本站把食堂、小息、失物招领做成课，人在本地听得到，网上对着练。准证以 ICA 为准。",
   },
   {
     q: "我英语不好，能帮孩子吗？",
     a: "能。对错、说明、报名表都是中文。孩子做英文题，你看中文解释。有问题微信找顾问。",
   },
   {
-    q: "这跟在国内上网课有什么不一样？",
-    a: "孩子在新加坡学校里上课、排队、开口，不是对着屏幕交作业。课文和进度你用中文就能看见。",
+    q: "这跟普通网课有什么不一样？",
+    a: "课文从新加坡的食堂、小息、地铁、告示来。孩子若在本地，白天听到的就是课上的话。进度你用中文就能看见。",
   },
   {
-    q: "入读了就一定有政府学校学位吗？",
-    a: "不一定。政府学校学位和准证是教育部、移民局的事。我们先安排在新加坡的学校，把 CEQ 和 AEIS 该练的练熟。先看试学，再跟顾问谈入学。",
+    q: "过了 CEQ / AEIS 就一定有政府学校学位吗？",
+    a: "不一定。学位和准证是教育部、移民局的事。我们把该练的练熟。先看试学，再跟顾问谈怎么来新加坡备考。",
   },
 ];
 
@@ -187,16 +187,16 @@ export default function HomePage() {
               </p>
               <ul className="space-y-3 mb-6 max-w-xl text-sm text-ink-2 leading-relaxed">
                 <li>
-                  <strong className="text-ink">来新加坡入学。</strong>
-                  先入读本地私立学校。在校园里开口、适应，再应考 CEQ 和 AEIS。
-                </li>
-                <li>
-                  <strong className="text-ink">融入本土生活。</strong>
-                  从食堂点餐、小息（recess）、鸡饭、失物招领（Lost and Found）等真实校园场景切入，让孩子敢说敢用。
+                  <strong className="text-ink">用新加坡语境学。</strong>
+                  课文从食堂点餐、小息（recess）、鸡饭、失物招领（Lost and Found）、地铁告示来。孩子在本地听得到，网站上对着练。
                 </li>
                 <li>
                   <strong className="text-ink">精准匹配考纲。</strong>
                   小学组：冲刺剑桥 CEQ 英语认证，同步对接新加坡数学。中学组：系统备战 AEIS 英语写作、阅读理解与语法词汇，全方位备战数学试题。
+                </li>
+                <li>
+                  <strong className="text-ink">人在新加坡学得更快。</strong>
+                  入读私立学校，是为了申请学生准证、每天泡在英语里。终点是 CEQ 和 AEIS。准证以 ICA 为准。
                 </li>
               </ul>
               <div className="flex flex-wrap gap-3 mb-4">
@@ -210,13 +210,13 @@ export default function HomePage() {
                   href="#contact"
                   className="inline-flex items-center justify-center px-6 py-3.5 border border-accent rounded-full font-semibold"
                 >
-                  咨询入学
+                  咨询备考
                 </Link>
               </div>
               <p className="text-sm text-ink mb-1">
-                留下微信，顾问说明学位、年级和费用。PayNow 94594601。
+                留下微信，顾问说明怎么来新加坡备考。PayNow 94594601。
               </p>
-              <p className="text-xs text-muted mb-5">先看试学课，了解我们怎么教。再跟顾问谈入学。</p>
+              <p className="text-xs text-muted mb-5">先看试学课。课文都从新加坡场景来。</p>
               <ul className="flex flex-wrap gap-2 text-xs">
                 {[
                   "校园课文",
@@ -241,18 +241,31 @@ export default function HomePage() {
                 >
                   <source src="/trial/a2-w0-setup.mp4?v=sync1" type="video/mp4" />
                 </video>
-                <div className="grid grid-cols-2 gap-px bg-line">
-                  <div className="bg-card p-4">
-                    <p className="text-xs font-semibold text-accent mb-1">进校前要会说</p>
-                    <p className="text-sm text-ink-2">I lost my water bottle. Is this your bottle? Thank you, Aunty Tan.</p>
+                <div className="bg-card p-5">
+                  <p className="text-xs font-semibold tracking-widest uppercase text-accent mb-2">
+                    试学课文 · 失物招领
+                  </p>
+                  <p className="text-sm text-ink leading-relaxed mb-4">
+                    新加坡小学走廊。水瓶丢了要去 Lost and Found；柜台叫 Aunty，课本里的 teacher 用不上。
+                  </p>
+                  <div className="grid sm:grid-cols-2 gap-4 text-sm text-ink-2 leading-relaxed">
+                    <div>
+                      <p className="text-xs font-semibold text-ink mb-1">对准哪张考</p>
+                      <p>小学 CEQ 口语就是这种日常问答：东西丢了怎么说、是不是你的、怎么道谢。</p>
+                    </div>
+                    <div>
+                      <p className="text-xs font-semibold text-ink mb-1">看完怎么练</p>
+                      <p>跟读，再选题，再写一句。本站课文都从食堂、小息、地铁、告示这些场景来。</p>
+                    </div>
                   </div>
-                  <div className="bg-card p-4">
-                    <p className="text-xs font-semibold text-accent mb-1">跟读就这几句</p>
-                    <p className="text-sm text-ink-2">Lost and Found、recess、canteen。打开就能听。</p>
-                  </div>
+                  <Link href="/trial/A2" className="inline-flex mt-4 text-sm text-accent font-semibold">
+                    打开这一课 →
+                  </Link>
                 </div>
               </div>
-              <p className="text-xs text-muted mt-2">Mei 和 Priya，试学周里的两个孩子。</p>
+              <p className="text-xs text-muted mt-2">
+                Mei 和 Priya。人在新加坡听得到这些话；网站把这一幕做成课，陪着过 CEQ。
+              </p>
             </div>
           </div>
         </section>
@@ -264,7 +277,7 @@ export default function HomePage() {
               很多家庭把下一步放在新加坡
             </h2>
             <p className="text-ink-2 mb-8 max-w-3xl leading-relaxed">
-              英语上课，生活里还有华语，回国也近。真正要练的，是课室和食堂里那口英语。
+              英语上课，生活里还有华语，回国也近。真正要练的，是课室和食堂里那口英语。本站把这些场景做成课。
             </p>
             <div className="grid md:grid-cols-3 gap-4 mb-10">
               {WHY_NOW.map((w) => (
@@ -276,7 +289,7 @@ export default function HomePage() {
             </div>
 
             <h3 className="font-serif font-semibold text-xl mb-2">看看哪条像你们家</h3>
-            <p className="text-sm text-muted mb-6 max-w-2xl">三种常见情况。先看我们怎么教，再跟顾问谈入学。</p>
+            <p className="text-sm text-muted mb-6 max-w-2xl">三种常见情况。先看课文怎么从新加坡场景来，再跟顾问谈备考。</p>
             <div className="grid md:grid-cols-3 gap-4 mb-10">
               {FAMILY_PATHS.map((p) => (
                 <article key={p.tag} className="bg-card border border-line rounded-2xl p-6 flex flex-col">
@@ -458,7 +471,7 @@ export default function HomePage() {
               这半年怎么排
             </h2>
             <p className="text-ink-2 mb-8 max-w-2xl">
-              来新加坡入学以后，先摸底，再按孩子程度排课。
+              先摸底，再按孩子程度排 CEQ 或 AEIS 的课。课文对着新加坡的日子来。
             </p>
             <div className="grid md:grid-cols-3 gap-4 mb-10">
               {ROADMAP.map((r) => (
@@ -543,14 +556,14 @@ export default function HomePage() {
         <section className="py-12 md:py-16 bg-paper-2" id="pricing">
           <div className="max-w-7xl mx-auto px-4">
             <h2 className="font-serif font-semibold text-2xl md:text-3xl mb-2">怎么开始</h2>
-            <p className="text-ink-2 mb-8 max-w-2xl">先看试学课，觉得对再谈入学。学费和学位以顾问确认为准。</p>
+            <p className="text-ink-2 mb-8 max-w-2xl">先看试学课，觉得对再谈怎么来新加坡备考。费用以顾问确认为准。</p>
             <div className="grid md:grid-cols-2 gap-5 mb-6">
               <article className="bg-card border border-line rounded-2xl p-6">
                 <p className="text-xs font-semibold text-accent mb-1">试学课</p>
                 <h3 className="font-serif text-2xl font-semibold mb-2">免费</h3>
-                <p className="text-sm text-ink-2 mb-4">看我们怎么教。小学英语 / 中学英语 / 数学各有试学周。</p>
+                <p className="text-sm text-ink-2 mb-4">看课文怎么从新加坡场景来。小学英语 / 中学英语 / 数学各有试学周。</p>
                 <ul className="text-sm space-y-2 mb-6">
-                  <li>Lost and Found 试学视频</li>
+                  <li>失物招领这一幕</li>
                   <li>本周选择题与短写作</li>
                   <li>P2–S3 摸底 MCQ</li>
                 </ul>
@@ -562,12 +575,12 @@ export default function HomePage() {
                 </Link>
               </article>
               <article className="bg-card border-2 border-accent rounded-2xl p-6">
-                <p className="text-xs font-semibold text-accent mb-1">入学</p>
+                <p className="text-xs font-semibold text-accent mb-1">来新加坡备考</p>
                 <h3 className="font-serif text-2xl font-semibold mb-2">咨询顾问</h3>
-                <p className="text-sm text-ink-2 mb-4">来新加坡入读私立学校。顾问说明学位、年级和费用。</p>
+                <p className="text-sm text-ink-2 mb-4">私立学校是语言环境和学生准证的路。本站用这些语境陪着过 CEQ / AEIS。</p>
                 <ul className="text-sm space-y-2 mb-6">
-                  <li>新加坡私立学校入学安排</li>
-                  <li>CEQ / AEIS 备考与校园适应</li>
+                  <li>学生准证路径（以 ICA 为准）</li>
+                  <li>新加坡语境课文 + CEQ / AEIS</li>
                   <li>年级与程度摸底</li>
                   <li>顾问微信 · 家长中文说明</li>
                 </ul>
@@ -575,7 +588,7 @@ export default function HomePage() {
                   href="#contact"
                   className="inline-flex px-5 py-2.5 bg-accent text-accent-ink rounded-full font-semibold"
                 >
-                  咨询入学
+                  咨询备考
                 </Link>
               </article>
             </div>
@@ -618,7 +631,7 @@ export default function HomePage() {
                 按年级摸底
               </Link>
             </div>
-            <h3 className="font-serif font-semibold text-xl mb-2">留下微信，顾问谈入学</h3>
+            <h3 className="font-serif font-semibold text-xl mb-2">留下微信，顾问谈备考</h3>
             <p className="text-sm text-ink-2 mb-4">也可以先转 PayNow 94594601。微信号只用来回复你。</p>
             <LandingEnquiry />
           </div>

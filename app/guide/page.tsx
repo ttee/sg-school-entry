@@ -602,10 +602,10 @@ export default function GuidePage() {
 
             <div className="bg-card border border-accent/40 rounded-2xl p-6 shadow">
               <h3 className="font-serif font-semibold text-lg text-ink mb-2">
-                来新加坡入学，备战 CEQ 和 AEIS
+                用新加坡语境备战 CEQ 和 AEIS
               </h3>
               <p className="text-sm text-ink-2 mb-4">
-                来新加坡入读私立学校。小学冲刺 CEQ，再考 AEIS 数学；中学备战 AEIS 英语和数学。顾问说明学位、年级和费用。
+                小学冲刺 CEQ，再考 AEIS 数学；中学备战 AEIS 英语和数学。来新加坡是为了每天泡在英语里。本站把校园场景做成课。
               </p>
               <div className="flex flex-wrap gap-3">
                 <a
@@ -624,7 +624,7 @@ export default function GuidePage() {
                   href="/#contact"
                   className="inline-flex px-5 py-2.5 border border-line rounded-full font-semibold"
                 >
-                  咨询入学
+                  咨询备考
                 </a>
               </div>
             </div>

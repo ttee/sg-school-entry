@@ -74,10 +74,10 @@ export async function generateMetadata({
   if (level === "A2") {
     return {
       title: "狮城入学 · 小学英语试学",
-      description: "先看我们怎么教。来新加坡入读私立学校，从容应对 CEQ、AEIS 入学考。",
+      description: "先看课文怎么从新加坡场景来。从容应对 CEQ、AEIS 入学考。",
       openGraph: {
         title: "狮城入学 · 小学英语试学",
-        description: "先看我们怎么教。来新加坡入读私立学校，从容应对 CEQ、AEIS 入学考。",
+        description: "先看课文怎么从新加坡场景来。从容应对 CEQ、AEIS 入学考。",
         url: "https://sg-school-entry.vercel.app/trial/A2",
         siteName: "狮城入学",
         locale: "zh_CN",
@@ -94,7 +94,7 @@ export async function generateMetadata({
       twitter: {
         card: "summary_large_image",
         title: "狮城入学 · 小学英语试学",
-        description: "先看我们怎么教。来新加坡入读私立学校，从容应对 CEQ、AEIS 入学考。",
+        description: "先看课文怎么从新加坡场景来。从容应对 CEQ、AEIS 入学考。",
         images: ["/og-ceq.jpg"],
       },
     };

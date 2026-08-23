@@ -4,7 +4,7 @@ import SiteChrome from "@/components/SiteChrome";
 export const metadata: Metadata = {
   title: "CEQ / AEIS 课程 · 狮城入学",
   description:
-    "来新加坡入学。CEQ / AEIS 摸底卷、周进度、限时卷与家长手册。",
+    "用新加坡场景上课。CEQ / AEIS 摸底卷、周进度、限时卷与家长手册。",
 };
 
 export default function CurriculumLayout({ children }: { children: React.ReactNode }) {

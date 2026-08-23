@@ -14,7 +14,7 @@ export default function GuideCurriculumPage() {
       <CurriculumNav current="/curriculum/guide" />
       <h1 className="font-serif font-semibold text-3xl mb-3">新加坡 AEIS / CEQ 考试指南</h1>
       <p className="text-ink-2 mb-6 max-w-2xl leading-relaxed">
-        小学怎么走、中学怎么走。日期和分数以当年官网为准。来新加坡入学，在校园里把该练的练熟。政府学校报名仍以官网为准。
+        小学怎么走、中学怎么走。日期和分数以当年官网为准。本站用新加坡场景上课，陪着把 CEQ 和 AEIS 练熟。政府学校报名仍以官网为准。
       </p>
 
       <section className="bg-card border border-accent/40 rounded-2xl p-5 mb-10">

@@ -146,7 +146,7 @@ export default function LandingEnquiry() {
               className="w-full px-4 py-2.5 bg-paper border border-line rounded-xl text-ink focus:outline-none focus:ring-2 focus:ring-accent"
             >
               <option value="">请选择</option>
-              <option value="enrol">咨询新加坡私立学校入学</option>
+              <option value="enrol">咨询来新加坡备考 CEQ / AEIS</option>
               <option value="trial">先看试学课</option>
             </select>
           </div>
@@ -171,7 +171,7 @@ export default function LandingEnquiry() {
         </div>
       </form>
       <p className="text-sm text-ink-2">
-        PayNow {PAYNOW}（手机号）· 微信转账。考试报名费另计。学校学费以顾问确认为准。
+        PayNow {PAYNOW}（手机号）· 微信转账。考试报名费另计。来新加坡备考的安排以顾问确认为准。
         <Link href="/privacy" className="text-accent font-semibold ml-1">
           隐私政策
         </Link>
