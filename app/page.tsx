@@ -2,7 +2,6 @@ import Link from "next/link";
 import OfficialClip from "@/components/OfficialClip";
 import LandingNav from "@/components/LandingNav";
 import LandingEnquiry from "@/components/LandingEnquiry";
-import { THEMES } from "@/lib/curriculum/storylines";
 import { CONTEXT_TOPICS } from "@/lib/curriculum/singapore-context";
 
 export const metadata = {
@@ -10,17 +9,6 @@ export const metadata = {
   description:
     "专为有意向入读新加坡政府学校的家庭打造。用食堂、小息、失物招领这些新加坡场景上课，从容应对 CEQ、AEIS 入学考。",
 };
-
-function story(n: number) {
-  for (const t of THEMES) {
-    const s = t.stories.find((x) => x.n === n);
-    if (s) return s;
-  }
-  return null;
-}
-
-const LOST = story(2);
-const MRT = story(38);
 
 const ROADMAP = [
   { m: "头两个月", t: "先开口", d: "校园课文，冠词和时态。一周只改一个中国孩子常犯的错。" },
@@ -170,71 +158,6 @@ export default function HomePage() {
                   <p className="text-xs font-semibold text-accent mb-1">{t.zhScene}</p>
                   <p className="text-sm font-semibold mb-1">{t.enTitle}</p>
                   <p className="text-xs text-muted">{t.vocab[0].en}</p>
-                </div>
-              ))}
-            </div>
-            <Link
-              href="/trial"
-              className="inline-flex px-6 py-3 border border-accent rounded-full font-semibold"
-            >
-              打开试学课
-            </Link>
-          </div>
-        </section>
-
-        {/* 3. Weekly passages */}
-        <section className="py-12 md:py-16 bg-paper-2">
-          <div className="max-w-7xl mx-auto px-4">
-            <h2 className="font-serif font-semibold text-2xl md:text-3xl mb-3">
-              每周课文
-            </h2>
-            <p className="text-ink-2 mb-8 max-w-2xl">
-              听一遍，跟读两句，再做阅读。一周只钉一两个语法点。
-            </p>
-            <div className="grid md:grid-cols-2 gap-4 mb-6">
-              {LOST && (
-                <Link
-                  href={LOST.href ?? "/curriculum/stories/2"}
-                  className="bg-card border border-line rounded-2xl p-6 hover:border-accent"
-                >
-                  <p className="text-xs font-semibold text-accent mb-1">课文 {LOST.n}</p>
-                  <h3 className="font-serif font-semibold text-xl mb-2">{LOST.title}</h3>
-                  <p className="text-sm text-ink-2 mb-3">{LOST.focus}</p>
-                  <p className="text-sm">
-                    <strong>语法</strong> {LOST.grammar}
-                    <br />
-                    <strong>词汇</strong> {LOST.vocab.slice(0, 4).join(" · ")}
-                    <br />
-                    <strong>开口</strong> {LOST.oracy[0]}
-                  </p>
-                </Link>
-              )}
-              {MRT && (
-                <Link
-                  href="/trial"
-                  className="bg-card border border-line rounded-2xl p-6 hover:border-accent"
-                >
-                  <p className="text-xs font-semibold text-accent mb-1">课文 {MRT.n}</p>
-                  <h3 className="font-serif font-semibold text-xl mb-2">{MRT.title}</h3>
-                  <p className="text-sm text-ink-2 mb-3">{MRT.focus}</p>
-                  <p className="text-sm">
-                    <strong>语法</strong> {MRT.grammar}
-                    <br />
-                    <strong>词汇</strong> {MRT.vocab.slice(0, 4).join(" · ")}
-                    <br />
-                    <strong>开口</strong> {MRT.oracy[0]}
-                  </p>
-                </Link>
-              )}
-            </div>
-            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3 mb-6">
-              {THEMES.map((t) => (
-                <div
-                  key={t.id}
-                  className="bg-paper-2 border border-line rounded-xl p-4 text-sm"
-                >
-                  <p className="font-semibold mb-1">{t.title}</p>
-                  <p className="text-muted text-xs">{t.stories.length} 课</p>
                 </div>
               ))}
             </div>
