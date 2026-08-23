@@ -89,10 +89,10 @@ const HABITS = [
     cta: "先做摸底",
   },
   {
-    titleZh: "每天说两句",
-    body: "canteen、recess、Thank you Aunty。比抱着美国课文背得快。",
-    href: "/curriculum/context",
-    cta: "这些词怎么说",
+    titleZh: "每天听告示",
+    body: "MRT 喇叭、诊所叫号屏、组屋楼下告示。Please mind the gap 比美国课文先用上。",
+    href: "/curriculum/notices",
+    cta: "广播和告示",
   },
   {
     titleZh: "华文保持，英语加码",

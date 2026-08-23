@@ -259,6 +259,98 @@ export const CONTEXT_TOPICS: ContextTopic[] = [
     story: 2,
     href: "/trial/A2",
   },
+  {
+    id: "pa-mrt",
+    n: 11,
+    zhScene: "地铁广播",
+    enTitle: "MRT public announcements",
+    parentZh:
+      "月台广播要一次听懂：Please mind the gap. Please let passengers alight first. Doors closing. Please stand clear. alight = 下车。",
+    exam: "CEQ Listening notices",
+    vocab: [
+      { en: "mind the gap", zh: "小心月台空隙" },
+      { en: "alight", zh: "下车" },
+      { en: "stand clear", zh: "请站开" },
+      { en: "doors closing", zh: "车门即将关闭" },
+      { en: "platform", zh: "月台" },
+    ],
+    dialogue: [
+      { who: "Announcement", line: "Please mind the gap." },
+      { who: "Announcement", line: "Please let passengers alight first." },
+      { who: "Announcement", line: "Doors closing. Please stand clear." },
+    ],
+    story: 78,
+    href: "/curriculum/stories/78",
+  },
+  {
+    id: "clinic-board",
+    n: 12,
+    zhScene: "诊所叫号屏",
+    enTitle: "Clinic queue screens and pharmacy slips",
+    parentZh:
+      "邻里诊所和私人医院大厅都有屏：Please take a queue number. Now serving A12. Collect medication at Counter 3. 不是美国 ER 电视剧对白。",
+    exam: "functional reading · health",
+    vocab: [
+      { en: "queue number", zh: "排队号码" },
+      { en: "now serving", zh: "正在叫号" },
+      { en: "registration", zh: "挂号" },
+      { en: "medication", zh: "药物" },
+      { en: "appointment", zh: "预约" },
+    ],
+    dialogue: [
+      { who: "Screen", line: "Please take a queue number." },
+      { who: "Screen", line: "Now serving A12 at Counter 2." },
+      { who: "Pharmacist", line: "Collect your medication at Counter 3. Take this after food." },
+    ],
+    story: 81,
+    href: "/curriculum/stories/81",
+  },
+  {
+    id: "hospital-sign",
+    n: 13,
+    zhScene: "医院告示",
+    enTitle: "Private hospital and A&E signs",
+    parentZh:
+      "A&E 是急症。Please have your NRIC ready. Visiting hours are from 12 p.m. to 8 p.m. 孩子要会读时间和楼层，不是会说 hospital 这个单词就够。",
+    exam: "B1 functional",
+    vocab: [
+      { en: "A&E", zh: "急症室" },
+      { en: "NRIC", zh: "身份证" },
+      { en: "visiting hours", zh: "探病时间" },
+      { en: "register", zh: "挂号 / 登记" },
+      { en: "appointment card", zh: "预约卡" },
+    ],
+    dialogue: [
+      { who: "Staff", line: "Please register at the counter." },
+      { who: "Staff", line: "Please have your NRIC or appointment card ready." },
+      { who: "Sign", line: "Visiting hours are from 12 p.m. to 8 p.m." },
+    ],
+    story: 82,
+    href: "/curriculum/stories/82",
+  },
+  {
+    id: "hdb-board",
+    n: 14,
+    zhScene: "组屋告示栏",
+    enTitle: "Town Council and block notices",
+    parentZh:
+      "楼下告示：Water supply will be disrupted from 9 a.m. to 5 p.m. Lift is under maintenance. will be + 过去分词 = 将会被中断。",
+    exam: "AEIS notice comprehension",
+    vocab: [
+      { en: "Town Council", zh: "市镇理事会" },
+      { en: "disrupted", zh: "中断" },
+      { en: "maintenance", zh: "维修" },
+      { en: "water supply", zh: "供水" },
+      { en: "block", zh: "座" },
+    ],
+    dialogue: [
+      { who: "Notice", line: "Water supply will be disrupted from 9 a.m. to 5 p.m." },
+      { who: "Notice", line: "Please store some water." },
+      { who: "Notice", line: "The lift is under maintenance." },
+    ],
+    story: 84,
+    href: "/curriculum/stories/84",
+  },
 ];
 
 export const CONTEXT_GLOSSARY: { en: string; zh: string; note: string }[] = [

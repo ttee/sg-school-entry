@@ -11,6 +11,7 @@ const LINKS = [
   { href: "/curriculum/ixl", label: "周计划" },
   { href: "/curriculum/stories", label: "课文" },
   { href: "/curriculum/context", label: "新加坡语境" },
+  { href: "/curriculum/notices", label: "广播与告示" },
   { href: "/curriculum/vocab", label: "词汇" },
   { href: "/curriculum/grammar", label: "语法" },
   { href: "/curriculum/writing", label: "作文" },

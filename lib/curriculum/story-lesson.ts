@@ -170,6 +170,24 @@ const GRAMMAR: { test: RegExp; teach: GrammarTeach }[] = [
     },
   },
   {
+    test: /please proceed|is cancelled|please \+|please wait|in case of|no \+ -ing|your appointment|please have/i,
+    teach: {
+      titleZh: "告示和广播英语",
+      ruleZh:
+        "新加坡告示常用 Please + 动词原形。取消用 is cancelled（被动）。In case of fire, do not… 是固定安全句。时间用 from… to… 或 at 3 p.m.。",
+      ruleEn:
+        "Please proceed to the hall. PE is cancelled. Please take a queue number. In case of fire, do not use the lift.",
+      wrong: "Please to proceed. PE cancel. Don't use lift if fire.",
+      right: "Please proceed to the hall. PE is cancelled. In case of fire, do not use the lift.",
+      points: [
+        "Please mind the gap / Please stand clear：广播里 please 后面直接动词。",
+        "is cancelled / are closed：告示用被动，不是 cancel 原形当谓语。",
+        "Now serving A12：屏幕上的进行时，表示正在叫号。",
+        "Please have your NRIC ready = 请把证件准备好。",
+      ],
+    },
+  },
+  {
     test: /can \/ must|must \+ verb|modals of obligation|have to|need to/i,
     teach: {
       titleZh: "can / must / have to / need to",
@@ -208,6 +226,21 @@ Ah Gong asked, "Is there any soup?" "Yes. Some soup for you," said the Aunty. Th
   2: `At recess Mei could not find her water bottle. It was a white bottle with a pink flower. Priya said, "Let's go to the Lost and Found." At the counter Aunty Tan held up a bottle. "Is this your white water bottle with the pink flower?" Mei said, "Yes, Aunty! That is my white water bottle!" Aunty Tan smiled. "Here you are. Please take it." Mei and Priya said, "We found it!" Mei said, "Thank you, Aunty!"`,
   1: `It was Mei's first morning at a Singapore primary school. The field was already full. Ms Tan said, "Good morning, class. Line up in two rows. We will say the pledge." Mei whispered, "Priya, where do we stand?" Priya said, "Blue House is on the left. Come with me." Ms Tan checked their uniforms. "White shoes, please." Mei said, "Yes, Ms Tan. I am ready." After assembly they walked to the canteen for recess.`,
   21: `The lift in Mei's HDB block stopped between the eighth storey and the ninth. A notice in the lobby said the Town Council was coming. Mei told a neighbour, "Excuse me, the lift is not working." "We have to take the stairs to the twelfth storey," he said. Mei was tired. "It is too high to walk easily. Our unit is 12-345." The neighbour showed her the stairs. "Could you help my Ah Ma?" "Yes. Let's go slowly."`,
+  38: `Mei and Priya stood on the platform. The yellow line said STAND BEHIND THIS LINE. A voice came over the speakers: "The train is arriving. Please mind the gap." Doors opened. "Please let passengers alight first." Priya held Mei's bag. "Wait. Let them get off." They stepped in. "Doors closing. Please stand clear." Mei whispered, "We alight at Bedok." At Bedok another board showed the next train in 3 min.`,
+  42: `Mum took Mei to a neighbourhood clinic. A screen said PLEASE TAKE A QUEUE NUMBER. They pulled a ticket: A14. The screen later flashed NOW SERVING A12. Mum said, "Please wait to be called." Inside, the doctor asked, "How long have you felt this?" Mei said, "I have a sore throat." He wrote an MC. "You should rest. Collect your medication at the pharmacy."`,
+  56: `The PA clicked on during period one. "Good morning, students. PE is cancelled because of rain. Please proceed to the hall at 7:50. Bring your water bottle." Ms Tan said, "That is an announcement. Write the time and the place." Mei wrote: hall, 7:50, water bottle. "Assembly is in the hall, not at the field," Priya said.`,
+  78: `The train slowed. A calm voice said, "Please mind the gap." Mei looked down at the space between the platform and the train. People got off. The voice said, "Please let passengers alight first." A man tried to push in. Priya said, "Wait." Then: "Doors closing. Please stand clear." Mei repeated the three lines under her breath. These are not classroom sentences. They are the English you hear if you miss one word you might fall or block the door.`,
+  79: `On the bus a screen showed the next stop: BEDOK INT. The driver announcement said, "The next stop is Bedok. Please press the bell if you are alighting." Mei pressed the red bell. A later sign at the interchange read: THIS SERVICE TERMINATES HERE. Priya said, "We must alight. This bus does not go further."`,
+  80: `Rain hit the field. The classroom speaker said, "Good morning, students. PE is cancelled because of rain. Please proceed to the hall at 7:50. Bring your water bottle." Mei did not hear "proceed". Priya wrote it: proceed = go to. They lined up. Ms Tan said, "Leave your bags. The announcement told us the place and the time. That is what listening papers ask."`,
+  81: `At the GP clinic a TV screen looped: PLEASE TAKE A QUEUE NUMBER. NOW SERVING A12 AT COUNTER 2. PLEASE WAIT TO BE CALLED. Mei held ticket A14. "We are after A13," Mum said. Registration was a different counter. A small sign: PLEASE REGISTER FIRST IF YOU DO NOT HAVE AN APPOINTMENT. This is the English of waiting rooms all over Singapore.`,
+  82: `Dad took Mei to a private hospital because Ah Gong needed a scan. The lobby board listed A&E LEVEL 1, SPECIALIST CLINICS LEVEL 3. A staff member said, "Please register at the counter. Please have your NRIC or appointment card ready." A second sign: VISITING HOURS 12.00 P.M. – 8.00 P.M. NO FOOD IN THE WAITING AREA. Mei copied the times. Functional reading is this: hours, levels, what you must bring.`,
+  83: `After the doctor, a slip said COLLECT MEDICATION AT COUNTER 3. The pharmacist asked, "Any allergy?" Then she labelled the bottle: TAKE AFTER FOOD. THREE TIMES A DAY. Mei asked, "Must I finish the medicine?" "Yes. Three times a day until it is finished." The English is short because it is a label, not a story.`,
+  84: `At the void deck the Town Council notice was typed, not handwritten. WATER SUPPLY WILL BE DISRUPTED FROM 9.00 A.M. TO 5.00 P.M. ON THURSDAY. PLEASE STORE SOME WATER. LIFT B IS UNDER MAINTENANCE. Ah Ma said, "We take Lift A. We store some water tonight." Mei practised will be disrupted = there will be no water for that time.`,
+  85: `The library glass door listed OPENING HOURS: 11.00 A.M. – 9.00 P.M. CLOSED ON PUBLIC HOLIDAYS. Inside, a yellow board: SILENT ZONE. NO EATING OR DRINKING. NO TALKING ON THE PHONE. A librarian whispered, "Membership cards at the counter. Due date is stamped in the book." Mei wrote no + -ing: no eating, no drinking.`,
+  86: `In the mall lift a red sign was next to the buttons: IN CASE OF FIRE, DO NOT USE THE LIFT. USE THE STAIRCASE. KEEP THE LOBBY CLEAR. The same words appear in HDB lifts. Mei told Priya, "In case of means if there is." They took the stairs once for practice. Safety English is almost always do not + use / keep + clear.`,
+  87: `The mall directory said CLINIC — LEVEL 2. A tape on the floor: QUEUE HERE. Another sign at a clinic hatch: THIS QUEUE IS RESERVED FOR THE ELDERLY, PREGNANT WOMEN AND WHEELCHAIR USERS. Mei and Mum joined the other line. "Priority does not mean we skip," Mum said. "It means those people go first."`,
+  88: `At the park a brown NParks board showed a monkey and a red cross: DO NOT FEED THE MONKEYS. KEEP TO THE PATH. PLEASE USE THE BIN. A ranger said, "If you feed them, they come close. You must not." Mei put her packet in the bin. Warning signs use do not + verb, not don't you.`,
+  89: `Mum's phone buzzed. CLINIC REMINDER: YOUR APPOINTMENT IS ON TUESDAY AT 3.00 P.M. PLEASE ARRIVE 15 MINUTES EARLY. IF YOU CANNOT COME, PLEASE CALL THE CLINIC. Bring NRIC. Mei asked, "What does arrive 15 minutes early mean?" "We reach at 2.45," Mum said. Message English is short, all capitals on some phones, but the grammar is still please + verb and if you cannot + call.`,
 };
 
 function defaultReading(story: Storyline): string {
