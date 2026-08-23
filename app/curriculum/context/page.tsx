@@ -1,5 +1,6 @@
 import Link from "next/link";
 import CurriculumNav from "@/components/CurriculumNav";
+import { lessonClips } from "@/lib/curriculum/story-clips";
 import { CONTEXT_GLOSSARY, CONTEXT_TOPICS } from "@/lib/curriculum/singapore-context";
 
 export const metadata = {
@@ -16,7 +17,7 @@ export default function SingaporeContextPage() {
       </p>
       <h1 className="font-serif font-semibold text-3xl mb-3">新加坡语境英语</h1>
       <p className="text-ink-2 mb-8 max-w-2xl leading-relaxed">
-        课本里的 apartment，到了这里要说 HDB。食堂叫 canteen，课间叫 recess，档口叫 Aunty。下面十课：你先看中文，孩子再练那几句英语。
+        课本里的 apartment，到了这里要说 HDB。食堂叫 canteen，课间叫 recess，档口叫 Aunty。每一课先看短片、听新加坡英语，再练那几句。
       </p>
 
       <h2 className="font-serif font-semibold text-xl mb-3">家长词表（先中文，再英语）</h2>
@@ -41,15 +42,35 @@ export default function SingaporeContextPage() {
         </table>
       </div>
 
-      <h2 className="font-serif font-semibold text-xl mb-3">十个场景 · 对上课文</h2>
+      <h2 className="font-serif font-semibold text-xl mb-3">场景课 · 先看再开口</h2>
       <div className="space-y-5 mb-10">
-        {CONTEXT_TOPICS.map((t) => (
+        {CONTEXT_TOPICS.map((t) => {
+          const clips = lessonClips(t.story);
+          const clip = t.story === 2 ? clips[1] ?? clips[0] : clips[0];
+          return (
           <article key={t.id} className="bg-card border border-line rounded-2xl p-5">
             <p className="text-xs font-semibold text-accent mb-1">
               {t.n}. {t.zhScene} · {t.exam}
             </p>
             <h3 className="font-serif font-semibold text-lg mb-2">{t.enTitle}</h3>
             <p className="text-sm text-ink-2 mb-4">{t.parentZh}</p>
+            {clip && (
+              <div className="bg-paper-2 rounded-xl overflow-hidden mb-4">
+                <video
+                  controls
+                  playsInline
+                  preload="metadata"
+                  poster={clip.poster}
+                  className="w-full"
+                  style={{ maxHeight: 360 }}
+                >
+                  <source src={clip.src} type="video/mp4" />
+                </video>
+                <p className="px-3 py-2 text-sm text-ink-2" lang="en">
+                  {clip.captionEn}
+                </p>
+              </div>
+            )}
             <p className="text-xs font-semibold text-muted mb-2">词汇</p>
             <ul className="flex flex-wrap gap-2 mb-4">
               {t.vocab.map((v) => (
@@ -61,7 +82,7 @@ export default function SingaporeContextPage() {
             <p className="text-xs font-semibold text-muted mb-2">开口三句</p>
             <ul className="text-sm text-ink-2 space-y-1 mb-4">
               {t.dialogue.map((d) => (
-                <li key={d.line}>
+                <li key={`${d.who}-${d.line}`}>
                   <span className="font-semibold text-ink">{d.who}:</span> {d.line}
                 </li>
               ))}
@@ -70,7 +91,8 @@ export default function SingaporeContextPage() {
               打开课文 {t.story} →
             </Link>
           </article>
-        ))}
+          );
+        })}
       </div>
 
       <div className="flex flex-wrap gap-3">

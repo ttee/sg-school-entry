@@ -172,6 +172,42 @@ const CLIPS: Record<number, LessonClip[]> = {
       "Mei: Water supply will be disrupted from 9 a.m. to 5 p.m.  Priya: Please store some water.",
     ),
   ],
+  18: [
+    clip(
+      18,
+      "Mei: We are going to visit Ah Ma. First we clean the house. Gong Xi Fa Cai.",
+    ),
+  ],
+  21: [
+    clip(
+      21,
+      "Mei: Excuse me, the lift is not working.  Neighbour: We have to take the stairs to the twelfth storey.  Mei: Our unit is 12-345.",
+    ),
+  ],
+  41: [
+    clip(
+      41,
+      "Mei: We could hear the drums.  Priya: The flag went up.  Mei: It was unforgettable.",
+    ),
+  ],
+  43: [
+    clip(
+      43,
+      "Ms Tan: Paper is recycled in the blue bin.  Mei: We should reduce waste.  Priya: Put cans here.",
+    ),
+  ],
+  45: [
+    clip(
+      45,
+      "Mei: There are many lights.  Priya: The street looks beautiful.  Mei: We respect this festival.",
+    ),
+  ],
+  82: [
+    clip(
+      82,
+      "Staff: Please register at the counter. Please have your NRIC ready. Visiting hours are from 12 p.m. to 8 p.m.",
+    ),
+  ],
 };
 
 export function lessonClips(n: number): LessonClip[] {

@@ -279,6 +279,60 @@ CLIPS: list[dict] = [
             ("mei", "The lift is under maintenance."),
         ],
     },
+    {
+        "path": ROOT / "public/curriculum/stories/18.mp4",
+        "audio_dir": "18",
+        "lines": [
+            ("mei", "We are going to visit Ah Ma."),
+            ("mei", "First we clean the house."),
+            ("mei", "Gong Xi Fa Cai."),
+        ],
+    },
+    {
+        "path": ROOT / "public/curriculum/stories/21.mp4",
+        "audio_dir": "21",
+        "lines": [
+            ("mei", "Excuse me, the lift is not working."),
+            ("auntie", "We have to take the stairs to the twelfth storey."),
+            ("mei", "Our unit is 12-345."),
+        ],
+    },
+    {
+        "path": ROOT / "public/curriculum/stories/41.mp4",
+        "audio_dir": "41",
+        "lines": [
+            ("mei", "We could hear the drums."),
+            ("priya", "The flag went up."),
+            ("mei", "It was unforgettable."),
+        ],
+    },
+    {
+        "path": ROOT / "public/curriculum/stories/43.mp4",
+        "audio_dir": "43",
+        "lines": [
+            ("mstan", "Paper is recycled in the blue bin."),
+            ("mei", "We should reduce waste."),
+            ("priya", "Put cans here."),
+        ],
+    },
+    {
+        "path": ROOT / "public/curriculum/stories/45.mp4",
+        "audio_dir": "45",
+        "lines": [
+            ("mei", "There are many lights."),
+            ("priya", "The street looks beautiful."),
+            ("mei", "We respect this festival."),
+        ],
+    },
+    {
+        "path": ROOT / "public/curriculum/stories/82.mp4",
+        "audio_dir": "82",
+        "lines": [
+            ("auntie", "Please register at the counter."),
+            ("auntie", "Please have your NRIC or appointment card ready."),
+            ("pa", "Visiting hours are from 12 p.m. to 8 p.m."),
+        ],
+    },
 ]
 
 
