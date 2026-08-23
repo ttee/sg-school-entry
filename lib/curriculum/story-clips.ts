@@ -5,7 +5,7 @@ export type LessonClip = {
   captionEn: string;
 };
 
-const V = "sg1";
+const V = "sync1";
 
 function clip(n: number, captionEn: string, titleZh = "先看"): LessonClip {
   return {
