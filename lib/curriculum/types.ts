@@ -1,4 +1,33 @@
-export type Track = "A2" | "B1" | "SEC";
+export type Track = "A2" | "B1" | "SEC" | "MATH" | "SMATH";
+
+export type PaperSubject = "english" | "math";
+
+export type McqSkill =
+  | "rc"
+  | "cloze"
+  | "vocab"
+  | "grammar"
+  | "spelling"
+  | "number"
+  | "word"
+  | "measure"
+  | "data"
+  | "algebra"
+  | "geometry";
+
+export const SKILL_LABEL_ZH: Record<McqSkill, string> = {
+  rc: "理解",
+  cloze: "完形",
+  vocab: "词汇",
+  grammar: "语法",
+  spelling: "拼写",
+  number: "计算",
+  word: "应用题",
+  measure: "度量",
+  data: "图表",
+  algebra: "代数",
+  geometry: "几何",
+};
 
 export type McqItem = {
   id: string;
@@ -8,6 +37,7 @@ export type McqItem = {
   errorId: string;
   why: string;
   highlight?: string;
+  skill?: McqSkill;
 };
 
 export type Paper = {
@@ -19,6 +49,7 @@ export type Paper = {
   targetCes: number | null;
   minutes: number;
   items: McqItem[];
+  subject?: PaperSubject;
 };
 
 export type SowRow = {

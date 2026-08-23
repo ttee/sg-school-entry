@@ -3,80 +3,9 @@
 import Link from "next/link";
 import { useState } from "react";
 import OfficialClip from "@/components/OfficialClip";
-
-// 简化版英语检测题（从 assess 页面精简而来）
-const englishItems = [
-  {
-    id: 1,
-    question: "I go to school ___ bus every morning.",
-    options: ["by", "by the", "on", "with"],
-    correct: 0,
-  },
-  {
-    id: 2,
-    question: "Ms Tan ___ us English every Monday.",
-    options: ["teach", "teachs", "teaches", "teaching"],
-    correct: 2,
-  },
-  {
-    id: 3,
-    question: "Yesterday I ___ my water bottle in the classroom.",
-    options: ["lose", "lost", "have lost", "am losing"],
-    correct: 1,
-  },
-  {
-    id: 4,
-    question: "I enjoy ___ in the library after lessons.",
-    options: ["read", "to read", "reading", "reads"],
-    correct: 2,
-  },
-];
-
-// 原创 P2 数学题（对应 MOE P2 大纲：钱币、乘除法、简单应用题）
-const mathItems = [
-  {
-    id: 1,
-    question: "Ali has three $2 notes. How much money does he have?",
-    options: ["$5", "$6", "$7", "$8"],
-    correct: 1,
-    strand: "钱币 Money",
-  },
-  {
-    id: 2,
-    question: "There are 4 boxes. Each box has 5 oranges. How many oranges are there in total?",
-    options: ["9", "15", "20", "25"],
-    correct: 2,
-    strand: "乘法 Multiplication",
-  },
-  {
-    id: 3,
-    question: "Mei has $10. She buys a book for $3. How much money does she have left?",
-    options: ["$6", "$7", "$8", "$13"],
-    correct: 1,
-    strand: "减法应用 Subtraction word problem",
-  },
-  {
-    id: 4,
-    question: "12 ÷ 3 = ?",
-    options: ["3", "4", "5", "6"],
-    correct: 1,
-    strand: "除法 Division",
-  },
-  {
-    id: 5,
-    question: "A pencil costs 50¢. How many pencils can Priya buy with $2?",
-    options: ["2", "3", "4", "5"],
-    correct: 2,
-    strand: "钱币除法 Money division",
-  },
-  {
-    id: 6,
-    question: "Which number is missing? 5, 10, ___, 20, 25",
-    options: ["12", "13", "15", "18"],
-    correct: 2,
-    strand: "数字规律 Number patterns",
-  },
-];
+import { ERROR_MATRIX } from "@/lib/curriculum/errors";
+import { SKILL_LABEL_ZH, type McqItem, type Paper } from "@/lib/curriculum/types";
+import { guideQuizForLevel, trialForLevel } from "@/lib/curriculum/placement";
 
 type Step = "info" | "english" | "math" | "result";
 
@@ -87,15 +16,12 @@ export default function GuidePage() {
   const [birthYear, setBirthYear] = useState("");
   const [intendedLevel, setIntendedLevel] = useState("");
   
-  // Step 2: 英语检测
-  const [englishAnswers, setEnglishAnswers] = useState<(number | null)[]>(
-    new Array(englishItems.length).fill(null)
-  );
-  
-  // Step 3: 数学检测
-  const [mathAnswers, setMathAnswers] = useState<(number | null)[]>(
-    new Array(mathItems.length).fill(null)
-  );
+  const [enQuiz, setEnQuiz] = useState<McqItem[]>([]);
+  const [mathQuiz, setMathQuiz] = useState<McqItem[]>([]);
+  const [enPaper, setEnPaper] = useState<Paper | null>(null);
+  const [mathPaper, setMathPaper] = useState<Paper | null>(null);
+  const [englishAnswers, setEnglishAnswers] = useState<(number | null)[]>([]);
+  const [mathAnswers, setMathAnswers] = useState<(number | null)[]>([]);
 
   const handleInfoSubmit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -103,6 +29,13 @@ export default function GuidePage() {
       alert("请填写完整信息");
       return;
     }
+    const quiz = guideQuizForLevel(intendedLevel);
+    setEnQuiz(quiz.english);
+    setMathQuiz(quiz.math);
+    setEnPaper(quiz.englishPaper);
+    setMathPaper(quiz.mathPaper);
+    setEnglishAnswers(quiz.english.map(() => null));
+    setMathAnswers(quiz.math.map(() => null));
     setStep("english");
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
@@ -128,123 +61,50 @@ export default function GuidePage() {
   const handleReset = () => {
     setBirthYear("");
     setIntendedLevel("");
-    setEnglishAnswers(new Array(englishItems.length).fill(null));
-    setMathAnswers(new Array(mathItems.length).fill(null));
+    setEnQuiz([]);
+    setMathQuiz([]);
+    setEnPaper(null);
+    setMathPaper(null);
+    setEnglishAnswers([]);
+    setMathAnswers([]);
     setStep("info");
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
-  // 计算推荐路径：返回一个试学周
   const getRecommendation = () => {
-    const englishCorrect = englishAnswers.filter(
-      (answer, idx) => answer === englishItems[idx].correct
+    const englishCorrect = enQuiz.filter(
+      (item, idx) => englishAnswers[idx] === item.correct
     ).length;
-    const mathCorrect = mathAnswers.filter(
-      (answer, idx) => answer === mathItems[idx].correct
+    const mathCorrect = mathQuiz.filter(
+      (item, idx) => mathAnswers[idx] === item.correct
     ).length;
+    const englishRate = enQuiz.length ? englishCorrect / enQuiz.length : 0;
+    const mathRate = mathQuiz.length ? mathCorrect / mathQuiz.length : 0;
 
-    const englishRate = englishCorrect / englishItems.length;
-    const mathRate = mathCorrect / mathItems.length;
-    
-    const isPrimary = intendedLevel.startsWith("P");
-    const isUpperPrimary = intendedLevel === "P5";
-    const isSecondary = intendedLevel.startsWith("Sec");
+    const firstWrongEn = enQuiz.find((item, idx) => englishAnswers[idx] !== item.correct);
+    const firstWrongMath = mathQuiz.find((item, idx) => mathAnswers[idx] !== item.correct);
+    const enFocus =
+      ERROR_MATRIX.find((e) => e.id === firstWrongEn?.errorId)?.mandarin ??
+      firstWrongEn?.why ??
+      "冠词与时态准确度";
+    const mathFocus =
+      ERROR_MATRIX.find((e) => e.id === firstWrongMath?.errorId)?.mandarin ??
+      firstWrongMath?.why ??
+      "运算与应用题";
 
-    // 找出改善焦点
-    let kaizenFocus = "冠词与时态准确度";
-    const missedEnglish: string[] = [];
-    const missedMath: string[] = [];
-    
-    if (englishAnswers[0] !== englishItems[0].correct) {
-      missedEnglish.push("交通方式零冠词（by bus 不加 the）");
-    }
-    if (englishAnswers[1] !== englishItems[1].correct) {
-      missedEnglish.push("第三人称单数动词加 -s");
-    }
-    if (englishAnswers[2] !== englishItems[2].correct) {
-      missedEnglish.push("过去时态");
-    }
-    if (englishAnswers[3] !== englishItems[3].correct) {
-      missedEnglish.push("动词后用 -ing 形式");
-    }
-
-    mathItems.forEach((item, idx) => {
-      if (mathAnswers[idx] !== item.correct) {
-        // Extract 简体 part only (before the English part in "钱币 Money" format)
-        const chinesePart = item.strand.split(/\s+/)[0];
-        missedMath.push(chinesePart);
-      }
-    });
-
-    // Primary 路径：CEQ English 为主，但 English OK + weak maths → MATH 试学周
-    if (isPrimary) {
-      if (englishRate <= 0.5) {
-        // Weak English → A2 试学周
-        kaizenFocus = missedEnglish.length > 0 ? missedEnglish[0] : "冠词与时态准确度";
-        return {
-          weekTitle: "A2 试学周",
-          weekUrl: "/learn/trial/A2",
-          kaizenFocus,
-          pathway: "小学 AEIS 路径（P2–P5）· CEQ English + AEIS 数学"
-        };
-      } else if (englishRate > 0.5 && mathRate <= 0.5) {
-        // English OK but weak maths → MATH 试学周
-        kaizenFocus = missedMath.length > 0 ? missedMath[0] : "数学基础";
-        return {
-          weekTitle: "MATH 试学周",
-          weekUrl: "/learn/trial/MATH",
-          kaizenFocus,
-          pathway: "小学 AEIS 路径（P2–P5）· CEQ English + AEIS 数学"
-        };
-      } else if (isUpperPrimary && englishRate >= 0.75) {
-        // P5 + strong English + maths not weak → B1 试学周
-        kaizenFocus = missedEnglish.length > 0 ? missedEnglish[0] : "英语进阶用法";
-        return {
-          weekTitle: "B1 试学周",
-          weekUrl: "/learn/trial/B1",
-          kaizenFocus,
-          pathway: "小学 AEIS 路径（P5）· CEQ English + AEIS 数学"
-        };
-      } else {
-        // Default → A2 试学周
-        kaizenFocus = missedEnglish.length > 0 ? missedEnglish[0] : "冠词与时态准确度";
-        return {
-          weekTitle: "A2 试学周",
-          weekUrl: "/learn/trial/A2",
-          kaizenFocus,
-          pathway: "小学 AEIS 路径（P2–P4）· CEQ English + AEIS 数学"
-        };
-      }
-    }
-
-    // Secondary 路径：AEIS 英语 + 数学，English weaker → SEC，Maths weaker → SMATH
-    if (isSecondary) {
-      if (englishRate < mathRate) {
-        // English weaker → SEC 试学周
-        kaizenFocus = missedEnglish.length > 0 ? missedEnglish[0] : "英语基础";
-        return {
-          weekTitle: "SEC 试学周",
-          weekUrl: "/learn/trial/SEC",
-          kaizenFocus,
-          pathway: "中学 AEIS 路径（Sec 1–3）· AEIS 英语 + 数学"
-        };
-      } else {
-        // Maths weaker or tie → SMATH 试学周
-        kaizenFocus = missedMath.length > 0 ? missedMath[0] : "数学基础";
-        return {
-          weekTitle: "SMATH 试学周",
-          weekUrl: "/learn/trial/SMATH",
-          kaizenFocus,
-          pathway: "中学 AEIS 路径（Sec 1–3）· AEIS 英语 + 数学"
-        };
-      }
-    }
+    const trial = trialForLevel(intendedLevel, englishRate, mathRate);
+    const kaizenFocus =
+      trial.weekUrl.includes("MATH") || trial.weekUrl.includes("SMATH")
+        ? mathFocus
+        : enFocus;
 
     return {
-      weekTitle: "A2 试学周",
-      weekUrl: "/learn/trial/A2",
+      ...trial,
       kaizenFocus,
-      pathway: "CEQ English 为主"
+      englishCorrect,
+      mathCorrect,
+      englishTotal: enQuiz.length,
+      mathTotal: mathQuiz.length,
     };
   };
 
@@ -407,16 +267,17 @@ export default function GuidePage() {
                 第二步：英语小测试
               </h2>
               <p className="text-sm text-ink-2 mb-4">
-                共 {englishItems.length} 题，约 3 分钟。
+                {enPaper ? `${enPaper.intended} · ${enPaper.titleZh}` : ""}。共 {enQuiz.length} 题，约 5 分钟。测申请年级的前一级英语。
               </p>
 
               <div className="space-y-5">
-                {englishItems.map((item, itemIndex) => (
+                {enQuiz.map((item, itemIndex) => (
                   <div key={item.id} className="bg-paper border border-line rounded-xl p-4">
                     <p className="text-sm font-semibold text-accent mb-2">
-                      英语题 {item.id} / {englishItems.length}
+                      英语题 {itemIndex + 1} / {enQuiz.length}
+                      {item.skill ? ` · ${SKILL_LABEL_ZH[item.skill]}` : ""}
                     </p>
-                    <p className="text-ink mb-3">{item.question}</p>
+                    <p className="text-ink mb-3 whitespace-pre-line">{item.prompt}</p>
                     <div className="space-y-2">
                       {item.options.map((option, optionIndex) => (
                         <label
@@ -469,22 +330,24 @@ export default function GuidePage() {
           <div className="space-y-6">
             <div className="bg-card border border-line rounded-2xl p-6 shadow">
               <h2 className="font-serif font-semibold text-xl text-ink mb-2">
-                第三步：数学小测试（P2 水平）
+                第三步：数学小测试{mathPaper ? `（${mathPaper.intended}）` : ""}
               </h2>
               <p className="text-sm text-ink-2 mb-4">
-                共 {mathItems.length} 题，约 5 分钟。对应 MOE P2 大纲（钱币、乘除法、简单应用题）。
+                {mathPaper?.blurb} 共 {mathQuiz.length} 题。
               </p>
 
               <div className="space-y-5">
-                {mathItems.map((item, itemIndex) => (
+                {mathQuiz.map((item, itemIndex) => (
                   <div key={item.id} className="bg-paper border border-line rounded-xl p-4">
                     <div className="flex justify-between items-start mb-2">
                       <p className="text-sm font-semibold text-accent">
-                        数学题 {item.id} / {mathItems.length}
+                        数学题 {itemIndex + 1} / {mathQuiz.length}
                       </p>
-                      <span className="text-xs text-muted">{item.strand}</span>
+                      <span className="text-xs text-muted">
+                        {item.skill ? SKILL_LABEL_ZH[item.skill] : ""}
+                      </span>
                     </div>
-                    <p className="text-ink mb-3">{item.question}</p>
+                    <p className="text-ink mb-3 whitespace-pre-line">{item.prompt}</p>
                     <div className="space-y-2">
                       {item.options.map((option, optionIndex) => (
                         <label
@@ -545,14 +408,31 @@ export default function GuidePage() {
               
               <div className="bg-paper border border-line rounded-xl p-5 mb-5">
                 <p className="text-sm font-semibold text-ink mb-2">
-                  本次改善焦点
+                  本次筛查
+                </p>
+                <p className="text-ink-2 mb-2">
+                  英语 {recommendation.englishCorrect}/{recommendation.englishTotal}
+                  {" · "}
+                  数学 {recommendation.mathCorrect}/{recommendation.mathTotal}
                 </p>
                 <p className="text-ink-2 leading-relaxed">
                   优先练习：<strong className="text-ink">{recommendation.kaizenFocus}</strong>
                 </p>
                 <p className="text-xs text-muted mt-2">
-                  每周只改一个错。
+                  这是短筛。完整 16 题英语 / 12 题数学在摸底卷。每周只改一个错。
                 </p>
+                <div className="flex flex-wrap gap-3 mt-3 text-sm">
+                  {enPaper && (
+                    <Link href={`/curriculum/diagnostic/${enPaper.id}`} className="text-accent font-semibold">
+                      完整英语摸底
+                    </Link>
+                  )}
+                  {mathPaper && (
+                    <Link href={`/curriculum/diagnostic/${mathPaper.id}`} className="text-accent font-semibold">
+                      完整数学摸底
+                    </Link>
+                  )}
+                </div>
               </div>
 
               <Link

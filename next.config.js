@@ -1,6 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
+  async redirects() {
+    return [
+      { source: '/curriculum/mocks/b1-mock', destination: '/curriculum/mocks/p45-mock', permanent: true },
+    ]
+  },
   async rewrites() {
     return [
       { source: '/小学', destination: '/primary' },

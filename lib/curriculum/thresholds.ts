@@ -49,7 +49,11 @@ export const MOE_LINKS = {
 };
 
 /** Map homework % onto a studio CES estimate. Not a Cambridge score. */
-export function estimateCes(percent: number, track: "A2" | "B1" | "SEC"): number {
+export function estimateCes(
+  percent: number,
+  track: "A2" | "B1" | "SEC" | "MATH" | "SMATH"
+): number | null {
+  if (track === "MATH" || track === "SMATH") return null;
   const p = Math.max(0, Math.min(100, percent)) / 100;
   if (track === "A2") return Math.round(85 + p * 65); // 85–150
   if (track === "B1") return Math.round(110 + p * 60); // 110–170

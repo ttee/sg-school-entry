@@ -115,7 +115,7 @@ export default function CurriculumHome() {
           中学英语试学
         </Link>
         <Link href="/assess" className="px-5 py-2.5 border border-line rounded-full font-semibold text-ink-2">
-          5 分钟快速筛
+          P2–S3 英语/数学摸底
         </Link>
       </div>
     </>

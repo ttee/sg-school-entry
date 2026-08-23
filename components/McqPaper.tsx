@@ -3,6 +3,7 @@
 import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import type { Paper } from "@/lib/curriculum/types";
+import { SKILL_LABEL_ZH } from "@/lib/curriculum/types";
 import { estimateCes } from "@/lib/curriculum/thresholds";
 import { ERROR_MATRIX } from "@/lib/curriculum/errors";
 import { OAS_LETTERS } from "@/lib/curriculum/mocks";
@@ -42,6 +43,7 @@ export default function McqPaper({
   const [submitted, setSubmitted] = useState(false);
   const [secondsLeft, setSecondsLeft] = useState(paper.minutes * 60);
   const [running, setRunning] = useState(Boolean(timed));
+  const [needAll, setNeedAll] = useState(false);
 
   useEffect(() => {
     if (!running || submitted) return;
@@ -66,7 +68,10 @@ export default function McqPaper({
 
   const totalCorrect = answers.filter((a, i) => a === paper.items[i].correct).length;
   const percent = Math.round((totalCorrect / paper.items.length) * 100);
-  const ces = paper.targetCes !== null ? estimateCes(percent, paper.track) : null;
+  const ces =
+    paper.subject === "math" || paper.targetCes == null
+      ? null
+      : estimateCes(percent, paper.track);
 
   const wrongErrors = useMemo(() => {
     const ids = paper.items
@@ -127,6 +132,55 @@ export default function McqPaper({
           </p>
         </div>
 
+        <div className="space-y-4">
+          <h3 className="font-serif font-semibold text-lg">逐题对照</h3>
+          {paper.items.map((item, i) => {
+            const picked = answers[i];
+            const ok = picked === item.correct;
+            return (
+              <div
+                key={item.id}
+                className={`border rounded-2xl p-5 ${
+                  ok ? "border-accent/40 bg-accent/5" : "border-warn-ink/30 bg-warn-bg"
+                }`}
+              >
+                <p className="text-xs font-semibold text-accent mb-2">
+                  {i + 1} / {paper.items.length}
+                  {item.skill ? ` · ${SKILL_LABEL_ZH[item.skill]}` : ""}
+                  {ok ? " · 对" : " · 错"}
+                </p>
+                <p className="text-ink mb-3 leading-relaxed whitespace-pre-line">{item.prompt}</p>
+                <ul className="text-sm space-y-1 mb-3">
+                  {item.options.map((opt, oi) => {
+                    const mark =
+                      oi === item.correct
+                        ? "✓"
+                        : picked === oi
+                          ? "✗"
+                          : "";
+                    return (
+                      <li
+                        key={oi}
+                        className={
+                          oi === item.correct
+                            ? "text-ink font-semibold"
+                            : picked === oi
+                              ? "text-warn-ink"
+                              : "text-ink-2"
+                        }
+                      >
+                        {OAS_LETTERS[oi]}. {opt}
+                        {mark ? ` ${mark}` : ""}
+                      </li>
+                    );
+                  })}
+                </ul>
+                <p className="text-sm text-ink-2">{item.why}</p>
+              </div>
+            );
+          })}
+        </div>
+
         {wrongErrors.length > 0 && (
           <div className="bg-card border border-line rounded-2xl p-6">
             <h3 className="font-serif font-semibold text-lg mb-3">母语迁移对照</h3>
@@ -159,6 +213,7 @@ export default function McqPaper({
             onClick={() => {
               setAnswers(paper.items.map(() => null));
               setSubmitted(false);
+              setNeedAll(false);
               setSecondsLeft(paper.minutes * 60);
               setRunning(Boolean(timed));
             }}
@@ -186,6 +241,7 @@ export default function McqPaper({
           <div key={item.id} className="bg-card border border-line rounded-2xl p-5">
             <p className="text-xs font-semibold text-accent mb-2">
               {i + 1} / {paper.items.length}
+              {item.skill ? ` · ${SKILL_LABEL_ZH[item.skill]}` : ""}
             </p>
             <p className="text-ink mb-3 leading-relaxed whitespace-pre-line">
               {item.highlight
@@ -227,14 +283,18 @@ export default function McqPaper({
         ))}
       </div>
 
+      {needAll && (
+        <p className="text-center text-sm text-warn-ink mb-3">还有题目没选。请全部完成后再交卷。</p>
+      )}
       <div className="flex justify-center">
         <button
           type="button"
           onClick={() => {
             if (answers.some((a) => a === null)) {
-              alert("请完成所有题目。");
+              setNeedAll(true);
               return;
             }
+            setNeedAll(false);
             setSubmitted(true);
             setRunning(false);
             window.scrollTo({ top: 0, behavior: "smooth" });

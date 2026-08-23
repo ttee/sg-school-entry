@@ -27,6 +27,11 @@ export default async function DiagnosticPaperPage({
           vocabulary in context (<em>postpone</em> → put off).
         </p>
       )}
+      {paper.subject === "math" && (
+        <p className="text-sm mb-6 text-muted">
+          申请 {paper.intended} 测前一级数学课纲。无计算器。做完会显示每题对错。
+        </p>
+      )}
       <McqPaper paper={paper} />
     </>
   );

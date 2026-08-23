@@ -40,11 +40,11 @@ export const GRAMMAR_SHEETS: GrammarSheet[] = [
     ruleZh: "第一次出现用 a/an；双方都知道用 the；by bus、at recess 常常零冠词。",
     items: [
       { id: "g-a-1", prompt: "I lost ___ water bottle.", options: ["a", "an", "the", "some"], correct: 0, errorId: "articles", why: "首次提到用 a。" },
-      { id: "g-a-2", prompt: "Please give me ___ bottle on the counter. (we can both see it)", options: ["a", "an", "the", "—"], correct: 2, errorId: "articles", why: "双方可见的那个：the。" },
-      { id: "g-a-3", prompt: "She is ___ honest prefect.", options: ["a", "an", "the", "—"], correct: 1, errorId: "articles", why: "honest 以元音音素开头：an。" },
-      { id: "g-a-4", prompt: "We go ___ MRT.", options: ["by", "by the", "on", "with the"], correct: 0, errorId: "zero-article-by", why: "by MRT 零冠词。" },
-      { id: "g-a-5", prompt: "___ sun was hot at Sports Day.", options: ["A", "An", "The", "—"], correct: 2, errorId: "articles", why: "世上独一无二：the sun。" },
-      { id: "g-a-6", prompt: "Meet me after school at ___ office.", options: ["a", "an", "the", "—"], correct: 2, errorId: "articles", why: "学校里大家都知道的办公室：the。" },
+      { id: "g-a-2", prompt: "Please give me ___ bottle on the counter. (we can both see it)", options: ["a", "an", "the", "no word"], correct: 2, errorId: "articles", why: "双方可见的那个：the。" },
+      { id: "g-a-3", prompt: "She is ___ honest prefect.", options: ["a", "an", "the", "no word"], correct: 1, errorId: "articles", why: "honest 以元音音素开头：an。" },
+      { id: "g-a-4", prompt: "We go to school ___ MRT. (transport, no article)", options: ["by", "by the", "with", "in"], correct: 0, errorId: "zero-article-by", why: "by MRT 零冠词。不要选 on the，本题练交通方式。" },
+      { id: "g-a-5", prompt: "___ sun was hot at Sports Day.", options: ["A", "An", "The", "no word"], correct: 2, errorId: "articles", why: "世上独一无二：the sun。" },
+      { id: "g-a-6", prompt: "Meet me after school at ___ office.", options: ["a", "an", "the", "no word"], correct: 2, errorId: "articles", why: "学校里大家都知道的办公室：the。" },
     ],
   },
   {
@@ -67,10 +67,10 @@ export const GRAMMAR_SHEETS: GrammarSheet[] = [
     yieldZh: "AEIS 50-MCQ",
     ruleZh: "he/she/it/everyone/each + -s。复数名词 + 原形。集体名词在选择题里常按单数。",
     items: [
-      { id: "g-s-1", prompt: "Everyone ___ a water bottle.", options: ["have", "has", "are", "is have"], correct: 1, errorId: "sva-everyone", why: "everyone 单数。" },
+      { id: "g-s-1", prompt: "Everyone ___ a water bottle.", options: ["have", "has", "are", "were"], correct: 1, errorId: "sva-everyone", why: "everyone 单数。" },
       { id: "g-s-2", prompt: "The students ___ quiet.", options: ["is", "are", "has", "was"], correct: 1, errorId: "sva-everyone", why: "students 复数。" },
       { id: "g-s-3", prompt: "Ms Tan ___ us Science.", options: ["teach", "teaches", "teaching", "are teaching"], correct: 1, errorId: "3sg", why: "teaches。" },
-      { id: "g-s-4", prompt: "A pair of shoes ___ under the bench.", options: ["is", "are", "have", "were is"], correct: 0, errorId: "sva-everyone", why: "pair 是中心词，单数。" },
+      { id: "g-s-4", prompt: "A pair of shoes ___ under the bench.", options: ["is", "are", "have", "has"], correct: 0, errorId: "sva-everyone", why: "pair 是中心词，单数。" },
     ],
   },
   {
@@ -95,7 +95,7 @@ export const GRAMMAR_SHEETS: GrammarSheet[] = [
       { id: "g-c-1", prompt: "We have English ___ Monday morning.", options: ["in", "on", "at", "by"], correct: 1, errorId: "prep-time", why: "on Monday morning。" },
       { id: "g-c-2", prompt: "The notice is ___ the board.", options: ["in", "on", "at", "to"], correct: 1, errorId: "prep-place", why: "on the board。" },
       { id: "g-c-3", prompt: "___ it was raining, we stayed in the hall.", options: ["So", "Because", "Despite", "Therefore"], correct: 1, errorId: "because-so", why: "because + 从句。" },
-      { id: "g-c-4", prompt: "Bring ___ umbrella. It may rain.", options: ["a", "an", "the", "—"], correct: 1, errorId: "articles", why: "umbrella 元音：an。" },
+      { id: "g-c-4", prompt: "Bring ___ umbrella. It may rain.", options: ["a", "an", "the", "no word"], correct: 1, errorId: "articles", why: "umbrella 元音：an。" },
       { id: "g-c-5", prompt: "I enjoy ___ football after school.", options: ["play", "to play", "playing", "played"], correct: 2, errorId: "like-ing", why: "enjoy + -ing。" },
     ],
   },
