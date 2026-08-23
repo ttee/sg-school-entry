@@ -36,8 +36,7 @@ export default function CurriculumHome() {
         CEQ 与 AEIS 课程体系
       </h1>
       <p className="text-ink-2 mb-6 max-w-2xl leading-relaxed">
-        测的是申请年级<strong>前一级</strong>的实用英语（functional English）。小学：CEQ 过关再考 AEIS
-        数学。中学：AEIS 英语 2 小时 10 分（作文 + 50 题）。P4 工作室目标 CES <strong>130+</strong>。
+        小学先过英语，再到新加坡考数学。中学英语写一篇再做五十题，数学不给计算器。申请几年级，就按前一年级来练。
       </p>
 
       <div className="grid sm:grid-cols-2 gap-3 mb-8">

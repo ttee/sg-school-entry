@@ -236,7 +236,7 @@ export default async function ProgressPage() {
       {studioCes != null && (
         <div className="mb-6 bg-card border border-line rounded-xl p-4">
           <p className="text-xs font-semibold uppercase tracking-wide text-accent mb-1">
-            工作室量表估计（不是官方 CEQ）
+            作业进度估计
           </p>
           <p className="font-serif text-2xl font-semibold mb-1">CES ≈ {studioCes}</p>
           <p className="text-sm text-ink-2">

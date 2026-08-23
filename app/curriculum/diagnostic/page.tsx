@@ -39,7 +39,7 @@ export default function DiagnosticIndex() {
       <CurriculumNav current="/curriculum/diagnostic" />
       <h1 className="font-serif font-semibold text-3xl mb-3">PRC → 新加坡 摸底卷</h1>
       <p className="text-ink-2 mb-8 max-w-2xl leading-relaxed">
-        P2 到 S3，每个申请年级一份英语、一份数学。测前一级课纲。做完会标出对错和中文迁移错误。不是剑桥正式分。
+        P2 到中三，每个年级一份英语、一份数学。做完能看见哪一题错了，中文写清为什么。
       </p>
       <h2 className="font-serif font-semibold text-xl mb-3">英语 · 7 个年级</h2>
       <Cards papers={ENGLISH_DIAGNOSTIC_PAPERS} />

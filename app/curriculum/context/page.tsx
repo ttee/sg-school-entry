@@ -15,13 +15,8 @@ export default function SingaporeContextPage() {
         家长先看 · 孩子再开口
       </p>
       <h1 className="font-serif font-semibold text-3xl mb-3">新加坡语境英语</h1>
-      <p className="text-ink-2 mb-4 max-w-2xl leading-relaxed">
-        中国课本里的 apartment、line up，进政府学校不够用。孩子要听懂 canteen、recess、HDB、hawker
-        centre、Aunty。下面十课先给家长中文说明，再给孩子英语台词和对准的 CEQ / AEIS 题型。
-      </p>
-      <p className="text-sm text-muted mb-8 max-w-2xl leading-relaxed">
-        国立教育学院亚洲语言文化学部陈志锐副教授，主持推广华语理事会双语出版物《从石叻坡到新加坡——新加坡华语资料库》。那是新加坡<strong>华语</strong>本地词研究，不是英语教材。本站不转载该资料库，也不与
-        NIE 合作。我们把同一类生活场景写成英语作业。
+      <p className="text-ink-2 mb-8 max-w-2xl leading-relaxed">
+        课本里的 apartment，到了这里要说 HDB。食堂叫 canteen，课间叫 recess，档口叫 Aunty。下面十课：你先看中文，孩子再练那几句英语。
       </p>
 
       <h2 className="font-serif font-semibold text-xl mb-3">家长词表（先中文，再英语）</h2>

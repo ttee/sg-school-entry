@@ -85,8 +85,7 @@ export default function SiteChrome({
       <footer className="border-t border-line py-8 bg-paper">
         <div className="max-w-7xl mx-auto px-4">
           <p className="text-xs text-muted mb-3 max-w-3xl leading-relaxed">
-            本站是升学工作室教材，与教育部、考评局、剑桥均无隶属关系。CEQ
-            门槛分以 MOE 年龄核对器为准；此处量表是工作室摸底估计，不能代替官方成绩单。
+            作业和摸底用来排课。正式分数看成绩单。
           </p>
           <div className="flex flex-wrap gap-4 text-sm text-muted">
             <Link href="/" className="hover:text-ink">狮城入学</Link>

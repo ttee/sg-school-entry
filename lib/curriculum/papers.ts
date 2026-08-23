@@ -76,7 +76,7 @@ export const AEIS_ENGLISH = {
     },
   },
   studioPrimary: {
-    why: "Studio language-use papers (not the current AEIS-Primary sitting). Same skills as school English and CEQ: comprehension, cloze, vocab, grammar, spelling, short writing. Content = syllabus of the level before.",
+    why: "小学现在入学英语交 CEQ。下面这种练习卷练的是理解、完形、词汇、语法、拼写，内容按前一年级。",
     p23: {
       duration: "1 hour",
       total: 34,

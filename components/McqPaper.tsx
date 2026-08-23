@@ -108,28 +108,26 @@ export default function McqPaper({
       <div className="space-y-6">
         <div className="bg-card border border-line rounded-2xl p-6">
           <p className="text-xs font-semibold tracking-widest uppercase text-accent mb-2">
-            工作室摸底结果
+            摸底结果
           </p>
           <h2 className="font-serif text-2xl font-semibold mb-2">
             {totalCorrect} / {paper.items.length} · {percent}%
           </h2>
           {ces != null && (
             <p className="text-ink-2 mb-2">
-              估计 CES <strong className="text-ink">{ces}</strong>
+              大约 CES <strong className="text-ink">{ces}</strong>
               {paper.targetCes != null && (
                 <>
                   {" "}
                   · 目标 {paper.targetCes} ·{" "}
                   <span className={met ? "text-accent font-semibold" : "text-warn-ink font-semibold"}>
-                    {met ? "达到工作室对照带" : "未到工作室对照带"}
+                    {met ? "到了我们的目标" : "还差一点"}
                   </span>
                 </>
               )}
             </p>
           )}
-          <p className="text-sm text-muted">
-            这不是剑桥或考评局分数。正式门槛以 MOE 年龄核对器和官方成绩单为准。
-          </p>
+          <p className="text-sm text-muted">用来排课。正式分数以成绩单为准。</p>
         </div>
 
         <div className="space-y-4">

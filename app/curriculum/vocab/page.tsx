@@ -8,7 +8,7 @@ export default function VocabIndex() {
       <CurriculumNav current="/curriculum/vocab" />
       <h1 className="font-serif font-semibold text-3xl mb-3">功能词汇模块</h1>
       <p className="text-ink-2 mb-8 max-w-2xl">
-        校园能用的词 + 说明文连接词。不是把剑桥词表整份复印过来。
+        食堂、小息、作文里用得上的词。
       </p>
       <div className="grid md:grid-cols-2 gap-4">
         {VOCAB_MODULES.map((m) => (

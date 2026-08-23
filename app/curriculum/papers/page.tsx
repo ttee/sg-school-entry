@@ -74,7 +74,7 @@ export default function PapersPage() {
         ))}
       </ul>
 
-      <h2 className="font-serif font-semibold text-xl mb-3">小学语言卷（工作室，不是现行 AEIS-Primary 英语科）</h2>
+      <h2 className="font-serif font-semibold text-xl mb-3">小学语言练习卷</h2>
       <p className="text-sm text-ink-2 mb-4">{AEIS_ENGLISH.studioPrimary.why}</p>
       <div className="grid md:grid-cols-2 gap-4 mb-10">
         <div className="bg-card border border-line rounded-2xl p-5">

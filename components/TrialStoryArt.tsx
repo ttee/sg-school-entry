@@ -199,14 +199,12 @@ export default function TrialStoryArt({
     <div className="mb-8 space-y-4">
       <ClipPlayer clip={pair.story} />
       <ClipPlayer clip={pair.form} />
-      <p className="text-xs text-muted px-1">
-        同一周里，同一个人用同一个声音：Mei、Priya、Auntie Tan 不会换声。
-      </p>
+      <p className="text-xs text-muted px-1">Mei、Priya、Aunty Tan，各人一个声音。</p>
       <div className="bg-accent/10 border border-accent/20 rounded-xl px-4 py-3 text-sm text-ink-2">
-        试学只开放故事、跟读和下面的选择题。写作批改由顾问开通。
+        试学可以看故事、跟读、做选择题。写作批改开通后才有。
         {" "}
         <Link href="/#contact" className="text-accent font-semibold hover:text-accent-hover">
-          留下微信号报名 →
+          留微信 →
         </Link>
       </div>
     </div>

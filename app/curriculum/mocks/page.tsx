@@ -8,8 +8,7 @@ export default function MocksIndex() {
       <CurriculumNav current="/curriculum/mocks" />
       <h1 className="font-serif font-semibold text-3xl mb-3">限时模拟卷</h1>
       <p className="text-ink-2 mb-8 max-w-2xl leading-relaxed">
-        原创题，OAS 四选一。时间与题量是工作室缩小版，用来练速度和涂卡习惯，不是剑桥/SEAB 真卷。
-        小学官方 CEQ 还含听力、写作、口语；中学 AEIS 英语还有作文。
+        四选一，计时。用来练手感和速度。小学正式考还有听力口语；中学还有作文。这边先把选择题练熟。
       </p>
       <div className="space-y-4">
         {MOCKS.map((m) => (

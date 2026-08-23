@@ -41,7 +41,7 @@ export default function AssessPage() {
       <main id="main" className="max-w-5xl mx-auto px-4 py-10 md:py-14">
         <h1 className="font-serif font-semibold text-3xl md:text-4xl mb-3">入学摸底</h1>
         <p className="text-ink-2 mb-2 max-w-2xl">
-          每个申请年级两份卷：英语 16 题、数学 12 题。测的是申请年级<strong>前一级</strong>课纲。孩子自己答。不是剑桥或考评局正式分。
+          每个申请年级两份：英语 16 题，数学 12 题。按前一年级来出。让孩子自己做。
         </p>
         <p className="text-sm text-muted mb-8">
           小学英语目标 CES：P2 100 · P3 120 · P4 130 · P5 140。中学英语不交 CEQ，按 AEIS 语言点摸底。数学对准 AEIS 数学。
