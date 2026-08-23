@@ -89,7 +89,7 @@ CLIPS: list[dict] = [
         "id": "06-priya-found",
         "speaker": "priya",
         "still": "stills/priya-office.jpg",
-        "text": "We found it!",
+        "text": "Wow, that's great!",
         "scene": "office",
         "prompt": (
             "Priya, long black ponytail, blue backpack, chest-up at the Lost and "

@@ -32,8 +32,9 @@ Mouth windows from the current counter animation. Speech must cover all of them.
 | 0.2–2.7s | Aunty | Is this your white water bottle with the pink flower? |
 | 2.8–5.3s | Mei | Yes, Aunty! That is my white water bottle! |
 | 5.4–7.2s | Aunty (handoff) | Here you are. Please take it. |
-| 7.2–8.7s | Mei **and** Priya | We found it! |
-| 8.5–10s | Mei alone | Thank you, Aunty! |
+| 7.2–8.7s | Priya | Wow, that's great! |
+| 8.5–10s | Mei | We found it! |
+| 10–11.5s | Mei | Thank you, Aunty! |
 
 Corridor:
 

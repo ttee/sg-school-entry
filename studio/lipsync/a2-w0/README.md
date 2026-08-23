@@ -53,13 +53,13 @@ Do not overlay two mouths in one generation. If you want Mei and Priya at the sa
 - TTS: Here you are. Please take it.
 - Prompt: Aunty Tan, motherly Singapore school staff, chest-up at the Lost and Found counter, holding out the white water bottle, talking to camera with realistic lip sync, warm high motherly voice, painterly cartoon, one speaker only.
 
-### 06 — Priya, office (same time as 07)
+### 06 — Priya, office
 - Still: `stills/priya-office.jpg`
 - Audio: `audio/06-priya-found.wav`
-- TTS: We found it!
+- TTS: Wow, that's great!
 - Prompt: Priya, long black ponytail, blue backpack, chest-up at the Lost and Found counter, talking with realistic lip sync, clear mouth shapes, happy face, small clap or hand gesture, painterly cartoon, one speaker only.
 
-### 07 — Mei, office (same time as 06)
+### 07 — Mei, office
 - Still: `stills/mei-office.jpg`
 - Audio: `audio/07-mei-found.wav`
 - TTS: We found it!
@@ -71,7 +71,7 @@ Do not overlay two mouths in one generation. If you want Mei and Priya at the sa
 - TTS: Thank you, Aunty!
 - Prompt: Mei, short black bob, pink backpack, chest-up at the Lost and Found counter, talking to camera with realistic lip sync, clear mouth shapes, grateful smile, small nod, painterly cartoon, one speaker only.
 
-Generate 06 and 07 separately, then overlay in the editor so both say "We found it!" together. Do not skip 05 — Aunty's mouth is still moving on the handoff.
+Shoot 06 then 07 in order: Priya says "Wow, that's great!" first; Mei says "We found it!" next. Do not skip 05 — Aunty's mouth is still moving on the handoff.
 
 ## Lesson targets (keep these words)
 

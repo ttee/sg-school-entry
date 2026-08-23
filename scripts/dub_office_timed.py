@@ -27,10 +27,9 @@ BEATS: list[tuple[float, float, str, str]] = [
     (2.76, 5.30, "mei", "Yes, Aunty! That is my white water bottle!"),
     # Aunty still mouths while she hands the bottle over.
     (5.38, 7.16, "auntie", "Here you are. Please take it."),
-    # Both mouths open 7.5–8.7s — same line together.
-    (7.18, 8.70, "priya", "We found it!"),
-    (7.42, 8.70, "mei", "We found it!"),
-    (8.54, 10.02, "mei", "Thank you, Aunty!"),
+    (7.18, 8.70, "priya", "Wow, that's great!"),
+    (8.54, 10.02, "mei", "We found it!"),
+    (10.08, 11.50, "mei", "Thank you, Aunty!"),
 ]
 
 
