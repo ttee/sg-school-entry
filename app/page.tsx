@@ -70,6 +70,82 @@ const ROADMAP = [
   { m: "第 5–6 个月", t: "AEIS 限时", d: "小学数学 / 中学英语+数学限时卷。对照前一级课纲，不猜题。" },
 ];
 
+const WHY_NOW = [
+  {
+    titleZh: "英语课 + 亚洲生活",
+    body: "政府学校用英语上课，华文是母语课。离家近、生活里仍听得到华语，又要在食堂用英语排队。",
+  },
+  {
+    titleZh: "小学先过 CEQ",
+    body: "2022 年起小学 AEIS 不再另考英语。英语成绩单在中国就能考，再赴新加坡考数学。路径清楚。",
+  },
+  {
+    titleZh: "不是保证移民",
+    body: "录取看考试、学位空缺和居住区域。准证看 ICA 与雇主。作业包帮孩子应考和开口，不帮办 PR。",
+  },
+];
+
+const HABITS = [
+  {
+    titleZh: "早准备",
+    body: "小学 CEQ 要赶申请窗前 12 个月。人在中国先摸底、先试学，再决定开 12 周。",
+    href: "/assess",
+    cta: "按年级摸底",
+  },
+  {
+    titleZh: "快浸入",
+    body: "进校要用 canteen、recess、Aunty，不是美国课文。每天开口比只刷语法卷快。",
+    href: "/curriculum/context",
+    cta: "新加坡语境",
+  },
+  {
+    titleZh: "用好双语",
+    body: "华文有底是优势，但 AEIS / CEQ 测的是英语。把时间留给英语和数学，华文保持即可。",
+    href: "/curriculum/stories",
+    cta: "77 个故事",
+  },
+];
+
+/** Composite paths, not named alumni or pass-rate claims. */
+const FAMILY_PATHS = [
+  {
+    tag: "路径 A · 人还在中国",
+    title: "先考 CEQ，再飞去考数学",
+    body: "孩子申请小学。在授权考点拿 A2 / B1 成绩单，本站练故事、语法和数学摸底。AEIS 数学仍要赴新加坡考。我们不代报考点。",
+    next: "小学试学",
+    href: "/trial/A2",
+  },
+  {
+    tag: "路径 B · 家长已在新加坡工作",
+    title: "开口要快，课室不等你",
+    body: "准证是家长的事。孩子要尽快听懂早会、食堂、小息。先做语境十课和摸底，再决定申请年级。录取仍看官方考试。",
+    next: "语境十课",
+    href: "/curriculum/context",
+  },
+  {
+    tag: "路径 C · 申请中学",
+    title: "英语作文 + 50 题，加数学",
+    body: "中学不交 CEQ。测申请年级的前一级。本站有 SEC 英语试学和按年级英语/数学摸底。学位同样不是交作业就会有。",
+    next: "中学试学",
+    href: "/trial/SEC",
+  },
+];
+
+const CHALLENGES = [
+  {
+    titleZh: "学位有限",
+    body: "国际学生名额按校、按年有限。表现好也不等于想去哪所就去哪所。以 MOE 派位为准。",
+  },
+  {
+    titleZh: "作业包不是生活全包",
+    body: "12 周作业 RMB 2,680。房租、生活费、CEQ 考点费、AEIS 报名费另付官方。本页不报其他机构的价。",
+  },
+  {
+    titleZh: "前三个月的语境冲击",
+    body: "hawker centre、HDB、mind the gap、Thank you Aunty。这是我们专门练的，不是 Singlish 课。",
+  },
+];
+
 const FAQS = [
   {
     q: "人在中国能开始吗？",
@@ -94,6 +170,10 @@ const FAQS = [
   {
     q: "有没有通过保证？",
     a: "没有。先免费摸底和试学，再决定付钱。工作室 CES 是对照带，不是剑桥或考评局分数。正式门槛以 MOE 年龄核对器和官方成绩单为准。",
+  },
+  {
+    q: "进政府学校等于能拿 PR 吗？",
+    a: "不等于。AEIS 录取是入学，准证和永久居民是 ICA 的事，看家长身份与当年政策。本站不办理准证，也不承诺移民结果。",
   },
 ];
 
@@ -123,7 +203,7 @@ export default function HomePage() {
                 Get your child ready for a Singapore government school in 6 months
               </p>
               <p className="text-ink-2 mb-5 max-w-xl">
-                新加坡校园故事、按年级摸底、简体中文家长说明。小学走 CEQ 再考 AEIS 数学；中学走 AEIS 英语 + 数学。不是语法游戏。
+                留住中文根，拿到英语凭证，走政府学校通道。小学先 CEQ 再考 AEIS 数学；中学考英语 + 数学。新加坡校园故事、按年级摸底、简体中文家长说明。
               </p>
               <div className="flex flex-wrap gap-3 mb-4">
                 <Link
@@ -182,6 +262,66 @@ export default function HomePage() {
               <p className="text-xs text-muted mt-2">
                 片中是本站锁定角色 Mei / Priya，新加坡口音、规范语法。不是考场录像，也不是保证录取。
               </p>
+            </div>
+          </div>
+        </section>
+
+        {/* Why Singapore now */}
+        <section className="py-12 md:py-16">
+          <div className="max-w-7xl mx-auto px-4">
+            <h2 className="font-serif font-semibold text-2xl md:text-3xl mb-2">
+              不是只把孩子送去上学，是把下一步放在新加坡
+            </h2>
+            <p className="text-ink-2 mb-8 max-w-3xl leading-relaxed">
+              英语课、亚洲生活、离中国近。双语政策让华文有底的孩子有入口，但课室、食堂、考试仍是英语。我们帮的是应考和开口，不是移民中介。
+            </p>
+            <div className="grid md:grid-cols-3 gap-4 mb-10">
+              {WHY_NOW.map((w) => (
+                <article key={w.titleZh} className="bg-card border border-line rounded-2xl p-6">
+                  <h3 className="font-serif font-semibold text-lg mb-2">{w.titleZh}</h3>
+                  <p className="text-sm text-ink-2 leading-relaxed">{w.body}</p>
+                </article>
+              ))}
+            </div>
+
+            <h3 className="font-serif font-semibold text-xl mb-2">三条常见路径（不是客户证言）</h3>
+            <p className="text-sm text-muted mb-6 max-w-2xl">
+              下面是作业怎么接官方通道。没有虚构的「进了某所名校」故事，也没有通过率。
+            </p>
+            <div className="grid md:grid-cols-3 gap-4 mb-10">
+              {FAMILY_PATHS.map((p) => (
+                <article key={p.tag} className="bg-card border border-line rounded-2xl p-6 flex flex-col">
+                  <p className="text-xs font-semibold text-accent mb-2">{p.tag}</p>
+                  <h3 className="font-serif font-semibold text-lg mb-2">{p.title}</h3>
+                  <p className="text-sm text-ink-2 leading-relaxed mb-4 flex-1">{p.body}</p>
+                  <Link href={p.href} className="text-sm text-accent font-semibold">
+                    {p.next} →
+                  </Link>
+                </article>
+              ))}
+            </div>
+
+            <h3 className="font-serif font-semibold text-xl mb-6">做成准备的家庭，通常做对这三件</h3>
+            <div className="grid md:grid-cols-3 gap-4 mb-10">
+              {HABITS.map((h) => (
+                <article key={h.titleZh} className="bg-paper-2 border border-line rounded-2xl p-6">
+                  <h3 className="font-serif font-semibold text-lg mb-2">{h.titleZh}</h3>
+                  <p className="text-sm text-ink-2 leading-relaxed mb-4">{h.body}</p>
+                  <Link href={h.href} className="text-sm text-accent font-semibold">
+                    {h.cta} →
+                  </Link>
+                </article>
+              ))}
+            </div>
+
+            <h3 className="font-serif font-semibold text-xl mb-6">2026 仍然要面对</h3>
+            <div className="grid md:grid-cols-3 gap-4">
+              {CHALLENGES.map((c) => (
+                <article key={c.titleZh} className="bg-card border border-line rounded-2xl p-6">
+                  <h3 className="font-serif font-semibold text-lg mb-2">{c.titleZh}</h3>
+                  <p className="text-sm text-ink-2 leading-relaxed">{c.body}</p>
+                </article>
+              ))}
             </div>
           </div>
         </section>
@@ -534,6 +674,9 @@ export default function HomePage() {
           </Link>
           <a href="https://www.moe.gov.sg/international-students/aeis" target="_blank" rel="noreferrer" className="hover:text-ink">
             MOE AEIS
+          </a>
+          <a href="https://www.ica.gov.sg/" target="_blank" rel="noreferrer" className="hover:text-ink">
+            ICA 准证
           </a>
           <a href="https://www.seab.gov.sg/aeis/about-aeis/" target="_blank" rel="noreferrer" className="hover:text-ink">
             SEAB
