@@ -1,4 +1,7 @@
 import type { Storyline } from "./storylines";
+import { lessonClips, type LessonClip } from "./story-clips";
+
+export type { LessonClip };
 
 export type GrammarTeach = {
   titleZh: string;
@@ -70,13 +73,6 @@ export type TileTask = {
   promptZh: string;
   words: string[];
   answer: string;
-};
-
-export type LessonClip = {
-  src: string;
-  poster?: string;
-  titleZh: string;
-  captionEn: string;
 };
 
 export type WriteTask = {
@@ -1300,25 +1296,7 @@ function writeFor(family: FormFamily, story: Storyline, model: string): WriteTas
 }
 
 function clipsFor(story: Storyline): LessonClip[] {
-  if (story.n === 2) {
-    return [
-      {
-        src: "/trial/a2-w0-setup.mp4?v=twoshot2",
-        poster: "/trial/a2-w0-setup.jpg",
-        titleZh: "先看：走廊",
-        captionEn:
-          "Mei: Oh no! Where is my water bottle? I cannot find it.  Priya: Let's go to the Lost and Found.",
-      },
-      {
-        src: "/trial/a2-w0-counter.mp4?v=officeshot2",
-        poster: "/trial/a2-w0-counter.jpg",
-        titleZh: "再看：柜台",
-        captionEn:
-          "Aunty Tan: Is this your white water bottle with the pink flower?  Mei: Yes, Aunty! That is my white water bottle!  Priya: Wow, that's great!  Mei: We found it!  Mei: Thank you, Aunty!",
-      },
-    ];
-  }
-  return [];
+  return lessonClips(story.n);
 }
 
 export function buildPedagogy(story: Storyline): Pedagogy {
