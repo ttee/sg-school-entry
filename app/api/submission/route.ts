@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from "next/server";
 import { getServerSession } from "next-auth";
 import { authOptions } from "@/lib/auth";
 import { prisma } from "@/lib/db";
+import { canAccessWeek } from "@/lib/access";
 
 export async function POST(req: NextRequest) {
   const session = await getServerSession(authOptions);
@@ -24,8 +25,11 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ error: "Week not found" }, { status: 404 });
     }
 
-    const isSubscribed = session.user.subscribed;
-    const canAccess = isSubscribed || week.isSample;
+    const canAccess = canAccessWeek({
+      role: session.user.role,
+      subscribed: session.user.subscribed,
+      isSample: week.isSample,
+    });
 
     if (!canAccess) {
       return NextResponse.json({ error: "Access denied" }, { status: 403 });

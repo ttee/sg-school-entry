@@ -103,7 +103,7 @@ All videos are original teaching materials, not Cambridge official content.
 
 ## Local seed users (not a family seat)
 
-Production seed does **not** upsert demo/admin users. `SEED_DEMO_USERS` defaults off; set `SEED_DEMO_USERS=true` only on a local machine. Seed never writes `subscribed: true`. Do not use a seed login as a paying family seat. Do not put passwords in this file.
+Seed always upserts the review admin (`admin@sgschoolentry.local`, role `admin`). That account can open and submit every week; it is not a paying family seat (`subscribed` stays false). `SEED_DEMO_USERS` still defaults off and only adds the extra demo/trial/math students on a local machine. Do not put passwords in this file.
 
 Unlock after the placement agent confirms payment is a human Prisma flip (`User.subscribed = true`). The child then re-logs in. There is no subscribe API or admin toggle.
 

@@ -15,25 +15,38 @@ async function main() {
   console.log(
     SEED_DEMO_USERS
       ? "SEED_DEMO_USERS=true — upserting local demo users (subscribed stays false)"
-      : "SEED_DEMO_USERS is off (production default) — not upserting demo users"
+      : "SEED_DEMO_USERS is off — demo students skipped; review admin is still upserted"
   );
 
-  // Anyone who can read GitHub must not keep a paid seat. When seeding is off,
-  // revoke subscribed on public seed emails and drop the public admin role.
-  if (!SEED_DEMO_USERS) {
-    await prisma.user.updateMany({
-      where: { email: { in: [...SEEDED_EMAILS] }, subscribed: true },
-      data: { subscribed: false },
-    });
-    await prisma.user.updateMany({
-      where: { email: "admin@sgschoolentry.local" },
-      data: { role: "student" },
-    });
-  }
+  // Seed emails are not paying seats. Admin still reviews every week via role.
+  await prisma.user.updateMany({
+    where: { email: { in: [...SEEDED_EMAILS] }, subscribed: true },
+    data: { subscribed: false },
+  });
 
   let demoUser: { id: string } | null = null;
   let trialUser: { id: string } | null = null;
   let adminUser: { id: string } | null = null;
+
+  const adminUserRow = await prisma.user.upsert({
+    where: { email: "admin@sgschoolentry.local" },
+    update: {
+      name: "Review Admin",
+      role: "admin",
+      level: null,
+      password: await bcrypt.hash("admin1234", 10),
+    },
+    create: {
+      email: "admin@sgschoolentry.local",
+      password: await bcrypt.hash("admin1234", 10),
+      name: "Review Admin",
+      role: "admin",
+      level: null,
+      subscribed: false,
+    },
+  });
+  adminUser = adminUserRow;
+  console.log("Upserted review admin (all weeks via role, subscribed stays false)");
 
   if (SEED_DEMO_USERS) {
     const demoUserRow = await prisma.user.upsert({
@@ -70,23 +83,6 @@ async function main() {
       },
     });
 
-    const adminUserRow = await prisma.user.upsert({
-      where: { email: "admin@sgschoolentry.local" },
-      update: {
-        name: "Review Admin",
-        role: "admin",
-        level: null,
-      },
-      create: {
-        email: "admin@sgschoolentry.local",
-        password: await bcrypt.hash("admin1234", 10),
-        name: "Review Admin",
-        role: "admin",
-        level: null,
-        subscribed: false,
-      },
-    });
-
     await prisma.user.upsert({
       where: { email: "math@sgschoolentry.local" },
       update: {
@@ -106,7 +102,6 @@ async function main() {
 
     demoUser = demoUserRow;
     trialUser = trialUserRow;
-    adminUser = adminUserRow;
     console.log("Upserted local demo users (subscribed stays false)");
   }
 

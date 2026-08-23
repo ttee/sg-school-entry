@@ -2,6 +2,7 @@ import { getSession } from "@/lib/session";
 import { prisma } from "@/lib/db";
 import { redirect } from "next/navigation";
 import WeekHomework from "@/components/WeekHomework";
+import { canAccessWeek } from "@/lib/access";
 
 export default async function WeekPage({
   params,
@@ -35,9 +36,11 @@ export default async function WeekPage({
     redirect("/learn");
   }
 
-  const isSubscribed = session.user.subscribed;
-  const isAdmin = session.user.role === "admin";
-  const canAccess = isSubscribed || week.isSample || isAdmin;
+  const canAccess = canAccessWeek({
+    role: session.user.role,
+    subscribed: session.user.subscribed,
+    isSample: week.isSample,
+  });
 
   if (!canAccess) {
     redirect("/learn");
