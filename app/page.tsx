@@ -163,22 +163,21 @@ export default function HomePage() {
             </p>
             <div className="grid sm:grid-cols-2 lg:grid-cols-5 gap-3 mb-6">
               {CONTEXT_TOPICS.map((t) => (
-                <Link
+                <div
                   key={t.id}
-                  href={t.href}
-                  className="bg-card border border-line rounded-xl p-4 hover:border-accent"
+                  className="bg-card border border-line rounded-xl p-4"
                 >
                   <p className="text-xs font-semibold text-accent mb-1">{t.zhScene}</p>
                   <p className="text-sm font-semibold mb-1">{t.enTitle}</p>
                   <p className="text-xs text-muted">{t.vocab[0].en}</p>
-                </Link>
+                </div>
               ))}
             </div>
             <Link
-              href="/curriculum/context"
+              href="/trial"
               className="inline-flex px-6 py-3 border border-accent rounded-full font-semibold"
             >
-              这些词家长怎么讲
+              打开试学课
             </Link>
           </div>
         </section>
@@ -212,7 +211,7 @@ export default function HomePage() {
               )}
               {MRT && (
                 <Link
-                  href={`/curriculum/stories/${MRT.n}`}
+                  href="/trial"
                   className="bg-card border border-line rounded-2xl p-6 hover:border-accent"
                 >
                   <p className="text-xs font-semibold text-accent mb-1">课文 {MRT.n}</p>
@@ -230,21 +229,20 @@ export default function HomePage() {
             </div>
             <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3 mb-6">
               {THEMES.map((t) => (
-                <Link
+                <div
                   key={t.id}
-                  href="/curriculum/stories"
-                  className="bg-paper-2 border border-line rounded-xl p-4 text-sm hover:border-accent"
+                  className="bg-paper-2 border border-line rounded-xl p-4 text-sm"
                 >
                   <p className="font-semibold mb-1">{t.title}</p>
                   <p className="text-muted text-xs">{t.stories.length} 课</p>
-                </Link>
+                </div>
               ))}
             </div>
             <Link
-              href="/curriculum/stories"
+              href="/trial"
               className="inline-flex px-6 py-3 border border-accent rounded-full font-semibold"
             >
-              看课文目录
+              打开试学课
             </Link>
           </div>
         </section>
@@ -416,9 +414,6 @@ export default function HomePage() {
           </Link>
           <Link href="/中学" className="hover:text-ink">
             中学
-          </Link>
-          <Link href="/curriculum" className="hover:text-ink">
-            课纲
           </Link>
           <Link href="/privacy" className="hover:text-ink">
             隐私政策

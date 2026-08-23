@@ -21,7 +21,12 @@ export async function middleware(request: NextRequest) {
     return NextResponse.rewrite(new URL("/secondary", request.url));
   }
 
-  if (!request.nextUrl.pathname.startsWith("/learn") && !path.startsWith("/learn")) {
+  const isCurriculum =
+    request.nextUrl.pathname.startsWith("/curriculum") || path.startsWith("/curriculum");
+  const isLearn =
+    request.nextUrl.pathname.startsWith("/learn") || path.startsWith("/learn");
+
+  if (!isCurriculum && !isLearn) {
     return NextResponse.next();
   }
 
@@ -36,12 +41,17 @@ export async function middleware(request: NextRequest) {
     return NextResponse.redirect(url);
   }
 
+  if (isCurriculum && token.role !== "admin") {
+    return NextResponse.redirect(new URL("/learn", request.url));
+  }
+
   return NextResponse.next();
 }
 
 export const config = {
   matcher: [
     "/learn/:path*",
+    "/curriculum/:path*",
     "/((?!_next/static|_next/image|favicon.ico|api/|audio/|video/|weike/).*)",
   ],
 };

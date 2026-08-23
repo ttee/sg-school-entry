@@ -59,12 +59,14 @@ export default async function LearnLayout({
               >
                 进度
               </Link>
-              <Link
-                href="/curriculum"
-                className="text-sm text-muted hover:text-ink transition-colors"
-              >
-                课程
-              </Link>
+              {session.user.role === "admin" && (
+                <Link
+                  href="/curriculum"
+                  className="text-sm text-muted hover:text-ink transition-colors"
+                >
+                  课程
+                </Link>
+              )}
               <span className="text-sm text-muted hidden sm:block">
                 {session.user.name || session.user.email}
               </span>

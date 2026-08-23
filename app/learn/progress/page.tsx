@@ -211,6 +211,7 @@ export default async function ProgressPage() {
             ? "管理员视图：查看所有级别的每周作业完成情况与得分。"
             : "查看孩子的每周作业完成情况与得分。本进度仅显示当前登录账号的学习数据。"}
         </p>
+        {isAdmin && (
         <p className="text-sm mt-2">
           <Link href="/curriculum/tracker" className="text-accent font-semibold">
             打开 CES 成绩表
@@ -220,6 +221,7 @@ export default async function ProgressPage() {
             年级摸底卷
           </Link>
         </p>
+        )}
       </div>
 
       {parentCardData && (

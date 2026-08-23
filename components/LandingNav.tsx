@@ -6,8 +6,6 @@ import { useState } from "react";
 const LINKS = [
   { href: "/trial/A2", label: "试学" },
   { href: "/assess", label: "摸底" },
-  { href: "/curriculum/stories", label: "课文" },
-  { href: "/curriculum/context", label: "语境" },
   { href: "/#pricing", label: "备考" },
   { href: "/#contact", label: "咨询" },
 ];

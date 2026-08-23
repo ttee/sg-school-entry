@@ -67,10 +67,10 @@ export default function PrimaryPage() {
                 英语会练什么
               </Link>
               <Link
-                href="/curriculum"
+                href="/assess"
                 className="inline-flex items-center justify-center px-6 py-3.5 bg-transparent text-ink border border-line font-semibold rounded-full hover:bg-accent/10 transition-colors text-base"
               >
-                CEQ 课纲与摸底
+                先做摸底
               </Link>
             </div>
           </div>

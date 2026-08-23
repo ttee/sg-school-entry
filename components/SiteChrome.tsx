@@ -6,7 +6,6 @@ import { useState } from "react";
 const NAV = [
   { href: "/小学", label: "小学" },
   { href: "/中学", label: "中学" },
-  { href: "/curriculum", label: "课程" },
   { href: "/#contact", label: "咨询" },
 ];
 
@@ -89,8 +88,6 @@ export default function SiteChrome({
           </p>
           <div className="flex flex-wrap gap-4 text-sm text-muted">
             <Link href="/" className="hover:text-ink">狮城入学</Link>
-            <Link href="/curriculum" className="hover:text-ink">课程</Link>
-            <Link href="/curriculum/guide" className="hover:text-ink">家长手册</Link>
             <Link href="/privacy" className="hover:text-ink">隐私政策</Link>
           </div>
         </div>

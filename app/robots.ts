@@ -5,7 +5,7 @@ export default function robots(): MetadataRoute.Robots {
     rules: {
       userAgent: '*',
       allow: '/',
-      disallow: ['/api/', '/learn/'],
+      disallow: ['/api/', '/learn/', '/curriculum/'],
     },
     sitemap: 'https://sg-school-entry.vercel.app/sitemap.xml',
   }

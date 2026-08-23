@@ -67,10 +67,10 @@ export default function SecondaryPage() {
                 数学试学
               </Link>
               <Link
-                href="/curriculum"
+                href="/assess"
                 className="inline-flex items-center justify-center px-6 py-3.5 bg-transparent text-ink border border-line font-semibold rounded-full hover:bg-accent/10 transition-colors text-base"
               >
-                AEIS 课纲与作文
+                先做摸底
               </Link>
             </div>
           </div>
