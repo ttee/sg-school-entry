@@ -36,7 +36,7 @@ CLIPS: list[dict] = [
         "id": "02-priya-setup",
         "speaker": "priya",
         "still": "stills/priya-setup.jpg",
-        "text": "Let's go to the Lost and Found. OK.",
+        "text": "Let's go to the Lost and Found.",
         "scene": "corridor",
         "prompt": (
             "Priya, a 6-year-old Singapore primary girl with a long black ponytail "

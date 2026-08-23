@@ -25,7 +25,6 @@ SHOTS: list[tuple[str, list[tuple[str, str]]]] = [
         [
             ("mei", "Oh no! Where is my water bottle? I cannot find it."),
             ("priya", "Let's go to the Lost and Found."),
-            ("mei", "OK."),
         ],
     ),
     # a2-w0-counter.mp4 is timed in scripts/dub_office_timed.py
