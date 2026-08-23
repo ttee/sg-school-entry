@@ -1,22 +1,25 @@
 /**
- * Locked trial cast. Every new clip must reuse these faces and voices.
- * Faces come from the original painterly 微课 (`public/video/a2-w0.mp4`, `a2-w1.mp4`, `b1-w0.mp4`).
+ * Locked primary-school cast. Canonical faces are the two girls in
+ * /trial/A2/1 (`public/trial/a2-w1-ask.jpg` / `a2-w1-form.mp4`).
+ * Every primary clip (A2, B1, MATH stories) must reuse these faces.
  *
- * Voices are Singapore English (edge-tts en-SG), Standard grammar (no lah/ah particles).
- * Mei and Priya are pitch-shifted to a 6–7-year-old girl range. See scripts/dub_trial_sg_child.py.
+ * Voices: Singapore English (edge-tts en-SG), standard grammar (no lah/ah).
+ * Mei and Priya are pitch-shifted to a 6–7-year-old girl range.
  */
 export const TRIAL_CAST = {
   mei: {
     name: "Mei",
-    look: "neck-length straight black hair with fringe, no clip, navy pinafore, school bag, P2",
+    look: "short black bob with straight fringe, no clip, pink backpack, navy pinafore, white polo, white socks, black Mary Janes, painterly A2/1 face",
     voice: "en-SG-LunaNeural",
     age: "6-7",
+    lockFrame: "/trial/a2-w1-form.jpg",
   },
   priya: {
     name: "Priya",
-    look: "dark ponytail with colorful ribbon, navy pinafore, biscuit in corridor scene",
+    look: "long black ponytail with a small blue hair tie, slightly tanner, blue backpack, same navy pinafore, painterly A2/1 face",
     voice: "en-SG-LunaNeural",
     age: "6-7",
+    lockFrame: "/trial/a2-w1-ask.jpg",
   },
   auntieTan: {
     name: "Auntie Tan",

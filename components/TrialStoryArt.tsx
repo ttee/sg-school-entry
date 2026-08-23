@@ -22,14 +22,14 @@ const PAIRS: Record<StoryKey, Pair> = {
   "A2-0": {
     story: {
       poster: "/trial/a2-w0-setup.jpg",
-      video: "/trial/a2-w0-setup.mp4?v=sgchild1",
+      video: "/trial/a2-w0-setup.mp4?v=a21lock1",
       titleZh: "第 1 段 · 走廊（还没到 Lost & Found）",
       captionZh: "Mei 坐在地上倒书包。Priya 蹲下来帮她。没有托盘。",
       captionEn: "Mei: Oh no! Where is my water bottle?  Priya: Let’s go to the Lost and Found!",
     },
     form: {
       poster: "/trial/a2-w0-counter.jpg",
-      video: "/trial/a2-w0-counter.mp4?v=sgchild1",
+      video: "/trial/a2-w0-counter.mp4?v=a21lock1",
       titleZh: "第 2 段 · Lost & Found 柜台",
       captionZh: "双手合十对 Aunty 说话。找到后拍手、鞠躬。",
       captionEn: "Aunty Tan: Is this your bottle?  Mei: Yes! That is mine! Thank you, Aunty Tan!",
@@ -38,14 +38,14 @@ const PAIRS: Record<StoryKey, Pair> = {
   "A2-1": {
     story: {
       poster: "/trial/a2-w1-ask.jpg",
-      video: "/trial/a2-w1-ask.mp4?v=sgchild1",
+      video: "/trial/a2-w1-ask.mp4?v=a21lock1",
       titleZh: "第 1 段 · 故事",
       captionZh: "校门口。只有 Priya 问。",
       captionEn: "Priya: What time do you wake up?",
     },
     form: {
       poster: "/trial/a2-w1-form.jpg",
-      video: "/trial/a2-w1-form.mp4?v=sgchild1",
+      video: "/trial/a2-w1-form.mp4?v=a21lock1",
       titleZh: "第 2 段 · 跟读本周句子",
       captionZh: "还是这两个人。只有 Mei 答。",
       captionEn: "Mei: I wake up at 6:15. My sister wakes later.",
@@ -54,14 +54,14 @@ const PAIRS: Record<StoryKey, Pair> = {
   "B1-0": {
     story: {
       poster: "/trial/b1-w0-story.jpg",
-      video: "/trial/b1-w0-story.mp4?v=sgchild1",
+      video: "/trial/b1-w0-story.mp4?v=a21lock1",
       titleZh: "第 1 段 · 故事",
       captionZh: "走廊。只有 Priya 说话。",
       captionEn: "Priya: Just ask one question every lesson.",
     },
     form: {
       poster: "/trial/b1-w0-form.jpg",
-      video: "/trial/b1-w0-form.mp4?v=sgchild1",
+      video: "/trial/b1-w0-form.mp4?v=a21lock1",
       titleZh: "第 2 段 · 跟读本周句子",
       captionZh: "还是这两个人。只有 Mei 说话。",
       captionEn: "Mei: I have been here for six months. I came last year.",
