@@ -225,7 +225,7 @@ export default function HomePage() {
                   playsInline
                   preload="metadata"
                 >
-                  <source src="/trial/a2-w0-setup.mp4?v=dialogue1" type="video/mp4" />
+                  <source src="/trial/a2-w0-setup.mp4?v=twoshot1" type="video/mp4" />
                 </video>
                 <div className="grid grid-cols-2 gap-px bg-line">
                   <div className="bg-card p-4">
