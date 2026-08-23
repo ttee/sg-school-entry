@@ -5,12 +5,12 @@
 export const TRIAL_CAST = {
   mei: {
     name: "Mei",
-    look: "short black bob, navy pinafore, pink backpack, smaller girl on the left at the gate",
+    look: "neck-length straight black hair with fringe, no clip, navy pinafore, school bag, P2",
     voice: "ara",
   },
   priya: {
     name: "Priya",
-    look: "dark ponytail, navy pinafore, blue backpack, friend with a hand on Mei's shoulder",
+    look: "dark ponytail with colorful ribbon, navy pinafore, biscuit in corridor scene",
     voice: "eve",
   },
   auntieTan: {
