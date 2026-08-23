@@ -8,7 +8,7 @@ import { CONTEXT_TOPICS } from "@/lib/curriculum/singapore-context";
 export const metadata = {
   title: "狮城入学 · 进新加坡政府学校",
   description:
-    "食堂、小息、失物招领。小学先过英语再考数学，中学英语数学一起考。12 周 2680 元。打开就能试。",
+    "专为有意向入读新加坡政府学校的家庭打造。校园场景敢开口，小学冲刺 CEQ、中学备战 AEIS。打开就能免费试学。",
 };
 
 function story(n: number) {
@@ -177,20 +177,30 @@ export default function HomePage() {
           <div className="max-w-7xl mx-auto px-4 grid lg:grid-cols-2 gap-10 items-center">
             <div>
               <p className="text-xs font-semibold tracking-widest uppercase text-accent mb-3">
-                给要进政府学校的家庭
+                狮城入学
               </p>
               <h1 className="font-serif font-semibold text-3xl md:text-5xl leading-tight tracking-tight mb-4">
-                孩子进新加坡学校，先会在食堂开口
+                专为有意向入读新加坡政府学校的家庭打造
               </h1>
-              <p className="text-ink-2 mb-5 max-w-xl">
-                小学：国内先过英语，再到新加坡考数学。中学：英语作文加五十题，再加数学。课文里有 Lost and Found、recess、鸡饭。打开就能试。
+              <p className="text-ink-2 mb-5 max-w-xl leading-relaxed">
+                帮助孩子破除语言障碍，从容应对 AEIS 入学考。
               </p>
+              <ul className="space-y-3 mb-6 max-w-xl text-sm text-ink-2 leading-relaxed">
+                <li>
+                  <strong className="text-ink">融入本土生活。</strong>
+                  从食堂点餐、小息（recess）、鸡饭、失物招领（Lost and Found）等真实校园场景切入，让孩子敢说敢用。
+                </li>
+                <li>
+                  <strong className="text-ink">精准匹配考纲。</strong>
+                  小学组：国内先冲刺剑桥 CEQ 英语认证，同步对接新加坡数学。中学组：攻克 50 道英语选择题和写作框架，全方位备战数学试题。
+                </li>
+              </ul>
               <div className="flex flex-wrap gap-3 mb-4">
                 <Link
-                  href="/trial/A2"
+                  href="/trial"
                   className="inline-flex items-center justify-center px-6 py-3.5 bg-accent text-accent-ink font-semibold rounded-full hover:bg-accent-hover"
                 >
-                  先看试学
+                  立即免费体验试学课
                 </Link>
                 <Link
                   href="/assess"
