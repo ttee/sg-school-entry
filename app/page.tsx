@@ -22,21 +22,6 @@ function story(n: number) {
 const LOST = story(2);
 const MRT = story(38);
 
-const PROBLEMS = [
-  {
-    titleZh: "课本对不上食堂",
-    body: "孩子会说 classroom，一进学校听到的是 canteen、recess、Aunty。通知听不懂，语法对了也排队排错。",
-  },
-  {
-    titleZh: "家里没人对练",
-    body: "小学英语有口试。家长白天上班，孩子对着试卷点头，进校第一天却不敢举手。",
-  },
-  {
-    titleZh: "交了钱看不见进度",
-    body: "你要知道今天错了哪一题，下周改哪一个习惯。进度用中文就能看懂。",
-  },
-];
-
 const PILLARS = [
   {
     href: "/curriculum/speaking",
@@ -64,81 +49,6 @@ const ROADMAP = [
   { m: "头两个月", t: "先开口", d: "校园课文，冠词和时态。一周只改一个中国孩子常犯的错。" },
   { m: "第三、四个月", t: "对准试卷", d: "阅读、完形、短写作、跟读。小学这条线是为了拿 CEQ 成绩单。" },
   { m: "第五、六个月", t: "限时", d: "小学数学，或中学英语加数学。按申请年级的前一级来练。" },
-];
-
-const WHY_NOW = [
-  {
-    titleZh: "英语上课，生活里还有华语",
-    body: "政府学校用英语教课，华文是母语课。回国近，食堂里却要排队用英语点鸡饭。",
-  },
-  {
-    titleZh: "小学英语在新加坡考 CEQ",
-    body: "现在小学入学，英语用剑桥 CEQ 成绩单，数学考 AEIS。人在新加坡，这两件事都能排上。",
-  },
-  {
-    titleZh: "华文有底，英语要补上",
-    body: "孩子中文不吃亏。真正卡人的是课室英语。我们把时间花在这里。",
-  },
-];
-
-const HABITS = [
-  {
-    titleZh: "早点摸底",
-    body: "小学英语成绩要赶申请窗口。先摸底，再定申请几年级。",
-    href: "/assess",
-    cta: "先做摸底",
-  },
-  {
-    titleZh: "每天听告示",
-    body: "MRT 喇叭、诊所叫号屏、组屋楼下告示。Please mind the gap 比美国课文先用上。",
-    href: "/curriculum/notices",
-    cta: "广播和告示",
-  },
-  {
-    titleZh: "华文保持，英语加码",
-    body: "母语课孩子有底。作业时间留给英语和数学。",
-    href: "/curriculum/stories",
-    cta: "看课文",
-  },
-];
-
-const FAMILY_PATHS = [
-  {
-    tag: "想来新加坡读小学",
-    title: "先过 CEQ，再考 AEIS 数学",
-    body: "英语冲剑桥 CEQ，数学对准 AEIS。来新加坡是为了每天泡在英语里，学得更快。本站用校园场景陪着练。",
-    next: "打开小学试学",
-    href: "/trial/A2",
-  },
-  {
-    tag: "人已经在新加坡",
-    title: "开口要快",
-    body: "早会、食堂、小息，孩子这周就要听懂。先把生活场景和摸底做了，再定申请几年级。",
-    next: "先看这些词",
-    href: "/curriculum/context",
-  },
-  {
-    tag: "申请中学",
-    title: "作文、理解语法、再加数学",
-    body: "英语写一篇，再做理解语法；数学不给计算器。按前一年级的内容来。本站用中学校园场景陪着练。",
-    next: "打开中学试学",
-    href: "/trial/SEC",
-  },
-];
-
-const CHALLENGES = [
-  {
-    titleZh: "位子有限",
-    body: "热门政府学校每年就那么多国际学生名额。CEQ 和 AEIS 要赶申请窗口。",
-  },
-  {
-    titleZh: "准证、考试、政府学位分开看",
-    body: "私立学校是语言环境和申请学生准证的路，不是终点。政府学校要过 CEQ / AEIS。准证以 ICA 为准。",
-  },
-  {
-    titleZh: "头三个月最懵",
-    body: "hawker centre、HDB、mind the gap。这些我们课上就练。",
-  },
 ];
 
 const FAQS = [
@@ -266,90 +176,13 @@ export default function HomePage() {
           </div>
         </section>
 
-        {/* Why Singapore now */}
-        <section className="py-12 md:py-16">
-          <div className="max-w-7xl mx-auto px-4">
-            <h2 className="font-serif font-semibold text-2xl md:text-3xl mb-2">
-              很多家庭把下一步放在新加坡
-            </h2>
-            <p className="text-ink-2 mb-8 max-w-3xl leading-relaxed">
-              英语上课，生活里还有华语，回国也近。真正要练的，是课室和食堂里那口英语。本站把这些场景做成课。
-            </p>
-            <div className="grid md:grid-cols-3 gap-4 mb-10">
-              {WHY_NOW.map((w) => (
-                <article key={w.titleZh} className="bg-card border border-line rounded-2xl p-6">
-                  <h3 className="font-serif font-semibold text-lg mb-2">{w.titleZh}</h3>
-                  <p className="text-sm text-ink-2 leading-relaxed">{w.body}</p>
-                </article>
-              ))}
-            </div>
-
-            <h3 className="font-serif font-semibold text-xl mb-2">看看哪条像你们家</h3>
-            <p className="text-sm text-muted mb-6 max-w-2xl">三种常见情况。先看课文怎么从新加坡场景来，再跟顾问谈备考。</p>
-            <div className="grid md:grid-cols-3 gap-4 mb-10">
-              {FAMILY_PATHS.map((p) => (
-                <article key={p.tag} className="bg-card border border-line rounded-2xl p-6 flex flex-col">
-                  <p className="text-xs font-semibold text-accent mb-2">{p.tag}</p>
-                  <h3 className="font-serif font-semibold text-lg mb-2">{p.title}</h3>
-                  <p className="text-sm text-ink-2 leading-relaxed mb-4 flex-1">{p.body}</p>
-                  <Link href={p.href} className="text-sm text-accent font-semibold">
-                    {p.next} →
-                  </Link>
-                </article>
-              ))}
-            </div>
-
-            <h3 className="font-serif font-semibold text-xl mb-6">这三件，早点做</h3>
-            <div className="grid md:grid-cols-3 gap-4 mb-10">
-              {HABITS.map((h) => (
-                <article key={h.titleZh} className="bg-paper-2 border border-line rounded-2xl p-6">
-                  <h3 className="font-serif font-semibold text-lg mb-2">{h.titleZh}</h3>
-                  <p className="text-sm text-ink-2 leading-relaxed mb-4">{h.body}</p>
-                  <Link href={h.href} className="text-sm text-accent font-semibold">
-                    {h.cta} →
-                  </Link>
-                </article>
-              ))}
-            </div>
-
-            <h3 className="font-serif font-semibold text-xl mb-6">心里要有数</h3>
-            <div className="grid md:grid-cols-3 gap-4">
-              {CHALLENGES.map((c) => (
-                <article key={c.titleZh} className="bg-card border border-line rounded-2xl p-6">
-                  <h3 className="font-serif font-semibold text-lg mb-2">{c.titleZh}</h3>
-                  <p className="text-sm text-ink-2 leading-relaxed">{c.body}</p>
-                </article>
-              ))}
-            </div>
-          </div>
-        </section>
-
-        {/* 2. Problem */}
-        <section className="py-12 md:py-16 bg-paper-2">
-          <div className="max-w-7xl mx-auto px-4">
-            <h2 className="font-serif font-semibold text-2xl md:text-3xl mb-2">
-              交了钱，却不知道今天学了什么
-            </h2>
-            <p className="text-ink-2 mb-8 max-w-2xl">难的往往不是某一条语法，是听不懂、开不了口、你这边看不见。</p>
-            <div className="grid md:grid-cols-3 gap-4">
-              {PROBLEMS.map((p) => (
-                <article key={p.titleZh} className="bg-card border border-line rounded-2xl p-6">
-                  <h3 className="font-serif font-semibold text-lg mb-2">{p.titleZh}</h3>
-                  <p className="text-sm text-ink-2 leading-relaxed">{p.body}</p>
-                </article>
-              ))}
-            </div>
-          </div>
-        </section>
-
-        {/* Singapore-context English */}
         <section className="py-12 md:py-16">
           <div className="max-w-7xl mx-auto px-4">
             <h2 className="font-serif font-semibold text-2xl md:text-3xl mb-3">
-              用新加坡的日子学英语
+              学了用不上，英语就停在那里
             </h2>
             <p className="text-ink-2 mb-8 max-w-3xl leading-relaxed">
-              课本里的 apartment，到了这里要说 HDB。排队点鸡饭、坐地铁、叫 Aunty。家长先用中文看懂，孩子再开口。
+              很多学英语的孩子进步不了，不是因为没背单词，而是学了用不上：没有真实的语言环境，课上的话到了食堂、小息、地铁对不上。本站每一课都放在新加坡语境里。学的就是这里要听、要说的英语。
             </p>
             <div className="grid sm:grid-cols-2 lg:grid-cols-5 gap-3 mb-6">
               {CONTEXT_TOPICS.map((t) => (
