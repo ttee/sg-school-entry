@@ -51,7 +51,7 @@ const PILLARS = [
   {
     href: "/curriculum/mocks",
     titleZh: "限时练手",
-    body: "小学按 CEQ 的语言点出题，中学按那 50 道选择题练速度。",
+    body: "小学按 CEQ 的语言点出题，中学按 AEIS 英语卷的题型练速度。",
   },
   {
     href: "/curriculum/guide",
@@ -119,7 +119,7 @@ const FAMILY_PATHS = [
   },
   {
     tag: "申请中学",
-    title: "作文、五十题、再加数学",
+    title: "作文、理解语法、再加数学",
     body: "中学不考 CEQ。英语写一篇，再做理解语法；数学不给计算器。按前一年级的内容来。",
     next: "打开中学试学",
     href: "/trial/SEC",
@@ -192,7 +192,7 @@ export default function HomePage() {
                 </li>
                 <li>
                   <strong className="text-ink">精准匹配考纲。</strong>
-                  小学组：国内先冲刺剑桥 CEQ 英语认证，同步对接新加坡数学。中学组：攻克 50 道英语选择题和写作框架，全方位备战数学试题。
+                  小学组：国内先冲刺剑桥 CEQ 英语认证，同步对接新加坡数学。中学组：系统备战 AEIS 英语写作、阅读理解与语法词汇，全方位备战数学试题。
                 </li>
               </ul>
               <div className="flex flex-wrap gap-3 mb-4">
@@ -481,7 +481,7 @@ export default function HomePage() {
                 <p className="text-xs font-bold tracking-widest uppercase text-accent mb-2">中学 · Sec 1–3</p>
                 <h3 className="font-serif text-xl font-semibold mb-2">英语和数学都要考</h3>
                 <p className="text-sm text-ink-2 mb-4">
-                  中学不交 CEQ。AEIS 英语 2 小时 10 分：作文 + 50 题。数学无计算器。测申请年级的前一级课纲。
+                  中学不交 CEQ。AEIS 英语考写作、阅读理解和语言运用，共 2 小时 10 分。数学无计算器。测申请年级的前一级课纲。
                 </p>
                 <Link href="/中学" className="text-accent font-semibold text-sm">
                   中学试学 →
