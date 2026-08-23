@@ -1,12 +1,13 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import CurriculumNav from "@/components/CurriculumNav";
+import McqPaper from "@/components/McqPaper";
 import { getSession } from "@/lib/session";
 import { isAdminRole } from "@/lib/access";
 import { CONTEXT_TOPICS } from "@/lib/curriculum/singapore-context";
+import { buildStoryLesson } from "@/lib/curriculum/story-lesson";
 import {
   ALL_STORIES,
-  CYCLE,
   SAMPLE_SCRIPTS,
   THEMES,
   getStory,
@@ -30,9 +31,7 @@ export default async function StoryPage({
   const theme = THEMES.find((t) => t.stories.some((s) => s.n === story.n));
   const script = SAMPLE_SCRIPTS.find((s) => s.n === story.n);
   const contextTopic = CONTEXT_TOPICS.find((t) => t.story === story.n);
-  const dialogue =
-    script?.lines ??
-    contextTopic?.dialogue.map((d) => ({ who: d.who, say: d.line }));
+  const lesson = buildStoryLesson(story, theme, contextTopic, script);
   const prev = getStory(story.n - 1);
   const next = getStory(story.n + 1);
 
@@ -43,91 +42,130 @@ export default async function StoryPage({
         课文 {story.n} · {theme?.title}
       </p>
       <h1 className="font-serif font-semibold text-3xl mb-2">{story.title}</h1>
-      <p className="text-ink-2 mb-6">{story.focus}</p>
-      <p className="text-sm text-ink-2 mb-6 max-w-2xl">
-        这一页是课文提纲（语法、词汇、开口句）。完整每周作业在{" "}
-        <Link href="/learn" className="text-accent font-semibold">
-          作业列表
-        </Link>
-        里，不在这一页解锁。
-      </p>
+      <p className="text-ink-2 mb-2">{story.focus}</p>
+      <p className="text-xs text-accent mb-6">{story.exam}</p>
 
-      <div className="grid md:grid-cols-2 gap-4 mb-8">
-        <div className="bg-card border border-line rounded-xl p-4 text-sm">
-          <p className="font-semibold">Grammar (1–2 items)</p>
-          <p className="text-ink-2 mt-1">{story.grammar}</p>
+      <section className="bg-card border border-line rounded-2xl p-5 mb-8">
+        <h2 className="font-serif font-semibold text-lg mb-2">这一课在练什么</h2>
+        <p className="text-sm text-ink-2 leading-relaxed mb-2">{lesson.sceneZh}</p>
+        <p className="text-sm text-ink leading-relaxed">{lesson.sceneEn}</p>
+      </section>
+
+      <section className="mb-8">
+        <h2 className="font-serif font-semibold text-lg mb-2">阅读</h2>
+        <p className="text-sm text-ink-2 mb-3">先读，再在下面做题。词就是本课的词。</p>
+        <div className="bg-card border border-line rounded-2xl p-5 text-sm leading-relaxed whitespace-pre-wrap">
+          {lesson.reading}
         </div>
-        <div className="bg-card border border-line rounded-xl p-4 text-sm">
-          <p className="font-semibold">Exam fit</p>
-          <p className="text-ink-2 mt-1">{story.exam}</p>
-        </div>
-      </div>
+      </section>
 
-      <h2 className="font-serif font-semibold text-lg mb-2">Singapore vocab</h2>
-      <p className="text-sm mb-6">{story.vocab.join(" · ")}</p>
-
-      <h2 className="font-serif font-semibold text-lg mb-2">Oracy (say these)</h2>
-      <ul className="list-disc pl-5 text-sm mb-8 space-y-1">
-        {story.oracy.map((o) => (
-          <li key={o}>{o}</li>
-        ))}
-      </ul>
-
-      {dialogue && dialogue.length > 0 && (
-        <section className="bg-card border border-accent/40 rounded-2xl p-5 mb-8">
-          <h2 className="font-serif font-semibold text-lg mb-1">开口对话</h2>
-          {script?.scene && <p className="text-sm text-muted mb-3">{script.scene}</p>}
-          <div className="space-y-2 text-sm">
-            {dialogue.map((l, i) => (
-              <p key={i}>
-                <strong>{l.who}:</strong> {l.say}
-              </p>
-            ))}
+      <section className="mb-8">
+        <h2 className="font-serif font-semibold text-lg mb-2">{lesson.grammar.titleZh}</h2>
+        <p className="text-sm text-ink-2 mb-3">{lesson.grammar.ruleZh}</p>
+        <p className="text-sm font-medium mb-4" lang="en">
+          {lesson.grammar.ruleEn}
+        </p>
+        <div className="grid md:grid-cols-2 gap-3 mb-3">
+          <div className="border border-warn-ink/30 bg-warn-bg/40 rounded-xl p-4 text-sm">
+            <p className="text-xs font-semibold text-warn-ink mb-1">不要这样说</p>
+            <p lang="en">{lesson.grammar.wrong}</p>
           </div>
-        </section>
-      )}
+          <div className="border border-accent/40 bg-accent/5 rounded-xl p-4 text-sm">
+            <p className="text-xs font-semibold text-accent mb-1">要这样说</p>
+            <p lang="en">{lesson.grammar.right}</p>
+          </div>
+        </div>
+        <ul className="list-disc pl-5 text-sm text-ink-2 space-y-1">
+          {lesson.grammar.points.map((p) => (
+            <li key={p}>{p}</li>
+          ))}
+        </ul>
+      </section>
 
-      <h2 className="font-serif font-semibold text-lg mb-3">本课四步</h2>
-      <ol className="space-y-2 mb-8 text-sm">
-        {CYCLE.map((c) => (
-          <li key={c.step}>
-            <strong>{c.step}.</strong> {c.do}
-          </li>
-        ))}
-      </ol>
+      <section className="mb-8">
+        <h2 className="font-serif font-semibold text-lg mb-3">词汇（会用，不只认识）</h2>
+        <div className="overflow-x-auto">
+          <table className="w-full text-sm border border-line rounded-xl overflow-hidden bg-card">
+            <thead className="bg-accent/5">
+              <tr>
+                <th className="text-left px-3 py-2">词</th>
+                <th className="text-left px-3 py-2">例句</th>
+                <th className="text-left px-3 py-2">家长怎么讲</th>
+              </tr>
+            </thead>
+            <tbody>
+              {lesson.vocab.map((row) => (
+                <tr key={row.word} className="border-t border-line align-top">
+                  <td className="px-3 py-2 font-semibold whitespace-nowrap">{row.word}</td>
+                  <td className="px-3 py-2" lang="en">
+                    {row.example}
+                  </td>
+                  <td className="px-3 py-2 text-ink-2">{row.noteZh}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section className="bg-card border border-accent/40 rounded-2xl p-5 mb-8">
+        <h2 className="font-serif font-semibold text-lg mb-1">开口：跟读 / 分角色</h2>
+        {lesson.dialogueScene && (
+          <p className="text-sm text-muted mb-3">{lesson.dialogueScene}</p>
+        )}
+        <p className="text-sm text-ink-2 mb-3">孩子读英语。家长对中文提示即可。</p>
+        <div className="space-y-2 text-sm">
+          {lesson.dialogue.map((l, i) => (
+            <p key={`${l.who}-${i}`}>
+              <strong>{l.who}:</strong> <span lang="en">{l.say}</span>
+            </p>
+          ))}
+        </div>
+      </section>
+
+      <section className="mb-8">
+        <h2 className="font-serif font-semibold text-lg mb-2">练习</h2>
+        <p className="text-sm text-ink-2 mb-4">五题。做完看为什么错。</p>
+        <McqPaper paper={lesson.paper} />
+      </section>
+
+      <section className="bg-card border border-line rounded-2xl p-5 mb-8">
+        <h2 className="font-serif font-semibold text-lg mb-2">写一句再写一段</h2>
+        <p className="text-sm text-ink-2 mb-2">{lesson.writeZh}</p>
+        <p className="text-sm font-medium mb-3" lang="en">
+          {lesson.writeEn}
+        </p>
+        <p className="text-xs font-semibold text-muted mb-2">可以这样起头</p>
+        <ul className="list-disc pl-5 text-sm space-y-1" lang="en">
+          {lesson.starters.map((s) => (
+            <li key={s}>{s}</li>
+          ))}
+        </ul>
+      </section>
 
       <div className="flex flex-wrap gap-3 mb-8">
-        {isReviewer ? (
+        {isReviewer && (
           <Link
             href="/learn"
             className="px-5 py-2.5 bg-accent text-accent-ink rounded-full font-semibold"
           >
-            打开全部作业
+            每周作业（批改）
           </Link>
-        ) : (
-          story.href && (
-            <Link
-              href={story.href}
-              className="px-5 py-2.5 bg-accent text-accent-ink rounded-full font-semibold"
-            >
-              打开试学
-            </Link>
-          )
+        )}
+        {story.href && (
+          <Link
+            href={story.href}
+            className="px-5 py-2.5 border border-accent rounded-full font-semibold"
+          >
+            相关试学视频
+          </Link>
         )}
         {contextTopic && (
           <Link
             href="/curriculum/context"
-            className="px-5 py-2.5 border border-accent rounded-full font-semibold"
-          >
-            语境：{contextTopic.zhScene}
-          </Link>
-        )}
-        {!isReviewer && (
-          <Link
-            href="/#contact"
             className="px-5 py-2.5 border border-line rounded-full font-semibold"
           >
-            问顾问开通作业
+            语境：{contextTopic.zhScene}
           </Link>
         )}
         <Link href="/curriculum/stories" className="px-5 py-2.5 border border-line rounded-full">
