@@ -389,7 +389,7 @@ export default function HomePage() {
             <h2 className="font-serif font-semibold text-2xl md:text-3xl mb-3">
               进校第一天，要能开口
             </h2>
-            <p className="text-ink-2 mb-6">会排队、会问、会答。别只会填空。</p>
+            <p className="text-ink-2 mb-6">会排队、会问、会答。</p>
             <div className="flex flex-wrap gap-3 mb-10">
               <Link
                 href="/trial/A2"
