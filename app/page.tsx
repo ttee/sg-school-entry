@@ -194,10 +194,6 @@ export default function HomePage() {
                   <strong className="text-ink">精准匹配考纲。</strong>
                   小学组：冲刺剑桥 CEQ 英语认证，同步对接新加坡数学。中学组：系统备战 AEIS 英语写作、阅读理解与语法词汇，全方位备战数学试题。
                 </li>
-                <li>
-                  <strong className="text-ink">人在新加坡学得更快。</strong>
-                  入读私立学校，是为了申请学生准证、每天泡在英语里。终点是 CEQ 和 AEIS。准证以 ICA 为准。
-                </li>
               </ul>
               <div className="flex flex-wrap gap-3 mb-4">
                 <Link
