@@ -22,10 +22,10 @@ const PAIRS: Record<StoryKey, Pair> = {
   "A2-0": {
     story: {
       poster: "/trial/a2-w0-setup.jpg",
-      video: "/trial/a2-w0-setup.mp4?v=mouthfill1",
+      video: "/trial/a2-w0-setup.mp4?v=mouthfill2",
       titleZh: "第 1 段 · 走廊（还没到 Lost & Found）",
       captionZh: "Mei 坐在地上倒书包。Priya 来帮她。",
-      captionEn: "Mei: Oh no! Where is my water bottle? I cannot find it.  Priya: Let's go to the Lost and Found. Aunty Tan can help.",
+      captionEn: "Mei: Oh no! Where is my water bottle? I cannot find it.  Priya: Let's go to the Lost and Found. OK.",
     },
     form: {
       poster: "/trial/a2-w0-counter.jpg",

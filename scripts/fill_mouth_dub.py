@@ -24,7 +24,7 @@ SHOTS: list[tuple[str, list[tuple[str, str]]]] = [
         "a2-w0-setup.mp4",
         [
             ("mei", "Oh no! Where is my water bottle? I cannot find it."),
-            ("priya", "Let's go to the Lost and Found. Aunty Tan can help."),
+            ("priya", "Let's go to the Lost and Found. OK."),
         ],
     ),
     (
