@@ -27,13 +27,8 @@ SHOTS: list[tuple[str, list[tuple[str, str]]]] = [
             ("priya", "Let's go to the Lost and Found. OK."),
         ],
     ),
-    (
-        "a2-w0-counter.mp4",
-        [
-            ("auntie", "Is this your white bottle with the pink flower?"),
-            ("mei", "Yes! That is mine. Thank you so much, Aunty Tan."),
-        ],
-    ),
+    # a2-w0-counter.mp4 is timed in scripts/dub_office_timed.py
+    # (five mouth beats, not sequential Auntie-then-Mei).
     (
         "a2-w1-ask.mp4",
         [

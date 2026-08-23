@@ -249,8 +249,11 @@ export const CONTEXT_TOPICS: ContextTopic[] = [
     ],
     dialogue: [
       { who: "Mei", line: "I lost my water bottle." },
-      { who: "Aunty Tan", line: "Is this your bottle? White, with a pink flower?" },
-      { who: "Mei", line: "Yes. Thank you, Aunty Tan." },
+      { who: "Aunty Tan", line: "Is this your white bottle with the pink flower?" },
+      { who: "Mei", line: "Yes, that is mine, that is the bottle." },
+      { who: "Aunty Tan", line: "Here you are, this is yours." },
+      { who: "Priya", line: "That is yours, Mei." },
+      { who: "Mei", line: "Thank you, Aunty Tan." },
     ],
     story: 2,
     href: "/trial/A2",

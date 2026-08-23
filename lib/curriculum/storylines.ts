@@ -177,8 +177,11 @@ export const SAMPLE_SCRIPTS: {
     lines: [
       { who: "Mei", say: "Oh no! Where is my water bottle? I put it in my bag this morning." },
       { who: "Priya", say: "Let's go to the Lost and Found. Aunty Tan keeps lost things there." },
-      { who: "Aunty Tan", say: "Is this your bottle? White, with a pink flower?" },
-      { who: "Mei", say: "Yes! That is mine. Thank you, Aunty Tan." },
+      { who: "Aunty Tan", say: "Is this your white bottle with the pink flower?" },
+      { who: "Mei", say: "Yes, that is mine, that is the bottle." },
+      { who: "Aunty Tan", say: "Here you are, this is yours." },
+      { who: "Priya", say: "That is yours, Mei." },
+      { who: "Mei", say: "Thank you, Aunty Tan." },
     ],
   },
   {
