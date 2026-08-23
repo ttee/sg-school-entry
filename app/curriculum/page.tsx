@@ -11,7 +11,7 @@ const PILLARS = [
   {
     href: "/curriculum/sow",
     title: "2. 周进度与词汇语法",
-    body: "12 周 SOW 把作业、IXL 族谱代码、剑桥/AEIS 题型钉在同一周。",
+    body: "12 周把作业、课纲技能、剑桥/AEIS 题型钉在同一周。",
   },
   {
     href: "/curriculum/writing",
@@ -45,14 +45,13 @@ export default function CurriculumHome() {
           { href: "/curriculum/diagnostic/p4", label: "1a P4 摸底 · postpone = put off" },
           { href: "/curriculum/errors", label: "1b 时态 / 冠词 / 搭配矩阵" },
           { href: "/curriculum/papers", label: "试卷结构 · CEQ 时间 + AEIS 50 题" },
-          { href: "/curriculum/ixl", label: "IXL 周计划 · P4 与 S1" },
+          { href: "/curriculum/ixl", label: "P4 / S1 十二周计划" },
           { href: "/curriculum/sow", label: "2a P4 W3 · G.2 + V.1" },
           { href: "/curriculum/grammar/linkers", label: "2b however / therefore / in addition" },
           { href: "/curriculum/writing", label: "3a S1 三段作文 200–300" },
           { href: "/curriculum/speaking", label: "3b B1 照片 1 分钟" },
           { href: "/curriculum/tracker", label: "4a Li Wei / Zhang Min 成绩表" },
           { href: "/curriculum/guide", label: "4b 家长摘要（简体）" },
-          { href: "/curriculum/compare", label: "新加坡 PEI / 中国中介 / 本站" },
         ].map((x) => (
           <Link
             key={x.href}

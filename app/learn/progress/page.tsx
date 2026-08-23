@@ -213,7 +213,7 @@ export default async function ProgressPage() {
         </p>
         <p className="text-sm mt-2">
           <Link href="/curriculum/tracker" className="text-accent font-semibold">
-            打开 CES / IXL 成绩表
+            打开 CES 成绩表
           </Link>
           {" · "}
           <Link href="/curriculum/diagnostic" className="text-accent font-semibold">

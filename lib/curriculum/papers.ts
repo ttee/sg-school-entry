@@ -140,5 +140,5 @@ export const CORE_SKILLS = [
 export const WEEKLY_LOOP = [
   "1 composition (word band for the level)",
   "1 comprehension or cloze (timed)",
-  "1 grammar–vocab drill (IXL Singapore year + this site’s worksheet)",
+  "1 grammar–vocab drill on this site",
 ];

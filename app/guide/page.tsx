@@ -720,185 +720,32 @@ export default function GuidePage() {
               </div>
             </div>
 
-            {/* 备选学校 */}
-            <div className="bg-card border border-line rounded-2xl p-6 shadow">
+            <div className="bg-card border border-accent/40 rounded-2xl p-6 shadow">
               <h3 className="font-serif font-semibold text-lg text-ink mb-2">
-                🏫 备选私立/国际学校（非官方、非合作）
+                在本站练英语和数学
               </h3>
               <p className="text-sm text-ink-2 mb-4">
-                如果 AEIS 未能派位，可以了解以下私立学校作为备选。我们与这些学校无隶属或合作关系。
-                学位与学生证（Student's Pass）由学校和 ICA 决定，不由本工作室办理。
+                人在中国就能开始。小学先过 CEQ 再考 AEIS 数学；中学在本站练 AEIS 英语 + 数学。顾问开通 12 周作业。
               </p>
-
-              <div className="space-y-4">
-                <div className="bg-paper border border-line rounded-xl p-4">
-                  <h4 className="font-semibold text-ink mb-1">三育中小学 San Yu Adventist School</h4>
-                  <p className="text-sm text-ink-2 mb-2">
-                    私立基督教学校，设小学与中学，课程通向 PSLE 与 GCE O-Level。
-                  </p>
-                  <div className="space-y-1 text-xs text-ink-2">
-                    <p>
-                      <strong className="text-ink">官网：</strong>
-                      <a href="https://syas.edu.sg/" target="_blank" rel="noopener noreferrer" className="text-accent hover:underline ml-1">
-                        syas.edu.sg →
-                      </a>
-                    </p>
-                    <p>
-                      <strong className="text-ink">申请流程：</strong>
-                      <a href="https://syas.edu.sg/pages/new-application" target="_blank" rel="noopener noreferrer" className="text-accent hover:underline ml-1">
-                        syas.edu.sg/pages/new-application →
-                      </a>
-                    </p>
-                    <p>
-                      <strong className="text-ink">入学要求：</strong>
-                      <a href="https://syas.edu.sg/pages/admission-prerequisites" target="_blank" rel="noopener noreferrer" className="text-accent hover:underline ml-1">
-                        syas.edu.sg/pages/admission-prerequisites →
-                      </a>
-                    </p>
-                  </div>
-                </div>
-
-                <div className="bg-paper border border-line rounded-xl p-4">
-                  <h4 className="font-semibold text-ink mb-1">DIMENSIONS International College</h4>
-                  <p className="text-sm text-ink-2 mb-2">
-                    私立教育机构 (PEI)，提供剑桥小学课程及其他私立课程，同时设有"政府学校入学预备课程（小学 P2–5 及中学 Sec 1–3）"。
-                  </p>
-                  <div className="space-y-1 text-xs text-ink-2">
-                    <p>
-                      <strong className="text-ink">官网：</strong>
-                      <a href="https://dimensions.edu.sg/" target="_blank" rel="noopener noreferrer" className="text-accent hover:underline ml-1">
-                        dimensions.edu.sg →
-                      </a>
-                    </p>
-                    <p>
-                      <strong className="text-ink">预备课程：</strong>
-                      <a href="https://dimensions.edu.sg/academic-courses/preparatory-course-for-admission-to-government-schools-primary-2-5-and-secondary-1-3/" target="_blank" rel="noopener noreferrer" className="text-accent hover:underline ml-1">
-                        Preparatory Course for Admission to Government Schools →
-                      </a>
-                    </p>
-                    <p>
-                      <strong className="text-ink">申请：</strong>
-                      <a href="https://dimensions.edu.sg/apply-now/" target="_blank" rel="noopener noreferrer" className="text-accent hover:underline ml-1">
-                        dimensions.edu.sg/apply-now →
-                      </a>
-                    </p>
-                  </div>
-                  <p className="text-xs text-muted mt-2">
-                    ⚠️ 预备课程不等于政府学校学位，仍需通过 AEIS 考试派位
-                  </p>
-                </div>
-
-                <div className="bg-paper border border-line rounded-xl p-4">
-                  <h4 className="font-semibold text-ink mb-1">St Francis Methodist School (International)</h4>
-                  <p className="text-sm text-ink-2 mb-2">
-                    国际/使命学校（非政府、非政府辅助），设小学与中学。
-                  </p>
-                  <div className="space-y-1 text-xs text-ink-2">
-                    <p>
-                      <strong className="text-ink">官网：</strong>
-                      <a href="https://www.sfms.edu.sg/" target="_blank" rel="noopener noreferrer" className="text-accent hover:underline ml-1">
-                        sfms.edu.sg →
-                      </a>
-                    </p>
-                    <p>
-                      <strong className="text-ink">招生信息：</strong>
-                      <a href="https://www.sfms.edu.sg/admissions/admission-matters/" target="_blank" rel="noopener noreferrer" className="text-accent hover:underline ml-1">
-                        sfms.edu.sg/admissions/admission-matters →
-                      </a>
-                    </p>
-                  </div>
-                </div>
-
-                <div className="bg-paper border border-line rounded-xl p-4">
-                  <h4 className="font-semibold text-ink mb-1">Anglo-Chinese School (International)</h4>
-                  <p className="text-sm text-ink-2 mb-2">
-                    MOE 批准的私立学校 (Privately Funded School)，<strong className="text-ink">仅设中学与大学预科，无小学部</strong>。
-                  </p>
-                  <div className="space-y-1 text-xs text-ink-2">
-                    <p>
-                      <strong className="text-ink">官网：</strong>
-                      <a href="https://www.acsinternational.edu.sg/" target="_blank" rel="noopener noreferrer" className="text-accent hover:underline ml-1">
-                        acsinternational.edu.sg →
-                      </a>
-                    </p>
-                    <p>
-                      <strong className="text-ink">招生流程：</strong>
-                      <a href="https://www.acsinternational.edu.sg/en/admissions-process/" target="_blank" rel="noopener noreferrer" className="text-accent hover:underline ml-1">
-                        acsinternational.edu.sg/en/admissions-process →
-                      </a>
-                    </p>
-                  </div>
-                </div>
-
-                <div className="bg-paper border border-line rounded-xl p-4">
-                  <h4 className="font-semibold text-ink mb-1">Hwa Chong International School</h4>
-                  <p className="text-sm text-ink-2 mb-2">
-                    MOE 批准的私立学校 (PFS)，<strong className="text-ink">招收 13–18 岁学生，IB 课程，无小学部</strong>。
-                  </p>
-                  <div className="space-y-1 text-xs text-ink-2">
-                    <p>
-                      <strong className="text-ink">官网：</strong>
-                      <a href="https://www.hcis.edu.sg/" target="_blank" rel="noopener noreferrer" className="text-accent hover:underline ml-1">
-                        hcis.edu.sg →
-                      </a>
-                    </p>
-                    <p>
-                      <strong className="text-ink">招生：</strong>
-                      <a href="https://www.hcis.edu.sg/school-admission/" target="_blank" rel="noopener noreferrer" className="text-accent hover:underline ml-1">
-                        hcis.edu.sg/school-admission →
-                      </a>
-                    </p>
-                  </div>
-                </div>
-
-                <div className="bg-paper border border-line rounded-xl p-4">
-                  <h4 className="font-semibold text-ink mb-1">St. Joseph's Institution International High School</h4>
-                  <p className="text-sm text-ink-2 mb-2">
-                    MOE 批准的私立学校 (PFS)，<strong className="text-ink">Grades 7–12（中学），无小学部</strong>。
-                  </p>
-                  <div className="space-y-1 text-xs text-ink-2">
-                    <p>
-                      <strong className="text-ink">官网：</strong>
-                      <a href="https://www.sji-international.com.sg/admissions/high-school" target="_blank" rel="noopener noreferrer" className="text-accent hover:underline ml-1">
-                        sji-international.com.sg/admissions/high-school →
-                      </a>
-                    </p>
-                  </div>
-                </div>
-
-                <div className="bg-paper-2 border border-line rounded-lg p-3">
-                  <p className="text-xs text-ink-2 mb-2">
-                    <strong className="text-ink">更多私立学校资源（MOE 官方）：</strong>
-                  </p>
-                  <div className="space-y-1 text-xs text-ink-2">
-                    <p>
-                      • MOE 批准的私立学校 (PFS) 名单：
-                      <a href="https://www.moe.gov.sg/returning-singaporeans/other-options" target="_blank" rel="noopener noreferrer" className="text-accent hover:underline ml-1">
-                        moe.gov.sg/returning-singaporeans/other-options →
-                      </a>
-                    </p>
-                    <p>
-                      • MOE 私立学校搜索：
-                      <a href="https://www.moe.gov.sg/private-education/private-schools" target="_blank" rel="noopener noreferrer" className="text-accent hover:underline ml-1">
-                        moe.gov.sg/private-education/private-schools →
-                      </a>
-                    </p>
-                  </div>
-                </div>
-
-                <div className="bg-paper-2 border border-line rounded-lg p-3">
-                  <p className="text-xs text-ink-2">
-                    <strong className="text-ink">学生证（Student's Pass）：</strong>
-                    国际学生需由学校向新加坡移民局 (ICA) 申请学生证。
-                    <a href="https://www.ica.gov.sg/reside/STP/" target="_blank" rel="noopener noreferrer" className="text-accent hover:underline ml-1">
-                      ica.gov.sg/reside/STP →
-                    </a>
-                  </p>
-                  <p className="text-xs text-muted mt-2">
-                    学位与签证以学校和 ICA 为准。本站不编造学费、录取分数或"容易入学"等说法。
-                    我们与以上学校无隶属或合作关系。
-                  </p>
-                </div>
+              <div className="flex flex-wrap gap-3">
+                <a
+                  href="/trial/A2"
+                  className="inline-flex px-5 py-2.5 bg-accent text-accent-ink rounded-full font-semibold"
+                >
+                  小学英语试学
+                </a>
+                <a
+                  href="/trial/SEC"
+                  className="inline-flex px-5 py-2.5 border border-accent rounded-full font-semibold"
+                >
+                  中学英语试学
+                </a>
+                <a
+                  href="/#contact"
+                  className="inline-flex px-5 py-2.5 border border-line rounded-full font-semibold"
+                >
+                  报名开通
+                </a>
               </div>
             </div>
 

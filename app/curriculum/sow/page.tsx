@@ -44,7 +44,7 @@ export default function SowPage() {
                   <th className="text-left px-3 py-2">周</th>
                   <th className="text-left px-3 py-2">主题</th>
                   <th className="text-left px-3 py-2">纠错</th>
-                  <th className="text-left px-3 py-2">IXL</th>
+                  <th className="text-left px-3 py-2">课纲技能</th>
                   <th className="text-left px-3 py-2">试卷题型</th>
                   <th className="text-left px-3 py-2">入口</th>
                 </tr>

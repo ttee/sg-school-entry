@@ -1,6 +1,6 @@
 import Link from "next/link";
 import CurriculumNav from "@/components/CurriculumNav";
-import { IXL_PATHS, IXL_YEARS, P4_IXL_PLAN, S1_IXL_PLAN, STRANDS } from "@/lib/curriculum/ixl";
+import { IXL_PATHS, P4_IXL_PLAN, S1_IXL_PLAN, STRANDS } from "@/lib/curriculum/ixl";
 import { FUNCTIONAL_RULE } from "@/lib/curriculum/papers";
 
 function Plan({
@@ -19,8 +19,8 @@ function Plan({
             <tr>
               <th className="text-left px-3 py-2">周</th>
               <th className="text-left px-3 py-2">主题</th>
-              <th className="text-left px-3 py-2">IXL Singapore</th>
-              <th className="text-left px-3 py-2">本站</th>
+              <th className="text-left px-3 py-2">课纲技能</th>
+              <th className="text-left px-3 py-2">本站入口</th>
               <th className="text-left px-3 py-2">每周循环</th>
             </tr>
           </thead>
@@ -49,30 +49,19 @@ export default function IxlPage() {
   return (
     <>
       <CurriculumNav current="/curriculum/ixl" />
-      <h1 className="font-serif font-semibold text-3xl mb-3">IXL Singapore 周计划</h1>
+      <h1 className="font-serif font-semibold text-3xl mb-3">本站 12 周技能计划</h1>
       <p className="text-ink-2 mb-4 max-w-2xl leading-relaxed">{FUNCTIONAL_RULE}</p>
       <p className="text-sm mb-8">
-        对齐{" "}
-        <a className="text-accent underline" href={IXL_YEARS.hub} target="_blank" rel="noreferrer">
-          IXL Singapore English Syllabus
-        </a>
-        （Grammar / Reading and Viewing / Vocabulary 三股）。题号会改，按年级页 + 技能名找。
+        语法、阅读、词汇都在本站练：试学周、语法钻、完形、限时卷、作文词数。开通后按周交作业。
       </p>
 
-      <h2 className="font-serif font-semibold text-lg mb-3">按申请年级选哪一年</h2>
+      <h2 className="font-serif font-semibold text-lg mb-3">按申请年级</h2>
       <div className="space-y-3 mb-8">
         {IXL_PATHS.map((p) => (
           <div key={p.apply} className="bg-card border border-line rounded-xl p-4">
             <p className="font-semibold">{p.apply}</p>
             <p className="text-sm text-ink-2">{p.years}</p>
             <p className="text-sm text-muted mt-1">{p.drill}</p>
-            <p className="text-xs mt-2">
-              {p.hrefs.map((h) => (
-                <a key={h} href={h} className="text-accent underline mr-3" target="_blank" rel="noreferrer">
-                  {h.replace("https://sg.ixl.com/standards/english/", "")}
-                </a>
-              ))}
-            </p>
           </div>
         ))}
       </div>

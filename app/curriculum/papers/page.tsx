@@ -119,7 +119,7 @@ export default function PapersPage() {
       </ul>
       <p className="text-sm">
         CEQ：限时 Reading / Writing / Listening / Speaking，卡最低 CES。AEIS 中学：限时 MCQ + 词数内作文。
-        IXL 周计划：
+        十二周计划：
         <Link href="/curriculum/ixl" className="text-accent font-semibold">
           P4 与 S1
         </Link>

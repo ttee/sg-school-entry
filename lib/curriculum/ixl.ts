@@ -1,34 +1,20 @@
-/** IXL Singapore English Syllabus alignments. Skill numbers on ixL.com can move; we pin year + skill title. */
-export const IXL_YEARS = {
-  hub: "https://sg.ixl.com/standards/english",
-  p1: "https://sg.ixl.com/standards/english/primary-1",
-  p2: "https://sg.ixl.com/standards/english/primary-2",
-  p3: "https://sg.ixl.com/standards/english/primary-3",
-  p4: "https://sg.ixl.com/standards/english/primary-4",
-  p5: "https://sg.ixl.com/standards/english/primary-5",
-  s1: "https://sg.ixl.com/standards/english/secondary-1",
-  s2: "https://sg.ixl.com/standards/english/secondary-2",
-  s3: "https://sg.ixl.com/standards/english/secondary-3",
-} as const;
+/** Week plans aligned to the MOE English syllabus (level before the one applied for). Practice stays on this site. */
 
 export const IXL_PATHS = [
   {
     apply: "P2 / P3 + A2 Key",
-    years: "Singapore Primary 1 and Primary 2",
-    hrefs: [IXL_YEARS.p1, IXL_YEARS.p2],
-    drill: "Capitalization, sentence types, spelling, short comprehension.",
+    years: "练前一级：P1–P2 课纲技能",
+    drill: "大小写、句型、拼写、短篇理解。入口：试学 A2 + 语法钻。",
   },
   {
-    apply: "P4 / P5 + A2 Key (P4) / B1 (P5)",
-    years: "Singapore Primary 3–4 (P4 entry) and Primary 4–5 (P5 entry)",
-    hrefs: [IXL_YEARS.p3, IXL_YEARS.p4, IXL_YEARS.p5],
-    drill: "Cloze, comprehension, grammar, vocab in context.",
+    apply: "P4 + A2 Key 130+ / P5 + B1 140+",
+    years: "P4 练 P3–P4 技能；P5 练 P4–P5 技能",
+    drill: "完形、理解、语法、语境词汇。入口：P4 摸底 + 连接词 + 限时卷。",
   },
   {
-    apply: "S1–S3 AEIS English",
-    years: "Singapore Secondary 1 and Secondary 2–3",
-    hrefs: [IXL_YEARS.s1, IXL_YEARS.s2, IXL_YEARS.s3],
-    drill: "50-item language mix + essay planning.",
+    apply: "S1–S3 AEIS 英语",
+    years: "练前一级：S1 申请练小学高年级/S1 基础",
+    drill: "50 题型语言卷 + 词数内作文。入口：SEC 试学 + 中学限时卷。",
   },
 ] as const;
 
@@ -69,7 +55,7 @@ export type IxlWeek = {
   loop: string;
 };
 
-/** Applying P4 → syllabus of P3, IXL Primary 3–4, CEQ A2 Key 130+. */
+/** Applying P4 → syllabus of P3; CEQ A2 Key 130+. */
 export const P4_IXL_PLAN: IxlWeek[] = [
   {
     week: 0,
@@ -102,7 +88,7 @@ export const P4_IXL_PLAN: IxlWeek[] = [
   {
     week: 4,
     title: "Tenses",
-    ixl: "Primary 4 · past / present / future (e.g. P4-II.10 on sg.ixl.com)",
+    ixl: "P4 课纲 · 过去 / 现在 / 将来时",
     site: "/curriculum/grammar/tense",
     loop: "Yesterday I went… irregular list",
   },
@@ -157,7 +143,7 @@ export const P4_IXL_PLAN: IxlWeek[] = [
   },
 ];
 
-/** Applying S1 → AEIS English 2h10; syllabus of P6/S1; IXL Secondary 1. */
+/** Applying S1 → AEIS English 2h10; syllabus of the level before. */
 export const S1_IXL_PLAN: IxlWeek[] = [
   {
     week: 0,

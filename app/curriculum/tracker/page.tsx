@@ -79,7 +79,7 @@ export default function TrackerPage() {
               <th className="text-left px-2 py-2">Target Level</th>
               <th className="text-left px-2 py-2">CEQ Mock Score (Scale)</th>
               <th className="text-left px-2 py-2">AEIS Grammar %</th>
-              <th className="text-left px-2 py-2">IXL Target Met</th>
+              <th className="text-left px-2 py-2">Skill drill met</th>
               <th className="text-left px-2 py-2">Status</th>
             </tr>
           </thead>
