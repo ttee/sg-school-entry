@@ -15,6 +15,7 @@ const LINKS = [
   { href: "/curriculum/speaking", label: "听说" },
   { href: "/curriculum/mocks", label: "限时卷" },
   { href: "/curriculum/tracker", label: "成绩表" },
+  { href: "/curriculum/compare", label: "渠道对照" },
   { href: "/curriculum/guide", label: "家长手册" },
 ];
 

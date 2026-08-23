@@ -52,6 +52,7 @@ export default function CurriculumHome() {
           { href: "/curriculum/speaking", label: "3b B1 照片 1 分钟" },
           { href: "/curriculum/tracker", label: "4a Li Wei / Zhang Min 成绩表" },
           { href: "/curriculum/guide", label: "4b 家长摘要（简体）" },
+          { href: "/curriculum/compare", label: "新加坡 PEI / 中国中介 / 本站" },
         ].map((x) => (
           <Link
             key={x.href}
