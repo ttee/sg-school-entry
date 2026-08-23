@@ -279,11 +279,10 @@ export const SAMPLE_SCRIPTS: {
     n: 1,
     scene: "School field, 7:40 a.m. Mei and Priya in pinafores. The form teacher, Ms Tan, stands at the front.",
     lines: [
-      { who: "Ms Tan", say: "Good morning, class. Line up in two rows. We will say the pledge." },
-      { who: "Mei", say: "Priya, where do we stand?" },
-      { who: "Priya", say: "Blue House is on the left. Come with me." },
-      { who: "Ms Tan", say: "Check your uniform. White shoes, please." },
-      { who: "Mei", say: "Yes, Ms Tan. I am ready." },
+      { who: "Ms Tan", say: "Good morning, class." },
+      { who: "Mei", say: "Good morning, Ms Tan." },
+      { who: "Priya", say: "Where do we line up?" },
+      { who: "Mei", say: "I am in Blue House." },
     ],
   },
   {

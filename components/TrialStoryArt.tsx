@@ -22,14 +22,14 @@ const PAIRS: Record<StoryKey, Pair> = {
   "A2-0": {
     story: {
       poster: "/trial/a2-w0-setup.jpg",
-      video: "/trial/a2-w0-setup.mp4?v=twoshot2",
+      video: "/trial/a2-w0-setup.mp4?v=sg1",
       titleZh: "第 1 段 · 走廊（还没到 Lost & Found）",
       captionZh: "走廊一镜。Mei 找不到水瓶。Priya 说去失物招领。",
       captionEn: "Mei: Oh no! Where is my water bottle? I cannot find it.  Priya: Let's go to the Lost and Found.",
     },
     form: {
       poster: "/trial/a2-w0-counter.jpg",
-      video: "/trial/a2-w0-counter.mp4?v=officeshot2",
+      video: "/trial/a2-w0-counter.mp4?v=sg1",
       titleZh: "第 2 段 · Lost & Found 柜台",
       captionZh: "一镜：两个女孩站在柜台前。Aunty Tan 问，Mei 认领，Aunty 递给她，Priya 说 Wow, that's great，Mei 说 We found it，再谢谢 Aunty。",
       captionEn: "Aunty Tan: Is this your white water bottle with the pink flower?  Mei: Yes, Aunty! That is my white water bottle!  Aunty Tan: Here you are. Please take it.  Priya: Wow, that's great!  Mei: We found it!  Mei: Thank you, Aunty!",

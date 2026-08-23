@@ -5,7 +5,7 @@ export type LessonClip = {
   captionEn: string;
 };
 
-const V = "w12";
+const V = "sg1";
 
 function clip(n: number, captionEn: string, titleZh = "先看"): LessonClip {
   return {
@@ -21,19 +21,19 @@ const CLIPS: Record<number, LessonClip[]> = {
   1: [
     clip(
       1,
-      "Mei: Good morning, Ms Tan.  Priya: Where do we line up?  Mei: I am in Blue House.",
+      "Ms Tan: Good morning, class.  Mei: Good morning, Ms Tan.  Priya: Where do we line up?  Mei: I am in Blue House.",
     ),
   ],
   2: [
     {
-      src: "/trial/a2-w0-setup.mp4?v=twoshot2",
+      src: "/trial/a2-w0-setup.mp4?v=sg1",
       poster: "/trial/a2-w0-setup.jpg",
       titleZh: "先看：走廊",
       captionEn:
         "Mei: Oh no! Where is my water bottle? I cannot find it.  Priya: Let's go to the Lost and Found.",
     },
     {
-      src: "/trial/a2-w0-counter.mp4?v=officeshot2",
+      src: "/trial/a2-w0-counter.mp4?v=sg1",
       poster: "/trial/a2-w0-counter.jpg",
       titleZh: "再看：柜台",
       captionEn:

@@ -556,6 +556,31 @@ function cueFor(family: FormFamily, i: number, en: string): string {
 }
 
 function todayFrom(story: Storyline): TodayLine[] {
+  if (story.n === 1) {
+    const lines = [
+      {
+        who: "Ms Tan",
+        en: "Good morning, class.",
+        cueZh: "老师先问好。她怎么说？",
+      },
+      {
+        who: "Mei",
+        en: "Good morning, Ms Tan.",
+        cueZh: "Mei 怎么回老师？",
+      },
+      {
+        who: "Priya",
+        en: "Where do we line up?",
+        cueZh: "还不知道站哪里。怎么问？",
+      },
+      {
+        who: "Mei",
+        en: "I am in Blue House.",
+        cueZh: "Mei 说自己在哪一社。",
+      },
+    ];
+    return lines.map((l, i) => ({ ...l, audio: `/audio/stories/1-${i}.mp3` }));
+  }
   if (story.n === 2) {
     const lines = [
       {
