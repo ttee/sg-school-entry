@@ -4,12 +4,12 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "狮城入学 · 进新加坡政府学校",
   description:
-    "小学走 CEQ，中学走 AEIS。CEQ 英语作业 12 周，向顾问支付 RMB 2,680。试学周打开就能练。",
+    "给中国家庭的 CEQ + AEIS 作业。新加坡校园故事、按年级摸底、简体中文家长说明。12 周 RMB 2,680。试学打开就能做。",
   themeColor: "#F4EFE6",
   metadataBase: new URL("https://sg-school-entry.vercel.app"),
   openGraph: {
     title: "狮城入学 · 进新加坡政府学校",
-    description: "小学走 CEQ，中学走 AEIS。CEQ 英语作业 12 周，向顾问支付 RMB 2,680。试学周打开就能练。",
+    description: "给中国家庭的 CEQ + AEIS 作业。新加坡校园故事、按年级摸底、简体中文家长说明。12 周 RMB 2,680。试学打开就能做。",
     url: "https://sg-school-entry.vercel.app",
     siteName: "狮城入学",
     locale: "zh_CN",
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "狮城入学 · 进新加坡政府学校",
-    description: "小学走 CEQ，中学走 AEIS。CEQ 英语作业 12 周，向顾问支付 RMB 2,680。试学周打开就能练。",
+    description: "给中国家庭的 CEQ + AEIS 作业。新加坡校园故事、按年级摸底、简体中文家长说明。12 周 RMB 2,680。试学打开就能做。",
     images: ["/og-ceq.jpg"],
   },
 };

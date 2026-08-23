@@ -1,75 +1,98 @@
-"use client";
-
 import Link from "next/link";
-import { useState } from "react";
 import OfficialClip from "@/components/OfficialClip";
+import LandingNav from "@/components/LandingNav";
+import LandingEnquiry from "@/components/LandingEnquiry";
+import { THEMES } from "@/lib/curriculum/storylines";
+
+export const metadata = {
+  title: "狮城入学 · 6 个月准备进新加坡政府学校",
+  description:
+    "给中国家庭的 CEQ + AEIS 作业。新加坡校园故事、按年级摸底、简体中文家长说明。12 周 RMB 2,680。试学打开就能做。",
+};
+
+function story(n: number) {
+  for (const t of THEMES) {
+    const s = t.stories.find((x) => x.n === n);
+    if (s) return s;
+  }
+  return null;
+}
+
+const STORY_COUNT = THEMES.reduce((n, t) => n + t.stories.length, 0);
+const LOST = story(2);
+const MRT = story(38);
+
+const PROBLEMS = [
+  {
+    titleZh: "没有新加坡语境",
+    titleEn: "No Singapore context",
+    body: "课本写 apartment、line up。孩子进校要听懂 canteen、recess、HDB、void deck、Aunty。听不懂通知，语法对了也没用。",
+  },
+  {
+    titleZh: "开口练不够",
+    titleEn: "Speaking is part of the score",
+    body: "小学 CEQ 口语是正式分。家里没有考官，补习也很少每天对练。进校第一天就要举手、问 Aunty、跟同学说话。",
+  },
+  {
+    titleZh: "家长看不见进度",
+    titleEn: "Parents feel blind",
+    body: "交了钱却不知道今天学了哪几个词、摸底错在哪。人身在中国或忙于工作，更需要简体中文对照，而不是一份全英文作业。",
+  },
+];
+
+const PILLARS = [
+  {
+    href: "/curriculum/speaking",
+    titleZh: "开口：故事 + 口语量表",
+    body: "每课跟读 canteen / recess 台词。对照剑桥公开评分：语法词汇、语篇、语音、互动。试学周视频可反复看，不用登录。",
+  },
+  {
+    href: "/assess",
+    titleZh: "家长看得见：摸底对错",
+    body: "P2 到 S3，英语 16 题、数学 12 题。交卷立刻逐题对照和中文迁移错误。开通作业后，进度页给顾问和家长看。",
+  },
+  {
+    href: "/curriculum/mocks",
+    titleZh: "限时卷：对照试卷结构",
+    body: "工作室 OAS 四选一，不是把真卷贴上网。小学对照 CEQ 语言点；中学对照 AEIS 50 题里的语法、词汇、短理解。",
+  },
+  {
+    href: "/curriculum/guide",
+    titleZh: "简体中文家长说明",
+    body: "网站说明是中文。顾问微信跟进。家长英语不好，也能看懂本周改哪一个错、孩子该申请小学还是中学。",
+  },
+];
+
+const ROADMAP = [
+  { m: "第 1–2 个月", t: "基础开口", d: "新加坡故事、冠词、时态、canteen 词汇。每周只改一个中文迁移错误。" },
+  { m: "第 3–4 个月", t: "CEQ 题型", d: "阅读完形、短写作、口语跟读。小学走这条线拿 CEQ 成绩单。" },
+  { m: "第 5–6 个月", t: "AEIS 限时", d: "小学数学 / 中学英语+数学限时卷。对照前一级课纲，不猜题。" },
+];
+
+const FAQS = [
+  {
+    q: "人在中国能开始吗？",
+    a: "能。试学周和摸底打开就能做，不用登录、不用飞新加坡。正式作业开通后在家里按周提交。AEIS 本身仍要赴新加坡考，以教育部官网为准。",
+  },
+  {
+    q: "这是教育部批准的课程吗？",
+    a: "不是。狮城入学是作业平台，对照新加坡英语课纲和剑桥 CEQ 公开试卷结构。录取由 CEQ 成绩和 AEIS 官方考试决定，我们不能保证学位。",
+  },
+  {
+    q: "家长英语不好怎么办？",
+    a: "站内说明、错误对照、报名表都是简体中文。孩子做英文题，家长看中文解释。顾问用微信沟通。",
+  },
+  {
+    q: "和去补习教室有什么不同？",
+    a: "这里是每天在家做的结构化作业：故事、选择题、摸底数据。教室课一周两次，家长往往看不到当日对错。我们不提供其他机构的链接或比较表。",
+  },
+  {
+    q: "有没有通过保证？",
+    a: "没有。先免费摸底和试学，再决定付钱。工作室 CES 是对照带，不是剑桥或考评局分数。正式门槛以 MOE 年龄核对器和官方成绩单为准。",
+  },
+];
 
 export default function HomePage() {
-  const payNowNumber = "94594601";
-  
-  const [showCurriculumMap, setShowCurriculumMap] = useState(false);
-  const [showMobileMenu, setShowMobileMenu] = useState(false);
-  
-  const [formData, setFormData] = useState({
-    parentWechat: "",
-    childBirthYear: "",
-    stage: "",
-    intent: "",
-  });
-  const [formStatus, setFormStatus] = useState<{
-    type: "success" | "error" | null;
-    message: string;
-  }>({ type: null, message: "" });
-  const [isSubmitting, setIsSubmitting] = useState(false);
-
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
-    setIsSubmitting(true);
-    setFormStatus({ type: null, message: "" });
-
-    try {
-      const response = await fetch("/api/enquiry", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({
-          parentWechat: formData.parentWechat,
-          childBirthYear: parseInt(formData.childBirthYear),
-          stage: formData.stage,
-          intent: formData.intent,
-        }),
-      });
-
-      const data = await response.json();
-
-      if (response.ok) {
-        setFormStatus({
-          type: "success",
-          message: data.message || "提交成功！",
-        });
-        setFormData({
-          parentWechat: "",
-          childBirthYear: "",
-          stage: "",
-          intent: "",
-        });
-      } else {
-        setFormStatus({
-          type: "error",
-          message: data.error || "提交失败，请稍后重试",
-        });
-      }
-    } catch (error) {
-      setFormStatus({
-        type: "error",
-        message: "提交失败，请检查网络连接",
-      });
-    } finally {
-      setIsSubmitting(false);
-    }
-  };
-
   return (
     <>
       <a
@@ -78,751 +101,404 @@ export default function HomePage() {
       >
         跳到正文
       </a>
-
-      <header className="sticky top-0 z-40 bg-paper/95 backdrop-blur-md border-b border-line">
-        <div className="max-w-7xl mx-auto px-4 min-h-14 flex items-center gap-4 md:gap-6">
-          <Link href="/" className="flex items-center gap-2.5 mr-auto">
-            <svg className="w-8 h-8 text-accent flex-none" viewBox="0 0 32 32" aria-hidden="true">
-              <rect x="1" y="1" width="30" height="30" rx="7" fill="none" stroke="currentColor" strokeWidth="1.5" />
-              <path d="M8 24V11h16v13" fill="none" stroke="currentColor" strokeWidth="1.7" strokeLinejoin="round" />
-              <path d="M13 24V15h6v9" fill="none" stroke="currentColor" strokeWidth="1.7" strokeLinejoin="round" />
-            </svg>
-            <div className="flex flex-col leading-tight">
-              <strong className="font-serif font-semibold text-ink tracking-wide">狮城入学</strong>
-            </div>
-          </Link>
-          <nav className="hidden md:flex items-center gap-6 text-sm">
-            <Link href="/小学" className="text-ink-2 hover:text-ink transition-colors font-medium">
-              小学
-            </Link>
-            <Link href="/中学" className="text-ink-2 hover:text-ink transition-colors font-medium">
-              中学
-            </Link>
-            <Link href="/curriculum" className="text-ink-2 hover:text-ink transition-colors font-medium">
-              课程
-            </Link>
-            <Link href="#contact" className="text-ink-2 hover:text-ink transition-colors font-medium">
-              咨询
-            </Link>
-          </nav>
-          <Link
-            href="/login"
-            className="text-sm text-muted hover:text-ink transition-colors"
-          >
-            登录
-          </Link>
-          <button
-            onClick={() => setShowMobileMenu(!showMobileMenu)}
-            className="md:hidden flex items-center text-ink-2 hover:text-ink transition-colors"
-            aria-label="菜单"
-          >
-            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
-            </svg>
-          </button>
-        </div>
-        {showMobileMenu && (
-          <div className="md:hidden border-t border-line bg-paper">
-            <div className="px-4 py-3 space-y-3">
-              <Link href="/小学" className="block text-ink-2 hover:text-ink transition-colors font-medium" onClick={() => setShowMobileMenu(false)}>
-                小学
-              </Link>
-              <Link href="/中学" className="block text-ink-2 hover:text-ink transition-colors font-medium" onClick={() => setShowMobileMenu(false)}>
-                中学
-              </Link>
-              <Link href="/curriculum" className="block text-ink-2 hover:text-ink transition-colors font-medium" onClick={() => setShowMobileMenu(false)}>
-                课程
-              </Link>
-              <Link href="#contact" className="block text-ink-2 hover:text-ink transition-colors font-medium" onClick={() => setShowMobileMenu(false)}>
-                咨询
-              </Link>
-            </div>
-          </div>
-        )}
-      </header>
+      <LandingNav />
 
       <main id="main">
-        <section className="py-16 md:py-24">
-          <div className="max-w-7xl mx-auto px-4">
-            <p className="text-xs font-semibold tracking-widest uppercase text-accent mb-3">
-              升学顾问的作业
-            </p>
-            <h1 className="font-serif font-semibold text-3xl md:text-5xl leading-tight tracking-tight mb-4 max-w-4xl">
-              <span className="block">进新加坡政府学校。</span>
-              <span className="block">今天打开就能做。</span>
-            </h1>
-            <div className="flex flex-wrap gap-3 mb-3">
-              <Link
-                href="/小学"
-                className="inline-flex items-center justify-center px-6 py-3.5 bg-accent text-accent-ink font-semibold rounded-full hover:bg-accent-hover transition-colors text-base"
-              >
-                小学
-              </Link>
-              <Link
-                href="/中学"
-                className="inline-flex items-center justify-center px-6 py-3.5 bg-transparent text-ink border border-accent font-semibold rounded-full hover:bg-accent/10 transition-colors text-base"
-              >
-                中学
-              </Link>
-            </div>
-            <p className="text-sm text-muted mb-4 max-w-2xl">
-              先选小学还是中学。
-            </p>
-            <p className="text-sm text-ink mb-1 max-w-2xl">
-              12 周，RMB 2,680，向升学顾问支付。今天打开试学，不用登录。
-            </p>
-            <p className="text-xs text-muted mb-4 max-w-2xl">
-              PayNow 94594601
-            </p>
-            <div className="max-w-2xl">
-              <p className="font-serif text-ink-2">
-                学而时习之，不亦说乎
+        {/* 1. Hero */}
+        <section className="py-12 md:py-20">
+          <div className="max-w-7xl mx-auto px-4 grid lg:grid-cols-2 gap-10 items-center">
+            <div>
+              <p className="text-xs font-semibold tracking-widest uppercase text-accent mb-3">
+                Results · Trust · Convenience
               </p>
-              <p className="text-xs text-muted mt-1">
-                《论语·学而》
+              <h1 className="font-serif font-semibold text-3xl md:text-5xl leading-tight tracking-tight mb-3">
+                6 个月内，把进新加坡政府学校的准备做完
+              </h1>
+              <p className="text-lg text-ink-2 mb-2">
+                Get your child ready for a Singapore government school in 6 months
+              </p>
+              <p className="text-ink-2 mb-5 max-w-xl">
+                新加坡校园故事、按年级摸底、简体中文家长说明。小学走 CEQ 再考 AEIS 数学；中学走 AEIS 英语 + 数学。不是语法游戏。
+              </p>
+              <div className="flex flex-wrap gap-3 mb-4">
+                <Link
+                  href="/trial/A2"
+                  className="inline-flex items-center justify-center px-6 py-3.5 bg-accent text-accent-ink font-semibold rounded-full hover:bg-accent-hover"
+                >
+                  立即免费试学
+                </Link>
+                <Link
+                  href="/assess"
+                  className="inline-flex items-center justify-center px-6 py-3.5 border border-accent rounded-full font-semibold"
+                >
+                  先做摸底
+                </Link>
+              </div>
+              <p className="text-sm text-ink mb-1">
+                12 周作业 <strong>RMB 2,680</strong>，向升学顾问支付。试学不用登录。
+              </p>
+              <p className="text-xs text-muted mb-5">PayNow 94594601 · 微信转账</p>
+              <ul className="flex flex-wrap gap-2 text-xs">
+                {[
+                  "对照 MOE 课纲",
+                  "剑桥 CEQ 公开格式",
+                  `${STORY_COUNT} 个新加坡故事`,
+                  "P2–S3 英语+数学摸底",
+                  "全站简体中文",
+                ].map((t) => (
+                  <li key={t} className="px-3 py-1.5 rounded-full border border-line bg-card text-ink-2">
+                    {t}
+                  </li>
+                ))}
+              </ul>
+            </div>
+            <div>
+              <div className="bg-card border border-line rounded-2xl overflow-hidden shadow">
+                <video
+                  className="w-full aspect-video object-cover bg-ink"
+                  poster="/trial/a2-w0-setup.jpg"
+                  controls
+                  playsInline
+                  preload="metadata"
+                >
+                  <source src="/trial/a2-w0-setup.mp4?v=sgchild1" type="video/mp4" />
+                </video>
+                <div className="grid grid-cols-2 gap-px bg-line">
+                  <div className="bg-card p-4">
+                    <p className="text-xs font-semibold text-accent mb-1">进校前要会说</p>
+                    <p className="text-sm text-ink-2">I lost my water bottle. Is this your bottle? Thank you, Aunty Tan.</p>
+                  </div>
+                  <div className="bg-card p-4">
+                    <p className="text-xs font-semibold text-accent mb-1">不是语法清单</p>
+                    <p className="text-sm text-ink-2">Lost and Found、recess、canteen。试学周打开就能跟读。</p>
+                  </div>
+                </div>
+              </div>
+              <p className="text-xs text-muted mt-2">
+                片中是本站锁定角色 Mei / Priya，新加坡口音、规范语法。不是考场录像，也不是保证录取。
               </p>
             </div>
           </div>
         </section>
 
-        <section className="py-12 md:py-16 bg-paper">
+        {/* 2. Problem */}
+        <section className="py-12 md:py-16 bg-paper-2">
           <div className="max-w-7xl mx-auto px-4">
-            <h2 className="font-serif font-semibold text-2xl md:text-3xl mb-3">
-              先看看新加坡政府小学
+            <h2 className="font-serif font-semibold text-2xl md:text-3xl mb-2">
+              家长交了钱，却还是看不见孩子今天学了什么
             </h2>
-            <p className="text-ink-2 mb-4 max-w-2xl">
-              升旗、英语课、食堂、图书室。这就是孩子进校以后的一天。
+            <p className="text-ink-2 mb-8 max-w-2xl">
+              AEIS / CEQ 难，不只是因为语法。难在语境、开口、和家长端的数据。
             </p>
-            <div className="mb-4">
-              <Link
-                href="/guide"
-                className="text-accent hover:text-accent-hover font-semibold underline text-sm"
-              >
-                向导里还有更多 →
-              </Link>
-              <span className="text-muted mx-2">·</span>
-              <a
-                href="https://www.youtube.com/@moespore"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-accent hover:text-accent-hover font-semibold underline text-sm"
-              >
-                教育部 YouTube
-              </a>
+            <div className="grid md:grid-cols-3 gap-4">
+              {PROBLEMS.map((p) => (
+                <article key={p.titleZh} className="bg-card border border-line rounded-2xl p-6">
+                  <h3 className="font-serif font-semibold text-lg mb-1">{p.titleZh}</h3>
+                  <p className="text-xs text-accent mb-3">{p.titleEn}</p>
+                  <p className="text-sm text-ink-2 leading-relaxed">{p.body}</p>
+                </article>
+              ))}
             </div>
+          </div>
+        </section>
+
+        {/* 3. 77 stories */}
+        <section className="py-12 md:py-16">
+          <div className="max-w-7xl mx-auto px-4">
+            <h2 className="font-serif font-semibold text-2xl md:text-3xl mb-2">
+              用新加坡生活学英语，不是只做语法卷
+            </h2>
+            <p className="text-ink-2 mb-2 max-w-2xl">
+              {STORY_COUNT} 个校园与家庭故事。每课：听 → 开口 → 阅读完形 → 写一段。语法一次只钉 1–2 点。
+            </p>
+            <p className="text-sm text-muted mb-8">Learn English through Singapore school life, not isolated drills.</p>
+            <div className="grid md:grid-cols-2 gap-4 mb-6">
+              {LOST && (
+                <Link
+                  href={LOST.href ?? "/curriculum/stories/2"}
+                  className="bg-card border border-line rounded-2xl p-6 hover:border-accent"
+                >
+                  <p className="text-xs font-semibold text-accent mb-1">故事 {LOST.n}</p>
+                  <h3 className="font-serif font-semibold text-xl mb-2">{LOST.title}</h3>
+                  <p className="text-sm text-ink-2 mb-3">{LOST.focus}</p>
+                  <p className="text-sm">
+                    <strong>语法</strong> {LOST.grammar}
+                    <br />
+                    <strong>词汇</strong> {LOST.vocab.slice(0, 4).join(" · ")}
+                    <br />
+                    <strong>开口</strong> {LOST.oracy[0]}
+                  </p>
+                </Link>
+              )}
+              {MRT && (
+                <Link
+                  href={`/curriculum/stories/${MRT.n}`}
+                  className="bg-card border border-line rounded-2xl p-6 hover:border-accent"
+                >
+                  <p className="text-xs font-semibold text-accent mb-1">故事 {MRT.n}</p>
+                  <h3 className="font-serif font-semibold text-xl mb-2">{MRT.title}</h3>
+                  <p className="text-sm text-ink-2 mb-3">{MRT.focus}</p>
+                  <p className="text-sm">
+                    <strong>语法</strong> {MRT.grammar}
+                    <br />
+                    <strong>词汇</strong> {MRT.vocab.slice(0, 4).join(" · ")}
+                    <br />
+                    <strong>开口</strong> {MRT.oracy[0]}
+                  </p>
+                </Link>
+              )}
+            </div>
+            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3 mb-6">
+              {THEMES.map((t) => (
+                <Link
+                  key={t.id}
+                  href="/curriculum/stories"
+                  className="bg-paper-2 border border-line rounded-xl p-4 text-sm hover:border-accent"
+                >
+                  <p className="font-semibold mb-1">{t.title}</p>
+                  <p className="text-muted text-xs">{t.stories.length} 课</p>
+                </Link>
+              ))}
+            </div>
+            <Link
+              href="/curriculum/stories"
+              className="inline-flex px-6 py-3 border border-accent rounded-full font-semibold"
+            >
+              看全部 {STORY_COUNT} 个新加坡故事
+            </Link>
+          </div>
+        </section>
+
+        {/* 4. Features */}
+        <section className="py-12 md:py-16 bg-paper-2">
+          <div className="max-w-7xl mx-auto px-4">
+            <h2 className="font-serif font-semibold text-2xl md:text-3xl mb-8">
+              给中国家长的四件事
+            </h2>
+            <div className="grid md:grid-cols-2 gap-4">
+              {PILLARS.map((p) => (
+                <Link
+                  key={p.href}
+                  href={p.href}
+                  className="bg-card border border-line rounded-2xl p-6 hover:border-accent"
+                >
+                  <h3 className="font-serif font-semibold text-lg mb-2">{p.titleZh}</h3>
+                  <p className="text-sm text-ink-2 leading-relaxed">{p.body}</p>
+                </Link>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* 5. Path + proof of format */}
+        <section className="py-12 md:py-16" id="paths">
+          <div className="max-w-7xl mx-auto px-4">
+            <h2 className="font-serif font-semibold text-2xl md:text-3xl mb-2">
+              清楚的 6 个月路线，不是“报了班再看”
+            </h2>
+            <p className="text-ink-2 mb-8 max-w-2xl">
+              12 周是一个作业周期。覆盖 CEQ 到 AEIS 的完整准备，通常按这条线排 6 个月。先摸底，再决定开几周。
+            </p>
+            <div className="grid md:grid-cols-3 gap-4 mb-10">
+              {ROADMAP.map((r) => (
+                <article key={r.m} className="bg-card border border-line rounded-2xl p-6">
+                  <p className="text-xs font-semibold text-accent mb-1">{r.m}</p>
+                  <h3 className="font-serif font-semibold text-lg mb-2">{r.t}</h3>
+                  <p className="text-sm text-ink-2">{r.d}</p>
+                </article>
+              ))}
+            </div>
+
+            <div className="grid md:grid-cols-2 gap-5 mb-10">
+              <article className="bg-card border border-line rounded-2xl p-6">
+                <p className="text-xs font-bold tracking-widest uppercase text-accent mb-2">小学 · P2–P5</p>
+                <h3 className="font-serif text-xl font-semibold mb-2">先过英语，再考数学</h3>
+                <p className="text-sm text-ink-2 mb-4">
+                  小学 AEIS 不再另考英语卷。英语用 CEQ 证明（P2–P4 对照 A2 Key，P5 对照 B1 Preliminary），再赴新加坡考 AEIS 数学。
+                </p>
+                <Link href="/小学" className="text-accent font-semibold text-sm">
+                  小学试学 →
+                </Link>
+              </article>
+              <article className="bg-card border border-line rounded-2xl p-6">
+                <p className="text-xs font-bold tracking-widest uppercase text-accent mb-2">中学 · Sec 1–3</p>
+                <h3 className="font-serif text-xl font-semibold mb-2">英语和数学都要考</h3>
+                <p className="text-sm text-ink-2 mb-4">
+                  中学不交 CEQ。AEIS 英语 2 小时 10 分：作文 + 50 题。数学无计算器。测申请年级的前一级课纲。
+                </p>
+                <Link href="/中学" className="text-accent font-semibold text-sm">
+                  中学试学 →
+                </Link>
+              </article>
+            </div>
+
+            <h3 className="font-serif font-semibold text-xl mb-3">成绩表长这样（样例，不是录取承诺）</h3>
+            <div className="overflow-x-auto mb-4">
+              <table className="w-full text-sm border border-line rounded-xl overflow-hidden bg-card min-w-[640px]">
+                <thead className="bg-accent/5">
+                  <tr>
+                    <th className="text-left px-3 py-2">孩子</th>
+                    <th className="text-left px-3 py-2">申请</th>
+                    <th className="text-left px-3 py-2">工作室对照</th>
+                    <th className="text-left px-3 py-2">本周焦点</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr className="border-t border-line">
+                    <td className="px-3 py-2">Li Wei（样例）</td>
+                    <td className="px-3 py-2">P4</td>
+                    <td className="px-3 py-2">CES 对照 124 / 目标 130</td>
+                    <td className="px-3 py-2">完形连接词 however / therefore</td>
+                  </tr>
+                  <tr className="border-t border-line">
+                    <td className="px-3 py-2">Zhang Min（样例）</td>
+                    <td className="px-3 py-2">S1</td>
+                    <td className="px-3 py-2">语法 82% · 可开限时卷</td>
+                    <td className="px-3 py-2">although 不加 but</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <p className="text-xs text-muted mb-8">
+              样例行来自课纲成绩表。开通后用真实作业分。我们不公布虚构通过率，也不使用名校校徽。
+            </p>
 
             <div className="grid md:grid-cols-2 gap-6">
-              <div>
-                <h3 className="font-serif font-semibold text-lg mb-3 text-ink">浙江孩子在华苑小学</h3>
-                <OfficialClip
-                  videoId="Knyh8cm4kJU"
-                  title="浙江孩子在华苑小学"
-                  credit="CNA Insider / Mediacorp《Life As An International Student At A Singapore Primary School》（2019）。华苑小学真实校园，一名从浙江来的孩子。非 MOE 官方，不是 AEIS / CEQ 考题。日期与学费以官网为准。"
-                  hideWeeklyHomework={true}
-                />
-              </div>
-              
-              <div>
-                <h3 className="font-serif font-semibold text-lg mb-3 text-ink">政府小学的一天（小一）</h3>
-                <OfficialClip
-                  videoId="Mqf8E8vwEg0"
-                  title="政府小学的一天（小一）"
-                  credit="Kranji Primary School 官方频道《A Day In a Life of A P1 Student》。一所政府小学的一天，不是 AEIS 教程。"
-                  hideWeeklyHomework={true}
-                />
-              </div>
+              <OfficialClip
+                videoId="Mqf8E8vwEg0"
+                title="政府小学的一天（小一）"
+                credit="Kranji Primary School 官方频道《A Day In a Life of A P1 Student》。真实校园一天，不是本站学生，也不是 AEIS 教程。"
+                hideWeeklyHomework
+              />
+              <OfficialClip
+                videoId="ZjGt6r8XSTg"
+                title="CEQ 口语长这样"
+                credit="Cambridge English 官方频道 English with Cambridge《A2 Key for Schools Speaking test》。官方口试样例，不是本站作业录像。"
+                hideWeeklyHomework
+              />
             </div>
           </div>
         </section>
 
-        <section className="py-12 md:py-16 bg-paper-2">
+        {/* 6. Pricing */}
+        <section className="py-12 md:py-16 bg-paper-2" id="pricing">
+          <div className="max-w-7xl mx-auto px-4">
+            <h2 className="font-serif font-semibold text-2xl md:text-3xl mb-2">价格写在前面</h2>
+            <p className="text-ink-2 mb-8 max-w-2xl">
+              这是给顾问的作业包，不是游戏会员。先试学和摸底，再付钱。
+            </p>
+            <div className="grid md:grid-cols-2 gap-5 mb-6">
+              <article className="bg-card border border-line rounded-2xl p-6">
+                <p className="text-xs font-semibold text-accent mb-1">试学</p>
+                <h3 className="font-serif text-2xl font-semibold mb-2">免费</h3>
+                <p className="text-sm text-ink-2 mb-4">打开就能做，不用登录。小学英语 / 中学英语 / 数学各有试学周。</p>
+                <ul className="text-sm space-y-2 mb-6">
+                  <li>Lost and Found 故事视频</li>
+                  <li>本周选择题与短写作</li>
+                  <li>P2–S3 摸底 MCQ</li>
+                </ul>
+                <Link
+                  href="/trial/A2"
+                  className="inline-flex px-5 py-2.5 border border-accent rounded-full font-semibold"
+                >
+                  开始试学
+                </Link>
+              </article>
+              <article className="bg-card border-2 border-accent rounded-2xl p-6">
+                <p className="text-xs font-semibold text-accent mb-1">12 周作业 · 最适合冲 CEQ / AEIS</p>
+                <h3 className="font-serif text-2xl font-semibold mb-2">RMB 2,680</h3>
+                <p className="text-sm text-ink-2 mb-4">向升学顾问一次支付。约 12 周一个周期。</p>
+                <ul className="text-sm space-y-2 mb-6">
+                  <li>本年级周作业（故事 + 语法焦点 + 读写）</li>
+                  <li>摸底与限时卷</li>
+                  <li>口语跟读与写作反馈（开通后）</li>
+                  <li>顾问微信 · 家长中文说明</li>
+                </ul>
+                <Link
+                  href="#contact"
+                  className="inline-flex px-5 py-2.5 bg-accent text-accent-ink rounded-full font-semibold"
+                >
+                  微信报名
+                </Link>
+              </article>
+            </div>
+            <p className="text-sm text-ink-2 mb-2">
+              付款：PayNow 94594601 · 微信转账。不在本页收取信用卡。
+            </p>
+            <p className="text-sm text-muted">
+              没有“不过退款”或虚构通过率。CEQ 考点费、AEIS 报名费另付官方。学位由教育部派位，不是交作业就会有学位。
+            </p>
+          </div>
+        </section>
+
+        {/* 7. FAQ */}
+        <section className="py-12 md:py-16">
           <div className="max-w-3xl mx-auto px-4">
-            <h2 className="font-serif font-semibold text-2xl md:text-3xl mb-3">
-              CEQ 口语长这样
-            </h2>
-            <p className="text-ink-2 mb-6">
-              两个孩子、两个考官。这就是 A2 Key for Schools 口语。
-            </p>
-
-            <OfficialClip
-              videoId="ZjGt6r8XSTg"
-              title="CEQ 口语长这样"
-              credit="Cambridge English 官方频道 English with Cambridge《A2 Key for Schools Speaking test — Asia and Vittoria》。官方口语样例，不是本周作业。"
-              hideWeeklyHomework={true}
-            />
-
-            <div className="flex flex-wrap gap-3 mt-6">
-              <Link
-                href="/小学"
-                className="inline-flex items-center justify-center px-6 py-3 bg-accent text-accent-ink font-semibold rounded-full hover:bg-accent-hover transition-colors"
-              >
-                小学
-              </Link>
-              <Link
-                href="/#contact"
-                className="inline-flex items-center justify-center px-6 py-3 bg-transparent text-ink border border-accent font-semibold rounded-full hover:bg-accent/10 transition-colors"
-              >
-                报名咨询
-              </Link>
+            <h2 className="font-serif font-semibold text-2xl md:text-3xl mb-6">家长常问</h2>
+            <div className="space-y-3">
+              {FAQS.map((f) => (
+                <details key={f.q} className="bg-card border border-line rounded-xl px-5 py-4">
+                  <summary className="font-semibold cursor-pointer">{f.q}</summary>
+                  <p className="text-sm text-ink-2 mt-3 leading-relaxed">{f.a}</p>
+                </details>
+              ))}
             </div>
           </div>
         </section>
 
-        <section className="py-12 md:py-16 bg-paper" id="paths">
-          <div className="max-w-7xl mx-auto px-4">
-            <h2 className="font-serif font-semibold text-2xl md:text-3xl mb-3">
-              小学一条路，中学另一条
-            </h2>
-            <p className="text-ink-2 mb-6 max-w-2xl">
-              小学先过英语、再考数学；中学英语和数学都要考。科学等进校后再准备。
-            </p>
-            <div className="grid md:grid-cols-2 gap-5">
-              <article className="bg-card border border-line rounded-2xl p-6 shadow">
-                <p className="text-xs font-bold tracking-widest uppercase text-accent mb-2">小学 · P2–P5</p>
-                <h3 className="font-serif text-xl font-semibold mb-2">小学路径</h3>
-                <p className="text-ink-2 mb-4">
-                  先过英语门槛，再在新加坡考 AEIS 数学。小学 AEIS 不另考英语卷，英语能力由 CEQ 证明。
-                </p>
-                <ul className="space-y-0 border-t border-line">
-                  <li className="border-b border-line py-3 pl-5 relative before:absolute before:left-0 before:top-5 before:w-2 before:h-2 before:rounded-full before:bg-accent text-sm text-ink-2">
-                    英语：剑桥英语资格考试（Cambridge English Qualifications, CEQ）。P2–P4 一般对应 A2 Key for Schools；P5 一般对应 B1 Preliminary for Schools。
-                  </li>
-                  <li className="border-b border-line py-3 pl-5 relative before:absolute before:left-0 before:top-5 before:w-2 before:h-2 before:rounded-full before:bg-accent text-sm text-ink-2">
-                    小学才要 CEQ。2026 年 AEIS 从 2025 年 7 月起考；2027 年小学 S-AEIS 从 2026 年 1 月起考。都按提交申请那一个月往前的 12 个月算。以官网为准。提供成绩单 PDF（Statement of Results）即可，不必等待纸质证书。
-                  </li>
-                  <li className="border-b border-line py-3 pl-5 relative before:absolute before:left-0 before:top-5 before:w-2 before:h-2 before:rounded-full before:bg-accent text-sm text-ink-2">
-                    数学：赴新加坡参加 AEIS 数学。考试地点与场次以教育部公布为准。
-                  </li>
-                  <li className="py-3 pl-5 relative before:absolute before:left-0 before:top-5 before:w-2 before:h-2 before:rounded-full before:bg-accent text-sm text-ink-2">
-                    科学不是 AEIS 试卷。政府小学各科以英语授课，科学准备放在录取之后。
-                  </li>
-                </ul>
-              </article>
-
-              <article className="bg-card border border-line rounded-2xl p-6 shadow">
-                <p className="text-xs font-bold tracking-widest uppercase text-accent mb-2">中学 · Sec 1–3</p>
-                <h3 className="font-serif text-xl font-semibold mb-2">中学路径</h3>
-                <p className="text-ink-2 mb-4">
-                  中学考 AEIS 英语和数学。中学不用考 CEQ。
-                </p>
-                <p className="text-sm text-ink-2 mb-4">
-                  中学英语有试学周 + 第 1–11 周。中学数学有试学周 + 第 1–11 周。申请 Sec 1 用前一级 P6；申请 Sec 2 用前一级 Sec 1；申请 Sec 3 用前一级 Sec 2。卷型：英语是写作 + 理解/语言运用；数学是选择题 + 写算式。
-                </p>
-                <ul className="space-y-0 border-t border-line">
-                  <li className="border-b border-line py-3 pl-5 relative before:absolute before:left-0 before:top-5 before:w-2 before:h-2 before:rounded-full before:bg-accent text-sm text-ink-2">
-                    英语、数学均在新加坡参加 AEIS（或后续的 S-AEIS，如当年开放）。
-                  </li>
-                  <li className="border-b border-line py-3 pl-5 relative before:absolute before:left-0 before:top-5 before:w-2 before:h-2 before:rounded-full before:bg-accent text-sm text-ink-2">
-                    中学申请走 AEIS 英语和数学。
-                  </li>
-                  <li className="border-b border-line py-3 pl-5 relative before:absolute before:left-0 before:top-5 before:w-2 before:h-2 before:rounded-full before:bg-accent text-sm text-ink-2">
-                    科学及其他英语授课科目不是 AEIS 考试范围。部分预备课程会按教育部大纲教科学，那是入学后的适应，不能替代 AEIS。
-                  </li>
-                  <li className="py-3 pl-5 relative before:absolute before:left-0 before:top-5 before:w-2 before:h-2 before:rounded-full before:bg-accent text-sm text-ink-2">
-                    派位取决于考试表现、学位空缺与申报居住区域，不是交了申请就会有学位。
-                  </li>
-                </ul>
-              </article>
-            </div>
-
-            <div className="mt-6 bg-paper-2 border border-line rounded-xl p-5">
-              <h3 className="font-serif font-semibold text-base mb-2 text-ink">AEIS 官方申请</h3>
-              <p className="text-sm text-ink-2 mb-2">
-                <a 
-                  href="https://www.moe.gov.sg/international-students/aeis/apply" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="text-accent hover:text-accent-hover underline"
-                >
-                  教育部 AEIS 申请页面
-                </a>
-              </p>
-              <p className="text-sm text-ink-2">
-                2026 年申请窗口已结束。下一轮日期与考场以官网为准。
-              </p>
-            </div>
-          </div>
-        </section>
-
-        <section className="py-12 md:py-16 bg-paper" id="pedagogy">
-          <div className="max-w-7xl mx-auto px-4">
-            <h2 className="font-serif font-semibold text-2xl md:text-3xl mb-3">
-              每周只改一个中国孩子的高频错误
-            </h2>
-            <p className="text-ink-2 mb-6 max-w-3xl">
-              每周只打<strong>一个</strong>中国学生的高频错误。微课对照中英句子，作业盯住这一点，改对了再换下一个。
-            </p>
-
-            <div className="bg-card border border-line rounded-2xl p-6 mb-6 shadow">
-              <h3 className="font-serif font-semibold text-lg mb-4 text-ink">为什么每周只改一个错？</h3>
-              <div className="grid md:grid-cols-2 gap-5 text-sm">
-                <div className="space-y-2">
-                  <p className="font-semibold text-ink flex items-start gap-2">
-                    <span className="text-accent mt-0.5">✓</span>
-                    <span>母语迁移</span>
-                  </p>
-                  <p className="text-ink-2 ml-6">
-                    中文没有冠词、动词不变形、靠时间词表示过去。孩子说 "I go to school by the bus" 或 "she wake up" 不是粗心，是中文习惯在干扰。
-                  </p>
-                </div>
-                <div className="space-y-2">
-                  <p className="font-semibold text-ink flex items-start gap-2">
-                    <span className="text-accent mt-0.5">✓</span>
-                    <span>一周一个焦点</span>
-                  </p>
-                  <p className="text-ink-2 ml-6">
-                    错误说多了会固化。一次改太多点，孩子顾不过来，还是会重复旧错。每周盯住<strong>一个焦点</strong>，改对了再换下一个。
-                  </p>
-                </div>
-                <div className="space-y-2">
-                  <p className="font-semibold text-ink flex items-start gap-2">
-                    <span className="text-accent mt-0.5">✓</span>
-                    <span>聚焦形式</span>
-                  </p>
-                  <p className="text-ink-2 ml-6">
-                    阅读、写作、口语任务还是真实话题（学校、家庭、环境），但本周的微课、语法题都指向<strong>同一个语法点</strong>。
-                  </p>
-                </div>
-                <div className="space-y-2">
-                  <p className="font-semibold text-ink flex items-start gap-2">
-                    <span className="text-accent mt-0.5">✓</span>
-                    <span>注意 + 输出</span>
-                  </p>
-                  <p className="text-ink-2 ml-6">
-                    微课先让孩子看到错的句子和对的句子对比，然后跟读一句。选择题当场看对错。写作和口语先看题目、先跟读。正式周由顾问开通批改。
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div className="mb-6">
-              <button
-                onClick={() => setShowCurriculumMap(!showCurriculumMap)}
-                className="inline-flex items-center gap-2 text-accent hover:text-accent-hover font-semibold transition-colors"
-              >
-                <span>{showCurriculumMap ? '收起' : '展开'}纠错地图</span>
-                <svg
-                  className={`w-5 h-5 transition-transform ${showCurriculumMap ? 'rotate-180' : ''}`}
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                </svg>
-              </button>
-            </div>
-
-            {showCurriculumMap && (
-              <>
-                <h3 className="font-serif font-semibold text-xl mb-4 text-ink">已上线纠错地图（A2 共 11 周，B1 共 11 周）</h3>
-                <div className="overflow-x-auto">
-                  <table className="w-full border border-line rounded-xl overflow-hidden text-sm">
-                    <thead>
-                      <tr className="bg-paper-2 border-b border-line">
-                        <th className="px-4 py-3 text-left font-semibold text-ink">级别</th>
-                        <th className="px-4 py-3 text-left font-semibold text-ink">周</th>
-                        <th className="px-4 py-3 text-left font-semibold text-ink">主题</th>
-                        <th className="px-4 py-3 text-left font-semibold text-ink">本周只改这一个错</th>
-                        <th className="px-4 py-3 text-left font-semibold text-ink">中文干扰举例</th>
-                      </tr>
-                    </thead>
-                    <tbody className="bg-card">
-                      <tr className="border-b border-line">
-                        <td className="px-4 py-3 font-semibold text-accent">A2</td>
-                        <td className="px-4 py-3 text-ink-2">0</td>
-                        <td className="px-4 py-3 text-ink-2">试学周</td>
-                        <td className="px-4 py-3 text-ink">冠词 a/an/the 和零冠词</td>
-                        <td className="px-4 py-3 text-ink-2">I go to school by <span className="line-through">the</span> bus / I am <span className="text-warn-ink">✗</span> student</td>
-                      </tr>
-                      <tr className="border-b border-line">
-                        <td className="px-4 py-3 font-semibold text-accent">A2</td>
-                        <td className="px-4 py-3 text-ink-2">1</td>
-                        <td className="px-4 py-3 text-ink-2">Daily Routines</td>
-                        <td className="px-4 py-3 text-ink">第三人称单数 -s；at/in/on 时间介词</td>
-                        <td className="px-4 py-3 text-ink-2">she wake<span className="text-warn-ink">✗</span> up / in Monday</td>
-                      </tr>
-                      <tr className="border-b border-line">
-                        <td className="px-4 py-3 font-semibold text-accent">A2</td>
-                        <td className="px-4 py-3 text-ink-2">2</td>
-                        <td className="px-4 py-3 text-ink-2">School Life</td>
-                        <td className="px-4 py-3 text-ink">一般现在时 vs 现在进行时；like + -ing</td>
-                        <td className="px-4 py-3 text-ink-2">I am going to school every day</td>
-                      </tr>
-                      <tr className="border-b border-line">
-                        <td className="px-4 py-3 font-semibold text-accent">A2</td>
-                        <td className="px-4 py-3 text-ink-2">3</td>
-                        <td className="px-4 py-3 text-ink-2">Family</td>
-                        <td className="px-4 py-3 text-ink">一般过去时；used to</td>
-                        <td className="px-4 py-3 text-ink-2">yesterday I go / I use to live</td>
-                      </tr>
-                      <tr className="border-b border-line">
-                        <td className="px-4 py-3 font-semibold text-accent">A2</td>
-                        <td className="px-4 py-3 text-ink-2">4</td>
-                        <td className="px-4 py-3 text-ink-2">Shopping & Food</td>
-                        <td className="px-4 py-3 text-ink">可数/不可数名词；some/any、much/many</td>
-                        <td className="px-4 py-3 text-ink-2">two breads / how many rice? / I need some waters</td>
-                      </tr>
-                      <tr className="border-b border-line">
-                        <td className="px-4 py-3 font-semibold text-accent">A2</td>
-                        <td className="px-4 py-3 text-ink-2">5</td>
-                        <td className="px-4 py-3 text-ink-2">Sports Day</td>
-                        <td className="px-4 py-3 text-ink">比较级和最高级</td>
-                        <td className="px-4 py-3 text-ink-2">more bigger / more cheap / he is tall than me</td>
-                      </tr>
-                      <tr className="border-b border-line">
-                        <td className="px-4 py-3 font-semibold text-accent">A2</td>
-                        <td className="px-4 py-3 text-ink-2">6</td>
-                        <td className="px-4 py-3 text-ink-2">Around Singapore</td>
-                        <td className="px-4 py-3 text-ink">时间介词 at/in/on</td>
-                        <td className="px-4 py-3 text-ink-2">in Monday / on the morning / at 2026</td>
-                      </tr>
-                      <tr className="border-b border-line">
-                        <td className="px-4 py-3 font-semibold text-accent">A2</td>
-                        <td className="px-4 py-3 text-ink-2">7</td>
-                        <td className="px-4 py-3 text-ink-2">Weekend Plans</td>
-                        <td className="px-4 py-3 text-ink">be going to 将来时</td>
-                        <td className="px-4 py-3 text-ink-2">I going to / Tomorrow I go library / I go to swim</td>
-                      </tr>
-                      <tr className="border-b border-line">
-                        <td className="px-4 py-3 font-semibold text-accent">A2</td>
-                        <td className="px-4 py-3 text-ink-2">8</td>
-                        <td className="px-4 py-3 text-ink-2">School Rules</td>
-                        <td className="px-4 py-3 text-ink">can / must 情态动词</td>
-                        <td className="px-4 py-3 text-ink-2">I can to swim / I must to go / Can I to borrow</td>
-                      </tr>
-                      <tr className="border-b border-line">
-                        <td className="px-4 py-3 font-semibold text-accent">A2</td>
-                        <td className="px-4 py-3 text-ink-2">9</td>
-                        <td className="px-4 py-3 text-ink-2">Weekend Hobbies</td>
-                        <td className="px-4 py-3 text-ink">like / enjoy + -ing</td>
-                        <td className="px-4 py-3 text-ink-2">I like swim / I enjoy to read / I like to swimming</td>
-                      </tr>
-                      <tr className="border-b border-line">
-                        <td className="px-4 py-3 font-semibold text-accent">A2</td>
-                        <td className="px-4 py-3 text-ink-2">10</td>
-                        <td className="px-4 py-3 text-ink-2">Everyday Routines</td>
-                        <td className="px-4 py-3 text-ink">频率副词位置（实义动词前、be 后）</td>
-                        <td className="px-4 py-3 text-ink-2">I go always / I am always go / I never am late</td>
-                      </tr>
-                      <tr className="border-b border-line">
-                        <td className="px-4 py-3 font-semibold text-accent">A2</td>
-                        <td className="px-4 py-3 text-ink-2">11</td>
-                        <td className="px-4 py-3 text-ink-2">Where Things Are</td>
-                        <td className="px-4 py-3 text-ink">地点介词 in / on / at</td>
-                        <td className="px-4 py-3 text-ink-2">in the bus / on the classroom / at the table (for in) / in the wall</td>
-                      </tr>
-                      <tr className="border-b border-line bg-paper-2">
-                        <td className="px-4 py-3 font-semibold text-accent">B1</td>
-                        <td className="px-4 py-3 text-ink-2">0</td>
-                        <td className="px-4 py-3 text-ink-2">试学周</td>
-                        <td className="px-4 py-3 text-ink">现在完成 vs 过去时</td>
-                        <td className="px-4 py-3 text-ink-2">I have went yesterday / I am here for 6 months</td>
-                      </tr>
-                      <tr className="border-b border-line bg-paper-2">
-                        <td className="px-4 py-3 font-semibold text-accent">B1</td>
-                        <td className="px-4 py-3 text-ink-2">1</td>
-                        <td className="px-4 py-3 text-ink-2">Travel</td>
-                        <td className="px-4 py-3 text-ink">Have you ever...? 比较级 more/-er</td>
-                        <td className="px-4 py-3 text-ink-2">Have you go...? / It was impressive than...</td>
-                      </tr>
-                      <tr className="border-b border-line bg-paper-2">
-                        <td className="px-4 py-3 font-semibold text-accent">B1</td>
-                        <td className="px-4 py-3 text-ink-2">2</td>
-                        <td className="px-4 py-3 text-ink-2">Technology</td>
-                        <td className="px-4 py-3 text-ink">If + 过去, would... / suggest + -ing</td>
-                        <td className="px-4 py-3 text-ink-2">If school change... / suggest to use</td>
-                      </tr>
-                      <tr className="border-b border-line bg-paper-2">
-                        <td className="px-4 py-3 font-semibold text-accent">B1</td>
-                        <td className="px-4 py-3 text-ink-2">3</td>
-                        <td className="px-4 py-3 text-ink-2">Environment</td>
-                        <td className="px-4 py-3 text-ink">被动语态；should/ought to</td>
-                        <td className="px-4 py-3 text-ink-2">We recycle the bottles（该用被动）</td>
-                      </tr>
-                      <tr className="border-b border-line bg-paper-2">
-                        <td className="px-4 py-3 font-semibold text-accent">B1</td>
-                        <td className="px-4 py-3 text-ink-2">4</td>
-                        <td className="px-4 py-3 text-ink-2">Communication</td>
-                        <td className="px-4 py-3 text-ink">间接引语 (Reported speech)</td>
-                        <td className="px-4 py-3 text-ink-2">He said he will come / She said I am busy</td>
-                      </tr>
-                      <tr className="border-b border-line bg-paper-2">
-                        <td className="px-4 py-3 font-semibold text-accent">B1</td>
-                        <td className="px-4 py-3 text-ink-2">5</td>
-                        <td className="px-4 py-3 text-ink-2">Describing People</td>
-                        <td className="px-4 py-3 text-ink">定语从句 who/which/that</td>
-                        <td className="px-4 py-3 text-ink-2">The girl sits next to me / the book who I read</td>
-                      </tr>
-                      <tr className="bg-paper-2">
-                        <td className="px-4 py-3 font-semibold text-accent">B1</td>
-                        <td className="px-4 py-3 text-ink-2">6</td>
-                        <td className="px-4 py-3 text-ink-2">When We Were Younger</td>
-                        <td className="px-4 py-3 text-ink">used to 表过去习惯</td>
-                        <td className="px-4 py-3 text-ink-2">I use to walk / I didn't used to / I am used to swim</td>
-                      </tr>
-                      <tr className="border-b border-line bg-paper-2">
-                        <td className="px-4 py-3 font-semibold text-accent">B1</td>
-                        <td className="px-4 py-3 text-ink-2">7</td>
-                        <td className="px-4 py-3 text-ink-2">Rain or Shine</td>
-                        <td className="px-4 py-3 text-ink">although / despite 对比转折</td>
-                        <td className="px-4 py-3 text-ink-2">Although...but / Despite of / Despite + 句子</td>
-                      </tr>
-                      <tr className="border-b border-line bg-paper-2">
-                        <td className="px-4 py-3 font-semibold text-accent">B1</td>
-                        <td className="px-4 py-3 text-ink-2">8</td>
-                        <td className="px-4 py-3 text-ink-2">Such a Busy Week</td>
-                        <td className="px-4 py-3 text-ink">so / such 加强描述</td>
-                        <td className="px-4 py-3 text-ink-2">so a beautiful park / such beautiful / so + 名词</td>
-                      </tr>
-                      <tr className="border-b border-line bg-paper-2">
-                        <td className="px-4 py-3 font-semibold text-accent">B1</td>
-                        <td className="px-4 py-3 text-ink-2">9</td>
-                        <td className="px-4 py-3 text-ink-2">Too Tired to Run</td>
-                        <td className="px-4 py-3 text-ink">too...to / enough</td>
-                        <td className="px-4 py-3 text-ink-2">too much tired / enough rich / I am not enough tall</td>
-                      </tr>
-                      <tr className="border-b border-line bg-paper-2">
-                        <td className="px-4 py-3 font-semibold text-accent">B1</td>
-                        <td className="px-4 py-3 text-ink-2">10</td>
-                        <td className="px-4 py-3 text-ink-2">Checking What We Heard</td>
-                        <td className="px-4 py-3 text-ink">反意疑问句 question tags</td>
-                        <td className="px-4 py-3 text-ink-2">You like it, is it? / She's tall, is she? / You don't like English, isn't it?</td>
-                      </tr>
-                      <tr className="bg-paper-2">
-                        <td className="px-4 py-3 font-semibold text-accent">B1</td>
-                        <td className="px-4 py-3 text-ink-2">11</td>
-                        <td className="px-4 py-3 text-ink-2">What Had Already Happened</td>
-                        <td className="px-4 py-3 text-ink">过去完成时 past perfect</td>
-                        <td className="px-4 py-3 text-ink-2">When I arrived, the bus left / I have finished before she came</td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
-              </>
-            )}
-
-            <div className="mt-6 bg-paper-2 border border-line rounded-xl p-5">
-              <p className="text-sm text-ink-2">
-                所有情境、人名、地点均为虚构。
-              </p>
-            </div>
-          </div>
-        </section>
-
-        <section className="py-12 md:py-16 bg-paper" id="contact">
+        {/* 8. Final CTA + enquiry */}
+        <section className="py-12 md:py-16 bg-paper-2">
           <div className="max-w-2xl mx-auto px-4">
-            <h2 className="font-serif font-semibold text-2xl md:text-3xl mb-3">报名咨询</h2>
+            <h2 className="font-serif font-semibold text-2xl md:text-3xl mb-2">
+              孩子进校第一天，要能开口，不只是会做卷
+            </h2>
             <p className="text-ink-2 mb-6">
-              留下微信号，顾问会联系您。也可以先 PayNow 94594601。
+              Your child should walk into a Singapore classroom able to queue, ask, and answer — not only fill blanks.
             </p>
-
-            <form onSubmit={handleSubmit} className="bg-card border border-line rounded-2xl p-6 shadow mb-6">
-              <div className="space-y-4">
-                <div>
-                  <label htmlFor="parentWechat" className="block text-sm font-semibold text-ink mb-1">
-                    家长微信号 <span className="text-accent">*</span>
-                  </label>
-                  <input
-                    id="parentWechat"
-                    type="text"
-                    required
-                    value={formData.parentWechat}
-                    onChange={(e) => {
-                      e.target.setCustomValidity("");
-                      setFormData({ ...formData, parentWechat: e.target.value });
-                    }}
-                    onInvalid={(e) => {
-                      e.preventDefault();
-                      const target = e.target as HTMLInputElement;
-                      if (target.validity.valueMissing) {
-                        target.setCustomValidity("请填写这一项");
-                      }
-                    }}
-                    className="w-full px-4 py-2.5 bg-paper border border-line rounded-xl text-ink focus:outline-none focus:ring-2 focus:ring-accent focus:border-accent"
-                    placeholder="您的微信号"
-                  />
-                </div>
-
-                <div>
-                  <label htmlFor="childBirthYear" className="block text-sm font-semibold text-ink mb-1">
-                    孩子哪年出生 <span className="text-accent">*</span>
-                  </label>
-                  <input
-                    id="childBirthYear"
-                    type="number"
-                    required
-                    min="2000"
-                    max={new Date().getFullYear()}
-                    value={formData.childBirthYear}
-                    onChange={(e) => {
-                      e.target.setCustomValidity("");
-                      setFormData({ ...formData, childBirthYear: e.target.value });
-                    }}
-                    onInvalid={(e) => {
-                      e.preventDefault();
-                      const target = e.target as HTMLInputElement;
-                      if (target.validity.valueMissing) {
-                        target.setCustomValidity("请填写这一项");
-                      } else if (target.validity.rangeUnderflow || target.validity.rangeOverflow) {
-                        target.setCustomValidity("请填写 2000 年或以后的出生年");
-                      }
-                    }}
-                    className="w-full px-4 py-2.5 bg-paper border border-line rounded-xl text-ink focus:outline-none focus:ring-2 focus:ring-accent focus:border-accent"
-                    placeholder="例如：2015"
-                  />
-                </div>
-
-                <div>
-                  <label htmlFor="stage" className="block text-sm font-semibold text-ink mb-1">
-                    打算申请哪个年级 <span className="text-accent">*</span>
-                  </label>
-                  <select
-                    id="stage"
-                    required
-                    value={formData.stage}
-                    onChange={(e) => {
-                      e.target.setCustomValidity("");
-                      setFormData({ ...formData, stage: e.target.value });
-                    }}
-                    onInvalid={(e) => {
-                      e.preventDefault();
-                      const target = e.target as HTMLSelectElement;
-                      if (target.validity.valueMissing) {
-                        target.setCustomValidity("请填写这一项");
-                      }
-                    }}
-                    className="w-full px-4 py-2.5 bg-paper border border-line rounded-xl text-ink focus:outline-none focus:ring-2 focus:ring-accent focus:border-accent"
-                  >
-                    <option value="">请选择</option>
-                    <optgroup label="小学">
-                      <option value="P2">P2</option>
-                      <option value="P3">P3</option>
-                      <option value="P4">P4</option>
-                      <option value="P5">P5</option>
-                    </optgroup>
-                    <optgroup label="中学">
-                      <option value="Sec1">Sec 1</option>
-                      <option value="Sec2">Sec 2</option>
-                      <option value="Sec3">Sec 3</option>
-                    </optgroup>
-                  </select>
-                </div>
-
-                <div>
-                  <label htmlFor="intent" className="block text-sm font-semibold text-ink mb-1">
-                    {formData.stage === "Sec1" || formData.stage === "Sec2" || formData.stage === "Sec3" 
-                      ? "中学 AEIS 咨询"
-                      : "报名意向"} <span className="text-accent">*</span>
-                  </label>
-                  <select
-                    id="intent"
-                    required
-                    value={formData.intent}
-                    onChange={(e) => {
-                      e.target.setCustomValidity("");
-                      setFormData({ ...formData, intent: e.target.value });
-                    }}
-                    onInvalid={(e) => {
-                      e.preventDefault();
-                      const target = e.target as HTMLSelectElement;
-                      if (target.validity.valueMissing) {
-                        target.setCustomValidity("请填写这一项");
-                      }
-                    }}
-                    className="w-full px-4 py-2.5 bg-paper border border-line rounded-xl text-ink focus:outline-none focus:ring-2 focus:ring-accent focus:border-accent"
-                  >
-                    <option value="">请选择</option>
-                    <option value="a2-12week">CEQ 英语作业（RMB 2,680 / 12 周）</option>
-                  </select>
-                </div>
-
-                {formStatus.type && (
-                  <div
-                    className={`text-sm rounded-lg px-4 py-3 ${
-                      formStatus.type === "success"
-                        ? "bg-accent/10 text-accent border border-accent/20"
-                        : "bg-warn-bg text-warn-ink border border-warn-ink/20"
-                    }`}
-                  >
-                    {formStatus.message}
-                  </div>
-                )}
-
-                <button
-                  type="submit"
-                  disabled={isSubmitting}
-                  className="w-full bg-accent text-accent-ink font-semibold py-3 rounded-full hover:bg-accent-hover transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
-                >
-                  {isSubmitting ? "提交中..." : "提交咨询"}
-                </button>
-              </div>
-            </form>
-
-            <div className="grid md:grid-cols-2 gap-4 mb-6">
-              <div className="bg-paper-2 border border-line rounded-xl p-5">
-                <h3 className="font-serif font-semibold text-base mb-2 text-ink">联络方式</h3>
-                <p className="text-sm text-ink-2 mb-1">
-                  PayNow：{payNowNumber}（手机号）
-                </p>
-              </div>
-
-              <div className="bg-paper-2 border border-line rounded-xl p-5">
-                <h3 className="font-serif font-semibold text-base mb-2 text-ink">免费试学</h3>
-                <p className="text-sm text-ink-2">
-                  现在就打开<Link href="/小学" className="text-accent hover:underline">小学</Link>，不用登录先看作业长什么样。
-                </p>
-              </div>
+            <div className="flex flex-wrap gap-3 mb-10">
+              <Link
+                href="/trial/A2"
+                className="inline-flex px-6 py-3.5 bg-accent text-accent-ink font-semibold rounded-full"
+              >
+                立即免费试学
+              </Link>
+              <Link href="/assess" className="inline-flex px-6 py-3.5 border border-accent rounded-full font-semibold">
+                按年级摸底
+              </Link>
             </div>
-
-            <div className="bg-accent/5 border border-accent/20 rounded-xl p-5">
-              <p className="text-sm text-ink-2 mb-2">
-                <strong className="text-ink">考试单独报名：</strong>CEQ 考试本身在剑桥授权考点报名，不含在作业包内。
-              </p>
-              <p className="text-xs text-ink-2">
-                <strong className="text-ink">隐私说明：</strong>
-                我们仅收集您的微信号用于咨询回复，不会公开或出售给第三方。您可随时要求删除。详见
-                <Link href="/privacy" className="text-accent hover:underline ml-1">隐私政策</Link>。
-              </p>
-            </div>
+            <h3 className="font-serif font-semibold text-xl mb-2">留下微信，顾问联系您</h3>
+            <p className="text-sm text-ink-2 mb-4">
+              也可以先 PayNow 94594601。我们只用微信号回复咨询，不出售给第三方。
+            </p>
+            <LandingEnquiry />
           </div>
         </section>
       </main>
 
       <footer className="border-t border-line py-8 bg-paper">
-        <div className="max-w-7xl mx-auto px-4">
-          <div className="flex flex-wrap gap-4 text-sm text-muted">
-            <span>狮城入学</span>
-            <Link href="/小学" className="hover:text-ink transition-colors">
-              小学
-            </Link>
-            <Link href="/privacy" className="hover:text-ink transition-colors">
-              隐私政策
-            </Link>
-            <a
-              href="https://www.moe.gov.sg/international-students/aeis"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:text-ink transition-colors"
-            >
-              MOE AEIS
-            </a>
-            <a
-              href="https://www.seab.gov.sg/aeis/about-aeis/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:text-ink transition-colors"
-            >
-              SEAB
-            </a>
-            <a
-              href="https://www.assessment.sg/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:text-ink transition-colors"
-            >
-              Cambridge 考点
-            </a>
-          </div>
+        <div className="max-w-7xl mx-auto px-4 flex flex-wrap gap-4 text-sm text-muted">
+          <span>狮城入学</span>
+          <Link href="/小学" className="hover:text-ink">
+            小学
+          </Link>
+          <Link href="/中学" className="hover:text-ink">
+            中学
+          </Link>
+          <Link href="/curriculum" className="hover:text-ink">
+            课纲
+          </Link>
+          <Link href="/privacy" className="hover:text-ink">
+            隐私政策
+          </Link>
+          <a href="https://www.moe.gov.sg/international-students/aeis" target="_blank" rel="noreferrer" className="hover:text-ink">
+            MOE AEIS
+          </a>
+          <a href="https://www.seab.gov.sg/aeis/about-aeis/" target="_blank" rel="noreferrer" className="hover:text-ink">
+            SEAB
+          </a>
+          <a href="https://www.assessment.sg/" target="_blank" rel="noreferrer" className="hover:text-ink">
+            Cambridge 考点
+          </a>
         </div>
       </footer>
     </>
