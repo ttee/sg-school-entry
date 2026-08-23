@@ -26,7 +26,10 @@ BEATS: list[tuple[float, float, str, str]] = [
     ),
     (2.76, 5.30, "mei", "Yes, that is mine, that is the bottle."),
     (5.38, 7.16, "auntie", "Here you are, this is yours."),
-    (7.20, 8.52, "priya", "That is yours, Mei."),
+    # Both mouths open 7.5–8.7s — mix these two at once.
+    (7.18, 8.70, "priya", "That is yours, Mei!"),
+    (7.42, 8.70, "mei", "Yes, that is mine!"),
+    # Mei's remaining mouth (fist / point / thank you) after the overlap.
     (8.54, 10.02, "mei", "Thank you Aunty Tan."),
 ]
 
@@ -91,10 +94,17 @@ async def mix_beats(beats: list[tuple[float, float, str, str]], target: float) -
         cmd += ["-i", str(p)]
     n = len(fitted)
     parts: list[str] = []
+    overlapping = set()
+    for i, (s1, e1, _, _) in enumerate(beats):
+        for j, (s2, e2, _, _) in enumerate(beats):
+            if i < j and s1 < e2 and s2 < e1:
+                overlapping.add(i)
+                overlapping.add(j)
     for i, start in enumerate(starts):
         ms = int(round(start * 1000))
+        vol = "volume=0.88," if i in overlapping else ""
         parts.append(
-            f"[{i}]adelay={ms}|{ms},apad,atrim=0:{target:.3f}[a{i}]"
+            f"[{i}]{vol}adelay={ms}|{ms},apad,atrim=0:{target:.3f}[a{i}]"
         )
     mix_in = "".join(f"[a{i}]" for i in range(n))
     parts.append(

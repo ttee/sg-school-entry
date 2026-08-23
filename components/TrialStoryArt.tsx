@@ -29,10 +29,10 @@ const PAIRS: Record<StoryKey, Pair> = {
     },
     form: {
       poster: "/trial/a2-w0-counter.jpg",
-      video: "/trial/a2-w0-counter.mp4?v=officetimed1",
+      video: "/trial/a2-w0-counter.mp4?v=officetimed2",
       titleZh: "第 2 段 · Lost & Found 柜台",
-      captionZh: "Aunty Tan 问这是不是 Mei 的瓶子。Mei 说是她的。Priya 帮她确认。Mei 道谢。",
-      captionEn: "Aunty Tan: Is this your white bottle with the pink flower?  Mei: Yes, that is mine, that is the bottle.  Aunty Tan: Here you are, this is yours.  Priya: That is yours, Mei.  Mei: Thank you, Aunty Tan.",
+      captionZh: "Aunty Tan 问这是不是 Mei 的瓶子。Mei 说是她的。Mei 和 Priya 一起说 mine / yours。然后 Mei 道谢。",
+      captionEn: "Aunty Tan: Is this your white bottle with the pink flower?  Mei: Yes, that is mine, that is the bottle.  Aunty Tan: Here you are, this is yours.  Mei and Priya together: Yes, that is mine! / That is yours, Mei!  Mei: Thank you, Aunty Tan.",
     },
   },
   "A2-1": {
