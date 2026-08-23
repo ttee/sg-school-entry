@@ -9,7 +9,7 @@ const LINKS = [
   { href: "/curriculum/papers", label: "试卷结构" },
   { href: "/curriculum/sow", label: "进度表" },
   { href: "/curriculum/ixl", label: "周计划" },
-  { href: "/curriculum/stories", label: "77 故事" },
+  { href: "/curriculum/stories", label: "课文" },
   { href: "/curriculum/context", label: "新加坡语境" },
   { href: "/curriculum/vocab", label: "词汇" },
   { href: "/curriculum/grammar", label: "语法" },

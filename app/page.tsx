@@ -19,7 +19,6 @@ function story(n: number) {
   return null;
 }
 
-const STORY_COUNT = THEMES.reduce((n, t) => n + t.stories.length, 0);
 const LOST = story(2);
 const MRT = story(38);
 
@@ -62,7 +61,7 @@ const PILLARS = [
 ];
 
 const ROADMAP = [
-  { m: "头两个月", t: "先开口", d: "新加坡小故事，冠词和时态。一周只改一个中国孩子常犯的错。" },
+  { m: "头两个月", t: "先开口", d: "校园课文，冠词和时态。一周只改一个中国孩子常犯的错。" },
   { m: "第三、四个月", t: "对准试卷", d: "阅读、完形、短写作、跟读。小学这条线是为了拿 CEQ 成绩单。" },
   { m: "第五、六个月", t: "限时", d: "小学数学，或中学英语加数学。按申请年级的前一级来练。" },
 ];
@@ -99,7 +98,7 @@ const HABITS = [
     titleZh: "华文保持，英语加码",
     body: "母语课孩子有底。作业时间留给英语和数学。",
     href: "/curriculum/stories",
-    cta: "看故事",
+    cta: "看课文",
   },
 ];
 
@@ -107,7 +106,7 @@ const FAMILY_PATHS = [
   {
     tag: "人还在中国",
     title: "先考英语，再飞去考数学",
-    body: "申请小学的，在国内考 CEQ。故事、语法、数学摸底在家里做。数学那一卷，仍要去新加坡考。",
+    body: "申请小学的，在国内考 CEQ。课文、语法、数学摸底在家里做。数学那一卷，仍要去新加坡考。",
     next: "打开小学试学",
     href: "/trial/A2",
   },
@@ -153,7 +152,7 @@ const FAQS = [
   },
   {
     q: "这跟去补习班有什么不一样？",
-    a: "每天在家做：故事、选择题、你能看见对错。一周改一个习惯。教室课往往一周两次，你问今天学了什么，孩子说不上来。",
+    a: "每天在家做：课文、选择题、你能看见对错。一周改一个习惯。教室课往往一周两次，你问今天学了什么，孩子说不上来。",
   },
   {
     q: "做完作业就一定有学位吗？",
@@ -184,7 +183,7 @@ export default function HomePage() {
                 孩子进新加坡学校，先会在食堂开口
               </h1>
               <p className="text-ink-2 mb-5 max-w-xl">
-                小学：国内先过英语，再到新加坡考数学。中学：英语作文加五十题，再加数学。故事里有 Lost and Found、recess、鸡饭。打开就能试。
+                小学：国内先过英语，再到新加坡考数学。中学：英语作文加五十题，再加数学。课文里有 Lost and Found、recess、鸡饭。打开就能试。
               </p>
               <div className="flex flex-wrap gap-3 mb-4">
                 <Link
@@ -206,7 +205,7 @@ export default function HomePage() {
               <p className="text-xs text-muted mb-5">不用登录就能试。顾问开通后按周交作业。</p>
               <ul className="flex flex-wrap gap-2 text-xs">
                 {[
-                  `${STORY_COUNT} 个新加坡故事`,
+                  "校园课文",
                   "P2 到中三摸底",
                   "家长看中文",
                   "顾问微信",
@@ -351,14 +350,14 @@ export default function HomePage() {
           </div>
         </section>
 
-        {/* 3. 77 stories */}
+        {/* 3. Weekly passages */}
         <section className="py-12 md:py-16 bg-paper-2">
           <div className="max-w-7xl mx-auto px-4">
             <h2 className="font-serif font-semibold text-2xl md:text-3xl mb-3">
-              {STORY_COUNT} 个小故事
+              每周课文
             </h2>
             <p className="text-ink-2 mb-8 max-w-2xl">
-              听一遍，说两句，再做阅读。一周只钉一两个语法点，不一次灌完。
+              听一遍，跟读两句，再做阅读。一周只钉一两个语法点。
             </p>
             <div className="grid md:grid-cols-2 gap-4 mb-6">
               {LOST && (
@@ -366,7 +365,7 @@ export default function HomePage() {
                   href={LOST.href ?? "/curriculum/stories/2"}
                   className="bg-card border border-line rounded-2xl p-6 hover:border-accent"
                 >
-                  <p className="text-xs font-semibold text-accent mb-1">故事 {LOST.n}</p>
+                  <p className="text-xs font-semibold text-accent mb-1">课文 {LOST.n}</p>
                   <h3 className="font-serif font-semibold text-xl mb-2">{LOST.title}</h3>
                   <p className="text-sm text-ink-2 mb-3">{LOST.focus}</p>
                   <p className="text-sm">
@@ -383,7 +382,7 @@ export default function HomePage() {
                   href={`/curriculum/stories/${MRT.n}`}
                   className="bg-card border border-line rounded-2xl p-6 hover:border-accent"
                 >
-                  <p className="text-xs font-semibold text-accent mb-1">故事 {MRT.n}</p>
+                  <p className="text-xs font-semibold text-accent mb-1">课文 {MRT.n}</p>
                   <h3 className="font-serif font-semibold text-xl mb-2">{MRT.title}</h3>
                   <p className="text-sm text-ink-2 mb-3">{MRT.focus}</p>
                   <p className="text-sm">
@@ -412,7 +411,7 @@ export default function HomePage() {
               href="/curriculum/stories"
               className="inline-flex px-6 py-3 border border-accent rounded-full font-semibold"
             >
-              看全部 {STORY_COUNT} 个新加坡故事
+              看课文目录
             </Link>
           </div>
         </section>
@@ -537,7 +536,7 @@ export default function HomePage() {
                 <h3 className="font-serif text-2xl font-semibold mb-2">免费</h3>
                 <p className="text-sm text-ink-2 mb-4">打开就能做，不用登录。小学英语 / 中学英语 / 数学各有试学周。</p>
                 <ul className="text-sm space-y-2 mb-6">
-                  <li>Lost and Found 故事视频</li>
+                  <li>Lost and Found 试学视频</li>
                   <li>本周选择题与短写作</li>
                   <li>P2–S3 摸底 MCQ</li>
                 </ul>
@@ -553,7 +552,7 @@ export default function HomePage() {
                 <h3 className="font-serif text-2xl font-semibold mb-2">2680 元</h3>
                 <p className="text-sm text-ink-2 mb-4">付给顾问。一个周期大约十二周。</p>
                 <ul className="text-sm space-y-2 mb-6">
-                  <li>本年级周作业（故事 + 语法焦点 + 读写）</li>
+                  <li>本年级周作业（课文 + 语法焦点 + 读写）</li>
                   <li>摸底与限时卷</li>
                   <li>口语跟读与写作反馈（开通后）</li>
                   <li>顾问微信 · 家长中文说明</li>

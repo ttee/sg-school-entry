@@ -41,7 +41,7 @@ export default function SingaporeContextPage() {
         </table>
       </div>
 
-      <h2 className="font-serif font-semibold text-xl mb-3">十个场景 · 对上故事课</h2>
+      <h2 className="font-serif font-semibold text-xl mb-3">十个场景 · 对上课文</h2>
       <div className="space-y-5 mb-10">
         {CONTEXT_TOPICS.map((t) => (
           <article key={t.id} className="bg-card border border-line rounded-2xl p-5">
@@ -67,7 +67,7 @@ export default function SingaporeContextPage() {
               ))}
             </ul>
             <Link href={t.href} className="text-sm text-accent font-semibold">
-              打开故事 {t.story} →
+              打开课文 {t.story} →
             </Link>
           </article>
         ))}
@@ -78,7 +78,7 @@ export default function SingaporeContextPage() {
           试学：Aunty Tan 失物招领
         </Link>
         <Link href="/curriculum/stories" className="px-5 py-2.5 border border-accent rounded-full font-semibold">
-          77 个新加坡故事
+          课文目录
         </Link>
       </div>
     </>

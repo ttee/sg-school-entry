@@ -20,7 +20,7 @@ function Plan({
               <th className="text-left px-3 py-2">周</th>
               <th className="text-left px-3 py-2">技能码</th>
               <th className="text-left px-3 py-2">主题</th>
-              <th className="text-left px-3 py-2">故事</th>
+              <th className="text-left px-3 py-2">课文</th>
               <th className="text-left px-3 py-2">作文</th>
               <th className="text-left px-3 py-2">理解 / 完形</th>
               <th className="text-left px-3 py-2">入口</th>
@@ -68,7 +68,7 @@ export default function IxlPage() {
       <p className="text-sm mb-8">
         技能码 <span className="font-mono">SGE.*</span> 是本站课号，对应语法钻、完形、限时卷和{" "}
         <Link href="/curriculum/stories" className="text-accent font-semibold">
-          77 个新加坡故事
+          校园课文
         </Link>
         。P4 冲 A2 Key CES 130+；S1 冲作文 200–300 + 语言 50 题（理解 15 / 完形 15 / 词汇 10 / 语法 10）。
       </p>

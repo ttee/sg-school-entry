@@ -19,7 +19,7 @@ export type Theme = {
 };
 
 export const CYCLE = [
-  { step: "1. Listen + Watch", do: "听本站故事或跟读台词。看图：canteen, recess, MRT。" },
+  { step: "1. Listen + Watch", do: "听本课录音或跟读。看图：canteen, recess, MRT。" },
   { step: "2. Speak + Roleplay", do: "分角色演。练问句、情态动词、礼貌用语。轮流说，听不懂就问一遍。" },
   { step: "3. Read + Answer", do: "短篇理解 + 完形。对准 CEQ 阅读 / AEIS 理解与完形。" },
   { step: "4. Write + Reflect", do: "P2–P5 写 80–100 词；S1 写 200–300 词。只改本课 1–2 个语法点。" },

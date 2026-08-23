@@ -30,7 +30,7 @@ export default async function StoryPage({
     <>
       <CurriculumNav current="/curriculum/stories" />
       <p className="text-xs font-semibold text-accent mb-1">
-        课 {story.n} / 77 · {theme?.title}
+        课文 {story.n} · {theme?.title}
       </p>
       <h1 className="font-serif font-semibold text-3xl mb-2">{story.title}</h1>
       <p className="text-ink-2 mb-6">{story.focus}</p>
@@ -70,7 +70,7 @@ export default async function StoryPage({
         </section>
       )}
 
-      <h2 className="font-serif font-semibold text-lg mb-3">Immersion cycle</h2>
+      <h2 className="font-serif font-semibold text-lg mb-3">本课四步</h2>
       <ol className="space-y-2 mb-8 text-sm">
         {CYCLE.map((c) => (
           <li key={c.step}>
@@ -95,7 +95,7 @@ export default async function StoryPage({
           Unlock 12 weeks
         </Link>
         <Link href="/curriculum/stories" className="px-5 py-2.5 border border-line rounded-full">
-          All 77
+          课文目录
         </Link>
       </div>
 

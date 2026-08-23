@@ -7,10 +7,10 @@ export default function StoriesPage() {
     <>
       <CurriculumNav current="/curriculum/stories" />
       <h1 className="font-serif font-semibold text-3xl mb-3">
-        77 个新加坡校园故事（沉浸法）
+        校园课文
       </h1>
       <p className="text-ink-2 mb-4 max-w-2xl leading-relaxed">
-        CEQ 要听说读写，AEIS 英语要作文、理解、完形、语法、词汇。最快的路是用新加坡学校和家庭里的小故事练开口、语法和文化词：recess, canteen, CCA, Aunty, MRT。
+        小学 CEQ 要听说读写，中学 AEIS 英语要作文、理解、完形、语法、词汇。课文用食堂、小息、CCA、MRT 这些学校里会碰到的词，对准当周语法。
       </p>
       <p className="text-sm mb-8">
         每课四步：听 → 角色扮演 → 阅读完形 → 写 80–100 词（中学 200–300）。语法一次只钉 1–2 点。人设沿用 Mei、Priya、Wei、Aisha、Aunty Tan。
