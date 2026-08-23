@@ -16,6 +16,17 @@ export const TERMS: { en: string; zh: string; mean: string }[] = [
   { en: "Candidates Portal (CP)", zh: "考生门户", mean: "AEIS 网上报名与上传文件。" },
 ];
 
+export const PARENT_SNIPPET = [
+  {
+    title: "CEQ（剑桥英语认证）",
+    body: "报考新加坡公立小学（P2–P5）的学生必须先通过 CEQ 考试（A2 Key 或 B1 Preliminary），并达到新加坡教育部（MOE）规定的最低分数要求后，方可注册 AEIS 数学考试。",
+  },
+  {
+    title: "AEIS（国际学生入学考试）",
+    body: "由新加坡教育部统考，包含数学与英文（中学阶段）。英文科测试重点为「实用英语」（Functional English），内容通常对准申请年级的前一级。",
+  },
+];
+
 export const PATH_PRIMARY = [
   "用孩子出生年份在 MOE 年龄核对器确认：考哪一级、哪一种 CEQ、最低 CES。",
   "倒推 12 个月：2026 年 AEIS 小学申请，CEQ 须在 2025 年 7 月及以后考。成绩要赶得上申请月。",

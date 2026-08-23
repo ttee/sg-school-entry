@@ -4,7 +4,18 @@ export const A2_SOW: SowRow[] = [
   { week: 0, titleZh: "试学 · 失物招领", errorFocus: "a / an / the；Is this your…?", skillId: "skill-articles", ixlCode: "ELA.ART.1", ixlFamily: "Articles", examPart: "A2 Key Reading 3 + 4/5 cloze；Writing Part 6 email", homework: "/trial/A2" },
   { week: 1, titleZh: "日常作息", errorFocus: "she wakes；What time…?", skillId: "skill-present-simple", ixlCode: "ELA.SVA.1", ixlFamily: "Subject-verb agreement", examPart: "A2 Key Reading 4；Speaking Part 1", homework: "/trial/A2/1" },
   { week: 2, titleZh: "学校生活", errorFocus: "I am painting now", skillId: "skill-present-continuous", ixlCode: "ELA.TNS.2", ixlFamily: "Present continuous", examPart: "A2 Key Reading 4", homework: "/learn" },
-  { week: 3, titleZh: "家庭与朋友", errorFocus: "yesterday I went", skillId: "skill-past-simple", ixlCode: "ELA.TNS.3", ixlFamily: "Past simple", examPart: "A2 Key Writing 7 (picture story stretch)", homework: "/learn" },
+  {
+    week: 3,
+    titleZh: "P4 W3 · 叙事连接与完形",
+    errorFocus: "Yesterday I go… → went / saw；and / but / so",
+    skillId: "skill-past-simple",
+    ixlCode: "G.2",
+    ixlFamily: "Coordinating conjunctions",
+    ixlCodes: ["G.2", "V.1"],
+    examPart: "A2 Key Writing Part 7 & Reading Part 4",
+    homework: "/curriculum/grammar/linkers",
+    deliverable: "1 A2 cloze + 1 guided 100-word story draft",
+  },
   { week: 4, titleZh: "购物与食物", errorFocus: "some / any；rice 不可数", skillId: "skill-quantifiers", ixlCode: "ELA.QNT.1", ixlFamily: "Count / non-count", examPart: "A2 Key Reading 5 open cloze", homework: "/learn" },
   { week: 5, titleZh: "运动会", errorFocus: "faster than / the tallest", skillId: "skill-comparatives", ixlCode: "ELA.CMP.1", ixlFamily: "Comparatives", examPart: "A2 Key Reading 4", homework: "/learn" },
   { week: 6, titleZh: "放学与周末", errorFocus: "at / in / on 时间", skillId: "skill-prep-time", ixlCode: "ELA.PREP.T", ixlFamily: "Time prepositions", examPart: "A2 Key Reading 5；Listening 3", homework: "/learn" },
@@ -44,6 +55,17 @@ export const SEC_SOW: SowRow[] = [
   { week: 10, titleZh: "程度", errorFocus: "too vs enough", skillId: null, ixlCode: "ELA.TOO.1", ixlFamily: "Too / enough", examPart: "AEIS transformation", homework: "/learn" },
   { week: 11, titleZh: "少量", errorFocus: "a few vs a little", skillId: null, ixlCode: "ELA.QNT.3", ixlFamily: "Few / little", examPart: "AEIS cloze", homework: "/learn" },
 ];
+
+export const P4_WEEK3 = {
+  titleZh: "Primary 4 · Week 3 Module",
+  topic: "Narrative Transitions & Cloze Skills",
+  ceq: "A2 Key Writing Part 7 & Reading Part 4",
+  ixl: [
+    { code: "G.2", name: "Use coordinating conjunctions" },
+    { code: "V.1", name: "Determine the meaning of words using synonyms in context" },
+  ],
+  deliverable: "Complete 1 Cambridge A2 practice cloze test + 1 guided 100-word story draft.",
+} as const;
 
 export const SOW_TRACKS = [
   { id: "A2", titleZh: "小学 CEQ · A2 Key for Schools（P2–P4 主路径）", rows: A2_SOW },

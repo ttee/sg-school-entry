@@ -187,7 +187,16 @@ export default function McqPaper({
             <p className="text-xs font-semibold text-accent mb-2">
               {i + 1} / {paper.items.length}
             </p>
-            <p className="text-ink mb-3 leading-relaxed whitespace-pre-line">{item.prompt}</p>
+            <p className="text-ink mb-3 leading-relaxed whitespace-pre-line">
+              {item.highlight
+                ? item.prompt.split(item.highlight).map((chunk, ci, arr) => (
+                    <span key={ci}>
+                      {chunk}
+                      {ci < arr.length - 1 && <u className="font-semibold decoration-2">{item.highlight}</u>}
+                    </span>
+                  ))
+                : item.prompt}
+            </p>
             <div className="space-y-2">
               {item.options.map((opt, oi) => (
                 <label

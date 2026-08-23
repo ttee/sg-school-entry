@@ -4,14 +4,25 @@ export const WORD_TARGETS = [
   { level: "S3", min: 300, max: 400, minutes: 40, focus: "controlled linkers; no although…but" },
 ] as const;
 
+export const S1_PROMPT =
+  "Write about a time you made a mistake and what you learned from it.";
+
 export const NARRATIVE_FRAME = {
-  titleZh: "记叙文五步",
+  titleZh: "S1 AEIS · 三段记叙（200–300 words）",
+  prompt: S1_PROMPT,
   steps: [
-    { name: "Opening 1–2 sentences", do: "Who, where, when. Past tense. Do not start with I go to school every day if the story is one afternoon." },
-    { name: "Problem", do: "What went wrong. One problem only." },
-    { name: "Action", do: "What the character did. Keep past simple. Sense words: heard the bell, felt thirsty." },
-    { name: "Turning point", do: "Help arrives or the character notices something (Lost and Found, a teacher, a friend)." },
-    { name: "Ending", do: "Result + a short reflection: I will zip my bag next time. No new plot." },
+    {
+      name: "Paragraph 1 · Introduction (10–20%)",
+      do: "Set the scene: time and place. Add a hook. Past tense. About 30–50 words.",
+    },
+    {
+      name: "Paragraph 2 · Rising action and climax (50–60%)",
+      do: "The mistake / conflict. Sensory detail (heard the bell, felt the rain). This is the longest paragraph.",
+    },
+    {
+      name: "Paragraph 3 · Resolution and reflection (20–30%)",
+      do: "How it was solved. One moral, one sentence. No new plot. Check word count 200–300.",
+    },
   ],
 };
 
@@ -26,6 +37,17 @@ export const EXPOSITORY_FRAME = {
 };
 
 export const MODELS = [
+  {
+    level: "S1",
+    type: "narrative" as const,
+    title: "A Time I Made a Mistake",
+    words: 252,
+    text: `Last March, on a wet Tuesday at Bedok Primary, I left my water bottle on the PE field. Recess had just started. I was in a hurry to buy chicken rice, so I ran towards the canteen without checking my bag.
+
+In the queue I felt thirsty and opened the bag. The white bottle with the pink flower was not there. My hands were empty. The field smelled of rain and cut grass. I wanted to cry, but Priya pulled me to Lost and Found. Auntie Tan held up the bottle. “Is this yours?” I said yes. I had made a simple mistake: I did not zip my bag after PE.
+
+I thanked Auntie Tan and walked back slowly. I still think about that recess. Now I count three things before I leave a place: bag zipped, bottle inside, name sticker showing. A small check takes ten seconds. Losing the bottle taught me that rushing is not the same as being ready.`,
+  },
   {
     level: "S1",
     type: "narrative" as const,

@@ -51,11 +51,12 @@ export const B1_SPEAKING = {
       ],
     },
     {
-      name: "Part 2 · Extended turn (photo)",
-      do: "One photo each, about 1 minute. Describe, then say how the people feel and why.",
+      name: "Part 2 · Individual long turn (1 minute)",
+      do: "Interlocutor: “Now, I’d like each of you to talk on your own about a picture. Here is a photograph showing people studying together.” Speak for 1 minute.",
       prompts: [
-        "Describe the photo of the canteen.",
-        "How do the students feel? Why?",
+        "Where the people are (for example a library or a classroom).",
+        "What they are doing and what materials they are using.",
+        "How they might be feeling.",
       ],
     },
     {

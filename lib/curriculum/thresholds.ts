@@ -25,10 +25,10 @@ export const CES_GATES = [
   },
   {
     level: "P4",
-    test: "B1 Preliminary for Schools",
+    test: "A2 Key for Schools",
     targetCes: 130,
-    band: "A2 high / approaching B1",
-    noteZh: "P4 通常考 PET。130 仍低于 B1 及格 140，是工作室冲刺带。",
+    band: "A2 Key Grade C high (130+)",
+    noteZh: "P4 入学摸底按 A2 Key 对照带 130+。正式考哪种 CEQ 以 MOE 年龄核对器为准。",
   },
   {
     level: "P5",

@@ -5,16 +5,27 @@ import {
   PATH_SECONDARY,
   DEADLINE_NOTES,
   MOE_LINKS,
+  PARENT_SNIPPET,
 } from "@/lib/curriculum/guide";
 
 export default function GuideCurriculumPage() {
   return (
     <>
       <CurriculumNav current="/curriculum/guide" />
-      <h1 className="font-serif font-semibold text-3xl mb-3">家长手册与术语</h1>
-      <p className="text-ink-2 mb-8 max-w-2xl leading-relaxed">
+      <h1 className="font-serif font-semibold text-3xl mb-3">新加坡 AEIS / CEQ 考试指南</h1>
+      <p className="text-ink-2 mb-6 max-w-2xl leading-relaxed">
         给中国家长的路径说明。政策以 MOE / SEAB 当年页面为准。本站不代报 CEQ，也不承办 AEIS 考场。
       </p>
+
+      <section className="bg-card border border-accent/40 rounded-2xl p-5 mb-10">
+        <h2 className="font-serif font-semibold text-xl mb-3">摘要</h2>
+        {PARENT_SNIPPET.map((s) => (
+          <div key={s.title} className="mb-4 last:mb-0">
+            <p className="font-semibold">{s.title}</p>
+            <p className="text-sm text-ink-2 leading-relaxed mt-1">{s.body}</p>
+          </div>
+        ))}
+      </section>
 
       <h2 className="font-serif font-semibold text-xl mb-3">小学路径</h2>
       <ol className="list-decimal pl-5 text-sm text-ink-2 space-y-2 mb-8">

@@ -7,6 +7,7 @@ export type McqItem = {
   correct: number;
   errorId: string;
   why: string;
+  highlight?: string;
 };
 
 export type Paper = {
@@ -27,8 +28,10 @@ export type SowRow = {
   skillId: string | null;
   ixlCode: string;
   ixlFamily: string;
+  ixlCodes?: string[];
   examPart: string;
   homework: string;
+  deliverable?: string;
 };
 
 export type VocabModule = {

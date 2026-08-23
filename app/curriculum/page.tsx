@@ -37,8 +37,29 @@ export default function CurriculumHome() {
       </h1>
       <p className="text-ink-2 mb-6 max-w-2xl leading-relaxed">
         小学先过剑桥英语门槛，再考 AEIS 数学。中学直接考 AEIS 英语和数学。
-        下面四块对应顾问课表；试学周现在就能做。
+        P4 摸底目标 CES <strong>130+</strong>（A2 Key）。先做 postpone 词汇题，再对照错误矩阵。
       </p>
+
+      <div className="grid sm:grid-cols-2 gap-3 mb-8">
+        {[
+          { href: "/curriculum/diagnostic/p4", label: "1a P4 摸底 · postpone = put off" },
+          { href: "/curriculum/errors", label: "1b 时态 / 冠词 / 搭配矩阵" },
+          { href: "/curriculum/sow", label: "2a P4 W3 · G.2 + V.1" },
+          { href: "/curriculum/grammar/linkers", label: "2b however / therefore / in addition" },
+          { href: "/curriculum/writing", label: "3a S1 三段作文 200–300" },
+          { href: "/curriculum/speaking", label: "3b B1 照片 1 分钟" },
+          { href: "/curriculum/tracker", label: "4a Li Wei / Zhang Min 成绩表" },
+          { href: "/curriculum/guide", label: "4b 家长摘要（简体）" },
+        ].map((x) => (
+          <Link
+            key={x.href}
+            href={x.href}
+            className="text-sm px-4 py-3 bg-card border border-line rounded-xl hover:border-accent"
+          >
+            {x.label}
+          </Link>
+        ))}
+      </div>
 
       <div className="overflow-x-auto mb-8">
         <table className="w-full text-sm border border-line rounded-xl overflow-hidden bg-card">

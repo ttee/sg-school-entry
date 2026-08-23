@@ -6,9 +6,10 @@ function q(
   options: string[],
   correct: number,
   errorId: string,
-  why: string
+  why: string,
+  highlight?: string
 ): McqItem {
-  return { id, prompt, options, correct, errorId, why };
+  return { id, prompt, options, correct, errorId, why, highlight };
 }
 
 const P2: McqItem[] = [
@@ -42,6 +43,15 @@ const P3: McqItem[] = [
 ];
 
 const P4: McqItem[] = [
+  q(
+    "p4-0",
+    "Read the sentence below and choose the word that best replaces the underlined word.\nThe school principal decided to postpone the sports day because of the heavy rain.",
+    ["cancel", "put off", "call off", "speed up"],
+    1,
+    "collocation",
+    "postpone = put off（推迟）。cancel / call off = 取消。speed up 是反义。",
+    "postpone"
+  ),
   q("p4-1", "I have been at this school ___ June.", ["since", "for", "during", "from"], 0, "present-perfect", "since + 起点。"),
   q("p4-2", "If it ___, Sports Day will move indoors.", ["will rain", "rains", "rained", "rain"], 1, "if-when", "if + 现在时，主句 will。"),
   q("p4-3", "Plastic ___ in the blue bin.", ["recycles", "is recycled", "recycled", "recycling"], 1, "tense-shift", "被动：is recycled。"),
@@ -113,9 +123,9 @@ export const DIAGNOSTIC_PAPERS: Paper[] = [
   },
   {
     id: "p4",
-    titleZh: "P4 入学英语摸底",
-    blurb: "对照工作室目标 CES 130（B1 Preliminary 试卷）。12 题。",
-    track: "B1",
+    titleZh: "P4 入学英语摸底（AEIS / CEQ Prep）",
+    blurb: "对照工作室目标 CES 130+（A2 Key）。含 AEIS P4/5 词汇语境题。13 题。",
+    track: "A2",
     intended: "P4",
     targetCes: 130,
     minutes: 12,

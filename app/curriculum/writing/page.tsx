@@ -6,6 +6,7 @@ import {
   EXPOSITORY_FRAME,
   MODELS,
   EDIT_CHECKLIST,
+  S1_PROMPT,
 } from "@/lib/curriculum/writing";
 
 export default function WritingPage() {
@@ -13,8 +14,11 @@ export default function WritingPage() {
     <>
       <CurriculumNav current="/curriculum/writing" />
       <h1 className="font-serif font-semibold text-3xl mb-3">AEIS 作文框架</h1>
-      <p className="text-ink-2 mb-8 max-w-2xl">
-        词数是工作室目标，便于训练。当年 SEAB 卷面说明优先。范文原创，写校园场景。
+      <p className="text-ink-2 mb-2 max-w-2xl">
+        词数是工作室目标。当年 SEAB 卷面说明优先。范文原创。
+      </p>
+      <p className="text-sm mb-8">
+        <strong>S1 sample prompt:</strong> {S1_PROMPT}
       </p>
 
       <div className="overflow-x-auto mb-8">

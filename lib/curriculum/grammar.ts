@@ -2,6 +2,38 @@ import type { GrammarSheet } from "./types";
 
 export const GRAMMAR_SHEETS: GrammarSheet[] = [
   {
+    id: "linkers",
+    titleZh: "Singapore MOE High-Yield Linkers",
+    yieldZh: "A2 Key Reading 4 · AEIS cloze · P4 Week 3",
+    ruleZh: "Fill in the blanks with however, therefore, or in addition. One linker per sentence. Capitalise at the start of a sentence.",
+    items: [
+      {
+        id: "g-l-1",
+        prompt: "The library was under renovation; __________, students had to borrow books online.",
+        options: ["however", "therefore", "in addition", "although"],
+        correct: 1,
+        errorId: "because-so",
+        why: "Renovation → result: therefore.",
+      },
+      {
+        id: "g-l-2",
+        prompt: "Primary school students must wear full school uniform. __________, they must wear white shoes.",
+        options: ["However", "Therefore", "In addition", "Although"],
+        correct: 2,
+        errorId: "because-so",
+        why: "Adding a second rule: In addition.",
+      },
+      {
+        id: "g-l-3",
+        prompt: "John studied hard for the examination; __________, he made a few careless mistakes.",
+        options: ["however", "therefore", "in addition", "so"],
+        correct: 0,
+        errorId: "although-but",
+        why: "Contrast with the expected result: however.",
+      },
+    ],
+  },
+  {
     id: "articles",
     titleZh: "冠词 a / an / the / 零冠词",
     yieldZh: "A2 Key cloze · AEIS 填空",
