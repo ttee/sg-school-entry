@@ -22,29 +22,6 @@ function story(n: number) {
 const LOST = story(2);
 const MRT = story(38);
 
-const PILLARS = [
-  {
-    href: "/curriculum/speaking",
-    titleZh: "跟读开口",
-    body: "食堂、小息、失物招领。每课对着新加坡这一幕开口，不是背单词表。",
-  },
-  {
-    href: "/assess",
-    titleZh: "做完就知道错在哪",
-    body: "P2 到中三，英语和数学各有一份摸底。交卷后逐题看，中文写清为什么错。",
-  },
-  {
-    href: "/curriculum/mocks",
-    titleZh: "限时练手",
-    body: "小学按 CEQ 的语言点出题，中学按 AEIS 英语卷的题型练速度。",
-  },
-  {
-    href: "/curriculum/guide",
-    titleZh: "家长用中文看",
-    body: "说明、对错、报名都是简体中文。顾问微信跟你说本周盯哪一句。",
-  },
-];
-
 const ROADMAP = [
   { m: "头两个月", t: "先开口", d: "校园课文，冠词和时态。一周只改一个中国孩子常犯的错。" },
   { m: "第三、四个月", t: "对准试卷", d: "阅读、完形、短写作、跟读。小学这条线是为了拿 CEQ 成绩单。" },
@@ -272,27 +249,6 @@ export default function HomePage() {
           </div>
         </section>
 
-        {/* 4. Features */}
-        <section className="py-12 md:py-16 bg-paper-2">
-          <div className="max-w-7xl mx-auto px-4">
-            <h2 className="font-serif font-semibold text-2xl md:text-3xl mb-8">
-              你每周能看见什么
-            </h2>
-            <div className="grid md:grid-cols-2 gap-4">
-              {PILLARS.map((p) => (
-                <Link
-                  key={p.href}
-                  href={p.href}
-                  className="bg-card border border-line rounded-2xl p-6 hover:border-accent"
-                >
-                  <h3 className="font-serif font-semibold text-lg mb-2">{p.titleZh}</h3>
-                  <p className="text-sm text-ink-2 leading-relaxed">{p.body}</p>
-                </Link>
-              ))}
-            </div>
-          </div>
-        </section>
-
         {/* 5. Path + proof of format */}
         <section className="py-12 md:py-16" id="paths">
           <div className="max-w-7xl mx-auto px-4">
@@ -335,48 +291,33 @@ export default function HomePage() {
               </article>
             </div>
 
-            <h3 className="font-serif font-semibold text-xl mb-3">进度表示例</h3>
-            <div className="overflow-x-auto mb-4">
-              <table className="w-full text-sm border border-line rounded-xl overflow-hidden bg-card min-w-[640px]">
-                <thead className="bg-accent/5">
-                  <tr>
-                    <th className="text-left px-3 py-2">孩子</th>
-                    <th className="text-left px-3 py-2">申请</th>
-                    <th className="text-left px-3 py-2">工作室对照</th>
-                    <th className="text-left px-3 py-2">本周焦点</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr className="border-t border-line">
-                    <td className="px-3 py-2">小李</td>
-                    <td className="px-3 py-2">P4</td>
-                    <td className="px-3 py-2">124 / 目标 130</td>
-                    <td className="px-3 py-2">however / therefore</td>
-                  </tr>
-                  <tr className="border-t border-line">
-                    <td className="px-3 py-2">小张</td>
-                    <td className="px-3 py-2">中一</td>
-                    <td className="px-3 py-2">语法 82%</td>
-                    <td className="px-3 py-2">although 后面不要再加 but</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-            <p className="text-xs text-muted mb-8">开通后，你看到的是自己孩子的对错。</p>
-
+            <h3 className="font-serif font-semibold text-xl mb-2">先看官方怎么用、怎么考</h3>
+            <p className="text-ink-2 mb-6 max-w-2xl leading-relaxed">
+              一段是新加坡政府小学里英语怎么用；一段是 CEQ 口语怎么考。本站课文对着这两件事来。
+            </p>
             <div className="grid md:grid-cols-2 gap-6">
-              <OfficialClip
-                videoId="Mqf8E8vwEg0"
-                title="政府小学的一天（小一）"
-                credit="Kranji Primary School《A Day In a Life of A P1 Student》"
-                hideWeeklyHomework
-              />
-              <OfficialClip
-                videoId="ZjGt6r8XSTg"
-                title="CEQ 口语长这样"
-                credit="Cambridge English《A2 Key for Schools Speaking test》"
-                hideWeeklyHomework
-              />
+              <div>
+                <p className="text-sm text-ink-2 leading-relaxed mb-3">
+                  食堂、小息、排队。政府小学一天里听到的英语，就是孩子要用上的语境。本站课文从这些场景抽。
+                </p>
+                <OfficialClip
+                  videoId="Mqf8E8vwEg0"
+                  title="政府小学的一天（小一）"
+                  credit="Kranji Primary School《A Day In a Life of A P1 Student》"
+                  hideWeeklyHomework
+                />
+              </div>
+              <div>
+                <p className="text-sm text-ink-2 leading-relaxed mb-3">
+                  剑桥 A2 Key 口语：说明情况、互相问答、听懂对方。小学 CEQ 要过的，就是这一口，不是背单词表。
+                </p>
+                <OfficialClip
+                  videoId="ZjGt6r8XSTg"
+                  title="CEQ 口语长这样"
+                  credit="Cambridge English《A2 Key for Schools Speaking test》"
+                  hideWeeklyHomework
+                />
+              </div>
             </div>
           </div>
         </section>
