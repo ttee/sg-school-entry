@@ -5,10 +5,10 @@ export const dynamic = 'force-dynamic';
 
 export const metadata = {
   title: "狮城入学 · 免费试学周",
-  description: "狮城入学 · 进新加坡政府学校",
+  description: "先看我们怎么教。来新加坡入读私立学校，从容应对 CEQ、AEIS 入学考。",
   openGraph: {
     title: "狮城入学 · 免费试学周",
-    description: "狮城入学 · 进新加坡政府学校",
+    description: "先看我们怎么教。来新加坡入读私立学校，从容应对 CEQ、AEIS 入学考。",
     url: "https://sg-school-entry.vercel.app/trial",
     siteName: "狮城入学",
     locale: "zh_CN",
@@ -118,7 +118,7 @@ export default async function TrialPage() {
             中学英语和数学在上面。小学在下面。
           </p>
           <p className="text-ink-2 mb-2">
-            不用登录。先做试学周，看作业长什么样。提交账号仍走首页报名表。
+            先做试学周，看我们怎么教。入学仍走首页咨询表。
           </p>
         </div>
 
@@ -169,7 +169,7 @@ export default async function TrialPage() {
         <div className="bg-accent/5 border border-accent/20 rounded-xl p-5">
           <p className="text-sm text-ink-2">
             <strong className="text-ink">试学说明：</strong>
-            试学周不需要登录。选择题当场看对错。要账号请回首页报名表。
+            试学周打开就能看。选择题当场看对错。入学请回首页咨询表。
           </p>
         </div>
       </main>

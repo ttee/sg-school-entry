@@ -37,7 +37,7 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    const validIntents = ["monthly", "a2-12week", "b1-12week", "trial"];
+    const validIntents = ["enrol", "monthly", "a2-12week", "b1-12week", "trial"];
     if (!intent || !validIntents.includes(intent)) {
       return NextResponse.json(
         { error: "请选择报名意向" },

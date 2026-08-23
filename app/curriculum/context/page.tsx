@@ -5,7 +5,7 @@ import { CONTEXT_GLOSSARY, CONTEXT_TOPICS } from "@/lib/curriculum/singapore-con
 
 export const metadata = {
   title: "新加坡语境英语 · 狮城入学",
-  description: "给中国家长：小贩中心、组屋、MRT、recess。先中文讲清，再练英语开口。",
+  description: "小贩中心、组屋、MRT、recess。先中文讲清，再练英语开口。来新加坡入学，这些词马上用得上。",
 };
 
 export default function SingaporeContextPage() {

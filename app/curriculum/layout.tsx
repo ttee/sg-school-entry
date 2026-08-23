@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import SiteChrome from "@/components/SiteChrome";
 
 export const metadata: Metadata = {
-  title: "PRC 升学课程 · 狮城入学",
+  title: "CEQ / AEIS 课程 · 狮城入学",
   description:
-    "面向中国学生的 CEQ / AEIS 课程：摸底卷、母语迁移矩阵、周进度、限时卷与家长手册。",
+    "来新加坡入学。CEQ / AEIS 摸底卷、周进度、限时卷与家长手册。",
 };
 
 export default function CurriculumLayout({ children }: { children: React.ReactNode }) {

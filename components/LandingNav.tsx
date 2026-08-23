@@ -8,7 +8,7 @@ const LINKS = [
   { href: "/assess", label: "摸底" },
   { href: "/curriculum/stories", label: "课文" },
   { href: "/curriculum/context", label: "语境" },
-  { href: "/#pricing", label: "价格" },
+  { href: "/#pricing", label: "入学" },
   { href: "/#contact", label: "咨询" },
 ];
 

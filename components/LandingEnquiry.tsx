@@ -18,8 +18,6 @@ export default function LandingEnquiry() {
   }>({ type: null, message: "" });
   const [isSubmitting, setIsSubmitting] = useState(false);
 
-  const isSecondary = formData.stage.startsWith("Sec");
-
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
@@ -148,14 +146,8 @@ export default function LandingEnquiry() {
               className="w-full px-4 py-2.5 bg-paper border border-line rounded-xl text-ink focus:outline-none focus:ring-2 focus:ring-accent"
             >
               <option value="">请选择</option>
-              <option value="trial">先免费试学（不用登录）</option>
-              {!isSecondary && (
-                <>
-                  <option value="a2-12week">小学 CEQ · A2 · 12 周 RMB 2,680</option>
-                  <option value="b1-12week">小学 P5 · B1 · 12 周 RMB 2,680</option>
-                </>
-              )}
-              {isSecondary && <option value="monthly">中学 AEIS 作业（顾问确认开通）</option>}
+              <option value="enrol">咨询新加坡私立学校入学</option>
+              <option value="trial">先看试学课</option>
             </select>
           </div>
           {formStatus.type && (
@@ -179,7 +171,7 @@ export default function LandingEnquiry() {
         </div>
       </form>
       <p className="text-sm text-ink-2">
-        PayNow {PAYNOW}（手机号）· 微信转账。CEQ 考点报名费不含在作业包内。
+        PayNow {PAYNOW}（手机号）· 微信转账。考试报名费另计。学校学费以顾问确认为准。
         <Link href="/privacy" className="text-accent font-semibold ml-1">
           隐私政策
         </Link>

@@ -588,12 +588,12 @@ export default function GuidePage() {
                       </p>
                       <p className="text-xs text-muted mt-1">
                         家长通过剑桥授权考点报名，不在 Cambridge 官网直接报名。
-                        任何国家的授权考点均可。提交成绩单 PDF（Statement of Results）即可，不必等纸质证书。
+                        来新加坡后，在本地考点报考。提交成绩单 PDF（Statement of Results）即可，不必等纸质证书。
                         纸笔或机考均可，需选择适龄考卷。
                       </p>
                     </div>
                     <p className="text-xs text-warn-ink bg-warn-bg border border-warn-ink/20 rounded-lg p-2 mt-2">
-                      ⚠️ 本站不编造中国考点名称或地址，请自行在官网查询
+                      ⚠️ 本站不编造考点名称或地址。新加坡考点请查官网，或问顾问。
                     </p>
                   </div>
                 )}
@@ -602,10 +602,10 @@ export default function GuidePage() {
 
             <div className="bg-card border border-accent/40 rounded-2xl p-6 shadow">
               <h3 className="font-serif font-semibold text-lg text-ink mb-2">
-                在本站练英语和数学
+                来新加坡入学，备战 CEQ 和 AEIS
               </h3>
               <p className="text-sm text-ink-2 mb-4">
-                人在中国就能开始。小学先过 CEQ 再考 AEIS 数学；中学在本站练 AEIS 英语 + 数学。顾问开通 12 周作业。
+                来新加坡入读私立学校。小学冲刺 CEQ，再考 AEIS 数学；中学备战 AEIS 英语和数学。顾问说明学位、年级和费用。
               </p>
               <div className="flex flex-wrap gap-3">
                 <a
@@ -624,7 +624,7 @@ export default function GuidePage() {
                   href="/#contact"
                   className="inline-flex px-5 py-2.5 border border-line rounded-full font-semibold"
                 >
-                  报名开通
+                  咨询入学
                 </a>
               </div>
             </div>

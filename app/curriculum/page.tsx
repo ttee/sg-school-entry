@@ -30,20 +30,20 @@ export default function CurriculumHome() {
     <>
       <CurriculumNav current="/curriculum" />
       <p className="text-xs font-semibold tracking-widest uppercase text-accent mb-2">
-        给中国家庭的入学课纲
+        给准备来新加坡入学的家庭
       </p>
       <h1 className="font-serif font-semibold text-3xl md:text-4xl mb-4">
         CEQ 与 AEIS 课程体系
       </h1>
       <p className="text-ink-2 mb-6 max-w-2xl leading-relaxed">
-        小学先过英语，再到新加坡考数学。中学英语写一篇再做五十题，数学不给计算器。申请几年级，就按前一年级来练。
+        小学先过 CEQ 英语，再考 AEIS 数学。中学英语写作、阅读理解与语法词汇，数学不给计算器。申请几年级，就按前一年级来练。来新加坡入读学校，在校园里把该练的练熟。
       </p>
 
       <div className="grid sm:grid-cols-2 gap-3 mb-8">
         {[
           { href: "/curriculum/diagnostic/p4", label: "1a P4 摸底 · postpone = put off" },
           { href: "/curriculum/errors", label: "1b 时态 / 冠词 / 搭配矩阵" },
-          { href: "/curriculum/papers", label: "试卷结构 · CEQ 时间 + AEIS 50 题" },
+          { href: "/curriculum/papers", label: "试卷结构 · CEQ 与 AEIS" },
           { href: "/curriculum/ixl", label: "P4 / S1 十二周计划" },
           { href: "/curriculum/stories", label: "校园课文 · 开口与语法" },
           { href: "/curriculum/context", label: "新加坡语境 · 家长中英词表" },

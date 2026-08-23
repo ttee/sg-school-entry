@@ -10,7 +10,7 @@ function storyHop(weekNumber: number): { href: string; text: string } {
   if (weekNumber === 1) {
     return { href: "/trial/A2/1", text: "先看本周故事" };
   }
-  return { href: "/#contact", text: "报名开通后续周" };
+  return { href: "/#contact", text: "咨询入学" };
 }
 
 export default function SkillsPage() {
@@ -87,8 +87,8 @@ export default function SkillsPage() {
           <h2 className="text-xl font-bold text-warn-ink mb-2">说明</h2>
           <ul className="text-warn-ink space-y-1 text-sm">
             <li>• 对应 A2 Key for Schools 语言范围，挂在现有故事周上</li>
-            <li>• 试学周和第 1 周打开就能看，不用登录</li>
-            <li>• 第 2 周起由顾问开通。留下微信号即可</li>
+            <li>• 试学周和第 1 周打开就能看</li>
+            <li>• 入学请留下微信号，顾问联系您</li>
           </ul>
         </div>
       </main>
@@ -99,7 +99,7 @@ export default function SkillsPage() {
             <div>
               <h3 className="text-lg font-bold text-ink mb-3">狮城入学</h3>
               <p className="text-sm text-muted">
-                CEQ 英语作业，12 周，向升学顾问支付 RMB 2,680
+                来新加坡入读私立学校，从容应对 CEQ、AEIS 入学考。
               </p>
             </div>
             <div>

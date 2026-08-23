@@ -27,10 +27,11 @@ export default async function EnquiriesPage() {
   };
 
   const intentLabels: Record<string, string> = {
+    enrol: "咨询新加坡私立学校入学",
     monthly: "月度会员",
     "a2-12week": "A2 Key 12 周",
     "b1-12week": "B1 Preliminary 12 周",
-    trial: "免费试学",
+    trial: "先看试学课",
   };
 
   return (

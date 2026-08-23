@@ -72,11 +72,11 @@ export async function generateMetadata({
   
   if (level === "A2" && weekNumber === "1") {
     return {
-      title: "第 1 周：日常作息 — 不用登录就能做",
-      description: "第 1 周日常作息。打开就能做，不用登录。",
+      title: "第 1 周：日常作息",
+      description: "第 1 周日常作息。先看我们怎么教。",
       openGraph: {
-        title: "第 1 周：日常作息 — 不用登录就能做",
-        description: "第 1 周日常作息。打开就能做，不用登录。",
+        title: "第 1 周：日常作息",
+        description: "第 1 周日常作息。先看我们怎么教。",
         url: "https://sg-school-entry.vercel.app/trial/A2/1",
         siteName: "狮城入学",
         locale: "zh_CN",
@@ -92,8 +92,8 @@ export async function generateMetadata({
       },
       twitter: {
         card: "summary_large_image",
-        title: "第 1 周：日常作息 — 不用登录就能做",
-        description: "第 1 周日常作息。打开就能做，不用登录。",
+        title: "第 1 周：日常作息",
+        description: "第 1 周日常作息。先看我们怎么教。",
         images: ["/og-ceq.jpg"],
       },
     };
