@@ -238,7 +238,7 @@ type Submission = {
 
 
 const A2_PLAYER_CAPTIONS: Record<number, { zh: string; en: string }> = {
-  0: { zh: "问这是不是你的瓶子。", en: "Is this your bottle?" },
+  0: { zh: "问这是不是你的白色水瓶。", en: "Is this your white water bottle with the pink flower?" },
   1: { zh: "我六点十五起床。", en: "I wake up at 6:15." },
   2: { zh: "我现在在画画。", en: "I am painting now." },
   3: { zh: "昨天我去了Toa Payoh。", en: "Yesterday I went to Toa Payoh." },

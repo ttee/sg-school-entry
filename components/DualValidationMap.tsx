@@ -5,7 +5,7 @@ export default function DualValidationMap() {
         本周对照考试题型
       </h2>
       <p className="text-sm text-ink-2 mb-4 leading-relaxed">
-        试学周按 <strong>A2 Key for Schools</strong> 题型来练。故事是<strong>失物招领 / Lost and Found</strong>：Auntie Tan 问 "Is this your bottle?"，Mei 答 "Yes, that's mine. Thank you." 焦点是 this/that、your/mine 和冠词 a → the。
+        试学周按 <strong>A2 Key for Schools</strong> 题型来练。课文是<strong>失物招领 / Lost and Found</strong>：Aunty Tan 问 "Is this your white water bottle with the pink flower?"，Mei 答 "Yes, Aunty! That is my white water bottle!" 焦点是 this/that、your/my 和冠词 a → the。
       </p>
 
       <div className="overflow-x-auto">
@@ -76,7 +76,7 @@ export default function DualValidationMap() {
                 <strong>Speaking Part 1</strong><br />事实性和个人信息问答
               </td>
               <td className="px-3 py-3 text-ink-2 align-top">
-                讲失物招领经历，练对话 "Is this your…?" / "Yes, that's mine. Thank you."
+                讲失物招领经历，练对话 "Is this your white water bottle?" / "Yes, Aunty! That is my white water bottle!"
               </td>
             </tr>
           </tbody>

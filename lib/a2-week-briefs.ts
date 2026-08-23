@@ -26,9 +26,10 @@ export const A2_WEEK_BRIEFS: A2WeekBrief[] = [
     error: "I lost water bottle; This is your bottle?",
     board: "a/an/the; Is this your…?; in/at/near",
     spoken: [
-      "Is this your bottle?",
-      "Yes, that’s mine.",
-      "I go to school by bus.",
+      "Is this your white water bottle with the pink flower?",
+      "Yes, Aunty! That is my white water bottle!",
+      "We found it!",
+      "Thank you, Aunty!",
     ],
     weike: { locked: true, beat: "Auntie Tan bottle line." },
   },

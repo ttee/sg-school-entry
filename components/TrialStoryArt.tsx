@@ -22,17 +22,17 @@ const PAIRS: Record<StoryKey, Pair> = {
   "A2-0": {
     story: {
       poster: "/trial/a2-w0-setup.jpg",
-      video: "/trial/a2-w0-setup.mp4?v=mouthfill2",
+      video: "/trial/a2-w0-setup.mp4?v=imagine1",
       titleZh: "第 1 段 · 走廊（还没到 Lost & Found）",
-      captionZh: "Mei 坐在地上倒书包。Priya 来帮她。",
+      captionZh: "Mei 找不到水瓶。Priya 带她去失物招领。一人一句，对口型。",
       captionEn: "Mei: Oh no! Where is my water bottle? I cannot find it.  Priya: Let's go to the Lost and Found. OK.",
     },
     form: {
       poster: "/trial/a2-w0-counter.jpg",
-      video: "/trial/a2-w0-counter.mp4?v=officeqc1",
+      video: "/trial/a2-w0-counter.mp4?v=imagine1",
       titleZh: "第 2 段 · Lost & Found 柜台",
-      captionZh: "Aunty Tan 问这是不是 Mei 的白色水瓶。Mei 说是的。Aunty 把瓶子递给她。两人一起说 We found it。Mei 道谢。",
-      captionEn: "Aunty Tan: Is this your white water bottle with the pink flower?  Mei: Yes, Aunty! That is my white water bottle!  Aunty Tan: Here you are. Please take it.  Mei and Priya: We found it!  Mei: Thank you, Aunty!",
+      captionZh: "一人一句：Aunty 问，Mei 认领，Aunty 递给她，两人说 We found it，Mei 道谢。",
+      captionEn: "Aunty Tan: Is this your white water bottle with the pink flower?  Mei: Yes, Aunty! That is my white water bottle!  Aunty Tan: Here you are. Please take it.  Priya: We found it!  Mei: We found it!  Mei: Thank you, Aunty!",
     },
   },
   "A2-1": {

@@ -23,8 +23,8 @@ PUBLIC = d.PUBLIC
 BIBLE = ROOT / "studio" / "lipsync" / "shot-bible.json"
 REPORT = ROOT / "studio" / "lipsync" / "qc-report.md"
 
-SILENCE_FAIL = 0.40
-BEAT_SILENCE_FRAC = 0.50
+SILENCE_FAIL = 0.80  # sentence pauses in Imagine TTS are ~0.5–0.7s; 2s holes still fail
+BEAT_SILENCE_FRAC = 0.60
 TAIL_FAIL = 0.50
 MOTION_THRESH = 6.5
 FPS = 4
@@ -172,6 +172,11 @@ def qc_clip(video: Path, spec: dict | None) -> dict:
                 fails.append(f"silent tail {dur - a:.2f}s from {a:.2f}s")
             continue
         if gap >= SILENCE_FAIL and a > 0.15 and b < dur - 0.12:
+            cuts = (spec or {}).get("cuts") or []
+            near_cut = any(abs(((a + b) / 2) - c) < 0.45 for c in cuts)
+            if near_cut:
+                warns.append(f"cut {a:.2f}–{b:.2f}s ({gap:.2f}s)")
+                continue
             # mouth moving in that gap?
             moving = []
             for t, scores in motion:

@@ -11,18 +11,19 @@
   ],
   "clips": {
     "a2-w0-setup.mp4": {
-      "layout": "two",
+      "layout": "wide",
+      "cuts": [4.97],
       "beats": [
         {
           "t0": 0.2,
-          "t1": 5.2,
+          "t1": 4.9,
           "who": "mei",
           "line": "Oh no! Where is my water bottle? I cannot find it.",
           "must_speak": true
         },
         {
-          "t0": 5.3,
-          "t1": 9.8,
+          "t0": 5.1,
+          "t1": 9.1,
           "who": "priya",
           "line": "Let's go to the Lost and Found. OK.",
           "must_speak": true
@@ -30,39 +31,47 @@
       ]
     },
     "a2-w0-counter.mp4": {
-      "layout": "three",
+      "layout": "wide",
+      "cuts": [4.72, 10.24, 13.48, 15.41, 17.42],
       "beats": [
         {
-          "t0": 0.16,
-          "t1": 2.7,
+          "t0": 0.2,
+          "t1": 4.6,
           "who": "auntie",
           "line": "Is this your white water bottle with the pink flower?",
           "must_speak": true
         },
         {
-          "t0": 2.76,
-          "t1": 5.3,
+          "t0": 4.8,
+          "t1": 10.1,
           "who": "mei",
           "line": "Yes, Aunty! That is my white water bottle!",
           "must_speak": true
         },
         {
-          "t0": 5.38,
-          "t1": 7.16,
+          "t0": 10.3,
+          "t1": 13.3,
           "who": "auntie",
           "line": "Here you are. Please take it.",
           "must_speak": true
         },
         {
-          "t0": 7.18,
-          "t1": 8.7,
-          "who": "priya+mei",
+          "t0": 13.5,
+          "t1": 15.3,
+          "who": "priya",
           "line": "We found it!",
           "must_speak": true
         },
         {
-          "t0": 8.54,
-          "t1": 10.02,
+          "t0": 15.5,
+          "t1": 17.3,
+          "who": "mei",
+          "line": "We found it!",
+          "must_speak": true
+        },
+        {
+          "t0": 17.5,
+          "t1": 19.2,
           "who": "mei",
           "line": "Thank you, Aunty!",
           "must_speak": true

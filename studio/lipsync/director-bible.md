@@ -14,10 +14,12 @@ Standard Singapore English. No lah/ah. Write **Aunty**.
 
 ## How we shoot
 
+Trial A2 Lost and Found on the site is **one speaker per shot**, generated in Imagine (`reference_to_video`) from the locked stills so the mouth is driven with the speech.
+
 1. Write the line.
-2. TTS that line with the locked voice.
-3. Animate **that one person, chest-up**, to **that wav**.
-4. Cut. Two people at once = two clips overlaid.
+2. Generate that one person, chest-up, saying that line.
+3. Trim the silent tail.
+4. Cut. Two people at once = two clips, one after the other (or overlay).
 
 Do not generate a wide shot, then stick speech on top.
 
