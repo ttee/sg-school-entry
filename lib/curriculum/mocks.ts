@@ -32,7 +32,7 @@ export const MOCKS: Paper[] = [
   {
     id: "sec-mock",
     titleZh: "AEIS 英语语言 MCQ（工作室 25 题）",
-    blurb: "25 题 / 25 分钟，OAS 四选一。全卷常见约 50 题语言/理解；作文另计时。以当年 SEAB 说明为准。",
+    blurb: "25 题 / 25 分钟（全卷 50 题的一半）。现行中学 AEIS 英语 2 小时 10 分：作文 + 50 题（理解 15、完形 15、词汇 10、语法 10）。",
     track: "SEC",
     intended: "Sec 1–3",
     targetCes: null,

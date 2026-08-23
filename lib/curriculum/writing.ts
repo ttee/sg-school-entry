@@ -1,4 +1,5 @@
 export const WORD_TARGETS = [
+  { level: "P4/P5", min: 80, max: 120, minutes: 30, focus: "studio ~100-word composition (P4/5 language-use paper)" },
   { level: "S1", min: 200, max: 300, minutes: 30, focus: "clear story or one-sided explanation" },
   { level: "S2", min: 250, max: 350, minutes: 35, focus: "reason + example in each body paragraph" },
   { level: "S3", min: 300, max: 400, minutes: 40, focus: "controlled linkers; no although…but" },

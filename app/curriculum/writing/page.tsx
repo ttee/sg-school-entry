@@ -15,7 +15,8 @@ export default function WritingPage() {
       <CurriculumNav current="/curriculum/writing" />
       <h1 className="font-serif font-semibold text-3xl mb-3">AEIS 作文框架</h1>
       <p className="text-ink-2 mb-2 max-w-2xl">
-        词数是工作室目标。当年 SEAB 卷面说明优先。范文原创。
+        中学 AEIS：S1 200–300、S2 250–350、S3 300–400。小学工作室 P4/5 语言卷另练约 100 词短文。
+        每次只盯三个语法错。当年 SEAB 说明优先。
       </p>
       <p className="text-sm mb-8">
         <strong>S1 sample prompt:</strong> {S1_PROMPT}

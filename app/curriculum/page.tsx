@@ -36,14 +36,16 @@ export default function CurriculumHome() {
         CEQ 与 AEIS 课程体系
       </h1>
       <p className="text-ink-2 mb-6 max-w-2xl leading-relaxed">
-        小学先过剑桥英语门槛，再考 AEIS 数学。中学直接考 AEIS 英语和数学。
-        P4 摸底目标 CES <strong>130+</strong>（A2 Key）。先做 postpone 词汇题，再对照错误矩阵。
+        测的是申请年级<strong>前一级</strong>的实用英语（functional English）。小学：CEQ 过关再考 AEIS
+        数学。中学：AEIS 英语 2 小时 10 分（作文 + 50 题）。P4 工作室目标 CES <strong>130+</strong>。
       </p>
 
       <div className="grid sm:grid-cols-2 gap-3 mb-8">
         {[
           { href: "/curriculum/diagnostic/p4", label: "1a P4 摸底 · postpone = put off" },
           { href: "/curriculum/errors", label: "1b 时态 / 冠词 / 搭配矩阵" },
+          { href: "/curriculum/papers", label: "试卷结构 · CEQ 时间 + AEIS 50 题" },
+          { href: "/curriculum/ixl", label: "IXL 周计划 · P4 与 S1" },
           { href: "/curriculum/sow", label: "2a P4 W3 · G.2 + V.1" },
           { href: "/curriculum/grammar/linkers", label: "2b however / therefore / in addition" },
           { href: "/curriculum/writing", label: "3a S1 三段作文 200–300" },
