@@ -98,6 +98,9 @@ export default function HomePage() {
             <Link href="/中学" className="text-ink-2 hover:text-ink transition-colors font-medium">
               中学
             </Link>
+            <Link href="/curriculum" className="text-ink-2 hover:text-ink transition-colors font-medium">
+              课程
+            </Link>
             <Link href="#contact" className="text-ink-2 hover:text-ink transition-colors font-medium">
               咨询
             </Link>
@@ -126,6 +129,9 @@ export default function HomePage() {
               </Link>
               <Link href="/中学" className="block text-ink-2 hover:text-ink transition-colors font-medium" onClick={() => setShowMobileMenu(false)}>
                 中学
+              </Link>
+              <Link href="/curriculum" className="block text-ink-2 hover:text-ink transition-colors font-medium" onClick={() => setShowMobileMenu(false)}>
+                课程
               </Link>
               <Link href="#contact" className="block text-ink-2 hover:text-ink transition-colors font-medium" onClick={() => setShowMobileMenu(false)}>
                 咨询

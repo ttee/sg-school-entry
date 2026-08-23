@@ -220,7 +220,11 @@ export default function AssessPage() {
                 入学英语摸底
               </h1>
               <p className="text-ink-2 mb-2">
-                这是本工作室的摸底练习，帮助家长判断孩子适合从哪个门槛开始。共 10 题，约 5–8 分钟。
+                这是 5–8 分钟快速筛，10 题。按申请年级对照 CES 的完整摸底在{" "}
+                <Link href="/curriculum/diagnostic" className="text-accent font-semibold underline">
+                  课程 · 摸底卷
+                </Link>
+                。
               </p>
               <p className="text-sm text-muted">
                 孩子做，家长可以坐旁边，但请让孩子自己答。不计时，不排名。

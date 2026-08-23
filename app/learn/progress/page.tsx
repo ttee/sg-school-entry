@@ -2,6 +2,7 @@ import { getSession } from "@/lib/session";
 import { prisma } from "@/lib/db";
 import Link from "next/link";
 import ParentCard from "@/components/ParentCard";
+import { CES_GATES, estimateCes } from "@/lib/curriculum/thresholds";
 
 type Question = {
   id: string;
@@ -178,6 +179,27 @@ export default async function ProgressPage() {
     };
   }
 
+  const scoredWeeks = weeks.filter(
+    (w) => w.submissions[0]?.completedAt && w.submissions[0].score != null
+  );
+  const avgScore =
+    scoredWeeks.length > 0
+      ? scoredWeeks.reduce((sum, w) => sum + (w.submissions[0].score || 0), 0) /
+        scoredWeeks.length
+      : null;
+  const track =
+    userLevel === "B1" ? "B1" : userLevel === "SEC" ? "SEC" : "A2";
+  const studioCes =
+    avgScore != null && (track === "A2" || track === "B1" || track === "SEC")
+      ? estimateCes(avgScore > 100 ? 100 : avgScore, track)
+      : null;
+  const gateHint =
+    track === "A2"
+      ? CES_GATES.filter((g) => g.level === "P2" || g.level === "P3")
+      : track === "B1"
+        ? CES_GATES.filter((g) => g.level === "P4" || g.level === "P5")
+        : [];
+
   return (
     <div>
       <div className="mb-6">
@@ -189,6 +211,15 @@ export default async function ProgressPage() {
             ? "管理员视图：查看所有级别的每周作业完成情况与得分。"
             : "查看孩子的每周作业完成情况与得分。本进度仅显示当前登录账号的学习数据。"}
         </p>
+        <p className="text-sm mt-2">
+          <Link href="/curriculum/tracker" className="text-accent font-semibold">
+            打开 CES / IXL 成绩表
+          </Link>
+          {" · "}
+          <Link href="/curriculum/diagnostic" className="text-accent font-semibold">
+            年级摸底卷
+          </Link>
+        </p>
       </div>
 
       {parentCardData && (
@@ -199,6 +230,25 @@ export default async function ProgressPage() {
             mastery={parentCardData.mastery}
             isMathTrack={parentCardData.isMathTrack}
           />
+        </div>
+      )}
+
+      {studioCes != null && (
+        <div className="mb-6 bg-card border border-line rounded-xl p-4">
+          <p className="text-xs font-semibold uppercase tracking-wide text-accent mb-1">
+            工作室量表估计（不是官方 CEQ）
+          </p>
+          <p className="font-serif text-2xl font-semibold mb-1">CES ≈ {studioCes}</p>
+          <p className="text-sm text-ink-2">
+            来自已交作业平均 {Math.round(avgScore || 0)} 分 · {scoredWeeks.length} 周
+            {gateHint.length > 0 && (
+              <>
+                {" "}
+                · 对照{" "}
+                {gateHint.map((g) => `${g.level} > ${g.targetCes}`).join("，")}
+              </>
+            )}
+          </p>
         </div>
       )}
 
