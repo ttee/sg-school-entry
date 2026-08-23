@@ -33,9 +33,11 @@ export function loadPaperResult(id: string): PaperResult | null {
 export default function McqPaper({
   paper,
   timed,
+  kind = "diagnostic",
 }: {
   paper: Paper;
   timed?: boolean;
+  kind?: "diagnostic" | "lesson";
 }) {
   const [answers, setAnswers] = useState<(number | null)[]>(
     () => paper.items.map(() => null)
@@ -108,7 +110,7 @@ export default function McqPaper({
       <div className="space-y-6">
         <div className="bg-card border border-line rounded-2xl p-6">
           <p className="text-xs font-semibold tracking-widest uppercase text-accent mb-2">
-            摸底结果
+            {kind === "lesson" ? "本课练习" : "摸底结果"}
           </p>
           <h2 className="font-serif text-2xl font-semibold mb-2">
             {totalCorrect} / {paper.items.length} · {percent}%
@@ -127,7 +129,11 @@ export default function McqPaper({
               )}
             </p>
           )}
-          <p className="text-sm text-muted">用来排课。正式分数以成绩单为准。</p>
+          <p className="text-sm text-muted">
+            {kind === "lesson"
+              ? "错的题看 why。再听一遍开口句，然后写一句。"
+              : "用来排课。正式分数以成绩单为准。"}
+          </p>
         </div>
 
         <div className="space-y-4">
@@ -199,12 +205,14 @@ export default function McqPaper({
         )}
 
         <div className="flex flex-wrap gap-3">
+          {kind !== "lesson" && (
           <Link
             href="/curriculum/tracker"
             className="px-5 py-2.5 bg-accent text-accent-ink rounded-full font-semibold"
           >
             记入成绩表
           </Link>
+          )}
           <button
             type="button"
             className="px-5 py-2.5 border border-accent rounded-full font-semibold"

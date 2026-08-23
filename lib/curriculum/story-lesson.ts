@@ -1,15 +1,15 @@
 import type { McqItem, Paper } from "./types";
 import type { ContextTopic } from "./singapore-context";
 import type { Storyline, Theme } from "./storylines";
+import {
+  buildPedagogy,
+  defaultReadingFor,
+  packOptions,
+  type GrammarTeach,
+  type Pedagogy,
+} from "./story-pedagogy";
 
-export type GrammarTeach = {
-  titleZh: string;
-  ruleZh: string;
-  ruleEn: string;
-  wrong: string;
-  right: string;
-  points: string[];
-};
+export type { GrammarTeach, Pedagogy } from "./story-pedagogy";
 
 export type StoryLesson = {
   sceneZh: string;
@@ -23,201 +23,47 @@ export type StoryLesson = {
   writeEn: string;
   starters: string[];
   paper: Paper;
+  pedagogy: Pedagogy;
 };
-
-const GRAMMAR: { test: RegExp; teach: GrammarTeach }[] = [
-  {
-    test: /would like|some\s*\/\s*any/i,
-    teach: {
-      titleZh: "点餐：would like；some / any",
-      ruleZh:
-        "点餐用 I would like + 食物，比 I want 得体。肯定句和客气请求用 some；疑问和否定用 any。chicken rice 当菜名，常常不加 a。",
-      ruleEn:
-        "I would like chicken rice, please. Can I have some chilli? Is there any soup?",
-      wrong: "I want chicken rice. Give me chilli. I need a chicken rice.",
-      right: "I would like chicken rice, please. Can I have some chilli?",
-      points: [
-        "Would like = want，但排队点餐时更礼貌。",
-        "some：肯定 / 客气请求（I'd like some soup）。",
-        "any：疑问 / 否定（Is there any soup? We haven't any seats.）。",
-        "chicken rice、nasi lemak 作一碟菜，常不可数。",
-      ],
-    },
-  },
-  {
-    test: /a\/an\/the|Is this your/i,
-    teach: {
-      titleZh: "冠词 a / an / the；Is this your…?",
-      ruleZh: "第一次说用 a/an。双方都看见、已经知道用 the。问失物：Is this your + 单数名词?",
-      ruleEn: "I lost a bottle. Is this your bottle? Yes, that is the bottle. It is mine.",
-      wrong: "I lost water bottle. This is your bottle?",
-      right: "I lost a water bottle. Is this your bottle?",
-      points: [
-        "可数单数不能裸奔：a water bottle。",
-        "问近处的一件：Is this your…?",
-        "your / mine：Is this yours? Yes, it's mine.",
-      ],
-    },
-  },
-  {
-    test: /present simple|must(?! not)/i,
-    teach: {
-      titleZh: "一般现在时与 must",
-      ruleZh: "习惯、校规用现在时。he/she/it 加 -s。must + 动词原形，不加 to。",
-      ruleEn: "We line up at assembly. She wears a pinafore. You must wear white shoes.",
-      wrong: "She wear pinafore. You must to wear white shoes.",
-      right: "She wears a pinafore. You must wear white shoes.",
-      points: ["第三人称 -s。", "must go / must wear，没有 must to。"],
-    },
-  },
-  {
-    test: /can i|may i|could you|would you like/i,
-    teach: {
-      titleZh: "礼貌请求",
-      ruleZh: "Can I / May I / Could you + 原形。Would you like + 名词或 to + 动词。回答：Yes, here you are. / No, thank you.",
-      ruleEn: "Can I borrow a pencil, please? Would you like some soup?",
-      wrong: "I borrow your pencil. You want soup?",
-      right: "Can I borrow a pencil, please? Would you like some soup?",
-      points: ["please 放句末或句首。", "Would you like 不是 Do you want 那么硬。"],
-    },
-  },
-  {
-    test: /imperative|must not|don't/i,
-    teach: {
-      titleZh: "指令与禁止",
-      ruleZh: "指令用动词原形。禁止用 Do not / Don't / must not + 原形。",
-      ruleEn: "Line up. Do not run. You must not leave your bags.",
-      wrong: "You not run. Don't to run.",
-      right: "Do not run. You must not run.",
-      points: ["Don't + 原形。", "must not = 不准，不是 don't have to。"],
-    },
-  },
-  {
-    test: /present continuous|like \+ -ing|like \+ -ing/i,
-    teach: {
-      titleZh: "现在进行时；like + -ing",
-      ruleZh: "正在做：am/is/are + -ing。爱好：like / love / enjoy + -ing。",
-      ruleEn: "We are playing at the park. I like cycling.",
-      wrong: "We playing. I like cycle.",
-      right: "We are playing. I like cycling.",
-      points: ["be 不能丢。", "like swimming，不是 like swim。"],
-    },
-  },
-  {
-    test: /going to|shall we|let's|why don't we/i,
-    teach: {
-      titleZh: "打算与建议",
-      ruleZh: "打算：am/is/are going to + 原形。建议：Shall we…? Let's… Why don't we…?",
-      ruleEn: "We are going to visit Ah Ma. Shall we go on Sunday? Let's take the MRT.",
-      wrong: "We going to visit. Let's to go.",
-      right: "We are going to visit Ah Ma. Let's take the MRT.",
-      points: ["going to 前面要有 be。", "Let's 后面原形，没有 to。"],
-    },
-  },
-  {
-    test: /past simple|yesterday|first \/ then/i,
-    teach: {
-      titleZh: "一般过去时",
-      ruleZh: "有 yesterday / last week / then 用过去。不规则：go→went, see→saw, eat→ate。顺序：first, then, finally。",
-      ruleEn: "Yesterday we went to the hawker centre. First we queued. Then we ate.",
-      wrong: "Yesterday we go and eat chicken rice.",
-      right: "Yesterday we went and ate chicken rice.",
-      points: ["同一段叙事不要跳回现在。", "finally 后面仍用过去。"],
-    },
-  },
-  {
-    test: /present perfect|have been|has been/i,
-    teach: {
-      titleZh: "现在完成时",
-      ruleZh: "从过去到现在仍真：have/has + 过去分词。for / since。有 last year / yesterday 用过去。",
-      ruleEn: "I have been here for six months. I came last year.",
-      wrong: "I have came last year. I am here for six months.",
-      right: "I came last year. I have been here for six months.",
-      points: ["finished time → past simple。", "for/since 仍在 → present perfect。"],
-    },
-  },
-  {
-    test: /how many|how much|quantit/i,
-    teach: {
-      titleZh: "How many / How much",
-      ruleZh: "可数用 many；不可数用 much。eggs 可数，rice / milk 不可数。",
-      ruleEn: "How many eggs? How much rice?",
-      wrong: "How many rice? Two breads.",
-      right: "How much rice? Two loaves of bread.",
-      points: ["rice, water, chilli（当调料）常不可数。"],
-    },
-  },
-  {
-    test: /comparativ|faster|tallest|-er|more /i,
-    teach: {
-      titleZh: "比较级和最高级",
-      ruleZh: "短词 + -er than；最高级 the + -est。多音节 more / the most。不要 more faster。",
-      ruleEn: "Priya was faster than me. She was the tallest in the heat.",
-      wrong: "Priya is more faster than me.",
-      right: "Priya is faster than me.",
-      points: ["than 不能丢。", "最高级前面通常有 the。"],
-    },
-  },
-  {
-    test: /although|despite/i,
-    teach: {
-      titleZh: "although 不加 but",
-      ruleZh: "Although + 从句，主句不再加 but。",
-      ruleEn: "Although we lost, we tried.",
-      wrong: "Although we lost, but we tried.",
-      right: "Although we lost, we tried.",
-      points: ["中文「虽然…但是」两半都说；英语只留一半。"],
-    },
-  },
-  {
-    test: /please proceed|is cancelled|please \+|please wait|in case of|no \+ -ing|your appointment|please have/i,
-    teach: {
-      titleZh: "告示和广播英语",
-      ruleZh:
-        "新加坡告示常用 Please + 动词原形。取消用 is cancelled（被动）。In case of fire, do not… 是固定安全句。时间用 from… to… 或 at 3 p.m.。",
-      ruleEn:
-        "Please proceed to the hall. PE is cancelled. Please take a queue number. In case of fire, do not use the lift.",
-      wrong: "Please to proceed. PE cancel. Don't use lift if fire.",
-      right: "Please proceed to the hall. PE is cancelled. In case of fire, do not use the lift.",
-      points: [
-        "Please mind the gap / Please stand clear：广播里 please 后面直接动词。",
-        "is cancelled / are closed：告示用被动，不是 cancel 原形当谓语。",
-        "Now serving A12：屏幕上的进行时，表示正在叫号。",
-        "Please have your NRIC ready = 请把证件准备好。",
-      ],
-    },
-  },
-  {
-    test: /can \/ must|must \+ verb|modals of obligation|have to|need to/i,
-    teach: {
-      titleZh: "can / must / have to / need to",
-      ruleZh: "情态动词 + 原形。can = 能力或许可。must / have to = 必须。need to = 需要去做。",
-      ruleEn: "You can borrow three books. You must return them. I need to hang the clothes.",
-      wrong: "I can to swim. I must to go.",
-      right: "I can swim. I must go.",
-      points: ["没有 can to / must to。"],
-    },
-  },
-];
-
-const DEFAULT_TEACH: GrammarTeach = {
-  titleZh: "本课句型",
-  ruleZh: "用本课的句型说话。先看对的句子，再对比中国孩子常说的直译。",
-  ruleEn: "Say the model lines. Change only the noun or place, keep the grammar.",
-  wrong: "I want. You give me.",
-  right: "I would like this, please.",
-  points: ["一次只改 1–2 个语法点。", "用新加坡校园词，不硬套美国课文。"],
-};
-
-function teachFor(grammar: string): GrammarTeach {
-  return GRAMMAR.find((g) => g.test.test(grammar))?.teach ?? {
-    ...DEFAULT_TEACH,
-    titleZh: `本课句型：${grammar}`,
-    ruleEn: grammar,
-  };
-}
 
 const READINGS: Record<number, string> = {
+  3: `Mei's pencil broke in writing class. She needed another one. Priya sat next to her.
+
+Mei said, "Priya, can I borrow a pencil, please?"
+Priya said, "Yes. Here you are."
+Mei said, "Thank you. I will give it back after the lesson."
+Ms Tan said, "Please speak quietly. Continue your work."`,
+  5: `The fire alarm rang. Ms Tan did not shout. She used short English.
+
+"Line up quickly. Do not run. Leave your bags."
+Mei held Priya's sleeve. They walked to the staircase. At the field Ms Tan checked the class. "White shoes, please. We assemble here."
+The drill was not a story. It was an order. One missed word and a child runs.`,
+  6: `It was library day. Mei wanted a picture book.
+
+"Where are the picture books?" she asked.
+"I would like to borrow this," she said at the counter.
+"When must I return it?"
+The librarian pointed to the date stamp. "You must return it by Friday. The library is quiet."
+Mei whispered, "Thank you."`,
+  14: `The school bookshop was full. Mei needed a workbook.
+
+"How much is this workbook?"
+"Four dollars," said the Aunty.
+"I have ten dollars."
+"Here is your change. Please keep the receipt."
+Mei put the receipt in her bag. She did not say "Give me cheaper." She asked how much, then she paid.`,
+  20: `Mum and Mei pushed a trolley at NTUC FairPrice.
+
+"We need a loaf of bread."
+"How much are the eggs?"
+"Please pack them," Mum said at the checkout.
+Mei wanted to say "How many rice?" Mum shook her head. "Rice is how much. Eggs are how many."`,
+  31: `At recess Priya opened a box of biscuits.
+
+"Would you like a biscuit?"
+Mei has a peanut allergy. "No, thank you."
+"Maybe later," said another girl, and they still sat together.
+Offering is Would you like. Refusing is No, thank you. It is not rude.`,
   16: `On Saturday evening Mei and Priya went with Ah Ma and Ah Gong to a hawker centre near their HDB block. It was not a restaurant with a waiter. They took a tray, stood in a queue, and ordered at a stall.
 
 Mei said, "I would like chicken rice, please." The stall Aunty asked, "Chilli?" Mei wanted some chilli, but not a lot. "A little chilli, thank you."
@@ -243,33 +89,22 @@ Ah Gong asked, "Is there any soup?" "Yes. Some soup for you," said the Aunty. Th
   89: `Mum's phone buzzed. CLINIC REMINDER: YOUR APPOINTMENT IS ON TUESDAY AT 3.00 P.M. PLEASE ARRIVE 15 MINUTES EARLY. IF YOU CANNOT COME, PLEASE CALL THE CLINIC. Bring NRIC. Mei asked, "What does arrive 15 minutes early mean?" "We reach at 2.45," Mum said. Message English is short, all capitals on some phones, but the grammar is still please + verb and if you cannot + call.`,
 };
 
-function defaultReading(story: Storyline): string {
-  const place = story.vocab[0] ?? "school";
-  const a = story.oracy[0] ?? "Let's start.";
-  const b = story.oracy[1] ?? "OK.";
-  const c = story.oracy[2];
-  return `Mei and Priya were in Singapore, not in a US textbook. They needed English for this: ${story.focus.toLowerCase()}.
-
-They were near the ${place}. Mei said, "${a}" Priya answered, "${b}"${c ? ` Then Mei said, "${c}"` : ""}
-
-The grammar to keep today is: ${story.grammar}. Use the same words when you answer and when you write.`;
-}
-
 function vocabRows(
   story: Storyline,
-  context?: ContextTopic,
+  context: ContextTopic | undefined,
+  frames: string[],
 ): { word: string; example: string; noteZh: string }[] {
   return story.vocab.map((word) => {
     const fromCtx = context?.vocab.find(
       (x) => x.en.toLowerCase() === word.toLowerCase(),
     );
-    const hit = story.oracy.find((o) =>
-      o.toLowerCase().includes(word.toLowerCase()),
-    );
+    const hit =
+      story.oracy.find((o) => o.toLowerCase().includes(word.toLowerCase())) ??
+      frames.find((o) => o.toLowerCase().includes(word.toLowerCase()));
     return {
       word,
-      example: hit ?? `We use "${word}" in this scene in Singapore.`,
-      noteZh: fromCtx?.zh ?? "新加坡校园 / 家庭里会听到的词。",
+      example: hit ?? `We need this word here: ${word}.`,
+      noteZh: fromCtx?.zh ?? "先听句子，再在开口里用这个词。",
     };
   });
 }
@@ -290,71 +125,79 @@ function dialogueFor(
   }));
 }
 
-function itemsFor(story: Storyline, reading: string, g: GrammarTeach): McqItem[] {
-  const w0 = story.vocab[0] ?? "school";
-  const w1 = story.vocab[1] ?? story.vocab[0] ?? "canteen";
+function itemsFor(story: Storyline, p: Pedagogy): McqItem[] {
+  const c0 = p.contrasts[0];
+  const m0 = p.meaning[0];
+  const g1 = packOptions(
+    c0.right,
+    [c0.wrong, p.teach.wrong.split(/(?<=[.!?])\s/)[0], "Give me."],
+    story.n * 3 + 1,
+  );
+  const g2 = packOptions(m0.options[m0.correct], m0.options.filter((_, i) => i !== m0.correct), story.n * 3 + 2);
+  const frame = p.frames[1] ?? p.today[0].en;
+  const g3 = packOptions(
+    frame,
+    [p.teach.wrong.split(/(?<=[.!?])\s/)[0], p.contrasts[1]?.wrong ?? "I no want."],
+    story.n * 3 + 3,
+  );
+  const place = packOptions(
+    p.setting.replace(/^at |^in |^on |^during /, ""),
+    ["the school field", "the MRT platform", "the clinic"].filter(
+      (x) => !p.setting.includes(x.replace(/^the /, "")),
+    ),
+    story.n * 3 + 4,
+  );
+  const say = packOptions(
+    p.today[0].en,
+    [c0.wrong, p.teach.wrong.split(/(?<=[.!?])\s/)[0], p.today[1]?.en ?? "Thank you."],
+    story.n * 3 + 5,
+  );
+
   return [
     {
-      id: `s${story.n}-v`,
-      prompt: `In this Singapore scene, what is "${w0}"?`,
-      options: [
-        `A word you need here: ${w0}`,
-        "A US textbook word you can skip",
-        "A person's name",
-        "A punctuation mark",
-      ],
-      correct: 0,
-      errorId: "collocation",
-      why: `本课要会说 ${w0}，不是跳过校园词。`,
-      skill: "vocab",
-    },
-    {
       id: `s${story.n}-g`,
-      prompt: `Choose the correct line (${story.grammar}).`,
-      options: [g.right, g.wrong, `I ${w1} now.`, "Give me."],
-      correct: 0,
-      errorId: "articles",
-      why: g.ruleEn,
+      prompt: c0.promptZh,
+      options: g1.options,
+      correct: g1.correct,
+      errorId: p.errorId,
+      why: c0.whyZh,
       skill: "grammar",
     },
     {
-      id: `s${story.n}-e`,
-      prompt: "Which sentence is wrong?",
-      options: [g.right, story.oracy[0], g.wrong, story.oracy[1] ?? g.right],
-      correct: 2,
-      errorId: "articles",
-      why: `中国孩子常直译成：${g.wrong}`,
+      id: `s${story.n}-m`,
+      prompt: m0.situationZh,
+      options: g2.options,
+      correct: g2.correct,
+      errorId: p.errorId,
+      why: m0.whyZh,
       skill: "grammar",
     },
     {
       id: `s${story.n}-f`,
-      prompt: `What do you say? (${story.focus})`,
-      options: [
-        story.oracy[0],
-        "What's up dude?",
-        "I no want.",
-        "You give.",
-      ],
-      correct: 0,
-      errorId: "collocation",
-      why: "用本课开口句，不用美国口语或中式英语。",
-      skill: "vocab",
+      prompt: "Same pattern, new noun. Which line is correct?",
+      options: g3.options,
+      correct: g3.correct,
+      errorId: p.errorId,
+      why: p.teach.points[0] ?? p.teach.ruleZh,
+      skill: "grammar",
     },
     {
       id: `s${story.n}-r`,
-      prompt: "From the reading: where is this English used?",
-      options: [
-        reading.includes("hawker")
-          ? "At a hawker centre / stall"
-          : "In a Singapore school or family scene",
-        "Only in an American cafeteria",
-        "Only in a dictionary list",
-        "Nowhere — this page is just a title",
-      ],
-      correct: 0,
+      prompt: "From the reading: where is this happening?",
+      options: place.options,
+      correct: place.correct,
       errorId: "collocation",
-      why: "课文要把英语放进新加坡场景里用。",
+      why: `场景在 ${p.setting}。`,
       skill: "rc",
+    },
+    {
+      id: `s${story.n}-s`,
+      prompt: p.today[0].cueZh,
+      options: say.options,
+      correct: say.correct,
+      errorId: p.errorId,
+      why: "开口用今天练的那一句。",
+      skill: "vocab",
     },
   ];
 }
@@ -365,41 +208,36 @@ export function buildStoryLesson(
   context?: ContextTopic,
   script?: { scene: string; lines: { who: string; say: string }[] },
 ): StoryLesson {
-  const grammar = teachFor(story.grammar);
-  const reading = READINGS[story.n] ?? defaultReading(story);
+  const pedagogy = buildPedagogy(story);
+  const reading = READINGS[story.n] ?? defaultReadingFor(story, script);
   const dialogue = dialogueFor(story, script, context);
-  const items = itemsFor(story, reading, grammar);
+  const items = itemsFor(story, pedagogy);
   const sceneZh =
     context?.parentZh ??
-    `这一课把英语放进新加坡生活：${story.focus}。词要用 ${story.vocab.slice(0, 3).join("、")}，不要用美国课文里对不上食堂的词。`;
-  const sceneEn = context
-    ? `${context.enTitle}. ${story.exam}.`
-    : `${theme?.title ?? "Singapore school English"}: ${story.focus}. Grammar: ${story.grammar}.`;
+    `今天只钉一个句型：${pedagogy.teach.titleZh}。场景：${story.focus}。`;
+  const sceneEn = `${pedagogy.teach.ruleEn} ${story.exam}.`;
 
   return {
     sceneZh,
     sceneEn,
     reading,
-    grammar,
-    vocab: vocabRows(story, context),
+    grammar: pedagogy.teach,
+    vocab: vocabRows(story, context, pedagogy.frames),
     dialogue,
-    dialogueScene: script?.scene,
-    writeZh: `写 50–80 词（中学可写到 120 词）。必须用上：${story.grammar}。场景就是本课。`,
-    writeEn: `Write 50–80 words about "${story.title}". Use ${story.grammar}. Use at least two words: ${story.vocab.slice(0, 2).join(", ")}.`,
-    starters: [
-      story.oracy[0],
-      `In Singapore, we …`,
-      `I would like / I can / We must …`,
-    ],
+    dialogueScene: script?.scene ?? `Mei and Priya ${pedagogy.setting}.`,
+    writeZh: pedagogy.write.promptZh,
+    writeEn: pedagogy.write.promptEn,
+    starters: [pedagogy.write.sample, ...pedagogy.frames.slice(1, 3)],
     paper: {
       id: `story-${story.n}`,
       titleZh: `${story.n}. ${story.title}`,
-      blurb: grammar.ruleZh,
+      blurb: pedagogy.teach.ruleZh,
       track: "A2",
       intended: story.exam,
       targetCes: null,
       minutes: 8,
       items,
     },
+    pedagogy,
   };
 }

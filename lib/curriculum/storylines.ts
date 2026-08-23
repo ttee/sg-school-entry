@@ -19,10 +19,10 @@ export type Theme = {
 };
 
 export const CYCLE = [
-  { step: "1. Listen + Watch", do: "听本课录音或跟读。看图：canteen, recess, MRT。" },
-  { step: "2. Speak + Roleplay", do: "分角色演。练问句、情态动词、礼貌用语。轮流说，听不懂就问一遍。" },
-  { step: "3. Read + Answer", do: "短篇理解 + 完形。对准 CEQ 阅读 / AEIS 理解与完形。" },
-  { step: "4. Write + Reflect", do: "P2–P5 写 80–100 词；S1 写 200–300 词。只改本课 1–2 个语法点。" },
+  { step: "1. 先听", do: "听今天三句。有视频先看嘴。不要先读短文。" },
+  { step: "2. 选对的一句", do: "情景选择题和对错对比。句型必须帮你听懂意思。" },
+  { step: "3. 再说", do: "同一句型换词。拼句子。不看英文说出来。" },
+  { step: "4. 再读再写", do: "短文里是刚听过的话。先写一句，只查今天这一个句型。" },
 ] as const;
 
 const v = (s: string) => s.split(", ");
