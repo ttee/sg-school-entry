@@ -29,9 +29,9 @@ const PAIRS: Record<StoryKey, Pair> = {
     },
     form: {
       poster: "/trial/a2-w0-counter.jpg",
-      video: "/trial/a2-w0-counter.mp4?v=imagine1",
+      video: "/trial/a2-w0-counter.mp4?v=officeshot1",
       titleZh: "第 2 段 · Lost & Found 柜台",
-      captionZh: "一人一句：Aunty 问，Mei 认领，Aunty 递给她，两人说 We found it，Mei 道谢。",
+      captionZh: "一镜：两个女孩站在柜台前。Aunty Tan 问，Mei 认领，Aunty 递给她，两人说 We found it，Mei 道谢。",
       captionEn: "Aunty Tan: Is this your white water bottle with the pink flower?  Mei: Yes, Aunty! That is my white water bottle!  Aunty Tan: Here you are. Please take it.  Priya: We found it!  Mei: We found it!  Mei: Thank you, Aunty!",
     },
   },
