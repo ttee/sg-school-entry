@@ -47,29 +47,35 @@ Do not overlay two mouths in one generation. If you want Mei and Priya at the sa
 - TTS: Yes, Aunty! That is my white water bottle!
 - Prompt: Mei, short black bob, pink backpack, navy pinafore, chest-up at the Lost and Found counter, talking to camera with realistic lip sync, clear mouth shapes, excited smile, small nod, painterly cartoon, one speaker only.
 
-### 05 — Priya, office (same time as 06)
+### 05 — Aunty Tan, office (handoff — her mouth is still moving)
+- Still: `stills/auntie-office.jpg`
+- Audio: `audio/05-auntie-here.wav`
+- TTS: Here you are. Please take it.
+- Prompt: Aunty Tan, motherly Singapore school staff, chest-up at the Lost and Found counter, holding out the white water bottle, talking to camera with realistic lip sync, warm high motherly voice, painterly cartoon, one speaker only.
+
+### 06 — Priya, office (same time as 07)
 - Still: `stills/priya-office.jpg`
-- Audio: `audio/05-priya-found.wav`
+- Audio: `audio/06-priya-found.wav`
 - TTS: We found it!
 - Prompt: Priya, long black ponytail, blue backpack, chest-up at the Lost and Found counter, talking with realistic lip sync, clear mouth shapes, happy face, small clap or hand gesture, painterly cartoon, one speaker only.
 
-### 06 — Mei, office (same time as 05)
+### 07 — Mei, office (same time as 06)
 - Still: `stills/mei-office.jpg`
-- Audio: `audio/06-mei-found.wav`
+- Audio: `audio/07-mei-found.wav`
 - TTS: We found it!
 - Prompt: Mei, short black bob, pink backpack, chest-up at the Lost and Found counter, talking with realistic lip sync, happy face, small excited gesture, painterly cartoon, one speaker only.
 
-### 07 — Mei, office
+### 08 — Mei, office
 - Still: `stills/mei-office.jpg`
-- Audio: `audio/07-mei-thanks.wav`
+- Audio: `audio/08-mei-thanks.wav`
 - TTS: Thank you, Aunty!
 - Prompt: Mei, short black bob, pink backpack, chest-up at the Lost and Found counter, talking to camera with realistic lip sync, clear mouth shapes, grateful smile, small nod, painterly cartoon, one speaker only.
 
-Generate 05 and 06 separately, then overlay in the editor so both say "We found it!" together.
+Generate 06 and 07 separately, then overlay in the editor so both say "We found it!" together. Do not skip 05 — Aunty's mouth is still moving on the handoff.
 
 ## Lesson targets (keep these words)
 
-Is this your…? / my white water bottle / We found it! / Thank you, Aunty!
+Is this your…? / my white water bottle / Here you are. / We found it! / Thank you, Aunty!
 
 ## Rebuild audio
 

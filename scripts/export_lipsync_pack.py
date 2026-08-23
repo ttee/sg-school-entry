@@ -73,7 +73,20 @@ CLIPS: list[dict] = [
         ),
     },
     {
-        "id": "05-priya-found",
+        "id": "05-auntie-here",
+        "speaker": "auntie",
+        "still": "stills/auntie-office.jpg",
+        "text": "Here you are. Please take it.",
+        "scene": "office",
+        "prompt": (
+            "Aunty Tan, motherly Singapore school staff, chest-up at the Lost and "
+            "Found counter, holding out the white water bottle, talking to camera "
+            "with realistic lip sync, warm high motherly voice, painterly cartoon, "
+            "one speaker only."
+        ),
+    },
+    {
+        "id": "06-priya-found",
         "speaker": "priya",
         "still": "stills/priya-office.jpg",
         "text": "We found it!",
@@ -85,7 +98,7 @@ CLIPS: list[dict] = [
         ),
     },
     {
-        "id": "06-mei-found",
+        "id": "07-mei-found",
         "speaker": "mei",
         "still": "stills/mei-office.jpg",
         "text": "We found it!",
@@ -97,7 +110,7 @@ CLIPS: list[dict] = [
         ),
     },
     {
-        "id": "07-mei-thanks",
+        "id": "08-mei-thanks",
         "speaker": "mei",
         "still": "stills/mei-office.jpg",
         "text": "Thank you, Aunty!",

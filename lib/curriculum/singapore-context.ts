@@ -251,6 +251,7 @@ export const CONTEXT_TOPICS: ContextTopic[] = [
       { who: "Mei", line: "I lost my water bottle." },
       { who: "Aunty Tan", line: "Is this your white water bottle with the pink flower?" },
       { who: "Mei", line: "Yes, Aunty! That is my white water bottle!" },
+      { who: "Aunty Tan", line: "Here you are. Please take it." },
       { who: "Mei", line: "We found it!" },
       { who: "Priya", line: "We found it!" },
       { who: "Mei", line: "Thank you, Aunty!" },

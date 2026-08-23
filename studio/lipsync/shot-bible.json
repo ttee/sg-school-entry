@@ -1,0 +1,73 @@
+{
+  "rules": [
+    "Lock faces to A2 Week 1: Mei bob + pink bag; Priya ponytail + blue bag; navy pinafore.",
+    "Singapore English, standard grammar, no lah/ah. Aunty is capitalised.",
+    "Mei/Priya voices age 6-7. Aunty is motherly and higher, not pitched down old.",
+    "Every mouth beat needs speech. Never pad silence while a mouth is open.",
+    "Audio first, then animate that speaker. One speaker per generated clip.",
+    "Two people at once = two clips overlaid, not one two-shot generation.",
+    "Chest-up. Clip length equals the wav, not a padded 10 seconds.",
+    "Keep A2 W0 targets: Is this your…?; my/your; the; Thank you, Aunty."
+  ],
+  "clips": {
+    "a2-w0-setup.mp4": {
+      "layout": "two",
+      "beats": [
+        {
+          "t0": 0.2,
+          "t1": 5.2,
+          "who": "mei",
+          "line": "Oh no! Where is my water bottle? I cannot find it.",
+          "must_speak": true
+        },
+        {
+          "t0": 5.3,
+          "t1": 9.8,
+          "who": "priya",
+          "line": "Let's go to the Lost and Found. OK.",
+          "must_speak": true
+        }
+      ]
+    },
+    "a2-w0-counter.mp4": {
+      "layout": "three",
+      "beats": [
+        {
+          "t0": 0.16,
+          "t1": 2.7,
+          "who": "auntie",
+          "line": "Is this your white water bottle with the pink flower?",
+          "must_speak": true
+        },
+        {
+          "t0": 2.76,
+          "t1": 5.3,
+          "who": "mei",
+          "line": "Yes, Aunty! That is my white water bottle!",
+          "must_speak": true
+        },
+        {
+          "t0": 5.38,
+          "t1": 7.16,
+          "who": "auntie",
+          "line": "Here you are. Please take it.",
+          "must_speak": true
+        },
+        {
+          "t0": 7.18,
+          "t1": 8.7,
+          "who": "priya+mei",
+          "line": "We found it!",
+          "must_speak": true
+        },
+        {
+          "t0": 8.54,
+          "t1": 10.02,
+          "who": "mei",
+          "line": "Thank you, Aunty!",
+          "must_speak": true
+        }
+      ]
+    }
+  }
+}

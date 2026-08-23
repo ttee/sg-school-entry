@@ -179,6 +179,7 @@ export const SAMPLE_SCRIPTS: {
       { who: "Priya", say: "Let's go to the Lost and Found. Aunty Tan keeps lost things there." },
       { who: "Aunty Tan", say: "Is this your white water bottle with the pink flower?" },
       { who: "Mei", say: "Yes, Aunty! That is my white water bottle!" },
+      { who: "Aunty Tan", say: "Here you are. Please take it." },
       { who: "Mei", say: "We found it!" },
       { who: "Priya", say: "We found it!" },
       { who: "Mei", say: "Thank you, Aunty!" },
