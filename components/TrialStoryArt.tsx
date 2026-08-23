@@ -29,7 +29,7 @@ const PAIRS: Record<StoryKey, Pair> = {
     },
     form: {
       poster: "/trial/a2-w0-counter.jpg",
-      video: "/trial/a2-w0-counter.mp4?v=sg1",
+      video: "/trial/a2-w0-counter.mp4?v=sync1",
       titleZh: "第 2 段 · Lost & Found 柜台",
       captionZh: "一镜：两个女孩站在柜台前。Aunty Tan 问，Mei 认领，Aunty 递给她，Priya 说 Wow, that's great，Mei 说 We found it，再谢谢 Aunty。",
       captionEn: "Aunty Tan: Is this your white water bottle with the pink flower?  Mei: Yes, Aunty! That is my white water bottle!  Aunty Tan: Here you are. Please take it.  Priya: Wow, that's great!  Mei: We found it!  Mei: Thank you, Aunty!",
@@ -38,14 +38,14 @@ const PAIRS: Record<StoryKey, Pair> = {
   "A2-1": {
     story: {
       poster: "/trial/a2-w1-ask.jpg",
-      video: "/trial/a2-w1-ask.mp4?v=mouthfill1",
+      video: "/trial/a2-w1-ask.mp4?v=imagine1",
       titleZh: "第 1 段 · 故事",
       captionZh: "校门口。Priya 问。",
       captionEn: "Priya: Mei, good morning. What time do you wake up every Monday morning for school?",
     },
     form: {
       poster: "/trial/a2-w1-form.jpg",
-      video: "/trial/a2-w1-form.mp4?v=mouthfill1",
+      video: "/trial/a2-w1-form.mp4?v=imagine1",
       titleZh: "第 2 段 · 跟读本周句子",
       captionZh: "还是这两个人。Mei 答。",
       captionEn: "Mei: I wake up at six fifteen every Monday. My little sister Jia wakes later, because she goes to kindergarten.",
@@ -54,14 +54,14 @@ const PAIRS: Record<StoryKey, Pair> = {
   "B1-0": {
     story: {
       poster: "/trial/b1-w0-story.jpg",
-      video: "/trial/b1-w0-story.mp4?v=mouthfill1",
+      video: "/trial/b1-w0-story.mp4?v=imagine1",
       titleZh: "第 1 段 · 故事",
       captionZh: "走廊。Priya 说话。",
       captionEn: "Priya: Just ask one question every lesson. That is how you get better here.",
     },
     form: {
       poster: "/trial/b1-w0-form.jpg",
-      video: "/trial/b1-w0-form.mp4?v=mouthfill1",
+      video: "/trial/b1-w0-form.mp4?v=imagine1",
       titleZh: "第 2 段 · 跟读本周句子",
       captionZh: "还是这两个人。Mei 说话。",
       captionEn: "Mei: I have been here for six months. I came last year, and I still study here.",
@@ -70,14 +70,14 @@ const PAIRS: Record<StoryKey, Pair> = {
   "SEC-0": {
     story: {
       poster: "/trial/sec-w0-story.jpg",
-      video: "/trial/sec-w0-story.mp4?v=mouthfill1",
+      video: "/trial/sec-w0-story.mp4?v=imagine1",
       titleZh: "第 1 段 · 故事",
       captionZh: "食堂。两人都拿着托盘。",
       captionEn: "Aisha: The chicken rice looks really good today.  Wei: Yes. Let's sit by the window.",
     },
     form: {
       poster: "/trial/sec-w0-form.jpg",
-      video: "/trial/sec-w0-form.mp4?v=mouthfill1",
+      video: "/trial/sec-w0-form.mp4?v=imagine1",
       titleZh: "第 2 段 · 跟读本周句子",
       captionZh: "英语课。Wei 说话。",
       captionEn: "Wei: Although I was nervous in the paper, I tried my best and I finished every question.",
