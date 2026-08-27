@@ -156,8 +156,7 @@ export default function HomePage() {
                   className="bg-card border border-line rounded-xl p-4"
                 >
                   <p className="text-xs font-semibold text-accent mb-1">{t.zhScene}</p>
-                  <p className="text-sm font-semibold mb-1">{t.enTitle}</p>
-                  <p className="text-xs text-muted">{t.vocab[0].en}</p>
+                  <p className="text-xs text-muted">{t.vocab[0].zh}</p>
                 </div>
               ))}
             </div>
