@@ -20,7 +20,7 @@ function sanitizeSpeakingContentForGuest(content: string): string {
   // Replace the entire 如何练习 section with guest-friendly version
   sanitized = sanitized.replace(
     /如何练习\s*\/\s*How to practise:[\s\S]*/i,
-    "如何练习 / How to practise:\n1. 先看题目\n2. 先跟读"
+    "如何练习：\n1. 先看题目\n2. 先跟读"
   );
   
   // Additional cleanup for any remaining AI/recording references
@@ -160,6 +160,12 @@ export async function generateMetadata({
     };
   }
   
+  if (level === "B1") {
+    return {
+      title: "狮城入学 · 小学英语试学",
+    };
+  }
+
   return {
     title: `狮城入学 · ${levelNames[level] || "试学周"}`,
   };
@@ -286,9 +292,14 @@ export default async function TrialLevelPage({
     week.title = "试学周";
   }
 
-  // B1 W0: Override title
+  // B1 W0: Override title; strip guest-facing AI / 开始录音 from speaking
   if (level === "B1" && week.weekNumber === 0) {
     week.title = "试学周";
+    week.questions.forEach((question) => {
+      if (question.type === "speaking") {
+        question.content = sanitizeSpeakingContentForGuest(question.content);
+      }
+    });
   }
 
   return (

@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { prisma } from "@/lib/db";
-import { notFound } from "next/navigation";
+import { notFound, redirect } from "next/navigation";
 import WeekHomework from "@/components/WeekHomework";
 import type { Metadata } from "next";
 
@@ -19,7 +19,7 @@ function sanitizeSpeakingContentForGuest(content: string): string {
   // Replace the entire 如何练习 section with guest-friendly version
   sanitized = sanitized.replace(
     /如何练习\s*\/\s*How to practise:[\s\S]*/i,
-    "如何练习 / How to practise:\n1. 先看题目\n2. 先跟读"
+    "如何练习：\n1. 先看题目\n2. 先跟读"
   );
   
   // Additional cleanup for any remaining AI/recording references
@@ -114,6 +114,12 @@ export default async function TrialWeekPage({
 
   if (!validLevels.includes(level) || isNaN(weekNum)) {
     notFound();
+  }
+
+  // W0 is the public sample at /trial/:level. /trial/A2/0 and /trial/B1/0
+  // used to hit the lock below and show 「这一周未开放」.
+  if (weekNum === 0 && (level === "A2" || level === "B1")) {
+    redirect(`/trial/${level}`);
   }
 
   // ONLY allow A2 Week 1 for public trial. Everything else is locked.
