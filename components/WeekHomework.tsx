@@ -4,6 +4,7 @@ import { useState, useRef, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 import TrialStoryArt, { TrialWritingPictures, hasTalkingStory } from "./TrialStoryArt";
+import GuestRepeatStrip from "./GuestRepeatStrip";
 import DualValidationMap from "./DualValidationMap";
 import DualValidationMapWeek1 from "./DualValidationMapWeek1";
 import DualValidationMapWeek2 from "./DualValidationMapWeek2";
@@ -675,6 +676,8 @@ export default function WeekHomework({
       </div>
 
       <TrialStoryArt level={week.level} weekNumber={week.weekNumber} />
+
+      {guest && week.level === "A2" && week.weekNumber === 0 && <GuestRepeatStrip />}
 
       {!hasTalkingStory(week.level, week.weekNumber) && (
       <div className="mb-8 space-y-4">
