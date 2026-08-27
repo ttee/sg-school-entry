@@ -5,7 +5,7 @@ export default function DualValidationMap() {
         本周对照考试题型
       </h2>
       <p className="text-sm text-ink-2 mb-4 leading-relaxed">
-        试学周按 <strong>A2 Key for Schools</strong> 题型来练。课文是<strong>失物招领 / Lost and Found</strong>：Aunty Tan 问 "Is this your white water bottle with the pink flower?"，Mei 答 "Yes, Aunty! That is my white water bottle!" 焦点是 this/that、your/my 和冠词 a → the。
+        试学周按 <strong>A2 Key for Schools</strong> 题型来练。课文是<strong>失物招领 / Lost and Found</strong>：Aunty Tan 问 "Is this your white water bottle with the pink flower?"，Mei 答 "Yes, Aunty! That is my white water bottle!" 本周盯住冠词 a / an / the。
       </p>
 
       <div className="overflow-x-auto">
@@ -37,13 +37,13 @@ export default function DualValidationMap() {
             </tr>
             <tr className="border-b border-accent/10">
               <td className="px-3 py-3 text-ink align-top">
-                <strong>语法</strong><br />Is this your…? / this/that / your/mine
+                <strong>语法</strong><br />冠词 a / an / the
               </td>
               <td className="px-3 py-3 text-ink-2 align-top">
                 <strong>Reading Part 4 & 5</strong><br />完形填空（选择 + 开放式）
               </td>
               <td className="px-3 py-3 text-ink-2 align-top">
-                练指示代词（this/that）、物主代词（your/mine）、疑问句（Is this your…?）和冠词
+                本周盯住冠词 a / an / the：第一次说到用 a / an，已经认出来或大家都知道用 the
               </td>
             </tr>
             <tr className="border-b border-accent/10">

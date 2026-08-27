@@ -231,25 +231,23 @@ export default async function TrialLevelPage({
     const grammarQ = week.questions.find(q => q.type === "grammar" && q.order === 2);
     if (grammarQ) {
       grammarQ.options = JSON.stringify([
-        "Is ____ your bottle?|A. this|B. these|C. those|D. them",
-        "Yes, that's ____.|A. my|B. mine|C. me|D. I",
         "Mei lost ____ water bottle.|A. a|B. an|C. the|D. some",
         "Auntie Tan wears ____ pink polo shirt.|A. a|B. an|C. the|D. some",
-        "That is ____ bottle with the pink flower.|A. a|B. an|C. the|D. no article",
-        "____ is Auntie Tan at the counter.|A. This|B. That|C. These|D. Those",
-        "The Lost and Found office is ____ the school office.|A. in|B. at|C. on|D. by",
+        "Yes, that is ____ white water bottle!|A. a|B. an|C. the|D. (不加)",
+        "Mei wrote ____ email to her cousin.|A. a|B. an|C. the|D. some",
+        "They walked to ____ Lost and Found office.|A. a|B. an|C. the|D. (不加)",
+        "There is ____ big sign on the wall.|A. a|B. an|C. the|D. some",
       ]);
-      grammarQ.correctAnswer = "A,B,A,A,C,B,A";
+      grammarQ.correctAnswer = "A,A,C,B,C,A";
       grammarQ.choiceWhy = JSON.stringify([
-        {"A": "问Is this your bottle用this指近处的单数物品。", "B": "these是复数，不能指一个水杯。", "C": "those是复数且指远处，不合适。", "D": "them是宾格代词，不能做主语。"},
-        {"A": "my后面要加名词（my bottle），不能单独用。", "B": "mine = my bottle，可以单独用表示我的东西。", "C": "me是宾格我，不是物主代词。", "D": "I是主格我，不是物主代词。"},
-        {"A": "首次提到用a（a water bottle）。", "B": "water不是元音开头，不用an。", "C": "首次提到不用the，再提才用the。", "D": "some用于不确定数量，这里是一个水杯。"},
-        {"A": "首次提到衣服用a（a pink polo shirt）。", "B": "pink不是元音开头，不用an。", "C": "首次提到不用the。", "D": "some不用于单数可数名词。"},
-        {"A": "已经说过的特定水杯，用the表示那个已知的。", "B": "bottle不是元音开头，不用an。", "C": "已经提过的特定物品用the。", "D": "可数名词单数前要加冠词。"},
-        {"A": "This用于近处，Auntie Tan在柜台那边较远。", "B": "That用于指较远的人或物（Auntie Tan在柜台那边）。", "C": "These是复数，Auntie Tan是一个人。", "D": "Those是复数，不能指一个人。"},
-        {"A": "Lost and Found office在school office里面，用in。", "B": "at表示在某个点，不是里面。", "C": "on表示在表面上，不合适。", "D": "by表示在旁边，不是里面。"},
+        {"A": "第一次说到这个水壶用 a。", "B": "water 不是元音，不用 an。", "C": "还没指明是哪一个，不用 the。", "D": "some 不用于一个可数名词。"},
+        {"A": "第一次说衣服用 a。pink 不是元音。", "B": "pink 不是元音。", "C": "第一次说衣服用 a。", "D": "第一次说衣服用 a。"},
+        {"A": "已经认出来的那个水壶用 the。", "B": "已经认出来的那个水壶用 the。", "C": "已经认出来的那个水壶用 the。", "D": "已经认出来的那个水壶用 the。"},
+        {"A": "email 是元音开头，第一次说用 an。", "B": "email 是元音开头，第一次说用 an。", "C": "email 是元音开头，第一次说用 an。", "D": "email 是元音开头，第一次说用 an。"},
+        {"A": "学校里大家知道的失物招领处用 the。", "B": "学校里大家知道的失物招领处用 the。", "C": "学校里大家知道的失物招领处用 the。", "D": "学校里大家知道的失物招领处用 the。"},
+        {"A": "第一次说这块牌子用 a。big 不是元音。", "B": "big 不是元音。", "C": "第一次说这块牌子用 a。", "D": "第一次说这块牌子用 a。"},
       ]);
-      grammarQ.points = 7;
+      grammarQ.points = 6;
     }
 
     // Sanitize all speaking questions to remove AI evaluation and recording button references
