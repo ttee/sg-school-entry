@@ -76,7 +76,7 @@ export default function DualValidationMapWeek1() {
                 <strong>Speaking Part 1</strong><br />个人信息问答
               </td>
               <td className="px-3 py-3 text-ink-2 align-top">
-                讲起床时间、洗漱、早餐、上学路线、早上感受，AI 会盯住 he/she + -s 和 at/in/on
+                讲起床时间、洗漱、早餐、上学路线、早上感受，本周盯住 he/she + -s 和 at/in/on
               </td>
             </tr>
           </tbody>

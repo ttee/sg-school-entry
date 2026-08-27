@@ -80,7 +80,7 @@ export default function DualValidationMapB1Week0() {
                 <strong>个人陈述</strong><br />2 分钟独白
               </td>
               <td className="px-3 py-3 text-ink-2 align-top">
-                讲克服英语学习挑战的经历，用 have been / have improved 描述持续改善，用 felt / started 说过去某个时间点，AI 会盯住完成时和过去时
+                讲克服英语学习挑战的经历，用 have been / have improved 描述持续改善，用 felt / started 说过去某个时间点，本周盯住完成时和过去时
               </td>
             </tr>
           </tbody>
