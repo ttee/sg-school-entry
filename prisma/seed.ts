@@ -2573,7 +2573,7 @@ A 2D representation shows a circle and a triangle. Which solid does this represe
       errorFocus: "冠词 a / an / the",
       parentBrief: "本周只练冠词 a / an / the.",
       videoUrl: "/video/a2-w0.mp4",
-      kaizenFocus: "Use articles (a/the), demonstratives (this/that), possessives (your/mine), and question form 'Is this your...?'",
+      kaizenFocus: "Use articles a / an / the.",
       questions: [
         {
           type: "reading",
