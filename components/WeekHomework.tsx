@@ -1231,8 +1231,8 @@ export default function WeekHomework({
                     className="text-sm font-semibold text-accent hover:text-accent-hover transition-colors"
                   >
                     {showTranscript[question.id]
-                      ? "隐藏原文 / Hide script"
-                      : "显示原文 / Show script"}
+                      ? "隐藏原文"
+                      : "显示原文"}
                   </button>
                   {showTranscript[question.id] && (
                     <div className="mt-3 whitespace-pre-wrap text-sm text-ink-2 bg-paper-2 rounded-lg p-3 border border-line">

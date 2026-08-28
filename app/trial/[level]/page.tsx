@@ -252,6 +252,13 @@ export default async function TrialLevelPage({
 
     // Sanitize all speaking questions to remove AI evaluation and recording button references
     week.questions.forEach((question) => {
+      if (question.type === "writing") {
+        question.content = question.content
+          .replace(/成功标准 \/ Success Criteria[\s\S]*$/, "成功标准（A2 Key for Schools 便条）：\n✓ 包含全部 3 个内容点\n✓ 25 词或以上\n✓ 正确使用冠词 a / an / the\n✓ 简短便条格式")
+          .replace(/物主代词/g, "")
+          .replace(/possessives?: my\/mine/gi, "")
+          .replace(/Use articles: a\/the; possessives: my\/mine/g, "正确使用冠词 a / an / the");
+      }
       if (question.type === "speaking") {
         question.content = question.content.replace(/• Have you ever lost something at school\? What was it\?\n?/g, "");
         question.content = sanitizeSpeakingContentForGuest(question.content);

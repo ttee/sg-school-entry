@@ -2658,11 +2658,11 @@ In your note:
 • Describe what it looks like (colour, size, what's inside or on it)
 • Say why it's important to you
 
-成功标准 / Success Criteria (Cambridge A2 Key for Schools Part 6 format):
-✓ 包含所有3个内容点 (Cover all 3 content points)
-✓ 25词或以上 (25 words or more)
-✓ 使用正确冠词和物主代词 (Use articles: a/the; possessives: my/mine)
-✓ 简短便条格式 (Short note format)`,
+成功标准（A2 Key for Schools 便条）：
+✓ 包含全部 3 个内容点
+✓ 25 词或以上
+✓ 正确使用冠词 a / an / the
+✓ 简短便条格式`,
           points: 10,
         },
         {
