@@ -37,7 +37,7 @@ export default function DualValidationMapSecWeek0() {
             </tr>
             <tr className="border-b border-accent/10">
               <td className="px-3 py-3 text-ink align-top">
-                <strong>语法/词汇</strong><br />8 道选择题，包含 although-but 化石和叙事过去时
+                <strong>语法/词汇</strong><br />8 道选择题，包含 although-but 和叙事过去时
               </td>
               <td className="px-3 py-3 text-ink-2 align-top">
                 <strong>Part 2 Language Use</strong><br />Comprehension cloze 15 题 + Vocabulary 10 题 + Grammar 10 题（官方）
