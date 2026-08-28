@@ -227,6 +227,7 @@ export default async function TrialLevelPage({
     week.description = "";
     week.errorFocus = "冠词 a / an / the";
     week.parentBrief = "本周只练冠词 a / an / the.";
+    week.kaizenFocus = "Use articles a / an / the.";
 
     const grammarQ = week.questions.find(q => q.type === "grammar" && q.order === 2);
     if (grammarQ) {
