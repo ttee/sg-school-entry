@@ -2691,7 +2691,7 @@ Ms Tan: Yes, please bring your Maths workbook. And remember, Thursday is Drama C
         {
           type: "speaking",
           order: 5,
-          content: `口语练习 / Speaking Practice
+          content: `口语练习
 
 Task: Talk about "Lost and Found at school" (1 minute)
 
@@ -3832,13 +3832,13 @@ The student asks: "I'm joining an English-medium school next term and I'm worrie
 
 Give THREE pieces of helpful advice. Share your own experience if possible.
 
-成功标准 / Success Criteria:
-✓ 3条建议清晰 (Three clear pieces of advice)
-✓ 使用现在完成时描述持续经验 (Present perfect for ongoing experience: I have been..., I have learned...)
-✓ 使用一般过去时说明确过去事件 (Past simple for finished events: I went..., I started..., I felt...)
-✓ 情态动词和连接词 (Modal verbs: should, could; Linking: firstly, also, because)
-✓ 支持和鼓励的语气 (Supportive and encouraging tone)
-✓ 100-120词 (100-120 words)`,
+成功标准：
+✓ 3条建议清晰
+✓ 使用现在完成时描述持续经验
+✓ 使用一般过去时说明确过去事件
+✓ 情态动词和连接词
+✓ 支持和鼓励的语气
+✓ 100-120词`,
           points: 10,
         },
         {
@@ -3869,7 +3869,7 @@ Finally, CCA sign-ups are next week. Joining a CCA is a great way to practise En
         {
           type: "speaking",
           order: 5,
-          content: `口语练习 / Speaking Practice
+          content: `口语练习
 
 Task: Talk about a challenge you overcame when learning English (2 minutes)
 

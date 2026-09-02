@@ -262,6 +262,7 @@ export default async function TrialLevelPage({
       }
       if (question.type === "speaking") {
         question.content = question.content.replace(/• Have you ever lost something at school\? What was it\?\n?/g, "");
+        question.content = question.content.replace(/口语练习 \/ Speaking Practice/g, "口语练习");
         question.content = sanitizeSpeakingContentForGuest(question.content);
       }
     });
@@ -302,7 +303,14 @@ export default async function TrialLevelPage({
   if (level === "B1" && week.weekNumber === 0) {
     week.title = "试学周";
     week.questions.forEach((question) => {
+      if (question.type === "writing") {
+        question.content = question.content.replace(
+          /成功标准 \/ Success Criteria[\s\S]*$/,
+          "成功标准：\n✓ 3条建议清晰\n✓ 使用现在完成时描述持续经验\n✓ 使用一般过去时说明确过去事件\n✓ 情态动词和连接词\n✓ 支持和鼓励的语气\n✓ 100-120词"
+        );
+      }
       if (question.type === "speaking") {
+        question.content = question.content.replace(/口语练习 \/ Speaking Practice/g, "口语练习");
         question.content = sanitizeSpeakingContentForGuest(question.content);
       }
     });
