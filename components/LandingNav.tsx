@@ -24,7 +24,6 @@ export default function LandingNav() {
           </svg>
           <div className="flex flex-col leading-tight">
             <strong className="font-serif font-semibold text-ink tracking-wide">狮城入学</strong>
-            <span className="text-[10px] text-muted tracking-wider">SG SCHOOL ENTRY</span>
           </div>
         </Link>
         <nav className="hidden md:flex items-center gap-5 text-sm">
