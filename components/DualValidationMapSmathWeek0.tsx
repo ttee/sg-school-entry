@@ -26,7 +26,7 @@ export default function DualValidationMapSmathWeek0() {
           <tbody>
             <tr className="border-b border-accent/10">
               <td className="px-3 py-3 text-ink align-top">
-                <strong>阅读理解</strong><br />5 道选择题（百分数应用情境）
+                <strong>应用题</strong><br />5 道百分数应用情境选择题
               </td>
               <td className="px-3 py-3 text-ink-2 align-top">
                 <strong>Part 1 Multiple-choice questions</strong><br />34 道 MCQ，30 分钟（官方 SEAB）
@@ -37,7 +37,7 @@ export default function DualValidationMapSmathWeek0() {
             </tr>
             <tr className="border-b border-accent/10">
               <td className="px-3 py-3 text-ink align-top">
-                <strong>语法/计算</strong><br />8 道选择题（百分数计算）
+                <strong>选择题</strong><br />8 道百分数计算
               </td>
               <td className="px-3 py-3 text-ink-2 align-top">
                 <strong>Part 1 Multiple-choice questions</strong><br />34 道 MCQ（同一部分）
@@ -48,7 +48,7 @@ export default function DualValidationMapSmathWeek0() {
             </tr>
             <tr>
               <td className="px-3 py-3 text-ink align-top">
-                <strong>写作 / Show Your Working</strong><br />3 道应用题（要求写出算式步骤）
+                <strong>写出算式</strong><br />3 道应用题（写出步骤）
               </td>
               <td className="px-3 py-3 text-ink-2 align-top">
                 <strong>Part 2 Short-answer and open-ended questions</strong><br />Short-answer 20 题 + Open-ended 10–15 题，1 小时 45 分钟（官方 SEAB）
