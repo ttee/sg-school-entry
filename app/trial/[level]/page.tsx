@@ -302,6 +302,8 @@ export default async function TrialLevelPage({
   // B1 W0: Override title; strip guest-facing AI / 开始录音 from speaking
   if (level === "B1" && week.weekNumber === 0) {
     week.title = "试学周";
+    week.description = "转入以英语授课的学校";
+    week.errorFocus = "现在完成时";
     week.questions.forEach((question) => {
       if (question.type === "writing") {
         question.content = question.content.replace(
