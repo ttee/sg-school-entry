@@ -286,7 +286,7 @@ export default function BoardWeike({ level, weekNumber, planTitle, planFirstLine
         "Increase = 10% of S$80 = S$80 ÷ 10 = S$8",
         "New price = S$80 + S$8 = S$88"
       ],
-      gloss: "AEIS 中学数学试学周 / SMATH Sample Week. 本周例题：百分数增加/减少的算法（P6 Percentage 1.1–1.2）。新加坡钱币用 S$ 符号。10% increase: 先算 10% of 原价，再加到原价。20% decrease: 先算 20% of 原价，再从原价减去。如果已知部分和百分比，求整体：15 is 25% of ? → 15 ÷ 0.25 = 60 或 15 ÷ 25 × 100 = 60。不用计算器，写出算式步骤。"
+      gloss: "百分数增加：先算 10%，再加到原价。新加坡钱用 S$，写出算式。"
     },
     "SMATH-1": {
       examples: [
@@ -1269,17 +1269,17 @@ export default function BoardWeike({ level, weekNumber, planTitle, planFirstLine
 
   return (
     <div className="mb-8 bg-gradient-to-br from-accent/5 via-card to-accent/10 border border-accent/20 rounded-xl overflow-hidden shadow-sm">
-      <div className="relative" style={{ aspectRatio: "16/9", width: "100%" }}>
+      <div className="relative w-full md:aspect-video">
         {key !== "A2-0" && (
         <img 
           src={teacherImage}
           alt={teacherName}
-          className="absolute inset-0 w-full h-full object-cover"
+          className="w-full h-auto object-cover md:absolute md:inset-0 md:h-full"
         />
         )}
         
-        <div className="absolute inset-0 flex items-center justify-end pointer-events-none" style={{ paddingRight: "5%" }}>
-          <div className="bg-white/95 rounded-lg p-4 shadow-lg" style={{ width: "45%", maxWidth: "500px" }}>
+        <div className="md:absolute md:inset-0 flex md:items-center md:justify-end pointer-events-none p-3 md:p-0 md:pr-[5%]">
+          <div className="bg-white/95 rounded-lg p-4 shadow-lg w-full md:w-[45%] md:max-w-[500px] max-h-full overflow-auto">
             <h3 className="font-serif font-semibold text-base text-ink mb-2 text-center border-b border-line pb-2">
               本周例题
             </h3>

@@ -121,6 +121,10 @@ export default async function TrialWeekPage({
   if (weekNum === 0 && (level === "A2" || level === "B1")) {
     redirect(`/trial/${level}`);
   }
+  // SMATH week 1 is not a public trial week (HOLD no new week). Don't leave a dead-end.
+  if (level === "SMATH" && (weekNum === 0 || weekNum === 1)) {
+    redirect("/trial/SMATH");
+  }
 
   // ONLY allow A2 Week 1 for public trial. Everything else is locked.
   if (level !== "A2" || weekNum !== 1) {

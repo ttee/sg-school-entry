@@ -2,6 +2,29 @@ import { getSession } from "@/lib/session";
 import { prisma } from "@/lib/db";
 import Link from "next/link";
 
+function rolledDueDate(
+  dueDate: Date | null,
+  level: string,
+  weeks: { level: string; weekNumber: number; dueDate: Date | null }[]
+): Date | null {
+  if (!dueDate) return null;
+  const cohort = weeks.filter((w) => w.level === level && w.dueDate && w.weekNumber >= 1);
+  if (cohort.length === 0) return dueDate;
+  const earliest = cohort.reduce((a, b) =>
+    new Date(a.dueDate!).getTime() < new Date(b.dueDate!).getTime() ? a : b
+  );
+  const start = new Date(earliest.dueDate!);
+  start.setHours(0, 0, 0, 0);
+  const today = new Date();
+  today.setHours(0, 0, 0, 0);
+  if (start >= today) return dueDate;
+  const day = today.getDay();
+  const add = (4 - day + 7) % 7 || 7;
+  const nextThu = new Date(today);
+  nextThu.setDate(today.getDate() + add);
+  return new Date(dueDate.getTime() + (nextThu.getTime() - start.getTime()));
+}
+
 export default async function LearnDashboard() {
   const session = await getSession();
 
@@ -222,7 +245,7 @@ export default async function LearnDashboard() {
                       )}
                       {week.dueDate && !isCompleted && !isLocked && (
                         <p className="text-xs text-muted">
-                          截止：{new Date(week.dueDate).toLocaleDateString("zh-CN")}
+                          截止：{rolledDueDate(week.dueDate, week.level, weeks)!.toLocaleDateString("zh-CN")}
                         </p>
                       )}
                       {isCompleted && submission.score !== null && (
