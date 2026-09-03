@@ -51,7 +51,7 @@ export default function DualValidationMap() {
                 <strong>写作</strong><br />邮件 50–70 词
               </td>
               <td className="px-3 py-3 text-ink-2 align-top">
-                <strong>Part 6 guided email</strong><br />官方最低 25 词
+                <strong>Part 6 指导邮件</strong><br />官方最低 25 词
               </td>
               <td className="px-3 py-3 text-ink-2 align-top">
                 写一封邮件，我们练 50–70 词作为拉伸，熟悉考试邮件格式
